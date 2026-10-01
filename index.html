@@ -20,34 +20,34 @@
 </header>
 <main>
   <section class="intro" aria-labelledby="page-title">
-    <div><p class="eyebrow">2027 FALL / RESEARCH-FIRST</p><h1 id="page-title">从可申请的路径，找到研究方向</h1><p id="page-description">机器人与具身智能首批收录 · 项目资格、导师意向分别核实</p></div>
-    <div class="edition"><span id="checked-date">核验于 2026-10-01</span><a href="#sources">每日更新尚未启用</a></div>
+    <div><p class="eyebrow">2027 FALL / RESEARCH-FIRST</p><h1 id="page-title">从可申请的路径，找到研究方向</h1><p id="page-description">机器人与具身智能 · 导师、申请路径与研究机会</p></div>
+    <div class="edition"><span id="checked-date">核验于 2026-10-01</span><a href="#sources">每日检查已启用 · 首轮待验证</a></div>
   </section>
-  <section class="search-surface" aria-label="搜索与资格范围">
+  <section class="search-surface" aria-label="搜索机会">
     <label class="search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><span class="sr-only">搜索导师、学校、研究主题或项目</span><input id="search" type="search" placeholder="搜索导师、研究主题或项目…" autocomplete="off"><kbd aria-hidden="true">/</kbd></label>
-    <label class="preset"><input id="eligible-only" type="checkbox" checked><span><strong>本科起点路径</strong><span>无需强制推免 · 无须已有硕士</span></span></label>
+    
   </section>
   <div class="workspace">
     <aside class="filters" aria-label="筛选条件">
       <div class="filter-heading"><h2>筛选</h2><button id="reset-filters" class="text-button">重置</button></div>
       <label>学校<select id="institution-filter"><option value="">全部学校</option></select></label>
       <label>研究主题<select id="topic-filter"><option value="">全部主题</option></select></label>
-      <label>学位路径<select id="degree-filter"><option value="">全部学位</option><option value="MPhil">MPhil</option><option value="PhD">PhD / 本科直博</option><option value="MSc">MSc</option><option value="MRes">MRes</option></select></label>
-      <label id="opening-filter-label">导师招生信号<select id="opening-filter"><option value="">全部状态</option><option value="explicit">有公开招募声明</option><option value="unknown">名额 / 年份待确认</option><option value="closed">明确已关闭</option></select></label>
-      <details class="filter-help"><summary>“路径已核实”表示什么？</summary><p>官方项目允许本科申请，普通申请不要求推免或已有硕士。成绩、英语、毕业时间、导师同意与名额仍需逐项满足。</p><p>招生声明可面向不同学位与年份，请在详情里核对。</p></details>
+      <label>机会类型<select id="opportunity-filter"><option value="">全部机会</option><option value="RA">RA · 研究助理</option><option value="MSc">MSc</option><option value="MPhil">MPhil</option><option value="PhD">PhD</option></select></label>
+      <label id="opening-filter-label">招募状态<select id="opening-filter"><option value="">全部状态</option><option value="explicit">有公开招募声明</option><option value="unknown">名额 / 年份待确认</option><option value="closed">明确已关闭</option></select></label>
+      
       <a href="#sources" class="small-link">查看核验方法与来源</a>
     </aside>
     <section id="results" class="results" tabindex="-1" aria-labelledby="results-title">
-      <div class="results-heading"><div><h2 id="results-title">导师库</h2><p id="result-count" role="status" aria-live="polite">正在载入已核实数据…</p></div><span id="results-note" class="quiet">按学校与姓名排列，不作录取概率排名</span></div>
+      <div class="results-heading"><div><h2 id="results-title">导师库</h2><p id="result-count" role="status" aria-live="polite">正在载入已核实数据…</p></div><span id="results-note" class="quiet">按学校、导师与机会类型排列</span></div>
       <div id="view-content"><div class="loading"><span></span>正在载入数据</div></div>
     </section>
   </div>
-  <p class="coverage-note">当前覆盖香港及部分内地高校的机器人与具身智能方向。记录不是学校完整名录，也不代表任何个人已满足全部申请条件</p>
+  <p class="coverage-note">当前覆盖香港及部分内地高校的机器人与具身智能方向</p>
 </main>
 <footer><span>GradCompass <span class="footer-divider">/</span> 让申请信息有据可查</span><a href="#sources">来源与更新状态</a><span>不收集个人材料 · 无追踪分析</span></footer>
-<div id="compare-tray" class="compare-tray" hidden><div><strong id="compare-count">已选 0 位</strong><span id="compare-names"></span></div><button id="compare-clear" class="text-button">清空</button><button id="compare-open" class="primary-button" disabled>比较已选导师</button></div>
+<div id="compare-tray" class="compare-tray" hidden><div><strong id="compare-count">已选 0 项</strong><span id="compare-names"></span></div><button id="compare-clear" class="text-button">清空</button><button id="compare-open" class="primary-button" disabled>比较已选机会</button></div>
 <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-top"><span class="eyebrow">ADVISOR / EVIDENCE</span><button class="close-button" data-close="detail-dialog" aria-label="关闭导师详情">关闭 <span aria-hidden="true">×</span></button></div><div id="detail-content"></div></dialog>
-<dialog id="compare-dialog" class="compare-dialog" aria-labelledby="compare-title"><div class="dialog-top"><h2 id="compare-title">导师与申请路径比较</h2><button class="close-button" data-close="compare-dialog" aria-label="关闭比较">关闭 <span aria-hidden="true">×</span></button></div><div id="compare-content"></div></dialog>
+<dialog id="compare-dialog" class="compare-dialog" aria-labelledby="compare-title"><div class="dialog-top"><h2 id="compare-title">研究机会比较</h2><button class="close-button" data-close="compare-dialog" aria-label="关闭比较">关闭 <span aria-hidden="true">×</span></button></div><div id="compare-content"></div></dialog>
 <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
 <noscript><p class="noscript">交互筛选需要 JavaScript。仍可直接阅读 <a href="./data/catalog.json">公开数据文件</a></p></noscript>
 </body>

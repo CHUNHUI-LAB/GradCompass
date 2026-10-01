@@ -1,0 +1,168 @@
+{
+  "checkedDate": "2026-10-01",
+  "scope": "仅含经官方职位全文核实的两条在招 RA 岗位；独立于学位项目资格",
+  "raPositions": [
+    {
+      "id": "polyu-pai-zheng-ra-260907004",
+      "advisorId": "polyu_pai_zheng",
+      "institution": "PolyU",
+      "department": "Industrial and Systems Engineering",
+      "opportunityType": "RA",
+      "title": "RA：记忆增强 AI agent 协同与制造监测",
+      "officialRole": "Research Assistant",
+      "jobReference": "260907004",
+      "status": "verified",
+      "employmentEligibility": {
+        "bachelorEligible": true,
+        "noMasterRequired": true,
+        "explicitJobRequirement": true,
+        "requirementText": "an honours degree or an equivalent qualification",
+        "interpretation": "岗位明列 honours 学位/同等资格；不要求先取得硕士。具体本科学位能否被认定等值仍由雇主审核。",
+        "sources": [
+          {
+            "label": "PolyU HR Ref. 260907004",
+            "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260907004",
+            "checkedDate": "2026-10-01",
+            "evidenceScope": "official_job_page_read_via_web_and_exa"
+          }
+        ]
+      },
+      "currentRecruitment": {
+        "status": "open",
+        "checkedDate": "2026-10-01",
+        "deadline": "2027-02-21",
+        "deadlineTime": null,
+        "evidence": "官方岗位全文仍可读，带申请入口且明确截止日在核验日之后",
+        "sources": [
+          {
+            "label": "PolyU HR Ref. 260907004",
+            "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260907004",
+            "checkedDate": "2026-10-01",
+            "evidenceScope": "official_job_page_read_via_web_and_exa"
+          }
+        ],
+        "remainingHeadcountVerified": false,
+        "submissionPortalTested": false
+      },
+      "duties": "协助研究负责人研究用于以人为中心制造过程监测与优化的记忆增强 AI agent 协同系统",
+      "duration": "12 months",
+      "durationMonths": 12,
+      "workTime": [
+        "full-time",
+        "part-time"
+      ],
+      "noticeDate": "2026-09-07",
+      "noticeDateRaw": "2026-09-07",
+      "checkedDate": "2026-10-01",
+      "advisorAssociation": {
+        "status": "explicit_named_job_contact",
+        "detail": "岗位正文明确联系人为 Pai Zheng，系该公开职位的具名负责人/联络人；不承诺其个人将担任日常指导",
+        "sources": [
+          {
+            "label": "PolyU HR Ref. 260907004",
+            "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260907004",
+            "checkedDate": "2026-10-01",
+            "evidenceScope": "official_job_page_read_via_web_and_exa"
+          }
+        ]
+      },
+      "applicationUrl": "https://jobs.polyu.edu.hk/job_detail.php?job=260907004",
+      "defaultVisible": true,
+      "eligibilityMeaning": "已核实本科起点岗位门槛，不等于评估任何个人满足荣誉/等值学历、技能、到岗时间或工作许可条件",
+      "caveats": [
+        "同一广告同时招聘 Postdoc、Research Associate 和 Research Assistant；硕士或额外经验条款属于 Research Associate，不错误套用到本条 Research Assistant",
+        "这是受雇科研岗位，不授予 MPhil/PhD 入学资格，也不要求推免；后续学位申请独立审核",
+        "当前可申请状态按公开广告及核验日期，不保证岗位尚有剩余额度"
+      ],
+      "sources": [
+        {
+          "label": "PolyU HR Ref. 260907004",
+          "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260907004",
+          "checkedDate": "2026-10-01",
+          "evidenceScope": "official_job_page_read_via_web_and_exa"
+        }
+      ]
+    },
+    {
+      "id": "polyu-pai-zheng-ra-260724022",
+      "advisorId": "polyu_pai_zheng",
+      "institution": "PolyU",
+      "department": "Industrial and Systems Engineering",
+      "opportunityType": "RA",
+      "title": "RA：双向认知的人机协作制造系统",
+      "officialRole": "Research Assistant",
+      "jobReference": "260724022",
+      "status": "verified",
+      "employmentEligibility": {
+        "bachelorEligible": true,
+        "noMasterRequired": true,
+        "explicitJobRequirement": true,
+        "requirementText": "an honours degree or an equivalent qualification",
+        "interpretation": "岗位明列 honours 学位/同等资格；不要求先取得硕士。具体本科学位能否被认定等值仍由雇主审核。",
+        "sources": [
+          {
+            "label": "PolyU HR Ref. 260724022",
+            "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260724022",
+            "checkedDate": "2026-10-01",
+            "evidenceScope": "official_job_page_read_via_web_and_exa"
+          }
+        ]
+      },
+      "currentRecruitment": {
+        "status": "open",
+        "checkedDate": "2026-10-01",
+        "deadline": "2027-01-07",
+        "deadlineTime": null,
+        "evidence": "官方岗位全文仍可读，带申请入口且明确截止日在核验日之后",
+        "sources": [
+          {
+            "label": "PolyU HR Ref. 260724022",
+            "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260724022",
+            "checkedDate": "2026-10-01",
+            "evidenceScope": "official_job_page_read_via_web_and_exa"
+          }
+        ],
+        "remainingHeadcountVerified": false,
+        "submissionPortalTested": false
+      },
+      "duties": "协助研究负责人研究互相感知/认知的人机协作制造系统",
+      "duration": "12 months",
+      "durationMonths": 12,
+      "workTime": [
+        "full-time",
+        "part-time"
+      ],
+      "noticeDate": "2026-07-24",
+      "noticeDateRaw": "2026-07-24",
+      "checkedDate": "2026-10-01",
+      "advisorAssociation": {
+        "status": "explicit_named_job_contact",
+        "detail": "岗位正文明确联系人为 Pai Zheng，系该公开职位的具名负责人/联络人；不承诺其个人将担任日常指导",
+        "sources": [
+          {
+            "label": "PolyU HR Ref. 260724022",
+            "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260724022",
+            "checkedDate": "2026-10-01",
+            "evidenceScope": "official_job_page_read_via_web_and_exa"
+          }
+        ]
+      },
+      "applicationUrl": "https://jobs.polyu.edu.hk/job_detail.php?job=260724022",
+      "defaultVisible": true,
+      "eligibilityMeaning": "已核实本科起点岗位门槛，不等于评估任何个人满足荣誉/等值学历、技能、到岗时间或工作许可条件",
+      "caveats": [
+        "同一广告同时招聘 Postdoc、Research Associate 和 Research Assistant；硕士或额外经验条款属于 Research Associate，不错误套用到本条 Research Assistant",
+        "这是受雇科研岗位，不授予 MPhil/PhD 入学资格，也不要求推免；后续学位申请独立审核",
+        "当前可申请状态按公开广告及核验日期，不保证岗位尚有剩余额度"
+      ],
+      "sources": [
+        {
+          "label": "PolyU HR Ref. 260724022",
+          "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260724022",
+          "checkedDate": "2026-10-01",
+          "evidenceScope": "official_job_page_read_via_web_and_exa"
+        }
+      ]
+    }
+  ]
+}

@@ -1,9 +1,12 @@
 {
   "project": "GradCompass",
+  "revision": "r2",
+  "baseDeployedCommit": "bd47d9f077beb1a1c45b51437df3ccee42b7e7ad",
   "snapshotDate": "2026-10-01",
   "status": "local candidate; publication not performed by this build",
-  "dailyUpdatesEnabled": false,
-  "browserVisualQA": "blocked; see QA.md",
+  "dailyChecksEnabled": true,
+  "firstRunVerified": false,
+  "browserVisualQA": "r1 checked; r2 pending; see QA.md",
   "allowedFiles": [
     {
       "path": ".nojekyll",
@@ -12,23 +15,23 @@
     },
     {
       "path": "QA.md",
-      "bytes": 2192,
-      "sha256": "dc100f1064929bdb8b7d71f88d855f43be3fa42e04e1cd5d200b9a3bde39f5d6"
+      "bytes": 2450,
+      "sha256": "833fc2bfa41037cfc8df6fbdfdf94fe1c04caf02acf1cdf9ffaa74ea13b0a834"
     },
     {
       "path": "README.md",
-      "bytes": 3453,
-      "sha256": "864935e4aec7c91bc89df63d1247b82aed9410752c98eaff78851ec61f7f7d5e"
+      "bytes": 2933,
+      "sha256": "e05dca92c9b74a8462bd53c65c613c22301fe11a91a46867c4fd3710d7a368c4"
     },
     {
       "path": "assets/app.js",
-      "bytes": 21536,
-      "sha256": "4d4f8b677a30050ceb1f167dc90cb08fd43502071eb63e173e242109ca57af63"
+      "bytes": 25422,
+      "sha256": "898e806fb30da24e02da70801fafe3657c6680fbc251e9e2a87d99f19a548d4a"
     },
     {
       "path": "assets/core.js",
-      "bytes": 6605,
-      "sha256": "75731bc0b4835eb7ff7049da7f8ef04f5875fbe3f85fa01067a15c711bc58f9c"
+      "bytes": 24607,
+      "sha256": "521ba5a4d0f3d3a938f1a236d32b980219fba6be1eaee2d4006792a64af8ccef"
     },
     {
       "path": "assets/favicon.svg",
@@ -37,8 +40,8 @@
     },
     {
       "path": "assets/style.css",
-      "bytes": 18168,
-      "sha256": "2f06156e55bc1666629e7915b918227c4d67088e3b3222a441d8cdc29fcce010"
+      "bytes": 18701,
+      "sha256": "ed192574e214f44113a0a1574f8e0a35da2af4ed7246f63ce2ddd114ddf0d199"
     },
     {
       "path": "data/catalog-test-manifest.json",
@@ -51,34 +54,49 @@
       "sha256": "094e513c0a2120bb2bee44efda475e2800537bcba797468add44bf5a479bd605"
     },
     {
+      "path": "data/ra-positions.json",
+      "bytes": 7329,
+      "sha256": "b5354ece6ee48d205665af699e008e74d51c41ca23000c7fc653eccfc906816e"
+    },
+    {
+      "path": "data/update-status.json",
+      "bytes": 347,
+      "sha256": "b96e217f713537808ee7874c3638ed0e2add57d514b2a23232085dd73d35cad5"
+    },
+    {
       "path": "index.html",
-      "bytes": 6000,
-      "sha256": "21cc5a79737dc3a826faaa5e82e2e8fe1b9dea5429c7b0402191c7bf907f4f9c"
+      "bytes": 5369,
+      "sha256": "b47f22e41d7c28d1e20669093ec802aee5f121138c64f38318c69e5a28a60bff"
     },
     {
       "path": "package.json",
-      "bytes": 307,
-      "sha256": "95ce0aca20dbe7b4ec0869d3f62beb6dfa5cbcfce5e8049d4ab7bb2cf48f2e49"
+      "bytes": 323,
+      "sha256": "366ebedf1c6e0c53ae713c0eb17ee755ae64ddf63a8d8650ff8abdc3a1f30ce6"
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 1329,
-      "sha256": "d3469b76d5f80e0fefe9c75554d7cb62bba6ef40743129e3752555366c1ebdb3"
+      "bytes": 1373,
+      "sha256": "e72b293f81437e11de3c9aa3722bd2b4ffd15f8e582ac2889d23ad7c37e5868d"
     },
     {
       "path": "tests/browser-smoke.mjs",
-      "bytes": 5269,
-      "sha256": "50e191f6bcbaff4c145cff15dc1d424aa26fe9debc5f4006f336e153bd875b56"
+      "bytes": 5748,
+      "sha256": "e1ad908c4258d918eb07d6b32a6b477eabd2d24be6896c6e4fd37216abdbd2a4"
     },
     {
       "path": "tests/core.test.mjs",
-      "bytes": 5281,
-      "sha256": "23f58fb0be70eb6da65478704844ee771cf0689b07debd9b6be73a58277a85b2"
+      "bytes": 5266,
+      "sha256": "a03f7eafa10470cacccbaec18dc7dcf628df800c306f5eb5b8cc2273b063dc82"
+    },
+    {
+      "path": "tests/opportunities.test.mjs",
+      "bytes": 4433,
+      "sha256": "714624ae7ce4c1d1a02f3dc935e9430c37022c34d2c19c88dc7ab1bcab5a59b2"
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 5784,
-      "sha256": "76df81f972c429d1586ea7c71a65b35e5e31b6c7b7de0484589d1e02e1531049"
+      "bytes": 9914,
+      "sha256": "44da0cd485e2199ea0f211b16907c7f29b4d8cad400db3d164f4791fe8b46de9"
     }
   ]
 }
