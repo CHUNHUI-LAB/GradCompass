@@ -18,13 +18,21 @@
 
 /* Historical application experience stays separate from opportunity discovery. */
 .experience-intro{margin-bottom:1.5rem;max-width:78ch;line-height:1.8}
-.experience-tabs{display:flex;flex-wrap:wrap;gap:.65rem;margin:1rem 0}
-.experience-tabs button{font:inherit;padding:.65rem 1rem;border:1px solid var(--line,#dbe1da);border-radius:999px;background:transparent;color:inherit;cursor:pointer}
-.experience-tabs button[aria-pressed="true"]{background:#183c32;color:#fff;border-color:#183c32}
 .experience-grid{display:grid;gap:1.25rem;max-width:980px}
 .experience-card{padding:clamp(1.1rem,3vw,2rem);border:1px solid var(--line,#dbe1da);border-radius:18px;background:var(--surface,#fff);line-height:1.8;overflow-wrap:anywhere}
 .experience-card h3{font-size:1.3rem;line-height:1.5;margin:.8rem 0}.experience-card h4{margin:1.2rem 0 .4rem}
 .experience-background{font-weight:650}.experience-card ul{padding-left:1.4rem}.experience-card li{margin:.4rem 0}
 .experience-card details{border-top:1px solid var(--line,#dbe1da);padding-top:1rem;margin:1.3rem 0}
 .experience-card summary{cursor:pointer;font-weight:650}.experience-evidence dt{font-weight:650;margin-top:.8rem}.experience-evidence dd{margin:.2rem 0;color:var(--muted,#526359)}
-.experience-tabs button:focus-visible,.experience-card summary:focus-visible{outline:3px solid #547d69;outline-offset:4px}
+.experience-card summary:focus-visible{outline:3px solid #547d69;outline-offset:4px}
+
+/* Clear task-based navigation; existing hash routes remain stable. */
+.site-header nav a{flex-direction:column;justify-content:center;align-items:flex-start;gap:4px}
+.nav-purpose{font-size:11px;font-weight:400;color:var(--quiet);white-space:nowrap}
+.view-description{max-width:78ch;line-height:1.7;color:var(--quiet);font-size:14px;margin:0 0 22px}
+@media(max-width:760px){.site-header nav{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;overflow:visible;font-size:13px}.site-header nav a{align-items:center;min-width:0}.nav-purpose{display:none}.view-description{font-size:13px;margin-bottom:18px}}
+
+.card-title-button{font:inherit;letter-spacing:inherit;line-height:inherit;font-weight:inherit;text-align:left;background:none;border:0;padding:0;color:inherit;cursor:pointer;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:4px}
+.card-title-button:hover{text-decoration-color:currentColor}.card-title-button:focus-visible{outline:3px solid #547d69;outline-offset:4px}.source-attribution{overflow-wrap:anywhere;margin:1rem 0}.deadline-row .detail-button{margin-top:.7rem}
+
+.experience-overview{max-width:980px;border:1px solid var(--line);border-radius:16px;padding:clamp(1.1rem,3vw,2rem);margin:0 0 1.5rem;line-height:1.8;background:var(--surface,#fff)}.experience-overview ol{padding-left:1.5rem}.experience-overview li{margin:.8rem 0}.experience-summary{line-height:1.8}.experience-summary h3{margin-top:1.4rem}.experience-summary ul{padding-left:1.4rem}.experience-summary details{margin-top:1.4rem}.experience-card{scroll-margin-top:1rem}

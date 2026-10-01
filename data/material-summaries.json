@@ -1,0 +1,1183 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-01",
+  "scope": "现有学位项目的官方材料摘要；与项目资格、导师名额和个人适用条件分别核对",
+  "sources": [
+    {
+      "id": "ust_cse",
+      "label": "港科大 CSE 2027/28 项目目录",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse",
+      "checkedDate": "2026-10-01",
+      "section": "Admission Requirements; Application Deadlines"
+    },
+    {
+      "id": "ust_ece",
+      "label": "港科大 ECE 2027/28 项目目录",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ece",
+      "checkedDate": "2026-10-01",
+      "section": "Admission Requirements; Application Deadlines"
+    },
+    {
+      "id": "ust_cse_dept",
+      "label": "港科大 CSE 2027提前招生",
+      "url": "https://cse.hkust.edu.hk/pg/admissions/recruiting/",
+      "checkedDate": "2026-10-01",
+      "section": "Fall 2027; admission requirements; FAQ Q2"
+    },
+    {
+      "id": "ust_ece_dept",
+      "label": "港科大 ECE 院系资格",
+      "url": "https://ece.hkust.edu.hk/admissions/postgraduate",
+      "checkedDate": "2026-10-01",
+      "section": "Admission Requirements"
+    },
+    {
+      "id": "ust_docs",
+      "label": "港科大本部：申请文件",
+      "url": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required",
+      "checkedDate": "2026-10-01",
+      "section": "1. Application Materials; 2. Academic References"
+    },
+    {
+      "id": "hku_elig",
+      "label": "港大：MPhil条例",
+      "url": "https://gradsch.hku.hk/prospective_students/programmes/regulations_for_the_degree_of_master_of_philosophy_mphil",
+      "checkedDate": "2026-10-01",
+      "section": "MPH2; applicable September 2007 and subsequent intakes"
+    },
+    {
+      "id": "hku_lang",
+      "label": "港大：入学及英语要求",
+      "url": "https://gradsch.hku.hk/prospective_students/application/admission_requirement",
+      "checkedDate": "2026-10-01",
+      "section": "English Language Proficiency Test"
+    },
+    {
+      "id": "hku_docs",
+      "label": "港大：申请文件",
+      "url": "https://gradsch.hku.hk/prospective_students/application/supporting_documents",
+      "checkedDate": "2026-10-01",
+      "section": "(a)–(h); Important Notes"
+    },
+    {
+      "id": "hku_rp",
+      "label": "港大：各学院研究计划要求",
+      "url": "https://gradsch.hku.hk/prospective_students/application/supporting_docum/requirements_of_the_faculty_and_programme",
+      "checkedDate": "2026-10-01",
+      "section": "Faculty of Engineering"
+    },
+    {
+      "id": "hku_dates",
+      "label": "港大：2027/28申请轮次",
+      "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+      "checkedDate": "2026-10-01",
+      "section": "For 2027/28 Admission"
+    },
+    {
+      "id": "cuhk_elig",
+      "label": "港中文本部：入学及英语要求",
+      "url": "https://www.gs.cuhk.edu.hk/admissions/requirements",
+      "checkedDate": "2026-10-01",
+      "section": "MPhil-PhD stream; MPhil; Taught Masters; English"
+    },
+    {
+      "id": "cuhk_mae",
+      "label": "港中文 MAE 研究型项目",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-mechanical-and-automation-engineering",
+      "checkedDate": "2026-10-01",
+      "section": "Admission Requirements; 2027/28 tuition; Application Deadline"
+    },
+    {
+      "id": "cuhk_docs",
+      "label": "港中文本部：申请文件",
+      "url": "https://www.gs.cuhk.edu.hk/admissions/documents-required",
+      "checkedDate": "2026-10-01",
+      "section": "Academic certificates; transcripts; recommendations; programme-specific materials"
+    },
+    {
+      "id": "cuhk_msc",
+      "label": "港中文 MSc Robotics",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-robotics",
+      "checkedDate": "2026-10-01",
+      "section": "Admission Requirements; Application Deadline（内容为空）"
+    },
+    {
+      "id": "polyu_elig",
+      "label": "理大：研究型入学要求",
+      "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/2023/admission-requirements-rpg",
+      "checkedDate": "2026-10-01",
+      "section": "General Entrance Requirements; English Language Requirements（URL/面包屑保留2023）"
+    },
+    {
+      "id": "polyu_docs",
+      "label": "理大：研究型分院系材料",
+      "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/supporting-documents-application-rpg",
+      "checkedDate": "2026-10-01",
+      "section": "Department of Industrial and Systems Engineering; Department of Aeronautical and Aviation Engineering"
+    },
+    {
+      "id": "polyu_dates",
+      "label": "理大：2027/28研究型申请轮次",
+      "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+      "checkedDate": "2026-10-01",
+      "section": "2027/28 Admission; lead time"
+    },
+    {
+      "id": "polyu_msc",
+      "label": "理大 IRE MSc：2027项目页",
+      "url": "https://www.polyu.edu.hk/study/pg/tpg/2027/43101-ir-irt",
+      "checkedDate": "2026-10-01",
+      "section": "Sept 2027 Entry; Entrance Requirements; Additional Documents Required"
+    },
+    {
+      "id": "polyu_tpg_lang",
+      "label": "理大：授课型英语要求",
+      "url": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/admission-requirements-tpg",
+      "checkedDate": "2026-10-01",
+      "section": "English Language Requirement"
+    },
+    {
+      "id": "city_elig",
+      "label": "城大：研究型入学要求",
+      "url": "https://www.cb.cityu.edu.hk/pg/research-degree-programmes/entrance-requirements",
+      "checkedDate": "2026-10-01",
+      "section": "Minimum Entrance Requirements; English Proficiency Requirements"
+    },
+    {
+      "id": "city_docs",
+      "label": "城大：研究型申请文件说明",
+      "url": "https://www.cb.cityu.edu.hk/pg/research-degree-programmes/apply-now",
+      "checkedDate": "2026-10-01",
+      "section": "Supporting documents, numbered 1–6"
+    },
+    {
+      "id": "city_dates",
+      "label": "城大：2027/28研究型流程及日期",
+      "url": "https://www.cb.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
+      "checkedDate": "2026-10-01",
+      "section": "Important Date; Complete Online Application"
+    },
+    {
+      "id": "city_ds",
+      "label": "城大 DS PhD：分渠道材料",
+      "url": "https://www.ds.cityu.edu.hk/en/programmes/postgraduate-programmes/phd-programme-data-science",
+      "checkedDate": "2026-10-01",
+      "section": "Admission Requirements; Supporting Documents; HKPFS 2027/28"
+    },
+    {
+      "id": "hkbu_elig",
+      "label": "浸大：研究型资格及英语",
+      "url": "https://gs.hkbu.edu.hk/admission/research-postgraduate-programmes/application/admission-requirements",
+      "checkedDate": "2026-10-01",
+      "section": "Academic Qualification Requirements; Language Proficiency Requirements"
+    },
+    {
+      "id": "hkbu_docs",
+      "label": "浸大：研究型申请文件",
+      "url": "https://gs.hkbu.edu.hk/admission/research-postgraduate-programmes/application/documents-required",
+      "checkedDate": "2026-10-01",
+      "section": "Essential; Supplementary; Confidential Reference"
+    },
+    {
+      "id": "hkbu_dates",
+      "label": "浸大：2027/28研究型日期",
+      "url": "https://gs.hkbu.edu.hk/admission/research-postgraduate-programmes/application/admission-timeline",
+      "checkedDate": "2026-10-01",
+      "section": "Application Deadlines for Academic Year 2027/28"
+    },
+    {
+      "id": "gz_rbm",
+      "label": "港科广红鸟：2027/28官方FAQ",
+      "url": "https://cft.hkust-gz.edu.cn/rbm-program/admission/admission-faq/",
+      "checkedDate": "2026-10-01",
+      "section": "NOTE (2027/28, updated 29 May 2026); Admission Requirements; Application Procedure"
+    },
+    {
+      "id": "gz_elig",
+      "label": "港科广：学位资格及英语",
+      "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements",
+      "checkedDate": "2026-10-01",
+      "section": "General Admission Requirements; English Language Requirements"
+    },
+    {
+      "id": "gz_docs",
+      "label": "港科广：通用研究型材料",
+      "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/documents-required",
+      "checkedDate": "2026-10-01",
+      "section": "a–g; Proposed Research Plan; Academic References"
+    },
+    {
+      "id": "gz_roas",
+      "label": "港科广 ROAS PhD 项目",
+      "url": "https://sysh.hkust-gz.edu.cn/zh/academics/research-postgraduate-study/postgraduate-programs/programs/phd-in-roas/",
+      "checkedDate": "2026-10-01",
+      "section": "PhD in ROAS"
+    },
+    {
+      "id": "gz_ai",
+      "label": "港科广 AI PhD 项目",
+      "url": "https://fytgs.hkust-gz.edu.cn/programs/artificial-intelligence-3",
+      "checkedDate": "2026-10-01",
+      "section": "Program details; not a verified 2027 intake deadline"
+    },
+    {
+      "id": "gz_intr",
+      "label": "港科广 INTR PhD 项目",
+      "url": "https://fytgs.hkust-gz.edu.cn/programs/intelligent-transportation-5",
+      "checkedDate": "2026-10-01",
+      "section": "Program details; not a verified 2027 intake deadline"
+    },
+    {
+      "id": "sz_ai",
+      "label": "港中深 AI：申请条件与材料",
+      "url": "https://sai.cuhk.edu.cn/node/35",
+      "checkedDate": "2026-10-01",
+      "section": "2027春/秋申请截止；申报条件；申请流程第二步"
+    }
+  ],
+  "records": [
+    {
+      "id": "hkust-cse-ece-mphil-materials",
+      "title": "港科大本部 CSE / ECE MPhil 材料摘要",
+      "institution": "HKUST",
+      "degree": "MPhil",
+      "routeIds": [
+        "HKUST-CSE-MPhil",
+        "HKUST-ECE-MPhil"
+      ],
+      "status": "verified",
+      "checkedDate": "2026-10-01",
+      "summary": "核心准备：学历成绩、评分标准、语言证明、系统内研究计划/经历，以及2–5名推荐人。CSE与ECE的背景条件仍分别审核。",
+      "note": "核心准备：学历成绩、评分标准、语言证明、系统内研究计划/经历，以及2–5名推荐人。CSE与ECE的背景条件仍分别审核。 适用范围：2027/28项目目录＋现行本部材料规则；这是有界摘要，提交前仍须核对当期系统。",
+      "admissionYear": "2027/28项目目录＋现行本部材料规则",
+      "unknowns": [
+        "系统内研究计划字数、CSE/ECE是否追加CV或PS、导师剩余名额尚未核实。"
+      ],
+      "scopeNotes": [
+        "只关联现有已核实MPhil routeIds；不以本材料卡自动提升目录中待核PhD补充路径。"
+      ],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "认可学士或同等资格；CSE要求良好学业记录，ECE要求相关电子/计算机工程或理工科本科并达到 high honors。入学前取得学位。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "ust_cse",
+            "ust_ece",
+            "ust_cse_dept",
+            "ust_ece_dept"
+          ]
+        },
+        {
+          "kind": "language",
+          "text": "IELTS学术6.5、各项5.5；TOEFL iBT在2026-01-21前为80分，此日起为4.5分；须单次成绩，不接受居家考。英语母语或英语授课本科可按规则豁免。",
+          "requirementStatus": "conditional",
+          "sourceIds": [
+            "ust_cse",
+            "ust_ece"
+          ]
+        },
+        {
+          "kind": "transcript",
+          "text": "上传完整高等教育成绩单、学历学位证和评分说明；在读可先交最新成绩单。另备身份证明及适用的签证文件。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "ust_docs"
+          ]
+        },
+        {
+          "kind": "researchProposal",
+          "text": "研究型申请填写拟研究主题、研究计划与既往科研经历；额外指定格式长篇proposal仅对官方列明的其他项目适用，不能外推至CSE/ECE。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "ust_docs"
+          ]
+        },
+        {
+          "kind": "references",
+          "text": "提名2–5名推荐人，由推荐人在线提交报告。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "ust_docs"
+          ]
+        },
+        {
+          "kind": "cvPersonalStatement",
+          "text": "本次核读的通用清单未把独立CV或PS列为CSE/ECE统一必交；以项目及申请系统为准。",
+          "requirementStatus": "not_specified",
+          "sourceIds": [
+            "ust_docs"
+          ]
+        },
+        {
+          "kind": "deadline",
+          "text": "2027秋季：非本地申请人2027-06-01、本地申请人2027-07-15；滚动录取。CSE提前轮2026-08-15已截止，不等于常规轮关闭。",
+          "requirementStatus": "published",
+          "sourceIds": [
+            "ust_cse",
+            "ust_ece",
+            "ust_cse_dept"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "ust_cse",
+        "ust_ece",
+        "ust_cse_dept",
+        "ust_ece_dept",
+        "ust_docs"
+      ]
+    },
+    {
+      "id": "hku-mphil-materials",
+      "title": "港大 MPhil 通用材料与院系研究计划",
+      "institution": "HKU",
+      "degree": "MPhil",
+      "routeIds": [
+        "HKU-CDS-MPhil",
+        "HKU-ECE-MPhil",
+        "HKU-MECH-MPhil",
+        "HKU-DASE-MPhil"
+      ],
+      "status": "verified",
+      "checkedDate": "2026-10-01",
+      "summary": "先备完整成绩与学历、两名学术推荐人、语言证明，再按申请学院完成研究计划。工学院有模板；CDS附加格式仍须核对。",
+      "note": "先备完整成绩与学历、两名学术推荐人、语言证明，再按申请学院完成研究计划。工学院有模板；CDS附加格式仍须核对。 适用范围：2027/28轮次＋现行MPhil及材料规则；这是有界摘要，提交前仍须核对当期系统。",
+      "admissionYear": "2027/28轮次＋现行MPhil及材料规则",
+      "unknowns": [
+        "CDS及各系的附加文书、研究计划具体页数和导师名额；不可将工学院模板自动认作CDS要求。"
+      ],
+      "scopeNotes": [],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "港大荣誉学士或获认可的同等资格；学院附加条件、面试或资格考试仍适用。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "hku_elig"
+          ]
+        },
+        {
+          "kind": "language",
+          "text": "本目录相关非文学院路径：IELTS学术6.5、各项6；TOEFL iBT为85（2026-01-21前）或4.5（此日起）。通常有效期2年；不接受TOEFL居家考及IELTS单科重考。",
+          "requirementStatus": "conditional",
+          "sourceIds": [
+            "hku_lang"
+          ]
+        },
+        {
+          "kind": "transcript",
+          "text": "上传学历学位、官方成绩单和评分说明；在读用最新成绩单。非英文文件附正式英译；内地已获学位需学信网学位验证。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "hku_docs"
+          ]
+        },
+        {
+          "kind": "references",
+          "text": "两名了解申请人学术与研究能力的学术推荐人；提交后系统邀请，通常须14日内完成。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "hku_docs"
+          ]
+        },
+        {
+          "kind": "researchProposal",
+          "text": "按学院/项目提交研究计划或研究兴趣陈述；工学院列研究计划及下载模板。申请材料中的AI使用也须按港大要求披露。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "hku_docs",
+            "hku_rp"
+          ]
+        },
+        {
+          "kind": "cvPersonalStatement",
+          "text": "通用清单未统一规定独立CV/PS必交；可补充科研成果、奖项和经历。各院系要求另核。",
+          "requirementStatus": "not_specified",
+          "sourceIds": [
+            "hku_docs"
+          ]
+        },
+        {
+          "kind": "deadline",
+          "text": "2027/28主轮2026-12-01 23:59 HKT；两轮补录分别2027-04-30、2027-08-31 23:59 HKT，仅在仍有名额时考虑。",
+          "requirementStatus": "published",
+          "sourceIds": [
+            "hku_dates"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hku_elig",
+        "hku_lang",
+        "hku_docs",
+        "hku_rp",
+        "hku_dates"
+      ]
+    },
+    {
+      "id": "cuhk-mae-rpg-materials",
+      "title": "港中文本部 MAE 研究型材料摘要",
+      "institution": "CUHK",
+      "degree": "MPhil / PhD",
+      "routeIds": [
+        "cuhk_mae_rpg-mphil",
+        "cuhk_mae_rpg-phd"
+      ],
+      "status": "verified",
+      "checkedDate": "2026-10-01",
+      "summary": "MAE MPhil与MPhil-PhD的博士流均有本科入口；推荐报告数量不同，MPhil两份、研究型博士三份。",
+      "note": "MAE MPhil与MPhil-PhD的博士流均有本科入口；推荐报告数量不同，MPhil两份、研究型博士三份。 适用范围：2027/28项目页＋现行研究生院材料规则；这是有界摘要，提交前仍须核对当期系统。",
+      "admissionYear": "2027/28项目页＋现行研究生院材料规则",
+      "unknowns": [
+        "MAE在线系统中CV、PS、研究计划的必填性和字数尚未核实。"
+      ],
+      "scopeNotes": [
+        "MPhil-PhD博士流的本科资格不能泛化成CUHK全部独立PhD项目。"
+      ],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "相关专业本科；MPhil及MPhil-PhD博士流通常为二等荣誉，或荣誉本科平均B及以上/同等资格。兼职PhD另有硕士要求，不作为本科直入路径。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "cuhk_elig",
+            "cuhk_mae"
+          ]
+        },
+        {
+          "kind": "language",
+          "text": "IELTS学术6.5，或TOEFL 79/120、4.5/6等认可证明；可按英语授课学位路径满足。TOEFL/IELTS有效期2年。",
+          "requirementStatus": "conditional",
+          "sourceIds": [
+            "cuhk_elig"
+          ]
+        },
+        {
+          "kind": "transcript",
+          "text": "学历学位证、官方成绩单与评分标准、英语证明、身份证明；内地学历按清单提交学信网相应验证。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "cuhk_docs"
+          ]
+        },
+        {
+          "kind": "references",
+          "text": "MPhil需2份推荐报告；研究型博士需3份，不可统一写两封。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "cuhk_docs"
+          ]
+        },
+        {
+          "kind": "researchOutputs",
+          "text": "有论文者提交研究出版物清单；本次项目页未明确统一CV/PS/研究计划格式。",
+          "requirementStatus": "conditional",
+          "sourceIds": [
+            "cuhk_mae"
+          ]
+        },
+        {
+          "kind": "deadline",
+          "text": "主轮2026-12-01；补录2027-03-31，仅余位可录。HKPFS须在2026-12-01中午前交RGC初申、23:59 HKT前交学校完整申请。",
+          "requirementStatus": "published",
+          "sourceIds": [
+            "cuhk_mae"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhk_elig",
+        "cuhk_mae",
+        "cuhk_docs"
+      ]
+    },
+    {
+      "id": "cuhk-robotics-msc-materials",
+      "title": "港中文 Robotics MSc 材料摘要",
+      "institution": "CUHK",
+      "degree": "MSc",
+      "routeIds": [
+        "cuhk_robotics_msc"
+      ],
+      "status": "verified",
+      "checkedDate": "2026-10-01",
+      "summary": "授课型机器人硕士：以本科学历、成绩与英语证明为基础，通用清单要求两份推荐报告；课程页尚未显示当轮截止。",
+      "note": "授课型机器人硕士：以本科学历、成绩与英语证明为基础，通用清单要求两份推荐报告；课程页尚未显示当轮截止。 适用范围：现行项目及通用材料；2027期限本次未核得；这是有界摘要，提交前仍须核对当期系统。",
+      "admissionYear": "现行项目及通用材料；2027期限本次未核得",
+      "unknowns": [
+        "2027开放/截止日期、系内CV/PS/研究计划要求。"
+      ],
+      "scopeNotes": [],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "优先相关工程/科学本科，通常二等荣誉或平均B；其他学位但具相关背景者亦可按项目条件考虑。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "cuhk_msc"
+          ]
+        },
+        {
+          "kind": "language",
+          "text": "研究生院英语门槛包括IELTS学术6.5，或TOEFL 79/120、4.5/6；认可英语授课学位等替代证明。",
+          "requirementStatus": "conditional",
+          "sourceIds": [
+            "cuhk_elig"
+          ]
+        },
+        {
+          "kind": "transcript",
+          "text": "学历证书、官方成绩单与评分说明、身份和语言证明；内地学历验证遵研究生院当期清单。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "cuhk_docs"
+          ]
+        },
+        {
+          "kind": "references",
+          "text": "通用“其他项目”类别要求2份推荐报告。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "cuhk_docs"
+          ]
+        },
+        {
+          "kind": "cvPersonalStatementResearchProposal",
+          "text": "本次核读的项目页与通用页未明确CV、PS或研究计划的统一必交要求；不能当作免交结论。",
+          "requirementStatus": "not_specified",
+          "sourceIds": [
+            "cuhk_msc",
+            "cuhk_docs"
+          ]
+        },
+        {
+          "kind": "deadline",
+          "text": "官方项目页的Application Deadline栏为空；2027轮次未核实，不沿用2026日期。",
+          "requirementStatus": "unknown",
+          "sourceIds": [
+            "cuhk_msc"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhk_msc",
+        "cuhk_elig",
+        "cuhk_docs"
+      ]
+    },
+    {
+      "id": "polyu-aae-ise-rpg-materials",
+      "title": "理大 AAE / ISE 研究型材料摘要",
+      "institution": "PolyU",
+      "degree": "MPhil / PhD",
+      "routeIds": [
+        "polyu_aae_rpg-mphil",
+        "polyu_aae_rpg-phd",
+        "polyu_ise_rpg-mphil",
+        "polyu_ise_rpg-phd"
+      ],
+      "status": "verified",
+      "checkedDate": "2026-10-01",
+      "summary": "两个院系均明确要求CV、个人陈述、指定表格研究计划、学历成绩与两份学术推荐报告。本科PhD入口仅指四年制。",
+      "note": "两个院系均明确要求CV、个人陈述、指定表格研究计划、学历成绩与两份学术推荐报告。本科PhD入口仅指四年制。 适用范围：2027/28轮次＋现行分院系材料；资格页URL保留2023；这是有界摘要，提交前仍须核对当期系统。",
+      "admissionYear": "2027/28轮次＋现行分院系材料；资格页URL保留2023",
+      "unknowns": [
+        "AAE/ISE具体文书字数、个别导师额外条件；研究型新TOEFL六分制阈值。"
+      ],
+      "scopeNotes": [
+        "不关联Navarro组被排除PhD路线，不能用校级本科入口覆盖导师硕士前置要求。"
+      ],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "MPhil通常本科二等荣誉；四年PhD可由一等荣誉本科/同等资格申请。三年PhD通常需研究型硕士，是另一条路径。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "polyu_elig"
+          ]
+        },
+        {
+          "kind": "language",
+          "text": "研究型官方资格页列IELTS学术6.5或TOEFL iBT80，2年有效、考场单次成绩；英语授课学位按规则豁免。该页尚未给出新TOEFL六分制对应值，应另核。",
+          "requirementStatus": "conditional",
+          "sourceIds": [
+            "polyu_elig"
+          ]
+        },
+        {
+          "kind": "transcript",
+          "text": "学历学位与成绩文件必需；只提供本人实际获得/在读资格，不因表中出现Master’s而推定必须有硕士。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "polyu_docs"
+          ]
+        },
+        {
+          "kind": "cvPersonalStatementResearchProposal",
+          "text": "CV、PS、研究计划均必交；研究计划须使用学校指定表格。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "polyu_docs"
+          ]
+        },
+        {
+          "kind": "references",
+          "text": "AAE、ISE均需两份学术报告；拟申请的理大/合作院校导师及非学术人士不合适。AAE明确要求截止前收到；ISE的HKPFS也明确须在HKPFS截止前齐。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "polyu_docs"
+          ]
+        },
+        {
+          "kind": "deadline",
+          "text": "2027年9月入学一般申请期2026-09-01至2027-05-31；HKPFS RGC/学校均2026-12-01截止（12:00/23:59 HKT）。院系可另设日期。",
+          "requirementStatus": "published",
+          "sourceIds": [
+            "polyu_dates"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu_elig",
+        "polyu_docs",
+        "polyu_dates"
+      ]
+    },
+    {
+      "id": "polyu-ire-msc-materials",
+      "title": "理大智能机器人工程 MSc 材料摘要",
+      "institution": "PolyU",
+      "degree": "MSc",
+      "routeIds": [
+        "polyu_ire_msc"
+      ],
+      "status": "verified",
+      "checkedDate": "2026-10-01",
+      "summary": "2027项目页明确成绩/学历文件必需，CV可选。不要套用理大研究型项目的PS、研究计划及两封推荐信要求。",
+      "note": "2027项目页明确成绩/学历文件必需，CV可选。不要套用理大研究型项目的PS、研究计划及两封推荐信要求。 适用范围：Sept 2027 Entry，项目编号43101；这是有界摘要，提交前仍须核对当期系统。",
+      "admissionYear": "Sept 2027 Entry，项目编号43101",
+      "unknowns": [
+        "系统是否追加其他文件；不应将未列明直接翻译成“免交”。"
+      ],
+      "scopeNotes": [],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "相关工程或理科荣誉本科，或相关专业/同等资格；其他背景与经历可个案考虑。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "polyu_msc"
+          ]
+        },
+        {
+          "kind": "language",
+          "text": "授课型门槛：IELTS学术6.0，或TOEFL 80/120、新制4.5/6；2年内单次成绩。英语授课本科等豁免按规则；不接受居家/在线及单科重考列明类型。",
+          "requirementStatus": "conditional",
+          "sourceIds": [
+            "polyu_tpg_lang"
+          ]
+        },
+        {
+          "kind": "transcript",
+          "text": "成绩单/学历证书必需。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "polyu_msc"
+          ]
+        },
+        {
+          "kind": "cv",
+          "text": "CV可选；相关资质、奖项等支持文件也可选。",
+          "requirementStatus": "optional",
+          "sourceIds": [
+            "polyu_msc"
+          ]
+        },
+        {
+          "kind": "personalStatementResearchProposalReferences",
+          "text": "2027项目附加文件栏未列PS、研究计划或推荐信为必交；系统如有追加要求仍须遵守。",
+          "requirementStatus": "not_specified",
+          "sourceIds": [
+            "polyu_msc"
+          ]
+        },
+        {
+          "kind": "deadline",
+          "text": "2027年9月入学：提前轮2026-10-20，主轮2027-02-25；本地/非本地表列日期一致。",
+          "requirementStatus": "published",
+          "sourceIds": [
+            "polyu_msc"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu_msc",
+        "polyu_tpg_lang"
+      ]
+    },
+    {
+      "id": "cityu-me-rpg-materials",
+      "title": "城大机械工程研究型基础材料",
+      "institution": "CityUHK",
+      "degree": "MPhil / PhD",
+      "routeIds": [
+        "cityu_me_rpg-mphil",
+        "cityu_me_rpg-phd"
+      ],
+      "status": "verified",
+      "checkedDate": "2026-10-01",
+      "summary": "先准备学历、成绩、评分标准及英语证明，并按系统提交学术推荐。当前只核得学校级清单，机械工程附加文书仍待核。",
+      "note": "先准备学历、成绩、评分标准及英语证明，并按系统提交学术推荐。当前只核得学校级清单，机械工程附加文书仍待核。 适用范围：2027/28学校轮次＋现行通用要求；这是有界摘要，提交前仍须核对当期系统。",
+      "admissionYear": "2027/28学校轮次＋现行通用要求",
+      "unknowns": [
+        "ME专属推荐报告数量、CV/PS/研究计划、院系额外英语规定。"
+      ],
+      "scopeNotes": [],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "MPhil：相关本科一等或二等荣誉/同等资格；PhD：一等荣誉本科/同等资格是可选入口，不统一要求已有硕士。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "city_elig"
+          ]
+        },
+        {
+          "kind": "language",
+          "text": "通常IELTS6.5，或TOEFL79（2026-01-21前）/4.5（此日起）；英语授课学历规则适用。工程学院CET-6替代写“可接受”，需院系另核，不能当成全校自动通道。",
+          "requirementStatus": "conditional",
+          "sourceIds": [
+            "city_elig"
+          ]
+        },
+        {
+          "kind": "transcript",
+          "text": "官方学历成绩、评分说明及适用验证报告；在读者还需在读与预计完成时间证明。非英文文件按要求附正式英译。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "city_docs"
+          ]
+        },
+        {
+          "kind": "references",
+          "text": "学校流程要求学术推荐报告；本轮尚未核到ME专属数量，不能从DS或其他学院推定。",
+          "requirementStatus": "required_count_unknown",
+          "sourceIds": [
+            "city_dates"
+          ]
+        },
+        {
+          "kind": "cvPersonalStatementResearchProposal",
+          "text": "学校仅列部分学院必交研究计划；不能外推ME统一必交或免交。CV、PS、研究计划具体要求待ME/系统核实。",
+          "requirementStatus": "unknown",
+          "sourceIds": [
+            "city_docs"
+          ]
+        },
+        {
+          "kind": "deadline",
+          "text": "2027/28主轮2026-12-01 23:59 HKT；全年收申请，主轮之后仅按余位考虑。",
+          "requirementStatus": "published",
+          "sourceIds": [
+            "city_dates"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "city_elig",
+        "city_docs",
+        "city_dates"
+      ]
+    },
+    {
+      "id": "cityu-ds-phd-materials",
+      "title": "城大 Data Science PhD 分渠道材料",
+      "institution": "CityUHK",
+      "degree": "PhD",
+      "routeIds": [
+        "cityu_ds_phd"
+      ],
+      "status": "verified",
+      "checkedDate": "2026-10-01",
+      "summary": "博士接受一等荣誉本科入口；两份学术推荐必需。CV、PS、研究计划在该系页面明确标为HKPFS必交，不能套到普通轮。",
+      "note": "博士接受一等荣誉本科入口；两份学术推荐必需。CV、PS、研究计划在该系页面明确标为HKPFS必交，不能套到普通轮。 适用范围：现行DS项目页，HKPFS栏明确2027/28；这是有界摘要，提交前仍须核对当期系统。",
+      "admissionYear": "现行DS项目页，HKPFS栏明确2027/28",
+      "unknowns": [
+        "DS普通轮是否额外要求CV/PS/研究计划、项目页时间图内容。"
+      ],
+      "scopeNotes": [],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "一等荣誉本科/同等资格可申请PhD；该系明确不考虑MPhil申请。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "city_ds"
+          ]
+        },
+        {
+          "kind": "language",
+          "text": "IELTS6.5或TOEFL79/4.5（以2026-01-21分界），申请时须在2年有效期内。CET-6≥490仅普通轮可个案考虑，HKPFS不接受。",
+          "requirementStatus": "conditional",
+          "sourceIds": [
+            "city_ds"
+          ]
+        },
+        {
+          "kind": "transcript",
+          "text": "正式学历学位、成绩单及评分标准，按资格类型提供验证报告；有论文可附首页/录用证明。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "city_ds"
+          ]
+        },
+        {
+          "kind": "references",
+          "text": "两份学术推荐报告必交。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "city_ds"
+          ]
+        },
+        {
+          "kind": "cvPersonalStatementResearchProposal",
+          "text": "CV、PS、研究计划：HKPFS必交。该表未将此条统一标为普通轮必交；普通轮仍应核对系统/导师附加要求。",
+          "requirementStatus": "required_for_hkpfs",
+          "sourceIds": [
+            "city_ds"
+          ]
+        },
+        {
+          "kind": "deadline",
+          "text": "学校2027/28主轮截止2026-12-01 23:59 HKT；项目具体时间仍待确认，不能用既往信息替代。",
+          "requirementStatus": "published_school_only",
+          "sourceIds": [
+            "city_dates"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "city_ds",
+        "city_dates"
+      ]
+    },
+    {
+      "id": "hkbu-cs-rpg-materials",
+      "title": "浸大计算机研究型基础材料",
+      "institution": "HKBU",
+      "degree": "MPhil / PhD",
+      "routeIds": [
+        "hkbu_cs_rpg-mphil",
+        "hkbu_cs_rpg-phd"
+      ],
+      "status": "verified",
+      "checkedDate": "2026-10-01",
+      "summary": "官方通用清单覆盖学历成绩、英语和两位学术推荐人；本科PhD申请还需科研经历/成果，并可能先入MPhil评估。",
+      "note": "官方通用清单覆盖学历成绩、英语和两位学术推荐人；本科PhD申请还需科研经历/成果，并可能先入MPhil评估。 适用范围：2027/28轮次＋现行研究型通用要求；这是有界摘要，提交前仍须核对当期系统。",
+      "admissionYear": "2027/28轮次＋现行研究型通用要求",
+      "unknowns": [
+        "CS院系的特定文书、研究计划格式和额外要求仍待确认。"
+      ],
+      "scopeNotes": [],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "MPhil通常本科一等/二等荣誉；本科PhD分支为一等荣誉并有科研成果/经历，可能先以MPhil录取、通过评估再转PhD。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "hkbu_elig"
+          ]
+        },
+        {
+          "kind": "language",
+          "text": "IELTS6.5且各项5.5；TOEFL旧制79、读听说各18/写19；新制4.5、读4/听4.5/说4/写4.5。单次成绩，不接受官网列明的居家、在线、拼分或单科重考类型。",
+          "requirementStatus": "conditional",
+          "sourceIds": [
+            "hkbu_elig"
+          ]
+        },
+        {
+          "kind": "transcript",
+          "text": "身份文件、学历学位证、成绩单及评分标准、适用英语成绩。科研样本、论文/经历与奖项可补充。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "hkbu_docs"
+          ]
+        },
+        {
+          "kind": "references",
+          "text": "两位学术推荐人在线交保密报告；拟申请导师及非学术人士不适合担任推荐人。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "hkbu_docs"
+          ]
+        },
+        {
+          "kind": "cvPersonalStatementResearchProposal",
+          "text": "通用招生说明将研究计划质量列为考量；CS院系的CV、PS、研究计划格式和必交要求仍待确认。",
+          "requirementStatus": "unknown",
+          "sourceIds": [
+            "hkbu_elig",
+            "hkbu_docs"
+          ]
+        },
+        {
+          "kind": "deadline",
+          "text": "2027/28于2026-09-01开放；首截止2026-12-01、第二截止2027-04-15；须再核院系是否另设。",
+          "requirementStatus": "published",
+          "sourceIds": [
+            "hkbu_dates"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkbu_elig",
+        "hkbu_docs",
+        "hkbu_dates"
+      ]
+    },
+    {
+      "id": "hkust-gz-rbm-materials",
+      "title": "港科广红鸟 MPhil：必需与可选材料",
+      "institution": "HKUST(GZ)",
+      "degree": "MPhil",
+      "routeIds": [
+        "hkust-gz-rbm"
+      ],
+      "status": "verified",
+      "checkedDate": "2026-10-01",
+      "summary": "2027/28红鸟明确要求大学成绩单和盖章专业排名；PS、研究计划、推荐信为鼓励但非必需，CV属于支持材料。",
+      "note": "2027/28红鸟明确要求大学成绩单和盖章专业排名；PS、研究计划、推荐信为鼓励但非必需，CV属于支持材料。 适用范围：2027/28 Fall；FAQ声明2026-05-29更新；这是有界摘要，提交前仍须核对当期系统。",
+      "admissionYear": "2027/28 Fall；FAQ声明2026-05-29更新",
+      "unknowns": [
+        "具体轮次截止、OAS当前完整必填字段；英文FAQ的硕士英语授课豁免需校方最终批准。"
+      ],
+      "scopeNotes": [
+        "只适用于Red Bird MPhil / Master of Philosophy (General)，不代表ROAS、AI、INTR PhD免推荐或免研究计划。"
+      ],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "认可学士或同等资格；不要求先有硕士、论文或科研经历，也不要求提前联系教授。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "gz_rbm"
+          ]
+        },
+        {
+          "kind": "language",
+          "text": "IELTS学术6.5/各项5.5；TOEFL80（2026-01-21前）或4.5（此日起），不接受居家考。可先申报预计考试日后补成绩，入学条件仍须满足。",
+          "requirementStatus": "conditional",
+          "sourceIds": [
+            "gz_rbm"
+          ]
+        },
+        {
+          "kind": "transcript",
+          "text": "从大学一年级至今成绩单、盖章的本科专业排名证明；学校不能开排名时需提供校方不能出具的正式证明。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "gz_rbm"
+          ]
+        },
+        {
+          "kind": "cv",
+          "text": "CV及奖项/实习等为支持材料。",
+          "requirementStatus": "optional",
+          "sourceIds": [
+            "gz_rbm"
+          ]
+        },
+        {
+          "kind": "personalStatementResearchProposalReferences",
+          "text": "PS、研究计划和推荐信被明确说明为鼓励但非必需；不能套用港科广通用PhD的2–5推荐人。",
+          "requirementStatus": "optional",
+          "sourceIds": [
+            "gz_rbm"
+          ]
+        },
+        {
+          "kind": "deadline",
+          "text": "FAQ明确适用2027/28，但本次未取得独立申请截止；具体轮次以当期OAS指南及红鸟通知为准。",
+          "requirementStatus": "unknown",
+          "sourceIds": [
+            "gz_rbm"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "gz_rbm"
+      ]
+    },
+    {
+      "id": "hkust-gz-phd-materials",
+      "title": "港科广 ROAS / AI / INTR PhD 基础材料",
+      "institution": "HKUST(GZ)",
+      "degree": "PhD",
+      "routeIds": [
+        "hkust-gz-roas-phd",
+        "hkust-gz-ai-phd",
+        "hkust-gz-intr-phd"
+      ],
+      "status": "verified",
+      "checkedDate": "2026-10-01",
+      "summary": "三条PhD路径先按研究生院通用清单准备：学历成绩与评分标准、语言、研究计划/经历及2–5位推荐人；学域额外项另核。",
+      "note": "三条PhD路径先按研究生院通用清单准备：学历成绩与评分标准、语言、研究计划/经历及2–5位推荐人；学域额外项另核。 适用范围：现行通用博士规则；2027具体批次本次未核实；这是有界摘要，提交前仍须核对当期系统。",
+      "admissionYear": "现行通用博士规则；2027具体批次本次未核实",
+      "unknowns": [
+        "2027具体期限、各学域附加文书、导师剩余名额。"
+      ],
+      "scopeNotes": [],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "认可本科且学业表现优秀，或满足规定研究生学习经历，是博士准入的不同选项；不一律要求先获硕士。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "gz_elig"
+          ]
+        },
+        {
+          "kind": "language",
+          "text": "IELTS学术6.5、各项5.5；TOEFL80（2026-01-21前）或4.5（此日起）；单次成绩，不接受居家考。英语母语/英语授课本科可按规则豁免。",
+          "requirementStatus": "conditional",
+          "sourceIds": [
+            "gz_elig"
+          ]
+        },
+        {
+          "kind": "transcript",
+          "text": "身份文件、全部高等教育成绩/学历及评分标准；在读用最新成绩，已完成学位用最终成绩和学位证。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "gz_docs"
+          ]
+        },
+        {
+          "kind": "researchProposal",
+          "text": "提交拟研究主题和计划，以及已有科研项目经历；具体字段以OAS为准。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "gz_docs"
+          ]
+        },
+        {
+          "kind": "references",
+          "text": "提名2–5位推荐人，由其在线提交报告。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "gz_docs"
+          ]
+        },
+        {
+          "kind": "cvPersonalStatement",
+          "text": "通用清单未单独明确CV或PS必交；ROAS/AI/INTR学域附加格式待核。",
+          "requirementStatus": "not_specified",
+          "sourceIds": [
+            "gz_docs"
+          ]
+        },
+        {
+          "kind": "deadline",
+          "text": "已核官方项目入口，但本次未核得2027招生批次及截止，不能用常年项目页推断2027开放或名额。",
+          "requirementStatus": "unknown",
+          "sourceIds": [
+            "gz_roas",
+            "gz_ai",
+            "gz_intr"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "gz_elig",
+        "gz_docs",
+        "gz_roas",
+        "gz_ai",
+        "gz_intr"
+      ]
+    },
+    {
+      "id": "cuhksz-ai-rpg-materials",
+      "title": "港中深 AI MPhil / PhD 材料摘要",
+      "institution": "CUHK-Shenzhen",
+      "degree": "MPhil / PhD",
+      "routeIds": [
+        "cuhksz-ai-mphil",
+        "cuhksz-ai-phd"
+      ],
+      "status": "verified",
+      "checkedDate": "2026-10-01",
+      "summary": "英文CV与PS、完整成绩及排名、英语证明和两封保密推荐信均列入项目清单；本科可分别按MPhil或直博条件申请。",
+      "note": "英文CV与PS、完整成绩及排名、英语证明和两封保密推荐信均列入项目清单；本科可分别按MPhil或直博条件申请。 适用范围：中文版项目页明确2027春/秋；这是有界摘要，提交前仍须核对当期系统。",
+      "admissionYear": "中文版项目页明确2027春/秋",
+      "unknowns": [
+        "导师/课题组是否仅招硕士、追加研究计划要求；具体剩余名额。"
+      ],
+      "scopeNotes": [
+        "2027期限来自/node/35中文现页；article/185仅支持2026申请制历史，不作为2027期限证据。"
+      ],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "MPhil本科二等荣誉或B；PhD本科分支为二等荣誉，或B且GPA≥3.2/4.0。原则上相关专业，优秀跨专业可申请。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "sz_ai"
+          ]
+        },
+        {
+          "kind": "language",
+          "text": "IELTS学术6.5或TOEFL79/120、4.5/6等认可条件；TOEFL/IELTS2年有效，英语授课学位可按规则满足。以该校自己的考试类型条款为准。",
+          "requirementStatus": "conditional",
+          "sourceIds": [
+            "sz_ai"
+          ]
+        },
+        {
+          "kind": "transcript",
+          "text": "学历/学位或在读证明及适用验证、正式全程成绩、评分标准和排名；成绩未载均分/等级时补均分证明。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "sz_ai"
+          ]
+        },
+        {
+          "kind": "cvPersonalStatement",
+          "text": "英文CV和英文PS；可在PS说明意向导师/课题组与自身匹配。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "sz_ai"
+          ]
+        },
+        {
+          "kind": "references",
+          "text": "两封保密推荐信，提交申请后由系统向指定推荐人发送请求。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "sz_ai"
+          ]
+        },
+        {
+          "kind": "researchProposal",
+          "text": "清单未单列研究计划为统一必需；必要时学校可要求补充。",
+          "requirementStatus": "not_specified",
+          "sourceIds": [
+            "sz_ai"
+          ]
+        },
+        {
+          "kind": "deadline",
+          "text": "2027春季截止2026-10-31；2027秋季截止2027-05-31。滚动录取，录满可提前止收。",
+          "requirementStatus": "published",
+          "sourceIds": [
+            "sz_ai"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "sz_ai"
+      ]
+    }
+  ]
+}
