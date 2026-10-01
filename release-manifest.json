@@ -1,12 +1,12 @@
 {
   "project": "GradCompass",
-  "revision": "r2",
-  "baseDeployedCommit": "bd47d9f077beb1a1c45b51437df3ccee42b7e7ad",
+  "revision": "r2.1",
+  "baseDeployedCommit": "e119011a4e03794bb0e2c00f7326f12e34e628db",
   "snapshotDate": "2026-10-01",
   "status": "local candidate; publication not performed by this build",
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
-  "browserVisualQA": "r1 checked; r2 pending; see QA.md",
+  "browserVisualQA": "r2 checked; r2.1 presentation patch pending browser verification",
   "allowedFiles": [
     {
       "path": ".nojekyll",
@@ -25,8 +25,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 25422,
-      "sha256": "898e806fb30da24e02da70801fafe3657c6680fbc251e9e2a87d99f19a548d4a"
+      "bytes": 25931,
+      "sha256": "ab0fbbe8c2708b7b0b9f98370cc85158be0f9e3f2b3220c95560f744c9a77dcd"
     },
     {
       "path": "assets/core.js",
@@ -75,8 +75,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 1373,
-      "sha256": "e72b293f81437e11de3c9aa3722bd2b4ffd15f8e582ac2889d23ad7c37e5868d"
+      "bytes": 1406,
+      "sha256": "f158a9b94cf2a580ba12c09c8b200190d246d766c97eddbb4b749391c0ceb33a"
     },
     {
       "path": "tests/browser-smoke.mjs",
@@ -95,8 +95,8 @@
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 9914,
-      "sha256": "44da0cd485e2199ea0f211b16907c7f29b4d8cad400db3d164f4791fe8b46de9"
+      "bytes": 11067,
+      "sha256": "62a085a75fbf4fb6aa2792fbd647e57f8d307250bc77b39a855623b5e239ffbe"
     }
   ]
 }

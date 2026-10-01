@@ -3,7 +3,7 @@ from pathlib import Path
 import hashlib,json
 root=Path(__file__).resolve().parent.parent
 files=['.nojekyll','index.html','assets/app.js','assets/core.js','assets/style.css','assets/favicon.svg','data/catalog.json','data/catalog-test-manifest.json','data/ra-positions.json','data/update-status.json','README.md','QA.md','package.json','tests/core.test.mjs','tests/opportunities.test.mjs','tests/render.test.mjs','tests/browser-smoke.mjs','scripts/freeze.py']
-manifest={'project':'GradCompass','revision':'r2','baseDeployedCommit':'bd47d9f077beb1a1c45b51437df3ccee42b7e7ad','snapshotDate':'2026-10-01','status':'local candidate; publication not performed by this build','dailyChecksEnabled':True,'firstRunVerified':False,'browserVisualQA':'r1 checked; r2 pending; see QA.md','allowedFiles':[]}
+manifest={'project':'GradCompass','revision':'r2.1','baseDeployedCommit':'e119011a4e03794bb0e2c00f7326f12e34e628db','snapshotDate':'2026-10-01','status':'local candidate; publication not performed by this build','dailyChecksEnabled':True,'firstRunVerified':False,'browserVisualQA':'r2 checked; r2.1 presentation patch pending browser verification','allowedFiles':[]}
 for name in sorted(files):
     p=root/name
     if not p.is_file():raise SystemExit('Missing allowlisted file: '+name)
