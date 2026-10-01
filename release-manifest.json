@@ -1,14 +1,16 @@
 {
   "project": "GradCompass",
-  "revision": "r2.4-profile-batch2-candidate",
-  "baseDeployedCommit": "267e820b3f11a1d081380630da499e7cb84284da",
+  "revision": "r2.5-application-experience-candidate",
+  "baseDeployedCommit": "7272ec6826b1742ed68af3f424b2286f6aa602ca",
   "snapshotDate": "2026-10-01",
   "status": "local candidate; publication not performed by this build",
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
-  "browserVisualQA": "not run for this ten-profile candidate; earlier release results do not validate this build",
+  "browserVisualQA": "blocked: Chromium socket denied; cloud browser localhost blocked. No visual acceptance claimed",
   "profilePilotCount": 10,
-  "nodeTestsPassed": 59,
+  "nodeTestsPassed": 67,
+  "experienceRecords": 2,
+  "defaultExperienceRecords": 1,
   "allowedFiles": [
     {
       "path": ".nojekyll",
@@ -17,23 +19,28 @@
     },
     {
       "path": "QA.md",
-      "bytes": 2214,
-      "sha256": "5774a6c8b46e1763c96217f7a00691abc7603063829c07b8b16c909b972a177f"
+      "bytes": 1932,
+      "sha256": "7e80a1daa8d3001409efba370e3b82a17e2f401d1e8f052cf13b801f25f94179"
     },
     {
       "path": "README.md",
-      "bytes": 5183,
-      "sha256": "88f2328079ae664e30e042a79a7cadcb95bc1fc5cc7b5daad008642f77f133e3"
+      "bytes": 2403,
+      "sha256": "7d02df59e1434f622e0c368bd40d28624f99196114ac881f36233341e18eb00b"
     },
     {
       "path": "assets/app.js",
-      "bytes": 27065,
-      "sha256": "aa8a3a6f970622dc317387e995d87674e360f4c2785841b2c0a57c76f261f72a"
+      "bytes": 27905,
+      "sha256": "a0461f2ae39c75431d025c9b775c8f531ebeef6ee04a01cfc070133c1a8e1a65"
     },
     {
       "path": "assets/core.js",
       "bytes": 26228,
       "sha256": "cad4681d907cdf380dad2b1ab4c9b42ee33829e11fafeb73b9ad0b072975a927"
+    },
+    {
+      "path": "assets/experiences.js",
+      "bytes": 4147,
+      "sha256": "97033181c492d9e4f51d66a2be36454cb42511306060186da8a9c75cb4065430"
     },
     {
       "path": "assets/favicon.svg",
@@ -47,13 +54,23 @@
     },
     {
       "path": "assets/style.css",
-      "bytes": 19895,
-      "sha256": "8c05c509c6e32d3729bedf977185294b184acd90aa1b9c196a16529fa659138d"
+      "bytes": 21248,
+      "sha256": "85eb9d0b958cb793f2543fa37bb2ab6dcf6c678984fbf7bc196b628702fddecb"
     },
     {
       "path": "data/advisor-profiles.json",
       "bytes": 52279,
       "sha256": "52f9730eb53c7cf3a7e225682b273891d8060651da8051ae3d078b6a01937661"
+    },
+    {
+      "path": "data/application-experience-provenance.json",
+      "bytes": 1824,
+      "sha256": "01b23e244e24127a709206120b74a255f5ea488659b94c4597ae6a799def971d"
+    },
+    {
+      "path": "data/application-experiences.json",
+      "bytes": 4279,
+      "sha256": "daafe36fd418195a6e4de35f52760649710efb8ba3e429ebc3591e896270d835"
     },
     {
       "path": "data/catalog-test-manifest.json",
@@ -77,8 +94,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 5917,
-      "sha256": "58fd9ac3266ab94460312302efafd662b6ee3ad0cf7286612bf9ac7c64021053"
+      "bytes": 5980,
+      "sha256": "c381752ebc3f9bfe27d6ddf7383f84751c383ec0d9acda8f32bbd328ad7e7455"
     },
     {
       "path": "package.json",
@@ -87,8 +104,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 1600,
-      "sha256": "782b7e6b7b44cd09e079e9ad11549df725a4ac3b7da6ebbe96941e599141c646"
+      "bytes": 1869,
+      "sha256": "386e734bcfed037646b037f280ae9083cabe8760f1e8bf94f069d3d9514f42c0"
     },
     {
       "path": "tests/browser-smoke.mjs",
@@ -99,6 +116,21 @@
       "path": "tests/core.test.mjs",
       "bytes": 5266,
       "sha256": "a03f7eafa10470cacccbaec18dc7dcf628df800c306f5eb5b8cc2273b063dc82"
+    },
+    {
+      "path": "tests/experience-navigation.test.mjs",
+      "bytes": 2913,
+      "sha256": "aeeb0828aac215bd1de4fcb726970fe8e5da36c4165696d9ad5803b5ec5542b1"
+    },
+    {
+      "path": "tests/experiences-browser.mjs",
+      "bytes": 3479,
+      "sha256": "3853bec07d0eb2351bf6ba9c745177052fe8d16ba67daf987bcfee16d2f539d5"
+    },
+    {
+      "path": "tests/experiences.test.mjs",
+      "bytes": 2817,
+      "sha256": "77e96387d4a6d6d41d77586e03882986abf6730a65b5d3ad375a04ed851e11a5"
     },
     {
       "path": "tests/opportunities.test.mjs",

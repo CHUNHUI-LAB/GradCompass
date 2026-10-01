@@ -1,29 +1,22 @@
-# GradCompass 第二批专业简介候选 QA
+# Application experience candidate QA
 
-未发布。基于职级筛选候选建立独立副本，源目录未修改。
+Base: `7272ec6826b1742ed68af3f424b2286f6aa602ca`. Status: local candidate, not published.
 
-## 已通过
+## Passed
 
-- 59 项 Node 单元与 DOM 合约测试，0 失败；JS 语法检查通过
-- 10 位专业简介精确关联原 advisorId：保留首批 5 位，新增沈劭劼、刘希慧、胡君杰、刘沛东、殷鹏
-- 10 位全部在既有 eligible catalog 内；没有新增导师或机会；其余 22 条导师记录保留原内容
-- 新增 10 项近期研究，逐项来源及未知边界保留；未推断规模、指导风格、可用资金或硬件权限
-- 默认 46 条机会、30 位导师、2 条独立 RA 岗位保持不变
-- catalog、RA、update-status、原始资格测试清单字节保持不变；newPi、院系、资格与就业要求未修改
-- index、app、core、profiles renderer、CSS、所有职级筛选实现均保持原样
-- 32 个原职衔保留：教授 5、副教授 9、助理教授 17、未知 1；对应默认机会数 6 / 15 / 25
-- 全部 10 位详情经过 DOM 合约验证：职业概况、实验室、近期成果先于原申请条件；外链与文本转义检查通过
-- 首批 5 位 profile 对象与源目录逐对象相同
-- 冻结 22 个明确文件，不递归复制研究草稿或审计文件
+- Baseline all 23 GitHub blob hashes match the held checkout
+- 67 Node / DOM-contract tests: original 59 plus 7 schema/content/safety tests and 1 application navigation test
+- Existing 32 advisor records, 10 profiles, 46 opportunity / 30 advisor counts and rank intersections preserved
+- Default one bachelor-background record; explicit cross-background selection reveals one master-to-PhD record
+- Missing/invalid schema, source URL, mandatory context, unsafe URL and duplicate records fail closed
+- HTML content escaped; source links use HTTPS and noopener noreferrer
+- Global opportunity filters hidden on experience view and restored unchanged upon return
+- Separate unavailable/empty states; source date precision retained; public experience payload excludes XHS and private identifiers
 
-## 尚未执行
+## Blocked / not verified
 
-本候选尚未进行真实浏览器视觉验收、桌面/手机截图、焦点与完整无障碍验收。Node/DOM 合约渲染不等于真实浏览器渲染验收；旧版截图和旧版结果不验证本候选。
+Local Chromium launches failed because required socket creation was denied (`Operation not permitted`) and crashpad could not initialize; an escalated launch also failed. The dot cloud browser rejected `http://127.0.0.1:4186` with `ERR_BLOCKED_BY_CLIENT`. No workaround around that restriction was attempted.
 
-## 内容及发布边界
+The added `tests/experiences-browser.mjs` covers desktop/mobile 390px and 320px layout, overflow, native disclosure, repeated scope clicks, Back/Forward, rank persistence and optional-data failure isolation. Those browser assertions were not executed to completion. No screenshots or visual, keyboard-focus, or full accessibility pass is claimed. Existing browser smoke suite was not completed on this candidate.
 
-补充 recruitment 字段仅供资料审阅；现有 UI 继续使用原 catalog 的按机会类型招募说明，不自动用补充信息重写招生判断。CUHK-Shenzhen 新核到的 2027 项目规则已经在独立审计中记录，本合并未升级 catalog 资格或名额。
-
-全部 confirmedVacancy=false 表示未取得剩余名额确认。ED-SLAM 只核实题名、作者与会议，未取得独立全文；不补造性能。西湖学校教师页通过其公开 HTML 内嵌正文核实招募。
-
-每日检查开启状态不等于首轮成功；证据日期没有滚动更新。release-manifest.json 证明候选文件完整性，不证明发布或真实浏览器验收通过。
+Before publishing, run both browser suites in a permitted preview environment, inspect phone and desktop screenshots, recheck remote HEAD against the base and review the exact allowlist. Do not publish audit folders or research sources wholesale.

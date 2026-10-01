@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "baseCommit": "7272ec6826b1742ed68af3f424b2286f6aa602ca",
+  "reviewDate": "2026-10-01",
+  "status": "local_candidate_not_published",
+  "sourcePolicy": "Only independently addressable public first-person sources with reviewed main text; personal outcomes remain self-reported. No admission rules imported.",
+  "records": [
+    {
+      "id": "grad-robotics-eth-xiang-2022",
+      "url": "https://sustech-application.com/post/xiangyz18",
+      "scope": "Full main text and application timeline reviewed in prior research; original public page re-opened on 2026-10-01. No comments returned.",
+      "dateInterpretation": "2022 application dates are not publication dates; 18 denotes cohort.",
+      "bachelorApplicability": "Preparation methods only; not current eligibility evidence."
+    },
+    {
+      "id": "grad-europe-tinsir-2025",
+      "url": "https://tinsir888.codeberg.page/posts/28a60d27.html",
+      "scope": "Full main text reviewed in prior research; original public page re-opened on 2026-10-01. Comments not read.",
+      "dateInterpretation": "Published 2025-07-18, updated 2025-07-19; historical 25Fall cycle.",
+      "bachelorApplicability": "Cross-background process comparison only, opt-in."
+    }
+  ],
+  "excludedSourceCategories": [
+    {
+      "category": "Master-to-PhD logistics timeline on Xiaohongshu",
+      "reason": "No reusable public permalink; signed session URL, offer image and personal identifiers excluded."
+    }
+  ],
+  "officialPolicy": "No new current admission claims, thresholds, fees, deadlines or recruitment counts. Historical claims about admission mechanisms explicitly excluded. Existing official data remains unchanged.",
+  "privacy": "No private contact fields, offer identifiers, screenshots, signed URLs, search URLs, or session tokens included."
+}

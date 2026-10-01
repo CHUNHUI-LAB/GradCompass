@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-01",
+  "scope": "历史亲历与准备方法，独立于官方招生、导师与机会库",
+  "records": [
+    {
+      "id": "grad-robotics-eth-xiang-2022",
+      "title": "机器人跨项目申请回顾：材料、时间线与未申请清单",
+      "url": "https://sustech-application.com/post/xiangyz18",
+      "platform": "南科大飞跃手册",
+      "author": "向沿臻",
+      "publishedAt": null,
+      "applicableCycle": "2022历史申请季；标题18是年级标签，不作发表年",
+      "authorContext": "机器人工程本科，自述高GPA排名、有Berkeley交流/暑研；不能外推到一般背景",
+      "outcome": "自述最终选择ETH RSC，并列多校硕士录取及拒信；未独立核验offer",
+      "summary": "值得借鉴的是区分已申请、仅考虑、因时间不足放弃的项目，并提前准备差异化文书和推荐。研究型硕博与一年制MEng不可混为相同训练路径。",
+      "actionableMethods": [
+        "申请表分开记录申请过、仅考虑、已放弃，避免把考虑清单统计为录取率分母",
+        "提前列各项目额外材料，预留推荐信和修改时间",
+        "按研究方向所属院系同时检查机器人、ME/ECE相关项目"
+      ],
+      "excludedClaims": [
+        "中介Tier排名",
+        "按生源校配额或只看GPA的推断",
+        "托福拼分印象",
+        "Tutor不影响录取的主观判断",
+        "各校录取机制/学费/签证和就业回报等旧说法"
+      ],
+      "commercialDisclosure": "作者曾使用中介，但该文明确批评服务性价比；未见付费申请导流，作者公开联系方式未转载",
+      "readScope": "完整正文、申请/考虑清单及录拒时间线已读；无评论内容返回",
+      "collection": "bachelor",
+      "background": "机器人工程本科",
+      "dateNote": "网页未给可靠发布日期；附录明确录拒时间为2022-02至2022-06；标题18是年级标签，不作发表年",
+      "bachelorApplicability": "可参考本科申请的准备方法；历史录取不证明当前项目资格或个人成功率",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-01",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-europe-tinsir-2025",
+      "title": "25Fall欧陆CS博士：岗位匹配、资助和失败节点",
+      "url": "https://tinsir888.codeberg.page/posts/28a60d27.html",
+      "platform": "Personal blog / Codeberg Pages",
+      "author": "tinsir888",
+      "publishedAt": "2025-07-18",
+      "applicableCycle": "25Fall",
+      "authorContext": "授课型硕士，自述零发表，研究兴趣为算法博弈论/计算社会选择；不是机器人录取个案",
+      "outcome": "自述意大利未具名研究所录取；其他案例有初筛拒绝、面试拒绝、资助不合适和未回复，均未独立验决定信",
+      "summary": "按具体岗位记录不同失败节点；一场半小时硕士论文报告后仍因匹配被拒，另有项目因国际生资助不足放弃。适合建立岗位匹配与资助核对表。",
+      "actionableMethods": [
+        "逐岗位记录主题、方法匹配证据、材料、结果状态",
+        "面试前练习讲清硕士论文与目标岗位的连接",
+        "把资助覆盖范围与学费身份单独核对，不由导师熟悉程度推断"
+      ],
+      "excludedClaims": [
+        "无论文不能去美国或顶尖机构的泛化",
+        "把未回复自动等同正式拒信",
+        "把推荐信关系解释为确定录取原因",
+        "未具名项目薪资/竞争人数不得作为官方数据"
+      ],
+      "commercialDisclosure": "所读正文未见申请服务销售；账号其他内容未审计",
+      "readScope": "全文正文与逐校申请叙述已核读；未读取评论或视频",
+      "collection": "cross-background",
+      "background": "授课型硕士 → PhD",
+      "dateNote": "发布于 2025-07-18；更新于 2025-07-19",
+      "bachelorApplicability": "仅作跨背景流程对照；非机器人本科申请个案，不证明本科直博资格",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-01",
+      "rulesImpact": "none"
+    }
+  ]
+}
