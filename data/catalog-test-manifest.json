@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "1.0.0",
+  "artifact": "data/catalog.json",
+  "sha256": "094e513c0a2120bb2bee44efda475e2800537bcba797468add44bf5a479bd605",
+  "checkedDate": "2026-10-01",
+  "result": "pass",
+  "testCount": 21,
+  "counts": {
+    "advisors": 32,
+    "defaultVisibleAdvisors": 30,
+    "heldAdvisorRecords": 2,
+    "routes": 33,
+    "verifiedRoutes": 27,
+    "unknownRoutes": 4,
+    "excludedRoutes": 2,
+    "deadlines": 12,
+    "materials": 2,
+    "additionalVerificationQueue": 1,
+    "watchSources": 66,
+    "uniqueReferenceUrls": 208
+  },
+  "inputAllowlist": [
+    {
+      "file": "hkust-hku.json",
+      "sha256": "7ca69e78f8a3c97c3cba68761e9d1de56e2ebd063b481bb8e83351bbcd060a21",
+      "checkedDate": "2026-10-01",
+      "scope": "香港本部 11 位教师；公开身份、研究方向、代表作、招生声明与本科申请研究学位路径",
+      "interpretationNotes": [
+        "项目准入条件与导师名额独立记录",
+        "PhD 招生不代表 MPhil 招生",
+        "RA/实习不等于学位录取",
+        "只在官方已证实学位路径时标为本科可申请；仍须符合成绩、语言及项目其他条件"
+      ],
+      "sourceQualityNotes": [
+        "只采用高校/实验室/作者个人官方网站、作者原始论文/项目与出版方资料",
+        "已打开原始页面检查，不以搜索摘要独立定结论",
+        "HKU 招生最低要求图片已下载并查看；HKUST CSE 2027/28 目录已下载全文核实",
+        "HKU CDS 2027 admission 页面含一处遗留 starting in 2025 文本；用明确标注的 2027 Timeline，并保留此质量警示",
+        "以下本科路径不依赖推免的判断，基于完整官方学位准入与普通申请程序均未要求推免，属于政策读取结果；不是对任何个人资格的担保"
+      ]
+    },
+    {
+      "file": "other-hk.json",
+      "sha256": "11fbc52b395305f24f70f8d88d9448d42498571a47fa8d4371e50443349aad6a",
+      "checkedDate": "2026-10-01",
+      "scope": "Hong Kong main-campus robotics and embodied AI PI facts",
+      "interpretationNotes": [
+        "Verified bachelor's-entry programme prerequisites are not a finding that any particular applicant meets every admission condition.",
+        "An undated lab opening is not a verified Fall 2027 quota.",
+        "MSc enrolment, MPhil admission, PhD admission, RA employment and internship are different pathways.",
+        "Ordinary direct application routes only; partner-nominated mainland collaborative schemes are outside this dataset."
+      ],
+      "sourceQualityNotes": []
+    },
+    {
+      "file": "mainland-application.json",
+      "sha256": "3f2939191cb8142ab3f69cf0c8354fa1a66e2491eb17e1f33f4b0e7c05eddd93",
+      "checkedDate": "2026-10-01",
+      "scope": "HKUST(GZ)、西湖大学、CUHK-Shenzhen的10名PI；XJTLU另列资格核验队列。本轮不是大陆申请制院校全覆盖。",
+      "interpretationNotes": [],
+      "sourceQualityNotes": [
+        "仅使用学校/学院/PI实验室/作者项目/原始论文作为结论证据；搜索二手页面只用于线索。",
+        "未检到招聘公告记为not_found，不将研究吻合包装为在招。",
+        "官方网站彼此内容有版本差异：Jun Ma清水湾旧页仍写Assistant，采用广州学域现任页Associate；Red Bird中文招生页存在模板年份/金额异常，未将异常金额入库。",
+        "西湖2027第一批资格已确认，院级完整2027后续轮次仍需持续复核。",
+        "不从年龄、职称、博士毕业年推断新PI；确有官方入职年月才记录。"
+      ]
+    }
+  ],
+  "omittedFieldNames": [
+    "applicant_profile",
+    "fit_priority",
+    "personal_fit",
+    "personal_ranking",
+    "rank",
+    "ranking",
+    "research_overlap_assessment",
+    "user_context"
+  ],
+  "tests": [
+    {
+      "name": "input_allowlist",
+      "result": "pass",
+      "detail": "Only the three explicitly approved public JSON files were loaded"
+    },
+    {
+      "name": "advisor_count",
+      "result": "pass",
+      "detail": {
+        "expected": 32,
+        "actual": 32,
+        "defaultVisible": 30
+      }
+    },
+    {
+      "name": "unique_advisor_ids",
+      "result": "pass",
+      "detail": "All advisor IDs unique"
+    },
+    {
+      "name": "unique_route_ids",
+      "result": "pass",
+      "detail": "All route IDs unique"
+    },
+    {
+      "name": "unique_watch_ids",
+      "result": "pass",
+      "detail": "All watch IDs unique"
+    },
+    {
+      "name": "association_references",
+      "result": "pass",
+      "detail": "All degree-specific associations resolve"
+    },
+    {
+      "name": "safe_default_routes",
+      "result": "pass",
+      "detail": "Every displayed advisor path has all three required public prerequisites verified"
+    },
+    {
+      "name": "no_unknown_default_advisors",
+      "result": "pass",
+      "detail": "Unknown/excluded associations never create default-visible advisors"
+    },
+    {
+      "name": "zhongyu_held_for_verification",
+      "result": "pass",
+      "detail": "School programme availability does not automatically establish named PI route"
+    },
+    {
+      "name": "xjtlu_held_for_verification",
+      "result": "pass",
+      "detail": "Exceptional-bachelor possibility is not promoted to a verified ordinary route"
+    },
+    {
+      "name": "navarro_only_msc",
+      "result": "pass",
+      "detail": "PI-specific prior-master requirement overrides generic university PhD rule"
+    },
+    {
+      "name": "mphil_not_inferred_from_phd",
+      "result": "pass",
+      "detail": "PhD association/opening is not copied to MPhil"
+    },
+    {
+      "name": "spring_not_promoted_to_fall",
+      "result": "pass",
+      "detail": "Spring 2027 announcement remains distinct from Fall 2027"
+    },
+    {
+      "name": "westlake_batch_expired",
+      "result": "pass",
+      "detail": "2027 first-batch deadline remains 2026-08-31, not currently open"
+    },
+    {
+      "name": "checked_dates",
+      "result": "pass",
+      "detail": "Checked dates retained on every advisor and route"
+    },
+    {
+      "name": "all_references_preserved",
+      "result": "pass",
+      "detail": {
+        "inputUniqueUrls": 208,
+        "outputUniqueUrls": 208,
+        "missing": []
+      }
+    },
+    {
+      "name": "no_ranking_or_personal_fit_fields",
+      "result": "pass",
+      "detail": "No artificial ranking or personal-fit keys in public output"
+    },
+    {
+      "name": "no_private_context_markers",
+      "result": "pass",
+      "detail": "Known private-context and internal-path markers absent; official admission thresholds are retained"
+    },
+    {
+      "name": "refresh_truthful",
+      "result": "pass",
+      "detail": "No unconfigured daily automation is claimed"
+    },
+    {
+      "name": "four_opening_types",
+      "result": "pass",
+      "detail": "MPhil/MSc/PhD/RA recorded separately"
+    },
+    {
+      "name": "deadline_associations",
+      "result": "pass",
+      "detail": "All deadline route references resolve"
+    }
+  ],
+  "limitations": [
+    "Validation checks data structure, privacy boundaries and preserved research conclusions; no new web research was performed in this normalization pass",
+    "Actual eligibility, supervisor consent, current funding and remaining vacancies are not established for any particular applicant",
+    "No Git writes, deployment or scheduling were performed by this data task"
+  ]
+}

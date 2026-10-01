@@ -1,0 +1,84 @@
+{
+  "project": "GradCompass",
+  "snapshotDate": "2026-10-01",
+  "status": "local candidate; publication not performed by this build",
+  "dailyUpdatesEnabled": false,
+  "browserVisualQA": "blocked; see QA.md",
+  "allowedFiles": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "QA.md",
+      "bytes": 2192,
+      "sha256": "dc100f1064929bdb8b7d71f88d855f43be3fa42e04e1cd5d200b9a3bde39f5d6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3453,
+      "sha256": "864935e4aec7c91bc89df63d1247b82aed9410752c98eaff78851ec61f7f7d5e"
+    },
+    {
+      "path": "assets/app.js",
+      "bytes": 21536,
+      "sha256": "4d4f8b677a30050ceb1f167dc90cb08fd43502071eb63e173e242109ca57af63"
+    },
+    {
+      "path": "assets/core.js",
+      "bytes": 6605,
+      "sha256": "75731bc0b4835eb7ff7049da7f8ef04f5875fbe3f85fa01067a15c711bc58f9c"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 228,
+      "sha256": "f2e69aa0eeaf1a41932734621ec1c55d662ef6cf322fae62fa94b0429eef0d5c"
+    },
+    {
+      "path": "assets/style.css",
+      "bytes": 18168,
+      "sha256": "2f06156e55bc1666629e7915b918227c4d67088e3b3222a441d8cdc29fcce010"
+    },
+    {
+      "path": "data/catalog-test-manifest.json",
+      "bytes": 7430,
+      "sha256": "358cb91bc3704f22a0e0b28b52447bcb34b5d515cc08479e0db6a36ae9dd8f23"
+    },
+    {
+      "path": "data/catalog.json",
+      "bytes": 585365,
+      "sha256": "094e513c0a2120bb2bee44efda475e2800537bcba797468add44bf5a479bd605"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6000,
+      "sha256": "21cc5a79737dc3a826faaa5e82e2e8fe1b9dea5429c7b0402191c7bf907f4f9c"
+    },
+    {
+      "path": "package.json",
+      "bytes": 307,
+      "sha256": "95ce0aca20dbe7b4ec0869d3f62beb6dfa5cbcfce5e8049d4ab7bb2cf48f2e49"
+    },
+    {
+      "path": "scripts/freeze.py",
+      "bytes": 1329,
+      "sha256": "d3469b76d5f80e0fefe9c75554d7cb62bba6ef40743129e3752555366c1ebdb3"
+    },
+    {
+      "path": "tests/browser-smoke.mjs",
+      "bytes": 5269,
+      "sha256": "50e191f6bcbaff4c145cff15dc1d424aa26fe9debc5f4006f336e153bd875b56"
+    },
+    {
+      "path": "tests/core.test.mjs",
+      "bytes": 5281,
+      "sha256": "23f58fb0be70eb6da65478704844ee771cf0689b07debd9b6be73a58277a85b2"
+    },
+    {
+      "path": "tests/render.test.mjs",
+      "bytes": 5784,
+      "sha256": "76df81f972c429d1586ea7c71a65b35e5e31b6c7b7de0484589d1e02e1531049"
+    }
+  ]
+}
