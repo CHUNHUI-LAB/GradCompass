@@ -28,12 +28,12 @@
 
 静态 HTTP：`python -m http.server 4186`。支持 GitHub Pages 仓库子路径，无构建和客户端依赖。
 
-- `npm test`：本候选 111 项全部通过；资格、人数、材料来源、加载失败、摘要与导航回归均包含在内
-- `TEST_URL=http://127.0.0.1:4186 node tests/experiences-browser.mjs`：覆盖整页阅读、直链刷新、Back/Forward、键盘、320/390px、分页面筛选与加载失败隔离；Chromium 启动权限受阻，尚未执行验收
+- `npm test`：本次核对 111 项全部通过；资格、人数、材料来源、加载失败、摘要与导航回归均包含在内
+- `TEST_URL=http://127.0.0.1:4186 node tests/experiences-browser.mjs`：覆盖整页阅读、直链刷新、Back/Forward、键盘、320/390px、分页面筛选与加载失败隔离；候选准备时本地 Chromium 启动权限受阻，自动化套件尚未完成验收
 - `TEST_URL=http://127.0.0.1:4186 node tests/browser-smoke.mjs`：完整浏览器回归尚未验收
 - `python scripts/freeze.py`：先按依赖顺序更新经验 JSON、经验模块和入口的内容hash版本串，再生成严格白名单和哈希；之后运行 `npm test` 检查版本串与实际内容一致
 
-当前扩充版是本地候选，未发布。基线 f90ec 已通过桌面阅读/历史导航和分页面筛选验收；本轮 11 篇版尚未完成浏览器或手机验收。
+当前 11 篇扩充版已发布：[内容提交 de9aa856](https://github.com/CHUNHUI-LAB/GradCompass/commit/de9aa856743520bc762ae6b29aacf31a82f9df02) 对应的 [Pages 构建与部署](https://github.com/CHUNHUI-LAB/GradCompass/actions/runs/36903393867) 于 2026-10-01 成功完成。发布后已完成桌面线上抽查：普通刷新、经验阅读后返回列表及浏览器前进/后退。完整自动化浏览器套件、手机显示与用户验收仍未确认；候选准备时的检查记录与当前发布状态分列于 [QA.md](QA.md)。
 
 ## 证据和隐私
 

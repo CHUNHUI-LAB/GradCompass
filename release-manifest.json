@@ -24,13 +24,13 @@
     },
     {
       "path": "QA.md",
-      "bytes": 3277,
-      "sha256": "543838b11fb59e76b27dda476cfaa683d408057d7577170a2f29cb5d378e7053"
+      "bytes": 4506,
+      "sha256": "933b438f32b51a6a24610ca5ad68281c85bdb244157d4587f0a958bbab7c18a4"
     },
     {
       "path": "README.md",
-      "bytes": 4911,
-      "sha256": "c39a0cd32345a36b88ad3e0f6426a91ec57d5012d2bc6780dcbb75d5260e0912"
+      "bytes": 5322,
+      "sha256": "5502f0f07ca890cac8f904deea3c4c8fad53bca3841d90c3335a00a8cb221c71"
     },
     {
       "path": "assets/app.js",
@@ -124,8 +124,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 3483,
-      "sha256": "5488220f36e54d26716a79d34690f493c01431a0776cef6815d7b6e7a5bb8ea7"
+      "bytes": 3686,
+      "sha256": "b9792cac9238f203142cc96578dc4e4d08694035c0659e99a7d030bc6cc515c3"
     },
     {
       "path": "tests/browser-smoke.mjs",
@@ -202,5 +202,6 @@
       "bytes": 7369,
       "sha256": "28748cd8e7b1b1884c0d94855298a6b688612798894998f93649cae6051e7432"
     }
-  ]
+  ],
+  "qaMetadataScope": "revision, status and browserVisualQA retain historical pre-publication QA; allowedFiles hashes describe this snapshot; current release evidence and acceptance limits: QA.md"
 }
