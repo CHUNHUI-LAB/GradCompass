@@ -1,31 +1,36 @@
-# GradCompass R2 candidate QA
+# GradCompass 专业简介 5 人试点候选 QA
 
-Evidence checked: 2026-10-01
+基线提交：`267e820b3f11a1d081380630da499e7cb84284da`；证据核验日期：2026-10-01
+本次工作只修改独立预览副本，未修改原项目目录、未推送、未发布。
 
-## Passed for R2
+## 本次通过的检查
 
-- 42 Node tests, including independent opportunity IDs, same-advisor comparison, immutable inclusion rules, RA employment evidence, RA/degree separation, two-job/one-advisor counting, unknown deadline times, work-permit caveats, current-check status, safe source rendering, filters, reset, details and comparison
-- 21 original normalization checks remain applicable because `data/catalog.json` is unchanged
-- JavaScript syntax checks
-- Strict relative static asset references, Content Security Policy, escaped data text, HTTP(S)-only source links, noopener/noreferrer
-- Labeled controls, native dialogs, Escape dismissal implementation, visible focus styles, reduced-motion support and primary 44 px targets remain in place
+- 49 项 Node 单元与 DOM 合约测试，0 失败
+- 5 个精确 advisorId 均关联现有导师；其余 27 人保持现有内容并标注专业简介待补充
+- 46 条机会、30 位导师、2 条独立 RA 岗位及其单独任职语义不变
+- catalog、RA、core、update-status 与 index 文件 SHA-256 与基线完全一致
+- 职业概况 → 实验室与资源 → 2–3 项代表成果 → 原机会条件的 DOM 顺序
+- 徐英豪邮箱冲突保留在参考说明，未知事项不显示为已确认名额
+- 输入转义、HTTP(S) 链接校验、外链 noopener/noreferrer、原筛选与比较回归
+- JavaScript 语法检查通过
+- 冻结使用 21 个明确文件白名单，包括新 profiles 模块、简介数据与测试；不递归打包研究文件
 
-## Browser verification scope
+## 实际浏览器验收：未执行
 
-R1 was verified on the deployed site: desktop width 1180 px and mobile width 502 px showed no horizontal overflow. Institution + MPhil + explicit-recruitment filtering, detail Escape/focus return, reset, two-profile comparison and back navigation passed.
+本次候选尚未进行真实浏览器、桌面/手机截图、焦点回归或完整无障碍验收。Node/DOM 合约测试不替代这些检查，任何旧版本浏览器通过记录均不代表本次候选已通过。
 
-These are R1 results. R2 changes opportunity records, RA details, comparison and status display; its real browser smoke test is still pending. Local Chromium cannot start because the environment does not permit its required process socket, and the cloud browser cannot access the local preview service. No R2 screenshot or viewport pass is claimed.
+根审查者负责实际验收：桌面和手机详情布局、16px 正文、长标题与外链溢出、关闭/重开、筛选重置、两条 RA 对比及默认计数。详情应阅读轻量，不把每段内容做成警告框。
 
-The included `tests/browser-smoke.mjs` has been updated for R2 and should run against the final published URL. Node/DOM-contract tests do not replace visual layout, browser focus or full accessibility checks.
+## 资料与解释边界
 
-## Data limits
+- 学位门槛、导师关联与招生信号仍由原 catalog 单独决定；专业简介不改写这些字段
+- 五人公开简介不保证个人指导安排、设备或算力分配、资助和剩余名额
+- 刘云辉 LRL 为研究组之一；其定轮次 PhD 招募不能扩展到 MPhil 或全部中心
+- 徐英豪企业成果/招聘与 HKUST 学位机会分开；申请邮箱来源冲突已保留
+- 孙宇翔院系页面本次 403，当前身份由本人实验室页与论文单位交叉支持
+- 两条 RA 的未知截止时刻、工作许可及剩余名额限制继续保留
+- 每日检查开启状态不等于首轮成功；原证据日期不滚动更新
 
-- Two PolyU RA job pages were verified independently: references 260907004 and 260724022
-- Both advertise honours-degree/equivalent eligibility and 12-month full-/part-time work; neither requires an existing master's for the Research Assistant role
-- Research Associate qualifications in the same advertisement do not apply to these RA records
-- Deadline dates are public; exact times, remaining headcount and individual work-permit eligibility are not verified
-- Daily checking is enabled, but its first successful run has not been verified; academic evidence dates remain unchanged
+## 发布边界
 
-## Publication boundary
-
-This is an unpublished R2 candidate. No repository writes or deployments were made in this build. The release manifest is an integrity record, not publication confirmation.
+release-manifest.json 仅证明候选文件完整性，不是线上发布或实际浏览器验收通过的证明。发布前须由维护者完成相应审查。

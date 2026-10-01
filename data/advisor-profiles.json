@@ -1,0 +1,666 @@
+{
+  "schemaVersion": "advisor-profile-supplement/0.1",
+  "checkedDate": "2026-10-01",
+  "pilotOnly": true,
+  "joinKey": "advisorId",
+  "catalogSource": "data/catalog.json",
+  "displaySchema": {
+    "card": [
+      "cardSummaryZh",
+      "faculty institution/department from existing catalog",
+      "checkedDate"
+    ],
+    "detail": [
+      "overview",
+      "labSnapshot",
+      "representativeWorks",
+      "recruitment",
+      "unknowns",
+      "links"
+    ],
+    "facts": "textZh + sources[{url,checkedDate}]",
+    "unknowns": "explicitly rendered, never coerced to no/false facts"
+  },
+  "integrationRules": [
+    "Join only by exact existing advisorId; orphan IDs must fail validation",
+    "Supplement only public profile sections; do not overwrite routeIds, eligibility, openingDetails, defaultVisible or institution",
+    "Show faculty affiliation and lab/project affiliation separately",
+    "Any recruitment display preserves degree/cycle specificity; confirmedVacancy=false means no remaining-place confirmation obtained",
+    "No inference of lab size, funding availability, mentorship personality, student outcomes or hardware access",
+    "Review 5-profile pilot before expanding to the remaining 27; do not change frozen site"
+  ],
+  "profiles": [
+    {
+      "advisorId": "hku-fu-zhang",
+      "cardSummaryZh": "以无人机为主要载体，把 LiDAR 多传感器定位、导航规划与控制接成真实机器人闭环。",
+      "overview": {
+        "textZh": "张富现任香港大学机械工程系副教授；2015 年获 UC Berkeley 控制方向博士，2016 年在 HKUST 转向无人机设计与控制，2018 年加入 HKU。当前研究贯穿 SLAM、机器人控制、空间智能及空中操作。",
+        "sources": [
+          {
+            "url": "https://mech.hku.hk/academic-staff/zhang-f/",
+            "checkedDate": "2026-10-01"
+          },
+          {
+            "url": "https://mars.hku.hk/",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Mechatronics and Robotic Systems (MaRS) Laboratory",
+        "affiliation": {
+          "textZh": "HKU 机械工程系实验室；面向复杂真实环境中的自主机器人，尤其是空中机器人。",
+          "sources": [
+            {
+              "url": "https://mars.hku.hk/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "themes": [
+          "LiDAR/视觉/IMU 融合定位与建图",
+          "自主飞行规划与控制",
+          "空中平台和操作",
+          "空间智能与具身 AI"
+        ],
+        "structure": {
+          "textZh": "官网以研究方向和项目组织成果，发布作者名单、论文、代码与演示；这里不据作者列表估计团队人数。",
+          "sources": [
+            {
+              "url": "https://mars.hku.hk/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "SUPER 微型无人机与 LiDAR 自主导航演示；项目平台不等于对所有新生承诺可用的设备清单。",
+            "sources": [
+              {
+                "url": "https://mars.hku.hk/",
+                "checkedDate": "2026-10-01"
+              }
+            ]
+          },
+          {
+            "textZh": "FAST-LIVO2 官方开源代码与机载 LiDAR/相机/惯性融合演示。",
+            "sources": [
+              {
+                "url": "https://mars.hku.hk/research/FAST-LIVO2.html",
+                "checkedDate": "2026-10-01"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "SUPER: Safety-assured high-speed navigation for MAVs",
+          "year": 2025,
+          "venue": "Science Robotics",
+          "summaryZh": "通过面向安全与速度的双轨迹规划，研究小型无人机在障碍环境中的高速自主飞行。",
+          "url": "https://mars.hku.hk/research/SUPER.html",
+          "sources": [
+            {
+              "url": "https://mars.hku.hk/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        {
+          "title": "FAST-LIVO2: Fast, Direct LiDAR–Inertial–Visual Odometry",
+          "year": 2025,
+          "venue": "IEEE Transactions on Robotics（实验室展示年份）",
+          "summaryZh": "紧耦合 LiDAR、IMU 与图像，使用顺序更新和统一体素地图进行实时状态估计。",
+          "url": "https://mars.hku.hk/research/FAST-LIVO2.html",
+          "sources": [
+            {
+              "url": "https://mars.hku.hk/research/FAST-LIVO2.html",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        {
+          "title": "Memory-Efficient Boundary Map for Large-Scale Occupancy Grid Mapping",
+          "year": 2026,
+          "venue": "IJRR（实验室标注）",
+          "summaryZh": "用边界表示缓解大规模占据地图的存储负担，同时关注实时查询和更新。",
+          "url": "https://github.com/hku-mars/BDM",
+          "sources": [
+            {
+              "url": "https://mars.hku.hk/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "公开列出 MPhil、PhD 与 RA 招募，未指定 Fall 2027；不代表已确认剩余名额或资助。",
+        "sources": [
+          {
+            "url": "https://mars.hku.hk/",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人指导频率、当年剩余名额与资助未核实",
+        "FAST-LIVO2 项目文献栏另写 November 2024；展示年份采用官网 2025 标注，精确出版日期应以 DOI 元数据复核"
+      ],
+      "links": [
+        {
+          "label": "院系简介",
+          "url": "https://mech.hku.hk/academic-staff/zhang-f/"
+        },
+        {
+          "label": "实验室",
+          "url": "https://mars.hku.hk/"
+        }
+      ],
+      "checkedDate": "2026-10-01",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "hkust-yinghao-xu",
+      "cardSummaryZh": "用 3D 视觉、生成模型与视频世界模型建立环境表示，并连接机器人动作控制。",
+      "overview": {
+        "textZh": "徐英豪现任 HKUST 计算机科学与工程系助理教授，领导 XU Lab；博士毕业于 CUHK，本科毕业于浙江大学，曾在 Stanford 从事博士后研究，并在 RobbyAnt 从事世界模型与具身 AI 研究。",
+        "sources": [
+          {
+            "url": "https://ri.hkust.edu.hk/people/yinghao-xu-xuyinghao",
+            "checkedDate": "2026-10-01"
+          },
+          {
+            "url": "https://justimyhxu.github.io/",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "HKUST XU Lab",
+        "affiliation": {
+          "textZh": "实验室属于 HKUST CSE；RobbyAnt 是另一个企业机构，不能把企业项目或招聘直接归入香港研究学位。",
+          "sources": [
+            {
+              "url": "https://hkust-xulab.com/",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://justimyhxu.github.io/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "themes": [
+          "3D 基础模型与场景表示",
+          "视频/生成式世界模型",
+          "具身 AI 与机器人控制"
+        ],
+        "structure": {
+          "textZh": "实验室公开列有博士生；个人主页另列访问学生与实习生，但不据此推断具体共同指导关系或在校人数。",
+          "sources": [
+            {
+              "url": "https://hkust-xulab.com/people/",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://justimyhxu.github.io/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "LingBot-Map 和 LingBot-VA 项目提供代码与模型入口；这是公开项目资源，不是已核实的 HKUST 实验室硬件或算力配置。",
+            "sources": [
+              {
+                "url": "https://technology.robbyant.com/lingbot-map",
+                "checkedDate": "2026-10-01"
+              },
+              {
+                "url": "https://technology.robbyant.com/lingbot-va",
+                "checkedDate": "2026-10-01"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+          "year": 2026,
+          "venue": "研究项目；个人主页报 ECCV 2026",
+          "summaryZh": "以几何上下文记忆支持连续视频流中的三维重建、相机位姿与深度估计。",
+          "url": "https://technology.robbyant.com/lingbot-map",
+          "sources": [
+            {
+              "url": "https://technology.robbyant.com/lingbot-map",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        {
+          "title": "LingBot-VA: Causal World Modeling for Robot Control",
+          "year": 2026,
+          "venue": "RSS 2026（项目页）",
+          "summaryZh": "将视频未来状态预测与动作推断统一，用真实观测闭环修正长时序机器人操作。",
+          "url": "https://technology.robbyant.com/lingbot-va",
+          "sources": [
+            {
+              "url": "https://technology.robbyant.com/lingbot-va",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "欢迎 prospective students，但未区分 MPhil/PhD，也未确认 Fall 2027；企业 scientist/engineer/intern 招聘独立处理。",
+        "sources": [
+          {
+            "url": "https://justimyhxu.github.io/",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "unknowns": [
+        "香港 MPhil/PhD 分学位名额、资助与 2027 入学周期未核实",
+        "实验室 People 页仍给 gmail；个人主页明确申请用 xu.lab@outlook.com 并不回复个人邮箱申请。应显示来源冲突，优先采用更具体的个人主页申请说明",
+        "香港实验室硬件与算力配置未核实"
+      ],
+      "links": [
+        {
+          "label": "高校简介",
+          "url": "https://ri.hkust.edu.hk/people/yinghao-xu-xuyinghao"
+        },
+        {
+          "label": "个人主页与申请说明",
+          "url": "https://justimyhxu.github.io/"
+        },
+        {
+          "label": "实验室",
+          "url": "https://hkust-xulab.com/"
+        }
+      ],
+      "checkedDate": "2026-10-01",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "cuhk_yunhui_liu",
+      "cardSummaryZh": "教师整体覆盖多类应用机器人；本条重点介绍其足式机器人组的运动、地形导航与安全执行器研究。",
+      "overview": {
+        "textZh": "刘云辉现任 CUHK 机械与自动化工程系 Choh-Ming Li 教授，兼任 CSE courtesy professor，领导 T Stone Robotics Institute 与 Hong Kong Centre for Logistics Robotics。1992 年获东京大学博士、1995 年加入 CUHK；整体研究还涉及物流、医疗、建筑机器人与机器视觉。",
+        "sources": [
+          {
+            "url": "https://research.cuhk.edu.hk/en/persons/yunhui-liu/",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "CUHK Legged Robot Lab (CUHK-LRL)",
+        "affiliation": {
+          "textZh": "CUHK MAE 内由刘云辉指导的研究组之一；不能把 LRL、T Stone 研究所和物流机器人中心当成同一实验室。",
+          "sources": [
+            {
+              "url": "https://cuhkleggedrobotlab.github.io/",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://research.cuhk.edu.hk/en/persons/yunhui-liu/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "themes": [
+          "精确鲁棒足式运动",
+          "可通行性感知与导航",
+          "移动操作与全身协调",
+          "安全执行器与机械系统"
+        ],
+        "structure": {
+          "textZh": "公开成员页分教授、博士后、博士生与校友；研究页把运动控制、感知导航、移动操作和硬件设计分别列为方向。",
+          "sources": [
+            {
+              "url": "https://cuhkleggedrobotlab.github.io/people/",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://cuhkleggedrobotlab.github.io/research/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "VRA 项目明确展示定制电驱执行器及轮足四足机器人硬件实验；资源属于已展示研究平台，学生使用权限未知。",
+            "sources": [
+              {
+                "url": "https://zlwsss.github.io/VRA/",
+                "checkedDate": "2026-10-01"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "VRA: Grounding Discrete-Time Joint Acceleration in Voltage-Constrained Actuation",
+          "year": 2026,
+          "venue": "RSS",
+          "summaryZh": "将关节加速度约束与电压受限执行器的真实可实现能力对齐，减少不可实现指令与约束振荡。",
+          "url": "https://zlwsss.github.io/VRA/",
+          "sources": [
+            {
+              "url": "https://zlwsss.github.io/VRA/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        {
+          "title": "Traversability-Aware Legged Navigation by Learning from Real-World Visual Data",
+          "year": 2025,
+          "venue": "IEEE Transactions on Robotics（实验室列表）；arXiv 2024",
+          "summaryZh": "根据机器人自身运动能力估计可通行性，用真实 RGB-D 与本体感知数据学习导航。",
+          "url": "https://arxiv.org/abs/2410.10621",
+          "sources": [
+            {
+              "url": "https://cuhkleggedrobotlab.github.io/publications/",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://arxiv.org/abs/2410.10621",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "LRL 当前明确招募 Fall 2027 PhD，并列 RA/工程师；这是定轮次公开招募信号，非剩余席位确认，也不自动覆盖 MPhil。",
+        "sources": [
+          {
+            "url": "https://cuhkleggedrobotlab.github.io/",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "unknowns": [
+        "不同中心/研究组之间的共同指导和资源共享安排未核实",
+        "本条 LRL 招募不能外推为刘云辉全部团队或所有学位均开放",
+        "剩余名额与资助未核实"
+      ],
+      "links": [
+        {
+          "label": "高校完整研究简介",
+          "url": "https://research.cuhk.edu.hk/en/persons/yunhui-liu/"
+        },
+        {
+          "label": "足式机器人组",
+          "url": "https://cuhkleggedrobotlab.github.io/"
+        },
+        {
+          "label": "研究方向",
+          "url": "https://cuhkleggedrobotlab.github.io/research/"
+        }
+      ],
+      "checkedDate": "2026-10-01",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "cityu_yuxiang_sun",
+      "cardSummaryZh": "连接视觉语言导航、机器人感知与运动规划，近期工作包括在线语言地图与四足地形轨迹优化。",
+      "overview": {
+        "textZh": "孙宇翔现任 CityUHK 机械工程系助理教授，自 2020 年领导 Autonomous Systems Lab。此前在 PolyU 任教（2020–2023），在 HKUST Robotics Institute 任研究员（2018–2020）；2017 年获 CUHK 博士。",
+        "sources": [
+          {
+            "url": "https://labsun.org/team",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Autonomous Systems Lab (ASL)",
+        "affiliation": {
+          "textZh": "当前实验室主页明确归属 CityU；历史 PolyU 任职与跨校合著不能改写当前院系归属。",
+          "sources": [
+            {
+              "url": "https://labsun.org/",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://labsun.org/team",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "themes": [
+          "具身 AI、VLA/VLN",
+          "自主导航与 SLAM",
+          "移动操作",
+          "四足/人形机器人与感知控制"
+        ],
+        "structure": {
+          "textZh": "成员页列博士后、博士生、硕士生与访问学生；四足规划论文含 CityU、HIT、PolyU、SUSTech 合作者，仅说明该成果的合作构成。",
+          "sources": [
+            {
+              "url": "https://labsun.org/team",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://labsun.org/pub/RAL2026_stable.pdf",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "2026 四足规划论文在 Unitree GO2 上做仿真和真实实验，并给出 Feetend-Planner 代码入口；不推断设备数量。",
+            "sources": [
+              {
+                "url": "https://labsun.org/pub/RAL2026_stable.pdf",
+                "checkedDate": "2026-10-01"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "OVL-MAP: An Online Visual Language Map Approach for Vision-and-Language Navigation in Continuous Environments",
+          "year": 2025,
+          "venue": "IEEE Robotics and Automation Letters",
+          "summaryZh": "在线更新开放词汇语义地图，把语言指令关联到导航子目标；在 Robo-VLN 与 R2R-CE 上评估。",
+          "url": "https://labsun.org/pub/RAL2025_ovlmap.pdf",
+          "sources": [
+            {
+              "url": "https://labsun.org/pub/RAL2025_ovlmap.pdf",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        {
+          "title": "Stable Trajectory Planning for Quadruped Robots Using Terrain Features at Feet End",
+          "year": 2026,
+          "venue": "IEEE Robotics and Automation Letters；online 2025-12",
+          "summaryZh": "用足端地形信息和连续高斯地形模型优化机体轨迹，以改善四足机器人复杂地形穿越的平稳性。",
+          "url": "https://labsun.org/pub/RAL2026_stable.pdf",
+          "sources": [
+            {
+              "url": "https://labsun.org/pub/RAL2026_stable.pdf",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "实验室公开列多项 PhD/MPhil、RA、博士后机会；MSc 论文指导询问不等于 MSc 入学招募。未指定 Fall 2027。",
+        "sources": [
+          {
+            "url": "https://labsun.org/",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "unknowns": [
+        "CityU 院系页本次直接读取返回 403；职位以当前本人实验室页及论文作者单位交叉核实",
+        "确切 CityU 入职日期、剩余名额、资助和具体共同指导安排未核实",
+        "2026/27 HKPFS 新闻不代表 2027/28 名额"
+      ],
+      "links": [
+        {
+          "label": "实验室与招募",
+          "url": "https://labsun.org/"
+        },
+        {
+          "label": "导师与团队",
+          "url": "https://labsun.org/team"
+        },
+        {
+          "label": "院系页面（本次未能直读）",
+          "url": "https://www.cityu.edu.hk/mne/people/academic-staff/mne-faculty/prof-sun-yuxiang"
+        }
+      ],
+      "checkedDate": "2026-10-01",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "polyu_weisong_wen",
+      "cardSummaryZh": "围绕可信自主系统，把 GNSS/LiDAR/视觉/IMU 融合定位与安全导航控制、具身学习结合。",
+      "overview": {
+        "textZh": "Weisong Wen 是 PolyU 航空及民航工程学系助理教授、TAS Lab 创始负责人；2020 年获 PolyU 博士，2021 年起任研究助理教授，2023 年起任助理教授。当前两条主线是具身机器人智能，以及高精度、可量化可靠性的定位导航。",
+        "sources": [
+          {
+            "url": "https://www.polyu.edu.hk/en/aae/people/academic-staff/dr-wen-weisong/",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Trustworthy AI and Autonomous Systems Laboratory (TAS Lab)",
+        "affiliation": {
+          "textZh": "PolyU AAE 教师领导的实验室；研究面向无人机、足式机器人和智能车辆。",
+          "sources": [
+            {
+              "url": "https://www.polyu.edu.hk/en/aae/people/academic-staff/dr-wen-weisong/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "themes": [
+          "多传感器融合与完整性监测",
+          "鲁棒 SLAM 与城市导航",
+          "安全控制与强化学习",
+          "具身基础模型和 VLA"
+        ],
+        "structure": {
+          "textZh": "招募页列与 Huawei、Tencent、Meituan、HONOR 的产业合作；合作机会与项目资源分开记录，不推定个人学生岗位或企业录用。",
+          "sources": [
+            {
+              "url": "https://polyu-taslab.github.io/openings/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "招募页明确提到无人机平台、自动驾驶测试平台及 GPU 集群；型号、容量和分配规则未公开核实。",
+            "sources": [
+              {
+                "url": "https://polyu-taslab.github.io/openings/",
+                "checkedDate": "2026-10-01"
+              }
+            ]
+          },
+          {
+            "textZh": "开放资源包括 TasFusion、pyrtklib、KLT 城市 GNSS 数据集及视觉惯性定位代码。",
+            "sources": [
+              {
+                "url": "https://polyu-taslab.github.io/opensource/",
+                "checkedDate": "2026-10-01"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "TasFusion",
+          "year": 2026,
+          "venue": "开源项目",
+          "summaryZh": "基于 ROS1/Ceres 的 GNSS/IMU 松耦合滑窗优化，含预积分、偏置估计和 NLOS 排除工具。",
+          "url": "https://polyu-taslab.github.io/opensource/2026-01-17-TasFusion.html",
+          "sources": [
+            {
+              "url": "https://polyu-taslab.github.io/opensource/2026-01-17-TasFusion.html",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        {
+          "title": "Integrated Planning and Control on Manifolds: Factor Graph Representation and Toolkit",
+          "year": 2026,
+          "venue": "ICRA（高校与实验室列表）",
+          "summaryZh": "以因子图表达连接流形上的规划与控制；此简介基于题名与官方列表，未作全文方法评价。",
+          "url": "https://polyu-taslab.github.io/research/humanoid",
+          "sources": [
+            {
+              "url": "https://www.polyu.edu.hk/en/aae/people/academic-staff/dr-wen-weisong/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        {
+          "title": "Safety-quantifiable Line Feature-based Monocular Visual Localization with 3D Prior Map",
+          "year": 2025,
+          "venue": "IEEE Transactions on Intelligent Transportation Systems（实验室列表）",
+          "summaryZh": "围绕先验三维地图、线特征视觉定位与定位可靠性量化。",
+          "url": "https://polyu-taslab.github.io/research/fusion",
+          "sources": [
+            {
+              "url": "https://polyu-taslab.github.io/research/fusion",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "公开常年招募 PhD/MPhil/RA/实习等，未指定 Fall 2027；页面列申请材料及能力要求，仍需个人评估。",
+        "sources": [
+          {
+            "url": "https://polyu-taslab.github.io/openings/",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "unknowns": [
+        "常年招聘不是已确认 2027 剩余名额或资助",
+        "具身/人形方向页面含研究目标；不据目标应用声称已拥有特定人形机器人或已完成相关部署",
+        "设备容量、学生可用算力、合作企业分配与指导节奏未核实"
+      ],
+      "links": [
+        {
+          "label": "高校导师简介",
+          "url": "https://www.polyu.edu.hk/en/aae/people/academic-staff/dr-wen-weisong/"
+        },
+        {
+          "label": "实验室",
+          "url": "https://polyu-taslab.github.io/"
+        },
+        {
+          "label": "研究与平台",
+          "url": "https://polyu-taslab.github.io/research/humanoid"
+        },
+        {
+          "label": "招募说明",
+          "url": "https://polyu-taslab.github.io/openings/"
+        }
+      ],
+      "checkedDate": "2026-10-01",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    }
+  ]
+}
