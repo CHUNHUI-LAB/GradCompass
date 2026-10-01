@@ -20,12 +20,98 @@ const briefs={
 };
 function brief(record){return briefs[record.id]||{takeaway:record.summary,use:applicabilityText(record)};}
 function card(r){return `<article class="experience-card" data-experience-id="${e(r.id)}"><p class="small-note">${e(r.applicableCycle)}</p><h3>${e(r.title)}</h3><p class="experience-takeaway">${e(brief(r).takeaway)}</p><p class="experience-background">作者背景：${e(r.background)}</p><p class="small-note">${e(r.platform)} · ${e(r.author)}</p><a class="experience-read-link" href="${e(experienceHref(r.id))}">阅读经验<span class="sr-only">：${e(r.title)}</span></a></article>`;}
-function references(ids,records){const names={'grad-robotics-eth-xiang-2022':'机器人项目申请','grad-sustech-yunzx-2023':'跨专业硕士申请','grad-europe-tinsir-2025':'硕士申请欧陆博士','grad-bjut-mty-2026':'英港新硕士申请'};const linked=ids.map(id=>records.find(r=>r.id===id)).filter(Boolean);return linked.length?`<p class="experience-related">相关经验：${linked.map(r=>`<a href="${e(experienceHref(r.id))}">${e(names[r.id]||r.title)}</a>`).join('、')}</p>`:'';}
-function overview(records){const steps=[
- {title:'先定目标，再核对项目或岗位匹配',text:'项目选择要对照培养目标与研究方向；按岗位申请博士时，还要具体到主题和方法是否匹配。',ids:['grad-robotics-eth-xiang-2022','grad-sustech-yunzx-2023','grad-europe-tinsir-2025']},
- {title:'逐项目拆材料，提前安排推荐',text:'两篇本科背景回顾都可用于检查额外材料、修改时间和推荐安排；科研经历本身不能代替推荐沟通。',ids:['grad-robotics-eth-xiang-2022','grad-sustech-yunzx-2023']},
- {title:'持续记结果，同时核对条件和资助',text:'把提交、待结果、录取、拒信与附带条件分开记录；博士岗位还应单独检查资助覆盖，别把未回复当正式拒信。',ids:['grad-bjut-mty-2026','grad-europe-tinsir-2025']}
- ];const synthesisIds=Object.keys(briefs);const covered=records.filter(r=>synthesisIds.includes(r.id));const pending=records.filter(r=>!synthesisIds.includes(r.id)).length;if(covered.length!==synthesisIds.length)return '<section class="experience-overview"><h3>综合总结暂不完整</h3><p>部分已综合的案例暂未载入。可先逐篇阅读，避免把不完整资料当作全部结论。</p></section>';const available=steps.filter(p=>p.ids.some(id=>records.some(r=>r.id===id)));if(!available.length)return '';return `<section class="experience-overview" aria-labelledby="experience-overview-title"><h3 id="experience-overview-title">这 ${covered.length} 篇经验的综合总结</h3>${pending?`<p class="small-note">另有 ${pending} 篇新收录经验尚未纳入本节归纳，可在下方单独阅读。</p>`:''}<p>比起照抄去向清单，更值得参考的是项目匹配、材料安排和结果记录。按案例内容，可以这样安排准备顺序：</p><ol>${available.map(p=>`<li><strong>${e(p.title)}</strong><p>${e(p.text)}</p>${references(p.ids,records)}</li>`).join('')}</ol><h4>背景不同，参考重点也不同</h4><p>三篇本科起点的经历可参考硕士申请准备，其中跨专业案例更重视培养目标与先修要求；一篇硕士申博经历主要帮助核对岗位匹配和资助，不能用来判断本科直博资格。不同背景的结果不宜直接比较，也不能据此推导录取概率。</p></section>`;}
+function references(ids,records){const names={'grad-robotics-eth-xiang-2022':'机器人项目申请','grad-sustech-yunzx-2023':'跨专业硕士申请','grad-europe-tinsir-2025':'硕士申请欧陆博士','grad-bjut-mty-2026':'英港新硕士申请','grad-ptt-tum-rci-2022':'德国机器人硕士','grad-dcard-ece-ra-phd-2025':'工作后 RA 再申博','grad-dcard-bme-ece-2026':'医工/ECE 面试','grad-reddit-cs-interviews-2025':'CS 博士面试','grad-ngaizean-hkustgz-2026':'红鸟与博士不同结果','grad-szu-mingkangchen-2025':'科研接触与港大群面','grad-xhs-xiga-ra-mphil-2025':'RA 与 MPhil 待完成记录'};const linked=ids.map(id=>records.find(r=>r.id===id)).filter(Boolean);return linked.length?`<p class="experience-related">相关经验：${linked.map(r=>`<a href="${e(experienceHref(r.id))}">${e(names[r.id]||r.title)}</a>`).join('、')}</p>`:'';}
+const synthesis={
+ "scopeRecordIds": [
+  "grad-robotics-eth-xiang-2022",
+  "grad-europe-tinsir-2025",
+  "grad-bjut-mty-2026",
+  "grad-sustech-yunzx-2023",
+  "grad-ptt-tum-rci-2022",
+  "grad-dcard-ece-ra-phd-2025",
+  "grad-dcard-bme-ece-2026",
+  "grad-reddit-cs-interviews-2025",
+  "grad-ngaizean-hkustgz-2026",
+  "grad-szu-mingkangchen-2025",
+  "grad-xhs-xiga-ra-mphil-2025"
+ ],
+ "intro": "这些案例覆盖本科申硕、跨专业、硕士申博和工作后返校做研究。它们提供不同环节的准备方法，不代表录取规律。",
+ "steps": [
+  {
+   "title": "先明确想学什么，再找对应项目与导师",
+   "text": "本科申硕的案例提醒我们核对培养目标与先修课；医工跨方向案例进一步展示了从研究问题反查院系的做法。硕士申博则更需要核对具体研究主题和岗位。",
+   "sourceIds": [
+    "grad-robotics-eth-xiang-2022",
+    "grad-sustech-yunzx-2023",
+    "grad-dcard-bme-ece-2026",
+    "grad-europe-tinsir-2025"
+   ]
+  },
+  {
+   "title": "把材料拆成清单，也给核验和推荐留时间",
+   "text": "除了文书和推荐，德国机器人案例还涉及课程说明、学历预审和语言条件。可把这些与各项目额外写作任务分开安排，再回官网确认本年度要求。",
+   "sourceIds": [
+    "grad-robotics-eth-xiang-2022",
+    "grad-sustech-yunzx-2023",
+    "grad-ptt-tum-rci-2022",
+    "grad-xhs-xiga-ra-mphil-2025"
+   ]
+  },
+  {
+   "title": "面试准备具体到研究、作业与追问",
+   "text": "这里既有研究报告，也有读论文完成作业后再解释思路的面试。另一篇 CS 自述显示，面试官对拓展讨论的期待并不相同。准备应以真实邀请要求为起点，不能照抄一种模板。",
+   "sourceIds": [
+    "grad-dcard-ece-ra-phd-2025",
+    "grad-dcard-bme-ece-2026",
+    "grad-reddit-cs-interviews-2025",
+    "grad-europe-tinsir-2025",
+    "grad-szu-mingkangchen-2025"
+   ]
+  },
+  {
+   "title": "持续记状态，把录取、候补、放弃和资助分开",
+   "text": "结果表不只记录拿到哪些录取。不同案例还有条件录取、候补后拒绝、主动放弃考核、未回复，以及研究有兴趣但资助不合适。同一学校的不同项目也可能给出不同结果。 尚在办理合同或计划以后申请的经历，要保留未完成状态。",
+   "sourceIds": [
+    "grad-bjut-mty-2026",
+    "grad-ptt-tum-rci-2022",
+    "grad-dcard-bme-ece-2026",
+    "grad-reddit-cs-interviews-2025",
+    "grad-europe-tinsir-2025",
+    "grad-ngaizean-hkustgz-2026",
+    "grad-szu-mingkangchen-2025",
+    "grad-xhs-xiga-ra-mphil-2025"
+   ]
+  }
+ ],
+ "differences": [
+  {
+   "title": "RA 是经历，不是学位或保录承诺",
+   "text": "这里既有硕士毕业后返校做 RA，也有本科阶段联系课题组、做研究再申请的经历。它们可用于了解研究安排，不能推导 RA 转博保证或其他项目的录取资格。 小红书案例发帖时仍在办合同和签证，也不能称作已获 MPhil 录取。",
+   "sourceIds": [
+    "grad-dcard-ece-ra-phd-2025",
+    "grad-ngaizean-hkustgz-2026",
+    "grad-szu-mingkangchen-2025",
+    "grad-xhs-xiga-ra-mphil-2025"
+   ]
+  },
+  {
+   "title": "相近名称也可能对应不同申请内容",
+   "text": "机器人、ECE、医工与跨专业硕士案例应按自身目标取用；材料、面试和结果不能直接横比。",
+   "sourceIds": [
+    "grad-robotics-eth-xiang-2022",
+    "grad-sustech-yunzx-2023",
+    "grad-ptt-tum-rci-2022",
+    "grad-dcard-bme-ece-2026"
+   ]
+  }
+ ]
+};
+function overview(records){
+ const covered=records.filter(r=>synthesis.scopeRecordIds.includes(r.id));
+ const pending=records.filter(r=>!synthesis.scopeRecordIds.includes(r.id)).length;
+ if(covered.length!==synthesis.scopeRecordIds.length)return '<section class="experience-overview"><h3>综合总结暂不完整</h3><p>部分已综合的案例暂未载入。可先逐篇阅读，避免把不完整资料当作全部结论。</p></section>';
+ return `<section class="experience-overview" aria-labelledby="experience-overview-title"><h3 id="experience-overview-title">这 ${covered.length} 篇经验的综合总结</h3>${pending?`<p class="small-note">另有 ${pending} 篇新收录经验尚未纳入本节归纳，可在下方单独阅读。</p>`:''}<p>${e(synthesis.intro)}按案例内容，可以这样安排准备顺序：</p><ol>${synthesis.steps.map(p=>`<li><strong>${e(p.title)}</strong><p>${e(p.text)}</p>${references(p.sourceIds,records)}</li>`).join('')}</ol><h4>背景不同，参考重点也不同</h4>${synthesis.differences.map(p=>`<p><strong>${e(p.title)}</strong>：${e(p.text)}</p>${references(p.sourceIds,records)}`).join('')}<p>不同背景的结果不宜直接比较，也不能据此推导录取概率。</p></section>`;
+}
 export function renderExperienceReading(records,id){
  const back='<a class="experience-back" href="#experiences">← 返回经验列表</a>';
  if(records===null)return {title:'经验资料暂时无法读取',countLabel:'请刷新后重试',html:back+'<div class="empty"><p>该篇资料尚未载入；可先返回经验列表或浏览其他页面。</p></div>'};

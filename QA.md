@@ -1,40 +1,33 @@
-# GradCompass navigation and summary candidate QA
+# GradCompass experience expansion QA
 
-Base supplied for review: `490487a53e9f6177a53b9bfcb0dc542dd4b1ad23`. Status: local candidate, not published. This source snapshot has no local git metadata; remote HEAD is not verified by this build.
+Base: `f90ec1e7d47b0b88df25be81f5fc26ec8e63092b`. Remote main rechecked on 2026-10-01; all 37 base blobs match the local source snapshot. This is an isolated candidate, not published.
 
 ## Passed
 
-- All 101 Node / DOM-contract tests passed
-- Syntax checks pass for affected application modules and browser scripts
-- Changed experience/record-summary imports and app/style entry URLs use actual SHA-256 content prefixes; unchanged modules retain their URLs
-- Local asset and module checks resolve URL pathname, so query strings do not hide missing files; version/content consistency is tested
-- Five task-based navigation labels preserve existing hash URLs
-- Projects, deadlines and materials open in-site summaries; experience links open a full reading route with direct-entry, list-return and history behavior
-- Each page exposes only applicable filters and keeps separate choices; material/project/calendar views cannot inherit hidden advisor filters
-- Material search/reset and repeated navigation preserve advisor school, rank, search, RA and recruitment selections
-- Experience cards have one reading action; overview evidence links open the same reading route without an intermediate scroll-to-card action
-- Exact repeated project-condition and material-scope text is removed without dropping extra conditions
-- Four experiences have individual summaries and a bounded synthesis; evidence links open the supporting reading pages
-- A fifth record keeps the four-case synthesis and explicitly shows that one record is not yet incorporated
-- Original 32 advisors, 10 profiles, 46 opportunities / 30 people and rank intersections remain intact
-- Original catalog, RA, profiles, experience data and core eligibility logic remain byte-identical
-- 12 supplementary material groups plus two original Westlake records render as 14 groups; the 25 non-Westlake verified routes are covered by the supplement
-- 33 referenced official sources resolve; source IDs retain field evidence without duplicated research notes or fetching metadata
-- Material statuses, unknowns, scope notes and source dates are preserved; RA is not relabeled as degree materials
-- Optional supplement failure is explicitly disclosed and preserves original materials and other pages
-- Repeated dialog opens, related-record changes and navigation dismissal are exercised by DOM contracts
-- HTML/source safety and invalid-record fail-closed checks pass
+- All 111 Node / DOM-contract tests pass, with no skipped tests
+- Eleven records across nine source sites or collections; the original four record objects are unchanged and checked by a fixed digest
+- Each of the seven new cases retains summary, context, actions, outcome, exclusions, reading scope, date and commercial disclosure
+- Every case is mapped within the eleven-case synthesis, not just the card list
+- A twelfth unsynthesized case leaves the eleven-case overview visible and explicitly pending; missing synthesized cases produce an incomplete notice
+- One CTA per card, full in-site reading, original post after summary and restrictions; direct URL, return, history and invalid-link contracts preserved
+- RA-to-PhD cases, ambiguous MPhil/PhD notation, missing replies, inconsistent dates, stale waiting paragraphs and unfinished RA/MPhil intent are explicitly bounded
+- New source links contain no signed query parameters; no personal contacts, exact grades, offer identifiers or screenshots are copied
+- Source provenance matches all eleven IDs and URLs; no experience record joins official advisor/project/job eligibility
+- Content-hash chain covers experience JSON and experience module, then app, then HTML; unchanged modules, styles and official data keep their bytes/versions
+- Resource existence and content checks resolve URL pathname, so query strings cannot conceal missing files
+- Entire prior eligibility, advisor counts, materials, summaries, independent-filter and restoration regression suite passes
+- Protected `tests/render.test.mjs` remains byte-identical to the published base
 
-## Updated cross-view contracts
+## Source review
 
-Two existing tests in `tests/render.test.mjs` were updated to verify the new independent-filter behavior: an advisor's RA selection does not turn the projects page into an RA empty state, and an empty advisor rank does not filter the projects page to zero. Both tests also verify that returning to the advisor page restores its exact selection and result count. Every other byte of that published test file is preserved.
+Six new text-first sources have complete main-text reading evidence. The Xiaohongshu case was reviewed in the cloud browser: full post, cover and 20 currently loaded comments/replies; remaining comments in the displayed total of 53 were not expanded. Its cover's MPhil claim does not override the unfinished contract/visa state in the body. Personal outcomes are self-report, not independently verified decisions.
 
-No test was skipped. The complete suite after these exact updates passed all 101 tests.
+## Browser status
 
-## Browser verification blocked
+The published f90ec baseline was actually checked on desktop: four cards to full reading, Back/Forward, list return, and advisor RA filter restoration across the material page. Text and source links were readable. Mobile was not checked and user acceptance was not established.
 
-Chromium fails during launch because socket creation is denied (`Operation not permitted`). No browser assertion, screenshot, visual acceptance, keyboard-focus acceptance or complete accessibility pass is claimed. Browser regression scripts have been updated for desktop/mobile navigation, full reading routes, direct entry/refresh, original-source flow, Back/Forward, isolated filters, repeated actions and optional-data failures, but remain unexecuted in a permitted browser environment.
+The new eleven-case candidate has expanded browser regression coverage, including each new reading page. Local Chromium launch remains blocked by socket creation (`Operation not permitted`); no new browser, screenshot, visual or mobile acceptance is claimed. The full browser smoke suite is likewise not accepted. Existing desktop baseline success is not reported as new candidate acceptance.
 
-## Before publication
+## Release gate
 
-Run the full suite against any later edits, execute both browser suites in a permitted preview environment, inspect desktop and 320/390px views, verify remote HEAD against the expected base, and regenerate the exact release manifest. Do not publish research directories or material-research files wholesale.
+Rerun tests and freeze after edits. Review the exact changed-file allowlist and public source excerpts, approve publication separately, recheck main to preserve concurrency, then verify exact CI/Pages commit and actual online reading flows. Do not upload research work directories wholesale.

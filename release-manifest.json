@@ -1,18 +1,18 @@
 {
   "project": "GradCompass",
-  "revision": "r2.8-reading-flow-candidate",
-  "baseDeployedCommit": "490487a53e9f6177a53b9bfcb0dc542dd4b1ad23",
+  "revision": "r2.9-experience-expansion-candidate",
+  "baseDeployedCommit": "f90ec1e7d47b0b88df25be81f5fc26ec8e63092b",
   "snapshotDate": "2026-10-01",
   "status": "local candidate; Node tests passed; browser acceptance outstanding; publication not performed",
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
   "browserVisualQA": "blocked: Chromium socket denied; no browser or visual acceptance claimed",
   "profilePilotCount": 10,
-  "nodeTestsTotal": 101,
-  "nodeTestsPassed": 101,
+  "nodeTestsTotal": 111,
+  "nodeTestsPassed": 111,
   "nodeTestsFailed": 0,
-  "experienceRecords": 4,
-  "defaultExperienceRecords": 4,
+  "experienceRecords": 11,
+  "defaultExperienceRecords": 11,
   "materialRecords": 14,
   "materialSupplementRecords": 12,
   "materialSupplementSources": 33,
@@ -24,18 +24,18 @@
     },
     {
       "path": "QA.md",
-      "bytes": 3885,
-      "sha256": "3a7edb1c60778da51ff3ac1a4fb16561564e560105f6b8b11365ff19acd10784"
+      "bytes": 3277,
+      "sha256": "543838b11fb59e76b27dda476cfaa683d408057d7577170a2f29cb5d378e7053"
     },
     {
       "path": "README.md",
-      "bytes": 4124,
-      "sha256": "329d0771cfcc4d5dc04a84a75dff1cb48daaf9107cfbc544f7854902a454573f"
+      "bytes": 4911,
+      "sha256": "c39a0cd32345a36b88ad3e0f6426a91ec57d5012d2bc6780dcbb75d5260e0912"
     },
     {
       "path": "assets/app.js",
-      "bytes": 34085,
-      "sha256": "90b5a0e35f19ec0c15c67688bb4dced6d54cc559956ef80cfdeff812d8d92f78"
+      "bytes": 34100,
+      "sha256": "e6da006c54d2053e21b4b435c94dc0156d9d1f1f40262dcbbf7ea71681636068"
     },
     {
       "path": "assets/core.js",
@@ -44,8 +44,8 @@
     },
     {
       "path": "assets/experiences.js",
-      "bytes": 8978,
-      "sha256": "5e33792aad917fb280ec8165d6c017e24b8ae8fffbc9abc68f1c5422ad8fac79"
+      "bytes": 11834,
+      "sha256": "a0bc159bf1f30c9999cd927a475d55e198e41726757956efff61e98b29189f56"
     },
     {
       "path": "assets/favicon.svg",
@@ -79,13 +79,13 @@
     },
     {
       "path": "data/application-experience-provenance.json",
-      "bytes": 2734,
-      "sha256": "9e8ce10513042aeb1076d35ae5812bc35a1e453832b2ed8e4930c395c4bd658e"
+      "bytes": 8190,
+      "sha256": "bee3b4dcd9e868df8a8bdd7c0b4f0e5da55161027efc7389caf4f96af4004303"
     },
     {
       "path": "data/application-experiences.json",
-      "bytes": 8662,
-      "sha256": "24e26d4f56c4856b7fc5f35ea063f994dece6e65dfc3bf6ad63ef3c7b3b6cb1a"
+      "bytes": 22792,
+      "sha256": "3f8f84c22275b171f397c9c2b4841dcaadc7eed92467be5c183f243f3fe7f87c"
     },
     {
       "path": "data/catalog-test-manifest.json",
@@ -115,7 +115,7 @@
     {
       "path": "index.html",
       "bytes": 6974,
-      "sha256": "10d46a92b1ce93d2187bb8457c88fb2aef28e0a21e8cab958539c8f4028520ea"
+      "sha256": "668a4fc78392bfef6400cf95079cac7a05df4f7ac51fdc2de44472835ba4ff61"
     },
     {
       "path": "package.json",
@@ -124,8 +124,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 3143,
-      "sha256": "f341b73c1e4c48619bd809bb0a83461b85f47ebbbdd6a416c26018b27e9cac02"
+      "bytes": 3483,
+      "sha256": "5488220f36e54d26716a79d34690f493c01431a0776cef6815d7b6e7a5bb8ea7"
     },
     {
       "path": "tests/browser-smoke.mjs",
@@ -138,24 +138,29 @@
       "sha256": "a03f7eafa10470cacccbaec18dc7dcf628df800c306f5eb5b8cc2273b063dc82"
     },
     {
+      "path": "tests/experience-expansion.test.mjs",
+      "bytes": 5264,
+      "sha256": "3994d0e3b20bec0f766b9efe5943894a89c98c18f21281fa6607a0392804a0cc"
+    },
+    {
       "path": "tests/experience-navigation.test.mjs",
-      "bytes": 6236,
-      "sha256": "1d58324b61809f4cd1c5c31226bf34a1db30b477666a00634aa88e2da1109792"
+      "bytes": 6246,
+      "sha256": "9c04a3dc693579c77b6d0e797f7f69c075cfdc980a9abc4ba9349286fe5ecbd9"
     },
     {
       "path": "tests/experiences-browser.mjs",
-      "bytes": 9133,
-      "sha256": "a8608b9435c32e69ed544128b4dd63d885257295b66a9211a36791976b2662bd"
+      "bytes": 9868,
+      "sha256": "097cb958bfbe51898b7d5247f832ea2965b6d8239fa364b28e83d537337b50f2"
     },
     {
       "path": "tests/experiences.test.mjs",
-      "bytes": 6359,
-      "sha256": "d6773967696eb3e01e200e870bbf4ee8e017b686016494ada8a3089555ddf192"
+      "bytes": 6439,
+      "sha256": "0f252dd4449986c639024f44a193e438f6785c1ba8ed305c775a0d55961caced"
     },
     {
       "path": "tests/material-loading.test.mjs",
-      "bytes": 5586,
-      "sha256": "5087788c9edfc95b67bdc6c26496888242d2bd59e795a18a0d4fddd42c6f891c"
+      "bytes": 5587,
+      "sha256": "fe7bf96e5607a55c09a743962f6ebc4c01e0fa67ce61354abbb831af2f5653de"
     },
     {
       "path": "tests/material-supplement.test.mjs",
@@ -189,13 +194,13 @@
     },
     {
       "path": "tests/resource-versions.test.mjs",
-      "bytes": 1890,
-      "sha256": "2f557ab50aaa8d49b07e5fb119d6907435964a38a86e51f5c349ebdf4ed8f5c9"
+      "bytes": 2363,
+      "sha256": "633931ade488c28ad9901e5474c08efe69745daa01c9a91233e2c80173251429"
     },
     {
       "path": "tests/summary-navigation.test.mjs",
-      "bytes": 7359,
-      "sha256": "c6e01a334a65d6b22bb9f3cbfbb8ebdc88771464df395acc3d743797f8f7ba13"
+      "bytes": 7369,
+      "sha256": "28748cd8e7b1b1884c0d94855298a6b688612798894998f93649cae6051e7432"
     }
   ]
 }

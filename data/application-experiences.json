@@ -131,6 +131,211 @@
       "evidenceType": "first_person_self_report",
       "checkedAt": "2026-10-01",
       "rulesImpact": "none"
+    },
+    {
+      "id": "grad-ptt-tum-rci-2022",
+      "title": "德国机器人硕士申请：课程说明、语言条件与分阶段审核",
+      "url": "https://www.ptt.cc/bbs/studyabroad/M.1642392010.A.798.html",
+      "platform": "PTT studyabroad",
+      "author": "nathan4074",
+      "publishedAt": "2022-01-17",
+      "applicableCycle": "2022 夏季入学（TUM RCI，作者自述）",
+      "background": "机械工程本科，有机器人竞赛项目；曾在德国读预科",
+      "authorContext": "机械工程本科背景，自述准备德语并在德国读预科，申请机器人及机械类硕士。",
+      "outcome": "自述获 TUM RCI 录取及 Stuttgart 机械类条件录取；另有拒信，TUM 其他项目进入二阶段后主动放弃。未核验决定信。",
+      "summary": "作者分开记录录取、语言条件与主动放弃，并讲述学历预审、课程说明和论文阅读写作的准备。可借鉴材料拆分，不能照搬当年的要求。",
+      "actionableMethods": [
+        "为每个项目分别列学历、课程、语言和写作材料",
+        "区分正式拒信与自己放弃后续考核"
+      ],
+      "excludedClaims": [
+        "不沿用旧评分权重、语言门槛、费用、办理时长或签证说法",
+        "不采纳课程相近就容易录取的泛化"
+      ],
+      "commercialDisclosure": "作者说明使用过留德代办润稿；所读正文未见付费服务招揽。",
+      "readScope": "主帖文字全文及结果表已读；回复未作为证据；没有以图片或视频取证。",
+      "collection": "bachelor",
+      "dateNote": "页面标注发表于 2022-01-17；正文明确 TUM RCI 为 2022 SS。",
+      "bachelorApplicability": "可参考本科申硕的材料组织；历史经历不证明当前资格或录取概率。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-01",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-dcard-ece-ra-phd-2025",
+      "title": "工作后返校做 RA 再申博：把研究匹配讲具体",
+      "url": "https://www.dcard.tw/f/studyabroad/p/259353797",
+      "platform": "Dcard 留学板",
+      "author": "匿名作者",
+      "publishedAt": null,
+      "applicableCycle": "2025 Fall（作者标题）",
+      "background": "电机本科、通信工程硕士；有业界工作和两段返校 RA 经历",
+      "authorContext": "自述硕士毕业后在芯片设计行业工作，之后返校做两段 RA，申请美国 ECE PhD。",
+      "outcome": "自述获 UMich、Purdue、TAMU ECE 录取，选择 UMich；Rice 降录硕士，其余有拒信或未回复。未核验决定信。",
+      "summary": "作者用表格跟踪导师和申请进度，以研究报告准备面试；一次偏控制方向的讨论未获录取。RA 经历提供了准备时间，但两段 RA 并非都有论文产出。",
+      "actionableMethods": [
+        "逐导师记录自己的研究与对方工作的具体连接",
+        "面试前练习研究报告，并准备方法与结果的追问"
+      ],
+      "excludedClaims": [
+        "不采纳研究匹配百分比、面试即大概率录取或按职级判断经费的结论",
+        "不沿用作者对语言分数的宽松建议；RA 不保证论文或博士录取"
+      ],
+      "commercialDisclosure": "所读主帖未见付费申请服务招揽；账号其他内容未审计。",
+      "readScope": "主帖文字全文已读；评论未读取；未使用图片或视频证据。",
+      "collection": "cross-background",
+      "dateNote": "标题为 2025 Fall，正文含 2023—2024 准备时间线；页面提取未返回可靠发布日期。",
+      "bachelorApplicability": "适合已有硕士和研究经历的申博准备；不是本科直博或 RA 职位申请指南。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-01",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-dcard-bme-ece-2026",
+      "title": "医工跨到 ECE：选方向、做面试作业与候补后的拒信",
+      "url": "https://www.dcard.tw/f/studyabroad/p/261169612",
+      "platform": "Dcard 留学板",
+      "author": "匿名作者",
+      "publishedAt": null,
+      "applicableCycle": "2026 Fall（作者标题）",
+      "background": "生医工程本科，有专题和项目经历，自述申请时没有论文",
+      "authorContext": "以生医仪器、穿戴设备为目标，主要申请 ECE 硕士，另申请 MIT Media Lab 博士。",
+      "outcome": "自述获多项 ECE 硕士录取；MIT Media Lab 经作业与面试后候补，结果表更新为 5 月 12 日拒绝。未核验决定信，未提取最终入读选择。",
+      "summary": "先按子方向筛院系，再检查教授近期论文与在职情况。面试复盘强调作业提交后仍要完善解释、练习英文追问；候补不能当录取。",
+      "actionableMethods": [
+        "从具体研究问题反查院系和导师，而非只按专业名称选校",
+        "给面试作业复盘、口头解释和问题澄清留出时间"
+      ],
+      "excludedClaims": [
+        "文末仍有等待更新的旧段落，以同帖明确更新的结果表描述状态",
+        "不推导无论文不能申博；不照搬其他人的多轮作业和面试次数"
+      ],
+      "commercialDisclosure": "作者提到代办提供申请名额；所读主帖未见付费服务招揽。",
+      "readScope": "主帖文字全文及更新结果表已读；两处贴纸未用于取证，外链和评论不纳入。",
+      "collection": "bachelor",
+      "dateNote": "标题为 26Fall；主帖结果表更新至 5 月 12 日，提取未返回可靠发布日期。",
+      "bachelorApplicability": "可参考本科跨方向选校和面试准备；该博士个案最终未录取，不能作为录取模板。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-01",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-reddit-cs-interviews-2025",
+      "title": "三场 CS 博士面试：研究讨论、不同期待与资助限制",
+      "url": "https://www.reddit.com/r/gradadmissions/comments/1q4qyku/sharing_what_i_learned_from_a_tough_cs_phd/",
+      "platform": "Reddit r/gradadmissions",
+      "author": "Pleasant-Bit1511",
+      "publishedAt": null,
+      "applicableCycle": "2025 申请季（作者标题与正文）",
+      "background": "CS 交叉方向博士申请者；主帖未说明申请前学历阶段",
+      "authorContext": "匿名自述申请 14 个 CS 博士项目，发表经历有限；学历、完整申请名单和录取学校未具名。",
+      "outcome": "自述收到 3 次面试、2 次拒绝及 1 次录取；一次拒绝与可用资助方向不符有关。未核验面试或决定信。",
+      "summary": "作者尝试解释研究思路、讨论具体论文，但遇到不同面试官期待：有人愿意拓展讨论，也有人要求聚焦既有工作。对研究感兴趣与有合适资助是两回事。",
+      "actionableMethods": [
+        "同时准备自己的研究介绍和一篇相关论文的讨论",
+        "把导师兴趣、研究方向和资助是否匹配分开核对"
+      ],
+      "excludedClaims": [
+        "不把面试官个人反应归纳为职级规律，不采用未具名学校的排名说法",
+        "不由一个人的结果推断发表要求、全国经费变化或录取概率"
+      ],
+      "commercialDisclosure": "所读主帖未见付费服务招揽；账号其他内容未审计。",
+      "readScope": "主帖全部文字已读；评论虽有部分返回但未用作摘要证据；无图片或视频证据。",
+      "collection": "cross-background",
+      "dateNote": "主帖明确讨论 2025 申请季；页面只显示相对发帖时间，发布日期留空。",
+      "bachelorApplicability": "可参考研究面试准备；学历背景不明，不用于判断本科直博资格。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-01",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-ngaizean-hkustgz-2026",
+      "title": "红鸟两次未过初筛后获申博机会：RA 与不同项目分开看",
+      "url": "https://ngaizean.com/posts/appli_record/",
+      "platform": "Ngaizean 个人博客",
+      "author": "Ngaizean",
+      "publishedAt": "2026-01-09",
+      "applicableCycle": "2026 Fall（作者自述）",
+      "background": "软件工程本科，有科研发表和港科广 RA 经历",
+      "authorContext": "软件工程本科背景，申请港科广红鸟、DSA PhD 及港中深 DS/CIE 硕士。",
+      "outcome": "自述红鸟两轮未过初筛、后获 DSA PhD offer；另有港中深硕士录取。不同项目结果不能互相替代，未核验决定信。",
+      "summary": "从联系导师、更新简历申请 RA，到继续完成课题，作者记录了多条申请进程。可借鉴持续沟通和研究复盘，不能把 RA 或导师认可当作另一项目的录取保证。",
+      "actionableMethods": [
+        "有新研究进展时更新简历，再具体提出 RA 申请",
+        "分别记录口头意向、正式结果与不同项目状态"
+      ],
+      "excludedClaims": [
+        "口头 offer 时间表写 11 月，正文写 10.23，二者不一致，不选定具体日期",
+        "不采纳机筛排名线、概率、学历偏见、旧费用及语言门槛",
+        "不沿用 AI 代写、转发推荐信或选择性提交成绩单的建议"
+      ],
+      "commercialDisclosure": "正文含非官方社群推荐，未见作者付费服务招揽；未转载联系信息。",
+      "readScope": "文字正文和时间表完整核读；图片、评论及外链未用于取证。",
+      "dateNote": "页头为 2026-01-09；正文标注 2026 年 1 月，口头 offer 日期存在冲突。",
+      "bachelorApplicability": "可参考本科申请沟通与研究安排；自述博士录取不证明当前本科直博资格。",
+      "collection": "bachelor",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-01",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-szu-mingkangchen-2025",
+      "title": "科研接触与英语群面：计算机本科选择港大硕士",
+      "url": "https://szu-feiyue.github.io/overseas/CompSci/2025/cases/mingkangchen/",
+      "platform": "深圳大学飞跃手册",
+      "author": "陈铭康",
+      "publishedAt": null,
+      "applicableCycle": "2025 届申请经历（页面归档）",
+      "background": "计算机科学与技术本科，有科研和竞赛经历",
+      "authorContext": "计算机本科背景，比较港科广研究机会与港大 CS 硕士，最终选择港大。",
+      "outcome": "自述最终 HKU MSc CS；港科广结果表将 MPhil/PhD 合写，无法拆明学位；西湖是未回复，不是正式拒信。未核验决定信。",
+      "summary": "作者记录了一学期线上组会和一个月暑期实习，也回顾了港大英语群面。可参考提前了解课题组、练习解释解题思路，旧试题仅作回忆。",
+      "actionableMethods": [
+        "通过持续组会或研究接触了解课题组与自身兴趣",
+        "练习全英自我介绍和小组讨论中的思路表达"
+      ],
+      "excludedClaims": [
+        "不把 MPhil/PhD 合写解释为两个学位双录取",
+        "不采用科研经历即可高概率录取、学科前景贬低或旧语言门槛",
+        "页面 2026-09-06 的署名为维护者，不能作为本文作者的发布日期"
+      ],
+      "commercialDisclosure": "所读正文未见付费申请服务招揽；未转载个人联系信息。",
+      "readScope": "文字正文及申请表完整核读；未使用评论、图片或外链证据。",
+      "dateNote": "归档于 2025 届；作者发布日期未知，页面维护日期不作发表日期。",
+      "bachelorApplicability": "可参考本科申硕准备；研究接触经历不构成 MPhil 或 PhD 录取承诺。",
+      "collection": "bachelor",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-01",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-xhs-xiga-ra-mphil-2025",
+      "title": "从语言准备到 RA 意向：尚未完成的 MPhil 申请记录",
+      "url": "https://www.xiaohongshu.com/explore/685ec9e0000000002400907f",
+      "platform": "小红书",
+      "author": "西嘎",
+      "publishedAt": "2025-06-27",
+      "applicableCycle": "25Fall RA、26Spring MPhil 意向（发帖时尚未完成）",
+      "background": "本科阶段有科研经历，之后调整读研计划",
+      "authorContext": "自述同时处理毕业设计、语言准备和申请；目标学校未具名。",
+      "outcome": "自述导师建议先做半年 RA，再申请 MPhil；发帖时合同和签证仍在办理，不能称为最终录取。",
+      "summary": "作者先准备语言并联系导师，更新语言成绩后再次发信，获得一次面试。值得借鉴的是持续更新材料，并区分导师建议、RA 合同进展与正式学位录取。",
+      "actionableMethods": [
+        "将语言准备、材料更新和导师联系分开跟踪",
+        "收到意向后继续核对合同、签证和正式申请状态"
+      ],
+      "excludedClaims": [
+        "封面称申到 MPhil，但正文未完成；不推导已录取或 RA 转学位保证",
+        "不以发信数量计算录取概率，不沿用评论中的统一截止或条件录取说法"
+      ],
+      "commercialDisclosure": "所读主文未见付费咨询或销售入口；账号其他内容未审计。",
+      "readScope": "正文、封面及当前已加载的 20 条评论/回复已核读；页面共 53 条，其余折叠未展开；未核验录取信。",
+      "dateNote": "正文日期为 2025-06-27；搜索显示次日，以正文日期为准并保留差异。",
+      "bachelorApplicability": "可参考本科阶段的申请安排；这是未完成案例，不能证明当前 MPhil 资格或最终录取。",
+      "collection": "bachelor",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-01",
+      "rulesImpact": "none"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "baseCommit": "243344894469b5f445bf7a1974e68cd06332c082",
+  "baseCommit": "f90ec1e7d47b0b88df25be81f5fc26ec8e63092b",
   "reviewDate": "2026-10-01",
-  "status": "local_candidate_not_published",
+  "status": "reviewed_content_candidate",
   "sourcePolicy": "Only independently addressable public first-person sources with reviewed main text; personal outcomes remain self-reported. No admission rules imported.",
   "records": [
     {
@@ -32,6 +32,98 @@
       "scope": "可提取全文与申请结果清单已读；外链文章、评论未读",
       "dateInterpretation": "2023 Fall历史申请季（正文语境）；发布日期未知; publication date unknown",
       "bachelorApplicability": "Preparation methods only, historical self-report; no current eligibility or recruitment inference."
+    },
+    {
+      "id": "grad-ptt-tum-rci-2022",
+      "url": "https://www.ptt.cc/bbs/studyabroad/M.1642392010.A.798.html",
+      "scope": "主帖文字全文及结果表已读；回复未作为证据；没有以图片或视频取证。",
+      "dateInterpretation": "页面标注发表于 2022-01-17；正文明确 TUM RCI 为 2022 SS。",
+      "bachelorApplicability": "可参考本科申硕的材料组织；历史经历不证明当前资格或录取概率。",
+      "fieldLocations": {
+        "publishedAt": "页头时间",
+        "authorContext": "Background / Project",
+        "outcome": "申请结果",
+        "summary": "TUM Mechanical Engineering / TUM Robotic, Cognition, Intelligence",
+        "commercialDisclosure": "TUM RCI 段落末尾"
+      }
+    },
+    {
+      "id": "grad-dcard-ece-ra-phd-2025",
+      "url": "https://www.dcard.tw/f/studyabroad/p/259353797",
+      "scope": "主帖文字全文已读；评论未读取；未使用图片或视频证据。",
+      "dateInterpretation": "标题为 2025 Fall，正文含 2023—2024 准备时间线；页面提取未返回可靠发布日期。",
+      "bachelorApplicability": "适合已有硕士和研究经历的申博准备；不是本科直博或 RA 职位申请指南。",
+      "fieldLocations": {
+        "authorContext": "公版信息 / 申请时程",
+        "outcome": "录取学校",
+        "summary": "调查学校 / 联络教授 / 申请和面试",
+        "excludedClaims": "英文考试 / 教授职级与经费建议"
+      }
+    },
+    {
+      "id": "grad-dcard-bme-ece-2026",
+      "url": "https://www.dcard.tw/f/studyabroad/p/261169612",
+      "scope": "主帖文字全文及更新结果表已读；两处贴纸未用于取证，外链和评论不纳入。",
+      "dateInterpretation": "标题为 26Fall；主帖结果表更新至 5 月 12 日，提取未返回可靠发布日期。",
+      "bachelorApplicability": "可参考本科跨方向选校和面试准备；该博士个案最终未录取，不能作为录取模板。",
+      "fieldLocations": {
+        "authorContext": "背景 / 选系依据",
+        "outcome": "结果和公布时间；正文末旧等待段已单独指出",
+        "summary": "选校依据 / MIT Media Labs PhD 面试心得",
+        "commercialDisclosure": "选校依据末尾代办名额"
+      }
+    },
+    {
+      "id": "grad-reddit-cs-interviews-2025",
+      "url": "https://www.reddit.com/r/gradadmissions/comments/1q4qyku/sharing_what_i_learned_from_a_tough_cs_phd/",
+      "scope": "主帖全部文字已读；评论虽有部分返回但未用作摘要证据；无图片或视频证据。",
+      "dateInterpretation": "主帖明确讨论 2025 申请季；页面只显示相对发帖时间，发布日期留空。",
+      "bachelorApplicability": "可参考研究面试准备；学历背景不明，不用于判断本科直博资格。",
+      "fieldLocations": {
+        "authorContext": "开头与发表经历段",
+        "outcome": "Here’s how it went",
+        "summary": "研究讨论列表及其后面试官不同反应",
+        "commercialDisclosure": "主帖从开头至结尾检查"
+      }
+    },
+    {
+      "id": "grad-ngaizean-hkustgz-2026",
+      "url": "https://ngaizean.com/posts/appli_record/",
+      "scope": "文字正文和时间表完整核读；图片、评论及外链未用于取证。",
+      "dateInterpretation": "页头为 2026-01-09；正文标注 2026 年 1 月，口头 offer 日期存在冲突。",
+      "bachelorApplicability": "可参考本科申请沟通与研究安排；自述博士录取不证明当前本科直博资格。",
+      "fieldLocations": {
+        "authorContext": "个人背景",
+        "outcome": "项目时间线 / 红鸟一拒二拒 / 博士 offer / 港中深",
+        "summary": "心路 / 博士 offer",
+        "dateNote": "页头 / 项目时间线与博士 offer 段落冲突"
+      }
+    },
+    {
+      "id": "grad-szu-mingkangchen-2025",
+      "url": "https://szu-feiyue.github.io/overseas/CompSci/2025/cases/mingkangchen/",
+      "scope": "文字正文及申请表完整核读；未使用评论、图片或外链证据。",
+      "dateInterpretation": "归档于 2025 届；作者发布日期未知，页面维护日期不作发表日期。",
+      "bachelorApplicability": "可参考本科申硕准备；研究接触经历不构成 MPhil 或 PhD 录取承诺。",
+      "fieldLocations": {
+        "authorContext": "背景",
+        "outcome": "申请情况 / 最终去向",
+        "summary": "经历分享：港科广、港大",
+        "dateNote": "2025届归档 / 页面末维护者署名"
+      }
+    },
+    {
+      "id": "grad-xhs-xiga-ra-mphil-2025",
+      "url": "https://www.xiaohongshu.com/explore/685ec9e0000000002400907f",
+      "scope": "正文、封面及当前已加载的 20 条评论/回复已核读；页面共 53 条，其余折叠未展开；未核验录取信。",
+      "dateInterpretation": "正文日期为 2025-06-27；搜索显示次日，以正文日期为准并保留差异。",
+      "bachelorApplicability": "可参考本科阶段的申请安排；这是未完成案例，不能证明当前 MPhil 资格或最终录取。",
+      "fieldLocations": {
+        "authorContext": "正文背景 / 已加载作者回复",
+        "outcome": "正文合同与签证状态 / 作者对半年 RA 的回复",
+        "summary": "正文语言准备与两阶段联系导师记录",
+        "dateNote": "正文日期与搜索日期差异"
+      }
     }
   ],
   "excludedSourceCategories": [
