@@ -67,6 +67,70 @@
       "evidenceType": "first_person_self_report",
       "checkedAt": "2026-10-01",
       "rulesImpact": "none"
+    },
+    {
+      "id": "grad-bjut-mty-2026",
+      "title": "英港新硕士申请回顾：同时记录录取、拒信与条件",
+      "url": "https://www.bjutswift.cn/feiyue/applicant/Applicant-00007",
+      "platform": "北工大飞跃手册",
+      "author": "mty",
+      "publishedAt": null,
+      "applicableCycle": "2026 Fall（作者所列申请批次）",
+      "authorContext": "软件工程本科，自述有实习、无科研；不同于已有机器人研究经历的申请者",
+      "outcome": "自报最终选择NTU Computer Control Automation；港校及机器人项目有拒信，另有英国硕士录取；未独立核验决定信",
+      "summary": "作者按学校记录多种结果及条件，并给出从九月投递到次年四月最终收到录取的时间线。可以借鉴项目状态表和条件核对，不以单个申请人的结果推断学校偏好或录取概率。",
+      "actionableMethods": [
+        "把待结果、拒信、录取、附带条件和最终选择分列",
+        "逐项核对官方项目要求，不把别人的语言豁免或条件直接套用",
+        "保存每次提交与通知日期，安排结果未定时的后续选项"
+      ],
+      "excludedClaims": [
+        "不采纳早申请必然提高概率",
+        "不采纳不必重视专业匹配、只看绩点等泛化",
+        "不采纳单个申请人的结果所推导的学校录取偏好",
+        "不转载个人联系信息或精确成绩排名"
+      ],
+      "commercialDisclosure": "正文为公开申请经历；作者是否有其他商业合作未核验",
+      "readScope": "可提取全部正文、项目结果表及时间线已读；评论未返回，未读",
+      "collection": "bachelor",
+      "background": "软件工程本科，自述有实习、无科研；不同于已有机器人研究经历的申请者",
+      "dateNote": "2026 Fall（作者所列申请批次）；网页未提供可靠发布日期",
+      "bachelorApplicability": "可参考本科申请准备流程；历史结果不证明当前资格、导师名额或个人录取概率",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-01",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-sustech-yunzx-2023",
+      "title": "跨专业硕士申请回顾：培养目标与材料准备",
+      "url": "https://sustech-application.com/post/yunzx19",
+      "platform": "南科大飞跃手册",
+      "author": "肖云中",
+      "publishedAt": null,
+      "applicableCycle": "2023 Fall历史申请季（正文语境）；发布日期未知",
+      "authorContext": "工业设计本科转申CS/ECE类硕士，有Berkeley交流和科研经历；并非机器人MPhil录取个案",
+      "outcome": "作者自报11个项目、2个录取，最终选择CMU MSMITE；结果未独立核验",
+      "summary": "作者复盘跨专业选校偏高、文书与培养目标的匹配，以及科研经历不自动等于推荐信。可据此提前明确研究或就业目标、先修要求与推荐安排。",
+      "actionableMethods": [
+        "分别检查课程培养、研究训练与职业目标是否匹配",
+        "提前与推荐人沟通其能具体评价的工作内容",
+        "逐项列出文书和先修材料，不依赖旧经验对项目机制的描述"
+      ],
+      "excludedClaims": [
+        "不采用作者自行估计的录取概率或独立事件计算",
+        "不沿用旧学费、资助额度、招生人数、转博与免学费说法",
+        "不推导所有美国PhD全奖、申请数量越多越好等普适结论",
+        "不转载个人联系方式、精确成绩或排名"
+      ],
+      "commercialDisclosure": "正文为公开申请经历；作者是否有其他商业合作未核验",
+      "readScope": "可提取全文与申请结果清单已读；外链文章、评论未读",
+      "collection": "bachelor",
+      "background": "工业设计本科转申CS/ECE类硕士，有Berkeley交流和科研经历；并非机器人MPhil录取个案",
+      "dateNote": "2023 Fall历史申请季（正文语境）；发布日期未知；网页未提供可靠发布日期",
+      "bachelorApplicability": "可参考本科申请准备流程；历史结果不证明当前资格、导师名额或个人录取概率",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-01",
+      "rulesImpact": "none"
     }
   ]
 }

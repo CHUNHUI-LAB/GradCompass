@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "baseCommit": "7272ec6826b1742ed68af3f424b2286f6aa602ca",
+  "baseCommit": "243344894469b5f445bf7a1974e68cd06332c082",
   "reviewDate": "2026-10-01",
   "status": "local_candidate_not_published",
   "sourcePolicy": "Only independently addressable public first-person sources with reviewed main text; personal outcomes remain self-reported. No admission rules imported.",
@@ -18,6 +18,20 @@
       "scope": "Full main text reviewed in prior research; original public page re-opened on 2026-10-01. Comments not read.",
       "dateInterpretation": "Published 2025-07-18, updated 2025-07-19; historical 25Fall cycle.",
       "bachelorApplicability": "Cross-background process comparison only, opt-in."
+    },
+    {
+      "id": "grad-bjut-mty-2026",
+      "url": "https://www.bjutswift.cn/feiyue/applicant/Applicant-00007",
+      "scope": "可提取全部正文、项目结果表及时间线已读；评论未返回，未读",
+      "dateInterpretation": "2026 Fall（作者所列申请批次）; publication date unknown",
+      "bachelorApplicability": "Preparation methods only, historical self-report; no current eligibility or recruitment inference."
+    },
+    {
+      "id": "grad-sustech-yunzx-2023",
+      "url": "https://sustech-application.com/post/yunzx19",
+      "scope": "可提取全文与申请结果清单已读；外链文章、评论未读",
+      "dateInterpretation": "2023 Fall历史申请季（正文语境）；发布日期未知; publication date unknown",
+      "bachelorApplicability": "Preparation methods only, historical self-report; no current eligibility or recruitment inference."
     }
   ],
   "excludedSourceCategories": [

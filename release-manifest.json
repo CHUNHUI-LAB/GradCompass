@@ -1,7 +1,7 @@
 {
   "project": "GradCompass",
-  "revision": "r2.5-application-experience-candidate",
-  "baseDeployedCommit": "7272ec6826b1742ed68af3f424b2286f6aa602ca",
+  "revision": "r2.6-source-expansion-candidate",
+  "baseDeployedCommit": "243344894469b5f445bf7a1974e68cd06332c082",
   "snapshotDate": "2026-10-01",
   "status": "local candidate; publication not performed by this build",
   "dailyChecksEnabled": true,
@@ -9,8 +9,8 @@
   "browserVisualQA": "blocked: Chromium socket denied; cloud browser localhost blocked. No visual acceptance claimed",
   "profilePilotCount": 10,
   "nodeTestsPassed": 67,
-  "experienceRecords": 2,
-  "defaultExperienceRecords": 1,
+  "experienceRecords": 4,
+  "defaultExperienceRecords": 3,
   "allowedFiles": [
     {
       "path": ".nojekyll",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2403,
-      "sha256": "7d02df59e1434f622e0c368bd40d28624f99196114ac881f36233341e18eb00b"
+      "bytes": 2496,
+      "sha256": "3185e580d68181085c8fb1d7679123be3a45bad0d6a09efa19aeef7a233139f4"
     },
     {
       "path": "assets/app.js",
@@ -64,13 +64,13 @@
     },
     {
       "path": "data/application-experience-provenance.json",
-      "bytes": 1824,
-      "sha256": "01b23e244e24127a709206120b74a255f5ea488659b94c4597ae6a799def971d"
+      "bytes": 2734,
+      "sha256": "9e8ce10513042aeb1076d35ae5812bc35a1e453832b2ed8e4930c395c4bd658e"
     },
     {
       "path": "data/application-experiences.json",
-      "bytes": 4279,
-      "sha256": "daafe36fd418195a6e4de35f52760649710efb8ba3e429ebc3591e896270d835"
+      "bytes": 8662,
+      "sha256": "24e26d4f56c4856b7fc5f35ea063f994dece6e65dfc3bf6ad63ef3c7b3b6cb1a"
     },
     {
       "path": "data/catalog-test-manifest.json",
@@ -104,8 +104,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 1869,
-      "sha256": "386e734bcfed037646b037f280ae9083cabe8760f1e8bf94f069d3d9514f42c0"
+      "bytes": 1863,
+      "sha256": "4e1b25a31896ef057e86780ba292543b789eb8674174c823b162d9a21f2f843b"
     },
     {
       "path": "tests/browser-smoke.mjs",
@@ -130,7 +130,7 @@
     {
       "path": "tests/experiences.test.mjs",
       "bytes": 2817,
-      "sha256": "77e96387d4a6d6d41d77586e03882986abf6730a65b5d3ad375a04ed851e11a5"
+      "sha256": "ac76b247606b6f65019e029ad6c1a40892942790dccf17f766449f5d2f12bbd3"
     },
     {
       "path": "tests/opportunities.test.mjs",
