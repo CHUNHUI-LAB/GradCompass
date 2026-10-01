@@ -2,8 +2,8 @@
 from pathlib import Path
 import hashlib,json
 root=Path(__file__).resolve().parent.parent
-files=['.nojekyll','index.html','assets/app.js','assets/core.js','assets/profiles.js','assets/style.css','assets/favicon.svg','data/catalog.json','data/advisor-profiles.json','data/catalog-test-manifest.json','data/ra-positions.json','data/update-status.json','README.md','QA.md','package.json','tests/core.test.mjs','tests/profiles.test.mjs','tests/opportunities.test.mjs','tests/render.test.mjs','tests/browser-smoke.mjs','scripts/freeze.py']
-manifest={'project':'GradCompass','revision':'r2.2-profile-pilot-candidate','baseDeployedCommit':'267e820b3f11a1d081380630da499e7cb84284da','snapshotDate':'2026-10-01','status':'local candidate; publication not performed by this build','dailyChecksEnabled':True,'firstRunVerified':False,'browserVisualQA':'not run for this profile pilot candidate; earlier release results do not validate this build','profilePilotCount':5,'nodeTestsPassed':49,'allowedFiles':[]}
+files=['.nojekyll','index.html','assets/app.js','assets/core.js','assets/profiles.js','assets/style.css','assets/favicon.svg','data/catalog.json','data/advisor-profiles.json','data/catalog-test-manifest.json','data/ra-positions.json','data/update-status.json','README.md','QA.md','package.json','tests/core.test.mjs','tests/profiles.test.mjs','tests/ranks.test.mjs','tests/opportunities.test.mjs','tests/render.test.mjs','tests/browser-smoke.mjs','scripts/freeze.py']
+manifest={'project':'GradCompass','revision':'r2.3-rank-filter-candidate','baseDeployedCommit':'267e820b3f11a1d081380630da499e7cb84284da','snapshotDate':'2026-10-01','status':'local candidate; publication not performed by this build','dailyChecksEnabled':True,'firstRunVerified':False,'browserVisualQA':'not run for this rank filter candidate; earlier release results do not validate this build','profilePilotCount':5,'nodeTestsPassed':59,'allowedFiles':[]}
 for name in sorted(files):
     p=root/name
     if not p.is_file():raise SystemExit('Missing allowlisted file: '+name)

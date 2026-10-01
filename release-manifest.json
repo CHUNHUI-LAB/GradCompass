@@ -1,14 +1,14 @@
 {
   "project": "GradCompass",
-  "revision": "r2.2-profile-pilot-candidate",
+  "revision": "r2.3-rank-filter-candidate",
   "baseDeployedCommit": "267e820b3f11a1d081380630da499e7cb84284da",
   "snapshotDate": "2026-10-01",
   "status": "local candidate; publication not performed by this build",
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
-  "browserVisualQA": "not run for this profile pilot candidate; earlier release results do not validate this build",
+  "browserVisualQA": "not run for this rank filter candidate; earlier release results do not validate this build",
   "profilePilotCount": 5,
-  "nodeTestsPassed": 49,
+  "nodeTestsPassed": 59,
   "allowedFiles": [
     {
       "path": ".nojekyll",
@@ -17,23 +17,23 @@
     },
     {
       "path": "QA.md",
-      "bytes": 2386,
-      "sha256": "05c6683c7ed872ae42d6638a10435471f669c9cc240653e62c2e59aa95a437e1"
+      "bytes": 1816,
+      "sha256": "d845b63caf543231234f4498279f3d7a93983359c158329ac914f08bead0c5c2"
     },
     {
       "path": "README.md",
-      "bytes": 3470,
-      "sha256": "c841780203756f7a7c93548ba34c9798dbda3f10839b9781fc2b5682ea60a759"
+      "bytes": 4966,
+      "sha256": "31e8e55075209b316a5e53913b609c8ed7dc56efd10eca838f52ec76453b8672"
     },
     {
       "path": "assets/app.js",
-      "bytes": 26568,
-      "sha256": "3a6516d254fc47dc0f63c5eeab27ae728007df9fb4ad56f98ca91d6065a74c00"
+      "bytes": 27065,
+      "sha256": "aa8a3a6f970622dc317387e995d87674e360f4c2785841b2c0a57c76f261f72a"
     },
     {
       "path": "assets/core.js",
-      "bytes": 24607,
-      "sha256": "521ba5a4d0f3d3a938f1a236d32b980219fba6be1eaee2d4006792a64af8ccef"
+      "bytes": 26228,
+      "sha256": "cad4681d907cdf380dad2b1ab4c9b42ee33829e11fafeb73b9ad0b072975a927"
     },
     {
       "path": "assets/favicon.svg",
@@ -77,8 +77,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 5369,
-      "sha256": "b47f22e41d7c28d1e20669093ec802aee5f121138c64f38318c69e5a28a60bff"
+      "bytes": 5917,
+      "sha256": "58fd9ac3266ab94460312302efafd662b6ee3ad0cf7286612bf9ac7c64021053"
     },
     {
       "path": "package.json",
@@ -87,8 +87,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 1577,
-      "sha256": "26065ca8895f792fb2f68d5096b3878f66fd7f73a75ff091343ca546586d5fe2"
+      "bytes": 1596,
+      "sha256": "092c4955dbb2c7217e741fae2aaf47eb9e5276012a2280ee7305c484ad7d5cfd"
     },
     {
       "path": "tests/browser-smoke.mjs",
@@ -107,13 +107,18 @@
     },
     {
       "path": "tests/profiles.test.mjs",
-      "bytes": 3712,
-      "sha256": "e734273225725953bd8e9570b3f22bec4a99a1126ba85d75e4c2f1d5b8901e05"
+      "bytes": 3398,
+      "sha256": "ba8425cadd25acb0ea2e8863b1852fe449b77e4bc219c8e8286b36bc32da1c05"
+    },
+    {
+      "path": "tests/ranks.test.mjs",
+      "bytes": 4983,
+      "sha256": "2fb08db6c08ad11b16f700eb6249b22cd7c1a3177a4de37cf2a558605f858547"
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 13010,
-      "sha256": "723977422a99a5b8e5f84ac87d0f81b97476cc509ab536b9c3f02fe2cec7edcc"
+      "bytes": 14776,
+      "sha256": "079b446a23928de3d882a88f6ba7b2226d8fa409b461c22237ffcf880296b5ca"
     }
   ]
 }

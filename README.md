@@ -2,7 +2,13 @@
 
 从研究生申请路径出发，查找机器人与具身智能导师、研究机会、官方截止日期与材料要求。
 
-## 专业简介试点候选范围
+## 职级筛选候选范围
+
+新增教授 / 副教授 / 助理教授筛选，研究系列、其他职衔、未知独立保留。职级依据现有原职衔保守归类，原文完整显示；不推断新 PI、终身教职、指导资格或招生名额。可与学校、研究主题、机会类型、招募状态及搜索组合，重置清除职级。
+
+32 位记录：教授 5、副教授 9、助理教授 17、未知 1；默认可申请机会按职级为 6 / 15 / 25，共 46 条，30 位导师。未知与被排除记录不因筛选重新获得资格。
+
+## 保留专业简介试点范围
 
 - 新增 5 位导师的职业概况、实验室及公开资源、2–3 项代表成果和参考说明；不推断设备分配、剩余名额、资助或指导风格
 - 46 条独立机会，涉及 30 位导师：MSc 2、MPhil 21、PhD 21、RA 2
@@ -19,7 +25,7 @@
 
 无需构建或客户端依赖。用静态 HTTP 服务器打开本目录，例如 `python -m http.server 4173`。ES 模块及 JSON 读取需要 HTTP，不建议直接双击 HTML。
 
-所有资源使用相对路径，支持 GitHub Pages 仓库子路径；`.nojekyll` 避免 Jekyll 改写。本次专业简介试点为独立本地候选，尚未发布；基于已发布提交 `267e820b3f11a1d081380630da499e7cb84284da`。
+所有资源使用相对路径，支持 GitHub Pages 仓库子路径；`.nojekyll` 避免 Jekyll 改写。本次职级筛选为独立本地候选，尚未发布；基于已发布提交 `267e820b3f11a1d081380630da499e7cb84284da`。
 
 ## 数据与状态
 
@@ -33,14 +39,20 @@
 
 ## 检查
 
-- `npm test`：49 项 Node 单元与 DOM 合约渲染测试，无需额外依赖
+- `npm test`：59 项 Node 单元与 DOM 合约渲染测试，无需额外依赖
 - `node tests/browser-smoke.mjs`：可选实际浏览器测试，需环境提供 Playwright 与 Chromium；`TEST_URL` 指向待验站点，`QA_OUTPUT` 指定报告目录
-- `python scripts/freeze.py`：按明确的 21 文件白名单生成 `release-manifest.json`
+- `python scripts/freeze.py`：按明确的 22 文件白名单生成 `release-manifest.json`
 
-本次 5 人专业简介候选尚未进行实际浏览器、桌面或手机截图验收。49 项 Node/DOM 合约测试不代表视觉、焦点和完整无障碍验证通过；旧版本结果不适用于本次候选。详见 `QA.md`。
+本次职级筛选候选尚未进行实际浏览器、桌面或手机截图验收。59 项 Node/DOM 合约测试不代表视觉、焦点和完整无障碍验证通过；旧版本结果不适用于本次候选。详见 `QA.md`。
 
 ## 隐私与许可
 
 没有账号、上传、外部分析、Cookie、浏览器持久化或个人申请材料收集。搜索与比较在当前页面内存中运行。
 
 尚未自动选定代码许可证。第三方页面和论文的版权归原权利人；事实整理与来源链接不授予转载许可。
+
+## 职衔归类边界
+
+直接识别 Professor、Associate Professor、Assistant Professor，保留行政职务与附加头衔原文。Tenured Professor 归入教授，但不据此推断其他人的 tenure。当前明确记录的 Choh-Ming Li Professor 归入教授；任意 Chair、PI、Director 不泛化。Research Assistant/Associate/Professor 独立归为研究系列，不混入三类教授职级；歧义与缺失不猜测。未明确支持的变体（例如 Professor (Research)）暂归其他职衔，等待逐项核验；不会靠包含 Professor 的子串扩大匹配。
+
+制度背景（2026-10-01 已核验）：[HKU 职位模板](https://www.hr.hku.hk/apptunit/documents/Job_Ad_Templates.php)区分教授系列与研究助理教授；[HKU Chair 任命说明](https://www.hr.hku.hk/news/internal_communication/announcement.php?id=254)仅作为该校语境，不外推全部高校。个人职衔仍以原记录所附官方来源为依据。

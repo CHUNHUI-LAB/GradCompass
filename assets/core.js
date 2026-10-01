@@ -1,3 +1,21 @@
+// Rank is a display/filter normalization of the recorded title, never eligibility,
+// tenure, a supervision entitlement, recruitment capacity, or evidence of new-PI status.
+export const rankLabels={professor:'教授',associate:'副教授',assistant:'助理教授',research:'研究系列',other:'其他职衔',unknown:'职级待核实'};
+export function rankOf(advisor){
+ const raw=typeof advisor.position==='string'?advisor.position.trim():'';
+ if(!raw||/未纳入|未核实|待核|unknown|unverified/i.test(raw))return 'unknown';
+ const parts=raw.split(/[;；/]/).map(x=>x.trim());
+ const primary=parts[0];
+ if(parts.slice(1).some(x=>/^(?:Research )?(?:Assistant |Associate )?Professor$/i.test(x)))return 'unknown';
+ if(/^(?:Research (?:Assistant |Associate )?Professor|研究(?:助理|副)?教授)$/i.test(primary))return 'research';
+ if(/^(?:Assistant Professor|助理教授)$/i.test(primary))return 'assistant';
+ if(/^(?:Associate Professor|副教授)$/i.test(primary))return 'associate';
+ // This named professorship is explicitly present in the reviewed catalog.
+ // Do not generalize arbitrary Chair/Director/PI titles into professor rank.
+ if(/^(?:Professor|Tenured Professor|Choh-Ming Li Professor|教授)$/i.test(primary))return 'professor';
+ return 'other';
+}
+export function rankMatches(advisor,filters={}){return !filters.rank||rankOf(advisor)===filters.rank;}
 export const institutionNames = {HKUST:'香港科技大学',HKU:'香港大学',CUHK:'香港中文大学',CityU:'香港城市大学',CityUHK:'香港城市大学','CUHK-Shenzhen':'香港中文大学（深圳）',PolyU:'香港理工大学',HKBU:'香港浸会大学','HKUST(GZ)':'香港科技大学（广州）','HKUST-GZ':'香港科技大学（广州）','CUHK(SZ)':'香港中文大学（深圳）','CUHK-SZ':'香港中文大学（深圳）',Westlake:'西湖大学',XJTLU:'西交利物浦大学'};
 export const topicRules = [
  ['具身导航',/navigat|导航|interactive_navigation/i],
@@ -31,6 +49,7 @@ export function filterAdvisors(catalog,filters={}){
  return catalog.advisors.filter(a=>{
   if(!hasVerifiedPath(a,catalog))return false;
   if(filters.institution&&a.institution!==filters.institution)return false;
+  if(!rankMatches(a,filters))return false;
   if(filters.topic&&!themesFor(a).includes(filters.topic))return false;
   if(filters.degree&&!routesFor(a,catalog).some(r=>degreeLabel(r)===filters.degree&&isVerifiedRoute(r)))return false;
   if(!openingMatches(a,filters))return false;
@@ -43,9 +62,11 @@ export function filterRoutes(catalog,filters={}){
   if(!isVerifiedRoute(r))return false;
   if(filters.institution&&r.institution!==filters.institution)return false;
   if((filters.opportunityType||filters.degree)&&degreeLabel(r)!==(filters.opportunityType||filters.degree))return false;
-  if(filters.topic&&!catalog.advisors.some(a=>(a.routeIds||[]).includes(r.id)&&themesFor(a).includes(filters.topic)))return false;
-  if(filters.opening&&!catalog.advisors.some(a=>(a.routeIds||[]).includes(r.id)&&openingMatches(a,{...filters,degree:degreeLabel(r)})))return false;
-  return !q||[r.institution,institutionLabel(r.institution),r.program,r.department,r.degree,r.eligibilitySummary].join(' ').toLowerCase().includes(q)||catalog.advisors.some(a=>(a.routeIds||[]).includes(r.id)&&searchText(a,catalog).includes(q));
+  // All advisor-specific criteria must be true of one eligible linked advisor.
+  // A mere association to this route cannot confer eligibility on the advisor.
+  const related=catalog.advisors.filter(a=>hasVerifiedPath(a,catalog)&&(a.routeIds||[]).includes(r.id)&&rankMatches(a,filters)&&(!filters.topic||themesFor(a).includes(filters.topic))&&openingMatches(a,{...filters,degree:degreeLabel(r)}));
+  if((filters.rank||filters.topic||filters.opening)&&!related.length)return false;
+  return !q||[r.institution,institutionLabel(r.institution),r.program,r.department,r.degree,r.eligibilitySummary].join(' ').toLowerCase().includes(q)||related.some(a=>searchText(a,catalog).includes(q));
  });
 }
 export function deadlineStatus(deadline,checkedDate='2026-10-01'){
@@ -92,6 +113,7 @@ export function filterOpportunities(catalog,filters={}){
   const a=catalog.advisors.find(a=>a.id===o.advisorId);const type=filters.opportunityType||filters.degree;
   if(type&&o.type!==type)return false;
   if(filters.institution&&a.institution!==filters.institution)return false;
+  if(!rankMatches(a,filters))return false;
   if(filters.topic&&!themesFor(a).includes(filters.topic))return false;
   if(filters.opening&&o.openingStatus!==filters.opening)return false;
   const route=catalog.routes.find(r=>r.id===o.routeId);const job=(catalog.raPositions||[]).find(j=>j.id===o.jobId);
