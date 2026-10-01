@@ -1,7 +1,7 @@
 {
   "schemaVersion": "advisor-profile-supplement/0.1",
   "checkedDate": "2026-10-01",
-  "pilotOnly": true,
+  "pilotOnly": false,
   "joinKey": "advisorId",
   "catalogSource": "data/catalog.json",
   "displaySchema": {
@@ -27,7 +27,7 @@
     "Show faculty affiliation and lab/project affiliation separately",
     "Any recruitment display preserves degree/cycle specificity; confirmedVacancy=false means no remaining-place confirmation obtained",
     "No inference of lab size, funding availability, mentorship personality, student outcomes or hardware access",
-    "Review 5-profile pilot before expanding to the remaining 27; do not change frozen site"
+    "Ten profiles are included in this isolated review candidate; remaining catalog entries retain their original content."
   ],
   "profiles": [
     {
@@ -661,6 +661,659 @@
       "checkedDate": "2026-10-01",
       "confirmedVacancy": false,
       "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "hkust-shaojie-shen",
+      "cardSummaryZh": "以自主飞行为核心，把多传感器状态估计、建图、轨迹规划和多机协作连接起来。",
+      "overview": {
+        "textZh": "沈劭劼现任 HKUST 电子及计算机工程系副教授、HKUST-DJI 联合创新实验室主任；2014 年获宾夕法尼亚大学电气与系统工程博士。",
+        "sources": [
+          {
+            "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shaojie-shen-eeshaojie",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "HKUST Aerial Robotics Group",
+        "affiliation": {
+          "textZh": "课题组属于 HKUST Cheng Kar-Shun Robotics Institute，研究空中及地面机器人的复杂环境自主运行。",
+          "sources": [
+            {
+              "url": "https://uav.hkust.edu.hk/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "themes": [
+          "多传感器状态估计与 SLAM",
+          "自主探索和轨迹规划",
+          "多机器人协作",
+          "低成本感知与计算平台"
+        ],
+        "structure": {
+          "textZh": "官网按论文、系统演示和开源代码展示研究；联合实验室职务与课题组研究范围分别记录，不据项目列表推算团队规模。",
+          "sources": [
+            {
+              "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shaojie-shen-eeshaojie",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://uav.hkust.edu.hk/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "VINS-Fusion、GVINS、D2SLAM 与 Fast-Planner 等官方代码及飞行演示可公开查看；不代表已核实新生的硬件使用权限。",
+            "sources": [
+              {
+                "url": "https://uav.hkust.edu.hk/",
+                "checkedDate": "2026-10-01"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "FC-Vision: Real-Time Visibility-Aware Replanning for Occlusion-Free Aerial Target Structure Scanning in Unknown Environments",
+          "year": 2026,
+          "venue": "IEEE Robotics and Automation Letters",
+          "summaryZh": "在未知障碍下重规划无人机扫描轨迹，同时考虑目标可见性、覆盖与飞行安全。",
+          "url": "https://arxiv.org/abs/2602.13720",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2602.13720",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shaojie-shen-eeshaojie",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        {
+          "title": "AD-Planner: Adaptive In-flight Delivery Using a Quadrotor with a Suspended Payload",
+          "year": 2026,
+          "venue": "IEEE Transactions on Robotics",
+          "summaryZh": "面向带悬挂载荷的四旋翼，联合处理拾取、运输和投送，并将目标变化与误差边界纳入规划。",
+          "url": "https://researchportal.hkust.edu.hk/en/publications/ad-planner-adaptive-in-flight-delivery-using-a-quadrotor-with-a-s/",
+          "sources": [
+            {
+              "url": "https://researchportal.hkust.edu.hk/en/publications/ad-planner-adaptive-in-flight-delivery-using-a-quadrotor-with-a-s/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "2027/28 ECE 项目列有本科起点 MPhil；本轮查阅教师和组主页未发现导师个人定轮次招募声明。项目存在不等于导师接收或剩余名额确认。",
+        "sources": [
+          {
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ece",
+            "checkedDate": "2026-10-01"
+          },
+          {
+            "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shaojie-shen-eeshaojie",
+            "checkedDate": "2026-10-01"
+          },
+          {
+            "url": "https://uav.hkust.edu.hk/",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人 MPhil/PhD 招募、2027 剩余名额与资助未核实",
+        "院级设施和企业联合实验室不能自动作为个人组可支配设备清单"
+      ],
+      "links": [
+        {
+          "label": "高校简介",
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shaojie-shen-eeshaojie"
+        },
+        {
+          "label": "课题组与开源系统",
+          "url": "https://uav.hkust.edu.hk/"
+        },
+        {
+          "label": "2027/28 学位项目",
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ece"
+        }
+      ],
+      "checkedDate": "2026-10-01",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "hku-xihui-liu",
+      "cardSummaryZh": "以多模态与生成式 AI 为基础，研究视觉语言导航和全身移动操作。",
+      "overview": {
+        "textZh": "刘希慧为 HKU ECE 与 Institute of Data Science 助理教授；清华本科、CUHK MMLab 博士，曾在 UC Berkeley EECS/BAIR 从事博士后研究。",
+        "sources": [
+          {
+            "url": "https://ece.hku.hk/people/xihui-liu/",
+            "checkedDate": "2026-10-01"
+          },
+          {
+            "url": "https://xh-liu.github.io/",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Xihui Liu Group / HKU-MMLab",
+        "affiliation": {
+          "textZh": "个人主页列 HKU-MMLab、ECE 与 IDS；合作项目中的 Astribot 等企业归属独立于 HKU 教师和学位路径。",
+          "sources": [
+            {
+              "url": "https://xh-liu.github.io/",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://selen-suyue.github.io/DSPv2Net/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "themes": [
+          "多模态与生成式 AI",
+          "具身 AI 和视觉语言导航",
+          "三维感知与全身移动操作"
+        ],
+        "structure": {
+          "textZh": "官网以精选论文及项目呈现研究；DSPv2 作者标注 HKU、Astribot、西电和清华合作，不能据合著推定日常共同指导。",
+          "sources": [
+            {
+              "url": "https://xh-liu.github.io/",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://selen-suyue.github.io/DSPv2Net/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "DualVLN 提供导航演示与 Social-VLN 评测；DSPv2 提供代码和移动操作演示，公开项目不等于实验室硬件库存。",
+            "sources": [
+              {
+                "url": "https://dualvln.github.io/",
+                "checkedDate": "2026-10-01"
+              },
+              {
+                "url": "https://selen-suyue.github.io/DSPv2Net/",
+                "checkedDate": "2026-10-01"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Ground Slow, Move Fast: A Dual-System Foundation Model for Generalizable Vision-and-Language Navigation",
+          "year": 2026,
+          "venue": "ICLR（个人主页标注）",
+          "summaryZh": "用较慢的视觉语言规划产生中期目标，再以快速策略生成局部可执行轨迹；项目还评估动态社会导航。",
+          "url": "https://dualvln.github.io/",
+          "sources": [
+            {
+              "url": "https://xh-liu.github.io/",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://dualvln.github.io/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        {
+          "title": "DSPv2: Improved Dense Policy for Effective and Generalizable Whole-body Mobile Manipulation",
+          "year": 2026,
+          "venue": "ICRA",
+          "summaryZh": "融合多视角二维语义和三维空间特征，生成协调的全身动作；项目明确指出跨机器人和操作平台的大域移仍限制泛化。",
+          "url": "https://selen-suyue.github.io/DSPv2Net/",
+          "sources": [
+            {
+              "url": "https://selen-suyue.github.io/DSPv2Net/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "个人主页明确招 PhD、博士后、RA 和访问学生，联系 xihuiliu@eee.hku.hk；未指定 Fall 2027，也未明示 MPhil 招募。既有 HKU MPhil 本科路径保持原样，不能由 PhD/RA 招募外推。",
+        "sources": [
+          {
+            "url": "https://xh-liu.github.io/",
+            "checkedDate": "2026-10-01"
+          },
+          {
+            "url": "https://gradsch.hku.hk/prospective_students/programmes/regulations_for_the_degree_of_master_of_philosophy_mphil",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人 MPhil 接收、2027 名额与具体资助未核实",
+        "合作企业平台使用权限、个人指导安排与团队规模未核实"
+      ],
+      "links": [
+        {
+          "label": "院系简介",
+          "url": "https://ece.hku.hk/people/xihui-liu/"
+        },
+        {
+          "label": "主页与申请说明",
+          "url": "https://xh-liu.github.io/"
+        },
+        {
+          "label": "DualVLN 项目",
+          "url": "https://dualvln.github.io/"
+        },
+        {
+          "label": "DSPv2 项目",
+          "url": "https://selen-suyue.github.io/DSPv2Net/"
+        }
+      ],
+      "checkedDate": "2026-10-01",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "cuhksz-junjie-hu",
+      "cardSummaryZh": "研究数据稀缺、传感器退化条件下的机器人感知，并连接操作与多机器人协作。",
+      "overview": {
+        "textZh": "胡君杰现任 CUHK-Shenzhen 人工智能学院助理教授、Presidential Young Fellow；2020 年获日本东北大学博士，2020–2025 年在 AIRS 从事研究，2025 年 8 月加入学院。",
+        "sources": [
+          {
+            "url": "https://sai.cuhk.edu.cn/en/teacher/153",
+            "checkedDate": "2026-10-01"
+          },
+          {
+            "url": "https://junjh.github.io/",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Embodied AI & Robotics Lab (EAR Lab)",
+        "affiliation": {
+          "textZh": "EAR Lab 为胡君杰在 CUHK-Shenzhen 的课题组；校级研究组“具身智能：从原理到实践”还列林天麟，不将课题组、校级团队与过往 AIRS 任职合并。",
+          "sources": [
+            {
+              "url": "https://earlab-cuhksz.github.io/",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://sai.cuhk.edu.cn/page/205",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "themes": [
+          "数据中心具身 AI",
+          "多传感器鲁棒融合",
+          "导航与灵巧操作",
+          "多机器人协作感知与规划"
+        ],
+        "structure": {
+          "textZh": "研究页分数据中心学习、多传感器融合和多机器人协作三类；主页有成员加入新闻，但本条不把单次入组人数当作当前总规模。",
+          "sources": [
+            {
+              "url": "https://earlab-cuhksz.github.io/research.html",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://earlab-cuhksz.github.io/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "研究页提供 RGB-thermal 融合、稀疏 LiDAR 深度补全和双臂遥操作论文入口；具体硬件配置及可用算力未核实。",
+            "sources": [
+              {
+                "url": "https://earlab-cuhksz.github.io/research.html",
+                "checkedDate": "2026-10-01"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Robust Depth Estimation under Sensor Degradations: A Multi-Sensor Fusion Perspective",
+          "year": 2025,
+          "venue": "IEEE TPAMI（学院与实验室论文表）",
+          "summaryZh": "研究传感器退化情况下的多传感器深度估计；本轮核实论文题名、作者与方向，未将其外推为已覆盖全部极端天气。",
+          "url": "https://earlab-cuhksz.github.io/publications.html",
+          "sources": [
+            {
+              "url": "https://earlab-cuhksz.github.io/publications.html",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://earlab-cuhksz.github.io/research.html",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        {
+          "title": "DexTele: A Dual-Arm Dexterous Teleoperation System Based on Motion Retargeting and Adaptive Force Control",
+          "year": 2026,
+          "venue": "ICRA（学院列表）；arXiv 2026",
+          "summaryZh": "将动作重定向与自适应力控制结合，用于双臂灵巧遥操作。",
+          "url": "https://arxiv.org/abs/2607.05883",
+          "sources": [
+            {
+              "url": "https://sai.cuhk.edu.cn/en/teacher/153",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://arxiv.org/abs/2607.05883",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "本人主页寻求 MPhil/PhD；EAR Lab 明确 Spring/Fall 2027 PhD、博士后和 RA，PhD 资助为网页招募声明，未确认个人 offer。学校 AI 项目现列 2027 Spring/Fall 截止 2026-10-31/2027-05-31，MPhil 可入学后双向选导师；两种学位不能混用招募年份。联系 hujunjie@cuhk.edu.cn，实验室要求 CV、成绩单和研究介绍幻灯片。",
+        "sources": [
+          {
+            "url": "https://junjh.github.io/",
+            "checkedDate": "2026-10-01"
+          },
+          {
+            "url": "https://earlab-cuhksz.github.io/",
+            "checkedDate": "2026-10-01"
+          },
+          {
+            "url": "https://sai.cuhk.edu.cn/en/node/35",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "unknowns": [
+        "剩余席位、个人资助条件与最终录取均未确认",
+        "“close mentorship”和算力介绍仅为招募页自述，不据此评价实际指导风格",
+        "校级 MPhil 多导师/团队培养规则不等于保证入学即由此 PI 指导"
+      ],
+      "links": [
+        {
+          "label": "学院简介",
+          "url": "https://sai.cuhk.edu.cn/en/teacher/153"
+        },
+        {
+          "label": "本人主页",
+          "url": "https://junjh.github.io/"
+        },
+        {
+          "label": "实验室与招募",
+          "url": "https://earlab-cuhksz.github.io/"
+        },
+        {
+          "label": "AI 项目申请规则",
+          "url": "https://sai.cuhk.edu.cn/en/node/35"
+        }
+      ],
+      "checkedDate": "2026-10-01",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "westlake-peidong-liu",
+      "cardSummaryZh": "以三维视觉为空间智能基础，覆盖事件视觉、场景重建、SLAM 与机器人交互。",
+      "overview": {
+        "textZh": "刘沛东现任西湖大学助理教授，主页归属工学院人工智能系；博士毕业于 ETH Zurich、导师 Marc Pollefeys，本科及硕士毕业于 NUS 电气工程。",
+        "sources": [
+          {
+            "url": "https://ethliup.github.io/",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Spatial Intelligence and Robotics Lab",
+        "affiliation": {
+          "textZh": "当前个人主页与官方 GitHub 组织均使用 Spatial Intelligence and Robotics Lab 名称；WU-CVGL 为公开组织标识。",
+          "sources": [
+            {
+              "url": "https://ethliup.github.io/",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://github.com/WU-CVGL",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "themes": [
+          "三维/四维重建与生成",
+          "三维场景理解和推理",
+          "事件视觉与视觉 SLAM",
+          "面向机器人的三维视觉"
+        ],
+        "structure": {
+          "textZh": "主页分别列研究人员、博士生、实习/访问学生和校友；不将历史成员或合作者计入当前在读规模。",
+          "sources": [
+            {
+              "url": "https://ethliup.github.io/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "官方 GitHub 组织公开三维视觉项目；FlowHOI 展示从手物交互表示到真实灵巧操作的研究验证，不能外推为实验室设备或学生使用承诺。",
+            "sources": [
+              {
+                "url": "https://github.com/WU-CVGL",
+                "checkedDate": "2026-10-01"
+              },
+              {
+                "url": "https://arxiv.org/abs/2602.13444",
+                "checkedDate": "2026-10-01"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "FlowHOI: Flow-based Semantics-Grounded Generation of Hand-Object Interactions for Dexterous Robot Manipulation",
+          "year": 2026,
+          "venue": "NeurIPS（PI 主页宣布）；arXiv 2026",
+          "summaryZh": "依据语言、第一视角观测和三维场景生成手物交互，再重定向至真实灵巧操作；录用信息与 arXiv 版本分开标注。",
+          "url": "https://arxiv.org/abs/2602.13444",
+          "sources": [
+            {
+              "url": "https://ethliup.github.io/",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://arxiv.org/abs/2602.13444",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        {
+          "title": "ED-SLAM: Event-Depth Gaussian Splatting SLAM",
+          "year": 2026,
+          "venue": "ICRA（PI 与作者主页列表）",
+          "summaryZh": "题名指向事件、深度与高斯泼溅的 SLAM；本轮未取得独立全文，仅核实作者、题名及会议，不补写性能或具体实现。",
+          "url": "https://ethliup.github.io/",
+          "sources": [
+            {
+              "url": "https://ethliup.github.io/",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://github.com/Tesla-SHT",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "学校教师页明确招 PhD（申请考核、无需全国研究生统考）、博士后、RA，以及至少 3 个月实习/访问；向 liupeidong@westlake.edu.cn 发 CV 与相关材料。招募未指定 Fall 2027，不能当作该轮剩余名额。",
+        "sources": [
+          {
+            "url": "https://en.westlake.edu.cn/faculty/peidong-liu.html",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "unknowns": [
+        "ED-SLAM 独立全文和代码发布情况未核实",
+        "2027 个人名额、资助和 RA 学历门槛未核实",
+        "本轮补充档案不重新判定学校分轮次申请资格"
+      ],
+      "links": [
+        {
+          "label": "学校简介与招募",
+          "url": "https://en.westlake.edu.cn/faculty/peidong-liu.html"
+        },
+        {
+          "label": "个人主页",
+          "url": "https://ethliup.github.io/"
+        },
+        {
+          "label": "公开代码组织",
+          "url": "https://github.com/WU-CVGL"
+        }
+      ],
+      "checkedDate": "2026-10-01",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "cityu_peng_yin",
+      "cardSummaryZh": "聚焦长期、大范围机器人定位、地图与多智能体协作，连接地点识别和具身导航。",
+      "overview": {
+        "textZh": "殷鹏（学校页面显示 Max YIN）现任 CityUHK Data Science 助理教授；博士毕业于中科院沈阳自动化所，曾任 CMU Robotics Institute Project Scientist，2023 年起领导 GAIRLAB。",
+        "sources": [
+          {
+            "url": "https://scholars.cityu.edu.hk/en/persons/pengyin/",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "General Autonomous Intelligent Robotics Laboratory (GAIRLAB)",
+        "affiliation": {
+          "textZh": "当前教师归属以 CityUHK Data Science 官方简介为准。MetaSLAM 是页面所述联合研究组织/项目，不能直接等同于 Data Science 招生项目。",
+          "sources": [
+            {
+              "url": "https://scholars.cityu.edu.hk/en/persons/pengyin/",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://metaslam.github.io/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "themes": [
+          "长期定位与地点识别",
+          "地图融合和大规模导航",
+          "多机器人协作与探索",
+          "具身 AI 与强化学习"
+        ],
+        "structure": {
+          "textZh": "实验室网页分别列博士和硕士成员，但其页脚及新闻较旧；不据此推断当前人数或 MPhil 招生。",
+          "sources": [
+            {
+              "url": "https://metaslam.github.io/team/team/",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "url": "https://metaslam.github.io/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "MetaSLAM 公开介绍多传感器定位、城市地图融合与协作探索，并发布 BioSLAM/AutoMerge 等研究入口；硬件清单和共享权限未知。",
+            "sources": [
+              {
+                "url": "https://metaslam.github.io/",
+                "checkedDate": "2026-10-01"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "General Place Recognition Survey: Towards Real-World Autonomy",
+          "year": 2025,
+          "venue": "IEEE Transactions on Robotics",
+          "summaryZh": "梳理长期真实机器人中的地点识别表示、挑战、数据集与开源工具，属于综述而非单一新系统。",
+          "url": "https://scholars.cityu.edu.hk/en/publications/general-place-recognition-survey-towards-real-world-autonomy/",
+          "sources": [
+            {
+              "url": "https://scholars.cityu.edu.hk/en/publications/general-place-recognition-survey-towards-real-world-autonomy/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        {
+          "title": "iLoc: An Adaptive, Efficient, and Robust Visual Localization System",
+          "year": 2025,
+          "venue": "IEEE Transactions on Robotics",
+          "summaryZh": "将地点识别、粗到细全局匹配与视觉里程计/闭环优化连接，面向大范围长期视觉定位。",
+          "url": "https://scholars.cityu.edu.hk/en/publications/iloc-an-adaptive-efficient-and-robust-visual-localization-system/",
+          "sources": [
+            {
+              "url": "https://scholars.cityu.edu.hk/en/publications/iloc-an-adaptive-efficient-and-robust-visual-localization-system/",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "官方简介标明接受 PhD 学生，未给个人 Fall 2027 名额；Data Science PhD 项目允许一等荣誉本科或同等资格申请，明确不考虑 MPhil。项目要求先联系潜在导师并取得同意；组内旧硕士成员记录不能反推当前 MPhil 路径。",
+        "sources": [
+          {
+            "url": "https://scholars.cityu.edu.hk/en/persons/pengyin/",
+            "checkedDate": "2026-10-01"
+          },
+          {
+            "url": "https://www.ds.cityu.edu.hk/en/programmes/postgraduate-programmes/phd-programme-data-science",
+            "checkedDate": "2026-10-01"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人 2027 PhD 名额和资助未确认",
+        "MetaSLAM 旧站成员和 2023 新闻不保证当前人员配置",
+        "论文历史归属 Mechanical Engineering 不应覆盖教师当前 Data Science 归属"
+      ],
+      "links": [
+        {
+          "label": "当前学校简介",
+          "url": "https://scholars.cityu.edu.hk/en/persons/pengyin/"
+        },
+        {
+          "label": "实验室/MetaSLAM",
+          "url": "https://metaslam.github.io/"
+        },
+        {
+          "label": "Data Science PhD 项目",
+          "url": "https://www.ds.cityu.edu.hk/en/programmes/postgraduate-programmes/phd-programme-data-science"
+        }
+      ],
+      "checkedDate": "2026-10-01",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
     }
-  ]
+  ],
+  "reviewRequired": true,
+  "batch": "1+2"
 }
