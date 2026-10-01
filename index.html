@@ -8,8 +8,8 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>GradCompass · 找导师与项目</title>
 <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
-<link rel="stylesheet" href="./assets/style.css">
-<script type="module" src="./assets/app.js"></script>
+<link rel="stylesheet" href="./assets/style.css?v=87fc9377f945">
+<script type="module" src="./assets/app.js?v=90b5a0e35f19"></script>
 </head>
 <body>
 <a class="skip-link" href="#results">跳到结果</a>
@@ -29,24 +29,24 @@
     <div class="edition"><span id="checked-date">核验于 2026-10-01</span><a href="#sources">每日检查已启用 · 首轮待验证</a></div>
   </section>
   <section class="search-surface" aria-label="搜索机会">
-    <label class="search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><span class="sr-only">搜索导师、学校、研究方向或项目</span><input id="search" type="search" placeholder="搜索导师、研究方向或项目…" autocomplete="off"><kbd aria-hidden="true">/</kbd></label>
+    <label class="search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><span id="search-label" class="sr-only">搜索导师、学校、研究方向或项目</span><input id="search" type="search" placeholder="搜索导师、研究方向或项目…" autocomplete="off"><kbd aria-hidden="true">/</kbd></label>
     
   </section>
   <div class="workspace">
     <aside class="filters" aria-label="筛选条件">
-      <div class="filter-heading"><h2>筛选</h2><button id="reset-filters" class="text-button">重置</button></div>
-      <label>学校<select id="institution-filter"><option value="">全部学校</option></select></label>
-      <label>导师职级<select id="rank-filter"><option value="">全部职级</option><option value="professor">教授 · Professor</option><option value="associate">副教授 · Associate Professor</option><option value="assistant">助理教授 · Assistant Professor</option><option value="research">研究系列 · Research</option><option value="other">其他职衔</option><option value="unknown">职级待核实</option></select></label>
-      <p class="small-note">按原职衔归类；与新入职、指导资格及招生名额分开</p>
-      <label>研究方向<select id="topic-filter"><option value="">全部研究方向</option></select></label>
-      <label>申请类型<select id="opportunity-filter"><option value="">全部申请类型</option><option value="RA">RA · 研究助理</option><option value="MSc">MSc · 理学硕士</option><option value="MPhil">MPhil · 研究型硕士</option><option value="PhD">PhD · 博士</option></select></label>
-      <p class="small-note">MSc、MPhil、PhD 是学位；RA 是研究助理工作岗位</p>
+      <div class="filter-heading"><h2 id="filter-title">筛选导师</h2><button id="reset-filters" class="text-button">重置</button></div>
+      <label id="institution-filter-label">学校<select id="institution-filter"><option value="">全部学校</option></select></label>
+      <label id="rank-filter-label">导师职级<select id="rank-filter"><option value="">全部职级</option><option value="professor">教授 · Professor</option><option value="associate">副教授 · Associate Professor</option><option value="assistant">助理教授 · Assistant Professor</option><option value="research">研究系列 · Research</option><option value="other">其他职衔</option><option value="unknown">职级待核实</option></select></label>
+      <p id="rank-filter-note" class="small-note">按原职衔归类；与新入职、指导资格及招生名额分开</p>
+      <label id="topic-filter-label">研究方向<select id="topic-filter"><option value="">全部研究方向</option></select></label>
+      <label id="opportunity-filter-label"><span id="opportunity-filter-name">申请类型</span><select id="opportunity-filter"><option value="">全部申请类型</option><option value="RA">RA · 研究助理</option><option value="MSc">MSc · 理学硕士</option><option value="MPhil">MPhil · 研究型硕士</option><option value="PhD">PhD · 博士</option></select></label>
+      <p id="opportunity-filter-note" class="small-note">MSc、MPhil、PhD 是学位；RA 是研究助理工作岗位</p>
       <label id="opening-filter-label"><span id="opening-filter-name">招生信息</span><select id="opening-filter"><option value="">全部招生信息</option><option value="explicit">已找到招生说明</option><option value="unknown">招生年份或名额待确认</option><option value="closed">已明确停止招生</option></select></label>
       <p class="small-note" id="opening-filter-note">有招生说明不代表当年仍有名额；RA 按岗位招聘信息筛选</p>
       <a href="#sources" class="small-link">查看核验方法与来源</a>
     </aside>
     <section id="results" class="results" tabindex="-1" aria-labelledby="results-title">
-      <div class="results-heading"><div><h2 id="results-title">找导师</h2><p id="result-count" role="status" aria-live="polite">正在载入已核实数据…</p></div><span id="results-note" class="quiet">同一导师的不同机会分别展示</span></div>
+      <div class="results-heading"><div><h2 id="results-title" tabindex="-1">找导师</h2><p id="result-count" role="status" aria-live="polite">正在载入已核实数据…</p></div><span id="results-note" class="quiet">同一导师的不同机会分别展示</span></div>
       <p id="view-description" class="view-description"></p>
       <div id="view-content"><div class="loading"><span></span>正在载入数据</div></div>
     </section>
