@@ -41,7 +41,7 @@
     {
       "path": "assets/app.js",
       "bytes": 35631,
-      "sha256": "54c7f115dd69973104a274f1593b37160013c81e1fc634e552aa8cdf25801701"
+      "sha256": "cda8185827c0e59c8a71c65569c484ef2bb2ad5054a4fc4a72f66b72feb8ec87"
     },
     {
       "path": "assets/core.js",
@@ -70,8 +70,8 @@
     },
     {
       "path": "assets/record-summaries.js",
-      "bytes": 11725,
-      "sha256": "8bd8b8921ab74dfedb28add95111464b3d2f9226aa9b37085c8a069fbe688734"
+      "bytes": 11847,
+      "sha256": "7650b472298f9d0db4f59f53a1a437b4f295efeb3e21e33016b11f3e76a4b314"
     },
     {
       "path": "assets/style.css",
@@ -126,7 +126,7 @@
     {
       "path": "index.html",
       "bytes": 6974,
-      "sha256": "77985d8e89aea8fd0f12c6cb0178cf16f4a9539536742e8a9ab0e672c6e5b83a"
+      "sha256": "1d4cacb2f85bb3dd6e878246b22d1efd7a62e8e4c7fff161edd8945ddf748045"
     },
     {
       "path": "package.json",
@@ -145,8 +145,8 @@
     },
     {
       "path": "tests/cityu-cycle-review.test.mjs",
-      "bytes": 3887,
-      "sha256": "967a638de8f5a2efbe6391e55bf10a4232389521715d0aea7c5807f5796eceba"
+      "bytes": 4049,
+      "sha256": "693ae0cde1c4c9529f248a2ee14051b52cdc1233e19f46bd8bbbcbda97cff811"
     },
     {
       "path": "tests/core.test.mjs",

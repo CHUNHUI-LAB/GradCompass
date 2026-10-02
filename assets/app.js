@@ -1,5 +1,5 @@
 import {normalizeMaterialSupplement} from './material-supplement.js';
-import {renderRecordSummary,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=8bd8b8921ab7';
+import {renderRecordSummary,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=7650b472298f';
 import {normalizeExperiences,renderExperiences,renderExperienceReading} from './experiences.js?v=662273e12273';
 import {profileMap,profileSummary,renderProfile,renderProfileReferences} from './profiles.js';
 import {rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,isVerifiedRoute,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue} from './core.js';
