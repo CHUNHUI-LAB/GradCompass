@@ -1,15 +1,15 @@
 {
   "project": "GradCompass",
-  "revision": "r2.12-project-introductions-expanded",
-  "baseDeployedCommit": "c3a2fe200fe03ea0d32eb6d6d1e581d0a44bf8b5",
+  "revision": "r2.13-page-overviews",
+  "baseDeployedCommit": "da6f5b22a2ddfe003a41fe07b14d6322171ed10a",
   "snapshotDate": "2026-10-02",
-  "status": "content snapshot; test results in QA.md; deployment status is separate",
+  "status": "content snapshot; automated test counters do not establish deployment or browser acceptance",
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
-  "browserVisualQA": "three Chromium suites stopped before assertions with a socket permission error; no new visual acceptance",
+  "browserVisualQA": "Chromium launch blocked before first assertion by socket permission error; page-overview browser suite and visual layouts remain unverified",
   "profilePilotCount": 10,
-  "nodeTestsTotal": 148,
-  "nodeTestsPassed": 148,
+  "nodeTestsTotal": 167,
+  "nodeTestsPassed": 167,
   "nodeTestsFailed": 0,
   "experienceRecords": 16,
   "defaultExperienceRecords": 16,
@@ -22,8 +22,9 @@
   "projectSummaryRecords": 17,
   "projectSummarySchools": 5,
   "projectSummarySources": 35,
-  "preservedProjectSummaryRecords": 8,
-  "newProjectSummaryRecords": 9,
+  "preservedProjectSummaryRecords": 17,
+  "newProjectSummaryRecords": 0,
+  "pageOverviews": 5,
   "allowedFiles": [
     {
       "path": ".nojekyll",
@@ -42,8 +43,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 35631,
-      "sha256": "9a942d6d2b02293e3ea3c3c1c5a5db4994bf4cb29b6ed437ecb24ec15e728e37"
+      "bytes": 36645,
+      "sha256": "83865e5f15b12efb39f10a1ea01104e7d235e8a259b05f6ab8cc80ba5168f186"
     },
     {
       "path": "assets/core.js",
@@ -52,8 +53,8 @@
     },
     {
       "path": "assets/experiences.js",
-      "bytes": 13513,
-      "sha256": "662273e1227343feb9dc402f2b72bc40ab641270299816e5d44d66680f78377a"
+      "bytes": 13647,
+      "sha256": "e52b30b5292d709c5560780810ac4a0778014ca2cb7cc462ce051e6fbdab39b5"
     },
     {
       "path": "assets/favicon.svg",
@@ -64,6 +65,11 @@
       "path": "assets/material-supplement.js",
       "bytes": 1849,
       "sha256": "44c8f5821e4c828503b6efefc6cd6a75f560c2de0067f855531337c025511d03"
+    },
+    {
+      "path": "assets/page-overviews.js",
+      "bytes": 13907,
+      "sha256": "2447e07475314df89e41a3aa02e3500f5ddc1a2f6cef0536a7f601476ea1b678"
     },
     {
       "path": "assets/profiles.js",
@@ -77,8 +83,8 @@
     },
     {
       "path": "assets/style.css",
-      "bytes": 24000,
-      "sha256": "87fc9377f9451bc784a8e6355266e9e740e16a53971c5b25c92c0e7b67d4e0df"
+      "bytes": 26927,
+      "sha256": "6893a949ba865577741be98535a81b9709acf67febc630e5600345fa66705c09"
     },
     {
       "path": "data/advisor-profiles.json",
@@ -127,8 +133,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 6974,
-      "sha256": "297cb5769e70a5a78678693396e077ce3d574b260272eb47450e850a6758339b"
+      "bytes": 7028,
+      "sha256": "c20a975e9c10a961f29ab9689b20c42900247796a262409593ef3446e87ff4b4"
     },
     {
       "path": "package.json",
@@ -137,8 +143,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 4704,
-      "sha256": "69aaf9192ea4d4fde6c9fb7cbfec1d78697afc39bdd91686d9cc2418c14c507c"
+      "bytes": 4898,
+      "sha256": "826509a38adc543ea639662630a33573b887a9cf6b3da0ed900f3cf1080e7526"
     },
     {
       "path": "tests/browser-smoke.mjs",
@@ -196,14 +202,29 @@
       "sha256": "3314403cfebd374739e0d58f38f2faa244129bc8a9dd8230b8c6b5a736afafbe"
     },
     {
+      "path": "tests/page-overview-navigation.test.mjs",
+      "bytes": 6935,
+      "sha256": "e0fe1bb9037904ae5332f4e0e8a349c6b3fccb0a534407da951d21c67c4885fa"
+    },
+    {
+      "path": "tests/page-overviews-browser.mjs",
+      "bytes": 5618,
+      "sha256": "4f96863e364ede689ef117595fdd2a57acd785b407225df507b431441617d524"
+    },
+    {
+      "path": "tests/page-overviews.test.mjs",
+      "bytes": 8119,
+      "sha256": "f2ee14915dd31f9a6b518844261013f9b0bc7a8d8941f497065034574b67f813"
+    },
+    {
       "path": "tests/profiles.test.mjs",
       "bytes": 3719,
       "sha256": "e4436fa69e8aae64539d35beb906ff666cec34b789bb079bc605bdb082c253c6"
     },
     {
       "path": "tests/project-expansion.test.mjs",
-      "bytes": 8642,
-      "sha256": "2f79860085fe61f67174a116c4089596d5e64b505a0803857edd2d2fee9badea"
+      "bytes": 9501,
+      "sha256": "fbae6244102985ea0e2800d7db60f33a35362ba30f501be401020792282f5541"
     },
     {
       "path": "tests/project-loading.test.mjs",
@@ -237,8 +258,8 @@
     },
     {
       "path": "tests/resource-versions.test.mjs",
-      "bytes": 2658,
-      "sha256": "544517614514b4528a3dd64aac3b323122f05c29ed7f9e7b529be41eb8d745e2"
+      "bytes": 2678,
+      "sha256": "98716cf07dfbc885d88f8c6c6e3335d3a84a2d7173a5bbf527d4d16230c82ff4"
     },
     {
       "path": "tests/summary-navigation.test.mjs",
@@ -246,11 +267,11 @@
       "sha256": "28748cd8e7b1b1884c0d94855298a6b688612798894998f93649cae6051e7432"
     }
   ],
-  "qaMetadataScope": "Hashes identify this content snapshot. Test results do not establish deployment status or validate every historical source. Historical version results are retained in QA.md.",
+  "qaMetadataScope": "Hashes identify this content snapshot. Automated test counters do not establish deployment or browser acceptance. QA.md retains earlier-version reports.",
   "publishedBaseline": {
-    "commit": "c3a2fe200fe03ea0d32eb6d6d1e581d0a44bf8b5",
-    "contentCommit": "c3a2fe200fe03ea0d32eb6d6d1e581d0a44bf8b5",
+    "commit": "da6f5b22a2ddfe003a41fe07b14d6322171ed10a",
+    "contentCommit": "da6f5b22a2ddfe003a41fe07b14d6322171ed10a",
     "experienceRecords": 16,
-    "pagesRun": "https://github.com/CHUNHUI-LAB/GradCompass/actions/runs/36958920364"
+    "pagesRun": "https://github.com/CHUNHUI-LAB/GradCompass/actions/runs/36965643617"
   }
 }

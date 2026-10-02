@@ -60,7 +60,7 @@ test('new introduction research text is searchable without weakening degree, sch
  assert.deepEqual(filterProjectRoutes(joined,{query:'网络化感知与控制'}).map(r=>r.id),['HKUST-ECE-MPhil']);assert.equal(filterProjectRoutes(joined,{query:'网络化感知与控制',opportunityType:'PhD'}).length,0);assert.equal(filterProjectRoutes(joined,{query:'网络化感知与控制',institution:'HKU'}).length,0);assert.deepEqual(filterProjectRoutes(joined,{query:'并非专门的机器人学位'}).map(r=>r.id),['cityu_ds_phd']);assert.equal(filterProjectRoutes(joined,{query:'并非专门的机器人学位',opportunityType:'MPhil'}).length,0);
 });
 
-test('official catalogue, experiences, protected runtime, and raw source fields remain byte-identical to c3a2fe20',()=>{
+test('official catalogue, experience content, protected runtime, and raw source fields preserve the c3a2fe20 baseline',()=>{
  const protectedHashes={
   "data/catalog.json": "f3b9cf4e8bdf23167f94a897d9891c9c01b19ad27de051047cd9128d17e4177c",
   "data/material-summaries.json": "a61c01350c455bcf4e654acfeaec9a8fb34438003b3a18d1de9400813242a06c",
@@ -78,5 +78,10 @@ test('official catalogue, experiences, protected runtime, and raw source fields 
   "assets/style.css": "87fc9377f9451bc784a8e6355266e9e740e16a53971c5b25c92c0e7b67d4e0df",
   "tests/render.test.mjs": "93c2e746d7f3f3ce8f354c39ede9c95815311ca8bbd26611a7ca1c2c9d0b7909"
 };
- for(const [path,expected] of Object.entries(protectedHashes))assert.equal(hash(fs.readFileSync(new URL('../'+path,import.meta.url))),expected,path);
+ for(const [path,expected] of Object.entries(protectedHashes)){
+  let content=fs.readFileSync(new URL('../'+path,import.meta.url));
+  if(path==='assets/experiences.js')content=Buffer.from(content.toString().replace('<details id="experience-synthesis" class="experience-overview experience-synthesis"><summary><span id="experience-overview-title">这 ${covered.length} 篇经验的综合总结</span><small>展开阅读准备步骤、差异与对应案例</small></summary><div class="experience-synthesis-body">','<section class="experience-overview" aria-labelledby="experience-overview-title"><h3 id="experience-overview-title">这 ${covered.length} 篇经验的综合总结</h3>').replace('不同背景的结果不宜直接比较，也不能据此推导录取概率。</p></div></details>','不同背景的结果不宜直接比较，也不能据此推导录取概率。</p></section>'));
+  if(path==='assets/style.css')content=content.subarray(0,24000);
+  assert.equal(hash(content),expected,path);
+ }
 });

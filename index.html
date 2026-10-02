@@ -8,8 +8,8 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>GradCompass · 找导师与项目</title>
 <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
-<link rel="stylesheet" href="./assets/style.css?v=87fc9377f945">
-<script type="module" src="./assets/app.js?v=9a942d6d2b02"></script>
+<link rel="stylesheet" href="./assets/style.css?v=6893a949ba86">
+<script type="module" src="./assets/app.js?v=83865e5f15b1"></script>
 </head>
 <body>
 <a class="skip-link" href="#results">跳到结果</a>
@@ -28,6 +28,7 @@
     <div><p class="eyebrow">2027 FALL / RESEARCH-FIRST</p><h1 id="page-title">找导师、选项目，理清申请准备</h1><p id="page-description">机器人与具身智能 · 导师研究方向、学位项目与申请信息</p></div>
     <div class="edition"><span id="checked-date">核验于 2026-10-01</span><a href="#sources">每日检查已启用 · 首轮待验证</a></div>
   </section>
+  <div id="page-overview" hidden></div>
   <section class="search-surface" aria-label="搜索机会">
     <label class="search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><span id="search-label" class="sr-only">搜索导师、学校、研究方向或项目</span><input id="search" type="search" placeholder="搜索导师、研究方向或项目…" autocomplete="off"><kbd aria-hidden="true">/</kbd></label>
     
@@ -48,7 +49,7 @@
     <section id="results" class="results" tabindex="-1" aria-labelledby="results-title">
       <div class="results-heading"><div><h2 id="results-title" tabindex="-1">找导师</h2><p id="result-count" role="status" aria-live="polite">正在载入已核实数据…</p></div><span id="results-note" class="quiet">同一导师的不同机会分别展示</span></div>
       <p id="view-description" class="view-description"></p>
-      <div id="view-content"><div class="loading"><span></span>正在载入数据</div></div>
+      <div id="view-content" tabindex="-1"><div class="loading"><span></span>正在载入数据</div></div>
     </section>
   </div>
   <p class="coverage-note">当前覆盖香港及部分内地高校的机器人与具身智能方向</p>

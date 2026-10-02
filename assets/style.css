@@ -39,3 +39,28 @@
 
 /* Experience reading follows the same in-site link and browser-history model throughout. */
 .experience-read-link{display:inline-flex;align-items:center;min-height:44px;padding:.55rem 1rem;border:1px solid var(--ink);border-radius:8px;font-weight:600;color:var(--ink);text-decoration:none}.experience-read-link:hover{background:#edf3ef}.experience-read-link:focus-visible,.experience-back:focus-visible,.experience-related a:focus-visible{outline:3px solid #547d69;outline-offset:4px}.experience-related{font-size:13px;color:var(--quiet);margin:.35rem 0 0}.experience-related a{text-underline-offset:3px}.experience-card h3{margin:.5rem 0}.experience-takeaway{font-size:15px}.experience-background{font-size:13px;font-weight:400;color:var(--quiet)}.experience-list-title{margin:1.8rem 0 1rem;font-size:19px}.experience-reading{max-width:76ch;line-height:1.85}.experience-reading section{margin:1.6rem 0}.experience-reading h3{font-size:18px;margin-bottom:.6rem}.experience-reading p+p{margin-top:.65rem}.experience-reading ul{padding-left:1.4rem}.experience-reading li{margin:.5rem 0}.experience-reading-lead{font-size:17px}.experience-back{display:inline-block;min-height:44px;padding:.6rem 0;font-weight:550}.experience-reading details{border-top:1px solid var(--line);padding-top:1rem;margin-top:1.6rem}.experience-reading summary{cursor:pointer}.experience-reading-actions{display:flex;flex-wrap:wrap;gap:1rem;align-items:center}.experience-reading-actions p{flex-basis:100%}.intro[hidden],[hidden]{display:none!important}
+:root{--overview-tint:#f0f5f1}
+.page-overview{margin:0 0 1.3rem;padding:1.25rem 1.4rem 1rem;border:1px solid #d8e3dc;border-top:3px solid var(--accent);border-radius:12px;background:var(--overview-tint);color:var(--ink)}
+.overview-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;margin-bottom:1.1rem}
+.overview-kicker{margin:0 0 .25rem;color:var(--accent);font-size:.72rem;font-weight:750;letter-spacing:.12em}
+.overview-heading h3{margin:0;font-size:1.18rem;line-height:1.45}
+.overview-scope{margin:.2rem 0 0;max-width:15rem;font-size:.73rem;color:var(--quiet);text-align:right;line-height:1.6}
+.overview-insights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem}
+.overview-insight{min-width:0;display:flex;flex-direction:column;align-items:flex-start}
+.overview-insight+.overview-insight{border-left:1px solid #d8e3dc;padding-left:1.2rem}
+.overview-insight h4{display:flex;gap:.5rem;margin:0 0 .45rem;font-size:.85rem;line-height:1.5}
+.overview-insight h4 span{color:var(--accent);font:600 .7rem/1.8 ui-monospace,monospace}
+.overview-insight p{margin:0 0 .6rem;font-size:.875rem;line-height:1.85;color:var(--body);overflow-wrap:anywhere}
+.overview-action{display:inline-flex;align-items:center;gap:.4rem;margin-top:auto;padding:.3rem 0;background:none;border:0;border-radius:2px;color:var(--accent);text-align:left;text-decoration:none;font-family:inherit;font-weight:650;font-size:.85rem;line-height:1.6;min-height:44px;cursor:pointer}
+.overview-action:hover{text-decoration:underline;text-underline-offset:3px}
+.overview-action:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.overview-note{margin:.95rem 0 0;padding-top:.7rem;border-top:1px solid #d8e3dc;color:var(--quiet);font-size:.7rem;line-height:1.7}
+#view-content{scroll-margin-top:1rem}
+#view-content:focus{outline:none}
+.experience-synthesis{padding:1rem 1.25rem}
+.experience-synthesis>summary{cursor:pointer;font-size:.94rem;font-weight:650;color:var(--ink)}
+.experience-synthesis>summary small{display:block;margin:.3rem 0 0 1rem;font-size:.75rem;font-weight:400;color:var(--quiet)}
+.experience-synthesis>summary:focus-visible{outline:2px solid var(--accent);outline-offset:5px}
+.experience-synthesis-body{padding-top:1rem}
+@media(max-width:1050px){.overview-insights{gap:.85rem}.overview-insight+.overview-insight{padding-left:.85rem}.page-overview{padding:1.05rem}}
+@media(max-width:720px){.overview-heading{display:block;margin-bottom:.9rem}.overview-scope{max-width:none;text-align:left;margin-top:.4rem}.overview-insights{grid-template-columns:1fr;gap:.85rem}.overview-insight+.overview-insight{border-left:0;padding-left:0;border-top:1px solid #d8e3dc;padding-top:.85rem}.overview-heading h3{font-size:1.08rem}.overview-insight p{margin-bottom:.3rem}.page-overview{padding:1rem}.overview-action{min-height:44px}.overview-note{margin-top:.75rem}.experience-synthesis{padding:1rem}}
