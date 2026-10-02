@@ -59,3 +59,21 @@ test('reviewed catalog and materials plus expanded experience data retain their 
  const expected={'catalog.json':'045a3a5886d5','material-summaries.json':'193f8d81ae8a','application-experiences.json':'05b5bc420009'};
  for(const [name,sha]of Object.entries(expected)){const bytes=name==='catalog.json'?recruitmentBaselineText(read(name)):fs.readFileSync(new URL('../data/'+name,import.meta.url));assert.equal(crypto.createHash('sha256').update(bytes).digest('hex').slice(0,12),sha,name);}
 });
+
+test('compact advisor entry retains three substantive conclusions without disclosure',()=>{
+ const m=model('advisors'),html=renderPageOverview('advisors',catalog,options);
+ assert.equal(m.insights.length,3);
+ for(const text of ['张富','多传感定位','刘希慧','多模态导航','代表工作','MPhil','PhD','2 个已核实 RA 岗位','培养与指导关系','任期与任职条件','25 条','其余待确认','院系招生都不等于导师本轮名额','条件与来源'])assert(m.insights.some(i=>i.text.includes(text)),text);
+ for(const insight of m.insights){assert(html.includes(`<p>${insight.text}</p>`));assert(insight.text.length>=45);}
+ assert(!html.includes('<details'));
+ assert.equal((html.match(/data-overview-preset=/g)||[]).length,3);
+ assert(m.note.includes('不随筛选变化')&&m.note.includes('不等于导师人数'));
+});
+test('entry hierarchy styles are confined to the advisor page and do not add motion',()=>{
+ const css=fs.readFileSync(new URL('../assets/style.css',import.meta.url),'utf8');
+ const refinement=css.slice(css.indexOf('/* Advisor entry:'));
+ assert(refinement.includes('[data-page-overview="advisors"]'));
+ assert(!refinement.includes('animation:')&&!refinement.includes('transition:'));
+ assert(!refinement.includes('display:none')&&!refinement.includes('font-size:11px'));
+ assert(css.includes('prefers-reduced-motion:reduce'));
+});

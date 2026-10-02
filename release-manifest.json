@@ -48,7 +48,7 @@
     {
       "path": "assets/app.js",
       "bytes": 48613,
-      "sha256": "3636af0a440efe388e3b5691bf1c47af0e9261b12d5a2057ccdaa11b910b4043"
+      "sha256": "72b5d019702724b356bd3d2a57c5c38e1c8af7fb2ab6d8e3207d33f0c7ab1a72"
     },
     {
       "path": "assets/core.js",
@@ -72,8 +72,8 @@
     },
     {
       "path": "assets/page-overviews.js",
-      "bytes": 14363,
-      "sha256": "8f4f6a8adb756c466769af60b7bedcc57b00d2c6ff0572212daa27fc7fe00b2e"
+      "bytes": 14280,
+      "sha256": "c7f7bef01c23bbbc5078c5d86a5e3866147b38ff9b2222d3e49357317e70c7a4"
     },
     {
       "path": "assets/profiles.js",
@@ -87,8 +87,8 @@
     },
     {
       "path": "assets/style.css",
-      "bytes": 27944,
-      "sha256": "9fe9f9e36e4625d4ac77cf8671db98112cdbbef2e8bc5dca450246b5c6f041fc"
+      "bytes": 29742,
+      "sha256": "5ccaa25645c554b4e7e075a2828eb36a13f3525393167c44c6652d90a906b38a"
     },
     {
       "path": "data/advisor-profiles.json",
@@ -138,7 +138,7 @@
     {
       "path": "index.html",
       "bytes": 7227,
-      "sha256": "77634a2ca40c5efdace8db5dbce7b4e132b9b3d35f0676355b899c771340145f"
+      "sha256": "beb06fd741b4fd48bc03b49065f0f27508be76b99819cc0eef96569d2da7ef03"
     },
     {
       "path": "package.json",
@@ -232,8 +232,8 @@
     },
     {
       "path": "tests/page-overviews.test.mjs",
-      "bytes": 8256,
-      "sha256": "f882c3ec8d3b697551e5518971ec97cfb2446a514df118becf172ea58c6feacd"
+      "bytes": 9639,
+      "sha256": "1cbb5b0bb338ef43c2f9626eaa2b832d9f9460136426f494113d9ba5ea109f71"
     },
     {
       "path": "tests/profiles-batch5.test.mjs",

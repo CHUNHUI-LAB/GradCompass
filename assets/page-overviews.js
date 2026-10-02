@@ -26,9 +26,9 @@ export function buildPageOverview(view,catalog,{experiences=null,projectSummaryS
   const explicit=count(degreeOpportunities,o=>o.openingStatus==='explicit');
   const ra=opportunities.filter(o=>o.type==='RA');
   return {label:'导师总览',title:'先对研究问题，再核对学位与招募',scope:`全页 ${people.length} 位导师 · ${opportunities.length} 条机会`,insights:[
-   {title:'研究侧重并不相同',text:`导航与操作的题目很不一样：张富侧重多传感定位与自主飞行，刘希慧涉及多模态导航与全身移动操作。全页灵巧操作与触觉涉及 ${topicCount('灵巧操作与触觉')} 位（方向可重叠），选题仍要落到代表工作。`,action:preset('advisors-manipulation','只看灵巧操作与触觉')},
-   {title:'学位机会与 RA 分开选',text:`学位关联以 MPhil（${count(opportunities,o=>o.type==='MPhil')} 条）和 PhD（${count(opportunities,o=>o.type==='PhD')} 条）为主；另有 ${ra.length} 个已核实 RA 岗位。学位看培养与指导关系，RA 看工作内容、任期与任职条件。`,action:ra.length?preset('advisors-ra','只看 RA 岗位'):null},
-   {title:'有招募说明，也要再核当轮',text:`${degreeOpportunities.length} 条学位机会中，${explicit} 条找到分学位招募说明，其余仍需确认。常年招募、院系招生与导师本轮名额不能画等号；联系前先读对应机会的条件与来源。`,action:preset('advisors-recruitment','只看有招募说明的机会')}
+   {title:'研究侧重并不相同',text:`张富侧重多传感定位与自主飞行，刘希慧涉及多模态导航与全身移动操作。灵巧操作与触觉涉及 ${topicCount('灵巧操作与触觉')} 位（方向可重叠）；按代表工作选题。`,action:preset('advisors-manipulation','只看灵巧操作与触觉')},
+   {title:'学位机会与 RA 分开选',text:`MPhil（${count(opportunities,o=>o.type==='MPhil')} 条）、PhD（${count(opportunities,o=>o.type==='PhD')} 条）为主，另有 ${ra.length} 个已核实 RA 岗位。学位看培养与指导关系；RA 看工作内容、任期与任职条件。`,action:ra.length?preset('advisors-ra','只看 RA 岗位'):null},
+   {title:'有招募说明，也要再核当轮',text:`${degreeOpportunities.length} 条学位机会中，${explicit} 条有分学位招募说明，其余待确认。常年招募、院系招生都不等于导师本轮名额；联系前核对对应机会的条件与来源。`,action:preset('advisors-recruitment','只看有招募说明的机会')}
   ],note:'全页概览不随筛选变化；下方显示筛选结果。方向人数可重叠，机会数不等于导师人数。'};
  }
  if(view==='routes'){

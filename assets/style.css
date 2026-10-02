@@ -74,3 +74,27 @@
 .filter-chip:hover:not(:disabled){background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
 .filter-clear{font-size:13px;color:var(--accent);transition:background-color 160ms ease,color 160ms ease}
 @media print{.active-filters{display:none}}
+
+/* Advisor entry: readable synthesis stays visible, with less framing before the task. */
+main:has([data-page-overview="advisors"]){padding-top:28px}
+main:has([data-page-overview="advisors"]) .intro{margin-bottom:22px}
+[data-page-overview="advisors"]{background:#f8faf9;border-top-width:1px;padding:18px 22px 14px}
+[data-page-overview="advisors"] .overview-heading{align-items:baseline;margin-bottom:14px;gap:12px}
+[data-page-overview="advisors"] .overview-kicker{display:inline;margin-right:12px;font-size:12px;letter-spacing:.04em}
+[data-page-overview="advisors"] .overview-heading>div{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 0}
+[data-page-overview="advisors"] .overview-heading h3{font-size:18px;line-height:1.5}
+[data-page-overview="advisors"] .overview-scope{font-size:12px;max-width:none;flex-shrink:0}
+[data-page-overview="advisors"] .overview-insight p{font-size:14px;line-height:1.75;margin-bottom:4px}
+[data-page-overview="advisors"] .overview-insight h4{font-size:14px;margin-bottom:6px}
+[data-page-overview="advisors"] .overview-note{margin-top:10px;padding-top:10px;font-size:12px;line-height:1.6}
+@media(max-width:720px){
+ main:has([data-page-overview="advisors"]){padding-top:22px}
+ main:has([data-page-overview="advisors"]) .intro{gap:18px;margin-bottom:20px}
+ [data-page-overview="advisors"]{padding:16px}
+ [data-page-overview="advisors"] .overview-heading{margin-bottom:14px}
+ [data-page-overview="advisors"] .overview-heading>div{display:block}
+ [data-page-overview="advisors"] .overview-kicker{display:block;margin:0 0 4px}
+ [data-page-overview="advisors"] .overview-insights{gap:10px}
+ [data-page-overview="advisors"] .overview-insight+.overview-insight{padding-top:10px}
+ [data-page-overview="advisors"] .overview-insight p{font-size:14px;line-height:1.8}
+}
