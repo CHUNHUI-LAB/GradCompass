@@ -27,7 +27,7 @@
     "Show faculty affiliation and lab/project affiliation separately",
     "Any recruitment display preserves degree/cycle specificity; confirmedVacancy=false means no remaining-place confirmation obtained",
     "No inference of lab size, funding availability, mentorship personality, student outcomes or hardware access",
-    "Twenty-five profiles cover existing visible catalog advisors; all previous twenty profile objects and dates are preserved. Five further additions were checked on 2026-10-02; no catalog admissions or recruitment authority is overwritten."
+    "Thirty profiles cover all existing visible catalog advisors; all previous twenty-five profile objects and dates are preserved. The final five additions were checked on 2026-10-02; no catalog admissions, identity, rank or recruitment authority is overwritten."
   ],
   "profiles": [
     {
@@ -4006,10 +4006,932 @@
       "checkedDate": "2026-10-02",
       "confirmedVacancy": false,
       "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "hkust-ping-tan",
+      "cardSummaryZh": "从三维场景重建与空间理解延伸到具身操作，用几何表示、生成模型和示范学习连接感知与行动。",
+      "overview": {
+        "textZh": "谭平（官方繁体姓名：譚平）现任 HKUST 电子与计算机工程系及艺术与机器创造学部教授；2007 年获 HKUST 计算机科学博士。曾在 NUS、Simon Fraser University 任教，并领导阿里巴巴达摩院 XR Lab；2023 年加入 HKUST，2026 年 5 月新增工学院产业合作与高管教育行政职务，后者不是到校日期。研究主线为计算机视觉、图形学及机器人，尤其是三维视觉。",
+        "sources": [
+          {
+            "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ping-tan-pingtan",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://seng.hkust.edu.hk/news/20260507/prof-tan-ping-appointed-executive-director-industry-engagement-and-executive-education",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://pingtan.people.ust.hk/index.html",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Intelligent Space Computing Lab；HKUST-BYD Embodied AI Joint Laboratory",
+        "affiliation": {
+          "textZh": "大学档案明确列其担任 Intelligent Space Computing Lab 和 HKUST-BYD 联合实验室主任。联合实验室于 2025 年 7 月公布成立，设在 HKUST 校园；机器人研究院和冯诺依曼研究院的副主任职务属于另一层机构关联，不应混为个人实验室。",
+          "sources": [
+            {
+              "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ping-tan-pingtan",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://hkust.edu.hk/news/hkust-and-byd-establish-joint-laboratory-pioneer-embodied-intelligence",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "三维重建与视觉定位",
+          "点云和大模型空间理解",
+          "机器人交互技能与示范学习",
+          "具身操作、导航与数据采集"
+        ],
+        "structure": {
+          "textZh": "HKUST-BYD 联合实验室由科学咨询委员会统筹研究方向，结合高校与产业研究；公开项目涉及模拟及真实环境的数据采集、操作和导航模型。个人课题组、联合实验室与项目合作者范围并不完全相同，不据联合署名或机构职位估计个人团队规模。",
+          "sources": [
+            {
+              "url": "https://hkust.edu.hk/news/hkust-and-byd-establish-joint-laboratory-pioneer-embodied-intelligence",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "SAIL-Recon 作者项目提供论文、代码和模型入口，可查看大规模 SfM 与新视角合成演示；代码仓库使用 HKUST Spatial Artificial Intelligence Lab 名称，此名称与校方档案中的 Intelligent Space Computing Lab 是否同一组织尚未核实。",
+            "sources": [
+              {
+                "url": "https://hkust-sail.github.io/sail-recon/",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://github.com/HKUST-SAIL/sail-recon",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "SkillMimic-V2 提供模拟机器人交互技能代码与演示；SpatialLM 提供模型、训练代码及合成室内点云数据。它们是合作研究的公开资源，不表示每位学生都能获得特定机器人、算力或企业数据。",
+            "sources": [
+              {
+                "url": "https://github.com/Ingrid789/SkillMimic-V2",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://github.com/manycore-research/SpatialLM",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "SkillMimic-V2: Learning Robust and Generalizable Interaction Skills from Sparse and Noisy Demonstrations",
+          "year": 2025,
+          "venue": "SIGGRAPH 2025",
+          "summaryZh": "针对稀疏、含噪且缺少技能衔接的示范，构建轨迹拼接图和状态转移场，再用自适应采样学习交互策略；公开结果以物理仿真中的操作、起身与篮球技能为主，不能直接等同实机泛化验证。",
+          "url": "https://ingrid789.github.io/SkillMimicV2/",
+          "sources": [
+            {
+              "url": "https://ingrid789.github.io/SkillMimicV2/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://arxiv.org/abs/2505.02094",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://github.com/Ingrid789/SkillMimic-V2",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "SpatialLM: Training Large Language Models for Structured Indoor Modeling",
+          "year": 2025,
+          "venue": "NeurIPS 2025",
+          "summaryZh": "把三维点云输入多模态大语言模型，输出墙、门窗和带语义的物体包围盒等结构化室内表示；以合成数据训练并测试布局估计与三维检测，研究对象是空间理解，不能据此宣称完整机器人闭环能力。",
+          "url": "https://arxiv.org/abs/2506.07491",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2506.07491",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://github.com/manycore-research/SpatialLM",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "SAIL-Recon: Large SfM by Augmenting Scene Regression with Localization",
+          "year": 2026,
+          "venue": "3DV 2026 Oral（作者项目与代码仓库；预印本首发于 2025）",
+          "summaryZh": "从少量锚点图像建立神经场景表示，再让场景回归网络在该表示条件下处理更多视角，把视觉定位融入大规模 SfM；论文评测相机位姿和新视角合成，而非机器人导航安全性。",
+          "url": "https://hkust-sail.github.io/sail-recon/",
+          "sources": [
+            {
+              "url": "https://hkust-sail.github.io/sail-recon/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://arxiv.org/abs/2508.17972",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://github.com/HKUST-SAIL/sail-recon",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "本次核读的官方档案和个人主页未提供可确认的 MPhil、PhD 或 RA 当前余位。学校 MPhil 路径关联、已有研究生及联合实验室合作均不能推导 Fall 2027 名额、资助或录取；未找到明确招募不等于不招。",
+        "sources": [
+          {
+            "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ping-tan-pingtan",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://pingtan.people.ust.hk/index.html",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "Fall 2027 各学位剩余名额、资助、个人指导频率和新生资源分配未核实；行政任命或新联合实验室不等同新 PI 入职。",
+        "SAIL-Recon 项目标题已标 3DV 2026 Oral，但网页 BibTeX 仍写 2025 预印本；此处将会议年份与预印本首发年份分开。",
+        "作者代码使用 HKUST Spatial Artificial Intelligence Lab 名称；尚未确认其与校方 Intelligent Space Computing Lab 名称的一一对应关系，不据简称合并组织。"
+      ],
+      "links": [
+        {
+          "label": "校方档案",
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ping-tan-pingtan"
+        },
+        {
+          "label": "个人主页",
+          "url": "https://pingtan.people.ust.hk/index.html"
+        },
+        {
+          "label": "联合实验室成立公告",
+          "url": "https://hkust.edu.hk/news/hkust-and-byd-establish-joint-laboratory-pioneer-embodied-intelligence"
+        }
+      ],
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "hku-yanchao-yang",
+      "cardSummaryZh": "以互信息与低标注学习为方法主线，把三维场景重建、操作概念发现和可泛化机器人策略连接起来。",
+      "overview": {
+        "textZh": "楊言超（Yanchao Yang）现任香港大学计算与数据科学学院助理教授，个人主页注明与电机与计算机工程系（ECE）及数据科学研究院（IDS）联合任职。他于 2019 年获 UCLA 计算机科学博士，随后在 Stanford 从事博士后研究，2022 年加入 HKU，并领导 InfoBodied AI Lab。研究重心是让具身智能体借助少标注或无标注数据获得三维感知、可操作概念与可泛化技能；互信息估计是贯穿表征学习、概念发现和策略优化的方法主线。2022 年是已核实的入职年份，并非已核实的实验室成立年份。",
+        "sources": [
+          {
+            "url": "https://www.ai.hku.hk/people/academic-staff/yanchaoy",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://yanchaoyang.github.io/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://hub.hku.hk/cris/rp/rp03076",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "InfoBodied AI Lab",
+        "affiliation": {
+          "textZh": "由楊言超领导的 HKU 研究组；学院、ECE 与 IDS 是其公开任职/机构归属，不能把整个 IDS 等同于该实验室。官网将研究组织为三维场景感知重建、概念与技能发现、可泛化策略学习。",
+          "sources": [
+            {
+              "url": "https://www.ai.hku.hk/people/academic-staff/yanchaoy",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://yanchaoyang.github.io/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "三维场景理解、实时稠密重建与神经场景表征",
+          "从无标注多模态示范中发现操作概念与技能",
+          "机器人操作、模仿学习与视觉运动闭环控制",
+          "互信息估计、自监督学习及视觉语言模型的物理世界落地"
+        ],
+        "structure": {
+          "textZh": "个人/实验室主页公开区分 Current 与 Alumni，并在现有成员中区分博士后与学生；论文链接可以追踪项目作者和代码。成员页面是公开快照，不据此推断完整人数、师生配比或个人指导频率。",
+          "sources": [
+            {
+              "url": "https://yanchaoyang.github.io/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "SLAM3R 作者仓库公开代码、模型权重与重建演示，可作为研究 RGB 视频稠密三维重建的复现入口；这是合作项目成果，不表示全部资源由该组独占。",
+            "sources": [
+              {
+                "url": "https://github.com/PKU-VCL-3DV/SLAM3R",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_SLAM3R_Real-Time_Dense_Scene_Reconstruction_from_Monocular_RGB_Videos_CVPR_2025_paper.html",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "AutoCGP 公开概念发现与策略学习实现，并包含仿真训练/评估相关目录。HyperTASR 仓库公开超网络及自编码器模块，但 README 仍把 GNFactor、3D Diffuser Actor 完整实验设置列入 TODO，不能写成所有实验已完整开源。",
+            "sources": [
+              {
+                "url": "https://github.com/PeiZhou26/AutoCGP",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://github.com/lisunphil/HyperTASR",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "HyperTASR 原论文报告 RLBench 仿真与真实机器人操作实验；这些实验说明该成果的验证方式，不构成新生设备、算力或使用权限承诺。",
+            "sources": [
+              {
+                "url": "https://arxiv.org/pdf/2508.18802",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos",
+          "year": 2025,
+          "venue": "CVPR 2025",
+          "summaryZh": "从单目 RGB 视频的重叠片段直接预测局部三维点图，再以前馈网络完成全局坐标对齐，研究实时稠密重建。原文报告 20+ FPS，但也说明不显式估计相机参数限制了全局 bundle adjustment，派生位姿仍弱于专门定位系统；因此应理解为重建方法，而非全面解决定位的通用 SLAM 方案。",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_SLAM3R_Real-Time_Dense_Scene_Reconstruction_from_Monocular_RGB_Videos_CVPR_2025_paper.html",
+          "sources": [
+            {
+              "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_SLAM3R_Real-Time_Dense_Scene_Reconstruction_from_Monocular_RGB_Videos_CVPR_2025_paper.html",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_SLAM3R_Real-Time_Dense_Scene_Reconstruction_from_Monocular_RGB_Videos_CVPR_2025_paper.pdf",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "AutoCGP: Closed-Loop Concept-Guided Policies from Unlabeled Demonstrations",
+          "year": 2025,
+          "venue": "ICLR 2025",
+          "summaryZh": "先从无标注示范中的机器人本体状态发现一致的操作概念，再用概念选择 Transformer 与概念引导策略执行长时程任务。其研究切入点是减少人为技能标签依赖，并让概念随闭环执行适应任务变化。",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/6eed1e1d5ed52deee53234786998245e-Abstract-Conference.html",
+          "sources": [
+            {
+              "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/6eed1e1d5ed52deee53234786998245e-Abstract-Conference.html",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/6eed1e1d5ed52deee53234786998245e-Paper-Conference.pdf",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "HyperTASR: Hypernetwork-Driven Task-Aware Scene Representations for Robust Manipulation",
+          "year": 2025,
+          "venue": "CoRL 2025；PMLR 305:4524–4544",
+          "summaryZh": "以任务目标和执行进度为条件，用超网络动态生成场景表征变换参数，让策略关注当前操作所需的视觉信息。论文在 GNFactor 与 3D Diffuser Actor 等策略框架、仿真和真实场景中验证，体现该组把表征学习与操作泛化相结合的路线。",
+          "url": "https://proceedings.mlr.press/v305/sun25c.html",
+          "sources": [
+            {
+              "url": "https://proceedings.mlr.press/v305/sun25c.html",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://arxiv.org/pdf/2508.18802",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://lisunphil.github.io/HyperTASR_projectpage/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "官方简介与个人主页明确欢迎 PhD、博士后，个人页另列实习机会，并要求以 CV 和简短研究兴趣联系。个人页的入学表述为“2026/2027 enrollment”，不足以单独确认 Fall 2027；其提到可选 CDS、ECE 或 IDS，并应在提交后通知导师。HKPFS/HKUPS 是建议申请的奖学金渠道，不是保证资助。本轮未找到个人 MPhil 的明确年份或名额；已有 ECE MPhil 项目入口与 PhD 招募必须分别理解，实习也不等于学位录取。",
+        "sources": [
+          {
+            "url": "https://www.ai.hku.hk/people/academic-staff/yanchaoy",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://yanchaoyang.github.io/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "未核实 Fall 2027 的个人接收计划、当期剩余名额及具体资助安排",
+        "未找到个人 MPhil 年份/名额声明；不能由 PhD 招募或项目准入条件推定",
+        "未核实实验室正式成立日期、完整团队规模、指导频率、设备/算力清单及新生使用权限"
+      ],
+      "links": [
+        {
+          "label": "院系官方简介",
+          "url": "https://www.ai.hku.hk/people/academic-staff/yanchaoy"
+        },
+        {
+          "label": "个人主页 / InfoBodied AI Lab",
+          "url": "https://yanchaoyang.github.io/"
+        },
+        {
+          "label": "HKU Scholars Hub（中文姓名与学历）",
+          "url": "https://hub.hku.hk/cris/rp/rp03076"
+        },
+        {
+          "label": "SLAM3R 官方代码",
+          "url": "https://github.com/PKU-VCL-3DV/SLAM3R"
+        },
+        {
+          "label": "HyperTASR 作者项目",
+          "url": "https://lisunphil.github.io/HyperTASR_projectpage/"
+        }
+      ],
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "hku-chen-sun",
+      "cardSummaryZh": "面向不确定且人与机器交互的环境，研究安全感知评估、规划控制与多智能体决策，应用集中于自主驾驶和场地机器人。",
+      "overview": {
+        "textZh": "孫陳（Chen Sun）现任香港大学数据与系统工程系（DASE）助理教授，个人履历记录于 2024 年 9 月加入 HKU。其本科为电子科技大学自动化，硕士为多伦多大学电气与计算机工程，博士为滑铁卢大学机械与机电一体化工程，之后在滑铁卢从事博士后研究。当前主线是在不确定、动态且存在交互的环境中，把安全保证与学习、规划和控制结合，研究社会导航、混合交通中的博弈规划，以及可信自主系统。2024 年 9 月是任职时间，不应改写为实验室成立日期。",
+        "sources": [
+          {
+            "url": "https://www.dase.hku.hk/people/c-sun",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://hub.hku.hk/cris/rp/rp03442",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://chensunmac.github.io/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://chensunmac.github.io/assets/files/CV_CSUN.pdf",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "SAIL Lab（官网标题为 Social Autonomy and Interactive Learning，正文与页脚为 Safe Autonomy and Interactive Learning）",
+        "affiliation": {
+          "textZh": "官网明确由 Chen Sun 领导，隶属 HKU 数据与系统工程系。个人主页另列 HKU Institute of Transport Studies Fellow 与 University of Waterloo Adjunct Assistant Professor，这些是个人机构联系，不能据此把相关研究所或滑铁卢实验室认作其 HKU 自有实验室。",
+          "sources": [
+            {
+              "url": "https://hku-sas.hku.hk/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://chensunmac.github.io/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "社会导航与主动人机交互",
+          "不确定环境中的安全规划、控制与多智能体协同",
+          "自主驾驶感知可靠性与运行时安全评估",
+          "安全关键具身 AI 的世界模型与可信自主系统"
+        ],
+        "structure": {
+          "textZh": "实验室页面分别列出 PI、“Postdocs, Visiting Scholars and Engineers”以及 PhD/MPhil 学生，并按规划、控制、感知、安全与学习展示成果。这里保留公开成员类别，不将网页条目数视为完整或实时的团队规模。",
+          "sources": [
+            {
+              "url": "https://hku-sas.hku.hk/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "HKU 学术库提供点云势场规划论文的作者稿。该工作将 LiDAR 可行驶边界接入 MPC，包含真实巴士上的感知模块测试和完整规划方法的仿真验证；不能把前者写成整套规划已上车验证。",
+            "sources": [
+              {
+                "url": "https://hub.hku.hk/handle/10722/353229",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://hub.hku.hk/bitstream/10722/353229/1/content.pdf",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "Hybrid Action-Based RL 的作者预印本可公开阅读，验证涉及仿真与 HighD 数据支持的多车道公路场景，可用于理解该组参与的多目标驾驶决策路线。论文使用的数据/仿真并非本实验室独占资源或给新生的硬件承诺。",
+            "sources": [
+              {
+                "url": "https://arxiv.org/abs/2501.08096",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "个人主页记载其在滑铁卢 MVS Lab 参与 WATonoBus 决策与安全监测软件工作；这是既往项目经历，不能据此宣称 HKU SAIL 现有同一巴士平台或相应访问权限。",
+            "sources": [
+              {
+                "url": "https://chensunmac.github.io/",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "A Novel Motion Planning for Autonomous Vehicles Using Point Cloud Based Potential Field",
+          "year": 2025,
+          "venue": "IEEE Transactions on Vehicular Technology 74(3):3780–3792；2024 在线发表，2025 年 3 月卷期",
+          "summaryZh": "从 LiDAR 点云提取可行驶区域边界，构造势场代价，再结合 Frenet 轨迹采样与迭代 MPC 联合规划纵横向运动。感知部分做了真实巴士实验，整套规划方法在仿真中评估。年份采用正式卷期 2025；导师/学术库标注的 2024 与实验室所写“2024 online”是在线发表口径。",
+          "url": "https://doi.org/10.1109/TVT.2024.3485511",
+          "sources": [
+            {
+              "url": "https://hub.hku.hk/bitstream/10722/353229/1/content.pdf",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://hub.hku.hk/handle/10722/353229",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://api.crossref.org/works/10.1109/TVT.2024.3485511",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://hku-sas.hku.hk/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "REAL-SAP: Real-Time Evidence Aware Liable Safety Assessment for Perception in Autonomous Driving",
+          "year": 2024,
+          "venue": "IEEE Transactions on Vehicular Technology 73(8):10870–10883",
+          "summaryZh": "研究如何实时估计黑盒感知网络输出的可靠性：把离线测试知识、在线观测证据及网络置信度纳入概率/贝叶斯网络框架，为下游安全监测和降级运行生成预警。重点是感知安全评估，不是另一个目标检测器。",
+          "url": "https://doi.org/10.1109/TVT.2024.3369100",
+          "sources": [
+            {
+              "url": "https://hub.hku.hk/handle/10722/353149",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://api.crossref.org/works/10.1109/TVT.2024.3369100",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "Hybrid Action-Based Reinforcement Learning for Multiobjective Compatible Autonomous Driving",
+          "year": 2026,
+          "venue": "IEEE Transactions on Neural Networks and Learning Systems 37(9):4799–4812；2026 年 9 月卷期",
+          "summaryZh": "通过面向不同驾驶目标的集成 critic、离散意图与连续控制组合的参数化混合动作，以及不确定性感知探索，兼顾安全、效率和动作一致性。作者在仿真及 HighD 公路场景验证；2025 是预印本首发年，2026 是期刊发表年。",
+          "url": "https://doi.org/10.1109/TNNLS.2026.3674573",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2501.08096",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://api.crossref.org/works/10.1109/TNNLS.2026.3674573",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://hku-sas.hku.hk/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "DASE 官方个人页明确欢迎 PhD 与 MPhil 申请；个人 Openings 正文写招募 1–2 位“2027/28 Fall”PhD 学生，并同时包含 funded/self-funded，因此不能写成全部有资助或当前仍剩 1–2 个名额。MPhil 未给同一入学年份或名额，不能将 PhD 声明套用到 MPhil。页面另有博士后与本科远程研究实习信息；实习不是学位录取。Openings 页底仍标 Updated: November 8, 2025，正文与页底时间并存，不能把该日期当作这轮名额的确定发布日期。",
+        "sources": [
+          {
+            "url": "https://www.dase.hku.hk/people/c-sun",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://chensunmac.github.io/openings/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "未确认 PhD 公告名额现在是否仍有余额、具体资助额度与 funded/self-funded 分配",
+        "未核实 Fall 2027 MPhil 的个人接收计划；PhD 年份不能跨学位推导",
+        "SAIL 的 Social/Safe 两种英文全称在同一官网并存，未找到统一说明",
+        "未核实实验室正式成立日期、完整人员规模、指导方式及当前硬件/算力使用权限"
+      ],
+      "links": [
+        {
+          "label": "DASE 官方简介",
+          "url": "https://www.dase.hku.hk/people/c-sun"
+        },
+        {
+          "label": "SAIL Lab",
+          "url": "https://hku-sas.hku.hk/"
+        },
+        {
+          "label": "个人主页",
+          "url": "https://chensunmac.github.io/"
+        },
+        {
+          "label": "招生信息（须分学位阅读）",
+          "url": "https://chensunmac.github.io/openings/"
+        },
+        {
+          "label": "HKU Scholars Hub（中文姓名）",
+          "url": "https://hub.hku.hk/cris/rp/rp03442"
+        },
+        {
+          "label": "个人发表目录",
+          "url": "https://chensunmac.github.io/publications/"
+        }
+      ],
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "polyu_bing_wang",
+      "cardSummaryZh": "以空间智能为主线，研究点云地点识别、跨模态感知与高效三维场景表示，服务移动机器人的定位和环境理解。",
+      "overview": {
+        "textZh": "Bing Wang 现任香港理工大学航空及民航工程学系助理教授，2022 年获牛津大学计算机科学 DPhil/PhD。个人主页说明，加入 PolyU 前曾在华为光产品线领导自动驾驶与 AR-HUD 研究团队；目前聚焦多模态学习、三维重建、场景理解和位姿估计，面向无人机、地面及水下机器人。",
+        "sources": [
+          {
+            "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wang-bing/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://bingcs.github.io/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Spatial Intelligence (SPACE) Lab",
+        "affiliation": {
+          "textZh": "本人领导的 SPACE Lab 位于 PolyU；院系主页另列低空经济研究中心及澳门大学—理大机器人与具身智能联合研究中心关联，这些研究中心不等同于 SPACE，也不据此推断共享设备或指导关系。",
+          "sources": [
+            {
+              "url": "https://bingcs.github.io/people/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wang-bing/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "点云地点识别与视觉/LiDAR SLAM",
+          "图像—点云特征匹配与多模态学习",
+          "高效神经渲染与三维场景表示",
+          "无监督/零样本三维理解与水下融合定位"
+        ],
+        "structure": {
+          "textZh": "成员页分别列博士生、联合博士生、访问学生及校友；项目页涵盖无标注图像—点云对齐、水下定位建图、跨模态配准和大规模点云理解。成员的入组日期不作为导师入职或实验室创立日期。",
+          "sources": [
+            {
+              "url": "https://bingcs.github.io/people/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://bingcs.github.io/research/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "Mini-Splatting 与 MMOne 提供作者开源实现，分别用于紧凑 Gaussian 场景表示及多模态场景建模，可作为理解方法与复现实验的入口。",
+            "sources": [
+              {
+                "url": "https://github.com/fatPeter/mini-splatting",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://github.com/Neal2020GitHub/MMOne",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "LAWS 代码库提供训练、评估脚本和 Oxford RobotCar、MulRan、KITTI、ScanNetPR 等数据使用说明；公开代码与基准不代表实验室拥有相应传感器或向新生承诺硬件使用权。",
+            "sources": [
+              {
+                "url": "https://github.com/WHU-USI3DV/LAWS",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "MMOne: Representing Multiple Modalities in One Scene",
+          "year": 2025,
+          "venue": "ICCV 2025",
+          "summaryZh": "针对 RGB、热成像及语言等模态在属性和表达粒度上的差异，把共享与模态专属信息分开建模，并将多模态 Gaussians 按需要分解，构建更紧凑且可扩展的场景表示。",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Gu_MMOne_Representing_Multiple_Modalities_in_One_Scene_ICCV_2025_paper.html",
+          "sources": [
+            {
+              "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Gu_MMOne_Representing_Multiple_Modalities_in_One_Scene_ICCV_2025_paper.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "Mini-Splatting: Representing Scenes with a Constrained Number of Gaussians",
+          "year": 2024,
+          "venue": "ECCV 2024",
+          "summaryZh": "从点云空间分布解释 Gaussian 表示的冗余，以模糊区域分裂、深度重初始化及简化采样重新组织高斯分布，在受限高斯数量下兼顾渲染质量、速度与存储。",
+          "url": "https://arxiv.org/abs/2403.14166",
+          "sources": [
+            {
+              "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09866.pdf",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://arxiv.org/abs/2403.14166",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "Look at the Whole Scene: General Point Cloud Place Recognition by Classification Proxy",
+          "year": 2024,
+          "venue": "ISPRS Journal of Photogrammetry and Remote Sensing, 215:15–30（2024-09）",
+          "summaryZh": "LAWS 将地点识别训练改写为全场景空间划分下的分类任务，以正交和对角划分缓解边界歧义；推理保留描述子检索，在室内外与跨场景基准上评估泛化。",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0924271624002557",
+          "sources": [
+            {
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0924271624002557",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://github.com/WHU-USI3DV/LAWS",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "AAE 研究学位页面列其为导师，但本次未核到本人明确的当前 MPhil/PhD 或 Fall 2027 招募声明。学校另有以 Bing Wang 为联系人的博士后／兼职 Project Technical Assistant 公告（2026-05-22 发布，2026-11-20 截止），研究高密度点云表面波纹检测；这属于雇佣岗位，不能视为 RA 学位通道或研究生录取名额，公告列岗也不确认余额。",
+        "sources": [
+          {
+            "url": "https://www.polyu.edu.hk/aae/study/research-postgraduate-programmes/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://bingcs.github.io/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://bingcs.github.io/people/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260522008",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "精确 PolyU 入职日期、SPACE 创立日期未获当前一手日期证据；不从 2022 博士毕业或成员 2023 入组推断",
+        "当前研究学位剩余名额、Fall 2027 接收意向、个人奖学金及指导安排未核实",
+        "已公开水下机器人项目属于研究方向描述，硬件型号、数量、算力及学生使用权限未核实",
+        "院系及本人主页未明确中文姓名，本条暂沿用英文名，不从拼音推定汉字",
+        "学校公开的博士后／兼职 Project Technical Assistant 公告属于雇佣岗位，不是已核实 RA 职位或 MPhil/PhD 学位名额"
+      ],
+      "links": [
+        {
+          "label": "PolyU 院系简介",
+          "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wang-bing/"
+        },
+        {
+          "label": "本人主页",
+          "url": "https://bingcs.github.io/"
+        },
+        {
+          "label": "SPACE 团队",
+          "url": "https://bingcs.github.io/people/"
+        },
+        {
+          "label": "研究项目",
+          "url": "https://bingcs.github.io/research/"
+        },
+        {
+          "label": "AAE 研究学位与导师名单",
+          "url": "https://www.polyu.edu.hk/aae/study/research-postgraduate-programmes/"
+        },
+        {
+          "label": "博士后／兼职技术助理公告",
+          "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260522008"
+        }
+      ],
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "hkustgz-qiang-nie",
+      "cardSummaryZh": "将三维世界建模、双臂主动感知与视觉触觉反馈接入机器人操作，兼顾视频学习、人机交互和运动控制。",
+      "overview": {
+        "textZh": "聂强（Qiang Nie）现任香港科技大学（广州）系统枢纽机器人与自主系统学域助理教授；学校教师目录列其 2020 年获香港中文大学机械与自动化工程博士。其研究连接机器人设计控制、多模态感知、人机交互、视频学习及智能操作。",
+        "sources": [
+          {
+            "url": "https://facultyprofiles.hkust-gz.edu.cn/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://sysh.hkust-gz.edu.cn/zh/thrust-areas/roas/faculty-profile/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://ril-lab.top/en/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Robotic Intelligence and Learning Laboratory (RIL-LAB)",
+        "affiliation": {
+          "textZh": "由聂强创立，属于 HKUST(GZ) 系统枢纽机器人与自主系统学域。实验室自述创立于 2024 年；这个年份单独记录为建组年份，不当作校方确认的精确任职日期，也不移植为香港清水湾校区的实验室或招生。",
+          "sources": [
+            {
+              "url": "https://ril-lab.top/en/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "三维世界模型与操作策略学习",
+          "双臂主动感知与力敏感操作",
+          "多模态/VLA、强化学习与视频学习",
+          "人机交互、人体动作理解生成及机器人控制"
+        ],
+        "structure": {
+          "textZh": "公开成员页列博士生、硕士/MPhil 学生、研究助理和实习生，并逐人列研究兴趣；方向覆盖具身模型、动作生成、外骨骼与足式运动等。名单中的 Master、M.S. 与 MPhil 标签不用于反推具体招生学位或当前人数。",
+          "sources": [
+            {
+              "url": "https://ril-lab.top/en/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "3D-Foresight 作者代码库含数据预处理、预训练、微调与评估流程，并给出 RH20T、Open X-Embodiment、LIBERO、CALVIN 等数据入口；公开复现配置不等同于团队现有 GPU 配置。",
+            "sources": [
+              {
+                "url": "https://github.com/Stardust-hyx/3D-Foresight",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "EFM 项目公开十项双臂探索/聚焦操作任务及视频，介绍 BAPData 数据集，并分析主动视角、力反馈和失败模式；这些是论文展示平台，设备数量与学生使用权仍未知。",
+            "sources": [
+              {
+                "url": "https://efmanipulation.github.io/",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://arxiv.org/abs/2602.01939",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "3D Dynamics-Aware Manipulation: Endowing Manipulation Policies with 3D Foresight",
+          "year": 2026,
+          "venue": "ICRA 2026（作者 arXiv 标注；首版预印本为 2025-02）",
+          "summaryZh": "通过当前深度估计、未来 RGB-D 预测和三维运动场预测三个自监督任务，把三维动态世界建模与操作策略结合，改善包含明显深度方向运动的操作；论文报告仿真与真实机器人验证。",
+          "url": "https://arxiv.org/abs/2502.10028",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2502.10028",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://github.com/Stardust-hyx/3D-Foresight",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "Towards Exploratory and Focused Manipulation with Bimanual Active Perception: A New Problem, Benchmark and Strategy",
+          "year": 2026,
+          "venue": "ICRA 2026（作者 arXiv 与实验室共同标注）",
+          "summaryZh": "将遮挡和信息缺失推广为探索与聚焦操作问题，建立四类共十项任务的 EFM-10；BAP 策略由一臂主动获取视角，另一臂结合力感知执行操作，配套采集 BAPData 并以模仿学习验证。",
+          "url": "https://arxiv.org/abs/2602.01939",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2602.01939",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://efmanipulation.github.io/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://ril-lab.top/en/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "TactileReflex: Noise-Statistics-Driven Vision-Tactile Reflex Control for Force-Sensitive Manipulation",
+          "year": 2026,
+          "venue": "IROS 2026（作者 arXiv 标明已接收，2026-09-23 修订）",
+          "summaryZh": "面向易滑且易变形的薄壁容器，用视触觉传感器本身的噪声统计确定控制阈值；三个闭环通道分别处理防滑、随重量变化释放及限力保护，将可解释的底层反馈用于抓持与倾倒。",
+          "url": "https://arxiv.org/abs/2605.23568",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2605.23568",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "实验室显示“2026 Recruitment Ongoing”，常年招募 PhD、Master、RA 和实习生，重视数理与编程基础；未明确 Fall 2027，且 Master 没有区分 MPhil/MSc。Red Bird MPhil 仍按学校 General 项目申请，入学约六个月探索后双向定导；实验室意向登记或在读 MPhil 成员不保证提前锁定导师。上述信号均未确认当前剩余名额及资助。",
+        "sources": [
+          {
+            "url": "https://ril-lab.top/en/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://cft.hkust-gz.edu.cn/rbm-program/admission/admission-faq/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "校方确认的精确入职日期仍未核实；实验室 2024 年创立和周年消息不替代正式任职记录",
+        "未确认 Fall 2027 PI 名额、当前剩余席位、具体资助金额或个别申请者可获录取",
+        "实验室 Master 招募不能自动扩写为 MPhil 与授课型 MSc 两条定导通道；RA/实习亦不等于学位录取",
+        "机器人及计算资源的当前配置、数量、维护状态与新生使用权限未核实"
+      ],
+      "links": [
+        {
+          "label": "HKUST(GZ) 教师目录",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/"
+        },
+        {
+          "label": "ROAS 官方中文师资页",
+          "url": "https://sysh.hkust-gz.edu.cn/zh/thrust-areas/roas/faculty-profile/"
+        },
+        {
+          "label": "RIL-LAB 研究、团队与招募",
+          "url": "https://ril-lab.top/en/"
+        },
+        {
+          "label": "3D-Foresight 代码",
+          "url": "https://github.com/Stardust-hyx/3D-Foresight"
+        },
+        {
+          "label": "EFM 双臂操作项目",
+          "url": "https://efmanipulation.github.io/"
+        },
+        {
+          "label": "Red Bird MPhil 官方 FAQ",
+          "url": "https://cft.hkust-gz.edu.cn/rbm-program/admission/admission-faq/"
+        }
+      ],
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
     }
   ],
   "reviewRequired": true,
-  "batch": "1+2+3+4+5",
+  "batch": "1+2+3+4+5+6",
   "batch3Review": {
     "checkedDate": "2026-10-02",
     "baseCommit": "595c832d7d0610ed550131dc97b3f2da4fbf6c87",
@@ -4057,5 +4979,19 @@
     "preservedProfiles": 20,
     "catalogMutation": false,
     "scope": "Public professional and lab context only. Older profile objects, catalog eligibility and recruitment, independent RA positions, project summaries, materials and application experiences are preserved."
+  },
+  "batch6Review": {
+    "checkedDate": "2026-10-02",
+    "baseCommit": "5bd7724d79c8b41f75cb9230d1a23d04fec3d481",
+    "newAdvisorIds": [
+      "hkust-ping-tan",
+      "hku-yanchao-yang",
+      "hku-chen-sun",
+      "polyu_bing_wang",
+      "hkustgz-qiang-nie"
+    ],
+    "preservedProfiles": 25,
+    "catalogMutation": false,
+    "scope": "Public professional and lab context for the remaining five visible advisors. Older profile objects and dates, catalog identity and rank, historical source records, eligibility, routes, recruitment, RA positions, projects, materials and experiences are unchanged."
   }
 }

@@ -10,13 +10,13 @@ const supplement=JSON.parse(read('data/advisor-profiles.json'));
 const academic=JSON.parse(read('data/catalog.json'));
 const data={...academic,raPositions:JSON.parse(read('data/ra-positions.json')).raPositions};
 const ids=['hkust-qifeng-chen','hku-hongyang-li','polyu_pai_zheng','hkustgz-junwei-liang','westlake-guojun-qi'];
-const added=supplement.profiles.slice(20);
+const added=supplement.profiles.slice(20,25);
 const get=id=>added.find(p=>p.advisorId===id);
 test('batch five preserves all twenty earlier profile objects and appends exactly the five reviewed advisers',()=>{
  assert.equal(hash(JSON.stringify(supplement.profiles.slice(0,20))),'9f5cd90c4e8961c7981fac1c69114b36b21abfbade1c78dfa30d9679519e5fec');
  assert.deepEqual(added.map(p=>p.advisorId),ids);
- assert.equal(supplement.profiles.length,25);
- assert.equal(profileMap(supplement,academic.advisors).size,25);
+ assert.equal(supplement.profiles.slice(0,25).length,25);
+ assert.equal(profileMap({profiles:supplement.profiles.slice(0,25)},academic.advisors).size,25);
  assert.equal(supplement.batch5Review.baseCommit,'53d865df01e83c7fd7187a3fe22ab184413441d4');
  assert.equal(supplement.batch5Review.preservedProfiles,20);
  assert.equal(supplement.batch5Review.catalogMutation,false);
