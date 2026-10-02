@@ -1,3 +1,44 @@
+# 2026-10-02 project-introduction candidate QA
+
+Base: `4ba63ecdccad8d8eb09e9761644b2888c64efe35`. All 39 repository blobs were checked against a fresh GitHub tree before this isolated candidate was edited. Publication has not been performed.
+
+## Scope and evidence
+
+- Eight introductions across five existing Hong Kong schools, joining only verified route IDs with exact institution and degree matches
+- Nineteen official introduction sources, with per-claim references, source reading dates and preserved publisher-update dates where observed
+- In-site research/training/bachelor-entry/cycle summary precedes source links; unsupported projects retain the basic summary and explicit coverage limits
+- Project search includes the new introduction text while preserving existing institution, degree and eligibility gates
+- MPhil, PhD, taught MSc and RA employment remain separate; no new advisor, recruitment, funding or personal-eligibility conclusions
+- Original 16 experiences, advisor profiles, RA data, core eligibility module and protected render tests remain byte-identical
+- CityU correction is limited to two ME route cycle fields, one ordinary calendar item and the deadline/scope fields of two material groups. Original checked dates, sourceRecord and previous values are retained. Reversing the narrow review fields reproduces original catalog and material digests exactly
+
+## CityU source conflict
+
+The English and zh-hk ordinary procedure URLs returned an old 2026-entry / 1-Dec-2025 noon table through full-text retrieval. The official indexed zh-hk page returned a newer 2027/28 / 1-Dec-2026 23:59 table. Live verification stopped at an unsolved CAPTCHA. The EE department independently publishes a Dec-2026 ordinary round, but does not establish ME-specific scope. These observations are kept as a retrieval-version conflict; the candidate does not claim that Dec-2026 dates are exclusive to HKPFS or that the earlier verified snapshot was fabricated.
+
+Ordinary ME 2027 deadline and ordinary timing in the two CityU material groups are conservatively pending resolution. The separately read CityU and RGC HKPFS 2027/28 pages establish that scheme's RGC initial-registration deadline (2026-12-01 12:00 Hong Kong time) and CityU full-application deadline (same day 23:59). They are not used to determine ordinary MPhil/non-HKPFS PhD dates.
+
+## Passed checks
+
+- Full `npm test`: 137 passed, zero failed, zero skipped
+- Per-claim source resolution; exact school/degree joins; orphan, malformed, duplicate and unsupported record rejection; escaped content and safe source links
+- Coverage counts and searchable Chinese research descriptions; exact institution/degree filters and original eligibility restrictions
+- Optional project-summary data loads after first render. Missing files, rejection, malformed JSON structures, partially invalid records, never-settling fetch/JSON and late arrival after newer navigation all have regressions
+- Repeated dialog open/close, existing internal project/material/date links, original experience navigation, independent filters, profiles, opportunity counts and material coverage remain in the full suite
+- Content versions track modified catalog, material, project-summary, module and app bytes; unrelated dataset versions stay unchanged
+
+## Browser status
+
+The focused `tests/project-summaries-browser.mjs` was attempted against a local static server. Chromium aborted before the first page assertion with `socket() failed: Operation not permitted`. The dot cloud browser also rejected the localhost preview with `ERR_BLOCKED_BY_CLIENT`. No desktop, mobile, screenshot or visual acceptance is claimed. The existing full smoke and experience browser suites were not newly run in this candidate; their earlier blocked attempts are historical records below. The additional focused browser script includes all eight project dialogs, filter persistence, Back/Forward, 390/320px checks and failed optional fetch recovery for a future supported run.
+
+## Review and release gate
+
+An independent review found the CityU source conflict and optional-loader hang; the candidate was revised and regression-tested. Root review is still required. Before any separately authorized publication: review exact changed-file allowlist, recheck remote main, reapply and rerun all checks against that base, freeze, and verify exact deployment commit and online behavior. The candidate does not establish the unresolved CityU ordinary deadline.
+
+---
+
+## Retained historical release-preparation records
+
 # 2026-10-02 experience expansion preparation QA
 
 Base: `b61dacd67ed480620fa2c88f7a94bf059cda8df9`, re-read from remote main on 2026-10-02. Every one of its 38 Git blobs was matched before editing. Preparation used an isolated snapshot, before publication. Deployment evidence must be checked against the exact commit separately.

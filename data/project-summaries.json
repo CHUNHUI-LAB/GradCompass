@@ -1,0 +1,483 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-02",
+  "scope": "现有项目的培养、研究与本科入口阅读补充；不修改原目录、资格筛选、截止记录、导师关联或资助状态",
+  "sources": [
+    {
+      "id": "ust_cse_catalog",
+      "label": "HKUST CSE 2027/28 项目目录",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse",
+      "section": "Introduction; Research Foci; Curriculum; Admission Requirements; Application",
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "ust_cse_admissions",
+      "label": "HKUST CSE 普通研究生申请",
+      "url": "https://cse.hkust.edu.hk/pg/admissions/",
+      "section": "Two recruiting phases; regular application",
+      "checkedDate": "2026-10-02",
+      "publishedUpdatedDate": "2026-04-24"
+    },
+    {
+      "id": "hku_cds_structure",
+      "label": "HKU CDS 研究学位培养结构",
+      "url": "https://www.ai.hku.hk/programmes/research-based/mphil-phd",
+      "section": "Programme structure; period of study; courses and seminars",
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "hku_cds_admissions",
+      "label": "HKU CDS 2027 招生说明",
+      "url": "https://www.ai.hku.hk/index.php/programmes/research-based/mphil-phd-admission",
+      "section": "Research areas; Timeline for 2027 Admission; requirements; retains stale starting-in-2025 text",
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "hku_mphil_regulations",
+      "label": "HKU MPhil 学位条例",
+      "url": "https://gradsch.hku.hk/prospective_students/programmes/regulations_for_the_degree_of_master_of_philosophy_mphil",
+      "section": "MPH1; MPH2; MPH6; MPH7; MPH8",
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "hku_cds_apply",
+      "label": "HKU CDS 2027 普通申请步骤",
+      "url": "https://www.ai.hku.hk/programmes/research-based/how-to-apply-2027",
+      "section": "Application Steps 1-3; Timeline for 2027 Admission",
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "cuhk_mae_programme",
+      "label": "CUHK MAE 研究学位项目",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-mechanical-and-automation-engineering",
+      "section": "Programme Information; Fields of Specialization; Admission Requirements; Application Deadline",
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "cuhk_mae_admission",
+      "label": "CUHK MAE 学制与本科入口",
+      "url": "https://www4.mae.cuhk.edu.hk/research-postgraduate-programme/",
+      "section": "Study modes; MPhil and PhD Qualifications; Application",
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "polyu_ise_research",
+      "label": "PolyU ISE 研究方向",
+      "url": "https://www.polyu.edu.hk/ise/study/research-postgraduate-programme-mphil-phd/major-research-areas/",
+      "section": "Introduction; Smart Products and Services; Industrial Artificial Intelligence",
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "polyu_ise_jan2027",
+      "label": "PolyU ISE 2027 年 1 月入学项目页",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/20262/ise",
+      "section": "Jan 2027 Entry; Research Area; Supporting Documents; 30-Sep-2026 deadline",
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "polyu_entry",
+      "label": "PolyU 研究学位入学要求",
+      "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/2023/admission-requirements-rpg",
+      "section": "General Entrance Requirements; current Graduate School admission page links to this URL",
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "polyu_apply",
+      "label": "PolyU 研究学位普通申请步骤",
+      "url": "https://www.polyu.edu.hk/en/gs/prospective-students/how-to-apply/",
+      "section": "RPgAdmission; steps 1-3; observe individual entry deadlines",
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "polyu_deadlines",
+      "label": "PolyU 2026/27 研究学位批次",
+      "url": "https://www.polyu.edu.hk/gs/prospective-students/how-to-apply/application-deadline/",
+      "section": "2026/27 semester dates; ISE row",
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "city_mne_programme",
+      "label": "CityUHK 机械工程研究学位",
+      "url": "https://www.cityu.edu.hk/mne/programmes/doctor-philosophy-phd-and-master-philosophy-mphil",
+      "section": "Programme Structure; Normal Study Period; Admission Requirements; How to Apply",
+      "checkedDate": "2026-10-02",
+      "publishedUpdatedDate": "2026-08-12"
+    },
+    {
+      "id": "city_entry",
+      "label": "CityUHK 研究学位最低入学要求",
+      "url": "https://www.cityu.edu.hk/pg/research-degree-programmes/entrance-requirements",
+      "section": "MPhil; PhD; additional department requirements",
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "city_steps",
+      "label": "CityUHK 普通研究学位申请流程",
+      "url": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
+      "section": "Retrieved full-text observation: admission year 2026 and deadline 1 December 2025; conflicts with newer indexed official table; see retrievalConflict",
+      "checkedDate": "2026-10-02",
+      "retrievalConflict": {
+        "ordinaryFlowUrl": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
+        "alternateOfficialUrl": "https://www.cityu.edu.hk/zh-hk/pg/research-degree-programmes/steps-and-procedures",
+        "fullTextObservation": "2026 entry; 1 December 2025 at 12:00 noon Hong Kong time",
+        "indexedObservation": "2027/28 entry; 1 December 2026 at 11:59 p.m. Hong Kong time; not accepted as full-page verification",
+        "liveVerification": "blocked by CAPTCHA; not solved",
+        "checkedDate": "2026-10-02"
+      }
+    },
+    {
+      "id": "city_sun_research",
+      "label": "CityUHK 机械工程机器人研究举例",
+      "url": "https://www.cityu.edu.hk/mne/people/academic-staff/mne-faculty/prof-sun-yuxiang",
+      "section": "Research interests; research topics only, no inference of vacancies",
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "city_hkpfs_2027",
+      "label": "CityUHK HKPFS 2027/28 时间表",
+      "url": "https://www.cityu.edu.hk/pg/hong-kong-phd-fellowship-scheme/about-the-scheme",
+      "section": "Application Process and Timelines, 2027/28",
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "rgc_hkpfs_2027",
+      "label": "RGC HKPFS 初步登记",
+      "url": "https://cerg1.ugc.edu.hk/hkpfs/apply.html",
+      "section": "2027/28 initial application deadline",
+      "checkedDate": "2026-10-02"
+    }
+  ],
+  "records": [
+    {
+      "routeId": "HKUST-CSE-MPhil",
+      "institution": "HKUST",
+      "degree": "MPhil",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "计算机科学与工程研究型硕士，研究主题涵盖人工智能、数据科学和系统；机器人、计算机视觉与人机交互均在官方方向中。",
+        "sourceIds": [
+          "ust_cse_catalog"
+        ]
+      },
+      "training": {
+        "text": "全日制标准学制 2 年；结合研究生课程、研讨课和论文研究，毕业须完成论文并通过口头答辩。",
+        "sourceIds": [
+          "ust_cse_catalog"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "认可院校学士或获认可的同等资格是硕士入口，无须先取得硕士；院系另有普通申请渠道。仍须满足英语、学术表现及项目要求。",
+        "sourceIds": [
+          "ust_cse_catalog",
+          "ust_cse_admissions"
+        ]
+      },
+      "cycle": {
+        "text": "2027/28 秋季目录已公布；非本地全日制申请截止为 2027-06-01。此日期不证明某位导师仍有名额；HKPFS 是另列的博士奖学金申请。",
+        "sourceIds": [
+          "ust_cse_catalog"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "这里介绍 MPhil；不能由同页 PhD 信息或学院奖学金介绍推定 MPhil 录取、个人资助或就业岗位。",
+          "sourceIds": [
+            "ust_cse_catalog"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "HKU-CDS-MPhil",
+      "institution": "HKU",
+      "degree": "MPhil",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "计算与数据科学研究型硕士，覆盖机器学习与人工智能、计算机视觉与图形学、人机交互及系统等方向。具体课题需与拟申请导师匹配。",
+        "sourceIds": [
+          "hku_cds_admissions"
+        ]
+      },
+      "training": {
+        "text": "全日制 24 个月，在导师指导下完成课程与研究，以论文和口试考核；MPhil 转 PhD 需要推荐与审批，不是自动升级。",
+        "sourceIds": [
+          "hku_cds_structure",
+          "hku_mphil_regulations"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "荣誉学士或经大学认可的同等资格可获考虑，院系附加条件和可能的资格考试仍适用。通过研究生院系统普通申请，并提交研究计划。",
+        "sourceIds": [
+          "hku_mphil_regulations",
+          "hku_cds_apply"
+        ]
+      },
+      "cycle": {
+        "text": "明确标为 2027 的主轮为 2026-09-01 至 2026-12-01；补录取决于剩余名额。页面仍有「2025 开始」旧句，不据此推断其他批次或导师名额。",
+        "sourceIds": [
+          "hku_cds_admissions",
+          "hku_cds_apply"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "此条仅为 MPhil。本科申请四年制 PhD 的门槛另列，不能把 MPhil 的荣誉学士条件直接套用到 PhD。",
+          "sourceIds": [
+            "hku_cds_structure",
+            "hku_mphil_regulations"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "cuhk_mae_rpg-mphil",
+      "institution": "CUHK",
+      "degree": "MPhil",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "机械与自动化工程研究学位，方向包括机器人与智能机器、传感器与执行器、系统控制、无人系统及强化学习。",
+        "sourceIds": [
+          "cuhk_mae_programme"
+        ]
+      },
+      "training": {
+        "text": "MPhil 全日制 24 个月；完成研究生课程与持续论文研究，以研究论文和口头答辩完成学位。",
+        "sourceIds": [
+          "cuhk_mae_admission",
+          "cuhk_mae_programme"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "相关学科学士通常须达到二等荣誉或荣誉课程 B 平均成绩，或获认可同等资格；官方列有本科入口和研究生院普通申请。不要求先读硕士。",
+        "sourceIds": [
+          "cuhk_mae_admission",
+          "cuhk_mae_programme"
+        ]
+      },
+      "cycle": {
+        "text": "项目页主轮截止为 2026-12-01，补录截止为 2027-03-31 且受剩余名额限制。项目批次不等于具体导师招募或资助落实。",
+        "sourceIds": [
+          "cuhk_mae_programme"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "MPhil、PhD 和授课型 MSc in Robotics 分属不同申请；本条研究学位条件不能套用于 RA 聘用。",
+          "sourceIds": [
+            "cuhk_mae_programme"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "cuhk_mae_rpg-phd",
+      "institution": "CUHK",
+      "degree": "PhD",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "机械与自动化工程研究学位，方向包括机器人与智能机器、传感器与执行器、系统控制、无人系统及强化学习。",
+        "sourceIds": [
+          "cuhk_mae_programme"
+        ]
+      },
+      "training": {
+        "text": "PhD 先进入候选资格前阶段，经过课程、资格考试与研究计划口试后开展博士研究；毕业须提交论文并答辩。",
+        "sourceIds": [
+          "cuhk_mae_admission",
+          "cuhk_mae_programme"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "相关学科学士通常须达到二等荣誉或荣誉课程 B 平均成绩，或获认可同等资格；官方列有本科入口和研究生院普通申请。全日制无研究型硕士的 PhD 标准学制为 48 个月。",
+        "sourceIds": [
+          "cuhk_mae_admission",
+          "cuhk_mae_programme"
+        ]
+      },
+      "cycle": {
+        "text": "项目页主轮截止为 2026-12-01，补录截止为 2027-03-31 且受剩余名额限制。项目批次不等于具体导师招募或资助落实。",
+        "sourceIds": [
+          "cuhk_mae_programme"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "本科入口以全日制路线理解；项目页对非全日制 PhD 另提硕士及优秀学术记录，不可混用。",
+          "sourceIds": [
+            "cuhk_mae_programme"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "polyu_ise_rpg-mphil",
+      "institution": "PolyU",
+      "degree": "MPhil",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "工业与系统工程研究学位，覆盖机器人与自动化、智能控制、人机共融制造、工业人工智能和微纳机器人等应用研究。",
+        "sourceIds": [
+          "polyu_ise_research"
+        ]
+      },
+      "training": {
+        "text": "MPhil 为研究型硕士，官方标准学制为全日制 2 年。先对照院系方向联系潜在导师，再按项目要求准备研究计划。",
+        "sourceIds": [
+          "polyu_entry",
+          "polyu_apply",
+          "polyu_ise_jan2027"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "MPhil 要求认可大学二等荣誉学士或以上，或同等资格；经 RPgAdmission 普通申请，院系和英语条件仍需满足。",
+        "sourceIds": [
+          "polyu_entry",
+          "polyu_apply"
+        ]
+      },
+      "cycle": {
+        "text": "已核读项目页是 2027 年 1 月入学，截止 2026-09-30，核读时已过。学校表格另列 2027 年 5 月入学；本次来源未确认 2027 秋季 ISE 批次或导师名额。",
+        "sourceIds": [
+          "polyu_ise_jan2027",
+          "polyu_deadlines"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "普通申请步骤允许直接在线提交；「全年可申请」仍须遵守院系与入学批次截止，不能据此判断任一批次持续开放。",
+          "sourceIds": [
+            "polyu_apply"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "polyu_ise_rpg-phd",
+      "institution": "PolyU",
+      "degree": "PhD",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "工业与系统工程研究学位，覆盖机器人与自动化、智能控制、人机共融制造、工业人工智能和微纳机器人等应用研究。",
+        "sourceIds": [
+          "polyu_ise_research"
+        ]
+      },
+      "training": {
+        "text": "本科入口对应四年制全日制 PhD；先对照院系研究方向联系潜在导师，再按项目要求准备研究计划。",
+        "sourceIds": [
+          "polyu_entry",
+          "polyu_apply",
+          "polyu_ise_jan2027"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "四年制 PhD 明确接受一等荣誉学士或同等资格，硕士是另一种入口；三年制 PhD 通常要求研究型硕士，不适用本科直入。",
+        "sourceIds": [
+          "polyu_entry",
+          "polyu_apply"
+        ]
+      },
+      "cycle": {
+        "text": "已核读项目页是 2027 年 1 月入学，截止 2026-09-30，核读时已过。学校表格另列 2027 年 5 月入学；本次来源未确认 2027 秋季 ISE 批次或导师名额。",
+        "sourceIds": [
+          "polyu_ise_jan2027",
+          "polyu_deadlines"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "普通申请步骤允许直接在线提交；「全年可申请」仍须遵守院系与入学批次截止，不能据此判断任一批次持续开放。",
+          "sourceIds": [
+            "polyu_apply"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "cityu_me_rpg-mphil",
+      "institution": "CityUHK",
+      "degree": "MPhil",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "机械工程研究学位；在职教师的研究涵盖机器人感知与控制、自主导航和机器人学习。研究方向举例不等于导师名额。",
+        "sourceIds": [
+          "city_mne_programme",
+          "city_sun_research"
+        ]
+      },
+      "training": {
+        "text": "MPhil 全日制通常 2 年，以导师指导下的独立研究、课程、论文及口试完成学位。",
+        "sourceIds": [
+          "city_mne_programme"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "MPhil 可由相关领域一等或二等荣誉学士／同等资格申请，无须先取得硕士；应先联系拟任导师，再提交正式网申。",
+        "sourceIds": [
+          "city_entry",
+          "city_mne_programme",
+          "city_steps"
+        ]
+      },
+      "cycle": {
+        "text": "普通 MPhil／非 HKPFS PhD 的 2027 主轮截止尚待确认：官网全文与索引的批次版本不一致。2027/28 HKPFS 已另有完整时间表，不能仅凭它确定普通轮或导师名额。",
+        "sourceIds": [
+          "city_steps",
+          "city_hkpfs_2027",
+          "rgc_hkpfs_2027"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "录取仍取决于学术表现、导师支持、名额和经费；RA 聘用、授课型 MSc 与本研究学位分开核对，不保证转博或资金。",
+          "sourceIds": [
+            "city_mne_programme"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "cityu_me_rpg-phd",
+      "institution": "CityUHK",
+      "degree": "PhD",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "机械工程研究学位；在职教师的研究涵盖机器人感知与控制、自主导航和机器人学习。研究方向举例不等于导师名额。",
+        "sourceIds": [
+          "city_mne_programme",
+          "city_sun_research"
+        ]
+      },
+      "training": {
+        "text": "PhD 全日制通常 4 年，包含课程、独立研究、博士资格考试、论文及口试。",
+        "sourceIds": [
+          "city_mne_programme"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "PhD 明确接受一等荣誉学士／同等资格，硕士不是强制前置；应先联系拟任导师，再提交正式网申。",
+        "sourceIds": [
+          "city_entry",
+          "city_mne_programme",
+          "city_steps"
+        ]
+      },
+      "cycle": {
+        "text": "普通 MPhil／非 HKPFS PhD 的 2027 主轮截止尚待确认：官网全文与索引的批次版本不一致。2027/28 HKPFS 已另有完整时间表，不能仅凭它确定普通轮或导师名额。",
+        "sourceIds": [
+          "city_steps",
+          "city_hkpfs_2027",
+          "rgc_hkpfs_2027"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "录取仍取决于学术表现、导师支持、名额和经费；RA 聘用、授课型 MSc 与本研究学位分开核对，不保证转博或资金。",
+          "sourceIds": [
+            "city_mne_programme"
+          ]
+        }
+      ]
+    }
+  ]
+}

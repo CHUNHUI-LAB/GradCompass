@@ -10573,8 +10573,8 @@
       "status": "verified",
       "eligibilitySummary": "MPhil: relevant bachelor's First or Second Class Honours or equivalent. PhD: First Class Honours bachelor's or equivalent is an alternative to a master's.",
       "supervisorAssociation": "逐导师、逐学位证据见 routeAssociations；授课型硕士不保证进组或论文指导",
-      "admissionYear": "University 2027/28 main deadline 2026-12-01; no individual 2027 quota inferred",
-      "cycle2027Verified": true,
+      "admissionYear": "普通 MPhil／非 HKPFS PhD 的 2027 主轮截止尚待确认；HKPFS 2027/28 另有专属时间表，不能移用。",
+      "cycle2027Verified": false,
       "applicationStatus": "unknown",
       "applicationMethod": "Ordinary direct application; department instructs applicants to contact a faculty member as proposed supervisor",
       "sources": [
@@ -10649,7 +10649,41 @@
         "applicant_eligibility_note": "Not assessed; degree equivalence, academic results, English, graduation timing, supervisor consent, funding and quotas remain individual checks"
       },
       "checkedDate": "2026-10-01",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "reason": "2026-10-02 批次复核存在来源版本冲突：普通流程全文仍显示 2026 入学及 2025-12-01；同一官网的搜索索引显示 2027/28、2026-12-01 23:59。实时页面未能完成核对，因此相应项目普通 MPhil／非 HKPFS PhD 的 2027 主轮日期暂保留待确认。HKPFS 2027/28 的 RGC 12:00 与 CityUHK 23:59 截止已另从奖学金官方时间表核对，不据此推定普通轮。",
+        "previous": {
+          "admissionYear": "University 2027/28 main deadline 2026-12-01; no individual 2027 quota inferred",
+          "cycle2027Verified": true,
+          "checkedDate": "2026-10-01"
+        },
+        "sources": [
+          {
+            "label": "CityUHK 普通研究学位申请流程",
+            "url": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "label": "CityUHK HKPFS 2027/28 时间表",
+            "url": "https://www.cityu.edu.hk/pg/hong-kong-phd-fellowship-scheme/about-the-scheme",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "label": "RGC HKPFS 初步登记",
+            "url": "https://cerg1.ugc.edu.hk/hkpfs/apply.html",
+            "checkedDate": "2026-10-02"
+          }
+        ],
+        "sourceConflict": {
+          "ordinaryFlowUrl": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
+          "alternateOfficialUrl": "https://www.cityu.edu.hk/zh-hk/pg/research-degree-programmes/steps-and-procedures",
+          "fullTextObservation": "2026 entry; 1 December 2025 at 12:00 noon Hong Kong time",
+          "indexedObservation": "2027/28 entry; 1 December 2026 at 11:59 p.m. Hong Kong time; not accepted as full-page verification",
+          "liveVerification": "blocked by CAPTCHA; not solved",
+          "checkedDate": "2026-10-02"
+        }
+      }
     },
     {
       "id": "cityu_me_rpg-phd",
@@ -10665,8 +10699,8 @@
       "status": "verified",
       "eligibilitySummary": "MPhil: relevant bachelor's First or Second Class Honours or equivalent. PhD: First Class Honours bachelor's or equivalent is an alternative to a master's.",
       "supervisorAssociation": "逐导师、逐学位证据见 routeAssociations；授课型硕士不保证进组或论文指导",
-      "admissionYear": "University 2027/28 main deadline 2026-12-01; no individual 2027 quota inferred",
-      "cycle2027Verified": true,
+      "admissionYear": "普通 MPhil／非 HKPFS PhD 的 2027 主轮截止尚待确认；HKPFS 2027/28 另有专属时间表，不能移用。",
+      "cycle2027Verified": false,
       "applicationStatus": "unknown",
       "applicationMethod": "Ordinary direct application; department instructs applicants to contact a faculty member as proposed supervisor",
       "sources": [
@@ -10741,7 +10775,41 @@
         "applicant_eligibility_note": "Not assessed; degree equivalence, academic results, English, graduation timing, supervisor consent, funding and quotas remain individual checks"
       },
       "checkedDate": "2026-10-01",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "reason": "2026-10-02 批次复核存在来源版本冲突：普通流程全文仍显示 2026 入学及 2025-12-01；同一官网的搜索索引显示 2027/28、2026-12-01 23:59。实时页面未能完成核对，因此相应项目普通 MPhil／非 HKPFS PhD 的 2027 主轮日期暂保留待确认。HKPFS 2027/28 的 RGC 12:00 与 CityUHK 23:59 截止已另从奖学金官方时间表核对，不据此推定普通轮。",
+        "previous": {
+          "admissionYear": "University 2027/28 main deadline 2026-12-01; no individual 2027 quota inferred",
+          "cycle2027Verified": true,
+          "checkedDate": "2026-10-01"
+        },
+        "sources": [
+          {
+            "label": "CityUHK 普通研究学位申请流程",
+            "url": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "label": "CityUHK HKPFS 2027/28 时间表",
+            "url": "https://www.cityu.edu.hk/pg/hong-kong-phd-fellowship-scheme/about-the-scheme",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "label": "RGC HKPFS 初步登记",
+            "url": "https://cerg1.ugc.edu.hk/hkpfs/apply.html",
+            "checkedDate": "2026-10-02"
+          }
+        ],
+        "sourceConflict": {
+          "ordinaryFlowUrl": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
+          "alternateOfficialUrl": "https://www.cityu.edu.hk/zh-hk/pg/research-degree-programmes/steps-and-procedures",
+          "fullTextObservation": "2026 entry; 1 December 2025 at 12:00 noon Hong Kong time",
+          "indexedObservation": "2027/28 entry; 1 December 2026 at 11:59 p.m. Hong Kong time; not accepted as full-page verification",
+          "liveVerification": "blocked by CAPTCHA; not solved",
+          "checkedDate": "2026-10-02"
+        }
+      }
     },
     {
       "id": "cityu_ds_phd",
@@ -12395,18 +12463,18 @@
     },
     {
       "id": "cityu_me_rpg-main",
-      "title": "Doctor of Philosophy and Master of Philosophy 2027/28 主轮截止",
+      "title": "机械工程普通 MPhil／PhD 2027 主轮截止待确认",
       "institution": "CityUHK",
       "routeIds": [
         "cityu_me_rpg-mphil",
         "cityu_me_rpg-phd"
       ],
-      "date": "2026-12-01",
+      "date": null,
       "timezone": "Asia/Hong_Kong",
       "status": "unknown",
-      "dateStatus": "upcoming",
-      "admissionYear": "2027 admission",
-      "note": "University 2027/28 main deadline 2026-12-01; no individual 2027 quota inferred；未来截止日期本身不证明当前已开放提交",
+      "dateStatus": "unknown",
+      "admissionYear": "2027 普通申请批次待确认",
+      "note": "普通流程官网的全文与索引版本不一致；机械工程普通 2027 主轮截止及具体时刻待复核，不仅凭 HKPFS 奖学金时间表替代。",
       "sources": [
         {
           "label": "公开一手来源",
@@ -12424,7 +12492,44 @@
           "checkedDate": "2026-10-01"
         }
       ],
-      "checkedDate": "2026-10-01"
+      "checkedDate": "2026-10-01",
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "reason": "2026-10-02 批次复核存在来源版本冲突：普通流程全文仍显示 2026 入学及 2025-12-01；同一官网的搜索索引显示 2027/28、2026-12-01 23:59。实时页面未能完成核对，因此相应项目普通 MPhil／非 HKPFS PhD 的 2027 主轮日期暂保留待确认。HKPFS 2027/28 的 RGC 12:00 与 CityUHK 23:59 截止已另从奖学金官方时间表核对，不据此推定普通轮。",
+        "previous": {
+          "title": "Doctor of Philosophy and Master of Philosophy 2027/28 主轮截止",
+          "date": "2026-12-01",
+          "dateStatus": "upcoming",
+          "admissionYear": "2027 admission",
+          "note": "University 2027/28 main deadline 2026-12-01; no individual 2027 quota inferred；未来截止日期本身不证明当前已开放提交",
+          "checkedDate": "2026-10-01"
+        },
+        "sources": [
+          {
+            "label": "CityUHK 普通研究学位申请流程",
+            "url": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "label": "CityUHK HKPFS 2027/28 时间表",
+            "url": "https://www.cityu.edu.hk/pg/hong-kong-phd-fellowship-scheme/about-the-scheme",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "label": "RGC HKPFS 初步登记",
+            "url": "https://cerg1.ugc.edu.hk/hkpfs/apply.html",
+            "checkedDate": "2026-10-02"
+          }
+        ],
+        "sourceConflict": {
+          "ordinaryFlowUrl": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
+          "alternateOfficialUrl": "https://www.cityu.edu.hk/zh-hk/pg/research-degree-programmes/steps-and-procedures",
+          "fullTextObservation": "2026 entry; 1 December 2025 at 12:00 noon Hong Kong time",
+          "indexedObservation": "2027/28 entry; 1 December 2026 at 11:59 p.m. Hong Kong time; not accepted as full-page verification",
+          "liveVerification": "blocked by CAPTCHA; not solved",
+          "checkedDate": "2026-10-02"
+        }
+      }
     },
     {
       "id": "hku-cycle",

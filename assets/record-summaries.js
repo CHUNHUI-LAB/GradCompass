@@ -1,4 +1,4 @@
-import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,deadlineStatus,isVerifiedRoute,hasVerifiedPath} from './core.js';
+import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,deadlineStatus,isVerifiedRoute,hasVerifiedPath,filterRoutes} from './core.js';
 const e=value=>escapeHTML(readerText(value));
 const items=values=>`<ul>${values.map(value=>`<li>${e(value?.text||value?.requirement||value)}</li>`).join('')}</ul>`;
 const section=(title,body)=>body?`<section class="detail-section"><h3>${e(title)}</h3>${body}</section>`:'';
@@ -8,6 +8,23 @@ const uniqueText=values=>values.filter((value,index)=>value&&values.indexOf(valu
 const requirements=record=>record.requirements||record.items||(record.requirement?[record.requirement]:[]);
 const materialKinds={academic:'学历与专业条件',language:'语言要求',transcript:'学历与成绩材料',researchProposal:'研究计划',references:'推荐材料',cv:'简历',cvPersonalStatement:'简历与个人陈述',cvPersonalStatementResearchProposal:'简历、个人陈述与研究计划',personalStatementResearchProposalReferences:'个人陈述、研究计划与推荐材料',researchOutputs:'研究成果',deadline:'申请日期'};
 const requirementStatuses={required:'已明确要求',conditional:'符合相应条件时适用',published:'日期已公布',not_specified:'未明确统一要求',unknown:'待确认',optional:'选交',required_count_unknown:'需要提交，数量待确认',required_for_hkpfs:'HKPFS 申请需要',published_school_only:'仅确认学校统一日期'};
+const projectFacts=['overview','training','bachelorEntry','cycle'];
+export function normalizeProjectSummaries(data,catalog){
+ if(data?.schemaVersion!==1||!Array.isArray(data.records)||!Array.isArray(data.sources))throw Error('Invalid project summaries');
+ const sources=new Map();
+ for(const s of data.sources){if(!s?.id||sources.has(s.id)||!s.label||!safeUrl(s.url)||!s.url.startsWith('https://')||!/^\d{4}-\d{2}-\d{2}$/.test(s.checkedDate||''))throw Error('Invalid project source');sources.set(s.id,s);}
+ const summaries=new Map();
+ const validFact=f=>typeof f?.text==='string'&&f.text.trim()&&Array.isArray(f.sourceIds)&&f.sourceIds.length&&f.sourceIds.every(id=>sources.has(id));
+ for(const r of data.records){
+  const route=catalog.routes?.find(route=>route.id===r?.routeId);
+  if(!route||!isVerifiedRoute(route)||r.institution!==route.institution||r.degree!==route.degree||summaries.has(r.routeId)||!/^\d{4}-\d{2}-\d{2}$/.test(r.checkedDate||'')||!projectFacts.every(k=>validFact(r[k]))||!Array.isArray(r.cautions)||!r.cautions.length||!r.cautions.every(validFact))continue;
+  const sourceIds=[...new Set([...projectFacts.map(k=>r[k]),...r.cautions].flatMap(f=>f.sourceIds))];
+  summaries.set(r.routeId,{...Object.fromEntries(['routeId','institution','degree','checkedDate',...projectFacts,'cautions'].map(k=>[k,r[k]])),sources:sourceIds.map(id=>sources.get(id))});
+ }
+ return summaries;
+}
+export function filterProjectRoutes(catalog,filters={}){const q=(filters.query||'').trim().toLowerCase();if(!q)return filterRoutes(catalog,filters);const originalIds=new Set(filterRoutes(catalog,filters).map(r=>r.id));return filterRoutes(catalog,{...filters,query:''}).filter(r=>{const brief=catalog.projectSummaries?.get(r.id);return originalIds.has(r.id)||brief&&[...projectFacts.map(k=>brief[k].text),...brief.cautions.map(f=>f.text)].join(' ').toLowerCase().includes(q);});}
+function projectIntroduction(brief){if(!brief)return '';return section('培养与研究简介',paragraph(brief.overview.text)+`<h4>怎样培养</h4>${paragraph(brief.training.text)}<h4>本科申请入口</h4>${paragraph(brief.bachelorEntry.text)}<h4>批次边界</h4>${paragraph(brief.cycle.text)}`+items(brief.cautions)+`<p class="small-note">简介核读于 ${e(brief.checkedDate)}。普通申请流程未将内地推免列为条件；这不等于免交推荐信，也不构成个人资格、导师名额或资助保证。</p>`);}
 function materialItems(values){return `<ul class="material-requirements">${values.map(value=>{if(typeof value!=='object')return `<li>${e(value)}</li>`;const sources=sourcesOf(value.sources);return `<li><strong>${e(materialKinds[value.kind]||'材料要求')}${value.requirementStatus?' · '+e(requirementStatuses[value.requirementStatus]||'具体适用条件见下文'):''}</strong><p>${e(value.text||value.requirement)}</p>${sources.length?`<p class="small-note">依据：${sources.map(s=>e(s.label)).join('；')}</p>`:''}</li>`;}).join('')}</ul>`;}
 const relatedProjects=(record,catalog)=>catalog.routes.filter(r=>(record.routeIds||[]).includes(r.id)&&isVerifiedRoute(r));
 const projects=(records)=>records.length?`<div class="link-list">${records.map(r=>`<button class="text-button" data-summary-kind="project" data-summary-id="${e(r.id)}">${e(r.program||r.degree)}</button>`).join('')}</div>`:'';
@@ -16,7 +33,7 @@ function officialSources(record){const sources=sourcesOf([...(record.sources||[]
 export function renderRecordSummary(kind,record,catalog){
  if(!record||!['project','deadline','material'].includes(kind))return null;
  const checked=record.checkedDate||catalog.metadata?.checkedDate||'未记录';
- let title;let body;let label;
+ let title;let body;let label;const brief=kind==='project'?catalog.projectSummaries?.get(record.id):null;
  if(kind==='project'){
   if(!isVerifiedRoute(record))return null;
   title=record.program||record.degree;label='项目摘要';
@@ -24,12 +41,12 @@ export function renderRecordSummary(kind,record,catalog){
   const materials=(catalog.materials||[]).filter(m=>(m.routeIds||[]).includes(record.id));
   const materialLinks=materials.length?`<div class="link-list">${materials.map(m=>`<button class="text-button" data-summary-kind="material" data-summary-id="${e(m.id)}">${e(m.title||'材料摘要')}</button>`).join('')}</div>`:'<p>该项目的独立材料摘要尚待补充，请核对下方官网。</p>';
   const degreeNames={MSc:'MSc · 理学硕士',MPhil:'MPhil · 研究型硕士',PhD:'PhD · 博士'};
-  const overview=`<dl class="fact-grid"><dt>学校</dt><dd>${e(institutionLabel(record.institution))}</dd><dt>院系</dt><dd>${e(record.department||'未记录')}</dd><dt>项目名称</dt><dd>${e(record.program||record.degree)}</dd><dt>学位类型</dt><dd>${e(degreeNames[record.degree]||record.degree)}</dd>${record.duration?`<dt>已记录学制</dt><dd>${e(record.duration)}</dd>`:''}</dl><p class="small-note">目前整理了项目基本信息与申请条件；培养方向、课程安排与资助详情请查阅下方官方项目介绍。</p>`;
+  const overview=`<dl class="fact-grid"><dt>学校</dt><dd>${e(institutionLabel(record.institution))}</dd><dt>院系</dt><dd>${e(record.department||'未记录')}</dd><dt>项目名称</dt><dd>${e(record.program||record.degree)}</dd><dt>学位类型</dt><dd>${e(degreeNames[record.degree]||record.degree)}</dd>${record.duration?`<dt>已记录学制</dt><dd>${e(record.duration)}</dd>`:''}</dl>${brief?'':'<p class="small-note">目前整理了项目基本信息与申请条件；培养方向、课程安排与资助详情请查阅下方官方项目介绍。</p>'}`;
   const advisors=(catalog.advisors||[]).filter(a=>(a.routeIds||[]).includes(record.id)&&hasVerifiedPath(a,catalog));
   const advisorLinks=advisors.length?`<div class="link-list">${advisors.map(a=>`<button class="text-button" data-detail="${e(a.id)}">${e(a.nameZh||a.name)}</button>`).join('')}</div>`:'';
   const deadlineLinks=deadlines.length?`<ul>${deadlines.map(d=>`<li><button class="text-button" data-summary-kind="deadline" data-summary-id="${e(d.id)}">${e(d.title)}</button>：${e(d.date||'日期待确认')}</li>`).join('')}</ul>`:'<p>尚未收录该项目可核对的截止日期；请检查当期官网。</p>';
   const distinctRequirements=requirements(record).filter(value=>exactText(value)!==record.eligibilitySummary);
-  body=section('项目概览',overview)+section('申请条件',paragraph(record.eligibilitySummary)+(distinctRequirements.length?items(distinctRequirements):''))+section('申请方式与批次',paragraph(record.applicationMethod)+paragraph(record.admissionYear))+section('导师与名额',paragraph(record.supervisorAssociation||'具体导师关联与名额仍需另行确认。')+advisorLinks)+section('准备材料',materialLinks)+section('申请日期',deadlineLinks)+section('需要留意',(record.notes||[]).length?items(record.notes):'<p>项目要求不等于个人资格或录取结果，申请前仍需核对当期要求。</p>');
+  body=projectIntroduction(brief)+section('项目概览',overview)+section('申请条件',paragraph(record.eligibilitySummary)+(distinctRequirements.length?items(distinctRequirements):''))+section('申请方式与批次',paragraph(record.applicationMethod)+paragraph(record.admissionYear))+section('导师与名额',paragraph(record.supervisorAssociation||'具体导师关联与名额仍需另行确认。')+advisorLinks)+section('准备材料',materialLinks)+section('申请日期',deadlineLinks)+section('需要留意',(record.notes||[]).length?items(record.notes):'<p>项目要求不等于个人资格或录取结果，申请前仍需核对当期要求。</p>');
  }else if(kind==='deadline'){
   title=record.title;label='日期摘要';
   const status=deadlineStatus(record,catalog.metadata?.checkedDate);
@@ -44,5 +61,6 @@ export function renderRecordSummary(kind,record,catalog){
   const scopeNotes=uniqueText(record.scopeNotes||[]).filter(value=>!scopeParagraphs.includes(value));
   body=section('准备概览',paragraph(record.summary))+section('具体要求与适用条件',requirements(record).length?materialItems(requirements(record)):'<p>尚未收录具体材料清单。</p>')+section('适用范围',scopeParagraphs.map(paragraph).join('')+(scopeNotes.length?items(scopeNotes):''))+section('仍需确认',(record.unknowns||[]).length?items(record.unknowns):'')+section('相关项目',projects(relatedProjects(record,catalog)))+section('准备时注意','<p>这里只总结已收录的要求，不代表完整申请清单。材料名称、格式、语言与提交方式请以当期申请系统为准。</p>');
  }
- return {label,html:`<h2 id="detail-title" class="detail-title" tabindex="-1">${e(title)}</h2><p class="detail-subtitle">${e(institutionLabel(record.institution))}${record.degree?' · '+e(record.degree):''}</p>${body}<section class="detail-section"><h3>官方来源</h3><p class="small-note">来源核验日期：${e(checked)}；日期不随浏览时间自动更新。</p>${officialSources(record)}</section>`};
+ const review=record.cycleReview;const reviewNote=review?section('批次复核说明',paragraph(review.reason)+`<p class="small-note">批次复核于 ${e(review.checkedDate)}；原记录与原来源的核验日期保留，其他条件不视为此次重新核验。</p>`):'';
+ return {label,html:`<h2 id="detail-title" class="detail-title" tabindex="-1">${e(title)}</h2><p class="detail-subtitle">${e(institutionLabel(record.institution))}${record.degree?' · '+e(record.degree):''}</p>${body}${reviewNote}<section class="detail-section"><h3>官方来源</h3><p class="small-note">来源核验日期：${e(checked)}；日期不随浏览时间自动更新。</p>${officialSources(record)}${brief?`<h4>项目简介来源 · ${e(brief.checkedDate)} 核读</h4>${officialSources(brief)}`:''}${review?`<h4>批次复核来源 · ${e(review.checkedDate)} 核读</h4>${officialSources(review)}`:''}</section>`};
 }

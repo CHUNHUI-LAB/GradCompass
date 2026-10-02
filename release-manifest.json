@@ -1,24 +1,27 @@
 {
   "project": "GradCompass",
-  "revision": "r2.10-hk-experience-expansion",
-  "baseDeployedCommit": "b61dacd67ed480620fa2c88f7a94bf059cda8df9",
+  "revision": "r2.11-project-introductions",
+  "baseDeployedCommit": "4ba63ecdccad8d8eb09e9761644b2888c64efe35",
   "snapshotDate": "2026-10-02",
-  "status": "reviewed content snapshot; preparation Node tests passed; deployment evidence is checked separately",
+  "status": "reviewed content snapshot; preparation checks recorded in QA.md; deployment evidence checked separately",
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
-  "browserVisualQA": "blocked: Chromium socket denied; no browser or visual acceptance claimed",
+  "browserVisualQA": "focused Chromium suite blocked before launch; cloud localhost preview blocked; no new browser or visual acceptance",
   "profilePilotCount": 10,
-  "nodeTestsTotal": 118,
-  "nodeTestsPassed": 118,
+  "nodeTestsTotal": 137,
+  "nodeTestsPassed": 137,
   "nodeTestsFailed": 0,
   "experienceRecords": 16,
   "defaultExperienceRecords": 16,
   "experienceSourceSites": 12,
-  "preservedPublishedRecords": 11,
-  "newExperienceRecords": 5,
+  "preservedPublishedRecords": 16,
+  "newExperienceRecords": 0,
   "materialRecords": 14,
   "materialSupplementRecords": 12,
-  "materialSupplementSources": 33,
+  "materialSupplementSources": 36,
+  "projectSummaryRecords": 8,
+  "projectSummarySchools": 5,
+  "projectSummarySources": 19,
   "allowedFiles": [
     {
       "path": ".nojekyll",
@@ -27,18 +30,18 @@
     },
     {
       "path": "QA.md",
-      "bytes": 8184,
-      "sha256": "11afd9a14ceb50fe124b2e4a5513b144297a33f8c7335d83a91430fba2a2be33"
+      "bytes": 12714,
+      "sha256": "f8a32714aecaad37aafd271ac664ec11cfafa64e3ef3ac6e07979daebcc3d64d"
     },
     {
       "path": "README.md",
-      "bytes": 6459,
-      "sha256": "a976ed73fbaaf9d0d5589636188bc239b878e2d0a71d81b9b3d88175fe126a1a"
+      "bytes": 8510,
+      "sha256": "4d5283b81d18d0092b4c04ee899aabef30547778ff06f20bf89f50a865ff7f81"
     },
     {
       "path": "assets/app.js",
-      "bytes": 34100,
-      "sha256": "58a5afa2610152da39678855ac1db793d9c1c20741a01f7b1f993dd838741c90"
+      "bytes": 35631,
+      "sha256": "54c7f115dd69973104a274f1593b37160013c81e1fc634e552aa8cdf25801701"
     },
     {
       "path": "assets/core.js",
@@ -67,8 +70,8 @@
     },
     {
       "path": "assets/record-summaries.js",
-      "bytes": 8697,
-      "sha256": "fd9bb471da5e245c1d4ce913e85e3f4184af8ae1ed719c5f85f55bec97de557f"
+      "bytes": 11725,
+      "sha256": "8bd8b8921ab74dfedb28add95111464b3d2f9226aa9b37085c8a069fbe688734"
     },
     {
       "path": "assets/style.css",
@@ -92,18 +95,23 @@
     },
     {
       "path": "data/catalog-test-manifest.json",
-      "bytes": 7430,
-      "sha256": "358cb91bc3704f22a0e0b28b52447bcb34b5d515cc08479e0db6a36ae9dd8f23"
+      "bytes": 7922,
+      "sha256": "32bb22a895615ff2c979091f494d0cdab4c539fffc94f4ff354bcee6b542f96a"
     },
     {
       "path": "data/catalog.json",
-      "bytes": 585365,
-      "sha256": "094e513c0a2120bb2bee44efda475e2800537bcba797468add44bf5a479bd605"
+      "bytes": 591589,
+      "sha256": "f3b9cf4e8bdf23167f94a897d9891c9c01b19ad27de051047cd9128d17e4177c"
     },
     {
       "path": "data/material-summaries.json",
-      "bytes": 47066,
-      "sha256": "b8bc191e880ea2a5d746bd63895351fd9c46b257a81899fc96095609d535b3f9"
+      "bytes": 53857,
+      "sha256": "a61c01350c455bcf4e654acfeaec9a8fb34438003b3a18d1de9400813242a06c"
+    },
+    {
+      "path": "data/project-summaries.json",
+      "bytes": 19388,
+      "sha256": "420b190a3fb5bbcca9b9e42464f060de9ae63d4785d1ffb992609bbd70d9d286"
     },
     {
       "path": "data/ra-positions.json",
@@ -118,7 +126,7 @@
     {
       "path": "index.html",
       "bytes": 6974,
-      "sha256": "593bcb45c3208852127bb4f1414a4f3b2580533223273e2e88057f6055f36f42"
+      "sha256": "77985d8e89aea8fd0f12c6cb0178cf16f4a9539536742e8a9ab0e672c6e5b83a"
     },
     {
       "path": "package.json",
@@ -127,13 +135,18 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 4058,
-      "sha256": "68e47b6885ce5a58442bf81348439c75c97066adbb658d462243bee9857e0e08"
+      "bytes": 4651,
+      "sha256": "fb6f7699b80c26c1de0ef39ffd09204e679d3cb8e40b0c8bcb2c3bbd50b42d84"
     },
     {
       "path": "tests/browser-smoke.mjs",
       "bytes": 5765,
       "sha256": "a0d981b782d3089ee8875480e3471ecb34dd40b9f736924cacf321a040f909e7"
+    },
+    {
+      "path": "tests/cityu-cycle-review.test.mjs",
+      "bytes": 3887,
+      "sha256": "967a638de8f5a2efbe6391e55bf10a4232389521715d0aea7c5807f5796eceba"
     },
     {
       "path": "tests/core.test.mjs",
@@ -173,7 +186,7 @@
     {
       "path": "tests/material-supplement.test.mjs",
       "bytes": 3110,
-      "sha256": "2ea5ed40402dd2186e523b07916d24f0a458026412e5353a9fa30cdfd9f4d537"
+      "sha256": "fb82cd9e2decde67b080f45522dc7128ff001e1c6f4e5bb7d5ef05d680133220"
     },
     {
       "path": "tests/opportunities.test.mjs",
@@ -182,8 +195,23 @@
     },
     {
       "path": "tests/profiles.test.mjs",
-      "bytes": 3499,
-      "sha256": "362f13bcec987e45cdebd173dc27b4c1893d97d5a415730ff43c0e721d321d03"
+      "bytes": 3719,
+      "sha256": "e4436fa69e8aae64539d35beb906ff666cec34b789bb079bc605bdb082c253c6"
+    },
+    {
+      "path": "tests/project-loading.test.mjs",
+      "bytes": 6006,
+      "sha256": "6c9442b40e872dad3944e7ec840da534a77835011dc11119b8d78af432aedd91"
+    },
+    {
+      "path": "tests/project-summaries-browser.mjs",
+      "bytes": 4088,
+      "sha256": "3fc08149723a7d2b09dcd307430153e372c2734ee85fa40c5d1107bd65d47ff6"
+    },
+    {
+      "path": "tests/project-summaries.test.mjs",
+      "bytes": 6018,
+      "sha256": "ba03a5af150cdb9b785bb2edeaa81079cac12a0f3316f08043aa91a58e332680"
     },
     {
       "path": "tests/ranks.test.mjs",
@@ -202,8 +230,8 @@
     },
     {
       "path": "tests/resource-versions.test.mjs",
-      "bytes": 2363,
-      "sha256": "633931ade488c28ad9901e5474c08efe69745daa01c9a91233e2c80173251429"
+      "bytes": 2658,
+      "sha256": "544517614514b4528a3dd64aac3b323122f05c29ed7f9e7b529be41eb8d745e2"
     },
     {
       "path": "tests/summary-navigation.test.mjs",
@@ -211,11 +239,11 @@
       "sha256": "28748cd8e7b1b1884c0d94855298a6b688612798894998f93649cae6051e7432"
     }
   ],
-  "qaMetadataScope": "All preparation fields and allowedFiles hashes describe the 2026-10-02 content snapshot; deployment evidence is separate. Historical baseline evidence and acceptance limits: QA.md",
+  "qaMetadataScope": "Candidate preparation only; hashes describe this exact snapshot. No publication, browser acceptance or wholesale evidence revalidation is implied. Historic records remain below in QA.md.",
   "publishedBaseline": {
-    "commit": "b61dacd67ed480620fa2c88f7a94bf059cda8df9",
-    "contentCommit": "de9aa856743520bc762ae6b29aacf31a82f9df02",
-    "experienceRecords": 11,
-    "pagesRun": "https://github.com/CHUNHUI-LAB/GradCompass/actions/runs/36903393867"
+    "commit": "4ba63ecdccad8d8eb09e9761644b2888c64efe35",
+    "contentCommit": "4ba63ecdccad8d8eb09e9761644b2888c64efe35",
+    "experienceRecords": 16,
+    "pagesRun": "https://github.com/CHUNHUI-LAB/GradCompass/actions/runs/36946560281"
   }
 }

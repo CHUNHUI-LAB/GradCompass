@@ -196,5 +196,11 @@
     "Validation checks data structure, privacy boundaries and preserved research conclusions; no new web research was performed in this normalization pass",
     "Actual eligibility, supervisor consent, current funding and remaining vacancies are not established for any particular applicant",
     "No Git writes, deployment or scheduling were performed by this data task"
-  ]
+  ],
+  "scope": "Historical 2026-10-01 normalization report; sha256 and tests above describe that preserved baseline, not the cycle-corrected catalog.",
+  "currentCycleReview": {
+    "checkedDate": "2026-10-02",
+    "catalogSha256": "f3b9cf4e8bdf23167f94a897d9891c9c01b19ad27de051047cd9128d17e4177c",
+    "scope": "Only CityU ME ordinary application cycle fields and one calendar record corrected; original checked timestamps and sourceRecord retained; see tests/cityu-cycle-review.test.mjs"
+  }
 }
