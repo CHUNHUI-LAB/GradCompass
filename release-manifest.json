@@ -47,8 +47,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 45270,
-      "sha256": "49fe81ffd9b228c6855a85132e245e401b85b154afc4a7c3f3cac3944be7df4d"
+      "bytes": 48613,
+      "sha256": "8b55c013d9775d76080ec90f19b091a00d73d456f8c7d1837ab4f63b96b41ba1"
     },
     {
       "path": "assets/core.js",
@@ -87,8 +87,8 @@
     },
     {
       "path": "assets/style.css",
-      "bytes": 26927,
-      "sha256": "6893a949ba865577741be98535a81b9709acf67febc630e5600345fa66705c09"
+      "bytes": 27944,
+      "sha256": "9fe9f9e36e4625d4ac77cf8671db98112cdbbef2e8bc5dca450246b5c6f041fc"
     },
     {
       "path": "data/advisor-profiles.json",
@@ -137,8 +137,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 7114,
-      "sha256": "b39c7c908f1257b90631431209992fc1e04ebe5047aeee6a848c4441a5f867ba"
+      "bytes": 7227,
+      "sha256": "b057b11a2171c0266547b3a9170d8dbcbf4fd126619923226d4f26d8127ffdca"
     },
     {
       "path": "package.json",
@@ -147,8 +147,13 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 5470,
-      "sha256": "50d3e06da003af690bdcc825c7fbd5286b8a0c6ecd5e57d34e9d4596cc80eda5"
+      "bytes": 5502,
+      "sha256": "19020a95d4199438455c6cfcc0ded3a1b10430c88e551847d7fb0ef436411373"
+    },
+    {
+      "path": "tests/active-filters.test.mjs",
+      "bytes": 14548,
+      "sha256": "cdbc737525b2f76ae3af53ff7c783a8e483292759cf4ceefe0995e7581463437"
     },
     {
       "path": "tests/browser-smoke.mjs",
@@ -248,7 +253,7 @@
     {
       "path": "tests/project-expansion.test.mjs",
       "bytes": 8810,
-      "sha256": "06421a51a4e015913c7191fc5f83569afed529d461f64be2a81c8ef1a31f1d34"
+      "sha256": "ac2a074e8c637b5d0744076a26a67bd3c0682128de996368f96f3d7564b236d2"
     },
     {
       "path": "tests/project-final10.test.mjs",
@@ -282,8 +287,8 @@
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 17913,
-      "sha256": "b7d70031c476f9e3ae77b9ba92c34cca3e527d68527101522813be5c4c9e6885"
+      "bytes": 18959,
+      "sha256": "c5babb41d769e6192a41f24b3bb6f847e84f6e54e30f550deaf93cb9a971083c"
     },
     {
       "path": "tests/resource-versions.test.mjs",

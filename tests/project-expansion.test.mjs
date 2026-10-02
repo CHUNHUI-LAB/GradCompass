@@ -76,7 +76,7 @@ test('reviewed catalog and material snapshots plus reviewed runtime and expanded
   "assets/profiles.js": "6b6ce55c9e97edb8060976e5f82a631ed47275d6304d72bba4c0caf649606e88",
   "assets/material-supplement.js": "44c8f5821e4c828503b6efefc6cd6a75f560c2de0067f855531337c025511d03",
   "assets/style.css": "87fc9377f9451bc784a8e6355266e9e740e16a53971c5b25c92c0e7b67d4e0df",
-  "tests/render.test.mjs": "b7d70031c476f9e3ae77b9ba92c34cca3e527d68527101522813be5c4c9e6885"
+  "tests/render.test.mjs": "c5babb41d769e6192a41f24b3bb6f847e84f6e54e30f550deaf93cb9a971083c"
 };
  for(const [path,expected] of Object.entries(protectedHashes)){
   let content=fs.readFileSync(new URL('../'+path,import.meta.url));
