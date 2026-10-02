@@ -2637,33 +2637,33 @@
       "eligibility": "verified",
       "eligibilityMeaning": "至少一条本科起点、无需推免、无需先获硕士的官方路径及导师/项目关联已记录；个人资格未评估",
       "defaultVisible": true,
-      "opening": "explicit",
-      "openingSummary": "已明确公布；0–1 不是至少 1 名",
+      "opening": "closed",
+      "openingSummary": "Fall 2027 MPhil / PhD 当前均为 0 名额；不代表其他轮次或永久停止招生",
       "openings": {
-        "mphil": "明确 Fall 2027 0–1 openings，local/international；取决于 quota/funding/project needs/screening",
+        "mphil": "官方页面当前明确 Fall 2027 MPhil 为 0 名额（本地及国际申请人）；仅表示该轮当前公开状态",
         "msc": "未核实公开声明",
-        "phd": "明确 Fall 2027 0–1 openings；与 MPhil 分开",
+        "phd": "官方页面当前明确 Fall 2027 PhD 为 0 名额；仅表示该轮当前公开状态",
         "ra": "本轮未找到明确公开名额/招生声明；不等于不招",
-        "cycle2027": "已明确公布；0–1 不是至少 1 名"
+        "cycle2027": "Fall 2027 MPhil / PhD 当前均为 0 名额；不代表其他轮次或永久停止招生"
       },
       "openingDetails": [
         {
           "degree": "MPhil",
-          "status": "explicit",
-          "summary": "明确 Fall 2027 0–1 openings，local/international；取决于 quota/funding/project needs/screening",
+          "status": "closed",
+          "summary": "官方页面当前明确 Fall 2027 MPhil 为 0 名额（本地及国际申请人）；仅表示该轮当前公开状态",
           "cycle2027FallVerified": true,
           "cycle": "2027 Fall",
           "degreeRouteAssociated": true,
-          "sourceStatus": null,
+          "sourceStatus": "zero_openings_for_fall_2027",
           "noticeDate": null,
           "sources": [
             {
               "label": "公开一手来源",
               "url": "https://mrl.hkust.edu.hk/openings/",
-              "checkedDate": "2026-10-01"
+              "checkedDate": "2026-10-02"
             }
           ],
-          "checkedDate": "2026-10-01"
+          "checkedDate": "2026-10-02"
         },
         {
           "degree": "MSc",
@@ -2685,21 +2685,21 @@
         },
         {
           "degree": "PhD",
-          "status": "explicit",
-          "summary": "明确 Fall 2027 0–1 openings；与 MPhil 分开",
+          "status": "closed",
+          "summary": "官方页面当前明确 Fall 2027 PhD 为 0 名额；仅表示该轮当前公开状态",
           "cycle2027FallVerified": true,
           "cycle": "2027 Fall",
           "degreeRouteAssociated": false,
-          "sourceStatus": null,
+          "sourceStatus": "zero_openings_for_fall_2027",
           "noticeDate": null,
           "sources": [
             {
               "label": "公开一手来源",
               "url": "https://mrl.hkust.edu.hk/openings/",
-              "checkedDate": "2026-10-01"
+              "checkedDate": "2026-10-02"
             }
           ],
-          "checkedDate": "2026-10-01"
+          "checkedDate": "2026-10-02"
         },
         {
           "degree": "RA",
@@ -2720,7 +2720,7 @@
           "checkedDate": "2026-10-01"
         }
       ],
-      "fall2027OpeningVerified": true,
+      "fall2027OpeningVerified": false,
       "newPi": {
         "verified": false,
         "window": "calendar-year-2026",
@@ -2738,7 +2738,7 @@
         {
           "label": "公开一手来源",
           "url": "https://mrl.hkust.edu.hk/team/",
-          "checkedDate": "2026-10-01"
+          "checkedDate": "2026-10-02"
         },
         {
           "label": "公开一手来源",
@@ -2758,7 +2758,7 @@
         {
           "label": "公开一手来源",
           "url": "https://mrl.hkust.edu.hk/openings/",
-          "checkedDate": "2026-10-01"
+          "checkedDate": "2026-10-02"
         }
       ],
       "caveats": [
@@ -2824,6 +2824,115 @@
           "研究包括微型/生物医学机器人，须锁定触觉操作支线"
         ],
         "checked_date": "2026-10-01"
+      },
+      "recruitmentReview": {
+        "checkedDate": "2026-10-02",
+        "checkedAt": "2026-10-02T06:18:45Z",
+        "timezone": "Asia/Hong_Kong",
+        "scope": "仅更新 Fall 2027 MPhil / PhD 招募状态，不重审学校资格或其他研究介绍",
+        "reason": "实验室当前招募页明列两类学位均为 0 openings；旧记录为 0–1。学校项目仍存在与该导师当前名额为零可以同时成立。",
+        "identityEvidence": {
+          "advisorId": "hkust-yajing-shen",
+          "name": "Yajing Shen / 申亚京",
+          "lab": "Mevita Robotics Lab",
+          "url": "https://mrl.hkust.edu.hk/team/",
+          "checkedDate": "2026-10-02"
+        },
+        "previous": {
+          "checkedDate": "2026-10-01",
+          "opening": "explicit",
+          "openingSummary": "已明确公布；0–1 不是至少 1 名",
+          "openings": {
+            "mphil": "明确 Fall 2027 0–1 openings，local/international；取决于 quota/funding/project needs/screening",
+            "msc": "未核实公开声明",
+            "phd": "明确 Fall 2027 0–1 openings；与 MPhil 分开",
+            "ra": "本轮未找到明确公开名额/招生声明；不等于不招",
+            "cycle2027": "已明确公布；0–1 不是至少 1 名"
+          },
+          "openingDetails": [
+            {
+              "degree": "MPhil",
+              "status": "explicit",
+              "summary": "明确 Fall 2027 0–1 openings，local/international；取决于 quota/funding/project needs/screening",
+              "cycle2027FallVerified": true,
+              "cycle": "2027 Fall",
+              "degreeRouteAssociated": true,
+              "sourceStatus": null,
+              "noticeDate": null,
+              "sources": [
+                {
+                  "label": "公开一手来源",
+                  "url": "https://mrl.hkust.edu.hk/openings/",
+                  "checkedDate": "2026-10-01"
+                }
+              ],
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "degree": "MSc",
+              "status": "unknown",
+              "summary": "未核实公开声明",
+              "cycle2027FallVerified": false,
+              "cycle": "Unspecified or unverified for Fall 2027",
+              "degreeRouteAssociated": false,
+              "sourceStatus": null,
+              "noticeDate": null,
+              "sources": [
+                {
+                  "label": "公开一手来源",
+                  "url": "https://mrl.hkust.edu.hk/openings/",
+                  "checkedDate": "2026-10-01"
+                }
+              ],
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "degree": "PhD",
+              "status": "explicit",
+              "summary": "明确 Fall 2027 0–1 openings；与 MPhil 分开",
+              "cycle2027FallVerified": true,
+              "cycle": "2027 Fall",
+              "degreeRouteAssociated": false,
+              "sourceStatus": null,
+              "noticeDate": null,
+              "sources": [
+                {
+                  "label": "公开一手来源",
+                  "url": "https://mrl.hkust.edu.hk/openings/",
+                  "checkedDate": "2026-10-01"
+                }
+              ],
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "degree": "RA",
+              "status": "unknown",
+              "summary": "本轮未找到明确公开名额/招生声明；不等于不招",
+              "cycle2027FallVerified": false,
+              "cycle": "Unspecified or unverified for Fall 2027",
+              "degreeRouteAssociated": null,
+              "sourceStatus": null,
+              "noticeDate": null,
+              "sources": [
+                {
+                  "label": "公开一手来源",
+                  "url": "https://mrl.hkust.edu.hk/openings/",
+                  "checkedDate": "2026-10-01"
+                }
+              ],
+              "checkedDate": "2026-10-01"
+            }
+          ],
+          "fall2027OpeningVerified": true
+        },
+        "sources": [
+          {
+            "label": "Mevita Robotics Lab 当前招募",
+            "url": "https://mrl.hkust.edu.hk/openings/",
+            "checkedDate": "2026-10-02",
+            "evidenceScope": "official_page_and_live_cloud_browser_visible_text"
+          }
+        ]
       }
     },
     {
@@ -4884,12 +4993,12 @@
       "eligibilityMeaning": "至少一条本科起点、无需推免、无需先获硕士的官方路径及导师/项目关联已记录；个人资格未评估",
       "defaultVisible": true,
       "opening": "explicit",
-      "openingSummary": "unknown",
+      "openingSummary": "RA 有2条具名官方岗位广告；2027 Fall 学位名额仍未核实",
       "openings": {
         "mphil": "named programme supervisor; personal new intake not explicitly advertised",
         "msc": "RAIDS homepage advertises opportunities; precise MSc programme/supervision arrangement not verified",
         "phd": "RAIDS homepage advertises opportunities, undated",
-        "ra": "not verified",
+        "ra": "2条具名官方 RA 广告已核实：260907004、260724022；剩余名额未核实，岗位任职与学位申请分别审核",
         "cycle2027": "unknown"
       },
       "openingDetails": [
@@ -4949,21 +5058,26 @@
         },
         {
           "degree": "RA",
-          "status": "unknown",
-          "summary": "not verified",
+          "status": "explicit",
+          "summary": "2条具名官方 RA 广告已核实：260907004、260724022；剩余名额未核实，岗位任职与学位申请分别审核",
           "cycle2027FallVerified": false,
-          "cycle": "Unspecified or unverified for Fall 2027",
+          "cycle": "独立受雇岗位，不按学位入学轮次归类",
           "degreeRouteAssociated": null,
-          "sourceStatus": null,
+          "sourceStatus": "official_job_advertisements_verified",
           "noticeDate": null,
           "sources": [
             {
-              "label": "公开一手来源",
-              "url": "https://raidsgroup.github.io/",
-              "checkedDate": "2026-10-01"
+              "label": "PolyU HR Ref. 260907004",
+              "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260907004",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "label": "PolyU HR Ref. 260724022",
+              "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260724022",
+              "checkedDate": "2026-10-02"
             }
           ],
-          "checkedDate": "2026-10-01"
+          "checkedDate": "2026-10-02"
         }
       ],
       "fall2027OpeningVerified": false,
@@ -5013,6 +5127,16 @@
           "label": "公开一手来源",
           "url": "https://www.polyu.edu.hk/ise/study/research-postgraduate-programme-mphil-phd/major-research-areas/",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "label": "PolyU HR Ref. 260907004",
+          "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260907004",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "PolyU HR Ref. 260724022",
+          "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260724022",
+          "checkedDate": "2026-10-02"
         }
       ],
       "caveats": [
@@ -5089,6 +5213,62 @@
         "campus": "Hong Kong main campus",
         "mainland_recommendation_requirement": "The cited ordinary direct-application route does not list mainland 推免 qualification as a prerequisite; collaborative/partner nomination routes are not included",
         "applicant_eligibility_note": "Not assessed; degree equivalence, academic results, English, graduation timing, supervisor consent, funding and quotas remain individual checks"
+      },
+      "recruitmentReview": {
+        "checkedDate": "2026-10-02",
+        "checkedAt": "2026-10-02T06:16:28Z",
+        "timezone": "Asia/Hong_Kong",
+        "scope": "仅同步导师 RA 声明与两条具名官方职位，不改变 MPhil/PhD 招募或入学资格",
+        "reason": "既有 RA 职位数据已核实两个岗位；本次重读官方广告后同步导师旧的未核实标签。未测试提交入口或核实剩余名额。",
+        "previous": {
+          "checkedDate": "2026-10-01",
+          "openingSummary": "unknown",
+          "ra": "not verified",
+          "raDetail": {
+            "degree": "RA",
+            "status": "unknown",
+            "summary": "not verified",
+            "cycle2027FallVerified": false,
+            "cycle": "Unspecified or unverified for Fall 2027",
+            "degreeRouteAssociated": null,
+            "sourceStatus": null,
+            "noticeDate": null,
+            "sources": [
+              {
+                "label": "公开一手来源",
+                "url": "https://raidsgroup.github.io/",
+                "checkedDate": "2026-10-01"
+              }
+            ],
+            "checkedDate": "2026-10-01"
+          }
+        },
+        "jobs": [
+          {
+            "jobReference": "260907004",
+            "noticeDate": "2026-09-07",
+            "deadline": "2027-02-21",
+            "deadlineTime": null
+          },
+          {
+            "jobReference": "260724022",
+            "noticeDate": "2026-07-24",
+            "deadline": "2027-01-07",
+            "deadlineTime": null
+          }
+        ],
+        "sources": [
+          {
+            "label": "PolyU HR Ref. 260907004",
+            "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260907004",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "label": "PolyU HR Ref. 260724022",
+            "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260724022",
+            "checkedDate": "2026-10-02"
+          }
+        ]
       }
     },
     {
@@ -9529,7 +9709,7 @@
       "status": "verified",
       "eligibilitySummary": "认可大学 honours 学士或认可同等资格；院系可有额外条件/面试/qualifying examination",
       "supervisorAssociation": "导师与院系/项目的关联见各导师 routeAssociations；项目资格不等于名额确认",
-      "admissionYear": "CDS 页明确列 2027 主轮；其他院系招生规则与研究生院入口已核实，导师 2027Fall 名额另列",
+      "admissionYear": "2027/28（校级MPhil普通申请主轮及补录已核实；院系及具体导师名额另核）",
       "cycle2027Verified": true,
       "applicationStatus": "unknown",
       "applicationMethod": "HKU 研究生院普通在线申请；认可院校本科/等同资格通道，不是推免专属",
@@ -9553,6 +9733,11 @@
           "label": "公开一手来源",
           "url": "https://www.ai.hku.hk/index.php/programmes/research-based/mphil-phd-admission",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "label": "HKU 2027/28 研究学位普通申请主轮与补录",
+          "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+          "checkedDate": "2026-10-02"
         }
       ],
       "notes": [
@@ -9607,7 +9792,21 @@
         "eligibility_note": "仅验证本科可申请的制度性路径；不构成对任何申请人符合全部条件或录取结果的判断"
       },
       "checkedDate": "2026-10-01",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+        "reason": "当前研究生院2027/28时间表：主轮2026-09-01至2026-12-01，首补录至2027-04-30，次补录至2027-08-31，截止均23:59 HKT。补录只在主轮后仍有名额时考虑；此校级日期不能保证院系或导师名额。",
+        "previousAdmissionYear": "CDS 页明确列 2027 主轮；其他院系招生规则与研究生院入口已核实，导师 2027Fall 名额另列",
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "label": "HKU 2027/28 研究学位普通申请主轮与补录",
+            "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      }
     },
     {
       "id": "HKU-ECE-MPhil",
@@ -9621,8 +9820,8 @@
       "status": "verified",
       "eligibilitySummary": "认可大学 honours 学士或认可同等资格；院系可有额外条件/面试/qualifying examination",
       "supervisorAssociation": "导师与院系/项目的关联见各导师 routeAssociations；项目资格不等于名额确认",
-      "admissionYear": "CDS 页明确列 2027 主轮；其他院系招生规则与研究生院入口已核实，导师 2027Fall 名额另列",
-      "cycle2027Verified": false,
+      "admissionYear": "2027/28（校级MPhil普通申请主轮及补录已核实；院系及具体导师名额另核）",
+      "cycle2027Verified": true,
       "applicationStatus": "unknown",
       "applicationMethod": "HKU 研究生院普通在线申请；认可院校本科/等同资格通道，不是推免专属",
       "sources": [
@@ -9645,6 +9844,11 @@
           "label": "公开一手来源",
           "url": "https://ece.hku.hk/study/rpg/",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "label": "HKU 2027/28 研究学位普通申请主轮与补录",
+          "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+          "checkedDate": "2026-10-02"
         }
       ],
       "notes": [
@@ -9699,7 +9903,21 @@
         "eligibility_note": "仅验证本科可申请的制度性路径；不构成对任何申请人符合全部条件或录取结果的判断"
       },
       "checkedDate": "2026-10-01",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+        "reason": "当前研究生院2027/28时间表：主轮2026-09-01至2026-12-01，首补录至2027-04-30，次补录至2027-08-31，截止均23:59 HKT。补录只在主轮后仍有名额时考虑；此校级日期不能保证院系或导师名额。",
+        "previousAdmissionYear": "CDS 页明确列 2027 主轮；其他院系招生规则与研究生院入口已核实，导师 2027Fall 名额另列",
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "label": "HKU 2027/28 研究学位普通申请主轮与补录",
+            "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      }
     },
     {
       "id": "HKU-MECH-MPhil",
@@ -9713,8 +9931,8 @@
       "status": "verified",
       "eligibilitySummary": "认可大学 honours 学士或认可同等资格；院系可有额外条件/面试/qualifying examination",
       "supervisorAssociation": "导师与院系/项目的关联见各导师 routeAssociations；项目资格不等于名额确认",
-      "admissionYear": "CDS 页明确列 2027 主轮；其他院系招生规则与研究生院入口已核实，导师 2027Fall 名额另列",
-      "cycle2027Verified": false,
+      "admissionYear": "2027/28（校级MPhil普通申请主轮及补录已核实；院系及具体导师名额另核）",
+      "cycle2027Verified": true,
       "applicationStatus": "unknown",
       "applicationMethod": "HKU 研究生院普通在线申请；认可院校本科/等同资格通道，不是推免专属",
       "sources": [
@@ -9737,6 +9955,11 @@
           "label": "公开一手来源",
           "url": "https://mech.hku.hk/research-postgraduate/",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "label": "HKU 2027/28 研究学位普通申请主轮与补录",
+          "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+          "checkedDate": "2026-10-02"
         }
       ],
       "notes": [
@@ -9791,7 +10014,21 @@
         "eligibility_note": "仅验证本科可申请的制度性路径；不构成对任何申请人符合全部条件或录取结果的判断"
       },
       "checkedDate": "2026-10-01",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+        "reason": "当前研究生院2027/28时间表：主轮2026-09-01至2026-12-01，首补录至2027-04-30，次补录至2027-08-31，截止均23:59 HKT。补录只在主轮后仍有名额时考虑；此校级日期不能保证院系或导师名额。",
+        "previousAdmissionYear": "CDS 页明确列 2027 主轮；其他院系招生规则与研究生院入口已核实，导师 2027Fall 名额另列",
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "label": "HKU 2027/28 研究学位普通申请主轮与补录",
+            "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      }
     },
     {
       "id": "HKU-DASE-MPhil",
@@ -9805,8 +10042,8 @@
       "status": "verified",
       "eligibilitySummary": "认可大学 honours 学士或认可同等资格；院系可有额外条件/面试/qualifying examination",
       "supervisorAssociation": "导师与院系/项目的关联见各导师 routeAssociations；项目资格不等于名额确认",
-      "admissionYear": "CDS 页明确列 2027 主轮；其他院系招生规则与研究生院入口已核实，导师 2027Fall 名额另列",
-      "cycle2027Verified": false,
+      "admissionYear": "2027/28（校级MPhil普通申请主轮及补录已核实；院系及具体导师名额另核）",
+      "cycle2027Verified": true,
       "applicationStatus": "unknown",
       "applicationMethod": "HKU 研究生院普通在线申请；认可院校本科/等同资格通道，不是推免专属",
       "sources": [
@@ -9829,6 +10066,11 @@
           "label": "公开一手来源",
           "url": "https://www.dase.hku.hk/teaching-and-learning/prospective-students/mphil-phd",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "label": "HKU 2027/28 研究学位普通申请主轮与补录",
+          "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+          "checkedDate": "2026-10-02"
         }
       ],
       "notes": [
@@ -9883,7 +10125,21 @@
         "eligibility_note": "仅验证本科可申请的制度性路径；不构成对任何申请人符合全部条件或录取结果的判断"
       },
       "checkedDate": "2026-10-01",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+        "reason": "当前研究生院2027/28时间表：主轮2026-09-01至2026-12-01，首补录至2027-04-30，次补录至2027-08-31，截止均23:59 HKT。补录只在主轮后仍有名额时考虑；此校级日期不能保证院系或导师名额。",
+        "previousAdmissionYear": "CDS 页明确列 2027 主轮；其他院系招生规则与研究生院入口已核实，导师 2027Fall 名额另列",
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "label": "HKU 2027/28 研究学位普通申请主轮与补录",
+            "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      }
     },
     {
       "id": "cuhk_mae_rpg-mphil",
@@ -10905,8 +11161,8 @@
       "status": "verified",
       "eligibilitySummary": "MPhil: recognised honours bachelor's, normally First/Second Class, or equivalent. PhD: First Class Honours bachelor's plus research achievement/experience; may initially be admitted to MPhil with progression assessment.",
       "supervisorAssociation": "逐导师、逐学位证据见 routeAssociations；授课型硕士不保证进组或论文指导",
-      "admissionYear": "No Kaiyang Zhou-specific 2027 announcement found",
-      "cycle2027Verified": false,
+      "admissionYear": "2027/28（校级普通研究学位申请期已核实；具体导师2027名额另核）",
+      "cycle2027Verified": true,
       "applicationStatus": "unknown",
       "applicationMethod": "Ordinary direct online application; supervisor allocation is subject to university decision",
       "sources": [
@@ -10924,6 +11180,11 @@
           "label": "公开一手来源",
           "url": "https://www.comp.hkbu.edu.hk/v1/?pid=94",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "label": "HKBU 2027/28 校级普通研究学位时间表",
+          "url": "https://gs.hkbu.edu.hk/admission/research-postgraduate-programmes/application/admission-timeline",
+          "checkedDate": "2026-10-02"
         }
       ],
       "notes": [
@@ -10981,7 +11242,21 @@
         "applicant_eligibility_note": "Not assessed; degree equivalence, academic results, English, graduation timing, supervisor consent, funding and quotas remain individual checks"
       },
       "checkedDate": "2026-10-01",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+        "reason": "校级普通申请自2026-09-01开始，首截止2026-12-01、第二截止2027-04-15；院系可能另设日期。官方未注明截止时刻或时区。旧批次文字指导师公告，不否认本轮校级时间表；不将提前招生或HKPFS混作普通轮。",
+        "previousAdmissionYear": "No Kaiyang Zhou-specific 2027 announcement found",
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "label": "HKBU 2027/28 校级普通研究学位时间表",
+            "url": "https://gs.hkbu.edu.hk/admission/research-postgraduate-programmes/application/admission-timeline",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      }
     },
     {
       "id": "hkbu_cs_rpg-phd",
@@ -10997,8 +11272,8 @@
       "status": "verified",
       "eligibilitySummary": "MPhil: recognised honours bachelor's, normally First/Second Class, or equivalent. PhD: First Class Honours bachelor's plus research achievement/experience; may initially be admitted to MPhil with progression assessment.",
       "supervisorAssociation": "逐导师、逐学位证据见 routeAssociations；授课型硕士不保证进组或论文指导",
-      "admissionYear": "No Kaiyang Zhou-specific 2027 announcement found",
-      "cycle2027Verified": false,
+      "admissionYear": "2027/28（校级普通研究学位申请期已核实；具体导师2027名额另核）",
+      "cycle2027Verified": true,
       "applicationStatus": "unknown",
       "applicationMethod": "Ordinary direct online application; supervisor allocation is subject to university decision",
       "sources": [
@@ -11016,6 +11291,11 @@
           "label": "公开一手来源",
           "url": "https://www.comp.hkbu.edu.hk/v1/?pid=94",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "label": "HKBU 2027/28 校级普通研究学位时间表",
+          "url": "https://gs.hkbu.edu.hk/admission/research-postgraduate-programmes/application/admission-timeline",
+          "checkedDate": "2026-10-02"
         }
       ],
       "notes": [
@@ -11073,7 +11353,21 @@
         "applicant_eligibility_note": "Not assessed; degree equivalence, academic results, English, graduation timing, supervisor consent, funding and quotas remain individual checks"
       },
       "checkedDate": "2026-10-01",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+        "reason": "校级普通申请自2026-09-01开始，首截止2026-12-01、第二截止2027-04-15；院系可能另设日期。官方未注明截止时刻或时区。旧批次文字指导师公告，不否认本轮校级时间表；不将提前招生或HKPFS混作普通轮。",
+        "previousAdmissionYear": "No Kaiyang Zhou-specific 2027 announcement found",
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "label": "HKBU 2027/28 校级普通研究学位时间表",
+            "url": "https://gs.hkbu.edu.hk/admission/research-postgraduate-programmes/application/admission-timeline",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      }
     },
     {
       "id": "hkust-gz-rbm",
@@ -11102,10 +11396,15 @@
           "label": "公开一手来源",
           "url": "https://static.hkust-gz.edu.cn/PGOAS/Guideline-for-Application-of-2027-28-Fall-Red-Bird-MPhil-Program.pdf",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "label": "CFT 2027/28 Red Bird 普通申请时间表",
+          "url": "https://cft.hkust-gz.edu.cn/rbm-program/admission/",
+          "checkedDate": "2026-10-02"
         }
       ],
       "notes": [
-        "2027/28 FAQ及申请指南已发布；当前截止时间须以OAS/当期指南复核",
+        "2027/28 Fall CFT 招生页明确普通申请自 2026-04-02 开始，截止 2027-03-01 23:59；原页面未明示时区，迟交转 2028 Fall 审理",
         "不要求预先联系PI；报名选择General，约6个月探索后双向定导；任何PI名单均非已锁定名额"
       ],
       "requirements": [
@@ -11167,7 +11466,21 @@
         "checked_at": "2026-10-01"
       },
       "checkedDate": "2026-10-01",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+        "reason": "已核2027/28 Fall普通申请时间。原始2026-10-01来源快照保留；校级时间表与导师剩余名额、培养版本及实际提交状态分开。Red Bird的23:59原文未明示时区。",
+        "previousAdmissionYear": "2027/28 Fall",
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "label": "HKUST(GZ) Red Bird 2027/28 独立申请时间表",
+            "url": "https://cft.hkust-gz.edu.cn/rbm-program/admission/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      }
     },
     {
       "id": "hkust-gz-roas-phd",
@@ -11181,8 +11494,8 @@
       "status": "verified",
       "eligibilitySummary": "认可机构学士学位并有优异表现，或达到官网规定的研究生学习经历",
       "supervisorAssociation": "导师学科归属见各导师 routeAssociations；仍须核实目标轮次名额与指导资格",
-      "admissionYear": "现行一般资格；2027 Fall具体校级批次未独立证实",
-      "cycle2027Verified": false,
+      "admissionYear": "2027/28 Fall（校级 PhD 普通申请期已核验；导师名额及 2027/28 培养版本另核）",
+      "cycle2027Verified": true,
       "applicationStatus": "unknown",
       "applicationMethod": "在线申请考核",
       "duration": "无相关研究型硕士者全日制4年",
@@ -11196,10 +11509,21 @@
           "label": "公开一手来源",
           "url": "https://sysh.hkust-gz.edu.cn/zh/academics/research-postgraduate-study/postgraduate-programs/programs/phd-in-roas/",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "label": "ROAS 2026/27 培养目录",
+          "url": "https://fytgs.hkust-gz.edu.cn/programs/robotics-and-autonomous-systems-5",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "2027/28 Fall 博士校级普通申请时间表（2026 年 7 月更新）",
+          "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+          "checkedDate": "2026-10-02"
         }
       ],
       "notes": [
-        "本科路径已证实；2027导师名额按各PI单独记录"
+        "本科路径已证实；2027/28 Fall 校级 PhD 普通申请期已核验，导师 2027 名额仍按各 PI 单独记录",
+        "2026/27 培养目录只作现行培养参考；2027/28 最终课程版本和实际 OAS 提交状态另核"
       ],
       "requirements": [
         {
@@ -11259,7 +11583,21 @@
         "checked_at": "2026-10-01"
       },
       "checkedDate": "2026-10-01",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+        "reason": "已核2027/28 Fall普通申请时间。原始2026-10-01来源快照保留；校级时间表与导师剩余名额、培养版本及实际提交状态分开。",
+        "previousAdmissionYear": "现行一般资格；2027 Fall具体校级批次未独立证实",
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "label": "HKUST(GZ) 2027/28 校级 PhD 普通申请时间表",
+            "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      }
     },
     {
       "id": "hkust-gz-ai-phd",
@@ -11273,8 +11611,8 @@
       "status": "verified",
       "eligibilitySummary": "认可机构学士学位并有优异表现，或达到官网规定的研究生学习经历",
       "supervisorAssociation": "导师学科归属见各导师 routeAssociations；仍须核实目标轮次名额与指导资格",
-      "admissionYear": "现行一般资格；可读取学域目录为2024/25，非2027招生简章",
-      "cycle2027Verified": false,
+      "admissionYear": "2027/28 Fall（校级 PhD 普通申请期已核验；导师名额及 2027/28 培养版本另核）",
+      "cycle2027Verified": true,
       "applicationStatus": "unknown",
       "applicationMethod": "在线申请考核",
       "duration": "无相关研究型硕士者全日制4年",
@@ -11293,10 +11631,21 @@
           "label": "公开一手来源",
           "url": "https://infh.hkust-gz.edu.cn/about/our-people/faculty/",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "label": "AI 2026/27 培养目录",
+          "url": "https://fytgs.hkust-gz.edu.cn/programs/artificial-intelligence-5",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "2027/28 Fall 博士校级普通申请时间表（2026 年 7 月更新）",
+          "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+          "checkedDate": "2026-10-02"
         }
       ],
       "notes": [
-        "本科路径已证实；2027导师名额按各PI单独记录"
+        "本科路径已证实；2027/28 Fall 校级 PhD 普通申请期已核验，导师 2027 名额仍按各 PI 单独记录",
+        "2026/27 培养目录只作现行培养参考；2027/28 最终课程版本和实际 OAS 提交状态另核"
       ],
       "requirements": [
         {
@@ -11367,7 +11716,21 @@
         "checked_at": "2026-10-01"
       },
       "checkedDate": "2026-10-01",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+        "reason": "已核2027/28 Fall普通申请时间。原始2026-10-01来源快照保留；校级时间表与导师剩余名额、培养版本及实际提交状态分开。",
+        "previousAdmissionYear": "现行一般资格；可读取学域目录为2024/25，非2027招生简章",
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "label": "HKUST(GZ) 2027/28 校级 PhD 普通申请时间表",
+            "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      }
     },
     {
       "id": "hkust-gz-intr-phd",
@@ -11381,8 +11744,8 @@
       "status": "verified",
       "eligibilitySummary": "认可机构学士学位并有优异表现，或达到官网规定的研究生学习经历",
       "supervisorAssociation": "导师学科归属见各导师 routeAssociations；仍须核实目标轮次名额与指导资格",
-      "admissionYear": "2026/27课程目录＋现行一般资格；2027 Fall校级批次待复核",
-      "cycle2027Verified": false,
+      "admissionYear": "2027/28 Fall（校级 PhD 普通申请期已核验；导师名额及 2027/28 培养版本另核）",
+      "cycle2027Verified": true,
       "applicationStatus": "unknown",
       "applicationMethod": "在线申请考核",
       "duration": "无相关研究型硕士者全日制4年",
@@ -11396,10 +11759,16 @@
           "label": "公开一手来源",
           "url": "https://fytgs.hkust-gz.edu.cn/programs/intelligent-transportation-5",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "label": "2027/28 Fall 博士校级普通申请时间表（2026 年 7 月更新）",
+          "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+          "checkedDate": "2026-10-02"
         }
       ],
       "notes": [
-        "本科路径已证实；2027导师名额按各PI单独记录"
+        "本科路径已证实；2027/28 Fall 校级 PhD 普通申请期已核验，导师 2027 名额仍按各 PI 单独记录",
+        "2026/27 培养目录只作现行培养参考；2027/28 最终课程版本和实际 OAS 提交状态另核"
       ],
       "requirements": [
         {
@@ -11459,7 +11828,21 @@
         "checked_at": "2026-10-01"
       },
       "checkedDate": "2026-10-01",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+        "reason": "已核2027/28 Fall普通申请时间。原始2026-10-01来源快照保留；校级时间表与导师剩余名额、培养版本及实际提交状态分开。",
+        "previousAdmissionYear": "2026/27课程目录＋现行一般资格；2027 Fall校级批次待复核",
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "label": "HKUST(GZ) 2027/28 校级 PhD 普通申请时间表",
+            "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      }
     },
     {
       "id": "westlake-ai-phd",
@@ -11714,8 +12097,8 @@
       "status": "verified",
       "eligibilitySummary": "认可高校学士：通常二等荣誉或成绩不低于B；相关专业优先，优秀跨专业可申请",
       "supervisorAssociation": "研究组B(4)具身智能：从原理到实践直接列胡君杰、林天麟；可填至多3导师/3组；允许不提前联系",
-      "admissionYear": "2026项目说明；2027完整项目轮次未确认",
-      "cycle2027Verified": false,
+      "admissionYear": "2027春季／2027秋季（AI项目当前申请标签已直接核实；具体导师名额另核）",
+      "cycle2027Verified": true,
       "applicationStatus": "unknown",
       "applicationMethod": "申请入学制，无需统考或保研资格",
       "duration": null,
@@ -11738,7 +12121,8 @@
       ],
       "notes": [
         "本科无推免路径已证实；不把2026截止日期移作2027",
-        "研究组B(4)具身智能：从原理到实践直接列胡君杰、林天麟；可填至多3导师/3组；允许不提前联系"
+        "研究组B(4)具身智能：从原理到实践直接列胡君杰、林天麟；可填至多3导师/3组；允许不提前联系",
+        "当前官方页列2027春季2026-10-31、秋季2027-05-31截止，滚动录取至满额；未注明截止时刻，名额与实际提交状态仍需确认"
       ],
       "requirements": [
         {
@@ -11809,7 +12193,26 @@
         "checked_at": "2026-10-01"
       },
       "checkedDate": "2026-10-01",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+        "reason": "已直接打开官方How to Apply标签核实2027春秋日期，解决Exa仍返回2026-06-30旧文的版本差异。保留2026历史招生文章及原sourceRecord，不再用它们判断当前截止。",
+        "previousAdmissionYear": "2026项目说明；2027完整项目轮次未确认",
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "label": "CUHK-Shenzhen AI 当前官方申请标签（已直接核读）",
+            "url": "https://sai.cuhk.edu.cn/en/node/35",
+            "checkedDate": "2026-10-02"
+          }
+        ],
+        "retrievalConflict": {
+          "web": "2027 Spring 31 October 2026; Fall 31 May 2027",
+          "exa": "2026 entry 30 June 2026",
+          "resolution": "Current official How to Apply tab read in dot cloud browser on 2026-10-02 confirms 2027 dates; no deadline time/timezone stated"
+        }
+      }
     },
     {
       "id": "cuhksz-ai-phd",
@@ -11823,8 +12226,8 @@
       "status": "verified",
       "eligibilitySummary": "本科直接申请为独立选项：二等荣誉，或成绩B及GPA≥3.2/4.0；还有硕士/认可同等资格等替代项",
       "supervisorAssociation": "博士主导师须为SAI教员；胡君杰官网SAI身份明确，林天麟在官方B(4)页列理工&人工智能学院，应再确认目标批次具体主导资格",
-      "admissionYear": "2026项目资格说明；部分PI已发2027招生",
-      "cycle2027Verified": false,
+      "admissionYear": "2027春季／2027秋季（AI项目当前申请标签已直接核实；具体导师名额另核）",
+      "cycle2027Verified": true,
       "applicationStatus": "unknown",
       "applicationMethod": "申请入学制，无需统考或保研资格",
       "duration": null,
@@ -11846,8 +12249,8 @@
         }
       ],
       "notes": [
-        "本科无推免路径已证实；2027PI公开信号不等于2027校级简章已完整发布",
-        "博士主导师须为SAI教员；胡君杰官网SAI身份明确，林天麟在官方B(4)页列理工&人工智能学院，应再确认目标批次具体主导资格"
+        "博士主导师须为SAI教员；胡君杰官网SAI身份明确，林天麟在官方B(4)页列理工&人工智能学院，应再确认目标批次具体主导资格",
+        "当前官方页列2027春季2026-10-31、秋季2027-05-31截止，滚动录取至满额；未注明截止时刻，名额与实际提交状态仍需确认"
       ],
       "requirements": [
         {
@@ -11918,7 +12321,26 @@
         "checked_at": "2026-10-01"
       },
       "checkedDate": "2026-10-01",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+        "reason": "已直接打开官方How to Apply标签核实2027春秋日期，解决Exa仍返回2026-06-30旧文的版本差异。保留2026历史招生文章及原sourceRecord，不再用它们判断当前截止。",
+        "previousAdmissionYear": "2026项目资格说明；部分PI已发2027招生",
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "label": "CUHK-Shenzhen AI 当前官方申请标签（已直接核读）",
+            "url": "https://sai.cuhk.edu.cn/en/node/35",
+            "checkedDate": "2026-10-02"
+          }
+        ],
+        "retrievalConflict": {
+          "web": "2027 Spring 31 October 2026; Fall 31 May 2027",
+          "exa": "2026 entry 30 June 2026",
+          "resolution": "Current official How to Apply tab read in dot cloud browser on 2026-10-02 confirms 2027 dates; no deadline time/timezone stated"
+        }
+      }
     },
     {
       "id": "HKUST-CSE-PhD-supplement",
@@ -12533,7 +12955,7 @@
     },
     {
       "id": "hku-cycle",
-      "title": "HKU 目标轮次时间待核验",
+      "title": "HKU 2027/28 MPhil校级普通申请主轮截止",
       "institution": "HKU",
       "routeIds": [
         "HKU-CDS-MPhil",
@@ -12541,12 +12963,12 @@
         "HKU-MECH-MPhil",
         "HKU-DASE-MPhil"
       ],
-      "date": null,
+      "date": "2026-12-01",
       "timezone": "Asia/Hong_Kong",
       "status": "unknown",
-      "dateStatus": "unknown",
-      "admissionYear": "See route-specific cycle evidence",
-      "note": "此批获准公开输入未提供可可靠复用的目标轮次截止时间；不可沿用旧年份",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027/28",
+      "note": "主轮2026-09-01至2026-12-01，23:59 HKT（GMT+8）；院系可能提前审理，校级轮次不能确认具体导师名额。未测试实际提交状态。",
       "sources": [
         {
           "label": "公开一手来源",
@@ -12582,23 +13004,43 @@
           "label": "公开一手来源",
           "url": "https://www.dase.hku.hk/teaching-and-learning/prospective-students/mphil-phd",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "label": "HKU 2027/28 研究学位普通申请主轮与补录",
+          "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+          "checkedDate": "2026-10-02"
         }
       ],
-      "checkedDate": "2026-10-01"
+      "checkedDate": "2026-10-02",
+      "deadlineTime": "23:59",
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+        "reason": "原日期未知条目更新为校级2027/28主轮；保留原ID，补录另列。当前材料摘要已经包含同一组日期，无需重写材料或假称全量重新核验。",
+        "previousAdmissionYear": "See route-specific cycle evidence",
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "label": "HKU 2027/28 研究学位普通申请主轮与补录",
+            "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      }
     },
     {
       "id": "redbird-cycle",
-      "title": "HKUST(GZ) 目标轮次时间待核验",
+      "title": "HKUST(GZ) Red Bird MPhil 2027/28 Fall 普通申请截止",
       "institution": "HKUST(GZ)",
       "routeIds": [
         "hkust-gz-rbm"
       ],
-      "date": null,
-      "timezone": "Asia/Hong_Kong",
+      "date": "2027-03-01",
+      "timezone": null,
       "status": "unknown",
-      "dateStatus": "unknown",
-      "admissionYear": "See route-specific cycle evidence",
-      "note": "此批获准公开输入未提供可可靠复用的目标轮次截止时间；不可沿用旧年份",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027/28 Fall",
+      "note": "CFT 正式时间表：2026-04-02 开始，2027-03-01 23:59 截止；页面未显式标注时区。迟交进入 2028 Fall。Red Bird 独立截止，不能套用 PhD 时间表；未测试实际 OAS 提交状态。",
       "sources": [
         {
           "label": "公开一手来源",
@@ -12609,24 +13051,44 @@
           "label": "公开一手来源",
           "url": "https://static.hkust-gz.edu.cn/PGOAS/Guideline-for-Application-of-2027-28-Fall-Red-Bird-MPhil-Program.pdf",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "label": "CFT Red Bird 普通申请时间表",
+          "url": "https://cft.hkust-gz.edu.cn/rbm-program/admission/",
+          "checkedDate": "2026-10-02"
         }
       ],
-      "checkedDate": "2026-10-01"
+      "checkedDate": "2026-10-02",
+      "deadlineTime": "23:59",
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+        "reason": "已核2027/28 Fall普通申请时间。原始2026-10-01来源快照保留；校级时间表与导师剩余名额、培养版本及实际提交状态分开。Red Bird的23:59原文未明示时区。",
+        "previousAdmissionYear": "See route-specific cycle evidence",
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "label": "HKUST(GZ) Red Bird 2027/28 独立申请时间表",
+            "url": "https://cft.hkust-gz.edu.cn/rbm-program/admission/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      }
     },
     {
       "id": "cuhksz-cycle",
-      "title": "CUHK-Shenzhen 目标轮次时间待核验",
+      "title": "CUHK-Shenzhen AI MPhil／PhD 2027春季申请截止",
       "institution": "CUHK-Shenzhen",
       "routeIds": [
         "cuhksz-ai-mphil",
         "cuhksz-ai-phd"
       ],
-      "date": null,
-      "timezone": "Asia/Hong_Kong",
+      "date": "2026-10-31",
+      "timezone": null,
       "status": "unknown",
-      "dateStatus": "unknown",
-      "admissionYear": "See route-specific cycle evidence",
-      "note": "此批获准公开输入未提供可可靠复用的目标轮次截止时间；不可沿用旧年份",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027 Spring",
+      "note": "当前官方How to Apply标签直接核实；滚动招生，满额即止。原文未注明时刻及时区；未测试提交门户，不推定导师名额。",
       "sources": [
         {
           "label": "公开一手来源",
@@ -12642,9 +13104,203 @@
           "label": "公开一手来源",
           "url": "https://sai.cuhk.edu.cn/page/205",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "label": "CUHK-Shenzhen AI 当前官方申请标签（已直接核读）",
+          "url": "https://sai.cuhk.edu.cn/en/node/35",
+          "checkedDate": "2026-10-02"
         }
       ],
-      "checkedDate": "2026-10-01"
+      "checkedDate": "2026-10-02",
+      "deadlineTime": null,
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+        "reason": "原日期未知条目更新为已核实2027春季截止，保留原ID。秋季另建记录，不将春秋混为一轮。旧抓取2026日期由当前官方标签读数解决。",
+        "previousAdmissionYear": "See route-specific cycle evidence",
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "label": "CUHK-Shenzhen AI 当前官方申请标签（已直接核读）",
+            "url": "https://sai.cuhk.edu.cn/en/node/35",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hkust-gz-phd-2027-fall-international-deadline",
+      "title": "HKUST(GZ) 2027/28 Fall PhD 国际申请人校级普通申请截止",
+      "institution": "HKUST(GZ)",
+      "routeIds": [
+        "hkust-gz-roas-phd",
+        "hkust-gz-ai-phd",
+        "hkust-gz-intr-phd"
+      ],
+      "date": "2027-06-15",
+      "deadlineTime": "23:59",
+      "timezone": "Asia/Shanghai",
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027/28 Fall",
+      "note": "2026 年 7 月更新的校级时间表明确此 PhD 申请期自 2026-07-21 开始；官方时区 GMT+8，映射 Asia/Shanghai。按项目节奏滚动发录取。未登录 OAS 测试提交；不表示特定导师名额、RA 职位或个人资助。",
+      "sources": [
+        {
+          "label": "HKUST(GZ) 2027/28 Fall 博士校级申请时间表",
+          "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "hkust-gz-phd-2027-fall-chinese-deadline",
+      "title": "HKUST(GZ) 2027/28 Fall PhD 中国申请人校级普通申请截止",
+      "institution": "HKUST(GZ)",
+      "routeIds": [
+        "hkust-gz-roas-phd",
+        "hkust-gz-ai-phd",
+        "hkust-gz-intr-phd"
+      ],
+      "date": "2027-07-15",
+      "deadlineTime": "23:59",
+      "timezone": "Asia/Shanghai",
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027/28 Fall",
+      "note": "2026 年 7 月更新的校级时间表明确此 PhD 申请期自 2026-07-21 开始；官方时区 GMT+8，映射 Asia/Shanghai。按项目节奏滚动发录取。未登录 OAS 测试提交；不表示特定导师名额、RA 职位或个人资助。",
+      "sources": [
+        {
+          "label": "HKUST(GZ) 2027/28 Fall 博士校级申请时间表",
+          "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "hkbu-rpg-2027-first-deadline",
+      "title": "HKBU 2027/28 MPhil／PhD 校级普通申请首截止",
+      "institution": "HKBU",
+      "routeIds": [
+        "hkbu_cs_rpg-mphil",
+        "hkbu_cs_rpg-phd"
+      ],
+      "date": "2026-12-01",
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027/28",
+      "note": "研究生院时间表明确自2026-09-01开始申请；院系可能有单独截止，录取受名额限制。未注明时刻和时区，未测试申请系统提交；这是普通轮，不能替代HKPFS或已截止的提前招生。",
+      "sources": [
+        {
+          "label": "HKBU 2027/28 校级普通研究学位时间表",
+          "url": "https://gs.hkbu.edu.hk/admission/research-postgraduate-programmes/application/admission-timeline",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "hkbu-rpg-2027-second-deadline",
+      "title": "HKBU 2027/28 MPhil／PhD 校级普通申请第二截止",
+      "institution": "HKBU",
+      "routeIds": [
+        "hkbu_cs_rpg-mphil",
+        "hkbu_cs_rpg-phd"
+      ],
+      "date": "2027-04-15",
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027/28",
+      "note": "研究生院时间表明确自2026-09-01开始申请；院系可能有单独截止，录取受名额限制。未注明时刻和时区，未测试申请系统提交；这是普通轮，不能替代HKPFS或已截止的提前招生。",
+      "sources": [
+        {
+          "label": "HKBU 2027/28 校级普通研究学位时间表",
+          "url": "https://gs.hkbu.edu.hk/admission/research-postgraduate-programmes/application/admission-timeline",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "cuhksz-ai-2027-fall-deadline",
+      "title": "CUHK-Shenzhen AI MPhil／PhD 2027秋季申请截止",
+      "institution": "CUHK-Shenzhen",
+      "routeIds": [
+        "cuhksz-ai-mphil",
+        "cuhksz-ai-phd"
+      ],
+      "date": "2027-05-31",
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027 Fall",
+      "note": "当前官方How to Apply标签直接核实；滚动招生，满额即止。春季截止另列。未注明时刻及时区，未测试申请系统提交或导师剩余名额。",
+      "sources": [
+        {
+          "label": "CUHK-Shenzhen AI 当前官方申请标签（已直接核读）",
+          "url": "https://sai.cuhk.edu.cn/en/node/35",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "hku-2027-first-clearing",
+      "title": "HKU 2027/28 MPhil校级首轮补录截止",
+      "institution": "HKU",
+      "routeIds": [
+        "HKU-CDS-MPhil",
+        "HKU-ECE-MPhil",
+        "HKU-MECH-MPhil",
+        "HKU-DASE-MPhil"
+      ],
+      "date": "2027-04-30",
+      "deadlineTime": "23:59",
+      "timezone": "Asia/Hong_Kong",
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027/28",
+      "note": "该补录轮自2026-12-02开始；仅在主轮后仍有名额时考虑。截止23:59 HKT（GMT+8），院系可能提前审理。不证明当前已接受这一未来轮次或具体导师有名额。",
+      "sources": [
+        {
+          "label": "HKU 2027/28 研究学位普通申请主轮与补录",
+          "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "hku-2027-second-clearing",
+      "title": "HKU 2027/28 MPhil校级次轮补录截止",
+      "institution": "HKU",
+      "routeIds": [
+        "HKU-CDS-MPhil",
+        "HKU-ECE-MPhil",
+        "HKU-MECH-MPhil",
+        "HKU-DASE-MPhil"
+      ],
+      "date": "2027-08-31",
+      "deadlineTime": "23:59",
+      "timezone": "Asia/Hong_Kong",
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027/28",
+      "note": "该补录轮自2027-05-01开始；仅在主轮后仍有名额时考虑。截止23:59 HKT（GMT+8），院系可能提前审理。不证明当前已接受这一未来轮次或具体导师有名额。",
+      "sources": [
+        {
+          "label": "HKU 2027/28 研究学位普通申请主轮与补录",
+          "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "checkedDate": "2026-10-02"
     }
   ],
   "materials": [

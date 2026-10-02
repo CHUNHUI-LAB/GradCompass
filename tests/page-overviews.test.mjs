@@ -23,17 +23,17 @@ test('five distinct page overviews provide real synthesis before item-level list
  const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');assert(html.indexOf('id="page-overview"')<html.indexOf('class="search-surface"'));assert(html.indexOf('id="page-overview"')<html.indexOf('id="view-content"'));
 });
 test('advisor coverage uses unique included people, distinguishes degree signals from RA jobs',()=>{
- const s=plain('advisors');assert(s.includes('30 位导师'));assert(s.includes('46 条机会'));assert(s.includes('44 条学位机会中，21 条'));assert(s.includes('2 个已核实 RA 岗位'));assert(s.includes('灵巧操作与触觉涉及 20 位'));assert(!s.includes('32 位导师'));assert(!s.includes('46 位导师'));
+ const s=plain('advisors');assert(s.includes('30 位导师'));assert(s.includes('46 条机会'));assert(s.includes('44 条学位机会中，20 条'));assert(s.includes('2 个已核实 RA 岗位'));assert(s.includes('灵巧操作与触觉涉及 20 位'));assert(!s.includes('32 位导师'));assert(!s.includes('46 位导师'));
 });
-test('programme synthesis separates 27 projects from 17 introductions and 10 basic-only records',()=>{
- const s=plain('routes');for(const text of ['27 个项目','9 所学校','13 个 MPhil','12 个 PhD','17 个项目有培养与研究简介','另外 10 个目前仅有基本条件'])assert(s.includes(text),text);assert(s.includes('授课'));assert(s.includes('固定导师名额'));
+test('programme synthesis reports complete current coverage without inflating the route count',()=>{
+ const s=plain('routes');for(const text of ['27 个项目','9 所学校','13 个 MPhil','12 个 PhD','27 个项目有培养与研究简介','另外 0 个目前仅有基本条件'])assert(s.includes(text),text);assert(s.includes('授课'));assert(s.includes('固定导师名额'));
 });
 test('programme loading and failed states never pretend introductions loaded',()=>{
- for(const state of ['loading','unavailable']){const m=buildPageOverview('routes',{...catalog,projectSummaries:new Map},{...options,projectSummaryState:state});assert(!JSON.stringify(m).includes('17 个'));assert(m.insights[2].text.includes(state==='loading'?'正在载入':'暂未载入'));assert.equal(m.insights[0].action.label,'查看 CSE 项目条件');}
+ for(const state of ['loading','unavailable']){const m=buildPageOverview('routes',{...catalog,projectSummaries:new Map},{...options,projectSummaryState:state});assert(!JSON.stringify(m).includes('27 个项目有培养'));assert(m.insights[2].text.includes(state==='loading'?'正在载入':'暂未载入'));assert.equal(m.insights[0].action.label,'查看 CSE 项目条件');}
  const m=buildPageOverview('routes',{...catalog,projectSummaries:new Map([...catalog.projectSummaries].slice(0,1))},{...options,projectSummaryState:'partial'});assert(m.insights[2].text.includes('1 个项目'));assert(m.insights[2].text.includes('26 个'));assert(m.insights[2].text.includes('部分简介未能验证'));
 });
 test('calendar synthesis is scoped to current date records and explicitly warns of unsynced programme cycles',()=>{
- const s=plain('deadlines');for(const text of ['2026-10-20','8 条后续日期记录','4 条日期或批次待确认','2 条已截止记录','2026-10-01','本页已记录日期','日历尚未覆盖','不是实时开放状态'])assert(s.includes(text),text);assert(!s.includes('最近申请截止'));assert(!s.includes('HKU 尚未公布'));
+ const s=plain('deadlines');for(const text of ['2026-10-20','18 条后续日期记录','1 条日期或批次待确认','2 条已截止记录','2026-10-01','本页已记录日期','日历尚未覆盖','不是实时开放状态'])assert(s.includes(text),text);assert(!s.includes('最近申请截止'));assert(!s.includes('HKU 尚未公布'));
 });
 test('calendar empty and expired-only snapshots do not invent a next future date',()=>{
  const c={...catalog,deadlines:[],raPositions:[]};const s=JSON.stringify(buildPageOverview('deadlines',c,options));assert(s.includes('暂没有可列出的后续截止日期'));assert(!s.includes('2026-10-20'));assert(!s.includes('查看这轮日期与条件'));
@@ -54,7 +54,7 @@ test('every overview action targets an included summary, existing case, or nonem
 test('global overviews are deterministic, read-only, and escape data-controlled text',()=>{
  const before=JSON.stringify(catalog);for(const view of views){assert.equal(renderPageOverview(view,catalog,options),renderPageOverview(view,catalog,options));}assert.equal(JSON.stringify(catalog),before);const c={...catalog,metadata:{...catalog.metadata,checkedDate:'<script>alert(1)</script>'}};const html=renderPageOverview('deadlines',c,options);assert(!html.includes('<script>'));assert(html.includes('&lt;script&gt;'));
 });
-test('all source datasets retain the verified main snapshot bytes',()=>{
- const expected={'catalog.json':'f3b9cf4e8bdf','project-summaries.json':'6edcf5208c63','material-summaries.json':'a61c01350c45','application-experiences.json':'8f213cf0ff3a'};
+test('reviewed catalog and materials plus unchanged experience data retain their declared snapshot bytes',()=>{
+ const expected={'catalog.json':'d60936c9ddc5','material-summaries.json':'193f8d81ae8a','application-experiences.json':'8f213cf0ff3a'};
  for(const [name,sha]of Object.entries(expected)){const bytes=fs.readFileSync(new URL('../data/'+name,import.meta.url));assert.equal(crypto.createHash('sha256').update(bytes).digest('hex').slice(0,12),sha,name);}
 });

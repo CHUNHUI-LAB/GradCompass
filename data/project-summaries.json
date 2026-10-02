@@ -285,6 +285,233 @@
       "section": "PhD programme paragraph and research areas",
       "checkedDate": "2026-10-02",
       "sourceVersion": "Current departmental postgraduate overview; distinguish PhD paragraph from taught MSDS/MSAIFS descriptions"
+    },
+    {
+      "id": "hkbu_cs_structure",
+      "label": "HKBU Computer Science 研究学位培养结构",
+      "url": "https://www.comp.hkbu.edu.hk/v1/?pid=94",
+      "section": "General Information; Period of Study; Coursework",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Undated departmental page read in full via Exa; web direct fetch timed out. Explicitly separates the historical 3-year PhD (last 2018/19 intake) from the current 4-year PhD."
+    },
+    {
+      "id": "hkbu_cs_research",
+      "label": "HKBU Computer Science 研究方向",
+      "url": "https://www.comp.hkbu.edu.hk/v1/?pid=64",
+      "section": "Research Areas: AIML, BDAM, CVPR, DSAN",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Official indexed full text read through web search; direct retrieval failed. Used for stable research themes only, not intake or supervisor availability."
+    },
+    {
+      "id": "hkbu_rpg_entry",
+      "label": "HKBU 研究学位校级入学要求",
+      "url": "https://gs.hkbu.edu.hk/admission/research-postgraduate-programmes/application/admission-requirements",
+      "section": "PhD; MPhil; Language Proficiency; Other Admission Criteria",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Current full Graduate School page, including TOEFL changes for tests from 21 January 2026. Department page retains older language-test wording; do not infer CET6 acceptance from it."
+    },
+    {
+      "id": "hkbu_rpg_timeline_2027",
+      "label": "HKBU 2027/28 普通研究学位时间表",
+      "url": "https://gs.hkbu.edu.hk/admission/research-postgraduate-programmes/application/admission-timeline",
+      "section": "Application Deadlines for the Academic Year 2027/28",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Web and Exa full text agree: open 1 September 2026, deadlines 1 December 2026 and 15 April 2027; applicants must check departmental variations. No cutoff time/timezone stated."
+    },
+    {
+      "id": "hkbu_cs_early_2027",
+      "label": "HKBU Computer Science 2027 博士提前招生",
+      "url": "https://www.comp.hkbu.edu.hk/phd-eas/2026/",
+      "section": "Aims; Target Participants; Application",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Title is 2027 PhD Early Admission Scheme despite URL /2026/. Full Exa page confirms 2027 Fall, deadline 15 August 2026; used only to distinguish this closed early scheme from ordinary application."
+    },
+    {
+      "id": "westlake_engineering_fields",
+      "label": "西湖大学工学院博士学科与研究方向",
+      "url": "https://engineering.westlake.edu.cn/Admission/GraduateProgram/",
+      "section": "Electronic Science and Technology; Information Technology in Artificial Intelligence; 招生专业及研究方向",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Full Exa body read. Research descriptions accompany a 2026 admissions FAQ and 2025 brochure link; use research/training aims, not old application dates or a 2027 curriculum."
+    },
+    {
+      "id": "westlake_ordinary_2027",
+      "label": "西湖大学2027普博生第一批通知（9月批）",
+      "url": "https://www.westlake.edu.cn/admissions/graduate/brochure/general/202608/t20260813_68957.html",
+      "section": "一至四; 七: 学科、学制、本科入口、8月31日截止、后续简章与定导说明",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Direct dot cloud browser full page read on 2026-10-02 after web/Exa could not return the article body. Published 2026-08-13. September-batch application closed 2026-08-31 10:00 Beijing; later rounds are not established here.",
+      "publishedUpdatedDate": "2026-08-13"
+    },
+    {
+      "id": "westlake_engineering_2026",
+      "label": "西湖大学工学院2026博士招生简章",
+      "url": "https://engineering.westlake.edu.cn/Admission/GraduateProgram/zszx_2623/202509/t20250924_59659.shtml",
+      "section": "学院介绍; 一、招生学科专业及导师; 二、招生方式和学制",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Direct dot cloud browser full article read; dated 2025-09-24 and expressly for 2026. Used for independent-laboratory organisation and historical context only; its old rounds are not reused for 2027.",
+      "publishedUpdatedDate": "2025-09-24"
+    },
+    {
+      "id": "cuhksz_ai_programme",
+      "label": "香港中文大学（深圳）AI研究型硕博项目",
+      "url": "https://sai.cuhk.edu.cn/en/node/35",
+      "section": "Training Model; How to Apply; Research Groups; Scholarships & Financial Support; FAQ",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Current official Training Model, How to Apply and FAQ tabs read directly in dot cloud browser. Current 2027 dates supersede the 2026 body still returned by Exa; stable training/entry statements agree.",
+      "retrievalConflict": {
+        "webFullTextObservation": "2027 Spring: 31 October 2026; 2027 Fall: 31 May 2027; rolling until filled",
+        "exaFullTextObservation": "2026 entry: 30 June 2026",
+        "liveVerification": "Resolved for current page: dot cloud browser How to Apply tab visibly shows 2027 Spring 31 October 2026 and 2027 Fall 31 May 2027 on 2026-10-02; no submission or login",
+        "acceptedScope": "Use live current 2027 dates, degree-specific lecture units and thesis requirements; no deadline hour or timezone invented; does not establish supervisor quota",
+        "checkedDate": "2026-10-02"
+      }
+    },
+    {
+      "id": "cuhksz_ai_embodied",
+      "label": "香港中文大学（深圳）具身智能研究组",
+      "url": "https://sai.cuhk.edu.cn/page/205",
+      "section": "概述; 研究领域; 研究愿景与目标",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Official current research-group page fully read. Describes data-centric embodied AI, data collection/generation, sim-to-real, navigation, manipulation and collaboration; member listing alone does not guarantee principal-supervisor eligibility or places."
+    },
+    {
+      "id": "cuhksz_ai_notice_2026",
+      "label": "香港中文大学（深圳）AI项目2026招生说明",
+      "url": "https://sai.cuhk.edu.cn/article/185",
+      "section": "项目介绍; 培养模式; 申请注意事项",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Dated 2025-11-24 for 2026 entry; used for explicit ordinary application/no national entrance exam/no recommendation-exemption requirement, not 2027 deadline.",
+      "publishedUpdatedDate": "2025-11-24"
+    },
+    {
+      "id": "gz_rbm_programme",
+      "label": "HKUST(GZ) Red Bird 项目与学习路径",
+      "url": "https://cft.hkust-gz.edu.cn/rbm-program/",
+      "section": "Introduction; Project-based Teaching; Triadic Supervisors; Study Pathway",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "现行未标更新日期的项目页；全文核读，研究培养说明，不据此推定具体导师名额"
+    },
+    {
+      "id": "gz_rbm_curriculum",
+      "label": "HKUST(GZ) Red Bird 课程结构",
+      "url": "https://cft.hkust-gz.edu.cn/rbm-program/cultivation/mphil-program-courses/",
+      "section": "UCMP 6050; Curriculum; 15 credits; University General Requirements; Thesis Research",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "现行未标学年的 CFT 培养页；课程为当下公开参考，2027 入学最终要求仍须看适用目录"
+    },
+    {
+      "id": "gz_rbm_journey",
+      "label": "HKUST(GZ) Red Bird 项目与论文考核",
+      "url": "https://cft.hkust-gz.edu.cn/rbm-program/cultivation/the-project-journey/",
+      "section": "Phases 1–5; PQA; group project and individual thesis; Thesis Defense",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "现行未标学年的培养流程；web 抓取超时后通过 Exa 读到完整正文；不把页面内月份当作 2027 级确定日程"
+    },
+    {
+      "id": "gz_rbm_faq_2027",
+      "label": "HKUST(GZ) Red Bird 2027/28 招生 FAQ",
+      "url": "https://cft.hkust-gz.edu.cn/rbm-program/admission/admission-faq/",
+      "section": "Version note; Program and Study; Application Requirements; General Admission Requirements; Application Procedure",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "页首明确适用 2027/28 Fall，最后更新 2026-05-29；其押金段落另保留旧 2025/26 文字，本次未使用费用数据",
+      "publishedUpdatedDate": "2026-05-29"
+    },
+    {
+      "id": "gz_rbm_admission_2027",
+      "label": "HKUST(GZ) Red Bird 普通申请与 2027 截止",
+      "url": "https://cft.hkust-gz.edu.cn/rbm-program/admission/",
+      "section": "Application-Review Mechanism; Admission Timeline; late application rollover; FAQ",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "web 与 Exa 全文均为 2026-04-02 开始、2027-03-01 23:59 截止，迟交转 2028 Fall；页面未显式标时区。Exa 页面初建日期 2024-06-12 不作为当前内容更新日期"
+    },
+    {
+      "id": "gz_rbm_guide_2027",
+      "label": "HKUST(GZ) Red Bird 2027/28 OAS 指南",
+      "url": "https://static.hkust-gz.edu.cn/PGOAS/Guideline-for-Application-of-2027-28-Fall-Red-Bird-MPhil-Program.pdf",
+      "section": "Registration; choose 2027-28 Fall Research Postgraduate Programs; Master of Philosophy (General); supervisor TBD",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "PDF 首页 2026-4-2；Exa 完整文本核读，说明申请操作与目标学年，不含截止日期",
+      "publishedUpdatedDate": "2026-04-02"
+    },
+    {
+      "id": "gz_rpg_entry",
+      "label": "HKUST(GZ) 研究学位一般准入",
+      "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements",
+      "section": "General Admission Requirements; English Language Requirements; Program-Specific Requirements",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "现行未标日期页；web 与 Exa 全文一致，本科学位且有优异表现是博士入口之一，不保证录取"
+    },
+    {
+      "id": "gz_rpg_apply",
+      "label": "HKUST(GZ) 普通在线申请流程",
+      "url": "https://fytgs.hkust-gz.edu.cn/admissions/apply-now",
+      "section": "Step 1 Apply Online; Step 2 Check Application Status; OAS link",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "现行未标日期页；核读公开流程，未登录或测试实际提交"
+    },
+    {
+      "id": "gz_rpg_timeline_2027",
+      "label": "HKUST(GZ) 2027/28 博士校级申请时间表",
+      "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+      "section": "2027-28 Fall Intake; PhD application period; rolling offers; Last Update",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "页标 July 2026 更新；web 与 Exa 全文一致。校级 PhD 普通申请时间，非导师名额、RA 岗位或奖学金时限",
+      "publishedUpdatedDate": "2026-07"
+    },
+    {
+      "id": "gz_roas_catalog_2026",
+      "label": "HKUST(GZ) ROAS 2026/27 培养目录",
+      "url": "https://fytgs.hkust-gz.edu.cn/programs/robotics-and-autonomous-systems-5",
+      "section": "General Information; Introduction; Learning Outcomes; Curriculum; Seminar; Qualifying Examination; Thesis; Admission",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "明确标为 Postgraduate Programs 2026/27；全文核读，作为培养参考而非 2027/28 最终课程表"
+    },
+    {
+      "id": "gz_roas_research",
+      "label": "HKUST(GZ) 机器人与自主系统学域方向",
+      "url": "https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/",
+      "section": "Mission; Cross-Disciplinary Focus Areas",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "现行未标日期学域页；web 与 Exa 全文一致，只证明研究范围"
+    },
+    {
+      "id": "gz_ai_catalog_2026",
+      "label": "HKUST(GZ) AI 2026/27 培养目录",
+      "url": "https://fytgs.hkust-gz.edu.cn/programs/artificial-intelligence-5",
+      "section": "Introduction; Curriculum; AI required course B+; AIAA 6101/6102; Qualifying Examination; Thesis",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "明确标为 Postgraduate Programs 2026/27；新检到的 -5 目录。原目录引用的 -3 页仍标 2024/25，不能据旧页否认新目录存在"
+    },
+    {
+      "id": "gz_ai_research",
+      "label": "HKUST(GZ) 人工智能学域目标与方向",
+      "url": "https://infh.hkust-gz.edu.cn/academics/ai/about-ai/",
+      "section": "Mission; PhD objective; Cross-Disciplinary Focus Areas",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "现行未标日期学域页；全文核读，方向与原创研究目标，不是招募名额公告"
+    },
+    {
+      "id": "gz_intr_catalog_2026",
+      "label": "HKUST(GZ) INTR 2026/27 培养目录",
+      "url": "https://fytgs.hkust-gz.edu.cn/programs/intelligent-transportation-5",
+      "section": "General Information; Introduction; Curriculum; INTR 6800; Qualifying Examination; Thesis",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "web 正文明标 2026/27；Exa 省略学年且 coordinator 为 Huan YU，web 为 Jia YAN。本条只使用一致的培养与研究内容，不使用 coordinator 姓名",
+      "retrievalConflict": {
+        "webFullTextObservation": "2026/27; coordinator Jia YAN; PhD minimum 21 credits",
+        "exaFullTextObservation": "coordinator Huan YU; PhD minimum 21 credits; same research themes and PhD milestones",
+        "acceptedScope": "采用一致的研究、学制、课程与论文要求；年份由 web 正文确认；不据此确定现任协调人或 2027 学域名额",
+        "checkedDate": "2026-10-02"
+      }
+    },
+    {
+      "id": "gz_intr_research",
+      "label": "HKUST(GZ) 智能交通学域方向",
+      "url": "https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/intelligent-transportation/",
+      "section": "Mission; Cross-Disciplinary Focus Areas",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "现行未标日期学域页；web 与 Exa 正文一致，覆盖多模式运输与人/货流动，不只自动驾驶"
     }
   ],
   "records": [
@@ -988,6 +1215,451 @@
           "text": "院系明确不受理 MPhil 申请，不能从 PhD 或同院授课型 MSc 推导 MPhil 路线；本条不使用混合版本的奖学金金额、旧学分减免表或未读到全文的目录条款。",
           "sourceIds": [
             "city_ds_programme"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "hkbu_cs_rpg-mphil",
+      "institution": "HKBU",
+      "degree": "MPhil",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "计算机科学研究型硕士，以导师指导的专题研究为主。院系覆盖人工智能与机器学习、大数据、计算机视觉与模式识别、分布式系统与网络；具体主题包括多模态学习和人机交互。",
+        "sourceIds": [
+          "hkbu_cs_structure",
+          "hkbu_cs_research"
+        ]
+      },
+      "training": {
+        "text": "全日制标准学制24个月；至少完成12学分课程，并参加研究方法、公共核心与学术研讨训练。研究成果须形成论文并通过口试，候选资格须经过评估。",
+        "sourceIds": [
+          "hkbu_cs_structure"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "认可院校荣誉学士或认可同等资格可申请；通常考虑一等或二等荣誉，其他分支另有工作经验及考试条件。无须先取得硕士，英语及研究潜力要求仍须满足。",
+        "sourceIds": [
+          "hkbu_rpg_entry"
+        ]
+      },
+      "cycle": {
+        "text": "校级2027/28普通申请已于2026-09-01开始，两次截止为2026-12-01和2027-04-15；院系可能另设日期，招生受名额限制。这不是某位导师的2027名额确认。",
+        "sourceIds": [
+          "hkbu_rpg_timeline_2027"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "MPhil与博士提前招生分别申请；2027 PhD Early Admission的2026-08-15截止已过，不能当作MPhil普通轮日期或推定资助。",
+          "sourceIds": [
+            "hkbu_cs_early_2027",
+            "hkbu_rpg_timeline_2027"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "hkbu_cs_rpg-phd",
+      "institution": "HKBU",
+      "degree": "PhD",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "计算机科学研究型博士，围绕原创专题研究展开。院系研究包括可信机器学习、多模态视觉、大数据管理及分布式计算；博士课题应按研究问题与导师专长匹配。",
+        "sourceIds": [
+          "hkbu_cs_structure",
+          "hkbu_cs_research"
+        ]
+      },
+      "training": {
+        "text": "现行全日制标准学制48个月，至少22学分课程，另有论文与口试、研讨、3至6个月海外学习以及国际会议展示等要求；页面中的三年制仅属2018/19及以前旧生制度。",
+        "sourceIds": [
+          "hkbu_cs_structure"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "一等荣誉学士可作为博士入口，但需研究成果或经验；学校可能先按MPhil录取，再经候选资格评估转入PhD，不能理解为自动直录博士。",
+        "sourceIds": [
+          "hkbu_rpg_entry"
+        ]
+      },
+      "cycle": {
+        "text": "2027/28校级普通轮自2026-09-01接受申请，截止分别为2026-12-01和2027-04-15。院系2027提前招生已于2026-08-15截止；两条流程不可混用。",
+        "sourceIds": [
+          "hkbu_rpg_timeline_2027",
+          "hkbu_cs_early_2027"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "研究方向、普通录取、HKPFS奖学金和RA聘用需分别核实；学校公布截止日期不代表某位导师仍有名额，资助也不由学位入口自动保证。",
+          "sourceIds": [
+            "hkbu_rpg_entry",
+            "hkbu_rpg_timeline_2027"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "westlake-ai-phd",
+      "institution": "Westlake",
+      "degree": "PhD",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "智能信息技术是西湖工学院独立培养的交叉研究学科，连接信息处理理论、自主智能系统、生物医学电子学与AI交叉应用；机器人学习、计算机视觉、自主控制与智能协同在其自主系统方向内。",
+        "sourceIds": [
+          "westlake_engineering_fields"
+        ]
+      },
+      "training": {
+        "text": "本科起点为全日制、非定向学术博士，学制5年。工学院以导师和独立实验室组织科研，强调理论方法与工程项目结合；2027专属课程学分及定导细则尚未在本轮核实。",
+        "sourceIds": [
+          "westlake_ordinary_2027",
+          "westlake_engineering_fields",
+          "westlake_engineering_2026"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "2027普通招考明确接受应届本科毕业生或已获学士者申请智能信息技术，应届生须在入学前取得学历学位；通过申请—考核选拔，区别于另行要求推免资格的直博批次。",
+        "sourceIds": [
+          "westlake_ordinary_2027"
+        ]
+      },
+      "cycle": {
+        "text": "已核到2027普博第一批（9月批），实际申请截止是2026-08-31上午10:00（北京时间），核读时已过。该通知仍说明后续简章另发；2026院系旧轮次不能平移为2027后续截止。",
+        "sourceIds": [
+          "westlake_ordinary_2027",
+          "westlake_engineering_2026"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "智能信息技术与电子科学与技术是不同学科；同一实验室相关方向不等于两条路线都招收，也不能把其他联培学科的学位、课程或轮转规则套用到本项目。",
+          "sourceIds": [
+            "westlake_engineering_fields",
+            "westlake_ordinary_2027"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "westlake-ee-phd",
+      "institution": "Westlake",
+      "degree": "PhD",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "电子科学与技术学术博士以电子与信息技术的基础和系统研究为核心，主要方向为集成电路与智能系统、微电子与固体电子学、电磁场与微波技术，并延伸至光电子器件、智能制造和医疗电子。",
+        "sourceIds": [
+          "westlake_engineering_fields"
+        ]
+      },
+      "training": {
+        "text": "本科起点学制5年，属全日制、非定向学术博士；培养目标强调电子科学基础、跨学科知识与独立研究及技术研发能力。具体实验室课题、2027课程表与定导安排仍须另查。",
+        "sourceIds": [
+          "westlake_ordinary_2027",
+          "westlake_engineering_fields"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "2027普通招考允许应届本科或已获学士者报考电子科学与技术；应届生入学前须取得学历学位。普通申请—考核通道不要求先取得硕士，也不等同推免直博报名。",
+        "sourceIds": [
+          "westlake_ordinary_2027"
+        ]
+      },
+      "cycle": {
+        "text": "2027普博第一批（9月批）已于2026-08-31上午10:00（北京时间）截止。工学院页面保留2026多轮安排，这些日期已过，不能据此声称2027新一轮正在开放。",
+        "sourceIds": [
+          "westlake_ordinary_2027",
+          "westlake_engineering_2026"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "该学科覆盖面大，机器人相关课题须逐实验室匹配；不能把智能信息技术的培养内容或某个RA招聘承诺当成本学科博士名额与资助。",
+          "sourceIds": [
+            "westlake_engineering_fields",
+            "westlake_ordinary_2027"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "cuhksz-ai-mphil",
+      "institution": "CUHK-Shenzhen",
+      "degree": "MPhil",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "人工智能研究型硕士自2026年加强学术进阶与产业实践双重培养。具身智能研究可涉及数据采集与生成、仿真到现实迁移，以及机器人导航、操作和协作。",
+        "sourceIds": [
+          "cuhksz_ai_programme",
+          "cuhksz_ai_embodied"
+        ]
+      },
+      "training": {
+        "text": "个人导师与科研团队共同指导，视项目可加入工程导师；入学时可定主导师，也可在培养中双向选择。至少18学分讲授课程，每学期修6学分论文研究，须完成论文并通过答辩。",
+        "sourceIds": [
+          "cuhksz_ai_programme"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "认可院校本科二等荣誉或成绩不低于B等条件可作为MPhil入口；相关学科优先，优秀跨专业者可考虑。2026官方说明明确无需统考或保研资格，当前申请仍须满足英语等条件。",
+        "sourceIds": [
+          "cuhksz_ai_programme",
+          "cuhksz_ai_notice_2026"
+        ]
+      },
+      "cycle": {
+        "text": "当前官方申请标签已核实：2027春季截止2026-10-31，2027秋季截止2027-05-31，滚动录取、满额即止。另一抓取仍显示2026旧日期，本条采用实际官网标签；截止时刻未注明。",
+        "sourceIds": [
+          "cuhksz_ai_programme"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "仍是研究型MPhil，不因产业实践导向变为授课型MSc；FAQ称奖学金与资助目前主要面向优秀博士，MPhil企业项目津贴仍属探索机会，不能按博士资助宣传估算硕士保障。",
+          "sourceIds": [
+            "cuhksz_ai_programme"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "cuhksz-ai-phd",
+      "institution": "CUHK-Shenzhen",
+      "degree": "PhD",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "人工智能研究型博士连接AI理论、关键技术和真实产业研究。具身智能方向涵盖数据驱动方法、仿真到现实，以及导航、操作与多机器人协作；具体研究组需单独核对博士招收范围。",
+        "sourceIds": [
+          "cuhksz_ai_programme",
+          "cuhksz_ai_embodied"
+        ]
+      },
+      "training": {
+        "text": "由主导师或主副导师团队负责，博士主导师必须是人工智能学院教员。至少27学分讲授课程，每学期修6学分论文研究，毕业需学术论文及答辩；不能套用MPhil的18学分要求。",
+        "sourceIds": [
+          "cuhksz_ai_programme"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "本科直接申请是独立选项：认可大学二等荣誉学士，或本科成绩不低于B且GPA不低于3.2/4.0；另有硕士或认可同等资格分支。普通申请采用材料考核，英语与研究匹配仍须满足。",
+        "sourceIds": [
+          "cuhksz_ai_programme",
+          "cuhksz_ai_notice_2026"
+        ]
+      },
+      "cycle": {
+        "text": "官方How to Apply现列2027春季2026-10-31、秋季2027-05-31截止，滚动招生至名额用完；已在实际页面核实2027版本。页面未注明截止时刻，具体导师席位仍不能由校级日期推定。",
+        "sourceIds": [
+          "cuhksz_ai_programme"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "部分研究组仅收MPhil；研究组名单中出现校外成员，不自动赋予其博士主导师资格。博士奖助由招生委员会评估，带有条件，亦不等同独立RA合同。",
+          "sourceIds": [
+            "cuhksz_ai_programme",
+            "cuhksz_ai_embodied"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "hkust-gz-rbm",
+      "institution": "HKUST(GZ)",
+      "degree": "MPhil",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "以真实问题为起点的跨学科研究型硕士：学生组成团队，把项目实践与个人学术研究结合，由项目导师、学术导师和产业顾问分别支持项目、专业研究及工程实践。2027 招生引导领域包括未来医疗、可持续生活、智能工业化、低空经济及海洋科技与经济。",
+        "sourceIds": [
+          "gz_rbm_programme",
+          "gz_rbm_faq_2027"
+        ]
+      },
+      "training": {
+        "text": "全日制 2 年。现行课程说明列 15 个毕业学分，含跨学科设计思维 2 学分、枢纽课程 4 学分和专业领域课程 9 学分，另有不计入这 15 学分的通用要求。项目须经历提案资格评估、阶段展示及最终展示；每位学生仍须完成个人论文并通过论文答辩。",
+        "sourceIds": [
+          "gz_rbm_faq_2027",
+          "gz_rbm_curriculum",
+          "gz_rbm_journey"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "认可高校学士或认可同等资格可申请，不限制本科专业；应届生可先交最新成绩单，条件录取后补验学位。普通渠道是个人在线申请、委员会审核和面试，系统选择 MPhil (General)，无需预先联系导师；仍须满足英语与其他录取条件。",
+        "sourceIds": [
+          "gz_rbm_faq_2027",
+          "gz_rbm_admission_2027",
+          "gz_rbm_guide_2027"
+        ]
+      },
+      "cycle": {
+        "text": "2027/28 Fall 的 CFT 招生页明确 2026-04-02 开始、2027-03-01 23:59 截止，并说明迟交转入 2028 Fall 审理。页面未明示该时刻的时区；Red Bird 有独立时间表，不能套用校级 PhD 截止。",
+        "sourceIds": [
+          "gz_rbm_admission_2027",
+          "gz_rbm_guide_2027"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "先按 General 统一录取，再经探索和双向选择确定学域与导师；FAQ 概括为约 6 个月，不能把关联 PI 名单当作已锁定席位。小组项目也不能替代个人论文要求。",
+          "sourceIds": [
+            "gz_rbm_faq_2027",
+            "gz_rbm_journey"
+          ]
+        },
+        {
+          "text": "普通个人申请、挑战营、合作院校推荐及提名是不同渠道；本条本科入口依据普通申请，不以某个合作院校资格为前提。培养页未标 2027/28，实际选课仍须看入学适用版本。",
+          "sourceIds": [
+            "gz_rbm_admission_2027",
+            "gz_rbm_curriculum"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "hkust-gz-roas-phd",
+      "institution": "HKUST(GZ)",
+      "degree": "PhD",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "机器人与自主系统博士围绕软硬件、机构、传感与控制的系统集成开展原创研究，连接机电、优化、信号处理和机器学习。学域方向包含野外与水下/空中机器人、抓取操作、人机交互、机器人学习及具身智能，强调机器感知环境、行动和适应的能力。",
+        "sourceIds": [
+          "gz_roas_catalog_2026",
+          "gz_roas_research"
+        ]
+      },
+      "training": {
+        "text": "2026/27 目录列最低 21 学分，包括跨学科核心、跨枢纽课程及至少 15 学分专业课程；可围绕机电设计、运动规划控制、机器人视觉等构建个人课程。须通过博士资格考试，开展跨学科导师指导的论文研究并答辩；无相关研究型硕士者全日制标准学制 4 年。",
+        "sourceIds": [
+          "gz_roas_catalog_2026"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "校级博士资格明确允许认可高校学士且有优异表现者申请，毋须先取得硕士；另有研究生学习经历入口。ROAS 目录指向该校级要求，并提供普通在线申请；仍要符合英语、项目评审及研究匹配要求。",
+        "sourceIds": [
+          "gz_rpg_entry",
+          "gz_roas_catalog_2026",
+          "gz_rpg_apply"
+        ]
+      },
+      "cycle": {
+        "text": "2026 年 7 月更新的校级时间表已明确 2027/28 Fall PhD 普通申请期：2026-07-21 开始；国际申请人 2027-06-15、中国申请人 2027-07-15 截止，均为 23:59（GMT+8）。按项目节奏滚动发录取；此表不证明具体导师尚有名额。",
+        "sourceIds": [
+          "gz_rpg_timeline_2027"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "21 学分和课程例子来自 2026/27 目录，不等于 2027/28 的最终课程或每学期必然开课。学域研究范围、校级普通申请期和某位导师的指导资格及名额要分别核实。",
+          "sourceIds": [
+            "gz_roas_catalog_2026",
+            "gz_roas_research",
+            "gz_rpg_timeline_2027"
+          ]
+        },
+        {
+          "text": "本条是广州校区 ROAS 学位申请；RA 聘用或香港本部 HKPFS 信息不能替代此项目的录取与资助确认。",
+          "sourceIds": [
+            "gz_roas_catalog_2026",
+            "gz_rpg_apply"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "hkust-gz-ai-phd",
+      "institution": "HKUST(GZ)",
+      "degree": "PhD",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "人工智能博士面向 AI 基础问题与应用中的原创研究，训练独立、跨学科的研究能力。学域公开方向涵盖机器学习与基础模型理论、计算机视觉、强化学习与控制、多模态生成模型、具身智能、AI 智能体，以及可信和可解释 AI。",
+        "sourceIds": [
+          "gz_ai_catalog_2026",
+          "gz_ai_research"
+        ]
+      },
+      "training": {
+        "text": "2026/27 目录列最低 21 学分；博士须第一年完成一门 AI 指定必修课并达 B+，未达标须按规则补修。还须完成两个学期的 AI 研讨课、博士资格考试及跨学科导师指导的原创论文与答辩；无相关研究型硕士者全日制标准学制 4 年。",
+        "sourceIds": [
+          "gz_ai_catalog_2026"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "学士且有经证明的优异表现是校级博士入口之一，不以先获硕士为必要条件。AI 目录沿用校级学术及英语要求，经 OAS 普通申请；达到最低门槛仍不保证通过选择性录取。",
+        "sourceIds": [
+          "gz_rpg_entry",
+          "gz_ai_catalog_2026",
+          "gz_rpg_apply"
+        ]
+      },
+      "cycle": {
+        "text": "2026 年 7 月更新的校级时间表已明确 2027/28 Fall PhD 普通申请期：2026-07-21 开始；国际申请人 2027-06-15、中国申请人 2027-07-15 截止，均为 23:59（GMT+8）。按项目节奏滚动发录取；此表不证明具体导师尚有名额。",
+        "sourceIds": [
+          "gz_rpg_timeline_2027"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "已找到 2026/27 的 AI 新目录；旧链接 artificial-intelligence-3 仍为 2024/25，应区分版本。2026/27 的 B+ 与学分要求用于理解培养，不能冒充 2027/28 最终规则。",
+          "sourceIds": [
+            "gz_ai_catalog_2026"
+          ]
+        },
+        {
+          "text": "方向中出现具身智能或 AI Agents，不代表每位导师都研究这些主题或有空缺；普通博士申请、个人导师名额、RA 职位及奖学金须分别确认。",
+          "sourceIds": [
+            "gz_ai_research",
+            "gz_ai_catalog_2026",
+            "gz_rpg_timeline_2027"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "hkust-gz-intr-phd",
+      "institution": "HKUST(GZ)",
+      "degree": "PhD",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "智能交通博士把交通系统与通信、AI 和数据科学结合，研究人和货物在多种运输方式中的安全、效率与可持续性。课题覆盖交通大数据、共享出行、网联与自动驾驶车辆、交通感知通信计算融合，也包括城市轨道、无人机、绿色航空及自动化港口物流。",
+        "sourceIds": [
+          "gz_intr_catalog_2026",
+          "gz_intr_research"
+        ]
+      },
+      "training": {
+        "text": "2026/27 目录列最低 21 学分，以跨学科和枢纽核心课配合交通流、路网建模、数据驱动优化等个人化选课。通常全日制博士须通过 4 次 INTR 6800 并作至少 2 次报告，另须资格考试、博士论文与口头答辩；无相关研究型硕士者标准学制 4 年。",
+        "sourceIds": [
+          "gz_intr_catalog_2026"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "认可高校学士且有优异表现者可以走校级博士普通申请入口，无需先取得硕士。INTR 项目把一般学术与英语条件交由校级要求判定；申请仍须接受项目审核，最低资格并非录取保证。",
+        "sourceIds": [
+          "gz_rpg_entry",
+          "gz_intr_catalog_2026",
+          "gz_rpg_apply"
+        ]
+      },
+      "cycle": {
+        "text": "2026 年 7 月更新的校级时间表已明确 2027/28 Fall PhD 普通申请期：2026-07-21 开始；国际申请人 2027-06-15、中国申请人 2027-07-15 截止，均为 23:59（GMT+8）。按项目节奏滚动发录取；此表不证明具体导师尚有名额。",
+        "sourceIds": [
+          "gz_rpg_timeline_2027"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "交通系统研究同时包含车辆技术、网络运营与政策/管理问题，不能由“自动驾驶”一词推断全项目都做机器人感知。选课与论文方向需具体匹配；课程规则引用 2026/27 版本。",
+          "sourceIds": [
+            "gz_intr_catalog_2026",
+            "gz_intr_research"
+          ]
+        },
+        {
+          "text": "INTR 研讨课对兼读制及持 HKUST MPhil 入学者另有要求。普通申请期不能代替导师名额、RA 聘用或个人资助确认；本次不据不同抓取中的协调人姓名判断现任负责人。",
+          "sourceIds": [
+            "gz_intr_catalog_2026",
+            "gz_rpg_timeline_2027"
           ]
         }
       ]

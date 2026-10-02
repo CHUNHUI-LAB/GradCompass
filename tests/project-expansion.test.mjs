@@ -13,13 +13,13 @@ const claimText=id=>JSON.stringify(summaries.get(id));
 test('expansion appends exactly nine reviewed routes and preserves the first eight introductions and nineteen sources',()=>{
  assert.equal(hash(JSON.stringify(raw.records.slice(0,8))),'1a96b206d4f4dd04ad1a97f63dc5b8eea60d7f37756a2b7d01b5631d1f6d56c6');
  assert.equal(hash(JSON.stringify(raw.sources.slice(0,19))),'a29f9f9c9e39cabcaa966838490709743f22bf617bae8bdde11b3f28a447205a');
- assert.deepEqual(raw.records.slice(8).map(r=>r.routeId),added);assert.equal(raw.records.length,17);assert.equal(new Set(raw.sources.map(s=>s.id)).size,35);assert.equal(raw.sources.length,35);
+ assert.deepEqual(raw.records.slice(8,17).map(r=>r.routeId),added);assert.equal(raw.records.slice(0,17).length,17);assert.equal(new Set(raw.sources.slice(0,35).map(s=>s.id)).size,35);assert.equal(raw.sources.slice(0,35).length,35);
 });
 
-test('all verified default routes within the five requested schools now have introductions and no other route gains one',()=>{
+test('first expansion preserves introductions for the five original schools',()=>{
  const schools=new Set(['HKU','HKUST','CUHK','CityUHK','PolyU']);
  const scoped=catalog.routes.filter(r=>schools.has(r.institution)&&isVerifiedRoute(r));
- assert.deepEqual([...summaries.keys()].sort(),scoped.map(r=>r.id).sort());assert.equal(scoped.length,17);assert.equal(catalog.routes.filter(isVerifiedRoute).length,27);
+ assert.deepEqual([...summaries.values()].filter(r=>schools.has(r.institution)).map(r=>r.routeId).sort(),scoped.map(r=>r.id).sort());assert.equal(scoped.length,17);assert.equal(catalog.routes.filter(isVerifiedRoute).length,27);
  for(const r of catalog.routes.filter(r=>!isVerifiedRoute(r)))assert(!summaries.has(r.id));
 });
 
@@ -60,23 +60,23 @@ test('new introduction research text is searchable without weakening degree, sch
  assert.deepEqual(filterProjectRoutes(joined,{query:'网络化感知与控制'}).map(r=>r.id),['HKUST-ECE-MPhil']);assert.equal(filterProjectRoutes(joined,{query:'网络化感知与控制',opportunityType:'PhD'}).length,0);assert.equal(filterProjectRoutes(joined,{query:'网络化感知与控制',institution:'HKU'}).length,0);assert.deepEqual(filterProjectRoutes(joined,{query:'并非专门的机器人学位'}).map(r=>r.id),['cityu_ds_phd']);assert.equal(filterProjectRoutes(joined,{query:'并非专门的机器人学位',opportunityType:'MPhil'}).length,0);
 });
 
-test('official catalogue, experience content, protected runtime, and raw source fields preserve the c3a2fe20 baseline',()=>{
+test('reviewed catalog and material snapshots plus protected runtime and experience data match the declared content boundary',()=>{
  const protectedHashes={
-  "data/catalog.json": "f3b9cf4e8bdf23167f94a897d9891c9c01b19ad27de051047cd9128d17e4177c",
-  "data/material-summaries.json": "a61c01350c455bcf4e654acfeaec9a8fb34438003b3a18d1de9400813242a06c",
+  "data/catalog.json": "d60936c9ddc57c843376611bca5f08717d26e648ce8e9f711e8d59110d8d54a5",
+  "data/material-summaries.json": "193f8d81ae8a6e5cbb4c81e96f43c586d073e050423d013601a9a0e90ab68296",
   "data/application-experiences.json": "8f213cf0ff3af43e436fbd2343ce6f00cbacfc221a293b68a3964c42188967b5",
   "data/application-experience-provenance.json": "2a81b133e27fb66530fc7bdc674aef8e054c1dee9fc4b79a1618fc452471627f",
   "data/advisor-profiles.json": "52f9730eb53c7cf3a7e225682b273891d8060651da8051ae3d078b6a01937661",
   "data/ra-positions.json": "b5354ece6ee48d205665af699e008e74d51c41ca23000c7fc653eccfc906816e",
   "data/update-status.json": "b96e217f713537808ee7874c3638ed0e2add57d514b2a23232085dd73d35cad5",
-  "data/catalog-test-manifest.json": "32bb22a895615ff2c979091f494d0cdab4c539fffc94f4ff354bcee6b542f96a",
+  "data/catalog-test-manifest.json": "547f773ff4b20735de3c68a844255b60e4c4f84baee99cb7d3cc609f0ecf4b27",
   "assets/core.js": "cad4681d907cdf380dad2b1ab4c9b42ee33829e11fafeb73b9ad0b072975a927",
   "assets/record-summaries.js": "7650b472298f9d0db4f59f53a1a437b4f295efeb3e21e33016b11f3e76a4b314",
   "assets/experiences.js": "662273e1227343feb9dc402f2b72bc40ab641270299816e5d44d66680f78377a",
   "assets/profiles.js": "6b6ce55c9e97edb8060976e5f82a631ed47275d6304d72bba4c0caf649606e88",
   "assets/material-supplement.js": "44c8f5821e4c828503b6efefc6cd6a75f560c2de0067f855531337c025511d03",
   "assets/style.css": "87fc9377f9451bc784a8e6355266e9e740e16a53971c5b25c92c0e7b67d4e0df",
-  "tests/render.test.mjs": "93c2e746d7f3f3ce8f354c39ede9c95815311ca8bbd26611a7ca1c2c9d0b7909"
+  "tests/render.test.mjs": "63efb21a8afbb40d89e0f8d1da5ac55b32af2558923c156bc71ff309d86d9bd4"
 };
  for(const [path,expected] of Object.entries(protectedHashes)){
   let content=fs.readFileSync(new URL('../'+path,import.meta.url));

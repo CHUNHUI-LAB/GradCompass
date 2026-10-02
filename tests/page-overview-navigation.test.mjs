@@ -18,7 +18,7 @@ const click=(selector,dataset)=>docListeners.click({target:{closest:s=>s===selec
 
 test('async project introductions refresh overview and list while preserving active filters',async()=>{
  assert(!el('#page-overview').hidden);assert(el('#page-overview').innerHTML.includes('正在载入'));change('#institution-filter','HKU');assert.equal(el('#result-count').textContent,'4 个学位项目');
- releaseProjects();await new Promise(resolve=>setImmediate(resolve));assert(el('#page-overview').innerHTML.includes('17 个项目有培养与研究简介'));assert.equal(el('#institution-filter').value,'HKU');assert.equal(el('#result-count').textContent,'4 个学位项目');assert(el('#view-content').innerHTML.includes('当前结果中 4 个有简介'));
+ releaseProjects();await new Promise(resolve=>setImmediate(resolve));assert(el('#page-overview').innerHTML.includes('27 个项目有培养与研究简介'));assert.equal(el('#institution-filter').value,'HKU');assert.equal(el('#result-count').textContent,'4 个学位项目');assert(el('#view-content').innerHTML.includes('当前结果中 4 个有简介'));
 });
 test('overview remains page-wide under zero results and direct summary actions still work',()=>{
  view('routes');el('#search').listeners.input({target:{value:'no-matching-project-xyz'}});assert(el('#result-count').textContent.startsWith('0 '));assert(el('#page-overview').innerHTML.includes('全页 27 个项目'));

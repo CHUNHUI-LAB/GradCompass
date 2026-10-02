@@ -1,15 +1,15 @@
 {
   "project": "GradCompass",
-  "revision": "r2.13-page-overviews",
-  "baseDeployedCommit": "da6f5b22a2ddfe003a41fe07b14d6322171ed10a",
+  "revision": "r2.15-projects-and-cycle-maintenance",
+  "baseDeployedCommit": "fd1c942915e6818be4bbfb20f46a68fcc7f7497b",
   "snapshotDate": "2026-10-02",
   "status": "content snapshot; automated test counters do not establish deployment or browser acceptance",
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
-  "browserVisualQA": "Chromium launch blocked before first assertion by socket permission error; page-overview browser suite and visual layouts remain unverified",
+  "browserVisualQA": "Not performed for this profile candidate; official-source browser research is not site visual QA. Previous local Chromium socket restriction remains recorded in historical QA.",
   "profilePilotCount": 10,
-  "nodeTestsTotal": 167,
-  "nodeTestsPassed": 167,
+  "nodeTestsTotal": 188,
+  "nodeTestsPassed": 188,
   "nodeTestsFailed": 0,
   "experienceRecords": 16,
   "defaultExperienceRecords": 16,
@@ -18,12 +18,12 @@
   "newExperienceRecords": 0,
   "materialRecords": 14,
   "materialSupplementRecords": 12,
-  "materialSupplementSources": 36,
-  "projectSummaryRecords": 17,
-  "projectSummarySchools": 5,
-  "projectSummarySources": 35,
+  "materialSupplementSources": 38,
+  "projectSummaryRecords": 27,
+  "projectSummarySchools": 9,
+  "projectSummarySources": 61,
   "preservedProjectSummaryRecords": 17,
-  "newProjectSummaryRecords": 0,
+  "newProjectSummaryRecords": 10,
   "pageOverviews": 5,
   "allowedFiles": [
     {
@@ -43,8 +43,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 36645,
-      "sha256": "83865e5f15b12efb39f10a1ea01104e7d235e8a259b05f6ab8cc80ba5168f186"
+      "bytes": 36844,
+      "sha256": "53ebbfeb0f5fe43e88b79634843636e9ac6a674d63e0f0562c9921c2cbfb0499"
     },
     {
       "path": "assets/core.js",
@@ -103,23 +103,23 @@
     },
     {
       "path": "data/catalog-test-manifest.json",
-      "bytes": 7922,
-      "sha256": "32bb22a895615ff2c979091f494d0cdab4c539fffc94f4ff354bcee6b542f96a"
+      "bytes": 8454,
+      "sha256": "547f773ff4b20735de3c68a844255b60e4c4f84baee99cb7d3cc609f0ecf4b27"
     },
     {
       "path": "data/catalog.json",
-      "bytes": 591589,
-      "sha256": "f3b9cf4e8bdf23167f94a897d9891c9c01b19ad27de051047cd9128d17e4177c"
+      "bytes": 623526,
+      "sha256": "d60936c9ddc57c843376611bca5f08717d26e648ce8e9f711e8d59110d8d54a5"
     },
     {
       "path": "data/material-summaries.json",
-      "bytes": 53857,
-      "sha256": "a61c01350c455bcf4e654acfeaec9a8fb34438003b3a18d1de9400813242a06c"
+      "bytes": 56308,
+      "sha256": "193f8d81ae8a6e5cbb4c81e96f43c586d073e050423d013601a9a0e90ab68296"
     },
     {
       "path": "data/project-summaries.json",
-      "bytes": 43370,
-      "sha256": "6edcf5208c63f0a5aa85ab3034114308d26caac0e03d9b91651de603b31d736c"
+      "bytes": 79324,
+      "sha256": "d3c29e7af93a4a7f326b2ea293949f0f8169936f29f3d37b9cd7b7ad5a8bf8bc"
     },
     {
       "path": "data/ra-positions.json",
@@ -134,7 +134,7 @@
     {
       "path": "index.html",
       "bytes": 7028,
-      "sha256": "c20a975e9c10a961f29ab9689b20c42900247796a262409593ef3446e87ff4b4"
+      "sha256": "03fcaa8b715a5be85024c522f86bd2d2aaefbd21ebdda568a675a84d05e386f0"
     },
     {
       "path": "package.json",
@@ -143,8 +143,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 4898,
-      "sha256": "826509a38adc543ea639662630a33573b887a9cf6b3da0ed900f3cf1080e7526"
+      "bytes": 5015,
+      "sha256": "9cfb0b718abfaa4bc2751d42fbebd3a8a6376dc2f1f85d08d476a042066ffb67"
     },
     {
       "path": "tests/browser-smoke.mjs",
@@ -153,13 +153,18 @@
     },
     {
       "path": "tests/cityu-cycle-review.test.mjs",
-      "bytes": 4049,
-      "sha256": "693ae0cde1c4c9529f248a2ee14051b52cdc1233e19f46bd8bbbcbda97cff811"
+      "bytes": 3785,
+      "sha256": "bbe0f3fd570fa0e84c0b752bd0b11a366bd127f478c19e016a97961a4aa5efe8"
     },
     {
       "path": "tests/core.test.mjs",
       "bytes": 5266,
       "sha256": "a03f7eafa10470cacccbaec18dc7dcf628df800c306f5eb5b8cc2273b063dc82"
+    },
+    {
+      "path": "tests/cycle-refresh.test.mjs",
+      "bytes": 6633,
+      "sha256": "3494a7425c778d32bfc6ee29e69218aed0dd13a1e1c2be394c25b865ba86fb4a"
     },
     {
       "path": "tests/experience-batch2.test.mjs",
@@ -194,52 +199,57 @@
     {
       "path": "tests/material-supplement.test.mjs",
       "bytes": 3110,
-      "sha256": "fb82cd9e2decde67b080f45522dc7128ff001e1c6f4e5bb7d5ef05d680133220"
+      "sha256": "e6b29fc04c67e94d1228cbe895f0b4813400a5cdddb654684662fc527a534451"
     },
     {
       "path": "tests/opportunities.test.mjs",
-      "bytes": 4433,
-      "sha256": "3314403cfebd374739e0d58f38f2faa244129bc8a9dd8230b8c6b5a736afafbe"
+      "bytes": 5820,
+      "sha256": "1f7624ac0aa8c6b5631e0628bb04f51d581ad9da545206bb3194d839ea251f78"
     },
     {
       "path": "tests/page-overview-navigation.test.mjs",
       "bytes": 6935,
-      "sha256": "e0fe1bb9037904ae5332f4e0e8a349c6b3fccb0a534407da951d21c67c4885fa"
+      "sha256": "68cc2ccaadccd551041cd3bdd1abd72cd61b65bfe452d506ba5d88544dbef276"
     },
     {
       "path": "tests/page-overviews-browser.mjs",
       "bytes": 5618,
-      "sha256": "4f96863e364ede689ef117595fdd2a57acd785b407225df507b431441617d524"
+      "sha256": "932cb6b41f158baba2fb538a6e927fec3de5d710cac296866a4f89f31c47d149"
     },
     {
       "path": "tests/page-overviews.test.mjs",
-      "bytes": 8119,
-      "sha256": "f2ee14915dd31f9a6b518844261013f9b0bc7a8d8941f497065034574b67f813"
+      "bytes": 8131,
+      "sha256": "c9be9e346357b8da2fe23d1197b9e5962e3b3226ad7e3e4632b35362feb61b11"
     },
     {
       "path": "tests/profiles.test.mjs",
-      "bytes": 3719,
-      "sha256": "e4436fa69e8aae64539d35beb906ff666cec34b789bb079bc605bdb082c253c6"
+      "bytes": 3764,
+      "sha256": "b64571cabc07032a8d77450f756b8515ac99ab1513a9b6e7a4d84ee69e67c334"
     },
     {
       "path": "tests/project-expansion.test.mjs",
-      "bytes": 9501,
-      "sha256": "fbae6244102985ea0e2800d7db60f33a35362ba30f501be401020792282f5541"
+      "bytes": 9561,
+      "sha256": "3d7cc065ccf9d7bbd77f1320d417750aef40843075212298aa99d0082e6667c5"
+    },
+    {
+      "path": "tests/project-final10.test.mjs",
+      "bytes": 5898,
+      "sha256": "9eb756df6b29fa1db9f3e696fe9bd1ae76f3a8a2b8a77a7bb0b990452bb28358"
     },
     {
       "path": "tests/project-loading.test.mjs",
       "bytes": 6009,
-      "sha256": "b3ea2f35b3b9493a2ec82a5005750faea0105cfc34ccb5bc9a2eb44dcb5d1312"
+      "sha256": "0f51923fdeab3af049c8ae50548afeb16e625a54f54fbd07f2dfa0b4e78e3ec7"
     },
     {
       "path": "tests/project-summaries-browser.mjs",
       "bytes": 4267,
-      "sha256": "42f7ecdd96c034fc25e3c954805ff39d1c77c68a0b93178bcf3f8f6b14a34e73"
+      "sha256": "42fe399d7c5d9580ba1f5f7d12a6223b91988a285f17aa49cbf449b516b58a2a"
     },
     {
       "path": "tests/project-summaries.test.mjs",
-      "bytes": 6023,
-      "sha256": "c59585fdc9f57f71461dcd5b0781e9c68801f372b1dd491c4640eb1ebaa4bbb7"
+      "bytes": 6181,
+      "sha256": "e9c2f65f01385752068ef6602e8ca67a33d737bde5e163bbfecd55d121a9c914"
     },
     {
       "path": "tests/ranks.test.mjs",
@@ -253,8 +263,8 @@
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 15034,
-      "sha256": "93c2e746d7f3f3ce8f354c39ede9c95815311ca8bbd26611a7ca1c2c9d0b7909"
+      "bytes": 15716,
+      "sha256": "63efb21a8afbb40d89e0f8d1da5ac55b32af2558923c156bc71ff309d86d9bd4"
     },
     {
       "path": "tests/resource-versions.test.mjs",
@@ -269,9 +279,9 @@
   ],
   "qaMetadataScope": "Hashes identify this content snapshot. Automated test counters do not establish deployment or browser acceptance. QA.md retains earlier-version reports.",
   "publishedBaseline": {
-    "commit": "da6f5b22a2ddfe003a41fe07b14d6322171ed10a",
-    "contentCommit": "da6f5b22a2ddfe003a41fe07b14d6322171ed10a",
+    "commit": "fd1c942915e6818be4bbfb20f46a68fcc7f7497b",
+    "contentCommit": "fd1c942915e6818be4bbfb20f46a68fcc7f7497b",
     "experienceRecords": 16,
-    "pagesRun": "https://github.com/CHUNHUI-LAB/GradCompass/actions/runs/36965643617"
+    "pagesRun": "https://github.com/CHUNHUI-LAB/GradCompass/actions/runs/36967811184"
   }
 }

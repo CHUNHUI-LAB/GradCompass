@@ -254,6 +254,22 @@
       "url": "https://cerg1.ugc.edu.hk/hkpfs/apply.html",
       "checkedDate": "2026-10-02",
       "section": "2026-10-02 cycle-only review; no other material requirements reverified"
+    },
+    {
+      "id": "gz_rbm_dates_2027",
+      "label": "HKUST(GZ) Red Bird 2027/28 独立申请时间表",
+      "url": "https://cft.hkust-gz.edu.cn/rbm-program/admission/",
+      "checkedDate": "2026-10-02",
+      "section": "2027/28 application timeline",
+      "sourceVersion": "Targeted cycle-only check on 2026-10-02; other sources and material requirements retain original check date"
+    },
+    {
+      "id": "gz_phd_dates_2027",
+      "label": "HKUST(GZ) 2027/28 校级 PhD 普通申请时间表",
+      "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+      "checkedDate": "2026-10-02",
+      "section": "2027/28 application timeline",
+      "sourceVersion": "Targeted cycle-only check on 2026-10-02; other sources and material requirements retain original check date"
     }
   ],
   "records": [
@@ -1066,7 +1082,7 @@
       "note": "2027/28红鸟明确要求大学成绩单和盖章专业排名；PS、研究计划、推荐信为鼓励但非必需，CV属于支持材料。 适用范围：2027/28 Fall；FAQ声明2026-05-29更新；这是有界摘要，提交前仍须核对当期系统。",
       "admissionYear": "2027/28 Fall；FAQ声明2026-05-29更新",
       "unknowns": [
-        "具体轮次截止、OAS当前完整必填字段；英文FAQ的硕士英语授课豁免需校方最终批准。"
+        "截止时刻的时区、OAS当前完整必填字段；英文FAQ的硕士英语授课豁免需校方最终批准。"
       ],
       "scopeNotes": [
         "只适用于Red Bird MPhil / Master of Philosophy (General)，不代表ROAS、AI、INTR PhD免推荐或免研究计划。"
@@ -1114,16 +1130,31 @@
         },
         {
           "kind": "deadline",
-          "text": "FAQ明确适用2027/28，但本次未取得独立申请截止；具体轮次以当期OAS指南及红鸟通知为准。",
-          "requirementStatus": "unknown",
+          "text": "CFT独立2027/28 Fall时间表：2026-04-02开始，2027-03-01 23:59截止；原文未明示时区，迟交转2028 Fall。不能套用PhD截止。",
+          "requirementStatus": "published",
           "sourceIds": [
-            "gz_rbm"
+            "gz_rbm_dates_2027"
           ]
         }
       ],
       "sourceIds": [
-        "gz_rbm"
-      ]
+        "gz_rbm",
+        "gz_rbm_dates_2027"
+      ],
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+        "reason": "仅更新已公开的Red Bird独立截止；其余材料条款沿用原核读，不宣称重新逐项核验。",
+        "previousAdmissionYear": "2027/28 Fall；FAQ声明2026-05-29更新",
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "label": "HKUST(GZ) Red Bird 2027/28 独立申请时间表",
+            "url": "https://cft.hkust-gz.edu.cn/rbm-program/admission/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      }
     },
     {
       "id": "hkust-gz-phd-materials",
@@ -1138,10 +1169,10 @@
       "status": "verified",
       "checkedDate": "2026-10-01",
       "summary": "三条PhD路径先按研究生院通用清单准备：学历成绩与评分标准、语言、研究计划/经历及2–5位推荐人；学域额外项另核。",
-      "note": "三条PhD路径先按研究生院通用清单准备：学历成绩与评分标准、语言、研究计划/经历及2–5位推荐人；学域额外项另核。 适用范围：现行通用博士规则；2027具体批次本次未核实；这是有界摘要，提交前仍须核对当期系统。",
-      "admissionYear": "现行通用博士规则；2027具体批次本次未核实",
+      "note": "三条PhD路径先按研究生院通用清单准备：学历成绩与评分标准、语言、研究计划/经历及2–5位推荐人；学域额外项另核。 适用范围：现行通用博士材料规则；2027/28 Fall校级申请期已于2026-10-02独立复核；这是有界摘要，提交前仍须核对当期系统。",
+      "admissionYear": "现行通用博士材料规则；2027/28 Fall校级申请期已于2026-10-02独立复核",
       "unknowns": [
-        "2027具体期限、各学域附加文书、导师剩余名额。"
+        "各学域附加文书、导师剩余名额及实际提交门户状态。"
       ],
       "scopeNotes": [],
       "requirements": [
@@ -1195,12 +1226,10 @@
         },
         {
           "kind": "deadline",
-          "text": "已核官方项目入口，但本次未核得2027招生批次及截止，不能用常年项目页推断2027开放或名额。",
-          "requirementStatus": "unknown",
+          "text": "2027/28 Fall PhD校级普通轮自2026-07-21开始；国际申请人2027-06-15、中国申请人2027-07-15截止，均23:59 GMT+8。按项目节奏滚动发录取；不适用于Red Bird或RA。",
+          "requirementStatus": "published_school_only",
           "sourceIds": [
-            "gz_roas",
-            "gz_ai",
-            "gz_intr"
+            "gz_phd_dates_2027"
           ]
         }
       ],
@@ -1209,8 +1238,23 @@
         "gz_docs",
         "gz_roas",
         "gz_ai",
-        "gz_intr"
-      ]
+        "gz_intr",
+        "gz_phd_dates_2027"
+      ],
+      "cycleReview": {
+        "checkedDate": "2026-10-02",
+        "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+        "reason": "仅更新2027/28 Fall校级普通申请期；培养规则、导师名额和完整材料未据此升级。",
+        "previousAdmissionYear": "现行通用博士规则；2027具体批次本次未核实",
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "label": "HKUST(GZ) 2027/28 校级 PhD 普通申请时间表",
+            "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      }
     },
     {
       "id": "cuhksz-ai-rpg-materials",

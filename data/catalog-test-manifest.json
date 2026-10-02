@@ -202,5 +202,17 @@
     "checkedDate": "2026-10-02",
     "catalogSha256": "f3b9cf4e8bdf23167f94a897d9891c9c01b19ad27de051047cd9128d17e4177c",
     "scope": "Only CityU ME ordinary application cycle fields and one calendar record corrected; original checked timestamps and sourceRecord retained; see tests/cityu-cycle-review.test.mjs"
+  },
+  "currentMaintenanceReview": {
+    "checkedDate": "2026-10-02",
+    "catalogSha256": "d60936c9ddc57c843376611bca5f08717d26e648ce8e9f711e8d59110d8d54a5",
+    "scope": "Targeted HKU, HKBU, HKUST(GZ), CUHK-Shenzhen cycle/calendar updates and two PI recruitment corrections; full-directory timestamps and historical source inputs retained",
+    "deadlineRecords": 19,
+    "changedRouteRecords": 12,
+    "changedAdvisorRecords": 2,
+    "seeTests": [
+      "tests/cycle-refresh.test.mjs",
+      "tests/opportunities.test.mjs"
+    ]
   }
 }
