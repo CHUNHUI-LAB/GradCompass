@@ -196,6 +196,71 @@
         "dateNote": "页头发布时间与更新时间 / 前段4月与后段5—6月"
       },
       "reviewedAt": "2026-10-02"
+    },
+    {
+      "id": "grad-sustech-lisr-hkust-2025",
+      "url": "https://sustech-application.com/post/lisr20",
+      "sourceMode": "Exa full-content fetch plus selected complete-section reads",
+      "scope": "Two application-cycle background/result tables and the relevant advisor-contact, interview, agency, Hong Kong, and retrospective sections.",
+      "fieldLocations": {
+        "authorContext": "我的申请 / 24Fall / 25Fall 背景",
+        "outcome": "24Fall 申请前的面试们 / 24Fall 没拿到、没接的 Offer 们 / 25Fall",
+        "commercialDisclosure": "中介 or DIY? / 25Fall",
+        "dateNote": "更新列表",
+        "summary": "24Fall 申请前的面试们 / 24Fall 没拿到、没接的 Offer 们 / 25Fall；对应的准备与复盘正文"
+      },
+      "dateInterpretation": "2025-03-09 is upload, not certified original publication. HKUST interview series belongs to autumn 2023 in the 24Fall cycle.",
+      "authorVsComment": "Only author prose used. No comments or family-group dataset accessed.",
+      "confidence": "Detailed self-report; no admission-letter verification.",
+      "limitation": "Relevant long-form sections read; do not claim all unrelated US guidance was reviewed.",
+      "priority": "core_research_application",
+      "independentReview": {
+        "date": "2026-10-02",
+        "mode": "Original webpage and relevant complete sections reread; claims and dates checked against candidate."
+      }
+    },
+    {
+      "id": "grad-ruakoyo-hku-interview-2024",
+      "url": "https://ruakoyo.wikidot.com/postgraduate2024",
+      "sourceMode": "Exa HTTPS full-content fetch",
+      "scope": "Complete article body; no comments.",
+      "fieldLocations": {
+        "authorContext": "本科专业及研究、实习叙述",
+        "outcome": "港大工学院电子工程发信与面试段",
+        "commercialDisclosure": "后续留学机构选择段",
+        "dateNote": "页头 10 Aug 2024 09:39",
+        "summary": "港大工学院电子工程发信与面试段；对应的准备与复盘正文"
+      },
+      "dateInterpretation": "2024-08-10 publication; no exact interview day or final intake specified.",
+      "authorVsComment": "Only author prose used.",
+      "confidence": "Detailed single-interview failure self-report; causal reasons are the writer's own assessment.",
+      "limitation": "No final cross-school outcome; sensitive unrelated family and personal narrative excluded. The generic web fetch could not open HTTPS, but Exa successfully returned its full content.",
+      "priority": "core_failure_case",
+      "independentReview": {
+        "date": "2026-10-02",
+        "mode": "Original webpage and relevant complete sections reread; claims and dates checked against candidate."
+      }
+    },
+    {
+      "id": "grad-shufly-w-hongkong-2024",
+      "url": "https://shuosc.github.io/fly/posts/20-cs-cuhk/",
+      "sourceMode": "Exa full-content fetch",
+      "scope": "Complete main body, preparation timeline, per-school timeline and final result list.",
+      "fieldLocations": {
+        "authorContext": "基本背景",
+        "outcome": "各个院校的申请timeline / 我的申请结果",
+        "dateNote": "页头 2024-04-02 / 页尾更新于 2026-09-05 / 时间线2023",
+        "summary": "各个院校的申请timeline / 我的申请结果；对应的准备与复盘正文"
+      },
+      "dateInterpretation": "2023 autumn application events, 2024 publication; 2026 maintenance date is not the application year.",
+      "authorVsComment": "Only author prose used; no comments returned.",
+      "confidence": "Concrete state-by-state self-report, no admission-letter verification.",
+      "limitation": "Taught master's case; not MPhil/RA and not robotics-specific.",
+      "priority": "supplementary_taught_master",
+      "independentReview": {
+        "date": "2026-10-02",
+        "mode": "Original webpage and relevant complete sections reread; claims and dates checked against candidate."
+      }
     }
   ],
   "excludedSourceCategories": [
@@ -209,5 +274,7 @@
     }
   ],
   "officialPolicy": "No new current admission claims, thresholds, fees, deadlines or recruitment counts. Historical claims about admission mechanisms explicitly excluded. Existing official data remains unchanged.",
-  "privacy": "No private contact fields, offer identifiers, screenshots, signed URLs, search URLs, or session tokens included."
+  "privacy": "No private contact fields, offer identifiers, screenshots, signed URLs, search URLs, or session tokens included.",
+  "latestBatchBaseCommit": "1765e09516a7ea541454b069e7a579adb5226b03",
+  "latestBatchReviewDate": "2026-10-02"
 }

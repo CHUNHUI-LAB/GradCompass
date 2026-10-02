@@ -43,7 +43,7 @@ test('material synthesis exposes concrete requirement differences and missing-da
  const base=read('catalog.json');const fallback=JSON.stringify(buildPageOverview('materials',{...catalog,materials:base.materials},{...options,materialSupplementState:'unavailable'}));assert(fallback.includes('当前载入 2 组'));assert(fallback.includes('未完整载入'));assert(!fallback.includes('MPhil 需 2 份'));assert(!fallback.includes('data-summary-id="cuhk'));
 });
 test('experience synthesis keeps historical, self-report and unfinished outcome boundaries',()=>{
- const s=plain('experiences');for(const text of ['16 篇公开自述','2015 / 2018','不是录取率','未完成申请','RA offer、暑研和学位录取是不同结果'])assert(s.includes(text),text);const html=renderExperiences(experiences).html;assert(html.includes('<details id="experience-synthesis"'));assert(html.includes('不同背景的结果不宜直接比较'));assert.equal((html.match(/data-experience-id=/g)||[]).length,16);assert(!html.includes('id="experience-synthesis" open'));
+ const s=plain('experiences');for(const text of ['19 篇公开自述','2015 / 2018','不是录取率','未完成申请','RA offer、暑研和学位录取是不同结果'])assert(s.includes(text),text);const html=renderExperiences(experiences).html;assert(html.includes('<details id="experience-synthesis"'));assert(html.includes('不同背景的结果不宜直接比较'));assert.equal((html.match(/data-experience-id=/g)||[]).length,19);assert(!html.includes('id="experience-synthesis" open'));
 });
 test('experience missing, empty and partial loads cannot reuse absent case conclusions',()=>{
  for(const records of [null,[],experiences.slice(0,4)]){const s=JSON.stringify(buildPageOverview('experiences',catalog,{...options,experiences:records}));assert(!s.includes('2015 / 2018'));assert(!s.includes('RA 后申博、医工'));assert(!s.includes('experience-synthesis'));}for(const omitted of experiences){const partial=experiences.filter(r=>r.id!==omitted.id);const summary=JSON.stringify(buildPageOverview('experiences',catalog,{...options,experiences:partial}));assert(summary.includes('部分归纳依据暂未载入'),omitted.id);assert(!summary.includes('experience-synthesis'),omitted.id);}
@@ -54,7 +54,7 @@ test('every overview action targets an included summary, existing case, or nonem
 test('global overviews are deterministic, read-only, and escape data-controlled text',()=>{
  const before=JSON.stringify(catalog);for(const view of views){assert.equal(renderPageOverview(view,catalog,options),renderPageOverview(view,catalog,options));}assert.equal(JSON.stringify(catalog),before);const c={...catalog,metadata:{...catalog.metadata,checkedDate:'<script>alert(1)</script>'}};const html=renderPageOverview('deadlines',c,options);assert(!html.includes('<script>'));assert(html.includes('&lt;script&gt;'));
 });
-test('reviewed catalog and materials plus unchanged experience data retain their declared snapshot bytes',()=>{
- const expected={'catalog.json':'045a3a5886d5','material-summaries.json':'193f8d81ae8a','application-experiences.json':'8f213cf0ff3a'};
+test('reviewed catalog and materials plus expanded experience data retain their declared snapshot bytes',()=>{
+ const expected={'catalog.json':'045a3a5886d5','material-summaries.json':'193f8d81ae8a','application-experiences.json':'05b5bc420009'};
  for(const [name,sha]of Object.entries(expected)){const bytes=fs.readFileSync(new URL('../data/'+name,import.meta.url));assert.equal(crypto.createHash('sha256').update(bytes).digest('hex').slice(0,12),sha,name);}
 });

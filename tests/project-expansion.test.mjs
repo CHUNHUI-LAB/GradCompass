@@ -60,19 +60,19 @@ test('new introduction research text is searchable without weakening degree, sch
  assert.deepEqual(filterProjectRoutes(joined,{query:'网络化感知与控制'}).map(r=>r.id),['HKUST-ECE-MPhil']);assert.equal(filterProjectRoutes(joined,{query:'网络化感知与控制',opportunityType:'PhD'}).length,0);assert.equal(filterProjectRoutes(joined,{query:'网络化感知与控制',institution:'HKU'}).length,0);assert.deepEqual(filterProjectRoutes(joined,{query:'并非专门的机器人学位'}).map(r=>r.id),['cityu_ds_phd']);assert.equal(filterProjectRoutes(joined,{query:'并非专门的机器人学位',opportunityType:'MPhil'}).length,0);
 });
 
-test('reviewed catalog and material snapshots plus protected runtime and experience data match the declared content boundary',()=>{
+test('reviewed catalog and material snapshots plus reviewed runtime and expanded experience data match the declared content boundary',()=>{
  const protectedHashes={
   "data/catalog.json": "045a3a5886d50a2cca8b294ee34936522d77590a0a76f0c4b3e94252654f9d1a",
   "data/material-summaries.json": "193f8d81ae8a6e5cbb4c81e96f43c586d073e050423d013601a9a0e90ab68296",
-  "data/application-experiences.json": "8f213cf0ff3af43e436fbd2343ce6f00cbacfc221a293b68a3964c42188967b5",
-  "data/application-experience-provenance.json": "2a81b133e27fb66530fc7bdc674aef8e054c1dee9fc4b79a1618fc452471627f",
+  "data/application-experiences.json": "05b5bc420009910cdb9432bcb199df050007034c178fa2d2b9e7531cc76beb9b",
+  "data/application-experience-provenance.json": "0a057d4264371c0adbca86d6af5257919a45f5a767e40f39d9457e0698d9ccf8",
   "data/advisor-profiles.json": "f4bd245689a218aa66b3ccac849369c4d735fd7bd6ae76a938b7dc1e9f166582",
   "data/ra-positions.json": "b5354ece6ee48d205665af699e008e74d51c41ca23000c7fc653eccfc906816e",
   "data/update-status.json": "b96e217f713537808ee7874c3638ed0e2add57d514b2a23232085dd73d35cad5",
   "data/catalog-test-manifest.json": "ec05af20969ea0b56d4c88fe9afec2131f67fcf242577df687bcc0656d683bfa",
   "assets/core.js": "cad4681d907cdf380dad2b1ab4c9b42ee33829e11fafeb73b9ad0b072975a927",
   "assets/record-summaries.js": "7650b472298f9d0db4f59f53a1a437b4f295efeb3e21e33016b11f3e76a4b314",
-  "assets/experiences.js": "662273e1227343feb9dc402f2b72bc40ab641270299816e5d44d66680f78377a",
+  "assets/experiences.js": "beb2c7ff88a88181c50cb8041466e121bebe0771b77ef747bfd100fba3f15bfa",
   "assets/profiles.js": "6b6ce55c9e97edb8060976e5f82a631ed47275d6304d72bba4c0caf649606e88",
   "assets/material-supplement.js": "44c8f5821e4c828503b6efefc6cd6a75f560c2de0067f855531337c025511d03",
   "assets/style.css": "87fc9377f9451bc784a8e6355266e9e740e16a53971c5b25c92c0e7b67d4e0df",
@@ -80,7 +80,6 @@ test('reviewed catalog and material snapshots plus protected runtime and experie
 };
  for(const [path,expected] of Object.entries(protectedHashes)){
   let content=fs.readFileSync(new URL('../'+path,import.meta.url));
-  if(path==='assets/experiences.js')content=Buffer.from(content.toString().replace('<details id="experience-synthesis" class="experience-overview experience-synthesis"><summary><span id="experience-overview-title">这 ${covered.length} 篇经验的综合总结</span><small>展开阅读准备步骤、差异与对应案例</small></summary><div class="experience-synthesis-body">','<section class="experience-overview" aria-labelledby="experience-overview-title"><h3 id="experience-overview-title">这 ${covered.length} 篇经验的综合总结</h3>').replace('不同背景的结果不宜直接比较，也不能据此推导录取概率。</p></div></details>','不同背景的结果不宜直接比较，也不能据此推导录取概率。</p></section>'));
   if(path==='assets/style.css')content=content.subarray(0,24000);
   assert.equal(hash(content),expected,path);
  }

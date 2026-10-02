@@ -68,13 +68,14 @@ export function buildPageOverview(view,catalog,{experiences=null,projectSummaryS
  if(view==='experiences'){
   if(experiences===null)return {label:'经验总览',title:'经验资料暂未载入',scope:'不将缺失资料当成完整结论',insights:[{title:'仍可先核对官方信息',text:'经验摘要读取恢复后再归纳案例。找项目、日历与材料页可继续查看官方条件。',action:{href:'#routes',label:'先看官方项目条件'}}],note:'刷新后可重试；未载入不表示没有相关经历。'};
   if(!experiences.length)return {label:'经验总览',title:'当前没有可归纳的经验',scope:'0 篇已载入',insights:[],note:'案例准备方法与官方申请规则分别核对。'};
-  const citedIds=['grad-europe-tinsir-2025','grad-bjut-mty-2026','grad-ptt-tum-rci-2022','grad-ngaizean-hkustgz-2026','grad-szu-mingkangchen-2025','grad-wangbard-cryptography-phd-2025','grad-robotics-eth-xiang-2022','grad-sustech-yunzx-2023','grad-dcard-ece-ra-phd-2025','grad-dcard-bme-ece-2026','grad-reddit-cs-interviews-2025','grad-xhs-xiga-ra-mphil-2025','grad-gter-chuyeyue-ra-phd-2024','grad-gter-sscomebady-mphil-2018','grad-gter-imhigh-hkust-mphil-2015','grad-drishti-akash-hkust-intern-2023'];
+  const citedIds=['grad-europe-tinsir-2025','grad-bjut-mty-2026','grad-ptt-tum-rci-2022','grad-ngaizean-hkustgz-2026','grad-szu-mingkangchen-2025','grad-wangbard-cryptography-phd-2025','grad-robotics-eth-xiang-2022','grad-sustech-yunzx-2023','grad-dcard-ece-ra-phd-2025','grad-dcard-bme-ece-2026','grad-reddit-cs-interviews-2025','grad-xhs-xiga-ra-mphil-2025','grad-gter-chuyeyue-ra-phd-2024','grad-gter-sscomebady-mphil-2018','grad-gter-imhigh-hkust-mphil-2015','grad-drishti-akash-hkust-intern-2023','grad-sustech-lisr-hkust-2025','grad-ruakoyo-hku-interview-2024','grad-shufly-w-hongkong-2024'];
   if(!citedIds.every(id=>experiences.some(r=>r.id===id)))return {label:'经验总览',title:'部分归纳依据暂未载入',scope:`当前载入 ${experiences.length} 篇公开自述`,insights:[{title:'先逐篇确认背景与结果',text:'支撑本页概览的部分案例暂未读取，暂不把不完整资料写成整体结论。下方保留已载入案例，可先看各篇的准备方法和适用限制。'}],note:'公开自述不能推导录取概率，申请规则仍以当期官方资料为准。'};
-  return {label:'经验总览',title:'借鉴准备方法，保留每种结果的边界',scope:`全页 ${experiences.length} 篇公开自述`,insights:[
-   {title:'先拆清单，再排准备顺序',text:'机器人与跨专业申硕案例的共通做法，是先比较课程、培养目标和额外材料，再安排推荐与时间线。值得借鉴的是整理过程，选校名单和背景条件不能照搬。',action:caseAction(experiences,'grad-robotics-eth-xiang-2022','读机器人项目准备案例')},
-   {title:'面试要讲清自己做过什么',text:'RA 后申博、医工跨方向与 CS 面试案例，分别涉及研究报告、论文作业和拓展讨论。可以用来检查研究表达，但实际准备仍以自己的面试邀请为准。',action:caseAction(experiences,'grad-dcard-ece-ra-phd-2025','读 RA 后申博面试案例')},
-   {title:'经历与录取结论分开看',text:'案例包含拒信、候补、资助不合适和未完成申请。RA offer、暑研和学位录取是不同结果；2015 / 2018 年历史 MPhil 案例也不能证明当年以外的招生要求。',action:{expand:'experience-synthesis',label:'展开综合归纳与案例依据'}}
-  ],note:'公开自述不是录取率或现行政策；近年香港工科 MPhil、全职 RA 合同与入职细节仍有资料缺口。'};
+  const pending=experiences.filter(r=>!citedIds.includes(r.id)).length;
+  return {label:'经验总览',title:'借鉴准备方法，保留每种结果的边界',scope:pending?`已归纳 ${citedIds.length} 篇公开自述 · 另 ${pending} 篇待综合`:`全页 ${experiences.length} 篇公开自述`,insights:[
+   {title:'先拆清单，再排准备顺序',text:'机器人与跨专业申硕案例的共通做法，是先比较课程、培养目标和额外材料，再安排推荐与时间线。SHUFly 的授课硕士与 lisr20 的两季申请还提示，要把补件、推荐安排和本人决定独立记录；选校名单不能照搬。',action:caseAction(experiences,'grad-robotics-eth-xiang-2022','读机器人项目准备案例')},
+   {title:'面试要讲清自己做过什么',text:'RA 后申博、医工跨方向与 CS 面试案例，分别涉及研究报告、论文作业和拓展讨论。港大工程失利的记录补充了研究表达和设备准备；自述失败不能证明单一原因，准备仍以自己的面试邀请为准。',action:caseAction(experiences,'grad-dcard-ece-ra-phd-2025','读 RA 后申博面试案例')},
+   {title:'经历与录取结论分开看',text:'案例包含拒信、候补、资助不合适和未完成申请。HKUST 口头支持未落实、SHUFly 主动放弃也要分别看。RA offer、暑研和学位录取是不同结果；2015 / 2018 年历史 MPhil 案例不证明当季要求。',action:{expand:'experience-synthesis',label:'展开综合归纳与案例依据'}}
+  ],note:'公开自述不是录取率或现行政策；近年机器人 MPhil 正式录取的完整流程、全职 RA 合同与入职细节仍有资料缺口。'};
  }
  return null;
 }

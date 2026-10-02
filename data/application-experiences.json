@@ -495,6 +495,102 @@
       "evidenceType": "first_person_self_report",
       "checkedAt": "2026-10-02",
       "rulesImpact": "none"
+    },
+    {
+      "id": "grad-sustech-lisr-hkust-2025",
+      "title": "两轮申请复盘：HKUST 口头支持未落实，RA 后重新申博",
+      "url": "https://sustech-application.com/post/lisr20",
+      "platform": "南科大飞跃手册",
+      "author": "lisr20（页面标识，正文未署名）",
+      "publishedAt": null,
+      "applicableCycle": "24Fall 与 25Fall；HKUST 沟通发生于 2023 年秋，属于 24Fall 申请",
+      "authorContext": "计算机本科，AI 与生物医学交叉方向；有校内科研、海外暑研与交换，之后毕业 gap 做线上 RA。不是机器人 MPhil 录取个案。",
+      "outcome": "作者自述 24Fall 获 HKUST 导师两次面试与口头支持，后未得到正式 offer；由组内博士生代询得知经费原因，申请作罢。25Fall 改进准备并做 RA 后自报获 UCLA、Northwestern PhD 等结果，最终选择 UCLA；未核验决定信。",
+      "summary": "值得借鉴的是把积极反馈、拟申 MPhil/PhD、经费落实和正式录取分开记录。作者先按要求汇报研究进展，却未等来承诺的后续；下一申请季提前准备推荐材料和文书，也重新评估课题组与研究训练是否匹配。",
+      "actionableMethods": [
+        "在状态表中分列导师积极反馈、资助待定、正式申请和正式结果，不把口头支持当作完成",
+        "联系前准备项目贡献与研究匹配证据，并核对研究材料分享范围",
+        "提前与推荐人确认时间和可支持的申请数量，给材料修改留余量"
+      ],
+      "excludedClaims": [
+        "作者结果表把部分拒绝、未落实的口头支持及本人不接受的机会合列为 Rej；不据此计算拒信数或录取率",
+        "不转载对未具名导师的未经核验指控、后来招人情况或群体评价",
+        "不采用早申必录、MPhil 比 PhD 难、统一接受期限、分数保底线等概括",
+        "不推广伪装读稿、选择性成绩展示、文书代写或把中介关系当作录取原因"
+      ],
+      "commercialDisclosure": "作者说明 24Fall DIY、25Fall 使用中介且其中一段 RA 由中介介绍；同时具体批评服务问题。所读部分未见服务报价或购买入口，联系方式不转载。",
+      "readScope": "已核读两季背景与结果表、套磁与面试、中介利弊、港硕博、新硕及申请幕后故事等正文相关章节；未逐句核读无关北美项目细节，评论、链接中的家长统计和附件未使用。",
+      "collection": "bachelor",
+      "background": "计算机本科，AI 医工交叉；gap 与线上 RA",
+      "dateNote": "更新列表写 2025-03-09 上传、03-15 改版、03-26 更新；上传不等同原始发表日，publishedAt 留空。24Fall 的 HKUST 面试是 2023 年秋，不能写作 2025 面试。",
+      "bachelorApplicability": "可参考本科研究申请与毕业后调整安排；不是香港 MPhil 成功录取或 RA 保证转博的证据。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-02",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-ruakoyo-hku-interview-2024",
+      "title": "港大工程直博面试失利：研究表达与网络准备",
+      "url": "https://ruakoyo.wikidot.com/postgraduate2024",
+      "platform": "个人博客 / 留客雨",
+      "author": "留客雨博主（正文未署名）",
+      "publishedAt": "2024-08-10",
+      "applicableCycle": "2024 年夏的申请过程记录；未明确最终入学批次",
+      "authorContext": "能源科学与工程本科，即将升大四；有电子工程、计算机相关研究接触及编程实习，自述尚无论文投稿。",
+      "outcome": "自述向港大工学院电子工程数位教师发信后得到一次面试，面试后数小时收到拒绝。文中后来转向美国硕博申请准备，但没有最终学位录取结果。",
+      "summary": "作者准备了约两周的自我介绍、实习 PPT 和目标教师研究概览，但自述面试时网络频繁中断，且未讲出清晰、有说服力的研究方向。这个失败记录适合用来检查面试准备的具体内容，不能认定网络故障就是拒绝原因。",
+      "actionableMethods": [
+        "在安静场所以外，也提前测试会议软件、连接和备用网络",
+        "把实习内容转换为自己完成的工作、研究问题及下一步设想，而非只做背景介绍",
+        "分别复盘技术准备、英语表达和设备问题，不把失败归因于一个未经证实的因素"
+      ],
+      "excludedClaims": [
+        "作者对拒绝原因的理解属于自我复盘，没有招生方说明，不能写成因果已证实",
+        "不采用对授课硕士、学校、学历背景或导师群体的贬低与难度概括",
+        "不沿用签证、身份、经费或就业判断；不转载家庭、关系和财务细节",
+        "不把后续签约留学服务解释为美国申请成功，不推广代写"
+      ],
+      "commercialDisclosure": "作者自述后续选择商业留学服务；所读正文未见本人销售申请辅导，服务质量没有独立核验。",
+      "readScope": "文章文字正文已读，HTTPS 地址通过 Exa 返回完整正文；评论未返回，未使用图片、决定信或外链佐证。",
+      "collection": "bachelor",
+      "background": "能源工程本科，尝试电子工程直博",
+      "dateNote": "页面标注 2024-08-10 09:39；面试发生在成文前，没有具体面试日。网页正文中的未来计划不作已完成结果。",
+      "bachelorApplicability": "可参考本科生如何准备和复盘研究面试；一个自报失败案例不能推出当前门槛或个人成功率。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-02",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-shufly-w-hongkong-2024",
+      "title": "港校 CS 硕士 DIY：把录取、候选与放弃分开",
+      "url": "https://shuosc.github.io/fly/posts/20-cs-cuhk/",
+      "platform": "上海大学溯源手册 SHUFly",
+      "author": "w",
+      "publishedAt": "2024-04-02",
+      "applicableCycle": "2023 年秋提交申请；2024 年发表的 20 级本科申请回顾",
+      "authorContext": "上海大学计算机本科，自述无科研、申请前有两段实习；DIY 申请 CUHK、HKUST、HKU 的计算机或信息相关硕士。",
+      "outcome": "自述接受 CUHK CS、获 HKUST IT 录取后放弃；CUHK IE/EE 到 shortlist，HKU CS 到面试邀请后作者不再推进。不能将这些未继续的项目写成学校拒绝。",
+      "summary": "作者按月记录语言准备、实习和材料定稿，再分项目列提交、补材料、shortlist、面邀与录取。最实用的是区分学校决定与自己停止申请，避免把一张混合状态清单解读成录拒统计。",
+      "actionableMethods": [
+        "把材料初稿、推荐人确认、最终定稿和项目提交分成可核对的节点",
+        "同校不同项目独立记录补件、候选、面邀、正式录取及本人决定",
+        "看见时间表中的“已拒”时结合作者最终结果表辨明是谁拒绝、在哪个阶段"
+      ],
+      "excludedClaims": [
+        "不采纳作者对扩招、绩点和本科院校权重、第一批后几乎无机会的推断",
+        "不沿用旧语言门槛、学费、申请费、开放日期或排名判断",
+        "不把 HKU 面试邀请当作已面试，也不把 CUHK IE/EE shortlist 当作录取",
+        "不推广代缴费、未经核验的翻译或第三方文书服务"
+      ],
+      "commercialDisclosure": "作者自述 DIY，也提到语言培训、文书润色和代办渠道；未见本文销售申请服务，不转载服务链接。",
+      "readScope": "正文、准备时间线、各项目时间线与最终结果清单完整核读；评论未返回，未使用图片或外链证据。",
+      "collection": "bachelor",
+      "background": "计算机本科，有实习、无科研",
+      "dateNote": "页面标注发表于 2024-04-02、更新于 2026-09-05；后者不是新的申请季。各项目提交和结果发生在 2023 年秋；本文未明确写出入学日。",
+      "bachelorApplicability": "可参考本科申授课硕士的材料和状态管理；不能用于判断研究型硕士资格或当季录取难度。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-02",
+      "rulesImpact": "none"
     }
   ]
 }
