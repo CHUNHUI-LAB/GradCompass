@@ -1,3 +1,36 @@
+# 2026-10-02 experience expansion preparation QA
+
+Base: `b61dacd67ed480620fa2c88f7a94bf059cda8df9`, re-read from remote main on 2026-10-02. Every one of its 38 Git blobs was matched before editing. Preparation used an isolated snapshot, before publication. Deployment evidence must be checked against the exact commit separately.
+
+## Preparation checks
+
+- 16 accounts across 12 source sites or collections; all eleven previously published record objects retain their fixed digest, and the original four digest remains checked
+- Five new individual summaries and provenance records; all sixteen IDs are linked from the synthesis before the card list
+- Full Node / DOM-contract suite: 118 tests passed, zero failed or skipped after content-hash freezing
+- All previous advisor, opportunity, material, eligibility, loading-failure, independent-filter, navigation and resource-version regressions remain included
+- Official catalog, advisor profiles, RA positions, material datasets, protected render test and their applicable assets remain byte-identical to base
+- Candidate manifest has an explicit allowlist and SHA-256 hashes; research inputs, logs and raw source content are outside it
+
+## Source review and editorial decisions
+
+Each of the five proposed original sources was independently reread, not accepted from search snippets. The CUHK 2023/2024 account was cross-checked against its duplicate thread: the original author account matches the dated 2024-06-13 outcome reply. The duplicate is one case. The 2018 CUHK post separates a submitted first-author paper from two accepted non-first-author papers; no exact grades are republished. The 2015 HKUST migration page's 1970/2020 metadata is not treated as a publication date, and its PhD recruitment invitation is not a degree offer.
+
+The HKUST 2023 experience is explicitly an undergraduate summer research internship, with HPCA submission only and a future UPC RA plan. The 2025 cryptography account is a same-cycle adjustment with mixed formal/stable-verbal offer statuses; its page also displays an update date of 2025-09-18. It is not a Hong Kong admission or next-year reapplication case.
+
+The CUHK RA author's paid application services are disclosed. The CUHK 2018 author's own Live promotion is disclosed without assuming a price from an unvisited payment page. No contacts, raw posts, precise grades, decision identifiers or identifiable PI allegations are included. All outcomes remain self-reports; no employment contracts, admission letters, funding or enrollment were independently verified. The conflicting-year HKU medical RA-to-PhD narrative remains excluded. Recent Hong Kong engineering MPhil and full-time RA employment-detail gaps remain open.
+
+## Browser boundary at preparation
+
+The updated sixteen-case browser suite and the unchanged full browser smoke suite were attempted against the candidate. Chromium aborts before launching with `socket() failed: Operation not permitted`; neither suite reaches a page assertion. No new browser, mobile, screenshot or visual acceptance is claimed. The prior release's desktop spot-checks below are not acceptance of the new five cases.
+
+## Release gate
+
+Publication requires separate authorization. Recheck remote main, review the exact changed-file manifest and source boundaries, rerun freeze and all Node tests after any edits, then verify the exact CI/Pages commit and online reading flows. Do not upload the surrounding research directory. Current manifest metadata records this preparation snapshot; the older manifest discussion in the retained record below concerns the earlier release snapshot.
+
+---
+
+## Retained eleven-case baseline documentation
+
 # GradCompass experience expansion QA
 
 ## Current release status (2026-10-01)

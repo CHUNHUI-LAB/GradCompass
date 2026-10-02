@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "baseCommit": "f90ec1e7d47b0b88df25be81f5fc26ec8e63092b",
-  "reviewDate": "2026-10-01",
-  "status": "reviewed_content_candidate",
+  "baseCommit": "b61dacd67ed480620fa2c88f7a94bf059cda8df9",
+  "reviewDate": "2026-10-02",
+  "status": "reviewed_content",
   "sourcePolicy": "Only independently addressable public first-person sources with reviewed main text; personal outcomes remain self-reported. No admission rules imported.",
   "records": [
     {
@@ -124,12 +124,88 @@
         "summary": "正文语言准备与两阶段联系导师记录",
         "dateNote": "正文日期与搜索日期差异"
       }
+    },
+    {
+      "id": "grad-gter-chuyeyue-ra-phd-2024",
+      "url": "https://bbs.gter.net/thread-2553299-1-1.html",
+      "scope": "两处同文主帖正文及返回的可见回复已核读；2024-06-13 结果更新与主帖为同一作者账号。同文合为一例，其他评论不作为结果证据；未核验录取信。",
+      "dateInterpretation": "主帖发表于 2023-04-11；结果来自原作者 2024-06-13 15:45 的回复。初帖与次年更新分层，不由回复推断 RA 任职日期。",
+      "bachelorApplicability": "可参考本科阶段转向研究岗位与下一轮申请的安排；个案结果不证明当前资格、名额或 RA 转博承诺。",
+      "fieldLocations": {
+        "authorContext": "个人 BG",
+        "summary": "开篇转向港英 / RA 段",
+        "outcome": "个人申请状况 / 同页 2024-06-13 原作者回复",
+        "commercialDisclosure": "主帖文末付费文书与辅导报价"
+      },
+      "reviewedAt": "2026-10-02",
+      "identityCrossCheck": "同文申请总结页与结果回复的作者账号标识一致；正文和后续回复分层。",
+      "corroboratingPublicUrl": "https://bbs.gter.net/thread-2553238-1-1.html"
+    },
+    {
+      "id": "grad-gter-sscomebady-mphil-2018",
+      "url": "https://bbs.gter.net/thread-2152807-1-1.html",
+      "scope": "主帖正文与第一页可见回复已核读；第二页回复未读。摘要只依据原作者主帖，不采纳他人评论作为该申请结果。",
+      "dateInterpretation": "发表于 2018-03-06，页面标注作者于 2018-08-21 编辑；正文时间轴为 2017—2018 年。",
+      "bachelorApplicability": "可参考不同本科背景下的准备与备选安排；历史结果不证明当前招生门槛、个人录取概率或资金落实。",
+      "fieldLocations": {
+        "authorContext": "背景",
+        "summary": "时间轴 / 套磁、面试与申请",
+        "outcome": "2018.02 推研 / 2018.03 正式 offer",
+        "commercialDisclosure": "背景段知乎 Live 推广"
+      },
+      "reviewedAt": "2026-10-02"
+    },
+    {
+      "id": "grad-gter-imhigh-hkust-mphil-2015",
+      "url": "https://f.gter.net/details/XmD1qfnXGTDm",
+      "scope": "迁移页主帖文字正文及 2014—2015 时间轴完整核读；原背景另链、附件和评论未用于取证，未核验录取信。",
+      "dateInterpretation": "原发表日未知；依据正文明确的 2015—2016 学年与 2014—2015 时间轴归档，迁移页两处显示日期不作申请时间。",
+      "bachelorApplicability": "可参考本科申请研究型硕士的材料与状态管理；历史录取不证明当季资格、流程或成功率。",
+      "fieldLocations": {
+        "authorContext": "申请项目列表 / 2014年9月在读证明",
+        "summary": "0 申请过程 / 3 申请准备",
+        "outcome": "0 申请过程 2015年2—4月",
+        "dateNote": "页头1970 / 页尾2020 / 正文2015—2016学年"
+      },
+      "reviewedAt": "2026-10-02"
+    },
+    {
+      "id": "grad-drishti-akash-hkust-intern-2023",
+      "url": "https://drishti-iitdh.github.io/intern-diaries-akash/",
+      "scope": "正文完整核读；评论需另行加载，未读；未使用图片或外链证明成果。",
+      "dateInterpretation": "页面标注发表于 2023-09-06，叙述当年暑研；HPCA 2024 是投稿会议年份，不是文章发表日。",
+      "bachelorApplicability": "可参考本科阶段寻找科研入口；相关经历不是当前 RA 雇佣条件、学位申请资格或论文接受的证据。",
+      "fieldLocations": {
+        "authorContext": "Introduction / Why Academic Research",
+        "summary": "Navigating the Application Journey / Academic Voyage",
+        "outcome": "Academic Voyage / Uncharted Horizons",
+        "commercialDisclosure": "Concluding Remarks"
+      },
+      "reviewedAt": "2026-10-02"
+    },
+    {
+      "id": "grad-wangbard-cryptography-phd-2025",
+      "url": "https://wangbard.github.io/posts/PhD%E7%94%B3%E8%AF%B7%E7%BA%AA%E5%AE%9E/",
+      "scope": "正文与完整申请时间表已核读；评论未读，未使用外链、图片或决定信作为证据。",
+      "dateInterpretation": "页面标注发表于 2025-06-23、更新于 2025-09-18；正文早段停在 4 月，后段补充 5—6 月 UvA 结果，应按更新后的完整记录阅读。",
+      "bachelorApplicability": "可参考已有硕士背景的研究面试与同季调整；不是机器人、香港录取或本科直博资格证据。",
+      "fieldLocations": {
+        "authorContext": "开篇个人情况",
+        "summary": "申请时间表 / UvA 补充段",
+        "outcome": "时间表前口头 offer 定义 / UvA 补充段",
+        "dateNote": "页头发布时间与更新时间 / 前段4月与后段5—6月"
+      },
+      "reviewedAt": "2026-10-02"
     }
   ],
   "excludedSourceCategories": [
     {
       "category": "Master-to-PhD logistics timeline on Xiaohongshu",
       "reason": "No reusable public permalink; signed session URL, offer image and personal identifiers excluded."
+    },
+    {
+      "category": "HKU medical RA-to-PhD student handbook account",
+      "reason": "Opening narrative and detailed timeline disagree on RA employment and PhD transition years; held pending clarification, not treated as a completed chronological case."
     }
   ],
   "officialPolicy": "No new current admission claims, thresholds, fees, deadlines or recruitment counts. Historical claims about admission mechanisms explicitly excluded. Existing official data remains unchanged.",

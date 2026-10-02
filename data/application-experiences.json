@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-01",
+  "checkedAt": "2026-10-02",
   "scope": "历史亲历与准备方法，独立于官方招生、导师与机会库",
   "records": [
     {
@@ -335,6 +335,165 @@
       "collection": "bachelor",
       "evidenceType": "first_person_self_report",
       "checkedAt": "2026-10-01",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-gter-chuyeyue-ra-phd-2024",
+      "title": "医工交叉申请受挫后的 CUHK RA offer 与次年申博更新",
+      "url": "https://bbs.gter.net/thread-2553299-1-1.html",
+      "platform": "寄托家园",
+      "author": "chuyeyue",
+      "publishedAt": "2023-04-11",
+      "applicableCycle": "2023—2024 历史申请季；RA 岗位 offer 与次年 PhD 结果分别记录",
+      "authorContext": "武大计算机本科背景，自述三段科研涉及 HCI、医疗定位与手术控制；一篇中文核心、另一篇期刊论文在投，不能写成均已发表。",
+      "outcome": "2023 年初帖自述获得 CUHK RA offer，但最终去向未定；2024-06-13 原作者回复自报获 NUS、悉尼、UNSW、CUHK 的 PhD 结果并选择 CUHK。未说明 RA 实际入职和合同起止，也未独立核验学位录取或入学。",
+      "summary": "在日本申请受挫后，作者于 2023 年 3 月转向港英导师，获得贴合医工兴趣的 CUHK RA offer。次年回复补充了新的 PhD 结果；这条跨申请季转路可供参考，但不能补写成在职满一年后自动转博。",
+      "actionableMethods": [
+        "把岗位 offer、实际入职、再次申博、学位 offer、接受与入学分别记录，缺失状态留空",
+        "提前安排并行路线，给转向申请预留材料和联系时间",
+        "核对作者后续更新，同时保留初帖当时尚未确定的状态"
+      ],
+      "excludedClaims": [
+        "不把日本修士沿用作者自定义的 MPhil 分类",
+        "不采纳作者对导师、学校或群体的负面概括及录取难度判断",
+        "不使用旧帖薪资、语言、奖学金或招生规则作为当前要求",
+        "RA 实际任职未证实；不能推断 RA 保证转博，也不是香港 MPhil 录取案例"
+      ],
+      "commercialDisclosure": "作者文末销售文书和申请辅导服务，存在商业利益；不推广服务，不转载报价或联系方式。",
+      "readScope": "两处同文主帖正文及返回的可见回复已核读；2024-06-13 结果更新与主帖为同一作者账号。同文合为一例，其他评论不作为结果证据；未核验录取信。",
+      "collection": "bachelor",
+      "background": "计算机本科，医工交叉科研；RA offer 后跨季申博",
+      "dateNote": "主帖发表于 2023-04-11；结果来自原作者 2024-06-13 15:45 的回复。初帖与次年更新分层，不由回复推断 RA 任职日期。",
+      "bachelorApplicability": "可参考本科阶段转向研究岗位与下一轮申请的安排；个案结果不证明当前资格、名额或 RA 转博承诺。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-02",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-gter-sscomebady-mphil-2018",
+      "title": "历史案例：二本工科背景的 CUHK MPhil 与考研并行准备",
+      "url": "https://bbs.gter.net/thread-2152807-1-1.html",
+      "platform": "寄托家园",
+      "author": "sscomebady",
+      "publishedAt": "2018-03-06",
+      "applicableCycle": "2018 历史申请季；不能用作当季门槛",
+      "authorContext": "二本学院本科，自述均分较高、三段实验室经历，三篇 SCI 中两篇非一作已接受、一篇一作在投，并有专利与竞赛经历。具体理工院系未披露，不能只以二本标签概括竞争力。",
+      "outcome": "自述 2018 年 1 月获三位老师面试联系、2 月 CUHK MPhil 推研、3 月正式 offer；其他申请当时未明，未核验录取信或实际入学。",
+      "summary": "作者从 2017 年春准备赴港，先完成语言，再准备材料、导师联系与网申，同时保留国内考研路线。价值在准备顺序与备选安排，不是低门槛或单靠论文即可录取的证据。",
+      "actionableMethods": [
+        "把院校背景、成绩与科研状态放在一起看，区分在投和接受",
+        "用真实研究经历准备面试中的细节追问",
+        "同时规划目标路线与备选方案，分别记录推研和正式 offer"
+      ],
+      "excludedClaims": [
+        "2018 年历史样本，不据此推断当前录取难度、语言要求、奖学金或学制",
+        "专业未公开，不标为机器人或 CS 专项录取",
+        "不把背景自述或标题中的全奖表述视为已核实资金条款"
+      ],
+      "commercialDisclosure": "正文推广作者自己的知乎 Live 讲堂，存在导流利益；本次未另行核验讲堂收费页面，不转载推广链接或联系方式。",
+      "readScope": "主帖正文与第一页可见回复已核读；第二页回复未读。摘要只依据原作者主帖，不采纳他人评论作为该申请结果。",
+      "collection": "bachelor",
+      "background": "二本工科本科，高成绩与多段科研",
+      "dateNote": "发表于 2018-03-06，页面标注作者于 2018-08-21 编辑；正文时间轴为 2017—2018 年。",
+      "bachelorApplicability": "可参考不同本科背景下的准备与备选安排；历史结果不证明当前招生门槛、个人录取概率或资金落实。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-02",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-gter-imhigh-hkust-mphil-2015",
+      "title": "历史案例：HKUST ECE 从非正式支持到接受 MPhil offer",
+      "url": "https://f.gter.net/details/XmD1qfnXGTDm",
+      "platform": "寄托家园",
+      "author": "i_m_high",
+      "publishedAt": null,
+      "applicableCycle": "2015—2016 学年历史申请；迁移页日期不可作申请日期",
+      "authorContext": "申请时本科在读，同时申请 HKUST 的 EE 授课硕士与 ECE MPhil、PhD。个人背景另链未核读，成绩和论文情况留空。",
+      "outcome": "自述 2015 年 2 月面试后取得导师非正式录取，3 月拒绝 MSc 正式 offer 及另一位老师的 PhD recruitment 邀请，4 月接受 MPhil ECE 正式 offer；邀请不计作 PhD 录取。",
+      "summary": "这份旧帖清楚区分了同校不同学位的状态：先获导师非正式支持，再等待正式通知，最终接受 MPhil。可以借鉴状态记录方式和材料分工；当年的流程与要求不能直接照搬。",
+      "actionableMethods": [
+        "分别标记导师邀请、非正式支持、正式 offer 与接受 offer",
+        "让 CV、研究计划和推荐材料各自说明研究能力的不同侧面",
+        "把具体学位选择与研究目标对应，不按学历名称代替个人判断"
+      ],
+      "excludedClaims": [
+        "迁移页显示 1970-01-01 和 2020-04-10，均不选作原发表日",
+        "PhD recruitment 仅为邀请，不扩写为正式 PhD offer",
+        "旧材料、语言、入境、住宿和招生流程不作为当前清单",
+        "个人背景另链未恢复，不推测成绩、论文或录取原因"
+      ],
+      "commercialDisclosure": "所读正文未见作者销售申请服务；外链和账号其他内容未审计。",
+      "readScope": "迁移页主帖文字正文及 2014—2015 时间轴完整核读；原背景另链、附件和评论未用于取证，未核验录取信。",
+      "collection": "bachelor",
+      "background": "本科在读，同校多学位混申",
+      "dateNote": "原发表日未知；依据正文明确的 2015—2016 学年与 2014—2015 时间轴归档，迁移页两处显示日期不作申请时间。",
+      "bachelorApplicability": "可参考本科申请研究型硕士的材料与状态管理；历史录取不证明当季资格、流程或成功率。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-02",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-drishti-akash-hkust-intern-2023",
+      "title": "相关经历：HKUST 计算机体系结构暑研的联系、面试与项目",
+      "url": "https://drishti-iitdh.github.io/intern-diaries-akash/",
+      "platform": "Drishti / IIT Dharwad",
+      "author": "Akash Poptani",
+      "publishedAt": "2023-09-06",
+      "applicableCycle": "2023 暑期科研实习；不是全职 RA 或 MPhil 录取",
+      "authorContext": "IIT Dharwad 电气工程本科高年级，自述先在本校参与小项目，再探索计算机体系结构等方向；与内地本科申请背景不同。",
+      "outcome": "自述获得并完成 HKUST 暑研，同时远程参与 ASU 项目；结束时向 HPCA 2024 投稿，不是论文录用。文末 UPC RA 只是未来计划，未证实已入职。",
+      "summary": "作者通过联系教授、成绩单和 CV 筛选及视频面试进入研究组，随后与博士生合作多 AI 核处理器项目。它补充科研入口的具体过程，不能当作全职 RA 雇佣或学位录取经验。",
+      "actionableMethods": [
+        "先用实际小项目探索方向，再说明与目标组的研究联系",
+        "准备解释个人贡献和已有研究，而非只列兴趣名称",
+        "成果区分投稿与接受，暑研和雇佣岗位分别核对"
+      ],
+      "excludedClaims": [
+        "不是 MPhil 录取，也不是已核实的全职 RA 工作",
+        "工资、合同、签证和完整投递数量未披露",
+        "HPCA 2024 仅投稿；UPC RA 为计划，不写作已发生",
+        "不将个人的研究体验推广为所有课题组安排"
+      ],
+      "commercialDisclosure": "学生经验栏目声明观点属于作者；正文有为意向学生引荐的表述，未见收费说明，本摘要不转载联系或引荐信息。",
+      "readScope": "正文完整核读；评论需另行加载，未读；未使用图片或外链证明成果。",
+      "collection": "bachelor",
+      "background": "EE 本科，计算机体系结构暑研",
+      "dateNote": "页面标注发表于 2023-09-06，叙述当年暑研；HPCA 2024 是投稿会议年份，不是文章发表日。",
+      "bachelorApplicability": "可参考本科阶段寻找科研入口；相关经历不是当前 RA 雇佣条件、学位申请资格或论文接受的证据。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-02",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-wangbard-cryptography-phd-2025",
+      "title": "相关经历：密码学 PhD 同季受挫后的 UvA 转折",
+      "url": "https://wangbard.github.io/posts/PhD%E7%94%B3%E8%AF%B7%E7%BA%AA%E5%AE%9E/",
+      "platform": "Personal blog / GitHub Pages",
+      "author": "Wangbard",
+      "publishedAt": "2025-06-23",
+      "applicableCycle": "2025 入学申请季；同季转折，非隔年重申或香港录取",
+      "authorContext": "爱丁堡大学计算机本硕，申请密码学 PhD。正文没有 GPA 或论文数量，不补填；该研究方向不是机器人。",
+      "outcome": "作者先后经历 KCL、ETH、IBM Research 等面试受挫，后补充 UvA 两轮面试、获得 offer 并选择欧洲。列表勾选项混合正式与稳定口头 offer，不能全部统计为正式录取；实际入学未核验。",
+      "summary": "2024 年 9 月启动申请后，作者逐渐扩大地区范围；原本准备接受 UNSW 时获得 UvA 机会，重做硕士论文展示并完成面试。结果是在同一申请季后段改变，不是失败后隔年重申。",
+      "actionableMethods": [
+        "记录面试后的复盘与研究展示改进",
+        "结果表区分正式 offer、口头意向和最终选择",
+        "保留每次结果的时间，避免把早期状态当作最终结论"
+      ],
+      "excludedClaims": [
+        "同一申请季的追加机会，不标为跨年重申",
+        "没有香港 MPhil 或 RA 录取结果，作为相关经验阅读",
+        "不补填 GPA、论文数量，不将全部勾选项写成正式 offer",
+        "导师合作关系不能当作录取原因已获证明"
+      ],
+      "commercialDisclosure": "所读正文未见申请服务销售；页面标注 CC BY 4.0，摘要为编者中文归纳并保留作者与原文链接。",
+      "readScope": "正文与完整申请时间表已核读；评论未读，未使用外链、图片或决定信作为证据。",
+      "collection": "cross-background",
+      "background": "计算机本硕 → 密码学 PhD",
+      "dateNote": "页面标注发表于 2025-06-23、更新于 2025-09-18；正文早段停在 4 月，后段补充 5—6 月 UvA 结果，应按更新后的完整记录阅读。",
+      "bachelorApplicability": "可参考已有硕士背景的研究面试与同季调整；不是机器人、香港录取或本科直博资格证据。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-02",
       "rulesImpact": "none"
     }
   ]

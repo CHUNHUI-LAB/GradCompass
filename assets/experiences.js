@@ -33,9 +33,14 @@ const synthesis={
   "grad-reddit-cs-interviews-2025",
   "grad-ngaizean-hkustgz-2026",
   "grad-szu-mingkangchen-2025",
-  "grad-xhs-xiga-ra-mphil-2025"
+  "grad-xhs-xiga-ra-mphil-2025",
+  "grad-gter-chuyeyue-ra-phd-2024",
+  "grad-gter-sscomebady-mphil-2018",
+  "grad-gter-imhigh-hkust-mphil-2015",
+  "grad-drishti-akash-hkust-intern-2023",
+  "grad-wangbard-cryptography-phd-2025"
  ],
- "intro": "这些案例覆盖本科申硕、跨专业、硕士申博和工作后返校做研究。它们提供不同环节的准备方法，不代表录取规律。",
+ "intro": "这些案例覆盖本科申硕、跨专业、硕士申博、工作后返校做研究，也包括暑研入口和申请受挫后的调整。它们提供不同环节的准备方法，不代表录取规律；2015 与 2018 年案例已明确标为历史。",
  "steps": [
   {
    "title": "先明确想学什么，再找对应项目与导师",
@@ -49,28 +54,31 @@ const synthesis={
   },
   {
    "title": "把材料拆成清单，也给核验和推荐留时间",
-   "text": "除了文书和推荐，德国机器人案例还涉及课程说明、学历预审和语言条件。可把这些与各项目额外写作任务分开安排，再回官网确认本年度要求。",
+   "text": "除了文书和推荐，德国机器人案例还涉及课程说明、学历预审和语言条件。可把这些与各项目额外写作任务分开安排，再回官网确认本年度要求。 2018 年 CUHK 案例把语言、港校网申与国内考研分阶段安排；2015 年 HKUST 案例则区分材料各自说明的能力。旧帖只参考组织方法。",
    "sourceIds": [
     "grad-robotics-eth-xiang-2022",
     "grad-sustech-yunzx-2023",
     "grad-ptt-tum-rci-2022",
-    "grad-xhs-xiga-ra-mphil-2025"
+    "grad-xhs-xiga-ra-mphil-2025",
+    "grad-gter-sscomebady-mphil-2018",
+    "grad-gter-imhigh-hkust-mphil-2015"
    ]
   },
   {
    "title": "面试准备具体到研究、作业与追问",
-   "text": "这里既有研究报告，也有读论文完成作业后再解释思路的面试。另一篇 CS 自述显示，面试官对拓展讨论的期待并不相同。准备应以真实邀请要求为起点，不能照抄一种模板。",
+   "text": "这里既有研究报告，也有读论文完成作业后再解释思路的面试。另一篇 CS 自述显示，面试官对拓展讨论的期待并不相同。准备应以真实邀请要求为起点，不能照抄一种模板。 密码学案例的后段转折也涉及重新组织硕士论文展示；这不证明展示改进是录取的唯一原因。",
    "sourceIds": [
     "grad-dcard-ece-ra-phd-2025",
     "grad-dcard-bme-ece-2026",
     "grad-reddit-cs-interviews-2025",
     "grad-europe-tinsir-2025",
-    "grad-szu-mingkangchen-2025"
+    "grad-szu-mingkangchen-2025",
+    "grad-wangbard-cryptography-phd-2025"
    ]
   },
   {
    "title": "持续记状态，把录取、候补、放弃和资助分开",
-   "text": "结果表不只记录拿到哪些录取。不同案例还有条件录取、候补后拒绝、主动放弃考核、未回复，以及研究有兴趣但资助不合适。同一学校的不同项目也可能给出不同结果。 尚在办理合同或计划以后申请的经历，要保留未完成状态。",
+   "text": "结果表不只记录拿到哪些录取。不同案例还有条件录取、候补后拒绝、主动放弃考核、未回复，以及研究有兴趣但资助不合适。同一学校的不同项目也可能给出不同结果。 尚在办理合同或计划以后申请的经历，要保留未完成状态。 新补充的 CUHK 案例须分开 2023 年 RA offer 与 2024 年 PhD 更新；HKUST 旧帖还区分 PhD 招募邀请与正式学位 offer。",
    "sourceIds": [
     "grad-bjut-mty-2026",
     "grad-ptt-tum-rci-2022",
@@ -79,19 +87,23 @@ const synthesis={
     "grad-europe-tinsir-2025",
     "grad-ngaizean-hkustgz-2026",
     "grad-szu-mingkangchen-2025",
-    "grad-xhs-xiga-ra-mphil-2025"
+    "grad-xhs-xiga-ra-mphil-2025",
+    "grad-gter-chuyeyue-ra-phd-2024",
+    "grad-gter-imhigh-hkust-mphil-2015"
    ]
   }
  ],
  "differences": [
   {
    "title": "RA 是经历，不是学位或保录承诺",
-   "text": "这里既有硕士毕业后返校做 RA，也有本科阶段联系课题组、做研究再申请的经历。它们可用于了解研究安排，不能推导 RA 转博保证或其他项目的录取资格。 小红书案例发帖时仍在办合同和签证，也不能称作已获 MPhil 录取。",
+   "text": "这里既有硕士毕业后返校做 RA，也有本科阶段联系课题组、做研究再申请的经历。它们可用于了解研究安排，不能推导 RA 转博保证或其他项目的录取资格。 小红书案例发帖时仍在办合同和签证，也不能称作已获 MPhil 录取。 CUHK 后续申博更新没有补齐 RA 实际任职；HKUST 暑研则是科研实习，不能混写为全职 RA。",
    "sourceIds": [
     "grad-dcard-ece-ra-phd-2025",
     "grad-ngaizean-hkustgz-2026",
     "grad-szu-mingkangchen-2025",
-    "grad-xhs-xiga-ra-mphil-2025"
+    "grad-xhs-xiga-ra-mphil-2025",
+    "grad-gter-chuyeyue-ra-phd-2024",
+    "grad-drishti-akash-hkust-intern-2023"
    ]
   },
   {
@@ -102,6 +114,16 @@ const synthesis={
     "grad-sustech-yunzx-2023",
     "grad-ptt-tum-rci-2022",
     "grad-dcard-bme-ece-2026"
+   ]
+  },
+  {
+   "title": "历史样本与相关经历分别取用",
+   "text": "两篇历史 MPhil 个案提供已结束的选择过程，不证明当季门槛。暑研案例只补充科研入口；密码学申博是同季受挫后调整，与跨申请季再申不同。背景标签也要与成绩、科研和论文状态一起看，不能简化为低背景逆袭。",
+   "sourceIds": [
+    "grad-gter-sscomebady-mphil-2018",
+    "grad-gter-imhigh-hkust-mphil-2015",
+    "grad-drishti-akash-hkust-intern-2023",
+    "grad-wangbard-cryptography-phd-2025"
    ]
   }
  ]
