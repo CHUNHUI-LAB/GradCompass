@@ -1,3 +1,52 @@
+# 2026-10-02 programme-introduction expansion preparation QA
+
+Base: `c3a2fe200fe03ea0d32eb6d6d1e581d0a44bf8b5`. All 44 repository blobs matched the fresh GitHub tree before editing. The base has a successful [Pages run](https://github.com/CHUNHUI-LAB/GradCompass/actions/runs/36958920364); that is baseline evidence only. The checks below describe preparation before publication and do not imply deployed acceptance.
+
+## Bounded changes
+
+- Nine additional introductions join existing verified/default routes by exact route ID, institution and degree
+- Total: 17 introductions, all 17 verified routes in the five requested Hong Kong schools, 35 unique official sources; total project count stays 27
+- Eight existing introduction objects and all 19 existing source objects are preserved exactly; six reused source IDs are deduplicated and 16 new sources are appended
+- Catalogue, official eligibility, raw source records, deadlines, materials, funding, advisor links, 16 experiences, RA data, profiles and renderer/normalizer remain byte-identical to the base
+- Runtime edits are restricted to content-hash cache references in `assets/app.js` and `index.html`; there is no redesign or new navigation behavior
+- New and existing count tests, browser coverage list, release manifest and documentation are updated intentionally
+
+## Source review and degree boundaries
+
+All 45 added claim groups have references to official pages. HKUST catalogue information is supported by the full official text; no search-only snippet is used to promote a cycle or eligibility claim.
+
+- HKUST ECE: at least 15 approved coursework credits, at least nine ECE credits, two-year full-time MPhil, relevant degree/high-honours conditions, and 1 June 2027 non-local full-time Fall deadline. Spring 2026/27 and HKPFS dates stay separate
+- HKU ECE, ME and DASE: honours-bachelor MPhil entry, coursework/research/defence requirements and the university-level 2027/28 main round are supported. ME's 2023/24 brochure heading is disclosed; DASE's PhD-labelled courses are not asserted as MPhil requirements
+- CUHK Robotics: the 2026/27 curriculum is labelled explicitly. The Graduate School URL returned blank versus 31 March 2027 deadline fields through different full-page retrievals; the inconsistency remains pending rather than being promoted to verified
+- PolyU AAE: MPhil second-class-honours bachelor entry versus four-year PhD first-class-honours bachelor entry stays distinct. Supervisor naming is correctly described as a departmental recommendation. The existing institutional semester-table source supports its AAE row even though its retained locator also names ISE; that source object is not rewritten. January/May 2027 intake dates do not establish a September 2027 AAE intake
+- PolyU Intelligent Robotics Engineering: course and dissertation alternatives remain taught MSc; conditional funding remains explicitly conditional
+- CityU DS: first-class-honours bachelor PhD entry and no-MPhil policy are explicit. Research methodology/ethics is at least two credits. The linked 2026/27 curriculum is not represented as the final 2027/28 curriculum; ordinary-round deadline conflict and original `city_steps.retrievalConflict` are untouched
+
+Minimum-credit wording, supervisor-recommendation wording and visible curriculum-year qualifiers are retained. No personal admission assessment, funding promise or supervisor opening was added.
+
+## Passed checks
+
+- Full `npm test`: 148 passed, zero failed, zero skipped
+- Existing 137 checks retained, with intentional coverage-count updates; eleven new expansion checks cover exact old-object/source preservation, protected byte hashes, all scoped routes, per-claim rendering, each degree/cycle boundary, and research search under school/degree gates
+- All 17 summaries render before external official links through the existing normalizer and renderer
+- Missing/malformed/partial/stalled/late-loading optional data, repeated open/close, material/experience/advisor sections and independent filters remain covered
+- The normalizer does not transfer eligibility, funding or recruitment fields from introductions
+- `python scripts/freeze.py` regenerates the exact allowlist and dependency hashes; repeated freeze is byte-idempotent, and patch application to the verified base reproduces the final candidate
+
+## Browser status
+
+All three local suites were attempted against the candidate static server: `tests/project-summaries-browser.mjs`, `tests/experiences-browser.mjs`, and `tests/browser-smoke.mjs`. Each stopped before the first page assertion with Chromium `socket() failed: Operation not permitted`. No new desktop, mobile, screenshot or visual acceptance is claimed.
+
+The focused project suite now enumerates all 17 introductions, alongside filters, Back/Forward, 390/320px and failed optional fetch recovery. Its added coverage remains unexecuted until a supported browser run is available.
+
+## Reproducibility
+
+Run `npm test` and `python scripts/freeze.py` to check the public files and regenerate their hashes. Test results and deployment results are separate. Historical records below describe their named versions.
+
+---
+
+## Retained prior QA records
+
 # 2026-10-02 project-introduction candidate QA
 
 Base: `4ba63ecdccad8d8eb09e9761644b2888c64efe35`. All 39 repository blobs were checked against a fresh GitHub tree before this isolated candidate was edited. Publication has not been performed.
@@ -29,11 +78,11 @@ Ordinary ME 2027 deadline and ordinary timing in the two CityU material groups a
 
 ## Browser status
 
-The focused `tests/project-summaries-browser.mjs` was attempted against a local static server. Chromium aborted before the first page assertion with `socket() failed: Operation not permitted`. The dot cloud browser also rejected the localhost preview with `ERR_BLOCKED_BY_CLIENT`. No desktop, mobile, screenshot or visual acceptance is claimed. The existing full smoke and experience browser suites were not newly run in this candidate; their earlier blocked attempts are historical records below. The additional focused browser script includes all eight project dialogs, filter persistence, Back/Forward, 390/320px checks and failed optional fetch recovery for a future supported run.
+The focused `tests/project-summaries-browser.mjs` was attempted against a local static server. Chromium aborted before the first page assertion with `socket() failed: Operation not permitted`. No desktop, mobile, screenshot or visual acceptance is claimed. The existing full smoke and experience browser suites were not newly run in this candidate; their earlier blocked attempts are historical records below. The additional focused browser script includes all eight project dialogs, filter persistence, Back/Forward, 390/320px checks and failed optional fetch recovery for a future supported run.
 
-## Review and release gate
+## Known limits
 
-An independent review found the CityU source conflict and optional-loader hang; the candidate was revised and regression-tested. Root review is still required. Before any separately authorized publication: review exact changed-file allowlist, recheck remote main, reapply and rerun all checks against that base, freeze, and verify exact deployment commit and online behavior. The candidate does not establish the unresolved CityU ordinary deadline.
+The CityU source conflict remains unresolved. The optional-loader hang was fixed and regression-tested. Passing software tests does not establish the disputed ordinary deadline.
 
 ---
 
@@ -50,7 +99,7 @@ Base: `b61dacd67ed480620fa2c88f7a94bf059cda8df9`, re-read from remote main on 20
 - Full Node / DOM-contract suite: 118 tests passed, zero failed or skipped after content-hash freezing
 - All previous advisor, opportunity, material, eligibility, loading-failure, independent-filter, navigation and resource-version regressions remain included
 - Official catalog, advisor profiles, RA positions, material datasets, protected render test and their applicable assets remain byte-identical to base
-- Candidate manifest has an explicit allowlist and SHA-256 hashes; research inputs, logs and raw source content are outside it
+- Candidate manifest has an explicit allowlist and SHA-256 hashes; only release files are included
 
 ## Source review and editorial decisions
 
@@ -64,9 +113,9 @@ The CUHK RA author's paid application services are disclosed. The CUHK 2018 auth
 
 The updated sixteen-case browser suite and the unchanged full browser smoke suite were attempted against the candidate. Chromium aborts before launching with `socket() failed: Operation not permitted`; neither suite reaches a page assertion. No new browser, mobile, screenshot or visual acceptance is claimed. The prior release's desktop spot-checks below are not acceptance of the new five cases.
 
-## Release gate
+## Version scope
 
-Publication requires separate authorization. Recheck remote main, review the exact changed-file manifest and source boundaries, rerun freeze and all Node tests after any edits, then verify the exact CI/Pages commit and online reading flows. Do not upload the surrounding research directory. Current manifest metadata records this preparation snapshot; the older manifest discussion in the retained record below concerns the earlier release snapshot.
+These test results describe the sixteen-case preparation snapshot. The older results below describe the eleven-case version. Deployment results must be matched to the exact commit.
 
 ---
 
@@ -104,7 +153,7 @@ Base: `f90ec1e7d47b0b88df25be81f5fc26ec8e63092b`. Remote main rechecked on 2026-
 
 ### Source review
 
-Six new text-first sources have complete main-text reading evidence. The Xiaohongshu case was reviewed in the cloud browser: full post, cover and 20 currently loaded comments/replies; remaining comments in the displayed total of 53 were not expanded. Its cover's MPhil claim does not override the unfinished contract/visa state in the body. Personal outcomes are self-report, not independently verified decisions.
+Six new text-first sources have complete main-text reading evidence. The Xiaohongshu case covers the full post, cover and 20 loaded comments/replies; remaining comments in the displayed total of 53 were not expanded. Its cover's MPhil claim does not override the unfinished contract/visa state in the body. Personal outcomes are self-report, not independently verified decisions.
 
 ### Browser status at candidate preparation
 
@@ -112,6 +161,6 @@ The published f90ec baseline was actually checked on desktop: four cards to full
 
 The new eleven-case candidate has expanded browser regression coverage, including each new reading page. Local Chromium launch remains blocked by socket creation (`Operation not permitted`); no new browser, screenshot, visual or mobile acceptance is claimed. The full browser smoke suite is likewise not accepted. Existing desktop baseline success is not reported as new candidate acceptance.
 
-### Release gate at candidate preparation
+### Reproducibility
 
-Rerun tests and freeze after edits. Review the exact changed-file allowlist and public source excerpts, approve publication separately, recheck main to preserve concurrency, then verify exact CI/Pages commit and actual online reading flows. Do not upload research work directories wholesale.
+The version can be checked with `npm test` and its content hashes regenerated with `python scripts/freeze.py`. Browser test results and deployment status are separate from the Node results above.

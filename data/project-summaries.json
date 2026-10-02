@@ -145,6 +145,146 @@
       "url": "https://cerg1.ugc.edu.hk/hkpfs/apply.html",
       "section": "2027/28 initial application deadline",
       "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "ust_ece_catalog",
+      "label": "HKUST ECE 2027/28 项目目录",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ece",
+      "section": "Introduction; Research Foci; Curriculum; Admission Requirements; Application",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "2027/28 catalogue; includes Sep 2027 and Feb 2027 intakes; full page read via Exa after web fetch timeout"
+    },
+    {
+      "id": "ust_ece_admissions",
+      "label": "HKUST ECE 研究生申请要求",
+      "url": "https://ece.hkust.edu.hk/admissions/postgraduate",
+      "section": "Admission Requirements; Application",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Undated current departmental admissions page; full page read"
+    },
+    {
+      "id": "hku_ece_programme",
+      "label": "HKU ECE 研究学位与培养要求",
+      "url": "https://ece.hku.hk/study/rpg/",
+      "section": "RPg Programmes; Research Areas; Admissions; Coursework Requirements",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Undated current departmental page; body retains EEE naming; full page read"
+    },
+    {
+      "id": "hku_ece_research",
+      "label": "HKU ECE 研究方向",
+      "url": "https://ece.hku.hk/research/research-interests/",
+      "section": "Research Interests; faculty research interests",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Current faculty research directory; research topics only, no recruitment claim"
+    },
+    {
+      "id": "hku_mech_programme",
+      "label": "HKU 机械工程研究学位",
+      "url": "https://mech.hku.hk/research-postgraduate/",
+      "section": "Research Postgraduate; supervision, coursework, thesis and oral examination",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Undated current page; brochure heading still says 2023-24; does not establish a 2027 departmental intake"
+    },
+    {
+      "id": "hku_mech_research",
+      "label": "HKU 机械工程教师研究方向",
+      "url": "https://mech.hku.hk/research_foci/",
+      "section": "Research Foci of Professoriate Staff",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Current faculty research directory; selected examples from professoriate table, no vacancy inference"
+    },
+    {
+      "id": "hku_dase_programme",
+      "label": "HKU DASE 研究学位与院系要求",
+      "url": "https://www.dase.hku.hk/teaching-and-learning/prospective-students/mphil-phd",
+      "section": "Introduction; Major Research Areas; Admission Requirements; Departmental Requirements",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Undated current MPhil/PhD page; Departmental PhD Courses section is not treated as MPhil coursework requirements"
+    },
+    {
+      "id": "hku_rpg_apply",
+      "label": "HKU 研究学位普通申请步骤",
+      "url": "https://gradsch.hku.hk/prospective_students/application/how_to_apply",
+      "section": "Steps 1-4: choose programme, requirements, referees, online application",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Current Graduate School application workflow; not tied to a named supervisor"
+    },
+    {
+      "id": "hku_rpg_cycle_2027",
+      "label": "HKU 2027/28 研究学位校级申请轮次",
+      "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+      "section": "For 2027/28 Admission; Main Round and Clearing Rounds",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Explicit 2027/28 Graduate School timetable; full text read in both retrieval tools; school-level only"
+    },
+    {
+      "id": "cuhk_robotics_programme",
+      "label": "CUHK Robotics MSc 研究生院项目页",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-robotics",
+      "section": "Study Mode; Normative Study Period; Minimum Units; Admission Requirements; Application Deadline",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Same official URL returned inconsistent deadline visibility on 2026-10-02",
+      "retrievalConflict": {
+        "webFullTextObservation": "Application Deadline heading present but no date; 24 units, full-time 1 year / part-time 2 years",
+        "exaFullTextObservation": "31 March 2027; rolling applications until places filled",
+        "acceptedScope": "Use stable degree, duration, units and entry criteria. Do not mark 2027 deadline verified from this inconsistent retrieval.",
+        "checkedDate": "2026-10-02"
+      }
+    },
+    {
+      "id": "cuhk_robotics_curriculum",
+      "label": "CUHK Robotics MSc 院系课程说明",
+      "url": "https://www4.mae.cuhk.edu.hk/msc-in-robotics/",
+      "section": "Programme Objective; Programme of Study; Study Programme Requirements; ROSE5710-ROSE5910",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Explicitly labels intake 2026-2027 and April 30, 2026 deadline; use as 2026/27 curriculum reference, not 2027/28 final rules"
+    },
+    {
+      "id": "polyu_aae_programme",
+      "label": "PolyU AAE 研究学位与研究方向",
+      "url": "https://www.polyu.edu.hk/aae/study/research-postgraduate-programmes/",
+      "section": "Aims and Characteristics; Research Areas; Remarks; Entrance Year",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Department page displays September 2026 and Dec 1, 2025 HKPFS deadline; current staff topics do not establish 2027 Fall places"
+    },
+    {
+      "id": "polyu_rpg_thesis",
+      "label": "PolyU 研究学位论文与口试要求",
+      "url": "https://www.polyu.edu.hk/gs/rpghandbook/section10/",
+      "section": "Thesis Submission and Oral Examination",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Stable thesis/oral-examination requirement; web body labels 2026/27 while Exa/title retains 2025/26"
+    },
+    {
+      "id": "polyu_ire_programme",
+      "label": "PolyU Intelligent Robotics Engineering MSc 项目页",
+      "url": "https://www.polyu.edu.hk/me/study/taught-postgraduate-programmes/msc-in-intelligent-robotics-engineering/",
+      "section": "Sep 2027 Admission; Features; Entrance Requirements; Programme Structure; Dissertation Scholarship",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Explicit Sep 2027 entry; full page read; award subject to funding and availability"
+    },
+    {
+      "id": "city_ds_programme",
+      "label": "CityUHK Data Science PhD 项目与培养要求",
+      "url": "https://www.ds.cityu.edu.hk/en/programmes/postgraduate-programmes/phd-programme-data-science",
+      "section": "Admission Requirements; How to Apply; Programme Structure; Contact Us",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Web full page shows HKPFS 2027/28 and links 2026/27 catalogue; Exa full page retains HKPFS 2026/27 and 2025/26 catalogue",
+      "retrievalConflict": {
+        "webFullTextObservation": "HKPFS 2027/28; 20 PhD credit units; first-class bachelor route; MPhil applications not considered",
+        "exaFullTextObservation": "HKPFS 2026/27; same 20-credit and first-class-bachelor statements; MPhil applications not considered",
+        "acceptedScope": "Use stable entry and training statements. Preserve separate city_steps ordinary-round deadline conflict. Do not use funding amounts or infer a 2027 normal-round date.",
+        "checkedDate": "2026-10-02"
+      }
+    },
+    {
+      "id": "city_ds_overview",
+      "label": "CityUHK Data Science 博士培养目标与方向",
+      "url": "https://www.ds.cityu.edu.hk/en/programmes/postgraduate-programmes",
+      "section": "PhD programme paragraph and research areas",
+      "checkedDate": "2026-10-02",
+      "sourceVersion": "Current departmental postgraduate overview; distinguish PhD paragraph from taught MSDS/MSAIFS descriptions"
     }
   ],
   "records": [
@@ -475,6 +615,379 @@
           "text": "录取仍取决于学术表现、导师支持、名额和经费；RA 聘用、授课型 MSc 与本研究学位分开核对，不保证转博或资金。",
           "sourceIds": [
             "city_mne_programme"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "HKUST-ECE-MPhil",
+      "institution": "HKUST",
+      "degree": "MPhil",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "电子及计算机工程研究型硕士；控制与机器人系统是官方研究方向之一，涵盖优化、网络化感知与控制、多智能体、自主车辆及航空航天应用。",
+        "sourceIds": [
+          "ust_ece_catalog"
+        ]
+      },
+      "training": {
+        "text": "全日制标准学制 2 年；须修至少 15 学分获批课程，其中至少 9 学分属 ECE，并完成论文研究及口头答辩。另有教学、专业发展和英语训练要求。",
+        "sourceIds": [
+          "ust_ece_catalog"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "认可院校学士或同等资格可申请；院系进一步要求电子／计算机工程或相关理工科本科，并有较高荣誉成绩（high honors）。按正式在线流程申请，录取还看学术记录与研究潜力。",
+        "sourceIds": [
+          "ust_ece_catalog",
+          "ust_ece_admissions"
+        ]
+      },
+      "cycle": {
+        "text": "2027/28 秋季目录已公布，非本地全日制申请截止为 2027-06-01，滚动审理。目录同时列有 2026/27 春季与 HKPFS 日期，不能混作 MPhil 秋季截止。",
+        "sourceIds": [
+          "ust_ece_catalog"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "这里是 MPhil 研究学位，不能把同页 PhD、授课型 MSc 或广州项目的条件直接套用，也不代表具体导师名额或资助承诺。",
+          "sourceIds": [
+            "ust_ece_catalog",
+            "ust_ece_admissions"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "HKU-ECE-MPhil",
+      "institution": "HKU",
+      "degree": "MPhil",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "电机与计算机工程研究型硕士；院系涵盖生物医学、电能与控制、智能系统与网络、光子与电子。教师研究举例包括机器人控制、计算机视觉、三维视觉与具身智能。",
+        "sourceIds": [
+          "hku_ece_programme",
+          "hku_ece_research"
+        ]
+      },
+      "training": {
+        "text": "全日制 24 个月，结合导师指导研究、课程、论文与口试。院系 MPhil 课程要求为 ELEC7001，加 3 门 RPg 选修课，或 2 门 RPg 选修课加 1 门 MSc 课程；另须完成研究计划口头报告与研究研讨报告。",
+        "sourceIds": [
+          "hku_mphil_regulations",
+          "hku_ece_programme"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "荣誉学士或经大学认可的同等资格可获考虑，无须先取得硕士；仍须满足学院附加条件及可能的资格考试。经研究生院普通网申，并准备两位学术推荐人。",
+        "sourceIds": [
+          "hku_mphil_regulations",
+          "hku_rpg_apply"
+        ]
+      },
+      "cycle": {
+        "text": "研究生院已公布 2027/28 校级主轮：2026-09-01 至 2026-12-01（香港时间 23:59）；补录仅在主轮后仍有名额时考虑。此校级时间表不证明院系或导师的 2027 秋季名额。",
+        "sourceIds": [
+          "hku_rpg_cycle_2027"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "本条仅覆盖 MPhil。院系页的四年制 PhD 简写不能替代完整博士门槛；研究方向列表也不等于导师正在招生。",
+          "sourceIds": [
+            "hku_mphil_regulations",
+            "hku_ece_programme",
+            "hku_ece_research"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "HKU-MECH-MPhil",
+      "institution": "HKU",
+      "degree": "MPhil",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "机械工程研究型硕士；机器人相关教师研究包括无人机自主飞行、地面机器人的视觉与控制、SLAM、手术机器人、机器人学习和具身智能，具体课题需匹配导师。",
+        "sourceIds": [
+          "hku_mech_programme",
+          "hku_mech_research"
+        ]
+      },
+      "training": {
+        "text": "全日制 24 个月，在至少一位导师指导下完成课程和研究。研究成果须写成论文，经内外部考核并参加口试；MPhil 转 PhD 需要完成相应条件及获批。",
+        "sourceIds": [
+          "hku_mech_programme",
+          "hku_mphil_regulations"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "荣誉学士或经大学认可的同等资格可获考虑，无须先取得硕士；仍须满足学院附加条件及可能的资格考试。经研究生院普通网申，并准备两位学术推荐人。",
+        "sourceIds": [
+          "hku_mphil_regulations",
+          "hku_rpg_apply"
+        ]
+      },
+      "cycle": {
+        "text": "研究生院已公布 2027/28 校级主轮：2026-09-01 至 2026-12-01（香港时间 23:59）；补录仅在主轮后仍有名额时考虑。此校级时间表不证明院系或导师的 2027 秋季名额。",
+        "sourceIds": [
+          "hku_rpg_cycle_2027"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "院系页仍保留 2023/24 招生手册标题；本条据现行学位条例和校级 2027/28 时间表分开说明，不把旧手册视为新的院系招生公告。",
+          "sourceIds": [
+            "hku_mech_programme",
+            "hku_mphil_regulations",
+            "hku_rpg_cycle_2027"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "HKU-DASE-MPhil",
+      "institution": "HKU",
+      "degree": "MPhil",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "数据与系统工程研究型硕士，以数字企业技术为主要重点，覆盖机器人与自动化、信息物理系统、智能交通、系统分析，以及制造、物流与供应链等应用。",
+        "sourceIds": [
+          "hku_dase_programme"
+        ]
+      },
+      "training": {
+        "text": "全日制 24 个月，需完成课程、研究论文与口试。院系要求确认候选资格时口头汇报研究计划，并在提交论文题目前至少作一次研究研讨报告。",
+        "sourceIds": [
+          "hku_mphil_regulations",
+          "hku_dase_programme"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "荣誉学士或经大学认可的同等资格可获考虑，无须先取得硕士；仍须满足学院附加条件及可能的资格考试。经研究生院普通网申，并准备两位学术推荐人。",
+        "sourceIds": [
+          "hku_mphil_regulations",
+          "hku_rpg_apply"
+        ]
+      },
+      "cycle": {
+        "text": "研究生院已公布 2027/28 校级主轮：2026-09-01 至 2026-12-01（香港时间 23:59）；补录仅在主轮后仍有名额时考虑。此校级时间表不证明院系或导师的 2027 秋季名额。",
+        "sourceIds": [
+          "hku_rpg_cycle_2027"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "院系页把 DASE7001／7002 列在「博士课程」栏目，未据此认定它们是 MPhil 必修课；授课型 Robotics and Intelligent Systems 也应与本研究学位区分。",
+          "sourceIds": [
+            "hku_dase_programme"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "cuhk_robotics_msc",
+      "institution": "CUHK",
+      "degree": "MSc",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "机器人授课型硕士，课程主题连接自主机器人、机器人感知、医学机器人、先进控制和具身智能，强调动手项目及理论与实践结合。",
+        "sourceIds": [
+          "cuhk_robotics_curriculum"
+        ]
+      },
+      "training": {
+        "text": "全日制标准学制 1 年、非全日制 2 年，至少 24 学分。已核读的 2026/27 院系方案为 3 门必修加 5 门选修；必修覆盖机器人基础、实验机器人和自主移动机器人。",
+        "sourceIds": [
+          "cuhk_robotics_programme",
+          "cuhk_robotics_curriculum"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "工科或理科学士通常以二等荣誉或 B 平均成绩为优先条件；相关同等专业资格，或其他学位加相关背景也可获考虑。经研究生院在线申请，并须满足学校一般要求。",
+        "sourceIds": [
+          "cuhk_robotics_programme",
+          "cuhk_robotics_curriculum"
+        ]
+      },
+      "cycle": {
+        "text": "院系课程页仍为 2026/27，所列 2026-04-30 截止已过；研究生院同一网址的两次全文检索分别呈现空截止栏和 2027-03-31。2027/28 截止及最终课程版本仍待一致确认。",
+        "sourceIds": [
+          "cuhk_robotics_programme",
+          "cuhk_robotics_curriculum"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "这是自资授课型 MSc，不是 MAE 的 MPhil／PhD；选修课或独立研究机会不等于录取即获研究导师、RA 岗位或奖学金。",
+          "sourceIds": [
+            "cuhk_robotics_programme",
+            "cuhk_robotics_curriculum"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "polyu_aae_rpg-mphil",
+      "institution": "PolyU",
+      "degree": "MPhil",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "航空及民航工程研究型硕士；机器人相关方向包括无人机与移动机器人规划控制、多传感器融合、GNSS 定位、视觉／LiDAR SLAM 和安全自主系统。",
+        "sourceIds": [
+          "polyu_aae_programme"
+        ]
+      },
+      "training": {
+        "text": "全日制标准学制 2 年，按获批研究计划完成研究并提交论文、参加口头答辩。申请准备包括识别并联系潜在导师；院系建议在申请中列明导师姓名。",
+        "sourceIds": [
+          "polyu_entry",
+          "polyu_rpg_thesis",
+          "polyu_aae_programme",
+          "polyu_apply"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "认可大学二等荣誉学士或以上、或同等资格可申请 MPhil，无须先取得硕士；通过 RPgAdmission 普通申请，仍须满足英语与院系要求。",
+        "sourceIds": [
+          "polyu_entry",
+          "polyu_apply"
+        ]
+      },
+      "cycle": {
+        "text": "院系页仍标 2026 年 9 月入学；学校表格另列 AAE 的 2027 年 1 月及 5 月批次，截止分别为 2026-09-30、2027-01-31。尚未据此确认 2027 秋季批次或导师名额。",
+        "sourceIds": [
+          "polyu_aae_programme",
+          "polyu_deadlines"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "院系旧页的 12 月 HKPFS 截止属于博士奖学金，不是 MPhil 普通轮截止；方向匹配不保证录取或经费。",
+          "sourceIds": [
+            "polyu_aae_programme",
+            "polyu_apply"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "polyu_aae_rpg-phd",
+      "institution": "PolyU",
+      "degree": "PhD",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "航空及民航工程博士，研究方向涵盖无人自主系统、多传感器定位与 SLAM、机器人规划控制、航空安全，以及更广泛的航空工程问题。",
+        "sourceIds": [
+          "polyu_aae_programme"
+        ]
+      },
+      "training": {
+        "text": "本科入口对应四年制全日制 PhD；在获批研究计划下完成研究，以论文和口头答辩考核。申请准备包括识别并联系潜在导师；院系建议在申请中列明导师姓名。",
+        "sourceIds": [
+          "polyu_entry",
+          "polyu_rpg_thesis",
+          "polyu_aae_programme",
+          "polyu_apply"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "四年制 PhD 明确接受一等荣誉学士或同等资格，硕士是另一种入口；三年制 PhD 通常要求研究型硕士，不应与本科直入混用。",
+        "sourceIds": [
+          "polyu_entry"
+        ]
+      },
+      "cycle": {
+        "text": "院系页仍标 2026 年 9 月入学；学校表格另列 AAE 的 2027 年 1 月及 5 月批次，截止分别为 2026-09-30、2027-01-31。尚未据此确认 2027 秋季批次或导师名额。",
+        "sourceIds": [
+          "polyu_aae_programme",
+          "polyu_deadlines"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "院系提及 HKPFS 申请优先，不表示普通博士申请必须获得该奖学金；任何资助与导师名额仍需单独确认。",
+          "sourceIds": [
+            "polyu_aae_programme",
+            "polyu_apply"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "polyu_ire_msc",
+      "institution": "PolyU",
+      "degree": "MSc",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "智能机器人工程授课型硕士，核心课程涵盖具身机器人智能、机构原理、运动规划、软体机器人、先进控制和机电产品，另有视觉、自主车辆及人机协作等选修方向。",
+        "sourceIds": [
+          "polyu_ire_programme"
+        ]
+      },
+      "training": {
+        "text": "可走 10 门课程的修课路线，或 7 门课程加论文的路线；两条路线的核心／选修组合不同，均另须完成 1 学分工程伦理与学术诚信课。论文路线仍授予 MSc。",
+        "sourceIds": [
+          "polyu_ire_programme"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "相关工程或科学学科荣誉学士、或同等专业资格可申请；无荣誉学位但具相关资格或工作经验者亦可能获考虑。还须满足适用英语要求，个别申请可能需面试或测试。",
+        "sourceIds": [
+          "polyu_ire_programme"
+        ]
+      },
+      "cycle": {
+        "text": "院系页明确标为 2027 年 9 月入学：早轮截止 2026-10-20，主轮截止 2027-02-25。日期仅适用于本授课型项目，不代表研究学位或具体导师名额。",
+        "sourceIds": [
+          "polyu_ire_programme"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "论文奖学金有全日制、两年学制、首年 GPA 及指定修读路线等条件，并受经费和名额限制；录取不能视为已获资助或 MPhil／PhD 资格。",
+          "sourceIds": [
+            "polyu_ire_programme"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "cityu_ds_phd",
+      "institution": "CityUHK",
+      "degree": "PhD",
+      "checkedDate": "2026-10-02",
+      "overview": {
+        "text": "数据科学博士以计算机科学、统计与优化为基础，研究方向包括学习理论与算法、人工智能、优化与控制、智慧城市和数据科学应用；并非专门的机器人学位。",
+        "sourceIds": [
+          "city_ds_overview"
+        ]
+      },
+      "training": {
+        "text": "项目页列 PhD 需完成 20 学分课程及论文，其中至少 9 学分核心课程、至少 2 学分研究方法与伦理；另有教学培训课及研究诚信训练；所链接课程目录仍标 2026/27，不据此确认 2027/28 最终培养方案。",
+        "sourceIds": [
+          "city_ds_programme"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "认可大学一等荣誉学士或同等资格是明确的博士入口，硕士不是唯一途径。申请前院系强烈建议联系潜在导师，取得同意并讨论拟研究方向，再走正式申请。",
+        "sourceIds": [
+          "city_ds_programme"
+        ]
+      },
+      "cycle": {
+        "text": "院系全文已出现 2027/28 HKPFS，但其他检索仍返回旧版。普通非 HKPFS 博士的 2027 主轮截止继续保持待确认，不能由奖学金时间表推定。",
+        "sourceIds": [
+          "city_ds_programme",
+          "city_steps",
+          "city_hkpfs_2027"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "院系明确不受理 MPhil 申请，不能从 PhD 或同院授课型 MSc 推导 MPhil 路线；本条不使用混合版本的奖学金金额、旧学分减免表或未读到全文的目录条款。",
+          "sourceIds": [
+            "city_ds_programme"
           ]
         }
       ]
