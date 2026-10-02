@@ -27,7 +27,7 @@
     "Show faculty affiliation and lab/project affiliation separately",
     "Any recruitment display preserves degree/cycle specificity; confirmedVacancy=false means no remaining-place confirmation obtained",
     "No inference of lab size, funding availability, mentorship personality, student outcomes or hardware access",
-    "Twenty profiles cover existing visible catalog advisors; all previous fifteen profile objects and dates are preserved. Five further additions were checked on 2026-10-02; no catalog admissions or recruitment authority is overwritten."
+    "Twenty-five profiles cover existing visible catalog advisors; all previous twenty profile objects and dates are preserved. Five further additions were checked on 2026-10-02; no catalog admissions or recruitment authority is overwritten."
   ],
   "profiles": [
     {
@@ -3067,10 +3067,949 @@
           "url": "https://changhao-chen.github.io/publications/"
         }
       ]
+    },
+    {
+      "advisorId": "hkust-qifeng-chen",
+      "cardSummaryZh": "把视觉生成、感知与学习式机器人控制连接起来，研究触觉手内操作、稀疏示范中的交互技能和人形机器人技能切换。",
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "overview": {
+        "textZh": "陈启峰现任 HKUST 副教授，主要任职在计算机科学与工程系，同时列于电子与计算机工程系及艺术与机器创造学部；获 Stanford 计算机科学博士。研究从生成式 AI、计算摄影和自动驾驶，延伸到机器人交互学习。主页 2024 年 6 月的消息为晋升与终身教职，不是新入职记录。",
+        "sources": [
+          {
+            "url": "https://ece.hkust.edu.hk/cqf",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=qifeng-chen-cqf",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://cqf.io/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Qifeng Chen 研究组（个人主页 Lab）",
+        "affiliation": {
+          "textZh": "研究组位于 HKUST。个人主页列 Robotics Institute 与 AMC 关联；学校档案另列人工智能研究中心署理主任。机构关联或行政职务不等于独立实验室名称，也不自动增加可申请项目。",
+          "sources": [
+            {
+              "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=qifeng-chen-cqf",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://cqf.io/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://cqf.io/lab.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "视觉计算、生成式 AI 与内容生成",
+          "触觉感知与灵巧手操作",
+          "稀疏交互示范、强化学习与技能泛化",
+          "人形机器人全身控制与技能切换"
+        ],
+        "structure": {
+          "textZh": "Lab 页分列在读博士生、已毕业博士和已毕业 MPhil；部分条目标明共同指导。这里仅据此描述公开成员结构，不把网页名单当作实时团队人数、招生容量或完整指导安排。",
+          "sources": [
+            {
+              "url": "https://cqf.io/lab.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "SkillMimic-V2 项目与作者仓库提供交互技能演示、轨迹图预处理、历史编码器、训练和评估说明；公开实现可作为研究入口，未在本轮复现，也不意味着所有演示任务及模型均完整可用。",
+            "sources": [
+              {
+                "url": "https://ingrid789.github.io/SkillMimicV2/",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://github.com/Ingrid789/SkillMimic-V2",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "Touch Dexterity 展示带 16 个低成本触觉传感器的 Allegro 手；Switch 论文记录 Unitree G1 与机载 Jetson Orin NX。它们是论文实验平台，不能据此承诺新生的硬件或算力分配。",
+            "sources": [
+              {
+                "url": "https://touchdexterity.github.io/",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://arxiv.org/html/2604.14834v1",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "Touch Dexterity 的代码入口当前指向 Robot Synesthesia 仓库，README 同时列出原方法的基线训练入口；使用时应区分论文与实现版本。",
+            "sources": [
+              {
+                "url": "https://touchdexterity.github.io/",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://github.com/YingYuan0414/in-hand-rotation",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Switch: Learning Agile Skills Switching for Humanoid Robots",
+          "year": 2026,
+          "venue": "ICRA（HKUST 官方成果目录标注；全文为 arXiv v1）",
+          "summaryZh": "以技能图连接相近运动状态，通过带缓冲节点的强化学习训练全身跟踪策略，再由在线调度器重选参考，实现技能切换与恢复。论文同时讨论图搜索和最近邻规划，实体部署使用最近邻版本，不能将两者混写。",
+          "url": "https://arxiv.org/html/2604.14834v1",
+          "sources": [
+            {
+              "url": "https://arxiv.org/html/2604.14834v1",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=qifeng-chen-cqf",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "SkillMimic-V2: Learning Robust and Generalizable Interaction Skills from Sparse and Noisy Demonstrations",
+          "year": 2025,
+          "venue": "SIGGRAPH",
+          "summaryZh": "先以拼接轨迹图发现示范之间的连接，再扩展为状态转移场，配合自适应轨迹采样与历史编码学习交互技能；重点是从稀疏、带噪示范获得转换与恢复行为，展示以物理仿真为主。",
+          "url": "https://ingrid789.github.io/SkillMimicV2/",
+          "sources": [
+            {
+              "url": "https://ingrid789.github.io/SkillMimicV2/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://github.com/Ingrid789/SkillMimic-V2",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "Rotating without Seeing: Towards In-hand Dexterity through Touch",
+          "year": 2023,
+          "venue": "RSS",
+          "summaryZh": "以覆盖手掌和手指的二值触觉反馈训练手内旋转策略，在仿真中学习后迁移到真实机械手，不依赖视觉输入，并测试未见物体的旋转。",
+          "url": "https://touchdexterity.github.io/",
+          "sources": [
+            {
+              "url": "https://touchdexterity.github.io/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "个人主页引导 PhD/MPhil 申请者参加 Early Admission，并有标注 2025 年 8 月的 VLA 实习招募。院系 Fall 2027 提前批注册已关闭，页面仍指向普通申请；这些信息不确认本组当前名额、资助或是否接收该轮申请，实习也不等于 RA 聘用或学位录取。",
+        "sources": [
+          {
+            "url": "https://cqf.io/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://cse.hkust.edu.hk/pg/admissions/recruiting/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "准确入职日期、当前剩余名额、资助细则和日常指导安排未核实；2024 年晋升不作新 PI 入职证据",
+        "主页 PhD/MPhil 说明指向提前批，而 Fall 2027 院系提前批注册已关闭、普通申请仍可进行；院系流程不代表导师当季接收承诺，2025 年 VLA 实习消息也未核实持续有效",
+        "Touch Dexterity 的 Code 链接目前进入 Robot Synesthesia 仓库，含 Rotating without Seeing 基线；不能把该仓库全部内容称为原论文专属实现",
+        "与谭平合作的论文及研究中心关联不代表共用招生名额；公开实验硬件不保证个人资源分配"
+      ],
+      "links": [
+        {
+          "label": "HKUST 院系档案",
+          "url": "https://ece.hkust.edu.hk/cqf"
+        },
+        {
+          "label": "个人主页",
+          "url": "https://cqf.io/"
+        },
+        {
+          "label": "研究组成员",
+          "url": "https://cqf.io/lab.html"
+        },
+        {
+          "label": "研究与成果",
+          "url": "https://cqf.io/publications.html"
+        }
+      ]
+    },
+    {
+      "advisorId": "hku-hongyang-li",
+      "cardSummaryZh": "从端到端自动驾驶走向通用机器人操作，以规模化真机数据、潜在动作与长时域视觉记忆连接感知和行动。",
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "overview": {
+        "textZh": "李弘扬现任香港大学计算与数据科学学院助理教授，并任学院 Assistant Director（AI Research and Tech Transfer）。2019 年获香港中文大学博士，之后从事过 L2 辅助驾驶产业研究，2021 年在上海人工智能实验室组建 OpenDriveLab。当前研究聚焦具身智能系统、机器人操作与自动驾驶；早期上海团队经历与现任 HKU 教职应分开理解。",
+        "sources": [
+          {
+            "url": "https://ai.hku.hk/people/academic-staff/hongyang",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://www.hongyang.li/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://datascience.hku.hk/hk-sh-ai-forum-2024/speakers/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "OpenDriveLab",
+        "affiliation": {
+          "textZh": "目前团队官网以 HKU 的具身智能与自动驾驶研究团队呈现，负责人为李弘扬；个人页列出香港校内及 HKU 上海张江基地的办公和实验空间。OpenDriveLab 于 2021 年创建早于当前 HKU 团队布局，不能把其历年全部成果或合作单位资源都归为现有香港实验室。",
+          "sources": [
+            {
+              "url": "https://www.hongyang.li/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://ai.hku.hk/people/academic-staff/hongyang",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://opendrivelab.com/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://datascience.hku.hk/hk-sh-ai-forum-2024/speakers/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "规划导向的端到端自动驾驶",
+          "规模化真机操作数据与通用策略",
+          "视觉语言动作模型（VLA）与潜在动作表示",
+          "长时域视觉记忆、机器人操作与人形技能"
+        ],
+        "structure": {
+          "textZh": "成员页将 Academic Staff、HKU PhD、Joint PhD、访问学生／实习生／RA 及 Alumni 分列；联合博士列有复旦、上海交大、同济等所属学校，且页面自称仅展示部分成员。这是跨机构研究合作的组织线索，不能换算为香港本部的招生名额或完整组内人数。",
+          "sources": [
+            {
+              "url": "https://opendrivelab.com/team",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "AgiBot World 作者仓库公开 Alpha／Beta 数据集入口、GO-1 与 GO-1 Air 权重，以及数据可视化、微调和评估说明；它是多方合作的机器人学习平台。公开数据及模型可作为预研入口，数据采集平台中的机器人数量不等于 HKU 实验室自有设备数量。",
+            "sources": [
+              {
+                "url": "https://github.com/OpenDriveLab/AgiBot-World",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://arxiv.org/abs/2503.06669",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "UniAD 仓库提供感知阶段和端到端阶段的训练／评估文档、配置与模型权重，并记录实现更新和指标比较注意事项；适合沿感知、预测到规划链条阅读代码。本轮仅核读 README 与论文，未运行或复现实验。",
+            "sources": [
+              {
+                "url": "https://github.com/OpenDriveLab/UniAD",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "NativeMEM 项目页仍写 Code (Soon)，但团队首页链接的官方仓库已公开数据预处理、记忆压缩训练、缓存与任务微调流程；README 明确标注为仍在清理和验证的公开代码版本，接口和命令可能变化。本轮核读目录与 README，未运行训练或确认全部实验可复现。",
+            "sources": [
+              {
+                "url": "https://opendrivelab.com/NativeMEM/",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://github.com/opendrivelab/NativeMEM",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Planning-Oriented Autonomous Driving",
+          "year": 2023,
+          "venue": "CVPR（Best Paper Award）",
+          "summaryZh": "UniAD 以最终规划为目标，通过统一 query 接口串联目标跟踪、地图、运动与占据预测，使中间任务共同服务于自车轨迹规划；以 nuScenes 验证任务协同。本论文首页列李弘扬在上海人工智能实验室的署名，并标为项目负责人，是其早期代表作，不写作当前 HKU 实验室独立完成。",
+          "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Hu_Planning-Oriented_Autonomous_Driving_CVPR_2023_paper.html",
+          "sources": [
+            {
+              "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Hu_Planning-Oriented_Autonomous_Driving_CVPR_2023_paper.html",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://arxiv.org/pdf/2212.10156",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://ai.hku.hk/people/academic-staff/hongyang",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems",
+          "year": 2025,
+          "venue": "IROS（Best Paper Finalist）",
+          "summaryZh": "建设覆盖 217 项任务、五类部署场景的百万级操作轨迹平台，以标准化采集和人工参与质检提高数据一致性；GO-1 用潜在动作表示提高数据利用率，研究数据规模与通用操作表现的关系。属于多机构协作成果，平台数据开放与学位生硬件配给是两回事。",
+          "url": "https://arxiv.org/abs/2503.06669",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2503.06669",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://github.com/OpenDriveLab/AgiBot-World",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://ai.hku.hk/people/academic-staff/hongyang",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "NativeMEM: Native Memory Compression for Long-Horizon Robotic Manipulation",
+          "year": 2026,
+          "venue": "CoRL 2026（作者仓库标注；团队成果页仍列预印本）",
+          "summaryZh": "将每个历史帧视角压缩成 VLA 原生视觉空间中的一个记忆 token；先冻结 VLA、用动作目标训练压缩分支，再缓存记忆并进行任务微调，部署时维护可实时更新的历史队列。重点解决当前画面相似、却因过去事件不同而需采取不同动作的长时域操作。",
+          "url": "https://opendrivelab.com/NativeMEM/",
+          "sources": [
+            {
+              "url": "https://opendrivelab.com/NativeMEM/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://arxiv.org/abs/2607.06678",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://github.com/opendrivelab/NativeMEM",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://opendrivelab.com/publications",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "个人主页明确欢迎 2026／2027 实习申请（含本科生）；Postdoc、PhD、MPhil 初次咨询要求联系学术助理，RA／Internship 使用指定入口，并提及通常招收 HKPFS 或 HKU Presidential Scholarship 水平候选人。该表述是联系渠道和选才偏好，不能作为本科申请资格门槛或录取概率判断。公开学位招募未确认 Fall 2027 剩余名额；香港与上海岗位、实习和香港学位申请须分别核实。",
+        "sources": [
+          {
+            "url": "https://www.hongyang.li/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://opendrivelab.com/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "尚未核实 Fall 2027 各学位剩余名额、个人资助安排和最终导师接收决定；2026／2027 实习声明不能延伸为 MPhil 或 PhD 配额承诺",
+        "学位初次咨询应遵循个人页的学术助理入口；主页所述 HKPFS／HKU Presidential Scholarship 水平偏好不是官方本科申请资格门槛，也不能推断个人录取概率",
+        "精确 HKU 入职日期及行政任命生效日未在本轮读到的资料中确认；2021 年是 OpenDriveLab 创建年份，不是 HKU 入职年份",
+        "香港与上海的实际驻地、跨地指导安排、组会频率和学生可分配硬件／算力未知；联合博士成员不自动构成额外申请路径",
+        "NativeMEM 资料更新不同步：项目页仍写 Code (Soon)、成果页列预印本，而官方仓库已有开发中代码并标 CoRL 2026；本轮未读到独立会议录记录，也未验证代码成熟度或完整复现"
+      ],
+      "links": [
+        {
+          "label": "HKU 官方教职页",
+          "url": "https://ai.hku.hk/people/academic-staff/hongyang"
+        },
+        {
+          "label": "个人主页与联系指引",
+          "url": "https://www.hongyang.li/"
+        },
+        {
+          "label": "OpenDriveLab 团队",
+          "url": "https://opendrivelab.com/team"
+        },
+        {
+          "label": "AgiBot World 开放资源",
+          "url": "https://github.com/OpenDriveLab/AgiBot-World"
+        },
+        {
+          "label": "NativeMEM 官方开发中代码",
+          "url": "https://github.com/opendrivelab/NativeMEM"
+        }
+      ]
+    },
+    {
+      "advisorId": "polyu_pai_zheng",
+      "cardSummaryZh": "聚焦制造现场的人机协作，把视觉语言理解、少样本技能迁移、混合现实示教和机器人执行接到同一工作流程。",
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "overview": {
+        "textZh": "郑湃（官方繁体姓名：鄭湃）现任香港理工大学工业及系统工程学系副教授、Wong Tit Shing Young Scholar in Smart Robotics，并任智能设计与数控技术创新国家中心香港分中心主任。2017 年获奥克兰大学机械工程博士，入职 PolyU 前于 2018–2019 年在南洋理工大学任 Research Fellow；主要研究人机协作、智能产品服务系统和工业具身智能。",
+        "sources": [
+          {
+            "url": "https://www.polyu.edu.hk/ise/people/academic-staff/pai-zheng/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "RAIDS；Industrial Embodied Intelligence Laboratory（IEI）",
+        "affiliation": {
+          "textZh": "RAIDS 是 2020 年在 PolyU 成立的 AI for Industrial Digital Servitization 研究团队；院系官方 IEI 实验室页明确列郑湃为 Lab-in-Charge。NCDC 香港分中心主任是另一项机构角色，不能将整个中心等同于其个人课题组；RAIDS 成立日期也不是其教职入职日期。",
+          "sources": [
+            {
+              "url": "https://raidsgroup.github.io/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://www.polyu.edu.hk/ise/people/academic-staff/pai-zheng/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://www.polyu.edu.hk/en/ise/research/research-laboratories-and-facilities/industrial-embodied-intelligence-laboratory/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "多模态人机交互与协作制造",
+          "跨领域少样本机器人技能学习",
+          "基础模型驱动的感知、推理和执行",
+          "混合现实／数字孪生辅助示教与安全运动",
+          "接触密集操作、灵巧操作与物理信息制造"
+        ],
+        "structure": {
+          "textZh": "RAIDS 成员页将外部 Advisor、Faculty、PhD／MPhil 学生及其他成员分列；郑湃列为 PI，Liqiao Xia 列为 Co-PI／Research Assistant Professor，另有 Research Assistant Professor Chengkai Dai。研究页分 AeroDexter、Cooland、Glovity、HumVe 四条项目线，涉及空中操作、制造、接触密集操作和人车交互；页面角色不等于每位学生的共同指导安排。",
+          "sources": [
+            {
+              "url": "https://raidsgroup.github.io/people.html",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://raidsgroup.github.io/research.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "IEI 官方页列 CF402 的 GPU 服务器、高性能工作站与物理 AI 仿真环境，用于机器人学习、强化学习、运动规划和控制的训练测试；这是实验室层面的平台介绍，未披露每位学生的算力配额。",
+            "sources": [
+              {
+                "url": "https://www.polyu.edu.hk/en/ise/research/research-laboratories-and-facilities/industrial-embodied-intelligence-laboratory/",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "Industrial Centre W002 分为 Cooland、HumVe 和 Glovity 三个研究区域，公开列有 ABB／UR 工业与协作机械臂、带 Linker Hand L20 的移动操作平台、驾驶模拟与动作捕捉系统，以及 Franka、Realman 双臂和拆解工作站。设备清单不构成申请者可直接使用全部设备的保证。",
+            "sources": [
+              {
+                "url": "https://www.polyu.edu.hk/en/ise/research/research-laboratories-and-facilities/industrial-embodied-intelligence-laboratory/",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "组站提供研究、成果与演示入口，可先从制造任务中的示教、技能学习和移动导航理解课题；本轮已读的三篇代表作摘要均可通过期刊或 PolyU Scholars Hub 获取，但未核实对应完整代码、数据集和复现包。",
+            "sources": [
+              {
+                "url": "https://raidsgroup.github.io/research.html",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://raidsgroup.github.io/publication.html",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://www.engineering.org.cn/engi/EN/10.1016/j.eng.2025.04.028",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://research.polyu.edu.hk/en/publications/an-llm-enabled-human-demonstration-assisted-hybrid-robot-skill-sy/",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://research.polyu.edu.hk/en/publications/h2r-bridge-transferring-vision-language-models-to-few-shot-intent/",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Vision-Language Model-Based Human-Guided Mobile Robot Navigation in an Unstructured Environment for Human-Centric Smart Manufacturing",
+          "year": 2026,
+          "venue": "Engineering 62，229–239（2025 年已 online-first）",
+          "summaryZh": "针对制造现场非结构化环境与传感噪声，结合稳健三维点云重建、VLM 零样本语义分割，以及 LLM 对自然语言指令的解释和导航控制代码生成。此处按期刊当前正式卷期记为 2026；组内成果列表仍放在 2025 段并标 vol.50，与期刊记录不同。",
+          "url": "https://www.engineering.org.cn/engi/EN/10.1016/j.eng.2025.04.028",
+          "sources": [
+            {
+              "url": "https://www.engineering.org.cn/engi/EN/10.1016/j.eng.2025.04.028",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://www.sciencedirect.com/science/article/pii/S2095809925003820",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://raidsgroup.github.io/publication.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "An LLM-enabled human demonstration-assisted hybrid robot skill synthesis approach for human-robot collaborative assembly",
+          "year": 2025,
+          "venue": "CIRP Annals 74(1)，1–5",
+          "summaryZh": "让微调后的 LLM 将人的语言指令转成奖励函数，由深度强化学习生成可执行动作；同时通过混合现实界面采集人的示教，融合示教学习与自主探索，在多项人机协作装配任务中验证混合技能合成。郑湃在校方论文记录中列为通讯作者。",
+          "url": "https://research.polyu.edu.hk/en/publications/an-llm-enabled-human-demonstration-assisted-hybrid-robot-skill-sy/",
+          "sources": [
+            {
+              "url": "https://research.polyu.edu.hk/en/publications/an-llm-enabled-human-demonstration-assisted-hybrid-robot-skill-sy/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "H2R Bridge: Transferring vision-language models to few-shot intention meta-perception in human robot collaboration",
+          "year": 2025,
+          "venue": "Journal of Manufacturing Systems 80，524–535",
+          "summaryZh": "把协作中的意图识别建模为视觉、语言与时间信息融合的问题，通过面向人机协作的提示和领域微调，将预训练模型迁移到制造情境，再用少样本学习适应新任务／类别；解决的是低数据条件下的意图感知，不等同于已完成通用机器人控制。",
+          "url": "https://research.polyu.edu.hk/en/publications/h2r-bridge-transferring-vision-language-models-to-few-shot-intent/",
+          "sources": [
+            {
+              "url": "https://research.polyu.edu.hk/en/publications/h2r-bridge-transferring-vision-language-models-to-few-shot-intent/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "RAIDS 首页有未注明轮次的 MSc、PhD、实习机会声明，不能据此确认 MPhil 新名额或 Fall 2027 余位；MSc 的具体项目及指导关系仍需核实。官方另有以郑湃为联系人、任期各十二个月的 RA／Research Associate／Postdoctoral Fellow 广告：260907004 涉及记忆增强 AI 智能体协同制造监测，页面截止日为 2027-02-21；260724022 涉及互认知人机协作制造，页面截止日为 2027-01-07。两者是受雇岗位而非学位录取承诺，剩余职位未确认。",
+        "sources": [
+          {
+            "url": "https://raidsgroup.github.io/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260907004",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260724022",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "Fall 2027 各学位实际名额、导师同意和资助仍未确认；官方 RA 广告 260907004／260724022 虽分别列 2027-02-21／2027-01-07 截止日，也不能证明仍有剩余位置或转为学位录取",
+        "MPhil 的具体新生接收安排与 MSc 机会所属项目／指导形式未核实；受雇研究岗位与学位申请分别审核",
+        "本轮院系与团队页面未给出准确入职和副教授晋升日期；2020 年 RAIDS 成立不能代替两者",
+        "未核实完整组内人数、日常指导频率、分项目共同指导方式，以及个人可获得的设备和 GPU 配额",
+        "移动导航论文存在组站旧卷期与正式期刊记录差异；2025 年 online-first 与 2026 年正式卷期分开记录；三篇方法描述基于公开摘要／期刊页面，未声称全文复现或代码已公开"
+      ],
+      "links": [
+        {
+          "label": "PolyU 官方教职页",
+          "url": "https://www.polyu.edu.hk/ise/people/academic-staff/pai-zheng/"
+        },
+        {
+          "label": "RAIDS 团队主页",
+          "url": "https://raidsgroup.github.io/"
+        },
+        {
+          "label": "成员与指导角色",
+          "url": "https://raidsgroup.github.io/people.html"
+        },
+        {
+          "label": "IEI 官方实验室与设备",
+          "url": "https://www.polyu.edu.hk/en/ise/research/research-laboratories-and-facilities/industrial-embodied-intelligence-laboratory/"
+        },
+        {
+          "label": "RAIDS 成果列表",
+          "url": "https://raidsgroup.github.io/publication.html"
+        }
+      ]
+    },
+    {
+      "advisorId": "hkustgz-junwei-liang",
+      "cardSummaryZh": "把感知、预测、导航与全身控制接起来，研究复杂动态环境下的跨本体具身行为。",
+      "overview": {
+        "textZh": "梁俊卫现任香港科技大学（广州）信息枢纽人工智能学域助理教授，领导 Precognition Lab；本人主页另列香港科技大学 CSE Affiliate Assistant Professor。2021 年获 Carnegie Mellon University 博士，导师为 Alexander Hauptmann。广州主职、香港 affiliate 身份及过去的 CMU 培养经历分开记录。",
+        "sources": [
+          {
+            "url": "https://ait.hkust-gz.edu.cn/zh/category/people/faculty/regular/page/2/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://junweiliang.me/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Precognition Lab／智能感知与预测实验室",
+        "affiliation": {
+          "textZh": "实验室主页明确为 HKUST（广州）团队。研究项目可含 HKUST、Mondo Robotics 等合作单位；例如 Perceptive BFM 的作者单位横跨企业与高校，不能把合作项目全部设备、岗位或资源视为广州个人课题组所有。",
+          "sources": [
+            {
+              "url": "https://precognition.team/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://acodedog.github.io/perceptive-bfm/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "视频与三维机器感知",
+          "动作、意图与轨迹预测",
+          "物体目标、跨本体与社交导航",
+          "人类运动先验、足式运动与全身控制",
+          "移动操作与视觉语言动作学习"
+        ],
+        "structure": {
+          "textZh": "实验室网站分别列现有成员和 Alumni；校友条目有共同指导及访问等不同关系。研究路线图按感知、预测、导航、操作组织，导航细分 Point/Image/Object Goal 与社交导航，操作包括移动操作和全身控制；路线图标注 2024-01，近年方向另由当前项目核实。",
+          "sources": [
+            {
+              "url": "https://precognition.team/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://precognition.team/projects.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "团队主页自述计算资源包括 36 张 RTX 3090/4090/L40 GPU，另有 24 张 A6000 集群及 100TB NAS，并列多种带机械臂和灵巧手的移动平台。这里记录公开配置说明，实际调度、更新状态和个人配额未核实。",
+            "sources": [
+              {
+                "url": "https://precognition.team/",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "FLUX 项目公开方法代码、仿真环境和 DynBench 数据入口，展示轮式、四足、人形平台导航；Omni-Perception 提供 LiDAR 感知运动控制代码入口。项目演示不作为所有学生的设备使用承诺。",
+            "sources": [
+              {
+                "url": "https://zeying-gong.github.io/projects/flux/",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://acodedog.github.io/OmniPerceptionPages/",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Omni-Perception: Omnidirectional Collision Avoidance for Legged Locomotion in Dynamic Environments",
+          "year": 2025,
+          "venue": "CoRL 2025（实验室标注 Oral）",
+          "summaryZh": "直接用原始时序 LiDAR 点云驱动足式避障。PD-RiskNet 区分近端密集几何与远端稀疏观测，分层提取时空风险；配合含扫描模式、自遮挡与噪声的 LiDAR 仿真，实现对动态、悬空和细小障碍的全向避障学习。",
+          "url": "https://acodedog.github.io/OmniPerceptionPages/",
+          "sources": [
+            {
+              "url": "https://acodedog.github.io/OmniPerceptionPages/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://precognition.team/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "FLUX: Accelerating Cross-Embodiment Generative Navigation Policies via Rectified Flow and Static-to-Dynamic Learning",
+          "year": 2026,
+          "venue": "IROS 2026（项目页与实验室列表）",
+          "summaryZh": "以 rectified flow 生成候选路径，先用静态专家轨迹做模仿学习，再用动态人群中的 GRPO 强化学习兼顾到达目标和社交规范。配套 DynBench 将静态及动态六类导航任务纳入同一评测，并展示无需平台专属微调的轮式、四足、人形仿真到现实迁移。",
+          "url": "https://zeying-gong.github.io/projects/flux/",
+          "sources": [
+            {
+              "url": "https://zeying-gong.github.io/projects/flux/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "Perceptive Behavior Foundation Model Adapting Human Motion Priors to Robot-Centric Terrain",
+          "year": 2026,
+          "venue": "CoRL 2026（项目页与实验室列表）；另列 RSS 2026 WCBM Workshop",
+          "summaryZh": "针对人类平地动作与机器人实际地形不匹配，先离线合成地形一致参考动作，训练教师，再经目标坐标系动作对齐蒸馏到读取原始动作和本体地形的学生。身份门控残差只学习必要的地形修正；部署时不调用参考合成器，项目展示 Unitree G1 在台阶等地形的动作跟踪。",
+          "url": "https://acodedog.github.io/perceptive-bfm/",
+          "sources": [
+            {
+              "url": "https://acodedog.github.io/perceptive-bfm/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://precognition.team/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "本人主页明确招 1–2 名 Spring 2027 PhD，研究 Perceptive Behavior Foundation Model。这是指定春季博士方向的公开招募信号，未确认当前剩余席位、资助或 Fall 2027 接收；不外推为 MPhil、MSc 或 RA 名额。既有目录中的 Red Bird MPhil 入学后双向匹配规则保持独立，香港 affiliate 身份也不自动等于香港校区录取承诺。",
+        "sources": [
+          {
+            "url": "https://junweiliang.me/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "本人主页本次核查仍写招 1–2 名 Spring 2027 PhD，但未见该条声明的发布日期，也未核实当前剩余席位、具体资助或个人录取条件；Fall 2027、MPhil、MSc 和 RA 的个人定额未确认。",
+        "未据官方网页发布时间推定精确入职日期；不加新 PI 标签。",
+        "资源配置为团队自述，学生实际算力配额、设备排期、当前指导频率与跨校/企业共同指导安排未核实。",
+        "Perceptive BFM 项目有 Mondo Robotics 等合作作者，实机演示不能自动当作广州实验室独有平台或企业实习承诺。"
+      ],
+      "links": [
+        {
+          "label": "高校 AI 学域师资",
+          "url": "https://ait.hkust-gz.edu.cn/zh/category/people/faculty/regular/page/2/"
+        },
+        {
+          "label": "个人主页与春季博士招募",
+          "url": "https://junweiliang.me/"
+        },
+        {
+          "label": "实验室与成员",
+          "url": "https://precognition.team/"
+        },
+        {
+          "label": "研究路线图",
+          "url": "https://precognition.team/projects.html"
+        },
+        {
+          "label": "FLUX 项目",
+          "url": "https://zeying-gong.github.io/projects/flux/"
+        },
+        {
+          "label": "Perceptive BFM 项目",
+          "url": "https://acodedog.github.io/perceptive-bfm/"
+        }
+      ],
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "westlake-guojun-qi",
+      "cardSummaryZh": "从多模态生成模型延伸到具身智能，以人类演示、三维轨迹与联合去噪学习机器人操作。",
+      "overview": {
+        "textZh": "齐国君现任西湖大学工学院人工智能系教授，领导机器感知与学习（MAPLE）实验室；实验室页另称 Changjiang Chair Professor。2005 年、2009 年分别获中国科学技术大学学士、博士，2013 年获 UIUC 第二个博士。此前任职包括 IBM T.J. Watson、中佛罗里达大学、华为美国研究中心，并创立 OPPO 西雅图研究中心；这些是历史经历，不作为当前学校归属。",
+        "sources": [
+          {
+            "url": "https://en.westlake.edu.cn/faculty/guojun-qi.html",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://engineering.westlake.edu.cn/OurSchool/Departments/?tab=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%B3%BB",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://en.westlake.edu.cn/news_events/westlakenews/Faculty_Staff/202504/t20250410_54513.html",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://maple.lab.westlake.edu.cn/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Machine Perception and Learning (MAPLE) Lab／机器感知与学习实验室",
+        "affiliation": {
+          "textZh": "当前实验室归属西湖大学；Traj2Action 等论文还列西湖高等研究院先进技术研究所及合作高校。中佛罗里达大学历史上同名 MAPLE 组与当前西湖团队分开理解。",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/guojun-qi.html",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://engineering.westlake.edu.cn/OurSchool/Departments/?tab=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%B3%BB",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://arxiv.org/html/2510.00491v3",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "多模态理解与生成基础模型",
+          "扩散模型、流模型及生成算法",
+          "图像、视频、三维场景与人体内容生成",
+          "VLA、机械臂与灵巧手操作、世界模型和具身推理"
+        ],
+        "structure": {
+          "textZh": "团队页分 PI、Co-adviser、行政及科研助理、博士生、访问学生与校友，并列 Mingyuan Zhou、Weijian Luo 为 Co-adviser。2025 年高校采访记述以专题项目会议组织研究；不据此推定每位学生的共同导师或当前面谈频率。",
+          "sources": [
+            {
+              "url": "https://maple.lab.westlake.edu.cn/Team.htm",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://en.westlake.edu.cn/news_events/westlakenews/Faculty_Staff/202504/t20250410_54513.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "Traj2Action 原文展示 Franka Research 3、UMI Gripper、SpaceMouse 遥操作及静态/腕部相机；人类演示由多视角相机和手背相机采集。这是论文实验配置，不等于面向新生承诺的设备清单。",
+            "sources": [
+              {
+                "url": "https://arxiv.org/html/2510.00491v3",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "Self-Guidance 提供官方代码，面向现成扩散/流模型的推理期采样改进；公开代码可用于了解其生成模型研究路线。",
+            "sources": [
+              {
+                "url": "https://arxiv.org/pdf/2412.05827",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://github.com/maple-research-lab/Self-Guidance",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Traj2Action: A Co-Denoising Framework for Trajectory-Guided Human-to-Robot Skill Transfer",
+          "year": 2026,
+          "venue": "arXiv 预印本 v3；初版 2025，v3 更新于 2026-04-10",
+          "summaryZh": "把人手操作端与机器人末端的三维轨迹作为共享中间表示：轨迹专家联合学习人类和机器人数据，动作专家据此生成姿态与夹爪等精细控制，二者用流匹配联合去噪。Franka 实验研究数据效率与跨任务迁移；原文也指出接触阶段的细小误差仍可导致抓取失败，不能把轨迹迁移等同于普适精细操作。",
+          "url": "https://arxiv.org/abs/2510.00491",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2510.00491",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://arxiv.org/html/2510.00491v3",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "Self-Guidance: Boosting Flow and Diffusion Generation on Their Own",
+          "year": 2026,
+          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence，48(1)，781–791（实验室书目）；预印本初版 2024",
+          "summaryZh": "比较同一生成模型在不同噪声水平的采样分数，抑制更可能产生伪影的样本，无需额外训练专用引导器。SG-prev 复用前一步输出以减少额外前向计算，实验覆盖图像及视频生成；此项体现通用生成算法基础，不是机器人控制论文。",
+          "url": "https://arxiv.org/pdf/2412.05827",
+          "sources": [
+            {
+              "url": "https://arxiv.org/pdf/2412.05827",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://maple.lab.westlake.edu.cn/Contributions/Publications.htm",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "官方个人页常年列 postdocs、graduate students、RA；2025 年高校采访也曾明确提到 PhD 招募，实验室 Join us 页另列研究员、RA 与博士后公告。均不构成 Fall 2027 个人剩余名额或资助确认；保留既有目录的分学位、分批次招生判断，不能由研究组招募推定当前学校申请轮次仍开放。联系邮箱为 maple_hr@westlake.edu.cn。",
+        "sources": [
+          {
+            "url": "https://en.westlake.edu.cn/faculty/guojun-qi.html",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://en.westlake.edu.cn/news_events/westlakenews/Faculty_Staff/202504/t20250410_54513.html",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://maple.lab.westlake.edu.cn/Join_us.htm",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "任职时间有不同口径：官方履历列 2024 年 Professor；官方新闻写 2022 年收到 offer、2025 年 3 月 12 日领取工牌。正式聘任生效日未明确，不把 offer、履历年份与到校日期合并，也不据此加新 PI 标签。",
+        "Fall 2027 剩余博士名额、具体资助、个人接收意愿及后续可申请轮次未核实；常年招募不代表已截止批次重新开放。",
+        "个人指导频率、共同指导分工、学生可用算力与硬件分配未核实。",
+        "Traj2Action 在本轮读取的 arXiv 页面仍为预印本；原文项目链接未能读通，因此方法和设备说明以 v3 原文为准。"
+      ],
+      "links": [
+        {
+          "label": "高校个人简介",
+          "url": "https://en.westlake.edu.cn/faculty/guojun-qi.html"
+        },
+        {
+          "label": "人工智能系与中文姓名",
+          "url": "https://engineering.westlake.edu.cn/OurSchool/Departments/?tab=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%B3%BB"
+        },
+        {
+          "label": "实验室",
+          "url": "https://maple.lab.westlake.edu.cn/"
+        },
+        {
+          "label": "团队结构",
+          "url": "https://maple.lab.westlake.edu.cn/Team.htm"
+        },
+        {
+          "label": "招募说明",
+          "url": "https://maple.lab.westlake.edu.cn/Join_us.htm"
+        },
+        {
+          "label": "任职背景采访",
+          "url": "https://en.westlake.edu.cn/news_events/westlakenews/Faculty_Staff/202504/t20250410_54513.html"
+        }
+      ],
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
     }
   ],
   "reviewRequired": true,
-  "batch": "1+2+3+4",
+  "batch": "1+2+3+4+5",
   "batch3Review": {
     "checkedDate": "2026-10-02",
     "baseCommit": "595c832d7d0610ed550131dc97b3f2da4fbf6c87",
@@ -3104,5 +4043,19 @@
       "originalSourceRecordPreserved": true,
       "checkedDate": "2026-10-02"
     }
+  },
+  "batch5Review": {
+    "checkedDate": "2026-10-02",
+    "baseCommit": "53d865df01e83c7fd7187a3fe22ab184413441d4",
+    "newAdvisorIds": [
+      "hkust-qifeng-chen",
+      "hku-hongyang-li",
+      "polyu_pai_zheng",
+      "hkustgz-junwei-liang",
+      "westlake-guojun-qi"
+    ],
+    "preservedProfiles": 20,
+    "catalogMutation": false,
+    "scope": "Public professional and lab context only. Older profile objects, catalog eligibility and recruitment, independent RA positions, project summaries, materials and application experiences are preserved."
   }
 }

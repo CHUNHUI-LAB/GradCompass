@@ -1,22 +1,22 @@
 {
   "project": "GradCompass",
-  "revision": "r2.17-reviewed-application-experiences",
-  "baseSourceCommit": "1765e09516a7ea541454b069e7a579adb5226b03",
-  "baseDeployedCommit": "1765e09516a7ea541454b069e7a579adb5226b03",
+  "revision": "r2.18-five-school-advisor-profiles",
+  "baseSourceCommit": "53d865df01e83c7fd7187a3fe22ab184413441d4",
+  "baseDeployedCommit": "53d865df01e83c7fd7187a3fe22ab184413441d4",
   "snapshotDate": "2026-10-02",
   "status": "content snapshot; automated test counters do not establish deployment or browser acceptance",
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
   "browserVisualQA": "Not yet browser-verified.",
-  "profilePilotCount": 20,
+  "profilePilotCount": 25,
   "visibleAdvisorCount": 30,
   "opportunityCount": 46,
   "raPositionCount": 2,
   "newAdvisorProfiles": 5,
-  "preservedAdvisorProfiles": 15,
-  "newProfileCitedSourceCount": 59,
-  "nodeTestsTotal": 213,
-  "nodeTestsPassed": 213,
+  "preservedAdvisorProfiles": 20,
+  "newProfileCitedSourceCount": 54,
+  "nodeTestsTotal": 224,
+  "nodeTestsPassed": 224,
   "nodeTestsFailed": 0,
   "experienceRecords": 19,
   "defaultExperienceRecords": 19,
@@ -45,13 +45,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 9835,
-      "sha256": "74a8d9b00da5772e30a19c4e38a1a5620d1d9d9af8413e335fcc058df8b942e3"
+      "bytes": 10573,
+      "sha256": "9ff6d5afa246616457bfd4f79dca3612dede2eab7993bff9ad3da1d18a36f3ec"
     },
     {
       "path": "assets/app.js",
-      "bytes": 40626,
-      "sha256": "078b1a26dc8c9471b2fdfae8bab7d805f14efdcb72b09fdd158fc11b79071654"
+      "bytes": 45270,
+      "sha256": "ec2ee64a21277231e64d2a22a6abd125e7f6d99a71624ac665b3cd7b93f8b325"
     },
     {
       "path": "assets/core.js",
@@ -95,8 +95,8 @@
     },
     {
       "path": "data/advisor-profiles.json",
-      "bytes": 137953,
-      "sha256": "f4bd245689a218aa66b3ccac849369c4d735fd7bd6ae76a938b7dc1e9f166582"
+      "bytes": 186950,
+      "sha256": "4dcff71debbd11b313fd44b3ebcda750205753ccc468498d3f67f525b5ea5b2a"
     },
     {
       "path": "data/application-experience-provenance.json",
@@ -141,7 +141,7 @@
     {
       "path": "index.html",
       "bytes": 7114,
-      "sha256": "f59005f4508c28d88353d1b53b0d803f40db898866ef94080042c060462ac11b"
+      "sha256": "5ac68096b7c41cb3d76509d727e0ced002e0299bfcf2c4ca6be0b55ee07b4f80"
     },
     {
       "path": "package.json",
@@ -150,8 +150,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 5101,
-      "sha256": "95d6991aca5bb1b22e5678dc0e1bed59c43200425ec323ce70d67a4678aa1e75"
+      "bytes": 5576,
+      "sha256": "0cbae615bdb454c52f14207878061a0fde42167880c03b7afcda833b56de8ecd"
     },
     {
       "path": "tests/browser-smoke.mjs",
@@ -185,8 +185,8 @@
     },
     {
       "path": "tests/experience-navigation.test.mjs",
-      "bytes": 6246,
-      "sha256": "9c04a3dc693579c77b6d0e797f7f69c075cfdc980a9abc4ba9349286fe5ecbd9"
+      "bytes": 12567,
+      "sha256": "1053f24574a443a4591d01982a7a96f5d34c028ed512967b366601802b9fa381"
     },
     {
       "path": "tests/experience-recent.test.mjs",
@@ -234,14 +234,19 @@
       "sha256": "0bf7348ccc817d728293d747acad39099438c707a4da35b3c3150e76e0deee3e"
     },
     {
+      "path": "tests/profiles-batch5.test.mjs",
+      "bytes": 7112,
+      "sha256": "6938ce98114c030d2746bb5b412fb856dd34d3c4498b9178eea2b27d6ddce3bc"
+    },
+    {
       "path": "tests/profiles.test.mjs",
-      "bytes": 13686,
-      "sha256": "c18d56334cb8d4f518a848759bf5839bc11e3de15c7d23f36d0dc193f6a8d5fb"
+      "bytes": 13905,
+      "sha256": "a18921d32b0eae16af454c90ae9efdf5aab3e39b513a406711c9c0a6d468fb23"
     },
     {
       "path": "tests/project-expansion.test.mjs",
       "bytes": 8810,
-      "sha256": "a88561e4a1ad5b6da12079d0ea6bad7a698358b0bfa977cfbe9083c5a5e428ef"
+      "sha256": "86f93b5d120267fcdc902d91ffcb752cea82ba79b244a78cfd3ede1e97b70999"
     },
     {
       "path": "tests/project-final10.test.mjs",
@@ -275,13 +280,13 @@
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 17621,
-      "sha256": "0179b03c88f7623366eb6028505682b0c773196eda3058bd08cb5fdff25a3f37"
+      "bytes": 17723,
+      "sha256": "7018f3c154ee15e3395e87b887acabad846b2a75c2f4fedeae9a27a09ec7d6d7"
     },
     {
       "path": "tests/resource-versions.test.mjs",
-      "bytes": 4990,
-      "sha256": "e2287ef928025f14013aee8f54f4b0ce427dad1b07ac7e4446abd2b4b3205ff6"
+      "bytes": 4985,
+      "sha256": "0dcac927f996289d64c3c9ba31858c8b478e78ed11cf5aee5b2ccb1e59a09375"
     },
     {
       "path": "tests/summary-navigation.test.mjs",
@@ -291,9 +296,9 @@
   ],
   "qaMetadataScope": "Hashes identify this content snapshot. Automated test counters do not establish deployment or browser acceptance.",
   "publishedBaseline": {
-    "commit": "1765e09516a7ea541454b069e7a579adb5226b03",
-    "contentCommit": "1765e09516a7ea541454b069e7a579adb5226b03",
-    "experienceRecords": 16,
-    "pagesRun": "https://github.com/CHUNHUI-LAB/GradCompass/actions/runs/36997449103"
+    "commit": "53d865df01e83c7fd7187a3fe22ab184413441d4",
+    "contentCommit": "53d865df01e83c7fd7187a3fe22ab184413441d4",
+    "experienceRecords": 19,
+    "pagesRun": "https://github.com/CHUNHUI-LAB/GradCompass/actions/runs/36998756416"
   }
 }

@@ -66,7 +66,7 @@ test('reviewed catalog and material snapshots plus reviewed runtime and expanded
   "data/material-summaries.json": "193f8d81ae8a6e5cbb4c81e96f43c586d073e050423d013601a9a0e90ab68296",
   "data/application-experiences.json": "05b5bc420009910cdb9432bcb199df050007034c178fa2d2b9e7531cc76beb9b",
   "data/application-experience-provenance.json": "0a057d4264371c0adbca86d6af5257919a45f5a767e40f39d9457e0698d9ccf8",
-  "data/advisor-profiles.json": "f4bd245689a218aa66b3ccac849369c4d735fd7bd6ae76a938b7dc1e9f166582",
+  "data/advisor-profiles.json": "4dcff71debbd11b313fd44b3ebcda750205753ccc468498d3f67f525b5ea5b2a",
   "data/ra-positions.json": "b5354ece6ee48d205665af699e008e74d51c41ca23000c7fc653eccfc906816e",
   "data/update-status.json": "b96e217f713537808ee7874c3638ed0e2add57d514b2a23232085dd73d35cad5",
   "data/catalog-test-manifest.json": "ec05af20969ea0b56d4c88fe9afec2131f67fcf242577df687bcc0656d683bfa",
@@ -76,7 +76,7 @@ test('reviewed catalog and material snapshots plus reviewed runtime and expanded
   "assets/profiles.js": "6b6ce55c9e97edb8060976e5f82a631ed47275d6304d72bba4c0caf649606e88",
   "assets/material-supplement.js": "44c8f5821e4c828503b6efefc6cd6a75f560c2de0067f855531337c025511d03",
   "assets/style.css": "87fc9377f9451bc784a8e6355266e9e740e16a53971c5b25c92c0e7b67d4e0df",
-  "tests/render.test.mjs": "0179b03c88f7623366eb6028505682b0c773196eda3058bd08cb5fdff25a3f37"
+  "tests/render.test.mjs": "7018f3c154ee15e3395e87b887acabad846b2a75c2f4fedeae9a27a09ec7d6d7"
 };
  for(const [path,expected] of Object.entries(protectedHashes)){
   let content=fs.readFileSync(new URL('../'+path,import.meta.url));
