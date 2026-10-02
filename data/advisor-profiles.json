@@ -27,7 +27,7 @@
     "Show faculty affiliation and lab/project affiliation separately",
     "Any recruitment display preserves degree/cycle specificity; confirmedVacancy=false means no remaining-place confirmation obtained",
     "No inference of lab size, funding availability, mentorship personality, student outcomes or hardware access",
-    "Fifteen profiles cover existing catalog advisors; the original ten and their checkedDate values are preserved. Five additions were checked on 2026-10-02; no catalog admissions or recruitment authority is overwritten."
+    "Twenty profiles cover existing visible catalog advisors; all previous fifteen profile objects and dates are preserved. Five further additions were checked on 2026-10-02; no catalog admissions or recruitment authority is overwritten."
   ],
   "profiles": [
     {
@@ -2109,10 +2109,968 @@
       "checkedDate": "2026-10-02",
       "confirmedVacancy": false,
       "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "hkbu_kaiyang_zhou",
+      "cardSummaryZh": "从视觉语言模型适应到可靠多模态推理，近期重点包括流式视频助手与超长视频理解。",
+      "overview": {
+        "textZh": "周锴阳现任香港浸会大学计算机科学系助理教授，2023 年 8 月加入 HKBU；博士毕业于英国萨里大学，此前在新加坡南洋理工大学从事博士后研究。当前本人页把多模态大模型、智能体 AI 与具身推理列为方向，学校研究专访还强调视觉模型面对分布变化时的泛化问题。",
+        "sources": [
+          {
+            "url": "https://scholars.hkbu.edu.hk/en/persons/KYZHOU/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://kaiyangzhou.github.io/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://www.comp.hkbu.edu.hk/v1/?id=14&page=research_spotlights",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "周锴阳研究团队（未核实独立实验室名称）",
+        "affiliation": {
+          "textZh": "团队的高校归属为 HKBU 计算机科学系；个人主页以 Team 与 Research 展示成员和成果。Streamo 论文是 HKBU 与腾讯优图实验室的合作，不能将合作单位的设备或岗位算作 HKBU 团队资源。",
+          "sources": [
+            {
+              "url": "https://kaiyangzhou.github.io/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://jiaerxia.github.io/Streamo/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "视觉语言模型适应与跨分布泛化",
+          "多模态推理、视觉 grounding 与可靠性",
+          "实时流式视频理解与交互",
+          "超长上下文及音视频联合理解"
+        ],
+        "structure": {
+          "textZh": "个人主页按 PhD Students 列出博士生及起始年份，并提供个人主页入口；研究成果配有论文、代码或模型链接。教学包括计算机视觉与模式识别高级专题、AI 与生成艺术等；网页并未说明组会频率、逐人指导安排或完整团队规模。",
+          "sources": [
+            {
+              "url": "https://kaiyangzhou.github.io/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "Streamo 官方仓库公开训练代码及 Streamo-Instruct 数据入口，用于视频流多任务指令训练；README 明确模型权重暂不能公开，因此不能将其展示为已有可下载的完整预训练模型。",
+            "sources": [
+              {
+                "url": "https://github.com/maifoundations/Streamo",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "Visionary-R1 官方仓库已发布训练代码，并链接 Hugging Face 模型权重；可作为视觉推理强化学习的阅读与复现入口，本轮未安装或运行。",
+            "sources": [
+              {
+                "url": "https://github.com/maifoundations/Visionary-R1",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "VideoOdyssey 作者项目提供代码、数据集和榜单入口，区分纯视觉与音视频理解；数据许可为 CC BY-NC-SA 4.0，限定学术研究，原始视频另涉及原权利人版权。",
+            "sources": [
+              {
+                "url": "https://videoodyssey-project.github.io/",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Visionary-R1: Mitigating Shortcuts in Visual Reasoning with Reinforcement Learning",
+          "year": 2026,
+          "venue": "Transactions on Machine Learning Research（TMLR，2026 年 8 月）",
+          "summaryZh": "针对视觉语言模型强化学习中的捷径学习，让模型先描述图像、再推理和回答；只用视觉问答对训练，不依赖显式思维链标注。TMLR 正式列表为 2026，arXiv 初稿为 2025。",
+          "url": "https://arxiv.org/abs/2505.14677",
+          "sources": [
+            {
+              "url": "https://jmlr.org/tmlr/papers/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://arxiv.org/abs/2505.14677",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "Streaming Video Instruction Tuning",
+          "year": 2026,
+          "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR），31219–31229",
+          "summaryZh": "提出 Streamo 及 46.5 万条流式指令数据，将实时叙述、动作理解、事件描述、时间定位和时敏问答放入统一训练流程，面向持续视频输入的交互助手。",
+          "url": "https://jiaerxia.github.io/Streamo/",
+          "sources": [
+            {
+              "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xia_Streaming_Video_Instruction_Tuning_CVPR_2026_paper.html",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://jiaerxia.github.io/Streamo/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://github.com/maifoundations/Streamo",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "Bootstrapping Grounded Chain-of-Thought in Multimodal LLMs for Data-Efficient Model Adaptation",
+          "year": 2025,
+          "venue": "IEEE/CVF International Conference on Computer Vision（ICCV），208–217",
+          "summaryZh": "将经自验证的边界框 grounding 信息加入推理数据，减少蒸馏思维链中的事实错误；在图表、表格、收据和报告等五类专业视觉任务上研究少样本适应。",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Xia_Bootstrapping_Grounded_Chain-of-Thought_in_Multimodal_LLMs_for_Data-Efficient_Model_Adaptation_ICCV_2025_paper.html",
+          "sources": [
+            {
+              "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Xia_Bootstrapping_Grounded_Chain-of-Thought_in_Multimodal_LLMs_for_Data-Efficient_Model_Adaptation_ICCV_2025_paper.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "截至本次检查，本人页列有在读博士生，但未见明确的 Fall 2027 招生公告、按学位的剩余名额或资助承诺。PhD 指导记录不能代替当前空缺确认；MPhil、MSc 个人论文指导和 RA 机会仍须分别核实。",
+        "sources": [
+          {
+            "url": "https://kaiyangzhou.github.io/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://scholars.hkbu.edu.hk/en/persons/KYZHOU/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "Fall 2027 个人招生轮次、PhD/MPhil 剩余席位、RA 岗位及资助未确认；页面未写招募不等于不招生",
+        "未核实独立实验室名称、完整团队人数、组会和个别指导安排、算力配置或学生资源使用权限",
+        "多模态/具身推理成果不能直接证明团队具有四足机器人控制、真实导航或雨雾雪传感器实验平台",
+        "Streamo 有公开训练代码与数据入口，但官方 README 明确模型权重暂不公开；不能将代码可见等同于全部复现条件齐备",
+        "Visionary-R1 与 Streamo 的 arXiv 首发均在 2025，本档案按 TMLR/CVPR 2026 正式记录展示；Streamo 项目 BibTeX 仍保留 2025 预印本信息"
+      ],
+      "links": [
+        {
+          "label": "高校现职简介",
+          "url": "https://scholars.hkbu.edu.hk/en/persons/KYZHOU/"
+        },
+        {
+          "label": "本人主页、研究与团队",
+          "url": "https://kaiyangzhou.github.io/"
+        },
+        {
+          "label": "学校研究专访",
+          "url": "https://www.comp.hkbu.edu.hk/v1/?id=14&page=research_spotlights"
+        },
+        {
+          "label": "Streamo 代码与发布限制",
+          "url": "https://github.com/maifoundations/Streamo"
+        },
+        {
+          "label": "Visionary-R1 官方代码",
+          "url": "https://github.com/maifoundations/Visionary-R1"
+        },
+        {
+          "label": "VideoOdyssey 作者项目",
+          "url": "https://videoodyssey-project.github.io/"
+        }
+      ],
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "cuhksz-tinlun-lam",
+      "cardSummaryZh": "以模块化自重构和多机器人协作为主线，连接机构设计、相对定位、协同感知与野外适应。",
+      "overview": {
+        "textZh": "林天麟现任香港中文大学（深圳）副教授、校长青年学者及理工学院助理院长，人工智能学院页面明确列为理工与人工智能学院双聘。2006 年、2010 年分别在香港中文大学获得学士与博士学位；研究覆盖野外机器人、多机器人协作、模块化机器人及机构设计。",
+        "sources": [
+          {
+            "url": "https://sse.cuhk.edu.cn/faculty/tinlunlam",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://sai.cuhk.edu.cn/teacher/173",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://myweb.cuhk.edu.cn/tllam",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Freeform Robotics Research Group",
+        "affiliation": {
+          "textZh": "Freeform Robotics 由林天麟领导，是 CUHK-Shenzhen Robotics & AI Lab 页面列出的研究组之一。论文还列有深圳市人工智能与机器人研究院（AIRS）关联；CRAI、Freeform 及 AIRS 的组织范围不同，其他组的海洋/软体机器人平台不能自动归为其个人资源。",
+          "sources": [
+            {
+              "url": "https://crai.cuhk.edu.cn/team/253",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://crai.cuhk.edu.cn/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://journals.sagepub.com/doi/10.1177/02783649251360360",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "模块化与自由形态自重构机器人",
+          "多机器人相对定位和协同感知",
+          "传感器退化下的鲁棒深度估计",
+          "协作操作、群体任务分配与去中心化控制"
+        ],
+        "structure": {
+          "textZh": "Freeform 成员页区分 Director、Researchers、Students、Engineers / Research Assistants 和 Alumni。CRAI 旧组页中若干成员在当前 Freeform 页已列为校友，故不合并名单计算人数；科研主页按机器人系统与协作任务组织项目。",
+          "sources": [
+            {
+              "url": "https://freeformrobotics.org/people/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://crai.cuhk.edu.cn/team/253",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://freeformrobotics.org/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "FreeSN 自主重构论文展示最多 18 个模块、48 个关节电机的实验系统，并提供作者稿及补充视频入口。这是论文中的验证配置，不是已确认的新生设备配额。",
+            "sources": [
+              {
+                "url": "https://freeformrobotics.org/wp-content/uploads/2025/07/IJRR2025_MSRR_Autonomy.pdf",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://journals.sagepub.com/doi/10.1177/02783649251360360",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "Snail-inspired robotic swarms 作者仓库含数据、MATLAB 几何参数优化代码及 Python 风险比绘图代码；README 对 STEP 三维文件要求联系作者，不能宣称完整机械设计已直接开放下载。",
+            "sources": [
+              {
+                "url": "https://github.com/Da-Zhao1997/Snail-inspired-robotic-swarms",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "Freeform 官方语义图全局定位仓库公开源码、依赖说明和 AirSim 生成数据的下载入口，可阅读多机器人地图对齐实现；本轮未下载数据或运行，README 的旧克隆命令还需复现时校对。",
+            "sources": [
+              {
+                "url": "https://github.com/FreeformRobotics/semantic-histogram-based-global-localization",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Locomotion and self-reconfiguration autonomy for spherical freeform modular robots",
+          "year": 2026,
+          "venue": "The International Journal of Robotics Research，45(3)，477–500；2025-07-29 online first",
+          "summaryZh": "为无固定连接点的球形模块机器人构建自主运动与重构框架，以统一骨架运动学、迭代逆运动学和配置匹配库把目标构型转换为模块控制指令，并在 FreeSN 上验证。",
+          "url": "https://journals.sagepub.com/doi/10.1177/02783649251360360",
+          "sources": [
+            {
+              "url": "https://journals.sagepub.com/doi/10.1177/02783649251360360",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://freeformrobotics.org/wp-content/uploads/2025/07/IJRR2025_MSRR_Autonomy.pdf",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "Robust Depth Estimation Under Sensor Degradations: A Multi-Sensor Fusion Perspective",
+          "year": 2025,
+          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence，47(10)，8691–8707",
+          "summaryZh": "提出可组合、可分离多传感器融合 CSMSF，诊断并排除退化传感器，按有效传感器组合估计深度；当前已核实作者摘要及书目，不能据此扩大为已验证所有雨雾雪条件。",
+          "url": "https://doi.org/10.1109/TPAMI.2025.3581311",
+          "sources": [
+            {
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40536833/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://myweb.cuhk.edu.cn/tllam",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "Snail-inspired robotic swarms: a hybrid connector drives collective adaptation in unstructured outdoor environments",
+          "year": 2024,
+          "venue": "Nature Communications，15，3647",
+          "summaryZh": "借鉴陆生蜗牛连接方式，在灵活磁性连接与更强的吸附连接之间切换，兼顾模块间移动和承载稳定性；面向非结构化室外任务展示群体重构、移动与操作能力。",
+          "url": "https://www.nature.com/articles/s41467-024-47788-2",
+          "sources": [
+            {
+              "url": "https://www.nature.com/articles/s41467-024-47788-2",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "CRAI 的公开公告列出 PhD、博士后、RA 与实习，收件人为林天麟，要求 CV、支持材料及两位推荐人的信息，写明招满为止；页面未显示公告日期或 Fall 2027 轮次。公告不是剩余名额确认，也不能自动扩展为个人 MPhil/MSc 席位或 AIRS 岗位；历史薪酬说明不作为当前资助承诺。",
+        "sources": [
+          {
+            "url": "https://crai.cuhk.edu.cn/recruitment/257",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "CRAI 公告未注明日期和目标入学轮次；Fall 2027 剩余席位、个人资助、MPhil/MSc 指导安排及 RA 当前是否仍开放未确认",
+        "CUHK-Shenzhen 的双聘、AIRS 研究关联与香港中文大学过往学历应分开理解，不能互换学位项目、校区或招生资格",
+        "Freeform 当前成员页和 CRAI 组页存在历史名单差异；完整在岗人数、共同指导分工与日常指导频率未核实",
+        "FreeSN 的实验配置及公开代码不构成硬件、算力或学生访问权限的保证；蜗牛机器人 STEP 文件未直接公开下载",
+        "IJRR 论文学校/本人列表标为 2025，SAGE 页面确认 2025 年在线首发、2026 年 3 月卷期；本档案 year 采用卷期年 2026 并保留在线首发说明",
+        "传感器退化深度论文的方法介绍依据作者摘要及官方书目；完整实验条件、逐天气性能及代码/数据公开情况本轮未核实"
+      ],
+      "links": [
+        {
+          "label": "学校个人主页",
+          "url": "https://myweb.cuhk.edu.cn/tllam"
+        },
+        {
+          "label": "理工学院现职简介",
+          "url": "https://sse.cuhk.edu.cn/faculty/tinlunlam"
+        },
+        {
+          "label": "人工智能学院双聘页",
+          "url": "https://sai.cuhk.edu.cn/teacher/173"
+        },
+        {
+          "label": "Freeform Robotics",
+          "url": "https://freeformrobotics.org/"
+        },
+        {
+          "label": "团队成员",
+          "url": "https://freeformrobotics.org/people/"
+        },
+        {
+          "label": "本人研究项目",
+          "url": "https://freeformrobotics.org/tllam/"
+        },
+        {
+          "label": "CRAI 中的 Freeform 组",
+          "url": "https://crai.cuhk.edu.cn/team/253"
+        },
+        {
+          "label": "分岗位招募公告",
+          "url": "https://crai.cuhk.edu.cn/recruitment/257"
+        }
+      ],
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "westlake-donglin-wang",
+      "cardSummaryZh": "从深度强化学习与快速自适应控制，到四足 VLA 和长时程操作，研究机器人如何把感知与指令变成可执行行为。",
+      "overview": {
+        "textZh": "王东林现任西湖大学工学院终身教授、人工智能系副主任，创立并领导机器智能实验室 MiLAB。2003/2006 年获西安交通大学本科/硕士学位，2010 年获卡尔加里大学电气与计算机工程博士；曾在纽约理工学院任教，2017 年加入西湖，2026 年晋升终身教授。研究主线是机器人学习、深度强化学习和具身智能。",
+        "sources": [
+          {
+            "url": "https://en.westlake.edu.cn/faculty/donglin-wang.html",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://milab.westlake.edu.cn/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Machine Intelligence Lab (MiLAB，机器智能实验室)",
+        "affiliation": {
+          "textZh": "MiLAB 属于西湖大学工学院人工智能系，目标是以机器学习提升真实机器人的行为灵活性、自主学习和快速适应能力。论文中的跨校共同作者所属机构不等于实验室的招生或资源归属。",
+          "sources": [
+            {
+              "url": "https://milab.westlake.edu.cn/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://en.westlake.edu.cn/faculty/donglin-wang.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "深度强化学习与离线策略学习",
+          "元学习、动力学适应与鲁棒足式控制",
+          "四足机器人的视觉—语言—动作模型",
+          "长时程机器人操作与技能衔接"
+        ],
+        "structure": {
+          "textZh": "公开成员页按 PI、研究人员/博士后、博士生、科研助理、访问/实习生、交换生及校友分组；不同栏目包含历史信息，不据列表计算当前团队规模。主页另列深度强化学习和机器学习课程，可了解公开教学主题，但不能由课程页面推断组内日常指导安排。",
+          "sources": [
+            {
+              "url": "https://milab.westlake.edu.cn/people.html",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://milab.westlake.edu.cn/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "QUART-Online 作者仓库公开数据预处理、动作向量量化、VLA 训练及 IsaacGym 评估代码；项目页连接 QUARD 数据集，文件列表确有钻门、避障、穿隧道和卸载等任务的压缩包。本轮未下载完整数据或运行复现。",
+            "sources": [
+              {
+                "url": "https://github.com/yuan48/QUART-Online",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://quart-online.github.io/",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://huggingface.co/datasets/Tong314/QUARD/tree/main",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "RL2AC 提供 RSS 论文与真实四足机器人实验说明，覆盖负载、单腿受扰、侧向力矩及不同地形；这些是研究验证平台，不代表新生设备使用权限。",
+            "sources": [
+              {
+                "url": "https://roboticsconference.org/2024/program/papers/60/",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://www.roboticsproceedings.org/rss20/p060.pdf",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "Long-VLA 作者页提供长时程清理、排序及视觉干扰演示，并介绍 L-CALVIN 评测；该项目页的代码按钮仍为 Coming Soon，不在此据按钮宣称代码已开放。",
+            "sources": [
+              {
+                "url": "https://long-vla.github.io/",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "QUART-Online: Latency-Free Large Multimodal Language Model for Quadruped Robot Learning",
+          "year": 2025,
+          "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
+          "summaryZh": "通过动作块离散化压缩动作 token 并进行多步预测，缓解四足多模态模型的推理延迟；作者报告从原 QUART 的 2 Hz 提升至 50 Hz，并展示避障、穿隧道和卸载等任务。",
+          "url": "https://quart-online.github.io/",
+          "sources": [
+            {
+              "url": "https://quart-online.github.io/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://milab.westlake.edu.cn/publications.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "Long-VLA: Unleashing Long-Horizon Capability of Vision Language Action Model for Robot Manipulation",
+          "year": 2025,
+          "venue": "Conference on Robot Learning (CoRL)",
+          "summaryZh": "将子任务分为移动与交互阶段，以阶段感知输入掩码聚焦相关感知信息，研究长时程操作中的技能衔接；引入 L-CALVIN，并在仿真及真实排序、清理任务中验证，王东林为共同通讯作者。",
+          "url": "https://long-vla.github.io/",
+          "sources": [
+            {
+              "url": "https://long-vla.github.io/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://arxiv.org/abs/2508.19958",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "RL2AC: Reinforcement Learning-based Rapid Online Adaptive Control for Legged Robot Robust Locomotion",
+          "year": 2024,
+          "venue": "Robotics: Science and Systems (RSS)",
+          "summaryZh": "把已训练的强化学习运动策略与在线自适应力矩补偿结合，以 1000 Hz 控制应对外部扰动和仿真到现实的动力学差异；实验检验重载、单腿扰动、侧向力矩及地形变化，不能外推为全天候感知验证。",
+          "url": "https://roboticsconference.org/2024/program/papers/60/",
+          "sources": [
+            {
+              "url": "https://roboticsconference.org/2024/program/papers/60/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://www.roboticsproceedings.org/rss20/p060.pdf",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "当前 People 页的博士生栏目明确写“招2027级，名额充足”；Contact 页另列博士、科研助理、博士后/研究人员与访问实习招募，并要求将简历发送至 mi_lab@westlake.edu.cn。这是实验室公开招募表述，未独立确认剩余席位、资助、具体入学季或当前可提交的学校批次；各学历起点和语言要求须结合当轮官方简章核实。",
+        "sources": [
+          {
+            "url": "https://milab.westlake.edu.cn/people.html",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://milab.westlake.edu.cn/contact.html",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "People 页明确出现“招2027级，名额充足”，但未独立确认剩余席位、个人资助、具体春秋季和当前申请窗口；不由此覆盖目录中的学位路径、资格或批次判断",
+        "Contact 页的博士申请偏好和语言分数不能替代当轮校级招生简章；MPhil/MSc 个人指导通道及各类 RA/实习合同条件未核实",
+        "当前团队规模、日常指导频率、共同指导关系、硬件数量和算力使用权未核实；不从合著名单、项目经费或设备演示推断培养质量",
+        "MiLAB 主页页脚仍写 January 2021，但正文含 2026-09 新闻；本条逐项采用当前正文证据，不把页脚当统一更新时间",
+        "QUART-Online 项目 BibTeX 保留 2024 预印本信息，本条采用项目页和实验室一致标注的 ICRA 2025；Long-VLA 项目页代码按钮仍是 Coming Soon，本轮未据此确认完整公开代码"
+      ],
+      "links": [
+        {
+          "label": "校方现职简介",
+          "url": "https://en.westlake.edu.cn/faculty/donglin-wang.html"
+        },
+        {
+          "label": "MiLAB 实验室",
+          "url": "https://milab.westlake.edu.cn/"
+        },
+        {
+          "label": "成员与 2027 招募文字",
+          "url": "https://milab.westlake.edu.cn/people.html"
+        },
+        {
+          "label": "各岗位申请说明",
+          "url": "https://milab.westlake.edu.cn/contact.html"
+        },
+        {
+          "label": "实验室成果列表",
+          "url": "https://milab.westlake.edu.cn/publications.html"
+        },
+        {
+          "label": "QUART-Online 作者代码",
+          "url": "https://github.com/yuan48/QUART-Online"
+        },
+        {
+          "label": "QUARD 数据集",
+          "url": "https://huggingface.co/datasets/Tong314/QUARD/tree/main"
+        },
+        {
+          "label": "Long-VLA 作者项目",
+          "url": "https://long-vla.github.io/"
+        }
+      ],
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "westlake-kaicheng-yu",
+      "cardSummaryZh": "从 LiDAR—相机鲁棒融合和多模态场景生成，延伸到数据驱动的世界模型及统一机器人动作建模。",
+      "overview": {
+        "textZh": "于开丞（Kaicheng Yu）现任西湖大学工学院助理教授、博士生导师及自主智能实验室 AutoLab PI，归属人工智能系。2016 年获香港大学工学学士，2021 年获 EPFL 博士，曾在 Intel 和阿里巴巴达摩院从事研究，2023 年 8 月加入西湖并建立实验室。研究覆盖 AutoML、三维感知、自动驾驶和自主智能。",
+        "sources": [
+          {
+            "url": "https://en.westlake.edu.cn/faculty/kaicheng-yu.html",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://www.westlake.edu.cn/faculty/kaicheng-yu.html",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://engineering.westlake.edu.cn/OurSchool/Departments/?tab=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%B3%BB",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Autonomous Intelligence Lab (AutoLab，自主智能实验室)",
+        "affiliation": {
+          "textZh": "AutoLab 于 2023 年 8 月在西湖大学工学院成立，围绕数据驱动世界模型构建自主智能系统。AI4Reality 面向具身智能与自动驾驶场景和数据闭环；AI4Virtual 关注知识驱动的科学智能。阿里巴巴达摩院是于开丞此前任职机构，不能把历史企业成果直接当成当前西湖设备或招生资源。",
+          "sources": [
+            {
+              "url": "https://auto.lab.westlake.edu.cn/index.html",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://en.westlake.edu.cn/faculty/kaicheng-yu.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "LiDAR—相机融合与鲁棒三维感知",
+          "多模态场景重建、传感器数据合成与世界模型",
+          "数据闭环、自动机器学习与自主系统",
+          "具身动作建模及知识驱动的 AI for Science"
+        ],
+        "structure": {
+          "textZh": "主页按 PI、博士生、硕士生和助理研究人员介绍核心梯队，并欢迎博士后、访问和实习人员；名单及人数可能有更新滞后，本条不作当前人数承诺。Join us 页自述每周至少一次一对一交流、每周组会及行政助理支持，这属于公开培养安排说明，实际执行情况未独立核实。",
+          "sources": [
+            {
+              "url": "https://auto.lab.westlake.edu.cn/index.html",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://auto.lab.westlake.edu.cn/join-us.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "BEVFusion 作者仓库公开 3D 检测框架、训练说明和检查点入口，便于研究 LiDAR 失效时的视觉分支与多模态融合；该成果发表于 2022 年，早于 AutoLab 成立。",
+            "sources": [
+              {
+                "url": "https://github.com/ADLab-AutoDrive/BEVFusion",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://arxiv.org/abs/2205.13790",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://en.westlake.edu.cn/faculty/kaicheng-yu.html",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "LLM2AD 作者项目提供轨迹生成可视化；官方代码仓库包含配置、模型、数据处理与训练目录，并明确记录 2025 年 10 月代码发布。本轮未安装或复现。",
+            "sources": [
+              {
+                "url": "https://wizard-wang01.github.io/LLM2AD/",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://github.com/UDEER-AI/LLM2AD",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "Join us 页列出校级 A100/V100/A800/H800 集群、实验室空间，并将一批 RTX 4090 写作未来采购计划；采购是否完成、当前可分配额度和学生访问权限未核实，不能转写为已保证的个人算力。",
+            "sources": [
+              {
+                "url": "https://auto.lab.westlake.edu.cn/join-us.html",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "An Action Is Worth One Patch: Unified World-Action Modeling with PatchWAM",
+          "year": 2026,
+          "venue": "arXiv 预印本，2026-09-22 首发；未核实会议/期刊接收",
+          "summaryZh": "通过固定的 Action-as-Patch 映射把连续动作表示为与视觉兼容的 patch，在同一生成模型中预测动作和后续画面，无需单独的动作头或动作专家；作者在 LIBERO-Plus 与 RoboTwin 2.0 基准中评估。属于新近预印本，结论仍需复现检验。",
+          "url": "https://arxiv.org/abs/2609.25961",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2609.25961",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "OmniGen: Unified Multimodal Sensor Generation for Autonomous Driving",
+          "year": 2025,
+          "venue": "ACM International Conference on Multimedia (ACM MM)",
+          "summaryZh": "在共享 BEV 空间统一 LiDAR 与多视角相机特征，以多模态自编码器和受控扩散 Transformer 合成对齐的传感器数据，研究跨模态一致性、可控场景生成和传感器参数调整；于开丞是合著者。",
+          "url": "https://auto.lab.westlake.edu.cn/assets/pdf/MM25_UniGen__Camera_ready.pdf",
+          "sources": [
+            {
+              "url": "https://auto.lab.westlake.edu.cn/assets/pdf/MM25_UniGen__Camera_ready.pdf",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://auto.lab.westlake.edu.cn/publications.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "BEVFusion: A Simple and Robust LiDAR-Camera Fusion Framework",
+          "year": 2022,
+          "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+          "summaryZh": "构建不依赖 LiDAR 输入的相机分支，再与点云信息融合进行 3D 检测，重点评估模拟 LiDAR 故障时的鲁棒性；这是加入西湖前的代表作，不能据此声称已验证真实雨、雾、雪下的长期全天候性能。",
+          "url": "https://arxiv.org/abs/2205.13790",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2205.13790",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://en.westlake.edu.cn/faculty/kaicheng-yu.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "校方个人页长期列出 PhD、博士后、RA 与六个月科研实习机会；当前 Join us 页具体展开博士后和访问学生/人员，并要求提交简历及代表成果至 autolab.hr@westlake.edu.cn、抄送 kyu@westlake.edu.cn，公告写明招满为止。本人旧主页仍写 Fall 2025 PhD，不能当成 Fall 2027 招募；本轮未确认 2027 博士剩余席位、资助或可提交批次。",
+        "sources": [
+          {
+            "url": "https://en.westlake.edu.cn/faculty/kaicheng-yu.html",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://auto.lab.westlake.edu.cn/join-us.html",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://www.yukaicheng.cn/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "学校个人页是未限定周期的 PhD/博士后/RA/实习招募；个人旧主页的 Fall 2025 不能外推到 Fall 2027，当前剩余席位、资助和申请批次均未确认",
+        "Join us 的博士后/访问人员条件不能替代 PhD、MPhil 或 MSc 的学位入学要求；各学位个人指导安排未核实",
+        "主页合作表述同时包含已建立与潜在合作；不能把合作机构列表当成已承诺的联合培养、实习名额或可共享硬件",
+        "实验室自述的周会/一对一安排、空间与校级集群不等于独立核验的培养体验或个人资源保证；RTX 4090 为采购计划，实际落实及分配未核实",
+        "PatchWAM 截至本轮仅核实 arXiv 预印本，没有据此声称已获会议/期刊接收；其基准结果不等于真实全天候部署验证"
+      ],
+      "links": [
+        {
+          "label": "官方中文现职与姓名",
+          "url": "https://www.westlake.edu.cn/faculty/kaicheng-yu.html"
+        },
+        {
+          "label": "校方英文简介",
+          "url": "https://en.westlake.edu.cn/faculty/kaicheng-yu.html"
+        },
+        {
+          "label": "人工智能系名单",
+          "url": "https://engineering.westlake.edu.cn/OurSchool/Departments/?tab=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%B3%BB"
+        },
+        {
+          "label": "AutoLab 实验室",
+          "url": "https://auto.lab.westlake.edu.cn/index.html"
+        },
+        {
+          "label": "实验室论文列表",
+          "url": "https://auto.lab.westlake.edu.cn/publications.html"
+        },
+        {
+          "label": "按岗位招募说明",
+          "url": "https://auto.lab.westlake.edu.cn/join-us.html"
+        },
+        {
+          "label": "BEVFusion 作者代码",
+          "url": "https://github.com/ADLab-AutoDrive/BEVFusion"
+        },
+        {
+          "label": "LLM2AD 作者项目",
+          "url": "https://wizard-wang01.github.io/LLM2AD/"
+        },
+        {
+          "label": "PatchWAM 预印本",
+          "url": "https://arxiv.org/abs/2609.25961"
+        }
+      ],
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "hkustgz-changhao-chen",
+      "cardSummaryZh": "从学习式状态估计、开放词汇三维感知延伸到带记忆的目标导航与安全控制，PEAK Lab 连接空间理解和机器人行动。",
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "overview": {
+        "textZh": "陈昶昊现任 HKUST(GZ) 智能交通学域助理教授，并联聘人工智能学域；2020 年获牛津大学计算机科学博士，随后在牛津从事博士后研究，2021–2024 年任国防科技大学讲师。个人主页还列有香港清水湾校区 EMIA 关联身份；这不自动建立该校区的申请或定导路径。",
+        "sources": [
+          {
+            "url": "https://changhao-chen.github.io/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://facultyprofiles.hkust-gz.edu.cn/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://infh.hkust-gz.edu.cn/academics/ai/faculty-members/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "PEAK Lab — Perception, Embodiment, Autonomy and Kinematics",
+        "affiliation": {
+          "textZh": "PEAK Lab 位于 HKUST(GZ)，以开放环境中的感知、导航与交互为研究主线，将几何、优化和动力学模型与学习式方法结合。机器人、无人机与其他移动平台的研究展示不等同于每位学生可获相同硬件。",
+          "sources": [
+            {
+              "url": "https://changhao-chen.github.io/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://changhao-chen.github.io/people/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "开放词汇三维占据与空间理解",
+          "SLAM、惯性里程计与多模态状态估计",
+          "记忆驱动的视觉/目标导航",
+          "分层规划、安全约束控制与具身学习"
+        ],
+        "structure": {
+          "textZh": "当前成员页分别列出 PhD、MPhil 学生和研究助理；公开课题涉及三维场景理解、视觉 SLAM、多模态学习及机器人控制。成员页说明团队研究构成，不证明当前招生配额，也不提供完整指导分工或组会制度。",
+          "sources": [
+            {
+              "url": "https://changhao-chen.github.io/people/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "FreeOcc 作者仓库公开环境、重建、评估和可视化流程，并链接 ReplicaOcc 基准；项目页同时展示 RGB-D 真实场景结果。本轮核读说明与文件目录，未安装环境或复现实验。",
+            "sources": [
+              {
+                "url": "https://github.com/the-masses/FreeOcc",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://the-masses.github.io/freeocc-web/",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "PanoNav 的 AAAI 官方论文条目提供摘要、论文 PDF 和海报入口，适合先核查全景 RGB 场景解析及动态有界记忆的导航设计；此入口不代表已核实完整代码或实体机器人部署包。",
+            "sources": [
+              {
+                "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38899",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "FreeOcc: Training-Free Embodied Open-Vocabulary Occupancy Prediction",
+          "year": 2026,
+          "venue": "RSS（作者项目页与仓库标注）",
+          "summaryZh": "从单目或 RGB-D 序列出发，将 SLAM 几何、三维高斯建图、视觉语言语义与占据投影连接起来，无需任务专门训练；项目另提供用于零样本评估的 ReplicaOcc 基准。",
+          "url": "https://the-masses.github.io/freeocc-web/",
+          "sources": [
+            {
+              "url": "https://the-masses.github.io/freeocc-web/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://github.com/the-masses/FreeOcc",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "PanoNav: Mapless Zero-Shot Object Navigation with Panoramic Scene Parsing and Dynamic Memory",
+          "year": 2026,
+          "venue": "AAAI",
+          "summaryZh": "用全景 RGB 输入进行场景解析，并以动态有界记忆队列引入探索历史，减少无地图目标导航中的局部死锁；论文讨论的记忆是这一导航机制，不代表通用终身记忆。",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38899",
+          "sources": [
+            {
+              "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38899",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "SaferPath: Hierarchical Visual Navigation with Learned Guidance and Safety-Constrained Control",
+          "year": 2026,
+          "venue": "ICRA（作者论文记录与主页）",
+          "summaryZh": "保留学习模型提供的导航引导，再用可通行区域和安全约束优化修正轨迹，由 MPC 跟踪；研究重点是未见障碍、拥挤空间与狭窄通道中的分层导航。",
+          "url": "https://arxiv.org/abs/2603.01898",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2603.01898",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://changhao-chen.github.io/publications/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "个人主页明确写有 Spring/Fall 2027 全奖 PhD，以及 RA、访问学生开放信号；该新闻行仍显示 2025-08-17，正文周期与时间戳未同步。应按公开招募声明理解，不能据此确认当下剩余名额、具体资助条件或个人录取资格。MPhil 成员存在也不能推定独立 MPhil 招募名额。",
+        "sources": [
+          {
+            "url": "https://changhao-chen.github.io/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://changhao-chen.github.io/people/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "招募正文为 Spring/Fall 2027，但新闻行仍标 2025-08-17；本轮未核实剩余名额、奖学金具体条款或通知更新日",
+        "当前团队含 MPhil 学生，不等于已确认新的 MPhil 名额；清水湾 EMIA 关联也不自动增加香港本部招生路径",
+        "主页链接的知乎招募说明返回 403；没有把该链接正文、招聘细则或其中的指导风格描述当作已读证据",
+        "本轮未核实精确入职日期、完整团队规模、日常指导频率，以及个人可分配的硬件与算力"
+      ],
+      "links": [
+        {
+          "label": "PI 与 PEAK Lab 主页",
+          "url": "https://changhao-chen.github.io/"
+        },
+        {
+          "label": "当前成员",
+          "url": "https://changhao-chen.github.io/people/"
+        },
+        {
+          "label": "完整成果列表",
+          "url": "https://changhao-chen.github.io/publications/"
+        }
+      ]
     }
   ],
   "reviewRequired": true,
-  "batch": "1+2+3",
+  "batch": "1+2+3+4",
   "batch3Review": {
     "checkedDate": "2026-10-02",
     "baseCommit": "595c832d7d0610ed550131dc97b3f2da4fbf6c87",
@@ -2126,5 +3084,25 @@
     "preservedProfiles": 10,
     "catalogMutation": false,
     "scope": "Public professional and lab context only; old profiles retain their earlier check date."
+  },
+  "batch4Review": {
+    "checkedDate": "2026-10-02",
+    "baseCommit": "297b2b7059e2292d5cbe3eeab3341376163bc5ea",
+    "newAdvisorIds": [
+      "hkbu_kaiyang_zhou",
+      "cuhksz-tinlun-lam",
+      "westlake-donglin-wang",
+      "westlake-kaicheng-yu",
+      "hkustgz-changhao-chen"
+    ],
+    "preservedProfiles": 15,
+    "catalogMutation": "identity_only",
+    "scope": "Public professional and lab context; current Chinese display name corrected from official sources. Historical sourceRecord, eligibility, routes, scholarships, RA and recruitment authority are unchanged.",
+    "identityCorrection": {
+      "advisorId": "westlake-kaicheng-yu",
+      "field": "nameZh",
+      "originalSourceRecordPreserved": true,
+      "checkedDate": "2026-10-02"
+    }
   }
 }

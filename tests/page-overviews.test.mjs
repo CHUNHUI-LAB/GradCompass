@@ -55,6 +55,6 @@ test('global overviews are deterministic, read-only, and escape data-controlled 
  const before=JSON.stringify(catalog);for(const view of views){assert.equal(renderPageOverview(view,catalog,options),renderPageOverview(view,catalog,options));}assert.equal(JSON.stringify(catalog),before);const c={...catalog,metadata:{...catalog.metadata,checkedDate:'<script>alert(1)</script>'}};const html=renderPageOverview('deadlines',c,options);assert(!html.includes('<script>'));assert(html.includes('&lt;script&gt;'));
 });
 test('reviewed catalog and materials plus unchanged experience data retain their declared snapshot bytes',()=>{
- const expected={'catalog.json':'d60936c9ddc5','material-summaries.json':'193f8d81ae8a','application-experiences.json':'8f213cf0ff3a'};
+ const expected={'catalog.json':'045a3a5886d5','material-summaries.json':'193f8d81ae8a','application-experiences.json':'8f213cf0ff3a'};
  for(const [name,sha]of Object.entries(expected)){const bytes=fs.readFileSync(new URL('../data/'+name,import.meta.url));assert.equal(crypto.createHash('sha256').update(bytes).digest('hex').slice(0,12),sha,name);}
 });

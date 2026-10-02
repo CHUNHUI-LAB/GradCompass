@@ -8276,7 +8276,7 @@
     {
       "id": "westlake-kaicheng-yu",
       "name": "Kaicheng Yu",
-      "nameZh": "余开程",
+      "nameZh": "于开丞",
       "institution": "Westlake",
       "department": "工学院，人工智能系",
       "position": "Assistant Professor / PI",
@@ -8540,6 +8540,25 @@
         },
         "checked_at": "2026-10-01",
         "verification_status": "本科起点且无需推免的至少一条学位路径已核实；具体批次、名额及全部个人资格分开判断"
+      },
+      "identityReview": {
+        "checkedDate": "2026-10-02",
+        "field": "nameZh",
+        "previousValue": "余开程",
+        "currentValue": "于开丞",
+        "scope": "仅校正当前中文姓名；原 sourceRecord、核验日期及招生、资格、学位关联和岗位信息均保留。",
+        "sources": [
+          {
+            "label": "西湖大学中文教师主页",
+            "url": "https://www.westlake.edu.cn/faculty/kaicheng-yu.html",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "label": "西湖大学人工智能系教师名单",
+            "url": "https://engineering.westlake.edu.cn/OurSchool/Departments/?tab=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%B3%BB",
+            "checkedDate": "2026-10-02"
+          }
+        ]
       }
     },
     {

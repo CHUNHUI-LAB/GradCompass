@@ -62,21 +62,21 @@ test('new introduction research text is searchable without weakening degree, sch
 
 test('reviewed catalog and material snapshots plus protected runtime and experience data match the declared content boundary',()=>{
  const protectedHashes={
-  "data/catalog.json": "d60936c9ddc57c843376611bca5f08717d26e648ce8e9f711e8d59110d8d54a5",
+  "data/catalog.json": "045a3a5886d50a2cca8b294ee34936522d77590a0a76f0c4b3e94252654f9d1a",
   "data/material-summaries.json": "193f8d81ae8a6e5cbb4c81e96f43c586d073e050423d013601a9a0e90ab68296",
   "data/application-experiences.json": "8f213cf0ff3af43e436fbd2343ce6f00cbacfc221a293b68a3964c42188967b5",
   "data/application-experience-provenance.json": "2a81b133e27fb66530fc7bdc674aef8e054c1dee9fc4b79a1618fc452471627f",
-  "data/advisor-profiles.json": "22430f10d3fe1487252ab14cd29e1f2cbcbb16abe8624c914d3ab6bcb20ef531",
+  "data/advisor-profiles.json": "f4bd245689a218aa66b3ccac849369c4d735fd7bd6ae76a938b7dc1e9f166582",
   "data/ra-positions.json": "b5354ece6ee48d205665af699e008e74d51c41ca23000c7fc653eccfc906816e",
   "data/update-status.json": "b96e217f713537808ee7874c3638ed0e2add57d514b2a23232085dd73d35cad5",
-  "data/catalog-test-manifest.json": "547f773ff4b20735de3c68a844255b60e4c4f84baee99cb7d3cc609f0ecf4b27",
+  "data/catalog-test-manifest.json": "ec05af20969ea0b56d4c88fe9afec2131f67fcf242577df687bcc0656d683bfa",
   "assets/core.js": "cad4681d907cdf380dad2b1ab4c9b42ee33829e11fafeb73b9ad0b072975a927",
   "assets/record-summaries.js": "7650b472298f9d0db4f59f53a1a437b4f295efeb3e21e33016b11f3e76a4b314",
   "assets/experiences.js": "662273e1227343feb9dc402f2b72bc40ab641270299816e5d44d66680f78377a",
   "assets/profiles.js": "6b6ce55c9e97edb8060976e5f82a631ed47275d6304d72bba4c0caf649606e88",
   "assets/material-supplement.js": "44c8f5821e4c828503b6efefc6cd6a75f560c2de0067f855531337c025511d03",
   "assets/style.css": "87fc9377f9451bc784a8e6355266e9e740e16a53971c5b25c92c0e7b67d4e0df",
-  "tests/render.test.mjs": "7649f359a49d499ca9460157ec7db2910a88f5e1e3b53dac2bd0dac3189dc2f6"
+  "tests/render.test.mjs": "0179b03c88f7623366eb6028505682b0c773196eda3058bd08cb5fdff25a3f37"
 };
  for(const [path,expected] of Object.entries(protectedHashes)){
   let content=fs.readFileSync(new URL('../'+path,import.meta.url));

@@ -214,5 +214,20 @@
       "tests/cycle-refresh.test.mjs",
       "tests/opportunities.test.mjs"
     ]
+  },
+  "currentIdentityReview": {
+    "checkedDate": "2026-10-02",
+    "catalogSha256": "045a3a5886d50a2cca8b294ee34936522d77590a0a76f0c4b3e94252654f9d1a",
+    "baseCatalogSha256": "d60936c9ddc57c843376611bca5f08717d26e648ce8e9f711e8d59110d8d54a5",
+    "advisorId": "westlake-kaicheng-yu",
+    "changedFields": [
+      "nameZh",
+      "identityReview"
+    ],
+    "scope": "Identity-only current display-name correction from official Chinese faculty and department pages; original sourceRecord and all admissions, eligibility, route, scholarship and RA data preserved. Older review hashes remain historical.",
+    "seeTests": [
+      "tests/profiles.test.mjs",
+      "tests/render.test.mjs"
+    ]
   }
 }
