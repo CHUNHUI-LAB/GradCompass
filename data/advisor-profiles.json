@@ -1,6 +1,6 @@
 {
   "schemaVersion": "advisor-profile-supplement/0.1",
-  "checkedDate": "2026-10-01",
+  "checkedDate": "2026-10-02",
   "pilotOnly": false,
   "joinKey": "advisorId",
   "catalogSource": "data/catalog.json",
@@ -27,7 +27,7 @@
     "Show faculty affiliation and lab/project affiliation separately",
     "Any recruitment display preserves degree/cycle specificity; confirmedVacancy=false means no remaining-place confirmation obtained",
     "No inference of lab size, funding availability, mentorship personality, student outcomes or hardware access",
-    "Ten profiles are included in this isolated review candidate; remaining catalog entries retain their original content."
+    "Fifteen profiles cover existing catalog advisors; the original ten and their checkedDate values are preserved. Five additions were checked on 2026-10-02; no catalog admissions or recruitment authority is overwritten."
   ],
   "profiles": [
     {
@@ -1312,8 +1312,819 @@
       "checkedDate": "2026-10-01",
       "confirmedVacancy": false,
       "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "hku-jia-pan",
+      "cardSummaryZh": "把模型驱动规划与机器人学习结合，研究拥挤环境导航、双臂操作和可组合的物理技能。",
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "overview": {
+        "textZh": "Jia Pan 现任 HKU 计算与数据科学学院人工智能与数据科学系副教授，博士毕业于 UNC Chapel Hill；研究目标是可可靠理解并作用于真实世界的通用自主机器人。学校页另列 LimX Dynamics 首席研究科学家职务。",
+        "sources": [
+          {
+            "url": "https://ai.hku.hk/people/academic-staff/jpan",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Jia Pan research group（本轮未核实独立实验室品牌名）",
+        "affiliation": {
+          "textZh": "当前学术归属为 HKU；LimX Dynamics 企业职务与合著项目单位单独理解，不据此建立企业招生或跨校学位通道。",
+          "sources": [
+            {
+              "url": "https://ai.hku.hk/people/academic-staff/jpan",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "模型驱动学习与避障导航",
+          "双臂和形变物体操作",
+          "语义技能与组合式策略学习",
+          "机器人感知与物理交互"
+        ],
+        "structure": {
+          "textZh": "院系页按成员列代表成果，并标明部分 HKU–SUSTech 联合博士及共同导师；这是已公开的培养经历，不等同于当前完整成员表或所有学生的指导安排。",
+          "sources": [
+            {
+              "url": "https://ai.hku.hk/people/academic-staff/jpan",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "NeuPAN 作者项目公开论文、代码入口及地面、轮足和车辆实验说明，适合先检查感知到控制的实现思路；本轮未运行代码。",
+            "sources": [
+              {
+                "url": "https://hanruihua.github.io/neupan_project/",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "SMoDP 项目展示 LIBERO 仿真与 ALOHA 双臂任务，可用于了解其从技能语义到实际操作的研究方式；不承诺入组后的设备使用权。",
+            "sources": [
+              {
+                "url": "https://deng-cy20.github.io/SMoDP/",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Semantically Structured Mixture-of-Experts for Compositional Robotic Manipulation (SMoDP)",
+          "year": 2026,
+          "venue": "RSS（作者项目页与院系页）",
+          "summaryZh": "以语义技能预测引导扩散策略的专家路由，研究多任务操作及少样本组合迁移。",
+          "url": "https://deng-cy20.github.io/SMoDP/",
+          "sources": [
+            {
+              "url": "https://deng-cy20.github.io/SMoDP/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://ai.hku.hk/people/academic-staff/jpan",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "NeuPAN: Direct Point Robot Navigation with End-to-End Model-based Learning",
+          "year": 2025,
+          "venue": "IEEE Transactions on Robotics；预印本首发 2024",
+          "summaryZh": "从原始点云构造避障约束，把可解释优化与学习连接，验证地面、轮足与车辆导航。",
+          "url": "https://hanruihua.github.io/neupan_project/",
+          "sources": [
+            {
+              "url": "https://hanruihua.github.io/neupan_project/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://arxiv.org/abs/2403.06828",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "当前院系个人页提供 prospective students 意向表，并说明不要直接发送申请邮件；未在该页区分 MPhil/PhD、标明 Fall 2027 或剩余名额。表单正文本轮未能读取，因此不补写其材料要求。",
+        "sources": [
+          {
+            "url": "https://ai.hku.hk/people/academic-staff/jpan",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "当前完整团队规模、日常指导频率、硬件和算力分配未核实",
+        "个人学位分类、2027 名额及资助未确认；研究兴趣和企业职务均不构成录取承诺",
+        "院系页要求通过意向表登记而非直接发邮件；表单正文未能读取，不补写材料要求"
+      ],
+      "links": [
+        {
+          "label": "当前院系简介与申请入口",
+          "url": "https://ai.hku.hk/people/academic-staff/jpan"
+        },
+        {
+          "label": "NeuPAN 作者项目",
+          "url": "https://hanruihua.github.io/neupan_project/"
+        },
+        {
+          "label": "SMoDP 作者项目",
+          "url": "https://deng-cy20.github.io/SMoDP/"
+        }
+      ]
+    },
+    {
+      "advisorId": "hkust-yajing-shen",
+      "cardSummaryZh": "从触觉传感器和人工皮肤出发，将全臂接触感知、灵巧操作与身体交互组成机器人闭环。",
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "overview": {
+        "textZh": "申亚京现任 HKUST 电子及计算机工程学系教授，领导 Mevita Robotics Lab；2012 年获名古屋大学博士。团队同时研究触觉与具身操作、微型及生物医学机器人，选择课题时需区分这些支线。",
+        "sources": [
+          {
+            "url": "https://mrl.hkust.edu.hk/team/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://mrl.hkust.edu.hk/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Mevita Robotics Lab (MRL)",
+        "affiliation": {
+          "textZh": "实验室归属 HKUST ECE。教师另兼机器人研究所及联合实验室相关职务；不能把研究中心与本实验室的人员、项目或招生名额合并。",
+          "sources": [
+            {
+              "url": "https://mrl.hkust.edu.hk/team/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://mrl.hkust.edu.hk/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "触觉感知、人工皮肤与物理反馈",
+          "灵巧手、接触丰富的操作",
+          "具身感知–动作闭环",
+          "微型及生物医学机器人"
+        ],
+        "structure": {
+          "textZh": "成员页区分研究人员、博士生、MPhil 学生和校友。招募说明自述训练包括搭建研究平台、跨学科学习、论文反复修改及近乎每周的进展汇报；这里记录公开要求，不评价指导质量或实际执行情况。",
+          "sources": [
+            {
+              "url": "https://mrl.hkust.edu.hk/team/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://mrl.hkust.edu.hk/openings/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "EmArm 论文报告刚性机械臂与大面积软触觉皮肤、本体感知结合的研究平台；TAP 工作展示力矩触觉支持的物体放置与切割。它们是已发表实验，不是学生设备配额。",
+            "sources": [
+              {
+                "url": "https://www.nature.com/articles/s44460-026-00097-1",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://researchportal.hkust.edu.hk/en/publications/touching-with-torque-enables-human-level-robotic-dexterity/",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Embodied sensorimotor integration for whole-arm tactile sensing and adaptive robotic manipulation",
+          "year": 2026,
+          "venue": "Nature Sensors；2026-07-20 在线发表",
+          "summaryZh": "EmArm 将全臂触觉、本体感知与闭环控制连接，用于接触意图识别、遮挡环境操作及轨迹重规划。",
+          "url": "https://www.nature.com/articles/s44460-026-00097-1",
+          "sources": [
+            {
+              "url": "https://www.nature.com/articles/s44460-026-00097-1",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://mrl.hkust.edu.hk/publications/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "Touching with torque enables human-level robotic dexterity",
+          "year": 2026,
+          "venue": "Science Advances；学校仓储标注 2026-03-06 出版",
+          "summaryZh": "提出力矩–角度–压力触觉传感器，把接触反馈用于无视觉物体放置和自适应切割；标题不代表通用人类水平能力。",
+          "url": "https://researchportal.hkust.edu.hk/en/publications/touching-with-torque-enables-human-level-robotic-dexterity/",
+          "sources": [
+            {
+              "url": "https://researchportal.hkust.edu.hk/en/publications/touching-with-torque-enables-human-level-robotic-dexterity/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://mrl.hkust.edu.hk/publications/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "核读时官方招募页明确 Fall 2027 MPhil（本地及国际）为 0 openings，PhD 也为 0 openings；这是该轮当前公开状态，不能外推为永久停招。页面另列 HKUST 本科 UROP/FYP 及博士后说明，均不等同于 MPhil/PhD 或 RA 名额。",
+        "sources": [
+          {
+            "url": "https://mrl.hkust.edu.hk/openings/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "官方招募页核读时明确 Fall 2027 MPhil（本地及国际）与 PhD 均为 0 openings；仅限该轮当前状态",
+        "其他入学轮次、后续名额变化、个人资助与 RA 岗位未确认",
+        "训练要求为实验室自述；实际指导体验、学生工作时间、设备和算力分配未核实",
+        "Nature 正文直读发生跳转错误，已读出版社检索返回的摘要和日期；Science 正文返回 403，采用学校研究仓储摘要，未声称读完论文或补充视频"
+      ],
+      "links": [
+        {
+          "label": "实验室",
+          "url": "https://mrl.hkust.edu.hk/"
+        },
+        {
+          "label": "导师与团队",
+          "url": "https://mrl.hkust.edu.hk/team/"
+        },
+        {
+          "label": "研究方向",
+          "url": "https://mrl.hkust.edu.hk/research/"
+        },
+        {
+          "label": "分学位招募及训练说明",
+          "url": "https://mrl.hkust.edu.hk/openings/"
+        }
+      ]
+    },
+    {
+      "advisorId": "hkustgz-jun-ma",
+      "cardSummaryZh": "以规划、优化控制和强化学习连接机器人运动与操作，近期扩展到跨视角视觉策略及主动推障导航。",
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "overview": {
+        "textZh": "马骏现任 HKUST(GZ) 机器人与自主系统学域副教授、代理学域主任及智能自动驾驶中心主任；2018 年获 NUS 博士，2021 年加入 HKUST(GZ)，2026 年晋升副教授。晋升不等同于当年新入职。",
+        "sources": [
+          {
+            "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/roas/thrust-leadership/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Robot Motion Planning and Control Lab",
+        "affiliation": {
+          "textZh": "实验室位于 HKUST(GZ)，面向机械臂、足式机器人及自动驾驶；联系页将该实验室和 Intelligent Autonomous Driving Center 分别列出，不能据此视作同一团队。",
+          "sources": [
+            {
+              "url": "https://personal.hkust-gz.edu.cn/junma/index.html",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://personal.hkust-gz.edu.cn/junma/Join.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "约束优化、运动规划与模型预测控制",
+          "足式/轮足移动操作与强化学习",
+          "交互式导航和安全控制",
+          "视觉策略、具身 AI 与自动驾驶"
+        ],
+        "structure": {
+          "textZh": "公开教学页列 ROAS 5700 运动规划与控制、ROAS 6000I 最优控制系统，涉及搜索/采样/优化、MPC、动态规划及强化学习，并包含 seminar 与项目讨论；它说明教学主题，不保证某一学期排课或组内必修。",
+          "sources": [
+            {
+              "url": "https://personal.hkust-gz.edu.cn/junma/teaching.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "ManiVID-3D 作者项目和仓库提供实现入口，展示跨相机视角的仿真到真实操作；本轮只核查公开说明，未运行训练。",
+            "sources": [
+              {
+                "url": "https://zheng-joe-lee.github.io/manivid3d/",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://github.com/Zheng-Joe-Lee/ManiVID-3D",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "轮足操作项目展示开门、旋钮和追抓移动物体，并公开代码及视频入口；该成果与清华 AIR、DISCOVER Robotics 合作，不能把全部平台资源归为本实验室独占。",
+            "sources": [
+              {
+                "url": "https://acodedog.github.io/wheel-legged-loco-manipulation/",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "ManiVID-3D: Generalizable View-Invariant Reinforcement Learning for Robotic Manipulation via Disentangled 3D Representations",
+          "year": 2026,
+          "venue": "IEEE Robotics and Automation Letters（作者项目页）",
+          "summaryZh": "以三维点云对齐和解耦表示学习提高视觉强化学习策略对相机视角变化的适应性，并测试仿真到真实迁移。",
+          "url": "https://zheng-joe-lee.github.io/manivid3d/",
+          "sources": [
+            {
+              "url": "https://zheng-joe-lee.github.io/manivid3d/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "Interactive Navigation for Legged Manipulators with Learned Arm-Pushing Controller",
+          "year": 2025,
+          "venue": "arXiv 预印本（作者项目页标注）",
+          "summaryZh": "将路径规划、机械臂主动推障与重新规划组合，以分阶段奖励训练推障策略，并由全身控制器执行。",
+          "url": "https://zhihaibi.github.io/interactive-push.github.io/",
+          "sources": [
+            {
+              "url": "https://zhihaibi.github.io/interactive-push.github.io/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "Arm-Constrained Curriculum Learning for Loco-Manipulation of a Wheel-Legged Robot",
+          "year": 2024,
+          "venue": "IROS（作者项目页 BibTeX）",
+          "summaryZh": "通过机械臂约束和奖励感知课程学习协调轮足底座与机械臂，实现动态抓取等真实任务。",
+          "url": "https://acodedog.github.io/wheel-legged-loco-manipulation/",
+          "sources": [
+            {
+              "url": "https://acodedog.github.io/wheel-legged-loco-manipulation/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "本轮读取的实验室与联系页未给出可核实的个人 2027 MPhil、PhD 或 RA 剩余名额。Red Bird 2027/28 MPhil FAQ 说明先以 MPhil (General) 统一申请，约六个月探索后双向选择导师；项目招生不能预先锁定马骏的个人席位。",
+        "sources": [
+          {
+            "url": "https://personal.hkust-gz.edu.cn/junma/Join.html",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://cft.hkust-gz.edu.cn/rbm-program/admission/admission-faq/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "Red Bird MPhil (General) 先统一申请，约六个月后双向选择导师；不能预先锁定该 PI 席位",
+        "成员页本轮多次超时，未核实当前人数、共同指导分工或完整团队结构",
+        "教学页未列本轮开课学期，不据公开课程推断个人指导方式或频率",
+        "个人 2027 名额、资助、设备使用权和算力分配仍未核实"
+      ],
+      "links": [
+        {
+          "label": "当前学域职务与履历",
+          "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/roas/thrust-leadership/"
+        },
+        {
+          "label": "实验室",
+          "url": "https://personal.hkust-gz.edu.cn/junma/index.html"
+        },
+        {
+          "label": "研究项目",
+          "url": "https://personal.hkust-gz.edu.cn/junma/Reasearch.html"
+        },
+        {
+          "label": "公开课程主题",
+          "url": "https://personal.hkust-gz.edu.cn/junma/teaching.html"
+        }
+      ]
+    },
+    {
+      "advisorId": "polyu_david_navarro",
+      "cardSummaryZh": "以视觉运动技能连接感知、学习、规划与反馈控制，覆盖形变物体、长时程移动操作和多机器人协作。",
+      "overview": {
+        "textZh": "David Navarro-Alarcon（毛大卫）现任 PolyU 机械工程系副教授，领导 ROMI Lab，并担任 MSc in Intelligent Robotics Engineering 项目负责人。2014 年获 CUHK MAE 博士，曾在 CUHK T Stone Robotics Institute 从事博士后及研究助理教授工作，2017 年加入 PolyU。研究关注机器人如何在动态、不确定及可形变环境中获取并使用视觉运动技能。",
+        "sources": [
+          {
+            "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/david-navarro-alarcon-prof/?sc_lang=en",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://www.polyu.edu.hk/me/david/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Robotics and Machine Intelligence Laboratory (ROMI Lab)",
+        "affiliation": {
+          "textZh": "ROMI Lab 为 PolyU 机械工程系研究组。Navarro 另参与 PolyU Research Institute for Smart Ageing 与 Research Centre for Assistive Technology；这些中心关联及 MSc 项目负责人身份不等于个人研究学位名额。",
+          "sources": [
+            {
+              "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/david-navarro-alarcon-prof/?sc_lang=en",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://www.polyu.edu.hk/me/david/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "形变物体操作与视觉伺服",
+          "长时程任务规划、移动操作与具身 AI",
+          "多机器人协作与非抓取式操作",
+          "多模态感知、传感器融合与辅助/医疗机器人"
+        ],
+        "structure": {
+          "textZh": "People 页分 PI、Research Staff、博士生与 Alumni；研究人员列有 Lab Manager/Postdoctoral Fellow、RA 和博士后，博士生的公开方向横跨控制、多智能体、学习及医疗机器人。项目页同时出现历史成员，不能据项目参与者名单推断当前团队人数。",
+          "sources": [
+            {
+              "url": "https://www.romi-lab.org/people",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://www.romi-lab.org/manipulation",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "实验室公开教学站含 Python 仿真与控制、OpenCV、Open3D 点云、感知机器人及交互式数字实验教程。这些是可查看的教学入口，不据此推断个人指导方式。",
+            "sources": [
+              {
+                "url": "https://romi-lab.github.io/",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "IALP 作者项目页公开 PDDL 动作/领域描述以及目标生成、观测和规划提示词，可检查论文如何把感知接入长时程任务规划；页面 Code 按钮未核实为可用代码仓库。",
+            "sources": [
+              {
+                "url": "https://nicehiro.github.io/IALP/",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "TEVIO 的 PolyU 机构库提供作者接受稿及演示链接，可阅读热成像、事件相机和惯性融合方法；本轮未核实代码或数据下载入口。",
+            "sources": [
+              {
+                "url": "https://ira.lib.polyu.edu.hk/handle/10397/113803",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://ira.lib.polyu.edu.hk/bitstream/10397/113803/1/Gong_TEVIO_Thermal_Aided.pdf",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Non-Prehensile Tool-Object Manipulation by Integrating LLM-Based Planning and Manoeuvrability-Driven Controls",
+          "year": 2026,
+          "venue": "Robotics and Computer-Integrated Manufacturing, 100, 103231",
+          "summaryZh": "以 LLM 将语言指令转成工具操作子任务，再用视觉反馈得到的工具可供性模型与可操作性驱动控制执行非抓取式操作；Navarro 为共同通讯作者。",
+          "url": "https://49b3f50f-ac09-4f49-81ce-31a97c0fee51.usrfiles.com/ugd/49b3f5_4fc5663e2992474eb00c9fef4211fc9b.pdf",
+          "sources": [
+            {
+              "url": "https://49b3f50f-ac09-4f49-81ce-31a97c0fee51.usrfiles.com/ugd/49b3f5_4fc5663e2992474eb00c9fef4211fc9b.pdf",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/david-navarro-alarcon-prof/?sc_lang=en",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "Instruction-Augmented Long-Horizon Planning: Embedding Grounding Mechanisms in Embodied Mobile Manipulation",
+          "year": 2025,
+          "venue": "AAAI, 39(14), 14690–14698",
+          "summaryZh": "将语言指令、环境感知与可执行性条件写入 PDDL 表示，结合 LLM 在实时反馈下闭环完成长时程移动操作；Navarro 为合著及共同通讯作者。",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33610",
+          "sources": [
+            {
+              "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33610",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://nicehiro.github.io/IALP/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://49b3f50f-ac09-4f49-81ce-31a97c0fee51.usrfiles.com/ugd/49b3f5_86be36f3b5484c33a674e6319809190b.pdf",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "TEVIO: Thermal-Aided Event-Based Visual–Inertial Odometry for Robust State Estimation in Challenging Environments",
+          "year": 2025,
+          "venue": "IEEE Transactions on Instrumentation and Measurement, 74, 7505211",
+          "summaryZh": "融合热成像、事件视觉与惯性测量，面向弱光、高动态范围和低纹理条件的定位；在公开事件相机数据与室外车载实验中验证，Navarro 为共同通讯作者。不能外推为已验证雨、雾、雪鲁棒性。",
+          "url": "https://ira.lib.polyu.edu.hk/handle/10397/113803",
+          "sources": [
+            {
+              "url": "https://ira.lib.polyu.edu.hk/handle/10397/113803",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://ira.lib.polyu.edu.hk/bitstream/10397/113803/1/Gong_TEVIO_Thermal_Aided.pdf",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "当前本人指南欢迎 PhD 申请，要求通过竞争性奖学金框架，列出本科 GPA>3.7/4、学校及机器人研究记录要求，并明确须在入学前完成带 dissertation 的硕士。申请材料为详细 CV、论文 PDF、研究展示 portfolio，且要求避免冗长 AI 代写邮件。页面未指定 Fall 2027，也未确认剩余名额或资助；MPhil、RA 和个人 MSc 论文指导机会分别未核实，MSc 项目负责人身份不保证进入 ROMI。",
+        "sources": [
+          {
+            "url": "https://www.polyu.edu.hk/me/david/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/david-navarro-alarcon-prof/?sc_lang=en",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人 2027 PhD 剩余席位、奖学金结果、MPhil/RA 名额及 MSc 论文指导安排未确认；个人 PhD 指南明确要求入学前完成带 dissertation 的硕士，本科直申博不能由校级规则覆盖此限制",
+        "ROMI 项目页混有当前和历史参与者；不据网页计算当前团队规模或评价学生去向、培养质量",
+        "具体指导频率、硬件/算力配置和学生使用权限未核实",
+        "IALP 项目 BibTeX 写 2024，但 AAAI 正式发表页为 2025-04-11；本档案采用正式发表年份 2025",
+        "TEVIO 研究对应弱光/高动态范围/低纹理条件，雨雾雪等极端气象表现及公开代码/数据发布情况未核实"
+      ],
+      "links": [
+        {
+          "label": "院系现职简介",
+          "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/david-navarro-alarcon-prof/?sc_lang=en"
+        },
+        {
+          "label": "本人主页与 PhD 指南",
+          "url": "https://www.polyu.edu.hk/me/david/"
+        },
+        {
+          "label": "ROMI Lab",
+          "url": "https://www.romi-lab.org/"
+        },
+        {
+          "label": "团队成员",
+          "url": "https://www.romi-lab.org/people"
+        },
+        {
+          "label": "公开教学资源",
+          "url": "https://romi-lab.github.io/"
+        },
+        {
+          "label": "自主操作研究",
+          "url": "https://www.romi-lab.org/manipulation"
+        },
+        {
+          "label": "机器人感知研究",
+          "url": "https://www.romi-lab.org/perception"
+        },
+        {
+          "label": "IALP 作者项目页",
+          "url": "https://nicehiro.github.io/IALP/"
+        }
+      ],
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "cuhk_fei_chen",
+      "cardSummaryZh": "从人类示范、遥操作到机器人基础模型，研究双臂操作、全身阻抗控制与人机协作。",
+      "overview": {
+        "textZh": "陈翡现任 CUHK 机械与自动化工程系副教授、副主任（对外事务）及 Robotics MSc 项目主任，领导 CLOVER Lab。2012 年获名古屋大学机器人学博士，曾在意大利技术研究院（IIT）任研究员并创立 APRIL Lab。当前研究聚焦移动操作、抓取与双臂操作、人形机器人具身 AI 及人机协作。",
+        "sources": [
+          {
+            "url": "https://www4.mae.cuhk.edu.hk/peoples/chen-fei/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Collaborative and Versatile Robots Laboratory (CLOVER Lab)",
+        "affiliation": {
+          "textZh": "CLOVER 归属 CUHK MAE，并关联 CUHK T Stone Robotics Institute；成员页另列 Hong Kong Centre for Logistics Robotics。IIT 的 APRIL 是陈翡此前的研究经历，不能与 CUHK 当前团队或招生机会合并。",
+          "sources": [
+            {
+              "url": "https://www4.mae.cuhk.edu.hk/peoples/chen-fei/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://feichenlab.com/members/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "从人类示范学习操作与协作技能",
+          "人形/双臂移动操作与全身阻抗控制",
+          "遥操作、触觉反馈与行为数据采集",
+          "生成式策略、VLA 与机器人基础模型"
+        ],
+        "structure": {
+          "textZh": "成员页分博士后、PhD、MPhil、RA 与校友，公开成员方向包括全身规划控制、人机协作和人形双臂操作。院系页列 2024/25 Advanced Robotics 及此前机器人设计到原型课程；研讨会页记录双臂操作工作坊和学术报告。这些说明公开训练主题，未核实组内日常指导安排。",
+          "sources": [
+            {
+              "url": "https://feichenlab.com/members/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://www4.mae.cuhk.edu.hk/peoples/chen-fei/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://feichenlab.com/seminars/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "Rofunc 是实验室公开的演示学习与机器人操作工具包，覆盖示范采集、数据处理、学习、规划控制及仿真，并提供代码与文档入口；本轮未安装运行，复现条件需按项目版本检查。",
+            "sources": [
+              {
+                "url": "https://feichenlab.com/codes/",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "url": "https://github.com/clover-cuhk/Rofunc",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "CaFe-TeleVision 作者仓库公开双臂遥操作、VR 可视化和数据采集模块及复现说明。README 明确实现依赖其 CURI 平台配置，适配其他机器人需修改；不能推断新生可使用同一套设备。",
+            "sources": [
+              {
+                "url": "https://github.com/Zixin-Tang/CaFe-TeleVision",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          },
+          {
+            "textZh": "VLA-Pilot 作者页提供方法与实验展示，但 Code 按钮仍标 Coming soon，目标为占位链接，不能将该项目标为已公开可运行代码。",
+            "sources": [
+              {
+                "url": "https://rip4kobe.github.io/vla-pilot/",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Towards Deploying VLA without Fine-Tuning: Plug-and-Play Inference-Time VLA Policy Steering via Embodied Evolutionary Diffusion",
+          "year": 2026,
+          "venue": "IEEE Robotics and Automation Letters（作者页确认 2026；预印本首发 2025）",
+          "summaryZh": "VLA-Pilot 在推理时按语言/视觉构造任务目标，并通过演化扩散筛选预训练 VLA 的动作候选，研究无需任务微调的操作部署；作者明确其依赖扩散式策略并存在推理延迟等限制。",
+          "url": "https://rip4kobe.github.io/vla-pilot/",
+          "sources": [
+            {
+              "url": "https://rip4kobe.github.io/vla-pilot/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://arxiv.org/abs/2511.14178",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://feichenlab.com/publications/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "CaFe-TeleVision: A Coarse-to-Fine Teleoperation System With Immersive Situated Visualization for Enhanced Ergonomics",
+          "year": 2026,
+          "venue": "IEEE Robotics and Automation Letters, 11(2), 1426–1433；预印本首发 2025",
+          "summaryZh": "结合由粗到细的动作重定向与按需沉浸式视图，研究双臂遥操作的操作效率和人体工学；论文在六类任务及 24 人研究中评估，陈翡为通讯作者。",
+          "url": "https://research.cuhk.edu.hk/en/publications/cafe-television-a-coarse-to-fine-teleoperation-system-with-immers/",
+          "sources": [
+            {
+              "url": "https://research.cuhk.edu.hk/en/publications/cafe-television-a-coarse-to-fine-teleoperation-system-with-immers/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "url": "https://arxiv.org/abs/2512.14270",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "CLOVER 招募页标注 Last Update: 11/06/2025（保留原始日期格式），欢迎 PhD、博士后和 RA，要求向 feichen@cuhk.edu.hk 发 CV 与支持材料；RA 初始合同为六个月、可续。公告未指定 Fall 2027，MPhil 未列于此公告；MSc 项目主任身份不保证个人论文指导或加入 CLOVER。页面另有意大利合作组岗位，应按各自机构与导师处理，不能计入 CUHK 名额。",
+        "sources": [
+          {
+            "url": "https://feichenlab.com/openings/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "url": "https://www4.mae.cuhk.edu.hk/peoples/chen-fei/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "PhD/博士后/RA 招募页未指定 Fall 2027；当年剩余名额、个人资助及最终录取未确认。页面历史薪酬/奖学金介绍不是当前 offer",
+        "当前 CLOVER 公告未列 MPhil；MSc 项目主任身份不保证个人论文指导或实验室成员资格；合作组的海外职位不属于 CUHK 名额",
+        "成员页将 Chenzui Li 同时列在 PhD 与 2026 校友中，名单存在更新交叠，不能据此计算当前团队人数",
+        "日常指导频率、培养体验、学生去向以及设备/算力分配未核实；公开项目平台不等于学生使用权",
+        "VLA-Pilot 代码入口仍为 Coming soon/占位链接；CaFe-TeleVision 项目展示页本轮无法直读，方法与资源依据学校文献记录、作者 arXiv 和实际代码仓库核实",
+        "两篇作品均有 2025 预印本；本条按实验室/学校与作者的期刊记录采用 2026，避免将预印本年份当作正式卷期年份"
+      ],
+      "links": [
+        {
+          "label": "院系现职简介",
+          "url": "https://www4.mae.cuhk.edu.hk/peoples/chen-fei/"
+        },
+        {
+          "label": "CLOVER 实验室",
+          "url": "https://feichenlab.com/"
+        },
+        {
+          "label": "团队成员",
+          "url": "https://feichenlab.com/members/"
+        },
+        {
+          "label": "研究方向",
+          "url": "https://feichenlab.com/research/"
+        },
+        {
+          "label": "公开代码资源",
+          "url": "https://feichenlab.com/codes/"
+        },
+        {
+          "label": "VLA-Pilot 作者项目",
+          "url": "https://rip4kobe.github.io/vla-pilot/"
+        },
+        {
+          "label": "CaFe-TeleVision 作者代码",
+          "url": "https://github.com/Zixin-Tang/CaFe-TeleVision"
+        },
+        {
+          "label": "按岗位招募公告",
+          "url": "https://feichenlab.com/openings/"
+        }
+      ],
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
     }
   ],
   "reviewRequired": true,
-  "batch": "1+2"
+  "batch": "1+2+3",
+  "batch3Review": {
+    "checkedDate": "2026-10-02",
+    "baseCommit": "595c832d7d0610ed550131dc97b3f2da4fbf6c87",
+    "newAdvisorIds": [
+      "hku-jia-pan",
+      "hkust-yajing-shen",
+      "hkustgz-jun-ma",
+      "polyu_david_navarro",
+      "cuhk_fei_chen"
+    ],
+    "preservedProfiles": 10,
+    "catalogMutation": false,
+    "scope": "Public professional and lab context only; old profiles retain their earlier check date."
+  }
 }

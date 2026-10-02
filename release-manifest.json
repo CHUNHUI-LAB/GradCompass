@@ -7,9 +7,9 @@
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
   "browserVisualQA": "Not performed for this profile candidate; official-source browser research is not site visual QA. Previous local Chromium socket restriction remains recorded in historical QA.",
-  "profilePilotCount": 10,
-  "nodeTestsTotal": 188,
-  "nodeTestsPassed": 188,
+  "profilePilotCount": 15,
+  "nodeTestsTotal": 197,
+  "nodeTestsPassed": 197,
   "nodeTestsFailed": 0,
   "experienceRecords": 16,
   "defaultExperienceRecords": 16,
@@ -43,8 +43,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 36844,
-      "sha256": "53ebbfeb0f5fe43e88b79634843636e9ac6a674d63e0f0562c9921c2cbfb0499"
+      "bytes": 40611,
+      "sha256": "633b20dd3751f49e5c30d71c5571154429e8d0f21ea453fa957da4b67cd8e187"
     },
     {
       "path": "assets/core.js",
@@ -88,8 +88,8 @@
     },
     {
       "path": "data/advisor-profiles.json",
-      "bytes": 52279,
-      "sha256": "52f9730eb53c7cf3a7e225682b273891d8060651da8051ae3d078b6a01937661"
+      "bytes": 90214,
+      "sha256": "22430f10d3fe1487252ab14cd29e1f2cbcbb16abe8624c914d3ab6bcb20ef531"
     },
     {
       "path": "data/application-experience-provenance.json",
@@ -133,8 +133,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 7028,
-      "sha256": "03fcaa8b715a5be85024c522f86bd2d2aaefbd21ebdda568a675a84d05e386f0"
+      "bytes": 7114,
+      "sha256": "7530e8983660b7b95f5c9517af73d73422a2241ba44d693a584c3030c5e6b0b2"
     },
     {
       "path": "package.json",
@@ -144,7 +144,7 @@
     {
       "path": "scripts/freeze.py",
       "bytes": 5015,
-      "sha256": "9cfb0b718abfaa4bc2751d42fbebd3a8a6376dc2f1f85d08d476a042066ffb67"
+      "sha256": "4170111a1165847a718bd32015029238a056d4a9126347f75f319796db909d74"
     },
     {
       "path": "tests/browser-smoke.mjs",
@@ -223,13 +223,13 @@
     },
     {
       "path": "tests/profiles.test.mjs",
-      "bytes": 3764,
-      "sha256": "b64571cabc07032a8d77450f756b8515ac99ab1513a9b6e7a4d84ee69e67c334"
+      "bytes": 7402,
+      "sha256": "7dc27f089764e2645a89e13bc34ea8d2167eac2fb45679f83b448c0e98639ae5"
     },
     {
       "path": "tests/project-expansion.test.mjs",
       "bytes": 9561,
-      "sha256": "3d7cc065ccf9d7bbd77f1320d417750aef40843075212298aa99d0082e6667c5"
+      "sha256": "d49074a68efd8c465ff5a3e075dc1a1adbb80cf6ebb5bef7a28550f00c98ff38"
     },
     {
       "path": "tests/project-final10.test.mjs",
@@ -263,8 +263,8 @@
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 15716,
-      "sha256": "63efb21a8afbb40d89e0f8d1da5ac55b32af2558923c156bc71ff309d86d9bd4"
+      "bytes": 15815,
+      "sha256": "7649f359a49d499ca9460157ec7db2910a88f5e1e3b53dac2bd0dac3189dc2f6"
     },
     {
       "path": "tests/resource-versions.test.mjs",
@@ -273,8 +273,8 @@
     },
     {
       "path": "tests/summary-navigation.test.mjs",
-      "bytes": 7369,
-      "sha256": "28748cd8e7b1b1884c0d94855298a6b688612798894998f93649cae6051e7432"
+      "bytes": 13614,
+      "sha256": "5dd00552234666c8e94df14857d1494ce99085c4ef6f74df1ab6e7ab092c78c4"
     }
   ],
   "qaMetadataScope": "Hashes identify this content snapshot. Automated test counters do not establish deployment or browser acceptance. QA.md retains earlier-version reports.",
