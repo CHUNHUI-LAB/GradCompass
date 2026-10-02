@@ -229,5 +229,24 @@
       "tests/profiles.test.mjs",
       "tests/render.test.mjs"
     ]
+  },
+  "currentRecruitmentReview": {
+    "checkedDate": "2026-10-02",
+    "baseCommit": "5fbd6408e9a777d6ea990c6eb161aa323820a28b",
+    "baseCatalogSha256": "045a3a5886d50a2cca8b294ee34936522d77590a0a76f0c4b3e94252654f9d1a",
+    "catalogSha256": "ea7eb2a1ea4ac00ea23ea17c4f12f9561874e27a7dcd2b7d085db30a46d05ff9",
+    "scope": "Two recruitment corrections and two PhD-only HKUST(GZ) advisors; previous review hashes and original source records remain historical. Existing eligibility and routes preserved.",
+    "correctedAdvisorIds": [
+      "westlake-donglin-wang",
+      "cuhksz-tinlun-lam"
+    ],
+    "newAdvisorIds": [
+      "hkustgz-fangqiang-ding",
+      "hkustgz-yan-li"
+    ],
+    "seeTests": [
+      "tests/recruitment-update.test.mjs"
+    ],
+    "integrationBaseCommit": "4324f8955e1d718288260aecff0c04ffb10f3be0"
   }
 }

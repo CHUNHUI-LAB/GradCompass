@@ -62,21 +62,21 @@ test('new introduction research text is searchable without weakening degree, sch
 
 test('reviewed catalog and material snapshots plus reviewed runtime and expanded experience data match the declared content boundary',()=>{
  const protectedHashes={
-  "data/catalog.json": "045a3a5886d50a2cca8b294ee34936522d77590a0a76f0c4b3e94252654f9d1a",
+  "data/catalog.json": "ea7eb2a1ea4ac00ea23ea17c4f12f9561874e27a7dcd2b7d085db30a46d05ff9",
   "data/material-summaries.json": "193f8d81ae8a6e5cbb4c81e96f43c586d073e050423d013601a9a0e90ab68296",
   "data/application-experiences.json": "05b5bc420009910cdb9432bcb199df050007034c178fa2d2b9e7531cc76beb9b",
   "data/application-experience-provenance.json": "0a057d4264371c0adbca86d6af5257919a45f5a767e40f39d9457e0698d9ccf8",
-  "data/advisor-profiles.json": "cb44d1bac86e4d9075e3b43b79ae1dcafb3fac6f91957990d99ca8f9459631c1",
+  "data/advisor-profiles.json": "204c974d088880c3302a81efe9748e776a8414dac2f0ff1190c03119da00ae2c",
   "data/ra-positions.json": "b5354ece6ee48d205665af699e008e74d51c41ca23000c7fc653eccfc906816e",
   "data/update-status.json": "b96e217f713537808ee7874c3638ed0e2add57d514b2a23232085dd73d35cad5",
-  "data/catalog-test-manifest.json": "ec05af20969ea0b56d4c88fe9afec2131f67fcf242577df687bcc0656d683bfa",
+  "data/catalog-test-manifest.json": "d7824ea7a17eef0af78577dd57daae941befb9af02e68adf9ce7abe9d54fa9a7",
   "assets/core.js": "cad4681d907cdf380dad2b1ab4c9b42ee33829e11fafeb73b9ad0b072975a927",
   "assets/record-summaries.js": "7650b472298f9d0db4f59f53a1a437b4f295efeb3e21e33016b11f3e76a4b314",
   "assets/experiences.js": "beb2c7ff88a88181c50cb8041466e121bebe0771b77ef747bfd100fba3f15bfa",
   "assets/profiles.js": "6b6ce55c9e97edb8060976e5f82a631ed47275d6304d72bba4c0caf649606e88",
   "assets/material-supplement.js": "44c8f5821e4c828503b6efefc6cd6a75f560c2de0067f855531337c025511d03",
   "assets/style.css": "87fc9377f9451bc784a8e6355266e9e740e16a53971c5b25c92c0e7b67d4e0df",
-  "tests/render.test.mjs": "c5babb41d769e6192a41f24b3bb6f847e84f6e54e30f550deaf93cb9a971083c"
+  "tests/render.test.mjs": "5b14b1e68a4c09c3d04e0a5ffe44f83a2fa31cd9a6d660573c144b39b85c73b0"
 };
  for(const [path,expected] of Object.entries(protectedHashes)){
   let content=fs.readFileSync(new URL('../'+path,import.meta.url));

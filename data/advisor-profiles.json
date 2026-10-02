@@ -27,7 +27,7 @@
     "Show faculty affiliation and lab/project affiliation separately",
     "Any recruitment display preserves degree/cycle specificity; confirmedVacancy=false means no remaining-place confirmation obtained",
     "No inference of lab size, funding availability, mentorship personality, student outcomes or hardware access",
-    "Thirty profiles cover all existing visible catalog advisors; all previous twenty-five profile objects and dates are preserved. The final five additions were checked on 2026-10-02; no catalog admissions, identity, rank or recruitment authority is overwritten."
+    "Thirty-two rich profiles cover all visible advisors. The previous thirty profile objects and evidence dates are preserved. Two new HKUST(GZ) PhD-only advisors were checked on 2026-10-02 alongside two narrowly scoped recruitment corrections in the catalog."
   ],
   "profiles": [
     {
@@ -4928,10 +4928,305 @@
       "checkedDate": "2026-10-02",
       "confirmedVacancy": false,
       "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "hkustgz-fangqiang-ding",
+      "cardSummaryZh": "以4D雷达和热成像支撑烟雾、暗光与传感退化下的空间感知，并延伸到稳健导航与长时程操作。",
+      "overview": {
+        "textZh": "丁方强是HKUST(GZ)机器人与自主系统学域助理教授，2025年获爱丁堡大学机器人与自主系统博士；个人主页列MIT博士后及Technion研究经历。2026-07-21公告加入学校并创建PAIRS，日期含义是公开加入公告。",
+        "sources": [
+          {
+            "label": "公开一手来源",
+            "url": "https://facultyprofiles.hkust-gz.edu.cn/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "label": "公开一手来源",
+            "url": "https://fangqiangding.com/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Physical AI and Robotic Systems Lab (PAIRS)",
+        "affiliation": {
+          "textZh": "PAIRS设于HKUST(GZ)机器人与自主系统学域，公开研究主题为可信赖、可扩展的Physical AI。",
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://facultyprofiles.hkust-gz.edu.cn/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://fangqiangding.com/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "极端环境下的稳健移动自主",
+          "4D雷达与热成像感知",
+          "长时程记忆与移动操作",
+          "仿真、场景合成与机器人学习"
+        ],
+        "structure": {
+          "textZh": "实验室按四个方向组织研究，并显式区分已发表合作成果和未关联论文的演示原型；不由作者列表推算新组人数。",
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://pairslab.github.io/research/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://pairslab.github.io/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "研究页展示4D雷达/热成像、消防导航仿真和单臂顺序堆叠原型；其中FireNav与堆叠被标为进行中的实验室演示，不是已发表成果或每名学生的设备配额。",
+            "sources": [
+              {
+                "label": "公开一手来源",
+                "url": "https://pairslab.github.io/research/",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "RadarOcc: Robust 3D Occupancy Prediction with 4D Imaging Radar",
+          "year": 2024,
+          "venue": "NeurIPS 2024",
+          "summaryZh": "直接处理4D雷达张量以预测三维占据，在K-Radar数据上评估，并展示恶劣天气下的定性结果；这是加入新实验室前的合作成果，不是全场景可靠性保证。",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/b81d83165e3145a2e7d33bb5e33ea913-Abstract-Conference.html",
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/b81d83165e3145a2e7d33bb5e33ea913-Abstract-Conference.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "PALM: Progress-Aware Policy Learning via Affordance Reasoning for Long-Horizon Robotic Manipulation",
+          "year": 2026,
+          "venue": "CVPR 2026",
+          "summaryZh": "以可供性推理和连续子任务进度估计改善长时程操作，包含仿真与实机实验。丁方强为共同作者；论文合作平台不等于新组设备或学生资源承诺。",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_PALM_Progress-Aware_Policy_Learning_via_Affordance_Reasoning_for_Long-Horizon_Robotic_CVPR_2026_paper.html",
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_PALM_Progress-Aware_Policy_Learning_via_Affordance_Reasoning_for_Long-Horizon_Robotic_CVPR_2026_paper.html",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://arxiv.org/abs/2601.07060",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "PAIRS公开招募Spring/Fall 2027全奖PhD；资助为公告声明，当前剩余席位及具体offer未确认；MPhil/MSc仅为已通过学校正式录取后的组内招募；不视为本轮独立入学机会；RA/实习可讨论现场或远程，每周至少半数时间投入；未见明确学历最低要求，不新增已核实RA岗位",
+        "sources": [
+          {
+            "label": "公开一手来源",
+            "url": "https://pairslab.github.io/join/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "label": "公开一手来源",
+            "url": "https://fangqiangding.com/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "当前PhD剩余席位、个人资助条件、指导频率与具体设备分配未确认",
+        "MPhil/MSc仅为已通过学校正式录取后的组内招募；不视为本轮独立入学机会",
+        "RA/实习可讨论现场或远程，每周至少半数时间投入；未见明确学历最低要求，不新增已核实RA岗位",
+        "代表作包含加入本组前的合作研究，不能全部归为新实验室独立成果",
+        "2026-07-21为加入公告日期，非独立核实的合同生效日"
+      ],
+      "links": [
+        {
+          "label": "学校教师资料",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/"
+        },
+        {
+          "label": "个人主页",
+          "url": "https://fangqiangding.com/"
+        },
+        {
+          "label": "实验室",
+          "url": "https://pairslab.github.io/"
+        }
+      ],
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "hkustgz-yan-li",
+      "cardSummaryZh": "从几何SLAM和3D/4D高斯重建出发，研究持久空间记忆、空间世界模型及机器人的感知与策略学习。",
+      "overview": {
+        "textZh": "李言是HKUST(GZ)人工智能学域助理教授、EmSAIL负责人；官方资料列2024年慕尼黑工业大学计算机博士及此前NUS Research Fellow经历。研究由相机位姿、三维重建和场景理解延伸至机器人空间智能；到校日期未核实。",
+        "sources": [
+          {
+            "label": "公开一手来源",
+            "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Yan/yanli2",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "label": "公开一手来源",
+            "url": "https://liyan.me/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Embodied Spatial AI Lab (EmSAIL)",
+        "affiliation": {
+          "textZh": "EmSAIL设于HKUST(GZ)人工智能学域；当前学校归属和组长身份以官方教师页为准。",
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Yan/yanli2",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://liyan.me/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "themes": [
+          "几何SLAM与空间感知",
+          "3D/4D场景重建",
+          "持久空间记忆与世界模型",
+          "机器人策略学习与系统"
+        ],
+        "structure": {
+          "textZh": "官方介绍确立EmSAIL负责人身份；个人主页按空间感知、世界建模和学习行动组织研究。实验室页存在旧联系信息与占位，不能据此推算规模、经费或成熟部署。",
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://liyan.me/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://emsail-group.github.io/",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "个人主页介绍机器人平台开发和多传感定位建图项目，涉及GNSS/RTK、LiDAR、RGB、IMU、轮式里程计与高斯建图；这些为研究项目描述，不保证已完成系统或入组设备分配。",
+            "sources": [
+              {
+                "label": "公开一手来源",
+                "url": "https://liyan.me/",
+                "checkedDate": "2026-10-02"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "4D Gaussian Splatting SLAM",
+          "year": 2025,
+          "venue": "ICCV 2025",
+          "summaryZh": "在动态场景中联合跟踪相机位姿和构建4D高斯场，用静动态分组、控制点形变及光流监督建模运动；成果讨论RGB-D定位重建，不等于雨雾雪导航验证。",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Li_4D_Gaussian_Splatting_SLAM_ICCV_2025_paper.html",
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Li_4D_Gaussian_Splatting_SLAM_ICCV_2025_paper.html",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://liyan.me/project/gs/4dgsslam.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        },
+        {
+          "title": "GeoGaussian: Geometry-aware Gaussian Splatting for Scene Rendering",
+          "year": 2024,
+          "venue": "ECCV 2024",
+          "summaryZh": "用表面对齐的薄高斯、保形增密和几何约束优化改善无纹理结构的重建与新视角渲染；论文不以完整机器人感知-行动闭环为验证对象。",
+          "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/5218_ECCV_2024_paper.php",
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/5218_ECCV_2024_paper.php",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://liyan.me/project/gs/geogaussian.html",
+              "checkedDate": "2026-10-02"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "本人主页公开Spring/Fall 2027 PhD招募；未确认当前余位、具体资助和个人offer；主页MPhil从Fall 2026开始；不迁移为Fall 2027个人名额，本轮不新增MPhil机会；公开RA/实习意向，但未给RA学历最低要求与完整雇佣公告；不新增已核实RA岗位",
+        "sources": [
+          {
+            "label": "公开一手来源",
+            "url": "https://liyan.me/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "label": "公开一手来源",
+            "url": "https://liyan.me/",
+            "checkedDate": "2026-10-02"
+          }
+        ]
+      },
+      "unknowns": [
+        "当前PhD剩余席位、个人资助条件、指导频率与具体设备分配未确认",
+        "主页MPhil从Fall 2026开始；不迁移为Fall 2027个人名额，本轮不新增MPhil机会",
+        "公开RA/实习意向，但未给RA学历最低要求与完整雇佣公告；不新增已核实RA岗位",
+        "代表作包含加入本组前的合作研究，不能全部归为新实验室独立成果",
+        "未找到可靠加入日期，不把助理教授职称或实验室2026页面当作2026新PI证明",
+        "旧论文署名为Yanyan Li；以个人主页直链、相同Scholar ID和出版方记录相互对应，当前官方显示名为Yan Li/李言",
+        "项目页BibTeX仍写arXiv，代表作采用ICCV 2025及ECCV 2024出版方年份；实验室旧NUS邮箱不用于当前联络"
+      ],
+      "links": [
+        {
+          "label": "学校教师资料",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Yan/yanli2"
+        },
+        {
+          "label": "个人主页",
+          "url": "https://liyan.me/"
+        },
+        {
+          "label": "实验室",
+          "url": "https://emsail-group.github.io/"
+        }
+      ],
+      "checkedDate": "2026-10-02",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
     }
   ],
   "reviewRequired": true,
-  "batch": "1+2+3+4+5+6",
+  "batch": "1+2+3+4+5+6+7",
   "batch3Review": {
     "checkedDate": "2026-10-02",
     "baseCommit": "595c832d7d0610ed550131dc97b3f2da4fbf6c87",
@@ -4993,5 +5288,17 @@
     "preservedProfiles": 25,
     "catalogMutation": false,
     "scope": "Public professional and lab context for the remaining five visible advisors. Older profile objects and dates, catalog identity and rank, historical source records, eligibility, routes, recruitment, RA positions, projects, materials and experiences are unchanged."
+  },
+  "batch7Review": {
+    "checkedDate": "2026-10-02",
+    "baseCommit": "5fbd6408e9a777d6ea990c6eb161aa323820a28b",
+    "newAdvisorIds": [
+      "hkustgz-fangqiang-ding",
+      "hkustgz-yan-li"
+    ],
+    "preservedProfiles": 30,
+    "catalogMutation": "two_recruitment_annotations_and_two_phd_only_advisors",
+    "scope": "Public identity, existing PhD route association, Spring/Fall 2027 announcement and rich profile. No new degree programme or RA job; old sourceRecord values remain unchanged.",
+    "integrationBaseCommit": "4324f8955e1d718288260aecff0c04ffb10f3be0"
   }
 }

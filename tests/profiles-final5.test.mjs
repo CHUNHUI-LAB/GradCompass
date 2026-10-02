@@ -1,3 +1,4 @@
+import {recruitmentBaselineText} from './recruitment-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -10,13 +11,13 @@ const supplement=JSON.parse(read('data/advisor-profiles.json'));
 const academic=JSON.parse(read('data/catalog.json'));
 const data={...academic,raPositions:JSON.parse(read('data/ra-positions.json')).raPositions};
 const ids=['hkust-ping-tan','hku-yanchao-yang','hku-chen-sun','polyu_bing_wang','hkustgz-qiang-nie'];
-const added=supplement.profiles.slice(25);
+const added=supplement.profiles.slice(25,30);
 const get=id=>added.find(p=>p.advisorId===id);
 
 test('final five append to the exact twenty-five released profiles without relabelling their verification dates',()=>{
  assert.equal(hash(JSON.stringify(supplement.profiles.slice(0,25))),'7bfeb431fbed1c2b539837d248ad1f9366e2756a2857c3e402aa53b17eb8dccf');
  assert.deepEqual(added.map(p=>p.advisorId),ids);
- assert.equal(supplement.profiles.length,30);
+ assert.equal(supplement.profiles.length,32);
  assert.equal(supplement.batch6Review.baseCommit,'5bd7724d79c8b41f75cb9230d1a23d04fec3d481');
  assert.equal(supplement.batch6Review.preservedProfiles,25);
  assert.equal(supplement.batch6Review.catalogMutation,false);
@@ -25,12 +26,12 @@ test('every visible advisor has exactly one rich profile while the two excluded 
  const rows=buildOpportunities(data),visible=new Set(rows.map(o=>o.advisorId));
  const profiles=profileMap(supplement,academic.advisors);
  assert.deepEqual([...profiles.keys()].sort(),[...visible].sort());
- assert.equal(rows.length,46);assert.equal(visible.size,30);assert.equal(rows.filter(o=>o.type==='RA').length,2);
- assert.equal(academic.advisors.length,32);assert.equal(academic.routes.filter(isVerifiedRoute).length,27);
+ assert.equal(rows.length,48);assert.equal(visible.size,32);assert.equal(rows.filter(o=>o.type==='RA').length,2);
+ assert.equal(academic.advisors.length,34);assert.equal(academic.routes.filter(isVerifiedRoute).length,27);
  for(const id of ['cuhk_zhongyu_li','xjtlu-yaran-chen']){assert(!visible.has(id));assert(!profiles.has(id));}
 });
 test('profile completion leaves catalog identity, ranks, original source records and admissions authority byte-identical',()=>{
- assert.equal(hash(read('data/catalog.json')),'045a3a5886d50a2cca8b294ee34936522d77590a0a76f0c4b3e94252654f9d1a');
+ assert.equal(hash(recruitmentBaselineText(academic)),'045a3a5886d50a2cca8b294ee34936522d77590a0a76f0c4b3e94252654f9d1a');
  assert.equal(hash(read('data/ra-positions.json')),'b5354ece6ee48d205665af699e008e74d51c41ca23000c7fc653eccfc906816e');
  assert.equal(hash(read('data/update-status.json')),'b96e217f713537808ee7874c3638ed0e2add57d514b2a23232085dd73d35cad5');
  for(const p of added)for(const key of ['position','rank','nameZh','institution','routeIds','eligibility','openingDetails','defaultVisible','raPositions','employmentEligibility'])assert(!(key in p));
@@ -57,7 +58,7 @@ test('all new details render with explicit resource and vacancy limits and safe 
  }
 });
 test('profile expansion preserves all visible academic-rank and opportunity filter partitions',()=>{
- const byRank={professor:6,associate:15,assistant:25};
+ const byRank={professor:6,associate:15,assistant:27};
  for(const [rank,count]of Object.entries(byRank)){const rows=filterOpportunities(data,{rank});assert.equal(rows.length,count);assert(rows.every(o=>rankOf(academic.advisors.find(a=>a.id===o.advisorId))===rank));}
  for(const id of ids){const a=academic.advisors.find(a=>a.id===id);assert.equal(rankOf(a),id==='hkust-ping-tan'?'professor':'assistant');}
 });

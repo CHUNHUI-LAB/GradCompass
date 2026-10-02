@@ -1,3 +1,4 @@
+import {recruitmentBaselineText} from './recruitment-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -23,13 +24,13 @@ test('batch five preserves all twenty earlier profile objects and appends exactl
 });
 test('batch five freezes catalog, RA, materials, projects, experiences and update authority byte for byte',()=>{
  const expected={'data/catalog.json':'045a3a5886d50a2cca8b294ee34936522d77590a0a76f0c4b3e94252654f9d1a','data/ra-positions.json':'b5354ece6ee48d205665af699e008e74d51c41ca23000c7fc653eccfc906816e','data/material-summaries.json':'193f8d81ae8a6e5cbb4c81e96f43c586d073e050423d013601a9a0e90ab68296','data/project-summaries.json':'d3c29e7af93a4a7f326b2ea293949f0f8169936f29f3d37b9cd7b7ad5a8bf8bc','data/application-experiences.json':'05b5bc420009910cdb9432bcb199df050007034c178fa2d2b9e7531cc76beb9b','data/application-experience-provenance.json':'0a057d4264371c0adbca86d6af5257919a45f5a767e40f39d9457e0698d9ccf8','data/update-status.json':'b96e217f713537808ee7874c3638ed0e2add57d514b2a23232085dd73d35cad5'};
- for(const [file,sha] of Object.entries(expected))assert.equal(hash(read(file)),sha,file);
+ for(const [file,sha] of Object.entries(expected))assert.equal(hash(file==='data/catalog.json'?recruitmentBaselineText(academic):read(file)),sha,file);
 });
 test('batch five only enriches five already visible advisers across five institutions',()=>{
  const rows=buildOpportunities(data),visible=new Set(rows.map(o=>o.advisorId));
  for(const id of ids){const a=academic.advisors.find(a=>a.id===id);assert(a.defaultVisible);assert.equal(a.eligibility,'verified');assert(visible.has(id));}
  assert.equal(new Set(ids.map(id=>academic.advisors.find(a=>a.id===id).institution)).size,5);
- assert.equal(rows.length,46);assert.equal(visible.size,30);assert.equal(rows.filter(o=>o.type==='RA').length,2);
+ assert.equal(rows.length,48);assert.equal(visible.size,32);assert.equal(rows.filter(o=>o.type==='RA').length,2);
  assert.equal(academic.routes.filter(isVerifiedRoute).length,27);
  assert(!supplement.profiles.some(p=>['cuhk_zhongyu_li','xjtlu-yaran-chen'].includes(p.advisorId)));
 });

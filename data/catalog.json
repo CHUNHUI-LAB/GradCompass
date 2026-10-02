@@ -7810,14 +7810,14 @@
       "eligibility": "verified",
       "eligibilityMeaning": "至少一条本科起点、无需推免、无需先获硕士的官方路径及导师/项目关联已记录；个人资格未评估",
       "defaultVisible": true,
-      "opening": "unknown",
-      "openingSummary": "Fall 2027 PI 名额未确认",
+      "opening": "explicit",
+      "openingSummary": "实验室公开招2027级博士；具体入学季、当前余位和学校可提交批次未确认",
       "openings": {
         "mphil": "本轮未发现可核实的PI专属公开名额；不等于不招生",
         "msc": "未验证该PI对应的授课型MSc定导通道，不以科研导师名单充当MSc席位",
-        "phd": "官网确认博士导师所属智能信息技术/电子科学与技术；未发现2027专属招生额",
-        "ra": "学校转载实验室长期招聘，页面2023-04-11：硕士或优秀本科、具深度学习/机器人研发经验；时效需再确认",
-        "cycle2027": "Fall 2027 PI 名额未确认"
+        "phd": "MiLAB People博士栏目公开写招2027级；网页未明确Fall，页底仍标January 2021，不能据此保证余位或当前可提交批次",
+        "ra": "MiLAB Contact公开招科研助理，列相关专业硕士或优秀本科毕业及深度学习/编程要求；页面无公告日期且保留January 2021页底，当前岗位余额及雇佣安排未确认",
+        "cycle2027": "实验室公开招2027级博士；具体入学季、当前余位和学校可提交批次未确认"
       },
       "openingDetails": [
         {
@@ -7868,39 +7868,41 @@
         },
         {
           "degree": "PhD",
-          "status": "unknown",
-          "summary": "官网确认博士导师所属智能信息技术/电子科学与技术；未发现2027专属招生额",
+          "status": "explicit",
+          "summary": "MiLAB People博士栏目公开写招2027级；网页未明确Fall，页底仍标January 2021，不能据此保证余位或当前可提交批次",
           "cycle2027FallVerified": false,
-          "cycle": "Unspecified or unverified for Fall 2027",
+          "cycle": "2027 cohort; term unspecified",
           "degreeRouteAssociated": true,
-          "sourceStatus": "program_route_verified_pi_quota_unconfirmed",
+          "sourceStatus": "public_2027_cohort_term_unspecified_stale_footer",
           "noticeDate": null,
           "sources": [
             {
-              "label": "公开一手来源",
-              "url": "https://en.westlake.edu.cn/faculty/donglin-wang.html",
-              "checkedDate": "2026-10-01"
+              "label": "MiLAB People：2027级公开招募",
+              "url": "https://milab.westlake.edu.cn/people.html",
+              "checkedDate": "2026-10-02",
+              "evidenceScope": "current_primary_page_body_read"
             }
           ],
-          "checkedDate": "2026-10-01"
+          "checkedDate": "2026-10-02"
         },
         {
           "degree": "RA",
-          "status": "unknown",
-          "summary": "学校转载实验室长期招聘，页面2023-04-11：硕士或优秀本科、具深度学习/机器人研发经验；时效需再确认",
+          "status": "explicit",
+          "summary": "MiLAB Contact公开招科研助理，列相关专业硕士或优秀本科毕业及深度学习/编程要求；页面无公告日期且保留January 2021页底，当前岗位余额及雇佣安排未确认",
           "cycle2027FallVerified": false,
           "cycle": "Unspecified or unverified for Fall 2027",
           "degreeRouteAssociated": null,
-          "sourceStatus": "historical_evergreen_needs_reconfirmation",
+          "sourceStatus": "undated_public_recruiting_stale_footer_not_verified_job",
           "noticeDate": null,
           "sources": [
             {
-              "label": "公开一手来源",
-              "url": "https://muyuan.westlake.edu.cn/qtlm/sylb/202205/t20220507_20349.shtml",
-              "checkedDate": "2026-10-01"
+              "label": "MiLAB Contact：科研助理招募",
+              "url": "https://milab.westlake.edu.cn/contact.html",
+              "checkedDate": "2026-10-02",
+              "evidenceScope": "current_primary_page_body_read"
             }
           ],
-          "checkedDate": "2026-10-01"
+          "checkedDate": "2026-10-02"
         }
       ],
       "fall2027OpeningVerified": false,
@@ -7949,10 +7951,24 @@
           "label": "公开一手来源",
           "url": "https://muyuan.westlake.edu.cn/qtlm/sylb/202205/t20220507_20349.shtml",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "label": "MiLAB People：2027级公开招募",
+          "url": "https://milab.westlake.edu.cn/people.html",
+          "checkedDate": "2026-10-02",
+          "evidenceScope": "current_primary_page_body_read"
+        },
+        {
+          "label": "MiLAB Contact：科研助理招募",
+          "url": "https://milab.westlake.edu.cn/contact.html",
+          "checkedDate": "2026-10-02",
+          "evidenceScope": "current_primary_page_body_read"
         }
       ],
       "caveats": [
-        "已核实的 2027 普博第一批已截止；后续轮次未核实，常年招募不代表现在可提交这一批申请"
+        "已核实的 2027 普博第一批已截止；后续轮次未核实，常年招募不代表现在可提交这一批申请",
+        "MiLAB People与Contact页底仍标January 2021；以当前正文记录公开招募，不把页底当本轮公告发布日期",
+        "公开招2027级未明确入学季；现有Fall 2027核实标记保持false，剩余席位与资助均未确认"
       ],
       "checkedDate": "2026-10-01",
       "sourceFile": "mainland-application.json",
@@ -8023,6 +8039,155 @@
         },
         "checked_at": "2026-10-01",
         "verification_status": "本科起点且无需推免的至少一条学位路径已核实；具体批次、名额及全部个人资格分开判断"
+      },
+      "recruitmentReview": {
+        "checkedDate": "2026-10-02",
+        "checkedAt": "2026-10-02T15:33:00Z",
+        "scope": "仅同步具名公开招募公告；不更改资格、项目关联、职位任职门槛或当前余位判断",
+        "reason": "丰富简介已引用实验室2027级博士及科研助理招募，而目录仍写未发现；仅同步公开公告状态，不新增岗位或改变学校申请资格。",
+        "previous": {
+          "opening": "unknown",
+          "openingSummary": "Fall 2027 PI 名额未确认",
+          "openings": {
+            "mphil": "本轮未发现可核实的PI专属公开名额；不等于不招生",
+            "msc": "未验证该PI对应的授课型MSc定导通道，不以科研导师名单充当MSc席位",
+            "phd": "官网确认博士导师所属智能信息技术/电子科学与技术；未发现2027专属招生额",
+            "ra": "学校转载实验室长期招聘，页面2023-04-11：硕士或优秀本科、具深度学习/机器人研发经验；时效需再确认",
+            "cycle2027": "Fall 2027 PI 名额未确认"
+          },
+          "openingDetails": [
+            {
+              "degree": "MPhil",
+              "status": "unknown",
+              "summary": "本轮未发现可核实的PI专属公开名额；不等于不招生",
+              "cycle2027FallVerified": false,
+              "cycle": "Unspecified or unverified for Fall 2027",
+              "degreeRouteAssociated": false,
+              "sourceStatus": "not_found",
+              "noticeDate": null,
+              "sources": [
+                {
+                  "label": "公开一手来源",
+                  "url": "https://en.westlake.edu.cn/faculty/donglin-wang.html",
+                  "checkedDate": "2026-10-01"
+                },
+                {
+                  "label": "公开一手来源",
+                  "url": "https://muyuan.westlake.edu.cn/qtlm/sylb/202205/t20220507_20349.shtml",
+                  "checkedDate": "2026-10-01"
+                }
+              ],
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "degree": "MSc",
+              "status": "unknown",
+              "summary": "未验证该PI对应的授课型MSc定导通道，不以科研导师名单充当MSc席位",
+              "cycle2027FallVerified": false,
+              "cycle": "Unspecified or unverified for Fall 2027",
+              "degreeRouteAssociated": false,
+              "sourceStatus": "not_verified_for_this_pi",
+              "noticeDate": null,
+              "sources": [
+                {
+                  "label": "公开一手来源",
+                  "url": "https://en.westlake.edu.cn/faculty/donglin-wang.html",
+                  "checkedDate": "2026-10-01"
+                },
+                {
+                  "label": "公开一手来源",
+                  "url": "https://muyuan.westlake.edu.cn/qtlm/sylb/202205/t20220507_20349.shtml",
+                  "checkedDate": "2026-10-01"
+                }
+              ],
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "degree": "PhD",
+              "status": "unknown",
+              "summary": "官网确认博士导师所属智能信息技术/电子科学与技术；未发现2027专属招生额",
+              "cycle2027FallVerified": false,
+              "cycle": "Unspecified or unverified for Fall 2027",
+              "degreeRouteAssociated": true,
+              "sourceStatus": "program_route_verified_pi_quota_unconfirmed",
+              "noticeDate": null,
+              "sources": [
+                {
+                  "label": "公开一手来源",
+                  "url": "https://en.westlake.edu.cn/faculty/donglin-wang.html",
+                  "checkedDate": "2026-10-01"
+                }
+              ],
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "degree": "RA",
+              "status": "unknown",
+              "summary": "学校转载实验室长期招聘，页面2023-04-11：硕士或优秀本科、具深度学习/机器人研发经验；时效需再确认",
+              "cycle2027FallVerified": false,
+              "cycle": "Unspecified or unverified for Fall 2027",
+              "degreeRouteAssociated": null,
+              "sourceStatus": "historical_evergreen_needs_reconfirmation",
+              "noticeDate": null,
+              "sources": [
+                {
+                  "label": "公开一手来源",
+                  "url": "https://muyuan.westlake.edu.cn/qtlm/sylb/202205/t20220507_20349.shtml",
+                  "checkedDate": "2026-10-01"
+                }
+              ],
+              "checkedDate": "2026-10-01"
+            }
+          ],
+          "fall2027OpeningVerified": false,
+          "caveats": [
+            "已核实的 2027 普博第一批已截止；后续轮次未核实，常年招募不代表现在可提交这一批申请"
+          ],
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://en.westlake.edu.cn/faculty/donglin-wang.html",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://milab.westlake.edu.cn/",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://arxiv.org/abs/2312.14457",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://arxiv.org/abs/2502.14795",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://muyuan.westlake.edu.cn/qtlm/sylb/202205/t20220507_20349.shtml",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "label": "MiLAB People：2027级公开招募",
+            "url": "https://milab.westlake.edu.cn/people.html",
+            "checkedDate": "2026-10-02",
+            "evidenceScope": "current_primary_page_body_read"
+          },
+          {
+            "label": "MiLAB Contact：科研助理招募",
+            "url": "https://milab.westlake.edu.cn/contact.html",
+            "checkedDate": "2026-10-02",
+            "evidenceScope": "current_primary_page_body_read"
+          }
+        ],
+        "confirmedVacancy": false,
+        "remainingHeadcountVerified": false,
+        "standaloneRaJobAdded": false
       }
     },
     {
@@ -9168,14 +9333,14 @@
       "eligibility": "verified",
       "eligibilityMeaning": "至少一条本科起点、无需推免、无需先获硕士的官方路径及导师/项目关联已记录；个人资格未评估",
       "defaultVisible": true,
-      "opening": "unknown",
-      "openingSummary": "Fall 2027 PI 名额未确认",
+      "opening": "explicit",
+      "openingSummary": "CRAI公开PhD及RA等招募；未注明入学年季，Fall 2027余位未确认",
       "openings": {
         "mphil": "官方SAI B(4)课题组成员；未见2027专属MPhil名额",
         "msc": "未验证该PI对应的授课型MSc定导通道，不以科研导师名单充当MSc席位",
-        "phd": "官方课题组列理工&SAI双学院身份；实际目标批次主导师资格与名额仍应复核",
-        "ra": "本轮未发现可核实的PI专属公开名额；不等于不招生",
-        "cycle2027": "Fall 2027 PI 名额未确认"
+        "phd": "CRAI公告列PhD并明确以Tin Lun Lam为联系人，未注明公告日期或Fall 2027；具体项目关联与主导师资格仍以当轮学校规定为准",
+        "ra": "CRAI公告列RA并明确以Tin Lun Lam为联系人，未明确RA学位最低要求、日期或剩余岗位；仅记录招募信号，不作为已核实本科可任职RA",
+        "cycle2027": "CRAI公开PhD及RA等招募；未注明入学年季，Fall 2027余位未确认"
       },
       "openingDetails": [
         {
@@ -9216,39 +9381,41 @@
         },
         {
           "degree": "PhD",
-          "status": "unknown",
-          "summary": "官方课题组列理工&SAI双学院身份；实际目标批次主导师资格与名额仍应复核",
+          "status": "explicit",
+          "summary": "CRAI公告列PhD并明确以Tin Lun Lam为联系人，未注明公告日期或Fall 2027；具体项目关联与主导师资格仍以当轮学校规定为准",
           "cycle2027FallVerified": false,
           "cycle": "Unspecified or unverified for Fall 2027",
           "degreeRouteAssociated": true,
-          "sourceStatus": "program_group_association_verified_quota_unconfirmed",
+          "sourceStatus": "undated_public_recruiting_named_pi",
           "noticeDate": null,
           "sources": [
             {
-              "label": "公开一手来源",
-              "url": "https://sai.cuhk.edu.cn/page/205",
-              "checkedDate": "2026-10-01"
+              "label": "CRAI PhD/Postdoc/RA/Internship公告",
+              "url": "https://crai.cuhk.edu.cn/recruitment/257",
+              "checkedDate": "2026-10-02",
+              "evidenceScope": "current_primary_page_body_read"
             }
           ],
-          "checkedDate": "2026-10-01"
+          "checkedDate": "2026-10-02"
         },
         {
           "degree": "RA",
-          "status": "unknown",
-          "summary": "本轮未发现可核实的PI专属公开名额；不等于不招生",
+          "status": "explicit",
+          "summary": "CRAI公告列RA并明确以Tin Lun Lam为联系人，未明确RA学位最低要求、日期或剩余岗位；仅记录招募信号，不作为已核实本科可任职RA",
           "cycle2027FallVerified": false,
           "cycle": "Unspecified or unverified for Fall 2027",
           "degreeRouteAssociated": null,
-          "sourceStatus": "not_found",
+          "sourceStatus": "undated_public_recruiting_named_pi_job_eligibility_unverified",
           "noticeDate": null,
           "sources": [
             {
-              "label": "公开一手来源",
-              "url": "https://sai.cuhk.edu.cn/page/205",
-              "checkedDate": "2026-10-01"
+              "label": "CRAI PhD/Postdoc/RA/Internship公告",
+              "url": "https://crai.cuhk.edu.cn/recruitment/257",
+              "checkedDate": "2026-10-02",
+              "evidenceScope": "current_primary_page_body_read"
             }
           ],
-          "checkedDate": "2026-10-01"
+          "checkedDate": "2026-10-02"
         }
       ],
       "fall2027OpeningVerified": false,
@@ -9289,10 +9456,18 @@
           "label": "公开一手来源",
           "url": "https://freeformrobotics.org/wp-content/uploads/2025/07/IJRR2025_MSRR_Autonomy.pdf",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "label": "CRAI PhD/Postdoc/RA/Internship公告",
+          "url": "https://crai.cuhk.edu.cn/recruitment/257",
+          "checkedDate": "2026-10-02",
+          "evidenceScope": "current_primary_page_body_read"
         }
       ],
       "caveats": [
-        "SAI 课题组与双学院身份已验证；拟申请批次的博士主导师资格及名额仍须复核"
+        "SAI 课题组与双学院身份已验证；拟申请批次的博士主导师资格及名额仍须复核",
+        "CRAI招募公告未明确RA学历门槛；不得从PhD/MPhil项目的本科资格推导受雇RA条件",
+        "CRAI公告链接旧SSE博士项目；本次不改写既有SAI项目关联，也不把公告视为SAI专属名额"
       ],
       "checkedDate": "2026-10-01",
       "sourceFile": "mainland-application.json",
@@ -9360,6 +9535,139 @@
         },
         "checked_at": "2026-10-01",
         "verification_status": "本科起点且无需推免的至少一条学位路径已核实；具体批次、名额及全部个人资格分开判断"
+      },
+      "recruitmentReview": {
+        "checkedDate": "2026-10-02",
+        "checkedAt": "2026-10-02T15:33:00Z",
+        "scope": "仅同步具名公开招募公告；不更改资格、项目关联、职位任职门槛或当前余位判断",
+        "reason": "丰富简介已引用具名CRAI公告，而目录PhD/RA仍为unknown；仅同步公开招募信号，保留学历、轮次、项目关联和余位边界。",
+        "previous": {
+          "opening": "unknown",
+          "openingSummary": "Fall 2027 PI 名额未确认",
+          "openings": {
+            "mphil": "官方SAI B(4)课题组成员；未见2027专属MPhil名额",
+            "msc": "未验证该PI对应的授课型MSc定导通道，不以科研导师名单充当MSc席位",
+            "phd": "官方课题组列理工&SAI双学院身份；实际目标批次主导师资格与名额仍应复核",
+            "ra": "本轮未发现可核实的PI专属公开名额；不等于不招生",
+            "cycle2027": "Fall 2027 PI 名额未确认"
+          },
+          "openingDetails": [
+            {
+              "degree": "MPhil",
+              "status": "unknown",
+              "summary": "官方SAI B(4)课题组成员；未见2027专属MPhil名额",
+              "cycle2027FallVerified": false,
+              "cycle": "Unspecified or unverified for Fall 2027",
+              "degreeRouteAssociated": true,
+              "sourceStatus": "program_group_association_verified_quota_unconfirmed",
+              "noticeDate": null,
+              "sources": [
+                {
+                  "label": "公开一手来源",
+                  "url": "https://sai.cuhk.edu.cn/page/205",
+                  "checkedDate": "2026-10-01"
+                }
+              ],
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "degree": "MSc",
+              "status": "unknown",
+              "summary": "未验证该PI对应的授课型MSc定导通道，不以科研导师名单充当MSc席位",
+              "cycle2027FallVerified": false,
+              "cycle": "Unspecified or unverified for Fall 2027",
+              "degreeRouteAssociated": false,
+              "sourceStatus": "not_verified_for_this_pi",
+              "noticeDate": null,
+              "sources": [
+                {
+                  "label": "公开一手来源",
+                  "url": "https://sai.cuhk.edu.cn/page/205",
+                  "checkedDate": "2026-10-01"
+                }
+              ],
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "degree": "PhD",
+              "status": "unknown",
+              "summary": "官方课题组列理工&SAI双学院身份；实际目标批次主导师资格与名额仍应复核",
+              "cycle2027FallVerified": false,
+              "cycle": "Unspecified or unverified for Fall 2027",
+              "degreeRouteAssociated": true,
+              "sourceStatus": "program_group_association_verified_quota_unconfirmed",
+              "noticeDate": null,
+              "sources": [
+                {
+                  "label": "公开一手来源",
+                  "url": "https://sai.cuhk.edu.cn/page/205",
+                  "checkedDate": "2026-10-01"
+                }
+              ],
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "degree": "RA",
+              "status": "unknown",
+              "summary": "本轮未发现可核实的PI专属公开名额；不等于不招生",
+              "cycle2027FallVerified": false,
+              "cycle": "Unspecified or unverified for Fall 2027",
+              "degreeRouteAssociated": null,
+              "sourceStatus": "not_found",
+              "noticeDate": null,
+              "sources": [
+                {
+                  "label": "公开一手来源",
+                  "url": "https://sai.cuhk.edu.cn/page/205",
+                  "checkedDate": "2026-10-01"
+                }
+              ],
+              "checkedDate": "2026-10-01"
+            }
+          ],
+          "fall2027OpeningVerified": false,
+          "caveats": [
+            "SAI 课题组与双学院身份已验证；拟申请批次的博士主导师资格及名额仍须复核"
+          ],
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://myweb.cuhk.edu.cn/tllam",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://crai.cuhk.edu.cn/",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://sai.cuhk.edu.cn/page/205",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://ieeexplore.ieee.org/document/10049251",
+              "checkedDate": "2026-10-01"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://freeformrobotics.org/wp-content/uploads/2025/07/IJRR2025_MSRR_Autonomy.pdf",
+              "checkedDate": "2026-10-01"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "label": "CRAI PhD/Postdoc/RA/Internship公告",
+            "url": "https://crai.cuhk.edu.cn/recruitment/257",
+            "checkedDate": "2026-10-02",
+            "evidenceScope": "current_primary_page_body_read"
+          }
+        ],
+        "confirmedVacancy": false,
+        "remainingHeadcountVerified": false,
+        "standaloneRaJobAdded": false
       }
     },
     {
@@ -9555,6 +9863,625 @@
         },
         "research_source": "https://scholar.xjtlu.edu.cn/en/publications/robogpt-an-intelligent-agent-of-making-long-horizon-decisions-for/",
         "checked_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "hkustgz-fangqiang-ding",
+      "name": "Fangqiang Ding",
+      "nameZh": "丁方强",
+      "institution": "HKUST(GZ)",
+      "department": "系统枢纽，机器人与自主系统学域",
+      "position": "Assistant Professor",
+      "lab": "Physical AI and Robotic Systems Lab (PAIRS)",
+      "topics": [
+        "4D_radar",
+        "robust_spatial_perception",
+        "navigation",
+        "mobile_manipulation",
+        "robot_learning",
+        "thermal_sensing"
+      ],
+      "summary": "面向烟雾、暗光、传感退化与高风险现场的稳健移动自主；结合4D雷达/热成像、多模态感知与策略学习，并研究长时程操作和数据合成。",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/",
+      "labUrl": "https://pairslab.github.io/",
+      "email": "fangqiangd@hkust-gz.edu.cn",
+      "works": [
+        {
+          "title": "RadarOcc: Robust 3D Occupancy Prediction with 4D Imaging Radar",
+          "year": 2024,
+          "venue": "NeurIPS 2024",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/b81d83165e3145a2e7d33bb5e33ea913-Abstract-Conference.html"
+        },
+        {
+          "title": "PALM: Progress-Aware Policy Learning via Affordance Reasoning for Long-Horizon Robotic Manipulation",
+          "year": 2026,
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_PALM_Progress-Aware_Policy_Learning_via_Affordance_Reasoning_for_Long-Horizon_Robotic_CVPR_2026_paper.html"
+        }
+      ],
+      "routeIds": [
+        "hkust-gz-roas-phd"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hkust-gz-roas-phd",
+          "degree": "PhD",
+          "status": "verified",
+          "summary": "官方教师身份核实对应学域；复用已核实本科起点、普通在线申请的博士路径，个人录取、导师同意、名额与资助仍须分别确认",
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://facultyprofiles.hkust-gz.edu.cn/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://fangqiangding.com/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://fytgs.hkust-gz.edu.cn/programs/robotics-and-autonomous-systems-5",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements",
+              "checkedDate": "2026-10-02"
+            }
+          ],
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "eligibility": "verified",
+      "eligibilityMeaning": "官方学士优秀表现入口及普通在线申请路径已核实，无统一硕士或推免先决条件；这不是对个人成绩、语言、毕业时间或录取的评估",
+      "defaultVisible": true,
+      "opening": "explicit",
+      "openingSummary": "PAIRS公开招募Spring/Fall 2027全奖PhD；资助为公告声明，当前剩余席位及具体offer未确认",
+      "openings": {
+        "mphil": "MPhil/MSc仅为已通过学校正式录取后的组内招募；不视为本轮独立入学机会",
+        "msc": "未核实此PI的授课型MSc定导通道；不从科研招募推导学位机会",
+        "phd": "PAIRS公开招募Spring/Fall 2027全奖PhD；资助为公告声明，当前剩余席位及具体offer未确认",
+        "ra": "RA/实习可讨论现场或远程，每周至少半数时间投入；未见明确学历最低要求，不新增已核实RA岗位",
+        "cycle2027": "PAIRS公开招募Spring/Fall 2027全奖PhD；资助为公告声明，当前剩余席位及具体offer未确认"
+      },
+      "openingDetails": [
+        {
+          "degree": "MPhil",
+          "status": "unknown",
+          "summary": "MPhil/MSc仅为已通过学校正式录取后的组内招募；不视为本轮独立入学机会",
+          "cycle2027FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2027",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "post_admission_lab_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://pairslab.github.io/join/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://fangqiangding.com/group/",
+              "checkedDate": "2026-10-02"
+            }
+          ],
+          "checkedDate": "2026-10-02",
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false
+        },
+        {
+          "degree": "MSc",
+          "status": "unknown",
+          "summary": "未核实此PI的授课型MSc定导通道；不从科研招募推导学位机会",
+          "cycle2027FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2027",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "target_cycle_route_unverified",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://pairslab.github.io/join/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://fangqiangding.com/group/",
+              "checkedDate": "2026-10-02"
+            }
+          ],
+          "checkedDate": "2026-10-02",
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false
+        },
+        {
+          "degree": "PhD",
+          "status": "explicit",
+          "summary": "PAIRS公开招募Spring/Fall 2027全奖PhD；资助为公告声明，当前剩余席位及具体offer未确认",
+          "cycle2027FallVerified": true,
+          "cycle": "Spring/Fall 2027",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "public_2027_spring_fall_announcement_no_headcount_guarantee",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://pairslab.github.io/join/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://fangqiangding.com/group/",
+              "checkedDate": "2026-10-02"
+            }
+          ],
+          "checkedDate": "2026-10-02",
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false
+        },
+        {
+          "degree": "RA",
+          "status": "explicit",
+          "summary": "RA/实习可讨论现场或远程，每周至少半数时间投入；未见明确学历最低要求，不新增已核实RA岗位",
+          "cycle2027FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2027",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "public_recruiting_job_eligibility_unverified",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://pairslab.github.io/join/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://fangqiangding.com/group/",
+              "checkedDate": "2026-10-02"
+            }
+          ],
+          "checkedDate": "2026-10-02",
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false
+        }
+      ],
+      "fall2027OpeningVerified": true,
+      "newPi": {
+        "verified": true,
+        "window": "calendar-year-2026",
+        "date": "2026-07-21",
+        "note": "本人主页和实验室新闻于2026-07-21宣布加入HKUST(GZ)任tenure-track助理教授并成立PAIRS；日期是入职公告日期，不另推合同生效日",
+        "sources": [
+          {
+            "label": "公开一手来源",
+            "url": "https://pairslab.github.io/news/pairs-lab-starts-at-hkustgz/",
+            "checkedDate": "2026-10-02"
+          },
+          {
+            "label": "公开一手来源",
+            "url": "https://fangqiangding.com/",
+            "checkedDate": "2026-10-02"
+          }
+        ],
+        "dateEvidenceVerified": true,
+        "dateMeaning": "joining_announcement_date",
+        "exactContractEffectiveDateVerified": false
+      },
+      "appointment": {
+        "date": "2026-07-21",
+        "event": "本人主页和实验室新闻于2026-07-21宣布加入HKUST(GZ)任tenure-track助理教授并成立PAIRS；日期是入职公告日期，不另推合同生效日",
+        "source": "https://pairslab.github.io/news/pairs-lab-starts-at-hkustgz/",
+        "is_new_pi_inference": false,
+        "exactContractEffectiveDateVerified": false
+      },
+      "sources": [
+        {
+          "label": "公开一手来源",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "公开一手来源",
+          "url": "https://fangqiangding.com/",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "公开一手来源",
+          "url": "https://pairslab.github.io/",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "公开一手来源",
+          "url": "https://pairslab.github.io/join/",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "公开一手来源",
+          "url": "https://fytgs.hkust-gz.edu.cn/programs/robotics-and-autonomous-systems-5",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "公开一手来源",
+          "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "公开一手来源",
+          "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "公开一手来源",
+          "url": "https://pairslab.github.io/news/pairs-lab-starts-at-hkustgz/",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "公开一手来源",
+          "url": "https://fangqiangding.com/group/",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "公开一手来源",
+          "url": "https://pairslab.github.io/research/",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "caveats": [
+        "公开招募为Spring/Fall 2027公告，当前剩余名额、个人录取及资助条件未确认",
+        "项目目录为2026/27培养版本；2027/28校级时间表单独核实，未登录或测试个人OAS提交",
+        "普通申请允许有优异表现的学士申请，不等于任何本科申请人均满足全部条件",
+        "MPhil/MSc仅为已通过学校正式录取后的组内招募；不视为本轮独立入学机会",
+        "RA/实习可讨论现场或远程，每周至少半数时间投入；未见明确学历最低要求，不新增已核实RA岗位",
+        "2026-07-21是公开加入与建组公告日期，不另推合同生效日"
+      ],
+      "checkedDate": "2026-10-02",
+      "sourceFile": "primary-recruitment-review-2026-10-02",
+      "confirmedVacancy": false,
+      "remainingHeadcountVerified": false,
+      "sourceRecord": {
+        "id": "hkustgz-fangqiang-ding",
+        "name": "Fangqiang Ding",
+        "name_zh": "丁方强",
+        "institution": "HKUST(GZ)",
+        "unit": "系统枢纽，机器人与自主系统学域",
+        "role": "Assistant Professor",
+        "official_profile_url": "https://facultyprofiles.hkust-gz.edu.cn/",
+        "personal_url": "https://fangqiangding.com/",
+        "lab_url": "https://pairslab.github.io/",
+        "program_ids": [
+          "hkust-gz-roas-phd"
+        ],
+        "program_association_evidence": [
+          "https://facultyprofiles.hkust-gz.edu.cn/",
+          "https://fangqiangding.com/",
+          "https://fytgs.hkust-gz.edu.cn/programs/robotics-and-autonomous-systems-5",
+          "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements"
+        ],
+        "public_openings": {
+          "MPhil": {
+            "status": "post_admission_lab_only",
+            "detail": "MPhil/MSc仅为已通过学校正式录取后的组内招募；不视为本轮独立入学机会",
+            "source": "https://pairslab.github.io/join/"
+          },
+          "MSc": {
+            "status": "target_cycle_route_unverified",
+            "detail": "未核实此PI的授课型MSc定导通道；不从科研招募推导学位机会",
+            "source": "https://pairslab.github.io/join/"
+          },
+          "PhD": {
+            "status": "public_2027_spring_fall_announcement_no_headcount_guarantee",
+            "detail": "PAIRS公开招募Spring/Fall 2027全奖PhD；资助为公告声明，当前剩余席位及具体offer未确认",
+            "source": "https://pairslab.github.io/join/"
+          },
+          "RA": {
+            "status": "public_recruiting_job_eligibility_unverified",
+            "detail": "RA/实习可讨论现场或远程，每周至少半数时间投入；未见明确学历最低要求，不新增已核实RA岗位",
+            "source": "https://pairslab.github.io/join/"
+          }
+        },
+        "appointment": {
+          "date": "2026-07-21",
+          "event": "本人主页和实验室新闻于2026-07-21宣布加入HKUST(GZ)任tenure-track助理教授并成立PAIRS；日期是入职公告日期，不另推合同生效日",
+          "source": "https://pairslab.github.io/news/pairs-lab-starts-at-hkustgz/",
+          "is_new_pi_inference": false,
+          "exactContractEffectiveDateVerified": false
+        },
+        "checked_at": "2026-10-02",
+        "verification_status": "公开身份、PhD普通申请路径与2027春秋公告核实；不保证个人资格、资助或当前余位"
+      }
+    },
+    {
+      "id": "hkustgz-yan-li",
+      "name": "Yan Li",
+      "nameZh": "李言",
+      "institution": "HKUST(GZ)",
+      "department": "信息枢纽，人工智能学域",
+      "position": "Assistant Professor",
+      "lab": "Embodied Spatial AI Lab (EmSAIL)",
+      "topics": [
+        "SLAM",
+        "spatial_perception",
+        "3D_4D_reconstruction",
+        "world_models",
+        "robot_learning"
+      ],
+      "summary": "以几何一致的机器人空间感知为基础，研究SLAM、3D/4D重建、持久空间记忆、空间世界模型与机器人策略学习。",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Yan/yanli2",
+      "labUrl": "https://emsail-group.github.io/",
+      "email": "yanli2@hkust-gz.edu.cn",
+      "works": [
+        {
+          "title": "4D Gaussian Splatting SLAM",
+          "year": 2025,
+          "venue": "ICCV 2025",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Li_4D_Gaussian_Splatting_SLAM_ICCV_2025_paper.html"
+        },
+        {
+          "title": "GeoGaussian: Geometry-aware Gaussian Splatting for Scene Rendering",
+          "year": 2024,
+          "venue": "ECCV 2024",
+          "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/5218_ECCV_2024_paper.php"
+        }
+      ],
+      "routeIds": [
+        "hkust-gz-ai-phd"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hkust-gz-ai-phd",
+          "degree": "PhD",
+          "status": "verified",
+          "summary": "官方教师身份核实对应学域；复用已核实本科起点、普通在线申请的博士路径，个人录取、导师同意、名额与资助仍须分别确认",
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Yan/yanli2",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://liyan.me/",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://fytgs.hkust-gz.edu.cn/programs/artificial-intelligence-5",
+              "checkedDate": "2026-10-02"
+            },
+            {
+              "label": "公开一手来源",
+              "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements",
+              "checkedDate": "2026-10-02"
+            }
+          ],
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "eligibility": "verified",
+      "eligibilityMeaning": "官方学士优秀表现入口及普通在线申请路径已核实，无统一硕士或推免先决条件；这不是对个人成绩、语言、毕业时间或录取的评估",
+      "defaultVisible": true,
+      "opening": "explicit",
+      "openingSummary": "本人主页公开Spring/Fall 2027 PhD招募；未确认当前余位、具体资助和个人offer",
+      "openings": {
+        "mphil": "主页MPhil从Fall 2026开始；不迁移为Fall 2027个人名额，本轮不新增MPhil机会",
+        "msc": "未核实此PI的授课型MSc定导通道；不从科研招募推导学位机会",
+        "phd": "本人主页公开Spring/Fall 2027 PhD招募；未确认当前余位、具体资助和个人offer",
+        "ra": "公开RA/实习意向，但未给RA学历最低要求与完整雇佣公告；不新增已核实RA岗位",
+        "cycle2027": "本人主页公开Spring/Fall 2027 PhD招募；未确认当前余位、具体资助和个人offer"
+      },
+      "openingDetails": [
+        {
+          "degree": "MPhil",
+          "status": "unknown",
+          "summary": "主页MPhil从Fall 2026开始；不迁移为Fall 2027个人名额，本轮不新增MPhil机会",
+          "cycle2027FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2027",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "target_cycle_route_unverified",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://liyan.me/",
+              "checkedDate": "2026-10-02"
+            }
+          ],
+          "checkedDate": "2026-10-02",
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false
+        },
+        {
+          "degree": "MSc",
+          "status": "unknown",
+          "summary": "未核实此PI的授课型MSc定导通道；不从科研招募推导学位机会",
+          "cycle2027FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2027",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "target_cycle_route_unverified",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://liyan.me/",
+              "checkedDate": "2026-10-02"
+            }
+          ],
+          "checkedDate": "2026-10-02",
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false
+        },
+        {
+          "degree": "PhD",
+          "status": "explicit",
+          "summary": "本人主页公开Spring/Fall 2027 PhD招募；未确认当前余位、具体资助和个人offer",
+          "cycle2027FallVerified": true,
+          "cycle": "Spring/Fall 2027",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "public_2027_spring_fall_announcement_no_headcount_guarantee",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://liyan.me/",
+              "checkedDate": "2026-10-02"
+            }
+          ],
+          "checkedDate": "2026-10-02",
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false
+        },
+        {
+          "degree": "RA",
+          "status": "explicit",
+          "summary": "公开RA/实习意向，但未给RA学历最低要求与完整雇佣公告；不新增已核实RA岗位",
+          "cycle2027FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2027",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "public_recruiting_job_eligibility_unverified",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "公开一手来源",
+              "url": "https://liyan.me/",
+              "checkedDate": "2026-10-02"
+            }
+          ],
+          "checkedDate": "2026-10-02",
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false
+        }
+      ],
+      "fall2027OpeningVerified": true,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "本轮没有找到明确到校日期，不从Assistant Professor职称或实验室2026上线推断2026新PI",
+        "sources": [
+          {
+            "label": "公开一手来源",
+            "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Yan/yanli2",
+            "checkedDate": "2026-10-02"
+          }
+        ],
+        "dateEvidenceVerified": false,
+        "dateMeaning": "not_verified",
+        "exactContractEffectiveDateVerified": false
+      },
+      "appointment": {
+        "date": null,
+        "event": "本轮没有找到明确到校日期，不从Assistant Professor职称或实验室2026上线推断2026新PI",
+        "source": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Yan/yanli2",
+        "is_new_pi_inference": false,
+        "exactContractEffectiveDateVerified": false
+      },
+      "sources": [
+        {
+          "label": "公开一手来源",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Yan/yanli2",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "公开一手来源",
+          "url": "https://liyan.me/",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "公开一手来源",
+          "url": "https://emsail-group.github.io/",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "公开一手来源",
+          "url": "https://fytgs.hkust-gz.edu.cn/programs/artificial-intelligence-5",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "公开一手来源",
+          "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "公开一手来源",
+          "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "公开一手来源",
+          "url": "https://liyan.me/project/gs/4dgsslam.html",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "公开一手来源",
+          "url": "https://liyan.me/project/gs/geogaussian.html",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "caveats": [
+        "公开招募为Spring/Fall 2027公告，当前剩余名额、个人录取及资助条件未确认",
+        "项目目录为2026/27培养版本；2027/28校级时间表单独核实，未登录或测试个人OAS提交",
+        "普通申请允许有优异表现的学士申请，不等于任何本科申请人均满足全部条件",
+        "主页MPhil从Fall 2026开始；不迁移为Fall 2027个人名额，本轮不新增MPhil机会",
+        "公开RA/实习意向，但未给RA学历最低要求与完整雇佣公告；不新增已核实RA岗位",
+        "官方姓名为Yan Li/李言；个人主页所链接旧项目及出版方采用Yanyan Li署名，同一Google Scholar ID用于校验关联",
+        "实验室页仍有旧NUS联络方式及未完成论文占位，联系信息采用现任学校教师页；加入年份未核实"
+      ],
+      "checkedDate": "2026-10-02",
+      "sourceFile": "primary-recruitment-review-2026-10-02",
+      "confirmedVacancy": false,
+      "remainingHeadcountVerified": false,
+      "sourceRecord": {
+        "id": "hkustgz-yan-li",
+        "name": "Yan Li",
+        "name_zh": "李言",
+        "institution": "HKUST(GZ)",
+        "unit": "信息枢纽，人工智能学域",
+        "role": "Assistant Professor",
+        "official_profile_url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Yan/yanli2",
+        "personal_url": "https://liyan.me/",
+        "lab_url": "https://emsail-group.github.io/",
+        "program_ids": [
+          "hkust-gz-ai-phd"
+        ],
+        "program_association_evidence": [
+          "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Yan/yanli2",
+          "https://liyan.me/",
+          "https://fytgs.hkust-gz.edu.cn/programs/artificial-intelligence-5",
+          "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements"
+        ],
+        "public_openings": {
+          "MPhil": {
+            "status": "target_cycle_route_unverified",
+            "detail": "主页MPhil从Fall 2026开始；不迁移为Fall 2027个人名额，本轮不新增MPhil机会",
+            "source": "https://liyan.me/"
+          },
+          "MSc": {
+            "status": "target_cycle_route_unverified",
+            "detail": "未核实此PI的授课型MSc定导通道；不从科研招募推导学位机会",
+            "source": "https://liyan.me/"
+          },
+          "PhD": {
+            "status": "public_2027_spring_fall_announcement_no_headcount_guarantee",
+            "detail": "本人主页公开Spring/Fall 2027 PhD招募；未确认当前余位、具体资助和个人offer",
+            "source": "https://liyan.me/"
+          },
+          "RA": {
+            "status": "public_recruiting_job_eligibility_unverified",
+            "detail": "公开RA/实习意向，但未给RA学历最低要求与完整雇佣公告；不新增已核实RA岗位",
+            "source": "https://liyan.me/"
+          }
+        },
+        "appointment": {
+          "date": null,
+          "event": "本轮没有找到明确到校日期，不从Assistant Professor职称或实验室2026上线推断2026新PI",
+          "source": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Yan/yanli2",
+          "is_new_pi_inference": false,
+          "exactContractEffectiveDateVerified": false
+        },
+        "checked_at": "2026-10-02",
+        "verification_status": "公开身份、PhD普通申请路径与2027春秋公告核实；不保证个人资格、资助或当前余位"
       }
     }
   ],

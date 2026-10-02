@@ -1,3 +1,4 @@
+import {recruitmentBaselineText} from './recruitment-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -23,7 +24,7 @@ test('five distinct page overviews provide real synthesis before item-level list
  const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');assert(html.indexOf('id="page-overview"')<html.indexOf('class="search-surface"'));assert(html.indexOf('id="page-overview"')<html.indexOf('id="view-content"'));
 });
 test('advisor coverage uses unique included people, distinguishes degree signals from RA jobs',()=>{
- const s=plain('advisors');assert(s.includes('30 位导师'));assert(s.includes('46 条机会'));assert(s.includes('44 条学位机会中，20 条'));assert(s.includes('2 个已核实 RA 岗位'));assert(s.includes('灵巧操作与触觉涉及 20 位'));assert(!s.includes('32 位导师'));assert(!s.includes('46 位导师'));
+ const s=plain('advisors');assert(s.includes('32 位导师'));assert(s.includes('48 条机会'));assert(s.includes('46 条学位机会中，25 条'));assert(s.includes('2 个已核实 RA 岗位'));assert(s.includes('灵巧操作与触觉涉及 21 位'));assert(!s.includes('34 位导师'));assert(!s.includes('46 位导师'));
 });
 test('programme synthesis reports complete current coverage without inflating the route count',()=>{
  const s=plain('routes');for(const text of ['27 个项目','9 所学校','13 个 MPhil','12 个 PhD','27 个项目有培养与研究简介','另外 0 个目前仅有基本条件'])assert(s.includes(text),text);assert(s.includes('授课'));assert(s.includes('固定导师名额'));
@@ -56,5 +57,5 @@ test('global overviews are deterministic, read-only, and escape data-controlled 
 });
 test('reviewed catalog and materials plus expanded experience data retain their declared snapshot bytes',()=>{
  const expected={'catalog.json':'045a3a5886d5','material-summaries.json':'193f8d81ae8a','application-experiences.json':'05b5bc420009'};
- for(const [name,sha]of Object.entries(expected)){const bytes=fs.readFileSync(new URL('../data/'+name,import.meta.url));assert.equal(crypto.createHash('sha256').update(bytes).digest('hex').slice(0,12),sha,name);}
+ for(const [name,sha]of Object.entries(expected)){const bytes=name==='catalog.json'?recruitmentBaselineText(read(name)):fs.readFileSync(new URL('../data/'+name,import.meta.url));assert.equal(crypto.createHash('sha256').update(bytes).digest('hex').slice(0,12),sha,name);}
 });
