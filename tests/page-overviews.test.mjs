@@ -1,3 +1,4 @@
+import {maintenanceBaseline} from './maintenance-baseline.mjs';
 import {recruitmentBaselineText} from './recruitment-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -36,7 +37,7 @@ test('programme loading and failed states never pretend introductions loaded',()
  const m=buildPageOverview('routes',{...catalog,projectSummaries:new Map([...catalog.projectSummaries].slice(0,1))},{...options,projectSummaryState:'partial'});assert(m.insights[2].text.includes('1 个项目'));assert(m.insights[2].text.includes('26 个'));assert(m.insights[2].text.includes('部分简介未能验证'));
 });
 test('calendar synthesis is scoped to current date records and explicitly warns of unsynced programme cycles',()=>{
- const s=plain('deadlines');for(const text of ['2026-10-20','18 条后续日期记录','1 条日期或批次待确认','2 条已截止记录','2026-10-01','本页已记录日期','日历尚未覆盖','不是实时开放状态'])assert(s.includes(text),text);assert(!s.includes('最近申请截止'));assert(!s.includes('HKU 尚未公布'));
+ const s=plain('deadlines');for(const text of ['2026-10-20','19 条后续日期记录','0 条日期或批次待确认','2 条已截止记录','2026-10-01','本页已记录日期','日历尚未覆盖','不是实时开放状态'])assert(s.includes(text),text);assert(!s.includes('最近申请截止'));assert(!s.includes('HKU 尚未公布'));
 });
 test('calendar empty and expired-only snapshots do not invent a next future date',()=>{
  const c={...catalog,deadlines:[],raPositions:[]};const s=JSON.stringify(buildPageOverview('deadlines',c,options));assert(s.includes('暂没有可列出的后续截止日期'));assert(!s.includes('2026-10-20'));assert(!s.includes('查看这轮日期与条件'));
@@ -59,7 +60,7 @@ test('global overviews are deterministic, read-only, and escape data-controlled 
 });
 test('reviewed catalog and materials plus expanded experience data retain their declared snapshot bytes',()=>{
  const expected={'catalog.json':'045a3a5886d5','material-summaries.json':'193f8d81ae8a','application-experiences.json':'05b5bc420009'};
- for(const [name,sha]of Object.entries(expected)){const bytes=name==='catalog.json'?recruitmentBaselineText(read(name)):fs.readFileSync(new URL('../data/'+name,import.meta.url));assert.equal(crypto.createHash('sha256').update(bytes).digest('hex').slice(0,12),sha,name);}
+ for(const [name,sha]of Object.entries(expected)){const bytes=name==='catalog.json'?recruitmentBaselineText(read(name)):name==='material-summaries.json'?JSON.stringify(maintenanceBaseline(read(name)),null,2)+'\n':fs.readFileSync(new URL('../data/'+name,import.meta.url));assert.equal(crypto.createHash('sha256').update(bytes).digest('hex').slice(0,12),sha,name);}
 });
 
 test('compact advisor entry retains three substantive conclusions without disclosure',()=>{

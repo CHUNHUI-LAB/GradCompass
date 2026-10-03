@@ -1,3 +1,4 @@
+import {maintenanceBaseline} from './maintenance-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -11,9 +12,9 @@ const hash=value=>crypto.createHash('sha256').update(value).digest('hex');
 const claimText=id=>JSON.stringify(summaries.get(id));
 
 test('expansion appends exactly nine reviewed routes and preserves the first eight introductions and nineteen sources',()=>{
- assert.equal(hash(JSON.stringify(raw.records.slice(0,8))),'1a96b206d4f4dd04ad1a97f63dc5b8eea60d7f37756a2b7d01b5631d1f6d56c6');
+ assert.equal(hash(JSON.stringify(maintenanceBaseline(raw).records.slice(0,8))),'1a96b206d4f4dd04ad1a97f63dc5b8eea60d7f37756a2b7d01b5631d1f6d56c6');
  assert.equal(hash(JSON.stringify(raw.sources.slice(0,19))),'a29f9f9c9e39cabcaa966838490709743f22bf617bae8bdde11b3f28a447205a');
- assert.deepEqual(raw.records.slice(8,17).map(r=>r.routeId),added);assert.equal(raw.records.slice(0,17).length,17);assert.equal(new Set(raw.sources.slice(0,35).map(s=>s.id)).size,35);assert.equal(raw.sources.slice(0,35).length,35);
+ assert.deepEqual(raw.records.slice(8,17).map(r=>r.routeId),added);assert.equal(maintenanceBaseline(raw).records.slice(0,17).length,17);assert.equal(new Set(raw.sources.slice(0,35).map(s=>s.id)).size,35);assert.equal(raw.sources.slice(0,35).length,35);
 });
 
 test('first expansion preserves introductions for the five original schools',()=>{
@@ -51,8 +52,8 @@ test('PolyU robotics stays taught MSc across course and dissertation routes and 
  const b=summaries.get('polyu_ire_msc');assert.equal(b.degree,'MSc');assert.match(b.training.text,/10 门课程.*7 门课程加论文.*仍授予 MSc/);assert.match(b.cycle.text,/2027 年 9 月.*2026-10-20.*2027-02-25/);assert.match(b.cautions[0].text,/条件.*经费和名额限制.*录取不能视为已获资助/);
 });
 
-test('CityU DS has its own first-class bachelor PhD route, no MPhil, and no promoted ordinary deadline',()=>{
- const b=summaries.get('cityu_ds_phd');assert.equal(b.degree,'PhD');assert.match(b.bachelorEntry.text,/一等荣誉学士.*博士入口/);assert.match(b.training.text,/至少 2 学分.*2026\/27.*不据此确认 2027\/28/);assert.match(b.cautions[0].text,/不受理 MPhil/);assert.match(b.cycle.text,/普通非 HKPFS.*截止.*待确认/);assert(!summaries.has('cityu_ds_mphil-excluded'));
+test('CityU DS has its own first-class bachelor PhD route, no MPhil, and independently verified ordinary deadline',()=>{
+ const b=summaries.get('cityu_ds_phd');assert.equal(b.degree,'PhD');assert.match(b.bachelorEntry.text,/一等荣誉学士.*博士入口/);assert.match(b.training.text,/至少 2 学分.*2026\/27.*不据此确认 2027\/28/);assert.match(b.cautions[0].text,/不受理 MPhil/);assert.match(b.cycle.text,/普通非 HKPFS.*2027\/28.*截止.*2026-12-01.*23:59/);assert(!summaries.has('cityu_ds_mphil-excluded'));
  const source=raw.sources.find(s=>s.id==='city_steps');assert(source.retrievalConflict);assert.match(source.retrievalConflict.fullTextObservation,/2026 entry/);assert.match(source.retrievalConflict.indexedObservation,/2027\/28/);assert.match(source.retrievalConflict.liveVerification,/CAPTCHA; not solved/);
 });
 
@@ -79,6 +80,7 @@ test('reviewed catalog and material snapshots plus reviewed runtime and expanded
 };
  for(const [path,expected] of Object.entries(protectedHashes)){
   let content=fs.readFileSync(new URL('../'+path,import.meta.url));
+  if(['data/catalog.json','data/material-summaries.json'].includes(path))content=JSON.stringify(maintenanceBaseline(JSON.parse(content)),null,2)+'\n';
   if(path==='assets/style.css')content=content.subarray(0,24000);
   assert.equal(hash(content),expected,path);
  }

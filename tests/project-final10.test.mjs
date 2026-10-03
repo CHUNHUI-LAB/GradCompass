@@ -1,3 +1,4 @@
+import {maintenanceBaseline} from './maintenance-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -10,9 +11,9 @@ const summaries=normalizeProjectSummaries(raw,catalog),joined={...catalog,projec
 const hash=x=>crypto.createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const added=['hkbu_cs_rpg-mphil','hkbu_cs_rpg-phd','westlake-ai-phd','westlake-ee-phd','cuhksz-ai-mphil','cuhksz-ai-phd','hkust-gz-rbm','hkust-gz-roas-phd','hkust-gz-ai-phd','hkust-gz-intr-phd'];
 test('final ten additions preserve all seventeen prior records and thirty-five sources exactly',()=>{
- assert.equal(hash(raw.records.slice(0,17)),'69df1001690d5c2b990fc3be7b3f65cf81439ecd5a8f6182e98c9e16609dc2d6');
+ assert.equal(hash(maintenanceBaseline(raw).records.slice(0,17)),'69df1001690d5c2b990fc3be7b3f65cf81439ecd5a8f6182e98c9e16609dc2d6');
  assert.equal(hash(raw.sources.slice(0,35)),'166c50d602945e794c519cfe4332c44fc032d29cde80d5e97b25e974d27d16e5');
- assert.deepEqual(raw.records.slice(17).map(r=>r.routeId),added);assert.equal(raw.records.length,27);assert.equal(raw.sources.length,61);assert.equal(new Set(raw.sources.map(s=>s.url)).size,61);
+ assert.deepEqual(raw.records.slice(17).map(r=>r.routeId),added);assert.equal(raw.records.length,27);assert.equal(raw.sources.length,62);assert.equal(new Set(raw.sources.map(s=>s.url)).size,61);
 });
 test('all twenty-seven verified default projects now have rich introductions with exact campus and degree joins',()=>{
  assert.deepEqual([...summaries.keys()].sort(),catalog.routes.filter(isVerifiedRoute).map(r=>r.id).sort());

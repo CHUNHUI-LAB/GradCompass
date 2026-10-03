@@ -185,3 +185,16 @@ The version can be checked with `npm test` and its content hashes regenerated wi
 ### Published a703ea6 live-browser checks and positioning correction
 
 Exact Pages run `37103877222` completed successfully for `a703ea6fe244bef75e0c5ee51461824d6e423144`; build, deploy and report-build-status checks all succeeded. Live cloud-browser checks at 1182px, 500px, 400 CSS px (native 125% zoom) and 200% zoom (591 CSS px) verified no horizontal overflow. Search→empty→reset, RA filter restoration across project navigation, complete project text before external sources, experience search/read/Back/Forward, mobile repeated menu toggling/Escape/navigation-close focus and narrow project dialog passed. These checks are not physical-device or screen-reader certification. A decorative compass/text overlap was observed; this correction separates their desktop placement and moves the mobile compass above the subtitle. Final corrected commit visual recheck is pending independently of the earlier checks.
+
+
+## 2026-10-03 公开数据有界维护（独立于视觉更新）
+
+以已实际验收的视觉提交 `8da0a9be4a5248d00343c18d42502c6b8558c465` 为基线。对应 Pages `37104504435` 已成功；视觉定位修正已在真实桌面与400 CSS像素窄屏重检。此次仅更改数据及其测试、依赖hash和说明，不改前端结构或样式。
+
+CityU主域普通研究学位流程 Important Date 于2026-10-03直接核读为2027/28主轮2026-12-01 23:59（香港时间UTC+8），MNE院系页明确链接到该申请流程。更新机械工程两条路线、Data Science PhD的普通轮说明、一条日历、两组材料的日期要求和三篇项目的批次字段。旧2026-10-02冲突对象完整保存在当前review.history；当前可见review正确显示2026-10-03及已经核实的普通轮日期。招生实际提交状态保持unknown；不从未来截止推断开放或导师余位。
+
+原始sourceRecord、旧checkedDate、所有非日期资格/材料、导师、RA岗位、19篇经验及完整研究/培养介绍均保留。新增的来源条目仅标记本次时间表核读；旧来源URL/版本冲突与核读日期未重写。新增历史重建助手只还原明确记录的前值，原全文件SHA检查继续证明其余字节未变；另有五项当前事实、当前渲染、材料边界及历史完整性检查。完整278项Node/DOM-contract检查通过，无失败或跳过。
+
+范围逐项记录在 [2026-10-03维护记录](data/maintenance-2026-10-03.json)：HKU、HKUST CSE、CUHK MAE、PolyU IRE、HKBU现有日期与当前官方正文一致；HKUST(GZ)博士与MPhil、CUHK-Shenzhen SAI及西湖的批次边界分别核查。西湖已读完整2027第一批通知，2026-08-31 10:00北京时间的第一批仍为已截止，不能据此推定后续批次。两条PolyU RA岗位学历类别分开，不把RA变成学位。公开问答线索正文/评论可见范围单独记录，不为增加数量扩充经验。
+
+不是所有高校、32位导师、社媒评论或申请系统的穷尽复核；不宣称自动维护首轮全覆盖成功。英语有效期口径分歧、实际名额/资助、个人资格与未核到的院系材料继续保持边界。数据提交的精确Pages与线上摘要验收在发布后另核。

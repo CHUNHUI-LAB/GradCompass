@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-03",
+  "baseCommit": "8da0a9be4a5248d00343c18d42502c6b8558c465",
+  "scope": "公开来源的有界维护：CityU普通轮日期修订；其他列明学校与两个RA岗位按具体页面核查，不代表所有导师或全部来源重新核验。",
+  "mutations": [
+    "catalog: CityU机械工程两条路线、Data Science PhD普通轮说明和一条校级日历；该日历明确关联这三条项目，避免DS简介有日期而日历区称未收录",
+    "materials: 两组CityU材料仅日期/批次说明",
+    "projects: 三条CityU项目仅批次字段；保留全部培养/研究/学历正文",
+    "new dated provenance and exact old review history"
+  ],
+  "preserved": [
+    "旧checkedDate与sourceRecord",
+    "导师与RA岗位数据、个人名额未知",
+    "19篇经验和全部来源/评论核读范围",
+    "全站firstRunVerified=false和lastSuccessfulCheck=null",
+    "英文成绩有效期口径冲突未擅自合并"
+  ],
+  "observations": [
+    {
+      "institution": "CityUHK",
+      "result": "changed",
+      "url": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
+      "finding": "实时主域正文确认2027/28普通研究学位主轮2026-12-01 23:59香港时间UTC+8；主轮后按余位，未登录提交系统。",
+      "evidenceScope": "live full page and MNE linked-procedure cross-check"
+    },
+    {
+      "institution": "HKU",
+      "result": "unchanged",
+      "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+      "finding": "2027/28主轮2026-12-01、首轮补录2027-04-30、次轮补录2027-08-31，均23:59香港时间UTC+8；补录取决于余位。",
+      "evidenceScope": "official main-text lines12–18"
+    },
+    {
+      "institution": "HKUST",
+      "result": "unchanged",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse",
+      "finding": "2027/28秋季非本地全日制2027-06-01，与2026/27春季及HKPFS分开；普通截止此页只给日期，未补造时刻。本科优秀表现可作为博士入口；不视为某位导师名额。",
+      "evidenceScope": "official CSE catalogue main-text admission and application sections"
+    },
+    {
+      "institution": "CUHK",
+      "result": "unchanged",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-mechanical-and-automation-engineering",
+      "finding": "MAE普通主轮2026-12-01、补录2027-03-31；补录以余位为前提，普通日期未附具体时刻。奖学金12:00/23:59不能移用普通轮。",
+      "evidenceScope": "official main-text lines331–344"
+    },
+    {
+      "institution": "PolyU",
+      "result": "unchanged",
+      "url": "https://www.polyu.edu.hk/study/pg/tpg/2027/43101-ir-irt",
+      "finding": "智能机器人工程为授课型MSc、2027年9月入学；早轮2026-10-20/主轮2027-02-25。本科入口、31学分、CV选交及成绩证明必需与现有摘要一致。",
+      "evidenceScope": "official programme main text"
+    },
+    {
+      "institution": "HKBU",
+      "result": "unchanged",
+      "url": "https://gs.hkbu.edu.hk/admission/research-postgraduate-programmes/application/admission-timeline",
+      "finding": "2027/28 MPhil/PhD校级首截止2026-12-01、次截止2027-04-15；院系可能有特定日期。",
+      "evidenceScope": "official main-text lines159–169"
+    },
+    {
+      "institution": "HKUST(GZ)",
+      "result": "unchanged",
+      "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+      "finding": "2027/28秋季PhD国际申请2027-06-15、中国申请2027-07-15，23:59 GMT+8；春季另有2026-12-04/12-25。MPhil须另查CFT，不能套用博士时间。",
+      "evidenceScope": "official timeline main text read on 2026-10-03"
+    },
+    {
+      "institution": "CUHK-Shenzhen",
+      "result": "unchanged",
+      "url": "https://sai.cuhk.edu.cn/node/35",
+      "finding": "SAI人工智能2027春季截止2026-10-31，秋季2027-05-31，日期未附时刻；滚动且满额可关闭。本科PhD与MPhil学术入口、英语及推荐信分别核对，不推定具体导师名额。",
+      "evidenceScope": "official SAI main text read on 2026-10-03"
+    },
+    {
+      "institution": "Westlake",
+      "result": "unchanged_historical_batch",
+      "url": "https://www.westlake.edu.cn/admissions/graduate/brochure/general/202608/t20260813_68957.html",
+      "finding": "2027普博第一批（9月批）简章发布于2026-08-13；普通招考的优秀应届/往届本科入口与推免分开。第一批截止2026-08-31 10:00北京时间，已截止。智能信息技术CET6门槛480，不套用一般学科460；IELTS6.0/TOEFL90或新制4.5为其他选项。未由这份旧批次通知推定10月3日后续批次是否公布。",
+      "evidenceScope": "2026-10-03T07:03:38Z 实时浏览器完整正文；2027第一批历史范围"
+    },
+    {
+      "institution": "PolyU RA",
+      "result": "unchanged",
+      "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260907004",
+      "finding": "Ref260907004官方正文仍列12个月聘期，RA接受荣誉学士或同等资格；Research Associate的硕士/工作经历门槛不得套到RA。2027-02-21为广告截止，非剩余名额或入职保证。",
+      "evidenceScope": "official job text; application portal not submitted"
+    },
+    {
+      "institution": "PolyU RA",
+      "result": "unchanged",
+      "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260724022",
+      "finding": "Ref260724022官方正文仍列双向认知人机制造项目、12个月聘期及荣誉学士RA入口。旧截止日期记录保持，当前节选核读未覆盖截止句，不声称重新核对了日期。",
+      "evidenceScope": "official job text qualification section only for this review"
+    }
+  ],
+  "publicExperienceSearch": {
+    "scope": "检索2027机器人/MPhil/RA公开经验线索；未批量抓取或假称评论全部可见",
+    "result": "发现公开问答及商业项目导读，尚不满足新增完整机器人MPhil/RA流程案例的证据深度，未为凑数加入",
+    "candidateUrls": [
+      "https://www.reddit.com/r/HKUST/comments/1wpy0vw/deadline_for_mphil_mech_eng_spring_2627/",
+      "https://www.reddit.com/r/HKUST/comments/1vn68w1/incoming_mphil_students/"
+    ],
+    "readDepth": "Incoming MPhil Students 正文可读，但只是到校时间/社群提问，未提供申请全过程，当前提取未呈现评论正文；另一个截止日提问页抓取失败。未把推荐帖子列表当作当前帖评论，未采纳搜索片段为政策。"
+  },
+  "limitations": [
+    "未登录任何申请系统、未核定个人资格/决定信/导师剩余名额",
+    "非所有高校、导师和社媒评论的穷尽检查",
+    "仅列明页面的当前观察；未把旧来源统一改为新核验日"
+  ]
+}

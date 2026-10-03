@@ -270,6 +270,14 @@
       "checkedDate": "2026-10-02",
       "section": "2027/28 application timeline",
       "sourceVersion": "Targeted cycle-only check on 2026-10-02; other sources and material requirements retain original check date"
+    },
+    {
+      "label": "CityUHK 2027/28 普通研究学位主轮日期（2026-10-03 实时核读）",
+      "url": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
+      "checkedDate": "2026-10-03",
+      "evidenceScope": "主域普通申请流程 Important Date 实时正文；与 MNE 指向该流程的院系说明交叉核对",
+      "id": "city_review_steps_20261003",
+      "section": "2027/28 Important Date；普通主轮、香港时刻、后续按余位受理"
     }
   ],
   "records": [
@@ -765,8 +773,8 @@
       "status": "verified",
       "checkedDate": "2026-10-01",
       "summary": "先准备学历、成绩、评分标准及英语证明，并按系统提交学术推荐。当前只核得学校级清单，机械工程附加文书仍待核。",
-      "note": "先准备学历、成绩、评分标准及英语证明，并按系统提交学术推荐。当前只核得学校级清单，机械工程附加文书仍待核。 适用范围：现行通用要求；普通 2027 主轮截止待确认，HKPFS 2027/28 单独核对；这是有界摘要，提交前仍须核对当期系统。",
-      "admissionYear": "现行通用要求；普通 2027 主轮截止待确认，HKPFS 2027/28 单独核对",
+      "note": "先准备学历、成绩、评分标准及英语证明，并按系统提交学术推荐。当前只核得学校级清单，机械工程附加文书仍待核。 适用范围：现行材料清单沿用原核读；2027/28 校级普通主轮截止 2026-12-01 23:59 HKT（仅日期于 2026-10-03 复核），HKPFS 独立核对；这是有界摘要，提交前仍须核对当期系统。",
+      "admissionYear": "现行材料清单沿用原核读；2027/28 校级普通主轮截止 2026-12-01 23:59 HKT（仅日期于 2026-10-03 复核），HKPFS 独立核对",
       "unknowns": [
         "ME专属推荐报告数量、CV/PS/研究计划、院系额外英语规定。"
       ],
@@ -814,12 +822,13 @@
         },
         {
           "kind": "deadline",
-          "text": "普通 2027 主轮截止及具体时刻待复核：官网全文与索引的入学年份、截止日期不一致。HKPFS 2027/28 已单独核对：RGC 初步登记 2026-12-01 12:00，CityUHK 完整申请同日 23:59（香港时间）；不能仅由奖学金时间表推定普通 MPhil／非 HKPFS PhD 日期。",
-          "requirementStatus": "unknown",
+          "text": "普通 MPhil／非 HKPFS PhD 的 2027/28 校级主轮截止已于 2026-10-03 实时核读为 2026-12-01 23:59（香港时间 UTC+8）；主轮之后按余位考虑。HKPFS 2027/28 仍是独立流程：既有核对记录为 RGC 初步登记 2026-12-01 12:00、CityUHK 完整申请同日 23:59，本次不将奖学金时间表冒充普通轮证据。具体院系材料、实际提交状态与导师名额另核。",
+          "requirementStatus": "published_school_only",
           "sourceIds": [
             "city_review_steps",
             "city_review_hkpfs",
-            "city_review_rgc"
+            "city_review_rgc",
+            "city_review_steps_20261003"
           ]
         }
       ],
@@ -829,49 +838,133 @@
         "city_dates",
         "city_review_steps",
         "city_review_hkpfs",
-        "city_review_rgc"
+        "city_review_rgc",
+        "city_review_steps_20261003"
       ],
       "cycleReview": {
-        "checkedDate": "2026-10-02",
-        "reason": "2026-10-02 批次复核存在来源版本冲突：普通流程全文仍显示 2026 入学及 2025-12-01；同一官网的搜索索引显示 2027/28、2026-12-01 23:59。实时页面未能完成核对，因此相应项目普通 MPhil／非 HKPFS PhD 的 2027 主轮日期暂保留待确认。HKPFS 2027/28 的 RGC 12:00 与 CityUHK 23:59 截止已另从奖学金官方时间表核对，不据此推定普通轮。",
-        "previous": {
-          "admissionYear": "2027/28学校轮次＋现行通用要求",
-          "note": "先准备学历、成绩、评分标准及英语证明，并按系统提交学术推荐。当前只核得学校级清单，机械工程附加文书仍待核。 适用范围：2027/28学校轮次＋现行通用要求；这是有界摘要，提交前仍须核对当期系统。",
-          "deadline": {
-            "kind": "deadline",
-            "text": "2027/28主轮2026-12-01 23:59 HKT；全年收申请，主轮之后仅按余位考虑。",
-            "requirementStatus": "published",
-            "sourceIds": [
-              "city_dates"
-            ]
-          },
-          "checkedDate": "2026-10-01"
-        },
+        "checkedDate": "2026-10-03",
+        "reviewId": "cityu-ordinary-cycle-20261003",
+        "reason": "2026-10-03 已直接核读主域普通研究学位流程及机械工程院系链接：2027/28 校级主轮截止为 2026-12-01 23:59（香港时间 UTC+8）。这次核对解决的是普通轮日期，未借用 HKPFS 时间表；2026-10-02 的全文/索引冲突保留为历史记录。学校全年受理，主轮后视余位；院系、导师同意、经费及个人全部条件仍须另核。未登录检查实际提交系统。",
+        "readScope": "普通研究学位主轮日期与机械工程官方申请链接；不重新核验整条材料、个人资格、导师名额或英语有效期争议",
+        "observedAtUtc": "2026-10-03T06:24:13Z",
+        "corroboratedAtUtc": "2026-10-03T06:25:30Z",
         "sources": [
           {
-            "label": "CityUHK 普通研究学位申请流程",
+            "label": "CityUHK 2027/28 普通研究学位主轮日期（2026-10-03 实时核读）",
             "url": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
-            "checkedDate": "2026-10-02"
-          },
-          {
-            "label": "CityUHK HKPFS 2027/28 时间表",
-            "url": "https://www.cityu.edu.hk/pg/hong-kong-phd-fellowship-scheme/about-the-scheme",
-            "checkedDate": "2026-10-02"
-          },
-          {
-            "label": "RGC HKPFS 初步登记",
-            "url": "https://cerg1.ugc.edu.hk/hkpfs/apply.html",
-            "checkedDate": "2026-10-02"
+            "checkedDate": "2026-10-03",
+            "evidenceScope": "主域普通申请流程 Important Date 实时正文；与 MNE 指向该流程的院系说明交叉核对"
           }
         ],
-        "sourceConflict": {
-          "ordinaryFlowUrl": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
-          "alternateOfficialUrl": "https://www.cityu.edu.hk/zh-hk/pg/research-degree-programmes/steps-and-procedures",
-          "fullTextObservation": "2026 entry; 1 December 2025 at 12:00 noon Hong Kong time",
-          "indexedObservation": "2027/28 entry; 1 December 2026 at 11:59 p.m. Hong Kong time; not accepted as full-page verification",
-          "liveVerification": "blocked by CAPTCHA; not solved",
-          "checkedDate": "2026-10-02"
-        }
+        "previous": {
+          "admissionYear": "现行通用要求；普通 2027 主轮截止待确认，HKPFS 2027/28 单独核对",
+          "note": "先准备学历、成绩、评分标准及英语证明，并按系统提交学术推荐。当前只核得学校级清单，机械工程附加文书仍待核。 适用范围：现行通用要求；普通 2027 主轮截止待确认，HKPFS 2027/28 单独核对；这是有界摘要，提交前仍须核对当期系统。",
+          "requirements": [
+            {
+              "kind": "academic",
+              "text": "MPhil：相关本科一等或二等荣誉/同等资格；PhD：一等荣誉本科/同等资格是可选入口，不统一要求已有硕士。",
+              "requirementStatus": "required",
+              "sourceIds": [
+                "city_elig"
+              ]
+            },
+            {
+              "kind": "language",
+              "text": "通常IELTS6.5，或TOEFL79（2026-01-21前）/4.5（此日起）；英语授课学历规则适用。工程学院CET-6替代写“可接受”，需院系另核，不能当成全校自动通道。",
+              "requirementStatus": "conditional",
+              "sourceIds": [
+                "city_elig"
+              ]
+            },
+            {
+              "kind": "transcript",
+              "text": "官方学历成绩、评分说明及适用验证报告；在读者还需在读与预计完成时间证明。非英文文件按要求附正式英译。",
+              "requirementStatus": "required",
+              "sourceIds": [
+                "city_docs"
+              ]
+            },
+            {
+              "kind": "references",
+              "text": "学校流程要求学术推荐报告；本轮尚未核到ME专属数量，不能从DS或其他学院推定。",
+              "requirementStatus": "required_count_unknown",
+              "sourceIds": [
+                "city_dates"
+              ]
+            },
+            {
+              "kind": "cvPersonalStatementResearchProposal",
+              "text": "学校仅列部分学院必交研究计划；不能外推ME统一必交或免交。CV、PS、研究计划具体要求待ME/系统核实。",
+              "requirementStatus": "unknown",
+              "sourceIds": [
+                "city_docs"
+              ]
+            },
+            {
+              "kind": "deadline",
+              "text": "普通 2027 主轮截止及具体时刻待复核：官网全文与索引的入学年份、截止日期不一致。HKPFS 2027/28 已单独核对：RGC 初步登记 2026-12-01 12:00，CityUHK 完整申请同日 23:59（香港时间）；不能仅由奖学金时间表推定普通 MPhil／非 HKPFS PhD 日期。",
+              "requirementStatus": "unknown",
+              "sourceIds": [
+                "city_review_steps",
+                "city_review_hkpfs",
+                "city_review_rgc"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "city_elig",
+            "city_docs",
+            "city_dates",
+            "city_review_steps",
+            "city_review_hkpfs",
+            "city_review_rgc"
+          ]
+        },
+        "addedFields": [],
+        "history": [
+          {
+            "checkedDate": "2026-10-02",
+            "reason": "2026-10-02 批次复核存在来源版本冲突：普通流程全文仍显示 2026 入学及 2025-12-01；同一官网的搜索索引显示 2027/28、2026-12-01 23:59。实时页面未能完成核对，因此相应项目普通 MPhil／非 HKPFS PhD 的 2027 主轮日期暂保留待确认。HKPFS 2027/28 的 RGC 12:00 与 CityUHK 23:59 截止已另从奖学金官方时间表核对，不据此推定普通轮。",
+            "previous": {
+              "admissionYear": "2027/28学校轮次＋现行通用要求",
+              "note": "先准备学历、成绩、评分标准及英语证明，并按系统提交学术推荐。当前只核得学校级清单，机械工程附加文书仍待核。 适用范围：2027/28学校轮次＋现行通用要求；这是有界摘要，提交前仍须核对当期系统。",
+              "deadline": {
+                "kind": "deadline",
+                "text": "2027/28主轮2026-12-01 23:59 HKT；全年收申请，主轮之后仅按余位考虑。",
+                "requirementStatus": "published",
+                "sourceIds": [
+                  "city_dates"
+                ]
+              },
+              "checkedDate": "2026-10-01"
+            },
+            "sources": [
+              {
+                "label": "CityUHK 普通研究学位申请流程",
+                "url": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "label": "CityUHK HKPFS 2027/28 时间表",
+                "url": "https://www.cityu.edu.hk/pg/hong-kong-phd-fellowship-scheme/about-the-scheme",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "label": "RGC HKPFS 初步登记",
+                "url": "https://cerg1.ugc.edu.hk/hkpfs/apply.html",
+                "checkedDate": "2026-10-02"
+              }
+            ],
+            "sourceConflict": {
+              "ordinaryFlowUrl": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
+              "alternateOfficialUrl": "https://www.cityu.edu.hk/zh-hk/pg/research-degree-programmes/steps-and-procedures",
+              "fullTextObservation": "2026 entry; 1 December 2025 at 12:00 noon Hong Kong time",
+              "indexedObservation": "2027/28 entry; 1 December 2026 at 11:59 p.m. Hong Kong time; not accepted as full-page verification",
+              "liveVerification": "blocked by CAPTCHA; not solved",
+              "checkedDate": "2026-10-02"
+            }
+          }
+        ]
       }
     },
     {
@@ -885,8 +978,8 @@
       "status": "verified",
       "checkedDate": "2026-10-01",
       "summary": "博士接受一等荣誉本科入口；两份学术推荐必需。CV、PS、研究计划在该系页面明确标为HKPFS必交，不能套到普通轮。",
-      "note": "博士接受一等荣誉本科入口；两份学术推荐必需。CV、PS、研究计划在该系页面明确标为HKPFS必交，不能套到普通轮。 适用范围：现行通用要求；普通 2027 主轮截止待确认，HKPFS 2027/28 单独核对；这是有界摘要，提交前仍须核对当期系统。",
-      "admissionYear": "现行通用要求；普通 2027 主轮截止待确认，HKPFS 2027/28 单独核对",
+      "note": "博士接受一等荣誉本科入口；两份学术推荐必需。CV、PS、研究计划在该系页面明确标为HKPFS必交，不能套到普通轮。 适用范围：现行材料清单沿用原核读；2027/28 校级普通主轮截止 2026-12-01 23:59 HKT（仅日期于 2026-10-03 复核），HKPFS 独立核对；这是有界摘要，提交前仍须核对当期系统。",
+      "admissionYear": "现行材料清单沿用原核读；2027/28 校级普通主轮截止 2026-12-01 23:59 HKT（仅日期于 2026-10-03 复核），HKPFS 独立核对",
       "unknowns": [
         "DS普通轮是否额外要求CV/PS/研究计划、项目页时间图内容。"
       ],
@@ -934,12 +1027,13 @@
         },
         {
           "kind": "deadline",
-          "text": "普通 2027 主轮截止及具体时刻待复核：官网全文与索引的入学年份、截止日期不一致。HKPFS 2027/28 已单独核对：RGC 初步登记 2026-12-01 12:00，CityUHK 完整申请同日 23:59（香港时间）；不能仅由奖学金时间表推定普通 MPhil／非 HKPFS PhD 日期。",
-          "requirementStatus": "unknown",
+          "text": "普通 MPhil／非 HKPFS PhD 的 2027/28 校级主轮截止已于 2026-10-03 实时核读为 2026-12-01 23:59（香港时间 UTC+8）；主轮之后按余位考虑。HKPFS 2027/28 仍是独立流程：既有核对记录为 RGC 初步登记 2026-12-01 12:00、CityUHK 完整申请同日 23:59，本次不将奖学金时间表冒充普通轮证据。具体院系材料、实际提交状态与导师名额另核。",
+          "requirementStatus": "published_school_only",
           "sourceIds": [
             "city_review_steps",
             "city_review_hkpfs",
-            "city_review_rgc"
+            "city_review_rgc",
+            "city_review_steps_20261003"
           ]
         }
       ],
@@ -948,49 +1042,132 @@
         "city_dates",
         "city_review_steps",
         "city_review_hkpfs",
-        "city_review_rgc"
+        "city_review_rgc",
+        "city_review_steps_20261003"
       ],
       "cycleReview": {
-        "checkedDate": "2026-10-02",
-        "reason": "2026-10-02 批次复核存在来源版本冲突：普通流程全文仍显示 2026 入学及 2025-12-01；同一官网的搜索索引显示 2027/28、2026-12-01 23:59。实时页面未能完成核对，因此相应项目普通 MPhil／非 HKPFS PhD 的 2027 主轮日期暂保留待确认。HKPFS 2027/28 的 RGC 12:00 与 CityUHK 23:59 截止已另从奖学金官方时间表核对，不据此推定普通轮。",
-        "previous": {
-          "admissionYear": "现行DS项目页，HKPFS栏明确2027/28",
-          "note": "博士接受一等荣誉本科入口；两份学术推荐必需。CV、PS、研究计划在该系页面明确标为HKPFS必交，不能套到普通轮。 适用范围：现行DS项目页，HKPFS栏明确2027/28；这是有界摘要，提交前仍须核对当期系统。",
-          "deadline": {
-            "kind": "deadline",
-            "text": "学校2027/28主轮截止2026-12-01 23:59 HKT；项目具体时间仍待确认，不能用既往信息替代。",
-            "requirementStatus": "published_school_only",
-            "sourceIds": [
-              "city_dates"
-            ]
-          },
-          "checkedDate": "2026-10-01"
-        },
+        "checkedDate": "2026-10-03",
+        "reviewId": "cityu-ordinary-cycle-20261003",
+        "reason": "2026-10-03 已直接核读主域普通研究学位流程及机械工程院系链接：2027/28 校级主轮截止为 2026-12-01 23:59（香港时间 UTC+8）。这次核对解决的是普通轮日期，未借用 HKPFS 时间表；2026-10-02 的全文/索引冲突保留为历史记录。学校全年受理，主轮后视余位；院系、导师同意、经费及个人全部条件仍须另核。未登录检查实际提交系统。",
+        "readScope": "普通研究学位主轮日期与机械工程官方申请链接；不重新核验整条材料、个人资格、导师名额或英语有效期争议",
+        "observedAtUtc": "2026-10-03T06:24:13Z",
+        "corroboratedAtUtc": "2026-10-03T06:25:30Z",
         "sources": [
           {
-            "label": "CityUHK 普通研究学位申请流程",
+            "label": "CityUHK 2027/28 普通研究学位主轮日期（2026-10-03 实时核读）",
             "url": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
-            "checkedDate": "2026-10-02"
-          },
-          {
-            "label": "CityUHK HKPFS 2027/28 时间表",
-            "url": "https://www.cityu.edu.hk/pg/hong-kong-phd-fellowship-scheme/about-the-scheme",
-            "checkedDate": "2026-10-02"
-          },
-          {
-            "label": "RGC HKPFS 初步登记",
-            "url": "https://cerg1.ugc.edu.hk/hkpfs/apply.html",
-            "checkedDate": "2026-10-02"
+            "checkedDate": "2026-10-03",
+            "evidenceScope": "主域普通申请流程 Important Date 实时正文；与 MNE 指向该流程的院系说明交叉核对"
           }
         ],
-        "sourceConflict": {
-          "ordinaryFlowUrl": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
-          "alternateOfficialUrl": "https://www.cityu.edu.hk/zh-hk/pg/research-degree-programmes/steps-and-procedures",
-          "fullTextObservation": "2026 entry; 1 December 2025 at 12:00 noon Hong Kong time",
-          "indexedObservation": "2027/28 entry; 1 December 2026 at 11:59 p.m. Hong Kong time; not accepted as full-page verification",
-          "liveVerification": "blocked by CAPTCHA; not solved",
-          "checkedDate": "2026-10-02"
-        }
+        "previous": {
+          "admissionYear": "现行通用要求；普通 2027 主轮截止待确认，HKPFS 2027/28 单独核对",
+          "note": "博士接受一等荣誉本科入口；两份学术推荐必需。CV、PS、研究计划在该系页面明确标为HKPFS必交，不能套到普通轮。 适用范围：现行通用要求；普通 2027 主轮截止待确认，HKPFS 2027/28 单独核对；这是有界摘要，提交前仍须核对当期系统。",
+          "requirements": [
+            {
+              "kind": "academic",
+              "text": "一等荣誉本科/同等资格可申请PhD；该系明确不考虑MPhil申请。",
+              "requirementStatus": "required",
+              "sourceIds": [
+                "city_ds"
+              ]
+            },
+            {
+              "kind": "language",
+              "text": "IELTS6.5或TOEFL79/4.5（以2026-01-21分界），申请时须在2年有效期内。CET-6≥490仅普通轮可个案考虑，HKPFS不接受。",
+              "requirementStatus": "conditional",
+              "sourceIds": [
+                "city_ds"
+              ]
+            },
+            {
+              "kind": "transcript",
+              "text": "正式学历学位、成绩单及评分标准，按资格类型提供验证报告；有论文可附首页/录用证明。",
+              "requirementStatus": "required",
+              "sourceIds": [
+                "city_ds"
+              ]
+            },
+            {
+              "kind": "references",
+              "text": "两份学术推荐报告必交。",
+              "requirementStatus": "required",
+              "sourceIds": [
+                "city_ds"
+              ]
+            },
+            {
+              "kind": "cvPersonalStatementResearchProposal",
+              "text": "CV、PS、研究计划：HKPFS必交。该表未将此条统一标为普通轮必交；普通轮仍应核对系统/导师附加要求。",
+              "requirementStatus": "required_for_hkpfs",
+              "sourceIds": [
+                "city_ds"
+              ]
+            },
+            {
+              "kind": "deadline",
+              "text": "普通 2027 主轮截止及具体时刻待复核：官网全文与索引的入学年份、截止日期不一致。HKPFS 2027/28 已单独核对：RGC 初步登记 2026-12-01 12:00，CityUHK 完整申请同日 23:59（香港时间）；不能仅由奖学金时间表推定普通 MPhil／非 HKPFS PhD 日期。",
+              "requirementStatus": "unknown",
+              "sourceIds": [
+                "city_review_steps",
+                "city_review_hkpfs",
+                "city_review_rgc"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "city_ds",
+            "city_dates",
+            "city_review_steps",
+            "city_review_hkpfs",
+            "city_review_rgc"
+          ]
+        },
+        "addedFields": [],
+        "history": [
+          {
+            "checkedDate": "2026-10-02",
+            "reason": "2026-10-02 批次复核存在来源版本冲突：普通流程全文仍显示 2026 入学及 2025-12-01；同一官网的搜索索引显示 2027/28、2026-12-01 23:59。实时页面未能完成核对，因此相应项目普通 MPhil／非 HKPFS PhD 的 2027 主轮日期暂保留待确认。HKPFS 2027/28 的 RGC 12:00 与 CityUHK 23:59 截止已另从奖学金官方时间表核对，不据此推定普通轮。",
+            "previous": {
+              "admissionYear": "现行DS项目页，HKPFS栏明确2027/28",
+              "note": "博士接受一等荣誉本科入口；两份学术推荐必需。CV、PS、研究计划在该系页面明确标为HKPFS必交，不能套到普通轮。 适用范围：现行DS项目页，HKPFS栏明确2027/28；这是有界摘要，提交前仍须核对当期系统。",
+              "deadline": {
+                "kind": "deadline",
+                "text": "学校2027/28主轮截止2026-12-01 23:59 HKT；项目具体时间仍待确认，不能用既往信息替代。",
+                "requirementStatus": "published_school_only",
+                "sourceIds": [
+                  "city_dates"
+                ]
+              },
+              "checkedDate": "2026-10-01"
+            },
+            "sources": [
+              {
+                "label": "CityUHK 普通研究学位申请流程",
+                "url": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "label": "CityUHK HKPFS 2027/28 时间表",
+                "url": "https://www.cityu.edu.hk/pg/hong-kong-phd-fellowship-scheme/about-the-scheme",
+                "checkedDate": "2026-10-02"
+              },
+              {
+                "label": "RGC HKPFS 初步登记",
+                "url": "https://cerg1.ugc.edu.hk/hkpfs/apply.html",
+                "checkedDate": "2026-10-02"
+              }
+            ],
+            "sourceConflict": {
+              "ordinaryFlowUrl": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
+              "alternateOfficialUrl": "https://www.cityu.edu.hk/zh-hk/pg/research-degree-programmes/steps-and-procedures",
+              "fullTextObservation": "2026 entry; 1 December 2025 at 12:00 noon Hong Kong time",
+              "indexedObservation": "2027/28 entry; 1 December 2026 at 11:59 p.m. Hong Kong time; not accepted as full-page verification",
+              "liveVerification": "blocked by CAPTCHA; not solved",
+              "checkedDate": "2026-10-02"
+            }
+          }
+        ]
       }
     },
     {
