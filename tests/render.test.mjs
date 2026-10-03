@@ -64,7 +64,7 @@ test('project cards, advisor project details and comparisons use reader-facing a
  for(const o of opportunities.filter(o=>o.routeId)){
   clickData('data-detail',o.id);assert(!el('#detail-content').innerHTML.includes('routeAssociations'),o.id);clickData('data-close','detail-dialog');
  }
- el('#compare-clear').listeners.click();
+ view('advisors');el('#compare-clear').listeners.click();
  for(const o of opportunities.filter(o=>o.routeId).slice(0,2))clickData('data-compare',o.id);
  el('#compare-open').listeners.click();assert(el('#compare-dialog').open);
  assert(!el('#compare-content').innerHTML.includes('routeAssociations'));assert(el('#compare-content').innerHTML.includes('导师详情'));
