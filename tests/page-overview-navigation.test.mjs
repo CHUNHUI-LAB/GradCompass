@@ -34,7 +34,7 @@ test('wrong-page or unknown overview presets cannot alter current page filters',
 test('all five list pages show one overview and sources/detail pages show none',()=>{
  for(const page of ['advisors','routes','deadlines','materials','experiences']){view(page);assert(!el('#page-overview').hidden);assert.equal((el('#page-overview').innerHTML.match(/data-page-overview=/g)||[]).length,1);assert(el('#page-overview').innerHTML.includes(`data-page-overview="${page}"`));}
  view('experiences/grad-robotics-eth-xiang-2022');assert(el('#page-overview').hidden);assert.equal(el('#page-overview').innerHTML,'');assert(el('#view-content').innerHTML.includes('data-reading-experience'));
- view('experiences');assert(!el('#page-overview').hidden);assert(el('#view-content').innerHTML.includes('experience-synthesis'));view('sources');assert(el('#page-overview').hidden);
+ view('experiences');assert(!el('#page-overview').hidden);assert(el('#page-overview').innerHTML.includes('experience-synthesis'));view('sources');assert(el('#page-overview').hidden);
 });
 test('experience synthesis action opens, focuses and scrolls to the retained full summary',()=>{
  view('experiences');assert(!el('#experience-synthesis').open);click('[data-overview-expand]',{overviewExpand:'experience-synthesis'});assert(el('#experience-synthesis').open);assert(el('#experience-synthesis').scrolled);assert(el('#experience-synthesis').summary.focused);assert.equal(location.hash,'#experiences');click('[data-overview-expand]',{overviewExpand:'experience-synthesis'});assert(el('#experience-synthesis').open);

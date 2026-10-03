@@ -72,7 +72,6 @@ test('reviewed catalog and material snapshots plus reviewed runtime and expanded
   "data/catalog-test-manifest.json": "d7824ea7a17eef0af78577dd57daae941befb9af02e68adf9ce7abe9d54fa9a7",
   "assets/core.js": "cad4681d907cdf380dad2b1ab4c9b42ee33829e11fafeb73b9ad0b072975a927",
   "assets/record-summaries.js": "7650b472298f9d0db4f59f53a1a437b4f295efeb3e21e33016b11f3e76a4b314",
-  "assets/experiences.js": "beb2c7ff88a88181c50cb8041466e121bebe0771b77ef747bfd100fba3f15bfa",
   "assets/profiles.js": "6b6ce55c9e97edb8060976e5f82a631ed47275d6304d72bba4c0caf649606e88",
   "assets/material-supplement.js": "44c8f5821e4c828503b6efefc6cd6a75f560c2de0067f855531337c025511d03",
   "assets/style.css": "87fc9377f9451bc784a8e6355266e9e740e16a53971c5b25c92c0e7b67d4e0df",

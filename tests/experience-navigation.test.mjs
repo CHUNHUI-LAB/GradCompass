@@ -63,3 +63,40 @@ assert.equal(document.activeElement,links['sample-bachelor'],'focus should corre
 assert.equal(window.scrollY,1000);window.history.go(4);flush();assert.equal(document.activeElement,links['sample-master']);assert.equal(window.scrollY,6000);
 window.history=null;delete window.requestAnimationFrame;document.querySelectorAll=oldAll;
 });
+
+test('experience search keeps the input and synthesis stable, resets predictably, and isolates other pages',()=>{
+ view('experiences');const input=el('#experience-search');input.id='experience-search';input.tagName='INPUT';const background=el('#experience-collection');background.id='experience-collection';
+ const overview=el('#page-overview').innerHTML;const shell=el('#view-content').innerHTML;
+ input.value='no-match-value';input.focus();events.input({target:input});assert.equal(document.activeElement,input);assert.equal(el('#view-content').innerHTML,shell);assert.equal(el('#page-overview').innerHTML,overview);assert(el('#experience-results').innerHTML.includes('没有匹配'));assert.equal(el('#experience-result-status').textContent,'找到 0 / 2 条申请经验');
+ input.value='';events.input({target:input});background.value='cross-background';events.change({target:background});assert(!el('#experience-results').innerHTML.includes('data-experience-id="sample-bachelor"'));assert(el('#experience-results').innerHTML.includes('sample-master'));
+ view('advisors');view('experiences');assert(el('#view-content').innerHTML.includes('value="cross-background" selected'));
+ events.click({target:{closest:s=>s==='[data-experience-reset]'?{}:null}});assert.equal(input.value,'');assert.equal(background.value,'');assert.equal(document.activeElement,input);assert.equal(el('#experience-result-status').textContent,'2 条申请经验');
+});
+test('slash shortcut respects input, editable content and modifier keys',()=>{
+ view('experiences');document.querySelector('dialog[open]').open=false;
+ const oldQuery=document.querySelector;document.querySelector=s=>s==='dialog[open]'?null:oldQuery(s);
+ const input=el('#experience-search');for(const active of [{tagName:'INPUT'},{tagName:'TEXTAREA'},{tagName:'SELECT'},{tagName:'DIV',isContentEditable:true}]){document.activeElement=active;events.keydown({key:'/',preventDefault(){throw Error('typing was intercepted')}});assert.equal(document.activeElement,active);}
+ for(const modifier of ['ctrlKey','metaKey','altKey']){document.activeElement={tagName:'BODY'};events.keydown({key:'/',[modifier]:true,preventDefault(){throw Error('modified shortcut was intercepted')}});assert.notEqual(document.activeElement,input);}
+ document.activeElement={tagName:'BODY'};let prevented=false;events.keydown({key:'/',preventDefault(){prevented=true}});assert(prevented);assert.equal(document.activeElement,input);document.querySelector=oldQuery;
+});
+test('different list history entries restore their own search and background filters',()=>{
+ const entries=[{hash:'#experiences',state:null}];let index=0;window.scrollY=0;
+ window.history={get state(){return entries[index].state},pushState(state,title,hash){entries.splice(index+1);entries.push({state,hash});index++;location.hash=hash},replaceState(state,title,hash){entries[index]={state,hash};location.hash=hash},go(n){index+=n;location.hash=entries[index].hash;navigation.popstate();navigation.hashchange()}};
+ view('advisors');view('experiences');const input=el('#experience-search');input.id='experience-search';const background=el('#experience-collection');background.id='experience-collection';
+ input.value='preparation';events.input({target:input});background.value='bachelor';events.change({target:background});
+ const click=hash=>events.click({target:{closest:s=>s==='a[href]'?{getAttribute:()=>hash,hasAttribute:()=>false}:null},button:0,preventDefault(){}});
+ click('#experiences/sample-bachelor');click('#experiences');assert(el('#view-content').innerHTML.includes('value="preparation"'));assert(!el('#view-content').innerHTML.includes('data-experience-id="sample-master"'));
+ background.value='cross-background';events.change({target:background});input.value='outcome';events.input({target:input});click('#experiences/sample-master');click('#experiences');assert(el('#view-content').innerHTML.includes('value="outcome"'));assert(!el('#view-content').innerHTML.includes('data-experience-id="sample-bachelor"'));
+ window.history.go(-4);assert(el('#view-content').innerHTML.includes('value="preparation"'));assert(el('#view-content').innerHTML.includes('value="bachelor" selected'));window.history.go(4);assert(el('#view-content').innerHTML.includes('value="outcome"'));assert(el('#view-content').innerHTML.includes('value="cross-background" selected'));
+ window.history=null;events.click({target:{closest:s=>s==='[data-experience-reset]'?{}:null}});
+});
+
+test('untouched earlier list entries cannot inherit a search entered on a later visit',()=>{
+ view('advisors');const entries=[{hash:'#experiences',state:null}];let index=0;window.scrollY=0;
+ window.history={get state(){return entries[index].state},pushState(state,title,hash){entries.splice(index+1);entries.push({state,hash});index++;location.hash=hash},replaceState(state,title,hash){entries[index]={state,hash};location.hash=hash},go(n){index+=n;location.hash=entries[index].hash;navigation.popstate();navigation.hashchange()}};
+ view('experiences');assert.deepEqual(entries[0].state.gradExperiencePosition.filters,{query:'',collection:''});
+ window.history.pushState(null,'','#advisors');navigation.hashchange();window.history.pushState(null,'','#experiences');navigation.hashchange();
+ const input=el('#experience-search');input.id='experience-search';input.value='no-match-value';events.input({target:input});assert.equal(el('#experience-result-status').textContent,'找到 0 / 2 条申请经验');
+ window.history.go(-2);assert.equal(el('#result-count').textContent,'2 条申请经验');assert(el('#view-content').innerHTML.includes('type="search" value=""'));assert(!el('#view-content').innerHTML.includes('value="no-match-value"'));
+ window.history=null;
+});

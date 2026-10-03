@@ -98,3 +98,68 @@ main:has([data-page-overview="advisors"]) .intro{margin-bottom:22px}
  [data-page-overview="advisors"] .overview-insight+.overview-insight{padding-top:10px}
  [data-page-overview="advisors"] .overview-insight p{font-size:14px;line-height:1.8}
 }
+/* Application experience: one readable synthesis, then a dedicated case workspace. */
+main:has(.experience-workspace){max-width:1180px;padding-top:28px}
+main:has(.experience-workspace) .intro{margin-bottom:20px;gap:16px}
+main:has(.experience-workspace) .intro h1{font-size:32px;line-height:1.35;letter-spacing:-.025em}
+main:has(.experience-workspace) .intro .eyebrow{display:none}
+main:has(.experience-workspace) .intro #page-description{font-size:15px;line-height:1.7}
+.experience-entry{display:flex;align-items:center;gap:16px;margin-bottom:18px}
+.experience-entry button{min-height:44px;padding:10px 16px;background:var(--accent);color:#fff;border:1px solid var(--accent);border-radius:8px;font-family:inherit;font-size:15px;font-weight:600;line-height:1.5;cursor:pointer}
+.experience-entry span{font-size:14px;color:var(--quiet)}
+[data-page-overview="experiences"]{background:transparent;border:0;border-radius:0;padding:0 0 20px;margin:0}
+[data-page-overview="experiences"] .overview-heading{align-items:baseline;gap:12px;margin-bottom:16px}
+[data-page-overview="experiences"] .overview-kicker{font-size:12px;letter-spacing:.04em}
+[data-page-overview="experiences"] .overview-heading h3{font-size:21px}
+[data-page-overview="experiences"] .overview-scope{font-size:13px;max-width:none}
+[data-page-overview="experiences"] .overview-insights{gap:24px}
+[data-page-overview="experiences"] .overview-insight+.overview-insight{padding-left:24px}
+[data-page-overview="experiences"] .overview-insight h4{font-size:16px;margin-bottom:8px}
+[data-page-overview="experiences"] .overview-insight p{font-size:15px;line-height:1.8;margin-bottom:8px}
+[data-page-overview="experiences"] .overview-note{font-size:13px;line-height:1.7;margin-top:16px;padding-top:14px}
+main:has(.experience-workspace) #experience-synthesis{margin:0 0 28px;border:1px solid var(--line);border-radius:8px;background:var(--soft);padding:14px 18px;max-width:none}
+main:has(.experience-workspace) #experience-synthesis>summary{min-height:44px;font-size:15px}
+main:has(.experience-workspace) #experience-synthesis>summary small{font-size:13px}
+.experience-synthesis-body{max-width:86ch;line-height:1.85}
+.experience-synthesis-body p,.experience-synthesis-body li{font-size:16px}
+.experience-synthesis-body .experience-related{font-size:14px}
+.experience-workspace{display:block}
+.experience-workspace .results-heading{padding-top:22px;border-top:1px solid var(--line);margin-bottom:16px}
+.experience-tools{padding:20px;background:var(--soft);border:1px solid var(--line);border-radius:8px;margin-bottom:8px}
+.experience-tools-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:14px}
+.experience-tools-heading h3{font-size:20px;margin:0}
+.experience-controls{display:grid;grid-template-columns:minmax(0,1fr) minmax(180px,220px) auto;gap:14px;align-items:end}
+.experience-controls label{display:flex;flex-direction:column;gap:8px;font-size:14px;font-weight:600;min-width:0}
+.experience-controls input,.experience-controls select{box-sizing:border-box;width:100%;min-width:0;min-height:46px;padding:10px 12px;border:1px solid #bcc9c2;border-radius:6px;background:#fff;color:var(--ink);font-family:inherit;font-size:16px;font-weight:400;line-height:1.5}
+.experience-controls button,.experience-tools~#experience-results .empty button{min-height:46px;padding:10px 16px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--accent);font-family:inherit;font-size:14px;font-weight:600;line-height:1.5;cursor:pointer}
+.experience-controls button:disabled{color:var(--quiet);cursor:default;background:transparent}
+.experience-filter-scope{margin:12px 0 0;font-size:13px;line-height:1.7}
+#experience-result-status{margin:10px 0 0;font-size:14px;font-weight:600;color:var(--accent)}
+.experience-workspace .experience-grid{max-width:none;gap:0}
+.experience-workspace .experience-card{padding:24px 0;border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent;max-width:88ch}
+.experience-workspace .experience-card h3{font-size:21px;line-height:1.5;margin:6px 0 10px}
+.experience-workspace .experience-takeaway{font-size:16px;line-height:1.85;margin:0 0 10px}
+.experience-workspace .experience-background,.experience-workspace .experience-source-context{font-size:14px;font-weight:400;line-height:1.7;margin:6px 0}
+.experience-workspace .experience-read-link{display:inline-flex;align-items:center;min-height:44px;margin-top:6px;padding:0;color:var(--accent);background:transparent;border:0;border-radius:2px;font-size:15px;text-underline-offset:4px}
+.experience-workspace .experience-reading{max-width:80ch;margin:0 auto}
+.experience-workspace .experience-back{margin-bottom:8px}
+.experience-workspace :is(button,a,input,select,summary):focus-visible,.experience-entry button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.experience-workspace :is(a,button){transition:color 140ms ease-out,background-color 140ms ease-out,border-color 140ms ease-out}
+@media(max-width:720px){
+ main:has(.experience-workspace){padding-top:22px}
+ main:has(.experience-workspace) .intro h1{font-size:27px}
+ main:has(.experience-workspace) .intro .edition{display:none}
+ .experience-entry{gap:10px;flex-wrap:wrap}
+ [data-page-overview="experiences"] .overview-insights{gap:16px}
+ [data-page-overview="experiences"] .overview-insight+.overview-insight{padding-left:0;padding-top:16px}
+ [data-page-overview="experiences"] .overview-heading h3{font-size:20px}
+ [data-page-overview="experiences"] .overview-heading{display:block}
+ .experience-controls{grid-template-columns:minmax(0,1fr) auto;gap:12px}
+ .experience-controls .experience-search{grid-column:1/-1}
+ .experience-tools{padding:16px}
+ .experience-tools-heading{display:block}
+ .experience-tools-heading .small-note{display:block;margin-top:6px}
+ .experience-workspace .experience-card{padding:22px 0}
+ .experience-workspace .experience-card h3{font-size:20px}
+}
+@media(prefers-reduced-motion:reduce){.experience-workspace :is(a,button){transition:none}}

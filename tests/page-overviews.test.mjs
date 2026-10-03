@@ -6,7 +6,9 @@ import crypto from 'node:crypto';
 import {buildPageOverview,renderPageOverview,overviewPresets} from '../assets/page-overviews.js';
 import {normalizeMaterialSupplement} from '../assets/material-supplement.js';
 import {normalizeProjectSummaries} from '../assets/record-summaries.js';
-import {normalizeExperiences,renderExperiences} from '../assets/experiences.js';
+import {normalizeExperiences,renderExperiences as renderExperienceList,renderExperienceEvidence} from '../assets/experiences.js';
+function renderExperiences(records){const result=renderExperienceList(records);return {...result,html:renderExperienceEvidence(records)+result.html};}
+
 import {filterDeadlines,filterRoutes,filterOpportunities} from '../assets/core.js';
 const read=name=>JSON.parse(fs.readFileSync(new URL('../data/'+name,import.meta.url)));
 const catalog=read('catalog.json');catalog.raPositions=read('ra-positions.json').raPositions;
@@ -71,7 +73,7 @@ test('compact advisor entry retains three substantive conclusions without disclo
 });
 test('entry hierarchy styles are confined to the advisor page and do not add motion',()=>{
  const css=fs.readFileSync(new URL('../assets/style.css',import.meta.url),'utf8');
- const refinement=css.slice(css.indexOf('/* Advisor entry:'));
+ const refinement=css.slice(css.indexOf('/* Advisor entry:'),css.indexOf('/* Application experience:'));
  assert(refinement.includes('[data-page-overview="advisors"]'));
  assert(!refinement.includes('animation:')&&!refinement.includes('transition:'));
  assert(!refinement.includes('display:none')&&!refinement.includes('font-size:11px'));

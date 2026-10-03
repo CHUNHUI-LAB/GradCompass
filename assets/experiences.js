@@ -19,7 +19,7 @@ const briefs={
  'grad-sustech-yunzx-2023':{takeaway:'跨专业申请先分清培养目标、先修要求与材料安排；已有科研经历并不自动等于能获得具体、有力的推荐。',use:'适合考虑跨专业申请硕士的人。重点检查课程、研究训练和职业目标是否匹配，并提前与推荐人沟通。'}
 };
 function brief(record){return briefs[record.id]||{takeaway:record.summary,use:applicabilityText(record)};}
-function card(r){return `<article class="experience-card" data-experience-id="${e(r.id)}"><p class="small-note">${e(r.applicableCycle)}</p><h3>${e(r.title)}</h3><p class="experience-takeaway">${e(brief(r).takeaway)}</p><p class="experience-background">作者背景：${e(r.background)}</p><p class="small-note">${e(r.platform)} · ${e(r.author)}</p><a class="experience-read-link" href="${e(experienceHref(r.id))}">阅读经验<span class="sr-only">：${e(r.title)}</span></a></article>`;}
+function card(r){return `<article class="experience-card" data-experience-id="${e(r.id)}"><p class="small-note">${e(r.applicableCycle)}</p><h3>${e(r.title)}</h3><p class="experience-takeaway">${e(brief(r).takeaway)}</p><p class="experience-background">作者背景：${e(r.background)}</p><p class="small-note experience-source-context">公开自述 · ${e(r.platform)} · ${e(r.author)}</p><a class="experience-read-link" href="${e(experienceHref(r.id))}">阅读经验<span class="sr-only">：${e(r.title)}</span></a></article>`;}
 function references(ids,records){const names={'grad-robotics-eth-xiang-2022':'机器人项目申请','grad-sustech-yunzx-2023':'跨专业硕士申请','grad-europe-tinsir-2025':'硕士申请欧陆博士','grad-bjut-mty-2026':'英港新硕士申请','grad-ptt-tum-rci-2022':'德国机器人硕士','grad-dcard-ece-ra-phd-2025':'工作后 RA 再申博','grad-dcard-bme-ece-2026':'医工/ECE 面试','grad-reddit-cs-interviews-2025':'CS 博士面试','grad-ngaizean-hkustgz-2026':'红鸟与博士不同结果','grad-szu-mingkangchen-2025':'科研接触与港大群面','grad-xhs-xiga-ra-mphil-2025':'RA 与 MPhil 待完成记录'};const linked=ids.map(id=>records.find(r=>r.id===id)).filter(Boolean);return linked.length?`<p class="experience-related">相关经验：${linked.map(r=>`<a href="${e(experienceHref(r.id))}">${e(names[r.id]||r.title)}</a>`).join('、')}</p>`:'';}
 const synthesis={
  "scopeRecordIds": [
@@ -141,11 +141,12 @@ const synthesis={
   }
  ]
 };
-function overview(records){
+export function renderExperienceEvidence(records){
+ if(!records?.length)return '';
  const covered=records.filter(r=>synthesis.scopeRecordIds.includes(r.id));
  const pending=records.filter(r=>!synthesis.scopeRecordIds.includes(r.id)).length;
  if(covered.length!==synthesis.scopeRecordIds.length)return '<section class="experience-overview"><h3>综合总结暂不完整</h3><p>部分已综合的案例暂未载入。可先逐篇阅读，避免把不完整资料当作全部结论。</p></section>';
- return `<details id="experience-synthesis" class="experience-overview experience-synthesis"><summary><span id="experience-overview-title">这 ${covered.length} 篇经验的综合总结</span><small>展开阅读准备步骤、差异与对应案例</small></summary><div class="experience-synthesis-body">${pending?`<p class="small-note">另有 ${pending} 篇新收录经验尚未纳入本节归纳，可在下方单独阅读。</p>`:''}<p>${e(synthesis.intro)}按案例内容，可以这样安排准备顺序：</p><ol>${synthesis.steps.map(p=>`<li><strong>${e(p.title)}</strong><p>${e(p.text)}</p>${references(p.sourceIds,records)}</li>`).join('')}</ol><h4>背景不同，参考重点也不同</h4>${synthesis.differences.map(p=>`<p><strong>${e(p.title)}</strong>：${e(p.text)}</p>${references(p.sourceIds,records)}`).join('')}<p>不同背景的结果不宜直接比较，也不能据此推导录取概率。</p></div></details>`;
+ return `<details id="experience-synthesis" class="experience-overview experience-synthesis"><summary><span id="experience-overview-title">这 ${covered.length} 篇经验的逐项依据</span><small>展开完整归纳、背景差异与对应案例</small></summary><div class="experience-synthesis-body">${pending?`<p class="small-note">另有 ${pending} 篇新收录经验尚未纳入本节归纳，可在下方单独阅读。</p>`:''}<p>${e(synthesis.intro)}按案例内容，可以这样安排准备顺序：</p><ol>${synthesis.steps.map(p=>`<li><strong>${e(p.title)}</strong><p>${e(p.text)}</p>${references(p.sourceIds,records)}</li>`).join('')}</ol><h4>背景不同，参考重点也不同</h4>${synthesis.differences.map(p=>`<p><strong>${e(p.title)}</strong>：${e(p.text)}</p>${references(p.sourceIds,records)}`).join('')}<p>不同背景的结果不宜直接比较，也不能据此推导录取概率。</p></div></details>`;
 }
 export function renderExperienceReading(records,id){
  const back='<a class="experience-back" href="#experiences">← 返回经验列表</a>';
@@ -156,8 +157,20 @@ export function renderExperienceReading(records,id){
  const html=`${back}<article class="experience-reading" data-reading-experience="${e(r.id)}"><section class="experience-reading-lead"><h3>这篇经验的总结</h3><p>${e(b.takeaway)}</p></section><section><h3>背景与申请目标</h3><p>${e(r.authorContext)}</p><p class="small-note">${e(r.applicableCycle)}</p></section><section><h3>文中记录与结果</h3>${r.summary===b.takeaway?'':`<p>${e(r.summary)}</p>`}<p>${e(r.outcome)}</p></section><section><h3>可借鉴的做法</h3>${list(r.actionableMethods)}</section><section><h3>适合怎么用</h3><p>${e(b.use)}</p>${b.use===applicabilityText(r)?'':`<p>${e(applicabilityText(r))}</p>`}</section><section><h3>不能照搬的部分</h3>${list(r.excludedClaims)}</section><details><summary>来源日期、核读范围与商业披露</summary><dl class="experience-evidence"><dt>来源日期</dt><dd>${e(r.dateNote)}</dd><dt>核读范围</dt><dd>${e(r.readScope)}</dd><dt>商业披露</dt><dd>${e(r.commercialDisclosure)}</dd><dt>来源复查</dt><dd>${e(r.checkedAt)} · 可提取网页正文；不代表录取真实性或完整图片核验</dd></dl></details><section class="experience-reading-actions"><p class="small-note">以上归纳来自已核读正文，具体叙述和上下文请看原帖。</p><a class="experience-read-link" href="${e(safeUrl(r.url))}" target="_blank" rel="noopener noreferrer">查看原帖</a><a href="#experiences">返回经验列表</a></section></article>`;
  return {title:r.title,countLabel:`${r.platform} · ${r.author}`,html};
 }
-export function renderExperiences(records){
- const selected=records||[];
- const intro='<p class="experience-intro">这些历史申请自述用于参考准备方法；每篇都注明背景、结果与适用限制。</p>';
- return {countLabel:records===null?'经验资料暂未载入':`${selected.length} 条申请经验`,html:intro+(records===null?'<div class="empty"><h3>经验资料暂时无法读取</h3><p>可刷新后重试；找导师与找项目仍可正常浏览。</p></div>':selected.length?overview(selected)+`<h3 class="experience-list-title">选择一篇阅读</h3><div class="experience-grid">${selected.map(card).join('')}</div>`:'<div class="empty"><h3>暂无符合来源要求的申请经验</h3><p>不使用搜索摘要、失效签名链接或未核读内容补齐数量。</p></div>')};
+export function filterExperiences(records,filters={}){
+ const query=(filters.query||'').trim().toLocaleLowerCase();
+ return (records||[]).filter(r=>(!filters.collection||r.collection===filters.collection)&&(!query||[r.title,r.platform,r.author,r.applicableCycle,r.background,r.authorContext,r.summary,brief(r).takeaway,r.outcome,...r.actionableMethods].join(' ').toLocaleLowerCase().includes(query)));
+}
+export function renderExperienceResults(records,filters={}){
+ const selected=filterExperiences(records,filters);
+ const active=!!((filters.query||'').trim()||filters.collection);
+ const countLabel=records===null?'经验资料暂未载入':active?`找到 ${selected.length} / ${records.length} 条申请经验`:`${selected.length} 条申请经验`;
+ const html=records===null?'<div class="empty"><h3>经验资料暂时无法读取</h3><p>可刷新后重试；找导师与找项目仍可正常浏览。</p></div>':selected.length?`<div class="experience-grid">${selected.map(card).join('')}</div>`:active?`<div class="empty"><h3>没有匹配的申请经验</h3><p>${filters.query?`没有找到包含「${e(filters.query)}」且符合当前背景范围的案例。`: '这个背景范围暂没有可显示的案例。'}可试试学校、申请环节或关键词。</p><button type="button" data-experience-reset>清除搜索与背景筛选</button></div>`:'<div class="empty"><h3>暂无符合来源要求的申请经验</h3><p>不使用搜索摘要、失效签名链接或未核读内容补齐数量。</p></div>';
+ return {html,countLabel};
+}
+export function renderExperiences(records,filters={}){
+ const result=renderExperienceResults(records,filters);
+ const active=!!((filters.query||'').trim()||filters.collection);
+ const toolbar=records?.length?`<section class="experience-tools" aria-labelledby="experience-tools-title"><div class="experience-tools-heading"><h3 id="experience-tools-title">查找经验</h3><span class="small-note">先读摘要，再决定是否看完整经验</span></div><div class="experience-controls"><label class="experience-search">搜索经验<input id="experience-search" type="search" value="${e(filters.query||'')}" placeholder="学校、面试、RA、作者或关键词" autocomplete="off"></label><label>作者背景<select id="experience-collection"><option value="">全部背景</option><option value="bachelor"${filters.collection==='bachelor'?' selected':''}>本科背景</option><option value="cross-background"${filters.collection==='cross-background'?' selected':''}>硕士或学历未注明</option></select></label><button type="button" data-experience-reset${active?'':' disabled'}>重置</button></div><p class="small-note experience-filter-scope">筛选仅影响下方案例；页首综合总结的归纳范围不随筛选变化，未纳入的案例会单独注明。背景标签不是申请资格判断。</p><p id="experience-result-status" role="status" aria-live="polite">${e(result.countLabel)}</p></section>`:'';
+ return {...result,html:toolbar+`<div id="experience-results">${result.html}</div>`};
 }

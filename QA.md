@@ -164,3 +164,11 @@ The new eleven-case candidate has expanded browser regression coverage, includin
 ### Reproducibility
 
 The version can be checked with `npm test` and its content hashes regenerated with `python scripts/freeze.py`. Browser test results and deployment status are separate from the Node results above.
+
+## 2026-10-03 申请经验整页候选（尚未发布）
+
+基于 main `ca1095c41420717c518bc139b318f183b7a688d7`，原始快照257项检查通过。整页候选267项 Node/DOM-contract 检查全部通过，未跳过；新增覆盖搜索正文/作者/方法、大小写/空白、背景与搜索交集、无结果恢复、输入焦点与综合内容保持稳定、独立页面筛选、快捷键防误触、多历史条目独立条件恢复。
+
+19篇经验及全部 data 文件与基线逐字节一致。原完整综合归纳和对应案例未删减，挂载位置移入页首摘要之后；旧测试的组合渲染断言按新容器更新。移除历史运行时快照测试中已被本次有意修改的 experience renderer 哈希锁，新增源数据字节锁与交互行为测试；其他数据和模块快照锁保留。
+
+`python scripts/freeze.py` 更新依赖版本和严格发布白名单。没有新增运行时依赖、追踪脚本、账户、外部字体或存储服务。没有启动本地 Chromium 或尝试绕过此前权限限制；本次浏览器自动化、桌面/窄屏视觉与实际触控仍未运行，需在获准发布的准确提交上继续核验。独立代码审查已完成：逐字节核对全部9份数据、19份完整阅读页输出及综合归纳正文；发现未筛选历史条目可能继承后续搜索的问题，已修复并加入回归。审查者独立复跑266项通过，新增该回归后最终267项全部通过。另将3处旧的「卡片之前」断言改为直接检查综合依据，避免列表链接造成误通过。浏览器和辅助技术的实际表现仍需另验。
