@@ -58,3 +58,18 @@ test('RA plus unmatched query reports current filters, never that the verified c
  assert(empty.includes('当前筛选下没有匹配的 RA 岗位'));assert(empty.includes('目录中仍有已核实岗位'));assert(empty.includes('个人任职资格、工作许可和剩余名额仍需向雇主核对'));assert(!empty.includes('暂无已核实本科可任职的 RA 岗位'));
  clickData('data-reset','');assert.equal(el('#result-count').textContent,'48 条机会 · 32 位导师');assert.equal(document.activeElement,el('#search'));
 });
+
+test('project cards, advisor project details and comparisons use reader-facing association wording',()=>{
+ view('routes');assert(!el('#view-content').innerHTML.includes('routeAssociations'));assert(el('#view-content').innerHTML.includes('导师详情'));
+ for(const o of opportunities.filter(o=>o.routeId)){
+  clickData('data-detail',o.id);assert(!el('#detail-content').innerHTML.includes('routeAssociations'),o.id);clickData('data-close','detail-dialog');
+ }
+ el('#compare-clear').listeners.click();
+ for(const o of opportunities.filter(o=>o.routeId).slice(0,2))clickData('data-compare',o.id);
+ el('#compare-open').listeners.click();assert(el('#compare-dialog').open);
+ assert(!el('#compare-content').innerHTML.includes('routeAssociations'));assert(el('#compare-content').innerHTML.includes('导师详情'));
+ el('#compare-clear').listeners.click();clickData('data-close','compare-dialog');
+ const app=fs.readFileSync(new URL('../assets/app.js',import.meta.url),'utf8');
+ assert.equal((app.match(/e\(supervisorAssociationText\(r\.supervisorAssociation\)\)/g)||[]).length,3);
+ assert(!app.includes('e(r.supervisorAssociation)'));
+});

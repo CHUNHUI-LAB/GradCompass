@@ -37,8 +37,8 @@
     },
     {
       "path": "QA.md",
-      "bytes": 24481,
-      "sha256": "e5c599db424684635b84340cf228fc24b845816c013f054f12550a74c58e1943"
+      "bytes": 25028,
+      "sha256": "2bb5b09612cc7bce25741affb7c5ec43133899e8fc275283a4f4b7c0e40c9ae7"
     },
     {
       "path": "README.md",
@@ -47,8 +47,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 53042,
-      "sha256": "f2068d29f376c731c041343bc14cada205d17bfb87df8ed297b5c7ae77b7806d"
+      "bytes": 53149,
+      "sha256": "37c0ba6bd52a5ddabd0571d2a3d132c97bcdc1568f8bf98e65a65c43b8abb96a"
     },
     {
       "path": "assets/campus-art.webp",
@@ -87,8 +87,8 @@
     },
     {
       "path": "assets/record-summaries.js",
-      "bytes": 11847,
-      "sha256": "7650b472298f9d0db4f59f53a1a437b4f295efeb3e21e33016b11f3e76a4b314"
+      "bytes": 12721,
+      "sha256": "5597dac07f8a420aef7d477c1a36cdd2611f74a2e3fef68e3e2a8b6ebcede5d9"
     },
     {
       "path": "assets/style.css",
@@ -148,7 +148,7 @@
     {
       "path": "index.html",
       "bytes": 10669,
-      "sha256": "b4c7c0838e40647c35e479482f8bc6939bb0bdac5556563058769a5a2e5936d0"
+      "sha256": "d247b883d0c4dbc5f3bc90f7149e17c4e98aa0b097b5b8afbe1b95bdcaad2c94"
     },
     {
       "path": "package.json",
@@ -157,8 +157,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 5800,
-      "sha256": "eac2dcdcfe0c17a0501c8a254c1277ca41c8c0ddf1dc8a97d5af01ee4aeb7954"
+      "bytes": 6183,
+      "sha256": "21b6e5d4abd92de0ab24fd32bcf1374048e45a1642a7895ab807b095904d2b79"
     },
     {
       "path": "tests/active-filters.test.mjs",
@@ -288,7 +288,7 @@
     {
       "path": "tests/project-expansion.test.mjs",
       "bytes": 9083,
-      "sha256": "6be89fe1255c826c286869edbc42a8cf20670e716557adb8aeb921891e5d60ec"
+      "sha256": "b144a6e4295ce17300108c8793c506d084b90351d262e5cff77eb38d4d58bbc8"
     },
     {
       "path": "tests/project-final10.test.mjs",
@@ -316,6 +316,11 @@
       "sha256": "e9a61d15fb7ce58346b40836498f5fb73440a6e345c5d395b8d55e70f8a73303"
     },
     {
+      "path": "tests/reader-association-copy.test.mjs",
+      "bytes": 1778,
+      "sha256": "62324145b4ca4c2d988c3f83ba1c8e6c955ec770f1796d2fef1a8dab73578cf6"
+    },
+    {
       "path": "tests/record-summaries.test.mjs",
       "bytes": 6083,
       "sha256": "385c66dd5dee7969ce2046aed17c97309b21ee00c0edc94a7069a34fc55bd087"
@@ -332,8 +337,8 @@
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 18959,
-      "sha256": "5b14b1e68a4c09c3d04e0a5ffe44f83a2fa31cd9a6d660573c144b39b85c73b0"
+      "bytes": 20094,
+      "sha256": "afab69fa512132b317bebe7334e9a77ead10aff0e3a341da04ad739665370556"
     },
     {
       "path": "tests/resource-versions.test.mjs",
@@ -351,5 +356,11 @@
     "commit": "4840df6a9718ec38e472f8fd7496047248029e71",
     "contentCommit": "4840df6a9718ec38e472f8fd7496047248029e71",
     "experienceRecords": 19
+  },
+  "displayCopyMaintenance": {
+    "date": "2026-10-03",
+    "baseCommit": "01e9b41019971e7c5b5a21eca4ca773966ec6664",
+    "scope": "Render three supervisor-association phrases in plain Chinese; original data and qualification evidence unchanged",
+    "validation": "Local Node and DOM checks; deployment and browser acceptance require separate verification"
   }
 }

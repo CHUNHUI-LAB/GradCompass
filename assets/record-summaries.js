@@ -1,5 +1,13 @@
 import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,deadlineStatus,isVerifiedRoute,hasVerifiedPath,filterRoutes} from './core.js';
 const e=value=>escapeHTML(readerText(value));
+// Display-only wording: preserve source records and their qualification caveats.
+const supervisorAssociationLabels=new Map([
+ ['导师与院系/项目的关联见各导师 routeAssociations；项目资格不等于名额确认','导师与院系、项目的关联说明见导师详情；符合项目申请条件不代表已确认招生名额'],
+ ['导师学科归属见各导师 routeAssociations；仍须核实目标轮次名额与指导资格','导师所属学科见导师详情；仍须核实目标轮次名额与指导资格'],
+ ['逐导师、逐学位证据见 routeAssociations；授课型硕士不保证进组或论文指导','各导师与学位项目的关联说明见导师详情；授课型硕士不保证进组或论文指导']
+]);
+export function supervisorAssociationText(value){return supervisorAssociationLabels.get(value)||value;}
+
 const items=values=>`<ul>${values.map(value=>`<li>${e(value?.text||value?.requirement||value)}</li>`).join('')}</ul>`;
 const section=(title,body)=>body?`<section class="detail-section"><h3>${e(title)}</h3>${body}</section>`:'';
 const paragraph=value=>value?`<p>${e(value)}</p>`:'';
@@ -46,7 +54,7 @@ export function renderRecordSummary(kind,record,catalog){
   const advisorLinks=advisors.length?`<div class="link-list">${advisors.map(a=>`<button class="text-button" data-detail="${e(a.id)}">${e(a.nameZh||a.name)}</button>`).join('')}</div>`:'';
   const deadlineLinks=deadlines.length?`<ul>${deadlines.map(d=>`<li><button class="text-button" data-summary-kind="deadline" data-summary-id="${e(d.id)}">${e(d.title)}</button>：${e(d.date||'日期待确认')}</li>`).join('')}</ul>`:'<p>尚未收录该项目可核对的截止日期；请检查当期官网。</p>';
   const distinctRequirements=requirements(record).filter(value=>exactText(value)!==record.eligibilitySummary);
-  body=projectIntroduction(brief)+section('项目概览',overview)+section('申请条件',paragraph(record.eligibilitySummary)+(distinctRequirements.length?items(distinctRequirements):''))+section('申请方式与批次',paragraph(record.applicationMethod)+paragraph(record.admissionYear))+section('导师与名额',paragraph(record.supervisorAssociation||'具体导师关联与名额仍需另行确认。')+advisorLinks)+section('准备材料',materialLinks)+section('申请日期',deadlineLinks)+section('需要留意',(record.notes||[]).length?items(record.notes):'<p>项目要求不等于个人资格或录取结果，申请前仍需核对当期要求。</p>');
+  body=projectIntroduction(brief)+section('项目概览',overview)+section('申请条件',paragraph(record.eligibilitySummary)+(distinctRequirements.length?items(distinctRequirements):''))+section('申请方式与批次',paragraph(record.applicationMethod)+paragraph(record.admissionYear))+section('导师与名额',paragraph(supervisorAssociationText(record.supervisorAssociation)||'具体导师关联与名额仍需另行确认。')+advisorLinks)+section('准备材料',materialLinks)+section('申请日期',deadlineLinks)+section('需要留意',(record.notes||[]).length?items(record.notes):'<p>项目要求不等于个人资格或录取结果，申请前仍需核对当期要求。</p>');
  }else if(kind==='deadline'){
   title=record.title;label='日期摘要';
   const status=deadlineStatus(record,catalog.metadata?.checkedDate);

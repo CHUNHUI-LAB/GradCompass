@@ -72,11 +72,11 @@ test('reviewed catalog and material snapshots plus reviewed runtime and expanded
   "data/update-status.json": "b96e217f713537808ee7874c3638ed0e2add57d514b2a23232085dd73d35cad5",
   "data/catalog-test-manifest.json": "d7824ea7a17eef0af78577dd57daae941befb9af02e68adf9ce7abe9d54fa9a7",
   "assets/core.js": "cad4681d907cdf380dad2b1ab4c9b42ee33829e11fafeb73b9ad0b072975a927",
-  "assets/record-summaries.js": "7650b472298f9d0db4f59f53a1a437b4f295efeb3e21e33016b11f3e76a4b314",
+  "assets/record-summaries.js": "5597dac07f8a420aef7d477c1a36cdd2611f74a2e3fef68e3e2a8b6ebcede5d9",
   "assets/profiles.js": "6b6ce55c9e97edb8060976e5f82a631ed47275d6304d72bba4c0caf649606e88",
   "assets/material-supplement.js": "44c8f5821e4c828503b6efefc6cd6a75f560c2de0067f855531337c025511d03",
   "assets/style.css": "87fc9377f9451bc784a8e6355266e9e740e16a53971c5b25c92c0e7b67d4e0df",
-  "tests/render.test.mjs": "5b14b1e68a4c09c3d04e0a5ffe44f83a2fa31cd9a6d660573c144b39b85c73b0"
+  "tests/render.test.mjs": "afab69fa512132b317bebe7334e9a77ead10aff0e3a341da04ad739665370556"
 };
  for(const [path,expected] of Object.entries(protectedHashes)){
   let content=fs.readFileSync(new URL('../'+path,import.meta.url));
