@@ -80,7 +80,7 @@ test('reviewed catalog and material snapshots plus reviewed runtime and expanded
 };
  for(const [path,expected] of Object.entries(protectedHashes)){
   let content=fs.readFileSync(new URL('../'+path,import.meta.url));
-  if(['data/catalog.json','data/material-summaries.json'].includes(path))content=JSON.stringify(maintenanceBaseline(JSON.parse(content)),null,2)+'\n';
+  if(['data/catalog.json','data/material-summaries.json','data/application-experiences.json','data/application-experience-provenance.json'].includes(path))content=JSON.stringify(maintenanceBaseline(JSON.parse(content)),null,2)+'\n';
   if(path==='assets/style.css')content=content.subarray(0,24000);
   assert.equal(hash(content),expected,path);
  }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-02",
+  "checkedAt": "2026-10-03",
   "scope": "历史亲历与准备方法，独立于官方招生、导师与机会库",
   "records": [
     {
@@ -590,6 +590,68 @@
       "bachelorApplicability": "可参考本科申授课硕士的材料和状态管理；不能用于判断研究型硕士资格或当季录取难度。",
       "evidenceType": "first_person_self_report",
       "checkedAt": "2026-10-02",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-scut-fengyt-redbird-2023",
+      "title": "红鸟挑战营到补齐录取条件：毕业材料也要排进时间表",
+      "url": "https://scut.wiki/future/abroad/xiang-gang-ke-ji-da-xue-guang-zhou-red-bird-mphil19-wei-dian-zi-feng-yu-tong",
+      "platform": "华工手册",
+      "author": "冯雨橦",
+      "publishedAt": null,
+      "applicableCycle": "2022年挑战营、2023年入学准备；19是本科入学年",
+      "authorContext": "华南理工大学2019级微电子本科，有数学建模、AI竞赛和受理中专利经历。",
+      "outcome": "自述2022年8月获挑战营录取消息、11月获conditional offer，2023年7月补齐毕业材料、8月收到正式录取通知书；未核验通知书或实际入学。",
+      "summary": "从申请挑战营到补齐录取条件跨越一年，毕业证、学位证和完整成绩单成为最后关键节点。适合借鉴材料依赖与核对方法，不照搬疫情期语言政策。",
+      "actionableMethods": [
+        "分别记录营选结果、条件录取、条件完成和正式通知",
+        "把课程出分、毕业材料发放与补件截止日期放进同一时间表",
+        "提前核对成绩单课程、学时和学分，给纠错留时间"
+      ],
+      "excludedClaims": [
+        "不沿用2022年营选要求、疫情期多邻国替代政策或补件日期",
+        "不把作者本校的双证批次、打印机等待时间推广为普遍规则",
+        "不将2023年获得的竞赛成绩算入2022年申请背景；专利受理不等于授权"
+      ],
+      "commercialDisclosure": "所读正文未见付费申请服务导流；作者及平台其他内容未审计。",
+      "readScope": "Exa全文获取并核读正文基本背景、完整时间线、三项材料提醒及挑战营FAQ；没有评论返回，未使用图片或录取信证据。",
+      "collection": "bachelor",
+      "background": "微电子本科 → 红鸟MPhil",
+      "dateNote": "页面未返回可靠发布日期；时间线明确为2022—2023年。",
+      "bachelorApplicability": "适合本科生安排毕业与入学材料；不证明当季招生资格、语言豁免或个人录取概率。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-03",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-benjamin-hkustgz-research-2026",
+      "title": "相关经历：本科科研实习入口，面试后仍要等安排落实",
+      "url": "https://blog.huihengli.me/2026/07/10/year-one-cs-intern/",
+      "platform": "Benjamin Li 个人博客",
+      "author": "Benjamin Li",
+      "publishedAt": "2026-07-10",
+      "applicableCycle": "2026年科研与实习申请；不是研究生入学申请季",
+      "authorContext": "英国本科大一升大二，有编程、AI项目和实习经历；本人把科研申请归入Research Assistant。",
+      "outcome": "自述港中深一次科研面试后沟通未落实；港科广经组内申请网站、英文项目面试后进组，参与agent通信相关研究，因企业实习提前转线上。未见雇佣合同或学位录取。",
+      "summary": "科研面试追问项目实现，作者一度需要现场重看项目才能解释。另一条线虽约面并讨论带教，后续仍未落实，适合区分面试、意向与实际进组。",
+      "actionableMethods": [
+        "面试前重读项目，准备解释实验实现和自己实际贡献",
+        "把带教安排、项目内容和可投入时间提前说清",
+        "分开记录邀请、等待安排、实际进组和线上线下方式"
+      ],
+      "excludedClaims": [
+        "不是全职RA雇佣、MPhil/PhD录取或RA转博保证；合同、报酬、签证没有披露",
+        "未回复不标为正式拒绝，不转载对导师工作状态或风格的未核验评价",
+        "不由低年级个案推断所有课题组要求；企业求职结果与科研结果分开"
+      ],
+      "commercialDisclosure": "博客有自愿打赏入口，所读科研段落无申请服务销售；外部账号未审计。",
+      "readScope": "已核读正文引言、就业总结、完整Research Assistant章节及发表日期；企业面试细节不作本条主要证据。评论显示加载状态，未读；未访问作者提到的小红书原帖。",
+      "collection": "bachelor",
+      "background": "本科早期科研/实习入口；非全职RA岗位",
+      "dateNote": "发表于2026-07-10，更新于2026-07-11；未披露确切科研入组日。",
+      "bachelorApplicability": "可参考本科寻找科研入口与面试准备；不作为正式RA岗位或研究生录取案例。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-03",
       "rulesImpact": "none"
     }
   ]

@@ -1,8 +1,8 @@
 {
   "project": "GradCompass",
-  "revision": "r2.23-cityu-ordinary-cycle-review",
-  "baseSourceCommit": "8da0a9be4a5248d00343c18d42502c6b8558c465",
-  "baseDeployedCommit": "8da0a9be4a5248d00343c18d42502c6b8558c465",
+  "revision": "r2.24-two-reviewed-experiences",
+  "baseSourceCommit": "4840df6a9718ec38e472f8fd7496047248029e71",
+  "baseDeployedCommit": "4840df6a9718ec38e472f8fd7496047248029e71",
   "snapshotDate": "2026-10-03",
   "status": "content snapshot; automated test counters do not establish deployment or browser acceptance",
   "dailyChecksEnabled": true,
@@ -15,11 +15,11 @@
   "newAdvisorProfiles": 2,
   "preservedAdvisorProfiles": 30,
   "newProfileCitedSourceCount": 15,
-  "experienceRecords": 19,
-  "defaultExperienceRecords": 19,
-  "experienceSourceSites": 14,
-  "preservedPublishedRecords": 16,
-  "newExperienceRecords": 3,
+  "experienceRecords": 21,
+  "defaultExperienceRecords": 21,
+  "experienceSourceSites": 16,
+  "preservedPublishedRecords": 19,
+  "newExperienceRecords": 2,
   "materialRecords": 14,
   "materialSupplementRecords": 12,
   "materialSupplementSources": 39,
@@ -37,18 +37,18 @@
     },
     {
       "path": "QA.md",
-      "bytes": 23494,
-      "sha256": "5dcbae33df2521102112a96e2e5a3985b9ab3d2ca60d0e74e257903f01de2e7d"
+      "bytes": 24481,
+      "sha256": "e5c599db424684635b84340cf228fc24b845816c013f054f12550a74c58e1943"
     },
     {
       "path": "README.md",
-      "bytes": 14227,
-      "sha256": "09a1b2a542e2a62de6b78a944fb97b094e63c8ad860a7ee897359288fb2f7e10"
+      "bytes": 15214,
+      "sha256": "2cd3fc1bde28fee86afbe08201f2c1f5237b92741e624a6152244e358df9a787"
     },
     {
       "path": "assets/app.js",
       "bytes": 53042,
-      "sha256": "9c534e2e6c968435f0ed4b3942736f949f41010c54e4fcd969f655f0030ed60d"
+      "sha256": "f2068d29f376c731c041343bc14cada205d17bfb87df8ed297b5c7ae77b7806d"
     },
     {
       "path": "assets/campus-art.webp",
@@ -62,8 +62,8 @@
     },
     {
       "path": "assets/experiences.js",
-      "bytes": 17425,
-      "sha256": "cb4a32034272f64aa9d10669503c70d80a1cccba248eb98bae4b7f04dca31c4e"
+      "bytes": 18741,
+      "sha256": "6606a169637f9b9f3447561d8de0dbea1f7428dabb18dbc8e21f57f1ddf66210"
     },
     {
       "path": "assets/favicon.svg",
@@ -77,8 +77,8 @@
     },
     {
       "path": "assets/page-overviews.js",
-      "bytes": 14567,
-      "sha256": "e876547ad9c8cc29e7c4d0c36bc8ed01219f730a38a6fb273d05d330f4b0f1f8"
+      "bytes": 14962,
+      "sha256": "f5dd9777146cc2711e852398acbab3583e517260509508aaba66fe8873f05a6c"
     },
     {
       "path": "assets/profiles.js",
@@ -102,13 +102,13 @@
     },
     {
       "path": "data/application-experience-provenance.json",
-      "bytes": 17388,
-      "sha256": "0a057d4264371c0adbca86d6af5257919a45f5a767e40f39d9457e0698d9ccf8"
+      "bytes": 19642,
+      "sha256": "5b89f9758c2a364412f19ce2ac8d75f7ccf735ecfab3a014119c70c4ce8ac82b"
     },
     {
       "path": "data/application-experiences.json",
-      "bytes": 44011,
-      "sha256": "05b5bc420009910cdb9432bcb199df050007034c178fa2d2b9e7531cc76beb9b"
+      "bytes": 48785,
+      "sha256": "030838a887111dacaf2b0fe9d001c52c3da4ea4da2369cdfdb08c2e8f55411c7"
     },
     {
       "path": "data/catalog-test-manifest.json",
@@ -148,7 +148,7 @@
     {
       "path": "index.html",
       "bytes": 10669,
-      "sha256": "3e457dcf58ce54757f4e4bd4241d7a3bf2760c447ffb6b62168497d2b9e923b6"
+      "sha256": "b4c7c0838e40647c35e479482f8bc6939bb0bdac5556563058769a5a2e5936d0"
     },
     {
       "path": "package.json",
@@ -157,8 +157,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 5767,
-      "sha256": "7cc77a1427498679e0845ed2de6f1deecdc548f58374d347620c92808d53d6d1"
+      "bytes": 5800,
+      "sha256": "eac2dcdcfe0c17a0501c8a254c1277ca41c8c0ddf1dc8a97d5af01ee4aeb7954"
     },
     {
       "path": "tests/active-filters.test.mjs",
@@ -192,18 +192,18 @@
     },
     {
       "path": "tests/editorial-design.test.mjs",
-      "bytes": 5337,
-      "sha256": "f4117d8c66a75a2b071e0c13642a0fa4b943c7b9747296567818f5c6d2f0ab71"
+      "bytes": 5368,
+      "sha256": "11e9b04c9de8aa9ee712214ba3b18f4dfbf4b897e29f460c209d5653c93556cc"
     },
     {
       "path": "tests/experience-batch2.test.mjs",
       "bytes": 4192,
-      "sha256": "52a967db9eb7fcdd417c3be4b80ef1b959d55ba3d178a5d5139a91c5c3566fc5"
+      "sha256": "cb7780a76945e5ec26414ffdaaea935eca107217a68f495bcd4af147fe823866"
     },
     {
       "path": "tests/experience-expansion.test.mjs",
-      "bytes": 5470,
-      "sha256": "eb4d99c376e254b7b83560103fb2376560743f600d28ed3eb3f23593a2a2fdde"
+      "bytes": 5474,
+      "sha256": "118de84bf7e89b57310766dc0b1a3397fa6d5e848b885522f2098175fc3ec6bb"
     },
     {
       "path": "tests/experience-navigation.test.mjs",
@@ -211,34 +211,39 @@
       "sha256": "25603da08fbda2fbc12543f492f7109100db507afcfa98db75f1295e6778428f"
     },
     {
+      "path": "tests/experience-october.test.mjs",
+      "bytes": 4153,
+      "sha256": "4d036b057bf07bf0f921791b67a31dab21547e9aecdfa992a4aa112df8e52b8f"
+    },
+    {
       "path": "tests/experience-recent.test.mjs",
-      "bytes": 5265,
-      "sha256": "f2f540acc8eebbf08520a09b8bfee7405e66e2d19ebb09c031cf61f0cfeacf5f"
+      "bytes": 5275,
+      "sha256": "995b756dd6ed60c8a750a0f46b229bee15c6dc0d50f63ecedf0314d17d1d865b"
     },
     {
       "path": "tests/experience-workspace.test.mjs",
-      "bytes": 5312,
-      "sha256": "aabf9d4990c2f45d4ae9c6f145917737cab6b704a16a9c7c383ed8a3c2e7445a"
+      "bytes": 5394,
+      "sha256": "99226af3bbf60402de2c851a4e30dfca708671bf54ea21ef6090ec99c6be0e39"
     },
     {
       "path": "tests/experiences-browser.mjs",
-      "bytes": 9872,
-      "sha256": "6a643ddc5633e792e5dd282c0d64a656f670a6e7dd54ac0fc3711c31b933171d"
+      "bytes": 9975,
+      "sha256": "742ad7d4045ed185ddbfd3a9e42c115695ddd18a966c253da7941384d21e664d"
     },
     {
       "path": "tests/experiences.test.mjs",
-      "bytes": 6646,
-      "sha256": "aed204a9d9de96de9691d458811c0755b7e367890927f4d52db820e09b253dbe"
+      "bytes": 6654,
+      "sha256": "5fd2b72df6451ad5383b44634bbd1a208eb30336bc8bd0c977a1b9619a8deb73"
     },
     {
       "path": "tests/maintenance-baseline.mjs",
-      "bytes": 752,
-      "sha256": "2d76173e9263e5f6bda8340f75389235eee056b510d6d52a9621deb792c1e9a6"
+      "bytes": 1249,
+      "sha256": "5ad09a383b4dea5f23ba2d2e0d9f0316d2b56e0016fae02fe7c7cb5e609f4d18"
     },
     {
       "path": "tests/material-loading.test.mjs",
       "bytes": 5587,
-      "sha256": "3d0f8b1ee1b3b4941235a5a7665522b03a8ee53230a2dd2667efd91b92576b26"
+      "sha256": "9f6fb10b40646fc782a7093aa008c365b4e5d4a943d4360c8f5145d38fe8d08b"
     },
     {
       "path": "tests/material-supplement.test.mjs",
@@ -262,13 +267,13 @@
     },
     {
       "path": "tests/page-overviews.test.mjs",
-      "bytes": 10949,
-      "sha256": "e6ebe1bb77a0de825e998846c0bee0fda4f574244b36f0b147971a4d53a0d90d"
+      "bytes": 10990,
+      "sha256": "c87d05aee9b5bc33c3c526b631d9ed23645f0d3bbe0a47bb4d02b00762a1506c"
     },
     {
       "path": "tests/profiles-batch5.test.mjs",
-      "bytes": 7502,
-      "sha256": "c1d6b8817fe6b7d36c05d9be0a596da5bdc002746e768fae216465d4ad72bd54"
+      "bytes": 7584,
+      "sha256": "3291ae25c40f640f1ef082e21b3f51982baa15ca72bea789c128b5e95b806d13"
     },
     {
       "path": "tests/profiles-final5.test.mjs",
@@ -282,8 +287,8 @@
     },
     {
       "path": "tests/project-expansion.test.mjs",
-      "bytes": 9001,
-      "sha256": "7bfec209ebf32797d1166c97978bf5332ca7be0677168d4dc1c5b2e4870121f3"
+      "bytes": 9083,
+      "sha256": "6be89fe1255c826c286869edbc42a8cf20670e716557adb8aeb921891e5d60ec"
     },
     {
       "path": "tests/project-final10.test.mjs",
@@ -293,7 +298,7 @@
     {
       "path": "tests/project-loading.test.mjs",
       "bytes": 6009,
-      "sha256": "826482cb5ca2ffa4b8ae432bed721c16b1fd6accb5cec23d5b0bd3812f7d68c8"
+      "sha256": "e26eb187f9e3e4c90e22a674c46f6367bb13a7a5b613885edb226c363e1f6dda"
     },
     {
       "path": "tests/project-summaries-browser.mjs",
@@ -333,7 +338,7 @@
     {
       "path": "tests/resource-versions.test.mjs",
       "bytes": 5053,
-      "sha256": "5841c7c32efc7ccfc34e1207cf2c2446fa57dcefa9ce8587ae6cf32583eee001"
+      "sha256": "c23d42d55726e5f13901d9eaa7ab723f25041fa112b83f6d9b5dbd4a150bedaa"
     },
     {
       "path": "tests/summary-navigation.test.mjs",
@@ -343,8 +348,8 @@
   ],
   "qaMetadataScope": "Hashes identify this content snapshot. Automated test counters do not establish deployment or browser acceptance.",
   "publishedBaseline": {
-    "commit": "8da0a9be4a5248d00343c18d42502c6b8558c465",
-    "contentCommit": "8da0a9be4a5248d00343c18d42502c6b8558c465",
+    "commit": "4840df6a9718ec38e472f8fd7496047248029e71",
+    "contentCommit": "4840df6a9718ec38e472f8fd7496047248029e71",
     "experienceRecords": 19
   }
 }

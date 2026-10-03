@@ -261,6 +261,42 @@
         "date": "2026-10-02",
         "mode": "Original webpage and relevant complete sections reread; claims and dates checked against candidate."
       }
+    },
+    {
+      "id": "grad-scut-fengyt-redbird-2023",
+      "url": "https://scut.wiki/future/abroad/xiang-gang-ke-ji-da-xue-guang-zhou-red-bird-mphil19-wei-dian-zi-feng-yu-tong",
+      "scope": "Exa全文获取并核读正文基本背景、完整时间线、三项材料提醒及挑战营FAQ；没有评论返回，未使用图片或录取信证据。",
+      "dateInterpretation": "页面未返回可靠发布日期；时间线明确为2022—2023年。",
+      "bachelorApplicability": "适合本科生安排毕业与入学材料；不证明当季招生资格、语言豁免或个人录取概率。",
+      "fieldLocations": {
+        "authorContext": "基本背景",
+        "outcome": "完整时间线：2022年营选、conditional offer与2023年补件",
+        "summary": "材料提醒与挑战营FAQ",
+        "commercialDisclosure": "正文及页面服务入口检查"
+      },
+      "reviewedAt": "2026-10-03",
+      "independentReview": {
+        "date": "2026-10-03",
+        "mode": "Public source body independently reread; claims, chronology and scope checked against the summary."
+      }
+    },
+    {
+      "id": "grad-benjamin-hkustgz-research-2026",
+      "url": "https://blog.huihengli.me/2026/07/10/year-one-cs-intern/",
+      "scope": "已核读正文引言、就业总结、完整Research Assistant章节及发表日期；企业面试细节不作本条主要证据。评论显示加载状态，未读；未访问作者提到的小红书原帖。",
+      "dateInterpretation": "发表于2026-07-10，更新于2026-07-11；未披露确切科研入组日。",
+      "bachelorApplicability": "可参考本科寻找科研入口与面试准备；不作为正式RA岗位或研究生录取案例。",
+      "fieldLocations": {
+        "authorContext": "引言 / Research Assistant",
+        "outcome": "Research Assistant：港中深与港科广两条科研申请线",
+        "summary": "Research Assistant：项目面试与实际安排",
+        "commercialDisclosure": "正文及页面服务入口检查"
+      },
+      "reviewedAt": "2026-10-03",
+      "independentReview": {
+        "date": "2026-10-03",
+        "mode": "Public source body independently reread; claims, chronology and scope checked against the summary."
+      }
     }
   ],
   "excludedSourceCategories": [
@@ -275,6 +311,6 @@
   ],
   "officialPolicy": "No new current admission claims, thresholds, fees, deadlines or recruitment counts. Historical claims about admission mechanisms explicitly excluded. Existing official data remains unchanged.",
   "privacy": "No private contact fields, offer identifiers, screenshots, signed URLs, search URLs, or session tokens included.",
-  "latestBatchBaseCommit": "1765e09516a7ea541454b069e7a579adb5226b03",
-  "latestBatchReviewDate": "2026-10-02"
+  "latestBatchBaseCommit": "4840df6a9718ec38e472f8fd7496047248029e71",
+  "latestBatchReviewDate": "2026-10-03"
 }
