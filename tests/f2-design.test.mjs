@@ -44,3 +44,5 @@ test('all internal detail types keep their source chain and distinguish employme
  assert(experiences.includes('data-reading-experience'));assert(experiences.indexOf('不能照搬的部分')<experiences.indexOf('查看原帖'));
  assert(!html.includes('登录'));assert(!html.includes('校园意境'));assert(!app.includes('localStorage'));assert(!app.includes('sessionStorage'));
 });
+
+test('narrow reader metadata keeps its words together instead of a vertical character column',()=>{assert(css.includes('.dialog-top .eyebrow{font-size:14px;flex:1 0 auto;white-space:nowrap}'));});

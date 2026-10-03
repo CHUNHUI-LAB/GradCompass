@@ -37,8 +37,8 @@
     },
     {
       "path": "QA.md",
-      "bytes": 31178,
-      "sha256": "9012e7c4a186432f559b9f7233995aae65cc5b43cff890469459ec6a8da6fb26"
+      "bytes": 32372,
+      "sha256": "b0bce4888bbc6aef5c45576dbb64be559adcc8decd5f3fca83b5d9778e2c39f5"
     },
     {
       "path": "README.md",
@@ -97,8 +97,8 @@
     },
     {
       "path": "assets/style.css",
-      "bytes": 36050,
-      "sha256": "7492aec8f673d403191e0508b95674c508e4d731949c8bcedd1611b4d5b6c527"
+      "bytes": 36076,
+      "sha256": "8bdf5b250a9e88e4aaf8f311f6c79520cd2b81b1702a702333ce931ee651f98a"
     },
     {
       "path": "data/advisor-profiles.json",
@@ -153,7 +153,7 @@
     {
       "path": "index.html",
       "bytes": 8252,
-      "sha256": "4e33b77ab5ea95f37ca67b009fe7a2f56fb085383f10c7987e1c43f3ef33163d"
+      "sha256": "33941e647c5f21b005bb1be061bb8038107e1bae4d29b204293fb998c47c8325"
     },
     {
       "path": "package.json",
@@ -247,8 +247,8 @@
     },
     {
       "path": "tests/f2-design.test.mjs",
-      "bytes": 4723,
-      "sha256": "1aaf1b511f316cb6532be58da7a6f2d18def00d6a8705a8072714ef8df97f6f7"
+      "bytes": 4921,
+      "sha256": "1e829d836e00692f239577a48b1380c7caf8362c134490f97f418bf1acf31014"
     },
     {
       "path": "tests/maintenance-baseline.mjs",
