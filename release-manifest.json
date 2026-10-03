@@ -37,8 +37,8 @@
     },
     {
       "path": "QA.md",
-      "bytes": 20317,
-      "sha256": "c2bc84377027c0933c90b2da9017b3ca25e5452d48a6d71a1f4f4f2989e3cd34"
+      "bytes": 21236,
+      "sha256": "435c5a184ec3c26859ef462c4c2962f3e5f44a173d534edb7cded68b0c12174b"
     },
     {
       "path": "README.md",
@@ -92,8 +92,8 @@
     },
     {
       "path": "assets/style.css",
-      "bytes": 53123,
-      "sha256": "b481cf34466898ad06d39a1aa91d23601e3bf80180cf3efd81cbabdd949e3b2c"
+      "bytes": 53425,
+      "sha256": "5b180411f064b9d525b2bdf9a46e16103c368e5eea7d9efbba3d478660982974"
     },
     {
       "path": "data/advisor-profiles.json",
@@ -143,7 +143,7 @@
     {
       "path": "index.html",
       "bytes": 10669,
-      "sha256": "2e4604864814602cb804006f0992a577ad7710686d67818183d22a45ae7bd5bb"
+      "sha256": "315664a6c381c855dedc461498127f1bb3416824a51107f4ce4842671f8d4bb0"
     },
     {
       "path": "package.json",

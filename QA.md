@@ -181,3 +181,7 @@ The version can be checked with `npm test` and its content hashes regenerated wi
 `python scripts/freeze.py` 后完整 `npm test` 273项通过，无失败、跳过。新增菜单重复开合、导航关闭与焦点、Escape返回焦点、搜索/导览定位结果且不污染history、数据字节一致及首页顺序检查。三个旧断言只更新有意改变的导航属性、搜索先于综合的位置及准确基线SHA；其余行为与来源断言保留。独立审查发现并修复移动端搜索flex继承、首页导师导览无跳转、Reset视觉/键盘顺序不一致。
 
 使用非浏览器 WeasyPrint 对实际模块生成的摘要/列表与HTML做1440/390宽静态排版观察；仅在审查产物中解析viewport媒体条件并替换静态表单标签。它不支持全部浏览器CSS、交互或SVG，因此不是实际浏览器或辅助技术验收。候选未启动被禁止的本地Chromium，也未使用新托管绕过权限。准确发布提交的Pages部署和真实桌面/手机宽度、200%缩放、筛选/摘要/返回/菜单仍须在发布后分别验证。未新增外部字体、追踪、账户、浏览器存储或运行时依赖。
+
+### Published a703ea6 live-browser checks and positioning correction
+
+Exact Pages run `37103877222` completed successfully for `a703ea6fe244bef75e0c5ee51461824d6e423144`; build, deploy and report-build-status checks all succeeded. Live cloud-browser checks at 1182px, 500px, 400 CSS px (native 125% zoom) and 200% zoom (591 CSS px) verified no horizontal overflow. Search→empty→reset, RA filter restoration across project navigation, complete project text before external sources, experience search/read/Back/Forward, mobile repeated menu toggling/Escape/navigation-close focus and narrow project dialog passed. These checks are not physical-device or screen-reader certification. A decorative compass/text overlap was observed; this correction separates their desktop placement and moves the mobile compass above the subtitle. Final corrected commit visual recheck is pending independently of the earlier checks.

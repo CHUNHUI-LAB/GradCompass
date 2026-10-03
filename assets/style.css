@@ -190,3 +190,7 @@ main,main:has([data-page-overview="advisors"]){max-width:1600px;padding:0 5.25%}
 
 .intro .eyebrow{display:none}.intro h1{font-size:clamp(34px,4.35vw,64px)}.advanced-filter-grid>#opportunity-filter-note{grid-column:1/-1}.discovery-hero>.filters>.advanced-filters{grid-row:2}.discovery-hero>.filters>.filter-heading,.discovery-hero>.filters:focus-within>.filter-heading{grid-row:2}.discovery-hero>.filters:has(.advanced-filters[open])>.filter-heading{grid-row:3}
 @media(max-width:760px){.intro h1{font-size:34px}.intro,main:has([data-page-overview="advisors"]) .intro{margin-bottom:72px}.discovery-hero>.filters>.advanced-filters{grid-row:3}.discovery-hero>.filters>.filter-heading,.discovery-hero>.filters:focus-within>.filter-heading{grid-row:3}.discovery-hero>.filters:has(.advanced-filters[open])>.filter-heading{grid-row:4}.art-caption{bottom:103px}.hero-art{bottom:100px}.advanced-filter-grid>#opportunity-filter-note{grid-column:1}}
+/* Live-browser refinement: decorative labels and compass never overlap reading text. */
+.compass-rose{right:19%}.hero-art p{right:3%;top:44px}
+@media(max-width:1200px){.compass-rose{right:19%}.hero-art p{right:3%}}
+@media(max-width:760px){.compass-rose{right:-10px;top:10px}.hero-art p{display:none}}
