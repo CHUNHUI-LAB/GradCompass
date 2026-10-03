@@ -48,7 +48,7 @@
     {
       "path": "assets/app.js",
       "bytes": 48613,
-      "sha256": "72b5d019702724b356bd3d2a57c5c38e1c8af7fb2ab6d8e3207d33f0c7ab1a72"
+      "sha256": "3cece69164c2ad688e7296e6511463389ac8ebb2c8560432c70b3653b80ff8c1"
     },
     {
       "path": "assets/core.js",
@@ -72,8 +72,8 @@
     },
     {
       "path": "assets/page-overviews.js",
-      "bytes": 14280,
-      "sha256": "c7f7bef01c23bbbc5078c5d86a5e3866147b38ff9b2222d3e49357317e70c7a4"
+      "bytes": 14355,
+      "sha256": "09341a85636554d6cc5baa796355b1f802828c44fa06d261ede95297dbdf7b1e"
     },
     {
       "path": "assets/profiles.js",
@@ -138,7 +138,7 @@
     {
       "path": "index.html",
       "bytes": 7227,
-      "sha256": "beb06fd741b4fd48bc03b49065f0f27508be76b99819cc0eef96569d2da7ef03"
+      "sha256": "8923afd5c76037792525cb73187d393f10fa07773fe34981feb28f59495d67d3"
     },
     {
       "path": "package.json",
@@ -232,8 +232,8 @@
     },
     {
       "path": "tests/page-overviews.test.mjs",
-      "bytes": 9639,
-      "sha256": "1cbb5b0bb338ef43c2f9626eaa2b832d9f9460136426f494113d9ba5ea109f71"
+      "bytes": 10477,
+      "sha256": "9b321c3535f0ecc1549fbc57fc1b1b18511651dd79b1c0ac7878bc2b2e199a9d"
     },
     {
       "path": "tests/profiles-batch5.test.mjs",

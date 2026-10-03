@@ -77,3 +77,19 @@ test('entry hierarchy styles are confined to the advisor page and do not add mot
  assert(!refinement.includes('display:none')&&!refinement.includes('font-size:11px'));
  assert(css.includes('prefers-reduced-motion:reduce'));
 });
+
+
+test('calendar labels its all-school scope separately from filtered results without hiding useful summaries',()=>{
+ const m=model('deadlines'),html=renderPageOverview('deadlines',catalog,options);
+ assert.equal(m.insights[0].title,'全部学校中最早的后续截止');
+ assert(m.note.includes('全页概览不随学校筛选变化'));
+ assert(m.note.includes('下方显示筛选结果'));
+ assert(m.note.includes('2026-10-01')&&m.note.includes('不是实时开放状态'));
+ const hku=filterDeadlines(catalog,{institution:'HKU'});
+ assert.equal(hku.length,3);
+ assert(hku.every(d=>d.institution==='HKU'));
+ assert(!hku.some(d=>d.id===m.insights[0].action.id));
+ assert.equal(m.insights.length,3);
+ for(const insight of m.insights){assert(html.includes(insight.text));assert(insight.action);}
+ assert(!html.includes('<details'));
+});
