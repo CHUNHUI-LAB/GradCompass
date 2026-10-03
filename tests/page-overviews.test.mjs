@@ -23,7 +23,7 @@ const plain=view=>JSON.stringify(model(view));
 test('five distinct page overviews provide real synthesis before item-level lists',()=>{
  for(const view of views){const m=model(view);assert.equal(m.insights.length,3);assert(new Set(m.insights.map(i=>i.title)).size===3);assert(m.insights.every(i=>i.text.length>=45));const html=renderPageOverview(view,catalog,options);assert(html.includes(`data-page-overview="${view}"`));assert(html.includes('page-overview-title'));assert(!html.includes('undefined'));assert(!html.includes('[object Object]'));}
  assert.equal(buildPageOverview('sources',catalog,options),null);
- const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');assert(html.indexOf('id="page-overview"')<html.indexOf('class="search-surface"'));assert(html.indexOf('id="page-overview"')<html.indexOf('id="view-content"'));
+ const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');assert(html.indexOf('class="search-surface"')<html.indexOf('id="page-overview"'));assert(html.indexOf('id="page-overview"')<html.indexOf('id="results"'));assert(html.indexOf('id="page-overview"')<html.indexOf('id="view-content"'));
 });
 test('advisor coverage uses unique included people, distinguishes degree signals from RA jobs',()=>{
  const s=plain('advisors');assert(s.includes('32 位导师'));assert(s.includes('48 条机会'));assert(s.includes('46 条学位机会中，25 条'));assert(s.includes('2 个已核实 RA 岗位'));assert(s.includes('灵巧操作与触觉涉及 21 位'));assert(!s.includes('34 位导师'));assert(!s.includes('46 位导师'));
