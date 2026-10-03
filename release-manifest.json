@@ -1,6 +1,6 @@
 {
   "project": "GradCompass",
-  "revision": "r2.24-two-reviewed-experiences",
+  "revision": "f2-approved-editorial-design",
   "baseSourceCommit": "4840df6a9718ec38e472f8fd7496047248029e71",
   "baseDeployedCommit": "4840df6a9718ec38e472f8fd7496047248029e71",
   "snapshotDate": "2026-10-03",
@@ -37,8 +37,8 @@
     },
     {
       "path": "QA.md",
-      "bytes": 25028,
-      "sha256": "2bb5b09612cc7bce25741affb7c5ec43133899e8fc275283a4f4b7c0e40c9ae7"
+      "bytes": 31178,
+      "sha256": "9012e7c4a186432f559b9f7233995aae65cc5b43cff890469459ec6a8da6fb26"
     },
     {
       "path": "README.md",
@@ -47,8 +47,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 53149,
-      "sha256": "37c0ba6bd52a5ddabd0571d2a3d132c97bcdc1568f8bf98e65a65c43b8abb96a"
+      "bytes": 63437,
+      "sha256": "3d390cc4fc65f389b3fc15e38b9dced3fdf6afab5b4ec9a18dd7a4484673e9a4"
     },
     {
       "path": "assets/campus-art.webp",
@@ -62,8 +62,8 @@
     },
     {
       "path": "assets/experiences.js",
-      "bytes": 18741,
-      "sha256": "6606a169637f9b9f3447561d8de0dbea1f7428dabb18dbc8e21f57f1ddf66210"
+      "bytes": 20056,
+      "sha256": "0e8169acf5f06345c80be19de7aea9f95d77d282f2dc33976c69857c3928eac9"
     },
     {
       "path": "assets/favicon.svg",
@@ -86,14 +86,19 @@
       "sha256": "6b6ce55c9e97edb8060976e5f82a631ed47275d6304d72bba4c0caf649606e88"
     },
     {
+      "path": "assets/project-comparison.js",
+      "bytes": 13200,
+      "sha256": "007137a737d75065c7a574727c776a4069db2ef8b860f95cfac933fc78c80a3c"
+    },
+    {
       "path": "assets/record-summaries.js",
       "bytes": 12721,
       "sha256": "5597dac07f8a420aef7d477c1a36cdd2611f74a2e3fef68e3e2a8b6ebcede5d9"
     },
     {
       "path": "assets/style.css",
-      "bytes": 53425,
-      "sha256": "5b180411f064b9d525b2bdf9a46e16103c368e5eea7d9efbba3d478660982974"
+      "bytes": 36050,
+      "sha256": "7492aec8f673d403191e0508b95674c508e4d731949c8bcedd1611b4d5b6c527"
     },
     {
       "path": "data/advisor-profiles.json",
@@ -147,8 +152,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 10669,
-      "sha256": "d247b883d0c4dbc5f3bc90f7149e17c4e98aa0b097b5b8afbe1b95bdcaad2c94"
+      "bytes": 8252,
+      "sha256": "4e33b77ab5ea95f37ca67b009fe7a2f56fb085383f10c7987e1c43f3ef33163d"
     },
     {
       "path": "package.json",
@@ -157,13 +162,13 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 6183,
-      "sha256": "21b6e5d4abd92de0ab24fd32bcf1374048e45a1642a7895ab807b095904d2b79"
+      "bytes": 6593,
+      "sha256": "395070c25c55713b9ae72468f841116c1f52d0b5e7afdf30d227ee6874022c17"
     },
     {
       "path": "tests/active-filters.test.mjs",
-      "bytes": 14548,
-      "sha256": "cdbc737525b2f76ae3af53ff7c783a8e483292759cf4ceefe0995e7581463437"
+      "bytes": 14584,
+      "sha256": "667c1000ac2fe2ee353b38a1f9d5f686f82542f57b4d03ba850ad0077c3843e1"
     },
     {
       "path": "tests/browser-smoke.mjs",
@@ -192,8 +197,8 @@
     },
     {
       "path": "tests/editorial-design.test.mjs",
-      "bytes": 5368,
-      "sha256": "11e9b04c9de8aa9ee712214ba3b18f4dfbf4b897e29f460c209d5653c93556cc"
+      "bytes": 5283,
+      "sha256": "b94f093b3e69322d62f1344d398b1850854add8ba2c3a1e169cb1a532e0997f5"
     },
     {
       "path": "tests/experience-batch2.test.mjs",
@@ -207,8 +212,8 @@
     },
     {
       "path": "tests/experience-navigation.test.mjs",
-      "bytes": 18294,
-      "sha256": "25603da08fbda2fbc12543f492f7109100db507afcfa98db75f1295e6778428f"
+      "bytes": 18335,
+      "sha256": "f104761845636001daf4287d30de0d2c744a05cc2a9c0bf69070773a13c20bbb"
     },
     {
       "path": "tests/experience-october.test.mjs",
@@ -222,8 +227,8 @@
     },
     {
       "path": "tests/experience-workspace.test.mjs",
-      "bytes": 5394,
-      "sha256": "99226af3bbf60402de2c851a4e30dfca708671bf54ea21ef6090ec99c6be0e39"
+      "bytes": 5307,
+      "sha256": "2d7dc0f1b6d80f7b838a0a45e59467724bbb48ad7f6bb93affae744661313df5"
     },
     {
       "path": "tests/experiences-browser.mjs",
@@ -236,14 +241,24 @@
       "sha256": "5fd2b72df6451ad5383b44634bbd1a208eb30336bc8bd0c977a1b9619a8deb73"
     },
     {
+      "path": "tests/f2-comparison-navigation.test.mjs",
+      "bytes": 23495,
+      "sha256": "db8b06850974d23e99dd28f42f71140a34e483fdda568babdb57a790d1cb95c5"
+    },
+    {
+      "path": "tests/f2-design.test.mjs",
+      "bytes": 4723,
+      "sha256": "1aaf1b511f316cb6532be58da7a6f2d18def00d6a8705a8072714ef8df97f6f7"
+    },
+    {
       "path": "tests/maintenance-baseline.mjs",
       "bytes": 1249,
       "sha256": "5ad09a383b4dea5f23ba2d2e0d9f0316d2b56e0016fae02fe7c7cb5e609f4d18"
     },
     {
       "path": "tests/material-loading.test.mjs",
-      "bytes": 5587,
-      "sha256": "9f6fb10b40646fc782a7093aa008c365b4e5d4a943d4360c8f5145d38fe8d08b"
+      "bytes": 5606,
+      "sha256": "5d5f5b4d874c106ef336f97be0d99ff46c97e0fbc3b7008ceb5d1ab6440f5e7b"
     },
     {
       "path": "tests/material-supplement.test.mjs",
@@ -267,8 +282,8 @@
     },
     {
       "path": "tests/page-overviews.test.mjs",
-      "bytes": 10990,
-      "sha256": "c87d05aee9b5bc33c3c526b631d9ed23645f0d3bbe0a47bb4d02b00762a1506c"
+      "bytes": 10820,
+      "sha256": "6010ca99fa46952a357ad7d881f65ee0a50ed44df3ccd989cd8e45ba5d69c85e"
     },
     {
       "path": "tests/profiles-batch5.test.mjs",
@@ -286,9 +301,14 @@
       "sha256": "28b90685eb136a213e1f0b32ed6b30040c8cd12eee26bbf718a604b19ec38f12"
     },
     {
+      "path": "tests/project-comparison.test.mjs",
+      "bytes": 14709,
+      "sha256": "bde5810687977a32d037b1bb102176f6f70c9fd649dec6ab532cea9c9b4ce7a0"
+    },
+    {
       "path": "tests/project-expansion.test.mjs",
-      "bytes": 9083,
-      "sha256": "b144a6e4295ce17300108c8793c506d084b90351d262e5cff77eb38d4d58bbc8"
+      "bytes": 8839,
+      "sha256": "b7e35db68de85b2a8b36e29b9c2a46f3e6ad8a0ba8dcc74366f262f7a55167db"
     },
     {
       "path": "tests/project-final10.test.mjs",
@@ -337,13 +357,13 @@
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 20094,
-      "sha256": "afab69fa512132b317bebe7334e9a77ead10aff0e3a341da04ad739665370556"
+      "bytes": 20111,
+      "sha256": "159ed96ce3a925430d081491328a2370b590a76b393f2aecbc694a96ed982fbd"
     },
     {
       "path": "tests/resource-versions.test.mjs",
-      "bytes": 5053,
-      "sha256": "c23d42d55726e5f13901d9eaa7ab723f25041fa112b83f6d9b5dbd4a150bedaa"
+      "bytes": 5077,
+      "sha256": "abadbd056289ad25cfd5aaab8858b7a2236c6545e6a58df5b43a90db5ab1f339"
     },
     {
       "path": "tests/summary-navigation.test.mjs",
@@ -362,5 +382,12 @@
     "baseCommit": "01e9b41019971e7c5b5a21eca4ca773966ec6664",
     "scope": "Render three supervisor-association phrases in plain Chinese; original data and qualification evidence unchanged",
     "validation": "Local Node and DOM checks; deployment and browser acceptance require separate verification"
+  },
+  "approvedDesign": {
+    "baseCommit": "e1fee31499ece3e06ab19bde1021d6be231cdf4d",
+    "referencePages": "20-32",
+    "templates": 13,
+    "dataChanged": false,
+    "verification": "Local data, DOM and design-contract checks. Browser visual verification remains separate."
   }
 }

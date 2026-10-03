@@ -210,3 +210,52 @@ CityU主域普通研究学位流程 Important Date 于2026-10-03直接核读为2
 ## 2026-10-03 导师关联文案整理
 
 以 01e9b41019971e7c5b5a21eca4ca773966ec6664 为基线，仅在展示层将三种含 routeAssociations 的说明改为读者可理解的中文，保留名额、指导资格及授课型硕士限制。项目卡片、项目摘要、导师详情和比较共用此转换，原始数据与布局不变。新增三项 Node/DOM 回归，286 项通过；既有测试断言原样保留，仅更新有意变更模块及追加测试的精确哈希。此记录不代表真实浏览器、部署或用户审美验收。
+
+
+## Approved F2 interface candidate · 2026-10-03
+
+Baseline: remote `main` at `e1fee31499ece3e06ab19bde1021d6be231cdf4d`. All 65 repository blobs were checked against that authorized remote tree before implementation. All 10 JSON data files remain byte-identical; a dedicated test locks those Git blob hashes.
+
+The complete recommended design's GradCompass reference pages 20–32 were inspected as original image pixels. The implementation uses the reference's white/copper editorial structure, six primary sections, sidebar filtering, row separators, source-aware reading rails, timeline groups, and semantic comparison table. It does not turn fictional mockup institutions, photos, accounts, dates, totals or qualifications into site data.
+
+### Reference evaluation
+
+| PDF page | Template | Candidate implementation | Intentional evidence-preserving adaptation |
+| --- | --- | --- | --- |
+| 20 | Advisor discovery | Copper active navigation, large title/search, left filters, structured rows and actions | Decorative initials replace unlicensed fictional robot photos; all 48 opportunities stay visible/filterable |
+| 21 | Projects | Research introduction, training, qualifications and per-project selection | Only the 27 verified academic routes can enter project comparison; RA stays separate |
+| 22 | Deadlines | Source-date-aware groups, date column, status and internal detail action | Counts and dates are computed from actual records; no example deadlines copied |
+| 23 | Materials | Readable requirement rows, school/degree filters and internal reading | Existing 14 source-backed groups preserved instead of inventing generic mandatory lists |
+| 24 | Experiences | Synthesis, search/background filters, summary/method/boundary rows | Original source remains after internal reading, with self-report caveats intact |
+| 25 | Sources | Three evidence levels, existing verification rules, update state and source entries | No fabricated update log or account controls |
+| 26 | Advisor detail | Full-width reading surface and application/source rail | Professional profiles, exact titles, source conflicts and recruitment qualifications preserved |
+| 27 | RA detail | RA-specific heading and rail with employment caveat and source links | Employment requirements, contract/date/work-permit limits preserved; no implied degree offer |
+| 28 | Project detail | Main reading column, key project/source rail and related materials/date links | Full original introduction, qualifications, cycle, association limits and sources retained |
+| 29 | Date detail | Exact date/time/timezone and source rail | Unknown times stay unknown; independent registration/recommendation deadlines are not invented |
+| 30 | Material detail | Structured requirement reading and preparation/source rail | Conditions, scope, unknowns and official sources remain intact |
+| 31 | Experience detail | Summary-first reading, contents controls, background/method/boundary/source sections | In-page contents do not overwrite hash routing or reading history |
+| 32 | Comparison | 2–3 project columns, remove, difference-only, detail/source links and accessible horizontal scroll | Full source-backed qualification/cycle limits retained; unknown funding is explicit |
+
+### Design and accessibility checks
+
+- System sans fonts only; no font downloads or third-party asset requests
+- 18px main text on desktop, 16px on narrow screens; metadata at least 14px, controls at least 16px with 44px targets
+- 8px controls, 12px panels, shared neutral/copper colors, restrained borders
+- Text contrast ratios: main 17.93:1, body 10.49:1, secondary 5.54:1, copper 5.95:1, caution 5.79:1 on their respective backgrounds
+- 160ms color transitions, 220ms reader entry, reduced-motion opt-out
+- Keyboard-visible focus, native menu and filters, screen-reader status counts, empty/loading states
+- Existing filtering, source text, qualification and history regression checks retained; obsolete illustrated-landing assertions intentionally migrated to F2 contracts
+- Existing data/runtime integrity assertions remain; superseded CSS-prefix and test-file byte snapshots are replaced by explicit F2 behavior/type/layout contracts plus exact source-data hashes
+
+### Verification boundaries
+
+Node tests and DOM-contract tests validate state transitions, markup, source preservation and declared responsive CSS. HTML parsing found no duplicate IDs, unclosed tags or mismatched tags. These checks do not establish browser layout or pixel parity.
+
+Candidate browser screenshots and real narrow-viewport acceptance have not run. Local preview routes are unavailable in the current review workflow, and no alternate route was used to bypass that restriction. Pixel comparison must be performed on an authorized deployed candidate before final visual acceptance. No claim of deployment or user aesthetic acceptance is made here.
+
+Final local validation after integration fixes: `npm test` passed 326/326 (0 failed). This includes 16 new pure comparison tests, 18 independent comparison-navigation contracts and 6 F2 design/data-boundary tests. Syntax checks passed for the changed application, experience and comparison modules; `git diff --check` passed. Browser visual acceptance remains unverified as noted above.
+
+
+Independent-review fixes: comparison controls now have stable focus identities. Removing a column focuses the next surviving removal control; optional-data rerenders restore the current toggle, source or detail control without moving dialog scroll or stealing focus from the persistent Close control. Invalid replayed project/advisor/date/material URLs replace prior content with an explicit recoverable missing-record reader. Regression tests cover current-node focus (not detached nodes) and valid → invalid → Back → Forward navigation. The independent reproduction script now reports no detached focus and no stale detail content.
+
+The keyboard-focus regression also models the tabindex table region and third-column source/detail controls. Optional-data rerenders preserve the current focus node identity, dialog scrollTop and table scrollLeft; 326 aggregate contracts pass.

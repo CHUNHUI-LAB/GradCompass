@@ -5,19 +5,17 @@ import fs from 'node:fs';
 import crypto from 'node:crypto';
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url),'utf8');
 const html=read('index.html'),css=read('assets/style.css'),app=read('assets/app.js');
-test('editorial discovery is search-first with synthesis retained before results',()=>{
- assert(html.indexOf('class="search-surface"')<html.indexOf('class="landing-guide"'));
- assert(html.indexOf('class="landing-guide"')<html.indexOf('id="page-overview"'));
+test('F2 discovery is search-first with six clear sections and synthesis before results',()=>{
+ assert(html.indexOf('class="search-surface"')<html.indexOf('id="page-overview"'));
  assert(html.indexOf('id="page-overview"')<html.indexOf('id="results"'));
  for(const id of ['search','institution-filter','topic-filter','rank-filter','opportunity-filter','opening-filter','reset-filters'])assert.equal((html.match(new RegExp('id="'+id+'"','g'))||[]).length,1,id);
+ const nav=html.match(/<nav[\s\S]*?<\/nav>/)[0];for(const id of ['advisors','routes','deadlines','materials','experiences','sources'])assert(nav.includes('href="#'+id+'"'));
  assert(html.includes('class="advanced-filters"'));assert(html.includes('查看筛选结果'));
 });
-test('landing navigation is internal and fictional scenery cannot impersonate an institution',()=>{
- const guide=html.split('class="landing-guide"')[1].split('id="page-overview"')[0];
- for(const v of ['advisors','routes','experiences'])assert(guide.includes('href="#'+v+'"'));
- assert(!guide.includes('https://'));assert(html.includes('AI 校园意境插画 · 非真实院校'));
- assert(html.includes('class="campus-art"'));assert(html.includes('src="./assets/campus-art.webp" alt=""'));
- assert(css.includes('.hero-title-accent{color:var(--accent)}'));assert(css.includes('prefers-reduced-motion'));
+test('F2 uses real records without fictional institution imagery or account controls',()=>{
+ assert(!html.includes('campus-art'));assert(!html.includes('class="landing-guide"'));
+ assert(html.includes('class="brand-compass"'));assert(!html.includes('登录'));assert(css.includes('prefers-reduced-motion'));
+ assert(css.includes('--accent:#9a4f2d'));assert(css.includes('font-size:18px'));assert(!css.includes('@import'));
 });
 test('search action moves focus to existing results without changing routing or collecting data',()=>{
  assert(app.includes("evt.target.closest('[data-find-results]')"));

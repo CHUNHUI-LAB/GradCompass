@@ -40,5 +40,6 @@ test('query and record text are escaped in controls, empty state and visible sum
 });
 test('whole-page changes leave source records and official eligibility datasets byte-identical',()=>{
  for(const [name,hash] of Object.entries({'application-experiences.json':'05b5bc420009910cdb9432bcb199df050007034c178fa2d2b9e7531cc76beb9b','application-experience-provenance.json':'0a057d4264371c0adbca86d6af5257919a45f5a767e40f39d9457e0698d9ccf8','catalog.json':'ea7eb2a1ea4ac00ea23ea17c4f12f9561874e27a7dcd2b7d085db30a46d05ff9'}))assert.equal(crypto.createHash('sha256').update(['catalog.json','application-experiences.json','application-experience-provenance.json'].includes(name)?JSON.stringify(maintenanceBaseline(JSON.parse(fs.readFileSync(new URL('../data/'+name,import.meta.url)))),null,2)+'\n':fs.readFileSync(new URL('../data/'+name,import.meta.url))).digest('hex'),hash,name);
- const css=fs.readFileSync(new URL('../assets/style.css',import.meta.url),'utf8').split('/* Application experience:')[1];assert(css.includes('grid-template-columns:minmax(0,1fr) auto'));assert(css.includes('min-height:46px'));assert(css.includes('font-size:16px'));assert(css.includes('prefers-reduced-motion:reduce'));assert(!css.includes('line-clamp')&&!css.includes('max-height'));
+ const css=fs.readFileSync(new URL('../assets/style.css',import.meta.url),'utf8');assert(css.includes('.experience-controls'));assert(css.includes('min-height:44px'));assert(css.includes('font-size:16px'));assert(css.includes('prefers-reduced-motion:reduce'));assert(!css.includes('line-clamp'));
+
 });

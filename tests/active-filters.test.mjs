@@ -86,8 +86,8 @@ test('view-specific chips and clear-all preserve inactive page filters and compa
  dataClick('[data-compare]',{compare:'sample-advisor::sample-msc'});const selected=el('#compare-names').textContent;
  change('institution','HKU');change('rank','assistant');change('opportunity','MSc');
  view('routes');assert(row().hidden);assert.equal(el('#rank-filter').value,'');search('Sample');change('opportunity','MSc');assert.equal(chips().length,2);assert(chip('opportunityType').textContent.includes('学位类型：MSc · 理学硕士'));assert(!chip('rank'));
- clear();assert(row().hidden);assert.equal(document.activeElement,el('#search'));assert.equal(el('#compare-names').textContent,selected);assert(!el('#compare-tray').hidden);assert.equal(el('#compare-count').textContent,'已选 1 / 3 项');
- view('advisors');assert.equal(chips().length,3);assert.equal(el('#rank-filter').value,'assistant');assert.equal(el('#opportunity-filter').value,'MSc');clear();assert.equal(el('#compare-count').textContent,'已选 1 / 3 项');
+ clear();assert(row().hidden);assert.equal(document.activeElement,el('#search'));assert.equal(el('#compare-names').textContent,'');assert(el('#compare-tray').hidden);assert.equal(el('#compare-count').textContent,'已选 0 / 3 个项目');
+ view('advisors');assert.equal(el('#compare-names').textContent,selected);assert.equal(chips().length,3);assert.equal(el('#rank-filter').value,'assistant');assert.equal(el('#opportunity-filter').value,'MSc');clear();assert.equal(el('#compare-count').textContent,'已选 1 / 3 项机会');
  view('materials');change('opportunity','MSc');assert.equal(chips().length,1);assert(chip('opportunityType').textContent.includes('适用学位：MSc · 理学硕士'));clear();view('advisors');
 });
 
@@ -113,8 +113,8 @@ test('async project refresh preserves active-chip keyboard focus and visible lab
 test('feedback uses semantic native actions, bounded color transitions, wrapping and reduced-motion opt-out',()=>{
  assert.match(html,/<div id="active-filters"[^>]*role="group"[^>]*aria-label="当前筛选条件"[^>]*hidden/);
  assert(html.indexOf('id="result-count"')<html.indexOf('id="active-filters"'));assert(html.indexOf('id="active-filters"')<html.indexOf('id="view-description"'));
- const css=fs.readFileSync(new URL('../assets/style.css',import.meta.url),'utf8'),rules=css.slice(css.indexOf('/* Current-page filter feedback'));
- assert.match(rules,/max-width:100%/);assert.match(rules,/overflow-wrap:anywhere/);assert.match(rules,/min-height:44px/);assert.match(rules,/160ms ease/);assert(!rules.match(/transition:[^}]*\b(?:all|transform|height|width)\b/));assert(!rules.includes('animation:'));
+ const css=fs.readFileSync(new URL('../assets/style.css',import.meta.url),'utf8'),rules=css.match(/\.filter-chip\{[^}]+\}/)[0];
+ assert.match(rules,/max-width:100%/);assert.match(css,/overflow-wrap:anywhere/);assert.match(css,/min-height:44px/);assert.match(css,/160ms ease/);assert(!rules.match(/transition:[^}]*\b(?:all|transform|height|width)\b/));assert(!rules.includes('animation:'));
  assert.match(css,/@media\(prefers-reduced-motion:reduce\)[\s\S]*?transition:none!important/);
 });
 

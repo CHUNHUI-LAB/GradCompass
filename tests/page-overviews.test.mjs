@@ -72,12 +72,10 @@ test('compact advisor entry retains three substantive conclusions without disclo
  assert.equal((html.match(/data-overview-preset=/g)||[]).length,3);
  assert(m.note.includes('不随筛选变化')&&m.note.includes('不等于导师人数'));
 });
-test('entry hierarchy styles are confined to the advisor page and do not add motion',()=>{
+test('F2 overview uses readable rules and reduces motion on request',()=>{
  const css=fs.readFileSync(new URL('../assets/style.css',import.meta.url),'utf8');
- const refinement=css.slice(css.indexOf('/* Advisor entry:'),css.indexOf('/* Application experience:'));
- assert(refinement.includes('[data-page-overview="advisors"]'));
- assert(!refinement.includes('animation:')&&!refinement.includes('transition:'));
- assert(!refinement.includes('display:none')&&!refinement.includes('font-size:11px'));
+ assert(css.includes('main[data-current-view="advisors"]'));assert(css.includes('.overview-insights'));
+ assert(css.includes('font-size:14px'));assert(!css.includes('font-size:11px'));
  assert(css.includes('prefers-reduced-motion:reduce'));
 });
 

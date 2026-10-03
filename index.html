@@ -8,32 +8,31 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>GradCompass · 找导师与项目</title>
 <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
-<link rel="stylesheet" href="./assets/style.css?v=5b180411f064">
-<script type="module" src="./assets/app.js?v=37c0ba6bd52a"></script>
+<link rel="stylesheet" href="./assets/style.css?v=7492aec8f673">
+<script type="module" src="./assets/app.js?v=3d390cc4fc65"></script>
 </head>
 <body>
 <a class="skip-link" href="#results">跳到结果</a>
 <header class="site-header">
-  <a class="brand" href="#advisors" aria-label="GradCompass 首页"><span>Grad<span class="brand-copper">Compass</span></span></a>
+  <a class="brand" href="#advisors" aria-label="GradCompass 首页"><svg class="brand-compass" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="17" stroke="currentColor" stroke-width="1.7"/><path d="m27 12-5 11-10 5 5-11Z" stroke="currentColor" stroke-width="1.7"/><path d="m27 12-7 8-3-3Z" fill="currentColor"/></svg><span>GradCompass</span></a>
   <button id="menu-toggle" class="menu-toggle" type="button" aria-label="展开主导航" aria-expanded="false" aria-controls="primary-nav"><span aria-hidden="true">☰</span></button>
   <nav aria-label="主导航" id="primary-nav">
     <a href="#advisors" data-view="advisors" aria-current="page"><span>找导师</span><small class="nav-purpose">看方向与招生</small></a>
-    <a href="#routes" data-view="routes"><span>找项目</span><small class="nav-purpose">查学位与条件</small></a>
-    <a href="#deadlines" data-view="deadlines"><span>申请日历</span><small class="nav-purpose">查截止日期</small></a>
-    <a href="#materials" data-view="materials"><span>准备材料</span><small class="nav-purpose">查官方材料要求</small></a>
+    <a href="#routes" data-view="routes"><span>申请项目</span><small class="nav-purpose">查学位与条件</small></a>
+    <a href="#deadlines" data-view="deadlines"><span>截止日期</span><small class="nav-purpose">查截止日期</small></a>
+    <a href="#materials" data-view="materials"><span>申请材料</span><small class="nav-purpose">查官方材料要求</small></a>
     <a href="#experiences" data-view="experiences"><span>申请经验</span><small class="nav-purpose">看他人申请经历</small></a>
+    <a href="#sources" data-view="sources"><span>信息来源</span><small class="nav-purpose">核对证据与更新</small></a>
   </nav>
-  <p class="header-motto">更清晰的选择 · 走向更广阔的学术世界</p>
+  <span class="header-motto">公开信息整理 · 申请前请核对</span>
 </header>
 <main>
-  <div class="discovery-hero">
-  <div class="hero-art" aria-hidden="true"><img class="campus-art" src="./assets/campus-art.webp" alt="" width="1860" height="846"><div class="compass-rose"><svg viewBox="0 0 160 160" fill="none" aria-hidden="true"><path d="M80 9 87 68 149 80 88 87 80 150 72 89 11 80 72 72Z" fill="#f4e3d3" stroke="#a76d48" stroke-width=".7"/><path d="M80 9 80 80 87 68ZM149 80 80 80 88 87ZM80 150 80 80 72 89ZM11 80 80 80 72 72Z" fill="#a56642"/><path d="M45 45 75 65 111 43 94 72 115 114 85 96 43 115 64 85Z" stroke="#b88461" stroke-width=".7"/><circle cx="80" cy="80" r="3" fill="#9c5c39"/></svg></div><p>探索<br>连接<br>看见更广阔的可能</p></div>
   <section class="intro" aria-labelledby="page-title">
-    <div><p class="eyebrow">RESEARCH · PEOPLE · POSSIBILITIES</p><h1 id="page-title">找到适合你的<span class="hero-title-accent">研究方向</span></h1><p id="page-description">了解导师与项目，从信息整理走向清晰选择</p></div>
+    <div><p class="eyebrow">GRADUATE RESEARCH · SOURCE-BACKED</p><h1 id="page-title">找到适合你的研究方向</h1><p id="page-description">了解导师与项目，从信息整理走向清晰选择</p></div>
     <div class="edition"><span id="checked-date">核验于 2026-10-01</span><a href="#sources">每日检查已启用 · 首轮待验证</a></div>
   </section>
   <section class="search-surface" aria-label="搜索机会">
-    <label class="search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><span id="search-label" class="sr-only">搜索导师、学校、研究方向或项目</span><input id="search" type="search" placeholder="搜索导师、研究方向或项目…" autocomplete="off"><kbd aria-hidden="true">/</kbd></label><button class="search-go" type="button" data-find-results aria-label="查看筛选结果">→</button>
+    <label class="search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><span id="search-label" class="sr-only">搜索导师、学校、研究方向或项目</span><input id="search" type="search" placeholder="搜索导师、研究方向或项目…" autocomplete="off"><kbd aria-hidden="true">/</kbd></label><button class="search-go" type="button" data-find-results aria-label="查看筛选结果">搜索</button>
     
   </section>
     <aside class="filters" aria-label="筛选条件">
@@ -43,7 +42,7 @@
       <label id="opportunity-filter-label"><span id="opportunity-filter-name">申请类型</span><select id="opportunity-filter"><option value="">全部申请类型</option><option value="RA">RA · 研究助理</option><option value="MSc">MSc · 理学硕士</option><option value="MPhil">MPhil · 研究型硕士</option><option value="PhD">PhD · 博士</option></select></label>
 
 <a href="#results" class="find-results" data-find-results>查看筛选结果 <span aria-hidden="true">→</span></a>
-      <details class="advanced-filters"><summary>更多筛选与说明</summary><div class="advanced-filter-grid">      <p id="opportunity-filter-note" class="small-note">MSc、MPhil、PhD 是学位；RA 是研究助理工作岗位</p>      <label id="rank-filter-label">导师职级<select id="rank-filter"><option value="">全部职级</option><option value="professor">教授 · Professor</option><option value="associate">副教授 · Associate Professor</option><option value="assistant">助理教授 · Assistant Professor</option><option value="research">研究系列 · Research</option><option value="other">其他职衔</option><option value="unknown">职级待核实</option></select></label>
+      <details class="advanced-filters"><summary>导师职级与招生信息</summary><div class="advanced-filter-grid">      <p id="opportunity-filter-note" class="small-note">MSc、MPhil、PhD 是学位；RA 是研究助理工作岗位</p>      <label id="rank-filter-label">导师职级<select id="rank-filter"><option value="">全部职级</option><option value="professor">教授 · Professor</option><option value="associate">副教授 · Associate Professor</option><option value="assistant">助理教授 · Assistant Professor</option><option value="research">研究系列 · Research</option><option value="other">其他职衔</option><option value="unknown">职级待核实</option></select></label>
       <p id="rank-filter-note" class="small-note">按原职衔归类；与新入职、指导资格及招生名额分开</p>
       <label id="opening-filter-label"><span id="opening-filter-name">招生信息</span><select id="opening-filter"><option value="">全部招生信息</option><option value="explicit">已找到招生说明</option><option value="unknown">招生年份或名额待确认</option><option value="closed">已明确停止招生</option></select></label>
       <p class="small-note" id="opening-filter-note">有招生说明不代表当年仍有名额；RA 按岗位招聘信息筛选</p>
@@ -51,17 +50,6 @@
       <div class="filter-heading"><h2 id="filter-title">筛选导师</h2><button id="reset-filters" class="text-button">重置</button></div>
     </aside>
 
-  <p class="art-caption">AI 校园意境插画 · 非真实院校</p>
-  </div>
-  <section class="landing-guide" aria-labelledby="guide-title">
-    <div class="guide-heading"><h2 id="guide-title">申请，先看清这几件事</h2><span></span><p>从关键信息出发，建立自己的申请地图</p></div>
-    <div class="guide-links">
-      <a href="#advisors" data-find-results><span class="guide-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"><path d="M4 5c4-2 7-1 8 1 1-2 4-3 8-1v15c-4-2-7-1-8 1-1-2-4-3-8-1zM12 6v15"/></svg></span><div><h3>导师与课题组</h3><p>研究主题、近期工作与团队信息</p><span class="guide-arrow" aria-hidden="true">→</span></div></a>
-      <a href="#routes"><span class="guide-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"><path d="M7 3h8l4 4v15H5V3zM14 3v5h5M8 12h8M8 16h8M8 19h5"/></svg></span><div><h3>项目与要求</h3><p>培养方式、申请资格与材料清单</p><span class="guide-arrow" aria-hidden="true">→</span></div></a>
-      <a href="#experiences"><span class="guide-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m16 8-3 6-5 2 3-6z"/></svg></span><div><h3>申请经验</h3><p>先读归纳，再看不同背景的真实经历</p><span class="guide-arrow" aria-hidden="true">→</span></div></a>
-    </div>
-    <div class="experience-banner"><span class="book-art" aria-hidden="true"><svg viewBox="0 0 140 80" fill="none" stroke="currentColor" stroke-width=".8"><path d="M4 70Q20 51 40 64Q28 26 93 5Q57 33 40 64Q60 29 110 22Q70 43 40 64Q78 44 122 46L132 66Q86 54 40 64Q73 60 115 75M40 64Q24 67 9 76M40 64Q82 38 114 34L125 53M40 64Q61 18 100 12L107 21"/></svg></span><div><h3>经验怎么用</h3><p>结合申请年份与个人背景阅读，重要规则回到官方来源核对。</p></div><a href="#experiences">浏览经验 <span aria-hidden="true">→</span></a></div>
-  </section>
   <div id="page-overview" hidden></div>
   <div class="workspace">
 
@@ -76,8 +64,8 @@
 </main>
 <footer><span>GradCompass <span class="footer-divider">/</span> 让申请信息有据可查</span><a href="#sources" data-view="sources">数据说明与更新状态</a><span>不收集个人材料 · 无追踪分析</span></footer>
 <div id="compare-tray" class="compare-tray" hidden><div><strong id="compare-count">已选 0 项</strong><span id="compare-names"></span></div><button id="compare-clear" class="text-button">清空</button><button id="compare-open" class="primary-button" disabled>比较已选机会</button></div>
-<dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-top"><span id="detail-kind" class="eyebrow">信息摘要</span><button id="detail-back" class="detail-button" type="button">← 返回结果</button><button class="close-button" data-close="detail-dialog" aria-label="关闭详情">关闭 <span aria-hidden="true">×</span></button></div><div id="detail-content"></div></dialog>
-<dialog id="compare-dialog" class="compare-dialog" aria-labelledby="compare-title"><div class="dialog-top"><h2 id="compare-title">研究机会比较</h2><button class="close-button" data-close="compare-dialog" aria-label="关闭比较">关闭 <span aria-hidden="true">×</span></button></div><div id="compare-content"></div></dialog>
+<dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-top"><span class="reader-brand">GradCompass</span><span id="detail-kind" class="eyebrow">信息摘要</span><button id="detail-back" class="detail-button" type="button">← 返回结果</button><button class="close-button" data-close="detail-dialog" aria-label="关闭详情">关闭 <span aria-hidden="true">×</span></button></div><div id="detail-content"></div></dialog>
+<dialog id="compare-dialog" class="compare-dialog" aria-labelledby="compare-title"><div class="dialog-top"><h2 id="compare-title">把申请选择放在一起看</h2><button class="close-button" data-close="compare-dialog" aria-label="关闭比较">关闭 <span aria-hidden="true">×</span></button></div><div id="compare-content"></div></dialog>
 <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
 <noscript><p class="noscript">交互筛选需要 JavaScript。仍可直接阅读 <a href="./data/catalog.json">公开数据文件</a></p></noscript>
 </body>
