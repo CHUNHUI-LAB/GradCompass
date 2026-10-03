@@ -259,3 +259,10 @@ Final local validation after integration fixes: `npm test` passed 326/326 (0 fai
 Independent-review fixes: comparison controls now have stable focus identities. Removing a column focuses the next surviving removal control; optional-data rerenders restore the current toggle, source or detail control without moving dialog scroll or stealing focus from the persistent Close control. Invalid replayed project/advisor/date/material URLs replace prior content with an explicit recoverable missing-record reader. Regression tests cover current-node focus (not detached nodes) and valid → invalid → Back → Forward navigation. The independent reproduction script now reports no detached focus and no stale detail content.
 
 The keyboard-focus regression also models the tabindex table region and third-column source/detail controls. Optional-data rerenders preserve the current focus node identity, dialog scrollTop and table scrollLeft; 326 aggregate contracts pass.
+
+
+### Deployed browser checks and narrow reader correction
+
+The F2 tree was merged via PR #1 at `f01bdcee38b52537fb34e292fa698cbe7079897c`; its Pages run `37135987182` succeeded. Live entry script and stylesheet hashes matched the reviewed release. The cloud browser was tested at 1167px desktop and 388px narrow widths, with actual native window resizing and ordinary browser zoom. All six section roots stayed within their viewports. Live checks covered RA filtering and employment boundaries, two/three-project comparison, keyboard removal and difference toggle, related project detail and Back, date/time/timezone display, materials, experience contents and restored list focus, plus opening the official HKUST source. Comparison overflow stayed inside its keyboard-accessible table region, and horizontal offset remained through toggling.
+
+At 323px, the reader header's short metadata label could shrink into a one-character vertical column. The follow-up sets its flex basis to auto and prevents word wrapping, allowing action controls onto a separate row. A regression contract covers this rule. This section records actual browser checks; full user aesthetic acceptance is not claimed.
