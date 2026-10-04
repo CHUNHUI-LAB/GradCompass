@@ -11356,6 +11356,1586 @@
         },
         "checked_date": "2026-10-04"
       }
+    },
+    {
+      "id": "westlake-zexi-liang",
+      "name": "Zexi Liang",
+      "nameZh": "梁泽西",
+      "institution": "Westlake",
+      "department": "工学院，电子与信息工程系",
+      "position": "Assistant Professor / PhD Supervisor",
+      "lab": "Small-Scale Precision Robotics Laboratory",
+      "topics": [
+        "small_scale_robotics",
+        "intelligent_microsystems",
+        "microrobotics",
+        "robotic_control",
+        "surgical_robotics"
+      ],
+      "summary": "小尺度与微纳机器人、智能微系统及多物理驱动控制；偏微型装配、集群控制和手术机器人末端工具。",
+      "profileUrl": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+      "labUrl": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+      "email": "liangzexi@westlake.edu.cn",
+      "works": [
+        {
+          "title": "Magnetic Decoupling as a Proofreading Strategy for High-Yield, Time-Efficient Microscale Self-Assembly",
+          "year": 2025,
+          "venue": "PNAS",
+          "url": "https://doi.org/10.1073/pnas.2502361122"
+        },
+        {
+          "title": "Magnetically programmed diffractive robotics",
+          "year": 2024,
+          "venue": "Science",
+          "url": "https://doi.org/10.1126/science.adr2177"
+        },
+        {
+          "title": "Light-Stimulated Micromotor Swarms in an Electric Field",
+          "year": 2023,
+          "venue": "Science Advances",
+          "url": "https://doi.org/10.1126/sciadv.adi9932"
+        }
+      ],
+      "routeIds": [
+        "westlake-ee-phd"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "westlake-ee-phd",
+          "degree": "PhD",
+          "status": "verified",
+          "summary": "官方教师页显示该导师归属相应学科；项目批次与PI当轮名额仍需单独核实",
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "eligibility": "verified",
+      "eligibilityMeaning": "至少一条本科起点、无需推免、无需先获硕士的官方路径及导师/项目关联已记录；个人资格未评估",
+      "defaultVisible": true,
+      "opening": "explicit",
+      "openingSummary": "官方教师页公开持续招募 PhD/RA 等；未出现 Fall 2028 专属名额，2027 仅作校级招生参考",
+      "openings": {
+        "mphil": "本轮未发现PI专属MPhil名额；不等于不招生",
+        "msc": "未验证该PI对应的授课型MSc定导通道",
+        "phd": "官方 Contact Us 明确持续招 Ph.D. students；未写入学年份或 Fall 2028 余位",
+        "ra": "官方 Contact Us 明确持续招 research assistants；具体岗位余额和学历门槛需直接确认",
+        "cycle2027": "未发现该PI明确 Fall 2027 名额；校级2027通知仅作参考",
+        "cycle2028": "未发现该PI明确 Fall 2028 名额"
+      },
+      "openingDetails": [
+        {
+          "degree": "MPhil",
+          "status": "unknown",
+          "summary": "未发现该PI的MPhil专属公开名额；不等于不招生",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "not_found",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "MSc",
+          "status": "unknown",
+          "summary": "未验证该PI对应的授课型MSc定导通道，不以科研导师名单充当MSc席位",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "not_verified_for_this_pi",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "PhD",
+          "status": "explicit",
+          "summary": "官方 Contact Us 明确持续招 Ph.D. students；未写入学年份或 Fall 2028 余位",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "evergreen_public_recruiting",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "RA",
+          "status": "explicit",
+          "summary": "官方 Contact Us 明确持续招 research assistants；具体岗位余额和学历门槛需直接确认",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "evergreen_public_recruiting",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": true,
+        "window": "calendar-year-2026",
+        "date": "2026-07",
+        "note": "官方教师页明确2026年7月加入；这不是2028招生承诺",
+        "sources": [
+          {
+            "label": "西湖大学官方教师页",
+            "url": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+            "checkedDate": "2026-10-04"
+          }
+        ],
+        "dateEvidenceVerified": true
+      },
+      "appointment": {
+        "date": "2026-07",
+        "event": "官方教师页写明2026年7月加入西湖大学工学院",
+        "source": "https://en.westlake.edu.cn/faculty/zexi-liang.html"
+      },
+      "sources": [
+        {
+          "label": "西湖大学官方教师页",
+          "url": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "导师/实验室官方主页",
+          "url": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "caveats": [
+        "持续招募或开放岗位不等于 Fall 2028 余位；仍需向导师确认名额、资助与学校申请轮次",
+        "已核实的西湖2027普博第一批已截止；后续批次以学校新公告为准"
+      ],
+      "checkedDate": "2026-10-04",
+      "sourceFile": "westlake-official-faculty-review-2026-10-04",
+      "sourceRecord": {
+        "id": "westlake-zexi-liang",
+        "name": "梁泽西 Zexi Liang",
+        "school": "西湖大学",
+        "unit": "工学院，电子与信息工程系",
+        "role": "Assistant Professor / PhD Supervisor",
+        "lab": "Small-Scale Precision Robotics Laboratory",
+        "official_profile_url": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+        "lab_url": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+        "research_tags": [
+          "small_scale_robotics",
+          "intelligent_microsystems",
+          "microrobotics",
+          "robotic_control",
+          "surgical_robotics"
+        ],
+        "program_ids": [
+          "westlake-ee-phd"
+        ],
+        "program_association_evidence": [
+          "https://en.westlake.edu.cn/faculty/zexi-liang.html"
+        ],
+        "research_summary": "小尺度与微纳机器人、智能微系统及多物理驱动控制；偏微型装配、集群控制和手术机器人末端工具。",
+        "representative_outputs": [
+          {
+            "title": "Magnetic Decoupling as a Proofreading Strategy for High-Yield, Time-Efficient Microscale Self-Assembly",
+            "year": 2025,
+            "venue": "PNAS",
+            "url": "https://doi.org/10.1073/pnas.2502361122"
+          },
+          {
+            "title": "Magnetically programmed diffractive robotics",
+            "year": 2024,
+            "venue": "Science",
+            "url": "https://doi.org/10.1126/science.adr2177"
+          },
+          {
+            "title": "Light-Stimulated Micromotor Swarms in an Electric Field",
+            "year": 2023,
+            "venue": "Science Advances",
+            "url": "https://doi.org/10.1126/sciadv.adi9932"
+          }
+        ],
+        "public_openings": {
+          "MPhil": {
+            "status": "not_found",
+            "detail": "本轮未发现PI专属MPhil名额"
+          },
+          "MSc": {
+            "status": "not_verified_for_this_pi",
+            "detail": "未验证该PI对应授课型MSc定导通道"
+          },
+          "PhD": {
+            "status": "evergreen",
+            "detail": "官方 Contact Us 明确持续招 Ph.D. students；未写入学年份或 Fall 2028 余位",
+            "source": "https://en.westlake.edu.cn/faculty/zexi-liang.html"
+          },
+          "RA": {
+            "status": "evergreen",
+            "detail": "官方 Contact Us 明确持续招 research assistants；具体岗位余额和学历门槛需直接确认",
+            "source": "https://en.westlake.edu.cn/faculty/zexi-liang.html"
+          }
+        },
+        "appointment": {
+          "date": "2026-07",
+          "event": "官方教师页写明2026年7月加入西湖大学工学院",
+          "source": "https://en.westlake.edu.cn/faculty/zexi-liang.html"
+        },
+        "checked_at": "2026-10-04",
+        "verification_status": "本科起点且无需推免的至少一条学位路径已核实；具体批次、名额和个人资格分开判断"
+      }
+    },
+    {
+      "id": "westlake-wei-wang",
+      "name": "Wei Wang",
+      "nameZh": "王伟",
+      "institution": "Westlake",
+      "department": "工学院",
+      "position": "Assistant Professor / Independent PI / PhD Supervisor",
+      "lab": "Intelligent Microrobotics Laboratory",
+      "topics": [
+        "intelligent_microrobotics",
+        "micro_nano_actuators",
+        "CMOS_robotics",
+        "swarm_behavior",
+        "microfabrication"
+      ],
+      "summary": "CMOS 集成智能微机器人、微纳执行器和移动微机器人；研究电子脉冲耦合与微型机器人集群行为。",
+      "profileUrl": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+      "labUrl": "https://wangwei.lab.westlake.edu.cn/",
+      "email": "wangwei66@westlake.edu.cn",
+      "works": [
+        {
+          "title": "Coordinated behavior of autonomous microscopic machines through local electronic pulse coupling",
+          "year": 2024,
+          "venue": "Science Robotics",
+          "url": "https://en.westlake.edu.cn/faculty/wei-wang.html"
+        },
+        {
+          "title": "Electronically configurable microscopic metasheet robots",
+          "year": 2024,
+          "venue": "Nature Materials",
+          "url": "https://en.westlake.edu.cn/faculty/wei-wang.html"
+        },
+        {
+          "title": "Cilia metasurfaces for electronically programmable microfluidic manipulation",
+          "year": 2022,
+          "venue": "Nature",
+          "url": "https://en.westlake.edu.cn/faculty/wei-wang.html"
+        }
+      ],
+      "routeIds": [
+        "westlake-ee-phd"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "westlake-ee-phd",
+          "degree": "PhD",
+          "status": "verified",
+          "summary": "官方教师页显示该导师归属相应学科；项目批次与PI当轮名额仍需单独核实",
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "eligibility": "verified",
+      "eligibilityMeaning": "至少一条本科起点、无需推免、无需先获硕士的官方路径及导师/项目关联已记录；个人资格未评估",
+      "defaultVisible": true,
+      "opening": "explicit",
+      "openingSummary": "官方教师页公开持续招募 PhD/RA 等；未出现 Fall 2028 专属名额，2027 仅作校级招生参考",
+      "openings": {
+        "mphil": "本轮未发现PI专属MPhil名额；不等于不招生",
+        "msc": "未验证该PI对应的授课型MSc定导通道",
+        "phd": "官方教师页明确研究组持续招 Ph.D. students；未写入学年份或 Fall 2028 余位",
+        "ra": "官方教师页明确持续招 research assistants；具体岗位余额需直接确认",
+        "cycle2027": "未发现该PI明确 Fall 2027 名额；校级2027通知仅作参考",
+        "cycle2028": "未发现该PI明确 Fall 2028 名额"
+      },
+      "openingDetails": [
+        {
+          "degree": "MPhil",
+          "status": "unknown",
+          "summary": "未发现该PI的MPhil专属公开名额；不等于不招生",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "not_found",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "MSc",
+          "status": "unknown",
+          "summary": "未验证该PI对应的授课型MSc定导通道，不以科研导师名单充当MSc席位",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "not_verified_for_this_pi",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "PhD",
+          "status": "explicit",
+          "summary": "官方教师页明确研究组持续招 Ph.D. students；未写入学年份或 Fall 2028 余位",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "evergreen_public_recruiting",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "RA",
+          "status": "explicit",
+          "summary": "官方教师页明确持续招 research assistants；具体岗位余额需直接确认",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "evergreen_public_recruiting",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "本轮未找到可据此确认的新入职日期；不从职称或页面顺序推断",
+        "sources": [
+          {
+            "label": "西湖大学官方教师页",
+            "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+            "checkedDate": "2026-10-04"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "date": "2025",
+        "event": "官方教师页时间线显示2025年加入西湖大学；本轮不把年份当作招生轮次",
+        "source": "https://en.westlake.edu.cn/faculty/wei-wang.html"
+      },
+      "sources": [
+        {
+          "label": "西湖大学官方教师页",
+          "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "导师/实验室官方主页",
+          "url": "https://wangwei.lab.westlake.edu.cn/",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "caveats": [
+        "持续招募或开放岗位不等于 Fall 2028 余位；仍需向导师确认名额、资助与学校申请轮次",
+        "已核实的西湖2027普博第一批已截止；后续批次以学校新公告为准"
+      ],
+      "checkedDate": "2026-10-04",
+      "sourceFile": "westlake-official-faculty-review-2026-10-04",
+      "sourceRecord": {
+        "id": "westlake-wei-wang",
+        "name": "王伟 Wei Wang",
+        "school": "西湖大学",
+        "unit": "工学院",
+        "role": "Assistant Professor / Independent PI / PhD Supervisor",
+        "lab": "Intelligent Microrobotics Laboratory",
+        "official_profile_url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+        "lab_url": "https://wangwei.lab.westlake.edu.cn/",
+        "research_tags": [
+          "intelligent_microrobotics",
+          "micro_nano_actuators",
+          "CMOS_robotics",
+          "swarm_behavior",
+          "microfabrication"
+        ],
+        "program_ids": [
+          "westlake-ee-phd"
+        ],
+        "program_association_evidence": [
+          "https://en.westlake.edu.cn/faculty/wei-wang.html"
+        ],
+        "research_summary": "CMOS 集成智能微机器人、微纳执行器和移动微机器人；研究电子脉冲耦合与微型机器人集群行为。",
+        "representative_outputs": [
+          {
+            "title": "Coordinated behavior of autonomous microscopic machines through local electronic pulse coupling",
+            "year": 2024,
+            "venue": "Science Robotics",
+            "url": "https://en.westlake.edu.cn/faculty/wei-wang.html"
+          },
+          {
+            "title": "Electronically configurable microscopic metasheet robots",
+            "year": 2024,
+            "venue": "Nature Materials",
+            "url": "https://en.westlake.edu.cn/faculty/wei-wang.html"
+          },
+          {
+            "title": "Cilia metasurfaces for electronically programmable microfluidic manipulation",
+            "year": 2022,
+            "venue": "Nature",
+            "url": "https://en.westlake.edu.cn/faculty/wei-wang.html"
+          }
+        ],
+        "public_openings": {
+          "MPhil": {
+            "status": "not_found",
+            "detail": "本轮未发现PI专属MPhil名额"
+          },
+          "MSc": {
+            "status": "not_verified_for_this_pi",
+            "detail": "未验证该PI对应授课型MSc定导通道"
+          },
+          "PhD": {
+            "status": "evergreen",
+            "detail": "官方教师页明确研究组持续招 Ph.D. students；未写入学年份或 Fall 2028 余位",
+            "source": "https://en.westlake.edu.cn/faculty/wei-wang.html"
+          },
+          "RA": {
+            "status": "evergreen",
+            "detail": "官方教师页明确持续招 research assistants；具体岗位余额需直接确认",
+            "source": "https://en.westlake.edu.cn/faculty/wei-wang.html"
+          }
+        },
+        "appointment": {
+          "date": "2025",
+          "event": "官方教师页时间线显示2025年加入西湖大学；本轮不把年份当作招生轮次",
+          "source": "https://en.westlake.edu.cn/faculty/wei-wang.html"
+        },
+        "checked_at": "2026-10-04",
+        "verification_status": "本科起点且无需推免的至少一条学位路径已核实；具体批次、名额和个人资格分开判断"
+      }
+    },
+    {
+      "id": "westlake-chi-zhang",
+      "name": "Chi Zhang",
+      "nameZh": "张驰",
+      "institution": "Westlake",
+      "department": "工学院，人工智能系",
+      "position": "Tenure-Track Assistant Professor / PhD Supervisor",
+      "lab": "Artificial General Intelligence (AGI) Laboratory",
+      "topics": [
+        "multimodal_LLM",
+        "generative_AI",
+        "intelligent_agents",
+        "3D_understanding",
+        "embodied_AI"
+      ],
+      "summary": "多模态大模型、生成式 AI 与智能体；代表方向覆盖三维理解、推理、规划和可交互视觉生成。",
+      "profileUrl": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+      "labUrl": "https://icoz69.github.io/",
+      "email": "chizhang@westlake.edu.cn",
+      "works": [
+        {
+          "title": "LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning",
+          "year": 2024,
+          "venue": "CVPR",
+          "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html"
+        },
+        {
+          "title": "GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting",
+          "year": 2024,
+          "venue": "CVPR",
+          "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html"
+        },
+        {
+          "title": "Metric3D: Towards Zero-shot Metric 3D Prediction from a Single Image",
+          "year": 2023,
+          "venue": "ICCV",
+          "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html"
+        }
+      ],
+      "routeIds": [
+        "westlake-ai-phd"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "westlake-ai-phd",
+          "degree": "PhD",
+          "status": "verified",
+          "summary": "官方教师页显示该导师归属相应学科；项目批次与PI当轮名额仍需单独核实",
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "eligibility": "verified",
+      "eligibilityMeaning": "至少一条本科起点、无需推免、无需先获硕士的官方路径及导师/项目关联已记录；个人资格未评估",
+      "defaultVisible": true,
+      "opening": "explicit",
+      "openingSummary": "官方教师页公开持续招募 PhD/RA 等；未出现 Fall 2028 专属名额，2027 仅作校级招生参考",
+      "openings": {
+        "mphil": "本轮未发现PI专属MPhil名额；不等于不招生",
+        "msc": "未验证该PI对应的授课型MSc定导通道",
+        "phd": "官方 Contact Us 明确当前全球招收 Ph.D. students；未写入学年份或 Fall 2028 余位",
+        "ra": "官方 Contact Us 明确当前招收 research assistants；具体岗位余额需直接确认",
+        "cycle2027": "未发现该PI明确 Fall 2027 名额；校级2027通知仅作参考",
+        "cycle2028": "未发现该PI明确 Fall 2028 名额"
+      },
+      "openingDetails": [
+        {
+          "degree": "MPhil",
+          "status": "unknown",
+          "summary": "未发现该PI的MPhil专属公开名额；不等于不招生",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "not_found",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "MSc",
+          "status": "unknown",
+          "summary": "未验证该PI对应的授课型MSc定导通道，不以科研导师名单充当MSc席位",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "not_verified_for_this_pi",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "PhD",
+          "status": "explicit",
+          "summary": "官方 Contact Us 明确当前全球招收 Ph.D. students；未写入学年份或 Fall 2028 余位",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "evergreen_public_recruiting",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "RA",
+          "status": "explicit",
+          "summary": "官方 Contact Us 明确当前招收 research assistants；具体岗位余额需直接确认",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "evergreen_public_recruiting",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "本轮未找到可据此确认的新入职日期；不从职称或页面顺序推断",
+        "sources": [
+          {
+            "label": "西湖大学官方教师页",
+            "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+            "checkedDate": "2026-10-04"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "date": "2024",
+        "event": "官方教师页时间线显示2024年任西湖大学工学院Assistant Professor/PI；不等同于招生轮次",
+        "source": "https://en.westlake.edu.cn/faculty/chi-zhang.html"
+      },
+      "sources": [
+        {
+          "label": "西湖大学官方教师页",
+          "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "导师/实验室官方主页",
+          "url": "https://icoz69.github.io/",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "caveats": [
+        "持续招募或开放岗位不等于 Fall 2028 余位；仍需向导师确认名额、资助与学校申请轮次",
+        "已核实的西湖2027普博第一批已截止；后续批次以学校新公告为准"
+      ],
+      "checkedDate": "2026-10-04",
+      "sourceFile": "westlake-official-faculty-review-2026-10-04",
+      "sourceRecord": {
+        "id": "westlake-chi-zhang",
+        "name": "张驰 Chi Zhang",
+        "school": "西湖大学",
+        "unit": "工学院，人工智能系",
+        "role": "Tenure-Track Assistant Professor / PhD Supervisor",
+        "lab": "Artificial General Intelligence (AGI) Laboratory",
+        "official_profile_url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+        "lab_url": "https://icoz69.github.io/",
+        "research_tags": [
+          "multimodal_LLM",
+          "generative_AI",
+          "intelligent_agents",
+          "3D_understanding",
+          "embodied_AI"
+        ],
+        "program_ids": [
+          "westlake-ai-phd"
+        ],
+        "program_association_evidence": [
+          "https://en.westlake.edu.cn/faculty/chi-zhang.html"
+        ],
+        "research_summary": "多模态大模型、生成式 AI 与智能体；代表方向覆盖三维理解、推理、规划和可交互视觉生成。",
+        "representative_outputs": [
+          {
+            "title": "LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning",
+            "year": 2024,
+            "venue": "CVPR",
+            "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html"
+          },
+          {
+            "title": "GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting",
+            "year": 2024,
+            "venue": "CVPR",
+            "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html"
+          },
+          {
+            "title": "Metric3D: Towards Zero-shot Metric 3D Prediction from a Single Image",
+            "year": 2023,
+            "venue": "ICCV",
+            "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html"
+          }
+        ],
+        "public_openings": {
+          "MPhil": {
+            "status": "not_found",
+            "detail": "本轮未发现PI专属MPhil名额"
+          },
+          "MSc": {
+            "status": "not_verified_for_this_pi",
+            "detail": "未验证该PI对应授课型MSc定导通道"
+          },
+          "PhD": {
+            "status": "evergreen",
+            "detail": "官方 Contact Us 明确当前全球招收 Ph.D. students；未写入学年份或 Fall 2028 余位",
+            "source": "https://en.westlake.edu.cn/faculty/chi-zhang.html"
+          },
+          "RA": {
+            "status": "evergreen",
+            "detail": "官方 Contact Us 明确当前招收 research assistants；具体岗位余额需直接确认",
+            "source": "https://en.westlake.edu.cn/faculty/chi-zhang.html"
+          }
+        },
+        "appointment": {
+          "date": "2024",
+          "event": "官方教师页时间线显示2024年任西湖大学工学院Assistant Professor/PI；不等同于招生轮次",
+          "source": "https://en.westlake.edu.cn/faculty/chi-zhang.html"
+        },
+        "checked_at": "2026-10-04",
+        "verification_status": "本科起点且无需推免的至少一条学位路径已核实；具体批次、名额和个人资格分开判断"
+      }
+    },
+    {
+      "id": "westlake-yaochu-jin",
+      "name": "Yaochu Jin",
+      "nameZh": "金耀初",
+      "institution": "Westlake",
+      "department": "工学院，人工智能系",
+      "position": "Chair Professor of Artificial Intelligence",
+      "lab": "Trustworthy and General Artificial Intelligence Laboratory",
+      "topics": [
+        "trustworthy_AI",
+        "evolutionary_AI",
+        "embodied_AI",
+        "swarm_robotics",
+        "humanoid_robotics"
+      ],
+      "summary": "可信与进化 AI、类脑具身智能及机器人；覆盖脑体协同、形态发生群体机器人、可重构模块机器人和人形机器人。",
+      "profileUrl": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+      "labUrl": "https://en.westlake.edu.cn/about/faculty/engineering/jin-pub_year.html",
+      "email": "jinyaochu@westlake.edu.cn",
+      "works": [
+        {
+          "title": "QuietWalk: Physics-informed reinforcement learning for humanoid locomotion under diverse footwear",
+          "year": 2026,
+          "venue": "IROS",
+          "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html"
+        },
+        {
+          "title": "Computational Evolution of Neural and Morphological Systems",
+          "year": 2023,
+          "venue": "Springer monograph",
+          "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html"
+        },
+        {
+          "title": "Federated many-task Bayesian optimization",
+          "year": 2024,
+          "venue": "IEEE Transactions on Evolutionary Computation",
+          "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html"
+        }
+      ],
+      "routeIds": [
+        "westlake-ai-phd"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "westlake-ai-phd",
+          "degree": "PhD",
+          "status": "verified",
+          "summary": "官方教师页显示该导师归属相应学科；项目批次与PI当轮名额仍需单独核实",
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "eligibility": "verified",
+      "eligibilityMeaning": "至少一条本科起点、无需推免、无需先获硕士的官方路径及导师/项目关联已记录；个人资格未评估",
+      "defaultVisible": true,
+      "opening": "explicit",
+      "openingSummary": "官方教师页公开持续招募 PhD/RA 等；未出现 Fall 2028 专属名额，2027 仅作校级招生参考",
+      "openings": {
+        "mphil": "本轮未发现PI专属MPhil名额；不等于不招生",
+        "msc": "未验证该PI对应的授课型MSc定导通道",
+        "phd": "官方 Contact Us 明确有多个 PhD students open positions，方向包含进化/发育机器人和脑体协同；未写入学年份或 Fall 2028 余位",
+        "ra": "官方 Contact Us 明确有 research assistant open positions；具体岗位余额需直接确认",
+        "cycle2027": "未发现该PI明确 Fall 2027 名额；校级2027通知仅作参考",
+        "cycle2028": "未发现该PI明确 Fall 2028 名额"
+      },
+      "openingDetails": [
+        {
+          "degree": "MPhil",
+          "status": "unknown",
+          "summary": "未发现该PI的MPhil专属公开名额；不等于不招生",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "not_found",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "MSc",
+          "status": "unknown",
+          "summary": "未验证该PI对应的授课型MSc定导通道，不以科研导师名单充当MSc席位",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "not_verified_for_this_pi",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "PhD",
+          "status": "explicit",
+          "summary": "官方 Contact Us 明确有多个 PhD students open positions，方向包含进化/发育机器人和脑体协同；未写入学年份或 Fall 2028 余位",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "evergreen_public_recruiting",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "RA",
+          "status": "explicit",
+          "summary": "官方 Contact Us 明确有 research assistant open positions；具体岗位余额需直接确认",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "evergreen_public_recruiting",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "本轮未找到可据此确认的新入职日期；不从职称或页面顺序推断",
+        "sources": [
+          {
+            "label": "西湖大学官方教师页",
+            "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+            "checkedDate": "2026-10-04"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "date": "2023",
+        "event": "官方教师页时间线显示2023年任西湖大学工学院人工智能讲席教授；不等同于招生轮次",
+        "source": "https://en.westlake.edu.cn/faculty/yaochu-jin.html"
+      },
+      "sources": [
+        {
+          "label": "西湖大学官方教师页",
+          "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "导师/实验室官方主页",
+          "url": "https://en.westlake.edu.cn/about/faculty/engineering/jin-pub_year.html",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "caveats": [
+        "持续招募或开放岗位不等于 Fall 2028 余位；仍需向导师确认名额、资助与学校申请轮次",
+        "已核实的西湖2027普博第一批已截止；后续批次以学校新公告为准"
+      ],
+      "checkedDate": "2026-10-04",
+      "sourceFile": "westlake-official-faculty-review-2026-10-04",
+      "sourceRecord": {
+        "id": "westlake-yaochu-jin",
+        "name": "金耀初 Yaochu Jin",
+        "school": "西湖大学",
+        "unit": "工学院，人工智能系",
+        "role": "Chair Professor of Artificial Intelligence",
+        "lab": "Trustworthy and General Artificial Intelligence Laboratory",
+        "official_profile_url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+        "lab_url": "https://en.westlake.edu.cn/about/faculty/engineering/jin-pub_year.html",
+        "research_tags": [
+          "trustworthy_AI",
+          "evolutionary_AI",
+          "embodied_AI",
+          "swarm_robotics",
+          "humanoid_robotics"
+        ],
+        "program_ids": [
+          "westlake-ai-phd"
+        ],
+        "program_association_evidence": [
+          "https://en.westlake.edu.cn/faculty/yaochu-jin.html"
+        ],
+        "research_summary": "可信与进化 AI、类脑具身智能及机器人；覆盖脑体协同、形态发生群体机器人、可重构模块机器人和人形机器人。",
+        "representative_outputs": [
+          {
+            "title": "QuietWalk: Physics-informed reinforcement learning for humanoid locomotion under diverse footwear",
+            "year": 2026,
+            "venue": "IROS",
+            "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html"
+          },
+          {
+            "title": "Computational Evolution of Neural and Morphological Systems",
+            "year": 2023,
+            "venue": "Springer monograph",
+            "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html"
+          },
+          {
+            "title": "Federated many-task Bayesian optimization",
+            "year": 2024,
+            "venue": "IEEE Transactions on Evolutionary Computation",
+            "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html"
+          }
+        ],
+        "public_openings": {
+          "MPhil": {
+            "status": "not_found",
+            "detail": "本轮未发现PI专属MPhil名额"
+          },
+          "MSc": {
+            "status": "not_verified_for_this_pi",
+            "detail": "未验证该PI对应授课型MSc定导通道"
+          },
+          "PhD": {
+            "status": "evergreen",
+            "detail": "官方 Contact Us 明确有多个 PhD students open positions，方向包含进化/发育机器人和脑体协同；未写入学年份或 Fall 2028 余位",
+            "source": "https://en.westlake.edu.cn/faculty/yaochu-jin.html"
+          },
+          "RA": {
+            "status": "evergreen",
+            "detail": "官方 Contact Us 明确有 research assistant open positions；具体岗位余额需直接确认",
+            "source": "https://en.westlake.edu.cn/faculty/yaochu-jin.html"
+          }
+        },
+        "appointment": {
+          "date": "2023",
+          "event": "官方教师页时间线显示2023年任西湖大学工学院人工智能讲席教授；不等同于招生轮次",
+          "source": "https://en.westlake.edu.cn/faculty/yaochu-jin.html"
+        },
+        "checked_at": "2026-10-04",
+        "verification_status": "本科起点且无需推免的至少一条学位路径已核实；具体批次、名额和个人资格分开判断"
+      }
+    },
+    {
+      "id": "westlake-dixia-fan",
+      "name": "Dixia Fan",
+      "nameZh": "范迪夏",
+      "institution": "Westlake",
+      "department": "工学院，电子科学与技术 / 人工智能系",
+      "position": "Assistant Professor",
+      "lab": "Intelligent and Informational Fluid Mechanics Laboratory",
+      "topics": [
+        "bioinspired_robotics",
+        "fluid_AI",
+        "vortical_flow_control",
+        "aerial_swarms",
+        "aquatic_swarms"
+      ],
+      "summary": "物理信息机器学习与流体控制，结合生物启发的两栖机器人、航空/水下群体自主和智能环境监测。",
+      "profileUrl": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+      "labUrl": "https://i4fsi.lab.westlake.edu.cn",
+      "email": "fandixia@westlake.edu.cn",
+      "works": [
+        {
+          "title": "Reinforcement learning for bluff body active flow control in experiments and simulations",
+          "year": 2020,
+          "venue": "PNAS",
+          "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html"
+        },
+        {
+          "title": "A robotic intelligent towing tank for learning complex fluid-structure dynamics",
+          "year": 2019,
+          "venue": "Science Robotics",
+          "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html"
+        },
+        {
+          "title": "Inferring vortex induced vibrations of flexible cylinders using physics-informed neural networks",
+          "year": 2021,
+          "venue": "Journal of Fluids and Structures",
+          "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html"
+        }
+      ],
+      "routeIds": [
+        "westlake-ai-phd",
+        "westlake-ee-phd"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "westlake-ai-phd",
+          "degree": "PhD",
+          "status": "verified",
+          "summary": "官方教师页显示该导师归属相应学科；项目批次与PI当轮名额仍需单独核实",
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "westlake-ee-phd",
+          "degree": "PhD",
+          "status": "verified",
+          "summary": "官方教师页显示该导师归属相应学科；项目批次与PI当轮名额仍需单独核实",
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "eligibility": "verified",
+      "eligibilityMeaning": "至少一条本科起点、无需推免、无需先获硕士的官方路径及导师/项目关联已记录；个人资格未评估",
+      "defaultVisible": true,
+      "opening": "explicit",
+      "openingSummary": "官方教师页公开持续招募 PhD/RA 等；未出现 Fall 2028 专属名额，2027 仅作校级招生参考",
+      "openings": {
+        "mphil": "本轮未发现PI专属MPhil名额；不等于不招生",
+        "msc": "未验证该PI对应的授课型MSc定导通道",
+        "phd": "官方 Contact Us 明确长期招收 graduate students（含 Ph.D.）；未写入学年份或 Fall 2028 余位",
+        "ra": "官方 Contact Us 公开长期招收本科生、研究生、博后和访问学者；未单列 RA 岗位余额",
+        "cycle2027": "未发现该PI明确 Fall 2027 名额；校级2027通知仅作参考",
+        "cycle2028": "未发现该PI明确 Fall 2028 名额"
+      },
+      "openingDetails": [
+        {
+          "degree": "MPhil",
+          "status": "unknown",
+          "summary": "未发现该PI的MPhil专属公开名额；不等于不招生",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "not_found",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "MSc",
+          "status": "unknown",
+          "summary": "未验证该PI对应的授课型MSc定导通道，不以科研导师名单充当MSc席位",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "not_verified_for_this_pi",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "PhD",
+          "status": "explicit",
+          "summary": "官方 Contact Us 明确长期招收 graduate students（含 Ph.D.）；未写入学年份或 Fall 2028 余位",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "evergreen_public_recruiting",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "RA",
+          "status": "explicit",
+          "summary": "官方 Contact Us 公开长期招收本科生、研究生、博后和访问学者；未单列 RA 岗位余额",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "evergreen_public_recruiting",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师页",
+              "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "本轮未找到可据此确认的新入职日期；不从职称或页面顺序推断",
+        "sources": [
+          {
+            "label": "西湖大学官方教师页",
+            "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+            "checkedDate": "2026-10-04"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "date": "2022",
+        "event": "官方教师页时间线显示2022年加入西湖大学任Assistant Professor；不等同于招生轮次",
+        "source": "https://en.westlake.edu.cn/faculty/dixia-fan.html"
+      },
+      "sources": [
+        {
+          "label": "西湖大学官方教师页",
+          "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "导师/实验室官方主页",
+          "url": "https://i4fsi.lab.westlake.edu.cn",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "caveats": [
+        "持续招募或开放岗位不等于 Fall 2028 余位；仍需向导师确认名额、资助与学校申请轮次",
+        "已核实的西湖2027普博第一批已截止；后续批次以学校新公告为准"
+      ],
+      "checkedDate": "2026-10-04",
+      "sourceFile": "westlake-official-faculty-review-2026-10-04",
+      "sourceRecord": {
+        "id": "westlake-dixia-fan",
+        "name": "范迪夏 Dixia Fan",
+        "school": "西湖大学",
+        "unit": "工学院，电子科学与技术 / 人工智能系",
+        "role": "Assistant Professor",
+        "lab": "Intelligent and Informational Fluid Mechanics Laboratory",
+        "official_profile_url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+        "lab_url": "https://i4fsi.lab.westlake.edu.cn",
+        "research_tags": [
+          "bioinspired_robotics",
+          "fluid_AI",
+          "vortical_flow_control",
+          "aerial_swarms",
+          "aquatic_swarms"
+        ],
+        "program_ids": [
+          "westlake-ai-phd",
+          "westlake-ee-phd"
+        ],
+        "program_association_evidence": [
+          "https://en.westlake.edu.cn/faculty/dixia-fan.html"
+        ],
+        "research_summary": "物理信息机器学习与流体控制，结合生物启发的两栖机器人、航空/水下群体自主和智能环境监测。",
+        "representative_outputs": [
+          {
+            "title": "Reinforcement learning for bluff body active flow control in experiments and simulations",
+            "year": 2020,
+            "venue": "PNAS",
+            "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html"
+          },
+          {
+            "title": "A robotic intelligent towing tank for learning complex fluid-structure dynamics",
+            "year": 2019,
+            "venue": "Science Robotics",
+            "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html"
+          },
+          {
+            "title": "Inferring vortex induced vibrations of flexible cylinders using physics-informed neural networks",
+            "year": 2021,
+            "venue": "Journal of Fluids and Structures",
+            "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html"
+          }
+        ],
+        "public_openings": {
+          "MPhil": {
+            "status": "not_found",
+            "detail": "本轮未发现PI专属MPhil名额"
+          },
+          "MSc": {
+            "status": "not_verified_for_this_pi",
+            "detail": "未验证该PI对应授课型MSc定导通道"
+          },
+          "PhD": {
+            "status": "evergreen",
+            "detail": "官方 Contact Us 明确长期招收 graduate students（含 Ph.D.）；未写入学年份或 Fall 2028 余位",
+            "source": "https://en.westlake.edu.cn/faculty/dixia-fan.html"
+          },
+          "RA": {
+            "status": "evergreen",
+            "detail": "官方 Contact Us 公开长期招收本科生、研究生、博后和访问学者；未单列 RA 岗位余额",
+            "source": "https://en.westlake.edu.cn/faculty/dixia-fan.html"
+          }
+        },
+        "appointment": {
+          "date": "2022",
+          "event": "官方教师页时间线显示2022年加入西湖大学任Assistant Professor；不等同于招生轮次",
+          "source": "https://en.westlake.edu.cn/faculty/dixia-fan.html"
+        },
+        "checked_at": "2026-10-04",
+        "verification_status": "本科起点且无需推免的至少一条学位路径已核实；具体批次、名额和个人资格分开判断"
+      }
+    },
+    {
+      "id": "westlake-shiyu-zhao",
+      "name": "Shiyu Zhao",
+      "nameZh": "赵世钰",
+      "institution": "Westlake",
+      "department": "工学院，人工智能系",
+      "position": "Associate Professor / Deputy Head of AI Department / PhD Supervisor",
+      "lab": "WINDY Lab（智能无人系统实验室）",
+      "topics": [
+        "aerial_manipulation",
+        "multi_robot_systems",
+        "autonomous_control",
+        "intelligent_sensing",
+        "reinforcement_learning"
+      ],
+      "summary": "空中操作机器人与多机器人群体智能；覆盖控制、估计、感知以及多机器人规划和协同控制。",
+      "profileUrl": "https://shiyuzhao.westlake.edu.cn/index.htm",
+      "labUrl": "https://shiyuzhao.westlake.edu.cn/index.htm",
+      "email": "zhaoshiyu@westlake.edu.cn",
+      "works": [
+        {
+          "title": "Proximal cooperative aerial manipulation with vertically stacked drones",
+          "year": 2025,
+          "venue": "Nature",
+          "url": "https://www.nature.com/articles/s41586-025-09575-x"
+        },
+        {
+          "title": "Aerial manipulation robots: control, estimation and sensing",
+          "year": 2026,
+          "venue": "WINDY Lab research portfolio",
+          "url": "https://shiyuzhao.westlake.edu.cn/Research.htm"
+        },
+        {
+          "title": "Multi-robot systems: planning and control",
+          "year": 2026,
+          "venue": "WINDY Lab research portfolio",
+          "url": "https://shiyuzhao.westlake.edu.cn/Research.htm"
+        }
+      ],
+      "routeIds": [
+        "westlake-ai-phd"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "westlake-ai-phd",
+          "degree": "PhD",
+          "status": "verified",
+          "summary": "官方实验室页与西湖人工智能系归属支持 AI 博士路线关联；当轮名额仍需核实",
+          "sources": [
+            {
+              "label": "西湖大学官方教师/实验室页",
+              "url": "https://shiyuzhao.westlake.edu.cn/index.htm",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "eligibility": "verified",
+      "eligibilityMeaning": "至少一条本科起点、无需推免、无需先获硕士的官方路径及导师/项目关联已记录；个人资格未评估",
+      "defaultVisible": true,
+      "opening": "explicit",
+      "openingSummary": "WINDY Lab 明确持续接受 PhD 申请并承诺录取博士全程资助；未指定 Fall 2028，不能视为当轮余位",
+      "openings": {
+        "mphil": "未发现PI专属MPhil名额；不等于不招生",
+        "msc": "未验证该PI对应授课型MSc定导通道",
+        "phd": "实验室主页明确持续接受 PhD 申请，申请考核、无需入学考试并提供全程资助；未指定 Fall 2027/2028",
+        "ra": "本轮未找到单独RA岗位声明",
+        "cycle2027": "未发现该PI明确Fall 2027名额；校级通知仅作参考",
+        "cycle2028": "未发现该PI明确Fall 2028名额"
+      },
+      "openingDetails": [
+        {
+          "degree": "MPhil",
+          "status": "unknown",
+          "summary": "未发现PI专属MPhil名额；不等于不招生",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "not_found",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师/实验室页",
+              "url": "https://shiyuzhao.westlake.edu.cn/index.htm",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "MSc",
+          "status": "unknown",
+          "summary": "未验证该PI对应授课型MSc定导通道",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "not_found",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师/实验室页",
+              "url": "https://shiyuzhao.westlake.edu.cn/index.htm",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "PhD",
+          "status": "explicit",
+          "summary": "实验室主页明确持续接受 PhD 申请，申请考核、无需入学考试并提供全程资助；未指定 Fall 2027/2028",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "evergreen_public_recruiting",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师/实验室页",
+              "url": "https://shiyuzhao.westlake.edu.cn/index.htm",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "RA",
+          "status": "unknown",
+          "summary": "本轮未找到单独RA岗位声明",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2028",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "not_found",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "西湖大学官方教师/实验室页",
+              "url": "https://shiyuzhao.westlake.edu.cn/index.htm",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "官方实验室页确认现任身份；本轮未将页面更新日期推定为入职日期",
+        "sources": [
+          {
+            "label": "西湖大学官方教师/实验室页",
+            "url": "https://shiyuzhao.westlake.edu.cn/index.htm",
+            "checkedDate": "2026-10-04"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "date": null,
+        "event": "官方实验室页显示现任西湖大学特聘研究员、人工智能系副系主任；具体入职年月未在本轮写入",
+        "source": "https://shiyuzhao.westlake.edu.cn/index.htm"
+      },
+      "sources": [
+        {
+          "label": "西湖大学官方教师/实验室页",
+          "url": "https://shiyuzhao.westlake.edu.cn/index.htm",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "西湖大学官方教师/实验室页",
+          "url": "https://shiyuzhao.westlake.edu.cn/Research.htm",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "代表论文/出版社页面",
+          "url": "https://www.nature.com/articles/s41586-025-09575-x",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "caveats": [
+        "实验室常年接受申请不等于 Fall 2028 仍有余位；资助承诺的适用条件需直接确认",
+        "学校2027普博第一批已截止，后续轮次以新公告为准"
+      ],
+      "checkedDate": "2026-10-04",
+      "sourceFile": "westlake-official-faculty-review-2026-10-04",
+      "sourceRecord": {
+        "id": "westlake-shiyu-zhao",
+        "name": "赵世钰 Shiyu Zhao",
+        "school": "西湖大学",
+        "unit": "工学院，人工智能系",
+        "role": "Associate Professor / Deputy Head of AI Department / PhD Supervisor",
+        "lab": "WINDY Lab",
+        "official_profile_url": "https://shiyuzhao.westlake.edu.cn/index.htm",
+        "lab_url": "https://shiyuzhao.westlake.edu.cn/index.htm",
+        "research_tags": [
+          "aerial_manipulation",
+          "multi_robot_systems",
+          "autonomous_control",
+          "intelligent_sensing",
+          "reinforcement_learning"
+        ],
+        "program_ids": [
+          "westlake-ai-phd"
+        ],
+        "program_association_evidence": [
+          "https://shiyuzhao.westlake.edu.cn/index.htm"
+        ],
+        "research_summary": "空中操作机器人与多机器人群体智能；覆盖控制、估计、感知以及多机器人规划和协同控制。",
+        "representative_outputs": [
+          {
+            "title": "Proximal cooperative aerial manipulation with vertically stacked drones",
+            "year": 2025,
+            "venue": "Nature",
+            "url": "https://www.nature.com/articles/s41586-025-09575-x"
+          },
+          {
+            "title": "Aerial manipulation robots: control, estimation and sensing",
+            "year": 2026,
+            "venue": "WINDY Lab research portfolio",
+            "url": "https://shiyuzhao.westlake.edu.cn/Research.htm"
+          },
+          {
+            "title": "Multi-robot systems: planning and control",
+            "year": 2026,
+            "venue": "WINDY Lab research portfolio",
+            "url": "https://shiyuzhao.westlake.edu.cn/Research.htm"
+          }
+        ],
+        "public_openings": {
+          "MPhil": {
+            "status": "not_found",
+            "detail": "未发现PI专属MPhil名额"
+          },
+          "MSc": {
+            "status": "not_verified_for_this_pi",
+            "detail": "未验证授课型MSc定导通道"
+          },
+          "PhD": {
+            "status": "evergreen",
+            "detail": "实验室主页明确持续接受 PhD 申请，申请考核、无需入学考试并提供全程资助；未指定 Fall 2027/2028",
+            "source": "https://shiyuzhao.westlake.edu.cn/index.htm"
+          },
+          "RA": {
+            "status": "not_found",
+            "detail": "本轮未找到单独RA岗位声明"
+          }
+        },
+        "appointment": {
+          "date": null,
+          "event": "官方实验室页显示现任西湖大学特聘研究员、人工智能系副系主任；具体入职年月未在本轮写入",
+          "source": "https://shiyuzhao.westlake.edu.cn/index.htm"
+        },
+        "checked_at": "2026-10-04",
+        "verification_status": "本科起点且无需推免的至少一条学位路径已核实；具体批次、名额和个人资格分开判断"
+      }
     }
   ],
   "routes": [
