@@ -1,10 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {detailUiBytes} from './detail-ui-baseline.mjs';
 import {latestCorrectionFixture as latest,concurrent3fFixture as concurrent,latestCorrectionBytes,concurrent3fBytes,latestSourceBytes,latestSourceBaseline,previousCandidateBytes} from './latest-3f294-baseline.mjs';
 import {currentCorrectionFixture as previous} from './current-correction-baseline.mjs';
 import {snapshotHash as hash,snapshotText as serialize,transformSnapshotBytes} from './strict-history-transform.mjs';
-const read=path=>fs.readFileSync(new URL('../'+path,import.meta.url));
+// The later UI-only stage is reversed explicitly; all evidence-stage hashes and
+// fixtures below stay unchanged. Current UI bytes have independent strict tests.
+const read=path=>detailUiBytes(path,fs.readFileSync(new URL('../'+path,import.meta.url)));
 const currentDataHashes={
  'data/catalog.json':'1d487459fc92f44d1c68451061b6afac2c06c8289740f6abf77e4639667a6120',
  'data/advisor-profiles.json':'f1b3044692f6bbebed815428f10133c535272bcccce7bd431657cf432511d042',

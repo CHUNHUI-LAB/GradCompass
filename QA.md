@@ -342,3 +342,14 @@ Commit `1281ce4740272443563b4a98f421561bacc801f9` reached main with Pages run 37
 - UI样式/布局和筛选控件结构未改；这仍是本地Node/DOM-contract候选，未进行浏览器视觉验收、远端写入或部署
 
 发布前仍须重新读取main，按具体路径三方合并并重验；这个冻结候选不授权覆盖未来并发改动。
+
+
+## 2026-10-04 Reader detail polish after source correction release
+
+Base: `dd654eaaf9e7f6143b1c99a54c3e3e97fc86f142`, the merged source-correction release with successful [Pages deployment](https://github.com/CHUNHUI-LAB/GradCompass/actions/runs/37208644849). Live cloud Chrome checks found two non-blocking issues: identical MSc/PhD association explanation fields repeated in Dan Wu's detail, and a long project title partly hidden by the sticky toolbar on initial opening at 396×253 CSS pixels (300% browser zoom). This narrow check was not mobile-device emulation.
+
+This patch deduplicates only exactly equal rendered explanation fields. Distinct conditions, source records and all eligibility data stay unchanged. Detail opening focuses the heading with `preventScroll` before resetting the dialog to the top; an older-browser fallback also resets after focus. Late optional-data refresh retains the existing close/navigation guards and restores the previously focused surviving toolbar or matching body control and scroll position. Repeated source links retain their original main/rail region, named section and occurrence rather than moving focus to the first matching URL; missing-record return and related-advisor buttons retain their identity. No CSS/layout or comparison structure is changed.
+
+Nineteen focused DOM regressions cover duplicate/distinct explanation fields, focus-induced scrolling, missing/project/advisor detail entry, unsupported focus options, late data, preserved focus/scroll, and closed/newer navigation. The initial reproduction failed seven of its first eight checks; all nineteen final focused checks pass. Navigation, loading, comparison and reader-focused suites together passed 109 checks before final manifest freezing. These DOM contracts simulate native focus scrolling and do not establish post-patch browser acceptance.
+
+Historical tests use a separately hash-gated small text delta for the changed app and index version, retaining all five older fixtures and their original hashes. Unknown edits, partial rollback, whitespace changes, fragment-only input, and non-UI data remain detectable. Full-suite results and post-publication checks must be reported against the final content hash and deployed commit, independently of this preparation record.

@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
+import {detailUiBytes} from './detail-ui-baseline.mjs';
 import {currentCorrectionFixture as previousCandidateFixture} from './current-correction-baseline.mjs';
 import {snapshotHash,transformSnapshotBytes,transformSnapshotObject,identifySnapshot} from './strict-history-transform.mjs';
 const concurrentRaw=fs.readFileSync(new URL('./fixtures/history/reviewed-concurrent-3f294.json',import.meta.url));
@@ -10,7 +11,7 @@ assert.equal(snapshotHash(currentRaw),'b4670b43babaf03884a7c511fa1582cbc178a2aaa
 export const latestCorrectionFixture=JSON.parse(currentRaw);
 export const latestCorrectionBytes=(path,bytes)=>transformSnapshotBytes(latestCorrectionFixture,path,bytes);
 export const concurrent3fBytes=(path,bytes)=>transformSnapshotBytes(concurrent3fFixture,path,bytes);
-export const latestSourceBytes=(path,bytes)=>concurrent3fBytes(path,latestCorrectionBytes(path,bytes));
+export const latestSourceBytes=(path,bytes)=>concurrent3fBytes(path,latestCorrectionBytes(path,detailUiBytes(path,bytes)));
 export function latestSourceBaseline(data,path=identifySnapshot(data)){
  return transformSnapshotObject(concurrent3fFixture,path,transformSnapshotObject(latestCorrectionFixture,path,data));
 }
