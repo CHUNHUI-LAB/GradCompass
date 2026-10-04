@@ -5645,6 +5645,832 @@
           "url": "https://arxiv.org/abs/2406.09414"
         }
       ]
+    },
+    {
+      "advisorId": "westlake-zexi-liang",
+      "cardSummaryZh": "微纳机器人与智能微系统，直接覆盖小尺度装配、集群控制和手术机器人末端工具。",
+      "overview": {
+        "textZh": "梁泽西于2026年7月加入西湖大学工学院电子与信息工程系，任助理教授并建立 Small-Scale Precision Robotics Laboratory。研究聚焦小尺度机器人、智能微系统、多物理驱动和机器人控制。",
+        "sources": [
+          {
+            "url": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Small-Scale Precision Robotics Laboratory",
+        "affiliation": {
+          "textZh": "官方教师页将该研究组列为Small-Scale Precision Robotics Laboratory；实验室归属与导师主页保持一致。",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "themes": [
+          "小尺度与微纳机器人",
+          "多物理场驱动与集群控制",
+          "微纳制造与智能微系统",
+          "手术机器人末端工具"
+        ],
+        "structure": {
+          "textZh": "官方教师页列出研究方向和代表论文；不据论文作者列表估计团队规模。",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "微型自组装与磁编程机器人",
+            "sources": [
+              {
+                "url": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          },
+          {
+            "textZh": "多物理驱动的微型机器人集群",
+            "sources": [
+              {
+                "url": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          },
+          {
+            "textZh": "微纳制造与机器人控制",
+            "sources": [
+              {
+                "url": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Magnetic Decoupling as a Proofreading Strategy for High-Yield, Time-Efficient Microscale Self-Assembly",
+          "year": 2025,
+          "venue": "PNAS",
+          "summaryZh": "官方教师页列出的代表成果，具体实验条件和资源可用性仍需向导师确认。",
+          "url": "https://doi.org/10.1073/pnas.2502361122",
+          "sources": [
+            {
+              "url": "https://doi.org/10.1073/pnas.2502361122",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "Magnetically programmed diffractive robotics",
+          "year": 2024,
+          "venue": "Science",
+          "summaryZh": "官方教师页列出的代表成果，具体实验条件和资源可用性仍需向导师确认。",
+          "url": "https://doi.org/10.1126/science.adr2177",
+          "sources": [
+            {
+              "url": "https://doi.org/10.1126/science.adr2177",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "Light-Stimulated Micromotor Swarms in an Electric Field",
+          "year": 2023,
+          "venue": "Science Advances",
+          "summaryZh": "官方教师页列出的代表成果，具体实验条件和资源可用性仍需向导师确认。",
+          "url": "https://doi.org/10.1126/sciadv.adi9932",
+          "sources": [
+            {
+              "url": "https://doi.org/10.1126/sciadv.adi9932",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "教师页明确持续招收 research assistants、Ph.D. students 和 postdoctoral fellows；未指定 Fall 2027/2028，不能视为当轮余位。",
+        "sources": [
+          {
+            "url": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "unknowns": [
+        "Fall 2028 个人名额、资助与学校申请轮次未公开确认",
+        "持续招募文字未提供截止日期或当前剩余名额",
+        "电子与信息工程系归属支持 EE 路线关联，具体指导资格仍需确认"
+      ],
+      "links": [
+        {
+          "label": "学校简介与招募",
+          "url": "https://en.westlake.edu.cn/faculty/zexi-liang.html"
+        },
+        {
+          "label": "教师主页",
+          "url": "https://en.westlake.edu.cn/faculty/zexi-liang.html"
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "westlake-wei-wang",
+      "cardSummaryZh": "CMOS 集成智能微机器人与微型机器人集群行为，连接微纳执行器、电子脉冲耦合和机器人系统。",
+      "overview": {
+        "textZh": "王伟是西湖大学工学院助理教授、独立 PI 和博士生导师，领导 Intelligent Microrobotics Laboratory。研究将集成电路与微纳执行器结合，关注移动微机器人和集群行为。",
+        "sources": [
+          {
+            "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Intelligent Microrobotics Laboratory",
+        "affiliation": {
+          "textZh": "官方教师页将该研究组列为Intelligent Microrobotics Laboratory；实验室归属与导师主页保持一致。",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "themes": [
+          "CMOS 集成微机器人",
+          "微纳执行器与移动微机器人",
+          "电子脉冲耦合",
+          "微型机器人集群行为"
+        ],
+        "structure": {
+          "textZh": "官方教师页列出研究组方向与代表论文；不根据论文数量推断团队人数、经费或硬件使用承诺。",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "电子可配置微型机器人",
+            "sources": [
+              {
+                "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          },
+          {
+            "textZh": "微型机器人局部通信与协同行为",
+            "sources": [
+              {
+                "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          },
+          {
+            "textZh": "微纳执行器和微流控操作",
+            "sources": [
+              {
+                "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Coordinated behavior of autonomous microscopic machines through local electronic pulse coupling",
+          "year": 2024,
+          "venue": "Science Robotics",
+          "summaryZh": "官方教师页列出的代表成果，具体实验条件和资源可用性仍需向导师确认。",
+          "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "Electronically configurable microscopic metasheet robots",
+          "year": 2024,
+          "venue": "Nature Materials",
+          "summaryZh": "官方教师页列出的代表成果，具体实验条件和资源可用性仍需向导师确认。",
+          "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "Cilia metasurfaces for electronically programmable microfluidic manipulation",
+          "year": 2022,
+          "venue": "Nature",
+          "summaryZh": "官方教师页列出的代表成果，具体实验条件和资源可用性仍需向导师确认。",
+          "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "教师页明确研究组持续招收 research assistants、Ph.D. students 和 postdoctoral fellows；未指定 Fall 2027/2028，不能视为当轮余位。",
+        "sources": [
+          {
+            "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "unknowns": [
+        "Fall 2028 个人名额、资助和申请轮次未公开确认",
+        "官方持续招募文字未提供当前岗位余额",
+        "当前仓库没有独立 Westlake 材料学博士路线，材料方向不单独制造项目关联"
+      ],
+      "links": [
+        {
+          "label": "学校简介与招募",
+          "url": "https://en.westlake.edu.cn/faculty/wei-wang.html"
+        },
+        {
+          "label": "实验室主页",
+          "url": "https://wangwei.lab.westlake.edu.cn/"
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "westlake-chi-zhang",
+      "cardSummaryZh": "多模态大模型、生成式 AI 与智能体，三维理解、推理和规划方向适合具身智能前端研究。",
+      "overview": {
+        "textZh": "张驰现任西湖大学工学院人工智能系 tenure-track 助理教授、博士生导师及 AGI Laboratory 负责人。研究聚焦多模态大模型、生成式 AI 和智能体，公开成果包含三维理解、规划与视觉生成。",
+        "sources": [
+          {
+            "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Artificial General Intelligence (AGI) Laboratory",
+        "affiliation": {
+          "textZh": "官方教师页将该研究组列为Artificial General Intelligence (AGI) Laboratory；实验室归属与导师主页保持一致。",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "themes": [
+          "多模态大模型与生成式 AI",
+          "智能体与交互式视觉生成",
+          "三维理解、推理与规划"
+        ],
+        "structure": {
+          "textZh": "教师页列出实验室方向、开源项目和代表论文；开源项目不等于新生可直接使用的资源承诺。",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "AppAgent、GaussianEditor、MeshAnything、Metric3D 等公开项目",
+            "sources": [
+              {
+                "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          },
+          {
+            "textZh": "三维理解与视觉指令调优",
+            "sources": [
+              {
+                "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          },
+          {
+            "textZh": "扩散模型和多模态智能体",
+            "sources": [
+              {
+                "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning",
+          "year": 2024,
+          "venue": "CVPR",
+          "summaryZh": "官方教师页列出的代表成果，具体实验条件和资源可用性仍需向导师确认。",
+          "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting",
+          "year": 2024,
+          "venue": "CVPR",
+          "summaryZh": "官方教师页列出的代表成果，具体实验条件和资源可用性仍需向导师确认。",
+          "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "Metric3D: Towards Zero-shot Metric 3D Prediction from a Single Image",
+          "year": 2023,
+          "venue": "ICCV",
+          "summaryZh": "官方教师页列出的代表成果，具体实验条件和资源可用性仍需向导师确认。",
+          "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "教师页明确当前全球招收 Ph.D. students、postdoctoral researchers、research assistants 和 visiting scholars；未指定 Fall 2027/2028。",
+        "sources": [
+          {
+            "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "unknowns": [
+        "智能体岗位是否与具体导师名额绑定未公开",
+        "Fall 2028 名额、资助与申请轮次未确认",
+        "研究方向与机器人应用相关，但不能据此推断机器人硬件或具身项目席位"
+      ],
+      "links": [
+        {
+          "label": "学校简介与招募",
+          "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html"
+        },
+        {
+          "label": "个人主页",
+          "url": "https://icoz69.github.io/"
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "westlake-yaochu-jin",
+      "cardSummaryZh": "从可信与进化 AI 延伸到脑体协同、群体机器人、可重构机器人和人形机器人。",
+      "overview": {
+        "textZh": "金耀初是西湖大学工学院人工智能讲席教授，领导 Trustworthy and General Artificial Intelligence Laboratory。研究跨越可信优化、进化/发育 AI、类脑具身智能和多类机器人系统。",
+        "sources": [
+          {
+            "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Trustworthy and General Artificial Intelligence Laboratory",
+        "affiliation": {
+          "textZh": "官方教师页将该研究组列为Trustworthy and General Artificial Intelligence Laboratory；实验室归属与导师主页保持一致。",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "themes": [
+          "可信与进化 AI",
+          "脑体协同与类脑具身智能",
+          "形态发生群体机器人",
+          "可重构模块机器人与人形机器人"
+        ],
+        "structure": {
+          "textZh": "教师页列出长期研究主题和代表出版物；不从项目或论文数量推断实验室规模、资助和设备配额。",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "进化与发育机器人",
+            "sources": [
+              {
+                "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          },
+          {
+            "textZh": "脑体协同和神经可塑性建模",
+            "sources": [
+              {
+                "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          },
+          {
+            "textZh": "人形机器人与群体机器人",
+            "sources": [
+              {
+                "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "QuietWalk: Physics-informed reinforcement learning for humanoid locomotion under diverse footwear",
+          "year": 2026,
+          "venue": "IROS",
+          "summaryZh": "官方教师页列出的代表成果，具体实验条件和资源可用性仍需向导师确认。",
+          "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "Computational Evolution of Neural and Morphological Systems",
+          "year": 2023,
+          "venue": "Springer monograph",
+          "summaryZh": "官方教师页列出的代表成果，具体实验条件和资源可用性仍需向导师确认。",
+          "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "Federated many-task Bayesian optimization",
+          "year": 2024,
+          "venue": "IEEE Transactions on Evolutionary Computation",
+          "summaryZh": "官方教师页列出的代表成果，具体实验条件和资源可用性仍需向导师确认。",
+          "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "教师页明确有 research fellows、postdocs、PhD students 和 research assistants 的多个开放岗位；未指定 Fall 2027/2028，不能视为当轮余位。",
+        "sources": [
+          {
+            "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "unknowns": [
+        "开放岗位方向较宽，具体导师、学位项目和名额未公开拆分",
+        "Fall 2028 名额、资助与申请轮次未确认",
+        "学校博士路线归属已记录，个人接收决定仍需直接确认"
+      ],
+      "links": [
+        {
+          "label": "学校简介与招募",
+          "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html"
+        },
+        {
+          "label": "年度出版物",
+          "url": "https://en.westlake.edu.cn/about/faculty/engineering/jin-pub_year.html"
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "westlake-dixia-fan",
+      "cardSummaryZh": "把物理信息机器学习、流体控制和生物启发的航空/水下群体机器人接成一条研究线。",
+      "overview": {
+        "textZh": "范迪夏现任西湖大学工学院助理教授，领导 Intelligent and Informational Fluid Mechanics Laboratory。研究覆盖 AI 流体力学、涡旋流控制与感知、生物启发机器人，以及航空/水下群体自主。",
+        "sources": [
+          {
+            "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Intelligent and Informational Fluid Mechanics Laboratory",
+        "affiliation": {
+          "textZh": "官方教师页将该研究组列为Intelligent and Informational Fluid Mechanics Laboratory；实验室归属与导师主页保持一致。",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "themes": [
+          "AI 流体力学与物理信息学习",
+          "生物启发机器人",
+          "航空/水下群体自主",
+          "涡旋流控制与感知"
+        ],
+        "structure": {
+          "textZh": "教师页同时列出流体力学、机器人与控制研究方向；不根据代表论文推断新生可用设备或项目经费。",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "机器人智能拖曳水槽",
+            "sources": [
+              {
+                "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          },
+          {
+            "textZh": "强化学习流体控制",
+            "sources": [
+              {
+                "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          },
+          {
+            "textZh": "两栖机器人和航空/水下群体自主",
+            "sources": [
+              {
+                "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Reinforcement learning for bluff body active flow control in experiments and simulations",
+          "year": 2020,
+          "venue": "PNAS",
+          "summaryZh": "官方教师页列出的代表成果，具体实验条件和资源可用性仍需向导师确认。",
+          "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "A robotic intelligent towing tank for learning complex fluid-structure dynamics",
+          "year": 2019,
+          "venue": "Science Robotics",
+          "summaryZh": "官方教师页列出的代表成果，具体实验条件和资源可用性仍需向导师确认。",
+          "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "Inferring vortex induced vibrations of flexible cylinders using physics-informed neural networks",
+          "year": 2021,
+          "venue": "Journal of Fluids and Structures",
+          "summaryZh": "官方教师页列出的代表成果，具体实验条件和资源可用性仍需向导师确认。",
+          "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+          "sources": [
+            {
+              "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "教师页明确长期招收本科生、研究生（MSc 与 Ph.D.）、博后和访问学者；未指定 Fall 2027/2028，不能视为当轮余位。",
+        "sources": [
+          {
+            "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "unknowns": [
+        "Fall 2028 个人名额、资助和申请轮次未确认",
+        "研究生招募文字未拆分具体 PhD 路线或当前余额",
+        "AI 与电子科学学科均有官方归属，但导师当轮指导资格需单独确认"
+      ],
+      "links": [
+        {
+          "label": "学校简介与招募",
+          "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html"
+        },
+        {
+          "label": "实验室主页",
+          "url": "https://i4fsi.lab.westlake.edu.cn"
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "westlake-shiyu-zhao",
+      "cardSummaryZh": "空中操作机器人与多机器人群体智能，覆盖感知、控制、规划及真实系统协同。",
+      "overview": {
+        "textZh": "赵世钰现任西湖大学工学院人工智能系特聘研究员、系副主任和 WINDY Lab 负责人，研究空中操作机器人与通用多机器人群体智能。",
+        "sources": [
+          {
+            "label": "西湖大学官方教师/实验室页",
+            "url": "https://shiyuzhao.westlake.edu.cn/index.htm",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "WINDY Lab（智能无人系统实验室）",
+        "affiliation": {
+          "textZh": "官方实验室页将 WINDY Lab 与西湖大学人工智能系及智能无人系统研究关联。",
+          "sources": [
+            {
+              "label": "西湖大学官方教师/实验室页",
+              "url": "https://shiyuzhao.westlake.edu.cn/index.htm",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "themes": [
+          "空中操作机器人",
+          "多机器人规划与协同控制",
+          "控制、估计与智能感知",
+          "强化学习与自主系统"
+        ],
+        "structure": {
+          "textZh": "研究页按空中操作、控制/估计/感知和多机器人系统组织方向；不据公开页面估计团队规模。",
+          "sources": [
+            {
+              "label": "西湖大学官方教师/实验室页",
+              "url": "https://shiyuzhao.westlake.edu.cn/index.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "西湖大学官方教师/实验室页",
+              "url": "https://shiyuzhao.westlake.edu.cn/Research.htm",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "实验室主页明确 prospective PhD students 可申请，录取博士提供全程资助；这是公开政策文字，不等同于具体轮次余位。",
+            "sources": [
+              {
+                "label": "西湖大学官方教师/实验室页",
+                "url": "https://shiyuzhao.westlake.edu.cn/index.htm",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          },
+          {
+            "textZh": "Research 页面列出空中操作机器人及多机器人系统的控制、规划和感知方向。",
+            "sources": [
+              {
+                "label": "西湖大学官方教师/实验室页",
+                "url": "https://shiyuzhao.westlake.edu.cn/Research.htm",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Proximal cooperative aerial manipulation with vertically stacked drones",
+          "year": 2025,
+          "venue": "Nature",
+          "summaryZh": "公开实验室或论文页面列出的研究成果；具体新生资源和项目名额仍需确认。",
+          "url": "https://www.nature.com/articles/s41586-025-09575-x",
+          "sources": [
+            {
+              "label": "西湖大学官方教师/实验室页",
+              "url": "https://www.nature.com/articles/s41586-025-09575-x",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "Aerial manipulation robots: control, estimation and sensing",
+          "year": 2026,
+          "venue": "WINDY Lab research portfolio",
+          "summaryZh": "公开实验室或论文页面列出的研究成果；具体新生资源和项目名额仍需确认。",
+          "url": "https://shiyuzhao.westlake.edu.cn/Research.htm",
+          "sources": [
+            {
+              "label": "西湖大学官方教师/实验室页",
+              "url": "https://shiyuzhao.westlake.edu.cn/Research.htm",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "Multi-robot systems: planning and control",
+          "year": 2026,
+          "venue": "WINDY Lab research portfolio",
+          "summaryZh": "公开实验室或论文页面列出的研究成果；具体新生资源和项目名额仍需确认。",
+          "url": "https://shiyuzhao.westlake.edu.cn/Research.htm",
+          "sources": [
+            {
+              "label": "西湖大学官方教师/实验室页",
+              "url": "https://shiyuzhao.westlake.edu.cn/Research.htm",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "WINDY Lab 主页明确一直接受 PhD positions，申请基于材料与面试、无需入学考试，并写明录取博士全程获得资助；页面未指定 Fall 2027/2028。",
+        "sources": [
+          {
+            "label": "西湖大学官方教师/实验室页",
+            "url": "https://shiyuzhao.westlake.edu.cn/index.htm",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "unknowns": [
+        "Fall 2028 个人名额与学校申请轮次未公开确认",
+        "全程资助文字的具体适用条件和名额上限需直接向实验室确认",
+        "本轮未找到独立 RA 岗位声明"
+      ],
+      "links": [
+        {
+          "label": "实验室主页与PhD申请",
+          "url": "https://shiyuzhao.westlake.edu.cn/index.htm"
+        },
+        {
+          "label": "研究方向",
+          "url": "https://shiyuzhao.westlake.edu.cn/Research.htm"
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
     }
   ],
   "reviewRequired": true,
@@ -5722,5 +6548,27 @@
     "catalogMutation": "two_recruitment_annotations_and_two_phd_only_advisors",
     "scope": "Public identity, existing PhD route association, Spring/Fall 2027 announcement and rich profile. No new degree programme or RA job; old sourceRecord values remain unchanged.",
     "integrationBaseCommit": "4324f8955e1d718288260aecff0c04ffb10f3be0"
+  },
+  "batch8Review": {
+    "checkedDate": "2026-10-04",
+    "scope": "Westlake robotics, embodied AI and microrobotics faculty expansion",
+    "addedProfiles": [
+      "westlake-zexi-liang",
+      "westlake-wei-wang",
+      "westlake-chi-zhang",
+      "westlake-yaochu-jin",
+      "westlake-dixia-fan",
+      "westlake-shiyu-zhao"
+    ],
+    "preservedProfiles": 35,
+    "cyclePriority": "Fall 2028 receives priority; no candidate page explicitly states Fall 2028. Evergreen recruitment is kept separate from 2027/2028 quota evidence.",
+    "sources": [
+      "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+      "https://en.westlake.edu.cn/faculty/wei-wang.html",
+      "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+      "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+      "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+      "https://shiyuzhao.westlake.edu.cn/index.htm"
+    ]
   }
 }

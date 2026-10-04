@@ -27,7 +27,7 @@ test('five distinct page overviews provide real synthesis before item-level list
  const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');assert(html.indexOf('class="search-surface"')<html.indexOf('id="page-overview"'));assert(html.indexOf('id="page-overview"')<html.indexOf('id="results"'));assert(html.indexOf('id="page-overview"')<html.indexOf('id="view-content"'));
 });
 test('advisor coverage uses unique included people, distinguishes degree signals from RA jobs',()=>{
- const s=plain('advisors');assert(s.includes('35 位导师'));assert(s.includes('52 条机会'));assert(s.includes('50 条学位机会中，25 条'));assert(s.includes('2 个已核实 RA 岗位'));assert(s.includes('灵巧操作与触觉涉及 22 位'));assert(!s.includes('34 位导师'));assert(!s.includes('46 位导师'));
+ const s=plain('advisors');assert(s.includes('41 位导师'));assert(s.includes('59 条机会'));assert(s.includes('57 条学位机会中，32 条'));assert(s.includes('2 个已核实 RA 岗位'));assert(s.includes('灵巧操作与触觉涉及 23 位'));assert(!s.includes('34 位导师'));assert(!s.includes('46 位导师'));
 });
 test('programme synthesis reports complete current coverage without inflating the route count',()=>{
  const s=plain('routes');for(const text of ['27 个项目','9 所学校','13 个 MPhil','12 个 PhD','27 个项目有培养与研究简介','另外 0 个目前仅有基本条件'])assert(s.includes(text),text);assert(s.includes('授课'));assert(s.includes('固定导师名额'));
@@ -66,7 +66,7 @@ test('reviewed catalog and materials plus expanded experience data retain their 
 test('compact advisor entry retains three substantive conclusions without disclosure',()=>{
  const m=model('advisors'),html=renderPageOverview('advisors',catalog,options);
  assert.equal(m.insights.length,3);
- for(const text of ['张富','多传感定位','刘希慧','多模态导航','代表工作','MPhil','PhD','2 个已核实 RA 岗位','培养与指导关系','任期与任职条件','25 条','其余待确认','院系招生都不等于导师本轮名额','条件与来源'])assert(m.insights.some(i=>i.text.includes(text)),text);
+ for(const text of ['张富','多传感定位','刘希慧','多模态导航','代表工作','MPhil','PhD','2 个已核实 RA 岗位','培养与指导关系','任期与任职条件','32 条','其余待确认','院系招生都不等于导师本轮名额','条件与来源'])assert(m.insights.some(i=>i.text.includes(text)),text);
  for(const insight of m.insights){assert(html.includes(`<p>${insight.text}</p>`));assert(insight.text.length>=45);}
  assert(!html.includes('<details'));
  assert.equal((html.match(/data-overview-preset=/g)||[]).length,3);
