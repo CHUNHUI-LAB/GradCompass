@@ -6,7 +6,7 @@ root=Path(__file__).resolve().parent.parent
 def version(name):return hashlib.sha256((root/name).read_bytes()).hexdigest()[:12]
 app=root/'assets/app.js'
 app_text=app.read_text()
-for name in ['catalog.json','material-summaries.json','project-summaries.json','advisor-profiles.json']:
+for name in ['catalog.json','material-summaries.json','project-summaries.json','advisor-profiles.json','sustech-advisor-review-20261004.json']:
     app_text,count=re.subn(r"(?<=[/'])"+re.escape(name)+r"(?:\?v=[0-9a-f]+)?(?=')",name+'?v='+version('data/'+name),app_text)
     if count!=1:raise SystemExit('Expected exactly one changed dataset URL: '+name)
 app_text,count=re.subn(r"new URL\('\.\./data/application-experiences\.json(?:\?v=[0-9a-f]+)?'", "new URL('../data/application-experiences.json?v="+version('data/application-experiences.json')+"'",app_text)

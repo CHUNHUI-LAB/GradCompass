@@ -24,7 +24,7 @@ export const protectedFileHashes=Object.freeze({
   "assets/favicon.svg": "f2e69aa0eeaf1a41932734621ec1c55d662ef6cf322fae62fa94b0429eef0d5c"
 });
 export const versionOnlyFileHashes=Object.freeze({
-  "assets/app.js": "3e919ee45a4071811c2867a540982a61de5aa09552c62c55fc56ed0da83f8c7c",
+  "assets/app.js": "6cf61ff8bc14dee5f17296a5913176d645938427ce3313192ac3dd03bebf3844",
   "index.html": "0e0374a9b3443830050a829dbad43feb5b9ef9467fc00e2d194456e261977667"
 });
 export const sha256=value=>crypto.createHash('sha256').update(value).digest('hex');
