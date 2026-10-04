@@ -39,7 +39,7 @@ test('responsive layout covers narrow navigation, reader rails and semantic comp
 });
 test('focus, hover, panel motion and reduced-motion handling are explicit',()=>{
  assert(css.includes(':focus-visible{outline:3px solid var(--accent)'));assert(css.includes('160ms ease'));assert(css.includes('reader-enter 220ms ease-out'));assert(css.includes('@media(prefers-reduced-motion:reduce)'));assert(css.includes('animation:none!important;transition:none!important'));
- assert(app.includes("$('#detail-title')?.focus()"));assert(app.includes("data-reading-section"));assert(experiences.includes('id="experience-section-0" tabindex="-1"'));
+ assert(app.includes("focusDetailControl($('#detail-title'));dialog.scrollTop=0;"));assert(app.includes("target?.focus?.({preventScroll:true})"));assert.equal((app.match(/presentDetail\(!refresh\)/g)||[]).length,3);assert(app.includes("data-reading-section"));assert(experiences.includes('id="experience-section-0" tabindex="-1"'));
 });
 test('all internal detail types keep their source chain and distinguish employment',()=>{
  for(const type of ['project','deadline','material'])assert(app.includes(type));assert(app.includes('data-reading-kind="${job?\'ra\':\'advisor\'}"'));

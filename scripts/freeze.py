@@ -40,6 +40,7 @@ files.extend(['scripts/public-counts.mjs','tests/public-discovery.test.mjs','tes
 files.extend(['tests/fixtures/history/reviewed-source-deltas.json', 'tests/historical-source-baseline.mjs', 'tests/historical-source-baseline.test.mjs', 'tests/historical-source-fs.mjs'])
 files.extend(['tests/current-correction-baseline.mjs', 'tests/current-correction-baseline.test.mjs', 'tests/concurrent-reference-baseline.mjs', 'tests/concurrent-reference-baseline.test.mjs', 'tests/fixtures/history/reviewed-current-corrections.json', 'tests/fixtures/history/reviewed-concurrent-reference.json'])
 files.extend(['tests/strict-history-transform.mjs', 'tests/latest-3f294-baseline.mjs', 'tests/latest-3f294-baseline.test.mjs', 'tests/fixtures/history/reviewed-concurrent-3f294.json', 'tests/fixtures/history/reviewed-current-3f294-corrections.json'])
+files.extend(['tests/detail-ui-baseline.mjs', 'tests/detail-ui-baseline.test.mjs', 'tests/fixtures/history/reviewed-detail-ui-polish.json', 'tests/detail-reader-polish.test.mjs'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):
@@ -62,6 +63,7 @@ manifest.update(json.loads(subprocess.check_output(['node','scripts/public-count
 manifest['candidateBaseCommit']='3f294a8cc601e77183deb594de0836ec76cc8a9c'
 manifest['revision']='source-evidence-discovery-candidate-20261004'
 manifest['evidenceScope']='All recorded advisors and academic references remain readable; verified degree associations require exact sourced advisor-route joins. Project evidence is not individual recruitment or remaining capacity.'
+manifest['detailUiPolish']={'date':'2026-10-04','baseCommit':'dd654eaaf9e7f6143b1c99a54c3e3e97fc86f142','scope':'Deduplicate identical advisor association text and keep reader headings visible without changing eligibility, data or layout','dataChanged':False,'layoutChanged':False,'validationScope':'Local focus/scroll and historical regression contracts; deployment and live-browser verification are separate'}
 for name in sorted(set(files)):
     p=root/name
     if not p.is_file():raise SystemExit('Missing allowlisted file: '+name)

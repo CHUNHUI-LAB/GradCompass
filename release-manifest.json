@@ -37,8 +37,8 @@
     },
     {
       "path": "QA.md",
-      "bytes": 45841,
-      "sha256": "f4aa16324f216b06176fae439c18ff27a39a5421d586afd144dee5fb8ce53202"
+      "bytes": 48136,
+      "sha256": "1627b456c00bff868fe6cdc412284c54f40e8da4b1f9c275a89c2c6fde233906"
     },
     {
       "path": "README.md",
@@ -52,8 +52,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 69439,
-      "sha256": "d90c1fa2e55244e6c0cd763ca66c40b1bb40fdcf2785f2b2afc2a18f6891e2e3"
+      "bytes": 71230,
+      "sha256": "d25447147287fde8b6bccb7b8c92798a4ea7427c599922fce0fc4cfe26426ba0"
     },
     {
       "path": "assets/campus-art.webp",
@@ -173,7 +173,7 @@
     {
       "path": "index.html",
       "bytes": 8270,
-      "sha256": "d7c81e4fc61b7e19d620f77e75dc80357b5ac6f016fb583f979c2be275f85f9a"
+      "sha256": "c069a2831953cdceab275de8f295929a50a2470b95a8bfc2fe4dc095bf187c57"
     },
     {
       "path": "package.json",
@@ -182,8 +182,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 10081,
-      "sha256": "bf2fd2a07942b5d3512e3e11a7a98225786294b3e8f42f1c3b5d862720495d05"
+      "bytes": 10673,
+      "sha256": "a579d46d624512f8eb0c824ffa25f2840d23d24952aeafb31ce632fdacc4d9b9"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -244,6 +244,21 @@
       "path": "tests/cycle-refresh.test.mjs",
       "bytes": 7205,
       "sha256": "9555fcf4fa38fd4c85767de42b009d392e30a6dbaa36845f4ea17d2b3d64c07b"
+    },
+    {
+      "path": "tests/detail-reader-polish.test.mjs",
+      "bytes": 17067,
+      "sha256": "b5319d2424fba9261c6933dc56fd74a79d5d73b5cadb3d0743e253139e3eb6c6"
+    },
+    {
+      "path": "tests/detail-ui-baseline.mjs",
+      "bytes": 1565,
+      "sha256": "87a50415fd239edf4b5dbee952f115f11b3631b745e3ef4eeb6b3cab977eb5eb"
+    },
+    {
+      "path": "tests/detail-ui-baseline.test.mjs",
+      "bytes": 4600,
+      "sha256": "6ab5851eec4ce489be444fef1e567addf607ba909529ff09b1b63f8cd8a1ecb5"
     },
     {
       "path": "tests/editorial-design.test.mjs",
@@ -307,8 +322,8 @@
     },
     {
       "path": "tests/f2-design.test.mjs",
-      "bytes": 5427,
-      "sha256": "16b1ad4454b2a7f3087fb2a8e8016daeb52148d11fafad2e9b76a0dc91eae947"
+      "bytes": 5589,
+      "sha256": "852f6196567ca2eabe96edaae1f097e8f59151da544d02aa9951a8a5a97c6f05"
     },
     {
       "path": "tests/fixtures/history/reviewed-concurrent-3f294.json",
@@ -329,6 +344,11 @@
       "path": "tests/fixtures/history/reviewed-current-corrections.json",
       "bytes": 1230065,
       "sha256": "9121155eeccd93a80d1caf67e14a1ca1c6d2e7b7e04177bdd8993b773df7625b"
+    },
+    {
+      "path": "tests/fixtures/history/reviewed-detail-ui-polish.json",
+      "bytes": 6478,
+      "sha256": "3ed94ddefa3180a82913df8a06f85760cb45a618d01baeee8ccc1c4883928d2b"
     },
     {
       "path": "tests/fixtures/history/reviewed-source-deltas.json",
@@ -362,13 +382,13 @@
     },
     {
       "path": "tests/latest-3f294-baseline.mjs",
-      "bytes": 1862,
-      "sha256": "ee549dc9b642a257130f4a1b7ee8da5cb0f447a25f24cd514b398b20515bcc33"
+      "bytes": 1938,
+      "sha256": "d041604bcd07f23406bb3fccb42c2a330b17ae2098506b633169740e6ea35b19"
     },
     {
       "path": "tests/latest-3f294-baseline.test.mjs",
-      "bytes": 7247,
-      "sha256": "b56aa5886bf91503a5dd6639aa97cfc1c6c63a17a3a9d19e2da7f6da3a3b0df8"
+      "bytes": 7486,
+      "sha256": "b633a912319cc57710cc4e54ee706efd24c83f2ad6dc424d8cc15fa7d1b3d83d"
     },
     {
       "path": "tests/maintenance-baseline.mjs",
@@ -564,5 +584,13 @@
   "projectCatalogCount": 42,
   "visibleProjectCount": 42,
   "candidateBaseCommit": "3f294a8cc601e77183deb594de0836ec76cc8a9c",
-  "evidenceScope": "All recorded advisors and academic references remain readable; verified degree associations require exact sourced advisor-route joins. Project evidence is not individual recruitment or remaining capacity."
+  "evidenceScope": "All recorded advisors and academic references remain readable; verified degree associations require exact sourced advisor-route joins. Project evidence is not individual recruitment or remaining capacity.",
+  "detailUiPolish": {
+    "date": "2026-10-04",
+    "baseCommit": "dd654eaaf9e7f6143b1c99a54c3e3e97fc86f142",
+    "scope": "Deduplicate identical advisor association text and keep reader headings visible without changing eligibility, data or layout",
+    "dataChanged": false,
+    "layoutChanged": false,
+    "validationScope": "Local focus/scroll and historical regression contracts; deployment and live-browser verification are separate"
+  }
 }
