@@ -15,6 +15,9 @@ test('Tsinghua is a unified institution with verified ordinary-master routes', (
   assert.equal(advisors.length, 7);
   assert(advisors.every(a => a.defaultVisible && a.eligibility === 'verified'));
   assert.equal(filterRoutes(catalog, {institution: 'Tsinghua'}).length, 2);
+  const phdRoutes = catalog.routes.filter(r => r.institution === 'Tsinghua' && r.degree === 'PhD' && r.status === 'reference');
+  assert.equal(phdRoutes.length, 2);
+  assert(phdRoutes.every(r => r.cycle2027Verified === true && r.bachelorEligible === false));
   assert.deepEqual(new Set(advisors.map(a => a.nameZh)), new Set(['刘莉','赵慧婵','陈睿','李曙光','姜峣','吴丹','高阳']));
 });
 
@@ -35,4 +38,7 @@ test('Tsinghua review keeps doctoral eligibility and Fall 2028 boundaries explic
   const rows = buildOpportunities({...catalog, raPositions: ra.raPositions}).filter(o => o.advisorId?.startsWith('tsinghua-'));
   assert.equal(rows.length, 7);
   assert(rows.every(o => o.type === 'MSc'));
+  assert(catalog.advisors.filter(a => a.institution === 'Tsinghua').every(a => a.routeIds.some(id => id.includes('phd-reference'))));
+  assert(review.admissionEvidence.some(e => e.id === 'tsinghua-me-phd-2027'));
+  assert(review.admissionEvidence.some(e => e.id === 'tsinghua-iiis-phd-2027'));
 });

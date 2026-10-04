@@ -5,7 +5,7 @@
     "checkedDate": "2026-10-04",
     "refresh": "manual",
     "dailyUpdatesEnabled": false,
-    "scope": "公开通用申请平台的导师与项目首批数据；香港本部、HKUST(GZ)、Westlake、CUHK-Shenzhen，另保留 XJTLU 核验线索；非所有申请制学校全覆盖；2026-10-04 增补南方科技大学机械/机器人导师与普通硕士制度路径参考；2026-10-04 增补清华大学机械工程系与交叉信息研究院导师、2027 普通硕士路径及博士资格边界参考",
+    "scope": "公开通用申请平台的导师与项目首批数据；香港本部、HKUST(GZ)、Westlake、CUHK-Shenzhen，另保留 XJTLU 核验线索；非所有申请制学校全覆盖；2026-10-04 增补南方科技大学机械/机器人导师与普通硕士制度路径参考；2026-10-04 增补清华大学机械工程系与交叉信息研究院导师、2027 普通硕士路径及博士项目参考",
     "eligibilityMeaning": "verified 仅表示官方本科起点、无需推免和无需先获硕士路径及相应关联证据；不评估任何个人是否满足全部条件",
     "openingMeaning": "explicit 表示存在分学位的公开招募信号；只有 cycle2027FallVerified 才表示明确 Fall 2027，常年信号不保证当前余额",
     "newPiMeaning": "newPi.verified 专指有官方 2026 新任证据；任职日期另记录，不从职称或年龄推断",
@@ -68,9 +68,15 @@
       },
       {
         "file": "tsinghua-advisor-review-20261004.json",
-        "sha256": "7a5fe38cfc8dffe5f03e76e4f9af2f89ce80e347546c388c1e9792ea552203da",
+        "sha256": "7a1ceb99cea3a17af2105c3d4b9fab61636f420edae5fd3d89dbb300f339d253",
         "checkedDate": "2026-10-04",
-        "scope": "清华大学机器人、具身智能、智能制造和触觉方向导师及 2027/2028 招生边界"
+        "scope": "清华导师核查、2027 硕士/博士项目与个人名额边界"
+      },
+      {
+        "file": "sustech-advisor-review-20261004.json",
+        "sha256": "6af177a0b5acad4445d88dc80ca39734982e69087caf31479277fe1234022ac0",
+        "checkedDate": "2026-10-04",
+        "scope": "南科大导师核查、机械系博士项目参考与 2027 博士通知边界"
       }
     ],
     "normalizationNotes": [
@@ -12956,7 +12962,8 @@
       "summary": "人体增强与康复机器人、动态行走、动力假肢、外骨骼与负重行走控制",
       "profileUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/891.html",
       "routeIds": [
-        "sustech-mee-msc-ordinary"
+        "sustech-mee-msc-ordinary",
+        "sustech-mee-phd-reference-2026"
       ],
       "routeAssociations": [
         {
@@ -12982,6 +12989,30 @@
             }
           ],
           "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "sustech-mee-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "院系博士项目与导师研究方向/博士生导师身份关联已核实；个人导师 2027/2028 余位、资助和接收意向尚未确认。",
+          "sources": [
+            {
+              "label": "南科大机械与能源工程系研究生招生页（含自主培养博士）",
+              "url": "https://mee.sustech.edu.cn/yanjiushengzhaosheng/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系学科简介",
+              "url": "https://mee.sustech.edu.cn/xuekejianjie/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系官方教师页",
+              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/891.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
         }
       ],
       "eligibility": "verified",
@@ -12992,7 +13023,7 @@
       "openings": {
         "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
         "mphil": "未核实公开声明",
-        "phd": "院系博士招生通知不能替代个人导师名额确认",
+        "phd": "已关联南科大博士项目参考；个人导师 2027/2028 名额、接收意向与资助待确认",
         "ra": "未核实公开岗位",
         "cycle2027": "仅有院系/项目层面的 2027 参考，个人名额待确认",
         "cycle2028": "个人 2028 Fall 招生名额未核实"
@@ -13024,21 +13055,26 @@
         {
           "degree": "PhD",
           "status": "unknown",
-          "summary": "院系博士招生通知不能替代个人导师名额确认",
+          "summary": "已关联南科大博士项目参考；院系招生通知不能替代个人导师 2027/2028 名额确认",
           "cycle2027FallVerified": false,
-          "cycle": "2027 Fall 院系参考；2028 Fall 未核实",
-          "degreeRouteAssociated": false,
-          "sourceStatus": "department_notice_only",
+          "cycle": "2027 Fall 项目/通知参考；2028 Fall 个人名额未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "program_reference_only",
           "noticeDate": null,
           "sources": [
             {
-              "label": "南科大机械与能源工程系官方教师页",
-              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/891.html",
+              "label": "南科大机械与能源工程系研究生招生页（含自主培养博士）",
+              "url": "https://mee.sustech.edu.cn/yanjiushengzhaosheng/",
               "checkedDate": "2026-10-04"
             },
             {
-              "label": "南科大机器人与自动化方向团队页",
-              "url": "https://mee.sustech.edu.cn/kexueyanjiu/3033.html",
+              "label": "南科大机械与能源工程系学科简介",
+              "url": "https://mee.sustech.edu.cn/xuekejianjie/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系官方教师页",
+              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/891.html",
               "checkedDate": "2026-10-04"
             }
           ],
@@ -13127,6 +13163,9 @@
         ],
         "verified_bachelor_route_ids": [
           "sustech-mee-msc-ordinary"
+        ],
+        "reference_phd_route_ids": [
+          "sustech-mee-phd-reference-2026"
         ]
       }
     },
@@ -13143,7 +13182,8 @@
       "summary": "显微自动化、磁控微纳机器人、微纳流体与单细胞分析",
       "profileUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/907.html",
       "routeIds": [
-        "sustech-mee-msc-ordinary"
+        "sustech-mee-msc-ordinary",
+        "sustech-mee-phd-reference-2026"
       ],
       "routeAssociations": [
         {
@@ -13169,6 +13209,30 @@
             }
           ],
           "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "sustech-mee-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "院系博士项目与导师研究方向/博士生导师身份关联已核实；个人导师 2027/2028 余位、资助和接收意向尚未确认。",
+          "sources": [
+            {
+              "label": "南科大机械与能源工程系研究生招生页（含自主培养博士）",
+              "url": "https://mee.sustech.edu.cn/yanjiushengzhaosheng/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系学科简介",
+              "url": "https://mee.sustech.edu.cn/xuekejianjie/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系官方教师页",
+              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/907.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
         }
       ],
       "eligibility": "verified",
@@ -13179,7 +13243,7 @@
       "openings": {
         "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
         "mphil": "未核实公开声明",
-        "phd": "院系博士招生通知不能替代个人导师名额确认",
+        "phd": "已关联南科大博士项目参考；个人导师 2027/2028 名额、接收意向与资助待确认",
         "ra": "未核实公开岗位",
         "cycle2027": "仅有院系/项目层面的 2027 参考，个人名额待确认",
         "cycle2028": "个人 2028 Fall 招生名额未核实"
@@ -13211,21 +13275,26 @@
         {
           "degree": "PhD",
           "status": "unknown",
-          "summary": "院系博士招生通知不能替代个人导师名额确认",
+          "summary": "已关联南科大博士项目参考；院系招生通知不能替代个人导师 2027/2028 名额确认",
           "cycle2027FallVerified": false,
-          "cycle": "2027 Fall 院系参考；2028 Fall 未核实",
-          "degreeRouteAssociated": false,
-          "sourceStatus": "department_notice_only",
+          "cycle": "2027 Fall 项目/通知参考；2028 Fall 个人名额未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "program_reference_only",
           "noticeDate": null,
           "sources": [
             {
-              "label": "南科大机械与能源工程系官方教师页",
-              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/907.html",
+              "label": "南科大机械与能源工程系研究生招生页（含自主培养博士）",
+              "url": "https://mee.sustech.edu.cn/yanjiushengzhaosheng/",
               "checkedDate": "2026-10-04"
             },
             {
-              "label": "南科大 2025 国际博士研究方向清单",
-              "url": "https://cse.sustech.edu.cn/uploads/202601/1-ListofResearchAreasfor2025DoctoralProgramAdmissions%5B-%5D12155916_71168_75696780.pdf",
+              "label": "南科大机械与能源工程系学科简介",
+              "url": "https://mee.sustech.edu.cn/xuekejianjie/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系官方教师页",
+              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/907.html",
               "checkedDate": "2026-10-04"
             }
           ],
@@ -13314,6 +13383,9 @@
         ],
         "verified_bachelor_route_ids": [
           "sustech-mee-msc-ordinary"
+        ],
+        "reference_phd_route_ids": [
+          "sustech-mee-phd-reference-2026"
         ]
       }
     },
@@ -13330,7 +13402,8 @@
       "summary": "新型电机、柔性与微型仿生机器人、医疗机器人",
       "profileUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/903.html",
       "routeIds": [
-        "sustech-mee-msc-ordinary"
+        "sustech-mee-msc-ordinary",
+        "sustech-mee-phd-reference-2026"
       ],
       "routeAssociations": [
         {
@@ -13356,6 +13429,30 @@
             }
           ],
           "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "sustech-mee-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "院系博士项目与导师研究方向/博士生导师身份关联已核实；个人导师 2027/2028 余位、资助和接收意向尚未确认。",
+          "sources": [
+            {
+              "label": "南科大机械与能源工程系研究生招生页（含自主培养博士）",
+              "url": "https://mee.sustech.edu.cn/yanjiushengzhaosheng/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系学科简介",
+              "url": "https://mee.sustech.edu.cn/xuekejianjie/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系官方教师页",
+              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/903.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
         }
       ],
       "eligibility": "verified",
@@ -13366,7 +13463,7 @@
       "openings": {
         "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
         "mphil": "未核实公开声明",
-        "phd": "院系博士招生通知不能替代个人导师名额确认",
+        "phd": "已关联南科大博士项目参考；个人导师 2027/2028 名额、接收意向与资助待确认",
         "ra": "未核实公开岗位",
         "cycle2027": "仅有院系/项目层面的 2027 参考，个人名额待确认",
         "cycle2028": "个人 2028 Fall 招生名额未核实"
@@ -13398,21 +13495,26 @@
         {
           "degree": "PhD",
           "status": "unknown",
-          "summary": "院系博士招生通知不能替代个人导师名额确认",
+          "summary": "已关联南科大博士项目参考；院系招生通知不能替代个人导师 2027/2028 名额确认",
           "cycle2027FallVerified": false,
-          "cycle": "2027 Fall 院系参考；2028 Fall 未核实",
-          "degreeRouteAssociated": false,
-          "sourceStatus": "department_notice_only",
+          "cycle": "2027 Fall 项目/通知参考；2028 Fall 个人名额未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "program_reference_only",
           "noticeDate": null,
           "sources": [
             {
-              "label": "南科大机械与能源工程系官方教师页",
-              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/903.html",
+              "label": "南科大机械与能源工程系研究生招生页（含自主培养博士）",
+              "url": "https://mee.sustech.edu.cn/yanjiushengzhaosheng/",
               "checkedDate": "2026-10-04"
             },
             {
-              "label": "AARLab 官方机会页",
-              "url": "https://wanglab.mee.sustech.edu.cn/opportunities.html",
+              "label": "南科大机械与能源工程系学科简介",
+              "url": "https://mee.sustech.edu.cn/xuekejianjie/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系官方教师页",
+              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/903.html",
               "checkedDate": "2026-10-04"
             }
           ],
@@ -13501,6 +13603,9 @@
         ],
         "verified_bachelor_route_ids": [
           "sustech-mee-msc-ordinary"
+        ],
+        "reference_phd_route_ids": [
+          "sustech-mee-phd-reference-2026"
         ]
       }
     },
@@ -13517,7 +13622,8 @@
       "summary": "足式机器人、机器人动力学、力与力矩控制",
       "profileUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/926.html",
       "routeIds": [
-        "sustech-mee-msc-ordinary"
+        "sustech-mee-msc-ordinary",
+        "sustech-mee-phd-reference-2026"
       ],
       "routeAssociations": [
         {
@@ -13543,6 +13649,30 @@
             }
           ],
           "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "sustech-mee-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "院系博士项目与导师研究方向/博士生导师身份关联已核实；个人导师 2027/2028 余位、资助和接收意向尚未确认。",
+          "sources": [
+            {
+              "label": "南科大机械与能源工程系研究生招生页（含自主培养博士）",
+              "url": "https://mee.sustech.edu.cn/yanjiushengzhaosheng/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系学科简介",
+              "url": "https://mee.sustech.edu.cn/xuekejianjie/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系官方教师页",
+              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/926.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
         }
       ],
       "eligibility": "verified",
@@ -13553,7 +13683,7 @@
       "openings": {
         "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
         "mphil": "未核实公开声明",
-        "phd": "院系博士招生通知不能替代个人导师名额确认",
+        "phd": "已关联南科大博士项目参考；个人导师 2027/2028 名额、接收意向与资助待确认",
         "ra": "未核实公开岗位",
         "cycle2027": "仅有院系/项目层面的 2027 参考，个人名额待确认",
         "cycle2028": "个人 2028 Fall 招生名额未核实"
@@ -13585,21 +13715,26 @@
         {
           "degree": "PhD",
           "status": "unknown",
-          "summary": "院系博士招生通知不能替代个人导师名额确认",
+          "summary": "已关联南科大博士项目参考；院系招生通知不能替代个人导师 2027/2028 名额确认",
           "cycle2027FallVerified": false,
-          "cycle": "2027 Fall 院系参考；2028 Fall 未核实",
-          "degreeRouteAssociated": false,
-          "sourceStatus": "department_notice_only",
+          "cycle": "2027 Fall 项目/通知参考；2028 Fall 个人名额未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "program_reference_only",
           "noticeDate": null,
           "sources": [
             {
-              "label": "南科大机械与能源工程系官方教师页",
-              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/926.html",
+              "label": "南科大机械与能源工程系研究生招生页（含自主培养博士）",
+              "url": "https://mee.sustech.edu.cn/yanjiushengzhaosheng/",
               "checkedDate": "2026-10-04"
             },
             {
-              "label": "南科大自动化与智能制造学院 2027 博士通知",
-              "url": "https://aim.sustech.edu.cn/Article-detail-id-1014-typeid-7.html",
+              "label": "南科大机械与能源工程系学科简介",
+              "url": "https://mee.sustech.edu.cn/xuekejianjie/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系官方教师页",
+              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/926.html",
               "checkedDate": "2026-10-04"
             }
           ],
@@ -13688,6 +13823,9 @@
         ],
         "verified_bachelor_route_ids": [
           "sustech-mee-msc-ordinary"
+        ],
+        "reference_phd_route_ids": [
+          "sustech-mee-phd-reference-2026"
         ]
       }
     },
@@ -13704,7 +13842,8 @@
       "summary": "机器人操作、移动机器人、智能驾驶、模型预测控制与学习",
       "profileUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/927.html",
       "routeIds": [
-        "sustech-mee-msc-ordinary"
+        "sustech-mee-msc-ordinary",
+        "sustech-mee-phd-reference-2026"
       ],
       "routeAssociations": [
         {
@@ -13730,6 +13869,30 @@
             }
           ],
           "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "sustech-mee-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "院系博士项目与导师研究方向/博士生导师身份关联已核实；个人导师 2027/2028 余位、资助和接收意向尚未确认。",
+          "sources": [
+            {
+              "label": "南科大机械与能源工程系研究生招生页（含自主培养博士）",
+              "url": "https://mee.sustech.edu.cn/yanjiushengzhaosheng/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系学科简介",
+              "url": "https://mee.sustech.edu.cn/xuekejianjie/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系官方教师页",
+              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/927.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
         }
       ],
       "eligibility": "verified",
@@ -13740,7 +13903,7 @@
       "openings": {
         "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
         "mphil": "未核实公开声明",
-        "phd": "院系博士招生通知不能替代个人导师名额确认",
+        "phd": "已关联南科大博士项目参考；个人导师 2027/2028 名额、接收意向与资助待确认",
         "ra": "未核实公开岗位",
         "cycle2027": "仅有院系/项目层面的 2027 参考，个人名额待确认",
         "cycle2028": "个人 2028 Fall 招生名额未核实"
@@ -13772,21 +13935,26 @@
         {
           "degree": "PhD",
           "status": "unknown",
-          "summary": "院系博士招生通知不能替代个人导师名额确认",
+          "summary": "已关联南科大博士项目参考；院系招生通知不能替代个人导师 2027/2028 名额确认",
           "cycle2027FallVerified": false,
-          "cycle": "2027 Fall 院系参考；2028 Fall 未核实",
-          "degreeRouteAssociated": false,
-          "sourceStatus": "department_notice_only",
+          "cycle": "2027 Fall 项目/通知参考；2028 Fall 个人名额未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "program_reference_only",
           "noticeDate": null,
           "sources": [
             {
-              "label": "南科大机械与能源工程系官方教师页",
-              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/927.html",
+              "label": "南科大机械与能源工程系研究生招生页（含自主培养博士）",
+              "url": "https://mee.sustech.edu.cn/yanjiushengzhaosheng/",
               "checkedDate": "2026-10-04"
             },
             {
-              "label": "南科大机器人与自动化方向团队页",
-              "url": "https://mee.sustech.edu.cn/kexueyanjiu/3033.html",
+              "label": "南科大机械与能源工程系学科简介",
+              "url": "https://mee.sustech.edu.cn/xuekejianjie/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系官方教师页",
+              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/927.html",
               "checkedDate": "2026-10-04"
             }
           ],
@@ -13875,6 +14043,9 @@
         ],
         "verified_bachelor_route_ids": [
           "sustech-mee-msc-ordinary"
+        ],
+        "reference_phd_route_ids": [
+          "sustech-mee-phd-reference-2026"
         ]
       }
     },
@@ -13893,7 +14064,8 @@
       "profileUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/3552.html",
       "labUrl": "https://robotics-star.com/",
       "routeIds": [
-        "sustech-mee-msc-ordinary"
+        "sustech-mee-msc-ordinary",
+        "sustech-mee-phd-reference-2026"
       ],
       "routeAssociations": [
         {
@@ -13919,6 +14091,30 @@
             }
           ],
           "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "sustech-mee-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "院系博士项目与导师研究方向/博士生导师身份关联已核实；个人导师 2027/2028 余位、资助和接收意向尚未确认。",
+          "sources": [
+            {
+              "label": "南科大机械与能源工程系研究生招生页（含自主培养博士）",
+              "url": "https://mee.sustech.edu.cn/yanjiushengzhaosheng/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系学科简介",
+              "url": "https://mee.sustech.edu.cn/xuekejianjie/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系官方教师页",
+              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/3552.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
         }
       ],
       "eligibility": "verified",
@@ -13929,7 +14125,7 @@
       "openings": {
         "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
         "mphil": "未核实公开声明",
-        "phd": "院系博士招生通知不能替代个人导师名额确认",
+        "phd": "已关联南科大博士项目参考；个人导师 2027/2028 名额、接收意向与资助待确认",
         "ra": "未核实公开岗位",
         "cycle2027": "仅有院系/项目层面的 2027 参考，个人名额待确认",
         "cycle2028": "个人 2028 Fall 招生名额未核实"
@@ -13961,21 +14157,26 @@
         {
           "degree": "PhD",
           "status": "unknown",
-          "summary": "院系博士招生通知不能替代个人导师名额确认",
+          "summary": "已关联南科大博士项目参考；院系招生通知不能替代个人导师 2027/2028 名额确认",
           "cycle2027FallVerified": false,
-          "cycle": "2027 Fall 院系参考；2028 Fall 未核实",
-          "degreeRouteAssociated": false,
-          "sourceStatus": "department_notice_only",
+          "cycle": "2027 Fall 项目/通知参考；2028 Fall 个人名额未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "program_reference_only",
           "noticeDate": null,
           "sources": [
             {
-              "label": "南科大机械与能源工程系官方教师页",
-              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/3552.html",
+              "label": "南科大机械与能源工程系研究生招生页（含自主培养博士）",
+              "url": "https://mee.sustech.edu.cn/yanjiushengzhaosheng/",
               "checkedDate": "2026-10-04"
             },
             {
-              "label": "STAR 实验室主页",
-              "url": "https://robotics-star.com/",
+              "label": "南科大机械与能源工程系学科简介",
+              "url": "https://mee.sustech.edu.cn/xuekejianjie/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系官方教师页",
+              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/3552.html",
               "checkedDate": "2026-10-04"
             }
           ],
@@ -14065,6 +14266,9 @@
         ],
         "verified_bachelor_route_ids": [
           "sustech-mee-msc-ordinary"
+        ],
+        "reference_phd_route_ids": [
+          "sustech-mee-phd-reference-2026"
         ]
       }
     },
@@ -14083,7 +14287,8 @@
       "profileUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/3892.html",
       "labUrl": "https://menslab-robotics.com/",
       "routeIds": [
-        "sustech-mee-msc-ordinary"
+        "sustech-mee-msc-ordinary",
+        "sustech-mee-phd-reference-2026"
       ],
       "routeAssociations": [
         {
@@ -14109,6 +14314,30 @@
             }
           ],
           "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "sustech-mee-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "院系博士项目与导师研究方向/博士生导师身份关联已核实；个人导师 2027/2028 余位、资助和接收意向尚未确认。",
+          "sources": [
+            {
+              "label": "南科大机械与能源工程系研究生招生页（含自主培养博士）",
+              "url": "https://mee.sustech.edu.cn/yanjiushengzhaosheng/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系学科简介",
+              "url": "https://mee.sustech.edu.cn/xuekejianjie/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系官方教师页",
+              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/3892.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
         }
       ],
       "eligibility": "verified",
@@ -14119,7 +14348,7 @@
       "openings": {
         "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
         "mphil": "未核实公开声明",
-        "phd": "院系博士招生通知不能替代个人导师名额确认",
+        "phd": "已关联南科大博士项目参考；个人导师 2027/2028 名额、接收意向与资助待确认",
         "ra": "未核实公开岗位",
         "cycle2027": "仅有院系/项目层面的 2027 参考，个人名额待确认",
         "cycle2028": "个人 2028 Fall 招生名额未核实"
@@ -14151,21 +14380,26 @@
         {
           "degree": "PhD",
           "status": "unknown",
-          "summary": "院系博士招生通知不能替代个人导师名额确认",
+          "summary": "已关联南科大博士项目参考；院系招生通知不能替代个人导师 2027/2028 名额确认",
           "cycle2027FallVerified": false,
-          "cycle": "2027 Fall 院系参考；2028 Fall 未核实",
-          "degreeRouteAssociated": false,
-          "sourceStatus": "department_notice_only",
+          "cycle": "2027 Fall 项目/通知参考；2028 Fall 个人名额未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "program_reference_only",
           "noticeDate": null,
           "sources": [
             {
-              "label": "南科大机械与能源工程系官方教师页",
-              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/3892.html",
+              "label": "南科大机械与能源工程系研究生招生页（含自主培养博士）",
+              "url": "https://mee.sustech.edu.cn/yanjiushengzhaosheng/",
               "checkedDate": "2026-10-04"
             },
             {
-              "label": "MENS Lab 主页",
-              "url": "https://menslab-robotics.com/",
+              "label": "南科大机械与能源工程系学科简介",
+              "url": "https://mee.sustech.edu.cn/xuekejianjie/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系官方教师页",
+              "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/3892.html",
               "checkedDate": "2026-10-04"
             }
           ],
@@ -14255,6 +14489,9 @@
         ],
         "verified_bachelor_route_ids": [
           "sustech-mee-msc-ordinary"
+        ],
+        "reference_phd_route_ids": [
+          "sustech-mee-phd-reference-2026"
         ]
       }
     },
@@ -14271,7 +14508,8 @@
       "summary": "多智能体系统、分布式人工智能、自主无人系统与群体机器人、感知与控制",
       "profileUrl": "https://www.sustech.edu.cn/zh/faculties/zhiyunlin-2.html",
       "routeIds": [
-        "sustech-mee-msc-ordinary"
+        "sustech-mee-msc-ordinary",
+        "sustech-aim-phd-reference-2027"
       ],
       "routeAssociations": [
         {
@@ -14297,6 +14535,25 @@
             }
           ],
           "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "sustech-aim-phd-reference-2027",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "院系博士项目与导师研究方向/博士生导师身份关联已核实；个人导师 2027/2028 余位、资助和接收意向尚未确认。",
+          "sources": [
+            {
+              "label": "南科大自动化与智能制造学院 2027 级博士优秀生源快响计划",
+              "url": "https://aim.sustech.edu.cn/Article-detail-id-1014-typeid-7.html",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大林志赟官方教师页",
+              "url": "https://www.sustech.edu.cn/zh/faculties/zhiyunlin-2.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
         }
       ],
       "eligibility": "verified",
@@ -14307,7 +14564,7 @@
       "openings": {
         "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
         "mphil": "未核实公开声明",
-        "phd": "院系博士招生通知不能替代个人导师名额确认",
+        "phd": "已关联南科大博士项目参考；个人导师 2027/2028 名额、接收意向与资助待确认",
         "ra": "未核实公开岗位",
         "cycle2027": "仅有院系/项目层面的 2027 参考，个人名额待确认",
         "cycle2028": "个人 2028 Fall 招生名额未核实"
@@ -14339,21 +14596,21 @@
         {
           "degree": "PhD",
           "status": "unknown",
-          "summary": "院系博士招生通知不能替代个人导师名额确认",
-          "cycle2027FallVerified": false,
-          "cycle": "2027 Fall 院系参考；2028 Fall 未核实",
-          "degreeRouteAssociated": false,
-          "sourceStatus": "department_notice_only",
+          "summary": "已关联南科大博士项目参考；院系招生通知不能替代个人导师 2027/2028 名额确认",
+          "cycle2027FallVerified": true,
+          "cycle": "2027 Fall 项目/通知参考；2028 Fall 个人名额未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "program_reference_only",
           "noticeDate": null,
           "sources": [
             {
-              "label": "南科大官方教师页",
-              "url": "https://www.sustech.edu.cn/zh/faculties/zhiyunlin-2.html",
+              "label": "南科大自动化与智能制造学院 2027 级博士优秀生源快响计划",
+              "url": "https://aim.sustech.edu.cn/Article-detail-id-1014-typeid-7.html",
               "checkedDate": "2026-10-04"
             },
             {
-              "label": "南科大 2025 国际博士研究方向清单",
-              "url": "https://cse.sustech.edu.cn/uploads/202601/1-ListofResearchAreasfor2025DoctoralProgramAdmissions%5B-%5D12155916_71168_75696780.pdf",
+              "label": "南科大林志赟官方教师页",
+              "url": "https://www.sustech.edu.cn/zh/faculties/zhiyunlin-2.html",
               "checkedDate": "2026-10-04"
             }
           ],
@@ -14442,6 +14699,9 @@
         ],
         "verified_bachelor_route_ids": [
           "sustech-mee-msc-ordinary"
+        ],
+        "reference_phd_route_ids": [
+          "sustech-aim-phd-reference-2027"
         ]
       }
     },
@@ -14458,7 +14718,8 @@
       "summary": "人形机器人、特种操作与移动机器人、机器人运动规划与控制",
       "profileUrl": "https://www.me.tsinghua.edu.cn/en/info/1053/1420.htm",
       "routeIds": [
-        "tsinghua-me-msc-ordinary"
+        "tsinghua-me-msc-ordinary",
+        "tsinghua-me-phd-reference-2027"
       ],
       "routeAssociations": [
         {
@@ -14479,6 +14740,25 @@
             }
           ],
           "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "tsinghua-me-phd-reference-2027",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "博士项目与导师研究方向/院系导师目录关联已核实；2027/2028 个人导师余位、资助和接收意向尚未确认。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
         }
       ],
       "eligibility": "verified",
@@ -14489,7 +14769,7 @@
       "openings": {
         "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
         "mphil": "未核实公开声明",
-        "phd": "清华博士路径需按硕士/推免条件另行判断，不能借用普通硕士入口",
+        "phd": "已关联清华 2027 博士项目；普通博士通常要求硕士，直博须符合推荐免试条件；个人导师名额待确认",
         "ra": "未核实公开岗位",
         "cycle2027": "已核实院系 2027 项目或导师目录参考，个人名额待确认",
         "cycle2028": "个人 2028 Fall 招生名额未核实"
@@ -14522,14 +14802,19 @@
         {
           "degree": "PhD",
           "status": "unknown",
-          "summary": "清华 2027 普通博士通常要求硕士；本科直博须符合推荐免试条件",
-          "cycle2027FallVerified": false,
+          "summary": "已关联清华 2027 博士项目；普通博士通常要求硕士，直博须符合推荐免试条件。个人导师 2027/2028 名额尚未核实",
+          "cycle2027FallVerified": true,
           "cycle2028FallVerified": false,
-          "cycle": "2027 Fall 规则参考；2028 Fall 未核实",
-          "degreeRouteAssociated": false,
-          "sourceStatus": "eligibility_boundary_only",
+          "cycle": "2027 Fall 博士项目参考；2028 Fall 个人名额未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "program_reference_only",
           "noticeDate": null,
           "sources": [
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            },
             {
               "label": "清华大学 2027 年博士研究生招生简章",
               "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
@@ -14625,6 +14910,9 @@
         ],
         "verified_bachelor_route_ids": [
           "tsinghua-me-msc-ordinary"
+        ],
+        "reference_phd_route_ids": [
+          "tsinghua-me-phd-reference-2027"
         ]
       }
     },
@@ -14641,7 +14929,8 @@
       "summary": "人工肌肉、可拉伸传感器、软体机器人与软体执行器",
       "profileUrl": "https://www.me.tsinghua.edu.cn/en/info/1264/1968.htm",
       "routeIds": [
-        "tsinghua-me-msc-ordinary"
+        "tsinghua-me-msc-ordinary",
+        "tsinghua-me-phd-reference-2027"
       ],
       "routeAssociations": [
         {
@@ -14662,6 +14951,25 @@
             }
           ],
           "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "tsinghua-me-phd-reference-2027",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "博士项目与导师研究方向/院系导师目录关联已核实；2027/2028 个人导师余位、资助和接收意向尚未确认。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
         }
       ],
       "eligibility": "verified",
@@ -14672,7 +14980,7 @@
       "openings": {
         "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
         "mphil": "未核实公开声明",
-        "phd": "清华博士路径需按硕士/推免条件另行判断，不能借用普通硕士入口",
+        "phd": "已关联清华 2027 博士项目；普通博士通常要求硕士，直博须符合推荐免试条件；个人导师名额待确认",
         "ra": "未核实公开岗位",
         "cycle2027": "已核实院系 2027 项目或导师目录参考，个人名额待确认",
         "cycle2028": "个人 2028 Fall 招生名额未核实"
@@ -14705,14 +15013,19 @@
         {
           "degree": "PhD",
           "status": "unknown",
-          "summary": "清华 2027 普通博士通常要求硕士；本科直博须符合推荐免试条件",
-          "cycle2027FallVerified": false,
+          "summary": "已关联清华 2027 博士项目；普通博士通常要求硕士，直博须符合推荐免试条件。个人导师 2027/2028 名额尚未核实",
+          "cycle2027FallVerified": true,
           "cycle2028FallVerified": false,
-          "cycle": "2027 Fall 规则参考；2028 Fall 未核实",
-          "degreeRouteAssociated": false,
-          "sourceStatus": "eligibility_boundary_only",
+          "cycle": "2027 Fall 博士项目参考；2028 Fall 个人名额未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "program_reference_only",
           "noticeDate": null,
           "sources": [
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            },
             {
               "label": "清华大学 2027 年博士研究生招生简章",
               "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
@@ -14808,6 +15121,9 @@
         ],
         "verified_bachelor_route_ids": [
           "tsinghua-me-msc-ordinary"
+        ],
+        "reference_phd_route_ids": [
+          "tsinghua-me-phd-reference-2027"
         ]
       }
     },
@@ -14824,7 +15140,8 @@
       "summary": "智能机器人、具身智能、触觉感知与三维计算机视觉",
       "profileUrl": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
       "routeIds": [
-        "tsinghua-me-msc-ordinary"
+        "tsinghua-me-msc-ordinary",
+        "tsinghua-me-phd-reference-2027"
       ],
       "routeAssociations": [
         {
@@ -14845,6 +15162,25 @@
             }
           ],
           "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "tsinghua-me-phd-reference-2027",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "博士项目与导师研究方向/院系导师目录关联已核实；2027/2028 个人导师余位、资助和接收意向尚未确认。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
         }
       ],
       "eligibility": "verified",
@@ -14855,7 +15191,7 @@
       "openings": {
         "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
         "mphil": "未核实公开声明",
-        "phd": "清华博士路径需按硕士/推免条件另行判断，不能借用普通硕士入口",
+        "phd": "已关联清华 2027 博士项目；普通博士通常要求硕士，直博须符合推荐免试条件；个人导师名额待确认",
         "ra": "未核实公开岗位",
         "cycle2027": "已核实院系 2027 项目或导师目录参考，个人名额待确认",
         "cycle2028": "个人 2028 Fall 招生名额未核实"
@@ -14888,14 +15224,19 @@
         {
           "degree": "PhD",
           "status": "unknown",
-          "summary": "清华 2027 普通博士通常要求硕士；本科直博须符合推荐免试条件",
-          "cycle2027FallVerified": false,
+          "summary": "已关联清华 2027 博士项目；普通博士通常要求硕士，直博须符合推荐免试条件。个人导师 2027/2028 名额尚未核实",
+          "cycle2027FallVerified": true,
           "cycle2028FallVerified": false,
-          "cycle": "2027 Fall 规则参考；2028 Fall 未核实",
-          "degreeRouteAssociated": false,
-          "sourceStatus": "eligibility_boundary_only",
+          "cycle": "2027 Fall 博士项目参考；2028 Fall 个人名额未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "program_reference_only",
           "noticeDate": null,
           "sources": [
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            },
             {
               "label": "清华大学 2027 年博士研究生招生简章",
               "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
@@ -14991,6 +15332,9 @@
         ],
         "verified_bachelor_route_ids": [
           "tsinghua-me-msc-ordinary"
+        ],
+        "reference_phd_route_ids": [
+          "tsinghua-me-phd-reference-2027"
         ]
       }
     },
@@ -15008,7 +15352,8 @@
       "profileUrl": "https://www.me.tsinghua.edu.cn/info/1122/2750.htm",
       "labUrl": "https://www.lisglab.com/",
       "routeIds": [
-        "tsinghua-me-msc-ordinary"
+        "tsinghua-me-msc-ordinary",
+        "tsinghua-me-phd-reference-2027"
       ],
       "routeAssociations": [
         {
@@ -15029,6 +15374,25 @@
             }
           ],
           "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "tsinghua-me-phd-reference-2027",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "博士项目与导师研究方向/院系导师目录关联已核实；2027/2028 个人导师余位、资助和接收意向尚未确认。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
         }
       ],
       "eligibility": "verified",
@@ -15039,7 +15403,7 @@
       "openings": {
         "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
         "mphil": "未核实公开声明",
-        "phd": "清华博士路径需按硕士/推免条件另行判断，不能借用普通硕士入口",
+        "phd": "已关联清华 2027 博士项目；普通博士通常要求硕士，直博须符合推荐免试条件；个人导师名额待确认",
         "ra": "未核实公开岗位",
         "cycle2027": "已核实院系 2027 项目或导师目录参考，个人名额待确认",
         "cycle2028": "个人 2028 Fall 招生名额未核实"
@@ -15072,14 +15436,19 @@
         {
           "degree": "PhD",
           "status": "unknown",
-          "summary": "清华 2027 普通博士通常要求硕士；本科直博须符合推荐免试条件",
-          "cycle2027FallVerified": false,
+          "summary": "已关联清华 2027 博士项目；普通博士通常要求硕士，直博须符合推荐免试条件。个人导师 2027/2028 名额尚未核实",
+          "cycle2027FallVerified": true,
           "cycle2028FallVerified": false,
-          "cycle": "2027 Fall 规则参考；2028 Fall 未核实",
-          "degreeRouteAssociated": false,
-          "sourceStatus": "eligibility_boundary_only",
+          "cycle": "2027 Fall 博士项目参考；2028 Fall 个人名额未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "program_reference_only",
           "noticeDate": null,
           "sources": [
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            },
             {
               "label": "清华大学 2027 年博士研究生招生简章",
               "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
@@ -15176,6 +15545,9 @@
         ],
         "verified_bachelor_route_ids": [
           "tsinghua-me-msc-ordinary"
+        ],
+        "reference_phd_route_ids": [
+          "tsinghua-me-phd-reference-2027"
         ]
       }
     },
@@ -15192,7 +15564,8 @@
       "summary": "机器人交互感知、自主操作、触觉传感、精准驱动与灵巧机械手",
       "profileUrl": "https://www.me.tsinghua.edu.cn/info/1098/3517.htm",
       "routeIds": [
-        "tsinghua-me-msc-ordinary"
+        "tsinghua-me-msc-ordinary",
+        "tsinghua-me-phd-reference-2027"
       ],
       "routeAssociations": [
         {
@@ -15213,6 +15586,25 @@
             }
           ],
           "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "tsinghua-me-phd-reference-2027",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "博士项目与导师研究方向/院系导师目录关联已核实；2027/2028 个人导师余位、资助和接收意向尚未确认。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
         }
       ],
       "eligibility": "verified",
@@ -15223,7 +15615,7 @@
       "openings": {
         "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
         "mphil": "未核实公开声明",
-        "phd": "清华博士路径需按硕士/推免条件另行判断，不能借用普通硕士入口",
+        "phd": "已关联清华 2027 博士项目；普通博士通常要求硕士，直博须符合推荐免试条件；个人导师名额待确认",
         "ra": "未核实公开岗位",
         "cycle2027": "已核实院系 2027 项目或导师目录参考，个人名额待确认",
         "cycle2028": "个人 2028 Fall 招生名额未核实"
@@ -15256,14 +15648,19 @@
         {
           "degree": "PhD",
           "status": "unknown",
-          "summary": "清华 2027 普通博士通常要求硕士；本科直博须符合推荐免试条件",
-          "cycle2027FallVerified": false,
+          "summary": "已关联清华 2027 博士项目；普通博士通常要求硕士，直博须符合推荐免试条件。个人导师 2027/2028 名额尚未核实",
+          "cycle2027FallVerified": true,
           "cycle2028FallVerified": false,
-          "cycle": "2027 Fall 规则参考；2028 Fall 未核实",
-          "degreeRouteAssociated": false,
-          "sourceStatus": "eligibility_boundary_only",
+          "cycle": "2027 Fall 博士项目参考；2028 Fall 个人名额未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "program_reference_only",
           "noticeDate": null,
           "sources": [
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            },
             {
               "label": "清华大学 2027 年博士研究生招生简章",
               "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
@@ -15359,6 +15756,9 @@
         ],
         "verified_bachelor_route_ids": [
           "tsinghua-me-msc-ordinary"
+        ],
+        "reference_phd_route_ids": [
+          "tsinghua-me-phd-reference-2027"
         ]
       }
     },
@@ -15375,7 +15775,8 @@
       "summary": "机器人与自动化技术及装备、智能加工与操作、智能精密装配",
       "profileUrl": "https://me.tsinghua.edu.cn/info/1100/1640.htm",
       "routeIds": [
-        "tsinghua-me-msc-ordinary"
+        "tsinghua-me-msc-ordinary",
+        "tsinghua-me-phd-reference-2027"
       ],
       "routeAssociations": [
         {
@@ -15396,6 +15797,25 @@
             }
           ],
           "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "tsinghua-me-phd-reference-2027",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "博士项目与导师研究方向/院系导师目录关联已核实；2027/2028 个人导师余位、资助和接收意向尚未确认。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
         }
       ],
       "eligibility": "verified",
@@ -15406,7 +15826,7 @@
       "openings": {
         "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
         "mphil": "未核实公开声明",
-        "phd": "清华博士路径需按硕士/推免条件另行判断，不能借用普通硕士入口",
+        "phd": "已关联清华 2027 博士项目；普通博士通常要求硕士，直博须符合推荐免试条件；个人导师名额待确认",
         "ra": "未核实公开岗位",
         "cycle2027": "已核实院系 2027 项目或导师目录参考，个人名额待确认",
         "cycle2028": "个人 2028 Fall 招生名额未核实"
@@ -15439,14 +15859,19 @@
         {
           "degree": "PhD",
           "status": "unknown",
-          "summary": "清华 2027 普通博士通常要求硕士；本科直博须符合推荐免试条件",
-          "cycle2027FallVerified": false,
+          "summary": "已关联清华 2027 博士项目；普通博士通常要求硕士，直博须符合推荐免试条件。个人导师 2027/2028 名额尚未核实",
+          "cycle2027FallVerified": true,
           "cycle2028FallVerified": false,
-          "cycle": "2027 Fall 规则参考；2028 Fall 未核实",
-          "degreeRouteAssociated": false,
-          "sourceStatus": "eligibility_boundary_only",
+          "cycle": "2027 Fall 博士项目参考；2028 Fall 个人名额未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "program_reference_only",
           "noticeDate": null,
           "sources": [
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            },
             {
               "label": "清华大学 2027 年博士研究生招生简章",
               "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
@@ -15542,6 +15967,9 @@
         ],
         "verified_bachelor_route_ids": [
           "tsinghua-me-msc-ordinary"
+        ],
+        "reference_phd_route_ids": [
+          "tsinghua-me-phd-reference-2027"
         ]
       }
     },
@@ -15559,7 +15987,8 @@
       "summary": "通用具身智能体、人形机器人控制、灵巧操作、视觉语言动作模型与触觉感知",
       "profileUrl": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
       "routeIds": [
-        "tsinghua-iiis-msc-robotics"
+        "tsinghua-iiis-msc-robotics",
+        "tsinghua-iiis-phd-reference-2027"
       ],
       "routeAssociations": [
         {
@@ -15585,6 +16014,25 @@
             }
           ],
           "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "tsinghua-iiis-phd-reference-2027",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "博士项目与导师研究方向/院系导师目录关联已核实；2027/2028 个人导师余位、资助和接收意向尚未确认。",
+          "sources": [
+            {
+              "label": "清华大学交叉信息研究院 2027 年博士招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/3415cd69-b74a-413f-bfb6-6a43bed3f344?yxsdm=047",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
         }
       ],
       "eligibility": "verified",
@@ -15595,7 +16043,7 @@
       "openings": {
         "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
         "mphil": "未核实公开声明",
-        "phd": "清华博士路径需按硕士/推免条件另行判断，不能借用普通硕士入口",
+        "phd": "已关联清华 2027 博士项目；普通博士通常要求硕士，直博须符合推荐免试条件；个人导师名额待确认",
         "ra": "未核实公开岗位",
         "cycle2027": "已核实院系 2027 项目或导师目录参考，个人名额待确认",
         "cycle2028": "个人 2028 Fall 招生名额未核实"
@@ -15633,14 +16081,19 @@
         {
           "degree": "PhD",
           "status": "unknown",
-          "summary": "清华 2027 普通博士通常要求硕士；本科直博须符合推荐免试条件",
-          "cycle2027FallVerified": false,
+          "summary": "已关联清华 2027 博士项目；普通博士通常要求硕士，直博须符合推荐免试条件。个人导师 2027/2028 名额尚未核实",
+          "cycle2027FallVerified": true,
           "cycle2028FallVerified": false,
-          "cycle": "2027 Fall 规则参考；2028 Fall 未核实",
-          "degreeRouteAssociated": false,
-          "sourceStatus": "eligibility_boundary_only",
+          "cycle": "2027 Fall 博士项目参考；2028 Fall 个人名额未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "program_reference_only",
           "noticeDate": null,
           "sources": [
+            {
+              "label": "清华大学交叉信息研究院 2027 年博士招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/3415cd69-b74a-413f-bfb6-6a43bed3f344?yxsdm=047",
+              "checkedDate": "2026-10-04"
+            },
             {
               "label": "清华大学 2027 年博士研究生招生简章",
               "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
@@ -15752,6 +16205,9 @@
         ],
         "verified_bachelor_route_ids": [
           "tsinghua-iiis-msc-robotics"
+        ],
+        "reference_phd_route_ids": [
+          "tsinghua-iiis-phd-reference-2027"
         ]
       }
     }
@@ -19261,6 +19717,225 @@
       ],
       "checkedDate": "2026-10-04",
       "defaultVisible": true
+    },
+    {
+      "id": "tsinghua-me-phd-reference-2027",
+      "institution": "Tsinghua",
+      "department": "机械工程系",
+      "program": "机械工程系博士（机械工程/先进装备与机器人方向，申请-考核制）",
+      "degree": "PhD",
+      "bachelorEligible": false,
+      "noTuimianRequired": false,
+      "noMasterRequired": false,
+      "status": "reference",
+      "eligibilitySummary": "2027 年机械工程系博士实行申请-考核制，招生方式包括本科直博、硕博连读和普通招考；普通博士通常按清华博士简章要求具备硕士学历/学位或应届硕士，直博须符合推荐免试条件。",
+      "supervisorAssociation": "机械工程系 2027 博士目录列出的导师具有博士生招生资格，但目录导师数量与招生人数不完全对应；本路线只证明导师与博士项目关联，不证明个人 2027/2028 余位。",
+      "admissionYear": "2027 Fall reference；2028 Fall 个人名额未核实",
+      "cycle2027Verified": true,
+      "applicationStatus": "unknown",
+      "applicationMethod": "申请-考核制；本科直博、硕博连读、普通招考按不同资格申请",
+      "sources": [
+        {
+          "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "清华大学 2027 年博士招生目录（机械工程系）",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/f1b3cfe9-df6d-45e0-8151-eeed697fbb02",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "清华大学 2027 年博士研究生招生简章",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "notes": [
+        "博士项目与导师目录已核实；个人导师接收、计划名额、资助及 2028 Fall 仍需单独确认。",
+        "默认本科可申请机会不包含此参考路线。"
+      ],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "普通博士通常要求硕士研究生毕业、已获硕士学位或应届硕士；应届本科生直博须符合推荐免试条件；具体专业与年度实施细则以清华大学招生简章为准。",
+          "sources": [
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "defaultVisible": false
+    },
+    {
+      "id": "tsinghua-iiis-phd-reference-2027",
+      "institution": "Tsinghua",
+      "department": "交叉信息研究院",
+      "program": "交叉信息研究院人工智能与机器人博士（申请-考核制）",
+      "degree": "PhD",
+      "bachelorEligible": false,
+      "noTuimianRequired": false,
+      "noMasterRequired": false,
+      "status": "reference",
+      "eligibilitySummary": "交叉信息研究院 2027 年博士招生按申请-考核制执行，设本科直博、硕博连读和普通招考等方式；普通博士与直博的学历/推免条件分别适用。",
+      "supervisorAssociation": "高阳的视觉与机器人研究方向与交叉信息研究院博士项目关联已记录；导师目录与个人主页不等于 2027/2028 个人余位。",
+      "admissionYear": "2027 Fall reference；2028 Fall 个人名额未核实",
+      "cycle2027Verified": true,
+      "applicationStatus": "unknown",
+      "applicationMethod": "申请-考核制；本科直博、硕博连读、普通招考按不同资格申请",
+      "sources": [
+        {
+          "label": "清华大学交叉信息研究院 2027 年博士招生简章",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/3415cd69-b74a-413f-bfb6-6a43bed3f344?yxsdm=047",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "清华大学 2027 年博士研究生招生简章",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "清华大学交叉信息研究院视觉与机器人实验室",
+          "url": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "notes": [
+        "该路线用于展示博士项目和导师研究方向关联，不计入默认本科起点机会。"
+      ],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "普通博士通常要求硕士学历/学位或应届硕士；本科直博须符合推荐免试条件，具体要求以交叉信息研究院 2027 招生简章为准。",
+          "sources": [
+            {
+              "label": "清华大学交叉信息研究院 2027 年博士招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/3415cd69-b74a-413f-bfb6-6a43bed3f344?yxsdm=047",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "defaultVisible": false
+    },
+    {
+      "id": "sustech-mee-phd-reference-2026",
+      "institution": "SUSTech",
+      "department": "机械与能源工程系",
+      "program": "机械与能源工程系自主培养博士（智能制造与机器人 / 机械等方向）",
+      "degree": "PhD",
+      "bachelorEligible": false,
+      "noTuimianRequired": false,
+      "noMasterRequired": false,
+      "status": "reference",
+      "eligibilitySummary": "南科大机械与能源工程系官方招生页列出自主培养博士，包含 0801Z1 智能制造与机器人和 085500 机械等专业，学制 4—6 年；当前公开页面为 2026 级项目说明，不能直接当作 2027/2028 个人名额。",
+      "supervisorAssociation": "机械与能源工程系教师页/学科页确认博士生导师与研究方向关联；个人导师招生计划、接收意向和当年名额需另核。",
+      "admissionYear": "2026 institutional reference；2027/2028 个人名额未核实",
+      "cycle2027Verified": false,
+      "applicationStatus": "unknown",
+      "applicationMethod": "院系博士招生简章与申请-考核/专项通知；以当年正式简章为准",
+      "sources": [
+        {
+          "label": "南科大机械与能源工程系研究生招生页（含自主培养博士）",
+          "url": "https://mee.sustech.edu.cn/yanjiushengzhaosheng/",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "南科大机械与能源工程系学科简介",
+          "url": "https://mee.sustech.edu.cn/xuekejianjie/",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "南科大机械与能源工程系教学通知",
+          "url": "https://mee.sustech.edu.cn/jiaoxuetongzhi/",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "notes": [
+        "该路线是博士项目参考，不计入默认本科起点、无需推免、无需先获硕士的机会。"
+      ],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "博士申请条件、批次和考核办法以机械与能源工程系当年博士招生简章及学校研究生院要求为准；本记录不把 2026 项目页滚动为 2027/2028 名额。",
+          "sources": [
+            {
+              "label": "南科大机械与能源工程系研究生招生页（含自主培养博士）",
+              "url": "https://mee.sustech.edu.cn/yanjiushengzhaosheng/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "南科大机械与能源工程系教学通知",
+              "url": "https://mee.sustech.edu.cn/jiaoxuetongzhi/",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "defaultVisible": false
+    },
+    {
+      "id": "sustech-aim-phd-reference-2027",
+      "institution": "SUSTech",
+      "department": "自动化与智能制造学院",
+      "program": "自动化与智能制造学院博士（优秀生源快响/申请-考核参考）",
+      "degree": "PhD",
+      "bachelorEligible": false,
+      "noTuimianRequired": false,
+      "noMasterRequired": false,
+      "status": "reference",
+      "eligibilitySummary": "自动化与智能制造学院官方通知已启动 2027 级博士优秀生源快响计划，普通招考采用申请-考核制；通知明确招生导师和最终名额仍以 2027 级博士招生简章及实际导师计划为准。",
+      "supervisorAssociation": "林志赟与自动化与智能制造学院及多智能体/群体机器人方向关联已记录；该通知不等于个人导师 2027/2028 余位。",
+      "admissionYear": "2027 Fall reference；2028 Fall 个人名额未核实",
+      "cycle2027Verified": true,
+      "applicationStatus": "unknown",
+      "applicationMethod": "优秀生源快响/申请-考核参考，按学院当年博士简章申请",
+      "sources": [
+        {
+          "label": "南科大自动化与智能制造学院 2027 级博士优秀生源快响计划",
+          "url": "https://aim.sustech.edu.cn/Article-detail-id-1014-typeid-7.html",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "南科大林志赟官方教师页",
+          "url": "https://www.sustech.edu.cn/zh/faculties/zhiyunlin-2.html",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "notes": [
+        "该路线不计入默认本科起点机会；普通博士学历、推免及导师接收条件需按当年简章核验。"
+      ],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "学院通知采用申请-考核制并面向 2027 级博士；具体学历条件、招生导师和计划名额以 2027 级博士招生简章及导师计划为准。",
+          "sources": [
+            {
+              "label": "南科大自动化与智能制造学院 2027 级博士优秀生源快响计划",
+              "url": "https://aim.sustech.edu.cn/Article-detail-id-1014-typeid-7.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "defaultVisible": false
     }
   ],
   "deadlines": [

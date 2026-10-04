@@ -10,6 +10,11 @@ test('SUSTech review keeps 2027 department evidence separate from 2028 PI openin
   assert.equal(review.checkedDate, '2026-10-04');
   assert.equal(review.advisors.length, 8);
   assert(review.admissionEvidence.some(e => e.cycle === '2027 Fall reference'));
+  assert(review.admissionEvidence.some(e => e.id === 'sustech-mee-phd-program-reference'));
+  const phdRoutes = JSON.parse(read('data/catalog.json')).routes.filter(r => r.institution === 'SUSTech' && r.degree === 'PhD' && r.status === 'reference');
+  assert.equal(phdRoutes.length, 2);
+  assert(phdRoutes.some(r => r.id === 'sustech-mee-phd-reference-2026'));
+  assert(phdRoutes.some(r => r.id === 'sustech-aim-phd-reference-2027'));
   for (const advisor of review.advisors) {
     assert.equal(advisor.catalogStatus, 'verification_queue');
     assert.equal(advisor.cycle2027FallReference, true);
@@ -29,5 +34,5 @@ test('SUSTech review records no individual 2028 vacancy or funding claim', () =>
   for (const phrase of ['confirmedVacancy', 'remainingHeadcountVerified', '名额已确认', '资助已确认']) {
     assert(!text.includes(phrase), phrase);
   }
-  assert.match(review.conclusionZh, /未检出明确.*2028/);
+  assert.match(review.conclusionZh, /未检出.*2028/);
 });
