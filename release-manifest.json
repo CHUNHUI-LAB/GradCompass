@@ -37,13 +37,18 @@
     },
     {
       "path": "QA.md",
-      "bytes": 38590,
-      "sha256": "700a6f39b7abc6d3e4a557c80999d42d430757440791f17aa7dd3a1ae7c08c36"
+      "bytes": 39295,
+      "sha256": "b37f13d7fcc30ee56908bf9fd90e98db25b2c5923e0f67a20314cfb8ffa78d11"
     },
     {
       "path": "README.md",
-      "bytes": 18458,
-      "sha256": "4ba41ebd990b670b23b5769f764bc3dfd301f4c9265874f8633f06eb9b8f302d"
+      "bytes": 19283,
+      "sha256": "ac53aba46e61497e9314dd3d816f0c38f354855ffda0ee1c763fe4e677ff4d1f"
+    },
+    {
+      "path": "REPO-MAP.md",
+      "bytes": 4099,
+      "sha256": "eee9fca9a568996342a6586a9b0ced4ec6ccbed404973238869aa8ffea755285"
     },
     {
       "path": "assets/app.js",
@@ -162,8 +167,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 7326,
-      "sha256": "e3222f80806b1d6b94c86ecf06c347b094f5aec82be21086956eb217649cf2a3"
+      "bytes": 7340,
+      "sha256": "53ff013fcc2d83388ee64cb7528cbb89ea976747c3f4948209fb4c8e1e0fedf5"
     },
     {
       "path": "tests/active-filters.test.mjs",
