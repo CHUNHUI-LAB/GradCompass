@@ -4,6 +4,13 @@ import hashlib,json,re
 root=Path(__file__).resolve().parent.parent
 # Version only the changed dependency chain; unchanged modules retain their URLs.
 def version(name):return hashlib.sha256((root/name).read_bytes()).hexdigest()[:12]
+# Keep every browser module on the same content-versioned core dependency.
+for owner in ['record-summaries.js','page-overviews.js','material-supplement.js','project-comparison.js','app.js']:
+    path=root/'assets'/owner
+    text=path.read_text()
+    text,count=re.subn(r"from '([^']*/?)core\.js(?:\?v=[0-9a-f]+)?'", "from './core.js?v="+version('assets/core.js')+"'", text)
+    if count < 1: raise SystemExit('Expected core import: '+owner)
+    path.write_text(text)
 app=root/'assets/app.js'
 app_text=app.read_text()
 for name in ['catalog.json','material-summaries.json','project-summaries.json','advisor-profiles.json','sustech-advisor-review-20261004.json','tsinghua-advisor-review-20261004.json']:
@@ -15,13 +22,6 @@ for name in ['core.js','experiences.js','record-summaries.js','page-overviews.js
     app_text,count=re.subn(r"from '\./"+re.escape(name)+r"(?:\?v=[0-9a-f]+)?'", "from './"+name+"?v="+version('assets/'+name)+"'", app_text)
     if count!=1:raise SystemExit('Expected exactly one versioned import: '+name)
 app.write_text(app_text)
-# Keep every browser module on the same content-versioned core dependency.
-for owner in ['record-summaries.js','page-overviews.js','material-supplement.js','project-comparison.js','app.js']:
-    path=root/'assets'/owner
-    text=path.read_text()
-    text,count=re.subn(r"from '([^']*/?)core\.js(?:\?v=[0-9a-f]+)?'", "from './core.js?v="+version('assets/core.js')+"'", text)
-    if count < 1: raise SystemExit('Expected core import: '+owner)
-    path.write_text(text)
 index=root/'index.html'
 html=index.read_text()
 for attr,name in [('src','app.js'),('href','style.css')]:

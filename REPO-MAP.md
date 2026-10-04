@@ -9,7 +9,7 @@
 | 主事实数据 | `data/catalog.json` | 导师、学位路线、截止日期、原始材料、招生声明和 watch sources。资格与招生字段以这里为准。 |
 | 导师专业简介 | `data/advisor-profiles.json` | 仅按 `advisorId` 补充职业概况、实验室、资源、代表成果和未知项；不能覆盖 `catalog` 的资格、招生或名额字段。 |
 | 清华核查记录 | `data/tsinghua-advisor-review-20261004.json` | 保存清华 2027 普通硕士/博士目录、导师目录、博士路线和 7 位导师的原始核查；不把项目参考升级为 2028 Fall 名额。 |
-| 南科大核查记录 | `data/sustech-advisor-review-20261004.json` | 保存南科大机械系自主培养博士项目、自动化学院 2027 博士通知、导师关联和 2028 Fall 边界；博士路线只在详情中作为参考。 |
+| 南科大核查记录 | `data/sustech-advisor-review-20261004.json` | 保存南科大机械系自主培养博士项目、自动化学院 2027 博士通知、导师关联和 2028 Fall 边界；博士路线在 PhD 筛选卡片、详情和比较中作为参考。 |
 | 项目简介 | `data/project-summaries.json` | 补充培养、研究、入学条件和批次说明；不能从项目简介推导导师名额。 |
 | 材料摘要 | `data/material-summaries.json` | 官方材料要求的有界摘要；与原目录材料合并展示。 |
 | 申请经验 | `data/application-experiences.json` 与 `data/application-experience-provenance.json` | 公开自述及其阅读范围；不参与当前招生资格判断。 |

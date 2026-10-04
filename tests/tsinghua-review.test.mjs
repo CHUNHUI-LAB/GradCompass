@@ -46,3 +46,13 @@ test('Tsinghua review keeps doctoral eligibility and Fall 2028 boundaries explic
   assert(review.admissionEvidence.some(e => e.id === 'tsinghua-me-phd-2027'));
   assert(review.admissionEvidence.some(e => e.id === 'tsinghua-iiis-phd-2027'));
 });
+
+ test('doctoral program references never assert personal intake years',()=>{
+ for(const a of catalog.advisors.filter(a=>['Tsinghua','SUSTech'].includes(a.institution))){
+ const phd=a.openingDetails.find(o=>o.degree==='PhD');
+ assert.equal(phd.cycle2027FallVerified,false,a.id);
+ assert.equal(phd.cycle2028FallVerified,false,a.id);
+ const route=catalog.routes.find(r=>a.routeIds.includes(r.id)&&r.degree==='PhD'&&r.status==='reference');
+ assert.equal(phd.cycle2027FallReference,route.cycle2027Verified,a.id);
+ }
+ });
