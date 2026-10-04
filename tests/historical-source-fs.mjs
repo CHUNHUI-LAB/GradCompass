@@ -1,3 +1,4 @@
+import {overseasBytes} from './overseas-baseline.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -14,7 +15,7 @@ export default {
   if(filename===null)return fs.readFileSync(file,options);
   const relative=path.relative(root,filename).split(path.sep).join('/');
   const raw=fs.readFileSync(file);
-  const bytes=relative.startsWith('data/')?historicalSourceBytes(relative,raw):raw;
+  const bytes=relative.startsWith('data/')?historicalSourceBytes(relative,overseasBytes(relative,raw)):raw;
   return encoding?bytes.toString(encoding):bytes;
  },
 };
