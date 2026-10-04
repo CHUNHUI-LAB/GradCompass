@@ -59,7 +59,11 @@
 
 - `browseAdvisors`/`browseRoutes`用于公开全集，旧`filterAdvisors`/`filterRoutes`仅保留早期本科便利筛选的历史回归语义，不决定当前公开可见性
 - `hasVerifiedAssociation`只接受精确routeId、verified状态、非pending验证及个人关联来源；`buildOpportunities`不把项目资格或reference转换成导师个人招生
-- 58导师与42项目可浏览；研究资料、前置学历和招生方式分别展示，未知不删除。原41项目与15位朋友新增导师保持身份和来源历史
+- 63位导师与43个项目可浏览；研究资料、前置学历和招生方式分别展示，未知不删除。原41项目与新增导师保持身份和来源历史
 - `sourceCycle`、`admissionMode`、`currentCycleVerificationStatus`与个人`individualRecruitmentVerified`相互独立；周期标签须读原HTML标题，不能只依赖可能漏标题的正文抽取
 - 四份补充资料独立加载；全依赖链content hash经freeze后写入，实际验证结果不硬编码进manifest
 - 历史tests采用固定commit及原始字节哈希，新增与纠错逐次精确逆变换；未知变化、排序和新增字段必须触发失败
+
+## 2026-10-04 北京大学核查补记
+
+`data/pku-advisor-review-20261004.json`保存北京大学智能学院 2027 智能机器人博士方向的招生指南、教师名录、5 位导师来源和 2028 Fall 边界；`data/catalog.json`中的路线状态为 `reference`，不会进入已核实导师—项目关联或默认机会统计。`assets/core.js`提供 `PKU` 学校筛选，博士筛选通过显式参考卡展示。

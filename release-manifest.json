@@ -9,7 +9,7 @@
   "firstRunVerified": false,
   "browserVisualQA": "Not yet browser-verified.",
   "profilePilotCount": 56,
-  "visibleAdvisorCount": 58,
+  "visibleAdvisorCount": 63,
   "opportunityCount": 59,
   "raPositionCount": 2,
   "newAdvisorProfiles": 26,
@@ -42,18 +42,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 30898,
-      "sha256": "5daddd7b594a033dda9b02b0f3bbaed381943f6095bc43d9f0cc0fef2c11b96f"
+      "bytes": 32268,
+      "sha256": "532ea710ab6074e8f0131c334ecde98efcbe79a172b9e9c77fa7dae6f54185a8"
     },
     {
       "path": "REPO-MAP.md",
-      "bytes": 7336,
-      "sha256": "514ccec0e403b298aa1b3bff4b63ad84c74229d8eda4163dbde11752eef4a3ae"
+      "bytes": 7755,
+      "sha256": "1229067ec59892e9acb9c7cd4a1b03eea8b02af3a286f9bcf643bdb8c6bd900f"
     },
     {
       "path": "assets/app.js",
-      "bytes": 71230,
-      "sha256": "d25447147287fde8b6bccb7b8c92798a4ea7427c599922fce0fc4cfe26426ba0"
+      "bytes": 71337,
+      "sha256": "8bfdc66c30b6ef4814a04d78533bce50b83480d42d6923f50933e617b4f08e2d"
     },
     {
       "path": "assets/campus-art.webp",
@@ -62,13 +62,13 @@
     },
     {
       "path": "assets/core.js",
-      "bytes": 30678,
-      "sha256": "02f70bc5cff45ae56cbd79cc9e789669f68097a40248b8518a8b2e578623f956"
+      "bytes": 30697,
+      "sha256": "dbee3ac4ba074acc0e976700abe11cd553edbddcc731e2a57afd7e9108a8d4d4"
     },
     {
       "path": "assets/experiences.js",
       "bytes": 22992,
-      "sha256": "517f8dc7f492735481d3054ca99c19e271991707fae2cfcf011d460102a7f941"
+      "sha256": "8bef7f29980a59e4683f1638c139cd3bb07d183becd5dd98fb471ccabcf95f8a"
     },
     {
       "path": "assets/favicon.svg",
@@ -78,27 +78,27 @@
     {
       "path": "assets/material-supplement.js",
       "bytes": 1866,
-      "sha256": "94c93ef4e8bb70210e1ee7ea1611e0808eeed9bb9d185b74fabe19f38d30d74d"
+      "sha256": "fb34cc0ac33ee09c2089865f4b8fd49a86783c3a949118336d13cd0d40d7f2f5"
     },
     {
       "path": "assets/page-overviews.js",
       "bytes": 15555,
-      "sha256": "8efcb8b63870e02d90f94bd29e6184ff3a5525c93ae2659b0ee671f3cbac8efe"
+      "sha256": "5c0fc02de3b0d0360b0c21bc5446c29aed253a58476427f246eabf5b882df777"
     },
     {
       "path": "assets/profiles.js",
       "bytes": 2793,
-      "sha256": "6382c39c3e6cb6156397ee960e0cfc002cbcd653a3239c7a830b5135ef6aac66"
+      "sha256": "a4b68809303fd645fa0ae753d41f04528f94903f03e7cc5d4da5cbabbb92c220"
     },
     {
       "path": "assets/project-comparison.js",
       "bytes": 13304,
-      "sha256": "86d9ef765787456176f364f60c57ff4b130b3a8253c1b6b96736e58073c0aaa1"
+      "sha256": "da592695fea0ee42aa43f11477921710ca314d1a09e228bbc76b17e426945c47"
     },
     {
       "path": "assets/record-summaries.js",
       "bytes": 13388,
-      "sha256": "2ad14f2792bcac93aa2969a10a5bce82b2e2bae756933c8139a966ef466b5d2d"
+      "sha256": "419506a1c852f23fc56ce0bc1c5a962b8137b8cffc0e50ebb0bc47389f140773"
     },
     {
       "path": "assets/style.css",
@@ -127,8 +127,8 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 1246769,
-      "sha256": "1d487459fc92f44d1c68451061b6afac2c06c8289740f6abf77e4639667a6120"
+      "bytes": 1313674,
+      "sha256": "48099aead203d3a2b3daaf73e0f0422bf6fd66d4fcfb8b54f31fc26d9362f51f"
     },
     {
       "path": "data/maintenance-2026-10-03.json",
@@ -144,6 +144,11 @@
       "path": "data/material-summaries.json",
       "bytes": 72582,
       "sha256": "0e7779408d1896834cb40d93e9e0653cb374a194ae88e6f48080aa0ccceff4da"
+    },
+    {
+      "path": "data/pku-advisor-review-20261004.json",
+      "bytes": 6217,
+      "sha256": "4e9b1e3300181484d88e7b6c7ef52e95bb720480f3c1e8f0e27a59046a4fd134"
     },
     {
       "path": "data/project-summaries.json",
@@ -173,7 +178,7 @@
     {
       "path": "index.html",
       "bytes": 8270,
-      "sha256": "c069a2831953cdceab275de8f295929a50a2470b95a8bfc2fe4dc095bf187c57"
+      "sha256": "3929da02c4ca055ffc4074884943c1db63761ed1486207cabb29a0187925051a"
     },
     {
       "path": "package.json",
@@ -182,8 +187,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 10673,
-      "sha256": "a579d46d624512f8eb0c824ffa25f2840d23d24952aeafb31ce632fdacc4d9b9"
+      "bytes": 10776,
+      "sha256": "dba6af8110f492503f7e2e179743142b50c749cd9e97f12f4c5e77d9193702c7"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -227,8 +232,8 @@
     },
     {
       "path": "tests/core.test.mjs",
-      "bytes": 6503,
-      "sha256": "cecca8acb21216687a2256ac79518fd4dae1e21fbd66af501eb8eb11d5942b7e"
+      "bytes": 6788,
+      "sha256": "a3ea207ee8f428b8d6701941b66f0b85383e9b5e1f51ca2dce791f69625326e8"
     },
     {
       "path": "tests/current-correction-baseline.mjs",
@@ -431,6 +436,11 @@
       "sha256": "1c1e245eebf2e521be9f4019e1504bc08b756e70fadb28a9dce391ec85cb013e"
     },
     {
+      "path": "tests/pku-review.test.mjs",
+      "bytes": 1608,
+      "sha256": "7d7adabc5d650ec2ec9d22728ff7cd170e1561d271784c9eb0d5ab8fd0595eb7"
+    },
+    {
       "path": "tests/profiles-batch5.test.mjs",
       "bytes": 7693,
       "sha256": "6bd4a2434084509eb171bf33969a4ce19f46b0f1584cce9bcd509a3e68a87334"
@@ -513,7 +523,7 @@
     {
       "path": "tests/resource-versions.test.mjs",
       "bytes": 8156,
-      "sha256": "f083f51ad7143bd7ca187ab0d418aa5a32abafafa75cbbf72e5ad4fa7465d329"
+      "sha256": "bb1f4c8959aae55f7a29783beed61ffd3966a3809819ff266b63e88fb2e93e34"
     },
     {
       "path": "tests/strict-history-transform.mjs",
@@ -579,10 +589,10 @@
     "baseCommit": "1281ce4740272443563b4a98f421561bacc801f9",
     "scope": "Two inaccurate MSc overview text fragments only; no structure, style or interaction changes"
   },
-  "advisorCatalogCount": 58,
+  "advisorCatalogCount": 63,
   "verifiedDegreeAssociationCount": 57,
-  "projectCatalogCount": 42,
-  "visibleProjectCount": 42,
+  "projectCatalogCount": 43,
+  "visibleProjectCount": 43,
   "candidateBaseCommit": "3f294a8cc601e77183deb594de0836ec76cc8a9c",
   "evidenceScope": "All recorded advisors and academic references remain readable; verified degree associations require exact sourced advisor-route joins. Project evidence is not individual recruitment or remaining capacity.",
   "detailUiPolish": {
