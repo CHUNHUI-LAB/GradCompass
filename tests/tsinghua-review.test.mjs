@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {filterAdvisors, filterRoutes, buildOpportunities} from '../assets/core.js';
+import {filterAdvisors, filterRoutes, filterOpportunities, buildOpportunities} from '../assets/core.js';
 
 const read = p => fs.readFileSync(new URL('../' + p, import.meta.url), 'utf8');
 const catalog = JSON.parse(read('data/catalog.json'));
@@ -17,6 +17,9 @@ test('Tsinghua is a unified institution with verified ordinary-master routes', (
   assert.equal(filterRoutes(catalog, {institution: 'Tsinghua'}).length, 2);
   const phdRoutes = catalog.routes.filter(r => r.institution === 'Tsinghua' && r.degree === 'PhD' && r.status === 'reference');
   assert.equal(phdRoutes.length, 2);
+  const phdRows = filterOpportunities(catalog, {institution: 'Tsinghua', opportunityType: 'PhD'});
+  assert.equal(phdRows.length, 7);
+  assert(phdRows.every(o => o.reference === true));
   assert(phdRoutes.every(r => r.cycle2027Verified === true && r.bachelorEligible === false));
   assert.deepEqual(new Set(advisors.map(a => a.nameZh)), new Set(['刘莉','赵慧婵','陈睿','李曙光','姜峣','吴丹','高阳']));
 });

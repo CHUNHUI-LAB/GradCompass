@@ -52,8 +52,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 64528,
-      "sha256": "540112b80a5164bcc506a14ee0c5604bb03febfc1ccaf21f3926eda793d7088d"
+      "bytes": 64830,
+      "sha256": "49a959123784f0fba3c864e216d9d6652b1f9269f0124c420125c4b0eea697e7"
     },
     {
       "path": "assets/campus-art.webp",
@@ -62,8 +62,8 @@
     },
     {
       "path": "assets/core.js",
-      "bytes": 26281,
-      "sha256": "c5028d5ec3205ebb7f18b82b1fe575b5f0a151623da711c8edb57903ec003efb"
+      "bytes": 26565,
+      "sha256": "7f7dbaf4ef606dbb6b46e2b96dbcbfdeef36bb2b98a0f0ec71f2c3eafe4f8c41"
     },
     {
       "path": "assets/experiences.js",
@@ -173,7 +173,7 @@
     {
       "path": "index.html",
       "bytes": 8252,
-      "sha256": "8119f50f4040bb38efa175db07cbf87739b64f5ec43acf76f5cf294c6fcdb8dc"
+      "sha256": "38ca6276dc08f64665ae4eba96e182a031f7f052bc067cfd33a785ae01802908"
     },
     {
       "path": "package.json",
@@ -417,13 +417,13 @@
     },
     {
       "path": "tests/sustech-review.test.mjs",
-      "bytes": 1870,
-      "sha256": "384208148d7c5089646be464a12fbe3c5dcbe96a5d04c3f216bea6ce8afcb194"
+      "bytes": 2140,
+      "sha256": "b75a33e083ce0962692efe0013dac1bec0286473fa47b1c4760325e2268cceee"
     },
     {
       "path": "tests/tsinghua-review.test.mjs",
-      "bytes": 2417,
-      "sha256": "806b049cf0bfd3ce013febf6f20a83f1a7e384b17367af5b0612286d6d0a08b9"
+      "bytes": 2624,
+      "sha256": "aef0d196a4864cc874ca01c5425da41d5cf1eb0cae1eaec0ca88dcf93c13f32c"
     }
   ],
   "qaMetadataScope": "Hashes identify this content snapshot. Automated test counters do not establish deployment or browser acceptance.",

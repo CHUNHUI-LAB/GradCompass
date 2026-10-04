@@ -93,13 +93,14 @@ export function isVerifiedRaPosition(job){
  const e=job.employmentEligibility||{};const current=job.currentRecruitment||{};
  return job.defaultVisible!==false&&(!current.deadline||!job.checkedDate||current.deadline.slice(0,10)>=job.checkedDate)&&job.opportunityType==='RA'&&job.status==='verified'&&e.bachelorEligible===true&&e.noMasterRequired===true&&e.explicitJobRequirement===true&&sourcesOf(e.sources).length>0&&current.status==='open'&&sourcesOf(current.sources).length>0;
 }
-export function buildOpportunities(catalog){
+export function buildOpportunities(catalog,options={}){
+ const includeReferencePhd=options.includeReferencePhd===true;
  const opportunities=[];
  for(const a of catalog.advisors){
   if(!hasVerifiedPath(a,catalog))continue;
-  for(const r of routesFor(a,catalog).filter(isVerifiedRoute)){
+  for(const r of routesFor(a,catalog).filter(r=>isVerifiedRoute(r)||(includeReferencePhd&&degreeLabel(r)==='PhD'&&r.status==='reference'))){
    const type=degreeLabel(r);if(!['MSc','MPhil','PhD'].includes(type))continue;
-   opportunities.push({id:`${a.id}::${r.id}`,advisorId:a.id,routeId:r.id,type,kind:'degree',openingStatus:(a.openingDetails||[]).find(o=>o.degree===type)?.status||'unknown'});
+   opportunities.push({id:`${a.id}::${r.id}`,advisorId:a.id,routeId:r.id,type,kind:'degree',reference:r.status==='reference',openingStatus:(a.openingDetails||[]).find(o=>o.degree===type)?.status||'unknown'});
   }
  }
  for(const job of catalog.raPositions||[]){
@@ -109,7 +110,8 @@ export function buildOpportunities(catalog){
 }
 export function filterOpportunities(catalog,filters={}){
  const q=(filters.query||'').trim().toLowerCase();
- return buildOpportunities(catalog).filter(o=>{
+ const includeReferencePhd=(filters.opportunityType||filters.degree)==='PhD';
+ return buildOpportunities(catalog,{includeReferencePhd}).filter(o=>{
   const a=catalog.advisors.find(a=>a.id===o.advisorId);const type=filters.opportunityType||filters.degree;
   if(type&&o.type!==type)return false;
   if(filters.institution&&a.institution!==filters.institution)return false;
