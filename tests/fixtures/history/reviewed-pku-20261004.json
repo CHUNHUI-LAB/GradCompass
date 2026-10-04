@@ -1,0 +1,1824 @@
+{
+  "schemaVersion": 1,
+  "beforeCommit": "5c9032465d8956ef5b661485674274bfa7259ef1",
+  "beforeTree": "cbc45a5516eed544144db8f065f2e8327ea1ad0c",
+  "afterCommit": "dbc994d9575564ffef1139958977dd423193c413",
+  "afterTree": "81595eb22e9ce8c6bf5ac88b62335ebea3ab8016",
+  "scope": "Test-only exact reviewed PKU append and corresponding UI source/version fragments; no production rollback.",
+  "files": {
+    "assets/app.js": {
+      "beforeSha256": "8afbf70a01deb6a1c70e7160367e728465771b51c073fc8579e5690ddf80e0a4",
+      "afterSha256": "7853c62c888d92114c3af23100c57cf619876f6db258ddcae1d0e5c13860be3e",
+      "beforeGitBlob": "5db95c373a2dbdad216a776eba5e47e979df6c38",
+      "afterGitBlob": "3fc206cb830faa7fac53c7c0bb0228064d38b5ed",
+      "kind": "text_fragments",
+      "operations": [
+        {
+          "before": "import {renderProjectComparison,selectProjectComparisonRoutes} from './project-comparison.js?v=86d9ef765787';\nimport {renderPageOverview,overviewPresets} from './page-overviews.js?v=8efcb8b63870';\nimport {normalizeMaterialSupplement} from './material-supplement.js?v=94c93ef4e8bb';\nimport {renderRecordSummary,supervisorAssociationText,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=2ad14f2792bc';\nimport {normalizeExperiences,renderExperiences,renderExperienceReading,renderExperienceEvidence,renderExperienceResults} from './experiences.js?v=517f8dc7f492';\nimport {profileMap,profileSummary,renderProfile,renderProfileReferences} from './profiles.js?v=6382c39c3e6c';\nimport {rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue} from './core.js?v=02f70bc5cff4';\n",
+          "after": "import {renderProjectComparison,selectProjectComparisonRoutes} from './project-comparison.js?v=da592695fea0';\nimport {renderPageOverview,overviewPresets} from './page-overviews.js?v=5c0fc02de3b0';\nimport {normalizeMaterialSupplement} from './material-supplement.js?v=fb34cc0ac33e';\nimport {renderRecordSummary,supervisorAssociationText,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=419506a1c852';\nimport {normalizeExperiences,renderExperiences,renderExperienceReading,renderExperienceEvidence,renderExperienceResults} from './experiences.js?v=8bef7f29980a';\nimport {profileMap,profileSummary,renderProfile,renderProfileReferences} from './profiles.js?v=a4b68809303f';\nimport {rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue} from './core.js?v=dbee3ac4ba07';\n"
+        },
+        {
+          "before": "function renderSources(){const watches=catalog.watchSources||[];$('#result-count').textContent='核验边界、官方入口与更新状态';$('#view-content').innerHTML=`<div class=\"methodology\"><div class=\"source-principles\"><section><h3>官方规则</h3><p>院校官网、院系项目页与正式招生文件，用于核对学位设置、申请资格、材料和批次。</p></section><section><h3>导师公告</h3><p>导师与实验室公开页面，用于核对研究方向、任职和招募声明。名额与年份单独确认。</p></section><section><h3>个人经验</h3><p>公开第一人称自述，可借鉴流程与方法。作者经历与结果不改写官方资格结论。</p></section></div><p>GradCompass 将项目资格、导师关联和公开招募分开记录。首批收录聚焦机器人与具身智能，内容来自高校、院系、实验室、作者项目及原始论文。</p><h3>如何理解记录</h3><ol><li><strong>公开浏览范围：</strong>导师研究资料与已收录学位项目均可查看，统考、申请制、推免和硕士起点条件分别保留，待核与历史参考明确标注。RA 必须另有官方岗位要求明确接受本科、无已有硕士前置，且当前招募可核实；不能借用导师的学位招生资格。这不是对个人成绩、英语、学历等值或录取机会的判断。</li><li><strong>导师关联：</strong>只有精确到导师和项目、且有直接来源的已核实关联计入学位关联数；院系归属或项目整体资格不能自动证明个人指导关系。需要入学后双向选择的项目明确提示，不承诺预先锁定导师。</li><li><strong>公开招募：</strong>MSc、MPhil、PhD 是学位路径，RA 是工作岗位，分别呈现。有 PhD 声明不等于有 MPhil 名额，常年招募不等于 2027 Fall 已确认。</li><li><strong>职级筛选：</strong>根据已记录的原职衔保守归类；研究系列、其他与未知分别保留。具名教授头衔仅对已审阅记录归类，不把 Chair、PI 或行政职务自动视为教授。职级不代表终身教职、指导资格、招生名额或新 PI。原职衔与入职证据各自保留。</li><li><strong>新入职：</strong>只有可追溯的任命或入职日期才标记。职称、晋升和行政任命不自动算作新 PI。</li><li><strong>来源冲突：</strong>保留原始时间、限制与待核项；待核、历史参考和受限路径仍可查阅，不计作已确认的个人招生或剩余名额。</li></ol><h3>更新状态</h3><div class=\"evidence-box\"><h4>数据核验日：${e(catalog.metadata.checkedDate)}</h4><p>${e(updateStatus.statusLabel)}。调度状态与证据核验日期独立记录；首轮执行尚未验证，不能视为已经完成数据更新。</p><p>公开招募与批次可能随时变化，请在正式申请前再次核对原始来源。</p></div><h3>有界观察入口</h3><p>下列入口覆盖任职、招生、项目规则与批次变化。官网、社媒、论坛正文与有价值的评论可提供线索；访问和覆盖缺口需如实记录。社交线索不会直接改写官方资格结论。</p><div class=\"source-watch\">${watches.map(w=>`<section class=\"evidence-box\"><h4>${e(w.label||w.category||w.institution||w.school||'官方观察入口')}</h4><p class=\"small-note\">${e(w.scope||w.kind||'任职、招生及项目规则变更')}</p><div class=\"link-list\">${sourceLinks(w.sources||w.urls||w.url&&[w.url]||[])}</div></section>`).join('')}</div><h3>隐私与使用</h3><p>本站没有账号、上传、后台或外部分析。搜索和比较只在当前浏览器页面运行，不保存个人材料与申请策略。打开官方链接时会离开本站。</p><p>本页面提供来源支持的信息整理，不代表学校或导师，不提供录取概率预测。第三方页面和论文的版权归原权利人；链接不构成转载许可。</p><div class=\"link-list\"><a class=\"source-link\" href=\"./data/catalog.json\">学位与导师数据</a><a class=\"source-link\" href=\"./data/ra-positions.json\">独立 RA 岗位证据</a><a class=\"source-link\" href=\"./data/update-status.json\">每日检查状态</a><a class=\"source-link\" href='./data/sustech-advisor-review-20261004.json?v=2f34732eed51'>南科大导师核查</a><a class=\"source-link\" href='./data/tsinghua-advisor-review-20261004.json?v=8e27ae2cb8ec'>清华导师核查</a></div></div>`;}\n",
+          "after": "function renderSources(){const watches=catalog.watchSources||[];$('#result-count').textContent='核验边界、官方入口与更新状态';$('#view-content').innerHTML=`<div class=\"methodology\"><div class=\"source-principles\"><section><h3>官方规则</h3><p>院校官网、院系项目页与正式招生文件，用于核对学位设置、申请资格、材料和批次。</p></section><section><h3>导师公告</h3><p>导师与实验室公开页面，用于核对研究方向、任职和招募声明。名额与年份单独确认。</p></section><section><h3>个人经验</h3><p>公开第一人称自述，可借鉴流程与方法。作者经历与结果不改写官方资格结论。</p></section></div><p>GradCompass 将项目资格、导师关联和公开招募分开记录。首批收录聚焦机器人与具身智能，内容来自高校、院系、实验室、作者项目及原始论文。</p><h3>如何理解记录</h3><ol><li><strong>公开浏览范围：</strong>导师研究资料与已收录学位项目均可查看，统考、申请制、推免和硕士起点条件分别保留，待核与历史参考明确标注。RA 必须另有官方岗位要求明确接受本科、无已有硕士前置，且当前招募可核实；不能借用导师的学位招生资格。这不是对个人成绩、英语、学历等值或录取机会的判断。</li><li><strong>导师关联：</strong>只有精确到导师和项目、且有直接来源的已核实关联计入学位关联数；院系归属或项目整体资格不能自动证明个人指导关系。需要入学后双向选择的项目明确提示，不承诺预先锁定导师。</li><li><strong>公开招募：</strong>MSc、MPhil、PhD 是学位路径，RA 是工作岗位，分别呈现。有 PhD 声明不等于有 MPhil 名额，常年招募不等于 2027 Fall 已确认。</li><li><strong>职级筛选：</strong>根据已记录的原职衔保守归类；研究系列、其他与未知分别保留。具名教授头衔仅对已审阅记录归类，不把 Chair、PI 或行政职务自动视为教授。职级不代表终身教职、指导资格、招生名额或新 PI。原职衔与入职证据各自保留。</li><li><strong>新入职：</strong>只有可追溯的任命或入职日期才标记。职称、晋升和行政任命不自动算作新 PI。</li><li><strong>来源冲突：</strong>保留原始时间、限制与待核项；待核、历史参考和受限路径仍可查阅，不计作已确认的个人招生或剩余名额。</li></ol><h3>更新状态</h3><div class=\"evidence-box\"><h4>数据核验日：${e(catalog.metadata.checkedDate)}</h4><p>${e(updateStatus.statusLabel)}。调度状态与证据核验日期独立记录；首轮执行尚未验证，不能视为已经完成数据更新。</p><p>公开招募与批次可能随时变化，请在正式申请前再次核对原始来源。</p></div><h3>有界观察入口</h3><p>下列入口覆盖任职、招生、项目规则与批次变化。官网、社媒、论坛正文与有价值的评论可提供线索；访问和覆盖缺口需如实记录。社交线索不会直接改写官方资格结论。</p><div class=\"source-watch\">${watches.map(w=>`<section class=\"evidence-box\"><h4>${e(w.label||w.category||w.institution||w.school||'官方观察入口')}</h4><p class=\"small-note\">${e(w.scope||w.kind||'任职、招生及项目规则变更')}</p><div class=\"link-list\">${sourceLinks(w.sources||w.urls||w.url&&[w.url]||[])}</div></section>`).join('')}</div><h3>隐私与使用</h3><p>本站没有账号、上传、后台或外部分析。搜索和比较只在当前浏览器页面运行，不保存个人材料与申请策略。打开官方链接时会离开本站。</p><p>本页面提供来源支持的信息整理，不代表学校或导师，不提供录取概率预测。第三方页面和论文的版权归原权利人；链接不构成转载许可。</p><div class=\"link-list\"><a class=\"source-link\" href=\"./data/catalog.json\">学位与导师数据</a><a class=\"source-link\" href=\"./data/ra-positions.json\">独立 RA 岗位证据</a><a class=\"source-link\" href=\"./data/update-status.json\">每日检查状态</a><a class=\"source-link\" href='./data/sustech-advisor-review-20261004.json?v=2f34732eed51'>南科大导师核查</a><a class=\"source-link\" href='./data/tsinghua-advisor-review-20261004.json?v=8e27ae2cb8ec'>清华导师核查</a><a class=\"source-link\" href='./data/pku-advisor-review-20261004.json?v=4e9b1e330018'>北大导师核查</a></div></div>`;}\n"
+        },
+        {
+          "before": "async function initialize(){try{const responses=await Promise.all(['catalog.json?v=48dc45a270b4','ra-positions.json','update-status.json'].map(name=>fetch(new URL('../data/'+name,import.meta.url))));if(responses.some(res=>!res.ok))throw Error('数据读取失败，请刷新重试');const [academicData,raData,statusData]=await Promise.all(responses.map(res=>res.json()));catalog={...academicData,raPositions:raData.raPositions||[]};updateStatus=statusData;if(!Array.isArray(catalog.advisors)||!Array.isArray(catalog.routes))throw Error('数据格式暂不可用');$('#checked-date').textContent=`核验于 ${catalog.metadata.checkedDate}`;$('.edition a').textContent=updateStatus.statusLabel;populateFilters();bind();switchView(parseDetailLocation()?.view||location.hash.slice(1)||'advisors');if(parseDetailLocation()||parseCompareLocation())routeLocation();loadOptionalSupplements();}catch(err){$('#result-count').textContent='数据未能载入';$('#view-content').innerHTML=`<div class=\"empty\"><h3>暂时无法读取数据</h3><p>${e(err.message)}</p><p>请刷新页面重试，或直接打开公开 JSON 查看已保存的记录</p><a class=\"source-link\" href=\"./data/catalog.json\">公开数据文件</a></div>`;}}\n",
+          "after": "async function initialize(){try{const responses=await Promise.all(['catalog.json?v=5863b7a20bfa','ra-positions.json','update-status.json'].map(name=>fetch(new URL('../data/'+name,import.meta.url))));if(responses.some(res=>!res.ok))throw Error('数据读取失败，请刷新重试');const [academicData,raData,statusData]=await Promise.all(responses.map(res=>res.json()));catalog={...academicData,raPositions:raData.raPositions||[]};updateStatus=statusData;if(!Array.isArray(catalog.advisors)||!Array.isArray(catalog.routes))throw Error('数据格式暂不可用');$('#checked-date').textContent=`核验于 ${catalog.metadata.checkedDate}`;$('.edition a').textContent=updateStatus.statusLabel;populateFilters();bind();switchView(parseDetailLocation()?.view||location.hash.slice(1)||'advisors');if(parseDetailLocation()||parseCompareLocation())routeLocation();loadOptionalSupplements();}catch(err){$('#result-count').textContent='数据未能载入';$('#view-content').innerHTML=`<div class=\"empty\"><h3>暂时无法读取数据</h3><p>${e(err.message)}</p><p>请刷新页面重试，或直接打开公开 JSON 查看已保存的记录</p><a class=\"source-link\" href=\"./data/catalog.json\">公开数据文件</a></div>`;}}\n"
+        }
+      ]
+    },
+    "assets/core.js": {
+      "beforeSha256": "02f70bc5cff45ae56cbd79cc9e789669f68097a40248b8518a8b2e578623f956",
+      "afterSha256": "dbee3ac4ba074acc0e976700abe11cd553edbddcc731e2a57afd7e9108a8d4d4",
+      "beforeGitBlob": "fd04eb6b09070c23f8d4f78f6852ed8d727be90e",
+      "afterGitBlob": "2864ff591d31e1f295883f037b25b89bd424105a",
+      "kind": "text_fragments",
+      "operations": [
+        {
+          "before": "export const institutionNames = {HKUST:'香港科技大学',HKU:'香港大学',CUHK:'香港中文大学',CityU:'香港城市大学',CityUHK:'香港城市大学','CUHK-Shenzhen':'香港中文大学（深圳）',PolyU:'香港理工大学',HKBU:'香港浸会大学','HKUST(GZ)':'香港科技大学（广州）','HKUST-GZ':'香港科技大学（广州）','CUHK(SZ)':'香港中文大学（深圳）','CUHK-SZ':'香港中文大学（深圳）',Westlake:'西湖大学',SUSTech:'南方科技大学',Tsinghua:'清华大学',XJTLU:'西交利物浦大学'};\n",
+          "after": "export const institutionNames = {HKUST:'香港科技大学',HKU:'香港大学',CUHK:'香港中文大学',CityU:'香港城市大学',CityUHK:'香港城市大学','CUHK-Shenzhen':'香港中文大学（深圳）',PolyU:'香港理工大学',HKBU:'香港浸会大学','HKUST(GZ)':'香港科技大学（广州）','HKUST-GZ':'香港科技大学（广州）','CUHK(SZ)':'香港中文大学（深圳）','CUHK-SZ':'香港中文大学（深圳）',Westlake:'西湖大学',SUSTech:'南方科技大学',Tsinghua:'清华大学',PKU:'北京大学',XJTLU:'西交利物浦大学'};\n"
+        }
+      ]
+    },
+    "assets/experiences.js": {
+      "beforeSha256": "517f8dc7f492735481d3054ca99c19e271991707fae2cfcf011d460102a7f941",
+      "afterSha256": "8bef7f29980a59e4683f1638c139cd3bb07d183becd5dd98fb471ccabcf95f8a",
+      "beforeGitBlob": "77cb6305aceee67f166e24224b1e5e0371b0e16a",
+      "afterGitBlob": "8b0ea30b0b7811cb4b2beca8a243f365a5d376cf",
+      "kind": "text_fragments",
+      "operations": [
+        {
+          "before": "import {escapeHTML,safeUrl} from './core.js?v=02f70bc5cff4';\n",
+          "after": "import {escapeHTML,safeUrl} from './core.js?v=dbee3ac4ba07';\n"
+        }
+      ]
+    },
+    "assets/material-supplement.js": {
+      "beforeSha256": "94c93ef4e8bb70210e1ee7ea1611e0808eeed9bb9d185b74fabe19f38d30d74d",
+      "afterSha256": "fb34cc0ac33ee09c2089865f4b8fd49a86783c3a949118336d13cd0d40d7f2f5",
+      "beforeGitBlob": "3fe967765022f34d2f003afb957fd97f2c5b4b2c",
+      "afterGitBlob": "637d06345a2998a7f707bd5d74f7e69673730ce3",
+      "kind": "text_fragments",
+      "operations": [
+        {
+          "before": "import {safeUrl,isBrowsableRoute} from './core.js?v=02f70bc5cff4';\n",
+          "after": "import {safeUrl,isBrowsableRoute} from './core.js?v=dbee3ac4ba07';\n"
+        }
+      ]
+    },
+    "assets/page-overviews.js": {
+      "beforeSha256": "8efcb8b63870e02d90f94bd29e6184ff3a5525c93ae2659b0ee671f3cbac8efe",
+      "afterSha256": "5c0fc02de3b0d0360b0c21bc5446c29aed253a58476427f246eabf5b882df777",
+      "beforeGitBlob": "6f507d105a9715fba68510c5de3f79943b58d8b3",
+      "afterGitBlob": "4006b9648c9490e3d28e8fdf11373823fcb97e01",
+      "kind": "text_fragments",
+      "operations": [
+        {
+          "before": "import {escapeHTML,buildOpportunities,browseRoutes as filterRoutes,browseAdvisors,filterDeadlines,deadlineStatus,themesFor,institutionLabel} from './core.js?v=02f70bc5cff4';\n",
+          "after": "import {escapeHTML,buildOpportunities,browseRoutes as filterRoutes,browseAdvisors,filterDeadlines,deadlineStatus,themesFor,institutionLabel} from './core.js?v=dbee3ac4ba07';\n"
+        }
+      ]
+    },
+    "assets/profiles.js": {
+      "beforeSha256": "6382c39c3e6cb6156397ee960e0cfc002cbcd653a3239c7a830b5135ef6aac66",
+      "afterSha256": "a4b68809303fd645fa0ae753d41f04528f94903f03e7cc5d4da5cbabbb92c220",
+      "beforeGitBlob": "e9a4156320e7b9533c066fbda8829d670ff6e22f",
+      "afterGitBlob": "c978573a5f18a578c33eb374a7ea56f0aab9d2c3",
+      "kind": "text_fragments",
+      "operations": [
+        {
+          "before": "import {escapeHTML,safeUrl} from './core.js?v=02f70bc5cff4';\n",
+          "after": "import {escapeHTML,safeUrl} from './core.js?v=dbee3ac4ba07';\n"
+        }
+      ]
+    },
+    "assets/project-comparison.js": {
+      "beforeSha256": "86d9ef765787456176f364f60c57ff4b130b3a8253c1b6b96736e58073c0aaa1",
+      "afterSha256": "da592695fea0ee42aa43f11477921710ca314d1a09e228bbc76b17e426945c47",
+      "beforeGitBlob": "a0f3dadb7b85f4b646da103804d66462101d9445",
+      "afterGitBlob": "a577021140cf1b3eb793dae38468ce39e9b44f5f",
+      "kind": "text_fragments",
+      "operations": [
+        {
+          "before": "import {escapeHTML, readerText, safeUrl, sourcesOf, institutionLabel, degreeLabel, degreeDisplay, isBrowsableRoute, routeEvidenceText, deadlineStatus} from './core.js?v=02f70bc5cff4';\nimport {supervisorAssociationText} from './record-summaries.js?v=2ad14f2792bc';\n",
+          "after": "import {escapeHTML, readerText, safeUrl, sourcesOf, institutionLabel, degreeLabel, degreeDisplay, isBrowsableRoute, routeEvidenceText, deadlineStatus} from './core.js?v=dbee3ac4ba07';\nimport {supervisorAssociationText} from './record-summaries.js?v=419506a1c852';\n"
+        }
+      ]
+    },
+    "assets/record-summaries.js": {
+      "beforeSha256": "2ad14f2792bcac93aa2969a10a5bce82b2e2bae756933c8139a966ef466b5d2d",
+      "afterSha256": "419506a1c852f23fc56ce0bc1c5a962b8137b8cffc0e50ebb0bc47389f140773",
+      "beforeGitBlob": "6e1e0482f31dcd3335aec243396cde01e5e6e711",
+      "afterGitBlob": "9ca9105aaed6f8e7eb0b3daa80c9bb02f84bd77a",
+      "kind": "text_fragments",
+      "operations": [
+        {
+          "before": "import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,degreeDisplay,deadlineStatus,isBrowsableRoute,routeEvidenceText,browseRoutes as filterRoutes} from './core.js?v=02f70bc5cff4';\n",
+          "after": "import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,degreeDisplay,deadlineStatus,isBrowsableRoute,routeEvidenceText,browseRoutes as filterRoutes} from './core.js?v=dbee3ac4ba07';\n"
+        }
+      ]
+    },
+    "data/catalog.json": {
+      "beforeSha256": "48dc45a270b4d6993014a95a284d61ee6b7a33479129da7dcb4c863c273fabde",
+      "afterSha256": "5863b7a20bfa586b8f9e04d277092b8c96411a3970cf5322df76ade3b3e5ddbb",
+      "beforeGitBlob": "c5b4aa6614c047af171d092c18757cdc08e81a4d",
+      "afterGitBlob": "bd52f8f19a8d51a8450802c27f1c6d7ddcd9f950",
+      "kind": "json",
+      "operations": [
+        {
+          "path": [
+            "metadata",
+            "sourceInputs",
+            5
+          ],
+          "beforeMissing": true,
+          "after": {
+            "file": "pku-advisor-review-20261004.json",
+            "sha256": "4e9b1e3300181484d88e7b6c7ef52e95bb720480f3c1e8f0e27a59046a4fd134",
+            "checkedDate": "2026-10-04",
+            "scope": "北京大学智能学院 2027 智能机器人方向与 5 位导师研究档案；个人招生与 2028 Fall 边界",
+            "interpretationNotes": [
+              "2027 招生指南与导师名单不等于个人名额",
+              "博士项目参考单独展示，不计入默认已核实学位关联"
+            ]
+          }
+        },
+        {
+          "path": [
+            "advisors",
+            58
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "pku-ying-xianghua",
+            "name": "Xianghua Ying",
+            "nameZh": "英向华",
+            "institution": "PKU",
+            "department": "智能学院",
+            "position": "Professor",
+            "topics": [
+              "计算机视觉、虚拟现实、计算成像学"
+            ],
+            "summary": "计算机视觉、虚拟现实、计算成像学",
+            "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2272.htm",
+            "routeIds": [
+              "pku-sai-phd-reference-2027"
+            ],
+            "routeAssociations": [
+              {
+                "routeId": "pku-sai-phd-reference-2027",
+                "degree": "PhD",
+                "status": "reference",
+                "verificationStatus": "pending",
+                "summary": "北京大学智能学院 2027 招生指南将该导师列入智能机器人博士方向；个人 2027/2028 接收、名额、资助和具体招生方式仍待核实。",
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "scope": "program_direction_reference",
+                "note": "院系方向导师名单不等于个人当年接收或剩余名额。",
+                "sourceCycle": "2027",
+                "admissionMode": "program_guide_reference",
+                "projectCycleVerified": true,
+                "individualRecruitmentVerified": false,
+                "cycle2027FallReference": true
+              }
+            ],
+            "eligibility": "pending",
+            "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+            "defaultVisible": true,
+            "opening": "unknown",
+            "openingSummary": "2027/2028 个人导师名额待确认",
+            "openings": {
+              "msc": "未核实公开声明",
+              "mphil": "未核实公开声明",
+              "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+              "ra": "未核实公开岗位",
+              "cycle2027": "2027 博士项目与个人招生分开；个人招生名额待核",
+              "cycle2028": "个人 2028 Fall 招生名额未核实"
+            },
+            "openingDetails": [
+              {
+                "degree": "PhD",
+                "status": "unknown",
+                "summary": "已关联北京大学智能学院 2027 智能机器人博士方向参考；个人 2027/2028 招生与名额未核实",
+                "cycle2027FallVerified": false,
+                "cycle2027FallReference": true,
+                "cycle2028FallVerified": false,
+                "cycle": "2027 项目/导师方向参考；个人 2027/2028 Fall 招生未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "program_reference_only",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": true,
+                "projectCycle": "2027 Fall",
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false,
+                "associationVerificationStatus": "pending",
+                "sourceCycle": "2027",
+                "admissionMode": "program_guide_reference"
+              },
+              {
+                "degree": "MSc",
+                "status": "unknown",
+                "summary": "未找到该导师个人招生名额声明；不等于不招生",
+                "cycle2027FallVerified": false,
+                "cycle2028FallVerified": false,
+                "cycle": "未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "not_found",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": false,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false
+              },
+              {
+                "degree": "MPhil",
+                "status": "unknown",
+                "summary": "未找到该导师个人招生名额声明；不等于不招生",
+                "cycle2027FallVerified": false,
+                "cycle2028FallVerified": false,
+                "cycle": "未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "not_found",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": false,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false
+              },
+              {
+                "degree": "2028 Fall",
+                "status": "unknown",
+                "summary": "未找到该导师个人招生名额声明；不等于不招生",
+                "cycle2027FallVerified": false,
+                "cycle2028FallVerified": false,
+                "cycle": "未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "not_found",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": false,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false
+              }
+            ],
+            "fall2027OpeningVerified": false,
+            "newPi": {
+              "verified": false,
+              "window": "calendar-year-2026",
+              "date": null,
+              "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+              "sources": [],
+              "dateEvidenceVerified": false
+            },
+            "appointment": {
+              "new_pi_2026_verified": false,
+              "date": null,
+              "note": "未核实 2026 新入职证据"
+            },
+            "sources": [
+              {
+                "label": "北京大学智能学院 2027 年招生指南",
+                "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                "checkedDate": "2026-10-04"
+              },
+              {
+                "label": "北京大学智能学院专职教师名录",
+                "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                "checkedDate": "2026-10-04"
+              },
+              {
+                "label": "北京大学智能机器人方向介绍",
+                "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                "checkedDate": "2026-10-04"
+              }
+            ],
+            "caveats": [
+              "北京大学 2027 智能学院招生指南确认智能机器人方向与导师名单，但不等于个人 2027/2028 招生名额。",
+              "个人学历、英语、申请方式、导师接收和资助须按当年招生说明分别核验。",
+              "当前未找到个人 2028 Fall 招生名额声明。"
+            ],
+            "checkedDate": "2026-10-04",
+            "sourceFile": "pku-advisor-review-20261004.json",
+            "sourceRecord": {
+              "id": "pku-ying-xianghua",
+              "name": "Xianghua Ying",
+              "nameZh": "英向华",
+              "department": "智能学院",
+              "position": "Professor",
+              "researchZh": "计算机视觉、虚拟现实、计算成像学",
+              "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2272.htm",
+              "routeIds": [
+                "pku-sai-phd-reference-2027"
+              ],
+              "cycle2027FallReference": true,
+              "cycle2028FallVerified": false,
+              "catalogStatus": "profile_visible_association_pending",
+              "reasonNotInDefaultCatalog": null,
+              "sources": [
+                {
+                  "label": "北京大学智能学院 2027 年招生指南",
+                  "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                  "checkedDate": "2026-10-04"
+                },
+                {
+                  "label": "北京大学智能学院专职教师名录",
+                  "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                  "checkedDate": "2026-10-04"
+                },
+                {
+                  "label": "北京大学智能机器人方向介绍",
+                  "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                  "checkedDate": "2026-10-04"
+                }
+              ],
+              "verified_bachelor_route_ids": [],
+              "pending_bachelor_route_ids": [],
+              "routeAssociations": [
+                {
+                  "routeId": "pku-sai-phd-reference-2027",
+                  "degree": "PhD",
+                  "status": "reference",
+                  "verificationStatus": "pending",
+                  "summary": "北京大学智能学院 2027 招生指南将该导师列入智能机器人博士方向；个人 2027/2028 接收、名额、资助和具体招生方式仍待核实。",
+                  "sources": [
+                    {
+                      "label": "北京大学智能学院 2027 年招生指南",
+                      "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                      "checkedDate": "2026-10-04"
+                    },
+                    {
+                      "label": "北京大学智能学院专职教师名录",
+                      "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                      "checkedDate": "2026-10-04"
+                    },
+                    {
+                      "label": "北京大学智能机器人方向介绍",
+                      "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                      "checkedDate": "2026-10-04"
+                    }
+                  ],
+                  "checkedDate": "2026-10-04",
+                  "scope": "program_direction_reference",
+                  "note": "院系方向导师名单不等于个人当年接收或剩余名额。",
+                  "sourceCycle": "2027",
+                  "admissionMode": "program_guide_reference",
+                  "projectCycleVerified": true,
+                  "individualRecruitmentVerified": false,
+                  "cycle2027FallReference": true
+                }
+              ],
+              "associationNote": "研究档案可见；具体个人项目关联待核，不计为已核实机会。"
+            }
+          }
+        },
+        {
+          "path": [
+            "advisors",
+            59
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "pku-zhaohuijing",
+            "name": "Huijing Zhao",
+            "nameZh": "赵卉菁",
+            "institution": "PKU",
+            "department": "智能学院",
+            "position": "Professor",
+            "topics": [
+              "机器感知、智能车、自动驾驶、自主移动机器人"
+            ],
+            "summary": "机器感知、智能车、自动驾驶、自主移动机器人",
+            "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2246.htm",
+            "routeIds": [
+              "pku-sai-phd-reference-2027"
+            ],
+            "routeAssociations": [
+              {
+                "routeId": "pku-sai-phd-reference-2027",
+                "degree": "PhD",
+                "status": "reference",
+                "verificationStatus": "pending",
+                "summary": "北京大学智能学院 2027 招生指南将该导师列入智能机器人博士方向；个人 2027/2028 接收、名额、资助和具体招生方式仍待核实。",
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "scope": "program_direction_reference",
+                "note": "院系方向导师名单不等于个人当年接收或剩余名额。",
+                "sourceCycle": "2027",
+                "admissionMode": "program_guide_reference",
+                "projectCycleVerified": true,
+                "individualRecruitmentVerified": false,
+                "cycle2027FallReference": true
+              }
+            ],
+            "eligibility": "pending",
+            "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+            "defaultVisible": true,
+            "opening": "unknown",
+            "openingSummary": "2027/2028 个人导师名额待确认",
+            "openings": {
+              "msc": "未核实公开声明",
+              "mphil": "未核实公开声明",
+              "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+              "ra": "未核实公开岗位",
+              "cycle2027": "2027 博士项目与个人招生分开；个人招生名额待核",
+              "cycle2028": "个人 2028 Fall 招生名额未核实"
+            },
+            "openingDetails": [
+              {
+                "degree": "PhD",
+                "status": "unknown",
+                "summary": "已关联北京大学智能学院 2027 智能机器人博士方向参考；个人 2027/2028 招生与名额未核实",
+                "cycle2027FallVerified": false,
+                "cycle2027FallReference": true,
+                "cycle2028FallVerified": false,
+                "cycle": "2027 项目/导师方向参考；个人 2027/2028 Fall 招生未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "program_reference_only",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": true,
+                "projectCycle": "2027 Fall",
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false,
+                "associationVerificationStatus": "pending",
+                "sourceCycle": "2027",
+                "admissionMode": "program_guide_reference"
+              },
+              {
+                "degree": "MSc",
+                "status": "unknown",
+                "summary": "未找到该导师个人招生名额声明；不等于不招生",
+                "cycle2027FallVerified": false,
+                "cycle2028FallVerified": false,
+                "cycle": "未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "not_found",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": false,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false
+              },
+              {
+                "degree": "MPhil",
+                "status": "unknown",
+                "summary": "未找到该导师个人招生名额声明；不等于不招生",
+                "cycle2027FallVerified": false,
+                "cycle2028FallVerified": false,
+                "cycle": "未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "not_found",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": false,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false
+              },
+              {
+                "degree": "2028 Fall",
+                "status": "unknown",
+                "summary": "未找到该导师个人招生名额声明；不等于不招生",
+                "cycle2027FallVerified": false,
+                "cycle2028FallVerified": false,
+                "cycle": "未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "not_found",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": false,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false
+              }
+            ],
+            "fall2027OpeningVerified": false,
+            "newPi": {
+              "verified": false,
+              "window": "calendar-year-2026",
+              "date": null,
+              "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+              "sources": [],
+              "dateEvidenceVerified": false
+            },
+            "appointment": {
+              "new_pi_2026_verified": false,
+              "date": null,
+              "note": "未核实 2026 新入职证据"
+            },
+            "sources": [
+              {
+                "label": "北京大学智能学院 2027 年招生指南",
+                "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                "checkedDate": "2026-10-04"
+              },
+              {
+                "label": "北京大学智能学院专职教师名录",
+                "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                "checkedDate": "2026-10-04"
+              },
+              {
+                "label": "北京大学智能机器人方向介绍",
+                "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                "checkedDate": "2026-10-04"
+              }
+            ],
+            "caveats": [
+              "北京大学 2027 智能学院招生指南确认智能机器人方向与导师名单，但不等于个人 2027/2028 招生名额。",
+              "个人学历、英语、申请方式、导师接收和资助须按当年招生说明分别核验。",
+              "当前未找到个人 2028 Fall 招生名额声明。"
+            ],
+            "checkedDate": "2026-10-04",
+            "sourceFile": "pku-advisor-review-20261004.json",
+            "sourceRecord": {
+              "id": "pku-zhaohuijing",
+              "name": "Huijing Zhao",
+              "nameZh": "赵卉菁",
+              "department": "智能学院",
+              "position": "Professor",
+              "researchZh": "机器感知、智能车、自动驾驶、自主移动机器人",
+              "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2246.htm",
+              "routeIds": [
+                "pku-sai-phd-reference-2027"
+              ],
+              "cycle2027FallReference": true,
+              "cycle2028FallVerified": false,
+              "catalogStatus": "profile_visible_association_pending",
+              "reasonNotInDefaultCatalog": null,
+              "sources": [
+                {
+                  "label": "北京大学智能学院 2027 年招生指南",
+                  "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                  "checkedDate": "2026-10-04"
+                },
+                {
+                  "label": "北京大学智能学院专职教师名录",
+                  "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                  "checkedDate": "2026-10-04"
+                },
+                {
+                  "label": "北京大学智能机器人方向介绍",
+                  "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                  "checkedDate": "2026-10-04"
+                }
+              ],
+              "verified_bachelor_route_ids": [],
+              "pending_bachelor_route_ids": [],
+              "routeAssociations": [
+                {
+                  "routeId": "pku-sai-phd-reference-2027",
+                  "degree": "PhD",
+                  "status": "reference",
+                  "verificationStatus": "pending",
+                  "summary": "北京大学智能学院 2027 招生指南将该导师列入智能机器人博士方向；个人 2027/2028 接收、名额、资助和具体招生方式仍待核实。",
+                  "sources": [
+                    {
+                      "label": "北京大学智能学院 2027 年招生指南",
+                      "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                      "checkedDate": "2026-10-04"
+                    },
+                    {
+                      "label": "北京大学智能学院专职教师名录",
+                      "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                      "checkedDate": "2026-10-04"
+                    },
+                    {
+                      "label": "北京大学智能机器人方向介绍",
+                      "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                      "checkedDate": "2026-10-04"
+                    }
+                  ],
+                  "checkedDate": "2026-10-04",
+                  "scope": "program_direction_reference",
+                  "note": "院系方向导师名单不等于个人当年接收或剩余名额。",
+                  "sourceCycle": "2027",
+                  "admissionMode": "program_guide_reference",
+                  "projectCycleVerified": true,
+                  "individualRecruitmentVerified": false,
+                  "cycle2027FallReference": true
+                }
+              ],
+              "associationNote": "研究档案可见；具体个人项目关联待核，不计为已核实机会。"
+            }
+          }
+        },
+        {
+          "path": [
+            "advisors",
+            60
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "pku-zhu-songchun",
+            "name": "Song-Chun Zhu",
+            "nameZh": "朱松纯",
+            "institution": "PKU",
+            "department": "智能学院",
+            "position": "Chair Professor",
+            "topics": [
+              "计算机视觉、统计建模与计算、认知科学、机器学习、自主机器人"
+            ],
+            "summary": "计算机视觉、统计建模与计算、认知科学、机器学习、自主机器人",
+            "profileUrl": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+            "routeIds": [
+              "pku-sai-phd-reference-2027"
+            ],
+            "routeAssociations": [
+              {
+                "routeId": "pku-sai-phd-reference-2027",
+                "degree": "PhD",
+                "status": "reference",
+                "verificationStatus": "pending",
+                "summary": "北京大学智能学院 2027 招生指南将该导师列入智能机器人博士方向；个人 2027/2028 接收、名额、资助和具体招生方式仍待核实。",
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "scope": "program_direction_reference",
+                "note": "院系方向导师名单不等于个人当年接收或剩余名额。",
+                "sourceCycle": "2027",
+                "admissionMode": "program_guide_reference",
+                "projectCycleVerified": true,
+                "individualRecruitmentVerified": false,
+                "cycle2027FallReference": true
+              }
+            ],
+            "eligibility": "pending",
+            "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+            "defaultVisible": true,
+            "opening": "unknown",
+            "openingSummary": "2027/2028 个人导师名额待确认",
+            "openings": {
+              "msc": "未核实公开声明",
+              "mphil": "未核实公开声明",
+              "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+              "ra": "未核实公开岗位",
+              "cycle2027": "2027 博士项目与个人招生分开；个人招生名额待核",
+              "cycle2028": "个人 2028 Fall 招生名额未核实"
+            },
+            "openingDetails": [
+              {
+                "degree": "PhD",
+                "status": "unknown",
+                "summary": "已关联北京大学智能学院 2027 智能机器人博士方向参考；个人 2027/2028 招生与名额未核实",
+                "cycle2027FallVerified": false,
+                "cycle2027FallReference": true,
+                "cycle2028FallVerified": false,
+                "cycle": "2027 项目/导师方向参考；个人 2027/2028 Fall 招生未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "program_reference_only",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": true,
+                "projectCycle": "2027 Fall",
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false,
+                "associationVerificationStatus": "pending",
+                "sourceCycle": "2027",
+                "admissionMode": "program_guide_reference"
+              },
+              {
+                "degree": "MSc",
+                "status": "unknown",
+                "summary": "未找到该导师个人招生名额声明；不等于不招生",
+                "cycle2027FallVerified": false,
+                "cycle2028FallVerified": false,
+                "cycle": "未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "not_found",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": false,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false
+              },
+              {
+                "degree": "MPhil",
+                "status": "unknown",
+                "summary": "未找到该导师个人招生名额声明；不等于不招生",
+                "cycle2027FallVerified": false,
+                "cycle2028FallVerified": false,
+                "cycle": "未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "not_found",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": false,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false
+              },
+              {
+                "degree": "2028 Fall",
+                "status": "unknown",
+                "summary": "未找到该导师个人招生名额声明；不等于不招生",
+                "cycle2027FallVerified": false,
+                "cycle2028FallVerified": false,
+                "cycle": "未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "not_found",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": false,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false
+              }
+            ],
+            "fall2027OpeningVerified": false,
+            "newPi": {
+              "verified": false,
+              "window": "calendar-year-2026",
+              "date": null,
+              "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+              "sources": [],
+              "dateEvidenceVerified": false
+            },
+            "appointment": {
+              "new_pi_2026_verified": false,
+              "date": null,
+              "note": "未核实 2026 新入职证据"
+            },
+            "sources": [
+              {
+                "label": "北京大学智能学院 2027 年招生指南",
+                "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                "checkedDate": "2026-10-04"
+              },
+              {
+                "label": "北京大学智能学院专职教师名录",
+                "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                "checkedDate": "2026-10-04"
+              },
+              {
+                "label": "北京大学智能机器人方向介绍",
+                "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                "checkedDate": "2026-10-04"
+              }
+            ],
+            "caveats": [
+              "北京大学 2027 智能学院招生指南确认智能机器人方向与导师名单，但不等于个人 2027/2028 招生名额。",
+              "个人学历、英语、申请方式、导师接收和资助须按当年招生说明分别核验。",
+              "当前未找到个人 2028 Fall 招生名额声明。"
+            ],
+            "checkedDate": "2026-10-04",
+            "sourceFile": "pku-advisor-review-20261004.json",
+            "sourceRecord": {
+              "id": "pku-zhu-songchun",
+              "name": "Song-Chun Zhu",
+              "nameZh": "朱松纯",
+              "department": "智能学院",
+              "position": "Chair Professor",
+              "researchZh": "计算机视觉、统计建模与计算、认知科学、机器学习、自主机器人",
+              "profileUrl": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+              "routeIds": [
+                "pku-sai-phd-reference-2027"
+              ],
+              "cycle2027FallReference": true,
+              "cycle2028FallVerified": false,
+              "catalogStatus": "profile_visible_association_pending",
+              "reasonNotInDefaultCatalog": null,
+              "sources": [
+                {
+                  "label": "北京大学智能学院 2027 年招生指南",
+                  "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                  "checkedDate": "2026-10-04"
+                },
+                {
+                  "label": "北京大学智能学院专职教师名录",
+                  "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                  "checkedDate": "2026-10-04"
+                },
+                {
+                  "label": "北京大学智能机器人方向介绍",
+                  "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                  "checkedDate": "2026-10-04"
+                }
+              ],
+              "verified_bachelor_route_ids": [],
+              "pending_bachelor_route_ids": [],
+              "routeAssociations": [
+                {
+                  "routeId": "pku-sai-phd-reference-2027",
+                  "degree": "PhD",
+                  "status": "reference",
+                  "verificationStatus": "pending",
+                  "summary": "北京大学智能学院 2027 招生指南将该导师列入智能机器人博士方向；个人 2027/2028 接收、名额、资助和具体招生方式仍待核实。",
+                  "sources": [
+                    {
+                      "label": "北京大学智能学院 2027 年招生指南",
+                      "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                      "checkedDate": "2026-10-04"
+                    },
+                    {
+                      "label": "北京大学智能学院专职教师名录",
+                      "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                      "checkedDate": "2026-10-04"
+                    },
+                    {
+                      "label": "北京大学智能机器人方向介绍",
+                      "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                      "checkedDate": "2026-10-04"
+                    }
+                  ],
+                  "checkedDate": "2026-10-04",
+                  "scope": "program_direction_reference",
+                  "note": "院系方向导师名单不等于个人当年接收或剩余名额。",
+                  "sourceCycle": "2027",
+                  "admissionMode": "program_guide_reference",
+                  "projectCycleVerified": true,
+                  "individualRecruitmentVerified": false,
+                  "cycle2027FallReference": true
+                }
+              ],
+              "associationNote": "研究档案可见；具体个人项目关联待核，不计为已核实机会。"
+            }
+          }
+        },
+        {
+          "path": [
+            "advisors",
+            61
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "pku-luo-dingsheng",
+            "name": "Dingsheng Luo",
+            "nameZh": "罗定生",
+            "institution": "PKU",
+            "department": "智能学院",
+            "position": "Associate Professor",
+            "topics": [
+              "人工智能、机器学习、智能信息处理、机器人学、仿人机器人"
+            ],
+            "summary": "人工智能、机器学习、智能信息处理、机器人学、仿人机器人",
+            "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2259.htm",
+            "routeIds": [
+              "pku-sai-phd-reference-2027"
+            ],
+            "routeAssociations": [
+              {
+                "routeId": "pku-sai-phd-reference-2027",
+                "degree": "PhD",
+                "status": "reference",
+                "verificationStatus": "pending",
+                "summary": "北京大学智能学院 2027 招生指南将该导师列入智能机器人博士方向；个人 2027/2028 接收、名额、资助和具体招生方式仍待核实。",
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "scope": "program_direction_reference",
+                "note": "院系方向导师名单不等于个人当年接收或剩余名额。",
+                "sourceCycle": "2027",
+                "admissionMode": "program_guide_reference",
+                "projectCycleVerified": true,
+                "individualRecruitmentVerified": false,
+                "cycle2027FallReference": true
+              }
+            ],
+            "eligibility": "pending",
+            "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+            "defaultVisible": true,
+            "opening": "unknown",
+            "openingSummary": "2027/2028 个人导师名额待确认",
+            "openings": {
+              "msc": "未核实公开声明",
+              "mphil": "未核实公开声明",
+              "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+              "ra": "未核实公开岗位",
+              "cycle2027": "2027 博士项目与个人招生分开；个人招生名额待核",
+              "cycle2028": "个人 2028 Fall 招生名额未核实"
+            },
+            "openingDetails": [
+              {
+                "degree": "PhD",
+                "status": "unknown",
+                "summary": "已关联北京大学智能学院 2027 智能机器人博士方向参考；个人 2027/2028 招生与名额未核实",
+                "cycle2027FallVerified": false,
+                "cycle2027FallReference": true,
+                "cycle2028FallVerified": false,
+                "cycle": "2027 项目/导师方向参考；个人 2027/2028 Fall 招生未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "program_reference_only",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": true,
+                "projectCycle": "2027 Fall",
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false,
+                "associationVerificationStatus": "pending",
+                "sourceCycle": "2027",
+                "admissionMode": "program_guide_reference"
+              },
+              {
+                "degree": "MSc",
+                "status": "unknown",
+                "summary": "未找到该导师个人招生名额声明；不等于不招生",
+                "cycle2027FallVerified": false,
+                "cycle2028FallVerified": false,
+                "cycle": "未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "not_found",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": false,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false
+              },
+              {
+                "degree": "MPhil",
+                "status": "unknown",
+                "summary": "未找到该导师个人招生名额声明；不等于不招生",
+                "cycle2027FallVerified": false,
+                "cycle2028FallVerified": false,
+                "cycle": "未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "not_found",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": false,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false
+              },
+              {
+                "degree": "2028 Fall",
+                "status": "unknown",
+                "summary": "未找到该导师个人招生名额声明；不等于不招生",
+                "cycle2027FallVerified": false,
+                "cycle2028FallVerified": false,
+                "cycle": "未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "not_found",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": false,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false
+              }
+            ],
+            "fall2027OpeningVerified": false,
+            "newPi": {
+              "verified": false,
+              "window": "calendar-year-2026",
+              "date": null,
+              "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+              "sources": [],
+              "dateEvidenceVerified": false
+            },
+            "appointment": {
+              "new_pi_2026_verified": false,
+              "date": null,
+              "note": "未核实 2026 新入职证据"
+            },
+            "sources": [
+              {
+                "label": "北京大学智能学院 2027 年招生指南",
+                "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                "checkedDate": "2026-10-04"
+              },
+              {
+                "label": "北京大学智能学院专职教师名录",
+                "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                "checkedDate": "2026-10-04"
+              },
+              {
+                "label": "北京大学智能机器人方向介绍",
+                "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                "checkedDate": "2026-10-04"
+              }
+            ],
+            "caveats": [
+              "北京大学 2027 智能学院招生指南确认智能机器人方向与导师名单，但不等于个人 2027/2028 招生名额。",
+              "个人学历、英语、申请方式、导师接收和资助须按当年招生说明分别核验。",
+              "当前未找到个人 2028 Fall 招生名额声明。"
+            ],
+            "checkedDate": "2026-10-04",
+            "sourceFile": "pku-advisor-review-20261004.json",
+            "sourceRecord": {
+              "id": "pku-luo-dingsheng",
+              "name": "Dingsheng Luo",
+              "nameZh": "罗定生",
+              "department": "智能学院",
+              "position": "Associate Professor",
+              "researchZh": "人工智能、机器学习、智能信息处理、机器人学、仿人机器人",
+              "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2259.htm",
+              "routeIds": [
+                "pku-sai-phd-reference-2027"
+              ],
+              "cycle2027FallReference": true,
+              "cycle2028FallVerified": false,
+              "catalogStatus": "profile_visible_association_pending",
+              "reasonNotInDefaultCatalog": null,
+              "sources": [
+                {
+                  "label": "北京大学智能学院 2027 年招生指南",
+                  "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                  "checkedDate": "2026-10-04"
+                },
+                {
+                  "label": "北京大学智能学院专职教师名录",
+                  "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                  "checkedDate": "2026-10-04"
+                },
+                {
+                  "label": "北京大学智能机器人方向介绍",
+                  "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                  "checkedDate": "2026-10-04"
+                }
+              ],
+              "verified_bachelor_route_ids": [],
+              "pending_bachelor_route_ids": [],
+              "routeAssociations": [
+                {
+                  "routeId": "pku-sai-phd-reference-2027",
+                  "degree": "PhD",
+                  "status": "reference",
+                  "verificationStatus": "pending",
+                  "summary": "北京大学智能学院 2027 招生指南将该导师列入智能机器人博士方向；个人 2027/2028 接收、名额、资助和具体招生方式仍待核实。",
+                  "sources": [
+                    {
+                      "label": "北京大学智能学院 2027 年招生指南",
+                      "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                      "checkedDate": "2026-10-04"
+                    },
+                    {
+                      "label": "北京大学智能学院专职教师名录",
+                      "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                      "checkedDate": "2026-10-04"
+                    },
+                    {
+                      "label": "北京大学智能机器人方向介绍",
+                      "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                      "checkedDate": "2026-10-04"
+                    }
+                  ],
+                  "checkedDate": "2026-10-04",
+                  "scope": "program_direction_reference",
+                  "note": "院系方向导师名单不等于个人当年接收或剩余名额。",
+                  "sourceCycle": "2027",
+                  "admissionMode": "program_guide_reference",
+                  "projectCycleVerified": true,
+                  "individualRecruitmentVerified": false,
+                  "cycle2027FallReference": true
+                }
+              ],
+              "associationNote": "研究档案可见；具体个人项目关联待核，不计为已核实机会。"
+            }
+          }
+        },
+        {
+          "path": [
+            "advisors",
+            62
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "pku-liu-hangxin",
+            "name": "Hangxin Liu",
+            "nameZh": "刘航欣",
+            "institution": "PKU",
+            "department": "智能学院",
+            "position": "Assistant Professor",
+            "topics": [
+              "机器人、具身智能"
+            ],
+            "summary": "机器人、具身智能",
+            "profileUrl": "https://www.cis.pku.edu.cn/szdw/zzjs/4.htm",
+            "routeIds": [
+              "pku-sai-phd-reference-2027"
+            ],
+            "routeAssociations": [
+              {
+                "routeId": "pku-sai-phd-reference-2027",
+                "degree": "PhD",
+                "status": "reference",
+                "verificationStatus": "pending",
+                "summary": "北京大学智能学院 2027 招生指南将该导师列入智能机器人博士方向；个人 2027/2028 接收、名额、资助和具体招生方式仍待核实。",
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "scope": "program_direction_reference",
+                "note": "院系方向导师名单不等于个人当年接收或剩余名额。",
+                "sourceCycle": "2027",
+                "admissionMode": "program_guide_reference",
+                "projectCycleVerified": true,
+                "individualRecruitmentVerified": false,
+                "cycle2027FallReference": true
+              }
+            ],
+            "eligibility": "pending",
+            "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+            "defaultVisible": true,
+            "opening": "unknown",
+            "openingSummary": "2027/2028 个人导师名额待确认",
+            "openings": {
+              "msc": "未核实公开声明",
+              "mphil": "未核实公开声明",
+              "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+              "ra": "未核实公开岗位",
+              "cycle2027": "2027 博士项目与个人招生分开；个人招生名额待核",
+              "cycle2028": "个人 2028 Fall 招生名额未核实"
+            },
+            "openingDetails": [
+              {
+                "degree": "PhD",
+                "status": "unknown",
+                "summary": "已关联北京大学智能学院 2027 智能机器人博士方向参考；个人 2027/2028 招生与名额未核实",
+                "cycle2027FallVerified": false,
+                "cycle2027FallReference": true,
+                "cycle2028FallVerified": false,
+                "cycle": "2027 项目/导师方向参考；个人 2027/2028 Fall 招生未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "program_reference_only",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": true,
+                "projectCycle": "2027 Fall",
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false,
+                "associationVerificationStatus": "pending",
+                "sourceCycle": "2027",
+                "admissionMode": "program_guide_reference"
+              },
+              {
+                "degree": "MSc",
+                "status": "unknown",
+                "summary": "未找到该导师个人招生名额声明；不等于不招生",
+                "cycle2027FallVerified": false,
+                "cycle2028FallVerified": false,
+                "cycle": "未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "not_found",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": false,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false
+              },
+              {
+                "degree": "MPhil",
+                "status": "unknown",
+                "summary": "未找到该导师个人招生名额声明；不等于不招生",
+                "cycle2027FallVerified": false,
+                "cycle2028FallVerified": false,
+                "cycle": "未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "not_found",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": false,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false
+              },
+              {
+                "degree": "2028 Fall",
+                "status": "unknown",
+                "summary": "未找到该导师个人招生名额声明；不等于不招生",
+                "cycle2027FallVerified": false,
+                "cycle2028FallVerified": false,
+                "cycle": "未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "not_found",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能学院专职教师名录",
+                    "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学智能机器人方向介绍",
+                    "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                    "checkedDate": "2026-10-04"
+                  }
+                ],
+                "checkedDate": "2026-10-04",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": false,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false
+              }
+            ],
+            "fall2027OpeningVerified": false,
+            "newPi": {
+              "verified": false,
+              "window": "calendar-year-2026",
+              "date": null,
+              "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+              "sources": [],
+              "dateEvidenceVerified": false
+            },
+            "appointment": {
+              "new_pi_2026_verified": false,
+              "date": null,
+              "note": "未核实 2026 新入职证据"
+            },
+            "sources": [
+              {
+                "label": "北京大学智能学院 2027 年招生指南",
+                "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                "checkedDate": "2026-10-04"
+              },
+              {
+                "label": "北京大学智能学院专职教师名录",
+                "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                "checkedDate": "2026-10-04"
+              },
+              {
+                "label": "北京大学智能机器人方向介绍",
+                "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                "checkedDate": "2026-10-04"
+              }
+            ],
+            "caveats": [
+              "北京大学 2027 智能学院招生指南确认智能机器人方向与导师名单，但不等于个人 2027/2028 招生名额。",
+              "个人学历、英语、申请方式、导师接收和资助须按当年招生说明分别核验。",
+              "当前未找到个人 2028 Fall 招生名额声明。"
+            ],
+            "checkedDate": "2026-10-04",
+            "sourceFile": "pku-advisor-review-20261004.json",
+            "sourceRecord": {
+              "id": "pku-liu-hangxin",
+              "name": "Hangxin Liu",
+              "nameZh": "刘航欣",
+              "department": "智能学院",
+              "position": "Assistant Professor",
+              "researchZh": "机器人、具身智能",
+              "profileUrl": "https://www.cis.pku.edu.cn/szdw/zzjs/4.htm",
+              "routeIds": [
+                "pku-sai-phd-reference-2027"
+              ],
+              "cycle2027FallReference": true,
+              "cycle2028FallVerified": false,
+              "catalogStatus": "profile_visible_association_pending",
+              "reasonNotInDefaultCatalog": null,
+              "sources": [
+                {
+                  "label": "北京大学智能学院 2027 年招生指南",
+                  "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                  "checkedDate": "2026-10-04"
+                },
+                {
+                  "label": "北京大学智能学院专职教师名录",
+                  "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                  "checkedDate": "2026-10-04"
+                },
+                {
+                  "label": "北京大学智能机器人方向介绍",
+                  "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                  "checkedDate": "2026-10-04"
+                }
+              ],
+              "verified_bachelor_route_ids": [],
+              "pending_bachelor_route_ids": [],
+              "routeAssociations": [
+                {
+                  "routeId": "pku-sai-phd-reference-2027",
+                  "degree": "PhD",
+                  "status": "reference",
+                  "verificationStatus": "pending",
+                  "summary": "北京大学智能学院 2027 招生指南将该导师列入智能机器人博士方向；个人 2027/2028 接收、名额、资助和具体招生方式仍待核实。",
+                  "sources": [
+                    {
+                      "label": "北京大学智能学院 2027 年招生指南",
+                      "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                      "checkedDate": "2026-10-04"
+                    },
+                    {
+                      "label": "北京大学智能学院专职教师名录",
+                      "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                      "checkedDate": "2026-10-04"
+                    },
+                    {
+                      "label": "北京大学智能机器人方向介绍",
+                      "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                      "checkedDate": "2026-10-04"
+                    }
+                  ],
+                  "checkedDate": "2026-10-04",
+                  "scope": "program_direction_reference",
+                  "note": "院系方向导师名单不等于个人当年接收或剩余名额。",
+                  "sourceCycle": "2027",
+                  "admissionMode": "program_guide_reference",
+                  "projectCycleVerified": true,
+                  "individualRecruitmentVerified": false,
+                  "cycle2027FallReference": true
+                }
+              ],
+              "associationNote": "研究档案可见；具体个人项目关联待核，不计为已核实机会。"
+            }
+          }
+        },
+        {
+          "path": [
+            "routes",
+            44
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "pku-sai-phd-reference-2027",
+            "institution": "PKU",
+            "department": "智能学院",
+            "program": "北京大学智能学院智能机器人博士（2027 招生指南项目参考）",
+            "degree": "PhD",
+            "bachelorEligible": false,
+            "noTuimianRequired": false,
+            "noMasterRequired": false,
+            "status": "reference",
+            "eligibilitySummary": "北京大学智能学院 2027 招生指南将智能机器人列为招生方向，并列出对应博士生导师。博士申请条件、申请-考核流程、推免/普通招考入口与当年名额须以北京大学研究生招生网和学院当年招生说明为准。",
+            "supervisorAssociation": "2027 招生指南直接列出智能机器人方向的博士生导师；该院系方向名单证明研究与项目关联，不证明某位导师个人 2027/2028 接收、名额、资助或剩余容量。",
+            "admissionYear": "2027 Fall 项目/导师方向参考；2028 Fall 个人名额未核实",
+            "cycle2027Verified": true,
+            "projectCycleVerified": true,
+            "individualRecruitmentVerified": false,
+            "currentCycleVerificationStatus": "verified",
+            "sourceCycle": "2027",
+            "sourceCycles": [
+              "2027"
+            ],
+            "admissionMode": "program_guide_reference",
+            "evidenceScope": "program_and_direction_reference",
+            "applicationStatus": "unknown",
+            "applicationMethod": "以北京大学研究生招生网及智能学院当年博士招生说明为准；申请-考核、推免和普通招考分开核验",
+            "sources": [
+              {
+                "label": "北京大学智能学院 2027 年招生指南",
+                "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                "checkedDate": "2026-10-04",
+                "sourceCycle": "2027",
+                "sourceDegree": "PhD",
+                "evidenceScope": "current_program_guide"
+              },
+              {
+                "label": "北京大学智能学院专职教师名录",
+                "url": "https://www.cis.pku.edu.cn/szdw/zzjs/1.htm",
+                "checkedDate": "2026-10-04"
+              },
+              {
+                "label": "北京大学智能机器人方向介绍",
+                "url": "https://www.cis.pku.edu.cn/info/1087/2312.htm",
+                "checkedDate": "2026-10-04"
+              }
+            ],
+            "notes": [
+              "本条仅为 2027 项目与导师方向参考，不计作个人已核实招生机会。",
+              "个人接收、名额、资助和 2028 Fall 需向导师及院系另行确认。"
+            ],
+            "requirements": [
+              {
+                "kind": "academic",
+                "text": "智能学院博士申请条件、申请方式、推免资格、普通招考和同等学力规则以北京大学当年博士招生简章及学院招生说明为准；本条不将方向导师名单推导为个人录取资格。",
+                "sources": [
+                  {
+                    "label": "北京大学智能学院 2027 年招生指南",
+                    "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+                    "checkedDate": "2026-10-04"
+                  },
+                  {
+                    "label": "北京大学研究生招生网",
+                    "url": "https://admission.pku.edu.cn/",
+                    "checkedDate": "2026-10-04"
+                  }
+                ]
+              }
+            ],
+            "checkedDate": "2026-10-04",
+            "defaultVisible": false
+          }
+        }
+      ]
+    },
+    "index.html": {
+      "beforeSha256": "3be03ac0a383014979d6bc15a0624ab29cfd4832b524254b156b4ed0daec8c37",
+      "afterSha256": "57a5fc0925de49e8dbb8031a81f39f75b84157173b3bbd18c81b40a932f3f1e6",
+      "beforeGitBlob": "e6ffc2b4ad938b3dab7976e2d5952d8809b9a6cc",
+      "afterGitBlob": "24f4cc38ac0c5a4483fb0cac4f359aa2fa2285d4",
+      "kind": "text_fragments",
+      "operations": [
+        {
+          "before": "<script type=\"module\" src=\"./assets/app.js?v=8afbf70a01de\"></script>\n",
+          "after": "<script type=\"module\" src=\"./assets/app.js?v=7853c62c888d\"></script>\n"
+        }
+      ]
+    }
+  }
+}

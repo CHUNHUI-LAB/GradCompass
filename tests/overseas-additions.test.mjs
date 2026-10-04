@@ -1,3 +1,5 @@
+import {sevenBytes} from './seven-schools-baseline.mjs';
+import {pkuBytes} from './pku-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -6,7 +8,8 @@ import {snapshotHash as hash,snapshotText as serialize} from './strict-history-t
 import {browseRoutes,buildOpportunities} from '../assets/core.js';
 import {normalizeProjectSummaries,renderRecordSummary} from '../assets/record-summaries.js';
 import {normalizeMaterialSupplement} from '../assets/material-supplement.js';
-const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url)),data=p=>JSON.parse(read(p));
+// These assertions intentionally inspect the reviewed pre-PKU overseas stage.
+const read=p=>pkuBytes(p,sevenBytes(p,fs.readFileSync(new URL('../'+p,import.meta.url)))),data=p=>JSON.parse(read(p));
 const c=data('data/catalog.json'),p=data('data/project-summaries.json'),m=data('data/material-summaries.json');
 const base=JSON.parse(overseasBytes('data/catalog.json',read('data/catalog.json')));
 const sourceHashes={

@@ -222,8 +222,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 11928,
-      "sha256": "ca0fee33b19f49a5486cb8336d0898898d36b96c3d6c0caa4b18e6e0eccec513"
+      "bytes": 8250,
+      "sha256": "68beae39b60b0ac192d8ed643c9bbbeb0a5d9b711a2e6f52e20971c5477f8c46"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -297,8 +297,8 @@
     },
     {
       "path": "tests/detail-ui-baseline.test.mjs",
-      "bytes": 4675,
-      "sha256": "9212bbab30975c266aba8a898f2bcf1060427d434328a38aa0bbe424dd94e7f2"
+      "bytes": 4809,
+      "sha256": "72e83408bee6f58143eedfc1202caa716c8de36464303deeb8e1eeff2f1a0172"
     },
     {
       "path": "tests/editorial-design.test.mjs",
@@ -396,9 +396,24 @@
       "sha256": "b7bddb9f96ff18edf9db10e53091368109a6eb2a1f9da4cf6ac7ae949337375a"
     },
     {
+      "path": "tests/fixtures/history/reviewed-pku-20261004.json",
+      "bytes": 99448,
+      "sha256": "443cf0e43f9439d6be01a79d92fc15d867573cbe26286b2859f1c18480061894"
+    },
+    {
+      "path": "tests/fixtures/history/reviewed-seven-schools-20261005.json",
+      "bytes": 303473,
+      "sha256": "fdbf5e434048e82b6e48e7562a2c1f76d68659a84db7f0c930287fd84a0e6243"
+    },
+    {
       "path": "tests/fixtures/history/reviewed-source-deltas.json",
       "bytes": 936318,
       "sha256": "3d8857966bdb829d03fa1bb22738228277c9fea837b72438b864ce777e640987"
+    },
+    {
+      "path": "tests/freeze-preservation.test.mjs",
+      "bytes": 3155,
+      "sha256": "b143a8b000ab53a9c94c8402b85f2752807a397f7023bbded72de7c59c053405"
     },
     {
       "path": "tests/historical-source-baseline.mjs",
@@ -412,8 +427,8 @@
     },
     {
       "path": "tests/historical-source-fs.mjs",
-      "bytes": 1062,
-      "sha256": "6a680d76d6568ab2e51c140cab1694cd38bedb6ea9599b2efef4a13d90886d34"
+      "bytes": 1204,
+      "sha256": "67f8bb985cee6e939336f121fdbbbbe86c154207139e0e966e9a93da53aedd36"
     },
     {
       "path": "tests/hku-ris-baseline.mjs",
@@ -427,13 +442,13 @@
     },
     {
       "path": "tests/latest-3f294-baseline.mjs",
-      "bytes": 2049,
-      "sha256": "5929ee8fc5e5e7913307ea66f22009858dd8a2a5033834b185a77dc83ee10469"
+      "bytes": 2239,
+      "sha256": "bea2e60488ee5d81ea3aa0cb1533dcb67f02a6a34aa1ee2e4412f6031bed3fe3"
     },
     {
       "path": "tests/latest-3f294-baseline.test.mjs",
-      "bytes": 7561,
-      "sha256": "9e9846d2317aafb7bbbfd5d39c6a4257ac394f8858e14d4566b59fcea6956821"
+      "bytes": 7695,
+      "sha256": "7c5fded0e5a4239087c37dd7a1f7c25b32077915501925d297ef965a93f73d8a"
     },
     {
       "path": "tests/maintenance-baseline.mjs",
@@ -462,8 +477,8 @@
     },
     {
       "path": "tests/overseas-additions.test.mjs",
-      "bytes": 6066,
-      "sha256": "1528937cd4c83d023b89f6ac25386fe802bda98861d5ca1f7d2da007c201d072"
+      "bytes": 6273,
+      "sha256": "ba489ac996e542ba0ac4b81aba7e7bde0509cdd755337f81af9bd3a096ce4aa2"
     },
     {
       "path": "tests/overseas-baseline.mjs",
@@ -484,6 +499,16 @@
       "path": "tests/page-overviews.test.mjs",
       "bytes": 11860,
       "sha256": "1c1e245eebf2e521be9f4019e1504bc08b756e70fadb28a9dce391ec85cb013e"
+    },
+    {
+      "path": "tests/pku-baseline.mjs",
+      "bytes": 1464,
+      "sha256": "b87c5c3b29b31e5ef22a9413a228280975aff6e596a38c70c54e9cea8775180c"
+    },
+    {
+      "path": "tests/pku-history.test.mjs",
+      "bytes": 7395,
+      "sha256": "67d0c9f7d30bcbb901e4e6d5952c4223ff7de23381c461152f50472f10eae5de"
     },
     {
       "path": "tests/pku-review.test.mjs",
@@ -538,7 +563,7 @@
     {
       "path": "tests/public-discovery.test.mjs",
       "bytes": 9956,
-      "sha256": "1c0427ff28587cc8c8029684199b9c459f2709b7622b95575dd6949c0c136f43"
+      "sha256": "de254a51524df75e82a0459b89747d176e08b93afc22768f36eb4a05de170701"
     },
     {
       "path": "tests/ranks.test.mjs",
@@ -567,13 +592,23 @@
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 25155,
-      "sha256": "a0e56d02f0d6561c8a4047cf8508e685d35405199628ca0c60cc74e068959fa4"
+      "bytes": 25163,
+      "sha256": "6fd95819ba7686f7cd4a131bcdf14cea6494b388822cd00167604c888a0238e0"
     },
     {
       "path": "tests/resource-versions.test.mjs",
       "bytes": 8156,
       "sha256": "f01a919eec436290abacef6716c4e78c3dd0173d85f8f50d47066d94552951d7"
+    },
+    {
+      "path": "tests/seven-schools-baseline.mjs",
+      "bytes": 1504,
+      "sha256": "5bede54f9fef08b7a31b4d4f60d3666df499668e249d0a91ab73ce2bfd5ea63a"
+    },
+    {
+      "path": "tests/seven-schools-history.test.mjs",
+      "bytes": 7960,
+      "sha256": "c2b73f16b887f7c31d7495e8fb874638abdf0885cdf79d3c452d709c42e4f9b9"
     },
     {
       "path": "tests/seven-schools-review.test.mjs",
