@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 20337,
-      "sha256": "a7eb7cbc0677bcd54f9218ebf3de29f4cabd3b7ba6787d05bebe079791633a55"
+      "bytes": 21826,
+      "sha256": "4eeac8c30f5ee0a64450c11b19390b989672bd6f19cd19cb947d77effe1ff64d"
     },
     {
       "path": "REPO-MAP.md",
@@ -151,6 +151,11 @@
       "sha256": "b5354ece6ee48d205665af699e008e74d51c41ca23000c7fc653eccfc906816e"
     },
     {
+      "path": "data/sustech-advisor-review-20261004.json",
+      "bytes": 12037,
+      "sha256": "ec5204975321dc31f04e808dd37be88d510ac747bb62790af811ee209bbd14b9"
+    },
+    {
       "path": "data/update-status.json",
       "bytes": 347,
       "sha256": "b96e217f713537808ee7874c3638ed0e2add57d514b2a23232085dd73d35cad5"
@@ -167,8 +172,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 7341,
-      "sha256": "8547728e0c03590925f665df9722574386ef7e6bdc3e452c881f3912cd36b1e6"
+      "bytes": 7417,
+      "sha256": "ec27c7d66ef32f548c5e3369417db3f26dcdc10ba83438ae33963666be51b508"
     },
     {
       "path": "tests/active-filters.test.mjs",
@@ -389,6 +394,11 @@
       "path": "tests/summary-navigation.test.mjs",
       "bytes": 13614,
       "sha256": "5dd00552234666c8e94df14857d1494ce99085c4ef6f74df1ab6e7ab092c78c4"
+    },
+    {
+      "path": "tests/sustech-review.test.mjs",
+      "bytes": 1442,
+      "sha256": "b48b81572ebbe03b02ada1ba8ecf16704d9909e4e0ce8787b5e2fc9cbfeb2bdb"
     }
   ],
   "qaMetadataScope": "Hashes identify this content snapshot. Automated test counters do not establish deployment or browser acceptance.",

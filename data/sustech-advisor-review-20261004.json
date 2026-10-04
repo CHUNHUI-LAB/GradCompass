@@ -1,0 +1,206 @@
+{
+  "schemaVersion": "sustech-advisor-review/1.0",
+  "institution": "SUSTech",
+  "institutionZh": "南方科技大学",
+  "checkedDate": "2026-10-04",
+  "scope": "机器人、具身智能、控制、智能制造与无人系统相关导师；只记录公开一手来源，不把院系招生通知改写成个人名额",
+  "admissionEvidence": [
+    {
+      "id": "sustech-aim-phd-2027-fast-track",
+      "title": "自动化与智能制造学院 2027 级博士研究生优秀生源快响计划报考通知",
+      "cycle": "2027 Fall reference",
+      "status": "department_notice_only",
+      "summaryZh": "通知于 2026-09-28 发布，明确启动 2027 级博士招生，普通招考采用申请-考核制，2026-09-23 起可随时提交；招生导师和方向参考 2026 专业目录，最终以 2027 级博士招生简章和实际导师名额为准。",
+      "sources": [
+        {
+          "label": "南科大自动化与智能制造学院官方通知",
+          "url": "https://aim.sustech.edu.cn/Article-detail-id-1014-typeid-7.html",
+          "checkedDate": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": "sustech-mee-pre-recommendation-2027",
+      "title": "机械与能源工程系 2027 级预推免研究生招生初审结果",
+      "cycle": "2027 Fall reference",
+      "status": "pre_recommendation_only",
+      "summaryZh": "官方页面确认 2027 级预推免初审与后续考核流程，但没有公开个人导师余位或导师分配结果；预推免/直博通道不等同于普通直接申请路径。",
+      "sources": [
+        {
+          "label": "南科大机械与能源工程系官方通知",
+          "url": "https://mee.sustech.edu.cn/xinwendongtai/3918.html",
+          "checkedDate": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": "sustech-cse-direct-phd-2027",
+      "title": "计算机科学与工程系 2027 年接收推荐免试研究生（含直博生）预报名通知",
+      "cycle": "2027 Fall reference",
+      "status": "pre_recommendation_only",
+      "summaryZh": "官方招生页明确 2027 年计划招收全日制硕士和直接攻读博士研究生，报名时间为 2026-07-15 至 2026-08-31；页面未给出 2028 Fall，也不等同于个人导师名额。",
+      "sources": [
+        {
+          "label": "南科大计算机科学与工程系官方招生页",
+          "url": "https://cse.sustech.edu.cn/graduate/graduate-admissions/doctorate/",
+          "checkedDate": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": "sustech-international-phd-2025-reference",
+      "title": "SUSTech 2025 Doctoral Programs in English for International Students",
+      "cycle": "2025 historical reference",
+      "status": "historical_program_reference",
+      "summaryZh": "历史博士研究方向清单列出智能制造与机器人、控制科学与工程、计算机科学与技术等方向及部分导师；仅用于确认项目与导师学科关联，不作为 2027/2028 名额证据。",
+      "sources": [
+        {
+          "label": "南科大 2025 国际博士研究方向清单",
+          "url": "https://cse.sustech.edu.cn/uploads/202601/1-ListofResearchAreasfor2025DoctoralProgramAdmissions%5B-%5D12155916_71168_75696780.pdf",
+          "checkedDate": "2026-10-04"
+        }
+      ]
+    }
+  ],
+  "advisors": [
+    {
+      "id": "sustech-chenglong-fu",
+      "name": "Chenglong Fu",
+      "nameZh": "付成龙",
+      "department": "机械与能源工程系",
+      "position": "Professor / PhD Supervisor",
+      "researchZh": "人体增强与康复机器人、动态行走、动力假肢、外骨骼与负重行走控制",
+      "profileUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/891.html",
+      "cycle2027FallReference": true,
+      "cycle2028FallVerified": false,
+      "catalogStatus": "verification_queue",
+      "reasonNotInDefaultCatalog": "已核实导师身份与机器人方向；尚未核实适用于本站默认本科起点、无需推免且无需先获硕士的独立导师路径。",
+      "sources": [
+        {"label": "南科大机械与能源工程系官方教师页", "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/891.html", "checkedDate": "2026-10-04"},
+        {"label": "南科大机器人与自动化方向团队页", "url": "https://mee.sustech.edu.cn/kexueyanjiu/3033.html", "checkedDate": "2026-10-04"}
+      ]
+    },
+    {
+      "id": "sustech-chengzhi-hu",
+      "name": "Chengzhi Hu",
+      "nameZh": "胡程志",
+      "department": "机械与能源工程系",
+      "position": "Associate Professor / PhD Supervisor",
+      "researchZh": "显微自动化、磁控微纳机器人、微纳流体与单细胞分析",
+      "profileUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/907.html",
+      "cycle2027FallReference": true,
+      "cycle2028FallVerified": false,
+      "catalogStatus": "verification_queue",
+      "reasonNotInDefaultCatalog": "历史国际博士方向清单确认智能制造与机器人关联，但未确认 2027/2028 个人导师余位或默认本科直申路线。",
+      "sources": [
+        {"label": "南科大机械与能源工程系官方教师页", "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/907.html", "checkedDate": "2026-10-04"},
+        {"label": "南科大 2025 国际博士研究方向清单", "url": "https://cse.sustech.edu.cn/uploads/202601/1-ListofResearchAreasfor2025DoctoralProgramAdmissions%5B-%5D12155916_71168_75696780.pdf", "checkedDate": "2026-10-04"}
+      ]
+    },
+    {
+      "id": "sustech-hongqiang-wang",
+      "name": "Hongqiang Wang",
+      "nameZh": "王宏强",
+      "department": "机械与能源工程系",
+      "position": "Associate Professor / PhD Supervisor",
+      "researchZh": "新型电机、柔性与微型仿生机器人、医疗机器人",
+      "profileUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/903.html",
+      "cycle2027FallReference": true,
+      "cycle2028FallVerified": false,
+      "catalogStatus": "verification_queue",
+      "reasonNotInDefaultCatalog": "实验室公开岗位偏向研究助理教授、博士后、科研助理或访问学生，未看到 2028 Fall 学位名额；2027 院系通知不能替代个人确认。",
+      "sources": [
+        {"label": "南科大机械与能源工程系官方教师页", "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/903.html", "checkedDate": "2026-10-04"},
+        {"label": "AARLab 官方机会页", "url": "https://wanglab.mee.sustech.edu.cn/opportunities.html", "checkedDate": "2026-10-04"}
+      ]
+    },
+    {
+      "id": "sustech-pan-yang",
+      "name": "Pan Yang",
+      "nameZh": "潘阳",
+      "department": "机械与能源工程系",
+      "position": "Associate Professor / PhD Supervisor",
+      "researchZh": "足式机器人、机器人动力学、力与力矩控制",
+      "profileUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/926.html",
+      "cycle2027FallReference": true,
+      "cycle2028FallVerified": false,
+      "catalogStatus": "verification_queue",
+      "reasonNotInDefaultCatalog": "官方教师页确认博士生导师和足式机器人方向，但未找到个人 2027/2028 招生批次或可验证本科直申路线。",
+      "sources": [
+        {"label": "南科大机械与能源工程系官方教师页", "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/926.html", "checkedDate": "2026-10-04"},
+        {"label": "南科大自动化与智能制造学院 2027 博士通知", "url": "https://aim.sustech.edu.cn/Article-detail-id-1014-typeid-7.html", "checkedDate": "2026-10-04"}
+      ]
+    },
+    {
+      "id": "sustech-zhenzhong-jia",
+      "name": "Zhenzhong Jia",
+      "nameZh": "贾振中",
+      "department": "机械与能源工程系",
+      "position": "Assistant Professor / PhD Supervisor",
+      "researchZh": "机器人操作、移动机器人、智能驾驶、模型预测控制与学习",
+      "profileUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/927.html",
+      "cycle2027FallReference": true,
+      "cycle2028FallVerified": false,
+      "catalogStatus": "verification_queue",
+      "reasonNotInDefaultCatalog": "已核实导师身份与机器人控制方向；院系招生通知没有给出该导师个人 2027/2028 余位。",
+      "sources": [
+        {"label": "南科大机械与能源工程系官方教师页", "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/927.html", "checkedDate": "2026-10-04"},
+        {"label": "南科大机器人与自动化方向团队页", "url": "https://mee.sustech.edu.cn/kexueyanjiu/3033.html", "checkedDate": "2026-10-04"}
+      ]
+    },
+    {
+      "id": "sustech-boyu-zhou",
+      "name": "Boyu Zhou",
+      "nameZh": "周博宇",
+      "department": "机械与能源工程系",
+      "position": "Assistant Professor / PhD Supervisor",
+      "researchZh": "无人机与移动机器人、自主导航、主动感知、移动操作和多机器人系统",
+      "profileUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/3552.html",
+      "labUrl": "https://robotics-star.com/",
+      "cycle2027FallReference": true,
+      "cycle2028FallVerified": false,
+      "catalogStatus": "verification_queue",
+      "reasonNotInDefaultCatalog": "官方教师页和 STAR 组确认研究方向与博士生导师身份；未公开 2028 Fall 个人招生名额。",
+      "sources": [
+        {"label": "南科大机械与能源工程系官方教师页", "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/3552.html", "checkedDate": "2026-10-04"},
+        {"label": "STAR 实验室主页", "url": "https://robotics-star.com/", "checkedDate": "2026-10-04"}
+      ]
+    },
+    {
+      "id": "sustech-hongliang-lu",
+      "name": "Hongliang Lu",
+      "nameZh": "鲁洪良",
+      "department": "机械与能源工程系",
+      "position": "Assistant Professor / PhD Supervisor",
+      "researchZh": "具身操作、自动驾驶、类脑智能、世界模型与大模型智能体",
+      "profileUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/3892.html",
+      "labUrl": "https://menslab-robotics.com/",
+      "cycle2027FallReference": true,
+      "cycle2028FallVerified": false,
+      "catalogStatus": "verification_queue",
+      "reasonNotInDefaultCatalog": "官方教师页确认具身智能和机器人方向；本轮未见个人 2027/2028 招生轮次或余位说明。",
+      "sources": [
+        {"label": "南科大机械与能源工程系官方教师页", "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/3892.html", "checkedDate": "2026-10-04"},
+        {"label": "MENS Lab 主页", "url": "https://menslab-robotics.com/", "checkedDate": "2026-10-04"}
+      ]
+    },
+    {
+      "id": "sustech-zhiyun-lin",
+      "name": "Zhiyun Lin",
+      "nameZh": "林志赟",
+      "department": "自动化与智能制造学院",
+      "position": "Tenured Professor / PhD Supervisor",
+      "researchZh": "多智能体系统、分布式人工智能、自主无人系统与群体机器人、感知与控制",
+      "profileUrl": "https://www.sustech.edu.cn/zh/faculties/zhiyunlin-2.html",
+      "cycle2027FallReference": true,
+      "cycle2028FallVerified": false,
+      "catalogStatus": "verification_queue",
+      "reasonNotInDefaultCatalog": "官方教师页与历史博士研究方向清单确认控制和群体机器人关联；当前未见个人 2028 Fall 名额，也未完成默认本科路径核验。",
+      "sources": [
+        {"label": "南科大官方教师页", "url": "https://www.sustech.edu.cn/zh/faculties/zhiyunlin-2.html", "checkedDate": "2026-10-04"},
+        {"label": "南科大 2025 国际博士研究方向清单", "url": "https://cse.sustech.edu.cn/uploads/202601/1-ListofResearchAreasfor2025DoctoralProgramAdmissions%5B-%5D12155916_71168_75696780.pdf", "checkedDate": "2026-10-04"}
+      ]
+    }
+  ],
+  "conclusionZh": "截至 2026-10-04，南方科技大学官方页面未检出明确写出 Fall 2028、2028 级或 2028-29 intake 的个人导师招生名额。2027 级院系通知、预推免通知和历史博士方向清单仅作为周期或学科关联参考；未确认个人余位、资助和默认本科直申路径。"
+}
