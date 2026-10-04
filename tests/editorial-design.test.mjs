@@ -1,4 +1,5 @@
 import {maintenanceBaseline} from './maintenance-baseline.mjs';
+import {advisorAdditionsBaselineBytes} from './advisor-additions-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -24,7 +25,7 @@ test('search action moves focus to existing results without changing routing or 
 });
 test('visual baseline source bytes remain reconstructible after separately reviewed date maintenance',()=>{
  const expected={'catalog.json':'2b0a98994dc7ae639b06989889621be973fa4289','advisor-profiles.json':'910aa0b3db20e72ab4a2268ac910276a8e619cc2','application-experiences.json':'5d92afd2178bf6e7554d9d468d359474cc060066','project-summaries.json':'bbbd93fd3f6466b84ff45e22182b952754fb2f5e','material-summaries.json':'58265c08b97c0d689cd6b910fbd2b4e822c169b4'};
- for(const [path,sha] of Object.entries(expected)){const raw=fs.readFileSync(new URL('../data/'+path,import.meta.url));const b=['catalog.json','material-summaries.json','project-summaries.json','application-experiences.json'].includes(path)?Buffer.from(JSON.stringify(maintenanceBaseline(JSON.parse(raw)),null,2)+'\n'):raw;assert.equal(crypto.createHash('sha1').update('blob '+b.length+'\0').update(b).digest('hex'),sha,path);}
+ for(const [path,sha] of Object.entries(expected)){const raw=fs.readFileSync(new URL('../data/'+path,import.meta.url));const b=['catalog.json','material-summaries.json','project-summaries.json','application-experiences.json'].includes(path)?Buffer.from(JSON.stringify(maintenanceBaseline(JSON.parse(raw)),null,2)+'\n'):advisorAdditionsBaselineBytes(path,raw);assert.equal(crypto.createHash('sha1').update('blob '+b.length+'\0').update(b).digest('hex'),sha,path);}
 });
 
 // Exercise menu and landing actions with real application bindings; this is DOM-contract QA.

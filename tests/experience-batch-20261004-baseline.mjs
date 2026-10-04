@@ -1,6 +1,7 @@
 // Fixed c61dc2 public baseline. Never derive expected hashes from the working tree or release manifest.
 import assert from 'node:assert/strict';
 import crypto from 'node:crypto';
+import {advisorAdditionsBaseline} from './advisor-additions-baseline.mjs';
 export const batchIds=Object.freeze(["grad-zuoyihang-redbird-camp-2022", "grad-1p3-c98sd-cuhksz-phd-2026", "grad-sustech-luanwd-cuhksz-msds-2021", "grad-sustech-dengrb-robotics-2021", "grad-zuoduan-westlake-ai4sci-2024"]);
 export const originalIds=Object.freeze(["grad-robotics-eth-xiang-2022", "grad-europe-tinsir-2025", "grad-bjut-mty-2026", "grad-sustech-yunzx-2023", "grad-ptt-tum-rci-2022", "grad-dcard-ece-ra-phd-2025", "grad-dcard-bme-ece-2026", "grad-reddit-cs-interviews-2025", "grad-ngaizean-hkustgz-2026", "grad-szu-mingkangchen-2025", "grad-xhs-xiga-ra-mphil-2025", "grad-gter-chuyeyue-ra-phd-2024", "grad-gter-sscomebady-mphil-2018", "grad-gter-imhigh-hkust-mphil-2015", "grad-drishti-akash-hkust-intern-2023", "grad-wangbard-cryptography-phd-2025", "grad-sustech-lisr-hkust-2025", "grad-ruakoyo-hku-interview-2024", "grad-shufly-w-hongkong-2024", "grad-scut-fengyt-redbird-2023", "grad-benjamin-hkustgz-research-2026"]);
 export const previousBatchMetadata=Object.freeze({latestBatchBaseCommit:'4840df6a9718ec38e472f8fd7496047248029e71',latestBatchReviewDate:'2026-10-03'});
@@ -62,7 +63,11 @@ export function assertExperienceBatchPreserved({experiences,provenance,files}){
  }
  for(const [name,hash] of Object.entries(protectedFileHashes)){
   assert(files[name]!==undefined,'missing protected bytes: '+name);
-  assert.equal(sha256(files[name]),hash,'protected bytes changed: '+name);
+  let bytes=files[name];
+  if(['data/catalog.json','data/advisor-profiles.json'].includes(name)){
+   try{bytes=Buffer.from(JSON.stringify(advisorAdditionsBaseline(JSON.parse(bytes)),null,2)+'\n');}catch{}
+  }
+  assert.equal(sha256(bytes),hash,'protected bytes changed: '+name);
  }
  for(const [name,hash] of Object.entries(versionOnlyFileHashes)){
   assert(files[name]!==undefined,'missing version-only bytes: '+name);

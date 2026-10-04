@@ -1,4 +1,5 @@
 import {experienceBatchBaseline} from './experience-batch-20261004-baseline.mjs';
+import {advisorAdditionsBaselineBytes} from './advisor-additions-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -18,7 +19,7 @@ test('approved F2 source bytes remain identical after reversing only the reviewe
   'ra-positions.json':'78f34dddd0ce8cc91e2a101c8c4da2270e86c13c',
   'update-status.json':'936a05b7d4c9c272c7a0c9c86c38833e0155e8c9'
  };
- for(const [name,sha] of Object.entries(expected)){const raw=fs.readFileSync(new URL('../data/'+name,import.meta.url));const bytes=['application-experiences.json','application-experience-provenance.json'].includes(name)?Buffer.from(JSON.stringify(experienceBatchBaseline(JSON.parse(raw)),null,2)+'\n'):raw;assert.equal(crypto.createHash('sha1').update('blob '+bytes.length+'\0').update(bytes).digest('hex'),sha,name);}
+ for(const [name,sha] of Object.entries(expected)){const raw=advisorAdditionsBaselineBytes(name,fs.readFileSync(new URL('../data/'+name,import.meta.url)));const bytes=['application-experiences.json','application-experience-provenance.json'].includes(name)?Buffer.from(JSON.stringify(experienceBatchBaseline(JSON.parse(raw)),null,2)+'\n'):raw;assert.equal(crypto.createHash('sha1').update('blob '+bytes.length+'\0').update(bytes).digest('hex'),sha,name);}
 });
 test('six sections are first-class and source-backed navigation stays local',()=>{
  const nav=html.match(/<nav[\s\S]*?<\/nav>/)[0];
