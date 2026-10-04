@@ -43,16 +43,22 @@ function sustechReviewMatches(a){
  if(state.rank&&rankOf({position:a.position})!==state.rank)return false;
  return true;
 }
+function sustechReviewAdvisors(){return (sustechReview?.advisors||[]).filter(a=>sustechReviewMatches(a));}
+function sustechReviewCard(a){
+ const initials=(a.name||'').split(/\s+/).map(v=>v[0]).slice(0,2).join('');
+ const tags=themesFor({summary:a.researchZh||''}).slice(0,5).map(t=>`<span class="tag">${e(t)}</span>`).join('');
+ return `<article class="advisor-card advisor-review-card" data-review-advisor-id="${e(a.id)}"><div class="advisor-avatar" aria-hidden="true">${e(initials)}<small>资料</small></div><div class="advisor-main"><div class="opportunity-heading"><span class="opportunity-type">导师资料</span><span class="opportunity-program">招生路径待核</span></div><div class="identity-line"><span class="name-button" role="heading" aria-level="3">${e(a.name)}${a.nameZh?` <span class="name-zh">${e(a.nameZh)}</span>`:''}</span></div><div class="institution-line"><strong>南方科技大学</strong> · ${e(a.department)}</div><p class="small-note advisor-rank">${e(a.position)}</p><p class="summary">${e(a.researchZh)}</p><div class="tags">${tags}</div></div><div class="advisor-actions"><div class="status-group">${badge('unknown','2027 院系参考')}${badge('unknown','2028 未核实')}</div>${link(a.profileUrl,'官方教师页 ↗')}${a.labUrl?link(a.labUrl,'实验室主页 ↗'):''}</div></article>`;
+}
 function renderSustechReview(){
  const selected=state.institution===sustechInstitution;
  if(!sustechReview||(!selected&&Object.values(state).some(Boolean)))return '';
- const advisors=(sustechReview.advisors||[]).filter(a=>selected?sustechReviewMatches(a):true);
- const cards=advisors.map(a=>`<article class="evidence-box sustech-review-card"><h4>${e(a.nameZh)} <span class="quiet">${e(a.name)}</span></h4><p class="small-note">${e(a.position)} · ${e(a.department)}</p><p>${e(a.researchZh)}</p><div class="status-group">${badge('unknown','2027 院系参考')}${badge('unknown','2028 未核实')}</div><div class="link-list">${link(a.profileUrl,'官方教师页 ↗')}${a.labUrl?link(a.labUrl,'实验室主页 ↗'):''}</div></article>`).join('');
+ const advisors=selected?sustechReviewAdvisors():(sustechReview.advisors||[]);
+ const cards=advisors.map(sustechReviewCard).join('');
  const evidence=(sustechReview.admissionEvidence||[]).map(item=>`<li><strong>${e(item.title)}</strong>：${e(item.summaryZh)} <span class="link-list">${sourceLinks(item.sources,1)}</span></li>`).join('');
- const cardContent=cards||'<div class="empty"><p>当前筛选下没有匹配的南科大核查导师。</p></div>';
+ const cardContent=cards||'<div class="empty"><p>当前筛选下没有匹配的南科大导师资料。</p></div>';
  const title=selected?'南方科技大学导师核查（学校筛选）':'南方科技大学导师核查';
  const intro=selected?'当前学校筛选显示南科大核查队列。它们不计入已核实申请机会；申请类型与招生状态仍需逐条核实。':'以下导师已用官方教师页、团队页和招生通知核对，但目前仍是核查资料，不进入默认可申请机会列表。2027 信息是院系或预推免参考，个人余位、资助与 2028 Fall 招生尚未确认。';
- return `<section class="sustech-review-panel" aria-labelledby="sustech-review-title"><div class="evidence-box"><h3 id="sustech-review-title">${title}</h3><p>${intro}</p><div class="source-watch">${cardContent}</div><h4>招生证据边界</h4><ul>${evidence}</ul><div class="link-list"><a class="source-link" href="./data/sustech-advisor-review-20261004.json" target="_blank" rel="noopener noreferrer">查看完整南科大核查资料 ↗</a></div></div></section>`;
+ return `<section class="sustech-review-panel" aria-labelledby="sustech-review-title"><div class="evidence-box"><h3 id="sustech-review-title">${title}</h3><p>${intro}</p><div class="advisor-review-list">${cardContent}</div><h4>招生证据边界</h4><ul>${evidence}</ul><div class="link-list"><a class="source-link" href="./data/sustech-advisor-review-20261004.json" target="_blank" rel="noopener noreferrer">查看完整南科大核查资料 ↗</a></div></div></section>`;
 }
 function renderAdvisors(){
  const selectedSustech=state.institution===sustechInstitution;
@@ -60,7 +66,7 @@ function renderAdvisors(){
  const review=renderSustechReview();
  if(selectedSustech){
   $('#view-content').innerHTML=review||emptyResult();
-  $('#result-count').textContent=`0 条机会 · 核查导师当前匹配 ${(sustechReview?.advisors||[]).filter(sustechReviewMatches).length} 位 / 队列共 ${(sustechReview?.advisors||[]).length} 位`;
+  $('#result-count').textContent=`0 条机会 · 当前匹配 ${sustechReviewAdvisors().length} 位导师资料 / 队列共 ${(sustechReview?.advisors||[]).length} 位`;
   return;
  }
  $('#view-content').innerHTML=review+(records.length?records.map(advisorCard).join(''):emptyResult());
