@@ -8,13 +8,13 @@
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
   "browserVisualQA": "Not yet browser-verified.",
-  "profilePilotCount": 41,
-  "visibleAdvisorCount": 41,
-  "opportunityCount": 59,
+  "profilePilotCount": 49,
+  "visibleAdvisorCount": 49,
+  "opportunityCount": 67,
   "raPositionCount": 2,
-  "newAdvisorProfiles": 11,
+  "newAdvisorProfiles": 19,
   "preservedAdvisorProfiles": 30,
-  "newProfileCitedSourceCount": 46,
+  "newProfileCitedSourceCount": 60,
   "experienceRecords": 26,
   "defaultExperienceRecords": 26,
   "experienceSourceSites": 19,
@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 23703,
-      "sha256": "188b4a7e3ff1c81a013d904590107233973567981270133a4e3aeeb7653409fb"
+      "bytes": 23920,
+      "sha256": "f2539f29fa5af19ba7ad7bd73473aa71b179a00317cc95888e0b369d6467a204"
     },
     {
       "path": "REPO-MAP.md",
@@ -52,8 +52,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 67116,
-      "sha256": "3f54ede20fc2135cf93c16e70bf5c918faf22a4bbcbc219998904d00645755e6"
+      "bytes": 63828,
+      "sha256": "f187a531056bf109dd59ae4eb13963d44e42f4875d815a37f98a25c2533d6f0c"
     },
     {
       "path": "assets/campus-art.webp",
@@ -62,8 +62,8 @@
     },
     {
       "path": "assets/core.js",
-      "bytes": 26228,
-      "sha256": "cad4681d907cdf380dad2b1ab4c9b42ee33829e11fafeb73b9ad0b072975a927"
+      "bytes": 26257,
+      "sha256": "2f21f34288beadd37af135e7995bf9fd3d4aedd5ddaf4ecf2f4aa56fb0ec19ae"
     },
     {
       "path": "assets/experiences.js",
@@ -107,8 +107,8 @@
     },
     {
       "path": "data/advisor-profiles.json",
-      "bytes": 298696,
-      "sha256": "1550cecabe989c7f857fb65347486e5f7abe85fa140a92514892f1d2de42a2a8"
+      "bytes": 325741,
+      "sha256": "831f560e5d4ad4784ac0c43de33f4ef4a9cecde464951ad4850df37007a5d39a"
     },
     {
       "path": "data/application-experience-provenance.json",
@@ -127,8 +127,8 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 791295,
-      "sha256": "3423ba646e7ed2f7857f8ece4c884edaaf568319049f78b18000ba9fe59e3875"
+      "bytes": 855379,
+      "sha256": "52bb93a5eeddd1200d9fcd642a82b184efe2d74a915ee8c72ef2168bd811f39f"
     },
     {
       "path": "data/maintenance-2026-10-03.json",
@@ -168,7 +168,7 @@
     {
       "path": "index.html",
       "bytes": 8252,
-      "sha256": "8a23befbc805fc2b764379033866f6327278e0f9046556256cdde14d8a3cc7b7"
+      "sha256": "02602fe3c0ca6a15541787e866ac7d86f64f27c0ea44db8a33bf81e610ac14fc"
     },
     {
       "path": "package.json",
@@ -178,7 +178,7 @@
     {
       "path": "scripts/freeze.py",
       "bytes": 8177,
-      "sha256": "95a34ef4e1d61e7793c40e7ff40e57ac0a65edf716149f71b532c60ff9f9439d"
+      "sha256": "2d433a00189a33c10a53d0edc2ac8c7a3a36f7c41327ed3bc4ee76e00cb75d36"
     },
     {
       "path": "tests/active-filters.test.mjs",
@@ -207,8 +207,8 @@
     },
     {
       "path": "tests/core.test.mjs",
-      "bytes": 5746,
-      "sha256": "4111ca1954aec6e3da22cd70ba4bd667e52431389b5f71c409cb37d3066ec10b"
+      "bytes": 6100,
+      "sha256": "09905540c8c1a6f218b9f9ea82dfd1d8ad5d5f4509c4099f7921375bfe9b7790"
     },
     {
       "path": "tests/cycle-refresh.test.mjs",
@@ -223,7 +223,7 @@
     {
       "path": "tests/experience-batch-20261004-baseline.mjs",
       "bytes": 6577,
-      "sha256": "ec1a336ac1fa700928650da570db3d8b5924ad3d3a3c0ab27dcffd7d1b54509b"
+      "sha256": "57ec52e844ae275137bb07a9d9f2c9209da8e49e8e031487cc780442b4230851"
     },
     {
       "path": "tests/experience-batch-20261004.test.mjs",
@@ -397,8 +397,8 @@
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 23015,
-      "sha256": "ea5d3f3d28118fe18de705d0e629fbfcc21242da20a6a9ca7212f997cf0327e6"
+      "bytes": 21914,
+      "sha256": "2d27d40e1768a6d090c95841ba33258ec6fa7c03e3ca30303f98d6357f4b1f21"
     },
     {
       "path": "tests/resource-versions.test.mjs",
