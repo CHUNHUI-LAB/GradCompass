@@ -60,7 +60,7 @@ function renderAdvisors(){
  const review=renderSustechReview();
  if(selectedSustech){
   $('#view-content').innerHTML=review||emptyResult();
-  $('#result-count').textContent=`0 条机会 · ${(sustechReview?.advisors||[]).length} 位核查导师`;
+  $('#result-count').textContent=`0 条机会 · 核查导师当前匹配 ${(sustechReview?.advisors||[]).filter(sustechReviewMatches).length} 位 / 队列共 ${(sustechReview?.advisors||[]).length} 位`;
   return;
  }
  $('#view-content').innerHTML=review+(records.length?records.map(advisorCard).join(''):emptyResult());

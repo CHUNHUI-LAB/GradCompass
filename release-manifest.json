@@ -52,8 +52,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 67018,
-      "sha256": "5c5560b5550965d1f0c3a9fa9ac94690385d7fd0081deaee41946aed7d7aaeaa"
+      "bytes": 67116,
+      "sha256": "3f54ede20fc2135cf93c16e70bf5c918faf22a4bbcbc219998904d00645755e6"
     },
     {
       "path": "assets/campus-art.webp",
@@ -168,7 +168,7 @@
     {
       "path": "index.html",
       "bytes": 8252,
-      "sha256": "02238e39b3a81f5f53f26ff46e8700467733c8b725b9c427c2fbd134cecac0ac"
+      "sha256": "8a23befbc805fc2b764379033866f6327278e0f9046556256cdde14d8a3cc7b7"
     },
     {
       "path": "package.json",
@@ -222,8 +222,8 @@
     },
     {
       "path": "tests/experience-batch-20261004-baseline.mjs",
-      "bytes": 6118,
-      "sha256": "6408b18407dcd2bb4c5d49c01e51ef06ee02cd34ad1ac52a818ab76d0626ac1e"
+      "bytes": 6577,
+      "sha256": "ec1a336ac1fa700928650da570db3d8b5924ad3d3a3c0ab27dcffd7d1b54509b"
     },
     {
       "path": "tests/experience-batch-20261004.test.mjs",
@@ -397,8 +397,8 @@
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 21103,
-      "sha256": "a761c52177b2817c207f8c184540d72f1f884cabb1ccb30825ce1e6bc117d6e5"
+      "bytes": 23015,
+      "sha256": "ea5d3f3d28118fe18de705d0e629fbfcc21242da20a6a9ca7212f997cf0327e6"
     },
     {
       "path": "tests/resource-versions.test.mjs",

@@ -5,7 +5,7 @@ const elements=new Map;const el=s=>{if(!elements.has(s))elements.set(s,new Eleme
 globalThis.document={querySelector:el,querySelectorAll:s=>s==='[data-view]'?navs:s==='dialog'?[el('#detail-dialog'),el('#compare-dialog')]:[],addEventListener:(n,f)=>documentListeners[n]=f,getElementById:id=>el('#'+id),activeElement:{tagName:'BODY'}};globalThis.window={addEventListener:(n,f)=>windowListeners[n]=f};globalThis.location={hash:''};const academicData=JSON.parse(fs.readFileSync(new URL('../data/catalog.json',import.meta.url),'utf8'));const raData=JSON.parse(fs.readFileSync(new URL('../data/ra-positions.json',import.meta.url),'utf8'));const statusData=JSON.parse(fs.readFileSync(new URL('../data/update-status.json',import.meta.url),'utf8'));const sustechData=JSON.parse(fs.readFileSync(new URL('../data/sustech-advisor-review-20261004.json',import.meta.url),'utf8'));const data={...academicData,raPositions:raData.raPositions};globalThis.fetch=async url=>({ok:true,json:async()=>{const pathname=new URL(url).pathname;if(pathname.endsWith('advisor-profiles.json'))return JSON.parse(fs.readFileSync(new URL('../data/advisor-profiles.json',import.meta.url),'utf8'));if(pathname.endsWith('ra-positions.json'))return raData;if(pathname.endsWith('update-status.json'))return statusData;if(pathname.endsWith('sustech-advisor-review-20261004.json'))return sustechData;return academicData;}});const opportunities=buildOpportunities(data);await import('../assets/app.js');await new Promise(r=>setImmediate(r));
 const change=(selector,value)=>{el(selector).value=value;el(selector).listeners.change({target:el(selector)})};const clickData=(key,value)=>documentListeners.click({target:{closest:selector=>selector===`[${key}]`?{dataset:{[key.slice(5).replace(/-([a-z])/g,(_,a)=>a.toUpperCase())]:value}}:null}});const view=name=>{location.hash='#'+name;windowListeners.hashchange();};
 test('application initializes real records and readable names',()=>{assert(el('#result-count').textContent.startsWith('59 '));assert(el('#view-content').innerHTML.includes('advisor-card'));assert(!el('#view-content').innerHTML.includes('[object Object]'));});
-test('SUSTech is available in the school filter without becoming a verified opportunity',()=>{view('advisors');el('#reset-filters').listeners.click();assert(el('#institution-filter').innerHTML.includes('value="SUSTech"'));assert(el('#institution-filter').innerHTML.includes('南方科技大学'));change('#institution-filter','SUSTech');assert.equal(el('#result-count').textContent,'0 条机会 · 8 位核查导师');const html=el('#view-content').innerHTML;assert.equal((html.match(/class="evidence-box sustech-review-card"/g)||[]).length,8);assert(html.includes('2028 未核实'));assert(!html.includes('class="advisor-card"'));el('#reset-filters').listeners.click();assert(el('#result-count').textContent.startsWith('59 '));});
+test('SUSTech is available in the school filter without becoming a verified opportunity',()=>{view('advisors');el('#reset-filters').listeners.click();assert(el('#institution-filter').innerHTML.includes('value="SUSTech"'));assert(el('#institution-filter').innerHTML.includes('南方科技大学'));change('#institution-filter','SUSTech');assert.equal(el('#result-count').textContent,'0 条机会 · 核查导师当前匹配 8 位 / 队列共 8 位');const html=el('#view-content').innerHTML;assert.equal((html.match(/class="evidence-box sustech-review-card"/g)||[]).length,8);assert(html.includes('2028 未核实'));assert(!html.includes('class="advisor-card"'));el('#reset-filters').listeners.click();assert(el('#result-count').textContent.startsWith('59 '));});
 test('rendered source labels are distinguishable and URLs safe',()=>{view('routes');const html=el('#view-content').innerHTML;assert(html.includes('prog-crs.hkust.edu.hk'));assert(!html.includes('javascript:'));assert(!html.includes('style='));assert(!html.includes('&quot;kind&quot;'));});
 test('verified material content and expired scope render',()=>{view('materials');const html=el('#view-content').innerHTML;assert(html.includes('至少 2'));assert(html.includes('须使用英文'));assert(html.includes('已截止'));});
 test('deadlines preserve dates, expired and unknown distinctions',()=>{view('deadlines');const html=el('#view-content').innerHTML;assert(html.includes('此轮已截止'));assert(html.includes('06.01'));assert(html.includes('开放状态待核'));});
@@ -73,4 +73,32 @@ test('project cards, advisor project details and comparisons use reader-facing a
  const app=fs.readFileSync(new URL('../assets/app.js',import.meta.url),'utf8');
  assert.equal((app.match(/e\(supervisorAssociationText\(r\.supervisorAssociation\)\)/g)||[]).length,3);
  assert(!app.includes('e(r.supervisorAssociation)'));
+});
+
+// Count the same filtered review records as the cards; never promote them to opportunities.
+const searchReview=value=>{el('#search').value=value;el('#search').listeners.input({target:el('#search')});};
+const assertReviewCount=count=>{
+ assert.equal(el('#result-count').textContent,`0 条机会 · 核查导师当前匹配 ${count} 位 / 队列共 8 位`);
+ const html=el('#view-content').innerHTML;
+ assert.equal((html.match(/class="evidence-box sustech-review-card"/g)||[]).length,count);
+ assert(!html.includes('class="advisor-card"'));
+ if(count===0)assert(html.includes('当前筛选下没有匹配的南科大核查导师'));
+ else assert(html.includes('2028 未核实'));
+};
+test('SUSTech review counts follow name searches through all, one, zero and reset',()=>{
+ view('advisors');el('#reset-filters').listeners.click();change('#institution-filter','SUSTech');
+ assertReviewCount(8);
+ searchReview('Chenglong Fu');assertReviewCount(1);
+ searchReview('无匹配导师xyz987');assertReviewCount(0);
+ searchReview('');assertReviewCount(8);
+ el('#reset-filters').listeners.click();assert.equal(el('#result-count').textContent,'59 条机会 · 41 位导师');
+});
+test('SUSTech review counts follow combined name, rank and topic filters',()=>{
+ view('advisors');el('#reset-filters').listeners.click();change('#institution-filter','SUSTech');
+ searchReview('Chenglong Fu');change('#rank-filter','professor');assertReviewCount(1);
+ change('#rank-filter','assistant');assertReviewCount(0);
+ change('#rank-filter','professor');change('#topic-filter','安全规划与控制');assertReviewCount(1);
+ change('#topic-filter','世界模型与 VLA');assertReviewCount(0);
+ change('#topic-filter','');searchReview('');change('#rank-filter','');assertReviewCount(8);
+ el('#reset-filters').listeners.click();assert.equal(el('#result-count').textContent,'59 条机会 · 41 位导师');
 });

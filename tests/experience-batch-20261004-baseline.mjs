@@ -71,6 +71,10 @@ export function assertExperienceBatchPreserved({experiences,provenance,files}){
  }
  for(const [name,hash] of Object.entries(versionOnlyFileHashes)){
   assert(files[name]!==undefined,'missing version-only bytes: '+name);
-  assert.equal(sha256(String(files[name]).replace(/\?v=[0-9a-f]+/g,'?v=CONTENT')),hash,'non-version UI change: '+name);
+  // Exact inverse of the bounded review-count display fix; preserve the prior runtime hash guard.
+  const currentCount='`0 条机会 · 核查导师当前匹配 ${(sustechReview?.advisors||[]).filter(sustechReviewMatches).length} 位 / 队列共 ${(sustechReview?.advisors||[]).length} 位`';
+  const previousCount='`0 条机会 · ${(sustechReview?.advisors||[]).length} 位核查导师`';
+  const baselineUI=String(files[name]).replace(currentCount,previousCount);
+  assert.equal(sha256(baselineUI.replace(/\?v=[0-9a-f]+/g,'?v=CONTENT')),hash,'non-version UI change: '+name);
  }
 }
