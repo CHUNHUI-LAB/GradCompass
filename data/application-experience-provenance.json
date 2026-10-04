@@ -297,6 +297,190 @@
         "date": "2026-10-03",
         "mode": "Public source body independently reread; claims, chronology and scope checked against the summary."
       }
+    },
+    {
+      "id": "grad-zuoyihang-redbird-camp-2022",
+      "url": "https://mp.weixin.qq.com/s/Hlo9Z13W7PEGHJAb_4HAvA",
+      "sourceMode": "Exa full-body fetch; web cross-check where stated",
+      "scope": "Exa返回并核读全文三个章节及文末；未返回评论，图片内录取信和日程未核读。普通web打开失败，不声称浏览器现场验证。",
+      "fieldLocations": {
+        "authorContext": "2.2、2.3第一人称叙述及文末更新计划",
+        "outcome": "2.2线上营末段与2.3线下营",
+        "summary": "2.2组队/分工/提交个人部分；2.3项目与路演",
+        "dateNote": "一、2022年首次挑战营",
+        "commercialDisclosure": "三、总结之后的联系入口及更新计划"
+      },
+      "dateInterpretation": "正文明确回顾2022年首次挑战营；提取未给可靠发布日期，不使用抓取日代替发表日。",
+      "authorVsComment": "Only author prose used; no comments, no videos.",
+      "confidence": "Self-report; no admission, employment or scholarship document independently verified.",
+      "reviewedAtUtc": "2026-10-04T03:08:25Z",
+      "independentReview": {
+        "status": "approved",
+        "reviewedAtUtc": "2026-10-04T03:25:54Z",
+        "mode": "Exa full returned body, three chapters plus ending. Ordinary web open failed. No comments, images or decision letters read.",
+        "scope": "Independent original-source body reread; comments, private correspondence and decision documents not verified.",
+        "sourceOutcomeBoundary": "2022 event year supported; publication date unknown. Camp participation only, no MPhil result. Undergraduate-stage relevance is reasonably inferred from the junior-year ending; university and major remain unknown."
+      },
+      "officialRulesVerified": false,
+      "officialPolicyImpact": "none",
+      "bachelorApplicability": "可参考本科项目展示与合作准备；不是当前挑战营资格、招生规则或录取概率依据。"
+    },
+    {
+      "id": "grad-1p3-c98sd-cuhksz-phd-2026",
+      "url": "https://www.1point3acres.com/home/thread/1178696",
+      "sourceMode": "web full main-post read; Exa failed",
+      "scope": "web读取主帖全部六段及日期。页面标有2条回复，但未返回回复正文，故评论未读；Exa抓取该页失败。",
+      "fieldLocations": {
+        "authorContext": "主帖第1段",
+        "outcome": "主帖第1—4段",
+        "summary": "第2段放弃另校、第3—4段不确定状态",
+        "dateNote": "页面日期及第1—3段",
+        "commercialDisclosure": "主帖全文与站点页脚"
+      },
+      "dateInterpretation": "主帖2026-05-31；2026年4月联系、5月网申均为作者自述，未查询其后私信或账号资料。",
+      "authorVsComment": "Only author prose used; no comments, no videos.",
+      "confidence": "Self-report; no admission, employment or scholarship document independently verified.",
+      "reviewedAtUtc": "2026-10-04T03:08:25Z",
+      "independentReview": {
+        "status": "approved",
+        "reviewedAtUtc": "2026-10-04T03:25:54Z",
+        "mode": "Web full six-paragraph main post, byline, date and reply count. Two replies indicated but bodies unavailable.",
+        "scope": "Independent original-source body reread; comments, private correspondence and decision documents not verified.",
+        "sourceOutcomeBoundary": "Outcome must remain 'unresolved as of posting', not necessarily unresolved today. Master's history is undisclosed. The RA and 27Fall statements are reported conversations, not a contract or guaranteed admission."
+      },
+      "officialRulesVerified": false,
+      "officialPolicyImpact": "none",
+      "bachelorApplicability": "可参考申请结果状态与备选管理；最高学历未注明，归入跨背景对照，不证明本科直博资格或RA转博保证。",
+      "relevance": "Cross-background process comparison; highest degree undisclosed, no bachelor-to-PhD eligibility claim."
+    },
+    {
+      "id": "grad-sustech-luanwd-cuhksz-msds-2021",
+      "url": "https://sustech-application.com/post/luanwd17",
+      "sourceMode": "Exa full-body fetch; web cross-check where stated",
+      "scope": "Exa全文读取背景、结果表、准备时间线、踩坑和港中深笔面经；未返回评论，未读取外链备考文章。",
+      "fieldLocations": {
+        "authorContext": "基本背景",
+        "outcome": "申请结果表、标题最终去向",
+        "summary": "港中深数据科学笔面经；选校踩坑",
+        "dateNote": "申请Timeline与结果表",
+        "commercialDisclosure": "GRE段"
+      },
+      "dateInterpretation": "结果表明确为2021年；17是年级标签，非发表年。正文的2020.02全部提交与前后时间顺序冲突，不用作时间线结论。",
+      "authorVsComment": "Only author prose used; no comments, no videos.",
+      "confidence": "Self-report; no admission, employment or scholarship document independently verified.",
+      "reviewedAtUtc": "2026-10-04T03:08:25Z",
+      "independentReview": {
+        "status": "approved",
+        "reviewedAtUtc": "2026-10-04T03:25:54Z",
+        "mode": "Web complete article including background, results, timeline and CUHK-Shenzhen interview sections. No comments, linked exam-prep article or decision letters used.",
+        "scope": "Independent original-source body reread; comments, private correspondence and decision documents not verified.",
+        "sourceOutcomeBoundary": "2021Fall is explicit near the end; '17' is a cohort label. The internally inconsistent 2020.02 all-submitted date is correctly excluded. Major is not explicitly named."
+      },
+      "officialRulesVerified": false,
+      "officialPolicyImpact": "none",
+      "bachelorApplicability": "可参考本科申请的笔面试准备与多校状态管理；并非机器人或研究型硕士录取案例。"
+    },
+    {
+      "id": "grad-sustech-dengrb-robotics-2021",
+      "url": "https://sustech-application.com/post/dengrb17",
+      "sourceMode": "Exa full-body fetch; web cross-check where stated",
+      "scope": "web及Exa核读全文、逐项目结果和准备建议；评论未返回，未核验决定信或奖学金文件。",
+      "fieldLocations": {
+        "authorContext": "基本背景；申请心得首段",
+        "outcome": "申请结果；申请心得第2段和末段",
+        "summary": "AD/Rej逐项目列表；申请心得",
+        "dateNote": "17级标题；对于2022届的建议",
+        "commercialDisclosure": "大四上文书准备与中介段"
+      },
+      "dateInterpretation": "可靠发布日期未知；2021申请季为上下文推定，17不作发表年。原文AD标题与KTH候补描述冲突已保留。",
+      "authorVsComment": "Only author prose used; no comments, no videos.",
+      "confidence": "Self-report; no admission, employment or scholarship document independently verified.",
+      "reviewedAtUtc": "2026-10-04T03:08:25Z",
+      "independentReview": {
+        "status": "approved",
+        "reviewedAtUtc": "2026-10-04T03:25:54Z",
+        "mode": "Web complete article, including all results and end-of-article advice. No comments or admission/scholarship documents read.",
+        "scope": "Independent original-source body reread; comments, private correspondence and decision documents not verified.",
+        "sourceOutcomeBoundary": "Around 2021 is contextual inference from the 2017 cohort and advice to 2022 graduates. Leave publication date null and the application year approximate. Program offer, scholarship and actual enrollment remain separate."
+      },
+      "officialRulesVerified": false,
+      "officialPolicyImpact": "none",
+      "bachelorApplicability": "仅作海外参考：作为机器人本科跨学位、跨地区备选对照；不用于证明当前资格、资助或录取概率。该经验不新增本站默认学位项目，TU Delft不因此进入官方项目目录。",
+      "relevance": "Overseas robotics reference only; no new default degree route or current TU Delft offering."
+    },
+    {
+      "id": "grad-zuoduan-westlake-ai4sci-2024",
+      "url": "https://421zuoduan.github.io/zuoduan/2024/10/02/Article/public-post/%E4%BF%9D%E7%A0%94%E7%BB%8F%E9%AA%8C/",
+      "sourceMode": "Exa full-body fetch；此前web search用于发现原文，未通过浏览器现场核读",
+      "scope": "Exa于2026-10-04返回并核读公开文章全文，包含前言、个人情况、报名方向与院校、准备工作、各校夏令营与预推免、复盘及结尾。本记录仅使用作者个人背景、申请清单和西湖工学院段的第一人称叙述；未返回或读取评论，不涉及视频，也未核验录取信或PI通信。未使用浏览器现场查看，因此不声称逐张核读图片或动态页面。",
+      "fieldLocations": {
+        "author": "页面标题后博客名",
+        "publishedAt": "标题下Created日期",
+        "applicableCycle": "前言首段对2024保研季和2025届的说明",
+        "authorContext": "个人情况：本科院校、科研情况；报名方向与院校开头对AI方向的说明",
+        "undergraduateMajor": "个人情况未给专业字段；标题为计算机推免，不据此补齐专业",
+        "outcome": "报名方向与院校 → 夏令营 → 第4项西湖大学工学院；夏令营 → 3. 西湖大学工学院 → 个人情况之后第二段末",
+        "doctoralStudentScreening": "夏令营 → 3. 西湖大学工学院 → 标以个人情况的段落：邮件联系、博士生筛选、组面反馈和实习建议",
+        "piContact": "同节下一段：组面无老师参与、夏令营与老师实际接触不到20分钟",
+        "authorCausalInterpretation": "同节该段中部：作者说自己无AI4Sci实际经历及其观察到的反应；该段不含官方拒绝理由",
+        "internshipDecision": "同节该段末：推免资格和个人时间安排，未参加后续实习",
+        "wholeArticleFinalDestination": "报名方向与院校 → 夏令营第14项；预推免章节关于信工所四室的本人面试叙述",
+        "commercialDisclosure": "公开返回全文及参考链接清单",
+        "summary": "夏令营 → 3. 西湖大学工学院 → 个人情况段及其下一段：博士生组面、PI短暂交流、AI4Sci自评与未参加后续实习",
+        "dateNote": "标题下Created日期与前言对2024保研季、2025届的说明"
+      },
+      "evidenceParaphrases": [
+        {
+          "field": "authorContext",
+          "kind": "explicit_self_report",
+          "text": "本科院校行直接给出电子科技大学与2021级本科生；没有专业名称"
+        },
+        {
+          "field": "outcome",
+          "kind": "explicit_self_report",
+          "text": "西湖申请清单项直接标明直博、入营、未优营"
+        },
+        {
+          "field": "doctoralStudentScreening",
+          "kind": "explicit_self_report_not_independently_verified",
+          "text": "作者称博士生做过筛选，组面博士生对其LLM背景表示兴趣，并建议来实习"
+        },
+        {
+          "field": "piContact",
+          "kind": "explicit_self_report_not_independently_verified",
+          "text": "作者称该次组面无老师参与，与PI接触仅在夏令营不到20分钟"
+        },
+        {
+          "field": "rejectionReason",
+          "kind": "author_interpretation_only",
+          "text": "作者把方向经历不足与现场反应联系起来，但未给学校或PI出具的拒绝原因"
+        },
+        {
+          "field": "internshipDecision",
+          "kind": "explicit_self_report",
+          "text": "作者说明因资格不确定与时间安排，没有参加后续组内实习"
+        }
+      ],
+      "dateInterpretation": "页面显示Created: 2024-10-02，正文明确回顾2024年保研季及2025届；不是根据抓取时间或搜索相对日期推断。",
+      "authorVsComment": "使用公开正文中的作者本人叙述；未读评论或视频，不纳入朋友/网友经历。",
+      "confidence": "原创个人博客，公开全文可读；背景、反馈、结果均为自述，未独立核验身份、成绩、通信或招生决定。",
+      "reviewedAtUtc": "2026-10-04T03:06:26Z",
+      "checkTimeMeaning": "reviewedAtUtc为首次取得并核读原文的UTC时刻，sourceRereadAtUtc为同批再次核读时刻；independentReview.reviewedAtUtc为独立原文复核，wordingCheckedAtUtc及batch20261004.integrationCheckedAtUtc仅指本地措辞和整合检查，不是再次联网读取。",
+      "independentReview": {
+        "status": "approved_after_required_wording_correction",
+        "reviewedAtUtc": "2026-10-04T03:25:54Z",
+        "mode": "Exa complete returned article; evidence limited to the author's own background, application list and Westlake subsection. No comments, correspondence or images used.",
+        "scope": "Independent original-source body reread; comments, private correspondence and decision documents not verified.",
+        "sourceOutcomeBoundary": "No Westlake degree admission is reported. PI reaction and the author's interpretation do not establish the institution's reason for the outcome. The article's eventual IIE destination is separate.",
+        "requiredWordingApplied": "考虑到推免资格不确定和个人时间安排，未参加后续组内实习",
+        "wordingCheckedAtUtc": "2026-10-04T03:30:24Z"
+      },
+      "officialRulesVerified": false,
+      "officialPolicyImpact": "none",
+      "currentRulesExtrapolation": "none；不新增或修改任何当前资格、批次、截止、学费、奖学金、联培、录取权限等规则。",
+      "sourceRereadAtUtc": "2026-10-04T03:11:39Z",
+      "sourceRereadNote": "本批汇总者在该时刻再次读取全文并核对本人背景、未优营、PI接触与未参加实习；当时独立复核尚待完成，后续原文复核结果见independentReview。",
+      "bachelorApplicability": "直接相关于本科直博准备，尤其适合科研方向匹配、套磁沟通、实习排期和阶段状态识别；不是当前西湖招生制度、资格要求或成功概率的依据。"
     }
   ],
   "excludedSourceCategories": [
@@ -311,6 +495,31 @@
   ],
   "officialPolicy": "No new current admission claims, thresholds, fees, deadlines or recruitment counts. Historical claims about admission mechanisms explicitly excluded. Existing official data remains unchanged.",
   "privacy": "No private contact fields, offer identifiers, screenshots, signed URLs, search URLs, or session tokens included.",
-  "latestBatchBaseCommit": "4840df6a9718ec38e472f8fd7496047248029e71",
-  "latestBatchReviewDate": "2026-10-03"
+  "latestBatchBaseCommit": "c61dc2c38c7f0c73a5720985a00dd83e97b9e2e6",
+  "latestBatchReviewDate": "2026-10-04",
+  "batch20261004": {
+    "baseCommit": "c61dc2c38c7f0c73a5720985a00dd83e97b9e2e6",
+    "previousBatchMetadata": {
+      "latestBatchBaseCommit": "4840df6a9718ec38e472f8fd7496047248029e71",
+      "latestBatchReviewDate": "2026-10-03"
+    },
+    "preservedRecords": 21,
+    "newRecordIds": [
+      "grad-zuoyihang-redbird-camp-2022",
+      "grad-1p3-c98sd-cuhksz-phd-2026",
+      "grad-sustech-luanwd-cuhksz-msds-2021",
+      "grad-sustech-dengrb-robotics-2021",
+      "grad-zuoduan-westlake-ai4sci-2024"
+    ],
+    "sourceReviewDate": "2026-10-04",
+    "independentSourceReviewAtUtc": "2026-10-04T03:25:54Z",
+    "integrationCheckedAtUtc": "2026-10-04T03:30:24Z",
+    "timeMeaning": "Source review UTC timestamps below are preserved from actual research and independent-source checks. Integration time means local wording and schema checks, not a new web reread. Existing 21 case/source dates are unchanged.",
+    "sourceAccessScope": "Only returned public original-body text and specified headings, tables and dates. No new comment bodies, videos, private communication, admission letters, scholarship letters or RA contracts verified.",
+    "outcomeBoundary": "Historical self-reports include camp participation, a PhD result unresolved as of posting, historical MSDS admission, an overseas MSc choice and a Westlake camp without excellent-camper status. These are not five successful robotics admissions.",
+    "relevanceBoundary": "The CUHK-Shenzhen PhD account is cross-background because highest degree is not disclosed. TU Delft is an overseas comparison, not a new default programme.",
+    "officialRulesChanged": false,
+    "requiredWordingCorrection": "考虑到推免资格不确定和个人时间安排，未参加后续组内实习",
+    "methodsNature": "Preparation methods are editorial syntheses of the named cases, not direct quotations or causal admissions claims."
+  }
 }

@@ -43,23 +43,30 @@ const synthesis={
   "grad-ruakoyo-hku-interview-2024",
   "grad-shufly-w-hongkong-2024",
   "grad-scut-fengyt-redbird-2023",
-  "grad-benjamin-hkustgz-research-2026"
+  "grad-benjamin-hkustgz-research-2026",
+  "grad-zuoyihang-redbird-camp-2022",
+  "grad-1p3-c98sd-cuhksz-phd-2026",
+  "grad-sustech-luanwd-cuhksz-msds-2021",
+  "grad-sustech-dengrb-robotics-2021",
+  "grad-zuoduan-westlake-ai4sci-2024"
  ],
- "intro": "这些案例覆盖本科申硕、跨专业、硕士申博、工作后返校做研究，也包括暑研入口、申请受挫后的调整。它们提供不同环节的准备方法，不代表录取规律；2015 与 2018 年案例已明确标为历史。发帖、更新、申请事件和入学批次分别记录，不能把近期更新等同近期申请。 新补充的红鸟案例记录2022—2023年条件录取与毕业补件；Benjamin 的本科科研/实习入口属于相关经历，不是全职 RA 雇佣或学位录取。",
+ "intro": "这些案例覆盖本科申硕、跨专业、硕士申博、工作后返校做研究，也包括暑研入口、申请受挫后的调整。它们提供不同环节的准备方法，不代表录取规律；2015 与 2018 年案例已明确标为历史。发帖、更新、申请事件和入学批次分别记录，不能把近期更新等同近期申请。 新补充的红鸟案例记录2022—2023年条件录取与毕业补件；Benjamin 的本科科研/实习入口属于相关经历，不是全职 RA 雇佣或学位录取。 另补充2022年红鸟挑战营参与、截至2026-05-31发帖时结果未定的港中深申博、2021年港中深MSDS笔面试、约2021年Delft机器人硕士海外参考，以及2024年西湖直博入营未优营复盘。五条不等于五条机器人录取，历史问题、个人评价与未来谈话不能变成现行规则或已经落实的结果。",
  "steps": [
   {
    "title": "先明确想学什么，再找对应项目与导师",
-   "text": "本科申硕的案例提醒我们核对培养目标与先修课；医工跨方向案例进一步展示了从研究问题反查院系的做法。硕士申博则更需要核对具体研究主题和岗位。",
+   "text": "本科申硕的案例提醒我们核对培养目标与先修课；医工跨方向案例进一步展示了从研究问题反查院系的做法。硕士申博则更需要核对具体研究主题和岗位。 西湖2024年个案中，组内博士生反馈与PI具体方向匹配是不同环节；作者对未优营原因的解释不是官方结论。Delft海外参考把美国PhD和欧洲MSc分别准备，研究经历本身未保证博士录取。",
    "sourceIds": [
     "grad-robotics-eth-xiang-2022",
     "grad-sustech-yunzx-2023",
     "grad-dcard-bme-ece-2026",
-    "grad-europe-tinsir-2025"
+    "grad-europe-tinsir-2025",
+    "grad-zuoduan-westlake-ai4sci-2024",
+    "grad-sustech-dengrb-robotics-2021"
    ]
   },
   {
    "title": "把材料拆成清单，也给核验和推荐留时间",
-   "text": "除了文书和推荐，德国机器人案例还涉及课程说明、学历预审和语言条件。可把这些与各项目额外写作任务分开安排，再回官网确认本年度要求。 2018 年 CUHK 案例把语言、港校网申与国内考研分阶段安排；2015 年 HKUST 案例则区分材料各自说明的能力。旧帖只参考组织方法。 SHUFly 的授课硕士案例把准备与各项目进度分开记录；lisr20 在第二季提前准备推荐与文书，可借鉴时间安排，不能推导哪一步导致录取。 红鸟案例把营选、条件录取、毕业材料与正式通知拆开，提醒提前核对成绩单并给补件留时间；疫情期语言安排不能沿用。",
+   "text": "除了文书和推荐，德国机器人案例还涉及课程说明、学历预审和语言条件。可把这些与各项目额外写作任务分开安排，再回官网确认本年度要求。 2018 年 CUHK 案例把语言、港校网申与国内考研分阶段安排；2015 年 HKUST 案例则区分材料各自说明的能力。旧帖只参考组织方法。 SHUFly 的授课硕士案例把准备与各项目进度分开记录；lisr20 在第二季提前准备推荐与文书，可借鉴时间安排，不能推导哪一步导致录取。 红鸟案例把营选、条件录取、毕业材料与正式通知拆开，提醒提前核对成绩单并给补件留时间；疫情期语言安排不能沿用。 港中深MSDS旧例还提示将不同入学季和接受期限分开核对；Delft案例的项目录取与奖学金另行申请、分别记录，不能把选定项目当作资助已经落实。",
    "sourceIds": [
     "grad-robotics-eth-xiang-2022",
     "grad-sustech-yunzx-2023",
@@ -69,12 +76,14 @@ const synthesis={
     "grad-gter-imhigh-hkust-mphil-2015",
     "grad-shufly-w-hongkong-2024",
     "grad-sustech-lisr-hkust-2025",
-    "grad-scut-fengyt-redbird-2023"
+    "grad-scut-fengyt-redbird-2023",
+    "grad-sustech-luanwd-cuhksz-msds-2021",
+    "grad-sustech-dengrb-robotics-2021"
    ]
   },
   {
    "title": "面试准备具体到研究、作业与追问",
-   "text": "这里既有研究报告，也有读论文完成作业后再解释思路的面试。另一篇 CS 自述显示，面试官对拓展讨论的期待并不相同。准备应以真实邀请要求为起点，不能照抄一种模板。 密码学案例的后段转折也涉及重新组织硕士论文展示；这不证明展示改进是录取的唯一原因。 港大工程面试失利的记录还提醒：PPT 准备不等于研究方向讲清楚，需分别检查项目贡献、研究问题与网络设备；拒绝原因只是作者自我复盘。 Benjamin 的科研面试经历提醒，复习项目要具体到实现和个人贡献，并说明可投入时间；面邀与实际进组之间仍可能有未落实的安排。",
+   "text": "这里既有研究报告，也有读论文完成作业后再解释思路的面试。另一篇 CS 自述显示，面试官对拓展讨论的期待并不相同。准备应以真实邀请要求为起点，不能照抄一种模板。 密码学案例的后段转折也涉及重新组织硕士论文展示；这不证明展示改进是录取的唯一原因。 港大工程面试失利的记录还提醒：PPT 准备不等于研究方向讲清楚，需分别检查项目贡献、研究问题与网络设备；拒绝原因只是作者自我复盘。 Benjamin 的科研面试经历提醒，复习项目要具体到实现和个人贡献，并说明可投入时间；面邀与实际进组之间仍可能有未落实的安排。 红鸟挑战营参与者记录了团队分工、个人部分和路演追问；港中深MSDS旧例同时涉及基础编程、数理概念和实际用法，可作为练习线索，不能当作当季题库。西湖个案则提醒说明已有方法与PI具体课题的连接，并核对后续实习的时间安排。",
    "sourceIds": [
     "grad-dcard-ece-ra-phd-2025",
     "grad-dcard-bme-ece-2026",
@@ -83,12 +92,15 @@ const synthesis={
     "grad-szu-mingkangchen-2025",
     "grad-wangbard-cryptography-phd-2025",
     "grad-ruakoyo-hku-interview-2024",
-    "grad-benjamin-hkustgz-research-2026"
+    "grad-benjamin-hkustgz-research-2026",
+    "grad-zuoyihang-redbird-camp-2022",
+    "grad-sustech-luanwd-cuhksz-msds-2021",
+    "grad-zuoduan-westlake-ai4sci-2024"
    ]
   },
   {
    "title": "持续记状态，把录取、候补、放弃和资助分开",
-   "text": "结果表不只记录拿到哪些录取。不同案例还有条件录取、候补后拒绝、主动放弃考核、未回复，以及研究有兴趣但资助不合适。同一学校的不同项目也可能给出不同结果。 尚在办理合同或计划以后申请的经历，要保留未完成状态。 新补充的 CUHK 案例须分开 2023 年 RA offer 与 2024 年 PhD 更新；HKUST 旧帖还区分 PhD 招募邀请与正式学位 offer。 lisr20 的 HKUST 口头支持未落实为正式 offer；SHUFly 中的 shortlist、面邀和本人放弃不是拒信。 红鸟的 conditional offer 与毕业后正式通知是不同节点；Benjamin 的一条科研沟通未落实，另一条才记录实际进组，不能把未回复改写成正式拒绝。",
+   "text": "结果表不只记录拿到哪些录取。不同案例还有条件录取、候补后拒绝、主动放弃考核、未回复，以及研究有兴趣但资助不合适。同一学校的不同项目也可能给出不同结果。 尚在办理合同或计划以后申请的经历，要保留未完成状态。 新补充的 CUHK 案例须分开 2023 年 RA offer 与 2024 年 PhD 更新；HKUST 旧帖还区分 PhD 招募邀请与正式学位 offer。 lisr20 的 HKUST 口头支持未落实为正式 offer；SHUFly 中的 shortlist、面邀和本人放弃不是拒信。 红鸟的 conditional offer 与毕业后正式通知是不同节点；Benjamin 的一条科研沟通未落实，另一条才记录实际进组，不能把未回复改写成正式拒绝。 港中深2026年申博作者在口头意向后放弃另一选项，截至发帖时仍未获正式录取；后续入学季与RA备选只是转述谈话，不能认作合同或保证。2022年红鸟挑战营只报告营选参与，西湖2024年只报告入营未优营。Delft海外参考中的KTH虽列在AD标题下，文字却是候补，应保留具体状态而非照抄分类。",
    "sourceIds": [
     "grad-bjut-mty-2026",
     "grad-ptt-tum-rci-2022",
@@ -103,14 +115,18 @@ const synthesis={
     "grad-sustech-lisr-hkust-2025",
     "grad-shufly-w-hongkong-2024",
     "grad-scut-fengyt-redbird-2023",
-    "grad-benjamin-hkustgz-research-2026"
+    "grad-benjamin-hkustgz-research-2026",
+    "grad-1p3-c98sd-cuhksz-phd-2026",
+    "grad-zuoyihang-redbird-camp-2022",
+    "grad-zuoduan-westlake-ai4sci-2024",
+    "grad-sustech-dengrb-robotics-2021"
    ]
   }
  ],
  "differences": [
   {
    "title": "RA 是经历，不是学位或保录承诺",
-   "text": "这里既有硕士毕业后返校做 RA，也有本科阶段联系课题组、做研究再申请的经历。它们可用于了解研究安排，不能推导 RA 转博保证或其他项目的录取资格。 小红书案例发帖时仍在办合同和签证，也不能称作已获 MPhil 录取。 CUHK 后续申博更新没有补齐 RA 实际任职；HKUST 暑研则是科研实习，不能混写为全职 RA。 Benjamin 自述的是本科早期科研/实习入口，没有雇佣合同或学位录取证据。",
+   "text": "这里既有硕士毕业后返校做 RA，也有本科阶段联系课题组、做研究再申请的经历。它们可用于了解研究安排，不能推导 RA 转博保证或其他项目的录取资格。 小红书案例发帖时仍在办合同和签证，也不能称作已获 MPhil 录取。 CUHK 后续申博更新没有补齐 RA 实际任职；HKUST 暑研则是科研实习，不能混写为全职 RA。 Benjamin 自述的是本科早期科研/实习入口，没有雇佣合同或学位录取证据。 港中深2026年帖中的RA只是截至发帖时讨论过的备选，没有合同或入职证据；不能据此补成RA转博成功案例。",
    "sourceIds": [
     "grad-dcard-ece-ra-phd-2025",
     "grad-ngaizean-hkustgz-2026",
@@ -118,12 +134,13 @@ const synthesis={
     "grad-xhs-xiga-ra-mphil-2025",
     "grad-gter-chuyeyue-ra-phd-2024",
     "grad-drishti-akash-hkust-intern-2023",
-    "grad-benjamin-hkustgz-research-2026"
+    "grad-benjamin-hkustgz-research-2026",
+    "grad-1p3-c98sd-cuhksz-phd-2026"
    ]
   },
   {
    "title": "相近名称也可能对应不同申请内容",
-   "text": "机器人、ECE、医工与跨专业硕士案例应按自身目标取用；材料、面试和结果不能直接横比。 SHUFly 是本科申请授课硕士的流程；港大电子工程直博失利与 lisr20 的 AI 医工交叉申请也不能直接视为机器人录取样本。",
+   "text": "机器人、ECE、医工与跨专业硕士案例应按自身目标取用；材料、面试和结果不能直接横比。 SHUFly 是本科申请授课硕士的流程；港大电子工程直博失利与 lisr20 的 AI 医工交叉申请也不能直接视为机器人录取样本。 港中深MSDS是历史授课硕士笔面试参考，不是机器人MPhil/PhD录取；Delft为海外机器人硕士对照，不新增本站默认学位项目。",
    "sourceIds": [
     "grad-robotics-eth-xiang-2022",
     "grad-sustech-yunzx-2023",
@@ -131,12 +148,14 @@ const synthesis={
     "grad-dcard-bme-ece-2026",
     "grad-shufly-w-hongkong-2024",
     "grad-ruakoyo-hku-interview-2024",
-    "grad-sustech-lisr-hkust-2025"
+    "grad-sustech-lisr-hkust-2025",
+    "grad-sustech-luanwd-cuhksz-msds-2021",
+    "grad-sustech-dengrb-robotics-2021"
    ]
   },
   {
    "title": "历史样本与相关经历分别取用",
-   "text": "两篇历史 MPhil 个案提供已结束的选择过程，不证明当季门槛。暑研案例只补充科研入口；密码学申博是同季受挫后调整，与跨申请季再申不同。背景标签也要与成绩、科研和论文状态一起看，不能简化为低背景逆袭。 lisr20 的两季复盘才属于跨申请季调整，其 HKUST 沟通仍发生于 2023 年；SHUFly 的 2026 更新不是新申请季。这批仍未补齐近年机器人 MPhil 正式录取且流程完整的强案例。 红鸟2022—2023年案例可补充毕业材料依赖，但不补足当前招生政策或机器人专项录取样本；2023年竞赛不能倒算为2022年申请背景，专利受理也不等于授权。",
+   "text": "两篇历史 MPhil 个案提供已结束的选择过程，不证明当季门槛。暑研案例只补充科研入口；密码学申博是同季受挫后调整，与跨申请季再申不同。背景标签也要与成绩、科研和论文状态一起看，不能简化为低背景逆袭。 lisr20 的两季复盘才属于跨申请季调整，其 HKUST 沟通仍发生于 2023 年；SHUFly 的 2026 更新不是新申请季。这批仍未补齐近年机器人 MPhil 正式录取且流程完整的强案例。 红鸟2022—2023年案例可补充毕业材料依赖，但不补足当前招生政策或机器人专项录取样本；2023年竞赛不能倒算为2022年申请背景，专利受理也不等于授权。 红鸟挑战营叙述没有MPhil学位结果；西湖入营未优营也不等于正式拒绝或后续录取。港中深2026年帖只披露本科背景，最高学历未知，作为最高学历未注明的流程参考，不能证明本科直博。",
    "sourceIds": [
     "grad-gter-sscomebady-mphil-2018",
     "grad-gter-imhigh-hkust-mphil-2015",
@@ -144,7 +163,10 @@ const synthesis={
     "grad-wangbard-cryptography-phd-2025",
     "grad-sustech-lisr-hkust-2025",
     "grad-shufly-w-hongkong-2024",
-    "grad-scut-fengyt-redbird-2023"
+    "grad-scut-fengyt-redbird-2023",
+    "grad-zuoyihang-redbird-camp-2022",
+    "grad-zuoduan-westlake-ai4sci-2024",
+    "grad-1p3-c98sd-cuhksz-phd-2026"
    ]
   }
  ]

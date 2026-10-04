@@ -3,7 +3,7 @@
   "revision": "f2-approved-editorial-design",
   "baseSourceCommit": "4840df6a9718ec38e472f8fd7496047248029e71",
   "baseDeployedCommit": "4840df6a9718ec38e472f8fd7496047248029e71",
-  "snapshotDate": "2026-10-03",
+  "snapshotDate": "2026-10-04",
   "status": "content snapshot; automated test counters do not establish deployment or browser acceptance",
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
@@ -15,11 +15,11 @@
   "newAdvisorProfiles": 2,
   "preservedAdvisorProfiles": 30,
   "newProfileCitedSourceCount": 15,
-  "experienceRecords": 21,
-  "defaultExperienceRecords": 21,
-  "experienceSourceSites": 16,
-  "preservedPublishedRecords": 19,
-  "newExperienceRecords": 2,
+  "experienceRecords": 26,
+  "defaultExperienceRecords": 26,
+  "experienceSourceSites": 19,
+  "preservedPublishedRecords": 21,
+  "newExperienceRecords": 5,
   "materialRecords": 14,
   "materialSupplementRecords": 12,
   "materialSupplementSources": 39,
@@ -37,18 +37,18 @@
     },
     {
       "path": "QA.md",
-      "bytes": 32372,
-      "sha256": "b0bce4888bbc6aef5c45576dbb64be559adcc8decd5f3fca83b5d9778e2c39f5"
+      "bytes": 35567,
+      "sha256": "38f3b66fdd076f7a32fd9ed2b53b67066b059037126cdbee4f05a7bfa6b67341"
     },
     {
       "path": "README.md",
-      "bytes": 15214,
-      "sha256": "2cd3fc1bde28fee86afbe08201f2c1f5237b92741e624a6152244e358df9a787"
+      "bytes": 17097,
+      "sha256": "7bd0391027d3d3871e58d05a6e9a3aacd2546014fd5f3d36aada41e23b496384"
     },
     {
       "path": "assets/app.js",
       "bytes": 63437,
-      "sha256": "3d390cc4fc65f389b3fc15e38b9dced3fdf6afab5b4ec9a18dd7a4484673e9a4"
+      "sha256": "ab3b9aa2ff024daef174f802ffb6802c2e8ca15d1b730f0a1c16ed61f0a58fbe"
     },
     {
       "path": "assets/campus-art.webp",
@@ -62,8 +62,8 @@
     },
     {
       "path": "assets/experiences.js",
-      "bytes": 20056,
-      "sha256": "0e8169acf5f06345c80be19de7aea9f95d77d282f2dc33976c69857c3928eac9"
+      "bytes": 22977,
+      "sha256": "037961cbeabce36f178806362cb935c9e01b07e249944c351a729318d030b619"
     },
     {
       "path": "assets/favicon.svg",
@@ -77,8 +77,8 @@
     },
     {
       "path": "assets/page-overviews.js",
-      "bytes": 14962,
-      "sha256": "f5dd9777146cc2711e852398acbab3583e517260509508aaba66fe8873f05a6c"
+      "bytes": 15529,
+      "sha256": "c6e5b5f7a794ef28e576e22d7a381a194548f4830b2fda5195ed384f0d726eba"
     },
     {
       "path": "assets/profiles.js",
@@ -107,13 +107,13 @@
     },
     {
       "path": "data/application-experience-provenance.json",
-      "bytes": 19642,
-      "sha256": "5b89f9758c2a364412f19ce2ac8d75f7ccf735ecfab3a014119c70c4ce8ac82b"
+      "bytes": 35743,
+      "sha256": "857bd7ea00767b6d115cf79e14ddb3900bc79965ad49d419ba16c1457422cfe9"
     },
     {
       "path": "data/application-experiences.json",
-      "bytes": 48785,
-      "sha256": "030838a887111dacaf2b0fe9d001c52c3da4ea4da2369cdfdb08c2e8f55411c7"
+      "bytes": 61391,
+      "sha256": "3e46c7e8eea013844c7e3ccf3430e0a9dd2518bd75bb0c1c7c21b4077db9cb07"
     },
     {
       "path": "data/catalog-test-manifest.json",
@@ -153,7 +153,7 @@
     {
       "path": "index.html",
       "bytes": 8252,
-      "sha256": "33941e647c5f21b005bb1be061bb8038107e1bae4d29b204293fb998c47c8325"
+      "sha256": "9e130870a77a2e4dbe6911941f4e8185192a64422786f3dbe369547b6b55167f"
     },
     {
       "path": "package.json",
@@ -162,8 +162,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 6593,
-      "sha256": "395070c25c55713b9ae72468f841116c1f52d0b5e7afdf30d227ee6874022c17"
+      "bytes": 7272,
+      "sha256": "297ba133f49253ae84ccffeb5948a8b9a25a5ccbc2f1c103ff7e070e6038748c"
     },
     {
       "path": "tests/active-filters.test.mjs",
@@ -201,14 +201,24 @@
       "sha256": "b94f093b3e69322d62f1344d398b1850854add8ba2c3a1e169cb1a532e0997f5"
     },
     {
+      "path": "tests/experience-batch-20261004-baseline.mjs",
+      "bytes": 5779,
+      "sha256": "9d00b7c7893cb40921bc387fa89198fa55c92b957f28d97076746ff97d902a34"
+    },
+    {
+      "path": "tests/experience-batch-20261004.test.mjs",
+      "bytes": 16485,
+      "sha256": "6dea6a2ead73e555b6034fd22268fd7308292a5fc8219ceb5c764c77691cdff7"
+    },
+    {
       "path": "tests/experience-batch2.test.mjs",
       "bytes": 4192,
-      "sha256": "cb7780a76945e5ec26414ffdaaea935eca107217a68f495bcd4af147fe823866"
+      "sha256": "eef5aefb9f67c5462adc9ee6790cf8ff79ec571d6f3d134691f5490ea205020d"
     },
     {
       "path": "tests/experience-expansion.test.mjs",
       "bytes": 5474,
-      "sha256": "118de84bf7e89b57310766dc0b1a3397fa6d5e848b885522f2098175fc3ec6bb"
+      "sha256": "950db827a7ffb4ed02ebb8476d6a3c1a5b78492f50408de3433fe5549f9efde5"
     },
     {
       "path": "tests/experience-navigation.test.mjs",
@@ -217,28 +227,28 @@
     },
     {
       "path": "tests/experience-october.test.mjs",
-      "bytes": 4153,
-      "sha256": "4d036b057bf07bf0f921791b67a31dab21547e9aecdfa992a4aa112df8e52b8f"
+      "bytes": 4159,
+      "sha256": "465acadaadf613afd16db5030a52491394a5d56827d1e85eff29f159f6ab4d85"
     },
     {
       "path": "tests/experience-recent.test.mjs",
       "bytes": 5275,
-      "sha256": "995b756dd6ed60c8a750a0f46b229bee15c6dc0d50f63ecedf0314d17d1d865b"
+      "sha256": "3e3e3aa57e34c748b7bc6b5c708cc3e8d357c4809c95b2f397367774fcab6c4e"
     },
     {
       "path": "tests/experience-workspace.test.mjs",
       "bytes": 5307,
-      "sha256": "2d7dc0f1b6d80f7b838a0a45e59467724bbb48ad7f6bb93affae744661313df5"
+      "sha256": "e3e0a64660f243590809717e0313aa643cc62b4d4a26dd97a33527dbb0fb8a7c"
     },
     {
       "path": "tests/experiences-browser.mjs",
       "bytes": 9975,
-      "sha256": "742ad7d4045ed185ddbfd3a9e42c115695ddd18a966c253da7941384d21e664d"
+      "sha256": "673eb11227821bc235f5f145747c5b94f1c05f1d118aff259d5cf783b5391432"
     },
     {
       "path": "tests/experiences.test.mjs",
-      "bytes": 6654,
-      "sha256": "5fd2b72df6451ad5383b44634bbd1a208eb30336bc8bd0c977a1b9619a8deb73"
+      "bytes": 6692,
+      "sha256": "3b81c063d6932ae91a3cbb3a8d5558f8f8d62c50b461343dc2c05c54389a1471"
     },
     {
       "path": "tests/f2-comparison-navigation.test.mjs",
@@ -247,18 +257,18 @@
     },
     {
       "path": "tests/f2-design.test.mjs",
-      "bytes": 4921,
-      "sha256": "1e829d836e00692f239577a48b1380c7caf8362c134490f97f418bf1acf31014"
+      "bytes": 5202,
+      "sha256": "fd3025552b795b05ff56c6c01ecb5e4fdac33ff6cfccd73bc20268da214309d6"
     },
     {
       "path": "tests/maintenance-baseline.mjs",
-      "bytes": 1249,
-      "sha256": "5ad09a383b4dea5f23ba2d2e0d9f0316d2b56e0016fae02fe7c7cb5e609f4d18"
+      "bytes": 1339,
+      "sha256": "2cfcf1bc96a7ebdcb462b4418e13504b689cd3e47b59d6533a42842510ee7ead"
     },
     {
       "path": "tests/material-loading.test.mjs",
       "bytes": 5606,
-      "sha256": "5d5f5b4d874c106ef336f97be0d99ff46c97e0fbc3b7008ceb5d1ab6440f5e7b"
+      "sha256": "9ecefd6b255d0f1d7634cd2e90faf5fba0198ec60ba80b0b1eb54fdfe81ebc9f"
     },
     {
       "path": "tests/material-supplement.test.mjs",
@@ -283,7 +293,7 @@
     {
       "path": "tests/page-overviews.test.mjs",
       "bytes": 10820,
-      "sha256": "6010ca99fa46952a357ad7d881f65ee0a50ed44df3ccd989cd8e45ba5d69c85e"
+      "sha256": "85f57259753efcf3639e2246eedd357456fb3f3a2e93268f99ff881a6ddc8df4"
     },
     {
       "path": "tests/profiles-batch5.test.mjs",
@@ -318,7 +328,7 @@
     {
       "path": "tests/project-loading.test.mjs",
       "bytes": 6009,
-      "sha256": "e26eb187f9e3e4c90e22a674c46f6367bb13a7a5b613885edb226c363e1f6dda"
+      "sha256": "f1efd79ce52e7265230fe3bb6e8ae7ac986f1706beb17845781048f2ea6f16a1"
     },
     {
       "path": "tests/project-summaries-browser.mjs",
@@ -363,7 +373,7 @@
     {
       "path": "tests/resource-versions.test.mjs",
       "bytes": 5077,
-      "sha256": "abadbd056289ad25cfd5aaab8858b7a2236c6545e6a58df5b43a90db5ab1f339"
+      "sha256": "8c2a4da91432a8359e84241e317b6436fffd8abd2d8dd5dd5aacdb185e1ffe90"
     },
     {
       "path": "tests/summary-navigation.test.mjs",
@@ -389,5 +399,15 @@
     "templates": 13,
     "dataChanged": false,
     "verification": "Local data, DOM and design-contract checks. Browser visual verification remains separate."
+  },
+  "experienceBatch20261004": {
+    "baseCommit": "c61dc2c38c7f0c73a5720985a00dd83e97b9e2e6",
+    "preservedRecords": 21,
+    "addedRecords": 5,
+    "sourceReviewAtUtc": "2026-10-04T03:25:54Z",
+    "scope": "Historical first-person process accounts; comments and decision documents not verified. All 26 cases cited in synthesis. Delft is overseas reference only; highest-degree-unknown PhD account is cross-background.",
+    "officialDatasetsChanged": false,
+    "approvedF2LayoutChanged": false,
+    "validation": "Candidate checks and independent integration review are separate from remote publication and browser acceptance."
   }
 }

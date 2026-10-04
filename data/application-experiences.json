@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-03",
+  "checkedAt": "2026-10-04",
   "scope": "历史亲历与准备方法，独立于官方招生、导师与机会库",
   "records": [
     {
@@ -652,6 +652,161 @@
       "bachelorApplicability": "可参考本科寻找科研入口与面试准备；不作为正式RA岗位或研究生录取案例。",
       "evidenceType": "first_person_self_report",
       "checkedAt": "2026-10-03",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-zuoyihang-redbird-camp-2022",
+      "title": "红鸟挑战营亲历：团队项目要说清个人贡献，入营不等于学位录取",
+      "url": "https://mp.weixin.qq.com/s/Hlo9Z13W7PEGHJAb_4HAvA",
+      "platform": "微信公众号 / 左一航观澜寻源",
+      "author": "左一航",
+      "publishedAt": null,
+      "applicableCycle": "2022年红鸟挑战营；正文未披露最终学位申请季或录取结果",
+      "authorContext": "作者自述参加线上及线下营；正文未披露本科院校、专业，末尾提到计划写大三总结。",
+      "outcome": "自述线上营后获得线下营通知并参加项目路演；未报告MPhil学位offer、接受或入学。",
+      "summary": "作者与队友先商定选题、分工，再提交项目与个人部分；线下继续限时协作，并分别回答团队和个人问题。可借鉴贡献留痕与跨专业沟通，不能把营期表现当成已获学位录取。",
+      "actionableMethods": [
+        "为团队成果同时保留个人任务、实现及证据，练习解释自己的贡献",
+        "准备团队展示和个人答辩两套叙述，并说明方案如何落地",
+        "把线上入营、线下营、学位录取等状态分别登记"
+      ],
+      "excludedClaims": [
+        "不采用作者估计的晋级率、评分权重及筛选难易判断",
+        "不沿用2022年的材料大小、日程、路演时长、押金或食宿标准",
+        "不将参加挑战营、团队晋级写成MPhil录取；具体本科背景未知"
+      ],
+      "commercialDisclosure": "所读正文未见申请服务销售；作者留有个人联系入口，未转载，账号其他内容未审计。",
+      "readScope": "Exa返回并核读全文正文三个章节及文末；未返回评论，图片内录取信和日程未核读。普通web打开失败，不声称浏览器现场验证。",
+      "collection": "bachelor",
+      "background": "本科阶段挑战营相关经历；非已确认MPhil录取",
+      "dateNote": "正文明确回顾2022年首次挑战营；提取未给可靠发布日期，不使用抓取日代替发表日。",
+      "bachelorApplicability": "可参考本科项目展示与合作准备；不是当前挑战营资格、招生规则或录取概率依据。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-04",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-1p3-c98sd-cuhksz-phd-2026",
+      "title": "港中深申博未定：两轮导师面试后，仍要等正式录取落实",
+      "url": "https://www.1point3acres.com/home/thread/1178696",
+      "platform": "一亩三分地",
+      "author": "微信用户_c98sd",
+      "publishedAt": "2026-05-31",
+      "applicableCycle": "26Fall；截至发帖时结果未定",
+      "authorContext": "自述国内本科、生物信息背景并有论文；是否另有硕士经历未披露，不作为已证实本科直博录取。",
+      "outcome": "截至2026-05-31发帖时，自述4月联系导师、两轮面试后获口头意向，5月网申；其后被告知录取存在不确定性，并谈到推迟及RA备选。无正式录取、RA合同或实际入职证据。",
+      "summary": "作者在口头意向后放弃另校选项，随后陷入等待。此例的价值是把导师支持、学院审议和正式通知分开；有关学院名额与未来入学承诺均是作者转述，不能当作已确认事实。",
+      "actionableMethods": [
+        "在放弃其他选项前核对已拿到的文件、未完成条件与答复期限",
+        "把导师支持、院系审核、正式录取和RA合同分别记录",
+        "研究岗位备选需另行核对职责、聘期和报酬，不写成保录路径"
+      ],
+      "excludedClaims": [
+        "不采纳导师点头即稳录的概括；不确认该院实际名额或经费机制",
+        "不把帖中27Fall及一年RA的谈话写成合同或入学保证",
+        "截至发帖时结果未知；不把未获确定答复写成正式拒绝，不推断今天的申请或入职状态"
+      ],
+      "commercialDisclosure": "主帖未见作者销售申请服务；论坛有会员等商业入口，未使用。",
+      "readScope": "web读取主帖全部六段及日期。页面标有2条回复，但未返回回复正文，故评论未读；Exa抓取该页失败。",
+      "collection": "cross-background",
+      "background": "本科背景已披露、最高学历未注明的跨学科申博；截至发帖时结果未定",
+      "dateNote": "主帖2026-05-31；2026年4月联系、5月网申均为作者自述，未查询其后私信或账号资料。",
+      "bachelorApplicability": "可参考申请结果状态与备选管理；最高学历未注明，归入跨背景对照，不证明本科直博资格或RA转博保证。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-04",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-sustech-luanwd-cuhksz-msds-2021",
+      "title": "港中深数据科学笔面试：候补后获邀，项目表达与基础知识并重",
+      "url": "https://sustech-application.com/post/luanwd17",
+      "platform": "南科大飞跃手册",
+      "author": "栾闻迪",
+      "publishedAt": null,
+      "applicableCycle": "2021 Fall；另有USC 2022 Spring结果",
+      "authorContext": "南科大本科申请者，有海外暑期项目、学期交流及编程竞赛经历；正文未明确本科专业。",
+      "outcome": "自述先处于waiting list、笔试前获邀，结果表记录2021-03-29港中深MSDS录取；最终去向为UCSD MSCS。未核验决定信。",
+      "summary": "作者记下Python与pandas细节、手写编程、概率及求导考查；面试围绕专业概念、实际运用和未来计划。其USC结果到得更晚且入学季不同，提示比较offer时还需核对入学时间。",
+      "actionableMethods": [
+        "对简历中的方法准备概念解释、实际用法和自己做过的例子",
+        "复习基础编程与数理知识，同时练习口头介绍项目",
+        "按候补、获邀、录取、入学季和接受期限跟踪各条路线"
+      ],
+      "excludedClaims": [
+        "不把2021题型或流程当成现在的固定笔面试要求",
+        "不采用学校对某生源不友好、早申请必然更容易等推断",
+        "不沿用旧住宿、学费、语言、就业或签证说法；文中提交完成年份疑似笔误，未擅自纠正"
+      ],
+      "commercialDisclosure": "正文提及曾报名备考课程，未见申请辅导销售；没有复制联系方式和成绩。",
+      "readScope": "Exa全文正文读取背景、结果表、准备时间线、踩坑和港中深笔面经；未返回评论，未读取外链备考文章。",
+      "collection": "bachelor",
+      "background": "本科 → 数据科学硕士（MSDS）申请；非MPhil/PhD",
+      "dateNote": "结果表明确为2021年；17是年级标签，非发表年。正文的2020.02全部提交与前后时间顺序冲突，不用作时间线结论。",
+      "bachelorApplicability": "可参考本科申请的笔面试准备与多校状态管理；并非机器人或研究型硕士录取案例。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-04",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-sustech-dengrb-robotics-2021",
+      "title": "海外参考｜机器人美欧混申：博士未成后选择硕士，奖学金另行申请",
+      "url": "https://sustech-application.com/post/dengrb17",
+      "platform": "南科大飞跃手册",
+      "author": "邓然宝",
+      "publishedAt": null,
+      "applicableCycle": "约2021历史申请季；由2017级标签和对2022届的建议推定，未披露完整年月",
+      "authorContext": "机器人工程本科，有两段海外暑研、推荐信及项目竞赛经历。",
+      "outcome": "自述未获美国博士录取，最终选择TU Delft机器人硕士，并另行申请获中荷政府奖学金；未核验录取或奖学金文件。",
+      "summary": "作者把美国博士与欧洲硕士并行申请，记录候补、拒信和晚到面试。经历提醒：研究经历不能保证直博结果，项目录取与奖学金也需分别跟进。原文把KTH放入AD分组却描述为候补，不据此认定KTH录取。",
+      "actionableMethods": [
+        "把PhD与MSc的训练目标、费用和待确认事项分别列清",
+        "奖学金独立建一条申请与结果记录，避免把项目录取误当资助落实",
+        "保留拒信、候补及未完成面试的区别，不用汇总数字替代实际状态"
+      ],
+      "excludedClaims": [
+        "不采用国籍招生传言、地区资助概括或作者推测的拒录原因",
+        "不把未回复当正式拒信，不把KTH候补算录取",
+        "不沿用旧语言分数、奖学金条件、招生人数及中介价格"
+      ],
+      "commercialDisclosure": "作者使用中介协助文书并评价服务；所读正文无付费申请服务导流，未转载联系方式。",
+      "readScope": "web及Exa核读全文正文、逐项目结果和准备建议；评论未返回，未核验决定信或奖学金文件。",
+      "collection": "bachelor",
+      "background": "海外参考：机器人工程本科 → 美博未录取、欧洲机器人MSc",
+      "dateNote": "可靠发布日期未知；2021申请季为上下文推定，17不作发表年。原文AD标题与KTH候补描述冲突已保留。",
+      "bachelorApplicability": "仅作海外参考：作为机器人本科跨学位、跨地区备选对照；不用于证明当前资格、资助或录取概率。该经验不新增本站默认学位项目，TU Delft不因此进入官方项目目录。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-04",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-zuoduan-westlake-ai4sci-2024",
+      "title": "西湖直博未优营：组内反馈之后，仍要核对PI的具体方向",
+      "url": "https://421zuoduan.github.io/zuoduan/2024/10/02/Article/public-post/%E4%BF%9D%E7%A0%94%E7%BB%8F%E9%AA%8C/",
+      "platform": "个人博客 / 佐渡安",
+      "author": "佐渡安（博客显示名）",
+      "publishedAt": "2024-10-02",
+      "applicableCycle": "2024年夏令营与预推免，面向2025届升学；该条只取西湖工学院直博申请经历",
+      "authorContext": "电子科技大学2021级本科生，有Transformer、大模型及医学分类项目经历；本科专业未明写。",
+      "outcome": "自述西湖工学院直博入营、未优营，且未参加后续实习；未报告西湖正式录取。全篇另报最终选择信工所，不能混作西湖结果。",
+      "summary": "组内博士生对其大模型经历表达兴趣并建议实习，但PI未参加该轮面试。作者在夏令营短暂面谈后感到AI4Sci经历不足，考虑到推免资格不确定和个人时间安排，未参加后续组内实习；未优营原因仅是其自评。",
+      "actionableMethods": [
+        "用PI的具体课题核对已有方法、缺少的领域知识及补足计划",
+        "区分组内筛选、PI交流、入营、优营与正式录取",
+        "提前核对实习、课程和推免资格确认的时间能否衔接"
+      ],
+      "excludedClaims": [
+        "不把作者对未优营原因的解释写成官方结论",
+        "不从标题反推本科专业，不把AI4Sci经历或实习说成全校硬门槛",
+        "不沿用其学校排名、显卡、待遇、联培证书、批次和录取权限概括"
+      ],
+      "commercialDisclosure": "所读正文未见申请辅导服务销售；文中有其他经验帖参考链接。未审计作者其他页面或站外服务。",
+      "readScope": "Exa全文正文核读；本条取本人背景、申请清单和西湖章节。未读评论、视频、图片内材料或PI通信；不把文中朋友/网友经历算作作者亲历。",
+      "collection": "bachelor",
+      "background": "本科 → 西湖直博入营未优营；AI科研匹配复盘",
+      "dateNote": "页面显示Created: 2024-10-02，正文明确回顾2024年保研季及2025届；不是根据抓取时间或搜索相对日期推断。",
+      "bachelorApplicability": "直接相关于本科直博准备，尤其适合科研方向匹配、套磁沟通、实习排期和阶段状态识别；不是当前西湖招生制度、资格要求或成功概率的依据。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-04",
       "rulesImpact": "none"
     }
   ]

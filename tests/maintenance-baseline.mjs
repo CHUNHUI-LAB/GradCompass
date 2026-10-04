@@ -1,7 +1,8 @@
+import {experienceBatchBaseline} from './experience-batch-20261004-baseline.mjs';
 // Reconstruct the exact pre-2026-10-03 ordinary-date snapshot from retained history.
 // The full baseline hashes in existing tests continue to lock all unrelated content.
 export function maintenanceBaseline(data){
- const copy=structuredClone(data);
+ const copy=experienceBatchBaseline(data);
  // Remove only the two reviewed 2026-10-03 additions for historical snapshot assertions.
  const additions=['grad-scut-fengyt-redbird-2023','grad-benjamin-hkustgz-research-2026'];
  if(copy.records?.some(r=>additions.includes(r.id))){

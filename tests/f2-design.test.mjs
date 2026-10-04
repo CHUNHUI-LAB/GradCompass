@@ -1,10 +1,11 @@
+import {experienceBatchBaseline} from './experience-batch-20261004-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url),'utf8');
 const html=read('index.html'),css=read('assets/style.css'),app=read('assets/app.js'),experiences=read('assets/experiences.js');
-test('approved F2 keeps all source datasets byte-identical to verified main e1fee314',()=>{
+test('approved F2 source bytes remain identical after reversing only the reviewed five-case append',()=>{
  const expected={
   'advisor-profiles.json':'910aa0b3db20e72ab4a2268ac910276a8e619cc2',
   'application-experience-provenance.json':'69bfd17ea67a64b9541718e334c8873099256ad6',
@@ -17,7 +18,7 @@ test('approved F2 keeps all source datasets byte-identical to verified main e1fe
   'ra-positions.json':'78f34dddd0ce8cc91e2a101c8c4da2270e86c13c',
   'update-status.json':'936a05b7d4c9c272c7a0c9c86c38833e0155e8c9'
  };
- for(const [name,sha] of Object.entries(expected)){const bytes=fs.readFileSync(new URL('../data/'+name,import.meta.url));assert.equal(crypto.createHash('sha1').update('blob '+bytes.length+'\0').update(bytes).digest('hex'),sha,name);}
+ for(const [name,sha] of Object.entries(expected)){const raw=fs.readFileSync(new URL('../data/'+name,import.meta.url));const bytes=['application-experiences.json','application-experience-provenance.json'].includes(name)?Buffer.from(JSON.stringify(experienceBatchBaseline(JSON.parse(raw)),null,2)+'\n'):raw;assert.equal(crypto.createHash('sha1').update('blob '+bytes.length+'\0').update(bytes).digest('hex'),sha,name);}
 });
 test('six sections are first-class and source-backed navigation stays local',()=>{
  const nav=html.match(/<nav[\s\S]*?<\/nav>/)[0];
