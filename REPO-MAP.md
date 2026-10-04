@@ -1,6 +1,6 @@
 # GradCompass 仓库地图与 2028 Fall 证据规则
 
-本文记录当前代码、数据、测试和发布清单之间的边界，作为后续继续开发的入口。当前基线为合并提交 `7d3cfefb`；本分支在其基础上加入西湖大学导师核查。
+本文记录当前代码、数据、测试和发布清单之间的边界，作为后续继续开发的入口。当前基线为合并提交 `7d3cfefb`；本分支在其基础上加入清华大学导师核查。
 
 ## 数据与运行链路
 
@@ -8,6 +8,7 @@
 | --- | --- | --- |
 | 主事实数据 | `data/catalog.json` | 导师、学位路线、截止日期、原始材料、招生声明和 watch sources。资格与招生字段以这里为准。 |
 | 导师专业简介 | `data/advisor-profiles.json` | 仅按 `advisorId` 补充职业概况、实验室、资源、代表成果和未知项；不能覆盖 `catalog` 的资格、招生或名额字段。 |
+| 清华核查记录 | `data/tsinghua-advisor-review-20261004.json` | 保存清华 2027 普通硕士目录、导师目录、博士资格边界和 7 位导师的原始核查；不把 2027 参考升级为 2028 Fall 名额。 |
 | 项目简介 | `data/project-summaries.json` | 补充培养、研究、入学条件和批次说明；不能从项目简介推导导师名额。 |
 | 材料摘要 | `data/material-summaries.json` | 官方材料要求的有界摘要；与原目录材料合并展示。 |
 | 申请经验 | `data/application-experiences.json` 与 `data/application-experience-provenance.json` | 公开自述及其阅读范围；不参与当前招生资格判断。 |

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "advisor-profile-supplement/0.1",
-  "checkedDate": "2026-10-02",
+  "checkedDate": "2026-10-04",
   "pilotOnly": false,
   "joinKey": "advisorId",
   "catalogSource": "data/catalog.json",
@@ -27,7 +27,7 @@
     "Show faculty affiliation and lab/project affiliation separately",
     "Any recruitment display preserves degree/cycle specificity; confirmedVacancy=false means no remaining-place confirmation obtained",
     "No inference of lab size, funding availability, mentorship personality, student outcomes or hardware access",
-    "Thirty-two rich profiles cover all visible advisors. The previous thirty profile objects and evidence dates are preserved. Two new HKUST(GZ) PhD-only advisors were checked on 2026-10-02 alongside two narrowly scoped recruitment corrections in the catalog."
+    "Fifty-six rich profiles cover all visible advisors. Historical profile objects and evidence dates are preserved; new Tsinghua profiles are checked on 2026-10-04."
   ],
   "profiles": [
     {
@@ -7159,6 +7159,878 @@
       "checkedDate": "2026-10-04",
       "confirmedVacancy": false,
       "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "tsinghua-li-liu",
+      "cardSummaryZh": "人形机器人、特种操作与移动机器人、机器人运动规划与控制",
+      "overview": {
+        "textZh": "刘莉（Li Liu）现任清华大学机械工程系Professor。人形机器人、特种操作与移动机器人、机器人运动规划与控制。",
+        "sources": [
+          {
+            "label": "清华大学机械工程系教师主页",
+            "url": "https://www.me.tsinghua.edu.cn/en/info/1053/1420.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学机械工程系 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "清华大学机械工程系研究方向",
+        "affiliation": {
+          "textZh": "教师归属与实验室/研究组名称按清华大学官方页面记录；不据公开页面推断团队规模或新生资源。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1053/1420.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "themes": [
+          "人形机器人",
+          "特种操作与移动机器人",
+          "机器人运动规划与控制"
+        ],
+        "structure": {
+          "textZh": "本条保留公开研究方向和公开招生边界，不推断团队人数、硬件清单或导师余位。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1053/1420.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [
+        {
+          "title": "公开研究方向与代表性研究主题",
+          "year": 2026,
+          "venue": "清华大学官方教师/研究组页面",
+          "summaryZh": "人形机器人、特种操作与移动机器人、机器人运动规划与控制",
+          "url": "https://www.me.tsinghua.edu.cn/en/info/1053/1420.htm",
+          "sources": [
+            {
+              "label": "清华大学机械工程系教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1053/1420.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "2027 年项目/导师目录关联",
+          "year": 2027,
+          "venue": "清华大学研究生招生目录",
+          "summaryZh": "2027 年项目或导师目录中的方向关联仅用于核对项目入口，不等于个人余位或 2028 Fall 招生承诺。",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+          "sources": [
+            {
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "2027 年清华院系普通硕士目录可作为项目入口参考；个人 2027/2028 Fall 导师名额未在本轮来源中明确。",
+        "sources": [
+          {
+            "label": "清华大学机械工程系教师主页",
+            "url": "https://www.me.tsinghua.edu.cn/en/info/1053/1420.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学机械工程系 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人指导频率、当年余位、资助与最终导师接收未核实",
+        "2028 Fall 尚未找到个人导师明确招生声明"
+      ],
+      "links": [
+        {
+          "label": "官方教师/研究组页面",
+          "url": "https://www.me.tsinghua.edu.cn/en/info/1053/1420.htm"
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "tsinghua-huichan-zhao",
+      "cardSummaryZh": "人工肌肉、可拉伸传感器、软体机器人与软体执行器",
+      "overview": {
+        "textZh": "赵慧婵（Huichan Zhao）现任清华大学机械工程系Associate Professor。人工肌肉、可拉伸传感器、软体机器人与软体执行器。",
+        "sources": [
+          {
+            "label": "清华大学机械工程系赵慧婵教师主页",
+            "url": "https://www.me.tsinghua.edu.cn/en/info/1264/1968.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学机械工程系 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "清华大学机械工程系研究方向",
+        "affiliation": {
+          "textZh": "教师归属与实验室/研究组名称按清华大学官方页面记录；不据公开页面推断团队规模或新生资源。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系赵慧婵教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1264/1968.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "themes": [
+          "人工肌肉",
+          "可拉伸传感器",
+          "软体机器人与软体执行器"
+        ],
+        "structure": {
+          "textZh": "本条保留公开研究方向和公开招生边界，不推断团队人数、硬件清单或导师余位。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系赵慧婵教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1264/1968.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [
+        {
+          "title": "公开研究方向与代表性研究主题",
+          "year": 2026,
+          "venue": "清华大学官方教师/研究组页面",
+          "summaryZh": "人工肌肉、可拉伸传感器、软体机器人与软体执行器",
+          "url": "https://www.me.tsinghua.edu.cn/en/info/1264/1968.htm",
+          "sources": [
+            {
+              "label": "清华大学机械工程系赵慧婵教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1264/1968.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "2027 年项目/导师目录关联",
+          "year": 2027,
+          "venue": "清华大学研究生招生目录",
+          "summaryZh": "2027 年项目或导师目录中的方向关联仅用于核对项目入口，不等于个人余位或 2028 Fall 招生承诺。",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+          "sources": [
+            {
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "2027 年清华院系普通硕士目录可作为项目入口参考；个人 2027/2028 Fall 导师名额未在本轮来源中明确。",
+        "sources": [
+          {
+            "label": "清华大学机械工程系赵慧婵教师主页",
+            "url": "https://www.me.tsinghua.edu.cn/en/info/1264/1968.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学机械工程系 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人指导频率、当年余位、资助与最终导师接收未核实",
+        "2028 Fall 尚未找到个人导师明确招生声明"
+      ],
+      "links": [
+        {
+          "label": "官方教师/研究组页面",
+          "url": "https://www.me.tsinghua.edu.cn/en/info/1264/1968.htm"
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "tsinghua-rui-chen",
+      "cardSummaryZh": "智能机器人、具身智能、触觉感知与三维计算机视觉",
+      "overview": {
+        "textZh": "陈睿（Rui Chen）现任清华大学机械工程系Assistant Professor。智能机器人、具身智能、触觉感知与三维计算机视觉。",
+        "sources": [
+          {
+            "label": "清华大学机械工程系陈睿教师主页",
+            "url": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学机械工程系 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "清华大学机械工程系研究方向",
+        "affiliation": {
+          "textZh": "教师归属与实验室/研究组名称按清华大学官方页面记录；不据公开页面推断团队规模或新生资源。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系陈睿教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "themes": [
+          "智能机器人",
+          "具身智能",
+          "触觉感知与三维计算机视觉"
+        ],
+        "structure": {
+          "textZh": "本条保留公开研究方向和公开招生边界，不推断团队人数、硬件清单或导师余位。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系陈睿教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [
+        {
+          "title": "公开研究方向与代表性研究主题",
+          "year": 2026,
+          "venue": "清华大学官方教师/研究组页面",
+          "summaryZh": "智能机器人、具身智能、触觉感知与三维计算机视觉",
+          "url": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
+          "sources": [
+            {
+              "label": "清华大学机械工程系陈睿教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "2027 年项目/导师目录关联",
+          "year": 2027,
+          "venue": "清华大学研究生招生目录",
+          "summaryZh": "2027 年项目或导师目录中的方向关联仅用于核对项目入口，不等于个人余位或 2028 Fall 招生承诺。",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+          "sources": [
+            {
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "2027 年清华院系普通硕士目录可作为项目入口参考；个人 2027/2028 Fall 导师名额未在本轮来源中明确。",
+        "sources": [
+          {
+            "label": "清华大学机械工程系陈睿教师主页",
+            "url": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学机械工程系 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人指导频率、当年余位、资助与最终导师接收未核实",
+        "2028 Fall 尚未找到个人导师明确招生声明"
+      ],
+      "links": [
+        {
+          "label": "官方教师/研究组页面",
+          "url": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm"
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "tsinghua-shuguang-li",
+      "cardSummaryZh": "模块化机器人、集群机器人、折纸与软体机器人、AI 辅助设计制造与自组装",
+      "overview": {
+        "textZh": "李曙光（Shuguang Li）现任清华大学机械工程系Associate Professor / PhD Supervisor。模块化机器人、集群机器人、折纸与软体机器人、AI 辅助设计制造与自组装。",
+        "sources": [
+          {
+            "label": "清华大学机械工程系李曙光教师主页",
+            "url": "https://www.me.tsinghua.edu.cn/info/1122/2750.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学机械工程系 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "清华大学机械工程系研究方向",
+        "affiliation": {
+          "textZh": "教师归属与实验室/研究组名称按清华大学官方页面记录；不据公开页面推断团队规模或新生资源。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系李曙光教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/info/1122/2750.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "themes": [
+          "模块化机器人",
+          "集群机器人",
+          "折纸与软体机器人",
+          "AI 辅助设计制造与自组装"
+        ],
+        "structure": {
+          "textZh": "本条保留公开研究方向和公开招生边界，不推断团队人数、硬件清单或导师余位。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系李曙光教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/info/1122/2750.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [
+        {
+          "title": "公开研究方向与代表性研究主题",
+          "year": 2026,
+          "venue": "清华大学官方教师/研究组页面",
+          "summaryZh": "模块化机器人、集群机器人、折纸与软体机器人、AI 辅助设计制造与自组装",
+          "url": "https://www.me.tsinghua.edu.cn/info/1122/2750.htm",
+          "sources": [
+            {
+              "label": "清华大学机械工程系李曙光教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/info/1122/2750.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "2027 年项目/导师目录关联",
+          "year": 2027,
+          "venue": "清华大学研究生招生目录",
+          "summaryZh": "2027 年项目或导师目录中的方向关联仅用于核对项目入口，不等于个人余位或 2028 Fall 招生承诺。",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+          "sources": [
+            {
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "2027 年清华院系普通硕士目录可作为项目入口参考；个人 2027/2028 Fall 导师名额未在本轮来源中明确。",
+        "sources": [
+          {
+            "label": "清华大学机械工程系李曙光教师主页",
+            "url": "https://www.me.tsinghua.edu.cn/info/1122/2750.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学机械工程系 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人指导频率、当年余位、资助与最终导师接收未核实",
+        "2028 Fall 尚未找到个人导师明确招生声明"
+      ],
+      "links": [
+        {
+          "label": "官方教师/研究组页面",
+          "url": "https://www.me.tsinghua.edu.cn/info/1122/2750.htm"
+        },
+        {
+          "label": "课题组主页",
+          "url": "https://www.lisglab.com/"
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "tsinghua-yao-jiang",
+      "cardSummaryZh": "机器人交互感知、自主操作、触觉传感、精准驱动与灵巧机械手",
+      "overview": {
+        "textZh": "姜峣（Yao Jiang）现任清华大学机械工程系Associate Researcher。机器人交互感知、自主操作、触觉传感、精准驱动与灵巧机械手。",
+        "sources": [
+          {
+            "label": "清华大学机械工程系姜峣教师主页",
+            "url": "https://www.me.tsinghua.edu.cn/info/1098/3517.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学机械工程系 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "清华大学机械工程系研究方向",
+        "affiliation": {
+          "textZh": "教师归属与实验室/研究组名称按清华大学官方页面记录；不据公开页面推断团队规模或新生资源。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系姜峣教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/info/1098/3517.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "themes": [
+          "机器人交互感知",
+          "自主操作",
+          "触觉传感",
+          "精准驱动与灵巧机械手"
+        ],
+        "structure": {
+          "textZh": "本条保留公开研究方向和公开招生边界，不推断团队人数、硬件清单或导师余位。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系姜峣教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/info/1098/3517.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [
+        {
+          "title": "公开研究方向与代表性研究主题",
+          "year": 2026,
+          "venue": "清华大学官方教师/研究组页面",
+          "summaryZh": "机器人交互感知、自主操作、触觉传感、精准驱动与灵巧机械手",
+          "url": "https://www.me.tsinghua.edu.cn/info/1098/3517.htm",
+          "sources": [
+            {
+              "label": "清华大学机械工程系姜峣教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/info/1098/3517.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "2027 年项目/导师目录关联",
+          "year": 2027,
+          "venue": "清华大学研究生招生目录",
+          "summaryZh": "2027 年项目或导师目录中的方向关联仅用于核对项目入口，不等于个人余位或 2028 Fall 招生承诺。",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+          "sources": [
+            {
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "2027 年清华院系普通硕士目录可作为项目入口参考；个人 2027/2028 Fall 导师名额未在本轮来源中明确。",
+        "sources": [
+          {
+            "label": "清华大学机械工程系姜峣教师主页",
+            "url": "https://www.me.tsinghua.edu.cn/info/1098/3517.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学机械工程系 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人指导频率、当年余位、资助与最终导师接收未核实",
+        "2028 Fall 尚未找到个人导师明确招生声明"
+      ],
+      "links": [
+        {
+          "label": "官方教师/研究组页面",
+          "url": "https://www.me.tsinghua.edu.cn/info/1098/3517.htm"
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "tsinghua-dan-wu",
+      "cardSummaryZh": "机器人与自动化技术及装备、智能加工与操作、智能精密装配",
+      "overview": {
+        "textZh": "吴丹（Dan Wu）现任清华大学机械工程系Tenured Professor。机器人与自动化技术及装备、智能加工与操作、智能精密装配。",
+        "sources": [
+          {
+            "label": "清华大学机械工程系吴丹教师主页",
+            "url": "https://me.tsinghua.edu.cn/info/1100/1640.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学机械工程系 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "清华大学机械工程系研究方向",
+        "affiliation": {
+          "textZh": "教师归属与实验室/研究组名称按清华大学官方页面记录；不据公开页面推断团队规模或新生资源。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系吴丹教师主页",
+              "url": "https://me.tsinghua.edu.cn/info/1100/1640.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "themes": [
+          "机器人与自动化技术及装备",
+          "智能加工与操作",
+          "智能精密装配"
+        ],
+        "structure": {
+          "textZh": "本条保留公开研究方向和公开招生边界，不推断团队人数、硬件清单或导师余位。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系吴丹教师主页",
+              "url": "https://me.tsinghua.edu.cn/info/1100/1640.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [
+        {
+          "title": "公开研究方向与代表性研究主题",
+          "year": 2026,
+          "venue": "清华大学官方教师/研究组页面",
+          "summaryZh": "机器人与自动化技术及装备、智能加工与操作、智能精密装配",
+          "url": "https://me.tsinghua.edu.cn/info/1100/1640.htm",
+          "sources": [
+            {
+              "label": "清华大学机械工程系吴丹教师主页",
+              "url": "https://me.tsinghua.edu.cn/info/1100/1640.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "2027 年项目/导师目录关联",
+          "year": 2027,
+          "venue": "清华大学研究生招生目录",
+          "summaryZh": "2027 年项目或导师目录中的方向关联仅用于核对项目入口，不等于个人余位或 2028 Fall 招生承诺。",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+          "sources": [
+            {
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "2027 年清华院系普通硕士目录可作为项目入口参考；个人 2027/2028 Fall 导师名额未在本轮来源中明确。",
+        "sources": [
+          {
+            "label": "清华大学机械工程系吴丹教师主页",
+            "url": "https://me.tsinghua.edu.cn/info/1100/1640.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学机械工程系 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人指导频率、当年余位、资助与最终导师接收未核实",
+        "2028 Fall 尚未找到个人导师明确招生声明"
+      ],
+      "links": [
+        {
+          "label": "官方教师/研究组页面",
+          "url": "https://me.tsinghua.edu.cn/info/1100/1640.htm"
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "tsinghua-gao-yang",
+      "cardSummaryZh": "通用具身智能体、人形机器人控制、灵巧操作、视觉语言动作模型与触觉感知",
+      "overview": {
+        "textZh": "高阳（Yang Gao）现任清华大学交叉信息研究院Assistant Professor / PI。通用具身智能体、人形机器人控制、灵巧操作、视觉语言动作模型与触觉感知。",
+        "sources": [
+          {
+            "label": "清华大学交叉信息研究院 Vision and Robotics Lab",
+            "url": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学交叉信息研究院 2027 年硕士导师目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学交叉信息研究院 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/67cb3fbf-3bd2-47e1-b29a-e3ad09432625/1?yxsdm=047&zslx=%271%27",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Vision and Robotics Lab",
+        "affiliation": {
+          "textZh": "教师归属与实验室/研究组名称按清华大学官方页面记录；不据公开页面推断团队规模或新生资源。",
+          "sources": [
+            {
+              "label": "清华大学交叉信息研究院 Vision and Robotics Lab",
+              "url": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学交叉信息研究院 2027 年硕士导师目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学交叉信息研究院 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/67cb3fbf-3bd2-47e1-b29a-e3ad09432625/1?yxsdm=047&zslx=%271%27",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "themes": [
+          "通用具身智能体",
+          "人形机器人控制",
+          "灵巧操作",
+          "视觉语言动作模型与触觉感知"
+        ],
+        "structure": {
+          "textZh": "本条保留公开研究方向和公开招生边界，不推断团队人数、硬件清单或导师余位。",
+          "sources": [
+            {
+              "label": "清华大学交叉信息研究院 Vision and Robotics Lab",
+              "url": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学交叉信息研究院 2027 年硕士导师目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学交叉信息研究院 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/67cb3fbf-3bd2-47e1-b29a-e3ad09432625/1?yxsdm=047&zslx=%271%27",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [
+        {
+          "title": "公开研究方向与代表性研究主题",
+          "year": 2026,
+          "venue": "清华大学官方教师/研究组页面",
+          "summaryZh": "通用具身智能体、人形机器人控制、灵巧操作、视觉语言动作模型与触觉感知",
+          "url": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+          "sources": [
+            {
+              "label": "清华大学交叉信息研究院 Vision and Robotics Lab",
+              "url": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学交叉信息研究院 2027 年硕士导师目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学交叉信息研究院 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/67cb3fbf-3bd2-47e1-b29a-e3ad09432625/1?yxsdm=047&zslx=%271%27",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "2027 年项目/导师目录关联",
+          "year": 2027,
+          "venue": "清华大学研究生招生目录",
+          "summaryZh": "2027 年项目或导师目录中的方向关联仅用于核对项目入口，不等于个人余位或 2028 Fall 招生承诺。",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
+          "sources": [
+            {
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "2027 年交叉信息研究院导师目录列出高阳负责机器人与计算机视觉方向；个人 2027/2028 Fall 余位未在本轮来源中明确。",
+        "sources": [
+          {
+            "label": "清华大学交叉信息研究院 Vision and Robotics Lab",
+            "url": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学交叉信息研究院 2027 年硕士导师目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学交叉信息研究院 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/67cb3fbf-3bd2-47e1-b29a-e3ad09432625/1?yxsdm=047&zslx=%271%27",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人指导频率、当年余位、资助与最终导师接收未核实",
+        "2028 Fall 尚未找到个人导师明确招生声明"
+      ],
+      "links": [
+        {
+          "label": "官方教师/研究组页面",
+          "url": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm"
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
     }
   ],
   "reviewRequired": true,
@@ -7258,5 +8130,19 @@
       "https://en.westlake.edu.cn/faculty/dixia-fan.html",
       "https://shiyuzhao.westlake.edu.cn/index.htm"
     ]
+  },
+  "tsinghuaReview": {
+    "checkedDate": "2026-10-04",
+    "addedProfiles": [
+      "tsinghua-li-liu",
+      "tsinghua-huichan-zhao",
+      "tsinghua-rui-chen",
+      "tsinghua-shuguang-li",
+      "tsinghua-yao-jiang",
+      "tsinghua-dan-wu",
+      "tsinghua-gao-yang"
+    ],
+    "cyclePriority": "Fall 2028 receives priority; no candidate page explicitly states Fall 2028.",
+    "scope": "清华大学机械工程系与交叉信息研究院官方教师页、2027 普通硕士目录与导师目录；博士规则作为资格边界。"
   }
 }

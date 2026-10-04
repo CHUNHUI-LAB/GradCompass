@@ -2,10 +2,10 @@
   "schemaVersion": "1.0.0",
   "name": "GradCompass",
   "metadata": {
-    "checkedDate": "2026-10-01",
+    "checkedDate": "2026-10-04",
     "refresh": "manual",
     "dailyUpdatesEnabled": false,
-    "scope": "公开通用申请平台的导师与项目首批数据；香港本部、HKUST(GZ)、Westlake、CUHK-Shenzhen，另保留 XJTLU 核验线索；非所有申请制学校全覆盖；2026-10-04 增补南方科技大学机械/机器人导师与普通硕士制度路径参考",
+    "scope": "公开通用申请平台的导师与项目首批数据；香港本部、HKUST(GZ)、Westlake、CUHK-Shenzhen，另保留 XJTLU 核验线索；非所有申请制学校全覆盖；2026-10-04 增补南方科技大学机械/机器人导师与普通硕士制度路径参考；2026-10-04 增补清华大学机械工程系与交叉信息研究院导师、2027 普通硕士路径及博士资格边界参考",
     "eligibilityMeaning": "verified 仅表示官方本科起点、无需推免和无需先获硕士路径及相应关联证据；不评估任何个人是否满足全部条件",
     "openingMeaning": "explicit 表示存在分学位的公开招募信号；只有 cycle2027FallVerified 才表示明确 Fall 2027，常年信号不保证当前余额",
     "newPiMeaning": "newPi.verified 专指有官方 2026 新任证据；任职日期另记录，不从职称或年龄推断",
@@ -65,6 +65,12 @@
           "西湖2027第一批资格已确认，院级完整2027后续轮次仍需持续复核。",
           "不从年龄、职称、博士毕业年推断新PI；确有官方入职年月才记录。"
         ]
+      },
+      {
+        "file": "tsinghua-advisor-review-20261004.json",
+        "sha256": "7a5fe38cfc8dffe5f03e76e4f9af2f89ce80e347546c388c1e9792ea552203da",
+        "checkedDate": "2026-10-04",
+        "scope": "清华大学机器人、具身智能、智能制造和触觉方向导师及 2027/2028 招生边界"
       }
     ],
     "normalizationNotes": [
@@ -14438,6 +14444,1316 @@
           "sustech-mee-msc-ordinary"
         ]
       }
+    },
+    {
+      "id": "tsinghua-li-liu",
+      "name": "Li Liu",
+      "nameZh": "刘莉",
+      "institution": "Tsinghua",
+      "department": "机械工程系",
+      "position": "Professor",
+      "topics": [
+        "人形机器人、特种操作与移动机器人、机器人运动规划与控制"
+      ],
+      "summary": "人形机器人、特种操作与移动机器人、机器人运动规划与控制",
+      "profileUrl": "https://www.me.tsinghua.edu.cn/en/info/1053/1420.htm",
+      "routeIds": [
+        "tsinghua-me-msc-ordinary"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "tsinghua-me-msc-ordinary",
+          "degree": "MSc",
+          "status": "verified",
+          "summary": "已核实导师与清华对应院系普通硕士项目或 2027 导师目录的关联；个人 2027/2028 招生名额另行确认。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1053/1420.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "eligibility": "verified",
+      "eligibilityMeaning": "清华对应院系普通硕士本科入口或 2027 导师目录关联已核实；个人资格、导师接收、名额与资助未评估。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
+        "mphil": "未核实公开声明",
+        "phd": "清华博士路径需按硕士/推免条件另行判断，不能借用普通硕士入口",
+        "ra": "未核实公开岗位",
+        "cycle2027": "已核实院系 2027 项目或导师目录参考，个人名额待确认",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "MSc",
+          "status": "unknown",
+          "summary": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2027 Fall 院系/导师目录参考；2028 Fall 未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "department_or_mentor_directory_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学机械工程系教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1053/1420.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "清华 2027 普通博士通常要求硕士；本科直博须符合推荐免试条件",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2027 Fall 规则参考；2028 Fall 未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "eligibility_boundary_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "2028 Fall",
+          "status": "unknown",
+          "summary": "未找到个人 2028 Fall 招生名额声明",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2028 Fall 未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "not_found",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学机械工程系教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1053/1420.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或近期页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "清华大学机械工程系教师主页",
+          "url": "https://www.me.tsinghua.edu.cn/en/info/1053/1420.htm",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "清华大学机械工程系 2027 年硕士招生目录",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "caveats": [
+        "清华 2027 项目目录或导师目录证明项目/导师关联，不等于个人导师余位。",
+        "清华 2027 博士普通招考通常要求硕士，直博要求推免；博士信息不作为本站默认本科机会。",
+        "2028 Fall 个人招生名额、资助与最终导师接收尚未核实"
+      ],
+      "checkedDate": "2026-10-04",
+      "sourceFile": "tsinghua-advisor-review-20261004.json",
+      "sourceRecord": {
+        "id": "tsinghua-li-liu",
+        "name": "Li Liu",
+        "nameZh": "刘莉",
+        "department": "机械工程系",
+        "position": "Professor",
+        "researchZh": "人形机器人、特种操作与移动机器人、机器人运动规划与控制",
+        "profileUrl": "https://www.me.tsinghua.edu.cn/en/info/1053/1420.htm",
+        "routeIds": [
+          "tsinghua-me-msc-ordinary"
+        ],
+        "cycle2027FallReference": true,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "verified_program_association",
+        "reasonNotInDefaultCatalog": null,
+        "sources": [
+          {
+            "label": "清华大学机械工程系教师主页",
+            "url": "https://www.me.tsinghua.edu.cn/en/info/1053/1420.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学机械工程系 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+            "checkedDate": "2026-10-04"
+          }
+        ],
+        "verified_bachelor_route_ids": [
+          "tsinghua-me-msc-ordinary"
+        ]
+      }
+    },
+    {
+      "id": "tsinghua-huichan-zhao",
+      "name": "Huichan Zhao",
+      "nameZh": "赵慧婵",
+      "institution": "Tsinghua",
+      "department": "机械工程系",
+      "position": "Associate Professor",
+      "topics": [
+        "人工肌肉、可拉伸传感器、软体机器人与软体执行器"
+      ],
+      "summary": "人工肌肉、可拉伸传感器、软体机器人与软体执行器",
+      "profileUrl": "https://www.me.tsinghua.edu.cn/en/info/1264/1968.htm",
+      "routeIds": [
+        "tsinghua-me-msc-ordinary"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "tsinghua-me-msc-ordinary",
+          "degree": "MSc",
+          "status": "verified",
+          "summary": "已核实导师与清华对应院系普通硕士项目或 2027 导师目录的关联；个人 2027/2028 招生名额另行确认。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系赵慧婵教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1264/1968.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "eligibility": "verified",
+      "eligibilityMeaning": "清华对应院系普通硕士本科入口或 2027 导师目录关联已核实；个人资格、导师接收、名额与资助未评估。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
+        "mphil": "未核实公开声明",
+        "phd": "清华博士路径需按硕士/推免条件另行判断，不能借用普通硕士入口",
+        "ra": "未核实公开岗位",
+        "cycle2027": "已核实院系 2027 项目或导师目录参考，个人名额待确认",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "MSc",
+          "status": "unknown",
+          "summary": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2027 Fall 院系/导师目录参考；2028 Fall 未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "department_or_mentor_directory_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学机械工程系赵慧婵教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1264/1968.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "清华 2027 普通博士通常要求硕士；本科直博须符合推荐免试条件",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2027 Fall 规则参考；2028 Fall 未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "eligibility_boundary_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "2028 Fall",
+          "status": "unknown",
+          "summary": "未找到个人 2028 Fall 招生名额声明",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2028 Fall 未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "not_found",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学机械工程系赵慧婵教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1264/1968.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或近期页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "清华大学机械工程系赵慧婵教师主页",
+          "url": "https://www.me.tsinghua.edu.cn/en/info/1264/1968.htm",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "清华大学机械工程系 2027 年硕士招生目录",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "caveats": [
+        "清华 2027 项目目录或导师目录证明项目/导师关联，不等于个人导师余位。",
+        "清华 2027 博士普通招考通常要求硕士，直博要求推免；博士信息不作为本站默认本科机会。",
+        "2028 Fall 个人招生名额、资助与最终导师接收尚未核实"
+      ],
+      "checkedDate": "2026-10-04",
+      "sourceFile": "tsinghua-advisor-review-20261004.json",
+      "sourceRecord": {
+        "id": "tsinghua-huichan-zhao",
+        "name": "Huichan Zhao",
+        "nameZh": "赵慧婵",
+        "department": "机械工程系",
+        "position": "Associate Professor",
+        "researchZh": "人工肌肉、可拉伸传感器、软体机器人与软体执行器",
+        "profileUrl": "https://www.me.tsinghua.edu.cn/en/info/1264/1968.htm",
+        "routeIds": [
+          "tsinghua-me-msc-ordinary"
+        ],
+        "cycle2027FallReference": true,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "verified_program_association",
+        "reasonNotInDefaultCatalog": null,
+        "sources": [
+          {
+            "label": "清华大学机械工程系赵慧婵教师主页",
+            "url": "https://www.me.tsinghua.edu.cn/en/info/1264/1968.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学机械工程系 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+            "checkedDate": "2026-10-04"
+          }
+        ],
+        "verified_bachelor_route_ids": [
+          "tsinghua-me-msc-ordinary"
+        ]
+      }
+    },
+    {
+      "id": "tsinghua-rui-chen",
+      "name": "Rui Chen",
+      "nameZh": "陈睿",
+      "institution": "Tsinghua",
+      "department": "机械工程系",
+      "position": "Assistant Professor",
+      "topics": [
+        "智能机器人、具身智能、触觉感知与三维计算机视觉"
+      ],
+      "summary": "智能机器人、具身智能、触觉感知与三维计算机视觉",
+      "profileUrl": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
+      "routeIds": [
+        "tsinghua-me-msc-ordinary"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "tsinghua-me-msc-ordinary",
+          "degree": "MSc",
+          "status": "verified",
+          "summary": "已核实导师与清华对应院系普通硕士项目或 2027 导师目录的关联；个人 2027/2028 招生名额另行确认。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系陈睿教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "eligibility": "verified",
+      "eligibilityMeaning": "清华对应院系普通硕士本科入口或 2027 导师目录关联已核实；个人资格、导师接收、名额与资助未评估。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
+        "mphil": "未核实公开声明",
+        "phd": "清华博士路径需按硕士/推免条件另行判断，不能借用普通硕士入口",
+        "ra": "未核实公开岗位",
+        "cycle2027": "已核实院系 2027 项目或导师目录参考，个人名额待确认",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "MSc",
+          "status": "unknown",
+          "summary": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2027 Fall 院系/导师目录参考；2028 Fall 未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "department_or_mentor_directory_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学机械工程系陈睿教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "清华 2027 普通博士通常要求硕士；本科直博须符合推荐免试条件",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2027 Fall 规则参考；2028 Fall 未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "eligibility_boundary_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "2028 Fall",
+          "status": "unknown",
+          "summary": "未找到个人 2028 Fall 招生名额声明",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2028 Fall 未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "not_found",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学机械工程系陈睿教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或近期页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "清华大学机械工程系陈睿教师主页",
+          "url": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "清华大学机械工程系 2027 年硕士招生目录",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "caveats": [
+        "清华 2027 项目目录或导师目录证明项目/导师关联，不等于个人导师余位。",
+        "清华 2027 博士普通招考通常要求硕士，直博要求推免；博士信息不作为本站默认本科机会。",
+        "2028 Fall 个人招生名额、资助与最终导师接收尚未核实"
+      ],
+      "checkedDate": "2026-10-04",
+      "sourceFile": "tsinghua-advisor-review-20261004.json",
+      "sourceRecord": {
+        "id": "tsinghua-rui-chen",
+        "name": "Rui Chen",
+        "nameZh": "陈睿",
+        "department": "机械工程系",
+        "position": "Assistant Professor",
+        "researchZh": "智能机器人、具身智能、触觉感知与三维计算机视觉",
+        "profileUrl": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
+        "routeIds": [
+          "tsinghua-me-msc-ordinary"
+        ],
+        "cycle2027FallReference": true,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "verified_program_association",
+        "reasonNotInDefaultCatalog": null,
+        "sources": [
+          {
+            "label": "清华大学机械工程系陈睿教师主页",
+            "url": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学机械工程系 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+            "checkedDate": "2026-10-04"
+          }
+        ],
+        "verified_bachelor_route_ids": [
+          "tsinghua-me-msc-ordinary"
+        ]
+      }
+    },
+    {
+      "id": "tsinghua-shuguang-li",
+      "name": "Shuguang Li",
+      "nameZh": "李曙光",
+      "institution": "Tsinghua",
+      "department": "机械工程系",
+      "position": "Associate Professor / PhD Supervisor",
+      "topics": [
+        "模块化机器人、集群机器人、折纸与软体机器人、AI 辅助设计制造与自组装"
+      ],
+      "summary": "模块化机器人、集群机器人、折纸与软体机器人、AI 辅助设计制造与自组装",
+      "profileUrl": "https://www.me.tsinghua.edu.cn/info/1122/2750.htm",
+      "labUrl": "https://www.lisglab.com/",
+      "routeIds": [
+        "tsinghua-me-msc-ordinary"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "tsinghua-me-msc-ordinary",
+          "degree": "MSc",
+          "status": "verified",
+          "summary": "已核实导师与清华对应院系普通硕士项目或 2027 导师目录的关联；个人 2027/2028 招生名额另行确认。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系李曙光教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/info/1122/2750.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "eligibility": "verified",
+      "eligibilityMeaning": "清华对应院系普通硕士本科入口或 2027 导师目录关联已核实；个人资格、导师接收、名额与资助未评估。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
+        "mphil": "未核实公开声明",
+        "phd": "清华博士路径需按硕士/推免条件另行判断，不能借用普通硕士入口",
+        "ra": "未核实公开岗位",
+        "cycle2027": "已核实院系 2027 项目或导师目录参考，个人名额待确认",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "MSc",
+          "status": "unknown",
+          "summary": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2027 Fall 院系/导师目录参考；2028 Fall 未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "department_or_mentor_directory_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学机械工程系李曙光教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/info/1122/2750.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "清华 2027 普通博士通常要求硕士；本科直博须符合推荐免试条件",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2027 Fall 规则参考；2028 Fall 未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "eligibility_boundary_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "2028 Fall",
+          "status": "unknown",
+          "summary": "未找到个人 2028 Fall 招生名额声明",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2028 Fall 未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "not_found",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学机械工程系李曙光教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/info/1122/2750.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或近期页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "清华大学机械工程系李曙光教师主页",
+          "url": "https://www.me.tsinghua.edu.cn/info/1122/2750.htm",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "清华大学机械工程系 2027 年硕士招生目录",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "caveats": [
+        "清华 2027 项目目录或导师目录证明项目/导师关联，不等于个人导师余位。",
+        "清华 2027 博士普通招考通常要求硕士，直博要求推免；博士信息不作为本站默认本科机会。",
+        "2028 Fall 个人招生名额、资助与最终导师接收尚未核实"
+      ],
+      "checkedDate": "2026-10-04",
+      "sourceFile": "tsinghua-advisor-review-20261004.json",
+      "sourceRecord": {
+        "id": "tsinghua-shuguang-li",
+        "name": "Shuguang Li",
+        "nameZh": "李曙光",
+        "department": "机械工程系",
+        "position": "Associate Professor / PhD Supervisor",
+        "researchZh": "模块化机器人、集群机器人、折纸与软体机器人、AI 辅助设计制造与自组装",
+        "profileUrl": "https://www.me.tsinghua.edu.cn/info/1122/2750.htm",
+        "labUrl": "https://www.lisglab.com/",
+        "routeIds": [
+          "tsinghua-me-msc-ordinary"
+        ],
+        "cycle2027FallReference": true,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "verified_program_association",
+        "reasonNotInDefaultCatalog": null,
+        "sources": [
+          {
+            "label": "清华大学机械工程系李曙光教师主页",
+            "url": "https://www.me.tsinghua.edu.cn/info/1122/2750.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学机械工程系 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+            "checkedDate": "2026-10-04"
+          }
+        ],
+        "verified_bachelor_route_ids": [
+          "tsinghua-me-msc-ordinary"
+        ]
+      }
+    },
+    {
+      "id": "tsinghua-yao-jiang",
+      "name": "Yao Jiang",
+      "nameZh": "姜峣",
+      "institution": "Tsinghua",
+      "department": "机械工程系",
+      "position": "Associate Researcher",
+      "topics": [
+        "机器人交互感知、自主操作、触觉传感、精准驱动与灵巧机械手"
+      ],
+      "summary": "机器人交互感知、自主操作、触觉传感、精准驱动与灵巧机械手",
+      "profileUrl": "https://www.me.tsinghua.edu.cn/info/1098/3517.htm",
+      "routeIds": [
+        "tsinghua-me-msc-ordinary"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "tsinghua-me-msc-ordinary",
+          "degree": "MSc",
+          "status": "verified",
+          "summary": "已核实导师与清华对应院系普通硕士项目或 2027 导师目录的关联；个人 2027/2028 招生名额另行确认。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系姜峣教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/info/1098/3517.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "eligibility": "verified",
+      "eligibilityMeaning": "清华对应院系普通硕士本科入口或 2027 导师目录关联已核实；个人资格、导师接收、名额与资助未评估。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
+        "mphil": "未核实公开声明",
+        "phd": "清华博士路径需按硕士/推免条件另行判断，不能借用普通硕士入口",
+        "ra": "未核实公开岗位",
+        "cycle2027": "已核实院系 2027 项目或导师目录参考，个人名额待确认",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "MSc",
+          "status": "unknown",
+          "summary": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2027 Fall 院系/导师目录参考；2028 Fall 未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "department_or_mentor_directory_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学机械工程系姜峣教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/info/1098/3517.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "清华 2027 普通博士通常要求硕士；本科直博须符合推荐免试条件",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2027 Fall 规则参考；2028 Fall 未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "eligibility_boundary_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "2028 Fall",
+          "status": "unknown",
+          "summary": "未找到个人 2028 Fall 招生名额声明",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2028 Fall 未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "not_found",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学机械工程系姜峣教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/info/1098/3517.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或近期页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "清华大学机械工程系姜峣教师主页",
+          "url": "https://www.me.tsinghua.edu.cn/info/1098/3517.htm",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "清华大学机械工程系 2027 年硕士招生目录",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "caveats": [
+        "清华 2027 项目目录或导师目录证明项目/导师关联，不等于个人导师余位。",
+        "清华 2027 博士普通招考通常要求硕士，直博要求推免；博士信息不作为本站默认本科机会。",
+        "2028 Fall 个人招生名额、资助与最终导师接收尚未核实"
+      ],
+      "checkedDate": "2026-10-04",
+      "sourceFile": "tsinghua-advisor-review-20261004.json",
+      "sourceRecord": {
+        "id": "tsinghua-yao-jiang",
+        "name": "Yao Jiang",
+        "nameZh": "姜峣",
+        "department": "机械工程系",
+        "position": "Associate Researcher",
+        "researchZh": "机器人交互感知、自主操作、触觉传感、精准驱动与灵巧机械手",
+        "profileUrl": "https://www.me.tsinghua.edu.cn/info/1098/3517.htm",
+        "routeIds": [
+          "tsinghua-me-msc-ordinary"
+        ],
+        "cycle2027FallReference": true,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "verified_program_association",
+        "reasonNotInDefaultCatalog": null,
+        "sources": [
+          {
+            "label": "清华大学机械工程系姜峣教师主页",
+            "url": "https://www.me.tsinghua.edu.cn/info/1098/3517.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学机械工程系 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+            "checkedDate": "2026-10-04"
+          }
+        ],
+        "verified_bachelor_route_ids": [
+          "tsinghua-me-msc-ordinary"
+        ]
+      }
+    },
+    {
+      "id": "tsinghua-dan-wu",
+      "name": "Dan Wu",
+      "nameZh": "吴丹",
+      "institution": "Tsinghua",
+      "department": "机械工程系",
+      "position": "Tenured Professor",
+      "topics": [
+        "机器人与自动化技术及装备、智能加工与操作、智能精密装配"
+      ],
+      "summary": "机器人与自动化技术及装备、智能加工与操作、智能精密装配",
+      "profileUrl": "https://me.tsinghua.edu.cn/info/1100/1640.htm",
+      "routeIds": [
+        "tsinghua-me-msc-ordinary"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "tsinghua-me-msc-ordinary",
+          "degree": "MSc",
+          "status": "verified",
+          "summary": "已核实导师与清华对应院系普通硕士项目或 2027 导师目录的关联；个人 2027/2028 招生名额另行确认。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系吴丹教师主页",
+              "url": "https://me.tsinghua.edu.cn/info/1100/1640.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "eligibility": "verified",
+      "eligibilityMeaning": "清华对应院系普通硕士本科入口或 2027 导师目录关联已核实；个人资格、导师接收、名额与资助未评估。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
+        "mphil": "未核实公开声明",
+        "phd": "清华博士路径需按硕士/推免条件另行判断，不能借用普通硕士入口",
+        "ra": "未核实公开岗位",
+        "cycle2027": "已核实院系 2027 项目或导师目录参考，个人名额待确认",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "MSc",
+          "status": "unknown",
+          "summary": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2027 Fall 院系/导师目录参考；2028 Fall 未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "department_or_mentor_directory_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学机械工程系吴丹教师主页",
+              "url": "https://me.tsinghua.edu.cn/info/1100/1640.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "清华 2027 普通博士通常要求硕士；本科直博须符合推荐免试条件",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2027 Fall 规则参考；2028 Fall 未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "eligibility_boundary_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "2028 Fall",
+          "status": "unknown",
+          "summary": "未找到个人 2028 Fall 招生名额声明",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2028 Fall 未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "not_found",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学机械工程系吴丹教师主页",
+              "url": "https://me.tsinghua.edu.cn/info/1100/1640.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或近期页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "清华大学机械工程系吴丹教师主页",
+          "url": "https://me.tsinghua.edu.cn/info/1100/1640.htm",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "清华大学机械工程系 2027 年硕士招生目录",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "caveats": [
+        "清华 2027 项目目录或导师目录证明项目/导师关联，不等于个人导师余位。",
+        "清华 2027 博士普通招考通常要求硕士，直博要求推免；博士信息不作为本站默认本科机会。",
+        "2028 Fall 个人招生名额、资助与最终导师接收尚未核实"
+      ],
+      "checkedDate": "2026-10-04",
+      "sourceFile": "tsinghua-advisor-review-20261004.json",
+      "sourceRecord": {
+        "id": "tsinghua-dan-wu",
+        "name": "Dan Wu",
+        "nameZh": "吴丹",
+        "department": "机械工程系",
+        "position": "Tenured Professor",
+        "researchZh": "机器人与自动化技术及装备、智能加工与操作、智能精密装配",
+        "profileUrl": "https://me.tsinghua.edu.cn/info/1100/1640.htm",
+        "routeIds": [
+          "tsinghua-me-msc-ordinary"
+        ],
+        "cycle2027FallReference": true,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "verified_program_association",
+        "reasonNotInDefaultCatalog": null,
+        "sources": [
+          {
+            "label": "清华大学机械工程系吴丹教师主页",
+            "url": "https://me.tsinghua.edu.cn/info/1100/1640.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学机械工程系 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+            "checkedDate": "2026-10-04"
+          }
+        ],
+        "verified_bachelor_route_ids": [
+          "tsinghua-me-msc-ordinary"
+        ]
+      }
+    },
+    {
+      "id": "tsinghua-gao-yang",
+      "name": "Yang Gao",
+      "nameZh": "高阳",
+      "institution": "Tsinghua",
+      "department": "交叉信息研究院",
+      "position": "Assistant Professor / PI",
+      "lab": "Vision and Robotics Lab",
+      "topics": [
+        "通用具身智能体、人形机器人控制、灵巧操作、视觉语言动作模型与触觉感知"
+      ],
+      "summary": "通用具身智能体、人形机器人控制、灵巧操作、视觉语言动作模型与触觉感知",
+      "profileUrl": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+      "routeIds": [
+        "tsinghua-iiis-msc-robotics"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "tsinghua-iiis-msc-robotics",
+          "degree": "MSc",
+          "status": "verified",
+          "summary": "已核实导师与清华对应院系普通硕士项目或 2027 导师目录的关联；个人 2027/2028 招生名额另行确认。",
+          "sources": [
+            {
+              "label": "清华大学交叉信息研究院 Vision and Robotics Lab",
+              "url": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学交叉信息研究院 2027 年硕士导师目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学交叉信息研究院 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/67cb3fbf-3bd2-47e1-b29a-e3ad09432625/1?yxsdm=047&zslx=%271%27",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "eligibility": "verified",
+      "eligibilityMeaning": "清华对应院系普通硕士本科入口或 2027 导师目录关联已核实；个人资格、导师接收、名额与资助未评估。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
+        "mphil": "未核实公开声明",
+        "phd": "清华博士路径需按硕士/推免条件另行判断，不能借用普通硕士入口",
+        "ra": "未核实公开岗位",
+        "cycle2027": "已核实院系 2027 项目或导师目录参考，个人名额待确认",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "MSc",
+          "status": "unknown",
+          "summary": "未找到该导师个人 2027/2028 Fall 硕士名额声明；不等于不招生",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2027 Fall 院系/导师目录参考；2028 Fall 未核实",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "department_or_mentor_directory_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学交叉信息研究院 Vision and Robotics Lab",
+              "url": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学交叉信息研究院 2027 年硕士导师目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学交叉信息研究院 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/67cb3fbf-3bd2-47e1-b29a-e3ad09432625/1?yxsdm=047&zslx=%271%27",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "清华 2027 普通博士通常要求硕士；本科直博须符合推荐免试条件",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2027 Fall 规则参考；2028 Fall 未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "eligibility_boundary_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "2028 Fall",
+          "status": "unknown",
+          "summary": "未找到个人 2028 Fall 招生名额声明",
+          "cycle2027FallVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2028 Fall 未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "not_found",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "清华大学交叉信息研究院 Vision and Robotics Lab",
+              "url": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学交叉信息研究院 2027 年硕士导师目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学交叉信息研究院 2027 年硕士招生目录",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/67cb3fbf-3bd2-47e1-b29a-e3ad09432625/1?yxsdm=047&zslx=%271%27",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或近期页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "清华大学交叉信息研究院 Vision and Robotics Lab",
+          "url": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "清华大学交叉信息研究院 2027 年硕士导师目录",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "清华大学交叉信息研究院 2027 年硕士招生目录",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/67cb3fbf-3bd2-47e1-b29a-e3ad09432625/1?yxsdm=047&zslx=%271%27",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "caveats": [
+        "清华 2027 项目目录或导师目录证明项目/导师关联，不等于个人导师余位。",
+        "清华 2027 博士普通招考通常要求硕士，直博要求推免；博士信息不作为本站默认本科机会。",
+        "2028 Fall 个人招生名额、资助与最终导师接收尚未核实"
+      ],
+      "checkedDate": "2026-10-04",
+      "sourceFile": "tsinghua-advisor-review-20261004.json",
+      "sourceRecord": {
+        "id": "tsinghua-gao-yang",
+        "name": "Yang Gao",
+        "nameZh": "高阳",
+        "department": "交叉信息研究院",
+        "position": "Assistant Professor / PI",
+        "lab": "Vision and Robotics Lab",
+        "researchZh": "通用具身智能体、人形机器人控制、灵巧操作、视觉语言动作模型与触觉感知",
+        "profileUrl": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+        "routeIds": [
+          "tsinghua-iiis-msc-robotics"
+        ],
+        "cycle2027FallReference": true,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "mentor_directory_verified",
+        "reasonNotInDefaultCatalog": null,
+        "sources": [
+          {
+            "label": "清华大学交叉信息研究院 Vision and Robotics Lab",
+            "url": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学交叉信息研究院 2027 年硕士导师目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "清华大学交叉信息研究院 2027 年硕士招生目录",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/67cb3fbf-3bd2-47e1-b29a-e3ad09432625/1?yxsdm=047&zslx=%271%27",
+            "checkedDate": "2026-10-04"
+          }
+        ],
+        "verified_bachelor_route_ids": [
+          "tsinghua-iiis-msc-robotics"
+        ]
+      }
     }
   ],
   "routes": [
@@ -17837,6 +19153,107 @@
             {
               "label": "南科大机械系 2026 年硕士复试录取实施细则",
               "url": "https://mee.sustech.edu.cn/xinwendongtai/3830.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "defaultVisible": true
+    },
+    {
+      "id": "tsinghua-me-msc-ordinary",
+      "institution": "Tsinghua",
+      "department": "机械工程系",
+      "program": "机械工程系机械硕士（普通统考路径）",
+      "degree": "MSc",
+      "bachelorEligible": true,
+      "noTuimianRequired": true,
+      "noMasterRequired": true,
+      "status": "verified",
+      "eligibilitySummary": "2027 年机械工程系目录列出 080200 机械工程、082500 航空宇航科学与技术和 085500 机械专业学位的全日制普通考试入口；普通硕士制度参考允许本科起点，导师个人接收与名额另行确认。",
+      "supervisorAssociation": "导师与院系项目或 2027 导师目录的关联已记录；个人导师接收、名额、资助和 2028 Fall 招生需单独确认。",
+      "admissionYear": "2027 Fall 项目目录参考；2028 Fall 项目与导师名额未核实。",
+      "cycle2027Verified": true,
+      "applicationStatus": "unknown",
+      "applicationMethod": "普通统考申请；不属于推免专属通道",
+      "sources": [
+        {
+          "label": "清华大学 2026 年硕士研究生招生简章",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0202/detail/c5c3d3af-171b-44d6-8aad-a35009bfc0f6",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "清华大学机械工程系 2027 年硕士招生目录",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "notes": [
+        "2027 目录证明项目/方向入口，不证明任何导师个人当年有余位。",
+        "清华 2028 Fall 个人导师招生名额未在本轮来源中明确。"
+      ],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "应届本科毕业、本科毕业或符合当年全国硕士研究生招生规定的其他人员；具体专业背景、考试科目、复试及最终计划以当年正式目录和招生简章为准。",
+          "sources": [
+            {
+              "label": "清华大学 2026 年硕士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0202/detail/c5c3d3af-171b-44d6-8aad-a35009bfc0f6",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "defaultVisible": true
+    },
+    {
+      "id": "tsinghua-iiis-msc-robotics",
+      "institution": "Tsinghua",
+      "department": "交叉信息研究院",
+      "program": "计算机科学与技术硕士（人工智能/机器人/计算机视觉方向，普通统考路径）",
+      "degree": "MSc",
+      "bachelorEligible": true,
+      "noTuimianRequired": true,
+      "noMasterRequired": true,
+      "status": "verified",
+      "eligibilitySummary": "2027 年交叉信息研究院 081200 计算机科学与技术目录列出人工智能、机器人和计算机视觉方向；导师目录明确列出机器人与视觉方向导师，个人 2027/2028 接收名额另行确认。",
+      "supervisorAssociation": "导师与院系项目或 2027 导师目录的关联已记录；个人导师接收、名额、资助和 2028 Fall 招生需单独确认。",
+      "admissionYear": "2027 Fall 项目目录参考；2028 Fall 项目与导师名额未核实。",
+      "cycle2027Verified": true,
+      "applicationStatus": "unknown",
+      "applicationMethod": "普通统考申请；不属于推免专属通道",
+      "sources": [
+        {
+          "label": "清华大学 2026 年硕士研究生招生简章",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0202/detail/c5c3d3af-171b-44d6-8aad-a35009bfc0f6",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "清华大学交叉信息研究院 2027 年硕士招生目录",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/67cb3fbf-3bd2-47e1-b29a-e3ad09432625/1?yxsdm=047&zslx=%271%27",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "清华大学交叉信息研究院 2027 年硕士导师目录",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "notes": [
+        "2027 目录证明项目/方向入口，不证明任何导师个人当年有余位。",
+        "清华 2028 Fall 个人导师招生名额未在本轮来源中明确。"
+      ],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "应届本科毕业、本科毕业或符合当年全国硕士研究生招生规定的其他人员；具体专业背景、考试科目、复试及最终计划以当年正式目录和招生简章为准。",
+          "sources": [
+            {
+              "label": "清华大学 2026 年硕士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0202/detail/c5c3d3af-171b-44d6-8aad-a35009bfc0f6",
               "checkedDate": "2026-10-04"
             }
           ]

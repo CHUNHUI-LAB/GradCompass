@@ -16,7 +16,7 @@ export function rankOf(advisor){
  return 'other';
 }
 export function rankMatches(advisor,filters={}){return !filters.rank||rankOf(advisor)===filters.rank;}
-export const institutionNames = {HKUST:'香港科技大学',HKU:'香港大学',CUHK:'香港中文大学',CityU:'香港城市大学',CityUHK:'香港城市大学','CUHK-Shenzhen':'香港中文大学（深圳）',PolyU:'香港理工大学',HKBU:'香港浸会大学','HKUST(GZ)':'香港科技大学（广州）','HKUST-GZ':'香港科技大学（广州）','CUHK(SZ)':'香港中文大学（深圳）','CUHK-SZ':'香港中文大学（深圳）',Westlake:'西湖大学',SUSTech:'南方科技大学',XJTLU:'西交利物浦大学'};
+export const institutionNames = {HKUST:'香港科技大学',HKU:'香港大学',CUHK:'香港中文大学',CityU:'香港城市大学',CityUHK:'香港城市大学','CUHK-Shenzhen':'香港中文大学（深圳）',PolyU:'香港理工大学',HKBU:'香港浸会大学','HKUST(GZ)':'香港科技大学（广州）','HKUST-GZ':'香港科技大学（广州）','CUHK(SZ)':'香港中文大学（深圳）','CUHK-SZ':'香港中文大学（深圳）',Westlake:'西湖大学',SUSTech:'南方科技大学',Tsinghua:'清华大学',XJTLU:'西交利物浦大学'};
 export const topicRules = [
  ['具身导航',/navigat|导航|interactive_navigation/i],
  ['机器人学习',/reinforcement|imitation|robot learning|robot_learning|强化学习|模仿学习|机器人学习|policy learning|策略学习/i],

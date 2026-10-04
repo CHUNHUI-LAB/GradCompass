@@ -1,6 +1,6 @@
 {
   "project": "GradCompass",
-  "revision": "bounded-maintenance-hku-ris-20261004",
+  "revision": "tsinghua-advisors-20261004",
   "baseSourceCommit": "91af79d313c3d0bd7f3bfd5a4e306a3af596ccaf",
   "baseDeployedCommit": "4840df6a9718ec38e472f8fd7496047248029e71",
   "snapshotDate": "2026-10-04",
@@ -8,13 +8,13 @@
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
   "browserVisualQA": "Not yet browser-verified.",
-  "profilePilotCount": 49,
-  "visibleAdvisorCount": 49,
-  "opportunityCount": 67,
+  "profilePilotCount": 56,
+  "visibleAdvisorCount": 56,
+  "opportunityCount": 74,
   "raPositionCount": 2,
-  "newAdvisorProfiles": 19,
+  "newAdvisorProfiles": 26,
   "preservedAdvisorProfiles": 30,
-  "newProfileCitedSourceCount": 60,
+  "newProfileCitedSourceCount": 70,
   "experienceRecords": 26,
   "defaultExperienceRecords": 26,
   "experienceSourceSites": 19,
@@ -42,18 +42,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 23920,
-      "sha256": "f2539f29fa5af19ba7ad7bd73473aa71b179a00317cc95888e0b369d6467a204"
+      "bytes": 25232,
+      "sha256": "ca1b688e6e8492260410aaaddd76b068e4c8a7843d4ddc32b5c57d92ae21252d"
     },
     {
       "path": "REPO-MAP.md",
-      "bytes": 5735,
-      "sha256": "ef116a6462e79f544e8a996e75654e304946b505ebfdce7744d41dbc9cf7b3a6"
+      "bytes": 5960,
+      "sha256": "d4ff64702f1365bc2c36f5c3c70308568830b29861861d6f1048f09c30ee8230"
     },
     {
       "path": "assets/app.js",
-      "bytes": 63828,
-      "sha256": "f187a531056bf109dd59ae4eb13963d44e42f4875d815a37f98a25c2533d6f0c"
+      "bytes": 63940,
+      "sha256": "413d54e181d04693fffa43896285d7cb8a367c6a3af52208efcd67838ccf2e39"
     },
     {
       "path": "assets/campus-art.webp",
@@ -62,8 +62,8 @@
     },
     {
       "path": "assets/core.js",
-      "bytes": 26257,
-      "sha256": "2f21f34288beadd37af135e7995bf9fd3d4aedd5ddaf4ecf2f4aa56fb0ec19ae"
+      "bytes": 26281,
+      "sha256": "c5028d5ec3205ebb7f18b82b1fe575b5f0a151623da711c8edb57903ec003efb"
     },
     {
       "path": "assets/experiences.js",
@@ -107,8 +107,8 @@
     },
     {
       "path": "data/advisor-profiles.json",
-      "bytes": 325741,
-      "sha256": "831f560e5d4ad4784ac0c43de33f4ef4a9cecde464951ad4850df37007a5d39a"
+      "bytes": 365659,
+      "sha256": "63908ddf9edc1fe3fd49befe3d59eec15bc4038207ea24ff388da5955d9866e9"
     },
     {
       "path": "data/application-experience-provenance.json",
@@ -127,8 +127,8 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 855379,
-      "sha256": "52bb93a5eeddd1200d9fcd642a82b184efe2d74a915ee8c72ef2168bd811f39f"
+      "bytes": 917424,
+      "sha256": "4e27e2b083f15faf04921216ac9ec5ef02519814d8f3fff905d856ceed9ec577"
     },
     {
       "path": "data/maintenance-2026-10-03.json",
@@ -161,6 +161,11 @@
       "sha256": "ec5204975321dc31f04e808dd37be88d510ac747bb62790af811ee209bbd14b9"
     },
     {
+      "path": "data/tsinghua-advisor-review-20261004.json",
+      "bytes": 11383,
+      "sha256": "7a5fe38cfc8dffe5f03e76e4f9af2f89ce80e347546c388c1e9792ea552203da"
+    },
+    {
       "path": "data/update-status.json",
       "bytes": 347,
       "sha256": "b96e217f713537808ee7874c3638ed0e2add57d514b2a23232085dd73d35cad5"
@@ -168,7 +173,7 @@
     {
       "path": "index.html",
       "bytes": 8252,
-      "sha256": "02602fe3c0ca6a15541787e866ac7d86f64f27c0ea44db8a33bf81e610ac14fc"
+      "sha256": "1d1380ea9c93fef6756f829272977c67a80b374831fae53176fdfa2ea7cbbf82"
     },
     {
       "path": "package.json",
@@ -177,8 +182,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 8177,
-      "sha256": "2d433a00189a33c10a53d0edc2ac8c7a3a36f7c41327ed3bc4ee76e00cb75d36"
+      "bytes": 8285,
+      "sha256": "ce909875914d2b8aaae336055236c9d347bee97ff16566b74972ca6809709711"
     },
     {
       "path": "tests/active-filters.test.mjs",
@@ -207,8 +212,8 @@
     },
     {
       "path": "tests/core.test.mjs",
-      "bytes": 6100,
-      "sha256": "09905540c8c1a6f218b9f9ea82dfd1d8ad5d5f4509c4099f7921375bfe9b7790"
+      "bytes": 6388,
+      "sha256": "5dd69dabdcc2b9ecfd53701a5cb14f3ef99102ab34f9c910879e927e80c4e7a8"
     },
     {
       "path": "tests/cycle-refresh.test.mjs",
@@ -398,7 +403,7 @@
     {
       "path": "tests/render.test.mjs",
       "bytes": 21914,
-      "sha256": "2d27d40e1768a6d090c95841ba33258ec6fa7c03e3ca30303f98d6357f4b1f21"
+      "sha256": "3d64ec352f07c2ba035606001403564a7f397ff6bedae7cc6f29240b1e82aeb7"
     },
     {
       "path": "tests/resource-versions.test.mjs",
@@ -414,6 +419,11 @@
       "path": "tests/sustech-review.test.mjs",
       "bytes": 1442,
       "sha256": "b48b81572ebbe03b02ada1ba8ecf16704d9909e4e0ce8787b5e2fc9cbfeb2bdb"
+    },
+    {
+      "path": "tests/tsinghua-review.test.mjs",
+      "bytes": 1864,
+      "sha256": "e95c3804899906c6e344e926ec67df49de75e5f0697a0dfe507638152404b045"
     }
   ],
   "qaMetadataScope": "Hashes identify this content snapshot. Automated test counters do not establish deployment or browser acceptance.",
