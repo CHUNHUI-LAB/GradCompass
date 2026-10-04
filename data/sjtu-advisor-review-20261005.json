@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "sjtu-advisor-review/1.0",
+  "institution": "SJTU",
+  "institutionZh": "上海交通大学",
+  "checkedDate": "2026-10-05",
+  "scope": "上海交通大学机器人、人工智能与具身智能相关博士项目和导师公开资料；项目方向、导师身份和个人招生分别记录。",
+  "admissionEvidence": [
+    {
+      "id": "sjtu-phd-2026-guide",
+      "title": "上海交通大学2026年博士研究生招生目录",
+      "cycle": "2026 Fall reference",
+      "status": "program_and_direction_reference",
+      "summaryZh": "上海交通大学官方来源提供博士项目、导师目录或博士招生入口参考；导师个人招生名额与 2028 Fall 接收未核实。",
+      "sources": [
+        {
+          "label": "上海交通大学2026年博士研究生招生目录",
+          "url": "https://ga.sjtu.edu.cn/zsgl/zsmlgl/zsml_bs.aspx?COLLCC=3580823700",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "陈卫东教授博士生招生通知",
+          "url": "https://robotics.sjtu.edu.cn/tzgg/1207.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false
+    }
+  ],
+  "advisors": [
+    {
+      "id": "sjtu-chen-weidong",
+      "name": "Weidong Chen",
+      "nameZh": "陈卫东",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "移动机器人、多机器人系统、移动操作臂、医疗机器人",
+      "profileUrl": "https://sais.sjtu.edu.cn/faculty/chenweidong.html",
+      "referencePhdRouteIds": [
+        "sjtu-robotics-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://sais.sjtu.edu.cn/faculty/chenweidong.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "上海交通大学2026年博士研究生招生目录",
+          "url": "https://ga.sjtu.edu.cn/zsgl/zsmlgl/zsml_bs.aspx?COLLCC=3580823700",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "陈卫东教授博士生招生通知",
+          "url": "https://robotics.sjtu.edu.cn/tzgg/1207.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    },
+    {
+      "id": "sjtu-zhang-weidong",
+      "name": "Weidong Zhang",
+      "nameZh": "张卫东",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "具身智能、无人系统、大模型导航、机器学习、强化学习、智能控制",
+      "profileUrl": "https://sais.sjtu.edu.cn/faculty/zhangweidong.html",
+      "referencePhdRouteIds": [
+        "sjtu-robotics-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://sais.sjtu.edu.cn/faculty/zhangweidong.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "上海交通大学2026年博士研究生招生目录",
+          "url": "https://ga.sjtu.edu.cn/zsgl/zsmlgl/zsml_bs.aspx?COLLCC=3580823700",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "陈卫东教授博士生招生通知",
+          "url": "https://robotics.sjtu.edu.cn/tzgg/1207.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    },
+    {
+      "id": "sjtu-yu-gan",
+      "name": "Gan Yu",
+      "nameZh": "余甘",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "无人系统控制",
+      "profileUrl": "https://sais.sjtu.edu.cn/faculty/yugan.html",
+      "referencePhdRouteIds": [
+        "sjtu-robotics-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://sais.sjtu.edu.cn/faculty/yugan.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "上海交通大学2026年博士研究生招生目录",
+          "url": "https://ga.sjtu.edu.cn/zsgl/zsmlgl/zsml_bs.aspx?COLLCC=3580823700",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "陈卫东教授博士生招生通知",
+          "url": "https://robotics.sjtu.edu.cn/tzgg/1207.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    }
+  ],
+  "conclusionZh": "已核实上海交通大学博士项目/导师方向与3位相关导师的官方研究档案；未把项目或导师名录推导为个人2028 Fall招生名额。"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "ustc-advisor-review/1.0",
+  "institution": "USTC",
+  "institutionZh": "中国科学技术大学",
+  "checkedDate": "2026-10-05",
+  "scope": "中国科学技术大学机器人、人工智能与具身智能相关博士项目和导师公开资料；项目方向、导师身份和个人招生分别记录。",
+  "admissionEvidence": [
+    {
+      "id": "ustc-phd-2026-guide",
+      "title": "中国科学技术大学2026年招生导师一览表",
+      "cycle": "2026 Fall reference",
+      "status": "program_and_direction_reference",
+      "summaryZh": "中国科学技术大学官方来源提供博士项目、导师目录或博士招生入口参考；导师个人招生名额与 2028 Fall 接收未核实。",
+      "sources": [
+        {
+          "label": "中国科学技术大学2026年招生导师一览表",
+          "url": "https://dslx.ustc.edu.cn/?menu=expertlist&year=2026",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "中国科学技术大学研究生招生在线通计划博士导师信息",
+          "url": "https://yz.ustc.edu.cn/article/2795",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false
+    }
+  ],
+  "advisors": [
+    {
+      "id": "ustc-ren-shaoqing",
+      "name": "Shaoqing Ren",
+      "nameZh": "任少卿",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "下一代基础模型、具身智能、AI for Science",
+      "profileUrl": "https://faculty.ustc.edu.cn/sqren/zh_CN/index.htm",
+      "referencePhdRouteIds": [
+        "ustc-ai-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://faculty.ustc.edu.cn/sqren/zh_CN/index.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "中国科学技术大学2026年招生导师一览表",
+          "url": "https://dslx.ustc.edu.cn/?menu=expertlist&year=2026",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "中国科学技术大学研究生招生在线通计划博士导师信息",
+          "url": "https://yz.ustc.edu.cn/article/2795",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    },
+    {
+      "id": "ustc-hu-qiqiang",
+      "name": "Qiqiang Hu",
+      "nameZh": "胡奇强",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "柔性智能机器人、软体机器人、形状记忆合金驱动、折纸启发机器人",
+      "profileUrl": "https://faculty.ustc.edu.cn/qqhu/zh_CN/index.htm",
+      "referencePhdRouteIds": [
+        "ustc-ai-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://faculty.ustc.edu.cn/qqhu/zh_CN/index.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "中国科学技术大学2026年招生导师一览表",
+          "url": "https://dslx.ustc.edu.cn/?menu=expertlist&year=2026",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "中国科学技术大学研究生招生在线通计划博士导师信息",
+          "url": "https://yz.ustc.edu.cn/article/2795",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    },
+    {
+      "id": "ustc-zhang-tianzhu",
+      "name": "Tianzhu Zhang",
+      "nameZh": "张天柱",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "机器学习、多媒体计算、人工智能、计算机视觉、模式识别",
+      "profileUrl": "https://faculty.ustc.edu.cn/zhangtianzhu/zh_CN/index.htm",
+      "referencePhdRouteIds": [
+        "ustc-ai-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://faculty.ustc.edu.cn/zhangtianzhu/zh_CN/index.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "中国科学技术大学2026年招生导师一览表",
+          "url": "https://dslx.ustc.edu.cn/?menu=expertlist&year=2026",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "中国科学技术大学研究生招生在线通计划博士导师信息",
+          "url": "https://yz.ustc.edu.cn/article/2795",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    }
+  ],
+  "conclusionZh": "已核实中国科学技术大学博士项目/导师方向与3位相关导师的官方研究档案；未把项目或导师名录推导为个人2028 Fall招生名额。"
+}

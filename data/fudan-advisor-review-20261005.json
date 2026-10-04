@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "fudan-advisor-review/1.0",
+  "institution": "Fudan",
+  "institutionZh": "复旦大学",
+  "checkedDate": "2026-10-05",
+  "scope": "复旦大学机器人、人工智能与具身智能相关博士项目和导师公开资料；项目方向、导师身份和个人招生分别记录。",
+  "admissionEvidence": [
+    {
+      "id": "fudan-phd-2026-guide",
+      "title": "复旦大学未来信息创新学院2026年博士研究生申请审核制选拔办法",
+      "cycle": "2026 Fall reference",
+      "status": "program_and_direction_reference",
+      "summaryZh": "复旦大学官方来源提供博士项目、导师目录或博士招生入口参考；导师个人招生名额与 2028 Fall 接收未核实。",
+      "sources": [
+        {
+          "label": "复旦大学未来信息创新学院2026年博士研究生申请审核制选拔办法",
+          "url": "https://fit.fudan.edu.cn/Assets/userfiles/sys_2939ad18-5046-44ce-ba93-a7f600e54d68/files/309%E6%9C%AA%E6%9D%A5%E4%BF%A1%E6%81%AF%E5%8D%9A%E5%A3%AB%E7%94%9F%E7%94%B3%E8%AF%B7%E5%AE%A1%E6%A0%B8%E5%88%B6%E9%80%89%E6%8B%94%E5%8A%9E%E6%B3%95.pdf",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "复旦大学未来信息创新学院博士项目与导师方向",
+          "url": "https://fit.fudan.edu.cn/En/Data/List/PhD%20Programmes",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false
+    }
+  ],
+  "advisors": [
+    {
+      "id": "fudan-zhang-wenqiang",
+      "name": "Wenqiang Zhang",
+      "nameZh": "张文强",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "机器人、人工智能、计算机视觉、智能装备",
+      "profileUrl": "https://ai.fudan.edu.cn/zwq_37535/list.htm",
+      "referencePhdRouteIds": [
+        "fudan-ai-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://ai.fudan.edu.cn/zwq_37535/list.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "复旦大学未来信息创新学院2026年博士研究生申请审核制选拔办法",
+          "url": "https://fit.fudan.edu.cn/Assets/userfiles/sys_2939ad18-5046-44ce-ba93-a7f600e54d68/files/309%E6%9C%AA%E6%9D%A5%E4%BF%A1%E6%81%AF%E5%8D%9A%E5%A3%AB%E7%94%9F%E7%94%B3%E8%AF%B7%E5%AE%A1%E6%A0%B8%E5%88%B6%E9%80%89%E6%8B%94%E5%8A%9E%E6%B3%95.pdf",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "复旦大学未来信息创新学院博士项目与导师方向",
+          "url": "https://fit.fudan.edu.cn/En/Data/List/PhD%20Programmes",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    },
+    {
+      "id": "fudan-chen-tao",
+      "name": "Tao Chen",
+      "nameZh": "陈涛",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "资源高效机器视觉、多模态具身大模型、机器人、无人机、智能制造",
+      "profileUrl": "https://fit.fudan.edu.cn/Data/View/2989",
+      "referencePhdRouteIds": [
+        "fudan-ai-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://fit.fudan.edu.cn/Data/View/2989",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "复旦大学未来信息创新学院2026年博士研究生申请审核制选拔办法",
+          "url": "https://fit.fudan.edu.cn/Assets/userfiles/sys_2939ad18-5046-44ce-ba93-a7f600e54d68/files/309%E6%9C%AA%E6%9D%A5%E4%BF%A1%E6%81%AF%E5%8D%9A%E5%A3%AB%E7%94%9F%E7%94%B3%E8%AF%B7%E5%AE%A1%E6%A0%B8%E5%88%B6%E9%80%89%E6%8B%94%E5%8A%9E%E6%B3%95.pdf",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "复旦大学未来信息创新学院博士项目与导师方向",
+          "url": "https://fit.fudan.edu.cn/En/Data/List/PhD%20Programmes",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    },
+    {
+      "id": "fudan-leng-siyang",
+      "name": "Siyang Leng",
+      "nameZh": "冷思阳",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "非线性动力学、复杂系统、智能控制、人工智能交叉研究",
+      "profileUrl": "https://faculty.fudan.edu.cn/syleng/zh_CN/index.htm",
+      "referencePhdRouteIds": [
+        "fudan-ai-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://faculty.fudan.edu.cn/syleng/zh_CN/index.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "复旦大学未来信息创新学院2026年博士研究生申请审核制选拔办法",
+          "url": "https://fit.fudan.edu.cn/Assets/userfiles/sys_2939ad18-5046-44ce-ba93-a7f600e54d68/files/309%E6%9C%AA%E6%9D%A5%E4%BF%A1%E6%81%AF%E5%8D%9A%E5%A3%AB%E7%94%9F%E7%94%B3%E8%AF%B7%E5%AE%A1%E6%A0%B8%E5%88%B6%E9%80%89%E6%8B%94%E5%8A%9E%E6%B3%95.pdf",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "复旦大学未来信息创新学院博士项目与导师方向",
+          "url": "https://fit.fudan.edu.cn/En/Data/List/PhD%20Programmes",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    },
+    {
+      "id": "fudan-cheng-yuan",
+      "name": "Yuan Cheng",
+      "nameZh": "程远",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "人工智能与生命科学、多模态认知、医学图像分析、机器学习、AI Infra",
+      "profileUrl": "https://ai3.fudan.edu.cn/info/1075/1394.htm",
+      "referencePhdRouteIds": [
+        "fudan-ai-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://ai3.fudan.edu.cn/info/1075/1394.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "复旦大学未来信息创新学院2026年博士研究生申请审核制选拔办法",
+          "url": "https://fit.fudan.edu.cn/Assets/userfiles/sys_2939ad18-5046-44ce-ba93-a7f600e54d68/files/309%E6%9C%AA%E6%9D%A5%E4%BF%A1%E6%81%AF%E5%8D%9A%E5%A3%AB%E7%94%9F%E7%94%B3%E8%AF%B7%E5%AE%A1%E6%A0%B8%E5%88%B6%E9%80%89%E6%8B%94%E5%8A%9E%E6%B3%95.pdf",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "复旦大学未来信息创新学院博士项目与导师方向",
+          "url": "https://fit.fudan.edu.cn/En/Data/List/PhD%20Programmes",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    }
+  ],
+  "conclusionZh": "已核实复旦大学博士项目/导师方向与4位相关导师的官方研究档案；未把项目或导师名录推导为个人2028 Fall招生名额。"
+}

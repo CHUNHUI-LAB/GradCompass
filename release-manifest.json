@@ -1,6 +1,6 @@
 {
   "project": "GradCompass",
-  "revision": "overseas-project-reference-candidate-20261004",
+  "revision": "seven-schools-phd-reference-20261005",
   "baseSourceCommit": "91af79d313c3d0bd7f3bfd5a4e306a3af596ccaf",
   "baseDeployedCommit": "4840df6a9718ec38e472f8fd7496047248029e71",
   "snapshotDate": "2026-10-04",
@@ -9,7 +9,7 @@
   "firstRunVerified": false,
   "browserVisualQA": "Not yet browser-verified.",
   "profilePilotCount": 56,
-  "visibleAdvisorCount": 63,
+  "visibleAdvisorCount": 87,
   "opportunityCount": 59,
   "raPositionCount": 2,
   "newAdvisorProfiles": 26,
@@ -42,18 +42,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 33767,
-      "sha256": "20fea5eaf8c21853f6fe05bcd1c0ffaa997eacbb46abda09cb90d37cd945fc58"
+      "bytes": 36806,
+      "sha256": "5565143cb88192932103b63b056cad6219e7f7290b7344fbd33efbb67be183cf"
     },
     {
       "path": "REPO-MAP.md",
-      "bytes": 8457,
-      "sha256": "5ba9ed90a03af56b9a75029f72623a38ada1e9b86695af017cd025db1471e431"
+      "bytes": 8983,
+      "sha256": "e16d03bc990d3c128145b4b8e1c6f7e98d609d47a969e001ee07ae836c9b0333"
     },
     {
       "path": "assets/app.js",
-      "bytes": 71337,
-      "sha256": "7853c62c888d92114c3af23100c57cf619876f6db258ddcae1d0e5c13860be3e"
+      "bytes": 72096,
+      "sha256": "d9cbee7993f51807de4fc40db1d1125fdd315c989c6fce60f57d5935e5592ab4"
     },
     {
       "path": "assets/campus-art.webp",
@@ -62,13 +62,13 @@
     },
     {
       "path": "assets/core.js",
-      "bytes": 30697,
-      "sha256": "dbee3ac4ba074acc0e976700abe11cd553edbddcc731e2a57afd7e9108a8d4d4"
+      "bytes": 30855,
+      "sha256": "0ea3317da2d719f70e99b3bf335c56d6082ca1764d3c5653d2c9ece4f16c4b2a"
     },
     {
       "path": "assets/experiences.js",
       "bytes": 22992,
-      "sha256": "8bef7f29980a59e4683f1638c139cd3bb07d183becd5dd98fb471ccabcf95f8a"
+      "sha256": "44e45723b59776b6b2fd7371cb648dea168df0a74ddb338cf19bc7221df7515e"
     },
     {
       "path": "assets/favicon.svg",
@@ -78,27 +78,27 @@
     {
       "path": "assets/material-supplement.js",
       "bytes": 1866,
-      "sha256": "fb34cc0ac33ee09c2089865f4b8fd49a86783c3a949118336d13cd0d40d7f2f5"
+      "sha256": "947252deca91ce2514cb74957003266c04a8929abf4f735efd64685b5f8bfeec"
     },
     {
       "path": "assets/page-overviews.js",
       "bytes": 15555,
-      "sha256": "5c0fc02de3b0d0360b0c21bc5446c29aed253a58476427f246eabf5b882df777"
+      "sha256": "bd8aa27debda61c2e089c10d73c1129f0e149a218c1e2343a42242db079bc94d"
     },
     {
       "path": "assets/profiles.js",
       "bytes": 2793,
-      "sha256": "a4b68809303fd645fa0ae753d41f04528f94903f03e7cc5d4da5cbabbb92c220"
+      "sha256": "ee8e18b726ee78c3f001c460877ab066ee28e34cb2aea5944d35f024d2143dac"
     },
     {
       "path": "assets/project-comparison.js",
       "bytes": 13304,
-      "sha256": "da592695fea0ee42aa43f11477921710ca314d1a09e228bbc76b17e426945c47"
+      "sha256": "2b18e81203e0030b52dc4e48e07d073649b86fdb01c09ec57ffb3fdef1d74c8e"
     },
     {
       "path": "assets/record-summaries.js",
       "bytes": 13388,
-      "sha256": "419506a1c852f23fc56ce0bc1c5a962b8137b8cffc0e50ebb0bc47389f140773"
+      "sha256": "08296d98b6ad09c0afb8597981135898fe89164bc0012319551bdf0e649f9f9e"
     },
     {
       "path": "assets/style.css",
@@ -127,8 +127,13 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 1328766,
-      "sha256": "5863b7a20bfa586b8f9e04d277092b8c96411a3970cf5322df76ade3b3e5ddbb"
+      "bytes": 1570580,
+      "sha256": "12589a50a890c37ef9944afbe624e0a76f332c3784a566b6583f5adf3cba75de"
+    },
+    {
+      "path": "data/fudan-advisor-review-20261005.json",
+      "bytes": 7613,
+      "sha256": "82a3b7598dfd0674940429e45e4d9c274be3537ed54302126e9cf9e8f839efb8"
     },
     {
       "path": "data/maintenance-2026-10-03.json",
@@ -146,6 +151,11 @@
       "sha256": "899a0ef0883432ca144f54064503781b52b3fbd26cddc1ab232dd6802c6dea0e"
     },
     {
+      "path": "data/nju-advisor-review-20261005.json",
+      "bytes": 5073,
+      "sha256": "0acb7ac384681b51aeab678233c95e2e669882d83c056617508a65c1c349ebe5"
+    },
+    {
       "path": "data/pku-advisor-review-20261004.json",
       "bytes": 6217,
       "sha256": "4e9b1e3300181484d88e7b6c7ef52e95bb720480f3c1e8f0e27a59046a4fd134"
@@ -161,9 +171,24 @@
       "sha256": "b5354ece6ee48d205665af699e008e74d51c41ca23000c7fc653eccfc906816e"
     },
     {
+      "path": "data/seu-advisor-review-20261005.json",
+      "bytes": 5122,
+      "sha256": "000951ae89a88316e8264d5110504c151db765154cc1a868ea8d8669ae45434a"
+    },
+    {
+      "path": "data/sjtu-advisor-review-20261005.json",
+      "bytes": 5115,
+      "sha256": "eb5dd0093c07a4b4feed25817d92b3b69dd49890e60354141f0a5737b3a8e8ee"
+    },
+    {
       "path": "data/sustech-advisor-review-20261004.json",
       "bytes": 42667,
       "sha256": "2f34732eed51b8d4939f8648fcb51333ca4ada82d94bdaf6097a308b9f6a2bf3"
+    },
+    {
+      "path": "data/tongji-advisor-review-20261005.json",
+      "bytes": 7629,
+      "sha256": "354794a93612d6b7bd10e88c894cdf51b534c18397da5e974d2312bd55693789"
     },
     {
       "path": "data/tsinghua-advisor-review-20261004.json",
@@ -176,9 +201,19 @@
       "sha256": "b96e217f713537808ee7874c3638ed0e2add57d514b2a23232085dd73d35cad5"
     },
     {
+      "path": "data/ustc-advisor-review-20261005.json",
+      "bytes": 5251,
+      "sha256": "4f7ffa0c07527929cc9a6c381eedaab137cb917f899f9cd80880cbe7607fcafc"
+    },
+    {
+      "path": "data/zju-advisor-review-20261005.json",
+      "bytes": 6637,
+      "sha256": "ea947c26b8059ab338be4876b4b9f547111df6cc2bf8a420b6ae1948592341ae"
+    },
+    {
       "path": "index.html",
       "bytes": 8270,
-      "sha256": "57a5fc0925de49e8dbb8031a81f39f75b84157173b3bbd18c81b40a932f3f1e6"
+      "sha256": "b047d5bb0a67c72e423085ac50467a98cc5805109f1bb09bc21adcb3758b8776"
     },
     {
       "path": "package.json",
@@ -187,8 +222,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 11360,
-      "sha256": "e0c0d12a04b79a3c2d00435baaad35336aa833aff9f883e36888fb108cedc6be"
+      "bytes": 11928,
+      "sha256": "ca0fee33b19f49a5486cb8336d0898898d36b96c3d6c0caa4b18e6e0eccec513"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -232,8 +267,8 @@
     },
     {
       "path": "tests/core.test.mjs",
-      "bytes": 6788,
-      "sha256": "3f22fd684aeb9f7d90bec0f830d70ee1e3059b61e909ae274f0154910c0835bb"
+      "bytes": 7313,
+      "sha256": "e03840cf85624fe69d1afc1f5c508a8dd548a96fe69acf3596f391f9590eadde"
     },
     {
       "path": "tests/current-correction-baseline.mjs",
@@ -538,7 +573,12 @@
     {
       "path": "tests/resource-versions.test.mjs",
       "bytes": 8156,
-      "sha256": "fd449d5221b600907a6796656bf49c6a7d9a5dd18c55d97aff447a3c8f353b22"
+      "sha256": "f01a919eec436290abacef6716c4e78c3dd0173d85f8f50d47066d94552951d7"
+    },
+    {
+      "path": "tests/seven-schools-review.test.mjs",
+      "bytes": 2897,
+      "sha256": "f0b41f4aeed44964256e97673e26f080b5f1d86db87aadbd1e37c7fe133c4e24"
     },
     {
       "path": "tests/strict-history-transform.mjs",
@@ -604,10 +644,10 @@
     "baseCommit": "1281ce4740272443563b4a98f421561bacc801f9",
     "scope": "Two inaccurate MSc overview text fragments only; no structure, style or interaction changes"
   },
-  "advisorCatalogCount": 63,
+  "advisorCatalogCount": 87,
   "verifiedDegreeAssociationCount": 57,
-  "projectCatalogCount": 45,
-  "visibleProjectCount": 45,
+  "projectCatalogCount": 52,
+  "visibleProjectCount": 52,
   "candidateBaseCommit": "7a8b2d63da2eab07b315a099bcd51c561a0c8c6f",
   "evidenceScope": "All recorded advisors and academic references remain readable; verified degree associations require exact sourced advisor-route joins. Project evidence is not individual recruitment or remaining capacity.",
   "detailUiPolish": {

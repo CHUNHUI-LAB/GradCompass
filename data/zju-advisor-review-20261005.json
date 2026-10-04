@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "zju-advisor-review/1.0",
+  "institution": "ZJU",
+  "institutionZh": "浙江大学",
+  "checkedDate": "2026-10-05",
+  "scope": "浙江大学机器人、人工智能与具身智能相关博士项目和导师公开资料；项目方向、导师身份和个人招生分别记录。",
+  "admissionEvidence": [
+    {
+      "id": "zju-phd-2027-guide",
+      "title": "浙江大学人工智能学院关于接收2027级推荐免试研究生工作安排",
+      "cycle": "2027 Fall reference",
+      "status": "program_and_direction_reference",
+      "summaryZh": "浙江大学官方来源提供博士项目、导师目录或博士招生入口参考；导师个人招生名额与 2028 Fall 接收未核实。",
+      "sources": [
+        {
+          "label": "浙江大学人工智能学院关于接收2027级推荐免试研究生工作安排",
+          "url": "https://ai.zju.edu.cn/2026/0810/c90497a3194262/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学人工智能学院2026年暑期实习生（夏令营）招收计划",
+          "url": "https://ai.zju.edu.cn/2026/0529/c90497a3168021/page.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false
+    }
+  ],
+  "advisors": [
+    {
+      "id": "zju-wu-fei",
+      "name": "Fei Wu",
+      "nameZh": "吴飞",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "人工智能、多媒体分析与检索、跨媒体计算",
+      "profileUrl": "https://person.zju.edu.cn/wufei/566723.html",
+      "referencePhdRouteIds": [
+        "zju-ai-phd-reference-2027"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://person.zju.edu.cn/wufei/566723.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学人工智能学院关于接收2027级推荐免试研究生工作安排",
+          "url": "https://ai.zju.edu.cn/2026/0810/c90497a3194262/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学人工智能学院2026年暑期实习生（夏令营）招收计划",
+          "url": "https://ai.zju.edu.cn/2026/0529/c90497a3168021/page.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    },
+    {
+      "id": "zju-zhuang-yueting",
+      "name": "Yueting Zhuang",
+      "nameZh": "庄越挺",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "人工智能理论、跨媒体智能、大数据智能、多媒体信息分析与检索、知识图谱",
+      "profileUrl": "https://person.zju.edu.cn/0089133/0.html",
+      "referencePhdRouteIds": [
+        "zju-ai-phd-reference-2027"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://person.zju.edu.cn/0089133/0.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学人工智能学院关于接收2027级推荐免试研究生工作安排",
+          "url": "https://ai.zju.edu.cn/2026/0810/c90497a3194262/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学人工智能学院2026年暑期实习生（夏令营）招收计划",
+          "url": "https://ai.zju.edu.cn/2026/0529/c90497a3168021/page.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    },
+    {
+      "id": "zju-li-xi",
+      "name": "Xi Li",
+      "nameZh": "李玺",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "人工智能、计算机视觉、机器学习、模式识别、数据挖掘",
+      "profileUrl": "https://person.zju.edu.cn/0014008",
+      "referencePhdRouteIds": [
+        "zju-ai-phd-reference-2027"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://person.zju.edu.cn/0014008",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学人工智能学院关于接收2027级推荐免试研究生工作安排",
+          "url": "https://ai.zju.edu.cn/2026/0810/c90497a3194262/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学人工智能学院2026年暑期实习生（夏令营）招收计划",
+          "url": "https://ai.zju.edu.cn/2026/0529/c90497a3168021/page.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    },
+    {
+      "id": "zju-chen-pei",
+      "name": "Pei Chen",
+      "nameZh": "陈培",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "生成式人工智能、智能体、人机协作、智能设计",
+      "profileUrl": "https://person.zju.edu.cn/chenpei",
+      "referencePhdRouteIds": [
+        "zju-ai-phd-reference-2027"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://person.zju.edu.cn/chenpei",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学人工智能学院关于接收2027级推荐免试研究生工作安排",
+          "url": "https://ai.zju.edu.cn/2026/0810/c90497a3194262/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学人工智能学院2026年暑期实习生（夏令营）招收计划",
+          "url": "https://ai.zju.edu.cn/2026/0529/c90497a3168021/page.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    }
+  ],
+  "conclusionZh": "已核实浙江大学博士项目/导师方向与4位相关导师的官方研究档案；未把项目或导师名录推导为个人2028 Fall招生名额。"
+}

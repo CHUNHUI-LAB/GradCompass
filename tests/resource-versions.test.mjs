@@ -17,7 +17,7 @@ test('expanded advisor profiles use their actual content version before the appl
 });
 test('release snapshot counts and allowlisted hashes describe the final content without claiming deployment',()=>{
  const manifest=JSON.parse(fs.readFileSync(new URL('release-manifest.json',root),'utf8'));
- assert.equal(manifest.profilePilotCount,56);assert.equal(manifest.visibleAdvisorCount,63);assert.equal(manifest.advisorCatalogCount,63);assert.equal(manifest.raPositionCount,2);const catalog=JSON.parse(fs.readFileSync(new URL('data/catalog.json',root),'utf8'));assert.equal(manifest.projectCatalogCount,catalog.routes.length);assert.equal(manifest.visibleProjectCount,catalog.routes.length);assert.equal(manifest.opportunityCount,manifest.verifiedDegreeAssociationCount+manifest.raPositionCount);assert.equal(manifest.candidateBaseCommit,'7a8b2d63da2eab07b315a099bcd51c561a0c8c6f');
+ assert.equal(manifest.profilePilotCount,56);assert.equal(manifest.visibleAdvisorCount,87);assert.equal(manifest.advisorCatalogCount,87);assert.equal(manifest.raPositionCount,2);const catalog=JSON.parse(fs.readFileSync(new URL('data/catalog.json',root),'utf8'));assert.equal(manifest.projectCatalogCount,catalog.routes.length);assert.equal(manifest.visibleProjectCount,catalog.routes.length);assert.equal(manifest.opportunityCount,manifest.verifiedDegreeAssociationCount+manifest.raPositionCount);assert.equal(manifest.candidateBaseCommit,'7a8b2d63da2eab07b315a099bcd51c561a0c8c6f');
  assert.equal(manifest.newAdvisorProfiles,26);assert.equal(manifest.preservedAdvisorProfiles,30);assert(manifest.newProfileCitedSourceCount>=15);
  const cited=new Set();const collect=value=>{if(Array.isArray(value))return value.forEach(collect);if(!value||typeof value!=='object')return;for(const [key,item]of Object.entries(value)){if(key==='sources')item.forEach(s=>cited.add(s.url));else collect(item);}};collect(JSON.parse(fs.readFileSync(new URL('data/advisor-profiles.json',root),'utf8')).profiles.slice(30));assert.equal(cited.size,manifest.newProfileCitedSourceCount);
  assert.equal(manifest.baseSourceCommit,'91af79d313c3d0bd7f3bfd5a4e306a3af596ccaf');assert.equal(manifest.baseDeployedCommit,'4840df6a9718ec38e472f8fd7496047248029e71');assert.equal(manifest.browserVisualQA,'Not yet browser-verified.');assert(!JSON.stringify(manifest).includes('socket'));assert(!JSON.stringify(manifest).includes('Chromium'));assert.match(manifest.status,/do not establish deployment/);
@@ -28,7 +28,7 @@ test('release snapshot counts and allowlisted hashes describe the final content 
 
 test('README version scope separates dated verification from deployment status',()=>{
  const readme=fs.readFileSync(new URL('README.md',root),'utf8');
- const scope=readme.split('## 版本范围与验证说明（2026-10-04）')[1]?.split('## ')[0];
+ const scope=readme.split('## 版本范围与验证说明（2026-10-05）')[1]?.split('## ')[0];
  assert(scope);assert(scope.includes('GitHub Pages 部署记录'));assert(scope.includes('自动测试结果不代表已部署或已完成浏览器验收'));
  assert(!readme.includes('朋友'));assert(!scope.includes('未推送、未部署'));
 });
@@ -45,6 +45,6 @@ test('README historical counts cite original commits and retain an explicit corr
 test('README public navigation overview matches current counts without implying complete coverage',()=>{
  const readme=fs.readFileSync(new URL('README.md',root),'utf8');
  const overview=readme.split('## 按要做的事浏览\n')[1]?.split('\n## ')[0];
- assert(overview.includes('63 位导师均可查阅'));assert(overview.includes('个人学位关联 57 条'));assert(overview.includes('RA 岗位 2 条'));assert(overview.includes('20 条博士项目参考另行标注'));assert(overview.includes('44 个项目均可查阅'));assert(overview.includes('30 份培养与研究简介'));assert(overview.includes('17 组官方材料摘要'));assert(!overview.includes('背景资格仍是底层收录条件'));
+ assert(overview.includes('87 位导师均可查阅'));assert(overview.includes('个人学位关联 57 条'));assert(overview.includes('RA 岗位 2 条'));assert(overview.includes('新增博士项目参考另行标注'));assert(overview.includes('52 个项目均可查阅'));assert(overview.includes('30 份培养与研究简介'));assert(overview.includes('17 组官方材料摘要'));assert(!overview.includes('背景资格仍是底层收录条件'));
  const materials=readme.split('## 材料补充与范围\n')[1]?.split('\n## ')[0];assert(materials.includes('15 组官方摘要、47 个实际引用来源'));assert(materials.includes('共 17 组'));
 });

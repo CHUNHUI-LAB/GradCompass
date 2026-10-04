@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "tongji-advisor-review/1.0",
+  "institution": "Tongji",
+  "institutionZh": "同济大学",
+  "checkedDate": "2026-10-05",
+  "scope": "同济大学机器人、人工智能与具身智能相关博士项目和导师公开资料；项目方向、导师身份和个人招生分别记录。",
+  "admissionEvidence": [
+    {
+      "id": "tongji-phd-2026-guide",
+      "title": "同济大学2026年博士研究生招生章程",
+      "cycle": "2026 Fall reference",
+      "status": "program_and_direction_reference",
+      "summaryZh": "同济大学官方来源提供博士项目、导师目录或博士招生入口参考；导师个人招生名额与 2028 Fall 接收未核实。",
+      "sources": [
+        {
+          "label": "同济大学2026年博士研究生招生章程",
+          "url": "https://yz.tongji.edu.cn/__local/4/DE/C5/CBF316CC9EAB81193FCB6F174F2_FAE3F663_3C498.pdf",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "同济大学智能机器人与计算感知实验室博士招生入口",
+          "url": "https://robot.tongji.edu.cn/sysjs.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "徐阳导师主页（明确招收2027年入学硕博）",
+          "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false
+    }
+  ],
+  "advisors": [
+    {
+      "id": "tongji-he-bin",
+      "name": "Bin He",
+      "nameZh": "何斌",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "智能机器人、智能感知、智能检测、无人系统、数字孪生",
+      "profileUrl": "https://robot.tongji.edu.cn/info/1256/2083.htm",
+      "referencePhdRouteIds": [
+        "tongji-robotics-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://robot.tongji.edu.cn/info/1256/2083.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "同济大学2026年博士研究生招生章程",
+          "url": "https://yz.tongji.edu.cn/__local/4/DE/C5/CBF316CC9EAB81193FCB6F174F2_FAE3F663_3C498.pdf",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "同济大学智能机器人与计算感知实验室博士招生入口",
+          "url": "https://robot.tongji.edu.cn/sysjs.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "徐阳导师主页（明确招收2027年入学硕博）",
+          "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    },
+    {
+      "id": "tongji-wang-zhipeng",
+      "name": "Zhipeng Wang",
+      "nameZh": "王志鹏",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "无人系统感知、机器人灵巧操作、足式机器人自主行走、移动机器人自主导航",
+      "profileUrl": "https://robot.tongji.edu.cn/info/1256/2086.htm",
+      "referencePhdRouteIds": [
+        "tongji-robotics-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://robot.tongji.edu.cn/info/1256/2086.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "同济大学2026年博士研究生招生章程",
+          "url": "https://yz.tongji.edu.cn/__local/4/DE/C5/CBF316CC9EAB81193FCB6F174F2_FAE3F663_3C498.pdf",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "同济大学智能机器人与计算感知实验室博士招生入口",
+          "url": "https://robot.tongji.edu.cn/sysjs.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "徐阳导师主页（明确招收2027年入学硕博）",
+          "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    },
+    {
+      "id": "tongji-xu-yang",
+      "name": "Yang Xu",
+      "nameZh": "徐阳",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "机器人主动感知与认知、自主环境探测与规划、机器人长期学习与理解",
+      "profileUrl": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+      "referencePhdRouteIds": [
+        "tongji-robotics-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "同济大学2026年博士研究生招生章程",
+          "url": "https://yz.tongji.edu.cn/__local/4/DE/C5/CBF316CC9EAB81193FCB6F174F2_FAE3F663_3C498.pdf",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "同济大学智能机器人与计算感知实验室博士招生入口",
+          "url": "https://robot.tongji.edu.cn/sysjs.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "徐阳导师主页（明确招收2027年入学硕博）",
+          "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    },
+    {
+      "id": "tongji-jiang-shuo",
+      "name": "Shuo Jiang",
+      "nameZh": "蒋烁",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "具身智能、多模感知、人机系统、智能机器人",
+      "profileUrl": "https://robot.tongji.edu.cn/info/1256/2090.htm",
+      "referencePhdRouteIds": [
+        "tongji-robotics-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://robot.tongji.edu.cn/info/1256/2090.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "同济大学2026年博士研究生招生章程",
+          "url": "https://yz.tongji.edu.cn/__local/4/DE/C5/CBF316CC9EAB81193FCB6F174F2_FAE3F663_3C498.pdf",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "同济大学智能机器人与计算感知实验室博士招生入口",
+          "url": "https://robot.tongji.edu.cn/sysjs.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "徐阳导师主页（明确招收2027年入学硕博）",
+          "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    }
+  ],
+  "conclusionZh": "已核实同济大学博士项目/导师方向与4位相关导师的官方研究档案；未把项目或导师名录推导为个人2028 Fall招生名额。"
+}

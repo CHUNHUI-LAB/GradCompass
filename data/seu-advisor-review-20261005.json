@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "seu-advisor-review/1.0",
+  "institution": "SEU",
+  "institutionZh": "东南大学",
+  "checkedDate": "2026-10-05",
+  "scope": "东南大学机器人、人工智能与具身智能相关博士项目和导师公开资料；项目方向、导师身份和个人招生分别记录。",
+  "admissionEvidence": [
+    {
+      "id": "seu-phd-2026-guide",
+      "title": "东南大学2026年全日制博士研究生招生简章",
+      "cycle": "2026 Fall reference",
+      "status": "program_and_direction_reference",
+      "summaryZh": "东南大学官方来源提供博士项目、导师目录或博士招生入口参考；导师个人招生名额与 2028 Fall 接收未核实。",
+      "sources": [
+        {
+          "label": "东南大学2026年全日制博士研究生招生简章",
+          "url": "https://yzb.seu.edu.cn/2025/1105/c6668a544833/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "东南大学2026年博士研究生招生目录入口",
+          "url": "https://yzb.seu.edu.cn/6668/list.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false
+    }
+  ],
+  "advisors": [
+    {
+      "id": "seu-li-zhongguo",
+      "name": "Zhongguo Li",
+      "nameZh": "李中国",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "人工智能、学习控制、分布式优化、机器人系统、大语言模型",
+      "profileUrl": "https://automation.seu.edu.cn/lzg/",
+      "referencePhdRouteIds": [
+        "seu-robotics-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://automation.seu.edu.cn/lzg/",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "东南大学2026年全日制博士研究生招生简章",
+          "url": "https://yzb.seu.edu.cn/2025/1105/c6668a544833/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "东南大学2026年博士研究生招生目录入口",
+          "url": "https://yzb.seu.edu.cn/6668/list.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    },
+    {
+      "id": "seu-huang-yongming",
+      "name": "Yongming Huang",
+      "nameZh": "黄永明",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "人工智能、医工交叉、高性能嵌入式系统、助老与救援机器人",
+      "profileUrl": "https://automation.seu.edu.cn/hym/",
+      "referencePhdRouteIds": [
+        "seu-robotics-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://automation.seu.edu.cn/hym/",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "东南大学2026年全日制博士研究生招生简章",
+          "url": "https://yzb.seu.edu.cn/2025/1105/c6668a544833/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "东南大学2026年博士研究生招生目录入口",
+          "url": "https://yzb.seu.edu.cn/6668/list.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    },
+    {
+      "id": "seu-chang-zhiyong",
+      "name": "Zhiyong Chang",
+      "nameZh": "常志勇",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "深海油气仿生传感与钻探机器人、智能探测与传感装备",
+      "profileUrl": "https://me.seu.edu.cn/2025/1104/c31182a544715/pagem.htm",
+      "referencePhdRouteIds": [
+        "seu-robotics-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://me.seu.edu.cn/2025/1104/c31182a544715/pagem.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "东南大学2026年全日制博士研究生招生简章",
+          "url": "https://yzb.seu.edu.cn/2025/1105/c6668a544833/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "东南大学2026年博士研究生招生目录入口",
+          "url": "https://yzb.seu.edu.cn/6668/list.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    }
+  ],
+  "conclusionZh": "已核实东南大学博士项目/导师方向与3位相关导师的官方研究档案；未把项目或导师名录推导为个人2028 Fall招生名额。"
+}

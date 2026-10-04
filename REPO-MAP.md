@@ -1,6 +1,6 @@
 # GradCompass 仓库地图与 2028 Fall 证据规则
 
-本文记录当前代码、数据、测试和发布清单之间的边界，作为后续继续开发的入口。当前海外项目候选基线为main `7a8b2d63da2eab07b315a099bcd51c561a0c8c6f`（与67d98a99相同内容树）；此前来源更正层基线为 `3f294a8cc601e77183deb594de0836ec76cc8a9c`。旧批次记录按其原历史范围保留，当前权威计数由 `node scripts/public-counts.mjs` 生成。
+本文记录当前代码、数据、测试和发布清单之间的边界，作为后续继续开发的入口。当前工作基于已发布内容树 `fb8fd05`，并在其上追加七校博士项目参考；此前来源更正层基线为 `3f294a8cc601e77183deb594de0836ec76cc8a9c`。旧批次记录按其原历史范围保留，当前权威计数由 `node scripts/public-counts.mjs` 生成。
 
 ## 数据与运行链路
 
@@ -10,6 +10,7 @@
 | 导师专业简介 | `data/advisor-profiles.json` | 仅按 `advisorId` 补充职业概况、实验室、资源、代表成果和未知项；不能覆盖 `catalog` 的资格、招生或名额字段。 |
 | 清华核查记录 | `data/tsinghua-advisor-review-20261004.json` | 保存清华不同年份/渠道的真实来源、五项来源纠错、博士参考与7位导师的核查；不把项目参考升级为 2028 Fall 名额。 |
 | 南科大核查记录 | `data/sustech-advisor-review-20261004.json` | 保存南科大机械系自主培养博士项目、自动化学院 2027 博士通知、导师关联和 2028 Fall 边界；博士路线只在详情中作为参考。 |
+| 七校博士核查记录 | `data/zju-advisor-review-20261005.json`、`data/fudan-advisor-review-20261005.json`、`data/sjtu-advisor-review-20261005.json`、`data/nju-advisor-review-20261005.json`、`data/ustc-advisor-review-20261005.json`、`data/tongji-advisor-review-20261005.json`、`data/seu-advisor-review-20261005.json` | 保存浙江大学、复旦大学、上海交通大学、南京大学、中国科学技术大学、同济大学、东南大学的官方博士项目或导师目录依据；均为 `reference`，不制造个人 2028 Fall 名额。 |
 | 项目简介 | `data/project-summaries.json` | 补充培养、研究、入学条件和批次说明；不能从项目简介推导导师名额。 |
 | 材料摘要 | `data/material-summaries.json` | 官方材料要求的有界摘要；与原目录材料合并展示。 |
 | 申请经验 | `data/application-experiences.json` 与 `data/application-experience-provenance.json` | 公开自述及其阅读范围；不参与当前招生资格判断。 |
@@ -59,7 +60,7 @@
 
 - `browseAdvisors`/`browseRoutes`用于公开全集，旧`filterAdvisors`/`filterRoutes`仅保留早期本科便利筛选的历史回归语义，不决定当前公开可见性
 - `hasVerifiedAssociation`只接受精确routeId、verified状态、非pending验证及个人关联来源；`buildOpportunities`不把项目资格或reference转换成导师个人招生
-- 63位导师与44个项目可浏览；本批保留原42项目和全部导师，追加JHU、BU项目层面记录与北京大学导师参考。研究资料、前置学历和招生方式分别展示，未知不删除；15位并发新增导师保持身份和来源历史
+- 当前目录含87位导师与52个项目；本批在既有内容上追加七校博士项目参考。研究资料、前置学历和招生方式分别展示，未知不删除；新记录不改变57条已核实学位关联与2个独立RA岗位的统计。
 - `sourceCycle`、`admissionMode`、`currentCycleVerificationStatus`与个人`individualRecruitmentVerified`相互独立；周期标签须读原HTML标题，不能只依赖可能漏标题的正文抽取
 - 四份补充资料独立加载；全依赖链content hash经freeze后写入，实际验证结果不硬编码进manifest
 - 历史tests采用固定commit及原始字节哈希，新增与纠错逐次精确逆变换；未知变化、排序和新增字段必须触发失败

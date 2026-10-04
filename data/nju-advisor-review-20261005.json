@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "nju-advisor-review/1.0",
+  "institution": "NJU",
+  "institutionZh": "南京大学",
+  "checkedDate": "2026-10-05",
+  "scope": "南京大学机器人、人工智能与具身智能相关博士项目和导师公开资料；项目方向、导师身份和个人招生分别记录。",
+  "admissionEvidence": [
+    {
+      "id": "nju-phd-2026-guide",
+      "title": "南京大学 LAMDA 2026 年秋季研究生招收说明",
+      "cycle": "2026 Fall reference",
+      "status": "program_and_direction_reference",
+      "summaryZh": "南京大学官方来源提供博士项目、导师目录或博士招生入口参考；导师个人招生名额与 2028 Fall 接收未核实。",
+      "sources": [
+        {
+          "label": "南京大学 LAMDA 2026 年秋季研究生招收说明",
+          "url": "https://www.lamda.nju.edu.cn/recruit-2026/recruit-2026.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学人工智能学院 LAMDA 成员名录",
+          "url": "https://www.lamda.nju.edu.cn/CH.People.ashx",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false
+    }
+  ],
+  "advisors": [
+    {
+      "id": "nju-li-yufeng",
+      "name": "Yu-Feng Li",
+      "nameZh": "李宇峰",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "鲁棒与可靠机器学习、神经符号学习、半监督学习、统计学习与优化",
+      "profileUrl": "https://www.lamda.nju.edu.cn/liyf/",
+      "referencePhdRouteIds": [
+        "nju-ai-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://www.lamda.nju.edu.cn/liyf/",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学 LAMDA 2026 年秋季研究生招收说明",
+          "url": "https://www.lamda.nju.edu.cn/recruit-2026/recruit-2026.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学人工智能学院 LAMDA 成员名录",
+          "url": "https://www.lamda.nju.edu.cn/CH.People.ashx",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    },
+    {
+      "id": "nju-shen-furao",
+      "name": "Furao Shen",
+      "nameZh": "申富饶",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "神经计算、机器学习、机器人智能",
+      "profileUrl": "https://ai.nju.edu.cn/e9/5e/c18540a321886/pagem.htm",
+      "referencePhdRouteIds": [
+        "nju-ai-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://ai.nju.edu.cn/e9/5e/c18540a321886/pagem.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学 LAMDA 2026 年秋季研究生招收说明",
+          "url": "https://www.lamda.nju.edu.cn/recruit-2026/recruit-2026.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学人工智能学院 LAMDA 成员名录",
+          "url": "https://www.lamda.nju.edu.cn/CH.People.ashx",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    },
+    {
+      "id": "nju-zhao-jinxi",
+      "name": "Jinxi Zhao",
+      "nameZh": "赵金熙",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "计算智能、大规模科学计算、机器人智能",
+      "profileUrl": "https://ai.nju.edu.cn/rinc/Member.html",
+      "referencePhdRouteIds": [
+        "nju-ai-phd-reference-2026"
+      ],
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页 / 官方导师名录",
+          "url": "https://ai.nju.edu.cn/rinc/Member.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学 LAMDA 2026 年秋季研究生招收说明",
+          "url": "https://www.lamda.nju.edu.cn/recruit-2026/recruit-2026.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学人工智能学院 LAMDA 成员名录",
+          "url": "https://www.lamda.nju.edu.cn/CH.People.ashx",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    }
+  ],
+  "conclusionZh": "已核实南京大学博士项目/导师方向与3位相关导师的官方研究档案；未把项目或导师名录推导为个人2028 Fall招生名额。"
+}
