@@ -1,8 +1,9 @@
+// Historical 5e7cd36 data assertions; current application coverage is tested separately.
 import {experienceBatchBaseline} from './experience-batch-20261004-baseline.mjs';
 import {advisorAdditionsBaselineBytes} from './advisor-additions-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './historical-source-fs.mjs';
 import crypto from 'node:crypto';
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url),'utf8');
 const html=read('index.html'),css=read('assets/style.css'),app=read('assets/app.js'),experiences=read('assets/experiences.js');

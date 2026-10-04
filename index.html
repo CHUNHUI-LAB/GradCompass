@@ -9,7 +9,7 @@
 <title>GradCompass · 找导师与项目</title>
 <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
 <link rel="stylesheet" href="./assets/style.css?v=8bdf5b250a9e">
-<script type="module" src="./assets/app.js?v=ce7ce59dd5ee"></script>
+<script type="module" src="./assets/app.js?v=d90c1fa2e552"></script>
 </head>
 <body>
 <a class="skip-link" href="#results">跳到结果</a>
@@ -39,7 +39,7 @@
 
       <label id="institution-filter-label">学校<select id="institution-filter"><option value="">全部学校</option></select></label>
       <label id="topic-filter-label">研究方向<select id="topic-filter"><option value="">全部研究方向</option></select></label>
-      <label id="opportunity-filter-label"><span id="opportunity-filter-name">申请类型</span><select id="opportunity-filter"><option value="">全部申请类型</option><option value="RA">RA · 研究助理</option><option value="MSc">MSc · 理学硕士</option><option value="MPhil">MPhil · 研究型硕士</option><option value="PhD">PhD · 博士</option></select></label>
+      <label id="opportunity-filter-label"><span id="opportunity-filter-name">申请类型</span><select id="opportunity-filter"><option value="">全部申请类型</option><option value="RA">RA · 研究助理</option><option value="MSc">MSc · 硕士项目</option><option value="MPhil">MPhil · 研究型硕士</option><option value="PhD">PhD · 博士</option></select></label>
 
 <a href="#results" class="find-results" data-find-results>查看筛选结果 <span aria-hidden="true">→</span></a>
       <details class="advanced-filters"><summary>导师职级与招生信息</summary><div class="advanced-filter-grid">      <p id="opportunity-filter-note" class="small-note">MSc、MPhil、PhD 是学位；RA 是研究助理工作岗位</p>      <label id="rank-filter-label">导师职级<select id="rank-filter"><option value="">全部职级</option><option value="professor">教授 · Professor</option><option value="associate">副教授 · Associate Professor</option><option value="assistant">助理教授 · Assistant Professor</option><option value="research">研究系列 · Research</option><option value="other">其他职衔</option><option value="unknown">职级待核实</option></select></label>
@@ -54,7 +54,7 @@
   <div class="workspace">
 
     <section id="results" class="results" tabindex="-1" aria-labelledby="results-title">
-      <div class="results-heading"><div><h2 id="results-title" tabindex="-1">找导师</h2><p id="result-count" role="status" aria-live="polite">正在载入已核实数据…</p></div><span id="results-note" class="quiet">同一导师的不同机会分别展示</span></div>
+      <div class="results-heading"><div><h2 id="results-title" tabindex="-1">找导师</h2><p id="result-count" role="status" aria-live="polite">正在载入目录与证据…</p></div><span id="results-note" class="quiet">导师全集保留，已核实关联与岗位分别展示</span></div>
       <div id="active-filters" class="active-filters" role="group" aria-label="当前筛选条件" hidden></div>
       <p id="view-description" class="view-description"></p>
       <div id="view-content" tabindex="-1"><div class="loading"><span></span>正在载入数据</div></div>

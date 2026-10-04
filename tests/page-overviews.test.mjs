@@ -1,9 +1,10 @@
+// Historical 5e7cd36 data assertions; current application coverage is tested separately.
 import {isVerifiedRoute} from '../assets/core.js';
 import {maintenanceBaseline} from './maintenance-baseline.mjs';
 import {recruitmentBaselineText} from './recruitment-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './historical-source-fs.mjs';
 import crypto from 'node:crypto';
 import {buildPageOverview,renderPageOverview,overviewPresets} from '../assets/page-overviews.js';
 import {normalizeMaterialSupplement} from '../assets/material-supplement.js';
@@ -28,14 +29,14 @@ test('five distinct page overviews provide real synthesis before item-level list
  const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');assert(html.indexOf('class="search-surface"')<html.indexOf('id="page-overview"'));assert(html.indexOf('id="page-overview"')<html.indexOf('id="results"'));assert(html.indexOf('id="page-overview"')<html.indexOf('id="view-content"'));
 });
 test('advisor coverage uses unique included people, distinguishes degree signals from RA jobs',()=>{
- const s=plain('advisors');assert(s.includes('41 位导师'));assert(s.includes('59 条机会'));assert(s.includes('57 条学位机会中，32 条'));assert(s.includes('2 个已核实 RA 岗位'));assert(s.includes('灵巧操作与触觉涉及 23 位'));assert(!s.includes('34 位导师'));assert(!s.includes('46 位导师'));
+ const s=plain('advisors');assert(s.includes('43 位导师'));assert(s.includes('59 条已核实关联/岗位'));assert(s.includes('57 条学位机会中，32 条'));assert(s.includes('2 个已核实 RA 岗位'));assert(s.includes('灵巧操作与触觉涉及 25 位'));assert(!s.includes('34 位导师'));assert(!s.includes('46 位导师'));
 });
 test('programme synthesis reports complete current coverage without inflating the route count',()=>{
- const s=plain('routes');for(const text of ['28 个项目','9 所学校','13 个 MPhil','12 个 PhD','28 个项目有培养与研究简介','另外 0 个目前仅有基本条件'])assert(s.includes(text),text);assert(s.includes('授课'));assert(s.includes('固定导师名额'));
+ const s=plain('routes');for(const text of ['34 个项目','9 所学校','15 个 MPhil','16 个 PhD','28 个项目有培养与研究简介','另外 6 个目前仅有基本条件'])assert(s.includes(text),text);assert(s.includes('须分别核对培养类型'));assert(s.includes('固定导师名额'));
 });
 test('programme loading and failed states never pretend introductions loaded',()=>{
  for(const state of ['loading','unavailable']){const m=buildPageOverview('routes',{...catalog,projectSummaries:new Map},{...options,projectSummaryState:state});assert(!JSON.stringify(m).includes('28 个项目有培养'));assert(m.insights[2].text.includes(state==='loading'?'正在载入':'暂未载入'));assert.equal(m.insights[0].action.label,'查看 CSE 项目条件');}
- const m=buildPageOverview('routes',{...catalog,projectSummaries:new Map([...catalog.projectSummaries].slice(0,1))},{...options,projectSummaryState:'partial'});assert(m.insights[2].text.includes('1 个项目'));assert(m.insights[2].text.includes('27 个'));assert(m.insights[2].text.includes('部分简介未能验证'));
+ const m=buildPageOverview('routes',{...catalog,projectSummaries:new Map([...catalog.projectSummaries].slice(0,1))},{...options,projectSummaryState:'partial'});assert(m.insights[2].text.includes('1 个项目'));assert(m.insights[2].text.includes('33 个'));assert(m.insights[2].text.includes('部分简介未能验证'));
 });
 test('calendar synthesis is scoped to current date records and explicitly warns of unsynced programme cycles',()=>{
  const s=plain('deadlines');for(const text of ['2026-10-20','21 条后续日期记录','0 条日期或批次待确认','2 条已截止记录','2026-10-01','本页已记录日期','日历尚未覆盖','不是实时开放状态'])assert(s.includes(text),text);assert(!s.includes('最近申请截止'));assert(!s.includes('HKU 尚未公布'));
@@ -99,14 +100,14 @@ test('calendar labels its all-school scope separately from filtered results with
 
 test('MSc overview title does not hard-code the old two-programme count',()=>{
  const m=buildPageOverview('routes',catalog,options);
- assert.equal(m.insights[1].title,'MSc 侧重授课培养');
+ assert.equal(m.insights[1].title,'硕士项目须分别核对培养类型');
  assert.equal(catalog.routes.filter(r=>isVerifiedRoute(r)&&r.degree==='MSc').length,3);
  assert(!m.insights[1].title.includes('两个'));
 });
 test('MSc loading fallback counts current programmes without claiming an exhaustive old-school pair',()=>{
  for(const state of ['loading','unavailable']){
   const m=buildPageOverview('routes',{...catalog,projectSummaries:new Map},{...options,projectSummaryState:state});
-  assert(m.insights[1].text.includes('已收录 3 个 MSc。'));
+  assert(m.insights[1].text.includes('已收录 3 个 MSc 类硕士项目。'));
   assert(!m.insights[1].text.includes('是 CUHK Robotics 与 PolyU'));
   assert.equal(m.insights[1].action.preset,'routes-msc');
  }

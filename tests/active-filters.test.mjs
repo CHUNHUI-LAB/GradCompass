@@ -32,7 +32,7 @@ for(const [,id,options] of html.matchAll(/<select id="([^"]+)">([\s\S]*?)<\/sele
 globalThis.document={querySelector:el,querySelectorAll:s=>s==='dialog'?[el('#detail-dialog'),el('#compare-dialog')]:[],addEventListener:(type,listener)=>events[type]=listener,getElementById:id=>el('#'+id),activeElement:{tagName:'BODY'}};
 globalThis.window={addEventListener:(type,listener)=>navigation[type]=listener};globalThis.location={hash:'#advisors'};
 const route={id:'sample-msc',institution:'HKU',program:'Sample robotics MSc',degree:'MSc',status:'verified',bachelorEligible:true,noTuimianRequired:true,noMasterRequired:true,eligibilitySummary:'Synthetic requirement',sources:[{url:'https://example.org/program'}]};
-const advisor={id:'sample-advisor',institution:'HKU',name:'Sample Researcher',position:'Assistant Professor',department:'Robotics',summary:'robot learning and SLAM',topics:['robot learning'],eligibility:'verified',routeIds:[route.id],openingDetails:[{degree:'MSc',status:'explicit'}]};
+const advisor={id:'sample-advisor',institution:'HKU',name:'Sample Researcher',position:'Assistant Professor',department:'Robotics',summary:'robot learning and SLAM',topics:['robot learning'],eligibility:'verified',routeIds:[route.id],routeAssociations:[{routeId:route.id,status:'verified',sources:[{url:'https://example.org/synthetic-advisor-project-association',checkedDate:'2026-10-01'}]}],openingDetails:[{degree:'MSc',status:'explicit'}]};
 const catalog={metadata:{checkedDate:'2026-10-01'},advisors:[advisor],routes:[route],materials:[{id:'sample-material',institution:'HKU',title:'Sample statement',routeIds:[route.id],sources:[{url:'https://example.org/material'}]}],deadlines:[{id:'sample-date',institution:'HKU',title:'Sample deadline',date:'2027-01-10',routeIds:[route.id],sources:[{url:'https://example.org/date'}]}]};
 let releaseProjects;const projectsReady=new Promise(resolve=>releaseProjects=resolve);
 globalThis.fetch=async url=>{const name=new URL(url).pathname.split('/').pop();if(name==='project-summaries.json')await projectsReady;return{ok:true,json:async()=>name==='catalog.json'?catalog:name==='update-status.json'?{statusLabel:'Synthetic fixture'}:name==='ra-positions.json'?{raPositions:[]}:{records:[]}}};
@@ -53,9 +53,9 @@ test('empty feedback stays hidden; each current-page field uses its native visib
  assert(row().hidden);assert.equal(chips().length,0);
  search('Sample');change('institution','HKU');change('rank','assistant');change('topic','机器人学习');change('opportunity','MSc');change('opening','explicit');
  assert(!row().hidden);assert.equal(chips().length,6);assert(row().innerHTML.includes('筛选 6 项'));
- for(const [key,label] of [['query','关键词：Sample'],['institution','学校：香港大学'],['rank','导师职级：助理教授 · Assistant Professor'],['topic','研究方向：机器人学习'],['opportunityType','申请类型：MSc · 理学硕士'],['opening','招生信息：已找到招生说明']])assert(chip(key).textContent.includes(label));
+ for(const [key,label] of [['query','关键词：Sample'],['institution','学校：香港大学'],['rank','导师职级：助理教授 · Assistant Professor'],['topic','研究方向：机器人学习'],['opportunityType','申请类型：MSc · 硕士项目'],['opening','招生信息：已找到招生说明']])assert(chip(key).textContent.includes(label));
  assert.equal(document.activeElement,el('#opening-filter'),'select changes retain native control focus');
- assert.equal(el('#result-count').textContent,'1 条机会 · 1 位导师');reset();
+ assert.equal(el('#result-count').textContent,'1 位导师 · 1 条已核实学位关联 · 0 个 RA 岗位');reset();
 });
 
 test('keywords and option labels are escaped as text in visible and accessible chip labels',()=>{
@@ -69,7 +69,7 @@ test('single removal retains other conditions and moves focus to a neighbor, the
  search('Sample');change('institution','HKU');change('rank','assistant');
  const old=chip('institution');remove('institution');assert.equal(el('#institution-filter').value,'');assert.equal(el('#search').value,'Sample');assert.equal(el('#rank-filter').value,'assistant');assert.equal(document.activeElement,chip('rank'));assert.equal(chips().length,2);
  row().listeners.click({target:old});assert.equal(chips().length,2,'repeated stale activation is harmless');
- remove('rank');assert.equal(document.activeElement,chip('query'));remove('query');assert(row().hidden);assert.equal(document.activeElement,el('#search'));assert.equal(el('#result-count').textContent,'1 条机会 · 1 位导师');
+ remove('rank');assert.equal(document.activeElement,chip('query'));remove('query');assert(row().hidden);assert.equal(document.activeElement,el('#search'));assert.equal(el('#result-count').textContent,'1 位导师 · 1 条已核实学位关联 · 0 个 RA 岗位');
 });
 
 test('typing never steals focus and an unchanged render preserves the focused chip node',()=>{
@@ -78,17 +78,17 @@ test('typing never steals focus and an unchanged render preserves the focused ch
 });
 
 test('zero results keep a one-click way to relax a single condition',()=>{
- change('institution','HKU');search('no-matching-record');assert.equal(el('#result-count').textContent,'0 条机会 · 0 位导师');assert(el('#view-content').innerHTML.includes('点击上方已选条件可单独移除'));assert.equal(chips().length,2);
- remove('query');assert.equal(el('#result-count').textContent,'1 条机会 · 1 位导师');assert.equal(el('#institution-filter').value,'HKU');assert.equal(document.activeElement,chip('institution'));reset();
+ change('institution','HKU');search('no-matching-record');assert.equal(el('#result-count').textContent,'0 位导师 · 0 条已核实学位关联 · 0 个 RA 岗位');assert(el('#view-content').innerHTML.includes('点击上方已选条件可单独移除'));assert.equal(chips().length,2);
+ remove('query');assert.equal(el('#result-count').textContent,'1 位导师 · 1 条已核实学位关联 · 0 个 RA 岗位');assert.equal(el('#institution-filter').value,'HKU');assert.equal(document.activeElement,chip('institution'));reset();
 });
 
 test('view-specific chips and clear-all preserve inactive page filters and comparison selection',()=>{
  dataClick('[data-compare]',{compare:'sample-advisor::sample-msc'});const selected=el('#compare-names').textContent;
  change('institution','HKU');change('rank','assistant');change('opportunity','MSc');
- view('routes');assert(row().hidden);assert.equal(el('#rank-filter').value,'');search('Sample');change('opportunity','MSc');assert.equal(chips().length,2);assert(chip('opportunityType').textContent.includes('学位类型：MSc · 理学硕士'));assert(!chip('rank'));
+ view('routes');assert(row().hidden);assert.equal(el('#rank-filter').value,'');search('Sample');change('opportunity','MSc');assert.equal(chips().length,2);assert(chip('opportunityType').textContent.includes('学位类型：MSc · 硕士项目'));assert(!chip('rank'));
  clear();assert(row().hidden);assert.equal(document.activeElement,el('#search'));assert.equal(el('#compare-names').textContent,'');assert(el('#compare-tray').hidden);assert.equal(el('#compare-count').textContent,'已选 0 / 3 个项目');
- view('advisors');assert.equal(el('#compare-names').textContent,selected);assert.equal(chips().length,3);assert.equal(el('#rank-filter').value,'assistant');assert.equal(el('#opportunity-filter').value,'MSc');clear();assert.equal(el('#compare-count').textContent,'已选 1 / 3 项机会');
- view('materials');change('opportunity','MSc');assert.equal(chips().length,1);assert(chip('opportunityType').textContent.includes('适用学位：MSc · 理学硕士'));clear();view('advisors');
+ view('advisors');assert.equal(el('#compare-names').textContent,selected);assert.equal(chips().length,3);assert.equal(el('#rank-filter').value,'assistant');assert.equal(el('#opportunity-filter').value,'MSc');clear();assert.equal(el('#compare-count').textContent,'已选 1 / 3 项记录');
+ view('materials');change('opportunity','MSc');assert.equal(chips().length,1);assert(chip('opportunityType').textContent.includes('适用学位：MSc · 硕士项目'));clear();view('advisors');
 });
 
 test('deadline removal focuses the visible school select and ignores unsupported query/rank changes',()=>{
@@ -107,7 +107,7 @@ test('feedback is hidden in details, experiences, reading and sources, then rest
 });
 
 test('async project refresh preserves active-chip keyboard focus and visible labels',async()=>{
- view('routes');change('opportunity','MSc');const original=chip('opportunityType');original.focus();const writes=row().writes;releaseProjects();await new Promise(resolve=>setImmediate(resolve));assert.equal(chip('opportunityType'),original);assert.equal(document.activeElement,original);assert.equal(row().writes,writes);assert(chip('opportunityType').textContent.includes('学位类型：MSc · 理学硕士'));reset();
+ view('routes');change('opportunity','MSc');const original=chip('opportunityType');original.focus();const writes=row().writes;releaseProjects();await new Promise(resolve=>setImmediate(resolve));assert.equal(chip('opportunityType'),original);assert.equal(document.activeElement,original);assert.equal(row().writes,writes);assert(chip('opportunityType').textContent.includes('学位类型：MSc · 硕士项目'));reset();
 });
 
 test('feedback uses semantic native actions, bounded color transitions, wrapping and reduced-motion opt-out',()=>{
@@ -120,6 +120,6 @@ test('feedback uses semantic native actions, bounded color transitions, wrapping
 
 
 test('explicit empty-result recovery restores a visible filter instead of the removed button',()=>{
- view('advisors');reset();search('no matching record');const recovery=new Element('', 'BUTTON');recovery.focus();dataClick('[data-reset]',{});assert.equal(document.activeElement,el('#search'));assert.equal(el('#result-count').textContent,'1 条机会 · 1 位导师');
+ view('advisors');reset();search('no matching record');const recovery=new Element('', 'BUTTON');recovery.focus();dataClick('[data-reset]',{});assert.equal(document.activeElement,el('#search'));assert.equal(el('#result-count').textContent,'1 位导师 · 1 条已核实学位关联 · 0 个 RA 岗位');
  view('deadlines');change('institution','missing-school');recovery.focus();dataClick('[data-reset]',{});assert.equal(document.activeElement,el('#institution-filter'));assert.equal(el('#result-count').textContent,'1 项日期记录');view('advisors');reset();
 });

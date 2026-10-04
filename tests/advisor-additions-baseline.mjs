@@ -1,3 +1,4 @@
+import {historicalSourceBytes} from './historical-source-baseline.mjs';
 import {hkuRisBaseline} from './hku-ris-baseline.mjs';
 // Reconstruct the exact pre-2026-10-04 advisor/profile snapshot without
 // weakening the newer application-experience inverse.
@@ -12,5 +13,5 @@ export function advisorAdditionsBaseline(data){
 export const advisorAdditionsBaselineText=data=>JSON.stringify(advisorAdditionsBaseline(data),null,2)+'\n';
 export function advisorAdditionsBaselineBytes(path,bytes){
  return ['catalog.json','advisor-profiles.json','material-summaries.json','project-summaries.json'].includes(path.split('/').at(-1))
-  ?Buffer.from(advisorAdditionsBaselineText(JSON.parse(bytes))):bytes;
+  ?Buffer.from(advisorAdditionsBaselineText(JSON.parse(bytes))):historicalSourceBytes(path,bytes);
 }

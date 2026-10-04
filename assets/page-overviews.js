@@ -1,4 +1,4 @@
-import {escapeHTML,buildOpportunities,filterRoutes,filterDeadlines,deadlineStatus,themesFor,institutionLabel} from './core.js?v=ab18ba931806';
+import {escapeHTML,buildOpportunities,browseRoutes as filterRoutes,browseAdvisors,filterDeadlines,deadlineStatus,themesFor,institutionLabel} from './core.js?v=02f70bc5cff4';
 
 const e=escapeHTML;
 const count=(rows,predicate)=>rows.filter(predicate).length;
@@ -20,16 +20,16 @@ export function buildPageOverview(view,catalog,{experiences=null,projectSummaryS
  const routes=filterRoutes(catalog);
  if(view==='advisors'){
   const opportunities=buildOpportunities(catalog);
-  const people=catalog.advisors.filter(a=>opportunities.some(o=>o.advisorId===a.id));
+  const people=browseAdvisors(catalog);
   const topicCount=topic=>count(people,a=>themesFor(a).includes(topic));
   const degreeOpportunities=opportunities.filter(o=>o.kind==='degree');
   const explicit=count(degreeOpportunities,o=>o.openingStatus==='explicit');
   const ra=opportunities.filter(o=>o.type==='RA');
-  return {label:'导师总览',title:'先对研究问题，再核对学位与招募',scope:`全页 ${people.length} 位导师 · ${opportunities.length} 条机会`,insights:[
+  return {label:'导师总览',title:'先对研究问题，再核对学位与招募',scope:`全页 ${people.length} 位导师 · ${opportunities.length} 条已核实关联/岗位`,insights:[
    {title:'研究侧重并不相同',text:`张富侧重多传感定位与自主飞行，刘希慧涉及多模态导航与全身移动操作。灵巧操作与触觉涉及 ${topicCount('灵巧操作与触觉')} 位（方向可重叠）；按代表工作选题。`,action:preset('advisors-manipulation','只看灵巧操作与触觉')},
    {title:'学位机会与 RA 分开选',text:`MPhil（${count(opportunities,o=>o.type==='MPhil')} 条）、PhD（${count(opportunities,o=>o.type==='PhD')} 条）为主，另有 ${ra.length} 个已核实 RA 岗位。学位看培养与指导关系；RA 看工作内容、任期与任职条件。`,action:ra.length?preset('advisors-ra','只看 RA 岗位'):null},
    {title:'有招募说明，也要再核当轮',text:`${degreeOpportunities.length} 条学位机会中，${explicit} 条有分学位招募说明，其余待确认。常年招募、院系招生都不等于导师本轮名额；联系前核对对应机会的条件与来源。`,action:preset('advisors-recruitment','只看有招募说明的机会')}
-  ],note:'全页概览不随筛选变化；下方显示筛选结果。方向人数可重叠，机会数不等于导师人数。'};
+  ],note:'全页概览不随筛选变化；下方显示筛选结果。方向人数可重叠，已核实关联/岗位数不等于导师人数；待核和参考导师也保留。'};
  }
  if(view==='routes'){
   const covered=routes.filter(r=>catalog.projectSummaries?.has(r.id));
@@ -38,7 +38,7 @@ export function buildPageOverview(view,catalog,{experiences=null,projectSummaryS
   const brief=projectSummaryState==='loading'?'培养简介正在载入，可先看基本申请条件。':projectSummaryState==='unavailable'?'培养简介暂未载入，基本申请条件仍可阅读。':`${covered.length} 个项目有培养与研究简介，覆盖 ${schools.size} 所学校；另外 ${routes.length-covered.length} 个目前仅有基本条件。${projectSummaryState==='partial'?'部分简介未能验证。':''}`;
   return {label:'项目总览',title:'先分清培养方式，再比较入口与批次',scope:`全页 ${routes.length} 个项目 · ${new Set(routes.map(r=>r.institution)).size} 所学校`,insights:[
    {title:'研究型学位重在持续研究',text:`现有 ${count(routes,r=>r.degree==='MPhil')} 个 MPhil、${count(routes,r=>r.degree==='PhD')} 个 PhD。`+(catalog.projectSummaries?.has('HKUST-CSE-MPhil')?'以港科大 CSE MPhil 为例，2 年培养结合课程、研讨课与论文研究，毕业需口头答辩。比较时应看具体研究训练，不能只看学位名称。':'培养简介暂未完整载入；可先分开核对同校不同学位的本科入口、学制、导师关联与基本要求。'),action:summaryAction('project',routes.find(r=>r.id==='HKUST-CSE-MPhil'),catalog.projectSummaries?.has('HKUST-CSE-MPhil')?'读 CSE 的研究与培养':'查看 CSE 项目条件')},
-   {title:'MSc 侧重授课培养',text:mscIntroductions?'PolyU IRE 可选修课或论文路线，两者仍授 MSc；CUHK Robotics 强调课程与动手项目，已核课程方案为 2026/27。不能把课程或论文安排理解成固定导师名额。':`已收录 ${count(routes,r=>r.degree==='MSc')} 个 MSc。课程、项目或论文安排应逐项比较，不能由名称推定研究型学位或固定导师名额。`,action:preset('routes-msc','只看授课型 MSc')},
+   {title:'硕士项目须分别核对培养类型',text:mscIntroductions?'PolyU IRE 可选修课或论文路线，两者仍授 MSc；CUHK Robotics 强调课程与动手项目，已核课程方案为 2026/27。不能把课程或论文安排理解成固定导师名额。':`已收录 ${count(routes,r=>r.degree==='MSc')} 个 MSc 类硕士项目。课程、项目或论文安排应逐项比较，不能由名称推定研究型学位或固定导师名额。`,action:preset('routes-msc','只看硕士项目')},
    {title:'简介覆盖与时间表有边界',text:brief+' 先读简介，再查目标入学年；项目已公布条件不等于导师当轮接收。',action:preset('routes-mphil','只看 MPhil 项目')}
   ],note:'全页概览不随筛选变化；项目详情中的入学年份与来源说明优先于笼统的学校标签。'};
  }

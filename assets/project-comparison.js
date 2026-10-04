@@ -1,5 +1,5 @@
-import {escapeHTML, readerText, safeUrl, sourcesOf, institutionLabel, degreeLabel, isVerifiedRoute, deadlineStatus} from './core.js?v=ab18ba931806';
-import {supervisorAssociationText} from './record-summaries.js';
+import {escapeHTML, readerText, safeUrl, sourcesOf, institutionLabel, degreeLabel, degreeDisplay, isBrowsableRoute, routeEvidenceText, deadlineStatus} from './core.js?v=02f70bc5cff4';
+import {supervisorAssociationText} from './record-summaries.js?v=2ad14f2792bc';
 
 export const PROJECT_COMPARISON_UNKNOWN = '未核实，以当期官方要求为准';
 const e = value => escapeHTML(readerText(value));
@@ -11,13 +11,13 @@ const requirementLabels = {required:'已明确要求', conditional:'符合相应
 const applicationLabels = {open:'记录标记开放，当前实际提交状态仍需核对', unknown:'开放状态待核实', closed:'此轮已关闭', expired:'此轮已截止'};
 const dateLabels = {upcoming:'已公布后续日期', unknown:'日期或批次待核实', expired:'此轮已截止', closed:'此轮已截止', published:'日期已公布'};
 
-// Only raw, verified academic route IDs are accepted. Advisor-opportunity IDs and
+// Only raw academic route IDs are accepted. Advisor-opportunity IDs and
 // employment records cannot become academic routes through a matching label.
 export function selectProjectComparisonRoutes(catalog, selectedIds) {
  const routes = list(catalog?.routes);
  return [...new Set(list(selectedIds).filter(id => typeof id === 'string'))]
   .map(id => routes.find(route => route.id === id))
-  .filter(route => route && route.defaultVisible !== false && isVerifiedRoute(route)
+  .filter(route => route && isBrowsableRoute(route)
    && ['MSc','MPhil','PhD','MRes'].includes(degreeLabel(route))
    && !/\bRA\b/i.test(route.degree || '') && route.opportunityType !== 'RA'
    && route.kind !== 'employment' && !route.jobId && !list(route.jobIds).length)
@@ -109,7 +109,7 @@ function comparisonModel(catalog, selectedIds) {
   ['language', '语言要求', column => requirementText(column.language)],
   ['funding', '资助', column => requirementText(column.funding)],
   ['deadlines', '截止日期', column => deadlineText(column.deadlines, catalog?.metadata?.checkedDate)],
-  ['cautions', '适用边界', column => join([...cautions(column.brief), ...list(column.route.notes), supervisorAssociationText(column.route.supervisorAssociation)])]
+  ['cautions', '适用边界', column => join([routeEvidenceText(column.route),...cautions(column.brief), ...list(column.route.notes), supervisorAssociationText(column.route.supervisorAssociation)])]
  ];
  const rows = definitions.map(([key, label, value]) => {
   const values = columns.map(value);
@@ -133,8 +133,8 @@ function sourceCell(column) {
 // remain the host application's responsibility. No data is mutated or fetched.
 export function renderProjectComparison(catalog, selectedIds, differencesOnly = false) {
  const {columns, rows} = comparisonModel(catalog, selectedIds);
- if (columns.length < 2) return '<section class="project-comparison-empty" role="status"><h3>请选择 2–3 个项目进行对比</h3><p>请返回项目列表，选择已核实的学位项目。</p></section>';
+ if (columns.length < 2) return '<section class="project-comparison-empty" role="status"><h3>请选择 2–3 个项目进行对比</h3><p>请返回项目列表，选择目录中的学位项目。</p></section>';
  const shown = differencesOnly ? rows.filter(row => row.different) : rows;
  const hiddenCount = rows.length - shown.length;
- return `<section class="project-comparison" aria-label="学位项目对比"><div class="project-comparison-toolbar"><div class="project-comparison-guidance"><strong>先对照研究匹配和资格，再确认资助与截止。</strong><p class="project-comparison-meta">仅比较已核实的学位路径；研究方向不代表导师名额，本科入口不保证个人资格、录取或资助。未来截止日期不证明当前开放提交。</p></div><button type="button" class="project-comparison-differences project-comparison-control" data-comparison-focus="differences" data-project-differences aria-pressed="${Boolean(differencesOnly)}"><span class="project-comparison-toggle" aria-hidden="true"></span>仅看差异</button></div><p class="project-comparison-meta project-comparison-status" role="status">${differencesOnly ? `已收起 ${hiddenCount} 个文字相同的比较项（含共同未核实项）；相同描述不代表条件等同。` : '完整保留已记录的条件与批次；未核实项须向当期官方来源确认。'}${catalog?.metadata?.checkedDate ? ` 目录核验于 ${e(catalog.metadata.checkedDate)}。` : ''}</p><div class="project-comparison-scroll" role="region" aria-label="项目对比表，可横向滚动" tabindex="0" data-comparison-focus="table"><table class="project-comparison-table columns-${columns.length}"><caption class="sr-only">${columns.length} 个学位项目的研究、申请条件与截止日期对比</caption><thead><tr><th scope="col" class="project-comparison-row-label">比较项目</th>${columns.map((column, index) => `<th scope="col" id="project-comparison-column-${index}" class="project-comparison-heading"><div class="project-comparison-project"><span class="project-comparison-school-mark" aria-hidden="true">${e(column.route.institution)}</span><div><h3>${e(column.route.program || column.route.degree)}</h3><p class="project-comparison-institution">${e(institutionLabel(column.route.institution))}</p><p class="project-comparison-degree">${e(column.route.degree)}</p>${column.route.department ? `<p class="project-comparison-meta">${e(column.route.department)}</p>` : ''}</div><button type="button" class="project-comparison-remove project-comparison-control" data-remove-project="${e(column.route.id)}" data-comparison-focus="${e('remove:'+column.route.id)}" aria-label="移除${e(column.route.program || column.route.degree)}"><span aria-hidden="true">×</span></button></div></th>`).join('')}</tr></thead><tbody>${shown.map(row => `<tr data-comparison-row="${row.key}"${row.different ? ' class="project-comparison-different"' : ''}><th scope="row" id="project-comparison-row-${row.key}">${row.label}</th>${row.values.map((value, index) => `<td headers="project-comparison-row-${row.key} project-comparison-column-${index}">${paragraphs(value)}</td>`).join('')}</tr>`).join('')}<tr data-comparison-row="sources"><th scope="row" id="project-comparison-row-sources">原始来源</th>${columns.map((column, index) => `<td headers="project-comparison-row-sources project-comparison-column-${index}">${sourceCell(column)}</td>`).join('')}</tr></tbody></table></div></section>`;
+ return `<section class="project-comparison" aria-label="学位项目对比"><div class="project-comparison-toolbar"><div class="project-comparison-guidance"><strong>先对照研究匹配和资格，再确认资助与截止。</strong><p class="project-comparison-meta">比较已收录的学位路径，历史参考、待核和限制分别标注；研究方向不代表导师名额，本科入口不保证个人资格、录取或资助。未来截止日期不证明当前开放提交。</p></div><button type="button" class="project-comparison-differences project-comparison-control" data-comparison-focus="differences" data-project-differences aria-pressed="${Boolean(differencesOnly)}"><span class="project-comparison-toggle" aria-hidden="true"></span>仅看差异</button></div><p class="project-comparison-meta project-comparison-status" role="status">${differencesOnly ? `已收起 ${hiddenCount} 个文字相同的比较项（含共同未核实项）；相同描述不代表条件等同。` : '完整保留已记录的条件与批次；未核实项须向当期官方来源确认。'}${catalog?.metadata?.checkedDate ? ` 目录核验于 ${e(catalog.metadata.checkedDate)}。` : ''}</p><div class="project-comparison-scroll" role="region" aria-label="项目对比表，可横向滚动" tabindex="0" data-comparison-focus="table"><table class="project-comparison-table columns-${columns.length}"><caption class="sr-only">${columns.length} 个学位项目的研究、申请条件与截止日期对比</caption><thead><tr><th scope="col" class="project-comparison-row-label">比较项目</th>${columns.map((column, index) => `<th scope="col" id="project-comparison-column-${index}" class="project-comparison-heading"><div class="project-comparison-project"><span class="project-comparison-school-mark" aria-hidden="true">${e(column.route.institution)}</span><div><h3>${e(column.route.program || column.route.degree)}</h3><p class="project-comparison-institution">${e(institutionLabel(column.route.institution))}</p><p class="project-comparison-degree">${e(degreeDisplay(column.route))}</p>${column.route.department ? `<p class="project-comparison-meta">${e(column.route.department)}</p>` : ''}</div><button type="button" class="project-comparison-remove project-comparison-control" data-remove-project="${e(column.route.id)}" data-comparison-focus="${e('remove:'+column.route.id)}" aria-label="移除${e(column.route.program || column.route.degree)}"><span aria-hidden="true">×</span></button></div></th>`).join('')}</tr></thead><tbody>${shown.map(row => `<tr data-comparison-row="${row.key}"${row.different ? ' class="project-comparison-different"' : ''}><th scope="row" id="project-comparison-row-${row.key}">${row.label}</th>${row.values.map((value, index) => `<td headers="project-comparison-row-${row.key} project-comparison-column-${index}">${paragraphs(value)}</td>`).join('')}</tr>`).join('')}<tr data-comparison-row="sources"><th scope="row" id="project-comparison-row-sources">原始来源</th>${columns.map((column, index) => `<td headers="project-comparison-row-sources project-comparison-column-${index}">${sourceCell(column)}</td>`).join('')}</tr></tbody></table></div></section>`;
 }

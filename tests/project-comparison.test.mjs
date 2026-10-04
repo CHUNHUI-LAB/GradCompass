@@ -14,15 +14,17 @@ const e = value => escapeHTML(readerText(value));
 const source = {label:'Verified source', url:'https://example.edu/requirements', checkedDate:'2026-10-01'};
 const fakeRoute = (id, overrides = {}) => ({id, institution:'HKUST', program:`Project ${id}`, degree:'MPhil', status:'verified', bachelorEligible:true, noMasterRequired:true, noTuimianRequired:true, sources:[source], ...overrides});
 
-test('project selections accept raw verified academic IDs in requested order and cap at three', () => {
+test('project selections accept raw academic IDs including labelled references, in requested order and cap at three', () => {
  assert.deepEqual(selectProjectComparisonRoutes(catalog, [ids[1], ids[0], ids[1], 'missing', ids[2], 'HKU-CDS-MPhil']).map(route => route.id), [ids[1], ids[0], ids[2]]);
  assert.deepEqual(selectProjectComparisonRoutes(catalog, null), []);
  assert.deepEqual(selectProjectComparisonRoutes({}, ids), []);
- assert.deepEqual(selectProjectComparisonRoutes(catalog, ['advisor::HKUST-CSE-MPhil', 'HKUST-CSE-PhD-supplement', 'cityu_ds_mphil-excluded', null, {}]), []);
+ assert.deepEqual(selectProjectComparisonRoutes(catalog, ['advisor::HKUST-CSE-MPhil', 'HKUST-CSE-PhD-supplement', 'cityu_ds_mphil-excluded', null, {}]).map(r=>r.id), ['HKUST-CSE-PhD-supplement','cityu_ds_mphil-excluded']);
+ const references=renderProjectComparison(catalog,['HKUST-CSE-PhD-supplement','cityu_ds_mphil-excluded']);assert(references.includes('项目证据待核'));assert(references.includes('受限或不适用记录'));assert(references.includes('不受理 MPhil'));
  });
-test('employment and unverified qualification records cannot enter academic comparison', () => {
+test('employment records cannot enter academic comparison; personal prerequisites remain readable', () => {
  const invalid = [fakeRoute('ra', {degree:'RA'}), fakeRoute('mixed', {degree:'RA / PhD'}), fakeRoute('job', {kind:'employment'}), fakeRoute('ra-type', {opportunityType:'RA'}), fakeRoute('job-id', {jobId:'r1'}), fakeRoute('job-ids', {jobIds:['r1']}), fakeRoute('hidden', {defaultVisible:false}), fakeRoute('unknown', {status:'unknown'}), fakeRoute('masters-needed', {noMasterRequired:false}), fakeRoute('nomination', {noTuimianRequired:false}), fakeRoute('bachelor-no', {bachelorEligible:false})];
- assert.deepEqual(selectProjectComparisonRoutes({routes:invalid}, invalid.map(route => route.id)), []);
+ assert.deepEqual(selectProjectComparisonRoutes({routes:invalid}, invalid.slice(0,6).map(route => route.id)), []);
+ for(const route of invalid.slice(6))assert.deepEqual(selectProjectComparisonRoutes({routes:[route]},[route.id]).map(r=>r.id),[route.id]);
  });
 test('fewer than two valid projects gives a recoverable, truthful empty state', () => {
  for (const selected of [[], [ids[0]], [ids[0], ids[0]], ['missing', 'HKUST-CSE-PhD-supplement']]) {
