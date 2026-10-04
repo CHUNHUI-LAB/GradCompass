@@ -1,5 +1,7 @@
+// Current browse behavior against the pinned 5e7cd36 data fixture: 43 people / 34 projects, with 57 verified degree associations / 2 RA jobs.
+// Legacy eligible-only 41-person / 28-project / 59-opportunity counts remain independently asserted in historical-source-baseline.test.mjs.
 // Application DOM contracts only: these do not establish browser layout or native history QA.
-import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
+import test from 'node:test';import assert from 'node:assert/strict';import fs from './historical-source-fs.mjs';
 class Element{
  constructor(){this.value='';this.hidden=false;this.innerHTML='';this.textContent='';this.listeners={};this.attrs={};this.dataset={};this.open=false;this.disabled=false;this.classList={toggle(){}};}
  addEventListener(n,f){this.listeners[n]=f}setAttribute(k,v){this.attrs[k]=v}removeAttribute(k){delete this.attrs[k]}showModal(){this.open=true}close(){this.open=false}focus(){document.activeElement=this;this.focused=true}scrollIntoView(){this.scrolled=true}querySelector(){return this.summary||(this.summary=new Element)}
@@ -17,16 +19,16 @@ const change=(selector,value)=>{el(selector).value=value;el(selector).listeners.
 const click=(selector,dataset)=>docListeners.click({target:{closest:s=>s===selector?{dataset}:null}});
 
 test('async project introductions refresh overview and list while preserving active filters',async()=>{
- assert(!el('#page-overview').hidden);assert(el('#page-overview').innerHTML.includes('正在载入'));change('#institution-filter','HKU');assert.equal(el('#result-count').textContent,'5 个学位项目');
- releaseProjects();await new Promise(resolve=>setImmediate(resolve));assert(el('#page-overview').innerHTML.includes('28 个项目有培养与研究简介'));assert.equal(el('#institution-filter').value,'HKU');assert.equal(el('#result-count').textContent,'5 个学位项目');assert(el('#view-content').innerHTML.includes('当前结果中 5 个有简介'));
+ assert(!el('#page-overview').hidden);assert(el('#page-overview').innerHTML.includes('正在载入'));change('#institution-filter','HKU');assert.equal(el('#result-count').textContent,'6 个学位项目');
+ releaseProjects();await new Promise(resolve=>setImmediate(resolve));assert(el('#page-overview').innerHTML.includes('28 个项目有培养与研究简介'));assert.equal(el('#institution-filter').value,'HKU');assert.equal(el('#result-count').textContent,'6 个学位项目');assert(el('#view-content').innerHTML.includes('当前结果中 5 个有简介'));
 });
 test('overview remains page-wide under zero results and direct summary actions still work',()=>{
- view('routes');el('#search').listeners.input({target:{value:'no-matching-project-xyz'}});assert(el('#result-count').textContent.startsWith('0 '));assert(el('#page-overview').innerHTML.includes('全页 28 个项目'));
+ view('routes');el('#search').listeners.input({target:{value:'no-matching-project-xyz'}});assert(el('#result-count').textContent.startsWith('0 '));assert(el('#page-overview').innerHTML.includes('全页 34 个项目'));
  click('[data-summary-kind]',{summaryKind:'project',summaryId:'HKUST-CSE-MPhil'});assert(el('#detail-dialog').open);assert(el('#detail-content').innerHTML.includes('培养与研究简介'));click('[data-close]',{close:'detail-dialog'});assert(!el('#detail-dialog').open);assert(el('#result-count').textContent.startsWith('0 '));
 });
 test('named quick filters deterministically replace only the current page filters',()=>{
- view('advisors');change('#institution-filter','HKU');change('#rank-filter','professor');click('[data-overview-preset]',{overviewPreset:'advisors-ra'});assert.equal(el('#result-count').textContent,'2 条机会 · 1 位导师');assert.equal(el('#institution-filter').value,'');assert.equal(el('#rank-filter').value,'');assert.equal(el('#opportunity-filter').value,'RA');assert(el('#view-content').focused);assert(el('#view-content').scrolled);
- click('[data-overview-preset]',{overviewPreset:'advisors-ra'});assert.equal(el('#result-count').textContent,'2 条机会 · 1 位导师');view('routes');assert(el('#result-count').textContent.startsWith('0 '));click('[data-overview-preset]',{overviewPreset:'routes-msc'});assert.equal(el('#result-count').textContent,'3 个学位项目');view('advisors');assert.equal(el('#opportunity-filter').value,'RA');assert.equal(el('#result-count').textContent,'2 条机会 · 1 位导师');
+ view('advisors');change('#institution-filter','HKU');change('#rank-filter','professor');click('[data-overview-preset]',{overviewPreset:'advisors-ra'});assert.equal(el('#result-count').textContent,'1 位导师 · 0 条已核实学位关联 · 2 个 RA 岗位');assert.equal(el('#institution-filter').value,'');assert.equal(el('#rank-filter').value,'');assert.equal(el('#opportunity-filter').value,'RA');assert(el('#view-content').focused);assert(el('#view-content').scrolled);
+ click('[data-overview-preset]',{overviewPreset:'advisors-ra'});assert.equal(el('#result-count').textContent,'1 位导师 · 0 条已核实学位关联 · 2 个 RA 岗位');view('routes');assert(el('#result-count').textContent.startsWith('0 '));click('[data-overview-preset]',{overviewPreset:'routes-msc'});assert.equal(el('#result-count').textContent,'3 个学位项目');view('advisors');assert.equal(el('#opportunity-filter').value,'RA');assert.equal(el('#result-count').textContent,'1 位导师 · 0 条已核实学位关联 · 2 个 RA 岗位');
 });
 test('wrong-page or unknown overview presets cannot alter current page filters',()=>{
  const count=el('#result-count').textContent;click('[data-overview-preset]',{overviewPreset:'routes-mphil'});assert.equal(el('#result-count').textContent,count);click('[data-overview-preset]',{overviewPreset:'not-a-preset'});assert.equal(el('#result-count').textContent,count);

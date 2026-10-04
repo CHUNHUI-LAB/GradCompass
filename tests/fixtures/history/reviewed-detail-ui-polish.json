@@ -1,0 +1,76 @@
+{
+  "baseCommit": "dd654eaaf9e7f6143b1c99a54c3e3e97fc86f142",
+  "baseTree": "a1f9bf979a6a3de7249a497eefbec75a53aa49d3",
+  "scope": "Detail-reader presentation only: deduplicate equal rendered association phrases and preserve focus/scroll. No admissions data, eligibility, discovery scope, or stylesheet changes.",
+  "files": {
+    "assets/app.js": {
+      "kind": "text-fragments",
+      "beforeSha256": "d90c1fa2e55244e6c0cd763ca66c40b1bb40fdcf2785f2b2afc2a18f6891e2e3",
+      "afterSha256": "d25447147287fde8b6bccb7b8c92798a4ea7427c599922fce0fc4cfe26426ba0",
+      "operations": [
+        {
+          "label": "Add non-scrolling detail focus and stable refresh-focus identity helpers",
+          "before": "function showMissingDetail(kind){\n",
+          "after": "// Native focus can scroll a tall heading behind the sticky reader toolbar.\n// Focus without scrolling, then reset after showModal/autofocus has completed.\nfunction focusDetailControl(target){try{target?.focus?.({preventScroll:true});}catch{target?.focus?.();}}\nfunction presentDetail(resetPosition=true){\n const dialog=$('#detail-dialog');if(!dialog.open)dialog.showModal();$('#active-filters').hidden=true;\n if(resetPosition){focusDetailControl($('#detail-title'));dialog.scrollTop=0;}\n}\nfunction detailFocusKey(target){\n if(target?.id)return 'id:'+target.id;\n if(target?.dataset?.summaryKind&&target.dataset.summaryId)return 'summary:'+target.dataset.summaryKind+':'+target.dataset.summaryId;\n if(target?.dataset?.detail)return 'advisor:'+target.dataset.detail;\n if(target?.dataset?.close)return 'close:'+target.dataset.close;\n const href=target?.getAttribute?.('href');return href?'href:'+href:null;\n}\nfunction showMissingDetail(kind,refresh=false){\n"
+        },
+        {
+          "label": "Present missing records without autofocus scroll or refresh position reset",
+          "before": " if(!$('#detail-dialog').open)$('#detail-dialog').showModal();$('#active-filters').hidden=true;$('#detail-dialog').scrollTop=0;$('#detail-title')?.focus();\n}",
+          "after": " presentDetail(!refresh);\n}"
+        },
+        {
+          "label": "Declare optional summary refresh without a navigation reset",
+          "before": "function openSummary(kind,id,replay=false){",
+          "after": "function openSummary(kind,id,replay=false,refresh=false){"
+        },
+        {
+          "label": "Preserve missing-summary refresh intent",
+          "before": "if(!summary){if(replay)showMissingDetail(kind);return;}",
+          "after": "if(!summary){if(replay)showMissingDetail(kind,refresh);return;}"
+        },
+        {
+          "label": "Present project, deadline and material readers with focus before position reset",
+          "before": "${rail}</aside></div>`;if(!$('#detail-dialog').open)$('#detail-dialog').showModal();$('#active-filters').hidden=true;$('#detail-dialog').scrollTop=0;$('#detail-title')?.focus();}",
+          "after": "${rail}</aside></div>`;presentDetail(!refresh);}"
+        },
+        {
+          "label": "Declare optional advisor refresh without a navigation reset",
+          "before": "function openDetail(id,replay=false){",
+          "after": "function openDetail(id,replay=false,refresh=false){"
+        },
+        {
+          "label": "Preserve missing-advisor refresh intent",
+          "before": "if(!a){if(replay)showMissingDetail('advisor');return;}",
+          "after": "if(!a){if(replay)showMissingDetail('advisor',refresh);return;}"
+        },
+        {
+          "label": "Deduplicate exact reader-facing association phrases without deleting distinct cautions",
+          "before": "[x.degree,x.reason,x.summary,x.note,x.association,x.pi_program_association].filter(Boolean).map(readerText).join('；')",
+          "after": "[...new Set([x.degree,x.reason,x.summary,x.note,x.association,x.pi_program_association].filter(Boolean).map(readerText))].join('；')"
+        },
+        {
+          "label": "Present advisor and RA readers with focus before position reset",
+          "before": "；完整证据和限制见正文。</p></section></aside></div>`;if(!$('#detail-dialog').open)$('#detail-dialog').showModal();$('#active-filters').hidden=true;$('#detail-dialog').scrollTop=0;$('#detail-title')?.focus();}",
+          "after": "；完整证据和限制见正文。</p></section></aside></div>`;presentDetail(!refresh);}"
+        },
+        {
+          "label": "Preserve scroll and stable body or toolbar focus across optional-data refresh",
+          "before": " const scrollTop=dialog.scrollTop;\n try{if(kind==='advisor')openDetail(route.id,true);else openSummary(kind,route.id,true);}",
+          "after": " const scrollTop=dialog.scrollTop,content=$('#detail-content'),focused=document.activeElement;\n const focusKey=content.contains?.(focused)?detailFocusKey(focused):null;\n const regionSelector=focused?.closest?.('.reading-rail')?'.reading-rail':'.reading-main';\n const section=focused?.closest?.('.detail-section,.rail-panel'),sectionTitle=section?.querySelector?.('h3')?.textContent;\n const region=()=>content.querySelector?.(regionSelector)||content;\n const sections=()=>[...(region().querySelectorAll?.('.detail-section,.rail-panel')||[])].filter(node=>node.querySelector?.('h3')?.textContent===sectionTitle);\n const sectionIndex=sectionTitle?sections().indexOf(section):-1;\n const scope=()=>sectionTitle?sections()[sectionIndex]:region();\n const matches=()=>[...(scope()?.querySelectorAll?.('a,button,[tabindex]')||[])].filter(node=>detailFocusKey(node)===focusKey);\n const focusIndex=focusKey?matches().indexOf(focused):-1;\n try{\n  if(kind==='advisor')openDetail(route.id,true,true);else openSummary(kind,route.id,true,true);\n  // Keep duplicate source links in their original main/rail section and order;\n  // new summary sources must not redirect a rail link to the main article.\n  // Persistent toolbar controls remain untouched.\n  if(focusKey){const target=matches()[focusIndex];if(target)focusDetailControl(target);}\n }"
+        }
+      ]
+    },
+    "index.html": {
+      "kind": "text-fragments",
+      "beforeSha256": "d7c81e4fc61b7e19d620f77e75dc80357b5ac6f016fb583f979c2be275f85f9a",
+      "afterSha256": "c069a2831953cdceab275de8f295929a50a2470b95a8bfc2fe4dc095bf187c57",
+      "operations": [
+        {
+          "label": "Version the changed application entry only",
+          "before": "./assets/app.js?v=d90c1fa2e552",
+          "after": "./assets/app.js?v=d25447147287"
+        }
+      ]
+    }
+  }
+}

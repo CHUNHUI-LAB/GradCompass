@@ -1,4 +1,5 @@
-import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import {buildOpportunities,filterOpportunities,isVerifiedRaPosition,readerText,isVerifiedRoute} from '../assets/core.js';
+// Historical 5e7cd36 data assertions; current application coverage is tested separately.
+import test from 'node:test';import assert from 'node:assert/strict';import fs from './historical-source-fs.mjs';import {buildOpportunities,filterOpportunities,isVerifiedRaPosition,readerText,isVerifiedRoute} from '../assets/core.js';
 const catalog=JSON.parse(fs.readFileSync(new URL('../data/catalog.json',import.meta.url),'utf8'));
 test('PhD expansion splits 41 eligible advisors into 57 project-specific opportunities',()=>{const rows=buildOpportunities(catalog);assert.equal(rows.length,57);assert.equal(new Set(rows.map(o=>o.advisorId)).size,41);assert.equal(new Set(rows.map(o=>o.id)).size,57);assert(rows.filter(o=>o.type==='MSc').length===2);assert(rows.every(o=>isVerifiedRoute(catalog.routes.find(r=>r.id===o.routeId))));});
 test('generic RA recruitment is never converted to a bachelor-eligible job',()=>{assert(catalog.advisors.some(a=>a.openingDetails.some(x=>x.degree==='RA'&&x.status==='explicit')));assert.equal(filterOpportunities(catalog,{opportunityType:'RA'}).length,0);});

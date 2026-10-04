@@ -1,6 +1,7 @@
+// Historical 5e7cd36 data assertions; current application coverage is tested separately.
 import {maintenanceBaseline} from './maintenance-baseline.mjs';
 import {recruitmentBaselineText} from './recruitment-baseline.mjs';
-import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import crypto from 'node:crypto';
+import test from 'node:test';import assert from 'node:assert/strict';import fs from './historical-source-fs.mjs';import crypto from 'node:crypto';
 import {deadlineStatus,filterDeadlines} from '../assets/core.js';import {renderRecordSummary} from '../assets/record-summaries.js';
 import {normalizeMaterialSupplement} from '../assets/material-supplement.js';
 const read=name=>JSON.parse(fs.readFileSync(new URL('../data/'+name,import.meta.url),'utf8'));const catalog=maintenanceBaseline(read('catalog.json'));const materials=maintenanceBaseline(read('material-summaries.json'));

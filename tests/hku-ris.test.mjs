@@ -1,6 +1,8 @@
+import {historicalSourceBytes} from './historical-source-baseline.mjs';
+// Historical 5e7cd36 data assertions; current application coverage is tested separately.
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './historical-source-fs.mjs';
 import crypto from 'node:crypto';
 import {hkuRisBaseline,risRouteId,risSourceIds} from './hku-ris-baseline.mjs';
 import {filterRoutes,buildOpportunities,filterDeadlines,deadlineStatus} from '../assets/core.js';
@@ -29,7 +31,7 @@ const expected={
   "data/sustech-advisor-review-20261004.json": "ec5204975321dc31f04e808dd37be88d510ac747bb62790af811ee209bbd14b9"
 };
 function assertBaseline(files){for(const [f,h]of Object.entries(expected)){
- let bytes=files[f];if(['data/catalog.json','data/project-summaries.json','data/material-summaries.json'].includes(f))bytes=JSON.stringify(hkuRisBaseline(JSON.parse(bytes)),null,2)+'\n';
+ let bytes=historicalSourceBytes(f,files[f]);if(['data/catalog.json','data/project-summaries.json','data/material-summaries.json'].includes(f))bytes=JSON.stringify(hkuRisBaseline(JSON.parse(bytes)),null,2)+'\n';
  if(f==='assets/page-overviews.js')bytes=String(bytes).replace("title:'MSc 侧重授课培养'","title:'两个 MSc 侧重授课培养'").replace("已收录 ${count(routes,r=>r.degree==='MSc')} 个 MSc。","已收录的 ${count(routes,r=>r.degree==='MSc')} 个 MSc 是 CUHK Robotics 与 PolyU Intelligent Robotics Engineering。");
  assert.equal(hash(bytes),h,'Exact remote 91af79d3 baseline: '+f);
 }}

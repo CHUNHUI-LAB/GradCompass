@@ -178,7 +178,7 @@ test('cold comparison URLs render on initial load and close safely to projects',
 });
 
 test('invalid and repeated IDs in cold comparison links do not gain academic columns', async () => {
- for (const hash of [hashFor(['project-a','unverified']), hashFor(['project-a','project-a']), '#routes/compare/%E0%A4%A']) {
+ for (const hash of [hashFor(['project-a','missing-project']), hashFor(['project-a','project-a']), '#routes/compare/%E0%A4%A']) {
   const app = await setup({hash}); assert(app.el('#compare-dialog').open); assert.equal(columns(app),0); assert(app.el('#compare-content').innerHTML.includes('请选择 2–3 个项目进行对比'));
   app.escape('compare-dialog'); assert.equal(location.hash,'#routes'); assert(!app.el('#compare-dialog').open);
  }
@@ -207,7 +207,7 @@ test('switching away dismisses comparison and preserves project selection and in
 
 test('an invalid comparison hash dismisses an existing project detail before showing recovery', async () => {
  const app = await setup(); app.summary('project-a'); assert(app.el('#detail-dialog').open);
- app.navigate(hashFor(['project-a','unverified']));
+ app.navigate(hashFor(['project-a','missing-project']));
  assert(app.el('#compare-dialog').open); assert.equal(columns(app),0);
  assert(!app.el('#detail-dialog').open, 'invalid comparison recovery must not stack over a stale detail dialog');
  app.escape('compare-dialog'); assert.equal(location.hash,'#routes'); assert(!app.el('#detail-dialog').open);

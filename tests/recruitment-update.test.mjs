@@ -1,5 +1,6 @@
+// Historical 5e7cd36 data assertions; current application coverage is tested separately.
 import {maintenanceBaseline} from './maintenance-baseline.mjs';
-import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import crypto from 'node:crypto';
+import test from 'node:test';import assert from 'node:assert/strict';import fs from './historical-source-fs.mjs';import crypto from 'node:crypto';
 import {buildOpportunities,filterOpportunities,isVerifiedRoute,rankOf,safeUrl} from '../assets/core.js';
 import {profileMap,renderProfile,renderProfileReferences} from '../assets/profiles.js';
 import {recruitmentBaseline,recruitmentBaselineText} from './recruitment-baseline.mjs';
