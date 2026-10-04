@@ -22465,6 +22465,162 @@
       "nativeDegreeLabel": "专业学位硕士",
       "programCode": "085400",
       "degreeTaxonomyNote": "degree=MSc 沿用平台硕士筛选分类桶，不是学校授予的理学硕士称谓；实际学术/专业学位类型以 nativeDegreeLabel 和项目名称为准。"
+    },
+    {
+      "id": "jhu-robotics-mse",
+      "institution": "JHU",
+      "department": "Whiting School of Engineering / Laboratory for Computational Sensing and Robotics",
+      "program": "Master of Science in Engineering in Robotics",
+      "degree": "MSc",
+      "degreeVariant": "MSE",
+      "nativeDegreeLabel": "Master of Science in Engineering（MSE）",
+      "bachelorEligible": true,
+      "noTuimianRequired": true,
+      "noMasterRequired": true,
+      "status": "verified",
+      "eligibilitySummary": "入学前完成本科或等同学历；工程、科学或数学本科，或能证明具备相关领域知识及成果。仍须满足学校审核及适用英语要求。",
+      "supervisorAssociation": "仅核实项目层面入口与材料；未新增个人导师关联，不证明个人招生名额、资助或录取。",
+      "admissionYear": "2027 Spring / 2027 Fall",
+      "sourceCycle": "2027",
+      "admissionMode": "application",
+      "cycle2027Verified": true,
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false,
+      "currentCycleVerificationStatus": "verified",
+      "applicationStatus": "open",
+      "applicationMethod": "Ordinary graduate online application",
+      "duration": "通常全日制3–4学期",
+      "sources": [
+        {
+          "id": "jhu_robotics_20261004_program",
+          "label": "JHU Robotics MSE 官方项目",
+          "url": "https://lcsr.jhu.edu/education/robotics-masters-program/",
+          "section": "Programme overview and time to degree",
+          "checkedDate": "2026-10-04",
+          "evidenceScope": "official substantive page text",
+          "readWindowUtc": "2026-10-04T15:01:30Z/2026-10-04T15:04:13Z"
+        },
+        {
+          "id": "jhu_robotics_20261004_admissions",
+          "label": "JHU Robotics MSE 2027 招生与材料",
+          "url": "https://lcsr.jhu.edu/education/robotics-masters-program/admissions/",
+          "section": "Spring/Fall 2027; ET deadlines; requirements; optional GRE and credential evaluation",
+          "checkedDate": "2026-10-04",
+          "evidenceScope": "official substantive page text",
+          "readWindowUtc": "2026-10-04T15:01:30Z/2026-10-04T15:04:13Z"
+        }
+      ],
+      "notes": [
+        "2027春季2026-10-15、秋季优先2026-12-15、秋季普通2027-01-15，均23:59 ET。校方正文明确两季开放；未登录核验实际提交。7月1日仅内部候选，不作为普通申请截止。",
+        "官网开放声明已核读；本轮未登录、未提交申请，未核申请表全部字段。2027不等于2028 Fall。"
+      ],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "入学前完成本科或等同学历；工程、科学或数学本科，或能证明具备相关领域知识及成果。仍须满足学校审核及适用英语要求。",
+          "sources": [
+            {
+              "id": "jhu_robotics_20261004_program",
+              "label": "JHU Robotics MSE 官方项目",
+              "url": "https://lcsr.jhu.edu/education/robotics-masters-program/",
+              "section": "Programme overview and time to degree",
+              "checkedDate": "2026-10-04",
+              "evidenceScope": "official substantive page text",
+              "readWindowUtc": "2026-10-04T15:01:30Z/2026-10-04T15:04:13Z"
+            },
+            {
+              "id": "jhu_robotics_20261004_admissions",
+              "label": "JHU Robotics MSE 2027 招生与材料",
+              "url": "https://lcsr.jhu.edu/education/robotics-masters-program/admissions/",
+              "section": "Spring/Fall 2027; ET deadlines; requirements; optional GRE and credential evaluation",
+              "checkedDate": "2026-10-04",
+              "evidenceScope": "official substantive page text",
+              "readWindowUtc": "2026-10-04T15:01:30Z/2026-10-04T15:04:13Z"
+            }
+          ]
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "checkedAtUtc": "2026-10-04T15:04:13Z",
+      "defaultVisible": true
+    },
+    {
+      "id": "bu-robotics-ms",
+      "institution": "BU",
+      "department": "College of Engineering",
+      "program": "Master of Science in Robotics & Autonomous Systems",
+      "degree": "MSc",
+      "degreeVariant": "MS",
+      "nativeDegreeLabel": "Master of Science（MS）",
+      "bachelorEligible": true,
+      "noTuimianRequired": true,
+      "noMasterRequired": true,
+      "status": "verified",
+      "eligibilitySummary": "项目面向工程或计算机科学本科学位背景，仍须由学校审核学术准备和适用英语要求；无需预先取得硕士或内地推免资格。",
+      "supervisorAssociation": "仅核实项目层面入口与材料；未新增个人导师关联，不证明个人招生名额、资助或录取。",
+      "admissionYear": "2027 Spring / 2027 Fall",
+      "sourceCycle": "2027",
+      "admissionMode": "application",
+      "cycle2027Verified": true,
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false,
+      "currentCycleVerificationStatus": "verified",
+      "applicationStatus": "open",
+      "applicationMethod": "Ordinary graduate online application",
+      "duration": "通常2–3学期；支持非全日制",
+      "sources": [
+        {
+          "id": "bu_robotics_20261004_program",
+          "label": "BU Robotics & Autonomous Systems MS 官方项目",
+          "url": "https://www.bu.edu/eng/academics/explore-degree-programs/master-of-science-in-robotics-autonomous-systems/",
+          "section": "Bachelor background; Spring/Fall 2027 open; GRE not required; curriculum",
+          "checkedDate": "2026-10-04",
+          "evidenceScope": "official substantive page text",
+          "readWindowUtc": "2026-10-04T15:01:30Z/2026-10-04T15:04:13Z"
+        },
+        {
+          "id": "bu_robotics_20261004_admissions",
+          "label": "BU Engineering 2027 申请日期与材料",
+          "url": "https://www.bu.edu/eng/admissions/graduate/graduate-admissions/application-deadlines-requirements/",
+          "section": "2027 deadlines; PS/CV/transcripts/references; English evidence; BU-only early round excluded",
+          "checkedDate": "2026-10-04",
+          "evidenceScope": "official substantive page text",
+          "readWindowUtc": "2026-10-04T15:01:30Z/2026-10-04T15:04:13Z"
+        }
+      ],
+      "notes": [
+        "2027春季2026-11-01；2027秋季优先2027-01-15、最终2027-03-15。原文未标钟点或时区，不补写。正文明确两季开放；10月15日早轮仅BU本科毕业年级，未纳入普通申请日历。",
+        "官网开放声明已核读；本轮未登录、未提交申请，未核申请表全部字段。2027不等于2028 Fall。"
+      ],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "项目面向工程或计算机科学本科学位背景，仍须由学校审核学术准备和适用英语要求；无需预先取得硕士或内地推免资格。",
+          "sources": [
+            {
+              "id": "bu_robotics_20261004_program",
+              "label": "BU Robotics & Autonomous Systems MS 官方项目",
+              "url": "https://www.bu.edu/eng/academics/explore-degree-programs/master-of-science-in-robotics-autonomous-systems/",
+              "section": "Bachelor background; Spring/Fall 2027 open; GRE not required; curriculum",
+              "checkedDate": "2026-10-04",
+              "evidenceScope": "official substantive page text",
+              "readWindowUtc": "2026-10-04T15:01:30Z/2026-10-04T15:04:13Z"
+            },
+            {
+              "id": "bu_robotics_20261004_admissions",
+              "label": "BU Engineering 2027 申请日期与材料",
+              "url": "https://www.bu.edu/eng/admissions/graduate/graduate-admissions/application-deadlines-requirements/",
+              "section": "2027 deadlines; PS/CV/transcripts/references; English evidence; BU-only early round excluded",
+              "checkedDate": "2026-10-04",
+              "evidenceScope": "official substantive page text",
+              "readWindowUtc": "2026-10-04T15:01:30Z/2026-10-04T15:04:13Z"
+            }
+          ]
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "checkedAtUtc": "2026-10-04T15:04:13Z",
+      "defaultVisible": true
     }
   ],
   "deadlines": [
@@ -23249,6 +23405,168 @@
       ],
       "checkedDate": "2026-10-04",
       "checkedAtUtc": "2026-10-04T06:32:22Z"
+    },
+    {
+      "id": "jhu-robotics-mse-2027-spring",
+      "title": "JHU Robotics 2027 Spring 普通申请截止",
+      "institution": "JHU",
+      "routeIds": [
+        "jhu-robotics-mse"
+      ],
+      "date": "2026-10-15",
+      "deadlineTime": "23:59",
+      "timezone": "America/New_York",
+      "status": "open",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027 Spring",
+      "note": "官方原文23:59 ET，按America/New_York保留当地夏令/标准时间。正文声明申请开放，未登录验证实际提交；不是导师个人余位。",
+      "sources": [
+        {
+          "id": "jhu_robotics_20261004_admissions",
+          "label": "JHU Robotics MSE 2027 招生与材料",
+          "url": "https://lcsr.jhu.edu/education/robotics-masters-program/admissions/",
+          "section": "Spring/Fall 2027; ET deadlines; requirements; optional GRE and credential evaluation",
+          "checkedDate": "2026-10-04",
+          "evidenceScope": "official substantive page text",
+          "readWindowUtc": "2026-10-04T15:01:30Z/2026-10-04T15:04:13Z"
+        }
+      ],
+      "checkedDate": "2026-10-04"
+    },
+    {
+      "id": "jhu-robotics-mse-2027-fall-priority",
+      "title": "JHU Robotics 2027 Fall 优先轮截止",
+      "institution": "JHU",
+      "routeIds": [
+        "jhu-robotics-mse"
+      ],
+      "date": "2026-12-15",
+      "deadlineTime": "23:59",
+      "timezone": "America/New_York",
+      "status": "open",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027 Fall",
+      "note": "官方原文23:59 ET，按America/New_York保留当地夏令/标准时间。正文声明申请开放，未登录验证实际提交；不是导师个人余位。",
+      "sources": [
+        {
+          "id": "jhu_robotics_20261004_admissions",
+          "label": "JHU Robotics MSE 2027 招生与材料",
+          "url": "https://lcsr.jhu.edu/education/robotics-masters-program/admissions/",
+          "section": "Spring/Fall 2027; ET deadlines; requirements; optional GRE and credential evaluation",
+          "checkedDate": "2026-10-04",
+          "evidenceScope": "official substantive page text",
+          "readWindowUtc": "2026-10-04T15:01:30Z/2026-10-04T15:04:13Z"
+        }
+      ],
+      "checkedDate": "2026-10-04"
+    },
+    {
+      "id": "jhu-robotics-mse-2027-fall-final",
+      "title": "JHU Robotics 2027 Fall 普通申请截止",
+      "institution": "JHU",
+      "routeIds": [
+        "jhu-robotics-mse"
+      ],
+      "date": "2027-01-15",
+      "deadlineTime": "23:59",
+      "timezone": "America/New_York",
+      "status": "open",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027 Fall",
+      "note": "官方原文23:59 ET，按America/New_York保留当地夏令/标准时间。正文声明申请开放，未登录验证实际提交；不是导师个人余位。",
+      "sources": [
+        {
+          "id": "jhu_robotics_20261004_admissions",
+          "label": "JHU Robotics MSE 2027 招生与材料",
+          "url": "https://lcsr.jhu.edu/education/robotics-masters-program/admissions/",
+          "section": "Spring/Fall 2027; ET deadlines; requirements; optional GRE and credential evaluation",
+          "checkedDate": "2026-10-04",
+          "evidenceScope": "official substantive page text",
+          "readWindowUtc": "2026-10-04T15:01:30Z/2026-10-04T15:04:13Z"
+        }
+      ],
+      "checkedDate": "2026-10-04"
+    },
+    {
+      "id": "bu-robotics-ms-2027-spring",
+      "title": "BU Robotics 2027 Spring 普通申请截止",
+      "institution": "BU",
+      "routeIds": [
+        "bu-robotics-ms"
+      ],
+      "date": "2026-11-01",
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "open",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027 Spring",
+      "note": "官方未标钟点及时区；仅保留日期精度。正文声明申请开放，未登录验证实际提交；不是导师个人余位。",
+      "sources": [
+        {
+          "id": "bu_robotics_20261004_admissions",
+          "label": "BU Engineering 2027 申请日期与材料",
+          "url": "https://www.bu.edu/eng/admissions/graduate/graduate-admissions/application-deadlines-requirements/",
+          "section": "2027 deadlines; PS/CV/transcripts/references; English evidence; BU-only early round excluded",
+          "checkedDate": "2026-10-04",
+          "evidenceScope": "official substantive page text",
+          "readWindowUtc": "2026-10-04T15:01:30Z/2026-10-04T15:04:13Z"
+        }
+      ],
+      "checkedDate": "2026-10-04"
+    },
+    {
+      "id": "bu-robotics-ms-2027-fall-priority",
+      "title": "BU Robotics 2027 Fall 优先轮截止",
+      "institution": "BU",
+      "routeIds": [
+        "bu-robotics-ms"
+      ],
+      "date": "2027-01-15",
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "open",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027 Fall",
+      "note": "官方未标钟点及时区；仅保留日期精度。正文声明申请开放，未登录验证实际提交；不是导师个人余位。",
+      "sources": [
+        {
+          "id": "bu_robotics_20261004_admissions",
+          "label": "BU Engineering 2027 申请日期与材料",
+          "url": "https://www.bu.edu/eng/admissions/graduate/graduate-admissions/application-deadlines-requirements/",
+          "section": "2027 deadlines; PS/CV/transcripts/references; English evidence; BU-only early round excluded",
+          "checkedDate": "2026-10-04",
+          "evidenceScope": "official substantive page text",
+          "readWindowUtc": "2026-10-04T15:01:30Z/2026-10-04T15:04:13Z"
+        }
+      ],
+      "checkedDate": "2026-10-04"
+    },
+    {
+      "id": "bu-robotics-ms-2027-fall-final",
+      "title": "BU Robotics 2027 Fall 普通申请截止",
+      "institution": "BU",
+      "routeIds": [
+        "bu-robotics-ms"
+      ],
+      "date": "2027-03-15",
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "open",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027 Fall",
+      "note": "官方未标钟点及时区；仅保留日期精度。正文声明申请开放，未登录验证实际提交；不是导师个人余位。",
+      "sources": [
+        {
+          "id": "bu_robotics_20261004_admissions",
+          "label": "BU Engineering 2027 申请日期与材料",
+          "url": "https://www.bu.edu/eng/admissions/graduate/graduate-admissions/application-deadlines-requirements/",
+          "section": "2027 deadlines; PS/CV/transcripts/references; English evidence; BU-only early round excluded",
+          "checkedDate": "2026-10-04",
+          "evidenceScope": "official substantive page text",
+          "readWindowUtc": "2026-10-04T15:01:30Z/2026-10-04T15:04:13Z"
+        }
+      ],
+      "checkedDate": "2026-10-04"
     }
   ],
   "materials": [

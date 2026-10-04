@@ -89,7 +89,7 @@ test('all fifteen concurrent research profiles and four doctoral references surv
   for(const o of a.openingDetails||[]){assert.notEqual(o.cycle2027FallVerified,true);assert.notEqual(o.cycle2028FallVerified,true);assert.notEqual(o.confirmedVacancy,true);assert.notEqual(o.remainingHeadcountVerified,true);}
  }
  assert.equal(catalog.routes.filter(r=>['SUSTech','Tsinghua'].includes(r.institution)&&r.degree==='PhD'&&r.status==='reference').length,4);
- assert.equal(buildOpportunities(catalog).length,59);assert.equal(browseAdvisors(catalog).length,58);assert.equal(browseRoutes(catalog).length,42);
+ assert.equal(buildOpportunities(catalog).length,59);assert.equal(browseAdvisors(catalog).length,58);assert.equal(browseRoutes(catalog).length,44);
 });
 
 test('native IIIS academic and professional degrees cannot be called science masters',()=>{

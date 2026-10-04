@@ -1,6 +1,6 @@
 {
   "project": "GradCompass",
-  "revision": "source-evidence-discovery-candidate-20261004",
+  "revision": "overseas-project-reference-candidate-20261004",
   "baseSourceCommit": "91af79d313c3d0bd7f3bfd5a4e306a3af596ccaf",
   "baseDeployedCommit": "4840df6a9718ec38e472f8fd7496047248029e71",
   "snapshotDate": "2026-10-04",
@@ -20,12 +20,12 @@
   "experienceSourceSites": 19,
   "preservedPublishedRecords": 21,
   "newExperienceRecords": 5,
-  "materialRecords": 15,
-  "materialSupplementRecords": 13,
-  "materialSupplementSources": 43,
-  "projectSummaryRecords": 28,
-  "projectSummarySchools": 9,
-  "projectSummarySources": 66,
+  "materialRecords": 17,
+  "materialSupplementRecords": 15,
+  "materialSupplementSources": 47,
+  "projectSummaryRecords": 30,
+  "projectSummarySchools": 11,
+  "projectSummarySources": 70,
   "preservedProjectSummaryRecords": 17,
   "newProjectSummaryRecords": 10,
   "pageOverviews": 5,
@@ -37,23 +37,23 @@
     },
     {
       "path": "QA.md",
-      "bytes": 48136,
-      "sha256": "1627b456c00bff868fe6cdc412284c54f40e8da4b1f9c275a89c2c6fde233906"
+      "bytes": 49888,
+      "sha256": "402efc3f2e6a5fb4d4452df11abecaa3c708da40af57d17eb3c750e56146d87c"
     },
     {
       "path": "README.md",
-      "bytes": 30898,
-      "sha256": "5daddd7b594a033dda9b02b0f3bbaed381943f6095bc43d9f0cc0fef2c11b96f"
+      "bytes": 32420,
+      "sha256": "8f12a9cbe3f451046289d894127cc0ee6f06106579d91563ecc66ca5bf6327ac"
     },
     {
       "path": "REPO-MAP.md",
-      "bytes": 7336,
-      "sha256": "514ccec0e403b298aa1b3bff4b63ad84c74229d8eda4163dbde11752eef4a3ae"
+      "bytes": 8002,
+      "sha256": "0735a31abe95defd1d7bab444df69edaa8eb35798069cfe269211d1b3817e999"
     },
     {
       "path": "assets/app.js",
       "bytes": 71230,
-      "sha256": "d25447147287fde8b6bccb7b8c92798a4ea7427c599922fce0fc4cfe26426ba0"
+      "sha256": "8afbf70a01deb6a1c70e7160367e728465771b51c073fc8579e5690ddf80e0a4"
     },
     {
       "path": "assets/campus-art.webp",
@@ -127,8 +127,8 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 1246769,
-      "sha256": "1d487459fc92f44d1c68451061b6afac2c06c8289740f6abf77e4639667a6120"
+      "bytes": 1261861,
+      "sha256": "48dc45a270b4d6993014a95a284d61ee6b7a33479129da7dcb4c863c273fabde"
     },
     {
       "path": "data/maintenance-2026-10-03.json",
@@ -142,13 +142,13 @@
     },
     {
       "path": "data/material-summaries.json",
-      "bytes": 72582,
-      "sha256": "0e7779408d1896834cb40d93e9e0653cb374a194ae88e6f48080aa0ccceff4da"
+      "bytes": 81403,
+      "sha256": "899a0ef0883432ca144f54064503781b52b3fbd26cddc1ab232dd6802c6dea0e"
     },
     {
       "path": "data/project-summaries.json",
-      "bytes": 90715,
-      "sha256": "a901969671f42fc728c6514b2ab212f9e897e652a6fed6febecd76db98ecfb11"
+      "bytes": 96591,
+      "sha256": "8c0004f515919965b94eb0c82ddfd875f2aaaaba805c51e1060b62320eba164d"
     },
     {
       "path": "data/ra-positions.json",
@@ -173,7 +173,7 @@
     {
       "path": "index.html",
       "bytes": 8270,
-      "sha256": "c069a2831953cdceab275de8f295929a50a2470b95a8bfc2fe4dc095bf187c57"
+      "sha256": "3be03ac0a383014979d6bc15a0624ab29cfd4832b524254b156b4ed0daec8c37"
     },
     {
       "path": "package.json",
@@ -182,8 +182,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 10673,
-      "sha256": "a579d46d624512f8eb0c824ffa25f2840d23d24952aeafb31ce632fdacc4d9b9"
+      "bytes": 11257,
+      "sha256": "6974c3a3edf5c1ae318de0cd1443a027cc4af9ba1bb7a39cc8e59bd3a3bba5db"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -228,7 +228,7 @@
     {
       "path": "tests/core.test.mjs",
       "bytes": 6503,
-      "sha256": "cecca8acb21216687a2256ac79518fd4dae1e21fbd66af501eb8eb11d5942b7e"
+      "sha256": "798b8ad01821e5f0b3f0872dd09833666a68eeee546aa6bd62557e5ca93cc876"
     },
     {
       "path": "tests/current-correction-baseline.mjs",
@@ -257,8 +257,8 @@
     },
     {
       "path": "tests/detail-ui-baseline.test.mjs",
-      "bytes": 4600,
-      "sha256": "6ab5851eec4ce489be444fef1e567addf607ba909529ff09b1b63f8cd8a1ecb5"
+      "bytes": 4675,
+      "sha256": "9212bbab30975c266aba8a898f2bcf1060427d434328a38aa0bbe424dd94e7f2"
     },
     {
       "path": "tests/editorial-design.test.mjs",
@@ -351,6 +351,11 @@
       "sha256": "3ed94ddefa3180a82913df8a06f85760cb45a618d01baeee8ccc1c4883928d2b"
     },
     {
+      "path": "tests/fixtures/history/reviewed-overseas-20261004.json",
+      "bytes": 39497,
+      "sha256": "b7bddb9f96ff18edf9db10e53091368109a6eb2a1f9da4cf6ac7ae949337375a"
+    },
+    {
       "path": "tests/fixtures/history/reviewed-source-deltas.json",
       "bytes": 936318,
       "sha256": "3d8857966bdb829d03fa1bb22738228277c9fea837b72438b864ce777e640987"
@@ -367,8 +372,8 @@
     },
     {
       "path": "tests/historical-source-fs.mjs",
-      "bytes": 983,
-      "sha256": "353aafd169c1dbc610876589a4aac7b9ebf50e21752699b956943692fe8123ab"
+      "bytes": 1062,
+      "sha256": "6a680d76d6568ab2e51c140cab1694cd38bedb6ea9599b2efef4a13d90886d34"
     },
     {
       "path": "tests/hku-ris-baseline.mjs",
@@ -382,13 +387,13 @@
     },
     {
       "path": "tests/latest-3f294-baseline.mjs",
-      "bytes": 1938,
-      "sha256": "d041604bcd07f23406bb3fccb42c2a330b17ae2098506b633169740e6ea35b19"
+      "bytes": 2049,
+      "sha256": "5929ee8fc5e5e7913307ea66f22009858dd8a2a5033834b185a77dc83ee10469"
     },
     {
       "path": "tests/latest-3f294-baseline.test.mjs",
-      "bytes": 7486,
-      "sha256": "b633a912319cc57710cc4e54ee706efd24c83f2ad6dc424d8cc15fa7d1b3d83d"
+      "bytes": 7561,
+      "sha256": "9e9846d2317aafb7bbbfd5d39c6a4257ac394f8858e14d4566b59fcea6956821"
     },
     {
       "path": "tests/maintenance-baseline.mjs",
@@ -414,6 +419,16 @@
       "path": "tests/optional-loading.test.mjs",
       "bytes": 18169,
       "sha256": "7781531934298c9e08a76d71f0f3cc536ca10e3b9c4199e237100e54be288595"
+    },
+    {
+      "path": "tests/overseas-additions.test.mjs",
+      "bytes": 6066,
+      "sha256": "1528937cd4c83d023b89f6ac25386fe802bda98861d5ca1f7d2da007c201d072"
+    },
+    {
+      "path": "tests/overseas-baseline.mjs",
+      "bytes": 1396,
+      "sha256": "a63486b06d0c604274595df533e145797f815a5c3a5e580fee2ec38b0f4a90ac"
     },
     {
       "path": "tests/page-overview-navigation.test.mjs",
@@ -478,7 +493,7 @@
     {
       "path": "tests/public-discovery.test.mjs",
       "bytes": 9956,
-      "sha256": "46d14ed2f1737896e66af25f12276a308627289ac13bf2c4d0fc360e3ae23a99"
+      "sha256": "1c0427ff28587cc8c8029684199b9c459f2709b7622b95575dd6949c0c136f43"
     },
     {
       "path": "tests/ranks.test.mjs",
@@ -513,7 +528,7 @@
     {
       "path": "tests/resource-versions.test.mjs",
       "bytes": 8156,
-      "sha256": "f083f51ad7143bd7ca187ab0d418aa5a32abafafa75cbbf72e5ad4fa7465d329"
+      "sha256": "c73743016fa183548b89d1671ee8f3fe3e15c98683808ef84d5cde404bb7f356"
     },
     {
       "path": "tests/strict-history-transform.mjs",
@@ -581,9 +596,9 @@
   },
   "advisorCatalogCount": 58,
   "verifiedDegreeAssociationCount": 57,
-  "projectCatalogCount": 42,
-  "visibleProjectCount": 42,
-  "candidateBaseCommit": "3f294a8cc601e77183deb594de0836ec76cc8a9c",
+  "projectCatalogCount": 44,
+  "visibleProjectCount": 44,
+  "candidateBaseCommit": "7a8b2d63da2eab07b315a099bcd51c561a0c8c6f",
   "evidenceScope": "All recorded advisors and academic references remain readable; verified degree associations require exact sourced advisor-route joins. Project evidence is not individual recruitment or remaining capacity.",
   "detailUiPolish": {
     "date": "2026-10-04",
@@ -592,5 +607,15 @@
     "dataChanged": false,
     "layoutChanged": false,
     "validationScope": "Local focus/scroll and historical regression contracts; deployment and live-browser verification are separate"
+  },
+  "overseasProjects20261004": {
+    "baseCommit": "7a8b2d63da2eab07b315a099bcd51c561a0c8c6f",
+    "baseTree": "d925daddc43a5ca8ef20897520f872630c1ace1b",
+    "identicalContentCommit": "67d98a99f41bbd8be1e85a90cb57db76c14b63c4",
+    "projectsAdded": 2,
+    "materialsAdded": 2,
+    "deadlinesAdded": 6,
+    "scope": "JHU and BU 2027 programme-level references only; no advisor or RA associations",
+    "validation": "Local candidate; tests, source review and publication are separate"
   }
 }

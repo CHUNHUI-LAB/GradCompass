@@ -1,6 +1,6 @@
 # GradCompass 仓库地图与 2028 Fall 证据规则
 
-本文记录当前代码、数据、测试和发布清单之间的边界，作为后续继续开发的入口。本地候选基线为 `3f294a8cc601e77183deb594de0836ec76cc8a9c`。旧批次记录按其原历史范围保留，当前权威计数由 `node scripts/public-counts.mjs` 生成。
+本文记录当前代码、数据、测试和发布清单之间的边界，作为后续继续开发的入口。当前海外项目候选基线为main `7a8b2d63da2eab07b315a099bcd51c561a0c8c6f`（与67d98a99相同内容树）；此前来源更正层基线为 `3f294a8cc601e77183deb594de0836ec76cc8a9c`。旧批次记录按其原历史范围保留，当前权威计数由 `node scripts/public-counts.mjs` 生成。
 
 ## 数据与运行链路
 
@@ -59,7 +59,11 @@
 
 - `browseAdvisors`/`browseRoutes`用于公开全集，旧`filterAdvisors`/`filterRoutes`仅保留早期本科便利筛选的历史回归语义，不决定当前公开可见性
 - `hasVerifiedAssociation`只接受精确routeId、verified状态、非pending验证及个人关联来源；`buildOpportunities`不把项目资格或reference转换成导师个人招生
-- 58导师与42项目可浏览；研究资料、前置学历和招生方式分别展示，未知不删除。原41项目与15位朋友新增导师保持身份和来源历史
+- 58导师与44项目可浏览；本批保留原42项目和全部导师，仅追加JHU与BU项目层面记录。研究资料、前置学历和招生方式分别展示，未知不删除；15位并发新增导师保持身份和来源历史
 - `sourceCycle`、`admissionMode`、`currentCycleVerificationStatus`与个人`individualRecruitmentVerified`相互独立；周期标签须读原HTML标题，不能只依赖可能漏标题的正文抽取
 - 四份补充资料独立加载；全依赖链content hash经freeze后写入，实际验证结果不硬编码进manifest
 - 历史tests采用固定commit及原始字节哈希，新增与纠错逐次精确逆变换；未知变化、排序和新增字段必须触发失败
+
+## JHU / BU 项目候选边界
+
+本批新增2项目、2简介、2材料组与6条分入学季日历；现在30份项目简介、17组材料，导师和26篇经验不变。2027项目条件不转换为个人招生关联或2028 Fall。新历史追加层为`tests/overseas-baseline.mjs`及独立固定hash fixture，仅完整已知快照可以回退；旧历史fixture不改。国内与CMU等未完成核验的研究候选在交付目录独立保存，不进入发布allowlist。
