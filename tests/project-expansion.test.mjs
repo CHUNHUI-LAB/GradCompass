@@ -1,4 +1,5 @@
 import {maintenanceBaseline} from './maintenance-baseline.mjs';
+import {advisorAdditionsBaselineBytes} from './advisor-additions-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -77,7 +78,7 @@ test('reviewed catalog and material snapshots plus unchanged data runtime and ex
   "assets/material-supplement.js": "44c8f5821e4c828503b6efefc6cd6a75f560c2de0067f855531337c025511d03",
 };
  for(const [path,expected] of Object.entries(protectedHashes)){
-  let content=fs.readFileSync(new URL('../'+path,import.meta.url));
+  let content=advisorAdditionsBaselineBytes(path,fs.readFileSync(new URL('../'+path,import.meta.url)));
   if(['data/catalog.json','data/material-summaries.json','data/application-experiences.json','data/application-experience-provenance.json'].includes(path))content=JSON.stringify(maintenanceBaseline(JSON.parse(content)),null,2)+'\n';
   assert.equal(hash(content),expected,path);
  }

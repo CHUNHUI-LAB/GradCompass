@@ -42,7 +42,7 @@ test('October 4 inverse is read-only, removes only five IDs, and composes with e
 
 test('October 4 keeps official source files, F2 CSS and unrelated UI bytes fixed independently of the release manifest',()=>{
  assertExperienceBatchPreserved(snapshot());
- assert.equal(filterRoutes(catalog).length,27);assert.equal(filterAdvisors(catalog).length,32);assert.equal(catalog.deadlines.length,19);
+ assert.equal(filterRoutes(catalog).length,27);assert.equal(filterAdvisors(catalog).length,35);assert.equal(catalog.deadlines.length,19);
  for(const name of Object.keys(protectedFileHashes).filter(name=>name.startsWith('data/'))){
   assert(!String(files[name]).includes('grad-zuoduan-westlake-ai4sci-2024'));assert(!/TU Delft/.test(String(files[name])));
  }

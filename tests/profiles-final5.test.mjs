@@ -17,7 +17,7 @@ const get=id=>added.find(p=>p.advisorId===id);
 test('final five append to the exact twenty-five released profiles without relabelling their verification dates',()=>{
  assert.equal(hash(JSON.stringify(supplement.profiles.slice(0,25))),'7bfeb431fbed1c2b539837d248ad1f9366e2756a2857c3e402aa53b17eb8dccf');
  assert.deepEqual(added.map(p=>p.advisorId),ids);
- assert.equal(supplement.profiles.length,32);
+ assert.equal(supplement.profiles.length,35);
  assert.equal(supplement.batch6Review.baseCommit,'5bd7724d79c8b41f75cb9230d1a23d04fec3d481');
  assert.equal(supplement.batch6Review.preservedProfiles,25);
  assert.equal(supplement.batch6Review.catalogMutation,false);
@@ -26,8 +26,8 @@ test('every visible advisor has exactly one rich profile while the two excluded 
  const rows=buildOpportunities(data),visible=new Set(rows.map(o=>o.advisorId));
  const profiles=profileMap(supplement,academic.advisors);
  assert.deepEqual([...profiles.keys()].sort(),[...visible].sort());
- assert.equal(rows.length,48);assert.equal(visible.size,32);assert.equal(rows.filter(o=>o.type==='RA').length,2);
- assert.equal(academic.advisors.length,34);assert.equal(academic.routes.filter(isVerifiedRoute).length,27);
+ assert.equal(rows.length,52);assert.equal(visible.size,35);assert.equal(rows.filter(o=>o.type==='RA').length,2);
+ assert.equal(academic.advisors.length,37);assert.equal(academic.routes.filter(isVerifiedRoute).length,27);
  for(const id of ['cuhk_zhongyu_li','xjtlu-yaran-chen']){assert(!visible.has(id));assert(!profiles.has(id));}
 });
 test('profile completion leaves catalog identity, ranks, original source records and admissions authority byte-identical',()=>{
@@ -58,7 +58,7 @@ test('all new details render with explicit resource and vacancy limits and safe 
  }
 });
 test('profile expansion preserves all visible academic-rank and opportunity filter partitions',()=>{
- const byRank={professor:6,associate:15,assistant:27};
+ const byRank={professor:6,associate:15,assistant:31};
  for(const [rank,count]of Object.entries(byRank)){const rows=filterOpportunities(data,{rank});assert.equal(rows.length,count);assert(rows.every(o=>rankOf(academic.advisors.find(a=>a.id===o.advisorId))===rank));}
  for(const id of ids){const a=academic.advisors.find(a=>a.id===id);assert.equal(rankOf(a),id==='hkust-ping-tan'?'professor':'assistant');}
 });

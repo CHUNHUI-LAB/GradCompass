@@ -10483,6 +10483,879 @@
         "checked_at": "2026-10-02",
         "verification_status": "公开身份、PhD普通申请路径与2027春秋公告核实；不保证个人资格、资助或当前余位"
       }
+    },
+    {
+      "id": "cuhksz-xiaoqiang-ji",
+      "name": "Xiaoqiang Ji",
+      "nameZh": "冀晓强",
+      "institution": "CUHK-Shenzhen",
+      "department": "理工学院；人工智能学院（双聘）",
+      "position": "Assistant Professor / Presidential Young Fellow / Ph.D. Supervisor",
+      "lab": "AI-Driven Control and Decision Laboratory (Control and Decision Lab)",
+      "topics": [
+        "embodied_ai",
+        "physical_ai",
+        "robotics",
+        "intelligent_control",
+        "multi_robot_planning",
+        "legged_robot_locomotion"
+      ],
+      "summary": "具身智能与物理人工智能控制，覆盖智能控制、异构多机器人规划、双足/四足机器人运动与仿真环境生成。",
+      "profileUrl": "https://sai.cuhk.edu.cn/teacher/175",
+      "labUrl": "https://cnd-lab.github.io/",
+      "email": "jixiaoqiang@cuhk.edu.cn",
+      "works": [
+        {
+          "title": "EmbodiedAgent: A Scalable Hierarchical Approach to Overcome Practical Challenge in Multi-Robot Control",
+          "year": 2025,
+          "venue": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), accepted",
+          "url": "https://arxiv.org/abs/2504.10030"
+        },
+        {
+          "title": "GenTe: Generative Real-world Terrains for General Legged Robot Locomotion Control",
+          "year": 2025,
+          "venue": "arXiv preprint (cs.RO), arXiv:2504.09997",
+          "url": "https://arxiv.org/abs/2504.09997"
+        }
+      ],
+      "routeIds": [
+        "cuhksz-ai-mphil",
+        "cuhksz-ai-phd"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "cuhksz-ai-mphil",
+          "degree": "MPhil",
+          "status": "verified",
+          "summary": "CUHK-Shenzhen SAI 官方 General-Purpose Embodied Control 研究组将冀晓强列为协调人并以 MPhil/PhD 为目标申请者；复用既有已核实本科起点路径，个人轮次名额、资助与录取仍须单独确认。",
+          "sources": [
+            {
+              "label": "官方研究组页面",
+              "url": "https://sai.cuhk.edu.cn/en/page/209",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "SAI MPhil-PhD项目申请页",
+              "url": "https://sai.cuhk.edu.cn/en/node/35",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "官方中文教师页",
+              "url": "https://sai.cuhk.edu.cn/teacher/175",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "cuhksz-ai-phd",
+          "degree": "PhD",
+          "status": "verified",
+          "summary": "CUHK-Shenzhen SAI 官方 General-Purpose Embodied Control 研究组将冀晓强列为协调人并以 MPhil/PhD 为目标申请者；复用既有已核实本科起点路径，个人轮次名额、资助与录取仍须单独确认。",
+          "sources": [
+            {
+              "label": "官方研究组页面",
+              "url": "https://sai.cuhk.edu.cn/en/page/209",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "SAI MPhil-PhD项目申请页",
+              "url": "https://sai.cuhk.edu.cn/en/node/35",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "官方中文教师页",
+              "url": "https://sai.cuhk.edu.cn/teacher/175",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "eligibility": "verified",
+      "eligibilityMeaning": "复用 CUHK-Shenzhen SAI 已核实的本科起点、无需推免且无需先获硕士的 MPhil/PhD 路径；这是项目与教师身份的公开关联，不是对申请人个人资格或录取的判断",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "官方 General-Purpose Embodied Control 研究组列冀晓强为协调人并标注 MPhil/PhD 目标申请者；未找到冀晓强个人 2027 名额、资助或剩余席位声明。",
+      "openings": {
+        "mphil": "官方研究组目标申请者列 MPhil；未见冀晓强个人 2027 MPhil 名额或资助声明。",
+        "msc": "未核实授课型 MSc 定向导师通道，不由研究组页面推导 MSc 席位。",
+        "phd": "官方研究组目标申请者列 PhD，冀晓强为协调人；未见个人 2027 PhD 名额、资助或剩余席位声明。",
+        "ra": "未发现冀晓强个人或实验室明确学历门槛的独立 RA 职位广告。",
+        "cycle2027": "SAI 项目页给出 2027 Spring/Fall 截止，但这不是冀晓强个人名额或录取承诺。"
+      },
+      "openingDetails": [
+        {
+          "degree": "MPhil",
+          "status": "unknown",
+          "summary": "官方研究组目标申请者列 MPhil；未见冀晓强个人 2027 MPhil 名额或资助声明。",
+          "cycle2027FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2027",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "program_group_target_applicant_quota_unconfirmed",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "官方研究组页面",
+              "url": "https://sai.cuhk.edu.cn/en/page/209",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04",
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false
+        },
+        {
+          "degree": "MSc",
+          "status": "unknown",
+          "summary": "未核实授课型 MSc 定向导师通道，不由研究组页面推导 MSc 席位。",
+          "cycle2027FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2027",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "not_verified_for_this_pi",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "SAI 项目页面",
+              "url": "https://sai.cuhk.edu.cn/en/node/35",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04",
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false
+        },
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "官方研究组目标申请者列 PhD，冀晓强为协调人；未见个人 2027 PhD 名额、资助或剩余席位声明。",
+          "cycle2027FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2027",
+          "degreeRouteAssociated": true,
+          "sourceStatus": "program_group_target_applicant_quota_unconfirmed",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "官方研究组页面",
+              "url": "https://sai.cuhk.edu.cn/en/page/209",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04",
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false
+        },
+        {
+          "degree": "RA",
+          "status": "unknown",
+          "summary": "未发现冀晓强个人或实验室明确学历门槛的独立 RA 职位广告。",
+          "cycle2027FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2027",
+          "degreeRouteAssociated": null,
+          "sourceStatus": "not_found",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "学院教师页",
+              "url": "https://sai.cuhk.edu.cn/teacher/175",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "实验室主页",
+              "url": "https://cnd-lab.github.io/",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04",
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "当前官方教师页确认现任身份，但本轮未找到可据以确定入职日期的公告；不从职称推断新老PI。",
+        "sources": [
+          {
+            "label": "官方中文教师页",
+            "url": "https://sai.cuhk.edu.cn/teacher/175",
+            "checkedDate": "2026-10-04"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "date": null,
+        "event": "当前官方教师页确认现任身份；未找到可据以确定入职日期的公告。",
+        "source": "https://sai.cuhk.edu.cn/teacher/175"
+      },
+      "sources": [
+        {
+          "label": "官方中文教师页",
+          "url": "https://sai.cuhk.edu.cn/teacher/175",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "官方英文教师页",
+          "url": "https://sai.cuhk.edu.cn/en/teacher/175",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "AI-Driven Control and Decision Lab",
+          "url": "https://cnd-lab.github.io/",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "官方研究组页面",
+          "url": "https://sai.cuhk.edu.cn/en/page/209",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "SAI MPhil-PhD项目申请页",
+          "url": "https://sai.cuhk.edu.cn/en/node/35",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "EmbodiedAgent原始论文",
+          "url": "https://arxiv.org/abs/2504.10030",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "GenTe原始论文",
+          "url": "https://arxiv.org/abs/2504.09997",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "caveats": [
+        "研究组 Target Applicants=MPhil and PhD 证明项目研究方向与申请群体，不等于冀晓强个人开放席位。",
+        "SAI 项目页的 2027 Spring/Fall 日期是院级申请日程，不是个人导师名额或资助承诺。",
+        "两项代表作按教师页列出并分别核读原始论文；论文共同作者/项目成员不据此扩展为导师。"
+      ],
+      "checkedDate": "2026-10-04",
+      "sourceFile": "mainland-advisor-review-2026-10-04",
+      "confirmedVacancy": false,
+      "remainingHeadcountVerified": false,
+      "sourceRecord": {
+        "id": "cuhksz-xiaoqiang-ji",
+        "name": "Xiaoqiang Ji",
+        "name_zh": "冀晓强",
+        "school": "香港中文大学（深圳）",
+        "unit": "理工学院；人工智能学院（双聘）",
+        "role": "Assistant Professor / Presidential Young Fellow / Ph.D. Supervisor",
+        "lab": "AI-Driven Control and Decision Laboratory (Control and Decision Lab)",
+        "official_profile_url": "https://sai.cuhk.edu.cn/teacher/175",
+        "personal_url": "https://cnd-lab.github.io/",
+        "email": "jixiaoqiang@cuhk.edu.cn",
+        "program_ids": [
+          "cuhksz-ai-mphil",
+          "cuhksz-ai-phd"
+        ],
+        "program_association_evidence": [
+          "https://sai.cuhk.edu.cn/en/page/209",
+          "https://sai.cuhk.edu.cn/en/node/35",
+          "https://sai.cuhk.edu.cn/teacher/175"
+        ],
+        "research_tags": [
+          "embodied_ai",
+          "physical_ai",
+          "robotics",
+          "intelligent_control",
+          "multi_robot_planning",
+          "legged_robot_locomotion"
+        ],
+        "research_summary": "具身智能、物理人工智能与智能控制；实验室研究平台覆盖运动、操作、人机交互、无人机与自主决策，多机器人规划与双足机器人地形适应有原始论文支撑。",
+        "representative_outputs": [
+          {
+            "title": "EmbodiedAgent: A Scalable Hierarchical Approach to Overcome Practical Challenge in Multi-Robot Control",
+            "year": 2025,
+            "venue": "IROS 2025 (accepted)",
+            "url": "https://arxiv.org/abs/2504.10030",
+            "source": "https://arxiv.org/abs/2504.10030"
+          },
+          {
+            "title": "GenTe: Generative Real-world Terrains for General Legged Robot Locomotion Control",
+            "year": 2025,
+            "venue": "arXiv cs.RO, arXiv:2504.09997",
+            "url": "https://arxiv.org/abs/2504.09997",
+            "source": "https://arxiv.org/abs/2504.09997"
+          }
+        ],
+        "public_openings": {
+          "MPhil": {
+            "status": "program_group_target_applicant_quota_unconfirmed",
+            "detail": "官方 General-Purpose Embodied Control 研究组目标申请者列 MPhil；个人 2027 名额未见声明。",
+            "source": "https://sai.cuhk.edu.cn/en/page/209"
+          },
+          "MSc": {
+            "status": "not_verified_for_this_pi",
+            "detail": "未核实授课型 MSc 定向导师通道。"
+          },
+          "PhD": {
+            "status": "program_group_target_applicant_quota_unconfirmed",
+            "detail": "官方研究组目标申请者列 PhD，冀晓强为协调人；个人 2027 名额及资助未见声明。",
+            "source": "https://sai.cuhk.edu.cn/en/page/209"
+          },
+          "RA": {
+            "status": "not_found",
+            "detail": "未发现明确学历门槛的独立 RA 职位广告。"
+          }
+        },
+        "appointment": {
+          "date": null,
+          "event": "当前官方教师页确认现任身份；未找到可据以确定入职日期的公告。",
+          "source": "https://sai.cuhk.edu.cn/teacher/175"
+        },
+        "checked_at": "2026-10-04",
+        "verification_status": "官方中文教师身份、SAI 研究组协调人身份、CUHK-Shenzhen 已核实 MPhil/PhD 路径关联及两项原始代表作已核读；个人当轮名额、资助与最终录取分开核实。"
+      }
+    },
+    {
+      "id": "hku-peng-lu",
+      "name": "Peng Lu",
+      "nameZh": "鲁鹏",
+      "institution": "HKU",
+      "department": "Mechanical Engineering",
+      "position": "Assistant Professor",
+      "lab": "Adaptive Robotic Controls Lab (ArcLab)",
+      "topics": [
+        "自主无人机与视觉控制",
+        "腿式机器人与强化学习",
+        "机器人定位、建图、导航与软体/连续体机器人"
+      ],
+      "summary": "自主无人机与视觉控制；腿式机器人与强化学习；机器人定位、建图、导航与软体/连续体机器人",
+      "profileUrl": "https://mech.hku.hk/academic-staff/lu-p/",
+      "labUrl": "https://arclab.hku.hk/",
+      "email": "lupeng@hku.hk",
+      "works": [
+        {
+          "title": "MARG: MAstering Risky Gap Terrains for Legged Robots with Elevation Mapping",
+          "year": 2025,
+          "venue": "IEEE Transactions on Robotics",
+          "url": "https://arxiv.org/abs/2509.20036",
+          "evidence": "ArcLab 官方论文页与作者项目页列 Peng Lu 为通讯作者；研究单 LiDAR 地形映射与深度强化学习四足机器人跨越危险间隙地形"
+        },
+        {
+          "title": "A dexterous and compliant aerial continuum manipulator for cluttered and constrained environments",
+          "year": 2025,
+          "venue": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-024-55157-2",
+          "evidence": "Nature Communications 原始论文作者列表包含 Peng Lu；研究无人机与柔性连续体机械臂的状态估计、全身规划和受限环境操作"
+        }
+      ],
+      "routeIds": [
+        "HKU-MECH-MPhil"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "HKU-MECH-MPhil",
+          "degree": "MPhil",
+          "status": "verified",
+          "summary": "HKU 机械工程系研究生院页面明确提供 MPhil/PhD，导师个人系页和 ArcLab 页面确认 Peng Lu 属于该系并指导 PhD/MPhil 学生；个人 MPhil 名额未确认",
+          "sources": [
+            {
+              "label": "HKU 机械工程系教师主页",
+              "url": "https://mech.hku.hk/academic-staff/lu-p/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "HKU 机械工程研究生项目",
+              "url": "https://mech.hku.hk/research-postgraduate/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "HKU 研究生院 MPhil 规章",
+              "url": "https://gradsch.hku.hk/prospective_students/programmes/regulations_for_the_degree_of_master_of_philosophy_mphil",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "HKU 研究生院申请流程",
+              "url": "https://gradsch.hku.hk/prospective_students/application/how_to_apply",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "eligibility": "verified",
+      "eligibilityMeaning": "HKU 机械工程研究生项目提供本科可申请的 MPhil 制度性路径；普通在线申请、非推免专属、无需先获研究型硕士。导师个人当年名额另行核实",
+      "defaultVisible": true,
+      "opening": "explicit",
+      "openingSummary": "ArcLab 明确招收 PhD/Postdoc；PhD 申请要求硕士背景。MPhil、MSc、RA 及 Fall 2027 名额未知",
+      "openings": {
+        "mphil": "未见个人 MPhil 名额或申请季承诺",
+        "msc": "未核实公开声明",
+        "phd": "ArcLab Open Positions 明确持续寻找 PhD 候选人，主题含机器人/UAV 学习、导航、控制与 SLAM；页面写 PhD 申请者应具硕士学位",
+        "ra": "未核实当前独立 RA 职位广告",
+        "cycle2027": "未知"
+      },
+      "openingDetails": [
+        {
+          "degree": "MPhil",
+          "status": "unknown",
+          "summary": "导师/实验室页列有 PhD/MPhil 学生，但未公布当前 MPhil 名额、学位类型或 2027 Fall 批次",
+          "cycle2027FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2027",
+          "degreeRouteAssociated": true,
+          "sourceStatus": null,
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "ArcLab 主页",
+              "url": "https://arclab.hku.hk/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "ArcLab 成员页",
+              "url": "https://arclab.hku.hk/People.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "MSc",
+          "status": "unknown",
+          "summary": "未核实公开 MSc 招生声明",
+          "cycle2027FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2027",
+          "degreeRouteAssociated": false,
+          "sourceStatus": null,
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "HKU 教师主页",
+              "url": "https://mech.hku.hk/academic-staff/lu-p/",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "PhD",
+          "status": "explicit",
+          "summary": "ArcLab Open Positions 明确寻找 PhD/Postdoc 候选人，申请 PhD 要求硕士学位及相关研究/编程背景；未指明 2027 Fall 名额",
+          "cycle2027FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2027",
+          "degreeRouteAssociated": false,
+          "sourceStatus": null,
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "ArcLab 招生/职位页",
+              "url": "https://arclab.hku.hk/OpenPositions.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "RA",
+          "status": "unknown",
+          "summary": "页面仅给 PhD/Postdoc 申请说明，未核实当前独立 RA 职位广告",
+          "cycle2027FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2027",
+          "degreeRouteAssociated": null,
+          "sourceStatus": null,
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "ArcLab 招生/职位页",
+              "url": "https://arclab.hku.hk/OpenPositions.html",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "confirmedVacancy": false,
+      "remainingHeadcountVerified": false,
+      "fall2027OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "2020 年加入 HKU 的既有教职；未标记为 2026 新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "官方教师页写明 2020 年加入 HKU，非本轮新入职"
+      },
+      "sources": [
+        {
+          "label": "HKU 教师主页",
+          "url": "https://mech.hku.hk/academic-staff/lu-p/",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "ArcLab 实验室主页",
+          "url": "https://arclab.hku.hk/",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "ArcLab 招生/职位页",
+          "url": "https://arclab.hku.hk/OpenPositions.html",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "ArcLab 论文页",
+          "url": "https://arclab.hku.hk/Publications.html",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "MARG 作者项目页",
+          "url": "https://astrorix.github.io/MARG/",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "Nature Communications 原始论文",
+          "url": "https://www.nature.com/articles/s41467-024-55157-2",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "caveats": [
+        "明确的 PhD 招募要求硕士学位；不能据此给本科起点 PhD 机会建默认路线",
+        "HKU 机械工程系制度性 MPhil 路径已验证，但个人当年 MPhil/PhD 名额、资助和 2027 Fall 批次未确认",
+        "ArcLab Open Positions 是实验室级长期招募说明，不是带职位编号和截止日期的 RA 广告"
+      ],
+      "checkedDate": "2026-10-04",
+      "sourceFile": "external-hk-advisor-review-2026-10-04",
+      "sourceRecord": {
+        "id": "hku-peng-lu",
+        "name": "Peng Lu",
+        "name_zh": "鲁鹏",
+        "university": "HKU",
+        "campus": "香港本部（薄扶林）",
+        "department": "Mechanical Engineering",
+        "current_position": "Assistant Professor",
+        "lab": "Adaptive Robotic Controls Lab (ArcLab)",
+        "profile_url": "https://mech.hku.hk/academic-staff/lu-p/",
+        "lab_url": "https://arclab.hku.hk/",
+        "public_contact_email": "lupeng@hku.hk",
+        "research_directions_official": [
+          "Autonomous UAVs",
+          "vision/planning/control for ground robotics",
+          "learning and control",
+          "continuum/soft robotics"
+        ],
+        "representative_work": [
+          {
+            "title": "MARG: MAstering Risky Gap Terrains for Legged Robots with Elevation Mapping",
+            "year": 2025,
+            "venue": "IEEE Transactions on Robotics",
+            "url": "https://arxiv.org/abs/2509.20036"
+          },
+          {
+            "title": "A dexterous and compliant aerial continuum manipulator for cluttered and constrained environments",
+            "year": 2025,
+            "venue": "Nature Communications",
+            "url": "https://www.nature.com/articles/s41467-024-55157-2"
+          }
+        ],
+        "recruitment": {
+          "MPhil": "未公布个人 MPhil 名额或 2027 Fall 批次",
+          "PhD": "ArcLab 明确招收 PhD；需硕士学位及相关背景",
+          "RA": "未核实独立 RA 广告",
+          "2027_fall_specific": "未知",
+          "sources": [
+            "https://arclab.hku.hk/OpenPositions.html"
+          ]
+        },
+        "verified_bachelor_route_ids": [
+          "HKU-MECH-MPhil"
+        ],
+        "main_library_basis": "HKU 机械工程研究生项目和 Graduate School MPhil 规则验证制度性本科入口；导师个人招生状态单独记录",
+        "appointment": {
+          "new_pi_2026_verified": false,
+          "date": null,
+          "note": "2020 年加入 HKU"
+        },
+        "checked_date": "2026-10-04"
+      }
+    },
+    {
+      "id": "hku-hengshuang-zhao",
+      "name": "Hengshuang Zhao",
+      "nameZh": "赵恒爽",
+      "institution": "HKU",
+      "department": "School of Computing and Data Science / Division of AI & Data Science",
+      "position": "Assistant Professor",
+      "lab": "Super Artificial Intelligence Lab (SAIL)",
+      "topics": [
+        "具身智能与物理智能",
+        "计算机视觉、空间/多模态 AI",
+        "机器人操作、视觉语言动作与自主驾驶"
+      ],
+      "summary": "具身智能与物理智能；计算机视觉、空间/多模态 AI；机器人操作、视觉语言动作与自主驾驶",
+      "profileUrl": "https://ai.hku.hk/people/academic-staff/hszhao",
+      "labUrl": "https://sail.ai.hku.hk/",
+      "email": "hszhao@cs.hku.hk",
+      "works": [
+        {
+          "title": "VIP: Vision Instructed Pre-training for Robotic Manipulation",
+          "year": 2025,
+          "venue": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2410.07169",
+          "evidence": "原始论文作者列表包含 Hengshuang Zhao；提出用视觉指令和稀疏点流进行机器人操作策略预训练"
+        },
+        {
+          "title": "Depth Anything V2",
+          "year": 2024,
+          "venue": "NeurIPS 2024",
+          "url": "https://arxiv.org/abs/2406.09414",
+          "evidence": "原始论文作者列表包含 Hengshuang Zhao；提出更细致、更稳健的单目深度基础模型，可支撑空间感知与具身任务"
+        }
+      ],
+      "routeIds": [
+        "HKU-CDS-MPhil"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "HKU-CDS-MPhil",
+          "degree": "MPhil",
+          "status": "verified",
+          "summary": "HKU CDS 教师主页确认 Hengshuang Zhao 为 CDS Assistant Professor，CDS 官方页提供 MPhil/PhD 研究型项目入口；个人 MPhil 名额未确认",
+          "sources": [
+            {
+              "label": "HKU CDS 官方教师页",
+              "url": "https://ai.hku.hk/people/academic-staff/hszhao",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "HKU SAIL 实验室页",
+              "url": "https://sail.ai.hku.hk/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "HKU 研究生院 MPhil 规章",
+              "url": "https://gradsch.hku.hk/prospective_students/programmes/regulations_for_the_degree_of_master_of_philosophy_mphil",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "HKU 研究生院申请流程",
+              "url": "https://gradsch.hku.hk/prospective_students/application/how_to_apply",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "eligibility": "verified",
+      "eligibilityMeaning": "HKU CDS 普通 MPhil 研究型项目具备认可大学 honours 学士或等同资格的制度性入口，非推免专属且无需先获硕士；导师个人名额另行核实",
+      "defaultVisible": true,
+      "opening": "explicit",
+      "openingSummary": "SAIL/个人页明确寻找 PhD、博士后、RA 和访问学者；未单列 MPhil、MSc 或 Fall 2027 名额",
+      "openings": {
+        "mphil": "未单列 MPhil 招募或名额",
+        "msc": "未核实公开声明",
+        "phd": "个人页与 SAIL 官方页明确招收自驱动 PhD 学生",
+        "ra": "个人页与 SAIL 官方页明确招收 research assistants",
+        "cycle2027": "未知"
+      },
+      "openingDetails": [
+        {
+          "degree": "MPhil",
+          "status": "unknown",
+          "summary": "导师个人页明确 PhD/RA 等招募，但未单列 MPhil 名额或申请季",
+          "cycle2027FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2027",
+          "degreeRouteAssociated": true,
+          "sourceStatus": null,
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "Hengshuang Zhao 个人主页",
+              "url": "https://i.cs.hku.hk/~hszhao/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "HKU SAIL 实验室页",
+              "url": "https://sail.ai.hku.hk/",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "MSc",
+          "status": "unknown",
+          "summary": "未核实公开 MSc 招募声明",
+          "cycle2027FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2027",
+          "degreeRouteAssociated": false,
+          "sourceStatus": null,
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "HKU CDS 教师页",
+              "url": "https://ai.hku.hk/people/academic-staff/hszhao",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "PhD",
+          "status": "explicit",
+          "summary": "个人主页与 SAIL 官方页明确寻找自驱动 PhD 学生，并列出 HKPFS、HKUPS、PGS、HKU-SLAI 等奖学金/机会；未承诺 2027 Fall 名额",
+          "cycle2027FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2027",
+          "degreeRouteAssociated": false,
+          "sourceStatus": null,
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "Hengshuang Zhao 个人主页",
+              "url": "https://i.cs.hku.hk/~hszhao/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "HKU SAIL 实验室页",
+              "url": "https://sail.ai.hku.hk/",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "degree": "RA",
+          "status": "explicit",
+          "summary": "个人主页与 SAIL 官方页明确寻找 research assistants；无独立职位编号、学历要求或截止日期",
+          "cycle2027FallVerified": false,
+          "cycle": "Unspecified or unverified for Fall 2027",
+          "degreeRouteAssociated": null,
+          "sourceStatus": null,
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "Hengshuang Zhao 个人主页",
+              "url": "https://i.cs.hku.hk/~hszhao/",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "HKU SAIL 实验室页",
+              "url": "https://sail.ai.hku.hk/",
+              "checkedDate": "2026-10-04"
+            }
+          ],
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "confirmedVacancy": false,
+      "remainingHeadcountVerified": false,
+      "fall2027OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "官方页未核实 2026 新入职证据",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "本轮仅确认现任 CDS Assistant Professor，未确认 2026 新入职日期"
+      },
+      "sources": [
+        {
+          "label": "HKU CDS 官方教师页",
+          "url": "https://ai.hku.hk/people/academic-staff/hszhao",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "Hengshuang Zhao 个人主页",
+          "url": "https://i.cs.hku.hk/~hszhao/",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "HKU SAIL 实验室页",
+          "url": "https://sail.ai.hku.hk/",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "VIP 原始论文",
+          "url": "https://arxiv.org/abs/2410.07169",
+          "checkedDate": "2026-10-04"
+        },
+        {
+          "label": "Depth Anything V2 原始论文",
+          "url": "https://arxiv.org/abs/2406.09414",
+          "checkedDate": "2026-10-04"
+        }
+      ],
+      "caveats": [
+        "个人/实验室页明确的是 PhD、RA、博士后和访问学者招募，不能自动改写成 MPhil 或 2027 Fall 名额",
+        "列出的 HKPFS、HKUPS、PGS、HKU-SLAI 是奖学金/机会入口，不是个人资助承诺或录取保证",
+        "具身 AI 研究与代表论文已核实，但当前团队规模、硬件/算力和具体导师名额未公开确认"
+      ],
+      "checkedDate": "2026-10-04",
+      "sourceFile": "external-hk-advisor-review-2026-10-04",
+      "sourceRecord": {
+        "id": "hku-hengshuang-zhao",
+        "name": "Hengshuang Zhao",
+        "name_zh": "赵恒爽",
+        "university": "HKU",
+        "campus": "香港本部（薄扶林）",
+        "department": "School of Computing and Data Science / Division of AI & Data Science",
+        "current_position": "Assistant Professor",
+        "lab": "Super Artificial Intelligence Lab (SAIL)",
+        "profile_url": "https://ai.hku.hk/people/academic-staff/hszhao",
+        "lab_url": "https://sail.ai.hku.hk/",
+        "public_contact_email": "hszhao@cs.hku.hk",
+        "research_directions_official": [
+          "Computer Vision",
+          "Embodied AI",
+          "Multimodal AI",
+          "Spatial AI",
+          "Generative AI",
+          "Physical AI"
+        ],
+        "representative_work": [
+          {
+            "title": "VIP: Vision Instructed Pre-training for Robotic Manipulation",
+            "year": 2025,
+            "venue": "arXiv preprint",
+            "url": "https://arxiv.org/abs/2410.07169"
+          },
+          {
+            "title": "Depth Anything V2",
+            "year": 2024,
+            "venue": "NeurIPS 2024",
+            "url": "https://arxiv.org/abs/2406.09414"
+          }
+        ],
+        "recruitment": {
+          "MPhil": "未单列",
+          "PhD": "明确寻找自驱动 PhD 学生",
+          "RA": "明确寻找 research assistants",
+          "2027_fall_specific": "未知",
+          "scholarship_signals": [
+            "HKPFS",
+            "HKUPS",
+            "PGS",
+            "HKU-SLAI"
+          ],
+          "sources": [
+            "https://i.cs.hku.hk/~hszhao/",
+            "https://sail.ai.hku.hk/"
+          ]
+        },
+        "verified_bachelor_route_ids": [
+          "HKU-CDS-MPhil"
+        ],
+        "main_library_basis": "HKU CDS 普通研究型 MPhil 制度性路径及导师归属已核实；导师个人学位名额单独列为未知",
+        "appointment": {
+          "new_pi_2026_verified": false,
+          "date": null,
+          "note": "未核实 2026 新入职证据"
+        },
+        "checked_date": "2026-10-04"
+      }
     }
   ],
   "routes": [

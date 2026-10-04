@@ -5223,6 +5223,428 @@
       "checkedDate": "2026-10-02",
       "confirmedVacancy": false,
       "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "cuhksz-xiaoqiang-ji",
+      "cardSummaryZh": "以智能控制为基础，研究具身智能、物理人工智能与异构多机器人系统，并落到腿式机器人运动和真实地形适应。",
+      "overview": {
+        "textZh": "冀晓强现任香港中文大学（深圳）理工学院与人工智能学院双聘助理教授、校长青年学者和博士生导师；官方中文教师页列其研究领域为具身智能、机器人、数字孪生，研究方向包括智能控制系统、具身智能与物理人工智能。",
+        "sources": [
+          {
+            "label": "官方中文教师页",
+            "url": "https://sai.cuhk.edu.cn/teacher/175",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "实验室主页",
+            "url": "https://cnd-lab.github.io/",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "AI-Driven Control and Decision Laboratory (Control and Decision Lab)",
+        "affiliation": {
+          "textZh": "实验室主页将其标注为 CUHK(Shenzhen) SSE & SAI 双聘教师；研究平台展示 Unitree、Leju、EngineAI 等机器人，以及无人机、传感器和计算集群。",
+          "sources": [
+            {
+              "label": "实验室主页",
+              "url": "https://cnd-lab.github.io/",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "themes": [
+          "具身智能与物理人工智能控制",
+          "异构多机器人规划与协作",
+          "腿式机器人运动与地形适应",
+          "数字孪生与机器人决策"
+        ],
+        "structure": {
+          "textZh": "官方研究组“General-Purpose Embodied Control”由冀晓强协调，核心成员包括孙正龙，目标申请者明确列 MPhil 和 PhD；研究组聚焦稳定 AI 控制理论与通用物理 AI。",
+          "sources": [
+            {
+              "label": "官方研究组页面",
+              "url": "https://sai.cuhk.edu.cn/en/page/209",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "实验室主页列出 Unitree、Leju、EngineAI 机器人平台、无人机和多模态数据采集设备，并说明有自建 AI 基础设施和硬件集群；不据此推断具体学生资源配额。",
+            "sources": [
+              {
+                "label": "实验室主页",
+                "url": "https://cnd-lab.github.io/",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "EmbodiedAgent: A Scalable Hierarchical Approach to Overcome Practical Challenge in Multi-Robot Control",
+          "year": 2025,
+          "venue": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), accepted",
+          "summaryZh": "提出分层异构多机器人控制框架，使用下一动作预测、结构化记忆和技能工具库，将大模型规划与低层机器人策略连接；原始论文报告了 MultiPlan+ 数据集和真实办公室服务任务验证。",
+          "url": "https://arxiv.org/abs/2504.10030",
+          "sources": [
+            {
+              "label": "原始论文 arXiv HTML",
+              "url": "https://arxiv.org/html/2504.10030v1",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "官方教师页论文目录",
+              "url": "https://sai.cuhk.edu.cn/teacher/175",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "GenTe: Generative Real-world Terrains for General Legged Robot Locomotion Control",
+          "year": 2025,
+          "venue": "arXiv preprint (cs.RO), arXiv:2504.09997",
+          "summaryZh": "提出面向腿式机器人运动控制的真实地形生成框架，结合几何与物理地形、VLM 函数调用和强化学习策略训练，覆盖涉水、可变形地面和障碍物等场景；原始论文报告了 100 个生成地形基准。",
+          "url": "https://arxiv.org/abs/2504.09997",
+          "sources": [
+            {
+              "label": "原始论文 arXiv HTML",
+              "url": "https://arxiv.org/html/2504.09997v1",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "官方教师页论文目录",
+              "url": "https://sai.cuhk.edu.cn/teacher/175",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "官方 General-Purpose Embodied Control 研究组的目标申请者为 MPhil 和 PhD，且冀晓强列为协调人；CUHK-Shenzhen SAI 项目页公布 2027 Spring/Fall 申请日期，但本轮未找到冀晓强个人 2027 名额、资助或剩余席位声明。因此这里只记录项目研究组关联，不把它渲染成个人招生承诺。",
+        "sources": [
+          {
+            "label": "官方研究组页面",
+            "url": "https://sai.cuhk.edu.cn/en/page/209",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "SAI MPhil-PhD项目申请页",
+            "url": "https://sai.cuhk.edu.cn/en/node/35",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "label": "官方中文教师页",
+            "url": "https://sai.cuhk.edu.cn/teacher/175",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人 2027 Spring/Fall 招生人数、剩余名额与导师同意尚未公开核实。",
+        "资助类型、金额和持续年限未在上述教师/研究组/项目页中明确。",
+        "研究组列出的硬件与计算资源是平台自述，不代表每位学生的固定配置或可用额度。"
+      ],
+      "links": [
+        {
+          "label": "官方中文教师页",
+          "url": "https://sai.cuhk.edu.cn/teacher/175"
+        },
+        {
+          "label": "实验室主页",
+          "url": "https://cnd-lab.github.io/"
+        },
+        {
+          "label": "研究组与目标申请者",
+          "url": "https://sai.cuhk.edu.cn/en/page/209"
+        },
+        {
+          "label": "SAI 项目申请规则",
+          "url": "https://sai.cuhk.edu.cn/en/node/35"
+        },
+        {
+          "label": "EmbodiedAgent 原始论文",
+          "url": "https://arxiv.org/abs/2504.10030"
+        },
+        {
+          "label": "GenTe 原始论文",
+          "url": "https://arxiv.org/abs/2504.09997"
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "hku-peng-lu",
+      "cardSummaryZh": "以无人机、腿式机器人和连续体机械臂为载体，将视觉感知、强化学习、规划与控制接成自主机器人闭环。",
+      "checkedDate": "2026-10-04",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "overview": {
+        "textZh": "鲁鹏现任香港大学机械工程系助理教授，并领导 Adaptive Robotic Controls Lab（ArcLab）。其研究从自主无人机和视觉控制延伸到腿式机器人、强化学习导航、SLAM、软体/连续体机器人及空中操作，重点是提升机器人在复杂真实环境中的自主性。",
+        "sources": [
+          {
+            "url": "https://mech.hku.hk/academic-staff/lu-p/",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "url": "https://arclab.hku.hk/",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Adaptive Robotic Controls Lab (ArcLab)",
+        "affiliation": {
+          "textZh": "ArcLab 位于 HKU 机械工程系，官网以机器人自主控制为主线，公开列出 UAV、智能/腿式机器人、视觉定位建图、学习控制和软体/连续体机器人方向。",
+          "sources": [
+            {
+              "url": "https://arclab.hku.hk/Research.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "themes": [
+          "深度强化学习导航与控制",
+          "视觉/事件相机/LiDAR 里程计与 SLAM",
+          "四足与双足机器人动态技能",
+          "无人机与空中连续体机械臂"
+        ],
+        "structure": {
+          "textZh": "实验室成员页公开列出 PhD/MPhil 学生、研究助理和校友；页面显示团队持续开展研究生培养，但不据成员名单估计当前名额、指导比例或设备配额。",
+          "sources": [
+            {
+              "url": "https://arclab.hku.hk/People.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "ArcLab 公开展示无人机、四足机器人、视觉/激光雷达定位与连续体机械臂项目；公开项目和代码入口可用于预研，不等于新生可获得的设备或算力承诺。",
+            "sources": [
+              {
+                "url": "https://arclab.hku.hk/Robots.html",
+                "checkedDate": "2026-10-04"
+              },
+              {
+                "url": "https://arclab.hku.hk/Research.html",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "MARG: MAstering Risky Gap Terrains for Legged Robots with Elevation Mapping",
+          "year": 2025,
+          "venue": "IEEE Transactions on Robotics",
+          "summaryZh": "把单 LiDAR 地形映射、本体感知和深度强化学习结合，令四足机器人在危险间隙和极端地形上选择更安全的落脚点，并进行零样本实机迁移。",
+          "url": "https://astrorix.github.io/MARG/",
+          "sources": [
+            {
+              "url": "https://arclab.hku.hk/Publications.html",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "url": "https://arxiv.org/abs/2509.20036",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "A dexterous and compliant aerial continuum manipulator for cluttered and constrained environments",
+          "year": 2025,
+          "venue": "Nature Communications",
+          "summaryZh": "提出结合小型四旋翼和柔顺腱驱连续体机械臂的空中操作系统，完成状态估计、形状估计和全身运动规划，在狭窄和受限环境中执行抓取与穿越任务。",
+          "url": "https://www.nature.com/articles/s41467-024-55157-2",
+          "sources": [
+            {
+              "url": "https://www.nature.com/articles/s41467-024-55157-2",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "url": "https://arclab.hku.hk/Publications.html",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "ArcLab 招聘页明确寻找 PhD/Postdoc 候选人，主题涵盖机器人与无人机的深度学习、强化学习导航和控制、视觉导航、SLAM、群体机器人及软体/连续体机器人；页面明确写 PhD 申请者应具硕士学位，并要求提交 CV、研究经历 PPT 和成绩单。该说明没有给出 2027 Fall 名额或资助承诺，也没有独立 RA 职位编号。",
+        "sources": [
+          {
+            "url": "https://arclab.hku.hk/OpenPositions.html",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "unknowns": [
+        "2027 Fall 的 MPhil/PhD 剩余名额、具体资助方案和最终导师接收决定未公开确认",
+        "PhD 招聘页要求硕士学位，因此不能把这条 PhD 招募解释成本科起点 PhD 路线",
+        "实验室公开成员和项目页不能确认当前每位学生的指导安排、硬件使用权或算力配额"
+      ],
+      "links": [
+        {
+          "label": "HKU 机械工程教师页",
+          "url": "https://mech.hku.hk/academic-staff/lu-p/"
+        },
+        {
+          "label": "ArcLab 实验室",
+          "url": "https://arclab.hku.hk/"
+        },
+        {
+          "label": "ArcLab 招聘页",
+          "url": "https://arclab.hku.hk/OpenPositions.html"
+        },
+        {
+          "label": "MARG 项目页",
+          "url": "https://astrorix.github.io/MARG/"
+        }
+      ]
+    },
+    {
+      "advisorId": "hku-hengshuang-zhao",
+      "cardSummaryZh": "以视觉、空间和多模态基础模型连接环境理解与行动，研究具身智能、机器人操作和视觉语言动作策略。",
+      "checkedDate": "2026-10-04",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "overview": {
+        "textZh": "赵恒爽现任香港大学计算与数据科学学院助理教授，领导 HKU Super Artificial Intelligence Lab（SAIL）。官方资料将其研究方向列为计算机视觉、具身 AI、机器学习、空间/多模态 AI 和生成式 AI，研究目标是让机器感知、理解并与环境交互。",
+        "sources": [
+          {
+            "url": "https://ai.hku.hk/people/academic-staff/hszhao",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "url": "https://i.cs.hku.hk/~hszhao/",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Super Artificial Intelligence Lab (SAIL)",
+        "affiliation": {
+          "textZh": "SAIL 是 HKU 计算与数据科学学院的研究实验室，由 Hengshuang Zhao 领导，公开按具身 AI、空间 AI、多模态 AI 和生成式 AI 展示项目。",
+          "sources": [
+            {
+              "url": "https://sail.ai.hku.hk/",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "themes": [
+          "具身 AI 与视觉语言动作模型",
+          "空间感知、点云与 3D 表示",
+          "机器人操作和视觉规划",
+          "自动驾驶与世界模型"
+        ],
+        "structure": {
+          "textZh": "SAIL 官网公开项目、论文和招生联系信息；本轮未将项目合作作者或公开论文作者列表转换成完整成员名单或可用设备清单。",
+          "sources": [
+            {
+              "url": "https://sail.ai.hku.hk/",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "SAIL 公开列出 VIP 机器人操作、PlayerOne 具身世界模拟器、VLN/VLA、Point Transformer 和 Depth Anything 等项目；这些项目页和论文可作为预研入口，不等于入组后的硬件或算力承诺。",
+            "sources": [
+              {
+                "url": "https://sail.ai.hku.hk/",
+                "checkedDate": "2026-10-04"
+              },
+              {
+                "url": "https://arxiv.org/abs/2410.07169",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "VIP: Vision Instructed Pre-training for Robotic Manipulation",
+          "year": 2025,
+          "venue": "arXiv preprint",
+          "summaryZh": "以未来图像、稀疏点流等视觉指令替代单纯文字指令，预训练机器人操作策略，使策略能够处理多样真实和仿真操作任务。",
+          "url": "https://arxiv.org/abs/2410.07169",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2410.07169",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "url": "https://sail.ai.hku.hk/",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "Depth Anything V2",
+          "year": 2024,
+          "venue": "NeurIPS 2024",
+          "summaryZh": "通过合成数据、扩展教师模型和伪标注真实图像训练学生模型，构建覆盖多种规模的单目深度模型，为机器人和自动驾驶空间感知提供基础。",
+          "url": "https://arxiv.org/abs/2406.09414",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/2406.09414",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "url": "https://ai.hku.hk/people/academic-staff/hszhao",
+              "checkedDate": "2026-10-04"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "个人主页和 SAIL 官方页明确寻找自驱动 PhD 学生、博士后、research assistants 和访问学者，方向包括计算机视觉、具身 AI、机器学习和 AI；页面列出 HKPFS、HKU Presidential PhD Scholar Programme、PGS 和 HKU-SLAI 等奖学金/机会入口。未单列 MPhil、MSc 或 2027 Fall 名额；奖学金入口不等于个人资助承诺。",
+        "sources": [
+          {
+            "url": "https://i.cs.hku.hk/~hszhao/",
+            "checkedDate": "2026-10-04"
+          },
+          {
+            "url": "https://sail.ai.hku.hk/",
+            "checkedDate": "2026-10-04"
+          }
+        ]
+      },
+      "unknowns": [
+        "2027 Fall 各学位剩余名额、具体资助安排和最终导师接收决定未公开确认",
+        "个人/实验室页面明确的是 PhD、RA、博士后和访问学者招募，不能自动推断 MPhil 名额",
+        "公开论文、项目和奖学金入口不能推断录取概率、导师指导频率或学生硬件/算力配额"
+      ],
+      "links": [
+        {
+          "label": "HKU CDS 官方教师页",
+          "url": "https://ai.hku.hk/people/academic-staff/hszhao"
+        },
+        {
+          "label": "个人主页与申请说明",
+          "url": "https://i.cs.hku.hk/~hszhao/"
+        },
+        {
+          "label": "HKU SAIL 实验室",
+          "url": "https://sail.ai.hku.hk/"
+        },
+        {
+          "label": "VIP 原始论文",
+          "url": "https://arxiv.org/abs/2410.07169"
+        },
+        {
+          "label": "Depth Anything V2 原始论文",
+          "url": "https://arxiv.org/abs/2406.09414"
+        }
+      ]
     }
   ],
   "reviewRequired": true,

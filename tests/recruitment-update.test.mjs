@@ -9,14 +9,14 @@ const ids=['hkustgz-fangqiang-ding','hkustgz-yan-li'],corrected=['westlake-dongl
 const advisor=id=>catalog.advisors.find(a=>a.id===id),profile=id=>profiles.profiles.find(p=>p.advisorId===id);
 test('recruitment update preserves the entire old catalog outside two explicit corrections and two additions',()=>{
  assert.equal(hash(recruitmentBaselineText(catalog)),'045a3a5886d50a2cca8b294ee34936522d77590a0a76f0c4b3e94252654f9d1a');
- assert.deepEqual(catalog.advisors.slice(32).map(a=>a.id),ids);
+ assert.deepEqual(catalog.advisors.slice(32,34).map(a=>a.id),ids);
  assert.equal(hash(JSON.stringify(catalog.advisors.slice(0,32).map(a=>a.sourceRecord??null))),'7e94314267698f5dffffaa0fabd219ea77f98fe5b7fada728d7ef5dac6ee8a9a');
  const base=recruitmentBaseline(catalog);assert.deepEqual(maintenanceBaseline(catalog).routes,base.routes);
  for(const id of corrected){const a=advisor(id),b=base.advisors.find(a=>a.id===id);for(const key of ['routeIds','routeAssociations','eligibility','defaultVisible','newPi','appointment','sourceRecord','checkedDate'])assert.deepEqual(a[key],b[key]);}
  assert.equal(hash(read('data/ra-positions.json')),'b5354ece6ee48d205665af699e008e74d51c41ca23000c7fc653eccfc906816e');
 });
 test('new records produce exactly two PhD-only rows and complete rich coverage with no new RA or masters rows',()=>{
- const rows=buildOpportunities(data);assert.equal(rows.length,48);assert.equal(new Set(rows.map(o=>o.advisorId)).size,32);assert.equal(rows.filter(o=>o.type==='RA').length,2);assert.equal(catalog.routes.filter(isVerifiedRoute).length,27);
+ const rows=buildOpportunities(data);assert.equal(rows.length,52);assert.equal(new Set(rows.map(o=>o.advisorId)).size,35);assert.equal(rows.filter(o=>o.type==='RA').length,2);assert.equal(catalog.routes.filter(isVerifiedRoute).length,27);
  assert.deepEqual(rows.filter(o=>ids.includes(o.advisorId)).map(o=>[o.advisorId,o.type]).sort(),ids.map(id=>[id,'PhD']).sort());
  assert.deepEqual([...profileMap(profiles,catalog.advisors).keys()].sort(),[...new Set(rows.map(o=>o.advisorId))].sort());
  for(const id of ids){const a=advisor(id);assert.equal(a.routeIds.length,1);assert.equal(a.routeAssociations[0].degree,'PhD');assert.equal(a.routeAssociations[0].status,'verified');const r=catalog.routes.find(r=>r.id===a.routeIds[0]);assert(isVerifiedRoute(r));assert.equal(rankOf(a),'assistant');for(const d of ['MPhil','MSc','RA'])assert(!filterOpportunities(data,{query:a.name,opportunityType:d}).some(o=>o.advisorId===id));}
@@ -35,6 +35,6 @@ test('each new rich profile has meaningful sourced biography, lab resources, two
  assert.equal(profile(ids[0]).representativeWorks[0].title,'RadarOcc: Robust 3D Occupancy Prediction with 4D Imaging Radar');assert.equal(profile(ids[1]).representativeWorks[0].venue,'ICCV 2025');assert.equal(profile(ids[1]).representativeWorks[1].venue,'ECCV 2024');assert.match(profile(ids[1]).unknowns.join(' '),/Yanyan Li.*Scholar ID/);
 });
 test('recruitment review metadata describes its historical snapshot after later date maintenance',()=>{
- const m=parse('data/catalog-test-manifest.json');assert.equal(m.currentRecruitmentReview.catalogSha256,hash(JSON.stringify(maintenanceBaseline(catalog),null,2)+'\n'));assert.equal(m.currentIdentityReview.catalogSha256,hash(recruitmentBaselineText(catalog)));assert.equal(m.currentRecruitmentReview.baseCommit,'5fbd6408e9a777d6ea990c6eb161aa323820a28b');assert.deepEqual(profiles.profiles.slice(30).map(p=>p.advisorId),ids);assert.equal(profiles.batch7Review.preservedProfiles,30);assert.equal(profiles.batch7Review.integrationBaseCommit,'4324f8955e1d718288260aecff0c04ffb10f3be0');assert.equal(m.currentRecruitmentReview.integrationBaseCommit,'4324f8955e1d718288260aecff0c04ffb10f3be0');assert.equal(hash(JSON.stringify(profiles.profiles.slice(0,30))),'1e8619117cd037bcf91aca849f37ec6307eb8eeb7c1791baa216b9dd274906a2');
+ const m=parse('data/catalog-test-manifest.json');assert.equal(m.currentRecruitmentReview.catalogSha256,hash(JSON.stringify(maintenanceBaseline(catalog),null,2)+'\n'));assert.equal(m.currentIdentityReview.catalogSha256,hash(recruitmentBaselineText(catalog)));assert.equal(m.currentRecruitmentReview.baseCommit,'5fbd6408e9a777d6ea990c6eb161aa323820a28b');assert.deepEqual(profiles.profiles.slice(30,32).map(p=>p.advisorId),ids);assert.equal(profiles.batch7Review.preservedProfiles,30);assert.equal(profiles.batch7Review.integrationBaseCommit,'4324f8955e1d718288260aecff0c04ffb10f3be0');assert.equal(m.currentRecruitmentReview.integrationBaseCommit,'4324f8955e1d718288260aecff0c04ffb10f3be0');assert.equal(hash(JSON.stringify(profiles.profiles.slice(0,30))),'1e8619117cd037bcf91aca849f37ec6307eb8eeb7c1791baa216b9dd274906a2');
  assert.equal(parse('data/update-status.json').lastSuccessfulCheck,null);
 });

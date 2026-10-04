@@ -31,7 +31,7 @@ test('batch five only enriches five already visible advisers across five institu
  const rows=buildOpportunities(data),visible=new Set(rows.map(o=>o.advisorId));
  for(const id of ids){const a=academic.advisors.find(a=>a.id===id);assert(a.defaultVisible);assert.equal(a.eligibility,'verified');assert(visible.has(id));}
  assert.equal(new Set(ids.map(id=>academic.advisors.find(a=>a.id===id).institution)).size,5);
- assert.equal(rows.length,48);assert.equal(visible.size,32);assert.equal(rows.filter(o=>o.type==='RA').length,2);
+ assert.equal(rows.length,52);assert.equal(visible.size,35);assert.equal(rows.filter(o=>o.type==='RA').length,2);
  assert.equal(academic.routes.filter(isVerifiedRoute).length,27);
  assert(!supplement.profiles.some(p=>['cuhk_zhongyu_li','xjtlu-yaran-chen'].includes(p.advisorId)));
 });
