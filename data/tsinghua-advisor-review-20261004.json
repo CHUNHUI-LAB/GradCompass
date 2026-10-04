@@ -3,7 +3,7 @@
   "institution": "Tsinghua",
   "institutionZh": "清华大学",
   "checkedDate": "2026-10-04",
-  "scope": "清华大学机械工程系与交叉信息研究院的机器人、具身智能、智能制造和触觉方向；2027 硕士与博士项目、导师关联和个人名额分开记录。",
+  "scope": "清华导师研究、2025 历史硕士目录、2027 博士项目与 2027 IIIS 085400 推免参考；导师身份、项目周期、个人接收和余位分别核验。",
   "admissionEvidence": [
     {
       "id": "tsinghua-master-general-2026-reference",
@@ -21,57 +21,84 @@
     },
     {
       "id": "tsinghua-me-master-2027",
-      "title": "机械工程系 2027 年硕士招生目录",
-      "cycle": "2027 Fall reference",
-      "status": "program_catalog_verified",
-      "summaryZh": "机械工程系 2027 目录列出 080200 机械工程、082500 航空宇航科学与技术和 085500 机械专业学位，均为全日制并列出普通考试科目；具体导师当年接收和名额仍需单独确认。",
+      "title": "机械工程系 2025 年硕士统招目录（历史参考）",
+      "cycle": "2025 historical reference",
+      "status": "historical_program_reference",
+      "summaryZh": "原链接是 2025 年机械工程系统招目录，含 080200、082500 与 085500；2026 校级简章仅补充本科报考的制度参考。2027 普通统考目录、个人导师接收和名额本轮待核实。",
       "sources": [
         {
-          "label": "清华大学机械工程系 2027 年硕士招生目录",
+          "label": "清华大学机械工程系 2025 年硕士统招目录（历史参考）",
           "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
-          "checkedDate": "2026-10-04"
+          "checkedDate": "2026-10-04",
+          "originalLabel": "清华大学机械工程系 2027 年硕士招生目录",
+          "sourceCycle": "2025",
+          "admissionMode": "national_exam",
+          "sourceDegree": "MSc",
+          "evidenceScope": "historical_program_catalog"
         }
-      ]
+      ],
+      "sourceCycle": "2025",
+      "admissionMode": "national_exam",
+      "currentCycleVerificationStatus": "pending",
+      "projectCycleVerified": false,
+      "individualRecruitmentVerified": false
     },
     {
       "id": "tsinghua-iiis-master-2027",
-      "title": "交叉信息研究院 2027 年硕士招生目录与导师目录",
-      "cycle": "2027 Fall reference",
-      "status": "program_and_mentor_directory_verified",
-      "summaryZh": "交叉信息研究院 2027 目录在 081200 计算机科学与技术下列出人工智能、机器人和计算机视觉方向；导师目录列出机器人方向的吴翼、张崇洁、赵行、高阳，以及计算机视觉方向的弋力、赵行、高阳。",
+      "title": "交叉信息研究院 2025 年 081200 硕士推免目录（历史参考）",
+      "cycle": "2025 historical reference",
+      "status": "historical_program_reference",
+      "summaryZh": "原 67cb 链接是 2025 年 081200 学术硕士推荐免试目录，不是 2027 普通统考。原导师来源实际为 2022 港澳台博士目录，不能证明该硕士路线的个人关联。2027 普通统考和个人接收均待核。",
       "sources": [
         {
-          "label": "清华大学交叉信息研究院 2027 年硕士招生目录",
+          "label": "清华大学交叉信息研究院 2025 年硕士推荐免试目录（081200，历史参考）",
           "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/67cb3fbf-3bd2-47e1-b29a-e3ad09432625/1?yxsdm=047&zslx=%271%27",
-          "checkedDate": "2026-10-04"
+          "checkedDate": "2026-10-04",
+          "originalLabel": "清华大学交叉信息研究院 2027 年硕士招生目录",
+          "sourceCycle": "2025",
+          "admissionMode": "recommendation_exemption",
+          "sourceDegree": "MSc",
+          "evidenceScope": "historical_program_catalog"
         },
         {
-          "label": "清华大学交叉信息研究院 2027 年硕士导师目录",
+          "label": "清华大学 2022 年港澳台地区博士专业目录（交叉信息研究院，历史参考）",
           "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
-          "checkedDate": "2026-10-04"
+          "checkedDate": "2026-10-04",
+          "originalLabel": "清华大学交叉信息研究院 2027 年硕士导师目录",
+          "sourceCycle": "2022",
+          "admissionMode": "hong_kong_macao_taiwan_doctoral_admission",
+          "sourceDegree": "PhD",
+          "audience": "Hong Kong, Macao and Taiwan applicants",
+          "evidenceScope": "historical_mentor_directory"
         }
-      ]
+      ],
+      "sourceCycle": "2025",
+      "admissionMode": "recommendation_exemption",
+      "currentCycleVerificationStatus": "pending",
+      "projectCycleVerified": false,
+      "individualRecruitmentVerified": false
     },
     {
       "id": "tsinghua-phd-2027-boundary",
       "title": "清华大学 2027 年博士研究生招生简章",
       "cycle": "2027 Fall reference",
       "status": "boundary_only",
-      "summaryZh": "普通博士申请人通常须为硕士毕业、已获硕士学位或应届硕士；应届本科生直博须符合推荐免试条件。博士目录和导师名录可用于研究方向参考，但不作为本站默认本科、无需推免、无需先获硕士路径。",
+      "summaryZh": "普通博士申请人通常须为硕士毕业、已获硕士学位或应届硕士；应届本科生直博须符合推荐免试条件。博士目录和导师名录可用于研究方向参考，但不作为本站默认本科、无需推免、无需先获硕士路径。 机械系 080200 与交叉信息研究院 081200 的 2027 简章另列海外一流高校中国籍本科、GPA 原则上不低于 3.5/4 的条件性普通招考入口，须按专业及个人条件另核。",
       "sources": [
         {
           "label": "清华大学 2027 年博士研究生招生简章",
           "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
           "checkedDate": "2026-10-04"
         }
-      ]
+      ],
+      "individualRecruitmentVerified": false
     },
     {
       "id": "tsinghua-me-phd-2027",
-      "title": "机械工程系 2027 年博士研究生招生简章与博士目录",
+      "title": "机械工程系 2027 博士简章与 2026 历史导师目录",
       "cycle": "2027 Fall reference",
-      "status": "program_and_mentor_directory_verified",
-      "summaryZh": "机械工程系 2027 博士实行申请-考核制，包含本科直博、硕博连读和普通招考；普通博士与直博条件不同，博士目录所列导师具有博士招生资格但不对应具体招生人数。",
+      "status": "program_reference_only",
+      "summaryZh": "2026 历史博士目录直接列出 080200 先进装备与机器人方向的吴丹、赵慧婵、李曙光。2027 简章另证明项目和申请条件；历史导师名单不证明 2027/2028 个人接收或余位，其余收录导师保留院系研究参考。 机械工程系 2027 年博士实行申请-考核制，含本科直博、硕博连读和普通招考。080200 机械工程专业普通招考另明确面向海外一流高校中国籍本科生，GPA 原则上不低于 3.5/4；其他普通招考学历条件以清华大学博士简章为准。",
       "sources": [
         {
           "label": "清华大学机械工程系 2027 年博士研究生招生简章",
@@ -79,23 +106,45 @@
           "checkedDate": "2026-10-04"
         },
         {
-          "label": "清华大学 2027 年博士招生目录（机械工程系）",
+          "label": "清华大学机械工程系 2026 年博士招生目录（080200 先进装备与机器人，历史参考）",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/a5f6fe53-604e-49f9-984e-633f5000b12a?yxsdm=012",
+          "checkedDate": "2026-10-04",
+          "sourceCycle": "2026",
+          "admissionMode": "doctoral_admission",
+          "sourceDegree": "PhD",
+          "evidenceScope": "historical_mentor_directory",
+          "originalLabel": "清华大学机械工程系 2027 年博士招生目录（先进装备与机器人方向）"
+        },
+        {
+          "label": "清华大学 2026 年博士生（十一月）招生专业目录（机械工程系，历史参考）",
           "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/f1b3cfe9-df6d-45e0-8151-eeed697fbb02",
-          "checkedDate": "2026-10-04"
+          "checkedDate": "2026-10-04",
+          "originalLabel": "清华大学 2027 年博士招生目录（机械工程系）",
+          "sourceCycle": "2026",
+          "admissionMode": "doctoral_admission",
+          "sourceDegree": "PhD",
+          "evidenceScope": "historical_program_catalog"
         },
         {
           "label": "清华大学 2027 年博士研究生招生简章",
           "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
           "checkedDate": "2026-10-04"
         }
-      ]
+      ],
+      "sourceCycle": "2027",
+      "sourceCycles": [
+        "2027",
+        "2026"
+      ],
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false
     },
     {
       "id": "tsinghua-iiis-phd-2027",
       "title": "交叉信息研究院 2027 年博士项目参考",
       "cycle": "2027 Fall reference",
       "status": "program_reference_only",
-      "summaryZh": "交叉信息研究院博士按申请-考核制，普通博士、硕博连读和本科直博分别适用不同条件；高阳的视觉与机器人研究方向与该项目关联已记录，个人名额未核实。",
+      "summaryZh": "交叉信息研究院 2027 年博士实行申请-考核制，含本科直博、硕博连读和普通招考；普通招考明确计算机科学与技术专业面向海外一流高校中国籍本科生，GPA 原则上不低于 3.5/4。 个人当期关联及接收、名额待核。",
       "sources": [
         {
           "label": "清华大学交叉信息研究院 2027 年博士招生简章",
@@ -112,6 +161,74 @@
           "url": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
           "checkedDate": "2026-10-04"
         }
+      ],
+      "individualRecruitmentVerified": false
+    },
+    {
+      "id": "tsinghua-iiis-msc-085400-tuimian-2027",
+      "title": "085400 电子信息（计算机科学与技术专业硕士，2027 推免项目参考）",
+      "cycle": "2027 Fall programme reference",
+      "sourceCycle": "2027",
+      "admissionMode": "recommendation_exemption",
+      "status": "program_catalog_verified",
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false,
+      "summaryZh": "2027 官方推荐免试目录列出 085400 电子信息、全日制计算机科学与技术专业硕士；需对应推免资格。与旧 2025 年 081200 学术硕士属于不同项目身份，不能只换年份合并。 本目录未给出这些导师与该 085400 项目的直接个人关联；不自动连接历史目录中的吴翼、张崇洁、赵行、高阳等姓名。",
+      "sources": [
+        {
+          "label": "清华大学交叉信息研究院 2027 年硕士推荐免试目录（085400 电子信息）",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/996743a2-3adb-4416-ac66-1e272055e0ae/1?yxsdm=047&zslx=%271%27",
+          "checkedDate": "2026-10-04",
+          "sourceCycle": "2027",
+          "admissionMode": "recommendation_exemption",
+          "sourceDegree": "MSc",
+          "evidenceScope": "current_program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "tsinghua-iiis-hmt-phd-2022-history",
+      "title": "清华大学 2022 年港澳台地区博士专业目录（交叉信息研究院，历史参考）",
+      "cycle": "2022 historical reference",
+      "sourceCycle": "2022",
+      "admissionMode": "hong_kong_macao_taiwan_doctoral_admission",
+      "degree": "PhD",
+      "status": "historical_mentor_directory",
+      "summaryZh": "该历史港澳台博士目录列有吴翼、张崇洁、赵行、高阳等姓名；仅保留在原学位、招生对象和周期范围，不能移用于 2025/2027 硕士或 2027 普通博士接收。",
+      "sources": [
+        {
+          "label": "清华大学 2022 年港澳台地区博士专业目录（交叉信息研究院，历史参考）",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
+          "checkedDate": "2026-10-04",
+          "sourceCycle": "2022",
+          "admissionMode": "hong_kong_macao_taiwan_doctoral_admission",
+          "sourceDegree": "PhD",
+          "audience": "Hong Kong, Macao and Taiwan applicants",
+          "evidenceScope": "historical_mentor_directory"
+        }
+      ]
+    },
+    {
+      "id": "tsinghua-me-phd-2026-a5-historical-mentors",
+      "title": "清华大学机械工程系 2026 年博士招生目录（080200 先进装备与机器人，历史参考）",
+      "cycle": "2026 historical reference",
+      "sourceCycle": "2026",
+      "admissionMode": "doctoral_admission",
+      "status": "historical_mentor_directory",
+      "projectCycleVerified": false,
+      "individualRecruitmentVerified": false,
+      "summaryZh": "2026 目录在 080200 先进装备与机器人方向列出吴丹、赵慧婵、李曙光；这是历史专业导师列名证据，不是 2027/2028 接收或余位确认。",
+      "sources": [
+        {
+          "label": "清华大学机械工程系 2026 年博士招生目录（080200 先进装备与机器人，历史参考）",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/a5f6fe53-604e-49f9-984e-633f5000b12a?yxsdm=012",
+          "checkedDate": "2026-10-04",
+          "sourceCycle": "2026",
+          "admissionMode": "doctoral_admission",
+          "sourceDegree": "PhD",
+          "evidenceScope": "historical_mentor_directory",
+          "originalLabel": "清华大学机械工程系 2027 年博士招生目录（先进装备与机器人方向）"
+        }
       ]
     }
   ],
@@ -125,11 +242,12 @@
       "researchZh": "人形机器人、特种操作与移动机器人、机器人运动规划与控制",
       "profileUrl": "https://www.me.tsinghua.edu.cn/en/info/1053/1420.htm",
       "routeIds": [
-        "tsinghua-me-msc-ordinary"
+        "tsinghua-me-msc-ordinary",
+        "tsinghua-me-phd-reference-2027"
       ],
       "cycle2027FallReference": true,
       "cycle2028FallVerified": false,
-      "catalogStatus": "verified_program_association",
+      "catalogStatus": "profile_visible_association_pending",
       "reasonNotInDefaultCatalog": null,
       "sources": [
         {
@@ -138,14 +256,109 @@
           "checkedDate": "2026-10-04"
         },
         {
-          "label": "清华大学机械工程系 2027 年硕士招生目录",
+          "label": "清华大学机械工程系 2025 年硕士统招目录（历史参考）",
           "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
-          "checkedDate": "2026-10-04"
+          "checkedDate": "2026-10-04",
+          "originalLabel": "清华大学机械工程系 2027 年硕士招生目录",
+          "sourceCycle": "2025",
+          "admissionMode": "national_exam",
+          "sourceDegree": "MSc",
+          "evidenceScope": "historical_program_catalog"
         }
       ],
       "referencePhdRouteIds": [
         "tsinghua-me-phd-reference-2027"
-      ]
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "tsinghua-me-msc-ordinary",
+          "degree": "MSc",
+          "status": "pending",
+          "summary": "官方教师页确认任职与研究方向；未获得该导师与这条具体学位/招生方式的直接接收证据，不能由院系总招生页面推导个人关联。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1053/1420.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2025 年硕士统招目录（历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04",
+              "originalLabel": "清华大学机械工程系 2027 年硕士招生目录",
+              "sourceCycle": "2025",
+              "admissionMode": "national_exam",
+              "sourceDegree": "MSc",
+              "evidenceScope": "historical_program_catalog"
+            }
+          ],
+          "checkedDate": "2026-10-04",
+          "verificationStatus": "pending",
+          "scope": "department_research_reference",
+          "note": "官方教师页确认任职与研究方向；未获得该导师与这条具体学位/招生方式的直接接收证据，不能由院系总招生页面推导个人关联。",
+          "sourceCycle": "2025",
+          "admissionMode": "national_exam",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false
+        },
+        {
+          "routeId": "tsinghua-me-phd-reference-2027",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "2026 博士目录的 080200 先进装备与机器人分组未直接列出该导师；保留院系研究参考，不能据此否定招生资格。2027/2028 个人项目关联、接收与余位待核。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系 2026 年博士招生目录（080200 先进装备与机器人，历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/a5f6fe53-604e-49f9-984e-633f5000b12a?yxsdm=012",
+              "checkedDate": "2026-10-04",
+              "sourceCycle": "2026",
+              "admissionMode": "doctoral_admission",
+              "sourceDegree": "PhD",
+              "evidenceScope": "historical_mentor_directory",
+              "originalLabel": "清华大学机械工程系 2027 年博士招生目录（先进装备与机器人方向）"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "导师官方主页（仅身份与研究参考）",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1053/1420.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2026 年博士生（十一月）招生专业目录（机械工程系，历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/f1b3cfe9-df6d-45e0-8151-eeed697fbb02",
+              "checkedDate": "2026-10-04",
+              "sourceCycle": "2026",
+              "admissionMode": "doctoral_admission",
+              "sourceDegree": "PhD",
+              "evidenceScope": "historical_program_catalog"
+            }
+          ],
+          "checkedDate": "2026-10-04",
+          "verificationStatus": "pending",
+          "scope": "department_research_reference",
+          "note": "2026 博士目录的 080200 先进装备与机器人分组未直接列出该导师；保留院系研究参考，不能据此否定招生资格。2027/2028 个人项目关联、接收与余位待核。",
+          "sourceCycle": "2027",
+          "admissionMode": "application_assessment",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": true,
+          "sourceCycles": [
+            "2027",
+            "2026"
+          ]
+        }
+      ],
+      "individualRecruitmentVerified": false,
+      "associationNote": "研究档案保留可读；具体个人项目关联待核，不等于否定导师资格。"
     },
     {
       "id": "tsinghua-huichan-zhao",
@@ -156,11 +369,12 @@
       "researchZh": "人工肌肉、可拉伸传感器、软体机器人与软体执行器",
       "profileUrl": "https://www.me.tsinghua.edu.cn/en/info/1264/1968.htm",
       "routeIds": [
-        "tsinghua-me-msc-ordinary"
+        "tsinghua-me-msc-ordinary",
+        "tsinghua-me-phd-reference-2027"
       ],
       "cycle2027FallReference": true,
       "cycle2028FallVerified": false,
-      "catalogStatus": "verified_program_association",
+      "catalogStatus": "profile_visible_association_pending",
       "reasonNotInDefaultCatalog": null,
       "sources": [
         {
@@ -169,14 +383,130 @@
           "checkedDate": "2026-10-04"
         },
         {
-          "label": "清华大学机械工程系 2027 年硕士招生目录",
+          "label": "清华大学机械工程系 2025 年硕士统招目录（历史参考）",
           "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
-          "checkedDate": "2026-10-04"
+          "checkedDate": "2026-10-04",
+          "originalLabel": "清华大学机械工程系 2027 年硕士招生目录",
+          "sourceCycle": "2025",
+          "admissionMode": "national_exam",
+          "sourceDegree": "MSc",
+          "evidenceScope": "historical_program_catalog"
         }
       ],
       "referencePhdRouteIds": [
         "tsinghua-me-phd-reference-2027"
-      ]
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "tsinghua-me-msc-ordinary",
+          "degree": "MSc",
+          "status": "pending",
+          "summary": "官方教师页确认任职与研究方向；未获得该导师与这条具体学位/招生方式的直接接收证据，不能由院系总招生页面推导个人关联。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系赵慧婵教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1264/1968.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2025 年硕士统招目录（历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04",
+              "originalLabel": "清华大学机械工程系 2027 年硕士招生目录",
+              "sourceCycle": "2025",
+              "admissionMode": "national_exam",
+              "sourceDegree": "MSc",
+              "evidenceScope": "historical_program_catalog"
+            }
+          ],
+          "checkedDate": "2026-10-04",
+          "verificationStatus": "pending",
+          "scope": "department_research_reference",
+          "note": "官方教师页确认任职与研究方向；未获得该导师与这条具体学位/招生方式的直接接收证据，不能由院系总招生页面推导个人关联。",
+          "sourceCycle": "2025",
+          "admissionMode": "national_exam",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false
+        },
+        {
+          "routeId": "tsinghua-me-phd-reference-2027",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "2026 博士目录在 080200 先进装备与机器人方向列出该导师，历史专业导师身份已核；2027 项目简章独立参考，个人 2027/2028 接收、余位和资助仍待核。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系 2026 年博士招生目录（080200 先进装备与机器人，历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/a5f6fe53-604e-49f9-984e-633f5000b12a?yxsdm=012",
+              "checkedDate": "2026-10-04",
+              "sourceCycle": "2026",
+              "admissionMode": "doctoral_admission",
+              "sourceDegree": "PhD",
+              "evidenceScope": "historical_mentor_directory",
+              "originalLabel": "清华大学机械工程系 2027 年博士招生目录（先进装备与机器人方向）"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "导师官方主页（仅身份与研究参考）",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1264/1968.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2026 年博士生（十一月）招生专业目录（机械工程系，历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/f1b3cfe9-df6d-45e0-8151-eeed697fbb02",
+              "checkedDate": "2026-10-04",
+              "sourceCycle": "2026",
+              "admissionMode": "doctoral_admission",
+              "sourceDegree": "PhD",
+              "evidenceScope": "historical_program_catalog"
+            }
+          ],
+          "checkedDate": "2026-10-04",
+          "verificationStatus": "pending",
+          "scope": "historical_mentor_directory",
+          "note": "2026 博士目录在 080200 先进装备与机器人方向列出该导师，历史专业导师身份已核；2027 项目简章独立参考，个人 2027/2028 接收、余位和资助仍待核。",
+          "sourceCycle": "2027",
+          "admissionMode": "application_assessment",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": true,
+          "sourceCycles": [
+            "2027",
+            "2026"
+          ],
+          "historicalAssociationVerified": true,
+          "historicalAssociationSourceCycle": "2026",
+          "historicalAssociationScope": "080200 / 01 先进装备与机器人 / PhD"
+        }
+      ],
+      "individualRecruitmentVerified": false,
+      "associationNote": "研究档案保留可读；具体个人项目关联待核，不等于否定导师资格。",
+      "historicalDoctoralAssociation": {
+        "verificationStatus": "verified",
+        "sourceCycle": "2026",
+        "scope": "historical_mentor_directory",
+        "note": "仅核实 2026 目录的专业导师列名；当前个人接收仍 pending。",
+        "sources": [
+          {
+            "label": "清华大学机械工程系 2026 年博士招生目录（080200 先进装备与机器人，历史参考）",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/a5f6fe53-604e-49f9-984e-633f5000b12a?yxsdm=012",
+            "checkedDate": "2026-10-04",
+            "sourceCycle": "2026",
+            "admissionMode": "doctoral_admission",
+            "sourceDegree": "PhD",
+            "evidenceScope": "historical_mentor_directory",
+            "originalLabel": "清华大学机械工程系 2027 年博士招生目录（先进装备与机器人方向）"
+          }
+        ]
+      }
     },
     {
       "id": "tsinghua-rui-chen",
@@ -187,11 +517,12 @@
       "researchZh": "智能机器人、具身智能、触觉感知与三维计算机视觉",
       "profileUrl": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
       "routeIds": [
-        "tsinghua-me-msc-ordinary"
+        "tsinghua-me-msc-ordinary",
+        "tsinghua-me-phd-reference-2027"
       ],
       "cycle2027FallReference": true,
       "cycle2028FallVerified": false,
-      "catalogStatus": "verified_program_association",
+      "catalogStatus": "profile_visible_association_pending",
       "reasonNotInDefaultCatalog": null,
       "sources": [
         {
@@ -200,14 +531,109 @@
           "checkedDate": "2026-10-04"
         },
         {
-          "label": "清华大学机械工程系 2027 年硕士招生目录",
+          "label": "清华大学机械工程系 2025 年硕士统招目录（历史参考）",
           "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
-          "checkedDate": "2026-10-04"
+          "checkedDate": "2026-10-04",
+          "originalLabel": "清华大学机械工程系 2027 年硕士招生目录",
+          "sourceCycle": "2025",
+          "admissionMode": "national_exam",
+          "sourceDegree": "MSc",
+          "evidenceScope": "historical_program_catalog"
         }
       ],
       "referencePhdRouteIds": [
         "tsinghua-me-phd-reference-2027"
-      ]
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "tsinghua-me-msc-ordinary",
+          "degree": "MSc",
+          "status": "pending",
+          "summary": "官方教师页确认任职与研究方向；未获得该导师与这条具体学位/招生方式的直接接收证据，不能由院系总招生页面推导个人关联。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系陈睿教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2025 年硕士统招目录（历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04",
+              "originalLabel": "清华大学机械工程系 2027 年硕士招生目录",
+              "sourceCycle": "2025",
+              "admissionMode": "national_exam",
+              "sourceDegree": "MSc",
+              "evidenceScope": "historical_program_catalog"
+            }
+          ],
+          "checkedDate": "2026-10-04",
+          "verificationStatus": "pending",
+          "scope": "department_research_reference",
+          "note": "官方教师页确认任职与研究方向；未获得该导师与这条具体学位/招生方式的直接接收证据，不能由院系总招生页面推导个人关联。",
+          "sourceCycle": "2025",
+          "admissionMode": "national_exam",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false
+        },
+        {
+          "routeId": "tsinghua-me-phd-reference-2027",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "2026 博士目录的 080200 先进装备与机器人分组未直接列出该导师；保留院系研究参考，不能据此否定招生资格。2027/2028 个人项目关联、接收与余位待核。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系 2026 年博士招生目录（080200 先进装备与机器人，历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/a5f6fe53-604e-49f9-984e-633f5000b12a?yxsdm=012",
+              "checkedDate": "2026-10-04",
+              "sourceCycle": "2026",
+              "admissionMode": "doctoral_admission",
+              "sourceDegree": "PhD",
+              "evidenceScope": "historical_mentor_directory",
+              "originalLabel": "清华大学机械工程系 2027 年博士招生目录（先进装备与机器人方向）"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "导师官方主页（仅身份与研究参考）",
+              "url": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2026 年博士生（十一月）招生专业目录（机械工程系，历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/f1b3cfe9-df6d-45e0-8151-eeed697fbb02",
+              "checkedDate": "2026-10-04",
+              "sourceCycle": "2026",
+              "admissionMode": "doctoral_admission",
+              "sourceDegree": "PhD",
+              "evidenceScope": "historical_program_catalog"
+            }
+          ],
+          "checkedDate": "2026-10-04",
+          "verificationStatus": "pending",
+          "scope": "department_research_reference",
+          "note": "2026 博士目录的 080200 先进装备与机器人分组未直接列出该导师；保留院系研究参考，不能据此否定招生资格。2027/2028 个人项目关联、接收与余位待核。",
+          "sourceCycle": "2027",
+          "admissionMode": "application_assessment",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": true,
+          "sourceCycles": [
+            "2027",
+            "2026"
+          ]
+        }
+      ],
+      "individualRecruitmentVerified": false,
+      "associationNote": "研究档案保留可读；具体个人项目关联待核，不等于否定导师资格。"
     },
     {
       "id": "tsinghua-shuguang-li",
@@ -219,11 +645,12 @@
       "profileUrl": "https://www.me.tsinghua.edu.cn/info/1122/2750.htm",
       "labUrl": "https://www.lisglab.com/",
       "routeIds": [
-        "tsinghua-me-msc-ordinary"
+        "tsinghua-me-msc-ordinary",
+        "tsinghua-me-phd-reference-2027"
       ],
       "cycle2027FallReference": true,
       "cycle2028FallVerified": false,
-      "catalogStatus": "verified_program_association",
+      "catalogStatus": "profile_visible_association_pending",
       "reasonNotInDefaultCatalog": null,
       "sources": [
         {
@@ -232,14 +659,130 @@
           "checkedDate": "2026-10-04"
         },
         {
-          "label": "清华大学机械工程系 2027 年硕士招生目录",
+          "label": "清华大学机械工程系 2025 年硕士统招目录（历史参考）",
           "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
-          "checkedDate": "2026-10-04"
+          "checkedDate": "2026-10-04",
+          "originalLabel": "清华大学机械工程系 2027 年硕士招生目录",
+          "sourceCycle": "2025",
+          "admissionMode": "national_exam",
+          "sourceDegree": "MSc",
+          "evidenceScope": "historical_program_catalog"
         }
       ],
       "referencePhdRouteIds": [
         "tsinghua-me-phd-reference-2027"
-      ]
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "tsinghua-me-msc-ordinary",
+          "degree": "MSc",
+          "status": "pending",
+          "summary": "官方教师页确认任职与研究方向；未获得该导师与这条具体学位/招生方式的直接接收证据，不能由院系总招生页面推导个人关联。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系李曙光教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/info/1122/2750.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2025 年硕士统招目录（历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04",
+              "originalLabel": "清华大学机械工程系 2027 年硕士招生目录",
+              "sourceCycle": "2025",
+              "admissionMode": "national_exam",
+              "sourceDegree": "MSc",
+              "evidenceScope": "historical_program_catalog"
+            }
+          ],
+          "checkedDate": "2026-10-04",
+          "verificationStatus": "pending",
+          "scope": "department_research_reference",
+          "note": "官方教师页确认任职与研究方向；未获得该导师与这条具体学位/招生方式的直接接收证据，不能由院系总招生页面推导个人关联。",
+          "sourceCycle": "2025",
+          "admissionMode": "national_exam",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false
+        },
+        {
+          "routeId": "tsinghua-me-phd-reference-2027",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "2026 博士目录在 080200 先进装备与机器人方向列出该导师，历史专业导师身份已核；2027 项目简章独立参考，个人 2027/2028 接收、余位和资助仍待核。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系 2026 年博士招生目录（080200 先进装备与机器人，历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/a5f6fe53-604e-49f9-984e-633f5000b12a?yxsdm=012",
+              "checkedDate": "2026-10-04",
+              "sourceCycle": "2026",
+              "admissionMode": "doctoral_admission",
+              "sourceDegree": "PhD",
+              "evidenceScope": "historical_mentor_directory",
+              "originalLabel": "清华大学机械工程系 2027 年博士招生目录（先进装备与机器人方向）"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "导师官方主页（仅身份与研究参考）",
+              "url": "https://www.me.tsinghua.edu.cn/info/1122/2750.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2026 年博士生（十一月）招生专业目录（机械工程系，历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/f1b3cfe9-df6d-45e0-8151-eeed697fbb02",
+              "checkedDate": "2026-10-04",
+              "sourceCycle": "2026",
+              "admissionMode": "doctoral_admission",
+              "sourceDegree": "PhD",
+              "evidenceScope": "historical_program_catalog"
+            }
+          ],
+          "checkedDate": "2026-10-04",
+          "verificationStatus": "pending",
+          "scope": "historical_mentor_directory",
+          "note": "2026 博士目录在 080200 先进装备与机器人方向列出该导师，历史专业导师身份已核；2027 项目简章独立参考，个人 2027/2028 接收、余位和资助仍待核。",
+          "sourceCycle": "2027",
+          "admissionMode": "application_assessment",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": true,
+          "sourceCycles": [
+            "2027",
+            "2026"
+          ],
+          "historicalAssociationVerified": true,
+          "historicalAssociationSourceCycle": "2026",
+          "historicalAssociationScope": "080200 / 01 先进装备与机器人 / PhD"
+        }
+      ],
+      "individualRecruitmentVerified": false,
+      "associationNote": "研究档案保留可读；具体个人项目关联待核，不等于否定导师资格。",
+      "historicalDoctoralAssociation": {
+        "verificationStatus": "verified",
+        "sourceCycle": "2026",
+        "scope": "historical_mentor_directory",
+        "note": "仅核实 2026 目录的专业导师列名；当前个人接收仍 pending。",
+        "sources": [
+          {
+            "label": "清华大学机械工程系 2026 年博士招生目录（080200 先进装备与机器人，历史参考）",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/a5f6fe53-604e-49f9-984e-633f5000b12a?yxsdm=012",
+            "checkedDate": "2026-10-04",
+            "sourceCycle": "2026",
+            "admissionMode": "doctoral_admission",
+            "sourceDegree": "PhD",
+            "evidenceScope": "historical_mentor_directory",
+            "originalLabel": "清华大学机械工程系 2027 年博士招生目录（先进装备与机器人方向）"
+          }
+        ]
+      }
     },
     {
       "id": "tsinghua-yao-jiang",
@@ -250,11 +793,12 @@
       "researchZh": "机器人交互感知、自主操作、触觉传感、精准驱动与灵巧机械手",
       "profileUrl": "https://www.me.tsinghua.edu.cn/info/1098/3517.htm",
       "routeIds": [
-        "tsinghua-me-msc-ordinary"
+        "tsinghua-me-msc-ordinary",
+        "tsinghua-me-phd-reference-2027"
       ],
       "cycle2027FallReference": true,
       "cycle2028FallVerified": false,
-      "catalogStatus": "verified_program_association",
+      "catalogStatus": "profile_visible_association_pending",
       "reasonNotInDefaultCatalog": null,
       "sources": [
         {
@@ -263,14 +807,109 @@
           "checkedDate": "2026-10-04"
         },
         {
-          "label": "清华大学机械工程系 2027 年硕士招生目录",
+          "label": "清华大学机械工程系 2025 年硕士统招目录（历史参考）",
           "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
-          "checkedDate": "2026-10-04"
+          "checkedDate": "2026-10-04",
+          "originalLabel": "清华大学机械工程系 2027 年硕士招生目录",
+          "sourceCycle": "2025",
+          "admissionMode": "national_exam",
+          "sourceDegree": "MSc",
+          "evidenceScope": "historical_program_catalog"
         }
       ],
       "referencePhdRouteIds": [
         "tsinghua-me-phd-reference-2027"
-      ]
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "tsinghua-me-msc-ordinary",
+          "degree": "MSc",
+          "status": "pending",
+          "summary": "官方教师页确认任职与研究方向；未获得该导师与这条具体学位/招生方式的直接接收证据，不能由院系总招生页面推导个人关联。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系姜峣教师主页",
+              "url": "https://www.me.tsinghua.edu.cn/info/1098/3517.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2025 年硕士统招目录（历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04",
+              "originalLabel": "清华大学机械工程系 2027 年硕士招生目录",
+              "sourceCycle": "2025",
+              "admissionMode": "national_exam",
+              "sourceDegree": "MSc",
+              "evidenceScope": "historical_program_catalog"
+            }
+          ],
+          "checkedDate": "2026-10-04",
+          "verificationStatus": "pending",
+          "scope": "department_research_reference",
+          "note": "官方教师页确认任职与研究方向；未获得该导师与这条具体学位/招生方式的直接接收证据，不能由院系总招生页面推导个人关联。",
+          "sourceCycle": "2025",
+          "admissionMode": "national_exam",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false
+        },
+        {
+          "routeId": "tsinghua-me-phd-reference-2027",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "2026 博士目录的 080200 先进装备与机器人分组未直接列出该导师；保留院系研究参考，不能据此否定招生资格。2027/2028 个人项目关联、接收与余位待核。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系 2026 年博士招生目录（080200 先进装备与机器人，历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/a5f6fe53-604e-49f9-984e-633f5000b12a?yxsdm=012",
+              "checkedDate": "2026-10-04",
+              "sourceCycle": "2026",
+              "admissionMode": "doctoral_admission",
+              "sourceDegree": "PhD",
+              "evidenceScope": "historical_mentor_directory",
+              "originalLabel": "清华大学机械工程系 2027 年博士招生目录（先进装备与机器人方向）"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "导师官方主页（仅身份与研究参考）",
+              "url": "https://www.me.tsinghua.edu.cn/info/1098/3517.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2026 年博士生（十一月）招生专业目录（机械工程系，历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/f1b3cfe9-df6d-45e0-8151-eeed697fbb02",
+              "checkedDate": "2026-10-04",
+              "sourceCycle": "2026",
+              "admissionMode": "doctoral_admission",
+              "sourceDegree": "PhD",
+              "evidenceScope": "historical_program_catalog"
+            }
+          ],
+          "checkedDate": "2026-10-04",
+          "verificationStatus": "pending",
+          "scope": "department_research_reference",
+          "note": "2026 博士目录的 080200 先进装备与机器人分组未直接列出该导师；保留院系研究参考，不能据此否定招生资格。2027/2028 个人项目关联、接收与余位待核。",
+          "sourceCycle": "2027",
+          "admissionMode": "application_assessment",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": true,
+          "sourceCycles": [
+            "2027",
+            "2026"
+          ]
+        }
+      ],
+      "individualRecruitmentVerified": false,
+      "associationNote": "研究档案保留可读；具体个人项目关联待核，不等于否定导师资格。"
     },
     {
       "id": "tsinghua-dan-wu",
@@ -281,11 +920,12 @@
       "researchZh": "机器人与自动化技术及装备、智能加工与操作、智能精密装配",
       "profileUrl": "https://me.tsinghua.edu.cn/info/1100/1640.htm",
       "routeIds": [
-        "tsinghua-me-msc-ordinary"
+        "tsinghua-me-msc-ordinary",
+        "tsinghua-me-phd-reference-2027"
       ],
       "cycle2027FallReference": true,
       "cycle2028FallVerified": false,
-      "catalogStatus": "verified_program_association",
+      "catalogStatus": "profile_visible_association_pending",
       "reasonNotInDefaultCatalog": null,
       "sources": [
         {
@@ -294,14 +934,130 @@
           "checkedDate": "2026-10-04"
         },
         {
-          "label": "清华大学机械工程系 2027 年硕士招生目录",
+          "label": "清华大学机械工程系 2025 年硕士统招目录（历史参考）",
           "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
-          "checkedDate": "2026-10-04"
+          "checkedDate": "2026-10-04",
+          "originalLabel": "清华大学机械工程系 2027 年硕士招生目录",
+          "sourceCycle": "2025",
+          "admissionMode": "national_exam",
+          "sourceDegree": "MSc",
+          "evidenceScope": "historical_program_catalog"
         }
       ],
       "referencePhdRouteIds": [
         "tsinghua-me-phd-reference-2027"
-      ]
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "tsinghua-me-msc-ordinary",
+          "degree": "MSc",
+          "status": "pending",
+          "summary": "官方教师页确认任职与研究方向；未获得该导师与这条具体学位/招生方式的直接接收证据，不能由院系总招生页面推导个人关联。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系吴丹教师主页",
+              "url": "https://me.tsinghua.edu.cn/info/1100/1640.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学机械工程系 2025 年硕士统招目录（历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+              "checkedDate": "2026-10-04",
+              "originalLabel": "清华大学机械工程系 2027 年硕士招生目录",
+              "sourceCycle": "2025",
+              "admissionMode": "national_exam",
+              "sourceDegree": "MSc",
+              "evidenceScope": "historical_program_catalog"
+            }
+          ],
+          "checkedDate": "2026-10-04",
+          "verificationStatus": "pending",
+          "scope": "department_research_reference",
+          "note": "官方教师页确认任职与研究方向；未获得该导师与这条具体学位/招生方式的直接接收证据，不能由院系总招生页面推导个人关联。",
+          "sourceCycle": "2025",
+          "admissionMode": "national_exam",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false
+        },
+        {
+          "routeId": "tsinghua-me-phd-reference-2027",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "2026 博士目录在 080200 先进装备与机器人方向列出该导师，历史专业导师身份已核；2027 项目简章独立参考，个人 2027/2028 接收、余位和资助仍待核。",
+          "sources": [
+            {
+              "label": "清华大学机械工程系 2026 年博士招生目录（080200 先进装备与机器人，历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/a5f6fe53-604e-49f9-984e-633f5000b12a?yxsdm=012",
+              "checkedDate": "2026-10-04",
+              "sourceCycle": "2026",
+              "admissionMode": "doctoral_admission",
+              "sourceDegree": "PhD",
+              "evidenceScope": "historical_mentor_directory",
+              "originalLabel": "清华大学机械工程系 2027 年博士招生目录（先进装备与机器人方向）"
+            },
+            {
+              "label": "清华大学机械工程系 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/7db059c6-44d3-4921-b52b-85a683ea8bee?yxsdm=012",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "导师官方主页（仅身份与研究参考）",
+              "url": "https://me.tsinghua.edu.cn/info/1100/1640.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2026 年博士生（十一月）招生专业目录（机械工程系，历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/f1b3cfe9-df6d-45e0-8151-eeed697fbb02",
+              "checkedDate": "2026-10-04",
+              "sourceCycle": "2026",
+              "admissionMode": "doctoral_admission",
+              "sourceDegree": "PhD",
+              "evidenceScope": "historical_program_catalog"
+            }
+          ],
+          "checkedDate": "2026-10-04",
+          "verificationStatus": "pending",
+          "scope": "historical_mentor_directory",
+          "note": "2026 博士目录在 080200 先进装备与机器人方向列出该导师，历史专业导师身份已核；2027 项目简章独立参考，个人 2027/2028 接收、余位和资助仍待核。",
+          "sourceCycle": "2027",
+          "admissionMode": "application_assessment",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": true,
+          "sourceCycles": [
+            "2027",
+            "2026"
+          ],
+          "historicalAssociationVerified": true,
+          "historicalAssociationSourceCycle": "2026",
+          "historicalAssociationScope": "080200 / 01 先进装备与机器人 / PhD"
+        }
+      ],
+      "individualRecruitmentVerified": false,
+      "associationNote": "研究档案保留可读；具体个人项目关联待核，不等于否定导师资格。",
+      "historicalDoctoralAssociation": {
+        "verificationStatus": "verified",
+        "sourceCycle": "2026",
+        "scope": "historical_mentor_directory",
+        "note": "仅核实 2026 目录的专业导师列名；当前个人接收仍 pending。",
+        "sources": [
+          {
+            "label": "清华大学机械工程系 2026 年博士招生目录（080200 先进装备与机器人，历史参考）",
+            "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/a5f6fe53-604e-49f9-984e-633f5000b12a?yxsdm=012",
+            "checkedDate": "2026-10-04",
+            "sourceCycle": "2026",
+            "admissionMode": "doctoral_admission",
+            "sourceDegree": "PhD",
+            "evidenceScope": "historical_mentor_directory",
+            "originalLabel": "清华大学机械工程系 2027 年博士招生目录（先进装备与机器人方向）"
+          }
+        ]
+      }
     },
     {
       "id": "tsinghua-gao-yang",
@@ -313,11 +1069,12 @@
       "researchZh": "通用具身智能体、人形机器人控制、灵巧操作、视觉语言动作模型与触觉感知",
       "profileUrl": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
       "routeIds": [
-        "tsinghua-iiis-msc-robotics"
+        "tsinghua-iiis-msc-robotics",
+        "tsinghua-iiis-phd-reference-2027"
       ],
       "cycle2027FallReference": true,
       "cycle2028FallVerified": false,
-      "catalogStatus": "mentor_directory_verified",
+      "catalogStatus": "profile_visible_association_pending",
       "reasonNotInDefaultCatalog": null,
       "sources": [
         {
@@ -326,20 +1083,284 @@
           "checkedDate": "2026-10-04"
         },
         {
-          "label": "清华大学交叉信息研究院 2027 年硕士导师目录",
+          "label": "清华大学 2022 年港澳台地区博士专业目录（交叉信息研究院，历史参考）",
           "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
-          "checkedDate": "2026-10-04"
+          "checkedDate": "2026-10-04",
+          "originalLabel": "清华大学交叉信息研究院 2027 年硕士导师目录",
+          "sourceCycle": "2022",
+          "admissionMode": "hong_kong_macao_taiwan_doctoral_admission",
+          "sourceDegree": "PhD",
+          "audience": "Hong Kong, Macao and Taiwan applicants",
+          "evidenceScope": "historical_mentor_directory"
         },
         {
-          "label": "清华大学交叉信息研究院 2027 年硕士招生目录",
+          "label": "清华大学交叉信息研究院 2025 年硕士推荐免试目录（081200，历史参考）",
           "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/67cb3fbf-3bd2-47e1-b29a-e3ad09432625/1?yxsdm=047&zslx=%271%27",
-          "checkedDate": "2026-10-04"
+          "checkedDate": "2026-10-04",
+          "originalLabel": "清华大学交叉信息研究院 2027 年硕士招生目录",
+          "sourceCycle": "2025",
+          "admissionMode": "recommendation_exemption",
+          "sourceDegree": "MSc",
+          "evidenceScope": "historical_program_catalog"
         }
       ],
       "referencePhdRouteIds": [
         "tsinghua-iiis-phd-reference-2027"
-      ]
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "tsinghua-iiis-msc-robotics",
+          "degree": "MSc",
+          "status": "pending",
+          "summary": "原 532cc 导师页实际为 2022 港澳台博士目录，不能用于 2025 推免硕士或 2027 普通统考个人关联；该硕士关联待核。",
+          "sources": [
+            {
+              "label": "清华大学交叉信息研究院 Vision and Robotics Lab",
+              "url": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2022 年港澳台地区博士专业目录（交叉信息研究院，历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
+              "checkedDate": "2026-10-04",
+              "originalLabel": "清华大学交叉信息研究院 2027 年硕士导师目录",
+              "sourceCycle": "2022",
+              "admissionMode": "hong_kong_macao_taiwan_doctoral_admission",
+              "sourceDegree": "PhD",
+              "audience": "Hong Kong, Macao and Taiwan applicants",
+              "evidenceScope": "historical_mentor_directory"
+            },
+            {
+              "label": "清华大学交叉信息研究院 2025 年硕士推荐免试目录（081200，历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/67cb3fbf-3bd2-47e1-b29a-e3ad09432625/1?yxsdm=047&zslx=%271%27",
+              "checkedDate": "2026-10-04",
+              "originalLabel": "清华大学交叉信息研究院 2027 年硕士招生目录",
+              "sourceCycle": "2025",
+              "admissionMode": "recommendation_exemption",
+              "sourceDegree": "MSc",
+              "evidenceScope": "historical_program_catalog"
+            }
+          ],
+          "checkedDate": "2026-10-04",
+          "verificationStatus": "pending",
+          "scope": "historical_mentor_directory",
+          "note": "原 532cc 导师页实际为 2022 港澳台博士目录，不能用于 2025 推免硕士或 2027 普通统考个人关联；该硕士关联待核。",
+          "sourceCycle": "2025",
+          "admissionMode": "recommendation_exemption",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false
+        },
+        {
+          "routeId": "tsinghua-iiis-phd-reference-2027",
+          "degree": "PhD",
+          "status": "reference",
+          "summary": "保留官方实验室与博士项目的研究方向连接；2022 港澳台博士目录中的姓名不构成 2027 普通博士的个人接收证据。",
+          "sources": [
+            {
+              "label": "清华大学交叉信息研究院 2027 年博士招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/3415cd69-b74a-413f-bfb6-6a43bed3f344?yxsdm=047",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2027 年博士研究生招生简章",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "导师官方主页（仅身份与研究参考）",
+              "url": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+              "checkedDate": "2026-10-04"
+            },
+            {
+              "label": "清华大学 2022 年港澳台地区博士专业目录（交叉信息研究院，历史参考）",
+              "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
+              "checkedDate": "2026-10-04",
+              "sourceCycle": "2022",
+              "admissionMode": "hong_kong_macao_taiwan_doctoral_admission",
+              "sourceDegree": "PhD",
+              "audience": "Hong Kong, Macao and Taiwan applicants",
+              "evidenceScope": "historical_mentor_directory"
+            }
+          ],
+          "checkedDate": "2026-10-04",
+          "verificationStatus": "pending",
+          "scope": "historical_mentor_directory",
+          "note": "保留官方实验室与博士项目的研究方向连接；2022 港澳台博士目录中的姓名不构成 2027 普通博士的个人接收证据。",
+          "sourceCycle": "2027",
+          "admissionMode": "application_assessment",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": true
+        }
+      ],
+      "individualRecruitmentVerified": false,
+      "associationNote": "研究档案保留可读；具体个人项目关联待核，不等于否定导师资格。"
     }
   ],
-  "conclusionZh": "清华 2027 博士项目与导师目录已补入参考路线；普通博士通常要求硕士，直博须符合推荐免试条件，项目与导师关联不等于个人导师余位。未检出上述导师明确的 2028 Fall 个人名额。"
+  "conclusionZh": "2025 历史硕士、2022 港澳台博士和 2026 十一月博士目录已纠正；2027 IIIS 085400 推免为独立项目。2027 普通统考本轮未核实，不断言未发布。导师研究与博士项目参考保留，个人项目关联及 2027/2028 招生名额待核。 新并入的 a5f6fe53 也是 2026 博士目录；三位导师历史列名已核，当前个人接收仍待核。",
+  "sourceCorrections": [
+    {
+      "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+      "checkedDate": "2026-10-04",
+      "previousLabels": [
+        "清华大学机械工程系 2027 年硕士招生目录"
+      ],
+      "corrected": {
+        "label": "清华大学机械工程系 2025 年硕士统招目录（历史参考）",
+        "sourceCycle": "2025",
+        "admissionMode": "national_exam",
+        "sourceDegree": "MSc",
+        "evidenceScope": "historical_program_catalog"
+      },
+      "evidenceMethod": "official HTML heading and relevant body; web extraction checked against raw official HTML",
+      "evidenceSha256": "0e56cb25c6564f1489d2fbff527ee3e6e98f0d08cdd7b514e6b13a532c555e97",
+      "note": "保留原来源 URL 与旧标签用于审计；旧标签不能用于当前周期或个人招生判断。"
+    },
+    {
+      "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/67cb3fbf-3bd2-47e1-b29a-e3ad09432625/1?yxsdm=047&zslx=%271%27",
+      "checkedDate": "2026-10-04",
+      "previousLabels": [
+        "清华大学交叉信息研究院 2027 年硕士招生目录"
+      ],
+      "corrected": {
+        "label": "清华大学交叉信息研究院 2025 年硕士推荐免试目录（081200，历史参考）",
+        "sourceCycle": "2025",
+        "admissionMode": "recommendation_exemption",
+        "sourceDegree": "MSc",
+        "evidenceScope": "historical_program_catalog"
+      },
+      "evidenceMethod": "official HTML heading and relevant body; web extraction checked against raw official HTML",
+      "evidenceSha256": "75d309389285c791e24bb01944c4ae120ec57697fead3b87f7e6eeb2e7a9c0c6",
+      "note": "保留原来源 URL 与旧标签用于审计；旧标签不能用于当前周期或个人招生判断。"
+    },
+    {
+      "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
+      "checkedDate": "2026-10-04",
+      "previousLabels": [
+        "清华大学交叉信息研究院 2027 年硕士导师目录"
+      ],
+      "corrected": {
+        "label": "清华大学 2022 年港澳台地区博士专业目录（交叉信息研究院，历史参考）",
+        "sourceCycle": "2022",
+        "admissionMode": "hong_kong_macao_taiwan_doctoral_admission",
+        "sourceDegree": "PhD",
+        "audience": "Hong Kong, Macao and Taiwan applicants",
+        "evidenceScope": "historical_mentor_directory"
+      },
+      "evidenceMethod": "official HTML heading and relevant body; web extraction checked against raw official HTML",
+      "evidenceSha256": "6dea59b457a373f67d66a9c5b7d31fc7e3256a48830f5c2f161ed1ada9a3d363",
+      "note": "保留原来源 URL 与旧标签用于审计；旧标签不能用于当前周期或个人招生判断。"
+    },
+    {
+      "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/f1b3cfe9-df6d-45e0-8151-eeed697fbb02",
+      "checkedDate": "2026-10-04",
+      "previousLabels": [
+        "清华大学 2027 年博士招生目录（机械工程系）"
+      ],
+      "corrected": {
+        "label": "清华大学 2026 年博士生（十一月）招生专业目录（机械工程系，历史参考）",
+        "sourceCycle": "2026",
+        "admissionMode": "doctoral_admission",
+        "sourceDegree": "PhD",
+        "evidenceScope": "historical_program_catalog"
+      },
+      "evidenceMethod": "official HTML heading and relevant body; web extraction checked against raw official HTML",
+      "evidenceSha256": "01a5fe3b622afab7978820772284c8cc983480abecef2a47f9c935a6df21404d",
+      "note": "保留原来源 URL 与旧标签用于审计；旧标签不能用于当前周期或个人招生判断。"
+    },
+    {
+      "checkedDate": "2026-10-04",
+      "previousValues": {
+        "scope": "清华大学机械工程系与交叉信息研究院的机器人、具身智能、智能制造和触觉方向；2027 硕士与博士项目、导师关联和个人名额分开记录。",
+        "admissionEvidence": [
+          {
+            "id": "tsinghua-master-general-2026-reference",
+            "title": "清华大学硕士研究生招生简章（普通招考制度参考）",
+            "cycle": "2026 institutional reference",
+            "status": "institutional_rule_reference",
+            "summaryZh": "清华硕士招生以推荐免试和普通招考两种形式进行，普通招考对象主要包括应届本科毕业、本科毕业及符合规定的同等学力人员；本条用于解释普通统考路径，不替代 2027 年具体院系目录。",
+            "sources": [
+              {
+                "label": "清华大学 2026 年硕士研究生招生简章",
+                "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0202/detail/c5c3d3af-171b-44d6-8aad-a35009bfc0f6",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          },
+          {
+            "id": "tsinghua-me-master-2027",
+            "title": "机械工程系 2027 年硕士招生目录",
+            "cycle": "2027 Fall reference",
+            "status": "program_catalog_verified",
+            "summaryZh": "机械工程系 2027 目录列出 080200 机械工程、082500 航空宇航科学与技术和 085500 机械专业学位，均为全日制并列出普通考试科目；具体导师当年接收和名额仍需单独确认。",
+            "sources": [
+              {
+                "label": "清华大学机械工程系 2027 年硕士招生目录",
+                "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/6eb54d2d-a7af-46d4-8e11-f6505f32ad93?ksfs=&yxsdm=012",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          },
+          {
+            "id": "tsinghua-iiis-master-2027",
+            "title": "交叉信息研究院 2027 年硕士招生目录与导师目录",
+            "cycle": "2027 Fall reference",
+            "status": "program_and_mentor_directory_verified",
+            "summaryZh": "交叉信息研究院 2027 目录在 081200 计算机科学与技术下列出人工智能、机器人和计算机视觉方向；导师目录列出机器人方向的吴翼、张崇洁、赵行、高阳，以及计算机视觉方向的弋力、赵行、高阳。",
+            "sources": [
+              {
+                "label": "清华大学交叉信息研究院 2027 年硕士招生目录",
+                "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/67cb3fbf-3bd2-47e1-b29a-e3ad09432625/1?yxsdm=047&zslx=%271%27",
+                "checkedDate": "2026-10-04"
+              },
+              {
+                "label": "清华大学交叉信息研究院 2027 年硕士导师目录",
+                "url": "https://yzbm.tsinghua.edu.cn/publish/s04/s0403/detail/532cc183-d6bc-4d6b-b268-17788d1b9741/2?yxsdm=047&zslx=%272%27",
+                "checkedDate": "2026-10-04"
+              }
+            ]
+          }
+        ]
+      },
+      "note": "兼容保留旧 evidence ID；标题、周期和方式按原文修正。"
+    },
+    {
+      "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0303/detail/a5f6fe53-604e-49f9-984e-633f5000b12a?yxsdm=012",
+      "checkedDate": "2026-10-04",
+      "previousLabels": [
+        "清华大学机械工程系 2027 年博士招生目录（先进装备与机器人方向）",
+        "清华大学 2027 年博士招生目录（机械工程系）"
+      ],
+      "corrected": {
+        "label": "清华大学机械工程系 2026 年博士招生目录（080200 先进装备与机器人，历史参考）",
+        "sourceCycle": "2026",
+        "admissionMode": "doctoral_admission",
+        "sourceDegree": "PhD",
+        "evidenceScope": "historical_mentor_directory"
+      },
+      "evidenceMethod": "official HTML h1 plus relevant 080200 / direction 01 body",
+      "evidenceSha256": "e4b9a173da0898cc996a9d78a89188944c07ad6f2f043d6455d88abadeaaf83c",
+      "note": "新增来源并未改为当前年度；HTML 标题为 2026。只核实历史博士目录中的姓名与方向，不证明 2027/2028 个人接收或余位。"
+    }
+  ],
+  "threeWayReconciliation": {
+    "baseRevision": "5c27c78fbcb742e7f44e70145d2e91b7e98fde1f",
+    "upstreamRevision": "3f294a8cc601e77183deb594de0836ec76cc8a9c",
+    "localFrozenCatalogSha256": "fdec2340133a6b926dc485fb9cad3e20a20a86c62dc1f205f86a41bd5d4f9e04",
+    "checkedDate": "2026-10-04",
+    "scope": "bounded three-way reconciliation: fifth source identity correction, 2026 historical doctoral names, sourceRecord field removal with history, and three doctoral eligibility summaries",
+    "preserved": [
+      "all prior sourceCorrections",
+      "all advisor/profile/route IDs and advisor routeIds",
+      "all 15 current individual associations remain pending",
+      "four PhD reference routes",
+      "independent 2027 IIIS 085400 tuimian route",
+      "research prose and works"
+    ],
+    "notAdopted": [
+      "a5f6 source mislabeled as 2027; official HTML is 2026",
+      "2027 reference flag inferred only from 2026 SUSTech MEE programme",
+      "historical name listing as current individual recruitment or available places"
+    ]
+  }
 }

@@ -1,6 +1,6 @@
 # GradCompass 仓库地图与 2028 Fall 证据规则
 
-本文记录当前代码、数据、测试和发布清单之间的边界，作为后续继续开发的入口。当前基线为合并提交 `7d3cfefb`；本分支在其基础上加入清华大学导师核查。
+本文记录当前代码、数据、测试和发布清单之间的边界，作为后续继续开发的入口。本地候选基线为 `3f294a8cc601e77183deb594de0836ec76cc8a9c`。旧批次记录按其原历史范围保留，当前权威计数由 `node scripts/public-counts.mjs` 生成。
 
 ## 数据与运行链路
 
@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | 主事实数据 | `data/catalog.json` | 导师、学位路线、截止日期、原始材料、招生声明和 watch sources。资格与招生字段以这里为准。 |
 | 导师专业简介 | `data/advisor-profiles.json` | 仅按 `advisorId` 补充职业概况、实验室、资源、代表成果和未知项；不能覆盖 `catalog` 的资格、招生或名额字段。 |
-| 清华核查记录 | `data/tsinghua-advisor-review-20261004.json` | 保存清华 2027 普通硕士/博士目录、导师目录、博士路线和 7 位导师的原始核查；不把项目参考升级为 2028 Fall 名额。 |
+| 清华核查记录 | `data/tsinghua-advisor-review-20261004.json` | 保存清华不同年份/渠道的真实来源、五项来源纠错、博士参考与7位导师的核查；不把项目参考升级为 2028 Fall 名额。 |
 | 南科大核查记录 | `data/sustech-advisor-review-20261004.json` | 保存南科大机械系自主培养博士项目、自动化学院 2027 博士通知、导师关联和 2028 Fall 边界；博士路线只在详情中作为参考。 |
 | 项目简介 | `data/project-summaries.json` | 补充培养、研究、入学条件和批次说明；不能从项目简介推导导师名额。 |
 | 材料摘要 | `data/material-summaries.json` | 官方材料要求的有界摘要；与原目录材料合并展示。 |
@@ -19,7 +19,7 @@
 | 内容版本与发布 | `scripts/freeze.py`、`release-manifest.json` | 先更新数据、模块和入口的内容 hash，再生成严格 allowlist。 |
 | 回归验证 | `tests/*.test.mjs` | `npm test` 运行 Node/DOM-contract 测试；浏览器脚本需用 `TEST_URL` 单独运行。 |
 
-当前数据量为 43 条导师目录记录、41 位可见导师、41 份简介、57 条学位机会与 2 条独立 RA、26 条申请经验、27 个项目和 14 组材料。
+早期历史快照的数据量为 43 条导师目录记录、41 位可见导师、41 份简介、57 条学位机会与 2 条独立 RA、26 条申请经验、27 个项目和 14 组材料。
 
 ## 后续开发顺序
 
@@ -54,3 +54,12 @@
 ## 2026-10-04 公开项目维护补记
 
 以上结构与 2028 Fall 导师证据规则保持不变。后续有界维护新增收录一条 HKU RIS 2027/28 授课型 MSc 项目参考、项目简介、材料摘要与两条日期；现为 28 个项目及 15 组材料，其余 41 位可见导师、59 条机会、26 篇经验保持。该记录不创建导师关联，不含 `cycle2028FallVerified`，不把 2027/28 改写为 2028 Fall。
+
+## 当前证据与展示边界
+
+- `browseAdvisors`/`browseRoutes`用于公开全集，旧`filterAdvisors`/`filterRoutes`仅保留早期本科便利筛选的历史回归语义，不决定当前公开可见性
+- `hasVerifiedAssociation`只接受精确routeId、verified状态、非pending验证及个人关联来源；`buildOpportunities`不把项目资格或reference转换成导师个人招生
+- 58导师与42项目可浏览；研究资料、前置学历和招生方式分别展示，未知不删除。原41项目与15位朋友新增导师保持身份和来源历史
+- `sourceCycle`、`admissionMode`、`currentCycleVerificationStatus`与个人`individualRecruitmentVerified`相互独立；周期标签须读原HTML标题，不能只依赖可能漏标题的正文抽取
+- 四份补充资料独立加载；全依赖链content hash经freeze后写入，实际验证结果不硬编码进manifest
+- 历史tests采用固定commit及原始字节哈希，新增与纠错逐次精确逆变换；未知变化、排序和新增字段必须触发失败

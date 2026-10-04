@@ -34,15 +34,52 @@ export function normalizeSource(source){return typeof source === 'string' ? {lab
 export function sourcesOf(sources=[]){return (Array.isArray(sources)?sources:[sources]).filter(Boolean).map(s=>{try{return normalizeSource(s)}catch{return {label:'来源',url:null}}}).filter(s=>safeUrl(s.url));}
 export function institutionLabel(value){return institutionNames[value]||value||'学校待核';}
 export function degreeLabel(route){return /PhD|博士/i.test(route.degree)?'PhD':/MPhil|哲学硕士/i.test(route.degree)?'MPhil':/MSc/i.test(route.degree)?'MSc':/MRes/i.test(route.degree)?'MRes':route.degree;}
+export function degreeDisplay(route){return route.nativeDegreeLabel||(route.degree==='MSc'?'硕士项目（MSc类）':route.degree);}
 export function isVerifiedRoute(route){return route.status==='verified'&&route.bachelorEligible===true&&route.noTuimianRequired===true&&route.noMasterRequired===true;}
 export function routesFor(advisor,catalog){return (advisor.routeIds||[]).map(id=>catalog.routes.find(r=>r.id===id)).filter(Boolean);}
 export function hasVerifiedPath(advisor,catalog){return advisor.eligibility==='verified'&&advisor.defaultVisible!==false&&routesFor(advisor,catalog).some(isVerifiedRoute);}
 export function themesFor(advisor){const str=[...(advisor.topics||[]),advisor.summary||''].join(' ');return topicRules.filter(([,r])=>r.test(str)).map(([label])=>label);}
 export function searchText(advisor,catalog){return [advisor.name,advisor.nameZh,advisor.institution,institutionLabel(advisor.institution),advisor.department,advisor.summary,...(advisor.topics||[]),...themesFor(advisor),...(advisor.works||[]).map(w=>w.title),...routesFor(advisor,catalog).map(r=>r.program)].join(' ').toLowerCase();}
+// Public discovery is independent of the original bachelor-entry convenience filter.
+// A reference or pending record is readable evidence, not a verified application or vacancy.
+export function isBrowsableRoute(route){return !!route?.id&&['MSc','MPhil','PhD','MRes'].includes(route.degree)&&route.opportunityType!=='RA'&&route.kind!=='employment'&&!route.jobId&&!(route.jobIds||[]).length;}
+export function isVerifiedAdmissionRoute(route){return isBrowsableRoute(route)&&route.status==='verified'&&route.currentCycleVerificationStatus!=='pending';}
+export function hasVerifiedAssociation(advisor,route){
+ if(!isVerifiedAdmissionRoute(route)||(advisor.routeIds||[]).includes(route.id)===false)return false;
+ return (advisor.routeAssociations||[]).some(a=>a.routeId===route.id&&a.status==='verified'&&(!a.verificationStatus||a.verificationStatus==='verified')&&a.scope!=='program_reference_only'&&sourcesOf(a.sources).length>0);
+}
+export function browseAdvisors(catalog,filters={}){
+ const q=(filters.query||'').trim().toLowerCase(),degree=filters.opportunityType||filters.degree;
+ return (catalog.advisors||[]).filter(a=>{
+  if(filters.institution&&a.institution!==filters.institution||!rankMatches(a,filters)||filters.topic&&!themesFor(a).includes(filters.topic))return false;
+  if(degree==='RA')return filterOpportunities(catalog,filters).some(o=>o.advisorId===a.id&&o.type==='RA');
+  if(degree&&degree!=='RA'&&!routesFor(a,catalog).some(r=>isBrowsableRoute(r)&&degreeLabel(r)===degree))return false;
+  if(!openingMatches(a,{...filters,degree}))return false;
+  const searchable=[searchText(a,catalog),...(catalog.raPositions||[]).filter(j=>j.advisorId===a.id).map(j=>j.title)].join(' ').toLowerCase();
+  return !q||q.split(/\s+/).every(t=>searchable.includes(t));
+ }).sort((a,b)=>a.institution.localeCompare(b.institution,'en')||a.name.localeCompare(b.name,'en'));
+}
+export function browseRoutes(catalog,filters={}){
+ const q=(filters.query||'').trim().toLowerCase(),degree=filters.opportunityType||filters.degree;
+ return (catalog.routes||[]).filter(r=>{
+  if(!isBrowsableRoute(r)||filters.institution&&r.institution!==filters.institution||degree&&degreeLabel(r)!==degree)return false;
+  const related=browseAdvisors(catalog,{...filters,query:'',opportunityType:'',degree:''}).filter(a=>(a.routeIds||[]).includes(r.id));
+  if((filters.rank||filters.topic||filters.opening)&&!related.length)return false;
+  return !q||[r.institution,institutionLabel(r.institution),r.program,r.department,r.degree,r.eligibilitySummary,r.admissionMethod,r.admissionMode,r.sourceCycle].join(' ').toLowerCase().includes(q)||related.some(a=>searchText(a,catalog).includes(q));
+ });
+}
+export function routeEvidenceText(route){
+ const status={verified:'项目依据已核实',reference:'历史或项目参考',unknown:'项目证据待核',pending:'项目证据待核',excluded:'受限或不适用记录：请读原始原因'}[route.status]||'项目证据待核';
+ const mode={national_exam:'统考',application:'申请制',application_assessment:'申请考核制',recommendation_exemption:'推荐免试',other:'其他通道',unknown:'招生方式待核'}[route.admissionMode];
+ const values=[status,mode,route.sourceCycle?`来源周期：${route.sourceCycle}`:'',route.currentCycleVerificationStatus==='pending'?'当期招生仍待核':''];
+ if(route.noTuimianRequired===false)values.push('推免要求或具体路径条件见正文');
+ if(route.noMasterRequired===false)values.push('硕士前置或其他学历条件见正文');
+ return values.filter(Boolean).join(' · ');
+}
 export function openingMatches(advisor,filters={}){
  if(!filters.opening)return true;
  if(filters.degree){const row=(advisor.openingDetails||[]).find(o=>o.degree===filters.degree);return row?row.status===filters.opening:filters.opening==='unknown';}
- return advisor.opening===filters.opening;
+ return (advisor.opening||'unknown')===filters.opening;
 }
 export function filterAdvisors(catalog,filters={}){
  const q=(filters.query||'').trim().toLowerCase();
@@ -75,7 +112,7 @@ export function deadlineStatus(deadline,checkedDate='2026-10-01'){
  return deadline.status==='open'?'open':'unknown';
 }
 export function filterDeadlines(catalog,filters={}){
- const routeIds=new Set(filterRoutes(catalog,filters).map(r=>r.id));
+ const routeIds=new Set(browseRoutes(catalog,filters).map(r=>r.id));
  const academic=(catalog.deadlines||[]).filter(d=>{
   if(filters.institution&&d.institution!==filters.institution)return false;
   if(!(d.routeIds||[]).some(id=>routeIds.has(id)))return false;
@@ -93,25 +130,32 @@ export function isVerifiedRaPosition(job){
  const e=job.employmentEligibility||{};const current=job.currentRecruitment||{};
  return job.defaultVisible!==false&&(!current.deadline||!job.checkedDate||current.deadline.slice(0,10)>=job.checkedDate)&&job.opportunityType==='RA'&&job.status==='verified'&&e.bachelorEligible===true&&e.noMasterRequired===true&&e.explicitJobRequirement===true&&sourcesOf(e.sources).length>0&&current.status==='open'&&sourcesOf(current.sources).length>0;
 }
+// Concurrent 5c27c78 exposes doctoral project references when explicitly requested.
+// They are a separate kind, never a verified degree association or a vacancy.
+export function buildReferencePhdPaths(catalog){
+ const rows=[];
+ for(const a of catalog.advisors||[])for(const r of routesFor(a,catalog)){
+  if(r.status!=='reference'||r.degree!=='PhD'||!sourcesOf(r.sources).length)continue;
+  rows.push({id:`${a.id}::${r.id}`,advisorId:a.id,routeId:r.id,type:'PhD',kind:'reference',reference:true,openingStatus:'unknown'});
+ }
+ return rows;
+}
 export function buildOpportunities(catalog,options={}){
- const includeReferencePhd=options.includeReferencePhd===true;
  const opportunities=[];
  for(const a of catalog.advisors){
-  if(!hasVerifiedPath(a,catalog))continue;
-  for(const r of routesFor(a,catalog).filter(r=>isVerifiedRoute(r)||(includeReferencePhd&&degreeLabel(r)==='PhD'&&r.status==='reference'))){
-   const type=degreeLabel(r);if(!['MSc','MPhil','PhD'].includes(type))continue;
-   opportunities.push({id:`${a.id}::${r.id}`,advisorId:a.id,routeId:r.id,type,kind:'degree',...(r.status==='reference'?{reference:true}:{}),openingStatus:(a.openingDetails||[]).find(o=>o.degree===type)?.status||'unknown'});
+  for(const r of routesFor(a,catalog).filter(r=>hasVerifiedAssociation(a,r))){
+   const type=degreeLabel(r);if(!['MSc','MPhil','PhD','MRes'].includes(type))continue;
+   opportunities.push({id:`${a.id}::${r.id}`,advisorId:a.id,routeId:r.id,type,kind:'degree',openingStatus:(a.openingDetails||[]).find(o=>o.degree===type)?.status||'unknown'});
   }
  }
  for(const job of catalog.raPositions||[]){
   if(isVerifiedRaPosition(job)&&catalog.advisors.some(a=>a.id===job.advisorId))opportunities.push({id:`${job.advisorId}::RA::${job.id}`,advisorId:job.advisorId,jobId:job.id,type:'RA',kind:'employment',openingStatus:'explicit'});
  }
- return opportunities;
+ return options.includeReferencePhd===true?[...opportunities,...buildReferencePhdPaths(catalog)]:opportunities;
 }
 export function filterOpportunities(catalog,filters={}){
  const q=(filters.query||'').trim().toLowerCase();
- const includeReferencePhd=(filters.opportunityType||filters.degree)==='PhD';
- return buildOpportunities(catalog,{includeReferencePhd}).filter(o=>{
+ return buildOpportunities(catalog,{includeReferencePhd:(filters.opportunityType||filters.degree)==='PhD'}).filter(o=>{
   const a=catalog.advisors.find(a=>a.id===o.advisorId);const type=filters.opportunityType||filters.degree;
   if(type&&o.type!==type)return false;
   if(filters.institution&&a.institution!==filters.institution)return false;

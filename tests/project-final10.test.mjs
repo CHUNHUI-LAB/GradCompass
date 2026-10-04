@@ -1,7 +1,8 @@
+// Historical 5e7cd36 data assertions; current application coverage is tested separately.
 import {maintenanceBaseline} from './maintenance-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './historical-source-fs.mjs';
 import crypto from 'node:crypto';
 import {normalizeProjectSummaries,renderRecordSummary,filterProjectRoutes} from '../assets/record-summaries.js';
 import {isVerifiedRoute} from '../assets/core.js';

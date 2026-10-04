@@ -1,6 +1,7 @@
+// Historical 5e7cd36 data assertions; current application coverage is tested separately.
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './historical-source-fs.mjs';
 import {normalizeExperiences,filterExperiences,renderExperiences,renderExperienceEvidence,renderExperienceReading,experienceHref} from '../assets/experiences.js';
 import {buildPageOverview,renderPageOverview} from '../assets/page-overviews.js';
 import {escapeHTML,filterRoutes,filterAdvisors} from '../assets/core.js';

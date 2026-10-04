@@ -313,3 +313,32 @@ During the final pre-publication ref check, main advanced again to `91af79d313c3
 ### Post-publication bounded copy correction
 
 Commit `1281ce4740272443563b4a98f421561bacc801f9` reached main with Pages run 37187213765 successful. A fresh live reload confirmed 28 projects, but exposed an older overview title hard-coded to “two MSc” and a loading fallback naming only the original pair. The follow-up changes exactly those two text fragments to a neutral MSc heading and count-only fallback; no rendering, interaction, CSS or structural logic changes. Two regression tests cover the now-three-programme title and loading/unavailable fallback. The original runtime hash remains protected by an exact inverse of those two literals. All concurrent advisor and SUSTech evidence stays untouched.
+
+## 2026-10-04 来源纠错、全集浏览与并发博士参考候选
+
+基线为 `5c27c78fbcb742e7f44e70145d2e91b7e98fde1f`；同日先后读取1ddbbfb及5c27c78，所有变更blob均逐项Git SHA-1匹配。此候选未推送、未部署。
+
+- 原样基线：362项，300通过、62失败。失败包括旧批次数量/原字节断言直接读取了后来新增数据；没有删除旧用例或放宽旧哈希以刷绿
+- 本候选第一次完整通过：457项，457通过、0失败、0跳过。包括67项可选加载、11项当前证据/范围、当前PhD参考筛选与阅读、严格历史分阶段逆变换及变异控制
+- 历史恢复链为 current → 5c27c78 → 1ddbbfb → 74ca2c8 → b11a381 → 5e7cd36；冻结原字节与哈希保持独立。新增对象改值、未知字段、删字段、排序与局部阶段回退须使保护失败；不通过裁减当前数据恢复旧数
+- 实际当前范围：58导师均可浏览、56简介、42项目均可读、57条已核实学位关联、2个独立RA；另有15条博士项目参考，在PhD筛选中显示但不算已核实关联
+- 4处清华来源年份/渠道已按官方HTML标题纠正；15位朋友新增导师及所有原routeIds与真实研究内容保留，个人关联待核不是资格否定。IIIS2027 085400推免单独建项，无自动导师关联
+- 材料/经验/导师简介/项目简介fetch或JSON永久pending不再阻塞基础目录；晚到材料会刷新仍打开的项目详情和比较，关闭或切换后的弹层不会重开
+- 全模块依赖缓存版本、动态计数和严格allowlist由freeze生成；测试计数不硬编码进release manifest
+- 未进行浏览器视觉、触摸或真实辅助技术验收；Node DOM-contract通过不能替代该验收。未进行远端写入、发布或部署核验
+
+六模块没有因此被宣称完整：项目简介仍28份、材料15组、经验26篇；新985与海外项目、未完成当期材料与招生来源另批核验。
+
+## 3f294并发增量最终候选（2026-10-04）
+
+上节457项结果属于已冻结的5c27候选，未据此覆盖后续朋友修改。本次最新候选基线为 `3f294a8cc601e77183deb594de0836ec76cc8a9c`，其15个变更blob均Git SHA-1核对一致；原样基线363项、301通过、62失败。
+
+- 新候选完整测试462项全部通过，0失败、0跳过、0取消；历史链显式加入3f294→5c27，旧三份fixture字节和旧457结果保持
+- 第五处错标：a5f6博士完整目录的官方HTML h1为2026，不是2027；吴丹、赵慧婵、李曙光仅标2026历史目录列名已核。个人2027/2028接收、余位和资助仍待核
+- 保留朋友的博士参考卡、筛选、详情ID和比较功能；比较明确项目参考/个人关联与余位待核，未混入57条已核实学位关联或2个RA统计
+- 15个冗余派生sourceRecord字段按朋友的删除意图处理，原值与三方变更证据存入更正历史，顶层routeIds未删除
+- IIIS旧081200为学术学位硕士、独立085400为专业学位硕士。前端显示原生学位标签，MSc仅保留兼容筛选值，不能把085400称为理学硕士
+- 导师58、简介56、全项目42、已核实学位关联57、RA2、博士参考15、项目简介28、材料15、经验26，均未伪造当前名额
+- UI样式/布局和筛选控件结构未改；这仍是本地Node/DOM-contract候选，未进行浏览器视觉验收、远端写入或部署
+
+发布前仍须重新读取main，按具体路径三方合并并重验；这个冻结候选不授权覆盖未来并发改动。

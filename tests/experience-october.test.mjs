@@ -1,4 +1,5 @@
-import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import crypto from 'node:crypto';
+// Historical 5e7cd36 data assertions; current application coverage is tested separately.
+import test from 'node:test';import assert from 'node:assert/strict';import fs from './historical-source-fs.mjs';import crypto from 'node:crypto';
 import {normalizeExperiences,renderExperienceEvidence,renderExperienceReading,filterExperiences} from '../assets/experiences.js';
 import {buildPageOverview} from '../assets/page-overviews.js';
 import {advisorAdditionsBaselineBytes} from './advisor-additions-baseline.mjs';

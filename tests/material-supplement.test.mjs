@@ -1,4 +1,5 @@
-import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
+// Historical 5e7cd36 data assertions; current application coverage is tested separately.
+import test from 'node:test';import assert from 'node:assert/strict';import fs from './historical-source-fs.mjs';
 import {normalizeMaterialSupplement} from '../assets/material-supplement.js';
 import {renderRecordSummary} from '../assets/record-summaries.js';
 import {isVerifiedRoute,buildOpportunities} from '../assets/core.js';
