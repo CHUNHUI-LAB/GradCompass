@@ -41,6 +41,7 @@ files.extend(['tests/fixtures/history/reviewed-source-deltas.json', 'tests/histo
 files.extend(['tests/current-correction-baseline.mjs', 'tests/current-correction-baseline.test.mjs', 'tests/concurrent-reference-baseline.mjs', 'tests/concurrent-reference-baseline.test.mjs', 'tests/fixtures/history/reviewed-current-corrections.json', 'tests/fixtures/history/reviewed-concurrent-reference.json'])
 files.extend(['tests/strict-history-transform.mjs', 'tests/latest-3f294-baseline.mjs', 'tests/latest-3f294-baseline.test.mjs', 'tests/fixtures/history/reviewed-concurrent-3f294.json', 'tests/fixtures/history/reviewed-current-3f294-corrections.json'])
 files.extend(['tests/detail-ui-baseline.mjs', 'tests/detail-ui-baseline.test.mjs', 'tests/fixtures/history/reviewed-detail-ui-polish.json', 'tests/detail-reader-polish.test.mjs'])
+files.extend(['tests/overseas-baseline.mjs','tests/overseas-additions.test.mjs','tests/fixtures/history/reviewed-overseas-20261004.json'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):
@@ -60,10 +61,11 @@ manifest['experienceBatch20261004']={'baseCommit':'c61dc2c38c7f0c73a5720985a00dd
 manifest['maintenance20261004']={'baseCommit':'91af79d313c3d0bd7f3bfd5a4e306a3af596ccaf','scope':'One HKU taught MSc route, summary, bounded materials and two deadlines; existing advisor, RA and experience data retained','currentOpeningVerified':False,'previousProjectCount':27,'addedProjects':1,'previousMaterialCount':14,'addedMaterialGroups':1,'validation':'Use dated QA and actual run output; this snapshot does not establish publication'}
 manifest['overviewCopyCorrection']={'baseCommit':'1281ce4740272443563b4a98f421561bacc801f9','scope':'Two inaccurate MSc overview text fragments only; no structure, style or interaction changes'}
 manifest.update(json.loads(subprocess.check_output(['node','scripts/public-counts.mjs'],cwd=root,text=True)))
-manifest['candidateBaseCommit']='3f294a8cc601e77183deb594de0836ec76cc8a9c'
-manifest['revision']='source-evidence-discovery-candidate-20261004'
+manifest['candidateBaseCommit']='7a8b2d63da2eab07b315a099bcd51c561a0c8c6f'
+manifest['revision']='overseas-project-reference-candidate-20261004'
 manifest['evidenceScope']='All recorded advisors and academic references remain readable; verified degree associations require exact sourced advisor-route joins. Project evidence is not individual recruitment or remaining capacity.'
 manifest['detailUiPolish']={'date':'2026-10-04','baseCommit':'dd654eaaf9e7f6143b1c99a54c3e3e97fc86f142','scope':'Deduplicate identical advisor association text and keep reader headings visible without changing eligibility, data or layout','dataChanged':False,'layoutChanged':False,'validationScope':'Local focus/scroll and historical regression contracts; deployment and live-browser verification are separate'}
+manifest['overseasProjects20261004']={'baseCommit':'7a8b2d63da2eab07b315a099bcd51c561a0c8c6f','baseTree':'d925daddc43a5ca8ef20897520f872630c1ace1b','identicalContentCommit':'67d98a99f41bbd8be1e85a90cb57db76c14b63c4','projectsAdded':2,'materialsAdded':2,'deadlinesAdded':6,'scope':'JHU and BU 2027 programme-level references only; no advisor or RA associations','validation':'Local candidate; tests, source review and publication are separate'}
 for name in sorted(set(files)):
     p=root/name
     if not p.is_file():raise SystemExit('Missing allowlisted file: '+name)
