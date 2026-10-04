@@ -16183,6 +16183,118 @@
       "requirements": [],
       "sourceFile": "other-hk.json",
       "checkedDate": "2026-10-01"
+    },
+    {
+      "id": "hku-ris-msc",
+      "institution": "HKU",
+      "department": "Faculty of Engineering",
+      "program": "MSc(Eng) in Robotics and Intelligent Systems",
+      "degree": "MSc",
+      "degreeVariant": "MSc(Eng)",
+      "bachelorEligible": true,
+      "noTuimianRequired": true,
+      "noMasterRequired": true,
+      "status": "verified",
+      "eligibilitySummary": "工程或相关领域本科学位，并对机器人有浓厚兴趣；另须满足港大通用及项目要求。该常规授课型申请入口未列推免或硕士学位为前置；不代表所有专业本科均满足条件。",
+      "supervisorAssociation": "授课型项目；未将任何已收录导师绑定本项目，不保证进组、论文指导或后续博士录取",
+      "admissionYear": "2027/28",
+      "cycle2027Verified": true,
+      "applicationStatus": "unknown",
+      "applicationMethod": "Ordinary taught postgraduate online application",
+      "duration": "全日制1年；兼读制2年",
+      "sources": [
+        {
+          "id": "hku_ris_20261004_programme",
+          "label": "HKU MSc(Eng) Robotics and Intelligent Systems 官方项目页",
+          "url": "https://mscadmissions.engg.hku.hk/master-of-science-in-engineering-in-robotics-intelligent-systems/",
+          "checkedDate": "2026-10-04",
+          "section": "Overview、Quick Facts、2027/28 deadline及开放预期；不采用IELM认证、MDASC感言和模板联系信息",
+          "evidenceScope": "official substantive page text",
+          "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+          "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
+        },
+        {
+          "id": "hku_ris_20261004_application",
+          "label": "HKU 工学院授课型申请时间表",
+          "url": "https://mscadmissions.engg.hku.hk/application/",
+          "checkedDate": "2026-10-04",
+          "section": "2027/28 Main与Clearing日期，与项目页相互印证",
+          "evidenceScope": "official substantive page text",
+          "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+          "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
+        },
+        {
+          "id": "hku_ris_20261004_requirements",
+          "label": "HKU 授课型研究生入学及英语要求",
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedDate": "2026-10-04",
+          "section": "大学本科入口、英语门槛和2026入学起成绩有效期；项目背景条件仍须另满足",
+          "evidenceScope": "official substantive page text",
+          "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+          "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
+        },
+        {
+          "id": "hku_ris_20261004_procedures",
+          "label": "HKU 授课型研究生申请步骤及通用材料",
+          "url": "https://portal.hku.hk/tpg-admissions/applying/application-procedures",
+          "checkedDate": "2026-10-04",
+          "section": "步骤4通用材料及脚注；RIS 2027/28专属材料未确认；旧周期页面所链未标周期R394清单不移用于本轮，也不移用RPg清单",
+          "evidenceScope": "official substantive page text",
+          "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+          "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
+        }
+      ],
+      "notes": [
+        "2027/28主轮2027-01-04 12:00、清轮2027-04-09 12:00，均香港时间（UTC+8）。官方仍写预计10月上旬开放且可能延迟；本次未确认提交入口开放，不由未来截止或Apply now文字推定已可提交。",
+        "本科相关背景须由学校审核；资格核实不等于个人录取、资助或导师名额保证"
+      ],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "工程或相关领域本科学位，并对机器人有浓厚兴趣；另须满足港大通用及项目要求。该常规授课型申请入口未列推免或硕士学位为前置；不代表所有专业本科均满足条件。",
+          "sources": [
+            {
+              "id": "hku_ris_20261004_programme",
+              "label": "HKU MSc(Eng) Robotics and Intelligent Systems 官方项目页",
+              "url": "https://mscadmissions.engg.hku.hk/master-of-science-in-engineering-in-robotics-intelligent-systems/",
+              "checkedDate": "2026-10-04",
+              "section": "Overview、Quick Facts、2027/28 deadline及开放预期；不采用IELM认证、MDASC感言和模板联系信息",
+              "evidenceScope": "official substantive page text",
+              "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+              "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
+            },
+            {
+              "id": "hku_ris_20261004_requirements",
+              "label": "HKU 授课型研究生入学及英语要求",
+              "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "checkedDate": "2026-10-04",
+              "section": "大学本科入口、英语门槛和2026入学起成绩有效期；项目背景条件仍须另满足",
+              "evidenceScope": "official substantive page text",
+              "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+              "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
+            }
+          ]
+        },
+        {
+          "kind": "language",
+          "text": "授课型通用英语：IELTS总分6.0、各项不低于5.5；TOEFL在2026-01-21前为80分，此日起为4.5分。香港以外非全英语教学/考试学历申请人须满足语言要求；项目额外要求仍须核对。",
+          "sources": [
+            {
+              "id": "hku_ris_20261004_requirements",
+              "label": "HKU 授课型研究生入学及英语要求",
+              "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "checkedDate": "2026-10-04",
+              "section": "大学本科入口、英语门槛和2026入学起成绩有效期；项目背景条件仍须另满足",
+              "evidenceScope": "official substantive page text",
+              "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+              "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
+            }
+          ]
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "checkedAtUtc": "2026-10-04T06:32:22Z",
+      "defaultVisible": true
     }
   ],
   "deadlines": [
@@ -16889,6 +17001,84 @@
         }
       ],
       "checkedDate": "2026-10-02"
+    },
+    {
+      "id": "hku-ris-msc-2027-main",
+      "title": "HKU Robotics and Intelligent Systems MSc(Eng) 主轮",
+      "institution": "HKU",
+      "routeIds": [
+        "hku-ris-msc"
+      ],
+      "date": "2027-01-04",
+      "deadlineTime": "12:00",
+      "timezone": "Asia/Hong_Kong",
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027/28",
+      "note": "2027/28主轮2027-01-04 12:00、清轮2027-04-09 12:00，均香港时间（UTC+8）。官方仍写预计10月上旬开放且可能延迟；本次未确认提交入口开放，不由未来截止或Apply now文字推定已可提交。",
+      "sources": [
+        {
+          "id": "hku_ris_20261004_programme",
+          "label": "HKU MSc(Eng) Robotics and Intelligent Systems 官方项目页",
+          "url": "https://mscadmissions.engg.hku.hk/master-of-science-in-engineering-in-robotics-intelligent-systems/",
+          "checkedDate": "2026-10-04",
+          "section": "Overview、Quick Facts、2027/28 deadline及开放预期；不采用IELM认证、MDASC感言和模板联系信息",
+          "evidenceScope": "official substantive page text",
+          "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+          "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
+        },
+        {
+          "id": "hku_ris_20261004_application",
+          "label": "HKU 工学院授课型申请时间表",
+          "url": "https://mscadmissions.engg.hku.hk/application/",
+          "checkedDate": "2026-10-04",
+          "section": "2027/28 Main与Clearing日期，与项目页相互印证",
+          "evidenceScope": "official substantive page text",
+          "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+          "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "checkedAtUtc": "2026-10-04T06:32:22Z"
+    },
+    {
+      "id": "hku-ris-msc-2027-clearing",
+      "title": "HKU Robotics and Intelligent Systems MSc(Eng) 清轮",
+      "institution": "HKU",
+      "routeIds": [
+        "hku-ris-msc"
+      ],
+      "date": "2027-04-09",
+      "deadlineTime": "12:00",
+      "timezone": "Asia/Hong_Kong",
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027/28",
+      "note": "2027/28主轮2027-01-04 12:00、清轮2027-04-09 12:00，均香港时间（UTC+8）。官方仍写预计10月上旬开放且可能延迟；本次未确认提交入口开放，不由未来截止或Apply now文字推定已可提交。",
+      "sources": [
+        {
+          "id": "hku_ris_20261004_programme",
+          "label": "HKU MSc(Eng) Robotics and Intelligent Systems 官方项目页",
+          "url": "https://mscadmissions.engg.hku.hk/master-of-science-in-engineering-in-robotics-intelligent-systems/",
+          "checkedDate": "2026-10-04",
+          "section": "Overview、Quick Facts、2027/28 deadline及开放预期；不采用IELM认证、MDASC感言和模板联系信息",
+          "evidenceScope": "official substantive page text",
+          "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+          "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
+        },
+        {
+          "id": "hku_ris_20261004_application",
+          "label": "HKU 工学院授课型申请时间表",
+          "url": "https://mscadmissions.engg.hku.hk/application/",
+          "checkedDate": "2026-10-04",
+          "section": "2027/28 Main与Clearing日期，与项目页相互印证",
+          "evidenceScope": "official substantive page text",
+          "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+          "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
+        }
+      ],
+      "checkedDate": "2026-10-04",
+      "checkedAtUtc": "2026-10-04T06:32:22Z"
     }
   ],
   "materials": [
@@ -18769,6 +18959,46 @@
       "label": "公开一手来源",
       "url": "https://sai.cuhk.edu.cn/teacher-search",
       "checkedDate": "2026-10-01"
+    },
+    {
+      "id": "hku_ris_20261004_programme",
+      "label": "HKU MSc(Eng) Robotics and Intelligent Systems 官方项目页",
+      "url": "https://mscadmissions.engg.hku.hk/master-of-science-in-engineering-in-robotics-intelligent-systems/",
+      "checkedDate": "2026-10-04",
+      "section": "Overview、Quick Facts、2027/28 deadline及开放预期；不采用IELM认证、MDASC感言和模板联系信息",
+      "evidenceScope": "official substantive page text",
+      "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+      "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
+    },
+    {
+      "id": "hku_ris_20261004_application",
+      "label": "HKU 工学院授课型申请时间表",
+      "url": "https://mscadmissions.engg.hku.hk/application/",
+      "checkedDate": "2026-10-04",
+      "section": "2027/28 Main与Clearing日期，与项目页相互印证",
+      "evidenceScope": "official substantive page text",
+      "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+      "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
+    },
+    {
+      "id": "hku_ris_20261004_requirements",
+      "label": "HKU 授课型研究生入学及英语要求",
+      "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+      "checkedDate": "2026-10-04",
+      "section": "大学本科入口、英语门槛和2026入学起成绩有效期；项目背景条件仍须另满足",
+      "evidenceScope": "official substantive page text",
+      "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+      "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
+    },
+    {
+      "id": "hku_ris_20261004_procedures",
+      "label": "HKU 授课型研究生申请步骤及通用材料",
+      "url": "https://portal.hku.hk/tpg-admissions/applying/application-procedures",
+      "checkedDate": "2026-10-04",
+      "section": "步骤4通用材料及脚注；RIS 2027/28专属材料未确认；旧周期页面所链未标周期R394清单不移用于本轮，也不移用RPg清单",
+      "evidenceScope": "official substantive page text",
+      "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+      "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
     }
   ],
   "watchRules": [

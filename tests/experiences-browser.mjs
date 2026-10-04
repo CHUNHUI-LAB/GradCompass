@@ -7,11 +7,11 @@ try{
  const page=await browser.newPage({viewport:{width:1440,height:1000}});page.on('pageerror',e=>errors.push(String(e)));await page.goto(base);await page.waitForSelector('.advisor-card');
  await page.selectOption('#institution-filter','PolyU');await page.selectOption('#rank-filter','associate');await page.selectOption('#opportunity-filter','RA');await page.selectOption('#opening-filter','explicit');
  check('advisor choices select two RA opportunities',(await page.locator('#result-count').innerText())==='2 条机会 · 1 位导师');
- await page.click('nav [data-view="materials"]');check('material view starts independently with fourteen groups',(await page.locator('#result-count').innerText())==='14 组材料要求');
+ await page.click('nav [data-view="materials"]');check('material view starts independently with fourteen groups',(await page.locator('#result-count').innerText())==='15 组材料要求');
  for(const id of ['rank','topic','opening'])check('irrelevant material control hidden '+id,!(await page.locator('#'+id+'-filter-label').isVisible()));
  check('material degree label is relevant',(await page.locator('#opportunity-filter-name').innerText())==='适用学位');check('material RA option absent',await page.locator('#opportunity-filter option[value="RA"]').count()===0);
  await page.selectOption('#institution-filter','HKU');check('material school works',(await page.locator('#result-count').innerText())==='1 组材料要求');
- await page.click('nav [data-view="routes"]');check('project view ignores advisor and material filters',(await page.locator('#result-count').innerText())==='27 个学位项目');
+ await page.click('nav [data-view="routes"]');check('project view ignores advisor and material filters',(await page.locator('#result-count').innerText())==='28 个学位项目');
  for(const id of ['rank','topic','opening'])check('irrelevant project control hidden '+id,!(await page.locator('#'+id+'-filter-label').isVisible()));
  await page.click('nav [data-view="deadlines"]');check('calendar school visible',await page.locator('#institution-filter-label').isVisible());
  for(const id of ['rank','topic','opening','opportunity'])check('irrelevant calendar control hidden '+id,!(await page.locator('#'+id+'-filter-label').isVisible()));check('calendar search hidden',!(await page.locator('.search-surface').isVisible()));

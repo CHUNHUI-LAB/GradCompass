@@ -27,7 +27,7 @@ test('every visible advisor has exactly one rich profile while the two excluded 
  const profiles=profileMap(supplement,academic.advisors);
  assert.deepEqual([...profiles.keys()].sort(),[...visible].sort());
  assert.equal(rows.length,59);assert.equal(visible.size,41);assert.equal(rows.filter(o=>o.type==='RA').length,2);
- assert.equal(academic.advisors.length,43);assert.equal(academic.routes.filter(isVerifiedRoute).length,27);
+ assert.equal(academic.advisors.length,43);assert.equal(academic.routes.filter(isVerifiedRoute).length,28);
  for(const id of ['cuhk_zhongyu_li','xjtlu-yaran-chen']){assert(!visible.has(id));assert(!profiles.has(id));}
 });
 test('profile completion leaves catalog identity, ranks, original source records and admissions authority byte-identical',()=>{

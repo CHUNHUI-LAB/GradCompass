@@ -16,7 +16,7 @@ test('recruitment update preserves the entire old catalog outside two explicit c
  assert.equal(hash(read('data/ra-positions.json')),'b5354ece6ee48d205665af699e008e74d51c41ca23000c7fc653eccfc906816e');
 });
 test('new records produce exactly two PhD-only rows and complete rich coverage with no new RA or masters rows',()=>{
- const rows=buildOpportunities(data);assert.equal(rows.length,59);assert.equal(new Set(rows.map(o=>o.advisorId)).size,41);assert.equal(rows.filter(o=>o.type==='RA').length,2);assert.equal(catalog.routes.filter(isVerifiedRoute).length,27);
+ const rows=buildOpportunities(data);assert.equal(rows.length,59);assert.equal(new Set(rows.map(o=>o.advisorId)).size,41);assert.equal(rows.filter(o=>o.type==='RA').length,2);assert.equal(catalog.routes.filter(isVerifiedRoute).length,28);
  assert.deepEqual(rows.filter(o=>ids.includes(o.advisorId)).map(o=>[o.advisorId,o.type]).sort(),ids.map(id=>[id,'PhD']).sort());
  assert.deepEqual([...profileMap(profiles,catalog.advisors).keys()].sort(),[...new Set(rows.map(o=>o.advisorId))].sort());
  for(const id of ids){const a=advisor(id);assert.equal(a.routeIds.length,1);assert.equal(a.routeAssociations[0].degree,'PhD');assert.equal(a.routeAssociations[0].status,'verified');const r=catalog.routes.find(r=>r.id===a.routeIds[0]);assert(isVerifiedRoute(r));assert.equal(rankOf(a),'assistant');for(const d of ['MPhil','MSc','RA'])assert(!filterOpportunities(data,{query:a.name,opportunityType:d}).some(o=>o.advisorId===id));}

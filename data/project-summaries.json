@@ -521,6 +521,46 @@
       "id": "city_steps_20261003",
       "section": "Important Date 与普通研究学位主轮；仅本字段的最新核读",
       "sourceVersion": "2026-10-03 实时主域正文显示 2027/28；历史2026-10-02检索冲突仍保留在旧来源记录"
+    },
+    {
+      "id": "hku_ris_20261004_programme",
+      "label": "HKU MSc(Eng) Robotics and Intelligent Systems 官方项目页",
+      "url": "https://mscadmissions.engg.hku.hk/master-of-science-in-engineering-in-robotics-intelligent-systems/",
+      "checkedDate": "2026-10-04",
+      "section": "Overview、Quick Facts、2027/28 deadline及开放预期；不采用IELM认证、MDASC感言和模板联系信息",
+      "evidenceScope": "official substantive page text",
+      "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+      "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
+    },
+    {
+      "id": "hku_ris_20261004_application",
+      "label": "HKU 工学院授课型申请时间表",
+      "url": "https://mscadmissions.engg.hku.hk/application/",
+      "checkedDate": "2026-10-04",
+      "section": "2027/28 Main与Clearing日期，与项目页相互印证",
+      "evidenceScope": "official substantive page text",
+      "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+      "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
+    },
+    {
+      "id": "hku_ris_20261004_requirements",
+      "label": "HKU 授课型研究生入学及英语要求",
+      "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+      "checkedDate": "2026-10-04",
+      "section": "大学本科入口、英语门槛和2026入学起成绩有效期；项目背景条件仍须另满足",
+      "evidenceScope": "official substantive page text",
+      "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+      "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
+    },
+    {
+      "id": "hku_ris_20261004_procedures",
+      "label": "HKU 授课型研究生申请步骤及通用材料",
+      "url": "https://portal.hku.hk/tpg-admissions/applying/application-procedures",
+      "checkedDate": "2026-10-04",
+      "section": "步骤4通用材料及脚注；RIS 2027/28专属材料未确认；旧周期页面所链未标周期R394清单不移用于本轮，也不移用RPg清单",
+      "evidenceScope": "official substantive page text",
+      "sourceVersion": "2026-10-04核读；项目/学院日期明确2027/28，通用要求为现行网页",
+      "readWindowUtc": "2026-10-04T06:28:00Z/2026-10-04T06:34:30Z"
     }
   ],
   "records": [
@@ -1756,6 +1796,60 @@
           "sourceIds": [
             "gz_intr_catalog_2026",
             "gz_rpg_timeline_2027"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "hku-ris-msc",
+      "institution": "HKU",
+      "degree": "MSc",
+      "checkedDate": "2026-10-04",
+      "overview": {
+        "text": "围绕机器人与智能系统，将机械工程、人工智能和系统设计结合，覆盖建模、感知、规划、控制及系统集成。选修主题包括人机交互、自动驾驶和医疗机器人。",
+        "sourceIds": [
+          "hku_ris_20261004_programme"
+        ]
+      },
+      "training": {
+        "text": "项目页列全日制1年、兼读制2年，共72学分，以8–10门课程配合论文或项目。官网描述实践训练和行业项目；不据此保证特定实验室、企业实习或个人资源分配。",
+        "sourceIds": [
+          "hku_ris_20261004_programme"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "工程或相关领域本科学位，并对机器人有浓厚兴趣；另须满足港大通用及项目要求。该常规授课型申请入口未列推免或硕士学位为前置；不代表所有专业本科均满足条件。",
+        "sourceIds": [
+          "hku_ris_20261004_programme",
+          "hku_ris_20261004_requirements"
+        ]
+      },
+      "cycle": {
+        "text": "2027/28主轮2027-01-04 12:00、清轮2027-04-09 12:00，均香港时间（UTC+8）。官方仍写预计10月上旬开放且可能延迟；本次未确认提交入口开放，不由未来截止或Apply now文字推定已可提交。",
+        "sourceIds": [
+          "hku_ris_20261004_programme",
+          "hku_ris_20261004_application"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "这是授课型MSc(Eng)，不能当作MPhil、博士或RA岗位；本次不新增导师关联，也不承诺奖学金或后续升学。",
+          "sourceIds": [
+            "hku_ris_20261004_programme"
+          ]
+        },
+        {
+          "text": "通用材料清单可供准备，RIS专属CV、PS、研究计划和推荐信要求尚未完整核实。课程页存在其他专业的模板残留，本摘要未采用这些内容。",
+          "sourceIds": [
+            "hku_ris_20261004_programme",
+            "hku_ris_20261004_procedures"
+          ]
+        },
+        {
+          "text": "语言成绩有效期：新版要求写自2026入学起按入学年9月1日前两年计算；流程页旧脚注仍写申请日前两年。保留该差异，按新版门槛准备并在提交前复核。",
+          "sourceIds": [
+            "hku_ris_20261004_requirements",
+            "hku_ris_20261004_procedures"
           ]
         }
       ]

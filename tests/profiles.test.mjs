@@ -6,7 +6,7 @@ test('profile evidence remains separate from admission and employment authority'
 test('all supplement URLs use HTTPS, with safe external markup and escaped text',()=>{function walk(v){if(!v||typeof v!=='object')return;for(const [k,val]of Object.entries(v)){if(k==='url'){assert.equal(new URL(val).protocol,'https:');assert(safeUrl(val));}else walk(val);}}walk(supplement);const malicious={advisorId:'<img>',overview:{textZh:'<script>alert(1)</script>'},labSnapshot:{resources:[]},representativeWorks:[{title:'<img src=x>',url:'javascript:alert(1)'}],unknowns:['<img>']};const html=renderProfile(malicious)+renderProfileReferences(malicious);assert(!html.includes('<script>'));assert(!html.includes('href="javascript:'));assert(html.includes('&lt;script&gt;'));for(const p of supplement.profiles){const h=renderProfile(p)+renderProfileReferences(p);for(const tag of h.match(/<a\b[^>]*>/g)||[]){assert(tag.includes('target="_blank"'));assert(tag.includes('rel="noopener noreferrer"'));}assert(!h.includes('undefined'));assert(!h.includes('[object Object]'));assert(!h.includes('名额已确认'));}});
 
 test('original route eligibility, RA job data and last-success status survive targeted maintenance',()=>{
-const keys=['id','institution','degree','status','bachelorEligible','noMasterRequired','noTuimianRequired','defaultVisible','eligibilitySummary','requirements'];const rows=academic.routes.map(r=>Object.fromEntries(keys.map(k=>[k,r[k]??null])));assert.equal(crypto.createHash('sha256').update(JSON.stringify(rows)).digest('hex'),'7f83e0d91be88c18e30e07b88554abd5518f06130f8fde244097723b25a2c04b');
+const keys=['id','institution','degree','status','bachelorEligible','noMasterRequired','noTuimianRequired','defaultVisible','eligibilitySummary','requirements'];const rows=recruitmentBaseline(academic).routes.map(r=>Object.fromEntries(keys.map(k=>[k,r[k]??null])));assert.equal(crypto.createHash('sha256').update(JSON.stringify(rows)).digest('hex'),'7f83e0d91be88c18e30e07b88554abd5518f06130f8fde244097723b25a2c04b');
 assert.equal(crypto.createHash('sha256').update(read('data/ra-positions.json')).digest('hex'),'b5354ece6ee48d205665af699e008e74d51c41ca23000c7fc653eccfc906816e');
 assert.equal(crypto.createHash('sha256').update(read('data/update-status.json')).digest('hex'),'b96e217f713537808ee7874c3638ed0e2add57d514b2a23232085dd73d35cad5');
 });
@@ -58,7 +58,7 @@ test('second expansion preserves all fifteen profiles and adds only five existin
  assert(secondExpansionIds.every(id=>visibleIds.has(id)));
  assert.equal(new Set(secondExpansionIds.map(id=>academic.advisors.find(a=>a.id===id).institution)).size,4);
  assert.equal(supplement.profiles.slice(0,20).filter(p=>visibleIds.has(p.advisorId)).length,20);
- assert.equal(academic.advisors.length,43);assert.equal(academic.routes.length,33);assert.equal(academic.routes.filter(isVerifiedRoute).length,27);assert.equal(rows.length,59);assert.equal(visibleIds.size,41);assert.equal(rows.filter(o=>o.type==='RA').length,2);
+ assert.equal(academic.advisors.length,43);assert.equal(academic.routes.length,34);assert.equal(academic.routes.filter(isVerifiedRoute).length,28);assert.equal(rows.length,59);assert.equal(visibleIds.size,41);assert.equal(rows.filter(o=>o.type==='RA').length,2);
 });
 test('second expansion cites its public facts and keeps research separate from admission authority',()=>{
  for(const id of secondExpansionIds){

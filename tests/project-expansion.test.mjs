@@ -21,7 +21,7 @@ test('expansion appends exactly nine reviewed routes and preserves the first eig
 test('first expansion preserves introductions for the five original schools',()=>{
  const schools=new Set(['HKU','HKUST','CUHK','CityUHK','PolyU']);
  const scoped=catalog.routes.filter(r=>schools.has(r.institution)&&isVerifiedRoute(r));
- assert.deepEqual([...summaries.values()].filter(r=>schools.has(r.institution)).map(r=>r.routeId).sort(),scoped.map(r=>r.id).sort());assert.equal(scoped.length,17);assert.equal(catalog.routes.filter(isVerifiedRoute).length,27);
+ assert.deepEqual([...summaries.values()].filter(r=>schools.has(r.institution)).map(r=>r.routeId).sort(),scoped.map(r=>r.id).sort());assert.equal(scoped.length,18);assert.equal(catalog.routes.filter(isVerifiedRoute).length,28);
  for(const r of catalog.routes.filter(r=>!isVerifiedRoute(r)))assert(!summaries.has(r.id));
 });
 

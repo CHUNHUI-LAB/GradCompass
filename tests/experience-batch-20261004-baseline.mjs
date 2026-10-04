@@ -64,7 +64,7 @@ export function assertExperienceBatchPreserved({experiences,provenance,files}){
  for(const [name,hash] of Object.entries(protectedFileHashes)){
   assert(files[name]!==undefined,'missing protected bytes: '+name);
   let bytes=files[name];
-  if(['data/catalog.json','data/advisor-profiles.json'].includes(name)){
+  if(['data/catalog.json','data/advisor-profiles.json','data/material-summaries.json','data/project-summaries.json'].includes(name)){
    try{bytes=Buffer.from(JSON.stringify(advisorAdditionsBaseline(JSON.parse(bytes)),null,2)+'\n');}catch{}
   }
   assert.equal(sha256(bytes),hash,'protected bytes changed: '+name);

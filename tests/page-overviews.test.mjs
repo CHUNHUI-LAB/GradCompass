@@ -30,20 +30,20 @@ test('advisor coverage uses unique included people, distinguishes degree signals
  const s=plain('advisors');assert(s.includes('41 位导师'));assert(s.includes('59 条机会'));assert(s.includes('57 条学位机会中，32 条'));assert(s.includes('2 个已核实 RA 岗位'));assert(s.includes('灵巧操作与触觉涉及 23 位'));assert(!s.includes('34 位导师'));assert(!s.includes('46 位导师'));
 });
 test('programme synthesis reports complete current coverage without inflating the route count',()=>{
- const s=plain('routes');for(const text of ['27 个项目','9 所学校','13 个 MPhil','12 个 PhD','27 个项目有培养与研究简介','另外 0 个目前仅有基本条件'])assert(s.includes(text),text);assert(s.includes('授课'));assert(s.includes('固定导师名额'));
+ const s=plain('routes');for(const text of ['28 个项目','9 所学校','13 个 MPhil','12 个 PhD','28 个项目有培养与研究简介','另外 0 个目前仅有基本条件'])assert(s.includes(text),text);assert(s.includes('授课'));assert(s.includes('固定导师名额'));
 });
 test('programme loading and failed states never pretend introductions loaded',()=>{
- for(const state of ['loading','unavailable']){const m=buildPageOverview('routes',{...catalog,projectSummaries:new Map},{...options,projectSummaryState:state});assert(!JSON.stringify(m).includes('27 个项目有培养'));assert(m.insights[2].text.includes(state==='loading'?'正在载入':'暂未载入'));assert.equal(m.insights[0].action.label,'查看 CSE 项目条件');}
- const m=buildPageOverview('routes',{...catalog,projectSummaries:new Map([...catalog.projectSummaries].slice(0,1))},{...options,projectSummaryState:'partial'});assert(m.insights[2].text.includes('1 个项目'));assert(m.insights[2].text.includes('26 个'));assert(m.insights[2].text.includes('部分简介未能验证'));
+ for(const state of ['loading','unavailable']){const m=buildPageOverview('routes',{...catalog,projectSummaries:new Map},{...options,projectSummaryState:state});assert(!JSON.stringify(m).includes('28 个项目有培养'));assert(m.insights[2].text.includes(state==='loading'?'正在载入':'暂未载入'));assert.equal(m.insights[0].action.label,'查看 CSE 项目条件');}
+ const m=buildPageOverview('routes',{...catalog,projectSummaries:new Map([...catalog.projectSummaries].slice(0,1))},{...options,projectSummaryState:'partial'});assert(m.insights[2].text.includes('1 个项目'));assert(m.insights[2].text.includes('27 个'));assert(m.insights[2].text.includes('部分简介未能验证'));
 });
 test('calendar synthesis is scoped to current date records and explicitly warns of unsynced programme cycles',()=>{
- const s=plain('deadlines');for(const text of ['2026-10-20','19 条后续日期记录','0 条日期或批次待确认','2 条已截止记录','2026-10-01','本页已记录日期','日历尚未覆盖','不是实时开放状态'])assert(s.includes(text),text);assert(!s.includes('最近申请截止'));assert(!s.includes('HKU 尚未公布'));
+ const s=plain('deadlines');for(const text of ['2026-10-20','21 条后续日期记录','0 条日期或批次待确认','2 条已截止记录','2026-10-01','本页已记录日期','日历尚未覆盖','不是实时开放状态'])assert(s.includes(text),text);assert(!s.includes('最近申请截止'));assert(!s.includes('HKU 尚未公布'));
 });
 test('calendar empty and expired-only snapshots do not invent a next future date',()=>{
  const c={...catalog,deadlines:[],raPositions:[]};const s=JSON.stringify(buildPageOverview('deadlines',c,options));assert(s.includes('暂没有可列出的后续截止日期'));assert(!s.includes('2026-10-20'));assert(!s.includes('查看这轮日期与条件'));
 });
 test('material synthesis exposes concrete requirement differences and missing-data boundaries',()=>{
- const s=plain('materials');for(const text of ['14 组摘要','27 个项目','MPhil 需 2 份','博士需 3 份','指定表格','鼓励但非必需','HKPFS','RA 岗位文件'])assert(s.includes(text),text);
+ const s=plain('materials');for(const text of ['15 组摘要','28 个项目','MPhil 需 2 份','博士需 3 份','指定表格','鼓励但非必需','HKPFS','RA 岗位文件'])assert(s.includes(text),text);
  const base=read('catalog.json');const fallback=JSON.stringify(buildPageOverview('materials',{...catalog,materials:base.materials},{...options,materialSupplementState:'unavailable'}));assert(fallback.includes('当前载入 2 组'));assert(fallback.includes('未完整载入'));assert(!fallback.includes('MPhil 需 2 份'));assert(!fallback.includes('data-summary-id="cuhk'));
 });
 test('experience synthesis keeps historical, self-report and unfinished outcome boundaries',()=>{
@@ -87,7 +87,7 @@ test('calendar labels its all-school scope separately from filtered results with
  assert(m.note.includes('下方显示筛选结果'));
  assert(m.note.includes('2026-10-01')&&m.note.includes('不是实时开放状态'));
  const hku=filterDeadlines(catalog,{institution:'HKU'});
- assert.equal(hku.length,3);
+ assert.equal(hku.length,5);
  assert(hku.every(d=>d.institution==='HKU'));
  assert(!hku.some(d=>d.id===m.insights[0].action.id));
  assert.equal(m.insights.length,3);

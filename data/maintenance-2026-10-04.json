@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-04",
+  "baseCommit": "91af79d313c3d0bd7f3bfd5a4e306a3af596ccaf",
+  "scope": "有界公开资料维护；新增收录HKU RIS授课型MSc路径及材料、简介、两条日历。九校列明来源的核查不是全量导师、帖子或评论的重新核验。",
+  "mutations": [
+    "一条工程或相关本科入口；不新增导师关联",
+    "2027/28两条12:00香港时间截止；开放状态仍unknown",
+    "新增项目与材料摘要，项目专属材料仍有待核项"
+  ],
+  "preserved": [
+    "当前41位可见导师、59条机会及2个独立RA",
+    "26篇经验及原核读时间",
+    "全部既有官方记录与历史sourceRecord",
+    "firstRunVerified=false及lastSuccessfulCheck=null；旧manifest不作为本次测试证据"
+  ],
+  "observations": [
+    {
+      "institution": "HKU RIS",
+      "result": "added",
+      "url": "https://mscadmissions.engg.hku.hk/master-of-science-in-engineering-in-robotics-intelligent-systems/",
+      "finding": "2027/28主轮2027-01-04、清轮2027-04-09，均12:00 HKT；工程或相关本科入口，预计10月上旬开放但未确认实际可提交。",
+      "readWindowUtc": "2026-10-04T06:26:00Z/2026-10-04T06:32:22Z",
+      "evidenceScope": "相关实质正文；西湖另以实时浏览器核读，非全部网站"
+    },
+    {
+      "institution": "HKU",
+      "result": "unchanged",
+      "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+      "finding": "RPg主轮2026-12-01、清轮2027-04-30/08-31均23:59 HKT；材料AI披露等限制已在原摘要保留。",
+      "readWindowUtc": "2026-10-04T06:26:00Z/2026-10-04T06:32:22Z",
+      "evidenceScope": "相关实质正文；西湖另以实时浏览器核读，非全部网站"
+    },
+    {
+      "institution": "HKUST",
+      "result": "unchanged",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse",
+      "finding": "普通Fall2027非本地2027-06-01、本地07-15；本科PhD优秀表现入口；提前招募08-15已关闭不代表普通轮关闭。",
+      "readWindowUtc": "2026-10-04T06:26:00Z/2026-10-04T06:32:22Z",
+      "evidenceScope": "相关实质正文；西湖另以实时浏览器核读，非全部网站"
+    },
+    {
+      "institution": "CUHK",
+      "result": "unchanged",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-mechanical-and-automation-engineering",
+      "finding": "MAE主轮2026-12-01、清轮2027-03-31；普通日期不移用HKPFS钟点。",
+      "readWindowUtc": "2026-10-04T06:26:00Z/2026-10-04T06:32:22Z",
+      "evidenceScope": "相关实质正文；西湖另以实时浏览器核读，非全部网站"
+    },
+    {
+      "institution": "CityUHK",
+      "result": "unchanged",
+      "url": "https://www.cb.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
+      "finding": "学校cb子域同招生正文复核2027/28普通轮2026-12-01 23:59 HKT；主域本轮提取失败，未将替代读取伪写主域成功。",
+      "readWindowUtc": "2026-10-04T06:26:00Z/2026-10-04T06:32:22Z",
+      "evidenceScope": "相关实质正文；西湖另以实时浏览器核读，非全部网站"
+    },
+    {
+      "institution": "PolyU",
+      "result": "unchanged",
+      "url": "https://www.polyu.edu.hk/study/pg/tpg/2027/43101-ir-irt",
+      "finding": "2027智能机器人工程MSc早轮2026-10-20、主轮2027-02-25；学位/成绩与可选CV分开。",
+      "readWindowUtc": "2026-10-04T06:26:00Z/2026-10-04T06:32:22Z",
+      "evidenceScope": "相关实质正文；西湖另以实时浏览器核读，非全部网站"
+    },
+    {
+      "institution": "HKBU",
+      "result": "unchanged",
+      "url": "https://gs.hkbu.edu.hk/admission/research-postgraduate-programmes/application/admission-timeline",
+      "finding": "2027/28首截止2026-12-01、次截止2027-04-15；本科博士入口的研究经历和可能先MPhil限定保留。",
+      "readWindowUtc": "2026-10-04T06:26:00Z/2026-10-04T06:32:22Z",
+      "evidenceScope": "相关实质正文；西湖另以实时浏览器核读，非全部网站"
+    },
+    {
+      "institution": "HKUST(GZ)",
+      "result": "unchanged",
+      "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+      "finding": "2027秋博士国际06-15、中国07-15；2027春国际2026-12-04、中国12-25，23:59 GMT+8；旧ROAS页面的2023日期不移用。",
+      "readWindowUtc": "2026-10-04T06:26:00Z/2026-10-04T06:32:22Z",
+      "evidenceScope": "相关实质正文；西湖另以实时浏览器核读，非全部网站"
+    },
+    {
+      "institution": "HKUST(GZ) Red Bird",
+      "result": "unchanged",
+      "url": "https://cft.hkust-gz.edu.cn/rbm-program/admission/",
+      "finding": "2027-03-01 23:59，页面未标时区；不需要提前定导，推荐信/PS/研究计划鼓励非必需。",
+      "readWindowUtc": "2026-10-04T06:26:00Z/2026-10-04T06:32:22Z",
+      "evidenceScope": "相关实质正文；西湖另以实时浏览器核读，非全部网站"
+    },
+    {
+      "institution": "CUHK-Shenzhen",
+      "result": "unchanged",
+      "url": "https://sai.cuhk.edu.cn/node/35",
+      "finding": "SAI春季2026-10-31、秋季2027-05-31，未标钟点；本科入口及CV/PS/两推荐人与滚动满额限制分开。",
+      "readWindowUtc": "2026-10-04T06:26:00Z/2026-10-04T06:32:22Z",
+      "evidenceScope": "相关实质正文；西湖另以实时浏览器核读，非全部网站"
+    },
+    {
+      "institution": "Westlake",
+      "result": "unchanged_expired_batch",
+      "url": "https://www.westlake.edu.cn/admissions/graduate/brochure/general/202608/t20260813_68957.html",
+      "finding": "2027第一批已于2026-08-31 10:00北京时间截止；普通本科入口及IIT CET6 480保留；中央普博/公告目录未找到下一批。",
+      "readWindowUtc": "2026-10-04T06:26:00Z/2026-10-04T06:32:22Z",
+      "evidenceScope": "相关实质正文；西湖另以实时浏览器核读，非全部网站"
+    },
+    {
+      "institution": "PolyU RA 260907004",
+      "result": "unchanged",
+      "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260907004",
+      "finding": "12个月；RA荣誉学士/等值，Research Associate的硕士或经验条件不移用；AI agent制造监测职责；截止2027-02-21未列钟点。",
+      "readWindowUtc": "2026-10-04T06:26:00Z/2026-10-04T06:32:22Z",
+      "evidenceScope": "相关实质正文；西湖另以实时浏览器核读，非全部网站"
+    },
+    {
+      "institution": "PolyU RA 260724022",
+      "result": "unchanged",
+      "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260724022",
+      "finding": "12个月；RA荣誉学士/等值，人机协作制造职责；本次完整正文确认截止2027-01-07未列钟点。",
+      "readWindowUtc": "2026-10-04T06:26:00Z/2026-10-04T06:32:22Z",
+      "evidenceScope": "相关实质正文；西湖另以实时浏览器核读，非全部网站"
+    }
+  ],
+  "limitations": [
+    "未登录或提交申请，未联系导师，未验证个人资格、名额或资金",
+    "新收录路径不等于2027新创项目；2026课程/旧门户不替代2027批次",
+    "西湖后续批次在本轮中央目录未找到，不推算未来日期",
+    "来源出现模板残留或版本差异时只采用明确相应项目/年份的正文"
+  ],
+  "publicExperienceSearch": {
+    "scope": "2027机器人、RA、MPhil中英文公开检索，论坛、Reddit及公开实验室招募页；未登录、未穷尽社媒",
+    "result": "未新增个人经验；可见讨论不足以证实完整申请结果。官方项目条件不由这些评论更新。",
+    "reads": [
+      {
+        "url": "https://www.reddit.com/r/HKUST/comments/1u4fh0w/need_guidance_indian_graduate_working_professional/",
+        "readScope": "正文及展开可见评论约L19–153；More replies未全部展开，不把相关帖列表当评论",
+        "classification": "原作者询问RA转博士；其他网友对论文门槛/工作保证的回答为未核实建议，不采纳为招生事实。"
+      },
+      {
+        "url": "https://www.1point3acres.com/home/thread/1164399",
+        "readScope": "公开正文可读，显示1条回复但未返回回复正文",
+        "classification": "自称港科广RA的定位求助，申请结果未形成；不复写个人精确成绩、联系信息或对组内的评价。"
+      },
+      {
+        "url": "https://www.reddit.com/r/HKUST/comments/1wpy0vw/deadline_for_mphil_mech_eng_spring_2627/",
+        "readScope": "搜索有正文/一条评论摘录，原帖打开cache miss",
+        "classification": "搜索摘录不作为政策或完整评论核读"
+      }
+    ]
+  },
+  "facultyReads": [
+    {
+      "url": "https://pairslab.github.io/join/",
+      "scope": "完整招募正文",
+      "finding": "2027春秋PhD招募文字；RA/实习需要每周至少一半时间，未给可独立核验的岗位学历/合同，未新增RA岗位"
+    },
+    {
+      "url": "https://polyu-taslab.github.io/openings/",
+      "scope": "完整招募正文",
+      "finding": "全年多类招募、研究方向和约6页proposal要求；不确认当季余额"
+    },
+    {
+      "url": "https://mrl.hkust.edu.hk/openings/",
+      "scope": "招募正文",
+      "finding": "MPhil停止招生和PhD筛选分别记录；保持原目录"
+    },
+    {
+      "url": "https://cnd-lab.github.io/",
+      "scope": "About、研究/实验平台及论文正文",
+      "finding": "冀晓强研究方向与最新已有简介一致，不把平台存在当个人可用资源保证"
+    },
+    {
+      "url": "https://milab.westlake.edu.cn/people.html",
+      "scope": "2027招募句及页面年份",
+      "finding": "2027招募字样已在原目录；旧2021页脚不作当前发布时间"
+    }
+  ],
+  "hkuRisSourceBoundary": {
+    "verified2027Sources": [
+      "https://mscadmissions.engg.hku.hk/master-of-science-in-engineering-in-robotics-intelligent-systems/",
+      "https://mscadmissions.engg.hku.hk/application/"
+    ],
+    "olderPortal": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0",
+    "finding": "中央portal仍2026入学并Closed，不用于判定2027开放状态；其中PS/CV不直接移为2027强制文件。",
+    "supportingPdf": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R394&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+    "readScope": "浏览器两页，未标适用周期；不在当期材料摘要中宣布推荐信免交或一月上传期。",
+    "additionalPdf": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R394&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+    "additionalFinding": "September2026落款明确September2027并含RIS；此轮未收录拟议学费为最终定价。",
+    "independentReviewWindowUtc": "2026-10-04T06:31:00Z/2026-10-04T06:37:36Z"
+  },
+  "initialReadCommit": "91115ab8ae37ef437e92d73073ef3c0bd0ec6274",
+  "concurrentEditPreservation": "保留PR4导师、PR5仓库规则以及PR6西湖六位导师和后续README整理；当前41可见导师、59机会。HKU新增是2027/28项目参考，非2028招募。 另完整保留91af79d3南科大待核资料、README、测试及allowlist，不将其提升为默认机会。",
+  "previousIntegrationCommit": "d5f35e001811788d0722436c3c2dd9b73a52dd62"
+}

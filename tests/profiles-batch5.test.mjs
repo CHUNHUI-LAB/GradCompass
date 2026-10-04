@@ -32,7 +32,7 @@ test('batch five only enriches five already visible advisers across five institu
  for(const id of ids){const a=academic.advisors.find(a=>a.id===id);assert(a.defaultVisible);assert.equal(a.eligibility,'verified');assert(visible.has(id));}
  assert.equal(new Set(ids.map(id=>academic.advisors.find(a=>a.id===id).institution)).size,5);
  assert.equal(rows.length,59);assert.equal(visible.size,41);assert.equal(rows.filter(o=>o.type==='RA').length,2);
- assert.equal(academic.routes.filter(isVerifiedRoute).length,27);
+ assert.equal(academic.routes.filter(isVerifiedRoute).length,28);
  assert(!supplement.profiles.some(p=>['cuhk_zhongyu_li','xjtlu-yaran-chen'].includes(p.advisorId)));
 });
 test('every new fact has a dated primary-source link and every profile separates public research from authority',()=>{
