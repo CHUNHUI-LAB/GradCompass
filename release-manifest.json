@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 26040,
-      "sha256": "576478afb3eff7441a26ec1d45f0ef55f9a6e20fe2a1cb44cede1842563481bc"
+      "bytes": 27583,
+      "sha256": "1b1ed88d5bbca87dacb9bc607d02a7860bcb0f6387628da851bd33f09e62c96b"
     },
     {
       "path": "REPO-MAP.md",
@@ -52,8 +52,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 64830,
-      "sha256": "49a959123784f0fba3c864e216d9d6652b1f9269f0124c420125c4b0eea697e7"
+      "bytes": 64953,
+      "sha256": "ce7ce59dd5eeae8d897601310b81f95f5bb2baaaa578fd2239e9b5d6011b30af"
     },
     {
       "path": "assets/campus-art.webp",
@@ -62,8 +62,8 @@
     },
     {
       "path": "assets/core.js",
-      "bytes": 26565,
-      "sha256": "7f7dbaf4ef606dbb6b46e2b96dbcbfdeef36bb2b98a0f0ec71f2c3eafe4f8c41"
+      "bytes": 26580,
+      "sha256": "ab18ba93180652c992aee8ba55aefbafcb05146bddf33d3d55474d85c00630e0"
     },
     {
       "path": "assets/experiences.js",
@@ -77,13 +77,13 @@
     },
     {
       "path": "assets/material-supplement.js",
-      "bytes": 1849,
-      "sha256": "44c8f5821e4c828503b6efefc6cd6a75f560c2de0067f855531337c025511d03"
+      "bytes": 1864,
+      "sha256": "5f80aaa5d2fd3fe8b4d97aa0906fd60d47249c21fce07a64d0322fa5fb906a75"
     },
     {
       "path": "assets/page-overviews.js",
-      "bytes": 15458,
-      "sha256": "1c02435588626df59b6cc546dacdf14f166d0d918f05fa99846eb1c7dc825a3d"
+      "bytes": 15473,
+      "sha256": "b87e52f201d2392cd9c641667ecd935c1a277d7c028f2c98976620723d3c7e79"
     },
     {
       "path": "assets/profiles.js",
@@ -92,13 +92,13 @@
     },
     {
       "path": "assets/project-comparison.js",
-      "bytes": 13200,
-      "sha256": "007137a737d75065c7a574727c776a4069db2ef8b860f95cfac933fc78c80a3c"
+      "bytes": 13215,
+      "sha256": "7406e812724e1a569deccebf59b43631590a4caa9ba0052c0cbf20da46a60c2c"
     },
     {
       "path": "assets/record-summaries.js",
-      "bytes": 12721,
-      "sha256": "5597dac07f8a420aef7d477c1a36cdd2611f74a2e3fef68e3e2a8b6ebcede5d9"
+      "bytes": 12736,
+      "sha256": "d5b9b1aed2234eaa19dceac539b91218c103f6c967d286e67b2f67bb6ac2f899"
     },
     {
       "path": "assets/style.css",
@@ -127,8 +127,8 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 950861,
-      "sha256": "169959415111158f4d617d4790ad4e5ff9f267ab72342f3e716883edf6541128"
+      "bytes": 953176,
+      "sha256": "522fa2b72ec959c5babc6c0b30d513f40b28312ad715e724767101e6eb9bb587"
     },
     {
       "path": "data/maintenance-2026-10-03.json",
@@ -173,7 +173,7 @@
     {
       "path": "index.html",
       "bytes": 8252,
-      "sha256": "38ca6276dc08f64665ae4eba96e182a031f7f052bc067cfd33a785ae01802908"
+      "sha256": "2d478a0b7fabd496a76346a265de878139df754885099fea3f7852c469f33401"
     },
     {
       "path": "package.json",
@@ -182,8 +182,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 8285,
-      "sha256": "ce909875914d2b8aaae336055236c9d347bee97ff16566b74972ca6809709711"
+      "bytes": 8762,
+      "sha256": "9fa93c7d00d1f161faa6647dc8079da024538762140105c4b150b0078a5d49cf"
     },
     {
       "path": "tests/active-filters.test.mjs",
@@ -402,13 +402,13 @@
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 21914,
-      "sha256": "3d64ec352f07c2ba035606001403564a7f397ff6bedae7cc6f29240b1e82aeb7"
+      "bytes": 23010,
+      "sha256": "06fc45939efca96e1b2024222781d334c4768c3c8877c66440fde507a81e748c"
     },
     {
       "path": "tests/resource-versions.test.mjs",
       "bytes": 5078,
-      "sha256": "4e265d9189d27df81a5f8d125867f0dc6f378912160cbf2348ee87a0c28edf4f"
+      "sha256": "adaaa86e864558095f170c4af1532a50cf5f697e305bd88aa9887fe44343cf44"
     },
     {
       "path": "tests/summary-navigation.test.mjs",
@@ -417,13 +417,13 @@
     },
     {
       "path": "tests/sustech-review.test.mjs",
-      "bytes": 2140,
-      "sha256": "b75a33e083ce0962692efe0013dac1bec0286473fa47b1c4760325e2268cceee"
+      "bytes": 2198,
+      "sha256": "fb137f87c1c09a62cc14c30086005b213bca7c47d3b8493e4167975b5d178325"
     },
     {
       "path": "tests/tsinghua-review.test.mjs",
-      "bytes": 2624,
-      "sha256": "aef0d196a4864cc874ca01c5425da41d5cf1eb0cae1eaec0ca88dcf93c13f32c"
+      "bytes": 2682,
+      "sha256": "5a4d04c75aaefd749afd1122d7970c55232b34dfef559cfc62ecadabe5700433"
     }
   ],
   "qaMetadataScope": "Hashes identify this content snapshot. Automated test counters do not establish deployment or browser acceptance.",

@@ -11,10 +11,17 @@ for name in ['catalog.json','material-summaries.json','project-summaries.json','
     if count!=1:raise SystemExit('Expected exactly one changed dataset URL: '+name)
 app_text,count=re.subn(r"new URL\('\.\./data/application-experiences\.json(?:\?v=[0-9a-f]+)?'", "new URL('../data/application-experiences.json?v="+version('data/application-experiences.json')+"'",app_text)
 if count!=1:raise SystemExit('Expected exactly one versioned experience dataset URL')
-for name in ['experiences.js','record-summaries.js','page-overviews.js','project-comparison.js']:
+for name in ['core.js','experiences.js','record-summaries.js','page-overviews.js','project-comparison.js']:
     app_text,count=re.subn(r"from '\./"+re.escape(name)+r"(?:\?v=[0-9a-f]+)?'", "from './"+name+"?v="+version('assets/'+name)+"'", app_text)
     if count!=1:raise SystemExit('Expected exactly one versioned import: '+name)
 app.write_text(app_text)
+# Keep every browser module on the same content-versioned core dependency.
+for owner in ['record-summaries.js','page-overviews.js','material-supplement.js','project-comparison.js','app.js']:
+    path=root/'assets'/owner
+    text=path.read_text()
+    text,count=re.subn(r"from '([^']*/?)core\.js(?:\?v=[0-9a-f]+)?'", "from './core.js?v="+version('assets/core.js')+"'", text)
+    if count < 1: raise SystemExit('Expected core import: '+owner)
+    path.write_text(text)
 index=root/'index.html'
 html=index.read_text()
 for attr,name in [('src','app.js'),('href','style.css')]:

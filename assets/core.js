@@ -100,7 +100,7 @@ export function buildOpportunities(catalog,options={}){
   if(!hasVerifiedPath(a,catalog))continue;
   for(const r of routesFor(a,catalog).filter(r=>isVerifiedRoute(r)||(includeReferencePhd&&degreeLabel(r)==='PhD'&&r.status==='reference'))){
    const type=degreeLabel(r);if(!['MSc','MPhil','PhD'].includes(type))continue;
-   opportunities.push({id:`${a.id}::${r.id}`,advisorId:a.id,routeId:r.id,type,kind:'degree',reference:r.status==='reference',openingStatus:(a.openingDetails||[]).find(o=>o.degree===type)?.status||'unknown'});
+   opportunities.push({id:`${a.id}::${r.id}`,advisorId:a.id,routeId:r.id,type,kind:'degree',...(r.status==='reference'?{reference:true}:{}),openingStatus:(a.openingDetails||[]).find(o=>o.degree===type)?.status||'unknown'});
   }
  }
  for(const job of catalog.raPositions||[]){

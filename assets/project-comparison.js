@@ -1,4 +1,4 @@
-import {escapeHTML, readerText, safeUrl, sourcesOf, institutionLabel, degreeLabel, isVerifiedRoute, deadlineStatus} from './core.js';
+import {escapeHTML, readerText, safeUrl, sourcesOf, institutionLabel, degreeLabel, isVerifiedRoute, deadlineStatus} from './core.js?v=ab18ba931806';
 import {supervisorAssociationText} from './record-summaries.js';
 
 export const PROJECT_COMPARISON_UNKNOWN = '未核实，以当期官方要求为准';

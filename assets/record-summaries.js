@@ -1,4 +1,4 @@
-import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,deadlineStatus,isVerifiedRoute,hasVerifiedPath,filterRoutes} from './core.js';
+import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,deadlineStatus,isVerifiedRoute,hasVerifiedPath,filterRoutes} from './core.js?v=ab18ba931806';
 const e=value=>escapeHTML(readerText(value));
 // Display-only wording: preserve source records and their qualification caveats.
 const supervisorAssociationLabels=new Map([

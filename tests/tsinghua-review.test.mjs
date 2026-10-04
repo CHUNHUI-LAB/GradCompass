@@ -32,6 +32,7 @@ test('Tsinghua review keeps doctoral eligibility and Fall 2028 boundaries explic
   for (const advisor of review.advisors) {
     assert.equal(advisor.cycle2027FallReference, true);
     assert.equal(advisor.cycle2028FallVerified, false);
+    assert.notEqual(advisor.cycle2027FallVerified, true);
     assert(advisor.sources.length >= 2);
     for (const source of advisor.sources) {
       assert(source.url.startsWith('https://'));

@@ -23,6 +23,7 @@ test('SUSTech review keeps 2027 department evidence separate from 2028 PI openin
     assert.equal(advisor.catalogStatus, 'verification_queue');
     assert.equal(advisor.cycle2027FallReference, true);
     assert.equal(advisor.cycle2028FallVerified, false);
+    assert.notEqual(advisor.cycle2027FallVerified, true);
     assert(advisor.profileUrl.startsWith('https://'));
     assert(advisor.researchZh.length > 10);
     assert(advisor.sources.length >= 2);
