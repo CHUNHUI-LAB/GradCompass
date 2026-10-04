@@ -30,6 +30,7 @@ const expected={
 };
 function assertBaseline(files){for(const [f,h]of Object.entries(expected)){
  let bytes=files[f];if(['data/catalog.json','data/project-summaries.json','data/material-summaries.json'].includes(f))bytes=JSON.stringify(hkuRisBaseline(JSON.parse(bytes)),null,2)+'\n';
+ if(f==='assets/page-overviews.js')bytes=String(bytes).replace("title:'MSc 侧重授课培养'","title:'两个 MSc 侧重授课培养'").replace("已收录 ${count(routes,r=>r.degree==='MSc')} 个 MSc。","已收录的 ${count(routes,r=>r.degree==='MSc')} 个 MSc 是 CUHK Robotics 与 PolyU Intelligent Robotics Engineering。");
  assert.equal(hash(bytes),h,'Exact remote 91af79d3 baseline: '+f);
 }}
 const allBytes=()=>Object.fromEntries(Object.keys(expected).map(f=>[f,fs.readFileSync(new URL('../'+f,import.meta.url))]));

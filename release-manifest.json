@@ -37,8 +37,8 @@
     },
     {
       "path": "QA.md",
-      "bytes": 41600,
-      "sha256": "890ff2012ad4ab8cdf927afba2a32906d5571aee2563a2860a2dface38b22f09"
+      "bytes": 42314,
+      "sha256": "5733c7c63646ce4f19dbf3428593b7731accdba7c17823099752e254dd3eba5b"
     },
     {
       "path": "README.md",
@@ -53,7 +53,7 @@
     {
       "path": "assets/app.js",
       "bytes": 63437,
-      "sha256": "32a9b07878fa482a9367303ad9c6aaa60f1e3c409bb580d323c903503293aa8c"
+      "sha256": "35231e4d46d849f710361a2ce2b7b53e9ad21242f0a509be1b9490ecd6749338"
     },
     {
       "path": "assets/campus-art.webp",
@@ -82,8 +82,8 @@
     },
     {
       "path": "assets/page-overviews.js",
-      "bytes": 15529,
-      "sha256": "c6e5b5f7a794ef28e576e22d7a381a194548f4830b2fda5195ed384f0d726eba"
+      "bytes": 15458,
+      "sha256": "1c02435588626df59b6cc546dacdf14f166d0d918f05fa99846eb1c7dc825a3d"
     },
     {
       "path": "assets/profiles.js",
@@ -168,7 +168,7 @@
     {
       "path": "index.html",
       "bytes": 8252,
-      "sha256": "6939ff5e7408bbeadd338903edf7ff6be066964aba89eeaa8bb7f94f5d484269"
+      "sha256": "e756f8ddeea7e49a0103c378cada7a45ab679a30fe4ebcbf54f220ab33e18806"
     },
     {
       "path": "package.json",
@@ -177,8 +177,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 7943,
-      "sha256": "8a7218a64a7e62ef518f3d161f5668e50d5adb21fdd8bf48db952a58505d959a"
+      "bytes": 8138,
+      "sha256": "ec9e83359eb49c97b89481ad1961edb990bd79f2ff523d9f8fce1bbfbb3cdd76"
     },
     {
       "path": "tests/active-filters.test.mjs",
@@ -287,8 +287,8 @@
     },
     {
       "path": "tests/hku-ris.test.mjs",
-      "bytes": 9630,
-      "sha256": "14ba56084a4b004cd5bda2f4dcc849493251ec99517b8f721882537fd20d03b2"
+      "bytes": 9961,
+      "sha256": "bf7edc83b39d3928473b789247f56bf08510fdc3f415c659adc5c4b92a00e2b5"
     },
     {
       "path": "tests/maintenance-baseline.mjs",
@@ -322,8 +322,8 @@
     },
     {
       "path": "tests/page-overviews.test.mjs",
-      "bytes": 10820,
-      "sha256": "7683ce1f356296d55c1751a34ea3ee32aa9b2b9a751c5cb2aeae942dbbc67175"
+      "bytes": 11681,
+      "sha256": "38a77d5fe8110d615c7d4d1c47919ea5511a8c86792f359f689114d52d696ef4"
     },
     {
       "path": "tests/profiles-batch5.test.mjs",
@@ -454,5 +454,9 @@
     "previousMaterialCount": 14,
     "addedMaterialGroups": 1,
     "validation": "Use dated QA and actual run output; this snapshot does not establish publication"
+  },
+  "overviewCopyCorrection": {
+    "baseCommit": "1281ce4740272443563b4a98f421561bacc801f9",
+    "scope": "Two inaccurate MSc overview text fragments only; no structure, style or interaction changes"
   }
 }

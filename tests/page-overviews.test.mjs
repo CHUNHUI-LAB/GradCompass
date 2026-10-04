@@ -1,3 +1,4 @@
+import {isVerifiedRoute} from '../assets/core.js';
 import {maintenanceBaseline} from './maintenance-baseline.mjs';
 import {recruitmentBaselineText} from './recruitment-baseline.mjs';
 import test from 'node:test';
@@ -93,4 +94,20 @@ test('calendar labels its all-school scope separately from filtered results with
  assert.equal(m.insights.length,3);
  for(const insight of m.insights){assert(html.includes(insight.text));assert(insight.action);}
  assert(!html.includes('<details'));
+});
+
+
+test('MSc overview title does not hard-code the old two-programme count',()=>{
+ const m=buildPageOverview('routes',catalog,options);
+ assert.equal(m.insights[1].title,'MSc 侧重授课培养');
+ assert.equal(catalog.routes.filter(r=>isVerifiedRoute(r)&&r.degree==='MSc').length,3);
+ assert(!m.insights[1].title.includes('两个'));
+});
+test('MSc loading fallback counts current programmes without claiming an exhaustive old-school pair',()=>{
+ for(const state of ['loading','unavailable']){
+  const m=buildPageOverview('routes',{...catalog,projectSummaries:new Map},{...options,projectSummaryState:state});
+  assert(m.insights[1].text.includes('已收录 3 个 MSc。'));
+  assert(!m.insights[1].text.includes('是 CUHK Robotics 与 PolyU'));
+  assert.equal(m.insights[1].action.preset,'routes-msc');
+ }
 });

@@ -38,7 +38,7 @@ export function buildPageOverview(view,catalog,{experiences=null,projectSummaryS
   const brief=projectSummaryState==='loading'?'培养简介正在载入，可先看基本申请条件。':projectSummaryState==='unavailable'?'培养简介暂未载入，基本申请条件仍可阅读。':`${covered.length} 个项目有培养与研究简介，覆盖 ${schools.size} 所学校；另外 ${routes.length-covered.length} 个目前仅有基本条件。${projectSummaryState==='partial'?'部分简介未能验证。':''}`;
   return {label:'项目总览',title:'先分清培养方式，再比较入口与批次',scope:`全页 ${routes.length} 个项目 · ${new Set(routes.map(r=>r.institution)).size} 所学校`,insights:[
    {title:'研究型学位重在持续研究',text:`现有 ${count(routes,r=>r.degree==='MPhil')} 个 MPhil、${count(routes,r=>r.degree==='PhD')} 个 PhD。`+(catalog.projectSummaries?.has('HKUST-CSE-MPhil')?'以港科大 CSE MPhil 为例，2 年培养结合课程、研讨课与论文研究，毕业需口头答辩。比较时应看具体研究训练，不能只看学位名称。':'培养简介暂未完整载入；可先分开核对同校不同学位的本科入口、学制、导师关联与基本要求。'),action:summaryAction('project',routes.find(r=>r.id==='HKUST-CSE-MPhil'),catalog.projectSummaries?.has('HKUST-CSE-MPhil')?'读 CSE 的研究与培养':'查看 CSE 项目条件')},
-   {title:'两个 MSc 侧重授课培养',text:mscIntroductions?'PolyU IRE 可选修课或论文路线，两者仍授 MSc；CUHK Robotics 强调课程与动手项目，已核课程方案为 2026/27。不能把课程或论文安排理解成固定导师名额。':`已收录的 ${count(routes,r=>r.degree==='MSc')} 个 MSc 是 CUHK Robotics 与 PolyU Intelligent Robotics Engineering。课程、项目或论文安排应逐项比较，不能由名称推定研究型学位或固定导师名额。`,action:preset('routes-msc','只看授课型 MSc')},
+   {title:'MSc 侧重授课培养',text:mscIntroductions?'PolyU IRE 可选修课或论文路线，两者仍授 MSc；CUHK Robotics 强调课程与动手项目，已核课程方案为 2026/27。不能把课程或论文安排理解成固定导师名额。':`已收录 ${count(routes,r=>r.degree==='MSc')} 个 MSc。课程、项目或论文安排应逐项比较，不能由名称推定研究型学位或固定导师名额。`,action:preset('routes-msc','只看授课型 MSc')},
    {title:'简介覆盖与时间表有边界',text:brief+' 先读简介，再查目标入学年；项目已公布条件不等于导师当轮接收。',action:preset('routes-mphil','只看 MPhil 项目')}
   ],note:'全页概览不随筛选变化；项目详情中的入学年份与来源说明优先于笼统的学校标签。'};
  }
