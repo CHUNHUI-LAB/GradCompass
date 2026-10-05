@@ -172,6 +172,16 @@
           "2027具身智能工程师学院页面为硕士项目方向参考，未改写为博士招生",
           "未找到个人2028 Fall明确招生名额"
         ]
+      },
+      {
+        "file": "nju-robotics-advisor-review-20261005.json",
+        "sha256": "6712e8b01cfbc618d841304708bfac6bc8a6acb604182d3592342f98e5a834fe",
+        "checkedDate": "2026-10-05",
+        "scope": "南京大学机器人与自动化学院、智能科学与技术学院、计算机学院和人工智能学院的机器人、具身智能、智能控制与相关博士导师公开资料；项目方向、导师身份和个人招生分别记录。",
+        "interpretationNotes": [
+          "博士项目或导师目录参考不等于个人招生名额",
+          "未找到个人2028 Fall名额声明不等于不招生"
+        ]
       }
     ],
     "normalizationNotes": [
@@ -183,7 +193,8 @@
       "2026-10-04 复核实际 HTML 标题：清华 2025 统考/推免、2022 港澳台博士、2026 十一月博士来源均保留历史身份；2027 IIIS 085400 推免另建独立参考项目。",
       "2026-10-05 复核新增浙江大学、复旦大学、上海交通大学、南京大学、中国科学技术大学、同济大学、东南大学；博士项目参考与个人招生边界分开保存。",
       "2026-10-05 浙江大学扩展核查：新增控制、机械、航空航天、先进技术研究院及农业机器人方向导师；所有关联均为博士导师/方向参考，未升级为个人招生。",
-      "2026-10-05 浙江大学第二轮扩展：补充空中机器人、具身智能、灵巧操作、触觉、机器人感知、视觉导航、软体机器人、微型/医疗机器人及机器人安全等博士导师；个人招生仍待核。"
+      "2026-10-05 浙江大学第二轮扩展：补充空中机器人、具身智能、灵巧操作、触觉、机器人感知、视觉导航、软体机器人、微型/医疗机器人及机器人安全等博士导师；个人招生仍待核。",
+      "2026-10-05 南京大学第二轮扩展：补充机器人与自动化、智能科学与技术、计算机和人工智能学院的机器人、具身智能、空间智能、VLA、规划与控制导师；项目参考和个人招生继续分开。"
     ],
     "associationMeaning": "routeIds 保留可阅读连接；只有 routeAssociations 中 status=verified、verificationStatus=verified 且有直接个人-项目证据才是已核实关联。pending 不代表无资格。"
   },
@@ -33297,6 +33308,4465 @@
       "cycle2027FallReference": true,
       "cycle2027FallVerified": false,
       "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-chen-chunlin",
+      "name": "Chunlin Chen",
+      "nameZh": "陈春林",
+      "institution": "NJU",
+      "department": "机器人与自动化学院",
+      "position": "教授 / 博士生导师",
+      "topics": [
+        "强化学习",
+        "智能机器人",
+        "无人驾驶",
+        "四足机器人运动控制",
+        "复杂系统建模与控制"
+      ],
+      "summary": "南京大学机器人与自动化学院教授，研究强化学习、智能机器人、无人驾驶与智能控制，团队成果覆盖四足机器人敏捷运动。",
+      "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20251120/i352846.html",
+      "routeIds": [
+        "nju-robotics-phd-reference-2026"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-robotics-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20251120/i352846.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2026 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2026 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20251120/i352846.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://ra.nju.edu.cn/szll/zzjs/20251120/i352846.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+          "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院专职教师名录",
+          "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-chen-chunlin",
+        "name": "Chunlin Chen",
+        "nameZh": "陈春林",
+        "department": "机器人与自动化学院",
+        "position": "教授 / 博士生导师",
+        "researchZh": "南京大学机器人与自动化学院教授，研究强化学习、智能机器人、无人驾驶与智能控制，团队成果覆盖四足机器人敏捷运动。",
+        "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20251120/i352846.html",
+        "routeIds": [
+          "nju-robotics-phd-reference-2026"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://ra.nju.edu.cn/szll/zzjs/20251120/i352846.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+            "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院专职教师名录",
+            "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-li-huaxiong",
+      "name": "Huaxiong Li",
+      "nameZh": "李华雄",
+      "institution": "NJU",
+      "department": "机器人与自动化学院",
+      "position": "教授 / 博士生导师",
+      "topics": [
+        "模式识别与智能系统",
+        "机器人多模态学习与控制",
+        "机器人视觉",
+        "机器学习与数据挖掘"
+      ],
+      "summary": "研究模式识别、机器学习与数据挖掘，以及机器人多模态学习、控制和视觉。",
+      "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20251121/i352917.html",
+      "routeIds": [
+        "nju-robotics-phd-reference-2026"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-robotics-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20251121/i352917.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2026 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2026 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20251121/i352917.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://ra.nju.edu.cn/szll/zzjs/20251121/i352917.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+          "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院专职教师名录",
+          "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-li-huaxiong",
+        "name": "Huaxiong Li",
+        "nameZh": "李华雄",
+        "department": "机器人与自动化学院",
+        "position": "教授 / 博士生导师",
+        "researchZh": "研究模式识别、机器学习与数据挖掘，以及机器人多模态学习、控制和视觉。",
+        "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20251121/i352917.html",
+        "routeIds": [
+          "nju-robotics-phd-reference-2026"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://ra.nju.edu.cn/szll/zzjs/20251121/i352917.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+            "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院专职教师名录",
+            "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-zhu-bo",
+      "name": "Bo Zhu",
+      "nameZh": "朱波",
+      "institution": "NJU",
+      "department": "机器人与自动化学院",
+      "position": "长聘副教授 / 博士生导师",
+      "topics": [
+        "复杂无人系统",
+        "机器人导航与控制",
+        "集群系统协同控制",
+        "鲁棒控制"
+      ],
+      "summary": "研究复杂无人系统、机器人ADA导航与控制、集群系统调控和高精度鲁棒控制。",
+      "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335916.html",
+      "routeIds": [
+        "nju-robotics-phd-reference-2026"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-robotics-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335916.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2026 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2026 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335916.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335916.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+          "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院专职教师名录",
+          "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-zhu-bo",
+        "name": "Bo Zhu",
+        "nameZh": "朱波",
+        "department": "机器人与自动化学院",
+        "position": "长聘副教授 / 博士生导师",
+        "researchZh": "研究复杂无人系统、机器人ADA导航与控制、集群系统调控和高精度鲁棒控制。",
+        "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335916.html",
+        "routeIds": [
+          "nju-robotics-phd-reference-2026"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335916.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+            "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院专职教师名录",
+            "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-wang-zhi",
+      "name": "Zhi Wang",
+      "nameZh": "王志",
+      "institution": "NJU",
+      "department": "机器人与自动化学院",
+      "position": "准聘副教授 / 博士生导师",
+      "topics": [
+        "强化学习",
+        "具身智能",
+        "RL基础模型",
+        "视觉语言动作模型"
+      ],
+      "summary": "研究面向真实物理环境的强化学习基础模型、RL微调、VLA与具身智能决策。",
+      "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352803.html",
+      "routeIds": [
+        "nju-robotics-phd-reference-2026"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-robotics-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352803.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2026 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2026 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352803.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352803.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+          "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院专职教师名录",
+          "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-wang-zhi",
+        "name": "Zhi Wang",
+        "nameZh": "王志",
+        "department": "机器人与自动化学院",
+        "position": "准聘副教授 / 博士生导师",
+        "researchZh": "研究面向真实物理环境的强化学习基础模型、RL微调、VLA与具身智能决策。",
+        "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352803.html",
+        "routeIds": [
+          "nju-robotics-phd-reference-2026"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352803.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+            "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院专职教师名录",
+            "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-tong-xin",
+      "name": "Xin Tong",
+      "nameZh": "童鑫",
+      "institution": "NJU",
+      "department": "机器人与自动化学院",
+      "position": "准聘副教授 / 博士生导师",
+      "topics": [
+        "混杂反馈控制",
+        "机器人规划与控制",
+        "多智能体协同控制",
+        "复杂网络生成"
+      ],
+      "summary": "研究混杂反馈控制、机器人规划控制和多智能体协同，并公开说明每年招收博士、硕士。",
+      "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335924.html",
+      "routeIds": [
+        "nju-robotics-phd-reference-2026"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-robotics-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335924.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2026 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2026 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335924.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335924.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+          "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院专职教师名录",
+          "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-tong-xin",
+        "name": "Xin Tong",
+        "nameZh": "童鑫",
+        "department": "机器人与自动化学院",
+        "position": "准聘副教授 / 博士生导师",
+        "researchZh": "研究混杂反馈控制、机器人规划控制和多智能体协同，并公开说明每年招收博士、硕士。",
+        "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335924.html",
+        "routeIds": [
+          "nju-robotics-phd-reference-2026"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335924.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+            "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院专职教师名录",
+            "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-zhou-xiaobin",
+      "name": "Xiaobin Zhou",
+      "nameZh": "周小彬",
+      "institution": "NJU",
+      "department": "机器人与自动化学院",
+      "position": "助理教授 / 博士生导师",
+      "topics": [
+        "空中机器人",
+        "具身智能",
+        "自主导航",
+        "集群协同"
+      ],
+      "summary": "研究空中机器人自主导航、智能飞行和集群协同，官方页面欢迎申请博士。",
+      "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335921.html",
+      "routeIds": [
+        "nju-robotics-phd-reference-2026"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-robotics-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335921.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2026 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2026 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335921.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335921.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+          "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院专职教师名录",
+          "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-zhou-xiaobin",
+        "name": "Xiaobin Zhou",
+        "nameZh": "周小彬",
+        "department": "机器人与自动化学院",
+        "position": "助理教授 / 博士生导师",
+        "researchZh": "研究空中机器人自主导航、智能飞行和集群协同，官方页面欢迎申请博士。",
+        "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335921.html",
+        "routeIds": [
+          "nju-robotics-phd-reference-2026"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335921.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+            "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院专职教师名录",
+            "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-zhang-junhui",
+      "name": "Junhui Zhang",
+      "nameZh": "张君会",
+      "institution": "NJU",
+      "department": "机器人与自动化学院",
+      "position": "助理教授 / 博士生导师",
+      "topics": [
+        "安全可信自主系统",
+        "机器人",
+        "自动驾驶",
+        "形式化验证",
+        "安全控制"
+      ],
+      "summary": "研究控制、机器学习与形式化方法结合的安全可信自主系统，应用于移动机器人和自动驾驶。",
+      "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335923.html",
+      "routeIds": [
+        "nju-robotics-phd-reference-2026"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-robotics-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335923.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2026 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2026 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335923.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335923.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+          "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院专职教师名录",
+          "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-zhang-junhui",
+        "name": "Junhui Zhang",
+        "nameZh": "张君会",
+        "department": "机器人与自动化学院",
+        "position": "助理教授 / 博士生导师",
+        "researchZh": "研究控制、机器学习与形式化方法结合的安全可信自主系统，应用于移动机器人和自动驾驶。",
+        "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335923.html",
+        "routeIds": [
+          "nju-robotics-phd-reference-2026"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335923.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+            "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院专职教师名录",
+            "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-ma-yingjie",
+      "name": "Yingjie Ma",
+      "nameZh": "马英杰",
+      "institution": "NJU",
+      "department": "机器人与自动化学院",
+      "position": "助理教授 / 博士生导师",
+      "topics": [
+        "数值优化",
+        "模型预测控制",
+        "机器学习",
+        "工业智能",
+        "复杂系统建模"
+      ],
+      "summary": "研究复杂动态系统建模、数值优化、模型预测控制和机器学习，官方页面欢迎申请硕士、博士。",
+      "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335919.html",
+      "routeIds": [
+        "nju-robotics-phd-reference-2026"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-robotics-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335919.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2026 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2026 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335919.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335919.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+          "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院专职教师名录",
+          "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-ma-yingjie",
+        "name": "Yingjie Ma",
+        "nameZh": "马英杰",
+        "department": "机器人与自动化学院",
+        "position": "助理教授 / 博士生导师",
+        "researchZh": "研究复杂动态系统建模、数值优化、模型预测控制和机器学习，官方页面欢迎申请硕士、博士。",
+        "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335919.html",
+        "routeIds": [
+          "nju-robotics-phd-reference-2026"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335919.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+            "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院专职教师名录",
+            "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-mei-wenjie",
+      "name": "Wenjie Mei",
+      "nameZh": "梅文杰",
+      "institution": "NJU",
+      "department": "机器人与自动化学院",
+      "position": "助理教授 / 博士生导师",
+      "topics": [
+        "机器人运动规划与控制",
+        "潜空间世界模型",
+        "复杂系统控制",
+        "智能预测"
+      ],
+      "summary": "研究机器人运动规划控制、潜空间世界模型以及学习、预测与控制。",
+      "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335917.html",
+      "routeIds": [
+        "nju-robotics-phd-reference-2026"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-robotics-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335917.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2026 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2026 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335917.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335917.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+          "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院专职教师名录",
+          "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-mei-wenjie",
+        "name": "Wenjie Mei",
+        "nameZh": "梅文杰",
+        "department": "机器人与自动化学院",
+        "position": "助理教授 / 博士生导师",
+        "researchZh": "研究机器人运动规划控制、潜空间世界模型以及学习、预测与控制。",
+        "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335917.html",
+        "routeIds": [
+          "nju-robotics-phd-reference-2026"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335917.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+            "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院专职教师名录",
+            "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-wei-jingwen",
+      "name": "Jingwen Wei",
+      "nameZh": "魏婧雯",
+      "institution": "NJU",
+      "department": "机器人与自动化学院",
+      "position": "准聘助理教授 / 博士生导师",
+      "topics": [
+        "具身智能",
+        "时序基础模型",
+        "安全强化学习",
+        "装备健康管理",
+        "能源自治"
+      ],
+      "summary": "研究时序大模型、具身智能、安全鲁棒强化学习和机器人能源自治，官方页面写明每年招收博士、硕士。",
+      "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20251125/i353102.html",
+      "routeIds": [
+        "nju-robotics-phd-reference-2026"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-robotics-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20251125/i353102.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2026 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2026 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20251125/i353102.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://ra.nju.edu.cn/szll/zzjs/20251125/i353102.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+          "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院专职教师名录",
+          "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-wei-jingwen",
+        "name": "Jingwen Wei",
+        "nameZh": "魏婧雯",
+        "department": "机器人与自动化学院",
+        "position": "准聘助理教授 / 博士生导师",
+        "researchZh": "研究时序大模型、具身智能、安全鲁棒强化学习和机器人能源自治，官方页面写明每年招收博士、硕士。",
+        "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20251125/i353102.html",
+        "routeIds": [
+          "nju-robotics-phd-reference-2026"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://ra.nju.edu.cn/szll/zzjs/20251125/i353102.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+            "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院专职教师名录",
+            "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-sun-yuxiang",
+      "name": "Yuxiang Sun",
+      "nameZh": "孙宇祥",
+      "institution": "NJU",
+      "department": "机器人与自动化学院",
+      "position": "准聘助理教授 / 博士生导师",
+      "topics": [
+        "具身智能",
+        "人机融合系统",
+        "深度强化学习",
+        "大模型决策",
+        "智能博弈"
+      ],
+      "summary": "研究具身智能、人机融合系统、深度强化学习和大模型决策。",
+      "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352800.html",
+      "routeIds": [
+        "nju-robotics-phd-reference-2026"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-robotics-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352800.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2026 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2026 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352800.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352800.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+          "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院专职教师名录",
+          "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-sun-yuxiang",
+        "name": "Yuxiang Sun",
+        "nameZh": "孙宇祥",
+        "department": "机器人与自动化学院",
+        "position": "准聘助理教授 / 博士生导师",
+        "researchZh": "研究具身智能、人机融合系统、深度强化学习和大模型决策。",
+        "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352800.html",
+        "routeIds": [
+          "nju-robotics-phd-reference-2026"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352800.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+            "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院专职教师名录",
+            "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-yan-hao",
+      "name": "Hao Yan",
+      "nameZh": "闫浩",
+      "institution": "NJU",
+      "department": "机器人与自动化学院",
+      "position": "准聘副教授 / 博士生导师",
+      "topics": [
+        "机器人关节电机",
+        "电动飞行器推进",
+        "驱动控制",
+        "电力电子"
+      ],
+      "summary": "研究机器人关节电机及控制、电动飞行器推进和电能变换，官方页面明确常年招收硕博士。",
+      "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20260403/i371555.html",
+      "routeIds": [
+        "nju-robotics-phd-reference-2026"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-robotics-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20260403/i371555.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2026 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2026 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20260403/i371555.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://ra.nju.edu.cn/szll/zzjs/20260403/i371555.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+          "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院专职教师名录",
+          "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-yan-hao",
+        "name": "Hao Yan",
+        "nameZh": "闫浩",
+        "department": "机器人与自动化学院",
+        "position": "准聘副教授 / 博士生导师",
+        "researchZh": "研究机器人关节电机及控制、电动飞行器推进和电能变换，官方页面明确常年招收硕博士。",
+        "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20260403/i371555.html",
+        "routeIds": [
+          "nju-robotics-phd-reference-2026"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://ra.nju.edu.cn/szll/zzjs/20260403/i371555.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+            "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院专职教师名录",
+            "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-gao-yan",
+      "name": "Yan Gao",
+      "nameZh": "高岩",
+      "institution": "NJU",
+      "department": "机器人与自动化学院",
+      "position": "助理教授 / 博士生导师",
+      "topics": [
+        "无人机集群协同控制",
+        "多机器人安全控制",
+        "运动规划",
+        "抗扰控制"
+      ],
+      "summary": "研究无人机集群、多机器人系统安全控制、运动规划与抗扰控制，官方页面欢迎博士申请。",
+      "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20260407/i372033.html",
+      "routeIds": [
+        "nju-robotics-phd-reference-2026"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-robotics-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20260407/i372033.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2026 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2026 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20260407/i372033.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://ra.nju.edu.cn/szll/zzjs/20260407/i372033.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+          "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院专职教师名录",
+          "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-gao-yan",
+        "name": "Yan Gao",
+        "nameZh": "高岩",
+        "department": "机器人与自动化学院",
+        "position": "助理教授 / 博士生导师",
+        "researchZh": "研究无人机集群、多机器人系统安全控制、运动规划与抗扰控制，官方页面欢迎博士申请。",
+        "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20260407/i372033.html",
+        "routeIds": [
+          "nju-robotics-phd-reference-2026"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://ra.nju.edu.cn/szll/zzjs/20260407/i372033.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+            "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院专职教师名录",
+            "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-lyu-shangke",
+      "name": "Shangke Lyu",
+      "nameZh": "吕尚可",
+      "institution": "NJU",
+      "department": "机器人与自动化学院",
+      "position": "助理教授 / 特聘研究员",
+      "topics": [
+        "机器人运动控制",
+        "强化学习",
+        "足式机器人",
+        "VLA",
+        "世界模型",
+        "具身智能"
+      ],
+      "summary": "研究机器人运动控制、强化学习、足式机器人和开放环境行为生成，官方页面欢迎博士生申请。",
+      "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352806.html",
+      "routeIds": [
+        "nju-robotics-phd-reference-2026"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-robotics-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352806.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2026 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2026 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352806.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+              "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学机器人与自动化学院专职教师名录",
+              "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352806.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+          "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院专职教师名录",
+          "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-lyu-shangke",
+        "name": "Shangke Lyu",
+        "nameZh": "吕尚可",
+        "department": "机器人与自动化学院",
+        "position": "助理教授 / 特聘研究员",
+        "researchZh": "研究机器人运动控制、强化学习、足式机器人和开放环境行为生成，官方页面欢迎博士生申请。",
+        "profileUrl": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352806.html",
+        "routeIds": [
+          "nju-robotics-phd-reference-2026"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352806.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+            "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学机器人与自动化学院专职教师名录",
+            "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-bing-zhenshan",
+      "name": "Zhenshan Bing",
+      "nameZh": "邴振山",
+      "institution": "NJU",
+      "department": "智能科学与技术学院",
+      "position": "准聘副教授 / 博士生导师",
+      "topics": [
+        "具身智能",
+        "机器人智能控制",
+        "类脑仿生机器人"
+      ],
+      "summary": "研究具身智能、机器人智能控制和类脑仿生机器人。",
+      "profileUrl": "https://is.nju.edu.cn/bzs/main.htm",
+      "routeIds": [
+        "nju-intelligent-science-phd-reference-2025"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-intelligent-science-phd-reference-2025",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://is.nju.edu.cn/bzs/main.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院院况概览",
+              "url": "https://is.nju.edu.cn/ykgl/list.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+              "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2025",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2025 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2025 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://is.nju.edu.cn/bzs/main.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院院况概览",
+              "url": "https://is.nju.edu.cn/ykgl/list.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+              "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2025",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://is.nju.edu.cn/bzs/main.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学智能科学与技术学院院况概览",
+          "url": "https://is.nju.edu.cn/ykgl/list.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+          "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-bing-zhenshan",
+        "name": "Zhenshan Bing",
+        "nameZh": "邴振山",
+        "department": "智能科学与技术学院",
+        "position": "准聘副教授 / 博士生导师",
+        "researchZh": "研究具身智能、机器人智能控制和类脑仿生机器人。",
+        "profileUrl": "https://is.nju.edu.cn/bzs/main.htm",
+        "routeIds": [
+          "nju-intelligent-science-phd-reference-2025"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://is.nju.edu.cn/bzs/main.htm",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学智能科学与技术学院院况概览",
+            "url": "https://is.nju.edu.cn/ykgl/list.htm",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+            "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-yi-zili",
+      "name": "Zili Yi",
+      "nameZh": "易子立",
+      "institution": "NJU",
+      "department": "智能科学与技术学院",
+      "position": "副教授 / 博士生导师",
+      "topics": [
+        "机器人大脑",
+        "多模态大模型",
+        "多模态智能体",
+        "VLA",
+        "世界模型"
+      ],
+      "summary": "研究机器人大脑、多模态大模型、多模态智能体、VLA和世界模型，官方页面长期招收博士生。",
+      "profileUrl": "https://is.nju.edu.cn/yzl/main.htm",
+      "routeIds": [
+        "nju-intelligent-science-phd-reference-2025"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-intelligent-science-phd-reference-2025",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://is.nju.edu.cn/yzl/main.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院院况概览",
+              "url": "https://is.nju.edu.cn/ykgl/list.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+              "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2025",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2025 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2025 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://is.nju.edu.cn/yzl/main.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院院况概览",
+              "url": "https://is.nju.edu.cn/ykgl/list.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+              "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2025",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://is.nju.edu.cn/yzl/main.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学智能科学与技术学院院况概览",
+          "url": "https://is.nju.edu.cn/ykgl/list.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+          "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-yi-zili",
+        "name": "Zili Yi",
+        "nameZh": "易子立",
+        "department": "智能科学与技术学院",
+        "position": "副教授 / 博士生导师",
+        "researchZh": "研究机器人大脑、多模态大模型、多模态智能体、VLA和世界模型，官方页面长期招收博士生。",
+        "profileUrl": "https://is.nju.edu.cn/yzl/main.htm",
+        "routeIds": [
+          "nju-intelligent-science-phd-reference-2025"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://is.nju.edu.cn/yzl/main.htm",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学智能科学与技术学院院况概览",
+            "url": "https://is.nju.edu.cn/ykgl/list.htm",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+            "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-zhang-zhenyu",
+      "name": "Zhenyu Zhang",
+      "nameZh": "张振宇",
+      "institution": "NJU",
+      "department": "智能科学与技术学院",
+      "position": "副教授 / 博士生导师",
+      "topics": [
+        "具身空间智能",
+        "3D数字人—机器人交叉",
+        "3D内容生成"
+      ],
+      "summary": "研究具身空间智能、3D数字人与机器人交叉和3D内容生成。",
+      "profileUrl": "https://is.nju.edu.cn/d1/83/c57725a643459/page1.htm",
+      "routeIds": [
+        "nju-intelligent-science-phd-reference-2025"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-intelligent-science-phd-reference-2025",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://is.nju.edu.cn/d1/83/c57725a643459/page1.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院院况概览",
+              "url": "https://is.nju.edu.cn/ykgl/list.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+              "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2025",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2025 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2025 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://is.nju.edu.cn/d1/83/c57725a643459/page1.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院院况概览",
+              "url": "https://is.nju.edu.cn/ykgl/list.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+              "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2025",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://is.nju.edu.cn/d1/83/c57725a643459/page1.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学智能科学与技术学院院况概览",
+          "url": "https://is.nju.edu.cn/ykgl/list.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+          "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-zhang-zhenyu",
+        "name": "Zhenyu Zhang",
+        "nameZh": "张振宇",
+        "department": "智能科学与技术学院",
+        "position": "副教授 / 博士生导师",
+        "researchZh": "研究具身空间智能、3D数字人与机器人交叉和3D内容生成。",
+        "profileUrl": "https://is.nju.edu.cn/d1/83/c57725a643459/page1.htm",
+        "routeIds": [
+          "nju-intelligent-science-phd-reference-2025"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://is.nju.edu.cn/d1/83/c57725a643459/page1.htm",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学智能科学与技术学院院况概览",
+            "url": "https://is.nju.edu.cn/ykgl/list.htm",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+            "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-zhu-hao",
+      "name": "Hao Zhu",
+      "nameZh": "朱昊",
+      "institution": "NJU",
+      "department": "智能科学与技术学院",
+      "position": "准聘副教授 / 博士生导师",
+      "topics": [
+        "三维视觉",
+        "空间智能",
+        "数字人",
+        "具身智能"
+      ],
+      "summary": "研究3D视觉、空间智能、数字人与具身AI，官方页面明确招收硕士和博士。",
+      "profileUrl": "https://is.nju.edu.cn/zh_en/main.htm",
+      "routeIds": [
+        "nju-intelligent-science-phd-reference-2025"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-intelligent-science-phd-reference-2025",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://is.nju.edu.cn/zh_en/main.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院院况概览",
+              "url": "https://is.nju.edu.cn/ykgl/list.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+              "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2025",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2025 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2025 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://is.nju.edu.cn/zh_en/main.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院院况概览",
+              "url": "https://is.nju.edu.cn/ykgl/list.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+              "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2025",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://is.nju.edu.cn/zh_en/main.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学智能科学与技术学院院况概览",
+          "url": "https://is.nju.edu.cn/ykgl/list.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+          "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-zhu-hao",
+        "name": "Hao Zhu",
+        "nameZh": "朱昊",
+        "department": "智能科学与技术学院",
+        "position": "准聘副教授 / 博士生导师",
+        "researchZh": "研究3D视觉、空间智能、数字人与具身AI，官方页面明确招收硕士和博士。",
+        "profileUrl": "https://is.nju.edu.cn/zh_en/main.htm",
+        "routeIds": [
+          "nju-intelligent-science-phd-reference-2025"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://is.nju.edu.cn/zh_en/main.htm",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学智能科学与技术学院院况概览",
+            "url": "https://is.nju.edu.cn/ykgl/list.htm",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+            "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-yao-yao",
+      "name": "Yao Yao",
+      "nameZh": "姚遥",
+      "institution": "NJU",
+      "department": "智能科学与技术学院",
+      "position": "准聘副教授 / 博士生导师",
+      "topics": [
+        "三维重建",
+        "三维生成",
+        "空间感知",
+        "具身视觉"
+      ],
+      "summary": "研究三维重建与生成，是智能科学与技术学院博士生导师。",
+      "profileUrl": "https://is.nju.edu.cn/d1/71/c57693a643441/page.htm",
+      "routeIds": [
+        "nju-intelligent-science-phd-reference-2025"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-intelligent-science-phd-reference-2025",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://is.nju.edu.cn/d1/71/c57693a643441/page.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院院况概览",
+              "url": "https://is.nju.edu.cn/ykgl/list.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+              "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2025",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2025 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2025 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://is.nju.edu.cn/d1/71/c57693a643441/page.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院院况概览",
+              "url": "https://is.nju.edu.cn/ykgl/list.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+              "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2025",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://is.nju.edu.cn/d1/71/c57693a643441/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学智能科学与技术学院院况概览",
+          "url": "https://is.nju.edu.cn/ykgl/list.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+          "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-yao-yao",
+        "name": "Yao Yao",
+        "nameZh": "姚遥",
+        "department": "智能科学与技术学院",
+        "position": "准聘副教授 / 博士生导师",
+        "researchZh": "研究三维重建与生成，是智能科学与技术学院博士生导师。",
+        "profileUrl": "https://is.nju.edu.cn/d1/71/c57693a643441/page.htm",
+        "routeIds": [
+          "nju-intelligent-science-phd-reference-2025"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://is.nju.edu.cn/d1/71/c57693a643441/page.htm",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学智能科学与技术学院院况概览",
+            "url": "https://is.nju.edu.cn/ykgl/list.htm",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+            "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-long-xiaoxiao",
+      "name": "Xiaoxiao Long",
+      "nameZh": "龙霄潇",
+      "institution": "NJU",
+      "department": "智能科学与技术学院",
+      "position": "准聘副教授",
+      "topics": [
+        "世界模型",
+        "人形机器人",
+        "视触觉操作",
+        "具身智能"
+      ],
+      "summary": "研究世界模型、人形机器人和视触觉操作；官方学院页列入具身智能方向教师，招生信息另见公开招生贴。",
+      "profileUrl": "https://is.nju.edu.cn/lxx/main.htm",
+      "routeIds": [
+        "nju-intelligent-science-phd-reference-2025"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-intelligent-science-phd-reference-2025",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://is.nju.edu.cn/lxx/main.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院院况概览",
+              "url": "https://is.nju.edu.cn/ykgl/list.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+              "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2025",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2025 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2025 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://is.nju.edu.cn/lxx/main.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院院况概览",
+              "url": "https://is.nju.edu.cn/ykgl/list.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+              "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2025",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://is.nju.edu.cn/lxx/main.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学智能科学与技术学院院况概览",
+          "url": "https://is.nju.edu.cn/ykgl/list.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+          "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-long-xiaoxiao",
+        "name": "Xiaoxiao Long",
+        "nameZh": "龙霄潇",
+        "department": "智能科学与技术学院",
+        "position": "准聘副教授",
+        "researchZh": "研究世界模型、人形机器人和视触觉操作；官方学院页列入具身智能方向教师，招生信息另见公开招生贴。",
+        "profileUrl": "https://is.nju.edu.cn/lxx/main.htm",
+        "routeIds": [
+          "nju-intelligent-science-phd-reference-2025"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://is.nju.edu.cn/lxx/main.htm",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学智能科学与技术学院院况概览",
+            "url": "https://is.nju.edu.cn/ykgl/list.htm",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+            "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-shi-jieqi",
+      "name": "Jieqi Shi",
+      "nameZh": "史桀绮",
+      "institution": "NJU",
+      "department": "智能科学与技术学院",
+      "position": "准聘副教授",
+      "topics": [
+        "机器人SLAM",
+        "点云物体补全",
+        "强化学习",
+        "机器人感知"
+      ],
+      "summary": "研究基于AI感知的机器人算法，包括SLAM、点云物体补全和强化学习。",
+      "profileUrl": "https://is.nju.edu.cn/b2/88/c60077a701064/page.htm",
+      "routeIds": [
+        "nju-intelligent-science-phd-reference-2025"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-intelligent-science-phd-reference-2025",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://is.nju.edu.cn/b2/88/c60077a701064/page.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院院况概览",
+              "url": "https://is.nju.edu.cn/ykgl/list.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+              "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2025",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2025 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2025 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://is.nju.edu.cn/b2/88/c60077a701064/page.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院院况概览",
+              "url": "https://is.nju.edu.cn/ykgl/list.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+              "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2025",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://is.nju.edu.cn/b2/88/c60077a701064/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学智能科学与技术学院院况概览",
+          "url": "https://is.nju.edu.cn/ykgl/list.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+          "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-shi-jieqi",
+        "name": "Jieqi Shi",
+        "nameZh": "史桀绮",
+        "department": "智能科学与技术学院",
+        "position": "准聘副教授",
+        "researchZh": "研究基于AI感知的机器人算法，包括SLAM、点云物体补全和强化学习。",
+        "profileUrl": "https://is.nju.edu.cn/b2/88/c60077a701064/page.htm",
+        "routeIds": [
+          "nju-intelligent-science-phd-reference-2025"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://is.nju.edu.cn/b2/88/c60077a701064/page.htm",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学智能科学与技术学院院况概览",
+            "url": "https://is.nju.edu.cn/ykgl/list.htm",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+            "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-jia-liu",
+      "name": "Jia Liu",
+      "nameZh": "刘佳",
+      "institution": "NJU",
+      "department": "计算机学院",
+      "position": "教授 / 博士生导师",
+      "topics": [
+        "智能感知",
+        "具身智能",
+        "物联网",
+        "普适计算",
+        "移动机器人"
+      ],
+      "summary": "研究智能感知、具身智能、物联网、普适计算和移动机器人。",
+      "profileUrl": "https://cs.nju.edu.cn/liujia/",
+      "routeIds": [
+        "nju-cs-embodied-phd-reference-2025"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-cs-embodied-phd-reference-2025",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://cs.nju.edu.cn/liujia/",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学计算机学院刘佳个人主页",
+              "url": "https://cs.nju.edu.cn/liujia/",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学计算机学院霍静个人主页",
+              "url": "https://cs.nju.edu.cn/huojing/index.htm",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2025",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2025 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2025 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://cs.nju.edu.cn/liujia/",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学计算机学院刘佳个人主页",
+              "url": "https://cs.nju.edu.cn/liujia/",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学计算机学院霍静个人主页",
+              "url": "https://cs.nju.edu.cn/huojing/index.htm",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2025",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://cs.nju.edu.cn/liujia/",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学计算机学院刘佳个人主页",
+          "url": "https://cs.nju.edu.cn/liujia/",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学计算机学院霍静个人主页",
+          "url": "https://cs.nju.edu.cn/huojing/index.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-jia-liu",
+        "name": "Jia Liu",
+        "nameZh": "刘佳",
+        "department": "计算机学院",
+        "position": "教授 / 博士生导师",
+        "researchZh": "研究智能感知、具身智能、物联网、普适计算和移动机器人。",
+        "profileUrl": "https://cs.nju.edu.cn/liujia/",
+        "routeIds": [
+          "nju-cs-embodied-phd-reference-2025"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://cs.nju.edu.cn/liujia/",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学计算机学院刘佳个人主页",
+            "url": "https://cs.nju.edu.cn/liujia/",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学计算机学院霍静个人主页",
+            "url": "https://cs.nju.edu.cn/huojing/index.htm",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-huo-jing",
+      "name": "Jing Huo",
+      "nameZh": "霍静",
+      "institution": "NJU",
+      "department": "计算机学院",
+      "position": "准聘副教授",
+      "topics": [
+        "机器学习",
+        "计算机视觉",
+        "具身智能",
+        "扩散模型",
+        "机器人"
+      ],
+      "summary": "研究机器学习、计算机视觉、具身智能及其在机器人中的应用；官方页面曾明确招收具身智能方向博士。",
+      "profileUrl": "https://cs.nju.edu.cn/huojing/index.htm",
+      "routeIds": [
+        "nju-cs-embodied-phd-reference-2025"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-cs-embodied-phd-reference-2025",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://cs.nju.edu.cn/huojing/index.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学计算机学院刘佳个人主页",
+              "url": "https://cs.nju.edu.cn/liujia/",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学计算机学院霍静个人主页",
+              "url": "https://cs.nju.edu.cn/huojing/index.htm",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2025",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2025 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2025 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://cs.nju.edu.cn/huojing/index.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学计算机学院刘佳个人主页",
+              "url": "https://cs.nju.edu.cn/liujia/",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学计算机学院霍静个人主页",
+              "url": "https://cs.nju.edu.cn/huojing/index.htm",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2025",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://cs.nju.edu.cn/huojing/index.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学计算机学院刘佳个人主页",
+          "url": "https://cs.nju.edu.cn/liujia/",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学计算机学院霍静个人主页",
+          "url": "https://cs.nju.edu.cn/huojing/index.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-huo-jing",
+        "name": "Jing Huo",
+        "nameZh": "霍静",
+        "department": "计算机学院",
+        "position": "准聘副教授",
+        "researchZh": "研究机器学习、计算机视觉、具身智能及其在机器人中的应用；官方页面曾明确招收具身智能方向博士。",
+        "profileUrl": "https://cs.nju.edu.cn/huojing/index.htm",
+        "routeIds": [
+          "nju-cs-embodied-phd-reference-2025"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://cs.nju.edu.cn/huojing/index.htm",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学计算机学院刘佳个人主页",
+            "url": "https://cs.nju.edu.cn/liujia/",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学计算机学院霍静个人主页",
+            "url": "https://cs.nju.edu.cn/huojing/index.htm",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-hankz-zhuo",
+      "name": "Hankz Hankui Zhuo",
+      "nameZh": "卓汉逵",
+      "institution": "NJU",
+      "department": "人工智能学院",
+      "position": "教授",
+      "topics": [
+        "智能规划",
+        "具身智能机器人",
+        "多智能体系统",
+        "机器学习",
+        "智能决策"
+      ],
+      "summary": "智能规划与决策实验室明确研究具身智能机器人、开放世界规划和多智能体决策。",
+      "profileUrl": "https://ai.nju.edu.cn/hankz/",
+      "routeIds": [
+        "nju-ai-embodied-phd-reference-2026"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-ai-embodied-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ai.nju.edu.cn/hankz/",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学人工智能学院教师名录",
+              "url": "https://ai.nju.edu.cn/people/list.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学人工智能学院LAMDA 2026招生说明",
+              "url": "https://www.lamda.nju.edu.cn/recruit-2026/recruit-2026.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2026 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2026 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ai.nju.edu.cn/hankz/",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学人工智能学院教师名录",
+              "url": "https://ai.nju.edu.cn/people/list.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学人工智能学院LAMDA 2026招生说明",
+              "url": "https://www.lamda.nju.edu.cn/recruit-2026/recruit-2026.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://ai.nju.edu.cn/hankz/",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学人工智能学院教师名录",
+          "url": "https://ai.nju.edu.cn/people/list.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学人工智能学院LAMDA 2026招生说明",
+          "url": "https://www.lamda.nju.edu.cn/recruit-2026/recruit-2026.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-hankz-zhuo",
+        "name": "Hankz Hankui Zhuo",
+        "nameZh": "卓汉逵",
+        "department": "人工智能学院",
+        "position": "教授",
+        "researchZh": "智能规划与决策实验室明确研究具身智能机器人、开放世界规划和多智能体决策。",
+        "profileUrl": "https://ai.nju.edu.cn/hankz/",
+        "routeIds": [
+          "nju-ai-embodied-phd-reference-2026"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://ai.nju.edu.cn/hankz/",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学人工智能学院教师名录",
+            "url": "https://ai.nju.edu.cn/people/list.htm",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学人工智能学院LAMDA 2026招生说明",
+            "url": "https://www.lamda.nju.edu.cn/recruit-2026/recruit-2026.html",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
+    },
+    {
+      "id": "nju-qian-chao",
+      "name": "Chao Qian",
+      "nameZh": "钱超",
+      "institution": "NJU",
+      "department": "人工智能学院 / LAMDA",
+      "position": "教授 / 博士生导师",
+      "topics": [
+        "人工智能",
+        "演化计算",
+        "机器学习",
+        "智能优化"
+      ],
+      "summary": "研究人工智能、演化计算与机器学习，官方主页明确招收硕士和博士。",
+      "profileUrl": "https://ai.nju.edu.cn/71/c9/c18540a422345/page.htm",
+      "routeIds": [
+        "nju-ai-embodied-phd-reference-2026"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "nju-ai-embodied-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "官方导师主页或院系材料确认任职与研究方向，并与南京大学博士方向形成项目层面参考；个人当期接收、名额和资助仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ai.nju.edu.cn/71/c9/c18540a422345/page.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学人工智能学院教师名录",
+              "url": "https://ai.nju.edu.cn/people/list.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学人工智能学院LAMDA 2026招生说明",
+              "url": "https://www.lamda.nju.edu.cn/recruit-2026/recruit-2026.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "导师身份与研究方向不等于个人招生名额。",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2027/2028 个人导师名额待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "博士项目参考保留；个人对应当期项目的接收、名额和资助待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "2026 项目/方向参考；个人招生名额待核",
+        "cycle2028": "个人 2028 Fall 招生名额未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "博士导师/研究方向参考保留；个人2027/2028招生与名额未核实",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": false,
+          "cycle2028FallVerified": false,
+          "cycle": "2026 项目/方向参考；个人2028 Fall招生未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "program_reference_only",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://ai.nju.edu.cn/71/c9/c18540a422345/page.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学人工智能学院教师名录",
+              "url": "https://ai.nju.edu.cn/people/list.htm",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "南京大学人工智能学院LAMDA 2026招生说明",
+              "url": "https://www.lamda.nju.edu.cn/recruit-2026/recruit-2026.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2026",
+          "admissionMode": "school_or_department_application"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://ai.nju.edu.cn/71/c9/c18540a422345/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学人工智能学院教师名录",
+          "url": "https://ai.nju.edu.cn/people/list.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学人工智能学院LAMDA 2026招生说明",
+          "url": "https://www.lamda.nju.edu.cn/recruit-2026/recruit-2026.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "南京大学博士项目或导师目录只能证明项目/方向层面参考，不能替代个人接收和余位确认。",
+        "当前未找到个人 2028 Fall 招生名额声明。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "nju-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "nju-qian-chao",
+        "name": "Chao Qian",
+        "nameZh": "钱超",
+        "department": "人工智能学院 / LAMDA",
+        "position": "教授 / 博士生导师",
+        "researchZh": "研究人工智能、演化计算与机器学习，官方主页明确招收硕士和博士。",
+        "profileUrl": "https://ai.nju.edu.cn/71/c9/c18540a422345/page.htm",
+        "routeIds": [
+          "nju-ai-embodied-phd-reference-2026"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://ai.nju.edu.cn/71/c9/c18540a422345/page.htm",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学人工智能学院教师名录",
+            "url": "https://ai.nju.edu.cn/people/list.htm",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "南京大学人工智能学院LAMDA 2026招生说明",
+            "url": "https://www.lamda.nju.edu.cn/recruit-2026/recruit-2026.html",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": false,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false
     }
   ],
   "routes": [
@@ -38289,6 +42759,185 @@
           }
         ]
       }
+    },
+    {
+      "id": "nju-robotics-phd-reference-2026",
+      "institution": "NJU",
+      "department": "机器人与自动化学院",
+      "program": "南京大学机器人与自动化学院控制科学与智能工程博士方向参考（2026）",
+      "degree": "PhD",
+      "bachelorEligible": false,
+      "noTuimianRequired": false,
+      "noMasterRequired": false,
+      "status": "reference",
+      "eligibilitySummary": "南京大学官方院系材料或导师主页提供项目/方向层面的博士参考；个人博士接收、当期名额、资助和导师确认需按当年院系说明另行核验。",
+      "supervisorAssociation": "项目或导师公开资料用于研究方向参考，不证明某位导师在2027/2028 Fall拥有个人余位。",
+      "admissionYear": "2026 项目/方向参考；个人2028 Fall名额未核实",
+      "cycle2027Verified": false,
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false,
+      "currentCycleVerificationStatus": "verified",
+      "sourceCycle": "2026",
+      "sourceCycles": [
+        "2026"
+      ],
+      "admissionMode": "school_or_department_application",
+      "evidenceScope": "program_and_direction_reference",
+      "applicationStatus": "unknown",
+      "applicationMethod": "以南京大学研究生招生网、院系当年博士招生简章和导师公开页面为准；项目资格、导师关联与个人余位分别核验",
+      "sources": [
+        {
+          "label": "南京大学机器人与自动化学院2026年博士研究生申请-考核制实施细则",
+          "url": "https://ra.nju.edu.cn/xydt/tzgg/20251209/i354089.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学机器人与自动化学院专职教师名录",
+          "url": "https://cms.nju.edu.cn/njdx/front/s216/szll/zzjs/index.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "notes": [
+        "机器人与自动化学院的申请-考核制文件证明博士项目与导师招生流程存在；不将学院流程推导为某位导师的2028 Fall余位。",
+        "导师个人页面的常年招收或欢迎联系信息保留为背景证据，个人周期和剩余名额仍待核。"
+      ],
+      "requirements": [],
+      "checkedDate": "2026-10-05",
+      "defaultVisible": false
+    },
+    {
+      "id": "nju-intelligent-science-phd-reference-2025",
+      "institution": "NJU",
+      "department": "智能科学与技术学院",
+      "program": "南京大学智能科学与技术学院具身智能、空间智能与机器人博士方向参考",
+      "degree": "PhD",
+      "bachelorEligible": false,
+      "noTuimianRequired": false,
+      "noMasterRequired": false,
+      "status": "reference",
+      "eligibilitySummary": "南京大学官方院系材料或导师主页提供项目/方向层面的博士参考；个人博士接收、当期名额、资助和导师确认需按当年院系说明另行核验。",
+      "supervisorAssociation": "项目或导师公开资料用于研究方向参考，不证明某位导师在2027/2028 Fall拥有个人余位。",
+      "admissionYear": "2025 项目/方向参考；个人2028 Fall名额未核实",
+      "cycle2027Verified": false,
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false,
+      "currentCycleVerificationStatus": "verified",
+      "sourceCycle": "2025",
+      "sourceCycles": [
+        "2025"
+      ],
+      "admissionMode": "school_or_department_application",
+      "evidenceScope": "program_and_direction_reference",
+      "applicationStatus": "unknown",
+      "applicationMethod": "以南京大学研究生招生网、院系当年博士招生简章和导师公开页面为准；项目资格、导师关联与个人余位分别核验",
+      "sources": [
+        {
+          "label": "南京大学智能科学与技术学院院况概览",
+          "url": "https://is.nju.edu.cn/ykgl/list.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学智能科学与技术学院2025年博士研究生卓工专项",
+          "url": "https://is.nju.edu.cn/_upload/article/files/ec/ad/755775c5484e87d747ca7184647e/d088a570-3cf3-4b0d-88b6-db0b9926ed30.pdf",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "notes": [
+        "学院概览明确包含具身智能系统方向并设有博士学位点；2025卓工专项仅作项目历史参考。",
+        "不把学院博导总数或推免信息改写为个人2028 Fall名额。"
+      ],
+      "requirements": [],
+      "checkedDate": "2026-10-05",
+      "defaultVisible": false
+    },
+    {
+      "id": "nju-cs-embodied-phd-reference-2025",
+      "institution": "NJU",
+      "department": "计算机学院",
+      "program": "南京大学计算机学院具身智能、移动机器人与视觉方向博士参考",
+      "degree": "PhD",
+      "bachelorEligible": false,
+      "noTuimianRequired": false,
+      "noMasterRequired": false,
+      "status": "reference",
+      "eligibilitySummary": "南京大学官方院系材料或导师主页提供项目/方向层面的博士参考；个人博士接收、当期名额、资助和导师确认需按当年院系说明另行核验。",
+      "supervisorAssociation": "项目或导师公开资料用于研究方向参考，不证明某位导师在2027/2028 Fall拥有个人余位。",
+      "admissionYear": "2025 项目/方向参考；个人2028 Fall名额未核实",
+      "cycle2027Verified": false,
+      "projectCycleVerified": false,
+      "individualRecruitmentVerified": false,
+      "currentCycleVerificationStatus": "pending",
+      "sourceCycle": "2025",
+      "sourceCycles": [
+        "2025"
+      ],
+      "admissionMode": "school_or_department_application",
+      "evidenceScope": "program_and_direction_reference",
+      "applicationStatus": "unknown",
+      "applicationMethod": "以南京大学研究生招生网、院系当年博士招生简章和导师公开页面为准；项目资格、导师关联与个人余位分别核验",
+      "sources": [
+        {
+          "label": "南京大学计算机学院刘佳个人主页",
+          "url": "https://cs.nju.edu.cn/liujia/",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学计算机学院霍静个人主页",
+          "url": "https://cs.nju.edu.cn/huojing/index.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "notes": [
+        "计算机学院导师主页提供方向与博士招收线索，但本记录没有独立的院系博士项目招生文件。",
+        "页面年份为历史参考，未升级为2028 Fall招生。"
+      ],
+      "requirements": [],
+      "checkedDate": "2026-10-05",
+      "defaultVisible": false
+    },
+    {
+      "id": "nju-ai-embodied-phd-reference-2026",
+      "institution": "NJU",
+      "department": "人工智能学院",
+      "program": "南京大学人工智能学院智能规划、演化学习与具身机器人博士方向参考",
+      "degree": "PhD",
+      "bachelorEligible": false,
+      "noTuimianRequired": false,
+      "noMasterRequired": false,
+      "status": "reference",
+      "eligibilitySummary": "南京大学官方院系材料或导师主页提供项目/方向层面的博士参考；个人博士接收、当期名额、资助和导师确认需按当年院系说明另行核验。",
+      "supervisorAssociation": "项目或导师公开资料用于研究方向参考，不证明某位导师在2027/2028 Fall拥有个人余位。",
+      "admissionYear": "2026 项目/方向参考；个人2028 Fall名额未核实",
+      "cycle2027Verified": false,
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false,
+      "currentCycleVerificationStatus": "verified",
+      "sourceCycle": "2026",
+      "sourceCycles": [
+        "2026"
+      ],
+      "admissionMode": "school_or_department_application",
+      "evidenceScope": "program_and_direction_reference",
+      "applicationStatus": "unknown",
+      "applicationMethod": "以南京大学研究生招生网、院系当年博士招生简章和导师公开页面为准；项目资格、导师关联与个人余位分别核验",
+      "sources": [
+        {
+          "label": "南京大学人工智能学院教师名录",
+          "url": "https://ai.nju.edu.cn/people/list.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "南京大学人工智能学院LAMDA 2026招生说明",
+          "url": "https://www.lamda.nju.edu.cn/recruit-2026/recruit-2026.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "notes": [
+        "人工智能学院教师名录和LAMDA招生说明提供博士导师与项目入口参考；个人招生、导师分配与名额继续分开核验。"
+      ],
+      "requirements": [],
+      "checkedDate": "2026-10-05",
+      "defaultVisible": false
     }
   ],
   "deadlines": [

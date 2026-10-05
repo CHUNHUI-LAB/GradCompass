@@ -13,7 +13,7 @@ const schools = [
   {institution:'Tongji', zh:'同济大学', baseRoute:'tongji-robotics-phd-reference-2026', review:'tongji-advisor-review-20261005.json', advisorIds:['tongji-he-bin','tongji-wang-zhipeng','tongji-xu-yang','tongji-jiang-shuo']},
   {institution:'SEU', zh:'东南大学', baseRoute:'seu-robotics-phd-reference-2026', review:'seu-advisor-review-20261005.json', advisorIds:['seu-li-zhongguo','seu-huang-yongming','seu-chang-zhiyong','seu-wei-xiucan','seu-song-mofei','seu-feng-lei','seu-zhang-yu']}
 ];
-const expectedPhdCounts = {ZJU:4,Fudan:4,SJTU:3,NJU:4,USTC:4,Tongji:4,SEU:7};
+const expectedPhdCounts = {ZJU:36,Fudan:4,SJTU:3,NJU:29,USTC:4,Tongji:4,SEU:7};
 const cycleRoutes = [
   ['nju-lamda-phd-reference-2027','NJU'],
   ['ustc-tong-plan-phd-reference-2027','USTC'],
