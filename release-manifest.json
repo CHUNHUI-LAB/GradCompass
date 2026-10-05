@@ -1,6 +1,6 @@
 {
   "project": "GradCompass",
-  "revision": "nju-robotics-expansion-20261005",
+  "revision": "sjtu-robotics-expansion-20261005",
   "baseSourceCommit": "91af79d313c3d0bd7f3bfd5a4e306a3af596ccaf",
   "baseDeployedCommit": "4840df6a9718ec38e472f8fd7496047248029e71",
   "snapshotDate": "2026-10-04",
@@ -9,7 +9,7 @@
   "firstRunVerified": false,
   "browserVisualQA": "Not yet browser-verified.",
   "profilePilotCount": 56,
-  "visibleAdvisorCount": 148,
+  "visibleAdvisorCount": 206,
   "opportunityCount": 59,
   "raPositionCount": 2,
   "newAdvisorProfiles": 26,
@@ -42,18 +42,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 41995,
-      "sha256": "460c1d7fb7658182f07f130e8314ad020353bfac14c64cb8433f8e422dfbe388"
+      "bytes": 44310,
+      "sha256": "bb513845bd1f7c28a812fca675d302d8bc2483768d8e081c955162330e81db5e"
     },
     {
       "path": "REPO-MAP.md",
-      "bytes": 10561,
-      "sha256": "63fae829e7d4b528f840c2b665a09bc6cc32cb6b3477fc03fd9cbf32ce4743cc"
+      "bytes": 11059,
+      "sha256": "e4bc74c73a07e5ef3651f0e180b9f4ef9216ec4865a9a7b57b415859e3b0d8b9"
     },
     {
       "path": "assets/app.js",
-      "bytes": 72273,
-      "sha256": "c9d6c387108ffd61a12df21a5aecf1841887a43f6e9c5d093df19487d1325ec1"
+      "bytes": 72414,
+      "sha256": "02a53cee872b42007287f26cf063a5feba4a7b4c6e7c738fca7b018529315b92"
     },
     {
       "path": "assets/campus-art.webp",
@@ -127,8 +127,8 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 2151548,
-      "sha256": "8e01c214816acd114a33ce52de40a78d4656fa3b9f96b22bf1a3e08c4bd79d48"
+      "bytes": 2561681,
+      "sha256": "637af61a343bf12d1214d29884ab4bcf57b4da67725c0698ca6d087b2eef90fc"
     },
     {
       "path": "data/fudan-advisor-review-20261005.json",
@@ -186,6 +186,11 @@
       "sha256": "0b186320f90670008b1b26b04d7f523f6810b14b325d3abc3f15d44e7a9cdd2b"
     },
     {
+      "path": "data/sjtu-robotics-advisor-review-20261005.json",
+      "bytes": 71533,
+      "sha256": "c9757ea27a29f075cddbe1a8ef7740a9ba4bda3f4a7c838d6db19143c5fdb048"
+    },
+    {
       "path": "data/sustech-advisor-review-20261004.json",
       "bytes": 42667,
       "sha256": "2f34732eed51b8d4939f8648fcb51333ca4ada82d94bdaf6097a308b9f6a2bf3"
@@ -223,7 +228,7 @@
     {
       "path": "index.html",
       "bytes": 8270,
-      "sha256": "8f28f8a0ef9a6b360bd740f488c359ecd09dfccb6e1206387b229656215828d3"
+      "sha256": "1c13af48cb7658be36148af73b8d6cec28a935a2ed4d9e584776cda43d80df0c"
     },
     {
       "path": "package.json",
@@ -232,8 +237,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 9073,
-      "sha256": "9e9d7c225aab11c3ad90c1ccf10eb683090b84d786fe1aec6231ca82e453e026"
+      "bytes": 9201,
+      "sha256": "deccde6bc1b3a3c7fef33bee9939f5efe9b9801ea7f94de5b8c6755e7bc2a24f"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -277,8 +282,8 @@
     },
     {
       "path": "tests/core.test.mjs",
-      "bytes": 8483,
-      "sha256": "bd2ed8f25d8af0ae97112d27f2154ea681e8d64ba8ef58cb83598870a7f5daf4"
+      "bytes": 8509,
+      "sha256": "c499816920146744bb66f0ec04274427fbc1872e672ec57f88a3551be1deb0bd"
     },
     {
       "path": "tests/current-correction-baseline.mjs",
@@ -628,7 +633,7 @@
     {
       "path": "tests/resource-versions.test.mjs",
       "bytes": 8159,
-      "sha256": "0eb871946536a2b8faa1c4f181bf2c974d542c86999b0b21bc869b14208257f0"
+      "sha256": "30f33bdab8d8020dec6b1767c8cfe8e6e9cadaa85d07a4c959bba63237206468"
     },
     {
       "path": "tests/seven-schools-baseline.mjs",
@@ -642,8 +647,13 @@
     },
     {
       "path": "tests/seven-schools-review.test.mjs",
-      "bytes": 5040,
-      "sha256": "365cee1dbc697095e4126ce1c13398b3fdcde6e1ce7047c83d49f4e66a0be488"
+      "bytes": 5041,
+      "sha256": "bb0975b71fb21cfd48b45ae984e42cfa39f09a48be0a33ff59972f2c109f38ff"
+    },
+    {
+      "path": "tests/sjtu-expansion.test.mjs",
+      "bytes": 2014,
+      "sha256": "26971f4c32860303b0e40adb95d5a78d0f414276fd98efdbb754ba1d893b7aee"
     },
     {
       "path": "tests/strict-history-transform.mjs",
@@ -714,10 +724,10 @@
     "baseCommit": "1281ce4740272443563b4a98f421561bacc801f9",
     "scope": "Two inaccurate MSc overview text fragments only; no structure, style or interaction changes"
   },
-  "advisorCatalogCount": 148,
+  "advisorCatalogCount": 206,
   "verifiedDegreeAssociationCount": 57,
-  "projectCatalogCount": 60,
-  "visibleProjectCount": 60,
+  "projectCatalogCount": 61,
+  "visibleProjectCount": 61,
   "candidateBaseCommit": "7a8b2d63da2eab07b315a099bcd51c561a0c8c6f",
   "evidenceScope": "All recorded advisors and academic references remain readable; verified degree associations require exact sourced advisor-route joins. Project evidence is not individual recruitment or remaining capacity.",
   "detailUiPolish": {
