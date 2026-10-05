@@ -1,4 +1,4 @@
-import {escapeHTML,buildOpportunities,browseRoutes as filterRoutes,browseAdvisors,filterDeadlines,deadlineStatus,themesFor,institutionLabel} from './core.js?v=0ea3317da2d7';
+import {escapeHTML,buildOpportunities,browseRoutes as filterRoutes,browseAdvisors,filterDeadlines,deadlineStatus,themesFor,institutionLabel} from './core.js?v=79b44f84ac83';
 
 const e=escapeHTML;
 const count=(rows,predicate)=>rows.filter(predicate).length;

@@ -1,4 +1,4 @@
-import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,degreeDisplay,deadlineStatus,isBrowsableRoute,routeEvidenceText,browseRoutes as filterRoutes} from './core.js?v=0ea3317da2d7';
+import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,degreeDisplay,deadlineStatus,isBrowsableRoute,routeEvidenceText,browseRoutes as filterRoutes,matchesSearch,routeSearchText} from './core.js?v=79b44f84ac83';
 const e=value=>escapeHTML(readerText(value));
 // Display-only wording: preserve source records and their qualification caveats.
 const supervisorAssociationLabels=new Map([
@@ -32,7 +32,7 @@ export function normalizeProjectSummaries(data,catalog){
  }
  return summaries;
 }
-export function filterProjectRoutes(catalog,filters={}){const q=(filters.query||'').trim().toLowerCase();if(!q)return filterRoutes(catalog,filters);const originalIds=new Set(filterRoutes(catalog,filters).map(r=>r.id));return filterRoutes(catalog,{...filters,query:''}).filter(r=>{const brief=catalog.projectSummaries?.get(r.id);return originalIds.has(r.id)||brief&&[...projectFacts.map(k=>brief[k].text),...brief.cautions.map(f=>f.text)].join(' ').toLowerCase().includes(q);});}
+export function filterProjectRoutes(catalog,filters={}){const q=filters.query||'';if(!q)return filterRoutes(catalog,filters);const originalIds=new Set(filterRoutes(catalog,filters).map(r=>r.id));return filterRoutes(catalog,{...filters,query:''}).filter(r=>{const brief=catalog.projectSummaries?.get(r.id);return originalIds.has(r.id)||brief&&matchesSearch([routeSearchText(r),...projectFacts.map(k=>brief[k].text),...brief.cautions.map(f=>f.text)].join(' '),q);});}
 function projectIntroduction(brief){if(!brief)return '';return section('培养与研究简介',paragraph(brief.overview.text)+`<h4>怎样培养</h4>${paragraph(brief.training.text)}<h4>本科申请入口</h4>${paragraph(brief.bachelorEntry.text)}<h4>批次边界</h4>${paragraph(brief.cycle.text)}`+items(brief.cautions)+`<p class="small-note">简介核读于 ${e(brief.checkedDate)}。招生方式、推免资格和前置学历须按对应项目逐项核对；简介不构成个人资格、导师名额或资助保证。</p>`);}
 function materialItems(values){return `<ul class="material-requirements">${values.map(value=>{if(typeof value!=='object')return `<li>${e(value)}</li>`;const sources=sourcesOf(value.sources);return `<li><strong>${e(materialKinds[value.kind]||'材料要求')}${value.requirementStatus?' · '+e(requirementStatuses[value.requirementStatus]||'具体适用条件见下文'):''}</strong><p>${e(value.text||value.requirement)}</p>${sources.length?`<p class="small-note">依据：${sources.map(s=>e(s.label)).join('；')}</p>`:''}</li>`;}).join('')}</ul>`;}
 const relatedProjects=(record,catalog)=>catalog.routes.filter(r=>(record.routeIds||[]).includes(r.id)&&isBrowsableRoute(r));

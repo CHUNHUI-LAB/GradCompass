@@ -62,6 +62,7 @@
 - `hasVerifiedAssociation`只接受精确routeId、verified状态、非pending验证及个人关联来源；`buildOpportunities`不把项目资格或reference转换成导师个人招生
 - 当前目录含91位导师与55个项目；本批在既有内容上追加七校博士项目参考、三条2027周期路径和四位东南大学导师。研究资料、前置学历和招生方式分别展示，未知不删除；新记录不改变57条已核实学位关联与2个独立RA岗位的统计。
 - `sourceCycle`、`admissionMode`、`currentCycleVerificationStatus`与个人`individualRecruitmentVerified`相互独立；周期标签须读原HTML标题，不能只依赖可能漏标题的正文抽取
+- 搜索索引由 `assets/core.js` 统一生成；导师、项目、日期和材料共用归一化匹配，学校简称、学位中英文别名和批次/条件文字只用于检索，不改变资格或机会统计
 - 四份补充资料独立加载；全依赖链content hash经freeze后写入，实际验证结果不硬编码进manifest
 - 历史tests采用固定commit及原始字节哈希，新增与纠错逐次精确逆变换；未知变化、排序和新增字段必须触发失败
 

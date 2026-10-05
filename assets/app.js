@@ -1,10 +1,10 @@
-import {renderProjectComparison,selectProjectComparisonRoutes} from './project-comparison.js?v=2b18e81203e0';
-import {renderPageOverview,overviewPresets} from './page-overviews.js?v=bd8aa27debda';
-import {normalizeMaterialSupplement} from './material-supplement.js?v=947252deca91';
-import {renderRecordSummary,supervisorAssociationText,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=08296d98b6ad';
-import {normalizeExperiences,renderExperiences,renderExperienceReading,renderExperienceEvidence,renderExperienceResults} from './experiences.js?v=44e45723b597';
-import {profileMap,profileSummary,renderProfile,renderProfileReferences} from './profiles.js?v=ee8e18b726ee';
-import {rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue} from './core.js?v=0ea3317da2d7';
+import {renderProjectComparison,selectProjectComparisonRoutes} from './project-comparison.js?v=6c410b0e71a7';
+import {renderPageOverview,overviewPresets} from './page-overviews.js?v=b3b49bc26271';
+import {normalizeMaterialSupplement} from './material-supplement.js?v=07ae3a09a2ba';
+import {renderRecordSummary,supervisorAssociationText,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=a3bc1afa9310';
+import {normalizeExperiences,renderExperiences,renderExperienceReading,renderExperienceEvidence,renderExperienceResults} from './experiences.js?v=8d440a2e4243';
+import {profileMap,profileSummary,renderProfile,renderProfileReferences} from './profiles.js?v=4b8e46812ffe';
+import {rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue} from './core.js?v=79b44f84ac83';
 const $=selector=>document.querySelector(selector);
 const e=value=>escapeHTML(readerText(value));
 const experienceFilters={query:'',collection:''};
@@ -298,7 +298,7 @@ async function loadExperienceSupplement(){
  refreshOptionalView('experiences');
 }
 async function loadProfileSupplement(){
- try{advisorProfiles=profileMap(await optionalJSON(new URL('../data/advisor-profiles.json?v=f1b3044692f6',import.meta.url)),catalog.advisors);}
+ try{advisorProfiles=profileMap(await optionalJSON(new URL('../data/advisor-profiles.json?v=f1b3044692f6',import.meta.url)),catalog.advisors);catalog={...catalog,advisorProfiles};}
  catch{}
  refreshOptionalView('advisors');refreshOptionalDetail('advisor');
 }
