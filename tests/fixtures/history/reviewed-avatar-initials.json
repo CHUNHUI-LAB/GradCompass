@@ -1,12 +1,12 @@
 {
-  "beforeCommit": "1e70f65e3eb5caf2baa655d532ae8183a8466ec3",
-  "beforeTree": "85357eeea3cf1d234558501ce7c2d298b00676c3",
+  "beforeCommit": "5617d13a000c557a0d29fc9658ef3c36d0ebb281",
+  "beforeTree": "a2e0c2f98dcbb5de33fe6997e45bb16b3674e907",
   "scope": "Avatar initials only; no source data changes",
   "files": {
     "assets/app.js": {
-      "beforeSha256": "a84fd8a5790fa003f487cabfc5da1cec961efc49597a85f6c41b45f49be0d72b",
-      "afterSha256": "f9e4d8cbd8e21f25a7d745d26d4e8440656684caa78d68b7e26c6e8d6326bda9",
-      "beforeGitBlob": "9bbe201c6981fe89541641ee521a080ba14c9870",
+      "beforeSha256": "c9d6c387108ffd61a12df21a5aecf1841887a43f6e9c5d093df19487d1325ec1",
+      "afterSha256": "c4b42a78c45ebbb0057059e023d30afbffd42456cc45ca0cb6ebe1da287d8624",
+      "beforeGitBlob": "2ff6befebb180fe2c3b4e824e80ecfd15bcaac22",
       "operations": [
         {
           "before": "import {renderProjectComparison,selectProjectComparisonRoutes} from './project-comparison.js?v=6c410b0e71a7';\nimport {renderPageOverview,overviewPresets} from './page-overviews.js?v=b3b49bc26271';\nimport {normalizeMaterialSupplement} from './material-supplement.js?v=07ae3a09a2ba';\nimport {renderRecordSummary,supervisorAssociationText,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=a3bc1afa9310';\nimport {normalizeExperiences,renderExperiences,renderExperienceReading,renderExperienceEvidence,renderExperienceResults} from './experiences.js?v=8d440a2e4243';\nimport {profileMap,profileSummary,renderProfile,renderProfileReferences} from './profiles.js?v=4b8e46812ffe';\nimport {rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue} from './core.js?v=79b44f84ac83';\nconst $=selector=>document.querySelector(selector);\n",
@@ -100,13 +100,13 @@
       ]
     },
     "index.html": {
-      "beforeSha256": "7e884441b97817fdfab8199785dd8c41a535712caf3959ee313ad09d0f0aabe9",
-      "afterSha256": "6e3860843844c7cb75301c559e8f0e1a182dc050c98257884e3fb987f200b9a8",
-      "beforeGitBlob": "0cc69b1d2c190625748e610536a4586b4b9e2eba",
+      "beforeSha256": "8f28f8a0ef9a6b360bd740f488c359ecd09dfccb6e1206387b229656215828d3",
+      "afterSha256": "0700e020a254370f4d627386c68a4fa6883b49748d2c61c493fa91ba5586c9ba",
+      "beforeGitBlob": "6563fa591a8940afff02e74c1af76de5515e1405",
       "operations": [
         {
-          "before": "<link rel=\"stylesheet\" href=\"./assets/style.css?v=8bdf5b250a9e\">\n<script type=\"module\" src=\"./assets/app.js?v=a84fd8a5790f\"></script>\n</head>\n",
-          "after": "<link rel=\"stylesheet\" href=\"./assets/style.css?v=8bdf5b250a9e\">\n<script type=\"module\" src=\"./assets/app.js?v=f9e4d8cbd8e2\"></script>\n</head>\n"
+          "before": "<link rel=\"stylesheet\" href=\"./assets/style.css?v=8bdf5b250a9e\">\n<script type=\"module\" src=\"./assets/app.js?v=c9d6c387108f\"></script>\n</head>\n",
+          "after": "<link rel=\"stylesheet\" href=\"./assets/style.css?v=8bdf5b250a9e\">\n<script type=\"module\" src=\"./assets/app.js?v=c4b42a78c45e\"></script>\n</head>\n"
         }
       ]
     }

@@ -1,4 +1,5 @@
 import {avatarInitialsBytes} from './avatar-initials-baseline.mjs';
+import {roboticsExpansionBytes} from './robotics-expansion-baseline.mjs';
 import {currentMainBytes} from './current-main-baseline.mjs';
 import {sevenBytes} from './seven-schools-baseline.mjs';
 import test from 'node:test';
@@ -10,7 +11,7 @@ import {snapshotHash as hash,snapshotText as serialize} from './strict-history-t
 import {latestSourceBytes,latestSourceBaseline} from './latest-3f294-baseline.mjs';
 import {browseAdvisors,browseRoutes,buildOpportunities,filterOpportunities} from '../assets/core.js';
 // The PKU stage is frozen; current live discovery is asserted separately.
-const read=p=>sevenBytes(p,currentMainBytes(p,avatarInitialsBytes(p,fs.readFileSync(new URL('../'+p,import.meta.url))))); 
+const read=p=>sevenBytes(p,currentMainBytes(p,roboticsExpansionBytes(p,avatarInitialsBytes(p,fs.readFileSync(new URL('../'+p,import.meta.url)))))); 
 const git=b=>crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${b.length}\0`),b])).digest('hex');
 const publishedGitBlobs={"before":{"assets/app.js":"5db95c373a2dbdad216a776eba5e47e979df6c38","assets/core.js":"fd04eb6b09070c23f8d4f78f6852ed8d727be90e","assets/experiences.js":"77cb6305aceee67f166e24224b1e5e0371b0e16a","assets/material-supplement.js":"3fe967765022f34d2f003afb957fd97f2c5b4b2c","assets/page-overviews.js":"6f507d105a9715fba68510c5de3f79943b58d8b3","assets/profiles.js":"e9a4156320e7b9533c066fbda8829d670ff6e22f","assets/project-comparison.js":"a0f3dadb7b85f4b646da103804d66462101d9445","assets/record-summaries.js":"6e1e0482f31dcd3335aec243396cde01e5e6e711","data/catalog.json":"c5b4aa6614c047af171d092c18757cdc08e81a4d","index.html":"e6ffc2b4ad938b3dab7976e2d5952d8809b9a6cc"},"after":{"assets/app.js":"3fc206cb830faa7fac53c7c0bb0228064d38b5ed","assets/core.js":"2864ff591d31e1f295883f037b25b89bd424105a","assets/experiences.js":"8b0ea30b0b7811cb4b2beca8a243f365a5d376cf","assets/material-supplement.js":"637d06345a2998a7f707bd5d74f7e69673730ce3","assets/page-overviews.js":"4006b9648c9490e3d28e8fdf11373823fcb97e01","assets/profiles.js":"c978573a5f18a578c33eb374a7ea56f0aab9d2c3","assets/project-comparison.js":"a577021140cf1b3eb793dae38468ce39e9b44f5f","assets/record-summaries.js":"9ca9105aaed6f8e7eb0b3daa80c9bb02f84bd77a","data/catalog.json":"bd52f8f19a8d51a8450802c27f1c6d7ddcd9f950","index.html":"24f4cc38ac0c5a4483fb0cac4f359aa2fa2285d4"}};
 const c=JSON.parse(read('data/catalog.json')),prior=JSON.parse(pkuBytes('data/catalog.json',read('data/catalog.json')));

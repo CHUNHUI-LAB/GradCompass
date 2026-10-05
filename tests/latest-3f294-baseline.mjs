@@ -1,4 +1,5 @@
 import {avatarInitialsBytes} from './avatar-initials-baseline.mjs';
+import {roboticsExpansionBytes,roboticsExpansionObject} from './robotics-expansion-baseline.mjs';
 import {currentMainBytes,currentMainObject} from './current-main-baseline.mjs';
 import {sevenBytes,sevenObject} from './seven-schools-baseline.mjs';
 import {pkuBytes,pkuObject} from './pku-baseline.mjs';
@@ -16,9 +17,9 @@ assert.equal(snapshotHash(currentRaw),'b4670b43babaf03884a7c511fa1582cbc178a2aaa
 export const latestCorrectionFixture=JSON.parse(currentRaw);
 export const latestCorrectionBytes=(path,bytes)=>transformSnapshotBytes(latestCorrectionFixture,path,bytes);
 export const concurrent3fBytes=(path,bytes)=>transformSnapshotBytes(concurrent3fFixture,path,bytes);
-export const latestSourceBytes=(path,bytes)=>concurrent3fBytes(path,latestCorrectionBytes(path,detailUiBytes(path,overseasBytes(path,pkuBytes(path,sevenBytes(path,currentMainBytes(path,avatarInitialsBytes(path,bytes))))))));
+export const latestSourceBytes=(path,bytes)=>concurrent3fBytes(path,latestCorrectionBytes(path,detailUiBytes(path,overseasBytes(path,pkuBytes(path,sevenBytes(path,currentMainBytes(path,roboticsExpansionBytes(path,avatarInitialsBytes(path,bytes)))))))));
 export function latestSourceBaseline(data,path=identifySnapshot(data)){
- return transformSnapshotObject(concurrent3fFixture,path,transformSnapshotObject(latestCorrectionFixture,path,overseasObject(path,pkuObject(path,sevenObject(path,currentMainObject(path,data))))));
+ return transformSnapshotObject(concurrent3fFixture,path,transformSnapshotObject(latestCorrectionFixture,path,overseasObject(path,pkuObject(path,sevenObject(path,currentMainObject(path,roboticsExpansionObject(path,data)))))));
 }
 // Frozen historical candidate input for its unchanged source hashes and negative
 // controls. This is an exact forward reconstruction from 5c27, never an assertion

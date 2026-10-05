@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {snapshotHash,snapshotPath} from './strict-history-transform.mjs';
 const raw=fs.readFileSync(new URL('./fixtures/history/reviewed-avatar-initials.json',import.meta.url));
-assert.equal(snapshotHash(raw),'dd23ccd45133fe59baa6ee70c4fbce91b0a03ea4103e9ccb82931c4b0b5b5081','immutable avatar initials source delta');
+assert.equal(snapshotHash(raw),'91063908a362b5a64b44bf6f40e2a09ea459aafdaa97ed9ae0a80b66c71c5529','immutable avatar initials source delta');
 export const avatarInitialsFixture=JSON.parse(raw);
 // Only exact reviewed complete files are reversible. Unknown edits remain visible.
 export function avatarInitialsBytes(path,bytes,direction='reverse'){

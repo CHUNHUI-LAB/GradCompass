@@ -1,6 +1,6 @@
 {
   "project": "GradCompass",
-  "revision": "seven-schools-phd-detail-20261005",
+  "revision": "nju-robotics-expansion-20261005",
   "baseSourceCommit": "91af79d313c3d0bd7f3bfd5a4e306a3af596ccaf",
   "baseDeployedCommit": "4840df6a9718ec38e472f8fd7496047248029e71",
   "snapshotDate": "2026-10-04",
@@ -9,7 +9,7 @@
   "firstRunVerified": false,
   "browserVisualQA": "Not yet browser-verified.",
   "profilePilotCount": 56,
-  "visibleAdvisorCount": 91,
+  "visibleAdvisorCount": 148,
   "opportunityCount": 59,
   "raPositionCount": 2,
   "newAdvisorProfiles": 26,
@@ -42,18 +42,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 38464,
-      "sha256": "c75ddedf6df5aaed67265c9e7f90012b1982420eeca328139bc1f3a943cad535"
+      "bytes": 41995,
+      "sha256": "460c1d7fb7658182f07f130e8314ad020353bfac14c64cb8433f8e422dfbe388"
     },
     {
       "path": "REPO-MAP.md",
-      "bytes": 9249,
-      "sha256": "eb3067a50ea054a85841745f378d248c7a45ec4a1e3a770bd1f16cb724b98823"
+      "bytes": 10561,
+      "sha256": "63fae829e7d4b528f840c2b665a09bc6cc32cb6b3477fc03fd9cbf32ce4743cc"
     },
     {
       "path": "assets/app.js",
-      "bytes": 72076,
-      "sha256": "f9e4d8cbd8e21f25a7d745d26d4e8440656684caa78d68b7e26c6e8d6326bda9"
+      "bytes": 72216,
+      "sha256": "c4b42a78c45ebbb0057059e023d30afbffd42456cc45ca0cb6ebe1da287d8624"
     },
     {
       "path": "assets/campus-art.webp",
@@ -127,8 +127,8 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 1645637,
-      "sha256": "64a4ffd6c289519402019eff94d582e9dff2137a1caa2fb2d610c04d69b6b2c8"
+      "bytes": 2151548,
+      "sha256": "8e01c214816acd114a33ce52de40a78d4656fa3b9f96b22bf1a3e08c4bd79d48"
     },
     {
       "path": "data/fudan-advisor-review-20261005.json",
@@ -154,6 +154,11 @@
       "path": "data/nju-advisor-review-20261005.json",
       "bytes": 5978,
       "sha256": "b74cef5a262d6576835e1bca6bee1295a29138fc6d22bea3c1b68d8d735a1c6c"
+    },
+    {
+      "path": "data/nju-robotics-advisor-review-20261005.json",
+      "bytes": 35682,
+      "sha256": "6712e8b01cfbc618d841304708bfac6bc8a6acb604182d3592342f98e5a834fe"
     },
     {
       "path": "data/pku-advisor-review-20261004.json",
@@ -211,9 +216,14 @@
       "sha256": "a2a4f78d0dc0c9d8ec943a818bbe2e301fe9ede119a0953b1d6502d1c814d491"
     },
     {
+      "path": "data/zju-robotics-advisor-review-20261005.json",
+      "bytes": 45873,
+      "sha256": "fec1a0f355bf482458f3871c8b877c3f34cf24928f83b5a469081f609c0c2ac5"
+    },
+    {
       "path": "index.html",
       "bytes": 8270,
-      "sha256": "6e3860843844c7cb75301c559e8f0e1a182dc050c98257884e3fb987f200b9a8"
+      "sha256": "0700e020a254370f4d627386c68a4fa6883b49748d2c61c493fa91ba5586c9ba"
     },
     {
       "path": "package.json",
@@ -222,8 +232,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 9007,
-      "sha256": "cd7249fd8ddfa4932d8ac5d4174936e84c3724f00c6579d27d43a243b4c07593"
+      "bytes": 9380,
+      "sha256": "c07ecf437162efa30fcf58cd14fa8d82ff14efc9a6106b6d8cfa552382ef9f52"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -243,12 +253,12 @@
     {
       "path": "tests/avatar-initials-baseline.mjs",
       "bytes": 1243,
-      "sha256": "3d347e272918d2da17c2b29c4663fa3d90410e34e1faadb4a40762e0790c2442"
+      "sha256": "36806e7ba6af391e2e337fbecb150453eb7f25aee8c25d549fa2e7524510c9e1"
     },
     {
       "path": "tests/avatar-initials-history.test.mjs",
       "bytes": 2764,
-      "sha256": "6de93b59ebb7d46a69227b55828838f26c0aff45ec25ed4fdf837084830222df"
+      "sha256": "e261bd8ca68273582408c81f485b83bd21be902827c710bca0ad623dbe6f435d"
     },
     {
       "path": "tests/browser-smoke.mjs",
@@ -277,8 +287,8 @@
     },
     {
       "path": "tests/core.test.mjs",
-      "bytes": 9079,
-      "sha256": "5629e8473d8eafb316f9e0a0857c9bfc191cb02b32db8c4a7b1ae0c6bd77d511"
+      "bytes": 9157,
+      "sha256": "b39290f05723dd4478694aa8d4414390b2948b46c4d05e7e6ee557f4ad520e76"
     },
     {
       "path": "tests/current-correction-baseline.mjs",
@@ -297,8 +307,8 @@
     },
     {
       "path": "tests/current-main-history.test.mjs",
-      "bytes": 12625,
-      "sha256": "a96cde264187c5d3b1f97fd17ac05a5ea8d39b1d971a843c216ff1203fd78818"
+      "bytes": 12634,
+      "sha256": "2c5d9b87d6a0feba492a9dd72ecab01092a9756693367f52f2928da35f879313"
     },
     {
       "path": "tests/cycle-refresh.test.mjs",
@@ -317,8 +327,8 @@
     },
     {
       "path": "tests/detail-ui-baseline.test.mjs",
-      "bytes": 4988,
-      "sha256": "681accc604ffca8af4735eacce6a3710aad31d57d5f880ba803b98eaa534a29d"
+      "bytes": 5091,
+      "sha256": "1bd1c8214999839c8a5916e5c821754d28efb5073c3eaba5c6e98b1d25b32a5e"
     },
     {
       "path": "tests/editorial-design.test.mjs",
@@ -388,7 +398,7 @@
     {
       "path": "tests/fixtures/history/reviewed-avatar-initials.json",
       "bytes": 16509,
-      "sha256": "dd23ccd45133fe59baa6ee70c4fbce91b0a03ea4103e9ccb82931c4b0b5b5081"
+      "sha256": "91063908a362b5a64b44bf6f40e2a09ea459aafdaa97ed9ae0a80b66c71c5529"
     },
     {
       "path": "tests/fixtures/history/reviewed-concurrent-3f294.json",
@@ -431,6 +441,11 @@
       "sha256": "443cf0e43f9439d6be01a79d92fc15d867573cbe26286b2859f1c18480061894"
     },
     {
+      "path": "tests/fixtures/history/reviewed-robotics-expansion.json",
+      "bytes": 599684,
+      "sha256": "2b07411e61286ea1c1684e5a892bd81766bab943ac7c05bf9dc633c7e51275c6"
+    },
+    {
       "path": "tests/fixtures/history/reviewed-seven-schools-20261005.json",
       "bytes": 303473,
       "sha256": "fdbf5e434048e82b6e48e7562a2c1f76d68659a84db7f0c930287fd84a0e6243"
@@ -457,8 +472,8 @@
     },
     {
       "path": "tests/historical-source-fs.mjs",
-      "bytes": 1293,
-      "sha256": "dce2dfc820fda0189d001544ca2c13f6f342b10ee6e452dfea8996e26c2ef1a7"
+      "bytes": 1400,
+      "sha256": "b307590c6789ffc5b8ba702f2c694f44ec7bdb0498532aad540973ae7bc0d791"
     },
     {
       "path": "tests/hku-ris-baseline.mjs",
@@ -472,13 +487,13 @@
     },
     {
       "path": "tests/latest-3f294-baseline.mjs",
-      "bytes": 2460,
-      "sha256": "0979c8f785767e983a19935054c0621a4c2f1dbc82fb9b535dff1210c95478ac"
+      "bytes": 2617,
+      "sha256": "b645c8ea10f1ba32899eebea83ba69b8ca4377c39e08a58d04121a29452a7773"
     },
     {
       "path": "tests/latest-3f294-baseline.test.mjs",
-      "bytes": 7874,
-      "sha256": "cc230c24b75fcbb925e40811d01141d36af38375862f289a2b1de904d6b386fa"
+      "bytes": 7977,
+      "sha256": "25f006783cf04b28711f5032205920902379e86264ee8a0038394194d20659b4"
     },
     {
       "path": "tests/maintenance-baseline.mjs",
@@ -496,6 +511,11 @@
       "sha256": "e2fd6470c8369db4bbe016d3baa4a590c38455f6bca6923eb76530d8ad8588b6"
     },
     {
+      "path": "tests/nju-expansion.test.mjs",
+      "bytes": 2797,
+      "sha256": "f26b15f0fd97bcf3516bd01377df1381e5df8a1a4c2a82612932f0692c79cc1f"
+    },
+    {
       "path": "tests/opportunities.test.mjs",
       "bytes": 5940,
       "sha256": "e422114cd46ebea2af3c15c0db9ad85c6326a1298a06d307b27b26487f032292"
@@ -507,8 +527,8 @@
     },
     {
       "path": "tests/overseas-additions.test.mjs",
-      "bytes": 6446,
-      "sha256": "d46e775c88c7df76f74f5f65cc950de19776cdacd22bce096cb08003dc0cc18b"
+      "bytes": 6546,
+      "sha256": "e754798d567cdf7b6dd3d40847439ac4d95de06a170a5c0a9083e9744037ac1d"
     },
     {
       "path": "tests/overseas-baseline.mjs",
@@ -537,8 +557,8 @@
     },
     {
       "path": "tests/pku-history.test.mjs",
-      "bytes": 7560,
-      "sha256": "e5d2f370cf601b1837409e85ed46692d2618459893df5fa6234c32f62b9e8384"
+      "bytes": 7660,
+      "sha256": "3ea59e5444a0daf696ecb3f0c3913237b72523350ea1d663baff85876139ab29"
     },
     {
       "path": "tests/pku-review.test.mjs",
@@ -592,8 +612,8 @@
     },
     {
       "path": "tests/public-discovery.test.mjs",
-      "bytes": 9956,
-      "sha256": "fe05913b72ed5c3b9bf9bd5d02bdca439cbbbfa51a08f524fe42139eca31b2d9"
+      "bytes": 9958,
+      "sha256": "a8578d310cc38b48faf946da998688d63aa6a544bf09aa58f954a7838297f52c"
     },
     {
       "path": "tests/ranks.test.mjs",
@@ -622,13 +642,23 @@
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 26094,
-      "sha256": "1b2947ae11621adaebad2363f41e70b39ab54edb846353e949b1e2a6aa14b493"
+      "bytes": 26277,
+      "sha256": "b715e8e380550e70da134b5224f3eaeea20d9a31deabbb394e7618adc7bb9612"
     },
     {
       "path": "tests/resource-versions.test.mjs",
-      "bytes": 8156,
-      "sha256": "89c9a2a14dca00fc9d96ef6d42d329b95133ea361f9ba4da9938af3992c579a8"
+      "bytes": 8159,
+      "sha256": "0eb871946536a2b8faa1c4f181bf2c974d542c86999b0b21bc869b14208257f0"
+    },
+    {
+      "path": "tests/robotics-expansion-baseline.mjs",
+      "bytes": 1699,
+      "sha256": "8110ae36dae922363d27f171cf70b6d0e9ba3a9a702cc2a579ce8c12b57b98dd"
+    },
+    {
+      "path": "tests/robotics-expansion-history.test.mjs",
+      "bytes": 6509,
+      "sha256": "fc1d9a714750e4cf9c381a42f42cdaecad0b38733b85ad9de773aca4774bf172"
     },
     {
       "path": "tests/seven-schools-baseline.mjs",
@@ -637,13 +667,13 @@
     },
     {
       "path": "tests/seven-schools-history.test.mjs",
-      "bytes": 8235,
-      "sha256": "8c38a36f9c5467267b28dbcb3ffc82e704ef21c637f8192b8a057a4de872a110"
+      "bytes": 8335,
+      "sha256": "c62f952db1fecff7732925af7b28704b30bbd27d479d52bf48a5023df2ea4c7f"
     },
     {
       "path": "tests/seven-schools-review.test.mjs",
-      "bytes": 5038,
-      "sha256": "d8b2dc70aabd976b76f2ed51368ac3e633052a1f642777004597efa8bd314bf9"
+      "bytes": 5040,
+      "sha256": "365cee1dbc697095e4126ce1c13398b3fdcde6e1ce7047c83d49f4e66a0be488"
     },
     {
       "path": "tests/strict-history-transform.mjs",
@@ -664,6 +694,11 @@
       "path": "tests/tsinghua-review.test.mjs",
       "bytes": 3059,
       "sha256": "3283129aa9fc0126a6ae7215ebb78fa21dd24f02e123ec38eb33c0b2f3a77c34"
+    },
+    {
+      "path": "tests/zju-expansion.test.mjs",
+      "bytes": 2294,
+      "sha256": "2dc06d8fa60799179eb3537a34d1b1f2b34240fd444d1b12686799b4051ebe4c"
     }
   ],
   "qaMetadataScope": "Hashes identify this content snapshot. Automated test counters do not establish deployment or browser acceptance.",
@@ -709,10 +744,10 @@
     "baseCommit": "1281ce4740272443563b4a98f421561bacc801f9",
     "scope": "Two inaccurate MSc overview text fragments only; no structure, style or interaction changes"
   },
-  "advisorCatalogCount": 91,
+  "advisorCatalogCount": 148,
   "verifiedDegreeAssociationCount": 57,
-  "projectCatalogCount": 55,
-  "visibleProjectCount": 55,
+  "projectCatalogCount": 60,
+  "visibleProjectCount": 60,
   "candidateBaseCommit": "7a8b2d63da2eab07b315a099bcd51c561a0c8c6f",
   "evidenceScope": "All recorded advisors and academic references remain readable; verified degree associations require exact sourced advisor-route joins. Project evidence is not individual recruitment or remaining capacity.",
   "detailUiPolish": {
