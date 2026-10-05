@@ -1,0 +1,1062 @@
+{
+  "schemaVersion": "zju-robotics-advisor-review/1.0",
+  "institution": "ZJU",
+  "institutionZh": "浙江大学",
+  "checkedDate": "2026-10-05",
+  "scope": "浙江大学控制、计算机、人工智能、机械、航空航天、信息与电子、先进技术研究院及相关交叉方向博士导师与研究方向公开资料；项目方向、导师身份和个人招生分别记录。",
+  "admissionEvidence": [
+    {
+      "id": "zju-robotics-directory-reference",
+      "title": "浙江大学机器人、具身智能与自主系统博士导师/研究方向公开资料参考",
+      "cycle": "2025–2027 reference",
+      "status": "advisor_directory_and_direction_reference",
+      "summaryZh": "官方个人主页、控制学院博士导师名单和工程师学院具身智能项目导师表支持导师身份与研究方向参考；个人招生名额和 2028 Fall 接收未核实。",
+      "sources": [
+        {
+          "label": "浙江大学控制学院2025级单考意愿导师名单（含博士导师标注）",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（方向参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人研究院/控制学院公开导师与团队页面",
+          "url": "https://rob.zju.edu.cn/",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "projectCycleVerified": false,
+      "individualRecruitmentVerified": false
+    }
+  ],
+  "advisors": [
+    {
+      "id": "zju-xiong-rong",
+      "name": "Rong Xiong",
+      "nameZh": "熊蓉",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "机器人智能感知规划与控制、复杂环境智能感知与自主驾驶、多信息融合操作感知规划与知识学习、人机协同智能移动作业、仿人机器人动态运动规划与平衡控制",
+      "profileUrl": "https://person.zju.edu.cn/0097062/589993.html",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/0097062/589993.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-wu-jun",
+      "name": "Jun Wu",
+      "nameZh": "吴俊",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "仿人机器人规划与控制、多智能体系统与网络化控制",
+      "profileUrl": "https://person.zju.edu.cn/0094198/745431.html",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/0094198/745431.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-zhu-qiuguo",
+      "name": "Qiuguo Zhu",
+      "nameZh": "朱秋国",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "足式机器人技术、智能机器人学习与控制",
+      "profileUrl": "https://person.zju.edu.cn/0011353/0.html",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/0011353/0.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-xu-chao",
+      "name": "Chao Xu",
+      "nameZh": "许超",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "机器人系统动力学控制与强化学习、机器学习神经动力学与控制、机器人系统实时推理与控制大模型、多物理场耦合系统智能建模与调控",
+      "profileUrl": "https://person.zju.edu.cn/xu",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/xu",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-yong-liu",
+      "name": "Yong Liu",
+      "nameZh": "刘勇",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "自主机器人与智能系统、机器人自主规划与导航控制、视觉识别与模式识别、SLAM与多传感器融合",
+      "profileUrl": "https://person.zju.edu.cn/yongliu/786294.html",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/yongliu/786294.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-wang-jin",
+      "name": "Jin Wang",
+      "nameZh": "王进",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "智能机器人技术与应用、工业/服务/人形机器人、无人机及无人系统、机器视觉与跨模态智能感知",
+      "profileUrl": "https://person.zju.edu.cn/0008403",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/0008403",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-yang-canjun",
+      "name": "Canjun Yang",
+      "nameZh": "杨灿军",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "机械电子工程、海洋智能装备、人机智能系统、穿戴式机器人",
+      "profileUrl": "https://person.zju.edu.cn/ycj/591068.html",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/ycj/591068.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-li-tiefeng",
+      "name": "Tiefeng Li",
+      "nameZh": "李铁风",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "软物质力学、智能系统、软体仿生机器人、医用智能材料与器件、深海装备、空天装备",
+      "profileUrl": "https://person.zju.edu.cn/litiefeng",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/litiefeng",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-yang-geng",
+      "name": "Geng Yang",
+      "nameZh": "杨赓",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "机器人柔性感知与交互、智能机器人及人机交互、医疗电子及生物医学微纳系统",
+      "profileUrl": "https://person.zju.edu.cn/gengy/0.html",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/gengy/0.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-wang-huiquan",
+      "name": "Huiquan Wang",
+      "nameZh": "王慧泉",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "空间微操作机器人技术、微小卫星及星载综合电子系统、微纳传感器及微弱信号处理",
+      "profileUrl": "https://person.zju.edu.cn/hqwanghy",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/hqwanghy",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-wang-jun",
+      "name": "Jun Wang",
+      "nameZh": "王俊",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "智能化农业机械、农田机器人技术、智能感官分析技术与仪器开发、农业装备工程",
+      "profileUrl": "https://person.zju.edu.cn/wangjun/0.html",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/wangjun/0.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-gao-fei",
+      "name": "Fei Gao",
+      "nameZh": "高飞",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "空中机器人、具身智能、自主导航、集群协同",
+      "profileUrl": "https://mypage.zju.edu.cn/0019250",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://mypage.zju.edu.cn/0019250",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-ye-qi",
+      "name": "Qi Ye",
+      "nameZh": "叶琦",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "具身智能、灵巧手操作、空间智能、多模态大模型",
+      "profileUrl": "https://person.zju.edu.cn/yeqi",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/yeqi",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-cao-yunqi",
+      "name": "Yunqi Cao",
+      "nameZh": "曹云琦",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "具身智能感知（机器嗅觉、机器触觉）、MEMS传感器、智能可穿戴设备、工业物联感知",
+      "profileUrl": "https://person.zju.edu.cn/caoyunqi",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/caoyunqi",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-mao-guoyong",
+      "name": "Guoyong Mao",
+      "nameZh": "毛国勇",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "智能机器人、软物质力学、柔性结构力学",
+      "profileUrl": "https://person.zju.edu.cn/GuoyongMao",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/GuoyongMao",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-tang-huajing",
+      "name": "Huajin Tang",
+      "nameZh": "唐华锦",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "类脑计算、人工智能、智能机器人、计算神经科学",
+      "profileUrl": "https://person.zju.edu.cn/htang",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/htang",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-cui-zhaopeng",
+      "name": "Zhaopeng Cui",
+      "nameZh": "崔兆鹏",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "计算机视觉、计算机图形学、机器人感知、混合现实",
+      "profileUrl": "https://person.zju.edu.cn/0019106",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/0019106",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-ni-wangze",
+      "name": "Wangze Ni",
+      "nameZh": "倪王泽",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "人工智能安全、大模型推理加速、机器人集群调度规划、AI for Science",
+      "profileUrl": "https://person.zju.edu.cn/0024169",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/0024169",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-feng-bo",
+      "name": "Bo Feng",
+      "nameZh": "冯博",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "机器人与无人机安全、软件与系统安全、AI/智能体驱动的程序分析",
+      "profileUrl": "https://person.zju.edu.cn/fengbo",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/fengbo",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-zhou-xiaowei",
+      "name": "Xiaowei Zhou",
+      "nameZh": "周晓巍",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "三维计算机视觉与图形学、混合现实、智能机器人",
+      "profileUrl": "https://person.zju.edu.cn/xzhou",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/xzhou",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-lu-haojian",
+      "name": "Haojian Lu",
+      "nameZh": "陆豪健",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "医疗机器人、微型仿生机器人、微型柔性传感器、微观机器视觉及导航",
+      "profileUrl": "https://person.zju.edu.cn/0019842",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/0019842",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-hu-songyu",
+      "name": "Songyu Hu",
+      "nameZh": "胡松钰",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "机器人、机器视觉、智能制造",
+      "profileUrl": "https://person.zju.edu.cn/0019189",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/0019189",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-chen-liuqing",
+      "name": "Liuqing Chen",
+      "nameZh": "陈柳青",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "智能设计、人机交互、机器人交互、人工智能应用（教育/医疗）",
+      "profileUrl": "https://person.zju.edu.cn/chenlq/",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/chenlq/",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-cao-huazi",
+      "name": "Huazi Cao",
+      "nameZh": "曹华姿",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "飞行具身智能、新型高性能空中机器人、分布式异构集群智能",
+      "profileUrl": "https://person.zju.edu.cn/0026056",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/0026056",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-qian-hui",
+      "name": "Hui Qian",
+      "nameZh": "钱徽",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "人工智能、智能机器人",
+      "profileUrl": "https://person.zju.edu.cn/0003412",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/0003412",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-shen-hongyao",
+      "name": "Hongyao Shen",
+      "nameZh": "沈洪垚",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "智能CAM/CNC技术、金属增材制造、增减材复合制造、机器人与装备自动化",
+      "profileUrl": "https://person.zju.edu.cn/shenhongyao/903658.html",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/shenhongyao/903658.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-cao-yanlong",
+      "name": "Yanlong Cao",
+      "nameZh": "曹衍龙",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "尺寸工程与视觉测量、机器人感知与控制、激光制造技术与装备",
+      "profileUrl": "https://person.zju.edu.cn/sdcaoyl/0.html",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/sdcaoyl/0.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-xiang-zhiyu",
+      "name": "Zhiyu Xiang",
+      "nameZh": "项志宇",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "机器人环境感知与导航定位、计算机视觉",
+      "profileUrl": "https://person.zju.edu.cn/xiangzy/0.html",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/xiangzy/0.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-wang-yancheng",
+      "name": "Yancheng Wang",
+      "nameZh": "汪延成",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "机器人智能感知、触觉感知及检测技术、微纳制造",
+      "profileUrl": "https://person.zju.edu.cn/yanchwang",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/yanchwang",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-li-yang",
+      "name": "Yang Li",
+      "nameZh": "李洋",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "光/热调控超构表面、微纳/原子级制造、微纳功能表面与器件、软体机器人",
+      "profileUrl": "https://person.zju.edu.cn/meyangli",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/meyangli",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-li-jituo",
+      "name": "Jituo Li",
+      "nameZh": "李基拓",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "机器人（工业、软体、视觉）、计算机辅助设计与计算机图形学",
+      "profileUrl": "https://person.zju.edu.cn/lijituo",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/lijituo",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    },
+    {
+      "id": "zju-cai-gangwei",
+      "name": "Gangwei Cai",
+      "nameZh": "蔡钢伟",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "智能设计、机器人系统集成设计、智能人机环境；2027级设计学直博/普博公开招收",
+      "profileUrl": "https://person.zju.edu.cn/cgw",
+      "referencePhdRouteIds": [
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "浙江大学官方个人主页",
+          "url": "https://person.zju.edu.cn/cgw",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学机器人、具身智能与自主系统博士方向参考入口",
+          "url": "https://pi.zju.edu.cn/2025/0317/c86129a302771/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学工程师学院2027级具身智能与机器人（杭州）导师信息一览表（仅方向/硕士项目参考）",
+          "url": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "官方个人主页或导师目录支持博士导师/研究方向参考，不等于个人招生名额。"
+    }
+  ],
+  "conclusionZh": "本轮扩展核查共新增32位浙江大学机器人、具身智能、智能控制、机器人感知、软体/微型/医疗机器人及相关交叉方向博士生导师/研究员档案；所有个人招生和2028 Fall名额保持待核。"
+}

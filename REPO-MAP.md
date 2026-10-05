@@ -10,7 +10,7 @@
 | 导师专业简介 | `data/advisor-profiles.json` | 仅按 `advisorId` 补充职业概况、实验室、资源、代表成果和未知项；不能覆盖 `catalog` 的资格、招生或名额字段。 |
 | 清华核查记录 | `data/tsinghua-advisor-review-20261004.json` | 保存清华不同年份/渠道的真实来源、五项来源纠错、博士参考与7位导师的核查；不把项目参考升级为 2028 Fall 名额。 |
 | 南科大核查记录 | `data/sustech-advisor-review-20261004.json` | 保存南科大机械系自主培养博士项目、自动化学院 2027 博士通知、导师关联和 2028 Fall 边界；博士路线只在详情中作为参考。 |
-| 七校博士核查记录 | `data/zju-advisor-review-20261005.json`、`data/fudan-advisor-review-20261005.json`、`data/sjtu-advisor-review-20261005.json`、`data/nju-advisor-review-20261005.json`、`data/ustc-advisor-review-20261005.json`、`data/tongji-advisor-review-20261005.json`、`data/seu-advisor-review-20261005.json` | 保存浙江大学、复旦大学、上海交通大学、南京大学、中国科学技术大学、同济大学、东南大学的官方博士项目或导师目录依据；均为 `reference`，不制造个人 2028 Fall 名额。 |
+| 七校博士核查记录 | `data/zju-advisor-review-20261005.json`、`data/zju-robotics-advisor-review-20261005.json`、`data/fudan-advisor-review-20261005.json`、`data/sjtu-advisor-review-20261005.json`、`data/nju-advisor-review-20261005.json`、`data/ustc-advisor-review-20261005.json`、`data/tongji-advisor-review-20261005.json`、`data/seu-advisor-review-20261005.json` | 保存浙江大学、复旦大学、上海交通大学、南京大学、中国科学技术大学、同济大学、东南大学的官方博士项目或导师目录依据；均为 `reference`，不制造个人 2028 Fall 名额。 |
 | 项目简介 | `data/project-summaries.json` | 补充培养、研究、入学条件和批次说明；不能从项目简介推导导师名额。 |
 | 材料摘要 | `data/material-summaries.json` | 官方材料要求的有界摘要；与原目录材料合并展示。 |
 | 申请经验 | `data/application-experiences.json` 与 `data/application-experience-provenance.json` | 公开自述及其阅读范围；不参与当前招生资格判断。 |
@@ -60,11 +60,19 @@
 
 - `browseAdvisors`/`browseRoutes`用于公开全集，旧`filterAdvisors`/`filterRoutes`仅保留早期本科便利筛选的历史回归语义，不决定当前公开可见性
 - `hasVerifiedAssociation`只接受精确routeId、verified状态、非pending验证及个人关联来源；`buildOpportunities`不把项目资格或reference转换成导师个人招生
-- 当前目录含91位导师与55个项目；本批在既有内容上追加七校博士项目参考、三条2027周期路径和四位东南大学导师。研究资料、前置学历和招生方式分别展示，未知不删除；新记录不改变57条已核实学位关联与2个独立RA岗位的统计。
+- 当前目录含123位导师与56个项目；本批在既有内容上追加七校博士项目参考和浙江大学控制、计算机、人工智能、机械、航空航天等方向导师。研究资料、前置学历和招生方式分别展示，未知不删除；新记录不改变57条已核实学位关联与2个独立RA岗位的统计。
 - `sourceCycle`、`admissionMode`、`currentCycleVerificationStatus`与个人`individualRecruitmentVerified`相互独立；周期标签须读原HTML标题，不能只依赖可能漏标题的正文抽取
 - 搜索索引由 `assets/core.js` 统一生成；导师、项目、日期和材料共用归一化匹配，学校简称、学位中英文别名和批次/条件文字只用于检索，不改变资格或机会统计
 - 四份补充资料独立加载；全依赖链content hash经freeze后写入，实际验证结果不硬编码进manifest
 - 历史tests采用固定commit及原始字节哈希，新增与纠错逐次精确逆变换；未知变化、排序和新增字段必须触发失败
+
+
+
+## 2026-10-05 浙江大学扩展核查
+
+`data/zju-robotics-advisor-review-20261005.json`保存浙江大学控制、计算机、人工智能、机械、航空航天、信息与电子、先进技术研究院及相关交叉方向的新增导师核查。`data/catalog.json`中的 `zju-robotics-phd-directory-reference-2026` 为博士导师和研究方向参考路线，所有新增导师的个人关联保持 `reference`/`pending`，不进入已核实机会或剩余名额统计。
+
+本批使用官方个人主页、浙江大学控制学院博士导师名单和工程师学院公开导师表。工程师学院 2027 具身智能项目是专业学位硕士项目，只能支持研究方向参考；蔡钢伟个人主页的 2027 级直博/普博说明单独保留原年份，不能改写为 2028 Fall。
 
 ## JHU / BU 项目候选边界
 
