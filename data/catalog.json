@@ -185,7 +185,7 @@
       },
       {
         "file": "sjtu-robotics-advisor-review-20261005.json",
-        "sha256": "c9757ea27a29f075cddbe1a8ef7740a9ba4bda3f4a7c838d6db19143c5fdb048",
+        "sha256": "f533bbe54ae9234e41ae847fabb85be37e19ef75ef058aac08b932ba603a49c4",
         "checkedDate": "2026-10-05",
         "scope": "上海交通大学自动化与感知学院、人工智能学院和溥渊未来技术学院的机器人、具身智能、无人系统、智能控制、空间智能与相关交叉导师公开资料；项目方向、导师身份和个人招生分别记录。",
         "interpretationNotes": [
@@ -22041,9 +22041,7 @@
           }
         ],
         "associationNote": "研究档案可见；具体个人项目关联待核，不计为已核实机会."
-      },
-      "cycle2027FallVerified": false,
-      "cycle2028FallVerified": false
+      }
     },
     {
       "id": "sjtu-zhang-weidong",
@@ -22250,9 +22248,7 @@
           }
         ],
         "associationNote": "研究档案可见；具体个人项目关联待核，不计为已核实机会."
-      },
-      "cycle2027FallVerified": false,
-      "cycle2028FallVerified": false
+      }
     },
     {
       "id": "sjtu-yu-gan",
@@ -22459,9 +22455,7 @@
           }
         ],
         "associationNote": "研究档案可见；具体个人项目关联待核，不计为已核实机会."
-      },
-      "cycle2027FallVerified": false,
-      "cycle2028FallVerified": false
+      }
     },
     {
       "id": "nju-li-yufeng",
@@ -47774,6 +47768,176 @@
       "cycle2027FallReference": false,
       "cycle2027FallVerified": false,
       "cycle2028FallVerified": false
+    },
+    {
+      "id": "sjtu-ma-jin",
+      "name": "Jin Ma",
+      "nameZh": "马进",
+      "institution": "SJTU",
+      "department": "自动化与感知学院",
+      "position": "副研究员 / 硕士、博士生导师",
+      "topics": [
+        "多模态融合感知",
+        "仿生多模态机器人",
+        "具身感知",
+        "机器人抓取"
+      ],
+      "summary": "研究多模态融合感知与仿生多模态机器人；个人页明确写出 2028 级研究生（2028 年 9 月入学）开放申请，具体学位类型待确认。",
+      "profileUrl": "https://sais.sjtu.edu.cn/faculty/majin.html",
+      "routeIds": [
+        "sjtu-robotics-phd-reference-2026"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "sjtu-robotics-phd-reference-2026",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "summary": "导师主页确认个人硕士/博士生导师身份；院系博士入口仅作项目方向参考，个人博士接收与余位仍待核实。",
+          "sources": [
+            {
+              "label": "导师官方主页",
+              "url": "https://sais.sjtu.edu.cn/faculty/majin.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "上海交通大学自动化与感知学院教师名录",
+              "url": "https://sais.sjtu.edu.cn/faculty.html",
+              "checkedDate": "2026-10-05"
+            },
+            {
+              "label": "上海交通大学自动化与感知学院/电子信息与电气工程学院博士方向参考（2026）",
+              "url": "https://ga.sjtu.edu.cn/zsgl/zsmlgl/zsml_bs.aspx?COLLCC=3580823700",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "scope": "program_reference_only",
+          "note": "院系博士项目或导师名单不等于个人招生名额。",
+          "sourceCycle": "2026",
+          "admissionMode": "doctoral_admission",
+          "projectCycleVerified": true,
+          "individualRecruitmentVerified": false,
+          "cycle2027FallReference": false
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+      "defaultVisible": true,
+      "opening": "explicit",
+      "openingSummary": "2028 级研究生招生开放申请；具体学位类型与余位待确认",
+      "openings": {
+        "msc": "未核实公开声明",
+        "mphil": "未核实公开声明",
+        "phd": "个人页说明本人为博士生导师，但 28 级招生原文未拆分学位；博士接收与余位待核",
+        "ra": "未核实公开岗位",
+        "cycle2027": "个人页写明 2027 级研究生开放申请中，具体学位类型待确认",
+        "cycle2028": "个人页明确 2028 级研究生（2028 年 9 月入学）开放申请，具体学位类型待确认"
+      },
+      "openingDetails": [
+        {
+          "degree": "Graduate",
+          "status": "explicit",
+          "summary": "个人官方主页明确 2028 年 9 月入学的 28 级研究生招生开放申请；原文未区分硕士/博士。",
+          "cycle2027FallVerified": false,
+          "cycle2027FallReference": true,
+          "cycle2028FallVerified": false,
+          "cycle2028FallReference": true,
+          "cycle": "2028 Fall（研究生，学位类型待确认）",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "individual_profile",
+          "noticeDate": null,
+          "sources": [
+            {
+              "label": "导师官方主页（28级招生说明）",
+              "url": "https://sais.sjtu.edu.cn/faculty/majin.html",
+              "checkedDate": "2026-10-05"
+            }
+          ],
+          "checkedDate": "2026-10-05",
+          "individualRecruitmentVerified": true,
+          "projectCycleVerified": false,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending",
+          "sourceCycle": "2028",
+          "admissionMode": "graduate_admission"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI"
+      },
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://sais.sjtu.edu.cn/faculty/majin.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "上海交通大学自动化与感知学院教师名录",
+          "url": "https://sais.sjtu.edu.cn/faculty.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "上海交通大学自动化与感知学院/电子信息与电气工程学院博士方向参考（2026）",
+          "url": "https://ga.sjtu.edu.cn/zsgl/zsmlgl/zsml_bs.aspx?COLLCC=3580823700",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "caveats": [
+        "个人主页明确 2028 级研究生招生开放申请，但原文未拆分硕士/博士，不能直接升级为博士名额。",
+        "导师主页写明硕士、博士生导师；个人当期接收、资助和余位仍需按学位和当年通知核验。"
+      ],
+      "checkedDate": "2026-10-05",
+      "sourceFile": "sjtu-robotics-advisor-review-20261005.json",
+      "sourceRecord": {
+        "id": "sjtu-bai-ting",
+        "name": "Ting Bai",
+        "nameZh": "白婷",
+        "department": "自动化与感知学院",
+        "position": "长聘教轨副教授 / 博士生导师",
+        "researchZh": "研究信息物理系统、智能交通系统协同优化、分布式控制与强化学习。",
+        "profileUrl": "https://sais.sjtu.edu.cn/faculty/1611.html",
+        "routeIds": [
+          "sjtu-robotics-phd-reference-2026"
+        ],
+        "cycle2027FallReference": false,
+        "cycle2028FallVerified": false,
+        "catalogStatus": "profile_visible_association_pending",
+        "sources": [
+          {
+            "label": "导师官方主页",
+            "url": "https://sais.sjtu.edu.cn/faculty/1611.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "上海交通大学自动化与感知学院教师名录",
+            "url": "https://sais.sjtu.edu.cn/faculty.html",
+            "checkedDate": "2026-10-05"
+          },
+          {
+            "label": "上海交通大学自动化与感知学院/电子信息与电气工程学院博士方向参考（2026）",
+            "url": "https://ga.sjtu.edu.cn/zsgl/zsmlgl/zsml_bs.aspx?COLLCC=3580823700",
+            "checkedDate": "2026-10-05"
+          }
+        ]
+      },
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "cycle2028FallReference": true
     }
   ],
   "routes": [

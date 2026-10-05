@@ -1,3 +1,6 @@
+import {sjtuExpansionBytes} from './sjtu-expansion-baseline.mjs';
+import {avatarInitialsBytes} from './avatar-initials-baseline.mjs';
+import {roboticsExpansionBytes} from './robotics-expansion-baseline.mjs';
 import {currentMainBytes} from './current-main-baseline.mjs';
 import {sevenBytes} from './seven-schools-baseline.mjs';
 import {pkuBytes} from './pku-baseline.mjs';
@@ -10,7 +13,7 @@ import {browseRoutes,buildOpportunities} from '../assets/core.js';
 import {normalizeProjectSummaries,renderRecordSummary} from '../assets/record-summaries.js';
 import {normalizeMaterialSupplement} from '../assets/material-supplement.js';
 // These assertions intentionally inspect the reviewed pre-PKU overseas stage.
-const read=p=>pkuBytes(p,sevenBytes(p,currentMainBytes(p,fs.readFileSync(new URL('../'+p,import.meta.url))))),data=p=>JSON.parse(read(p));
+const read=p=>pkuBytes(p,sevenBytes(p,currentMainBytes(p,roboticsExpansionBytes(p,avatarInitialsBytes(p,sjtuExpansionBytes(p,fs.readFileSync(new URL('../'+p,import.meta.url)))))))),data=p=>JSON.parse(read(p));
 const c=data('data/catalog.json'),p=data('data/project-summaries.json'),m=data('data/material-summaries.json');
 const base=JSON.parse(overseasBytes('data/catalog.json',read('data/catalog.json')));
 const sourceHashes={

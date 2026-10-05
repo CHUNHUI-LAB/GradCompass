@@ -3,7 +3,7 @@
   "institution": "SJTU",
   "institutionZh": "上海交通大学",
   "checkedDate": "2026-10-05",
-  "scope": "上海交通大学自动化与感知学院、人工智能学院和溥渊未来技术学院的机器人、具身智能、无人系统、智能控制、空间智能与相关交叉导师公开资料；项目方向、导师身份和个人招生分别记录。",
+  "scope": "上海交通大学自动化与感知学院、人工智能学院和溥渊未来技术学院的机器人、具身智能、无人系统、智能控制、空间智能与相关交叉导师公开资料；项目方向、导师身份和个人招生分别记录。；另记录马进主页明确的 2028 级研究生招生信号，但学位类型未拆分。",
   "admissionEvidence": [
     {
       "id": "sjtu-robotics-phd-reference-2026",
@@ -1867,7 +1867,39 @@
           "checkedDate": "2026-10-05"
         }
       ]
+    },
+    {
+      "id": "sjtu-ma-jin",
+      "name": "Jin Ma",
+      "nameZh": "马进",
+      "department": "自动化与感知学院",
+      "position": "副研究员 / 硕士、博士生导师",
+      "researchZh": "研究多模态融合感知与仿生多模态机器人；个人页明确写出 2028 级研究生（2028 年 9 月入学）开放申请，具体学位类型待确认。",
+      "profileUrl": "https://sais.sjtu.edu.cn/faculty/majin.html",
+      "routeIds": [
+        "sjtu-robotics-phd-reference-2026"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2028FallVerified": false,
+      "catalogStatus": "profile_visible_association_pending",
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://sais.sjtu.edu.cn/faculty/majin.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "上海交通大学自动化与感知学院教师名录",
+          "url": "https://sais.sjtu.edu.cn/faculty.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "上海交通大学自动化与感知学院/电子信息与电气工程学院博士方向参考（2026）",
+          "url": "https://ga.sjtu.edu.cn/zsgl/zsmlgl/zsml_bs.aspx?COLLCC=3580823700",
+          "checkedDate": "2026-10-05"
+        }
+      ]
     }
   ],
-  "conclusionZh": "本轮新增上海交通大学自动化与感知学院、人工智能学院和溥渊未来技术学院共 58 位导师。新增记录保留官方研究方向和导师页面，SAIS 与人工智能学院博士路线仅作项目层面参考；个人 2027/2028 Fall 接收、资助和余位未由项目资格推导。"
+  "conclusionZh": "本轮新增上海交通大学自动化与感知学院、人工智能学院和溥渊未来技术学院共 59 位导师。新增记录保留官方研究方向和导师页面，SAIS 与人工智能学院博士路线仅作项目层面参考；个人 2027/2028 Fall 接收、资助和余位未由项目资格推导。"
 }

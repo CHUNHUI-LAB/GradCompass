@@ -1,3 +1,6 @@
+import {sjtuExpansionBytes} from './sjtu-expansion-baseline.mjs';
+import {avatarInitialsBytes} from './avatar-initials-baseline.mjs';
+import {roboticsExpansionBytes} from './robotics-expansion-baseline.mjs';
 import {currentMainBytes} from './current-main-baseline.mjs';
 import {sevenBytes} from './seven-schools-baseline.mjs';
 import {pkuBytes} from './pku-baseline.mjs';
@@ -8,7 +11,8 @@ import fs from 'node:fs';
 import {detailUiFixture as fixture,detailUiBytes} from './detail-ui-baseline.mjs';
 import {latestCorrectionFixture,latestSourceBytes} from './latest-3f294-baseline.mjs';
 import {snapshotHash as hash,snapshotText as serialize} from './strict-history-transform.mjs';
-const read=path=>overseasBytes(path,pkuBytes(path,sevenBytes(path,currentMainBytes(path,fs.readFileSync(new URL('../'+path,import.meta.url))))));
+const source=path=>sjtuExpansionBytes(path,fs.readFileSync(new URL('../'+path,import.meta.url)));
+const read=path=>overseasBytes(path,pkuBytes(path,sevenBytes(path,currentMainBytes(path,roboticsExpansionBytes(path,avatarInitialsBytes(path,source(path)))))));
 const publishedHashes={
  'assets/app.js':'d90c1fa2e55244e6c0cd763ca66c40b1bb40fdcf2785f2b2afc2a18f6891e2e3',
  'index.html':'d7c81e4fc61b7e19d620f77e75dc80357b5ac6f016fb583f979c2be275f85f9a',

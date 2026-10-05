@@ -1,3 +1,6 @@
+import {sjtuExpansionBytes} from './sjtu-expansion-baseline.mjs';
+import {avatarInitialsBytes} from './avatar-initials-baseline.mjs';
+import {roboticsExpansionBytes} from './robotics-expansion-baseline.mjs';
 import {currentMainBytes} from './current-main-baseline.mjs';
 import {sevenBytes} from './seven-schools-baseline.mjs';
 import {pkuBytes} from './pku-baseline.mjs';
@@ -11,7 +14,7 @@ import {currentCorrectionFixture as previous} from './current-correction-baselin
 import {snapshotHash as hash,snapshotText as serialize,transformSnapshotBytes} from './strict-history-transform.mjs';
 // The later UI-only stage is reversed explicitly; all evidence-stage hashes and
 // fixtures below stay unchanged. Current UI bytes have independent strict tests.
-const read=path=>detailUiBytes(path,overseasBytes(path,pkuBytes(path,sevenBytes(path,currentMainBytes(path,fs.readFileSync(new URL('../'+path,import.meta.url)))))));
+const read=path=>detailUiBytes(path,overseasBytes(path,pkuBytes(path,sevenBytes(path,currentMainBytes(path,roboticsExpansionBytes(path,avatarInitialsBytes(path,sjtuExpansionBytes(path,fs.readFileSync(new URL('../'+path,import.meta.url))))))))));
 const currentDataHashes={
  'data/catalog.json':'1d487459fc92f44d1c68451061b6afac2c06c8289740f6abf77e4639667a6120',
  'data/advisor-profiles.json':'f1b3044692f6bbebed815428f10133c535272bcccce7bd431657cf432511d042',

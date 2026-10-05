@@ -25,7 +25,7 @@ const historicalFiles=[
 const sourceManifest=JSON.parse(fs.readFileSync(path.join(root,'release-manifest.json'),'utf8'));
 const publicFiles=[...new Set([...sourceManifest.allowedFiles.map(row=>row.path),...historicalFiles])].sort();
 const sha256=bytes=>crypto.createHash('sha256').update(bytes).digest('hex');
-const freeze=dir=>execFileSync('python',['scripts/freeze.py'],{cwd:dir,encoding:'utf8',stdio:'pipe'});
+const freeze=dir=>execFileSync('python3',['scripts/freeze.py'],{cwd:dir,encoding:'utf8',stdio:'pipe'});
 function fixture(prefix){
  const dir=fs.mkdtempSync(path.join(os.tmpdir(),prefix));
  try {
