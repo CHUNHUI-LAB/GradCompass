@@ -25,6 +25,22 @@
       ],
       "projectCycleVerified": true,
       "individualRecruitmentVerified": false
+    },
+    {
+      "id": "nju-lamda-2027-guide",
+      "title": "南京大学LAMDA 2027年秋季入学研究生招收说明",
+      "cycle": "2027 Fall",
+      "status": "individual_list_and_process_reference",
+      "summaryZh": "LAMDA列出2027拟招生导师、博士/直博对象、材料、截止时间和三位导师志愿；需再取得人工智能学院正式入学资格。",
+      "sources": [
+        {
+          "label": "南京大学LAMDA 2027年秋季入学研究生招收说明",
+          "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false
     }
   ],
   "advisors": [
@@ -38,7 +54,7 @@
       "referencePhdRouteIds": [
         "nju-ai-phd-reference-2026"
       ],
-      "cycle2027FallReference": false,
+      "cycle2027FallReference": true,
       "cycle2027FallVerified": false,
       "cycle2028FallVerified": false,
       "sources": [
@@ -55,6 +71,11 @@
         {
           "label": "南京大学人工智能学院 LAMDA 成员名录",
           "url": "https://www.lamda.nju.edu.cn/CH.People.ashx",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "LAMDA 2027拟招生导师名单",
+          "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
           "checkedDate": "2026-10-05"
         }
       ],

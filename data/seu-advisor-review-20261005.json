@@ -25,6 +25,27 @@
       ],
       "projectCycleVerified": true,
       "individualRecruitmentVerified": false
+    },
+    {
+      "id": "seu-palm-2027",
+      "title": "东南大学PALM实验室2027年博士/直博招生说明",
+      "cycle": "2027 Fall",
+      "status": "lab_process_and_list_reference",
+      "summaryZh": "PALM公开说明2027博士/直博申请、实验室面试、学校正式考核边界，并列出拟招生导师及研究方向；报名截止暂未公布。",
+      "sources": [
+        {
+          "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+          "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "东南大学PALM实验室2027年拟招生导师名单",
+          "url": "https://palm.seu.edu.cn/application.html",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false
     }
   ],
   "advisors": [
@@ -123,6 +144,134 @@
         }
       ],
       "note": "院系或实验室博士项目/导师名单不等于个人招生名额。"
+    },
+    {
+      "id": "seu-wei-xiucan",
+      "name": "Xiu-Shen Wei",
+      "nameZh": "魏秀参",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "计算机视觉、机器学习、具身智能、AI4Science",
+      "profileUrl": "https://cs.seu.edu.cn/weixs/main.htm",
+      "referencePhdRouteIds": [
+        "seu-palm-phd-reference-2027"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://cs.seu.edu.cn/weixs/main.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "东南大学PALM实验室2027年拟招生导师名单",
+          "url": "https://palm.seu.edu.cn/application.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+          "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "PALM公开2027拟招生导师名单；实验室接受不等于学校录取。"
+    },
+    {
+      "id": "seu-song-mofei",
+      "name": "Mofei Song",
+      "nameZh": "宋沫飞",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "计算机图形学、计算机视觉、智能体系统",
+      "profileUrl": "https://cs.seu.edu.cn/2019/0301/c23024a264097/page.htm",
+      "referencePhdRouteIds": [
+        "seu-palm-phd-reference-2027"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://cs.seu.edu.cn/2019/0301/c23024a264097/page.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "东南大学PALM实验室2027年拟招生导师名单",
+          "url": "https://palm.seu.edu.cn/application.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+          "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "PALM公开2027拟招生导师名单；实验室接受不等于学校录取。"
+    },
+    {
+      "id": "seu-feng-lei",
+      "name": "Lei Feng",
+      "nameZh": "冯磊",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "大模型智能体、人工智能安全、科学智能",
+      "profileUrl": "https://cs.seu.edu.cn/fenglei/main.htm",
+      "referencePhdRouteIds": [
+        "seu-palm-phd-reference-2027"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://cs.seu.edu.cn/fenglei/main.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "东南大学PALM实验室2027年拟招生导师名单",
+          "url": "https://palm.seu.edu.cn/application.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+          "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "PALM公开2027拟招生导师名单；实验室接受不等于学校录取。"
+    },
+    {
+      "id": "seu-zhang-yu",
+      "name": "Yu Zhang",
+      "nameZh": "张宇",
+      "catalogStatus": "profile_visible_association_pending",
+      "researchZh": "计算机视觉、机器学习、3D姿态与视频分析",
+      "profileUrl": "https://cs.seu.edu.cn/2019/0105/c23024a257571/page.psp",
+      "referencePhdRouteIds": [
+        "seu-palm-phd-reference-2027"
+      ],
+      "cycle2027FallReference": true,
+      "cycle2027FallVerified": false,
+      "cycle2028FallVerified": false,
+      "sources": [
+        {
+          "label": "导师官方主页",
+          "url": "https://cs.seu.edu.cn/2019/0105/c23024a257571/page.psp",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "东南大学PALM实验室2027年拟招生导师名单",
+          "url": "https://palm.seu.edu.cn/application.html",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+          "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "note": "PALM公开2027拟招生导师名单；实验室接受不等于学校录取。"
     }
   ],
   "conclusionZh": "已核实东南大学博士项目/导师方向与3位相关导师的官方研究档案；未把项目或导师名录推导为个人2028 Fall招生名额。"

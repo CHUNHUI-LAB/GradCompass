@@ -25,6 +25,22 @@
       ],
       "projectCycleVerified": true,
       "individualRecruitmentVerified": false
+    },
+    {
+      "id": "ustc-tong-plan-2027",
+      "title": "中国科大—北京通用人工智能研究院2027年通计划博士专项",
+      "cycle": "2027 Fall",
+      "status": "special_program_reference",
+      "summaryZh": "2027通计划拟招5名全日制学术学位博士，主要推免直博，采用双导师制；张天柱列为校内导师，个人名额仍待核。",
+      "sources": [
+        {
+          "label": "中国科大—北京通用人工智能研究院2027年通计划博士招生简章",
+          "url": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false
     }
   ],
   "advisors": [
@@ -102,7 +118,7 @@
       "referencePhdRouteIds": [
         "ustc-ai-phd-reference-2026"
       ],
-      "cycle2027FallReference": false,
+      "cycle2027FallReference": true,
       "cycle2027FallVerified": false,
       "cycle2028FallVerified": false,
       "sources": [
@@ -119,6 +135,11 @@
         {
           "label": "中国科学技术大学研究生招生在线通计划博士导师信息",
           "url": "https://yz.ustc.edu.cn/article/2795",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "中国科大—北京通用人工智能研究院2027年通计划博士招生简章",
+          "url": "https://yz.ustc.edu.cn/article/2851/184?num=2",
           "checkedDate": "2026-10-05"
         }
       ],

@@ -25,6 +25,27 @@
       ],
       "projectCycleVerified": true,
       "individualRecruitmentVerified": false
+    },
+    {
+      "id": "fudan-phd-2027-process",
+      "title": "复旦大学未来信息创新学院2027年招生流程更新",
+      "cycle": "2027 Fall reference",
+      "status": "process_reference_only",
+      "summaryZh": "官网已发布2027推免和工程硕博士培养改革专项流程；本批次页面未确认四位导师个人博士名额。",
+      "sources": [
+        {
+          "label": "复旦大学未来信息创新学院招生信息（2027批次）",
+          "url": "https://fit.fudan.edu.cn/Data/List/zsxx1",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "复旦大学2027年工程硕博士培养改革专项推免招生第二轮复试名单",
+          "url": "https://fit.fudan.edu.cn/Data/View/7025",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false
     }
   ],
   "advisors": [

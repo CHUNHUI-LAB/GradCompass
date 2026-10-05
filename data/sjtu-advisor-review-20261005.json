@@ -25,6 +25,22 @@
       ],
       "projectCycleVerified": true,
       "individualRecruitmentVerified": false
+    },
+    {
+      "id": "sjtu-phd-2027-index",
+      "title": "上海交通大学2027博士招生入口更新",
+      "cycle": "2027 Fall reference",
+      "status": "institutional_process_reference",
+      "summaryZh": "学校博士招生页已出现2027专项通知，但未找到三位自动化与感知学院导师的2027个人博士招募名额。",
+      "sources": [
+        {
+          "label": "上海交通大学博士生招生简章入口（含2027专项通知）",
+          "url": "https://yzb.sjtu.edu.cn/zsjz/bsszs?c=202",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "projectCycleVerified": false,
+      "individualRecruitmentVerified": false
     }
   ],
   "advisors": [

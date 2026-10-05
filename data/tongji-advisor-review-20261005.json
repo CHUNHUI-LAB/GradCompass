@@ -30,6 +30,27 @@
       ],
       "projectCycleVerified": true,
       "individualRecruitmentVerified": false
+    },
+    {
+      "id": "tongji-robotics-2027-direct-phd",
+      "title": "同济大学机械工程与机器人学院2027年接收推免生（含直接攻博）办法",
+      "cycle": "2027 Fall reference",
+      "status": "program_process_reference",
+      "summaryZh": "机械工程与机器人学院已发布2027推免直博预报名与复试办法；当前四位智能机器人导师的个人名额未逐一确认。",
+      "sources": [
+        {
+          "label": "同济大学机械工程与机器人学院2027年接收推免生（含直接攻博）办法",
+          "url": "https://mefaculty.tongji.edu.cn/info/1023/5599.htm",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "徐阳导师主页（明确招收2027年入学硕博）",
+          "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false
     }
   ],
   "advisors": [

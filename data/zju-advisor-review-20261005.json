@@ -25,6 +25,27 @@
       ],
       "projectCycleVerified": true,
       "individualRecruitmentVerified": false
+    },
+    {
+      "id": "zju-phd-2027-detail",
+      "title": "浙江大学人工智能学院2027年推免直博综合考核细则",
+      "cycle": "2027 Fall",
+      "status": "program_requirements_reference",
+      "summaryZh": "2027推免直博的英语门槛、专家推荐书、申请材料、网申和复试时间已明确；导师个人余位未核实。",
+      "sources": [
+        {
+          "label": "浙江大学人工智能学院2027年招收推免生综合考核实施细则",
+          "url": "https://ai.zju.edu.cn/2026/0914/c90347a320259/page.psp",
+          "checkedDate": "2026-10-05"
+        },
+        {
+          "label": "浙江大学人工智能学院2027年推荐免试研究生招生复试公告",
+          "url": "https://ai.zju.edu.cn/2026/0914/c90347a3202664/page.psp",
+          "checkedDate": "2026-10-05"
+        }
+      ],
+      "projectCycleVerified": true,
+      "individualRecruitmentVerified": false
     }
   ],
   "advisors": [
