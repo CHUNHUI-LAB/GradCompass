@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './jhu-language-history-fs.mjs';
 import crypto from 'node:crypto';
 import {avatarInitialsBytes,avatarInitialsFixture as f} from './avatar-initials-baseline.mjs';
 import {snapshotHash as hash} from './strict-history-transform.mjs';

@@ -5,7 +5,7 @@ import {sevenBytes} from './seven-schools-baseline.mjs';
 import {pkuBytes} from './pku-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './jhu-language-history-fs.mjs';
 import {overseasFixture as f,overseasBytes,overseasObject} from './overseas-baseline.mjs';
 import {snapshotHash as hash,snapshotText as serialize} from './strict-history-transform.mjs';
 import {browseRoutes,buildOpportunities} from '../assets/core.js';

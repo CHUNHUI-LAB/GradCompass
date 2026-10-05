@@ -59,6 +59,7 @@ files.extend(['tests/overseas-baseline.mjs','tests/overseas-additions.test.mjs',
 files.extend(['tests/current-main-baseline.mjs','tests/current-main-history.test.mjs','tests/fixtures/history/reviewed-current-main-03b16.json'])
 files.extend(['tests/robotics-expansion-baseline.mjs','tests/robotics-expansion-history.test.mjs','tests/fixtures/history/reviewed-robotics-expansion.json'])
 files.extend(['tests/avatar-initials-baseline.mjs','tests/avatar-initials-history.test.mjs','tests/fixtures/history/reviewed-avatar-initials.json'])
+files.extend(['tests/jhu-language-baseline.mjs','tests/jhu-language-history-fs.mjs','tests/jhu-language-current.test.mjs','tests/fixtures/history/reviewed-jhu-language-20261005.json'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):
