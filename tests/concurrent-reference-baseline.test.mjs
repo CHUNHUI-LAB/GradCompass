@@ -1,7 +1,7 @@
 import {latestSourceBytes} from './latest-3f294-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './jhu-language-history-fs.mjs';
 import {concurrentReferenceFixture as fixture,concurrentReferenceBytes} from './concurrent-reference-baseline.mjs';
 import {currentCorrectionBytes} from './current-correction-baseline.mjs';
 import {sha256,serialize} from './historical-source-baseline.mjs';

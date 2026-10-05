@@ -2,7 +2,7 @@ import {previousCandidateBytes} from './latest-3f294-baseline.mjs';
 // This suite locks the preceding reviewed candidate; latest 3f294 source coverage is independent.
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './jhu-language-history-fs.mjs';
 import {currentCorrectionFixture as fixture,currentCorrectionBaseline,currentCorrectionBytes} from './current-correction-baseline.mjs';
 import {historicalSourceBaseline,historicalSourceBytes,serialize,sha256} from './historical-source-baseline.mjs';
 const frozenCandidateCache=new Map();

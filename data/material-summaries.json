@@ -354,6 +354,24 @@
       "checkedDate": "2026-10-04",
       "evidenceScope": "official substantive page text",
       "readWindowUtc": "2026-10-04T15:01:30Z/2026-10-04T15:04:13Z"
+    },
+    {
+      "id": "jhu_wse_language_20261005",
+      "label": "JHU WSE 英语能力政策与豁免（院级通则）",
+      "url": "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/international-students/english-proficiency-policy-test-waiver-eligibility/",
+      "section": "Accepted Tests; preferred scores; waiver eligibility and application instructions; body lines 81–177",
+      "checkedDate": "2026-10-05",
+      "evidenceScope": "official substantive page text; current public policy, no application portal inspection",
+      "readWindowUtc": "2026-10-05T13:18:52Z/2026-10-05T13:19:26Z"
+    },
+    {
+      "id": "jhu_robotics_admissions_20261005",
+      "label": "JHU Robotics MSE 2027 招生材料复核",
+      "url": "https://lcsr.jhu.edu/education/robotics-masters-program/admissions/",
+      "section": "Spring/Fall 2027; WSE and Application Requirements; body lines 45–98",
+      "checkedDate": "2026-10-05",
+      "evidenceScope": "official substantive page text; current public policy, no application portal inspection",
+      "readWindowUtc": "2026-10-05T13:18:52Z/2026-10-05T13:19:26Z"
     }
   ],
   "records": [
@@ -1672,7 +1690,7 @@
         "jhu-robotics-mse"
       ],
       "status": "verified",
-      "checkedDate": "2026-10-04",
+      "checkedDate": "2026-10-05",
       "summary": "按项目官方清单准备文书、成绩、推荐及适用语言证明；选交与条件项分列。",
       "note": "适用2027 Spring / Fall；本科背景由院校审核，材料核实不等于个人资格已获批准。",
       "admissionYear": "2027 Spring / 2027 Fall",
@@ -1717,10 +1735,12 @@
         },
         {
           "kind": "language",
-          "text": "适用国际申请人提交IELTS、Cambridge Assessment English或TOEFL；项目更偏好IELTS。豁免和具体门槛需另查学校规定。",
+          "text": "适用国际申请人按机器人项目页提交IELTS、Cambridge Assessment English或TOEFL；项目更偏好IELTS。WSE院级通则推荐IELTS 7、TOEFL 100/120或5.0/6，这些推荐分数不是统一硬性最低要求，项目另有规定时以项目为准。符合英语授课条件的本科或硕士申请人可在申请系统申请豁免并上传学校证明；不得据此视为自动获批。WSE通则另列DET，但机器人项目页未列，是否适用该项目待核。2027申请仍须核对当期系统。",
           "requirementStatus": "conditional",
           "sourceIds": [
-            "jhu_robotics_20261004_admissions"
+            "jhu_robotics_20261004_admissions",
+            "jhu_wse_language_20261005",
+            "jhu_robotics_admissions_20261005"
           ]
         },
         {
@@ -1751,7 +1771,9 @@
       ],
       "sourceIds": [
         "jhu_robotics_20261004_program",
-        "jhu_robotics_20261004_admissions"
+        "jhu_robotics_20261004_admissions",
+        "jhu_wse_language_20261005",
+        "jhu_robotics_admissions_20261005"
       ]
     },
     {

@@ -6,7 +6,7 @@ import {pkuBytes} from './pku-baseline.mjs';
 import {overseasBytes} from './overseas-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './jhu-language-history-fs.mjs';
 import {detailUiBytes} from './detail-ui-baseline.mjs';
 import {latestCorrectionFixture as latest,concurrent3fFixture as concurrent,latestCorrectionBytes,concurrent3fBytes,latestSourceBytes,latestSourceBaseline,previousCandidateBytes} from './latest-3f294-baseline.mjs';
 import {currentCorrectionFixture as previous} from './current-correction-baseline.mjs';

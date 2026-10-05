@@ -3,7 +3,7 @@ import {roboticsExpansionBytes} from './robotics-expansion-baseline.mjs';
 import {currentMainBytes} from './current-main-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './jhu-language-history-fs.mjs';
 import crypto from 'node:crypto';
 import {sevenFixture as f,sevenBytes,sevenObject} from './seven-schools-baseline.mjs';
 import {pkuBytes} from './pku-baseline.mjs';

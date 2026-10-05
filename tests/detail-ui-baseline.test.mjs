@@ -6,7 +6,7 @@ import {pkuBytes} from './pku-baseline.mjs';
 import {overseasBytes} from './overseas-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './jhu-language-history-fs.mjs';
 import {detailUiFixture as fixture,detailUiBytes} from './detail-ui-baseline.mjs';
 import {latestCorrectionFixture,latestSourceBytes} from './latest-3f294-baseline.mjs';
 import {snapshotHash as hash,snapshotText as serialize} from './strict-history-transform.mjs';
