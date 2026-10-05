@@ -96,3 +96,19 @@ test('concurrent 3f294 reference comparison keeps labels and no empty columns',(
  for(const a of advisors)assert(el('#compare-names').textContent.includes(a.name));
  clickData('data-close','compare-dialog');el('#compare-clear').listeners.click();assert(el('#compare-tray').hidden);clickData('data-compare','missing::reference');assert(el('#compare-tray').hidden);
 });
+
+
+test('avatar initials omit nicknames in opportunity and research-reference cards',()=>{
+ view('advisors');el('#reset-filters').listeners.click();
+ const card=(id)=>el('#view-content').innerHTML.match(new RegExp('<article class="advisor-card" data-advisor-id="'+id+'"[\\s\\S]*?</article>'))?.[0];
+ const peng=data.advisors.find(a=>a.id==='cityu_peng_yin');
+ assert.equal(peng.name,'Peng (Max) Yin');
+ assert.match(card(peng.id),/aria-hidden="true">PY<small>/);
+ assert(card(peng.id).includes('Peng (Max) Yin'));
+ const reference=data.advisors.find(a=>a.id==='cuhk_zhongyu_li');
+ assert.match(card(reference.id),/data-reference-advisor="true"/);
+ assert.match(card(reference.id),/aria-hidden="true">ZL<small>/);
+ const app=fs.readFileSync(new URL('../assets/app.js',import.meta.url),'utf8');
+ assert.equal((app.match(/const initials=nameInitials\(a.name\)/g)||[]).length,2);
+ assert(!app.includes("a.name.split(/[\\s-]+/)"));
+});

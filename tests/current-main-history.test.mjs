@@ -1,3 +1,4 @@
+import {avatarInitialsBytes} from './avatar-initials-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -8,7 +9,8 @@ import {pkuBytes} from './pku-baseline.mjs';
 import {latestSourceBytes,latestSourceBaseline} from './latest-3f294-baseline.mjs';
 import {snapshotHash as hash,snapshotText as serialize} from './strict-history-transform.mjs';
 import {browseAdvisors,browseRoutes,buildOpportunities,filterOpportunities,matchesSearch} from '../assets/core.js';
-const read=path=>fs.readFileSync(new URL('../'+path,import.meta.url));
+// This older stage asserts its original exact bytes after the separately pinned avatar fix.
+const read=path=>avatarInitialsBytes(path,fs.readFileSync(new URL('../'+path,import.meta.url)));
 const git=bytes=>crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${bytes.length}\0`),bytes])).digest('hex');
 // Independent constants from the published c698 and 03b16 Git trees. These are
 // intentionally separate from fixture metadata and are never derived at test time.
