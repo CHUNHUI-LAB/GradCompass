@@ -1,0 +1,114 @@
+{
+  "beforeCommit": "5617d13a000c557a0d29fc9658ef3c36d0ebb281",
+  "beforeTree": "a2e0c2f98dcbb5de33fe6997e45bb16b3674e907",
+  "scope": "Avatar initials only; no source data changes",
+  "files": {
+    "assets/app.js": {
+      "beforeSha256": "c9d6c387108ffd61a12df21a5aecf1841887a43f6e9c5d093df19487d1325ec1",
+      "afterSha256": "c4b42a78c45ebbb0057059e023d30afbffd42456cc45ca0cb6ebe1da287d8624",
+      "beforeGitBlob": "2ff6befebb180fe2c3b4e824e80ecfd15bcaac22",
+      "operations": [
+        {
+          "before": "import {renderProjectComparison,selectProjectComparisonRoutes} from './project-comparison.js?v=6c410b0e71a7';\nimport {renderPageOverview,overviewPresets} from './page-overviews.js?v=b3b49bc26271';\nimport {normalizeMaterialSupplement} from './material-supplement.js?v=07ae3a09a2ba';\nimport {renderRecordSummary,supervisorAssociationText,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=a3bc1afa9310';\nimport {normalizeExperiences,renderExperiences,renderExperienceReading,renderExperienceEvidence,renderExperienceResults} from './experiences.js?v=8d440a2e4243';\nimport {profileMap,profileSummary,renderProfile,renderProfileReferences} from './profiles.js?v=4b8e46812ffe';\nimport {rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue} from './core.js?v=79b44f84ac83';\nconst $=selector=>document.querySelector(selector);\n",
+          "after": "import {renderProjectComparison,selectProjectComparisonRoutes} from './project-comparison.js?v=7efb282b3a56';\nimport {renderPageOverview,overviewPresets} from './page-overviews.js?v=a3848ca725ea';\nimport {normalizeMaterialSupplement} from './material-supplement.js?v=335d6ea48c25';\nimport {renderRecordSummary,supervisorAssociationText,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=c82e65c5471b';\nimport {normalizeExperiences,renderExperiences,renderExperienceReading,renderExperienceEvidence,renderExperienceResults} from './experiences.js?v=ee9b5a4db5f7';\nimport {profileMap,profileSummary,renderProfile,renderProfileReferences} from './profiles.js?v=d298d9af1233';\nimport {nameInitials,rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue} from './core.js?v=5ddeade0f642';\nconst $=selector=>document.querySelector(selector);\n"
+        },
+        {
+          "before": " const a=catalog.advisors.find(a=>a.id===o.advisorId),r=catalog.routes.find(r=>r.id===o.routeId),job=(catalog.raPositions||[]).find(j=>j.id===o.jobId);\n const title=r?.program||job?.title||'研究助理岗位';const initials=a.name.split(/[\\s-]+/).map(v=>v[0]).slice(0,2).join('');\n return `<article class=\"advisor-card\" data-advisor-id=\"${e(a.id)}\" data-opportunity-id=\"${e(o.id)}\"><div class=\"advisor-avatar\" aria-hidden=\"true\">${e(initials)}<small>${e(o.type)}</small></div><div class=\"advisor-main\"><div class=\"opportunity-heading\"><span class=\"opportunity-type\">${e(o.type)}${o.type==='RA'?' · 研究助理岗位':o.reference?' · 项目参考':''}</span><span class=\"opportunity-program\">${e(title)}</span></div><div class=\"identity-line\"><button class=\"name-button\" data-detail=\"${e(o.id)}\" aria-label=\"${e(a.name)} ${e(o.type)}${job?.jobReference?' #'+e(job.jobReference):''}的详情\">${aName(a)}</button>${a.newPi?.verified?badge('new','新入职已核实'):''}</div><div class=\"institution-line\"><strong>${e(displayInstitution(a.institution))}</strong> · ${e(a.department)}</div><p class=\"small-note advisor-rank\">${e(rankLabels[rankOf(a)])} · 原职衔：${e(a.position||'未记录')}</p><p class=\"summary\">${e(job?.duties||profileSummary(advisorProfiles.get(a.id),a.summary))}</p>${advisorProfiles.has(a.id)?'':'<p class=\"profile-pending small-note\">专业简介待补充</p>'}<div class=\"tags\">${publicTags(a)}</div></div><div class=\"advisor-actions\"><div class=\"status-group\">${o.type==='RA'?badge('','已发布岗位招聘'):o.reference?badge('unknown','博士项目参考 · 个人关联待核'):openingBadge(a,o.type)}</div><button class=\"detail-button\" data-detail=\"${e(o.id)}\" aria-label=\"查看${e(a.name)} ${e(o.type)}${job?.jobReference?' #'+e(job.jobReference):''}的条件与来源\">${job?'查看岗位详情':'查看导师详情'} →</button>${link(a.profileUrl,'原始主页 ↗')}<button class=\"compare-button\" data-compare=\"${e(o.id)}\" aria-label=\"${compareIds.includes(o.id)?'移出':'加入'}比较：${e(a.name)} ${e(o.type)}${job?.jobReference?' #'+e(job.jobReference):''}\" aria-pressed=\"${compareIds.includes(o.id)}\">${compareIds.includes(o.id)?'已选':'＋ 比较'}</button></div></article>`;\n",
+          "after": " const a=catalog.advisors.find(a=>a.id===o.advisorId),r=catalog.routes.find(r=>r.id===o.routeId),job=(catalog.raPositions||[]).find(j=>j.id===o.jobId);\n const title=r?.program||job?.title||'研究助理岗位';const initials=nameInitials(a.name);\n return `<article class=\"advisor-card\" data-advisor-id=\"${e(a.id)}\" data-opportunity-id=\"${e(o.id)}\"><div class=\"advisor-avatar\" aria-hidden=\"true\">${e(initials)}<small>${e(o.type)}</small></div><div class=\"advisor-main\"><div class=\"opportunity-heading\"><span class=\"opportunity-type\">${e(o.type)}${o.type==='RA'?' · 研究助理岗位':o.reference?' · 项目参考':''}</span><span class=\"opportunity-program\">${e(title)}</span></div><div class=\"identity-line\"><button class=\"name-button\" data-detail=\"${e(o.id)}\" aria-label=\"${e(a.name)} ${e(o.type)}${job?.jobReference?' #'+e(job.jobReference):''}的详情\">${aName(a)}</button>${a.newPi?.verified?badge('new','新入职已核实'):''}</div><div class=\"institution-line\"><strong>${e(displayInstitution(a.institution))}</strong> · ${e(a.department)}</div><p class=\"small-note advisor-rank\">${e(rankLabels[rankOf(a)])} · 原职衔：${e(a.position||'未记录')}</p><p class=\"summary\">${e(job?.duties||profileSummary(advisorProfiles.get(a.id),a.summary))}</p>${advisorProfiles.has(a.id)?'':'<p class=\"profile-pending small-note\">专业简介待补充</p>'}<div class=\"tags\">${publicTags(a)}</div></div><div class=\"advisor-actions\"><div class=\"status-group\">${o.type==='RA'?badge('','已发布岗位招聘'):o.reference?badge('unknown','博士项目参考 · 个人关联待核'):openingBadge(a,o.type)}</div><button class=\"detail-button\" data-detail=\"${e(o.id)}\" aria-label=\"查看${e(a.name)} ${e(o.type)}${job?.jobReference?' #'+e(job.jobReference):''}的条件与来源\">${job?'查看岗位详情':'查看导师详情'} →</button>${link(a.profileUrl,'原始主页 ↗')}<button class=\"compare-button\" data-compare=\"${e(o.id)}\" aria-label=\"${compareIds.includes(o.id)?'移出':'加入'}比较：${e(a.name)} ${e(o.type)}${job?.jobReference?' #'+e(job.jobReference):''}\" aria-pressed=\"${compareIds.includes(o.id)}\">${compareIds.includes(o.id)?'已选':'＋ 比较'}</button></div></article>`;\n"
+        },
+        {
+          "before": "function referenceAdvisorCard(a){\n const initials=a.name.split(/[\\s-]+/).map(v=>v[0]).slice(0,2).join('');\n return `<article class=\"advisor-card\" data-advisor-id=\"${e(a.id)}\" data-reference-advisor=\"true\"><div class=\"advisor-avatar\" aria-hidden=\"true\">${e(initials)}<small>研究资料</small></div><div class=\"advisor-main\"><div class=\"identity-line\"><button class=\"name-button\" data-detail=\"${e(a.id)}\">${aName(a)}</button>${a.newPi?.verified?badge('new','新入职已核实'):''}</div><div class=\"institution-line\"><strong>${e(displayInstitution(a.institution))}</strong> · ${e(a.department)}</div><p class=\"small-note advisor-rank\">${e(rankLabels[rankOf(a)])} · 原职衔：${e(a.position||'未记录')}</p><p class=\"summary\">${e(profileSummary(advisorProfiles.get(a.id),a.summary))}</p>${advisorProfiles.has(a.id)?'':'<p class=\"profile-pending small-note\">专业简介待补充</p>'}<div class=\"tags\">${publicTags(a)}</div></div><div class=\"advisor-actions\"><p class=\"small-note\">项目关联为待核或参考；不表示导师不招生</p><button class=\"detail-button\" data-detail=\"${e(a.id)}\">查看导师与证据 →</button>${link(a.profileUrl,'原始主页 ↗')}</div></article>`;\n",
+          "after": "function referenceAdvisorCard(a){\n const initials=nameInitials(a.name);\n return `<article class=\"advisor-card\" data-advisor-id=\"${e(a.id)}\" data-reference-advisor=\"true\"><div class=\"advisor-avatar\" aria-hidden=\"true\">${e(initials)}<small>研究资料</small></div><div class=\"advisor-main\"><div class=\"identity-line\"><button class=\"name-button\" data-detail=\"${e(a.id)}\">${aName(a)}</button>${a.newPi?.verified?badge('new','新入职已核实'):''}</div><div class=\"institution-line\"><strong>${e(displayInstitution(a.institution))}</strong> · ${e(a.department)}</div><p class=\"small-note advisor-rank\">${e(rankLabels[rankOf(a)])} · 原职衔：${e(a.position||'未记录')}</p><p class=\"summary\">${e(profileSummary(advisorProfiles.get(a.id),a.summary))}</p>${advisorProfiles.has(a.id)?'':'<p class=\"profile-pending small-note\">专业简介待补充</p>'}<div class=\"tags\">${publicTags(a)}</div></div><div class=\"advisor-actions\"><p class=\"small-note\">项目关联为待核或参考；不表示导师不招生</p><button class=\"detail-button\" data-detail=\"${e(a.id)}\">查看导师与证据 →</button>${link(a.profileUrl,'原始主页 ↗')}</div></article>`;\n"
+        }
+      ]
+    },
+    "assets/core.js": {
+      "beforeSha256": "79b44f84ac83a4e794d9fdb7f45b78cebadc9c561698df0e6f5fadfa8e1933cf",
+      "afterSha256": "5ddeade0f642306fb7c1fb1e531186a74e3bdfdefc9889dd385841874773ad0d",
+      "beforeGitBlob": "ccee992a1af5410081bcc2622fe0991a6f7bfb27",
+      "operations": [
+        {
+          "before": "// Rank is a display/filter normalization of the recorded title, never eligibility,\n",
+          "after": "// Avatar labels use name letters only; parenthesized aliases are not name tokens.\n// Keep the recorded full name untouched and preserve the first-two-token convention.\nexport function nameInitials(value){\n if(typeof value!=='string')return '?';\n let name=value.normalize('NFC');\n let previous;\n do{previous=name;name=name.replace(/\\([^()]*\\)|（[^（）]*）/gu,' ');}while(name!==previous);\n const parts=name.match(/\\p{L}[\\p{L}\\p{M}'’]*/gu)||[];\n if(!parts.length)return '?';\n if(parts.length===1&&/^\\p{Script=Han}+$/u.test(parts[0]))return Array.from(parts[0]).slice(0,2).join('');\n return parts.slice(0,2).map(part=>Array.from(part)[0].toUpperCase()).join('');\n}\n// Rank is a display/filter normalization of the recorded title, never eligibility,\n"
+        }
+      ]
+    },
+    "assets/experiences.js": {
+      "beforeSha256": "8d440a2e424325d7eb55c3681dd6a879c7d6bc73dff9c4917ed13bf9730aca87",
+      "afterSha256": "ee9b5a4db5f77a6933f9ac49b20498b43c02122e2ded32d9440968251c430f1d",
+      "beforeGitBlob": "71052d284a2a40883a65f618ad5ae6951bec0f9d",
+      "operations": [
+        {
+          "before": "import {escapeHTML,safeUrl} from './core.js?v=79b44f84ac83';\nconst e=escapeHTML;\n",
+          "after": "import {escapeHTML,safeUrl} from './core.js?v=5ddeade0f642';\nconst e=escapeHTML;\n"
+        }
+      ]
+    },
+    "assets/material-supplement.js": {
+      "beforeSha256": "07ae3a09a2ba6a699018076d9aefea642ce5f7c7e5fe4282215fcae113b67b17",
+      "afterSha256": "335d6ea48c25d6d0dc0cd77080f9e8c5590fe3b3e22ac40ae68dc514d74ad6cf",
+      "beforeGitBlob": "2be553319906d265df922b6c21baf06618251559",
+      "operations": [
+        {
+          "before": "import {safeUrl,isBrowsableRoute} from './core.js?v=79b44f84ac83';\nconst statuses=new Set(['required','conditional','published','not_specified','unknown','optional','required_count_unknown','required_for_hkpfs','published_school_only']);\n",
+          "after": "import {safeUrl,isBrowsableRoute} from './core.js?v=5ddeade0f642';\nconst statuses=new Set(['required','conditional','published','not_specified','unknown','optional','required_count_unknown','required_for_hkpfs','published_school_only']);\n"
+        }
+      ]
+    },
+    "assets/page-overviews.js": {
+      "beforeSha256": "b3b49bc262719635f899508cb805586e1f58f9d04615224dd17c7903f33dc2cb",
+      "afterSha256": "a3848ca725ea3e172c1f46da91315f6a5c53c3859fc4ce9f09c6cc7b2c7b2e27",
+      "beforeGitBlob": "deba17a9cafc7efd90c4957d88e966556e85900d",
+      "operations": [
+        {
+          "before": "import {escapeHTML,buildOpportunities,browseRoutes as filterRoutes,browseAdvisors,filterDeadlines,deadlineStatus,themesFor,institutionLabel} from './core.js?v=79b44f84ac83';\n\n",
+          "after": "import {escapeHTML,buildOpportunities,browseRoutes as filterRoutes,browseAdvisors,filterDeadlines,deadlineStatus,themesFor,institutionLabel} from './core.js?v=5ddeade0f642';\n\n"
+        }
+      ]
+    },
+    "assets/profiles.js": {
+      "beforeSha256": "4b8e46812ffe77a3c4724c8ed0b46295bab17bb132262691a9fc57ba267983b6",
+      "afterSha256": "d298d9af1233e3f4a4d5888e1b9ac7d59d3dbabd43c579e2ec605521722ec9ec",
+      "beforeGitBlob": "a2915448ca7605d7d68343c7df169599fc30aed6",
+      "operations": [
+        {
+          "before": "import {escapeHTML,safeUrl} from './core.js?v=79b44f84ac83';\nconst e=escapeHTML;\n",
+          "after": "import {escapeHTML,safeUrl} from './core.js?v=5ddeade0f642';\nconst e=escapeHTML;\n"
+        }
+      ]
+    },
+    "assets/project-comparison.js": {
+      "beforeSha256": "6c410b0e71a760b5d82f14aeb2cde91792d81a798211058fe25b39d6f3d971af",
+      "afterSha256": "7efb282b3a56dca8fc74697bdc84561ce11dbd0ba178fcdd7488d4822732a543",
+      "beforeGitBlob": "ab0e7a7e4521018d6788af03e4ac13011ee97a43",
+      "operations": [
+        {
+          "before": "import {escapeHTML, readerText, safeUrl, sourcesOf, institutionLabel, degreeLabel, degreeDisplay, isBrowsableRoute, routeEvidenceText, deadlineStatus} from './core.js?v=79b44f84ac83';\nimport {supervisorAssociationText} from './record-summaries.js?v=a3bc1afa9310';\n\n",
+          "after": "import {escapeHTML, readerText, safeUrl, sourcesOf, institutionLabel, degreeLabel, degreeDisplay, isBrowsableRoute, routeEvidenceText, deadlineStatus} from './core.js?v=5ddeade0f642';\nimport {supervisorAssociationText} from './record-summaries.js?v=c82e65c5471b';\n\n"
+        }
+      ]
+    },
+    "assets/record-summaries.js": {
+      "beforeSha256": "a3bc1afa9310d6040b74a1689b4a3f0984e0eb9e8c3f9d25b1e5447a55cc6fb9",
+      "afterSha256": "c82e65c5471b6be5cf45e32a83d29c0b8f5b40935808345f5cfc3104ec3c63d2",
+      "beforeGitBlob": "b22a74320e278f455ac95e2ffc181d3a42849868",
+      "operations": [
+        {
+          "before": "import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,degreeDisplay,deadlineStatus,isBrowsableRoute,routeEvidenceText,browseRoutes as filterRoutes,matchesSearch,routeSearchText} from './core.js?v=79b44f84ac83';\nconst e=value=>escapeHTML(readerText(value));\n",
+          "after": "import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,degreeDisplay,deadlineStatus,isBrowsableRoute,routeEvidenceText,browseRoutes as filterRoutes,matchesSearch,routeSearchText} from './core.js?v=5ddeade0f642';\nconst e=value=>escapeHTML(readerText(value));\n"
+        }
+      ]
+    },
+    "index.html": {
+      "beforeSha256": "8f28f8a0ef9a6b360bd740f488c359ecd09dfccb6e1206387b229656215828d3",
+      "afterSha256": "0700e020a254370f4d627386c68a4fa6883b49748d2c61c493fa91ba5586c9ba",
+      "beforeGitBlob": "6563fa591a8940afff02e74c1af76de5515e1405",
+      "operations": [
+        {
+          "before": "<link rel=\"stylesheet\" href=\"./assets/style.css?v=8bdf5b250a9e\">\n<script type=\"module\" src=\"./assets/app.js?v=c9d6c387108f\"></script>\n</head>\n",
+          "after": "<link rel=\"stylesheet\" href=\"./assets/style.css?v=8bdf5b250a9e\">\n<script type=\"module\" src=\"./assets/app.js?v=c4b42a78c45e\"></script>\n</head>\n"
+        }
+      ]
+    }
+  }
+}

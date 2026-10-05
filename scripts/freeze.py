@@ -57,6 +57,8 @@ files.extend(['tests/strict-history-transform.mjs', 'tests/latest-3f294-baseline
 files.extend(['tests/detail-ui-baseline.mjs', 'tests/detail-ui-baseline.test.mjs', 'tests/fixtures/history/reviewed-detail-ui-polish.json', 'tests/detail-reader-polish.test.mjs'])
 files.extend(['tests/overseas-baseline.mjs','tests/overseas-additions.test.mjs','tests/fixtures/history/reviewed-overseas-20261004.json'])
 files.extend(['tests/current-main-baseline.mjs','tests/current-main-history.test.mjs','tests/fixtures/history/reviewed-current-main-03b16.json'])
+files.extend(['tests/robotics-expansion-baseline.mjs','tests/robotics-expansion-history.test.mjs','tests/fixtures/history/reviewed-robotics-expansion.json'])
+files.extend(['tests/avatar-initials-baseline.mjs','tests/avatar-initials-history.test.mjs','tests/fixtures/history/reviewed-avatar-initials.json'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):

@@ -17,3 +17,10 @@ test('no personal background or private fit copied into public catalog',()=>{con
 test('static page has accessibility fundamentals and strict CSP',()=>{const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');assert(html.includes('lang="zh-CN"'));assert(html.includes('class="skip-link"'));assert(html.includes('aria-live="polite"'));assert(html.includes('aria-labelledby="detail-title"'));assert(html.includes('Content-Security-Policy'));assert(!html.includes('style='));const css=fs.readFileSync(new URL('../assets/style.css',import.meta.url),'utf8');assert(css.includes('prefers-reduced-motion'));assert(css.includes(':focus-visible'));assert(css.includes('min-height:44px'));});
 
 test('degree-specific opening filter cannot borrow PhD or RA signals for MPhil',()=>{const rows=filterAdvisors(catalog,{degree:'MPhil',opening:'explicit'});assert(!rows.some(a=>a.id==='hku-xihui-liu'));assert(rows.every(a=>a.openingDetails.some(o=>o.degree==='MPhil'&&o.status==='explicit')));});
+
+
+test('avatar initials skip aliases and punctuation without changing names',async()=>{
+ const {nameInitials}=await import('../assets/core.js');
+ const cases=[['Peng (Max) Yin','PY'],['Peng （Max） Yin','PY'],['Peng (Max (nickname)) Yin','PY'],['  Peng   Yin  ','PY'],['Jean-Luc Picard','JL'],['D’Angelo Russell','DR'],["D'Angelo Russell",'DR'],['Émile Zola','ÉZ'],['E\u0301mile Zola','ÉZ'],['王小明','王小'],['殷鹏','殷鹏'],['Peng Yin 殷鹏','PY'],['Madonna','M'],['“Peng” Yin','PY'],['(Max)','?'],['...','?'],['','?'],[null,'?'],[undefined,'?'],[42,'?']];
+ for(const [name,expected]of cases)assert.equal(nameInitials(name),expected,String(name));
+});

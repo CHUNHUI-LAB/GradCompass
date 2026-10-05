@@ -1,3 +1,15 @@
+// Avatar labels use name letters only; parenthesized aliases are not name tokens.
+// Keep the recorded full name untouched and preserve the first-two-token convention.
+export function nameInitials(value){
+ if(typeof value!=='string')return '?';
+ let name=value.normalize('NFC');
+ let previous;
+ do{previous=name;name=name.replace(/\([^()]*\)|（[^（）]*）/gu,' ');}while(name!==previous);
+ const parts=name.match(/\p{L}[\p{L}\p{M}'’]*/gu)||[];
+ if(!parts.length)return '?';
+ if(parts.length===1&&/^\p{Script=Han}+$/u.test(parts[0]))return Array.from(parts[0]).slice(0,2).join('');
+ return parts.slice(0,2).map(part=>Array.from(part)[0].toUpperCase()).join('');
+}
 // Rank is a display/filter normalization of the recorded title, never eligibility,
 // tenure, a supervision entitlement, recruitment capacity, or evidence of new-PI status.
 export const rankLabels={professor:'教授',associate:'副教授',assistant:'助理教授',research:'研究系列',other:'其他职衔',unknown:'职级待核实'};

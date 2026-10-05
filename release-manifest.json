@@ -52,8 +52,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 72273,
-      "sha256": "c9d6c387108ffd61a12df21a5aecf1841887a43f6e9c5d093df19487d1325ec1"
+      "bytes": 72216,
+      "sha256": "c4b42a78c45ebbb0057059e023d30afbffd42456cc45ca0cb6ebe1da287d8624"
     },
     {
       "path": "assets/campus-art.webp",
@@ -62,13 +62,13 @@
     },
     {
       "path": "assets/core.js",
-      "bytes": 33316,
-      "sha256": "79b44f84ac83a4e794d9fdb7f45b78cebadc9c561698df0e6f5fadfa8e1933cf"
+      "bytes": 33985,
+      "sha256": "5ddeade0f642306fb7c1fb1e531186a74e3bdfdefc9889dd385841874773ad0d"
     },
     {
       "path": "assets/experiences.js",
       "bytes": 22992,
-      "sha256": "8d440a2e424325d7eb55c3681dd6a879c7d6bc73dff9c4917ed13bf9730aca87"
+      "sha256": "ee9b5a4db5f77a6933f9ac49b20498b43c02122e2ded32d9440968251c430f1d"
     },
     {
       "path": "assets/favicon.svg",
@@ -78,27 +78,27 @@
     {
       "path": "assets/material-supplement.js",
       "bytes": 1866,
-      "sha256": "07ae3a09a2ba6a699018076d9aefea642ce5f7c7e5fe4282215fcae113b67b17"
+      "sha256": "335d6ea48c25d6d0dc0cd77080f9e8c5590fe3b3e22ac40ae68dc514d74ad6cf"
     },
     {
       "path": "assets/page-overviews.js",
       "bytes": 15555,
-      "sha256": "b3b49bc262719635f899508cb805586e1f58f9d04615224dd17c7903f33dc2cb"
+      "sha256": "a3848ca725ea3e172c1f46da91315f6a5c53c3859fc4ce9f09c6cc7b2c7b2e27"
     },
     {
       "path": "assets/profiles.js",
       "bytes": 2793,
-      "sha256": "4b8e46812ffe77a3c4724c8ed0b46295bab17bb132262691a9fc57ba267983b6"
+      "sha256": "d298d9af1233e3f4a4d5888e1b9ac7d59d3dbabd43c579e2ec605521722ec9ec"
     },
     {
       "path": "assets/project-comparison.js",
       "bytes": 13304,
-      "sha256": "6c410b0e71a760b5d82f14aeb2cde91792d81a798211058fe25b39d6f3d971af"
+      "sha256": "7efb282b3a56dca8fc74697bdc84561ce11dbd0ba178fcdd7488d4822732a543"
     },
     {
       "path": "assets/record-summaries.js",
       "bytes": 13405,
-      "sha256": "a3bc1afa9310d6040b74a1689b4a3f0984e0eb9e8c3f9d25b1e5447a55cc6fb9"
+      "sha256": "c82e65c5471b6be5cf45e32a83d29c0b8f5b40935808345f5cfc3104ec3c63d2"
     },
     {
       "path": "assets/style.css",
@@ -223,7 +223,7 @@
     {
       "path": "index.html",
       "bytes": 8270,
-      "sha256": "8f28f8a0ef9a6b360bd740f488c359ecd09dfccb6e1206387b229656215828d3"
+      "sha256": "0700e020a254370f4d627386c68a4fa6883b49748d2c61c493fa91ba5586c9ba"
     },
     {
       "path": "package.json",
@@ -232,8 +232,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 9073,
-      "sha256": "9e9d7c225aab11c3ad90c1ccf10eb683090b84d786fe1aec6231ca82e453e026"
+      "bytes": 9380,
+      "sha256": "c07ecf437162efa30fcf58cd14fa8d82ff14efc9a6106b6d8cfa552382ef9f52"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -249,6 +249,16 @@
       "path": "tests/advisor-additions-baseline.mjs",
       "bytes": 1190,
       "sha256": "81d22a366b6c4ac6879985117bc8d09d940c7fdfa682b83bf2014a465bc80310"
+    },
+    {
+      "path": "tests/avatar-initials-baseline.mjs",
+      "bytes": 1243,
+      "sha256": "36806e7ba6af391e2e337fbecb150453eb7f25aee8c25d549fa2e7524510c9e1"
+    },
+    {
+      "path": "tests/avatar-initials-history.test.mjs",
+      "bytes": 2764,
+      "sha256": "e261bd8ca68273582408c81f485b83bd21be902827c710bca0ad623dbe6f435d"
     },
     {
       "path": "tests/browser-smoke.mjs",
@@ -277,8 +287,8 @@
     },
     {
       "path": "tests/core.test.mjs",
-      "bytes": 8483,
-      "sha256": "bd2ed8f25d8af0ae97112d27f2154ea681e8d64ba8ef58cb83598870a7f5daf4"
+      "bytes": 9157,
+      "sha256": "b39290f05723dd4478694aa8d4414390b2948b46c4d05e7e6ee557f4ad520e76"
     },
     {
       "path": "tests/current-correction-baseline.mjs",
@@ -297,8 +307,8 @@
     },
     {
       "path": "tests/current-main-history.test.mjs",
-      "bytes": 12438,
-      "sha256": "b65149e5db83438e1777b6a5764fc1f55b9c94dd82e9abfb64a78d126974c511"
+      "bytes": 12634,
+      "sha256": "2c5d9b87d6a0feba492a9dd72ecab01092a9756693367f52f2928da35f879313"
     },
     {
       "path": "tests/cycle-refresh.test.mjs",
@@ -317,8 +327,8 @@
     },
     {
       "path": "tests/detail-ui-baseline.test.mjs",
-      "bytes": 4894,
-      "sha256": "f72cc8846b727b3ac16422d456647efeb47ae5a74985c2dcd35c574c03ad4098"
+      "bytes": 5091,
+      "sha256": "1bd1c8214999839c8a5916e5c821754d28efb5073c3eaba5c6e98b1d25b32a5e"
     },
     {
       "path": "tests/editorial-design.test.mjs",
@@ -386,6 +396,11 @@
       "sha256": "852f6196567ca2eabe96edaae1f097e8f59151da544d02aa9951a8a5a97c6f05"
     },
     {
+      "path": "tests/fixtures/history/reviewed-avatar-initials.json",
+      "bytes": 16509,
+      "sha256": "91063908a362b5a64b44bf6f40e2a09ea459aafdaa97ed9ae0a80b66c71c5529"
+    },
+    {
       "path": "tests/fixtures/history/reviewed-concurrent-3f294.json",
       "bytes": 366093,
       "sha256": "cee2c0ec1d48f68ce52fea5650e1ae43c05312b7fa7849a5c7c0b589fce10228"
@@ -426,6 +441,11 @@
       "sha256": "443cf0e43f9439d6be01a79d92fc15d867573cbe26286b2859f1c18480061894"
     },
     {
+      "path": "tests/fixtures/history/reviewed-robotics-expansion.json",
+      "bytes": 599684,
+      "sha256": "2b07411e61286ea1c1684e5a892bd81766bab943ac7c05bf9dc633c7e51275c6"
+    },
+    {
       "path": "tests/fixtures/history/reviewed-seven-schools-20261005.json",
       "bytes": 303473,
       "sha256": "fdbf5e434048e82b6e48e7562a2c1f76d68659a84db7f0c930287fd84a0e6243"
@@ -452,8 +472,8 @@
     },
     {
       "path": "tests/historical-source-fs.mjs",
-      "bytes": 1293,
-      "sha256": "dce2dfc820fda0189d001544ca2c13f6f342b10ee6e452dfea8996e26c2ef1a7"
+      "bytes": 1400,
+      "sha256": "b307590c6789ffc5b8ba702f2c694f44ec7bdb0498532aad540973ae7bc0d791"
     },
     {
       "path": "tests/hku-ris-baseline.mjs",
@@ -467,13 +487,13 @@
     },
     {
       "path": "tests/latest-3f294-baseline.mjs",
-      "bytes": 2366,
-      "sha256": "c446eef510e2358df9cba327a442da965a6921c763f08f3d768184f99f77b7a1"
+      "bytes": 2617,
+      "sha256": "b645c8ea10f1ba32899eebea83ba69b8ca4377c39e08a58d04121a29452a7773"
     },
     {
       "path": "tests/latest-3f294-baseline.test.mjs",
-      "bytes": 7780,
-      "sha256": "0c9cfa2b4c22b7e9ecfecac28ba8fa718f65a16129539c846d20b760299f4d9d"
+      "bytes": 7977,
+      "sha256": "25f006783cf04b28711f5032205920902379e86264ee8a0038394194d20659b4"
     },
     {
       "path": "tests/maintenance-baseline.mjs",
@@ -507,8 +527,8 @@
     },
     {
       "path": "tests/overseas-additions.test.mjs",
-      "bytes": 6355,
-      "sha256": "1f619ab931452c6f282ad5b3bdc884bbb76c01ade94c83cdce369a5dedd78ccb"
+      "bytes": 6546,
+      "sha256": "e754798d567cdf7b6dd3d40847439ac4d95de06a170a5c0a9083e9744037ac1d"
     },
     {
       "path": "tests/overseas-baseline.mjs",
@@ -537,8 +557,8 @@
     },
     {
       "path": "tests/pku-history.test.mjs",
-      "bytes": 7469,
-      "sha256": "13a43120404c7600fda51fc4fc43faae201e30a96a6018fdb385420453a607bb"
+      "bytes": 7660,
+      "sha256": "3ea59e5444a0daf696ecb3f0c3913237b72523350ea1d663baff85876139ab29"
     },
     {
       "path": "tests/pku-review.test.mjs",
@@ -592,8 +612,8 @@
     },
     {
       "path": "tests/public-discovery.test.mjs",
-      "bytes": 9956,
-      "sha256": "fe05913b72ed5c3b9bf9bd5d02bdca439cbbbfa51a08f524fe42139eca31b2d9"
+      "bytes": 9958,
+      "sha256": "a8578d310cc38b48faf946da998688d63aa6a544bf09aa58f954a7838297f52c"
     },
     {
       "path": "tests/ranks.test.mjs",
@@ -622,13 +642,23 @@
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 25164,
-      "sha256": "467b058db190b14ae92cae34bca4615ad40ddcb014d1830fc1042431564eb11f"
+      "bytes": 26277,
+      "sha256": "b715e8e380550e70da134b5224f3eaeea20d9a31deabbb394e7618adc7bb9612"
     },
     {
       "path": "tests/resource-versions.test.mjs",
       "bytes": 8159,
       "sha256": "0eb871946536a2b8faa1c4f181bf2c974d542c86999b0b21bc869b14208257f0"
+    },
+    {
+      "path": "tests/robotics-expansion-baseline.mjs",
+      "bytes": 1699,
+      "sha256": "8110ae36dae922363d27f171cf70b6d0e9ba3a9a702cc2a579ce8c12b57b98dd"
+    },
+    {
+      "path": "tests/robotics-expansion-history.test.mjs",
+      "bytes": 6509,
+      "sha256": "fc1d9a714750e4cf9c381a42f42cdaecad0b38733b85ad9de773aca4774bf172"
     },
     {
       "path": "tests/seven-schools-baseline.mjs",
@@ -637,8 +667,8 @@
     },
     {
       "path": "tests/seven-schools-history.test.mjs",
-      "bytes": 8144,
-      "sha256": "9cc7d807f73e3cba4de4cdbd2b9163478b0ac3a0f2653433c1718ff164970895"
+      "bytes": 8335,
+      "sha256": "c62f952db1fecff7732925af7b28704b30bbd27d479d52bf48a5023df2ea4c7f"
     },
     {
       "path": "tests/seven-schools-review.test.mjs",

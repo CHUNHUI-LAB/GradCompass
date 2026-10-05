@@ -1,3 +1,5 @@
+import {avatarInitialsBytes} from './avatar-initials-baseline.mjs';
+import {roboticsExpansionBytes} from './robotics-expansion-baseline.mjs';
 import {currentMainBytes} from './current-main-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -9,7 +11,7 @@ import {snapshotHash as hash,snapshotText as serialize} from './strict-history-t
 import {latestSourceBytes,latestSourceBaseline} from './latest-3f294-baseline.mjs';
 import {browseAdvisors,browseRoutes,buildOpportunities,filterOpportunities} from '../assets/core.js';
 // Explicit c698 view: current-main enrichment is reversed before frozen seven-school assertions.
-const read=p=>currentMainBytes(p,fs.readFileSync(new URL('../'+p,import.meta.url)));
+const read=p=>currentMainBytes(p,roboticsExpansionBytes(p,avatarInitialsBytes(p,fs.readFileSync(new URL('../'+p,import.meta.url)))));
 const git=b=>crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${b.length}\0`),b])).digest('hex');
 const publishedGitBlobs={"before":{"assets/app.js":"3fc206cb830faa7fac53c7c0bb0228064d38b5ed","assets/core.js":"2864ff591d31e1f295883f037b25b89bd424105a","assets/experiences.js":"8b0ea30b0b7811cb4b2beca8a243f365a5d376cf","assets/material-supplement.js":"637d06345a2998a7f707bd5d74f7e69673730ce3","assets/page-overviews.js":"4006b9648c9490e3d28e8fdf11373823fcb97e01","assets/profiles.js":"c978573a5f18a578c33eb374a7ea56f0aab9d2c3","assets/project-comparison.js":"a577021140cf1b3eb793dae38468ce39e9b44f5f","assets/record-summaries.js":"9ca9105aaed6f8e7eb0b3daa80c9bb02f84bd77a","data/catalog.json":"bd52f8f19a8d51a8450802c27f1c6d7ddcd9f950","index.html":"24f4cc38ac0c5a4483fb0cac4f359aa2fa2285d4"},"after":{"assets/app.js":"5c8c17715e087a1a98766352928a969cd898a72e","assets/core.js":"b1cdd6c732392e7fd63eeeabc836f56cbbf629f2","assets/experiences.js":"0dfcabc76a9ab8b74920e72d7064196bbebd2f39","assets/material-supplement.js":"5a6940e72be8b484459b342566a1a1241633d970","assets/page-overviews.js":"b3297d490628ca1e2abeb85819431a6311ceed96","assets/profiles.js":"dfcc33168ff920e5223dbb88ec7420e88891030e","assets/project-comparison.js":"0bfe092dfa94d517eb935cadbc37ba23d458cd50","assets/record-summaries.js":"727ad4639c3884ca4ee02bf31e25cde6bbfb74ed","data/catalog.json":"c8840ba010b4fc0cb371821a783b18069d04f0fc","index.html":"d1d8e96636edcaac177bf9218bfd2d9bb2438d1e"}};
 const c=JSON.parse(read('data/catalog.json')),prior=JSON.parse(sevenBytes('data/catalog.json',read('data/catalog.json')));
