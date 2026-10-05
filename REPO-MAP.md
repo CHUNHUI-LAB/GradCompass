@@ -4,13 +4,16 @@
 
 ## 数据与运行链路
 
+当前主目录为 334 位导师、65 个项目；复旦、中科大、同济、东南本轮新增 127 位，个人博士招募、2027 拟招生参考及余位核验分别保存。
+
+
 | 层 | 位置 | 作用与边界 |
 | --- | --- | --- |
 | 主事实数据 | `data/catalog.json` | 导师、学位路线、截止日期、原始材料、招生声明和 watch sources。资格与招生字段以这里为准。 |
 | 导师专业简介 | `data/advisor-profiles.json` | 仅按 `advisorId` 补充职业概况、实验室、资源、代表成果和未知项；不能覆盖 `catalog` 的资格、招生或名额字段。 |
 | 清华核查记录 | `data/tsinghua-advisor-review-20261004.json` | 保存清华不同年份/渠道的真实来源、五项来源纠错、博士参考与7位导师的核查；不把项目参考升级为 2028 Fall 名额。 |
 | 南科大核查记录 | `data/sustech-advisor-review-20261004.json` | 保存南科大机械系自主培养博士项目、自动化学院 2027 博士通知、导师关联和 2028 Fall 边界；博士路线只在详情中作为参考。 |
-| 七校博士核查记录 | `data/zju-advisor-review-20261005.json`、`data/zju-robotics-advisor-review-20261005.json`、`data/fudan-advisor-review-20261005.json`、`data/sjtu-advisor-review-20261005.json`、`data/sjtu-robotics-advisor-review-20261005.json`、`data/nju-advisor-review-20261005.json`、`data/nju-robotics-advisor-review-20261005.json`、`data/ustc-advisor-review-20261005.json`、`data/tongji-advisor-review-20261005.json`、`data/seu-advisor-review-20261005.json` | 保存浙江大学、复旦大学、上海交通大学、南京大学、中国科学技术大学、同济大学、东南大学的官方博士项目或导师目录依据；均为 `reference`，不制造个人 2028 Fall 名额。 |
+| 七校博士核查记录（含四校导师扩展） | `data/zju-advisor-review-20261005.json`、`data/zju-robotics-advisor-review-20261005.json`、`data/fudan-advisor-review-20261005.json`、`data/sjtu-advisor-review-20261005.json`、`data/sjtu-robotics-advisor-review-20261005.json`、`data/nju-advisor-review-20261005.json`、`data/nju-robotics-advisor-review-20261005.json`、`data/ustc-advisor-review-20261005.json`、`data/tongji-advisor-review-20261005.json`、`data/seu-advisor-review-20261005.json` | 保存浙江大学、复旦大学、上海交通大学、南京大学、中国科学技术大学、同济大学、东南大学的官方博士项目或导师目录依据；均为 `reference`，不制造个人 2028 Fall 名额。 |
 | 项目简介 | `data/project-summaries.json` | 补充培养、研究、入学条件和批次说明；不能从项目简介推导导师名额。 |
 | 材料摘要 | `data/material-summaries.json` | 官方材料要求的有界摘要；与原目录材料合并展示。 |
 | 申请经验 | `data/application-experiences.json` 与 `data/application-experience-provenance.json` | 公开自述及其阅读范围；不参与当前招生资格判断。 |
@@ -60,7 +63,7 @@
 
 - `browseAdvisors`/`browseRoutes`用于公开全集，旧`filterAdvisors`/`filterRoutes`仅保留早期本科便利筛选的历史回归语义，不决定当前公开可见性
 - `hasVerifiedAssociation`只接受精确routeId、verified状态、非pending验证及个人关联来源；`buildOpportunities`不把项目资格或reference转换成导师个人招生
-- 当前目录含207位导师与61个项目；本批在既有内容上追加七校博士项目参考和浙江大学控制、计算机、人工智能、机械、航空航天等方向导师。研究资料、前置学历和招生方式分别展示，未知不删除；新记录不改变57条已核实学位关联与2个独立RA岗位的统计。
+- 当前目录含334位导师与65个项目；本批在既有内容上追加七校博士项目参考和浙江大学控制、计算机、人工智能、机械、航空航天等方向导师。研究资料、前置学历和招生方式分别展示，未知不删除；新记录不改变57条已核实学位关联与2个独立RA岗位的统计。
 - `sourceCycle`、`admissionMode`、`currentCycleVerificationStatus`与个人`individualRecruitmentVerified`相互独立；周期标签须读原HTML标题，不能只依赖可能漏标题的正文抽取
 - 搜索索引由 `assets/core.js` 统一生成；导师、项目、日期和材料共用归一化匹配，学校简称、学位中英文别名和批次/条件文字只用于检索，不改变资格或机会统计
 - 四份补充资料独立加载；全依赖链content hash经freeze后写入，实际验证结果不硬编码进manifest
@@ -91,3 +94,7 @@
 ## 2026-10-05 上海交通大学导师扩展
 
 新增 `data/sjtu-robotics-advisor-review-20261005.json`，逐页核查自动化与感知学院、人工智能学院和溥渊未来技术学院官网，新增 59 位上海交通大学导师。自动化与感知学院和人工智能学院的博士路线均保留为项目级 `reference`；溥渊未来技术学院导师未自动绑定博士项目。除马进主页明确 2028 级研究生招生开放外，其余个人 2027/2028 Fall 名额继续单独核验；马进的 28 级原文未拆分硕士/博士。
+
+## 2026-10-06 四校分院系探索
+
+`data/four-schools-exploration-20261006.json`保存四校覆盖范围、逐人博士依据/招募说明、来源快照哈希、未收录候选和缺口。原四份导师核查文件同步到38/32/28/47位；复旦新增计算与智能、类脑、机器人校级参考，同济新增机械博士目录参考。127位新增导师追加在目录后；个人公开招募不自动升级为已核实项目关联或2028博士余位。

@@ -1,4 +1,5 @@
 import {sjtuExpansionBytes} from './sjtu-expansion-baseline.mjs';
+import {fourSchoolsExpansionBytes} from './four-schools-expansion-baseline.mjs';
 import {avatarInitialsBytes} from './avatar-initials-baseline.mjs';
 import {roboticsExpansionBytes} from './robotics-expansion-baseline.mjs';
 import {currentMainBytes} from './current-main-baseline.mjs';
@@ -11,7 +12,7 @@ import fs from './jhu-language-history-fs.mjs';
 import {detailUiFixture as fixture,detailUiBytes} from './detail-ui-baseline.mjs';
 import {latestCorrectionFixture,latestSourceBytes} from './latest-3f294-baseline.mjs';
 import {snapshotHash as hash,snapshotText as serialize} from './strict-history-transform.mjs';
-const source=path=>sjtuExpansionBytes(path,fs.readFileSync(new URL('../'+path,import.meta.url)));
+const source=path=>sjtuExpansionBytes(path,fourSchoolsExpansionBytes(path,fs.readFileSync(new URL('../'+path,import.meta.url))));
 const read=path=>overseasBytes(path,pkuBytes(path,sevenBytes(path,currentMainBytes(path,roboticsExpansionBytes(path,avatarInitialsBytes(path,source(path)))))));
 const publishedHashes={
  'assets/app.js':'d90c1fa2e55244e6c0cd763ca66c40b1bb40fdcf2785f2b2afc2a18f6891e2e3',

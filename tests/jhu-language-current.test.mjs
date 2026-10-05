@@ -5,7 +5,8 @@ import crypto from 'node:crypto';
 import {jhuLanguageBytes,jhuLanguageFixture as f} from './jhu-language-baseline.mjs';
 import {snapshotHash as hash} from './strict-history-transform.mjs';
 import {normalizeMaterialSupplement} from '../assets/material-supplement.js';
-const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url));
+import {fourSchoolsExpansionBytes} from './four-schools-expansion-baseline.mjs';
+const read=p=>fourSchoolsExpansionBytes(p,fs.readFileSync(new URL('../'+p,import.meta.url)));
 test('JHU policy delta round trips the complete exact baseline and rejects unknown mutations',()=>{
  assert.equal(f.baseCommit,'b626e93');
  assert.deepEqual(Object.keys(f.files).sort(),['assets/app.js','data/material-summaries.json','index.html']);

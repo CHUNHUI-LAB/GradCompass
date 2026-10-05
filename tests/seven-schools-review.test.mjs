@@ -6,14 +6,15 @@ const read = p => JSON.parse(fs.readFileSync(new URL('../'+p, import.meta.url), 
 const catalog = read('data/catalog.json');
 const schools = [
   {institution:'ZJU', zh:'浙江大学', baseRoute:'zju-ai-phd-reference-2027', review:'zju-advisor-review-20261005.json', advisorIds:['zju-wu-fei','zju-zhuang-yueting','zju-li-xi','zju-chen-pei']},
-  {institution:'Fudan', zh:'复旦大学', baseRoute:'fudan-ai-phd-reference-2026', review:'fudan-advisor-review-20261005.json', advisorIds:['fudan-zhang-wenqiang','fudan-chen-tao','fudan-leng-siyang','fudan-cheng-yuan']},
+  {institution:'Fudan', zh:'复旦大学', baseRoute:'fudan-ai-phd-reference-2026', review:'fudan-advisor-review-20261005.json', advisorIds:['fudan-zhang-wenqiang','fudan-chen-tao','fudan-leng-siyang','fudan-cheng-yuan','fudan-huang-xuanjing','fudan-feng-rui','fudan-sun-weiwei','fudan-ding-henghui','fudan-xu-fan','fudan-shan-hongming']},
   {institution:'SJTU', zh:'上海交通大学', baseRoute:'sjtu-robotics-phd-reference-2026', review:'sjtu-advisor-review-20261005.json', advisorIds:['sjtu-chen-weidong','sjtu-zhang-weidong','sjtu-yu-gan']},
   {institution:'NJU', zh:'南京大学', baseRoute:'nju-ai-phd-reference-2026', review:'nju-advisor-review-20261005.json', advisorIds:['nju-li-yufeng','nju-shen-furao','nju-zhao-jinxi']},
-  {institution:'USTC', zh:'中国科学技术大学', baseRoute:'ustc-ai-phd-reference-2026', review:'ustc-advisor-review-20261005.json', advisorIds:['ustc-ren-shaoqing','ustc-hu-qiqiang','ustc-zhang-tianzhu']},
-  {institution:'Tongji', zh:'同济大学', baseRoute:'tongji-robotics-phd-reference-2026', review:'tongji-advisor-review-20261005.json', advisorIds:['tongji-he-bin','tongji-wang-zhipeng','tongji-xu-yang','tongji-jiang-shuo']},
-  {institution:'SEU', zh:'东南大学', baseRoute:'seu-robotics-phd-reference-2026', review:'seu-advisor-review-20261005.json', advisorIds:['seu-li-zhongguo','seu-huang-yongming','seu-chang-zhiyong','seu-wei-xiucan','seu-song-mofei','seu-feng-lei','seu-zhang-yu']}
+  {institution:'USTC', zh:'中国科学技术大学', baseRoute:'ustc-ai-phd-reference-2026', review:'ustc-advisor-review-20261005.json', advisorIds:['ustc-ren-shaoqing','ustc-hu-qiqiang','ustc-zhang-tianzhu','ustc-yu-jun','ustc-chang-xiaojun','ustc-zhang-yanyong','ustc-xin-chen','ustc-dong-erbao','ustc-kang-qiyu','ustc-xia-xiaobo','ustc-xiao-junbin','ustc-liao-qianfang']},
+  {institution:'Tongji', zh:'同济大学', baseRoute:'tongji-robotics-phd-reference-2026', review:'tongji-advisor-review-20261005.json', advisorIds:['tongji-he-bin','tongji-wang-zhipeng','tongji-xu-yang','tongji-jiang-shuo','tongji-lian-zheng','tongji-yin-zhen','tongji-li-gang','tongji-shen-runjie','tongji-zheng-dongliang','tongji-zhou-yanmin','tongji-song-yue']},
+  {institution:'SEU', zh:'东南大学', baseRoute:'seu-robotics-phd-reference-2026', review:'seu-advisor-review-20261005.json', advisorIds:['seu-li-zhongguo','seu-huang-yongming','seu-chang-zhiyong','seu-wei-xiucan','seu-song-mofei','seu-feng-lei','seu-zhang-yu','seu-zhou-bo','seu-fang-fang','seu-cao-hu','seu-yang-wankou','seu-yang-xingchen','seu-wang-teng','seu-li-jun','seu-chen-hao','seu-fang-pengfei']}
 ];
-const expectedPhdCounts = {ZJU:36,Fudan:4,SJTU:56,NJU:29,USTC:4,Tongji:4,SEU:7};
+for(const s of schools)if(['Fudan','USTC','Tongji','SEU'].includes(s.institution))s.advisorIds=catalog.advisors.filter(a=>a.institution===s.institution).map(a=>a.id);
+const expectedPhdCounts = {ZJU:36,Fudan:38,SJTU:56,NJU:29,USTC:33,Tongji:28,SEU:47};
 const cycleRoutes = [
   ['nju-lamda-phd-reference-2027','NJU'],
   ['ustc-tong-plan-phd-reference-2027','USTC'],
@@ -25,7 +26,7 @@ test('seven mainland universities are recorded with bounded PhD references', () 
     const review = read('data/'+school.review);
     assert.equal(review.institution, school.institution);
     assert.equal(review.institutionZh, school.zh);
-    assert.equal(review.checkedDate, '2026-10-05');
+    assert.equal(review.checkedDate,['Fudan','USTC','Tongji','SEU'].includes(school.institution)?'2026-10-06':'2026-10-05');
     assert.equal(review.advisors.length, school.advisorIds.length);
     assert.deepEqual(new Set(review.advisors.map(a=>a.id)), new Set(school.advisorIds));
     const route = catalog.routes.find(r=>r.id===school.baseRoute);
@@ -37,11 +38,11 @@ test('seven mainland universities are recorded with bounded PhD references', () 
     assert.equal(filterOpportunities(catalog,{institution:school.institution,opportunityType:'PhD'}).length, expectedPhdCounts[school.institution]);
     assert.equal(filterOpportunities(catalog,{institution:school.institution}).length, 0);
     for (const advisor of review.advisors) {
-      assert(advisor.sources.length >= 2);
+      if(['ustc-xu-tong','ustc-xiao-mingjun','ustc-wang-zilei','ustc-lv-linyuan'].includes(advisor.id)){assert.equal(advisor.sources.length,1);assert.equal(advisor.sources[0].url,'https://yz.ustc.edu.cn/article/2851/184?num=2');}else assert(advisor.sources.length >= 2);
       assert.equal(advisor.cycle2027FallVerified, false);
       assert.equal(advisor.cycle2028FallVerified, false);
       assert(advisor.sources.every(source=>source.url.startsWith('https://')));
-      assert(advisor.sources.every(source=>source.checkedDate==='2026-10-05'));
+      assert(advisor.sources.every(source=>source.checkedDate===review.checkedDate));
     }
   }
 });
@@ -63,17 +64,17 @@ test('cycle-specific 2027 routes preserve project-level and personal-level bound
     assert.equal(advisor.cycle2027FallReference,true);
     assert.equal(advisor.cycle2027FallVerified ?? false,false);
     assert.equal(advisor.cycle2028FallVerified ?? false,false);
-    assert.equal(advisor.opening,'unknown');
+    assert(['explicit','unknown'].includes(advisor.opening));
   }
 });
 test('new school advisors have no profile association or opening overclaim', () => {
   const ids = schools.flatMap(s=>s.advisorIds);
-  assert.equal(ids.length, 28);
+  assert.equal(ids.length, 155);
   for (const id of ids) {
     const a = catalog.advisors.find(x=>x.id===id);
     assert.equal(a.eligibility, 'pending');
     assert.equal(a.cycle2028FallVerified ?? false, false);
-    assert.equal(a.opening, 'unknown');
+    assert(['explicit','unknown'].includes(a.opening));assert(a.openingDetails.every(o=>o.confirmedVacancy!==true&&o.remainingHeadcountVerified!==true));
     assert(Array.isArray(a.caveats) && a.caveats.length > 0);
   }
 });

@@ -60,6 +60,7 @@ files.extend(['tests/current-main-baseline.mjs','tests/current-main-history.test
 files.extend(['tests/robotics-expansion-baseline.mjs','tests/robotics-expansion-history.test.mjs','tests/fixtures/history/reviewed-robotics-expansion.json'])
 files.extend(['tests/avatar-initials-baseline.mjs','tests/avatar-initials-history.test.mjs','tests/fixtures/history/reviewed-avatar-initials.json'])
 files.extend(['tests/jhu-language-baseline.mjs','tests/jhu-language-history-fs.mjs','tests/jhu-language-current.test.mjs','tests/fixtures/history/reviewed-jhu-language-20261005.json'])
+files.extend(['data/four-schools-exploration-20261006.json','tests/four-schools-review.test.mjs','tests/four-schools-expansion-baseline.mjs','tests/four-schools-expansion-history.test.mjs','tests/fixtures/history/reviewed-four-schools-expansion-20261006.json'])
 files.extend(['tests/sjtu-expansion-baseline.mjs','tests/sjtu-expansion-history.test.mjs','tests/fixtures/history/reviewed-sjtu-expansion.json'])
 profile_sources=set()
 def collect_sources(value):
@@ -73,7 +74,7 @@ def collect_sources(value):
 collect_sources(json.loads((root/'data/advisor-profiles.json').read_text())['profiles'][30:])
 manifest['newProfileCitedSourceCount']=len(profile_sources)
 manifest.update(json.loads(subprocess.check_output(['node','scripts/public-counts.mjs'],cwd=root,text=True)))
-manifest['revision']='sjtu-robotics-expansion-20261005'
+manifest['revision']='four-schools-exploration-20261006'
 manifest['allowedFiles']=[]
 for name in sorted(set(files)):
     p=root/name
