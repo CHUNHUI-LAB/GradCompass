@@ -22,7 +22,7 @@
   "newExperienceRecords": 5,
   "materialRecords": 17,
   "materialSupplementRecords": 15,
-  "materialSupplementSources": 47,
+  "materialSupplementSources": 49,
   "projectSummaryRecords": 30,
   "projectSummarySchools": 11,
   "projectSummarySources": 70,
@@ -53,7 +53,7 @@
     {
       "path": "assets/app.js",
       "bytes": 72357,
-      "sha256": "766bfc9a264fd495148b6899a48c6d196293e1705949ac6f280ab7e5f1640b1b"
+      "sha256": "963619d67f614d90b2ba542d3f3b8d07225ee6431d3e4174ccafa48c8d79af01"
     },
     {
       "path": "assets/campus-art.webp",
@@ -147,8 +147,8 @@
     },
     {
       "path": "data/material-summaries.json",
-      "bytes": 81403,
-      "sha256": "899a0ef0883432ca144f54064503781b52b3fbd26cddc1ab232dd6802c6dea0e"
+      "bytes": 83108,
+      "sha256": "9d27adfd4472e2c5f7bd37e61968fb550929f74c5e1083b52721410dea70f361"
     },
     {
       "path": "data/nju-advisor-review-20261005.json",
@@ -228,7 +228,7 @@
     {
       "path": "index.html",
       "bytes": 8270,
-      "sha256": "02d57db600cb27982bd9cfb183fad0831dd16abd0b591c246f580be359027a99"
+      "sha256": "11eaedfe83e1a91216f003e045cf51f1ee55dac501c8a57c00b1ee0e52edb45d"
     },
     {
       "path": "package.json",
@@ -237,8 +237,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 9654,
-      "sha256": "55d27bfbfb8ead05b08bccc770d4ac8481fbd5605e519a84e49d29906aa7be7a"
+      "bytes": 9839,
+      "sha256": "ca2ede1070f121a37981fe69fce805751c1ccdcb564cdc444bec3b2646d15b57"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -262,8 +262,8 @@
     },
     {
       "path": "tests/avatar-initials-history.test.mjs",
-      "bytes": 2880,
-      "sha256": "6cf5df78757e7a4cf751484f1c39bb648d17ec2a2424754c2b150fa6dd605e34"
+      "bytes": 2902,
+      "sha256": "3e26cdee2de8e38a338f2a9f3d3451b21c428ec4b12806182d1fad49830f1667"
     },
     {
       "path": "tests/browser-smoke.mjs",
@@ -287,8 +287,8 @@
     },
     {
       "path": "tests/concurrent-reference-baseline.test.mjs",
-      "bytes": 2213,
-      "sha256": "193e70073dec691537f40ece9bbaf3445146b290fb0da48192acd0882f003209"
+      "bytes": 2235,
+      "sha256": "06e9e1162be1dac65e61806613d7654a44d95659de7a5a543b5636a75b4e4f33"
     },
     {
       "path": "tests/core.test.mjs",
@@ -302,8 +302,8 @@
     },
     {
       "path": "tests/current-correction-baseline.test.mjs",
-      "bytes": 7132,
-      "sha256": "74917453aa09d61ae231fa7d48b87a84b963f7a99c92d92c01dc70db572a0fbe"
+      "bytes": 7154,
+      "sha256": "fe0fb31e7a95bf4d38e94e9d4a8ed6a7a53362b385023329763712a15bdd7560"
     },
     {
       "path": "tests/current-main-baseline.mjs",
@@ -312,8 +312,8 @@
     },
     {
       "path": "tests/current-main-history.test.mjs",
-      "bytes": 12725,
-      "sha256": "00f6b492fb794da12143d7ad14251523e81362b0e22ae4e870a6e4b2946467fd"
+      "bytes": 12747,
+      "sha256": "57d80ffeb67f20151ef951c5d0ec8a96dfb20120b2c3b069b0b7f6c6ab41dbbb"
     },
     {
       "path": "tests/cycle-refresh.test.mjs",
@@ -332,8 +332,8 @@
     },
     {
       "path": "tests/detail-ui-baseline.test.mjs",
-      "bytes": 5215,
-      "sha256": "c632bfb1720afd9a6237f51d7d459c73f6abe04afadf0751385ca780d75c3284"
+      "bytes": 5237,
+      "sha256": "6055ef914553287dc38c0af444da700b25c53e795b6e848c792b56f345f3a098"
     },
     {
       "path": "tests/editorial-design.test.mjs",
@@ -436,6 +436,11 @@
       "sha256": "3ed94ddefa3180a82913df8a06f85760cb45a618d01baeee8ccc1c4883928d2b"
     },
     {
+      "path": "tests/fixtures/history/reviewed-jhu-language-20261005.json",
+      "bytes": 5082,
+      "sha256": "e70c695c7754129673e419e52dffad748ff67c9332167dc3c589ce28484805f4"
+    },
+    {
       "path": "tests/fixtures/history/reviewed-overseas-20261004.json",
       "bytes": 39497,
       "sha256": "b7bddb9f96ff18edf9db10e53091368109a6eb2a1f9da4cf6ac7ae949337375a"
@@ -477,13 +482,13 @@
     },
     {
       "path": "tests/historical-source-baseline.test.mjs",
-      "bytes": 10747,
-      "sha256": "22167c467066f2a1e53283b325dca0687a849d237d566776497220852e5cf0e2"
+      "bytes": 10769,
+      "sha256": "95bf8ea194eaa52750951d40827ac6660833df34081c20fc861c103c62ae8e06"
     },
     {
       "path": "tests/historical-source-fs.mjs",
-      "bytes": 1495,
-      "sha256": "d29cfb2582d69b861b85fe098c2d6e32a9edd4e596a6b234f2f09e162422066e"
+      "bytes": 1517,
+      "sha256": "26d691efe286a5eb153abc61247a751d50c3b70b2cf22b272572bcdce23f4f8c"
     },
     {
       "path": "tests/hku-ris-baseline.mjs",
@@ -496,14 +501,29 @@
       "sha256": "1fe168b3b23771c5e8f3ed96e39131513901b8a99581711d3e91a169383bd90d"
     },
     {
+      "path": "tests/jhu-language-baseline.mjs",
+      "bytes": 1209,
+      "sha256": "776484352f92cd60111ea7947b71e2561ffb044a7e90a014527e807065eb3b3d"
+    },
+    {
+      "path": "tests/jhu-language-current.test.mjs",
+      "bytes": 2763,
+      "sha256": "1b2d5a08abad76f3be2acb5dbec303e01c4b371284a7efb3f9a32bf3107ab7df"
+    },
+    {
+      "path": "tests/jhu-language-history-fs.mjs",
+      "bytes": 745,
+      "sha256": "840476d34fd9e8d67e0d81815a8a39a8f996527ae33ab35d65a7267158727113"
+    },
+    {
       "path": "tests/latest-3f294-baseline.mjs",
       "bytes": 2754,
       "sha256": "d75327732c24ed41f6afc210b47abb9360bd5094945d958e38faacb0889edd72"
     },
     {
       "path": "tests/latest-3f294-baseline.test.mjs",
-      "bytes": 8068,
-      "sha256": "10df643af942dc6a657e9c96362b1ce8985f188ba1ba603aee333a8f5958bfde"
+      "bytes": 8090,
+      "sha256": "db17fe1d5d7bd1c2638e542e922c79def68ad6c4cd773866a68991557e9f66db"
     },
     {
       "path": "tests/maintenance-baseline.mjs",
@@ -537,8 +557,8 @@
     },
     {
       "path": "tests/overseas-additions.test.mjs",
-      "bytes": 6634,
-      "sha256": "95c5a2696b14364c16666dbf066e815024ecdfce08fc713447b373fea5259977"
+      "bytes": 6656,
+      "sha256": "55b11d1c42c48fce2923ecc4d91684f955e71d6122d3aabfb7c771752097c545"
     },
     {
       "path": "tests/overseas-baseline.mjs",
@@ -567,8 +587,8 @@
     },
     {
       "path": "tests/pku-history.test.mjs",
-      "bytes": 7747,
-      "sha256": "12beae1fca49f099648bdf0088aa945ec9a2bd06fe70bd50bebb9ff03ab47a4d"
+      "bytes": 7769,
+      "sha256": "577f89d6dfd9d719912d349a9621ef4d16ec1bc7f021cb2591530944f6c6b111"
     },
     {
       "path": "tests/pku-review.test.mjs",
@@ -667,8 +687,8 @@
     },
     {
       "path": "tests/robotics-expansion-history.test.mjs",
-      "bytes": 6597,
-      "sha256": "349881cd4259a1b650f6174ab9e81f2b7704d87c3bd98b7f390f4cef3c814533"
+      "bytes": 6619,
+      "sha256": "61f6d11c50b8a0b2d5b09530ce7ce1d0f3880dee15a7b71e2b581e780f375fff"
     },
     {
       "path": "tests/seven-schools-baseline.mjs",
@@ -677,8 +697,8 @@
     },
     {
       "path": "tests/seven-schools-history.test.mjs",
-      "bytes": 8423,
-      "sha256": "807ca9a78f492026355d23a5b971cbe2ad00b0b5eadeb257ff6963bdb0d55db0"
+      "bytes": 8445,
+      "sha256": "a4484b57c738141c4488b545e031fabe178decf8000fed8c27705b07d00649df"
     },
     {
       "path": "tests/seven-schools-review.test.mjs",
@@ -692,8 +712,8 @@
     },
     {
       "path": "tests/sjtu-expansion-history.test.mjs",
-      "bytes": 3475,
-      "sha256": "e8359a35fa0ae522e6f07c65e1145e6c1318824dfe17dc143b23ca84f7f8bea6"
+      "bytes": 3557,
+      "sha256": "83f3c4002cb2db15d92d5a00633d59814dbf79cc21d11745a56a39f1e5c8dbf1"
     },
     {
       "path": "tests/sjtu-expansion.test.mjs",

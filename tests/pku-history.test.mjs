@@ -5,7 +5,7 @@ import {currentMainBytes} from './current-main-baseline.mjs';
 import {sevenBytes} from './seven-schools-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './jhu-language-history-fs.mjs';
 import crypto from 'node:crypto';
 import {pkuFixture as f,pkuBytes,pkuObject} from './pku-baseline.mjs';
 import {snapshotHash as hash,snapshotText as serialize} from './strict-history-transform.mjs';

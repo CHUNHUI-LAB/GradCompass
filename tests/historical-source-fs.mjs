@@ -4,7 +4,7 @@ import {currentMainBytes} from './current-main-baseline.mjs';
 import {sevenBytes} from './seven-schools-baseline.mjs';
 import {pkuBytes} from './pku-baseline.mjs';
 import {overseasBytes} from './overseas-baseline.mjs';
-import fs from 'node:fs';
+import fs from './jhu-language-history-fs.mjs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {historicalSourceBytes} from './historical-source-baseline.mjs';

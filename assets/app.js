@@ -286,7 +286,7 @@ async function loadProjectSummaries(){
  refreshOptionalComparison();
 }
 async function loadMaterialSupplement(){
- try{const materialData=await optionalJSON(new URL('../data/material-summaries.json?v=899a0ef08834',import.meta.url));const supplement=normalizeMaterialSupplement(materialData,catalog);catalog={...catalog,materials:[...(catalog.materials||[]),...supplement]};materialSupplementState=supplement.length===materialData.records.length?'loaded':'partial';}
+ try{const materialData=await optionalJSON(new URL('../data/material-summaries.json?v=9d27adfd4472',import.meta.url));const supplement=normalizeMaterialSupplement(materialData,catalog);catalog={...catalog,materials:[...(catalog.materials||[]),...supplement]};materialSupplementState=supplement.length===materialData.records.length?'loaded':'partial';}
  catch{materialSupplementState='unavailable';}
  refreshOptionalView('materials');refreshOptionalDetail('material');
  // Project reading and comparison also consume the material supplement.

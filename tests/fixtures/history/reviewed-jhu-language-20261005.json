@@ -1,0 +1,137 @@
+{
+  "baseCommit": "b626e93",
+  "checkedDate": "2026-10-05",
+  "files": {
+    "data/material-summaries.json": {
+      "beforeSha256": "899a0ef0883432ca144f54064503781b52b3fbd26cddc1ab232dd6802c6dea0e",
+      "afterSha256": "9d27adfd4472e2c5f7bd37e61968fb550929f74c5e1083b52721410dea70f361",
+      "beforeGitBlob": "af654e0800ac7e8ea7fe2c0ef989c41cf6a01620",
+      "kind": "json",
+      "operations": [
+        {
+          "path": [
+            "sources",
+            47
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "jhu_wse_language_20261005",
+            "label": "JHU WSE 英语能力政策与豁免（院级通则）",
+            "url": "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/international-students/english-proficiency-policy-test-waiver-eligibility/",
+            "section": "Accepted Tests; preferred scores; waiver eligibility and application instructions; body lines 81–177",
+            "checkedDate": "2026-10-05",
+            "evidenceScope": "official substantive page text; current public policy, no application portal inspection",
+            "readWindowUtc": "2026-10-05T13:18:52Z/2026-10-05T13:19:26Z"
+          }
+        },
+        {
+          "path": [
+            "sources",
+            48
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "jhu_robotics_admissions_20261005",
+            "label": "JHU Robotics MSE 2027 招生材料复核",
+            "url": "https://lcsr.jhu.edu/education/robotics-masters-program/admissions/",
+            "section": "Spring/Fall 2027; WSE and Application Requirements; body lines 45–98",
+            "checkedDate": "2026-10-05",
+            "evidenceScope": "official substantive page text; current public policy, no application portal inspection",
+            "readWindowUtc": "2026-10-05T13:18:52Z/2026-10-05T13:19:26Z"
+          }
+        },
+        {
+          "path": [
+            "records",
+            13,
+            "checkedDate"
+          ],
+          "before": "2026-10-04",
+          "after": "2026-10-05"
+        },
+        {
+          "path": [
+            "records",
+            13,
+            "requirements",
+            4,
+            "text"
+          ],
+          "before": "适用国际申请人提交IELTS、Cambridge Assessment English或TOEFL；项目更偏好IELTS。豁免和具体门槛需另查学校规定。",
+          "after": "适用国际申请人按机器人项目页提交IELTS、Cambridge Assessment English或TOEFL；项目更偏好IELTS。WSE院级通则推荐IELTS 7、TOEFL 100/120或5.0/6，这些推荐分数不是统一硬性最低要求，项目另有规定时以项目为准。符合英语授课条件的本科或硕士申请人可在申请系统申请豁免并上传学校证明；不得据此视为自动获批。WSE通则另列DET，但机器人项目页未列，是否适用该项目待核。2027申请仍须核对当期系统。"
+        },
+        {
+          "path": [
+            "records",
+            13,
+            "requirements",
+            4,
+            "sourceIds",
+            1
+          ],
+          "beforeMissing": true,
+          "after": "jhu_wse_language_20261005"
+        },
+        {
+          "path": [
+            "records",
+            13,
+            "requirements",
+            4,
+            "sourceIds",
+            2
+          ],
+          "beforeMissing": true,
+          "after": "jhu_robotics_admissions_20261005"
+        },
+        {
+          "path": [
+            "records",
+            13,
+            "sourceIds",
+            2
+          ],
+          "beforeMissing": true,
+          "after": "jhu_wse_language_20261005"
+        },
+        {
+          "path": [
+            "records",
+            13,
+            "sourceIds",
+            3
+          ],
+          "beforeMissing": true,
+          "after": "jhu_robotics_admissions_20261005"
+        }
+      ],
+      "afterGitBlob": "3bdf8d6a5e60bb9f65a06cf49160eab5a19cbc0c"
+    },
+    "assets/app.js": {
+      "beforeSha256": "766bfc9a264fd495148b6899a48c6d196293e1705949ac6f280ab7e5f1640b1b",
+      "afterSha256": "963619d67f614d90b2ba542d3f3b8d07225ee6431d3e4174ccafa48c8d79af01",
+      "beforeGitBlob": "c3928e51965462eb642f61651559c9de43562ec3",
+      "kind": "text",
+      "operations": [
+        {
+          "before": "../data/material-summaries.json?v=899a0ef08834",
+          "after": "../data/material-summaries.json?v=9d27adfd4472"
+        }
+      ],
+      "afterGitBlob": "bf1581cc0b4e22568e5be9a03a1e7278e2c39ea6"
+    },
+    "index.html": {
+      "beforeSha256": "02d57db600cb27982bd9cfb183fad0831dd16abd0b591c246f580be359027a99",
+      "afterSha256": "11eaedfe83e1a91216f003e045cf51f1ee55dac501c8a57c00b1ee0e52edb45d",
+      "beforeGitBlob": "1600e8115e98fdfa8c40388b81ae3a89b5c98c6a",
+      "kind": "text",
+      "operations": [
+        {
+          "before": "./assets/app.js?v=766bfc9a264f",
+          "after": "./assets/app.js?v=963619d67f61"
+        }
+      ],
+      "afterGitBlob": "e597bcc6dd45ec7d0be7721ed84c30f7217fefb4"
+    }
+  }
+}

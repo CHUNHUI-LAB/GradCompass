@@ -3,7 +3,7 @@ import {concurrentReferenceBytes} from './concurrent-reference-baseline.mjs';
 import {currentCorrectionBytes} from './current-correction-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './jhu-language-history-fs.mjs';
 import {historicalSourceFixture as fixture,historicalSourceBaseline,historicalSourceBytes,reverseReviewedOperations,sha256,serialize} from './historical-source-baseline.mjs';
 const baselineByteCache=new Map();
 const read=path=>{if(!baselineByteCache.has(path))baselineByteCache.set(path,concurrentReferenceBytes(path,currentCorrectionBytes(path,latestSourceBytes(path,fs.readFileSync(new URL('../'+path,import.meta.url))))));return Buffer.from(baselineByteCache.get(path));};

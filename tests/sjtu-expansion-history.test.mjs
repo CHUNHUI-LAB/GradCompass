@@ -1,11 +1,12 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {jhuLanguageBytes} from './jhu-language-baseline.mjs';
 import crypto from 'node:crypto';
 import {sjtuExpansionBytes,sjtuExpansionObject,sjtuExpansionFixture as f} from './sjtu-expansion-baseline.mjs';
 import {snapshotHash as hash,snapshotText as serialize} from './strict-history-transform.mjs';
 import {browseAdvisors,browseRoutes} from '../assets/core.js';
-const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url));
+const read=p=>jhuLanguageBytes(p,fs.readFileSync(new URL('../'+p,import.meta.url)));
 const git=b=>crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${b.length}\0`),b])).digest('hex');
 test('SJTU expansion reverses exact complete published files to origin/main',()=>{
  assert.equal(f.beforeCommit,'b76279f4613a69a1eb61f31677de0f722c28a343');
