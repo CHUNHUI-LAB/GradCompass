@@ -37,8 +37,8 @@
     },
     {
       "path": "QA.md",
-      "bytes": 49888,
-      "sha256": "402efc3f2e6a5fb4d4452df11abecaa3c708da40af57d17eb3c750e56146d87c"
+      "bytes": 51141,
+      "sha256": "33994e10634c6c36fe4b3c8c30dffac1042d7c36bc2703b6dc41fdcfaf75e8d6"
     },
     {
       "path": "README.md",
@@ -222,8 +222,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 11925,
-      "sha256": "b574beee716ee96acbf0988fd1e9e344d9ca0e30f20363b9726e705f3ae32d76"
+      "bytes": 8858,
+      "sha256": "58c9d2ec0c296c3f40083e86209709ef0098e1b642cc59cc5471e7c84763a091"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -281,6 +281,16 @@
       "sha256": "74917453aa09d61ae231fa7d48b87a84b963f7a99c92d92c01dc70db572a0fbe"
     },
     {
+      "path": "tests/current-main-baseline.mjs",
+      "bytes": 1630,
+      "sha256": "17475216e5b542e824bce90022a0b2f6978faee91c85a713d05be6afa6954f95"
+    },
+    {
+      "path": "tests/current-main-history.test.mjs",
+      "bytes": 12438,
+      "sha256": "b65149e5db83438e1777b6a5764fc1f55b9c94dd82e9abfb64a78d126974c511"
+    },
+    {
       "path": "tests/cycle-refresh.test.mjs",
       "bytes": 7205,
       "sha256": "9555fcf4fa38fd4c85767de42b009d392e30a6dbaa36845f4ea17d2b3d64c07b"
@@ -297,8 +307,8 @@
     },
     {
       "path": "tests/detail-ui-baseline.test.mjs",
-      "bytes": 4809,
-      "sha256": "72e83408bee6f58143eedfc1202caa716c8de36464303deeb8e1eeff2f1a0172"
+      "bytes": 4894,
+      "sha256": "f72cc8846b727b3ac16422d456647efeb47ae5a74985c2dcd35c574c03ad4098"
     },
     {
       "path": "tests/editorial-design.test.mjs",
@@ -386,6 +396,11 @@
       "sha256": "9121155eeccd93a80d1caf67e14a1ca1c6d2e7b7e04177bdd8993b773df7625b"
     },
     {
+      "path": "tests/fixtures/history/reviewed-current-main-03b16.json",
+      "bytes": 138591,
+      "sha256": "954394473f16adb7bffc3f72ef9fa557f7365a6f5acd1bbed64235becf2804f2"
+    },
+    {
       "path": "tests/fixtures/history/reviewed-detail-ui-polish.json",
       "bytes": 6478,
       "sha256": "3ed94ddefa3180a82913df8a06f85760cb45a618d01baeee8ccc1c4883928d2b"
@@ -396,9 +411,24 @@
       "sha256": "b7bddb9f96ff18edf9db10e53091368109a6eb2a1f9da4cf6ac7ae949337375a"
     },
     {
+      "path": "tests/fixtures/history/reviewed-pku-20261004.json",
+      "bytes": 99448,
+      "sha256": "443cf0e43f9439d6be01a79d92fc15d867573cbe26286b2859f1c18480061894"
+    },
+    {
+      "path": "tests/fixtures/history/reviewed-seven-schools-20261005.json",
+      "bytes": 303473,
+      "sha256": "fdbf5e434048e82b6e48e7562a2c1f76d68659a84db7f0c930287fd84a0e6243"
+    },
+    {
       "path": "tests/fixtures/history/reviewed-source-deltas.json",
       "bytes": 936318,
       "sha256": "3d8857966bdb829d03fa1bb22738228277c9fea837b72438b864ce777e640987"
+    },
+    {
+      "path": "tests/freeze-preservation.test.mjs",
+      "bytes": 5622,
+      "sha256": "b8eeafe7c33d53b00a742d6f0eaf03ef996c95044041a0b899ddb94385dc0d3a"
     },
     {
       "path": "tests/historical-source-baseline.mjs",
@@ -412,8 +442,8 @@
     },
     {
       "path": "tests/historical-source-fs.mjs",
-      "bytes": 1204,
-      "sha256": "67f8bb985cee6e939336f121fdbbbbe86c154207139e0e966e9a93da53aedd36"
+      "bytes": 1293,
+      "sha256": "dce2dfc820fda0189d001544ca2c13f6f342b10ee6e452dfea8996e26c2ef1a7"
     },
     {
       "path": "tests/hku-ris-baseline.mjs",
@@ -427,13 +457,13 @@
     },
     {
       "path": "tests/latest-3f294-baseline.mjs",
-      "bytes": 2239,
-      "sha256": "bea2e60488ee5d81ea3aa0cb1533dcb67f02a6a34aa1ee2e4412f6031bed3fe3"
+      "bytes": 2366,
+      "sha256": "c446eef510e2358df9cba327a442da965a6921c763f08f3d768184f99f77b7a1"
     },
     {
       "path": "tests/latest-3f294-baseline.test.mjs",
-      "bytes": 7695,
-      "sha256": "7c5fded0e5a4239087c37dd7a1f7c25b32077915501925d297ef965a93f73d8a"
+      "bytes": 7780,
+      "sha256": "0c9cfa2b4c22b7e9ecfecac28ba8fa718f65a16129539c846d20b760299f4d9d"
     },
     {
       "path": "tests/maintenance-baseline.mjs",
@@ -462,8 +492,8 @@
     },
     {
       "path": "tests/overseas-additions.test.mjs",
-      "bytes": 6273,
-      "sha256": "ba489ac996e542ba0ac4b81aba7e7bde0509cdd755337f81af9bd3a096ce4aa2"
+      "bytes": 6355,
+      "sha256": "1f619ab931452c6f282ad5b3bdc884bbb76c01ade94c83cdce369a5dedd78ccb"
     },
     {
       "path": "tests/overseas-baseline.mjs",
@@ -484,6 +514,16 @@
       "path": "tests/page-overviews.test.mjs",
       "bytes": 11860,
       "sha256": "1c1e245eebf2e521be9f4019e1504bc08b756e70fadb28a9dce391ec85cb013e"
+    },
+    {
+      "path": "tests/pku-baseline.mjs",
+      "bytes": 1464,
+      "sha256": "b87c5c3b29b31e5ef22a9413a228280975aff6e596a38c70c54e9cea8775180c"
+    },
+    {
+      "path": "tests/pku-history.test.mjs",
+      "bytes": 7469,
+      "sha256": "13a43120404c7600fda51fc4fc43faae201e30a96a6018fdb385420453a607bb"
     },
     {
       "path": "tests/pku-review.test.mjs",
@@ -538,7 +578,7 @@
     {
       "path": "tests/public-discovery.test.mjs",
       "bytes": 9956,
-      "sha256": "de254a51524df75e82a0459b89747d176e08b93afc22768f36eb4a05de170701"
+      "sha256": "fe05913b72ed5c3b9bf9bd5d02bdca439cbbbfa51a08f524fe42139eca31b2d9"
     },
     {
       "path": "tests/ranks.test.mjs",
@@ -567,13 +607,23 @@
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 25163,
-      "sha256": "6fd95819ba7686f7cd4a131bcdf14cea6494b388822cd00167604c888a0238e0"
+      "bytes": 25164,
+      "sha256": "467b058db190b14ae92cae34bca4615ad40ddcb014d1830fc1042431564eb11f"
     },
     {
       "path": "tests/resource-versions.test.mjs",
       "bytes": 8156,
       "sha256": "89c9a2a14dca00fc9d96ef6d42d329b95133ea361f9ba4da9938af3992c579a8"
+    },
+    {
+      "path": "tests/seven-schools-baseline.mjs",
+      "bytes": 1504,
+      "sha256": "5bede54f9fef08b7a31b4d4f60d3666df499668e249d0a91ab73ce2bfd5ea63a"
+    },
+    {
+      "path": "tests/seven-schools-history.test.mjs",
+      "bytes": 8144,
+      "sha256": "9cc7d807f73e3cba4de4cdbd2b9163478b0ac3a0f2653433c1718ff164970895"
     },
     {
       "path": "tests/seven-schools-review.test.mjs",
