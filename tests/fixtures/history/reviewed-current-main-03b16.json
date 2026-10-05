@@ -1,0 +1,2262 @@
+{
+  "schemaVersion": 1,
+  "beforeCommit": "c6989b93ae67bb5d62a09ba5da812d41ec6f4dc9",
+  "beforeTree": "3c6f86dc4fac4f6b9fc931b19ad68c80f508f8df",
+  "afterCommit": "03b16d35f50905ecfa9b800f34058aaf357104d5",
+  "afterTree": "a94c78fca261d9f28a1f9c5d6b7a4a2b756b1aae",
+  "scope": "Test-only exact current-main source stage, including seven-school cycle enrichment and multilingual search; preserves immutable historical fixtures and never rolls production data or runtime back.",
+  "files": {
+    "assets/app.js": {
+      "beforeSha256": "d9cbee7993f51807de4fc40db1d1125fdd315c989c6fce60f57d5935e5592ab4",
+      "afterSha256": "a84fd8a5790fa003f487cabfc5da1cec961efc49597a85f6c41b45f49be0d72b",
+      "beforeGitBlob": "5c8c17715e087a1a98766352928a969cd898a72e",
+      "afterGitBlob": "9bbe201c6981fe89541641ee521a080ba14c9870",
+      "kind": "text_fragments",
+      "operations": [
+        {
+          "before": "import {renderProjectComparison,selectProjectComparisonRoutes} from './project-comparison.js?v=2b18e81203e0';\nimport {renderPageOverview,overviewPresets} from './page-overviews.js?v=bd8aa27debda';\nimport {normalizeMaterialSupplement} from './material-supplement.js?v=947252deca91';\nimport {renderRecordSummary,supervisorAssociationText,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=08296d98b6ad';\nimport {normalizeExperiences,renderExperiences,renderExperienceReading,renderExperienceEvidence,renderExperienceResults} from './experiences.js?v=44e45723b597';\nimport {profileMap,profileSummary,renderProfile,renderProfileReferences} from './profiles.js?v=ee8e18b726ee';\nimport {rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue} from './core.js?v=0ea3317da2d7';\nconst $=selector=>document.querySelector(selector);\n",
+          "after": "import {renderProjectComparison,selectProjectComparisonRoutes} from './project-comparison.js?v=6c410b0e71a7';\nimport {renderPageOverview,overviewPresets} from './page-overviews.js?v=b3b49bc26271';\nimport {normalizeMaterialSupplement} from './material-supplement.js?v=07ae3a09a2ba';\nimport {renderRecordSummary,supervisorAssociationText,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=a3bc1afa9310';\nimport {normalizeExperiences,renderExperiences,renderExperienceReading,renderExperienceEvidence,renderExperienceResults} from './experiences.js?v=8d440a2e4243';\nimport {profileMap,profileSummary,renderProfile,renderProfileReferences} from './profiles.js?v=4b8e46812ffe';\nimport {rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue} from './core.js?v=79b44f84ac83';\nconst $=selector=>document.querySelector(selector);\n"
+        },
+        {
+          "before": "function openSummary(kind,id,replay=false,refresh=false){const records=kind==='project'?catalog.routes.filter(isBrowsableRoute):kind==='deadline'?filterDeadlines(catalog):kind==='material'?(catalog.materials||[]):[];const record=records.find(r=>r.id===id);const summary=renderRecordSummary(kind,record,catalog);if(!summary){if(replay)showMissingDetail(kind,refresh);return;}if($('#compare-dialog').open)$('#compare-dialog').close();if(!replay)pushDetailRoute(kind,id);updateDetailBack();$('#detail-kind').textContent=summary.label;const rail=`<section class=\"rail-panel\"><h3>${kind==='project'?'项目信息':kind==='deadline'?'日期阅读提示':'准备前核对'}</h3><dl class=\"fact-grid\"><dt>学校</dt><dd>${e(displayInstitution(record.institution))}</dd>${record.degree?`<dt>学位类型</dt><dd>${e(degreeDisplay(record))}</dd>`:''}<dt>核验日期</dt><dd>${e(record.checkedDate||catalog.metadata.checkedDate)}</dd></dl><p>${kind==='project'?'项目资格、个人条件、导师名额与资助需分别核实。':kind==='deadline'?'账户注册、申请提交、推荐信与补充材料可能有独立截止；未记录的时间不作推断。':'材料名称、格式、语言和提交方式请以当期申请系统为准。'}</p></section><section class=\"rail-panel\"><h3>原始来源</h3>${sourceLinks(record.sources,3)}<p class=\"small-note\">完整依据、来源日期及适用限制保留在正文。</p></section>`;$('#detail-content').innerHTML=`<div class=\"reading-layout\"><article class=\"reading-main\" data-reading-kind=\"${e(kind)}\">${summary.html}</article><aside class=\"reading-rail\" aria-label=\"关键信息与来源\">${rail}</aside></div>`;presentDetail(!refresh);}\nfunction renderSources(){const watches=catalog.watchSources||[];$('#result-count').textContent='核验边界、官方入口与更新状态';$('#view-content').innerHTML=`<div class=\"methodology\"><div class=\"source-principles\"><section><h3>官方规则</h3><p>院校官网、院系项目页与正式招生文件，用于核对学位设置、申请资格、材料和批次。</p></section><section><h3>导师公告</h3><p>导师与实验室公开页面，用于核对研究方向、任职和招募声明。名额与年份单独确认。</p></section><section><h3>个人经验</h3><p>公开第一人称自述，可借鉴流程与方法。作者经历与结果不改写官方资格结论。</p></section></div><p>GradCompass 将项目资格、导师关联和公开招募分开记录。首批收录聚焦机器人与具身智能，内容来自高校、院系、实验室、作者项目及原始论文。</p><h3>如何理解记录</h3><ol><li><strong>公开浏览范围：</strong>导师研究资料与已收录学位项目均可查看，统考、申请制、推免和硕士起点条件分别保留，待核与历史参考明确标注。RA 必须另有官方岗位要求明确接受本科、无已有硕士前置，且当前招募可核实；不能借用导师的学位招生资格。这不是对个人成绩、英语、学历等值或录取机会的判断。</li><li><strong>导师关联：</strong>只有精确到导师和项目、且有直接来源的已核实关联计入学位关联数；院系归属或项目整体资格不能自动证明个人指导关系。需要入学后双向选择的项目明确提示，不承诺预先锁定导师。</li><li><strong>公开招募：</strong>MSc、MPhil、PhD 是学位路径，RA 是工作岗位，分别呈现。有 PhD 声明不等于有 MPhil 名额，常年招募不等于 2027 Fall 已确认。</li><li><strong>职级筛选：</strong>根据已记录的原职衔保守归类；研究系列、其他与未知分别保留。具名教授头衔仅对已审阅记录归类，不把 Chair、PI 或行政职务自动视为教授。职级不代表终身教职、指导资格、招生名额或新 PI。原职衔与入职证据各自保留。</li><li><strong>新入职：</strong>只有可追溯的任命或入职日期才标记。职称、晋升和行政任命不自动算作新 PI。</li><li><strong>来源冲突：</strong>保留原始时间、限制与待核项；待核、历史参考和受限路径仍可查阅，不计作已确认的个人招生或剩余名额。</li></ol><h3>更新状态</h3><div class=\"evidence-box\"><h4>数据核验日：${e(catalog.metadata.checkedDate)}</h4><p>${e(updateStatus.statusLabel)}。调度状态与证据核验日期独立记录；首轮执行尚未验证，不能视为已经完成数据更新。</p><p>公开招募与批次可能随时变化，请在正式申请前再次核对原始来源。</p></div><h3>有界观察入口</h3><p>下列入口覆盖任职、招生、项目规则与批次变化。官网、社媒、论坛正文与有价值的评论可提供线索；访问和覆盖缺口需如实记录。社交线索不会直接改写官方资格结论。</p><div class=\"source-watch\">${watches.map(w=>`<section class=\"evidence-box\"><h4>${e(w.label||w.category||w.institution||w.school||'官方观察入口')}</h4><p class=\"small-note\">${e(w.scope||w.kind||'任职、招生及项目规则变更')}</p><div class=\"link-list\">${sourceLinks(w.sources||w.urls||w.url&&[w.url]||[])}</div></section>`).join('')}</div><h3>隐私与使用</h3><p>本站没有账号、上传、后台或外部分析。搜索和比较只在当前浏览器页面运行，不保存个人材料与申请策略。打开官方链接时会离开本站。</p><p>本页面提供来源支持的信息整理，不代表学校或导师，不提供录取概率预测。第三方页面和论文的版权归原权利人；链接不构成转载许可。</p><div class=\"link-list\"><a class=\"source-link\" href=\"./data/catalog.json\">学位与导师数据</a><a class=\"source-link\" href=\"./data/ra-positions.json\">独立 RA 岗位证据</a><a class=\"source-link\" href=\"./data/update-status.json\">每日检查状态</a><a class=\"source-link\" href='./data/sustech-advisor-review-20261004.json?v=2f34732eed51'>南科大导师核查</a><a class=\"source-link\" href='./data/tsinghua-advisor-review-20261004.json?v=8e27ae2cb8ec'>清华导师核查</a><a class=\"source-link\" href='./data/pku-advisor-review-20261004.json?v=4e9b1e330018'>北大导师核查</a><a class=\"source-link\" href='./data/zju-advisor-review-20261005.json?v=ea947c26b805'>浙大导师核查</a><a class=\"source-link\" href='./data/fudan-advisor-review-20261005.json?v=82a3b7598dfd'>复旦导师核查</a><a class=\"source-link\" href='./data/sjtu-advisor-review-20261005.json?v=eb5dd0093c07'>上交导师核查</a><a class=\"source-link\" href='./data/nju-advisor-review-20261005.json?v=0acb7ac38468'>南大导师核查</a><a class=\"source-link\" href='./data/ustc-advisor-review-20261005.json?v=4f7ffa0c0752'>中科大导师核查</a><a class=\"source-link\" href='./data/tongji-advisor-review-20261005.json?v=354794a93612'>同济导师核查</a><a class=\"source-link\" href='./data/seu-advisor-review-20261005.json?v=000951ae89a8'>东南导师核查</a></div></div>`;}\nfunction renderExperienceView(){if(experienceSupplementState==='loading'){$('#view-content').innerHTML=`${activeExperienceId!==null?'<a class=\"experience-back\" href=\"#experiences\">← 返回经验列表</a>':''}<div class=\"empty\"><h3>经验资料正在载入</h3><p>可先浏览找导师、找项目等页面，资料载入后会自动显示。</p></div>`;$('#result-count').textContent='经验资料正在载入';return;}const result=activeExperienceId!==null?renderExperienceReading(experienceRecords,activeExperienceId):renderExperiences(experienceRecords,experienceFilters);$('#view-content').innerHTML=result.html;$('#result-count').textContent=result.countLabel;if(activeExperienceId!==null)$('#results-title').textContent=result.title;}\n",
+          "after": "function openSummary(kind,id,replay=false,refresh=false){const records=kind==='project'?catalog.routes.filter(isBrowsableRoute):kind==='deadline'?filterDeadlines(catalog):kind==='material'?(catalog.materials||[]):[];const record=records.find(r=>r.id===id);const summary=renderRecordSummary(kind,record,catalog);if(!summary){if(replay)showMissingDetail(kind,refresh);return;}if($('#compare-dialog').open)$('#compare-dialog').close();if(!replay)pushDetailRoute(kind,id);updateDetailBack();$('#detail-kind').textContent=summary.label;const rail=`<section class=\"rail-panel\"><h3>${kind==='project'?'项目信息':kind==='deadline'?'日期阅读提示':'准备前核对'}</h3><dl class=\"fact-grid\"><dt>学校</dt><dd>${e(displayInstitution(record.institution))}</dd>${record.degree?`<dt>学位类型</dt><dd>${e(degreeDisplay(record))}</dd>`:''}<dt>核验日期</dt><dd>${e(record.checkedDate||catalog.metadata.checkedDate)}</dd></dl><p>${kind==='project'?'项目资格、个人条件、导师名额与资助需分别核实。':kind==='deadline'?'账户注册、申请提交、推荐信与补充材料可能有独立截止；未记录的时间不作推断。':'材料名称、格式、语言和提交方式请以当期申请系统为准。'}</p></section><section class=\"rail-panel\"><h3>原始来源</h3>${sourceLinks(record.sources,3)}<p class=\"small-note\">完整依据、来源日期及适用限制保留在正文。</p></section>`;$('#detail-content').innerHTML=`<div class=\"reading-layout\"><article class=\"reading-main\" data-reading-kind=\"${e(kind)}\">${summary.html}</article><aside class=\"reading-rail\" aria-label=\"关键信息与来源\">${rail}</aside></div>`;presentDetail(!refresh);}\nfunction renderSources(){const watches=catalog.watchSources||[];$('#result-count').textContent='核验边界、官方入口与更新状态';$('#view-content').innerHTML=`<div class=\"methodology\"><div class=\"source-principles\"><section><h3>官方规则</h3><p>院校官网、院系项目页与正式招生文件，用于核对学位设置、申请资格、材料和批次。</p></section><section><h3>导师公告</h3><p>导师与实验室公开页面，用于核对研究方向、任职和招募声明。名额与年份单独确认。</p></section><section><h3>个人经验</h3><p>公开第一人称自述，可借鉴流程与方法。作者经历与结果不改写官方资格结论。</p></section></div><p>GradCompass 将项目资格、导师关联和公开招募分开记录。首批收录聚焦机器人与具身智能，内容来自高校、院系、实验室、作者项目及原始论文。</p><h3>如何理解记录</h3><ol><li><strong>公开浏览范围：</strong>导师研究资料与已收录学位项目均可查看，统考、申请制、推免和硕士起点条件分别保留，待核与历史参考明确标注。RA 必须另有官方岗位要求明确接受本科、无已有硕士前置，且当前招募可核实；不能借用导师的学位招生资格。这不是对个人成绩、英语、学历等值或录取机会的判断。</li><li><strong>导师关联：</strong>只有精确到导师和项目、且有直接来源的已核实关联计入学位关联数；院系归属或项目整体资格不能自动证明个人指导关系。需要入学后双向选择的项目明确提示，不承诺预先锁定导师。</li><li><strong>公开招募：</strong>MSc、MPhil、PhD 是学位路径，RA 是工作岗位，分别呈现。有 PhD 声明不等于有 MPhil 名额，常年招募不等于 2027 Fall 已确认。</li><li><strong>职级筛选：</strong>根据已记录的原职衔保守归类；研究系列、其他与未知分别保留。具名教授头衔仅对已审阅记录归类，不把 Chair、PI 或行政职务自动视为教授。职级不代表终身教职、指导资格、招生名额或新 PI。原职衔与入职证据各自保留。</li><li><strong>新入职：</strong>只有可追溯的任命或入职日期才标记。职称、晋升和行政任命不自动算作新 PI。</li><li><strong>来源冲突：</strong>保留原始时间、限制与待核项；待核、历史参考和受限路径仍可查阅，不计作已确认的个人招生或剩余名额。</li></ol><h3>更新状态</h3><div class=\"evidence-box\"><h4>数据核验日：${e(catalog.metadata.checkedDate)}</h4><p>${e(updateStatus.statusLabel)}。调度状态与证据核验日期独立记录；首轮执行尚未验证，不能视为已经完成数据更新。</p><p>公开招募与批次可能随时变化，请在正式申请前再次核对原始来源。</p></div><h3>有界观察入口</h3><p>下列入口覆盖任职、招生、项目规则与批次变化。官网、社媒、论坛正文与有价值的评论可提供线索；访问和覆盖缺口需如实记录。社交线索不会直接改写官方资格结论。</p><div class=\"source-watch\">${watches.map(w=>`<section class=\"evidence-box\"><h4>${e(w.label||w.category||w.institution||w.school||'官方观察入口')}</h4><p class=\"small-note\">${e(w.scope||w.kind||'任职、招生及项目规则变更')}</p><div class=\"link-list\">${sourceLinks(w.sources||w.urls||w.url&&[w.url]||[])}</div></section>`).join('')}</div><h3>隐私与使用</h3><p>本站没有账号、上传、后台或外部分析。搜索和比较只在当前浏览器页面运行，不保存个人材料与申请策略。打开官方链接时会离开本站。</p><p>本页面提供来源支持的信息整理，不代表学校或导师，不提供录取概率预测。第三方页面和论文的版权归原权利人；链接不构成转载许可。</p><div class=\"link-list\"><a class=\"source-link\" href=\"./data/catalog.json\">学位与导师数据</a><a class=\"source-link\" href=\"./data/ra-positions.json\">独立 RA 岗位证据</a><a class=\"source-link\" href=\"./data/update-status.json\">每日检查状态</a><a class=\"source-link\" href='./data/sustech-advisor-review-20261004.json?v=2f34732eed51'>南科大导师核查</a><a class=\"source-link\" href='./data/tsinghua-advisor-review-20261004.json?v=8e27ae2cb8ec'>清华导师核查</a><a class=\"source-link\" href='./data/pku-advisor-review-20261004.json?v=4e9b1e330018'>北大导师核查</a><a class=\"source-link\" href='./data/zju-advisor-review-20261005.json?v=a2a4f78d0dc0'>浙大导师核查</a><a class=\"source-link\" href='./data/fudan-advisor-review-20261005.json?v=0e9f98691c92'>复旦导师核查</a><a class=\"source-link\" href='./data/sjtu-advisor-review-20261005.json?v=0b186320f906'>上交导师核查</a><a class=\"source-link\" href='./data/nju-advisor-review-20261005.json?v=b74cef5a262d'>南大导师核查</a><a class=\"source-link\" href='./data/ustc-advisor-review-20261005.json?v=667d02ced1fc'>中科大导师核查</a><a class=\"source-link\" href='./data/tongji-advisor-review-20261005.json?v=ab570368911a'>同济导师核查</a><a class=\"source-link\" href='./data/seu-advisor-review-20261005.json?v=327343a74836'>东南导师核查</a></div></div>`;}\nfunction renderExperienceView(){if(experienceSupplementState==='loading'){$('#view-content').innerHTML=`${activeExperienceId!==null?'<a class=\"experience-back\" href=\"#experiences\">← 返回经验列表</a>':''}<div class=\"empty\"><h3>经验资料正在载入</h3><p>可先浏览找导师、找项目等页面，资料载入后会自动显示。</p></div>`;$('#result-count').textContent='经验资料正在载入';return;}const result=activeExperienceId!==null?renderExperienceReading(experienceRecords,activeExperienceId):renderExperiences(experienceRecords,experienceFilters);$('#view-content').innerHTML=result.html;$('#result-count').textContent=result.countLabel;if(activeExperienceId!==null)$('#results-title').textContent=result.title;}\n"
+        },
+        {
+          "before": "async function loadProfileSupplement(){\n try{advisorProfiles=profileMap(await optionalJSON(new URL('../data/advisor-profiles.json?v=f1b3044692f6',import.meta.url)),catalog.advisors);}\n catch{}\n",
+          "after": "async function loadProfileSupplement(){\n try{advisorProfiles=profileMap(await optionalJSON(new URL('../data/advisor-profiles.json?v=f1b3044692f6',import.meta.url)),catalog.advisors);catalog={...catalog,advisorProfiles};}\n catch{}\n"
+        },
+        {
+          "before": "}\nasync function initialize(){try{const responses=await Promise.all(['catalog.json?v=12589a50a890','ra-positions.json','update-status.json'].map(name=>fetch(new URL('../data/'+name,import.meta.url))));if(responses.some(res=>!res.ok))throw Error('数据读取失败，请刷新重试');const [academicData,raData,statusData]=await Promise.all(responses.map(res=>res.json()));catalog={...academicData,raPositions:raData.raPositions||[]};updateStatus=statusData;if(!Array.isArray(catalog.advisors)||!Array.isArray(catalog.routes))throw Error('数据格式暂不可用');$('#checked-date').textContent=`核验于 ${catalog.metadata.checkedDate}`;$('.edition a').textContent=updateStatus.statusLabel;populateFilters();bind();switchView(parseDetailLocation()?.view||location.hash.slice(1)||'advisors');if(parseDetailLocation()||parseCompareLocation())routeLocation();loadOptionalSupplements();}catch(err){$('#result-count').textContent='数据未能载入';$('#view-content').innerHTML=`<div class=\"empty\"><h3>暂时无法读取数据</h3><p>${e(err.message)}</p><p>请刷新页面重试，或直接打开公开 JSON 查看已保存的记录</p><a class=\"source-link\" href=\"./data/catalog.json\">公开数据文件</a></div>`;}}\ninitialize();\n",
+          "after": "}\nasync function initialize(){try{const responses=await Promise.all(['catalog.json?v=64a4ffd6c289','ra-positions.json','update-status.json'].map(name=>fetch(new URL('../data/'+name,import.meta.url))));if(responses.some(res=>!res.ok))throw Error('数据读取失败，请刷新重试');const [academicData,raData,statusData]=await Promise.all(responses.map(res=>res.json()));catalog={...academicData,raPositions:raData.raPositions||[]};updateStatus=statusData;if(!Array.isArray(catalog.advisors)||!Array.isArray(catalog.routes))throw Error('数据格式暂不可用');$('#checked-date').textContent=`核验于 ${catalog.metadata.checkedDate}`;$('.edition a').textContent=updateStatus.statusLabel;populateFilters();bind();switchView(parseDetailLocation()?.view||location.hash.slice(1)||'advisors');if(parseDetailLocation()||parseCompareLocation())routeLocation();loadOptionalSupplements();}catch(err){$('#result-count').textContent='数据未能载入';$('#view-content').innerHTML=`<div class=\"empty\"><h3>暂时无法读取数据</h3><p>${e(err.message)}</p><p>请刷新页面重试，或直接打开公开 JSON 查看已保存的记录</p><a class=\"source-link\" href=\"./data/catalog.json\">公开数据文件</a></div>`;}}\ninitialize();\n"
+        }
+      ]
+    },
+    "assets/core.js": {
+      "beforeSha256": "0ea3317da2d719f70e99b3bf335c56d6082ca1764d3c5653d2c9ece4f16c4b2a",
+      "afterSha256": "79b44f84ac83a4e794d9fdb7f45b78cebadc9c561698df0e6f5fadfa8e1933cf",
+      "beforeGitBlob": "b1cdd6c732392e7fd63eeeabc836f56cbbf629f2",
+      "afterGitBlob": "ccee992a1af5410081bcc2622fe0991a6f7bfb27",
+      "kind": "text_fragments",
+      "operations": [
+        {
+          "before": "];\nexport const textValue = value => value == null ? '' : typeof value === 'string' ? value : typeof value === 'object' ? value.text || value.requirement || value.detail || value.summary || value.note || value.status || JSON.stringify(value) : String(value);\nexport function escapeHTML(value){return textValue(value).replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',\"'\":'&#39;'}[c]));}\nexport function safeUrl(value){try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)?u.href:null;}catch{return null;}}\n",
+          "after": "];\nexport const textValue = value => value == null ? '' : typeof value === 'string' ? value : typeof value === 'object' ? value.text || value.requirement || value.detail || value.summary || value.note || value.status || JSON.stringify(value) : String(value);\n// Search is deliberately display-independent: normalize width, case, punctuation and\n// whitespace once, then apply the same token rule to advisors, projects and materials.\nexport function normalizeSearchText(value){return textValue(value).normalize('NFKC').toLocaleLowerCase('zh-CN').replace(/[\\u200B-\\u200D\\uFEFF]/g,'').replace(/[\\p{P}\\p{S}]+/gu,' ').replace(/\\s+/g,' ').trim();}\nexport function searchTokens(value){return normalizeSearchText(value).split(' ').filter(Boolean);}\nexport function matchesSearch(haystack,query){const source=normalizeSearchText(haystack);return searchTokens(query).every(token=>source.includes(token));}\nexport const degreeSearchLabels={PhD:'PhD 博士 博士生 博士研究生 直博 博导',MPhil:'MPhil 研究型硕士 哲学硕士',MSc:'MSc 硕士 授课型硕士',MRes:'MRes 研究硕士'};\nexport const institutionAliases={HKUST:'港科大 港科 港科大本部',HKU:'港大',CUHK:'港中文',CityUHK:'城大',PolyU:'理大',HKBU:'浸会',HKUSTGZ:'广州校区 港科大广州', 'HKUST(GZ)':'广州校区 港科大广州','CUHK-Shenzhen':'港中深 港中文深圳','Westlake':'西湖','SUSTech':'南科大','Tsinghua':'清华','PKU':'北大','ZJU':'浙大','Fudan':'复旦','SJTU':'上交 交大','NJU':'南大','USTC':'中科大 科大','Tongji':'同济','SEU':'东南'};\nexport function searchObjectText(value,depth=0){if(value==null||depth>5)return '';if(typeof value==='string'||typeof value==='number'||typeof value==='boolean')return String(value);if(Array.isArray(value))return value.map(v=>searchObjectText(v,depth+1)).join(' ');if(typeof value==='object')return Object.entries(value).filter(([key])=>!['url','source','sources','checkedDate','sourceIds','advisorId','routeId'].includes(key)).map(([,v])=>searchObjectText(v,depth+1)).join(' ');return '';}\nexport function escapeHTML(value){return textValue(value).replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',\"'\":'&#39;'}[c]));}\nexport function safeUrl(value){try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)?u.href:null;}catch{return null;}}\n"
+        },
+        {
+          "before": "export function sourcesOf(sources=[]){return (Array.isArray(sources)?sources:[sources]).filter(Boolean).map(s=>{try{return normalizeSource(s)}catch{return {label:'来源',url:null}}}).filter(s=>safeUrl(s.url));}\nexport function institutionLabel(value){return institutionNames[value]||value||'学校待核';}\nexport function degreeLabel(route){return /PhD|博士/i.test(route.degree)?'PhD':/MPhil|哲学硕士/i.test(route.degree)?'MPhil':/MSc/i.test(route.degree)?'MSc':/MRes/i.test(route.degree)?'MRes':route.degree;}\nexport function degreeDisplay(route){return route.nativeDegreeLabel||(route.degree==='MSc'?'硕士项目（MSc类）':route.degree);}\n",
+          "after": "export function sourcesOf(sources=[]){return (Array.isArray(sources)?sources:[sources]).filter(Boolean).map(s=>{try{return normalizeSource(s)}catch{return {label:'来源',url:null}}}).filter(s=>safeUrl(s.url));}\nexport function institutionLabel(value){return institutionNames[value]||value||'学校待核';}\nexport function institutionSearchText(value){return [value,institutionLabel(value),institutionAliases[value]||''].join(' ');}\nexport function degreeLabel(route){return /PhD|博士/i.test(route.degree)?'PhD':/MPhil|哲学硕士/i.test(route.degree)?'MPhil':/MSc/i.test(route.degree)?'MSc':/MRes/i.test(route.degree)?'MRes':route.degree;}\nexport function degreeDisplay(route){return route.nativeDegreeLabel||(route.degree==='MSc'?'硕士项目（MSc类）':route.degree);}\n"
+        },
+        {
+          "before": "export function hasVerifiedPath(advisor,catalog){return advisor.eligibility==='verified'&&advisor.defaultVisible!==false&&routesFor(advisor,catalog).some(isVerifiedRoute);}\nexport function themesFor(advisor){const str=[...(advisor.topics||[]),advisor.summary||''].join(' ');return topicRules.filter(([,r])=>r.test(str)).map(([label])=>label);}\nexport function searchText(advisor,catalog){return [advisor.name,advisor.nameZh,advisor.institution,institutionLabel(advisor.institution),advisor.department,advisor.summary,...(advisor.topics||[]),...themesFor(advisor),...(advisor.works||[]).map(w=>w.title),...routesFor(advisor,catalog).map(r=>r.program)].join(' ').toLowerCase();}\n// Public discovery is independent of the original bachelor-entry convenience filter.\n// A reference or pending record is readable evidence, not a verified application or vacancy.\n",
+          "after": "export function hasVerifiedPath(advisor,catalog){return advisor.eligibility==='verified'&&advisor.defaultVisible!==false&&routesFor(advisor,catalog).some(isVerifiedRoute);}\nexport function themesFor(advisor){const str=[...(advisor.topics||[]),advisor.summary||''].join(' ');return topicRules.filter(([,r])=>r.test(str)).map(([label])=>label);}\nexport function routeSearchText(route){if(!route)return '';return [institutionSearchText(route.institution),route.program,route.department,route.degree,degreeSearchLabels[degreeLabel(route)]||'',route.nativeDegreeLabel,route.eligibilitySummary,route.applicationMethod,route.admissionMethod,route.admissionMode,route.sourceCycle,route.admissionYear,searchObjectText(route.requirements),searchObjectText(route.notes),searchObjectText(route.cycleReview),searchObjectText(route.sources?.map(s=>s.label||s.title)),searchObjectText(route.routeAssociations)].join(' ');}\nexport function searchText(advisor,catalog){const routes=routesFor(advisor,catalog);const profile=catalog?.advisorProfiles?.get?.(advisor.id)||catalog?.advisorProfiles?.[advisor.id];return [advisor.name,advisor.nameZh,institutionSearchText(advisor.institution),advisor.department,advisor.position,advisor.lab,advisor.summary,advisor.openingSummary,searchObjectText(advisor.openings),searchObjectText(advisor.openingDetails),searchObjectText(advisor.caveats),...(advisor.topics||[]),...themesFor(advisor),...(advisor.works||[]).map(w=>searchObjectText(w)),routes.map(routeSearchText),searchObjectText(advisor.routeAssociations),profile&&searchObjectText(profile)].join(' ');}\n// Public discovery is independent of the original bachelor-entry convenience filter.\n// A reference or pending record is readable evidence, not a verified application or vacancy.\n"
+        },
+        {
+          "before": "}\nexport function browseAdvisors(catalog,filters={}){\n const q=(filters.query||'').trim().toLowerCase(),degree=filters.opportunityType||filters.degree;\n return (catalog.advisors||[]).filter(a=>{\n  if(filters.institution&&a.institution!==filters.institution||!rankMatches(a,filters)||filters.topic&&!themesFor(a).includes(filters.topic))return false;\n",
+          "after": "}\nexport function browseAdvisors(catalog,filters={}){\n const q=filters.query||'',degree=filters.opportunityType||filters.degree;\n return (catalog.advisors||[]).filter(a=>{\n  if(filters.institution&&a.institution!==filters.institution||!rankMatches(a,filters)||filters.topic&&!themesFor(a).includes(filters.topic))return false;\n"
+        },
+        {
+          "before": "  if(degree&&degree!=='RA'&&!routesFor(a,catalog).some(r=>isBrowsableRoute(r)&&degreeLabel(r)===degree))return false;\n  if(!openingMatches(a,{...filters,degree}))return false;\n  const searchable=[searchText(a,catalog),...(catalog.raPositions||[]).filter(j=>j.advisorId===a.id).map(j=>j.title)].join(' ').toLowerCase();\n  return !q||q.split(/\\s+/).every(t=>searchable.includes(t));\n }).sort((a,b)=>a.institution.localeCompare(b.institution,'en')||a.name.localeCompare(b.name,'en'));\n}\nexport function browseRoutes(catalog,filters={}){\n const q=(filters.query||'').trim().toLowerCase(),degree=filters.opportunityType||filters.degree;\n return (catalog.routes||[]).filter(r=>{\n  if(!isBrowsableRoute(r)||filters.institution&&r.institution!==filters.institution||degree&&degreeLabel(r)!==degree)return false;\n  const related=browseAdvisors(catalog,{...filters,query:'',opportunityType:'',degree:''}).filter(a=>(a.routeIds||[]).includes(r.id));\n  if((filters.rank||filters.topic||filters.opening)&&!related.length)return false;\n  return !q||[r.institution,institutionLabel(r.institution),r.program,r.department,r.degree,r.eligibilitySummary,r.admissionMethod,r.admissionMode,r.sourceCycle].join(' ').toLowerCase().includes(q)||related.some(a=>searchText(a,catalog).includes(q));\n });\n}\n",
+          "after": "  if(degree&&degree!=='RA'&&!routesFor(a,catalog).some(r=>isBrowsableRoute(r)&&degreeLabel(r)===degree))return false;\n  if(!openingMatches(a,{...filters,degree}))return false;\n  const searchable=[searchText(a,catalog),...(catalog.raPositions||[]).filter(j=>j.advisorId===a.id).map(j=>searchObjectText(j))].join(' ');\n  return !q||matchesSearch(searchable,q);\n }).sort((a,b)=>a.institution.localeCompare(b.institution,'en')||a.name.localeCompare(b.name,'en'));\n}\nexport function browseRoutes(catalog,filters={}){\n const q=filters.query||'',degree=filters.opportunityType||filters.degree;\n return (catalog.routes||[]).filter(r=>{\n  if(!isBrowsableRoute(r)||filters.institution&&r.institution!==filters.institution||degree&&degreeLabel(r)!==degree)return false;\n  const related=browseAdvisors(catalog,{...filters,query:'',opportunityType:'',degree:''}).filter(a=>(a.routeIds||[]).includes(r.id));\n  if((filters.rank||filters.topic||filters.opening)&&!related.length)return false;\n  return !q||matchesSearch(routeSearchText(r),q)||related.some(a=>matchesSearch(searchText(a,catalog),q));\n });\n}\n"
+        },
+        {
+          "before": "}\nexport function filterAdvisors(catalog,filters={}){\n const q=(filters.query||'').trim().toLowerCase();\n return catalog.advisors.filter(a=>{\n  if(!hasVerifiedPath(a,catalog))return false;\n",
+          "after": "}\nexport function filterAdvisors(catalog,filters={}){\n const q=filters.query||'';\n return catalog.advisors.filter(a=>{\n  if(!hasVerifiedPath(a,catalog))return false;\n"
+        },
+        {
+          "before": "  if(filters.degree&&!routesFor(a,catalog).some(r=>degreeLabel(r)===filters.degree&&isVerifiedRoute(r)))return false;\n  if(!openingMatches(a,filters))return false;\n  return !q||q.split(/\\s+/).every(t=>searchText(a,catalog).includes(t));\n }).sort((a,b)=>a.institution.localeCompare(b.institution,'en')||a.name.localeCompare(b.name,'en'));\n}\nexport function filterRoutes(catalog,filters={}){\n const q=(filters.query||'').trim().toLowerCase();\n return catalog.routes.filter(r=>{\n  if(!isVerifiedRoute(r))return false;\n",
+          "after": "  if(filters.degree&&!routesFor(a,catalog).some(r=>degreeLabel(r)===filters.degree&&isVerifiedRoute(r)))return false;\n  if(!openingMatches(a,filters))return false;\n  return !q||matchesSearch(searchText(a,catalog),q);\n }).sort((a,b)=>a.institution.localeCompare(b.institution,'en')||a.name.localeCompare(b.name,'en'));\n}\nexport function filterRoutes(catalog,filters={}){\n const q=filters.query||'';\n return catalog.routes.filter(r=>{\n  if(!isVerifiedRoute(r))return false;\n"
+        },
+        {
+          "before": "  const related=catalog.advisors.filter(a=>hasVerifiedPath(a,catalog)&&(a.routeIds||[]).includes(r.id)&&rankMatches(a,filters)&&(!filters.topic||themesFor(a).includes(filters.topic))&&openingMatches(a,{...filters,degree:degreeLabel(r)}));\n  if((filters.rank||filters.topic||filters.opening)&&!related.length)return false;\n  return !q||[r.institution,institutionLabel(r.institution),r.program,r.department,r.degree,r.eligibilitySummary].join(' ').toLowerCase().includes(q)||related.some(a=>searchText(a,catalog).includes(q));\n });\n}\n",
+          "after": "  const related=catalog.advisors.filter(a=>hasVerifiedPath(a,catalog)&&(a.routeIds||[]).includes(r.id)&&rankMatches(a,filters)&&(!filters.topic||themesFor(a).includes(filters.topic))&&openingMatches(a,{...filters,degree:degreeLabel(r)}));\n  if((filters.rank||filters.topic||filters.opening)&&!related.length)return false;\n  return !q||matchesSearch(routeSearchText(r),q)||related.some(a=>matchesSearch(searchText(a,catalog),q));\n });\n}\n"
+        },
+        {
+          "before": "  if(filters.institution&&d.institution!==filters.institution)return false;\n  if(!(d.routeIds||[]).some(id=>routeIds.has(id)))return false;\n  if(filters.query&&!([d.title,d.note,institutionLabel(d.institution)].join(' ').toLowerCase().includes(filters.query.toLowerCase())||(d.routeIds||[]).some(id=>routeIds.has(id))))return false;\n  return true;\n });\n",
+          "after": "  if(filters.institution&&d.institution!==filters.institution)return false;\n  if(!(d.routeIds||[]).some(id=>routeIds.has(id)))return false;\n  if(filters.query&&!matchesSearch([d.title,d.note,institutionSearchText(d.institution),d.admissionYear,searchObjectText(d.cycleReview),searchObjectText(d.sources)].join(' '),filters.query))return false;\n  return true;\n });\n"
+        },
+        {
+          "before": "}\nexport function filterOpportunities(catalog,filters={}){\n const q=(filters.query||'').trim().toLowerCase();\n return buildOpportunities(catalog,{includeReferencePhd:(filters.opportunityType||filters.degree)==='PhD'}).filter(o=>{\n  const a=catalog.advisors.find(a=>a.id===o.advisorId);const type=filters.opportunityType||filters.degree;\n",
+          "after": "}\nexport function filterOpportunities(catalog,filters={}){\n const q=filters.query||'';\n return buildOpportunities(catalog,{includeReferencePhd:(filters.opportunityType||filters.degree)==='PhD'}).filter(o=>{\n  const a=catalog.advisors.find(a=>a.id===o.advisorId);const type=filters.opportunityType||filters.degree;\n"
+        },
+        {
+          "before": "  if(filters.opening&&o.openingStatus!==filters.opening)return false;\n  const route=catalog.routes.find(r=>r.id===o.routeId);const job=(catalog.raPositions||[]).find(j=>j.id===o.jobId);\n  const searchable=[searchText(a,catalog),o.type,route?.program,job?.title].join(' ').toLowerCase();\n  return !q||q.split(/\\s+/).every(word=>searchable.includes(word));\n }).sort((x,y)=>{const a=catalog.advisors.find(a=>a.id===x.advisorId),b=catalog.advisors.find(a=>a.id===y.advisorId);return a.institution.localeCompare(b.institution,'en')||a.name.localeCompare(b.name,'en')||x.type.localeCompare(y.type,'en')||x.id.localeCompare(y.id,'en');});\n}\n",
+          "after": "  if(filters.opening&&o.openingStatus!==filters.opening)return false;\n  const route=catalog.routes.find(r=>r.id===o.routeId);const job=(catalog.raPositions||[]).find(j=>j.id===o.jobId);\n  const searchable=[searchText(a,catalog),o.type,degreeSearchLabels[o.type]||'',routeSearchText(route),searchObjectText(job)].join(' ');\n  return !q||matchesSearch(searchable,q);\n }).sort((x,y)=>{const a=catalog.advisors.find(a=>a.id===x.advisorId),b=catalog.advisors.find(a=>a.id===y.advisorId);return a.institution.localeCompare(b.institution,'en')||a.name.localeCompare(b.name,'en')||x.type.localeCompare(y.type,'en')||x.id.localeCompare(y.id,'en');});\n}\n"
+        }
+      ]
+    },
+    "assets/experiences.js": {
+      "beforeSha256": "44e45723b59776b6b2fd7371cb648dea168df0a74ddb338cf19bc7221df7515e",
+      "afterSha256": "8d440a2e424325d7eb55c3681dd6a879c7d6bc73dff9c4917ed13bf9730aca87",
+      "beforeGitBlob": "0dfcabc76a9ab8b74920e72d7064196bbebd2f39",
+      "afterGitBlob": "71052d284a2a40883a65f618ad5ae6951bec0f9d",
+      "kind": "text_fragments",
+      "operations": [
+        {
+          "before": "import {escapeHTML,safeUrl} from './core.js?v=0ea3317da2d7';\nconst e=escapeHTML;\n",
+          "after": "import {escapeHTML,safeUrl} from './core.js?v=79b44f84ac83';\nconst e=escapeHTML;\n"
+        }
+      ]
+    },
+    "assets/material-supplement.js": {
+      "beforeSha256": "947252deca91ce2514cb74957003266c04a8929abf4f735efd64685b5f8bfeec",
+      "afterSha256": "07ae3a09a2ba6a699018076d9aefea642ce5f7c7e5fe4282215fcae113b67b17",
+      "beforeGitBlob": "5a6940e72be8b484459b342566a1a1241633d970",
+      "afterGitBlob": "2be553319906d265df922b6c21baf06618251559",
+      "kind": "text_fragments",
+      "operations": [
+        {
+          "before": "import {safeUrl,isBrowsableRoute} from './core.js?v=0ea3317da2d7';\nconst statuses=new Set(['required','conditional','published','not_specified','unknown','optional','required_count_unknown','required_for_hkpfs','published_school_only']);\n",
+          "after": "import {safeUrl,isBrowsableRoute} from './core.js?v=79b44f84ac83';\nconst statuses=new Set(['required','conditional','published','not_specified','unknown','optional','required_count_unknown','required_for_hkpfs','published_school_only']);\n"
+        }
+      ]
+    },
+    "assets/page-overviews.js": {
+      "beforeSha256": "bd8aa27debda61c2e089c10d73c1129f0e149a218c1e2343a42242db079bc94d",
+      "afterSha256": "b3b49bc262719635f899508cb805586e1f58f9d04615224dd17c7903f33dc2cb",
+      "beforeGitBlob": "b3297d490628ca1e2abeb85819431a6311ceed96",
+      "afterGitBlob": "deba17a9cafc7efd90c4957d88e966556e85900d",
+      "kind": "text_fragments",
+      "operations": [
+        {
+          "before": "import {escapeHTML,buildOpportunities,browseRoutes as filterRoutes,browseAdvisors,filterDeadlines,deadlineStatus,themesFor,institutionLabel} from './core.js?v=0ea3317da2d7';\n\n",
+          "after": "import {escapeHTML,buildOpportunities,browseRoutes as filterRoutes,browseAdvisors,filterDeadlines,deadlineStatus,themesFor,institutionLabel} from './core.js?v=79b44f84ac83';\n\n"
+        }
+      ]
+    },
+    "assets/profiles.js": {
+      "beforeSha256": "ee8e18b726ee78c3f001c460877ab066ee28e34cb2aea5944d35f024d2143dac",
+      "afterSha256": "4b8e46812ffe77a3c4724c8ed0b46295bab17bb132262691a9fc57ba267983b6",
+      "beforeGitBlob": "dfcc33168ff920e5223dbb88ec7420e88891030e",
+      "afterGitBlob": "a2915448ca7605d7d68343c7df169599fc30aed6",
+      "kind": "text_fragments",
+      "operations": [
+        {
+          "before": "import {escapeHTML,safeUrl} from './core.js?v=0ea3317da2d7';\nconst e=escapeHTML;\n",
+          "after": "import {escapeHTML,safeUrl} from './core.js?v=79b44f84ac83';\nconst e=escapeHTML;\n"
+        }
+      ]
+    },
+    "assets/project-comparison.js": {
+      "beforeSha256": "2b18e81203e0030b52dc4e48e07d073649b86fdb01c09ec57ffb3fdef1d74c8e",
+      "afterSha256": "6c410b0e71a760b5d82f14aeb2cde91792d81a798211058fe25b39d6f3d971af",
+      "beforeGitBlob": "0bfe092dfa94d517eb935cadbc37ba23d458cd50",
+      "afterGitBlob": "ab0e7a7e4521018d6788af03e4ac13011ee97a43",
+      "kind": "text_fragments",
+      "operations": [
+        {
+          "before": "import {escapeHTML, readerText, safeUrl, sourcesOf, institutionLabel, degreeLabel, degreeDisplay, isBrowsableRoute, routeEvidenceText, deadlineStatus} from './core.js?v=0ea3317da2d7';\nimport {supervisorAssociationText} from './record-summaries.js?v=08296d98b6ad';\n\n",
+          "after": "import {escapeHTML, readerText, safeUrl, sourcesOf, institutionLabel, degreeLabel, degreeDisplay, isBrowsableRoute, routeEvidenceText, deadlineStatus} from './core.js?v=79b44f84ac83';\nimport {supervisorAssociationText} from './record-summaries.js?v=a3bc1afa9310';\n\n"
+        }
+      ]
+    },
+    "assets/record-summaries.js": {
+      "beforeSha256": "08296d98b6ad09c0afb8597981135898fe89164bc0012319551bdf0e649f9f9e",
+      "afterSha256": "a3bc1afa9310d6040b74a1689b4a3f0984e0eb9e8c3f9d25b1e5447a55cc6fb9",
+      "beforeGitBlob": "727ad4639c3884ca4ee02bf31e25cde6bbfb74ed",
+      "afterGitBlob": "b22a74320e278f455ac95e2ffc181d3a42849868",
+      "kind": "text_fragments",
+      "operations": [
+        {
+          "before": "import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,degreeDisplay,deadlineStatus,isBrowsableRoute,routeEvidenceText,browseRoutes as filterRoutes} from './core.js?v=0ea3317da2d7';\nconst e=value=>escapeHTML(readerText(value));\n",
+          "after": "import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,degreeDisplay,deadlineStatus,isBrowsableRoute,routeEvidenceText,browseRoutes as filterRoutes,matchesSearch,routeSearchText} from './core.js?v=79b44f84ac83';\nconst e=value=>escapeHTML(readerText(value));\n"
+        },
+        {
+          "before": "}\nexport function filterProjectRoutes(catalog,filters={}){const q=(filters.query||'').trim().toLowerCase();if(!q)return filterRoutes(catalog,filters);const originalIds=new Set(filterRoutes(catalog,filters).map(r=>r.id));return filterRoutes(catalog,{...filters,query:''}).filter(r=>{const brief=catalog.projectSummaries?.get(r.id);return originalIds.has(r.id)||brief&&[...projectFacts.map(k=>brief[k].text),...brief.cautions.map(f=>f.text)].join(' ').toLowerCase().includes(q);});}\nfunction projectIntroduction(brief){if(!brief)return '';return section('培养与研究简介',paragraph(brief.overview.text)+`<h4>怎样培养</h4>${paragraph(brief.training.text)}<h4>本科申请入口</h4>${paragraph(brief.bachelorEntry.text)}<h4>批次边界</h4>${paragraph(brief.cycle.text)}`+items(brief.cautions)+`<p class=\"small-note\">简介核读于 ${e(brief.checkedDate)}。招生方式、推免资格和前置学历须按对应项目逐项核对；简介不构成个人资格、导师名额或资助保证。</p>`);}\n",
+          "after": "}\nexport function filterProjectRoutes(catalog,filters={}){const q=filters.query||'';if(!q)return filterRoutes(catalog,filters);const originalIds=new Set(filterRoutes(catalog,filters).map(r=>r.id));return filterRoutes(catalog,{...filters,query:''}).filter(r=>{const brief=catalog.projectSummaries?.get(r.id);return originalIds.has(r.id)||brief&&matchesSearch([routeSearchText(r),...projectFacts.map(k=>brief[k].text),...brief.cautions.map(f=>f.text)].join(' '),q);});}\nfunction projectIntroduction(brief){if(!brief)return '';return section('培养与研究简介',paragraph(brief.overview.text)+`<h4>怎样培养</h4>${paragraph(brief.training.text)}<h4>本科申请入口</h4>${paragraph(brief.bachelorEntry.text)}<h4>批次边界</h4>${paragraph(brief.cycle.text)}`+items(brief.cautions)+`<p class=\"small-note\">简介核读于 ${e(brief.checkedDate)}。招生方式、推免资格和前置学历须按对应项目逐项核对；简介不构成个人资格、导师名额或资助保证。</p>`);}\n"
+        }
+      ]
+    },
+    "data/catalog.json": {
+      "beforeSha256": "12589a50a890c37ef9944afbe624e0a76f332c3784a566b6583f5adf3cba75de",
+      "afterSha256": "64a4ffd6c289519402019eff94d582e9dff2137a1caa2fb2d610c04d69b6b2c8",
+      "beforeGitBlob": "c8840ba010b4fc0cb371821a783b18069d04f0fc",
+      "afterGitBlob": "1159f8bf6533a4a41001c039ef2fd28deaefdab3",
+      "kind": "json",
+      "operations": [
+        {
+          "path": [
+            "metadata",
+            "scope"
+          ],
+          "before": "公开通用申请平台的导师与项目参考；清华、南科大、北大及本轮七校导师研究保留，博士项目参考、个人关联和招生余位分别核验；不声称全校或全球全覆盖。",
+          "after": "机器人、具身智能与人工智能方向导师、博士项目参考和申请证据；2027/2028周期逐条区分"
+        },
+        {
+          "path": [
+            "advisors",
+            74,
+            "routeIds",
+            1
+          ],
+          "beforeMissing": true,
+          "after": "nju-lamda-phd-reference-2027"
+        },
+        {
+          "path": [
+            "advisors",
+            74,
+            "routeAssociations",
+            1
+          ],
+          "beforeMissing": true,
+          "after": {
+            "routeId": "nju-lamda-phd-reference-2027",
+            "degree": "PhD",
+            "status": "reference",
+            "verificationStatus": "pending",
+            "summary": "LAMDA 2027拟招生名单明确列出李宇峰教授招收博士生、直博生和硕士生；该文字是年份参考，不是已核实个人余位。",
+            "sources": [
+              {
+                "label": "李宇峰官方主页",
+                "url": "https://www.lamda.nju.edu.cn/liyf/",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "南京大学LAMDA 2027年秋季入学研究生招收说明",
+                "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
+                "checkedDate": "2026-10-05"
+              }
+            ],
+            "checkedDate": "2026-10-05",
+            "scope": "program_reference_only",
+            "note": "导师身份与研究方向不等于个人招生名额。",
+            "sourceCycle": "2027",
+            "admissionMode": "lab_screening_plus_university_admission",
+            "projectCycleVerified": true,
+            "individualRecruitmentVerified": false,
+            "cycle2027FallReference": true
+          }
+        },
+        {
+          "path": [
+            "advisors",
+            74,
+            "openingDetails",
+            0,
+            "cycle2027FallReference"
+          ],
+          "before": false,
+          "after": true
+        },
+        {
+          "path": [
+            "advisors",
+            74,
+            "openingDetails",
+            0,
+            "cycle"
+          ],
+          "before": "2026 Fall项目/导师方向参考；个人2028 Fall招生未核实",
+          "after": "2027 Fall项目/导师方向参考；个人2028 Fall招生未核实"
+        },
+        {
+          "path": [
+            "advisors",
+            74,
+            "openingDetails",
+            0,
+            "sources",
+            3
+          ],
+          "beforeMissing": true,
+          "after": {
+            "label": "南京大学LAMDA 2027年秋季入学研究生招收说明",
+            "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
+            "checkedDate": "2026-10-05"
+          }
+        },
+        {
+          "path": [
+            "advisors",
+            74,
+            "openingDetails",
+            0,
+            "sourceCycle"
+          ],
+          "before": "2026",
+          "after": "2027"
+        },
+        {
+          "path": [
+            "advisors",
+            74,
+            "sources",
+            3
+          ],
+          "beforeMissing": true,
+          "after": {
+            "label": "南京大学LAMDA 2027年秋季入学研究生招收说明",
+            "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
+            "checkedDate": "2026-10-05"
+          }
+        },
+        {
+          "path": [
+            "advisors",
+            74,
+            "sourceRecord",
+            "routeIds",
+            1
+          ],
+          "beforeMissing": true,
+          "after": "nju-lamda-phd-reference-2027"
+        },
+        {
+          "path": [
+            "advisors",
+            74,
+            "sourceRecord",
+            "cycle2027FallReference"
+          ],
+          "before": false,
+          "after": true
+        },
+        {
+          "path": [
+            "advisors",
+            74,
+            "sourceRecord",
+            "sources",
+            3
+          ],
+          "beforeMissing": true,
+          "after": {
+            "label": "南京大学LAMDA 2027年秋季入学研究生招收说明",
+            "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
+            "checkedDate": "2026-10-05"
+          }
+        },
+        {
+          "path": [
+            "advisors",
+            74,
+            "sourceRecord",
+            "routeAssociations",
+            1
+          ],
+          "beforeMissing": true,
+          "after": {
+            "routeId": "nju-lamda-phd-reference-2027",
+            "degree": "PhD",
+            "status": "reference",
+            "verificationStatus": "pending",
+            "summary": "LAMDA 2027拟招生名单明确列出李宇峰教授招收博士生、直博生和硕士生；该文字是年份参考，不是已核实个人余位。",
+            "sources": [
+              {
+                "label": "李宇峰官方主页",
+                "url": "https://www.lamda.nju.edu.cn/liyf/",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "南京大学LAMDA 2027年秋季入学研究生招收说明",
+                "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
+                "checkedDate": "2026-10-05"
+              }
+            ],
+            "checkedDate": "2026-10-05",
+            "scope": "program_reference_only",
+            "note": "导师身份与研究方向不等于个人招生名额。",
+            "sourceCycle": "2027",
+            "admissionMode": "lab_screening_plus_university_admission",
+            "projectCycleVerified": true,
+            "individualRecruitmentVerified": false,
+            "cycle2027FallReference": true
+          }
+        },
+        {
+          "path": [
+            "advisors",
+            74,
+            "cycle2027FallReference"
+          ],
+          "beforeMissing": true,
+          "after": true
+        },
+        {
+          "path": [
+            "advisors",
+            79,
+            "routeIds",
+            1
+          ],
+          "beforeMissing": true,
+          "after": "ustc-tong-plan-phd-reference-2027"
+        },
+        {
+          "path": [
+            "advisors",
+            79,
+            "routeAssociations",
+            1
+          ],
+          "beforeMissing": true,
+          "after": {
+            "routeId": "ustc-tong-plan-phd-reference-2027",
+            "degree": "PhD",
+            "status": "reference",
+            "verificationStatus": "pending",
+            "summary": "2027通计划附表明确列出张天柱为校内导师，方向包括视觉机器人感知、机械臂灵巧操作和三维场景理解；专项名额与个人接收仍需核实。",
+            "sources": [
+              {
+                "label": "张天柱中国科大官方主页",
+                "url": "https://faculty.ustc.edu.cn/zhangtianzhu/zh_CN/index.htm",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "中国科大—北京通用人工智能研究院2027年通计划博士招生简章",
+                "url": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+                "checkedDate": "2026-10-05"
+              }
+            ],
+            "checkedDate": "2026-10-05",
+            "scope": "program_reference_only",
+            "note": "导师身份与研究方向不等于个人招生名额。",
+            "sourceCycle": "2027",
+            "admissionMode": "doctoral_admission",
+            "projectCycleVerified": true,
+            "individualRecruitmentVerified": false,
+            "cycle2027FallReference": true
+          }
+        },
+        {
+          "path": [
+            "advisors",
+            79,
+            "openingDetails",
+            0,
+            "cycle2027FallReference"
+          ],
+          "before": false,
+          "after": true
+        },
+        {
+          "path": [
+            "advisors",
+            79,
+            "openingDetails",
+            0,
+            "cycle"
+          ],
+          "before": "2026 Fall项目/导师方向参考；个人2028 Fall招生未核实",
+          "after": "2027 Fall项目/导师方向参考；个人2028 Fall招生未核实"
+        },
+        {
+          "path": [
+            "advisors",
+            79,
+            "openingDetails",
+            0,
+            "sources",
+            3
+          ],
+          "beforeMissing": true,
+          "after": {
+            "label": "中国科大—北京通用人工智能研究院2027年通计划博士招生简章",
+            "url": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+            "checkedDate": "2026-10-05"
+          }
+        },
+        {
+          "path": [
+            "advisors",
+            79,
+            "openingDetails",
+            0,
+            "sourceCycle"
+          ],
+          "before": "2026",
+          "after": "2027"
+        },
+        {
+          "path": [
+            "advisors",
+            79,
+            "sources",
+            3
+          ],
+          "beforeMissing": true,
+          "after": {
+            "label": "中国科大—北京通用人工智能研究院2027年通计划博士招生简章",
+            "url": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+            "checkedDate": "2026-10-05"
+          }
+        },
+        {
+          "path": [
+            "advisors",
+            79,
+            "sourceRecord",
+            "routeIds",
+            1
+          ],
+          "beforeMissing": true,
+          "after": "ustc-tong-plan-phd-reference-2027"
+        },
+        {
+          "path": [
+            "advisors",
+            79,
+            "sourceRecord",
+            "cycle2027FallReference"
+          ],
+          "before": false,
+          "after": true
+        },
+        {
+          "path": [
+            "advisors",
+            79,
+            "sourceRecord",
+            "sources",
+            3
+          ],
+          "beforeMissing": true,
+          "after": {
+            "label": "中国科大—北京通用人工智能研究院2027年通计划博士招生简章",
+            "url": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+            "checkedDate": "2026-10-05"
+          }
+        },
+        {
+          "path": [
+            "advisors",
+            79,
+            "sourceRecord",
+            "routeAssociations",
+            1
+          ],
+          "beforeMissing": true,
+          "after": {
+            "routeId": "ustc-tong-plan-phd-reference-2027",
+            "degree": "PhD",
+            "status": "reference",
+            "verificationStatus": "pending",
+            "summary": "2027通计划附表明确列出张天柱为校内导师，方向包括视觉机器人感知、机械臂灵巧操作和三维场景理解；专项名额与个人接收仍需核实。",
+            "sources": [
+              {
+                "label": "张天柱中国科大官方主页",
+                "url": "https://faculty.ustc.edu.cn/zhangtianzhu/zh_CN/index.htm",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "中国科大—北京通用人工智能研究院2027年通计划博士招生简章",
+                "url": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+                "checkedDate": "2026-10-05"
+              }
+            ],
+            "checkedDate": "2026-10-05",
+            "scope": "program_reference_only",
+            "note": "导师身份与研究方向不等于个人招生名额。",
+            "sourceCycle": "2027",
+            "admissionMode": "doctoral_admission",
+            "projectCycleVerified": true,
+            "individualRecruitmentVerified": false,
+            "cycle2027FallReference": true
+          }
+        },
+        {
+          "path": [
+            "advisors",
+            79,
+            "cycle2027FallReference"
+          ],
+          "beforeMissing": true,
+          "after": true
+        },
+        {
+          "path": [
+            "advisors",
+            87
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "seu-wei-xiucan",
+            "name": "Xiu-Shen Wei",
+            "nameZh": "魏秀参",
+            "institution": "SEU",
+            "department": "计算机科学与工程学院",
+            "position": "青年首席教授 / 博士生导师",
+            "topics": [
+              "计算机视觉、机器学习、具身智能、AI4Science"
+            ],
+            "summary": "计算机视觉、机器学习、具身智能、AI4Science",
+            "profileUrl": "https://cs.seu.edu.cn/weixs/main.htm",
+            "routeIds": [
+              "seu-palm-phd-reference-2027"
+            ],
+            "routeAssociations": [
+              {
+                "routeId": "seu-palm-phd-reference-2027",
+                "degree": "PhD",
+                "status": "reference",
+                "verificationStatus": "pending",
+                "summary": "PALM官方2027拟招生导师名单列出该导师及研究方向；实验室考查和学校正式考核边界保留，个人2027/2028余位未核实。",
+                "sources": [
+                  {
+                    "label": "导师官方主页",
+                    "url": "https://cs.seu.edu.cn/weixs/main.htm",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "东南大学PALM实验室2027年拟招生导师名单",
+                    "url": "https://palm.seu.edu.cn/application.html",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                    "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                    "checkedDate": "2026-10-05"
+                  }
+                ],
+                "checkedDate": "2026-10-05",
+                "scope": "program_reference_only",
+                "note": "导师身份与研究方向不等于个人招生名额。",
+                "sourceCycle": "2027",
+                "admissionMode": "lab_screening_plus_university_admission",
+                "projectCycleVerified": true,
+                "individualRecruitmentVerified": false,
+                "cycle2027FallReference": true
+              }
+            ],
+            "eligibility": "pending",
+            "eligibilityMeaning": "导师公开身份和2027 PALM招收名单保留；个人具体学位关联、招生名额和资助仍待核。",
+            "defaultVisible": true,
+            "opening": "unknown",
+            "openingSummary": "PALM 2027项目参考；个人2028 Fall名额待确认",
+            "openings": {
+              "msc": "未核实公开声明",
+              "mphil": "未核实公开声明",
+              "phd": "PALM 2027博士/直博项目参考；个人当期名额和资助待核",
+              "ra": "未核实公开岗位",
+              "cycle2027": "2026 Fall项目/导师方向参考；个人招生名额待核",
+              "cycle2028": "个人 2028 Fall 招生名额未核实"
+            },
+            "openingDetails": [
+              {
+                "degree": "PhD",
+                "status": "unknown",
+                "summary": "已保留博士项目或导师方向参考；个人2027/2028招生与名额未核实",
+                "cycle2027FallVerified": false,
+                "cycle2027FallReference": true,
+                "cycle2028FallVerified": false,
+                "cycle": "2027 Fall PALM项目/导师方向参考；个人2028 Fall招生未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "program_reference_only",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "导师官方主页",
+                    "url": "https://cs.seu.edu.cn/weixs/main.htm",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "东南大学PALM实验室2027年拟招生导师名单",
+                    "url": "https://palm.seu.edu.cn/application.html",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                    "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                    "checkedDate": "2026-10-05"
+                  }
+                ],
+                "checkedDate": "2026-10-05",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": true,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false,
+                "associationVerificationStatus": "pending",
+                "sourceCycle": "2027",
+                "admissionMode": "lab_screening_plus_university_admission"
+              }
+            ],
+            "fall2027OpeningVerified": false,
+            "fall2028OpeningVerified": false,
+            "newPi": {
+              "verified": false,
+              "window": "calendar-year-2026",
+              "date": null,
+              "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+              "sources": [],
+              "dateEvidenceVerified": false
+            },
+            "appointment": {
+              "new_pi_2026_verified": false,
+              "date": null,
+              "note": "未核实 2026 新入职证据"
+            },
+            "sources": [
+              {
+                "label": "导师官方主页",
+                "url": "https://cs.seu.edu.cn/weixs/main.htm",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "东南大学PALM实验室2027年拟招生导师名单",
+                "url": "https://palm.seu.edu.cn/application.html",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                "checkedDate": "2026-10-05"
+              }
+            ],
+            "caveats": [
+              "PALM实验室公开接受文字不等于东南大学正式录取或个人剩余名额。",
+              "报名截止时间、具体导师分配和资助金额仍需按当轮邮件及学校系统确认。"
+            ],
+            "checkedDate": "2026-10-05",
+            "sourceFile": "seu-advisor-review-20261005.json",
+            "sourceRecord": {
+              "id": "seu-wei-xiucan",
+              "name": "Xiu-Shen Wei",
+              "nameZh": "魏秀参",
+              "institution": "SEU",
+              "department": "计算机科学与工程学院",
+              "position": "青年首席教授 / 博士生导师",
+              "topics": [
+                "计算机视觉、机器学习、具身智能、AI4Science"
+              ],
+              "summary": "计算机视觉、机器学习、具身智能、AI4Science",
+              "profileUrl": "https://cs.seu.edu.cn/weixs/main.htm",
+              "routeIds": [
+                "seu-palm-phd-reference-2027"
+              ],
+              "routeAssociations": [
+                {
+                  "routeId": "seu-palm-phd-reference-2027",
+                  "degree": "PhD",
+                  "status": "reference",
+                  "verificationStatus": "pending",
+                  "summary": "PALM官方2027拟招生导师名单列出该导师及研究方向；实验室考查和学校正式考核边界保留，个人2027/2028余位未核实。",
+                  "sources": [
+                    {
+                      "label": "导师官方主页",
+                      "url": "https://cs.seu.edu.cn/weixs/main.htm",
+                      "checkedDate": "2026-10-05"
+                    },
+                    {
+                      "label": "东南大学PALM实验室2027年拟招生导师名单",
+                      "url": "https://palm.seu.edu.cn/application.html",
+                      "checkedDate": "2026-10-05"
+                    },
+                    {
+                      "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                      "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                      "checkedDate": "2026-10-05"
+                    }
+                  ],
+                  "checkedDate": "2026-10-05",
+                  "scope": "program_reference_only",
+                  "note": "导师身份与研究方向不等于个人招生名额。",
+                  "sourceCycle": "2027",
+                  "admissionMode": "lab_screening_plus_university_admission",
+                  "projectCycleVerified": true,
+                  "individualRecruitmentVerified": false,
+                  "cycle2027FallReference": true
+                }
+              ],
+              "eligibility": "pending",
+              "eligibilityMeaning": "导师公开身份和2027 PALM招收名单保留；个人具体学位关联、招生名额和资助仍待核。",
+              "defaultVisible": true,
+              "opening": "unknown",
+              "openingSummary": "PALM 2027项目参考；个人2028 Fall名额待确认",
+              "openings": {
+                "msc": "未核实公开声明",
+                "mphil": "未核实公开声明",
+                "phd": "PALM 2027博士/直博项目参考；个人当期名额和资助待核",
+                "ra": "未核实公开岗位",
+                "cycle2027": "2026 Fall项目/导师方向参考；个人招生名额待核",
+                "cycle2028": "个人 2028 Fall 招生名额未核实"
+              },
+              "openingDetails": [
+                {
+                  "degree": "PhD",
+                  "status": "unknown",
+                  "summary": "已保留博士项目或导师方向参考；个人2027/2028招生与名额未核实",
+                  "cycle2027FallVerified": false,
+                  "cycle2027FallReference": true,
+                  "cycle2028FallVerified": false,
+                  "cycle": "2027 Fall PALM项目/导师方向参考；个人2028 Fall招生未核实",
+                  "degreeRouteAssociated": false,
+                  "sourceStatus": "program_reference_only",
+                  "noticeDate": null,
+                  "sources": [
+                    {
+                      "label": "导师官方主页",
+                      "url": "https://cs.seu.edu.cn/weixs/main.htm",
+                      "checkedDate": "2026-10-05"
+                    },
+                    {
+                      "label": "东南大学PALM实验室2027年拟招生导师名单",
+                      "url": "https://palm.seu.edu.cn/application.html",
+                      "checkedDate": "2026-10-05"
+                    },
+                    {
+                      "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                      "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                      "checkedDate": "2026-10-05"
+                    }
+                  ],
+                  "checkedDate": "2026-10-05",
+                  "individualRecruitmentVerified": false,
+                  "projectCycleVerified": true,
+                  "confirmedVacancy": false,
+                  "remainingHeadcountVerified": false,
+                  "associationVerificationStatus": "pending",
+                  "sourceCycle": "2027",
+                  "admissionMode": "lab_screening_plus_university_admission"
+                }
+              ],
+              "fall2027OpeningVerified": false,
+              "fall2028OpeningVerified": false,
+              "newPi": {
+                "verified": false,
+                "window": "calendar-year-2026",
+                "date": null,
+                "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+                "sources": [],
+                "dateEvidenceVerified": false
+              },
+              "appointment": {
+                "new_pi_2026_verified": false,
+                "date": null,
+                "note": "未核实 2026 新入职证据"
+              },
+              "sources": [
+                {
+                  "label": "导师官方主页",
+                  "url": "https://cs.seu.edu.cn/weixs/main.htm",
+                  "checkedDate": "2026-10-05"
+                },
+                {
+                  "label": "东南大学PALM实验室2027年拟招生导师名单",
+                  "url": "https://palm.seu.edu.cn/application.html",
+                  "checkedDate": "2026-10-05"
+                },
+                {
+                  "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                  "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                  "checkedDate": "2026-10-05"
+                }
+              ],
+              "caveats": [
+                "PALM实验室公开接受文字不等于东南大学正式录取或个人剩余名额。",
+                "报名截止时间、具体导师分配和资助金额仍需按当轮邮件及学校系统确认。"
+              ],
+              "checkedDate": "2026-10-05",
+              "sourceFile": "seu-advisor-review-20261005.json",
+              "cycle2027FallReference": true,
+              "cycle2027FallVerified": false,
+              "cycle2028FallVerified": false
+            },
+            "cycle2027FallReference": true,
+            "cycle2027FallVerified": false,
+            "cycle2028FallVerified": false
+          }
+        },
+        {
+          "path": [
+            "advisors",
+            88
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "seu-song-mofei",
+            "name": "Mofei Song",
+            "nameZh": "宋沫飞",
+            "institution": "SEU",
+            "department": "计算机科学与工程学院 / PALM",
+            "position": "副教授 / 博士生导师",
+            "topics": [
+              "计算机图形学、计算机视觉、智能体系统"
+            ],
+            "summary": "计算机图形学、计算机视觉、智能体系统",
+            "profileUrl": "https://cs.seu.edu.cn/2019/0301/c23024a264097/page.htm",
+            "routeIds": [
+              "seu-palm-phd-reference-2027"
+            ],
+            "routeAssociations": [
+              {
+                "routeId": "seu-palm-phd-reference-2027",
+                "degree": "PhD",
+                "status": "reference",
+                "verificationStatus": "pending",
+                "summary": "PALM官方2027拟招生导师名单列出该导师及研究方向；实验室考查和学校正式考核边界保留，个人2027/2028余位未核实。",
+                "sources": [
+                  {
+                    "label": "导师官方主页",
+                    "url": "https://cs.seu.edu.cn/2019/0301/c23024a264097/page.htm",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "东南大学PALM实验室2027年拟招生导师名单",
+                    "url": "https://palm.seu.edu.cn/application.html",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                    "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                    "checkedDate": "2026-10-05"
+                  }
+                ],
+                "checkedDate": "2026-10-05",
+                "scope": "program_reference_only",
+                "note": "导师身份与研究方向不等于个人招生名额。",
+                "sourceCycle": "2027",
+                "admissionMode": "lab_screening_plus_university_admission",
+                "projectCycleVerified": true,
+                "individualRecruitmentVerified": false,
+                "cycle2027FallReference": true
+              }
+            ],
+            "eligibility": "pending",
+            "eligibilityMeaning": "导师公开身份和2027 PALM招收名单保留；个人具体学位关联、招生名额和资助仍待核。",
+            "defaultVisible": true,
+            "opening": "unknown",
+            "openingSummary": "PALM 2027项目参考；个人2028 Fall名额待确认",
+            "openings": {
+              "msc": "未核实公开声明",
+              "mphil": "未核实公开声明",
+              "phd": "PALM 2027博士/直博项目参考；个人当期名额和资助待核",
+              "ra": "未核实公开岗位",
+              "cycle2027": "2026 Fall项目/导师方向参考；个人招生名额待核",
+              "cycle2028": "个人 2028 Fall 招生名额未核实"
+            },
+            "openingDetails": [
+              {
+                "degree": "PhD",
+                "status": "unknown",
+                "summary": "已保留博士项目或导师方向参考；个人2027/2028招生与名额未核实",
+                "cycle2027FallVerified": false,
+                "cycle2027FallReference": true,
+                "cycle2028FallVerified": false,
+                "cycle": "2027 Fall PALM项目/导师方向参考；个人2028 Fall招生未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "program_reference_only",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "导师官方主页",
+                    "url": "https://cs.seu.edu.cn/2019/0301/c23024a264097/page.htm",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "东南大学PALM实验室2027年拟招生导师名单",
+                    "url": "https://palm.seu.edu.cn/application.html",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                    "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                    "checkedDate": "2026-10-05"
+                  }
+                ],
+                "checkedDate": "2026-10-05",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": true,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false,
+                "associationVerificationStatus": "pending",
+                "sourceCycle": "2027",
+                "admissionMode": "lab_screening_plus_university_admission"
+              }
+            ],
+            "fall2027OpeningVerified": false,
+            "fall2028OpeningVerified": false,
+            "newPi": {
+              "verified": false,
+              "window": "calendar-year-2026",
+              "date": null,
+              "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+              "sources": [],
+              "dateEvidenceVerified": false
+            },
+            "appointment": {
+              "new_pi_2026_verified": false,
+              "date": null,
+              "note": "未核实 2026 新入职证据"
+            },
+            "sources": [
+              {
+                "label": "导师官方主页",
+                "url": "https://cs.seu.edu.cn/2019/0301/c23024a264097/page.htm",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "东南大学PALM实验室2027年拟招生导师名单",
+                "url": "https://palm.seu.edu.cn/application.html",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                "checkedDate": "2026-10-05"
+              }
+            ],
+            "caveats": [
+              "PALM实验室公开接受文字不等于东南大学正式录取或个人剩余名额。",
+              "报名截止时间、具体导师分配和资助金额仍需按当轮邮件及学校系统确认。"
+            ],
+            "checkedDate": "2026-10-05",
+            "sourceFile": "seu-advisor-review-20261005.json",
+            "sourceRecord": {
+              "id": "seu-song-mofei",
+              "name": "Mofei Song",
+              "nameZh": "宋沫飞",
+              "institution": "SEU",
+              "department": "计算机科学与工程学院 / PALM",
+              "position": "副教授 / 博士生导师",
+              "topics": [
+                "计算机图形学、计算机视觉、智能体系统"
+              ],
+              "summary": "计算机图形学、计算机视觉、智能体系统",
+              "profileUrl": "https://cs.seu.edu.cn/2019/0301/c23024a264097/page.htm",
+              "routeIds": [
+                "seu-palm-phd-reference-2027"
+              ],
+              "routeAssociations": [
+                {
+                  "routeId": "seu-palm-phd-reference-2027",
+                  "degree": "PhD",
+                  "status": "reference",
+                  "verificationStatus": "pending",
+                  "summary": "PALM官方2027拟招生导师名单列出该导师及研究方向；实验室考查和学校正式考核边界保留，个人2027/2028余位未核实。",
+                  "sources": [
+                    {
+                      "label": "导师官方主页",
+                      "url": "https://cs.seu.edu.cn/2019/0301/c23024a264097/page.htm",
+                      "checkedDate": "2026-10-05"
+                    },
+                    {
+                      "label": "东南大学PALM实验室2027年拟招生导师名单",
+                      "url": "https://palm.seu.edu.cn/application.html",
+                      "checkedDate": "2026-10-05"
+                    },
+                    {
+                      "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                      "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                      "checkedDate": "2026-10-05"
+                    }
+                  ],
+                  "checkedDate": "2026-10-05",
+                  "scope": "program_reference_only",
+                  "note": "导师身份与研究方向不等于个人招生名额。",
+                  "sourceCycle": "2027",
+                  "admissionMode": "lab_screening_plus_university_admission",
+                  "projectCycleVerified": true,
+                  "individualRecruitmentVerified": false,
+                  "cycle2027FallReference": true
+                }
+              ],
+              "eligibility": "pending",
+              "eligibilityMeaning": "导师公开身份和2027 PALM招收名单保留；个人具体学位关联、招生名额和资助仍待核。",
+              "defaultVisible": true,
+              "opening": "unknown",
+              "openingSummary": "PALM 2027项目参考；个人2028 Fall名额待确认",
+              "openings": {
+                "msc": "未核实公开声明",
+                "mphil": "未核实公开声明",
+                "phd": "PALM 2027博士/直博项目参考；个人当期名额和资助待核",
+                "ra": "未核实公开岗位",
+                "cycle2027": "2026 Fall项目/导师方向参考；个人招生名额待核",
+                "cycle2028": "个人 2028 Fall 招生名额未核实"
+              },
+              "openingDetails": [
+                {
+                  "degree": "PhD",
+                  "status": "unknown",
+                  "summary": "已保留博士项目或导师方向参考；个人2027/2028招生与名额未核实",
+                  "cycle2027FallVerified": false,
+                  "cycle2027FallReference": true,
+                  "cycle2028FallVerified": false,
+                  "cycle": "2027 Fall PALM项目/导师方向参考；个人2028 Fall招生未核实",
+                  "degreeRouteAssociated": false,
+                  "sourceStatus": "program_reference_only",
+                  "noticeDate": null,
+                  "sources": [
+                    {
+                      "label": "导师官方主页",
+                      "url": "https://cs.seu.edu.cn/2019/0301/c23024a264097/page.htm",
+                      "checkedDate": "2026-10-05"
+                    },
+                    {
+                      "label": "东南大学PALM实验室2027年拟招生导师名单",
+                      "url": "https://palm.seu.edu.cn/application.html",
+                      "checkedDate": "2026-10-05"
+                    },
+                    {
+                      "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                      "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                      "checkedDate": "2026-10-05"
+                    }
+                  ],
+                  "checkedDate": "2026-10-05",
+                  "individualRecruitmentVerified": false,
+                  "projectCycleVerified": true,
+                  "confirmedVacancy": false,
+                  "remainingHeadcountVerified": false,
+                  "associationVerificationStatus": "pending",
+                  "sourceCycle": "2027",
+                  "admissionMode": "lab_screening_plus_university_admission"
+                }
+              ],
+              "fall2027OpeningVerified": false,
+              "fall2028OpeningVerified": false,
+              "newPi": {
+                "verified": false,
+                "window": "calendar-year-2026",
+                "date": null,
+                "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+                "sources": [],
+                "dateEvidenceVerified": false
+              },
+              "appointment": {
+                "new_pi_2026_verified": false,
+                "date": null,
+                "note": "未核实 2026 新入职证据"
+              },
+              "sources": [
+                {
+                  "label": "导师官方主页",
+                  "url": "https://cs.seu.edu.cn/2019/0301/c23024a264097/page.htm",
+                  "checkedDate": "2026-10-05"
+                },
+                {
+                  "label": "东南大学PALM实验室2027年拟招生导师名单",
+                  "url": "https://palm.seu.edu.cn/application.html",
+                  "checkedDate": "2026-10-05"
+                },
+                {
+                  "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                  "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                  "checkedDate": "2026-10-05"
+                }
+              ],
+              "caveats": [
+                "PALM实验室公开接受文字不等于东南大学正式录取或个人剩余名额。",
+                "报名截止时间、具体导师分配和资助金额仍需按当轮邮件及学校系统确认。"
+              ],
+              "checkedDate": "2026-10-05",
+              "sourceFile": "seu-advisor-review-20261005.json",
+              "cycle2027FallReference": true,
+              "cycle2027FallVerified": false,
+              "cycle2028FallVerified": false
+            },
+            "cycle2027FallReference": true,
+            "cycle2027FallVerified": false,
+            "cycle2028FallVerified": false
+          }
+        },
+        {
+          "path": [
+            "advisors",
+            89
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "seu-feng-lei",
+            "name": "Lei Feng",
+            "nameZh": "冯磊",
+            "institution": "SEU",
+            "department": "计算机科学与工程学院 / PALM",
+            "position": "青年首席教授 / 博士生导师",
+            "topics": [
+              "大模型智能体、人工智能安全、科学智能"
+            ],
+            "summary": "大模型智能体、人工智能安全、科学智能",
+            "profileUrl": "https://cs.seu.edu.cn/fenglei/main.htm",
+            "routeIds": [
+              "seu-palm-phd-reference-2027"
+            ],
+            "routeAssociations": [
+              {
+                "routeId": "seu-palm-phd-reference-2027",
+                "degree": "PhD",
+                "status": "reference",
+                "verificationStatus": "pending",
+                "summary": "PALM官方2027拟招生导师名单列出该导师及研究方向；实验室考查和学校正式考核边界保留，个人2027/2028余位未核实。",
+                "sources": [
+                  {
+                    "label": "导师官方主页",
+                    "url": "https://cs.seu.edu.cn/fenglei/main.htm",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "东南大学PALM实验室2027年拟招生导师名单",
+                    "url": "https://palm.seu.edu.cn/application.html",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                    "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                    "checkedDate": "2026-10-05"
+                  }
+                ],
+                "checkedDate": "2026-10-05",
+                "scope": "program_reference_only",
+                "note": "导师身份与研究方向不等于个人招生名额。",
+                "sourceCycle": "2027",
+                "admissionMode": "lab_screening_plus_university_admission",
+                "projectCycleVerified": true,
+                "individualRecruitmentVerified": false,
+                "cycle2027FallReference": true
+              }
+            ],
+            "eligibility": "pending",
+            "eligibilityMeaning": "导师公开身份和2027 PALM招收名单保留；个人具体学位关联、招生名额和资助仍待核。",
+            "defaultVisible": true,
+            "opening": "unknown",
+            "openingSummary": "PALM 2027项目参考；个人2028 Fall名额待确认",
+            "openings": {
+              "msc": "未核实公开声明",
+              "mphil": "未核实公开声明",
+              "phd": "PALM 2027博士/直博项目参考；个人当期名额和资助待核",
+              "ra": "未核实公开岗位",
+              "cycle2027": "2026 Fall项目/导师方向参考；个人招生名额待核",
+              "cycle2028": "个人 2028 Fall 招生名额未核实"
+            },
+            "openingDetails": [
+              {
+                "degree": "PhD",
+                "status": "unknown",
+                "summary": "已保留博士项目或导师方向参考；个人2027/2028招生与名额未核实",
+                "cycle2027FallVerified": false,
+                "cycle2027FallReference": true,
+                "cycle2028FallVerified": false,
+                "cycle": "2027 Fall PALM项目/导师方向参考；个人2028 Fall招生未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "program_reference_only",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "导师官方主页",
+                    "url": "https://cs.seu.edu.cn/fenglei/main.htm",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "东南大学PALM实验室2027年拟招生导师名单",
+                    "url": "https://palm.seu.edu.cn/application.html",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                    "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                    "checkedDate": "2026-10-05"
+                  }
+                ],
+                "checkedDate": "2026-10-05",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": true,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false,
+                "associationVerificationStatus": "pending",
+                "sourceCycle": "2027",
+                "admissionMode": "lab_screening_plus_university_admission"
+              }
+            ],
+            "fall2027OpeningVerified": false,
+            "fall2028OpeningVerified": false,
+            "newPi": {
+              "verified": false,
+              "window": "calendar-year-2026",
+              "date": null,
+              "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+              "sources": [],
+              "dateEvidenceVerified": false
+            },
+            "appointment": {
+              "new_pi_2026_verified": false,
+              "date": null,
+              "note": "未核实 2026 新入职证据"
+            },
+            "sources": [
+              {
+                "label": "导师官方主页",
+                "url": "https://cs.seu.edu.cn/fenglei/main.htm",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "东南大学PALM实验室2027年拟招生导师名单",
+                "url": "https://palm.seu.edu.cn/application.html",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                "checkedDate": "2026-10-05"
+              }
+            ],
+            "caveats": [
+              "PALM实验室公开接受文字不等于东南大学正式录取或个人剩余名额。",
+              "报名截止时间、具体导师分配和资助金额仍需按当轮邮件及学校系统确认。"
+            ],
+            "checkedDate": "2026-10-05",
+            "sourceFile": "seu-advisor-review-20261005.json",
+            "sourceRecord": {
+              "id": "seu-feng-lei",
+              "name": "Lei Feng",
+              "nameZh": "冯磊",
+              "institution": "SEU",
+              "department": "计算机科学与工程学院 / PALM",
+              "position": "青年首席教授 / 博士生导师",
+              "topics": [
+                "大模型智能体、人工智能安全、科学智能"
+              ],
+              "summary": "大模型智能体、人工智能安全、科学智能",
+              "profileUrl": "https://cs.seu.edu.cn/fenglei/main.htm",
+              "routeIds": [
+                "seu-palm-phd-reference-2027"
+              ],
+              "routeAssociations": [
+                {
+                  "routeId": "seu-palm-phd-reference-2027",
+                  "degree": "PhD",
+                  "status": "reference",
+                  "verificationStatus": "pending",
+                  "summary": "PALM官方2027拟招生导师名单列出该导师及研究方向；实验室考查和学校正式考核边界保留，个人2027/2028余位未核实。",
+                  "sources": [
+                    {
+                      "label": "导师官方主页",
+                      "url": "https://cs.seu.edu.cn/fenglei/main.htm",
+                      "checkedDate": "2026-10-05"
+                    },
+                    {
+                      "label": "东南大学PALM实验室2027年拟招生导师名单",
+                      "url": "https://palm.seu.edu.cn/application.html",
+                      "checkedDate": "2026-10-05"
+                    },
+                    {
+                      "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                      "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                      "checkedDate": "2026-10-05"
+                    }
+                  ],
+                  "checkedDate": "2026-10-05",
+                  "scope": "program_reference_only",
+                  "note": "导师身份与研究方向不等于个人招生名额。",
+                  "sourceCycle": "2027",
+                  "admissionMode": "lab_screening_plus_university_admission",
+                  "projectCycleVerified": true,
+                  "individualRecruitmentVerified": false,
+                  "cycle2027FallReference": true
+                }
+              ],
+              "eligibility": "pending",
+              "eligibilityMeaning": "导师公开身份和2027 PALM招收名单保留；个人具体学位关联、招生名额和资助仍待核。",
+              "defaultVisible": true,
+              "opening": "unknown",
+              "openingSummary": "PALM 2027项目参考；个人2028 Fall名额待确认",
+              "openings": {
+                "msc": "未核实公开声明",
+                "mphil": "未核实公开声明",
+                "phd": "PALM 2027博士/直博项目参考；个人当期名额和资助待核",
+                "ra": "未核实公开岗位",
+                "cycle2027": "2026 Fall项目/导师方向参考；个人招生名额待核",
+                "cycle2028": "个人 2028 Fall 招生名额未核实"
+              },
+              "openingDetails": [
+                {
+                  "degree": "PhD",
+                  "status": "unknown",
+                  "summary": "已保留博士项目或导师方向参考；个人2027/2028招生与名额未核实",
+                  "cycle2027FallVerified": false,
+                  "cycle2027FallReference": true,
+                  "cycle2028FallVerified": false,
+                  "cycle": "2027 Fall PALM项目/导师方向参考；个人2028 Fall招生未核实",
+                  "degreeRouteAssociated": false,
+                  "sourceStatus": "program_reference_only",
+                  "noticeDate": null,
+                  "sources": [
+                    {
+                      "label": "导师官方主页",
+                      "url": "https://cs.seu.edu.cn/fenglei/main.htm",
+                      "checkedDate": "2026-10-05"
+                    },
+                    {
+                      "label": "东南大学PALM实验室2027年拟招生导师名单",
+                      "url": "https://palm.seu.edu.cn/application.html",
+                      "checkedDate": "2026-10-05"
+                    },
+                    {
+                      "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                      "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                      "checkedDate": "2026-10-05"
+                    }
+                  ],
+                  "checkedDate": "2026-10-05",
+                  "individualRecruitmentVerified": false,
+                  "projectCycleVerified": true,
+                  "confirmedVacancy": false,
+                  "remainingHeadcountVerified": false,
+                  "associationVerificationStatus": "pending",
+                  "sourceCycle": "2027",
+                  "admissionMode": "lab_screening_plus_university_admission"
+                }
+              ],
+              "fall2027OpeningVerified": false,
+              "fall2028OpeningVerified": false,
+              "newPi": {
+                "verified": false,
+                "window": "calendar-year-2026",
+                "date": null,
+                "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+                "sources": [],
+                "dateEvidenceVerified": false
+              },
+              "appointment": {
+                "new_pi_2026_verified": false,
+                "date": null,
+                "note": "未核实 2026 新入职证据"
+              },
+              "sources": [
+                {
+                  "label": "导师官方主页",
+                  "url": "https://cs.seu.edu.cn/fenglei/main.htm",
+                  "checkedDate": "2026-10-05"
+                },
+                {
+                  "label": "东南大学PALM实验室2027年拟招生导师名单",
+                  "url": "https://palm.seu.edu.cn/application.html",
+                  "checkedDate": "2026-10-05"
+                },
+                {
+                  "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                  "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                  "checkedDate": "2026-10-05"
+                }
+              ],
+              "caveats": [
+                "PALM实验室公开接受文字不等于东南大学正式录取或个人剩余名额。",
+                "报名截止时间、具体导师分配和资助金额仍需按当轮邮件及学校系统确认。"
+              ],
+              "checkedDate": "2026-10-05",
+              "sourceFile": "seu-advisor-review-20261005.json",
+              "cycle2027FallReference": true,
+              "cycle2027FallVerified": false,
+              "cycle2028FallVerified": false
+            },
+            "cycle2027FallReference": true,
+            "cycle2027FallVerified": false,
+            "cycle2028FallVerified": false
+          }
+        },
+        {
+          "path": [
+            "advisors",
+            90
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "seu-zhang-yu",
+            "name": "Yu Zhang",
+            "nameZh": "张宇",
+            "institution": "SEU",
+            "department": "计算机科学与工程学院 / PALM",
+            "position": "副教授 / 博士生导师",
+            "topics": [
+              "计算机视觉、机器学习、3D姿态与视频分析"
+            ],
+            "summary": "计算机视觉、机器学习、3D姿态与视频分析",
+            "profileUrl": "https://cs.seu.edu.cn/2019/0105/c23024a257571/page.psp",
+            "routeIds": [
+              "seu-palm-phd-reference-2027"
+            ],
+            "routeAssociations": [
+              {
+                "routeId": "seu-palm-phd-reference-2027",
+                "degree": "PhD",
+                "status": "reference",
+                "verificationStatus": "pending",
+                "summary": "PALM官方2027拟招生导师名单列出该导师及研究方向；实验室考查和学校正式考核边界保留，个人2027/2028余位未核实。",
+                "sources": [
+                  {
+                    "label": "导师官方主页",
+                    "url": "https://cs.seu.edu.cn/2019/0105/c23024a257571/page.psp",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "东南大学PALM实验室2027年拟招生导师名单",
+                    "url": "https://palm.seu.edu.cn/application.html",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                    "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                    "checkedDate": "2026-10-05"
+                  }
+                ],
+                "checkedDate": "2026-10-05",
+                "scope": "program_reference_only",
+                "note": "导师身份与研究方向不等于个人招生名额。",
+                "sourceCycle": "2027",
+                "admissionMode": "lab_screening_plus_university_admission",
+                "projectCycleVerified": true,
+                "individualRecruitmentVerified": false,
+                "cycle2027FallReference": true
+              }
+            ],
+            "eligibility": "pending",
+            "eligibilityMeaning": "导师公开身份和2027 PALM招收名单保留；个人具体学位关联、招生名额和资助仍待核。",
+            "defaultVisible": true,
+            "opening": "unknown",
+            "openingSummary": "PALM 2027项目参考；个人2028 Fall名额待确认",
+            "openings": {
+              "msc": "未核实公开声明",
+              "mphil": "未核实公开声明",
+              "phd": "PALM 2027博士/直博项目参考；个人当期名额和资助待核",
+              "ra": "未核实公开岗位",
+              "cycle2027": "2026 Fall项目/导师方向参考；个人招生名额待核",
+              "cycle2028": "个人 2028 Fall 招生名额未核实"
+            },
+            "openingDetails": [
+              {
+                "degree": "PhD",
+                "status": "unknown",
+                "summary": "已保留博士项目或导师方向参考；个人2027/2028招生与名额未核实",
+                "cycle2027FallVerified": false,
+                "cycle2027FallReference": true,
+                "cycle2028FallVerified": false,
+                "cycle": "2027 Fall PALM项目/导师方向参考；个人2028 Fall招生未核实",
+                "degreeRouteAssociated": false,
+                "sourceStatus": "program_reference_only",
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "导师官方主页",
+                    "url": "https://cs.seu.edu.cn/2019/0105/c23024a257571/page.psp",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "东南大学PALM实验室2027年拟招生导师名单",
+                    "url": "https://palm.seu.edu.cn/application.html",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                    "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                    "checkedDate": "2026-10-05"
+                  }
+                ],
+                "checkedDate": "2026-10-05",
+                "individualRecruitmentVerified": false,
+                "projectCycleVerified": true,
+                "confirmedVacancy": false,
+                "remainingHeadcountVerified": false,
+                "associationVerificationStatus": "pending",
+                "sourceCycle": "2027",
+                "admissionMode": "lab_screening_plus_university_admission"
+              }
+            ],
+            "fall2027OpeningVerified": false,
+            "fall2028OpeningVerified": false,
+            "newPi": {
+              "verified": false,
+              "window": "calendar-year-2026",
+              "date": null,
+              "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+              "sources": [],
+              "dateEvidenceVerified": false
+            },
+            "appointment": {
+              "new_pi_2026_verified": false,
+              "date": null,
+              "note": "未核实 2026 新入职证据"
+            },
+            "sources": [
+              {
+                "label": "导师官方主页",
+                "url": "https://cs.seu.edu.cn/2019/0105/c23024a257571/page.psp",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "东南大学PALM实验室2027年拟招生导师名单",
+                "url": "https://palm.seu.edu.cn/application.html",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                "checkedDate": "2026-10-05"
+              }
+            ],
+            "caveats": [
+              "PALM实验室公开接受文字不等于东南大学正式录取或个人剩余名额。",
+              "报名截止时间、具体导师分配和资助金额仍需按当轮邮件及学校系统确认。"
+            ],
+            "checkedDate": "2026-10-05",
+            "sourceFile": "seu-advisor-review-20261005.json",
+            "sourceRecord": {
+              "id": "seu-zhang-yu",
+              "name": "Yu Zhang",
+              "nameZh": "张宇",
+              "institution": "SEU",
+              "department": "计算机科学与工程学院 / PALM",
+              "position": "副教授 / 博士生导师",
+              "topics": [
+                "计算机视觉、机器学习、3D姿态与视频分析"
+              ],
+              "summary": "计算机视觉、机器学习、3D姿态与视频分析",
+              "profileUrl": "https://cs.seu.edu.cn/2019/0105/c23024a257571/page.psp",
+              "routeIds": [
+                "seu-palm-phd-reference-2027"
+              ],
+              "routeAssociations": [
+                {
+                  "routeId": "seu-palm-phd-reference-2027",
+                  "degree": "PhD",
+                  "status": "reference",
+                  "verificationStatus": "pending",
+                  "summary": "PALM官方2027拟招生导师名单列出该导师及研究方向；实验室考查和学校正式考核边界保留，个人2027/2028余位未核实。",
+                  "sources": [
+                    {
+                      "label": "导师官方主页",
+                      "url": "https://cs.seu.edu.cn/2019/0105/c23024a257571/page.psp",
+                      "checkedDate": "2026-10-05"
+                    },
+                    {
+                      "label": "东南大学PALM实验室2027年拟招生导师名单",
+                      "url": "https://palm.seu.edu.cn/application.html",
+                      "checkedDate": "2026-10-05"
+                    },
+                    {
+                      "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                      "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                      "checkedDate": "2026-10-05"
+                    }
+                  ],
+                  "checkedDate": "2026-10-05",
+                  "scope": "program_reference_only",
+                  "note": "导师身份与研究方向不等于个人招生名额。",
+                  "sourceCycle": "2027",
+                  "admissionMode": "lab_screening_plus_university_admission",
+                  "projectCycleVerified": true,
+                  "individualRecruitmentVerified": false,
+                  "cycle2027FallReference": true
+                }
+              ],
+              "eligibility": "pending",
+              "eligibilityMeaning": "导师公开身份和2027 PALM招收名单保留；个人具体学位关联、招生名额和资助仍待核。",
+              "defaultVisible": true,
+              "opening": "unknown",
+              "openingSummary": "PALM 2027项目参考；个人2028 Fall名额待确认",
+              "openings": {
+                "msc": "未核实公开声明",
+                "mphil": "未核实公开声明",
+                "phd": "PALM 2027博士/直博项目参考；个人当期名额和资助待核",
+                "ra": "未核实公开岗位",
+                "cycle2027": "2026 Fall项目/导师方向参考；个人招生名额待核",
+                "cycle2028": "个人 2028 Fall 招生名额未核实"
+              },
+              "openingDetails": [
+                {
+                  "degree": "PhD",
+                  "status": "unknown",
+                  "summary": "已保留博士项目或导师方向参考；个人2027/2028招生与名额未核实",
+                  "cycle2027FallVerified": false,
+                  "cycle2027FallReference": true,
+                  "cycle2028FallVerified": false,
+                  "cycle": "2027 Fall PALM项目/导师方向参考；个人2028 Fall招生未核实",
+                  "degreeRouteAssociated": false,
+                  "sourceStatus": "program_reference_only",
+                  "noticeDate": null,
+                  "sources": [
+                    {
+                      "label": "导师官方主页",
+                      "url": "https://cs.seu.edu.cn/2019/0105/c23024a257571/page.psp",
+                      "checkedDate": "2026-10-05"
+                    },
+                    {
+                      "label": "东南大学PALM实验室2027年拟招生导师名单",
+                      "url": "https://palm.seu.edu.cn/application.html",
+                      "checkedDate": "2026-10-05"
+                    },
+                    {
+                      "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                      "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                      "checkedDate": "2026-10-05"
+                    }
+                  ],
+                  "checkedDate": "2026-10-05",
+                  "individualRecruitmentVerified": false,
+                  "projectCycleVerified": true,
+                  "confirmedVacancy": false,
+                  "remainingHeadcountVerified": false,
+                  "associationVerificationStatus": "pending",
+                  "sourceCycle": "2027",
+                  "admissionMode": "lab_screening_plus_university_admission"
+                }
+              ],
+              "fall2027OpeningVerified": false,
+              "fall2028OpeningVerified": false,
+              "newPi": {
+                "verified": false,
+                "window": "calendar-year-2026",
+                "date": null,
+                "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+                "sources": [],
+                "dateEvidenceVerified": false
+              },
+              "appointment": {
+                "new_pi_2026_verified": false,
+                "date": null,
+                "note": "未核实 2026 新入职证据"
+              },
+              "sources": [
+                {
+                  "label": "导师官方主页",
+                  "url": "https://cs.seu.edu.cn/2019/0105/c23024a257571/page.psp",
+                  "checkedDate": "2026-10-05"
+                },
+                {
+                  "label": "东南大学PALM实验室2027年拟招生导师名单",
+                  "url": "https://palm.seu.edu.cn/application.html",
+                  "checkedDate": "2026-10-05"
+                },
+                {
+                  "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                  "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                  "checkedDate": "2026-10-05"
+                }
+              ],
+              "caveats": [
+                "PALM实验室公开接受文字不等于东南大学正式录取或个人剩余名额。",
+                "报名截止时间、具体导师分配和资助金额仍需按当轮邮件及学校系统确认。"
+              ],
+              "checkedDate": "2026-10-05",
+              "sourceFile": "seu-advisor-review-20261005.json",
+              "cycle2027FallReference": true,
+              "cycle2027FallVerified": false,
+              "cycle2028FallVerified": false
+            },
+            "cycle2027FallReference": true,
+            "cycle2027FallVerified": false,
+            "cycle2028FallVerified": false
+          }
+        },
+        {
+          "path": [
+            "routes",
+            45,
+            "requirements",
+            0
+          ],
+          "beforeMissing": true,
+          "after": {
+            "kind": "academic",
+            "text": "申请推免直博须预计取得所在学校推荐免试资格，最终以教育部推免服务系统备案为准。",
+            "sources": [
+              {
+                "label": "浙江大学人工智能学院2027年招收推免生综合考核实施细则",
+                "url": "https://ai.zju.edu.cn/2026/0914/c90347a320259/page.psp",
+                "checkedDate": "2026-10-05"
+              }
+            ]
+          }
+        },
+        {
+          "path": [
+            "routes",
+            45,
+            "requirements",
+            1
+          ],
+          "beforeMissing": true,
+          "after": {
+            "kind": "language",
+            "text": "申请直接攻读博士须满足英语门槛：大学英语六级460及以上、WSK/PETS 5、英语专业八级、雅思5.5或新托福80；具体有效期按细则执行。",
+            "sources": [
+              {
+                "label": "浙江大学人工智能学院2027年招收推免生综合考核实施细则",
+                "url": "https://ai.zju.edu.cn/2026/0914/c90347a320259/page.psp",
+                "checkedDate": "2026-10-05"
+              }
+            ]
+          }
+        },
+        {
+          "path": [
+            "routes",
+            45,
+            "requirements",
+            2
+          ],
+          "beforeMissing": true,
+          "after": {
+            "kind": "references",
+            "text": "申请直博须提交至少两位报考学科专业领域副教授及以上专家推荐书。",
+            "sources": [
+              {
+                "label": "浙江大学人工智能学院2027年招收推免生综合考核实施细则",
+                "url": "https://ai.zju.edu.cn/2026/0914/c90347a320259/page.psp",
+                "checkedDate": "2026-10-05"
+              }
+            ]
+          }
+        },
+        {
+          "path": [
+            "routes",
+            45,
+            "requirements",
+            3
+          ],
+          "beforeMissing": true,
+          "after": {
+            "kind": "deadline",
+            "text": "2027级推免申请系统开放时间为2026年8月10日9:00至9月10日24:00；复试安排在2026年9月17日至19日。",
+            "sources": [
+              {
+                "label": "浙江大学人工智能学院关于接收2027级推荐免试研究生工作安排",
+                "url": "https://ai.zju.edu.cn/2026/0810/c90497a3194262/page.htm",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "浙江大学人工智能学院2027年推荐免试研究生招生复试公告",
+                "url": "https://ai.zju.edu.cn/2026/0914/c90347a3202664/page.psp",
+                "checkedDate": "2026-10-05"
+              }
+            ]
+          }
+        },
+        {
+          "path": [
+            "routes",
+            45,
+            "cycleReview"
+          ],
+          "beforeMissing": true,
+          "after": {
+            "checkedDate": "2026-10-05",
+            "reason": "2027级推免直博的专业代码、英语门槛、专家推荐书、网申时间和复试时间已有学院正式细则；招生计划仍以学校专业目录和实际录取为准，不能推出某位导师的个人余位或2028 Fall名额。",
+            "sources": [
+              {
+                "label": "浙江大学人工智能学院2027年招收推免生综合考核实施细则",
+                "url": "https://ai.zju.edu.cn/2026/0914/c90347a320259/page.psp",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "浙江大学人工智能学院2027年推荐免试研究生招生复试公告",
+                "url": "https://ai.zju.edu.cn/2026/0914/c90347a3202664/page.psp",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "浙江大学人工智能学院导师资格目录（持续更新）",
+                "url": "https://ai.zju.edu.cn/zstz/list1.htm",
+                "checkedDate": "2026-10-05"
+              }
+            ]
+          }
+        },
+        {
+          "path": [
+            "routes",
+            46,
+            "cycleReview"
+          ],
+          "beforeMissing": true,
+          "after": {
+            "checkedDate": "2026-10-05",
+            "reason": "复旦未来信息创新学院官网已连续发布2027推免、工程硕博士培养改革专项和第二轮复试信息，说明2027招生流程正在运行；这些页面没有给出本目录四位导师的个人博士余位，也不能替代2028 Fall导师招募证据。",
+            "sources": [
+              {
+                "label": "复旦大学未来信息创新学院招生信息（2027批次）",
+                "url": "https://fit.fudan.edu.cn/Data/List/zsxx1",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "复旦大学2027年工程硕博士培养改革专项推免招生第二轮复试名单",
+                "url": "https://fit.fudan.edu.cn/Data/View/7025",
+                "checkedDate": "2026-10-05"
+              }
+            ]
+          }
+        },
+        {
+          "path": [
+            "routes",
+            47,
+            "cycleReview"
+          ],
+          "beforeMissing": true,
+          "after": {
+            "checkedDate": "2026-10-05",
+            "reason": "上海交通大学研究生招生网已更新2027博士专项通知入口，但当前公开页面未检索到自动化与感知学院三位导师的2027个人博士名额；继续保留2026博士目录和陈卫东招生公告作为上一轮参考。",
+            "sources": [
+              {
+                "label": "上海交通大学博士生招生简章入口（含2027专项通知）",
+                "url": "https://yzb.sjtu.edu.cn/zsjz/bsszs?c=202",
+                "checkedDate": "2026-10-05"
+              }
+            ]
+          }
+        },
+        {
+          "path": [
+            "routes",
+            50,
+            "cycleReview"
+          ],
+          "beforeMissing": true,
+          "after": {
+            "checkedDate": "2026-10-05",
+            "reason": "同济机械工程与机器人学院已发布2027接收推免生（含直接攻博）预报名与复试办法；徐阳个人页面另明确招收2027年入学硕博。当前四位导师的具体2027名额仍未逐人确认。",
+            "sources": [
+              {
+                "label": "同济大学机械工程与机器人学院2027年接收推免生（含直接攻博）办法",
+                "url": "https://mefaculty.tongji.edu.cn/info/1023/5599.htm",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "徐阳导师主页（明确招收2027年入学硕博）",
+                "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+                "checkedDate": "2026-10-05"
+              }
+            ]
+          }
+        },
+        {
+          "path": [
+            "routes",
+            52
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "nju-lamda-phd-reference-2027",
+            "institution": "NJU",
+            "department": "人工智能学院 / LAMDA",
+            "program": "南京大学 LAMDA 2027年秋季博士/直博招生参考",
+            "degree": "PhD",
+            "bachelorEligible": false,
+            "noTuimianRequired": false,
+            "noMasterRequired": false,
+            "status": "reference",
+            "eligibilitySummary": "LAMDA 2027说明列出博士生和直博生拟招生导师，实验室考查通过后仍须取得南京大学人工智能学院正式入学资格；个人导师名额与2028 Fall未核实。",
+            "supervisorAssociation": "该路线仅把LAMDA公开拟招生名单与博士项目连接为参考；最终导师安排在考查通过后双选确定，不计作已核实个人学位关联。",
+            "admissionYear": "2027 Fall LAMDA项目参考；个人2028 Fall名额未核实",
+            "cycle2027Verified": true,
+            "projectCycleVerified": true,
+            "individualRecruitmentVerified": false,
+            "currentCycleVerificationStatus": "verified",
+            "sourceCycle": "2027",
+            "sourceCycles": [
+              "2027"
+            ],
+            "admissionMode": "lab_screening_plus_university_admission",
+            "evidenceScope": "program_and_direction_reference",
+            "applicationStatus": "expired_reference",
+            "applicationMethod": "先按LAMDA材料系统提交并参加实验室考查，再按南京大学人工智能学院推免或考研流程取得正式入学资格。",
+            "sources": [
+              {
+                "label": "南京大学LAMDA 2027年秋季入学研究生招收说明",
+                "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
+                "checkedDate": "2026-10-05"
+              }
+            ],
+            "notes": [
+              "2027年材料提交截止为2026年7月31日，面谈通知时间为2026年8月5日。",
+              "需填报三位导师志愿；LAMDA同意招收不等于南京大学正式录取。",
+              "页面未给出任何导师2028 Fall个人余位。"
+            ],
+            "requirements": [
+              {
+                "kind": "deadline",
+                "text": "申请材料提交截止时间：2026年7月31日；面谈通知时间：2026年8月5日。",
+                "sources": [
+                  {
+                    "label": "南京大学LAMDA 2027年秋季入学研究生招收说明",
+                    "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
+                    "checkedDate": "2026-10-05"
+                  }
+                ]
+              },
+              {
+                "kind": "researchProposal",
+                "text": "材料包括普通生活照简历、本科成绩单（直博/硕士）、一页研究动机说明及其他有助于了解申请人的材料。",
+                "sources": [
+                  {
+                    "label": "南京大学LAMDA 2027年秋季入学研究生招收说明",
+                    "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
+                    "checkedDate": "2026-10-05"
+                  }
+                ]
+              },
+              {
+                "kind": "references",
+                "text": "报名系统要求填报三位导师志愿，并选择是否服从调配。",
+                "sources": [
+                  {
+                    "label": "南京大学LAMDA 2027年秋季入学研究生招收说明",
+                    "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
+                    "checkedDate": "2026-10-05"
+                  }
+                ]
+              },
+              {
+                "kind": "academic",
+                "text": "LAMDA同意招收后仍须通过南京大学人工智能学院正常推免或考研入学资格审核。",
+                "sources": [
+                  {
+                    "label": "南京大学LAMDA 2027年秋季入学研究生招收说明",
+                    "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
+                    "checkedDate": "2026-10-05"
+                  }
+                ]
+              }
+            ],
+            "checkedDate": "2026-10-05",
+            "defaultVisible": false,
+            "cycleReview": {
+              "checkedDate": "2026-10-05",
+              "reason": "LAMDA 2027页面明确列出博士生、直博生拟招生导师、提交日期、材料和三位导师志愿规则，同时明确实验室同意不等于学校录取。",
+              "sources": [
+                {
+                  "label": "南京大学LAMDA 2027年秋季入学研究生招收说明",
+                  "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
+                  "checkedDate": "2026-10-05"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "path": [
+            "routes",
+            53
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "ustc-tong-plan-phd-reference-2027",
+            "institution": "USTC",
+            "department": "信息与智能学部 / 北京通用人工智能研究院",
+            "program": "中国科大—北京通用人工智能研究院“通计划”联合培养博士专项（2027）",
+            "degree": "PhD",
+            "bachelorEligible": false,
+            "noTuimianRequired": false,
+            "noMasterRequired": false,
+            "status": "reference",
+            "eligibilitySummary": "2027通计划为中国科大与北京通用人工智能研究院联合培养的学术学位博士专项；拟招5名，全日制，主要通过推免直博，生源不足时可酌情硕博连读。个人导师确认和最终名额以正式系统为准。",
+            "supervisorAssociation": "通计划采用中国科大校内导师与通研院导师双导师制；校内导师、通研院导师及论文方向需双方认可，不代表单独锁定某一位导师。",
+            "admissionYear": "2027 Fall专项参考；个人2028 Fall名额未核实",
+            "cycle2027Verified": true,
+            "projectCycleVerified": true,
+            "individualRecruitmentVerified": false,
+            "currentCycleVerificationStatus": "verified",
+            "sourceCycle": "2027",
+            "sourceCycles": [
+              "2027"
+            ],
+            "admissionMode": "recommendation_exemption_direct_phd_or_master_to_phd",
+            "evidenceScope": "program_and_direction_reference",
+            "applicationStatus": "expired_reference",
+            "applicationMethod": "推免直博须在中国科大研究生报考服务系统预报名；硕博连读按学校博士报名通告办理，并先与双方导师沟通。",
+            "sources": [
+              {
+                "label": "中国科大—北京通用人工智能研究院2027年通计划博士招生简章",
+                "url": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+                "checkedDate": "2026-10-05"
+              }
+            ],
+            "notes": [
+              "专项计划拟招5人，名额以教育部最终下达为准。",
+              "直博基本学制5—6年，硕转博基本学制3—4年；学籍在中国科大。",
+              "2026年9月15日18:00为推免预报名截止；页面未给出2028 Fall个人名额。"
+            ],
+            "requirements": [
+              {
+                "kind": "academic",
+                "text": "主要通过推荐免试方式招生；如直博生源不足，相关学院可酌情通过硕博连读方式招生。",
+                "sources": [
+                  {
+                    "label": "中国科大—北京通用人工智能研究院2027年通计划博士招生简章",
+                    "url": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+                    "checkedDate": "2026-10-05"
+                  }
+                ]
+              },
+              {
+                "kind": "deadline",
+                "text": "推免直博考生须于2026年9月15日18:00前在中国科大系统完成预报名。",
+                "sources": [
+                  {
+                    "label": "中国科大—北京通用人工智能研究院2027年通计划博士招生简章",
+                    "url": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+                    "checkedDate": "2026-10-05"
+                  }
+                ]
+              },
+              {
+                "kind": "academic",
+                "text": "全日制学术学位博士专项，拟招5人，采取中国科大校内导师与通研院导师双导师制。",
+                "sources": [
+                  {
+                    "label": "中国科大—北京通用人工智能研究院2027年通计划博士招生简章",
+                    "url": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+                    "checkedDate": "2026-10-05"
+                  }
+                ]
+              },
+              {
+                "kind": "researchOutputs",
+                "text": "学费标准为每年1万元；奖助学金按中国科大博士研究生奖助学金规定执行。",
+                "sources": [
+                  {
+                    "label": "中国科大—北京通用人工智能研究院2027年通计划博士招生简章",
+                    "url": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+                    "checkedDate": "2026-10-05"
+                  }
+                ]
+              }
+            ],
+            "checkedDate": "2026-10-05",
+            "defaultVisible": false,
+            "cycleReview": {
+              "checkedDate": "2026-10-05",
+              "reason": "2027通计划官方简章已给出专项人数、招生方式、培养年限、报名时间、双导师机制、学费及考核流程；它是独立专项，不能泛化为中国科大所有博士导师的招生名额。",
+              "sources": [
+                {
+                  "label": "中国科大—北京通用人工智能研究院2027年通计划博士招生简章",
+                  "url": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+                  "checkedDate": "2026-10-05"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "path": [
+            "routes",
+            54
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "seu-palm-phd-reference-2027",
+            "institution": "SEU",
+            "department": "计算机科学与工程学院 / 模式学习与挖掘（PALM）实验室",
+            "program": "东南大学PALM实验室2027年博士/直博招生参考",
+            "degree": "PhD",
+            "bachelorEligible": false,
+            "noTuimianRequired": false,
+            "noMasterRequired": false,
+            "status": "reference",
+            "eligibilitySummary": "PALM公开招收2027年入学博士及推免硕士，列出拟招生导师与方向；实验室面试通过后仍须通过东南大学计算机学院正式考核，实验室接受不等于学校录取。",
+            "supervisorAssociation": "PALM说明最终导师安排在实验室考查通过后双选确定；本路线只作为实验室招生入口参考，不计作已核实个人导师—项目关联。",
+            "admissionYear": "2027 Fall实验室博士/直博参考；个人2028 Fall名额未核实",
+            "cycle2027Verified": true,
+            "projectCycleVerified": true,
+            "individualRecruitmentVerified": false,
+            "currentCycleVerificationStatus": "verified",
+            "sourceCycle": "2027",
+            "sourceCycles": [
+              "2027"
+            ],
+            "admissionMode": "lab_screening_plus_university_admission",
+            "evidenceScope": "program_and_direction_reference",
+            "applicationStatus": "unknown",
+            "applicationMethod": "通过PALM报名系统或邮件联系，按实验室统一考查流程面试；之后仍需完成东南大学正式招生考核。",
+            "sources": [
+              {
+                "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "东南大学PALM实验室2027年拟招生导师名单",
+                "url": "https://palm.seu.edu.cn/application.html",
+                "checkedDate": "2026-10-05"
+              }
+            ],
+            "notes": [
+              "报名截止时间暂未公布，面试时间以邮件通知为准。",
+              "公开说明强调数学、英文读写和编程基础；这些是实验室偏好，不替代学校正式资格。",
+              "研究助研金文字不等于固定资助金额或2028 Fall名额。"
+            ],
+            "requirements": [
+              {
+                "kind": "deadline",
+                "text": "报名截止时间暂未公布，面试时间与安排以邮件通知为准。",
+                "sources": [
+                  {
+                    "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                    "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                    "checkedDate": "2026-10-05"
+                  }
+                ]
+              },
+              {
+                "kind": "academic",
+                "text": "所有申请者需经过PALM实验室面试；实验室接受后仍需通过东南大学计算机学院正式考核。",
+                "sources": [
+                  {
+                    "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                    "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                    "checkedDate": "2026-10-05"
+                  }
+                ]
+              },
+              {
+                "kind": "researchOutputs",
+                "text": "实验室公开偏好的申请基础包括扎实数学基础、熟练英文读写和编程能力。",
+                "sources": [
+                  {
+                    "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                    "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                    "checkedDate": "2026-10-05"
+                  }
+                ]
+              },
+              {
+                "kind": "references",
+                "text": "2027拟招生导师名单和研究方向见PALM招生页；最终导师安排在考查通过后双选。",
+                "sources": [
+                  {
+                    "label": "东南大学PALM实验室2027年拟招生导师名单",
+                    "url": "https://palm.seu.edu.cn/application.html",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                    "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                    "checkedDate": "2026-10-05"
+                  }
+                ]
+              }
+            ],
+            "checkedDate": "2026-10-05",
+            "defaultVisible": false,
+            "cycleReview": {
+              "checkedDate": "2026-10-05",
+              "reason": "PALM官方招生页明确发布2027博士/直博招生、实验室面试、学校正式考核边界及拟招生导师名单；报名截止仍待公布，不能升级为个人2028 Fall名额。",
+              "sources": [
+                {
+                  "label": "东南大学PALM实验室招收2027年入学博士及推免硕士研究生",
+                  "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+                  "checkedDate": "2026-10-05"
+                },
+                {
+                  "label": "东南大学PALM实验室2027年拟招生导师名单",
+                  "url": "https://palm.seu.edu.cn/application.html",
+                  "checkedDate": "2026-10-05"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "index.html": {
+      "beforeSha256": "b047d5bb0a67c72e423085ac50467a98cc5805109f1bb09bc21adcb3758b8776",
+      "afterSha256": "7e884441b97817fdfab8199785dd8c41a535712caf3959ee313ad09d0f0aabe9",
+      "beforeGitBlob": "d1d8e96636edcaac177bf9218bfd2d9bb2438d1e",
+      "afterGitBlob": "0cc69b1d2c190625748e610536a4586b4b9e2eba",
+      "kind": "text_fragments",
+      "operations": [
+        {
+          "before": "<link rel=\"stylesheet\" href=\"./assets/style.css?v=8bdf5b250a9e\">\n<script type=\"module\" src=\"./assets/app.js?v=d9cbee7993f5\"></script>\n</head>\n",
+          "after": "<link rel=\"stylesheet\" href=\"./assets/style.css?v=8bdf5b250a9e\">\n<script type=\"module\" src=\"./assets/app.js?v=a84fd8a5790f\"></script>\n</head>\n"
+        }
+      ]
+    }
+  }
+}

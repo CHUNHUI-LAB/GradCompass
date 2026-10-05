@@ -363,3 +363,10 @@ Independent official-source review confirms the six dated deadlines and the ET-v
 The complete pre-final suite passed 491/491 checks; four new checks cover current normalization/counts, preservation of all earlier arrays and people, six date/time/intake records, and exact hash-gated historical round trips with negative mutation controls. Final full-suite output, independent checks, manifest hashes and any later browser/publication result must be reported separately; no browser or remote-CI success is claimed here.
 
 Final pre-rebase-metadata and independent complete suites both passed 491/491, with zero failures or skips. The main-commit advance changes ancestry but no source bytes; current base metadata is updated, and final verification must use the resulting manifest. No remote write was performed.
+
+## 2026-10-05 · 03b16 regression preservation repair
+
+- Baseline: `03b16d35f50905ecfa9b800f34058aaf357104d5` (including multilingual evidence search). An exact Git-blob-verified copy ran 504 Node tests: 425 passed, 79 failed; no skips. Pages deployment success is not a Node test result.
+- Scope: test-only, whole-file hash-gated reversible history stage; restore release metadata preservation and missing explicit test/helper/fixture allowlist entries. Keep the prior immutable historical fixtures and independent Git blob expectations. Unknown changes, reordered arrays and partial reversions must pass through unchanged rather than being silently accepted.
+- All production assets, dataset bytes and the HTML entry are preserved from this baseline, including 91 advisors, 55 projects, 57 verified degree associations, 2 RA positions and the multilingual search additions. These record counts do not establish current recruitment or remaining capacity.
+- Freeze must preserve caller-owned metadata and browser evidence verbatim, refresh only derived counts and file hashes, validate the source manifest before application writes, and remain byte-idempotent. Source tests and deployed artifact checks are recorded separately from browser acceptance.
