@@ -37,7 +37,7 @@
 - PolyU AAE 的 MPhil 二等荣誉学士与四年制 PhD 一等荣誉学士入口分开；2027 春夏批次不代表 2027 秋季。Intelligent Robotics Engineering 仍为授课型 MSc
 - CityU DS 明确不受理 MPhil；2026/27 链接课程目录与 2027/28 招生分开，普通轮截止及原有来源冲突保持待确认
 
-完整 Node / DOM-contract 检查 207 项通过，无失败或跳过。本轮三套 Chromium 检查均在首个断言前遇到 socket 权限错误；未取得新的桌面、移动端或视觉验收。完整准备检查记录见 QA.md；实际部署状态须另查对应提交的 GitHub Pages 记录。
+完整 Node / DOM-contract 检查 148 项通过，无失败或跳过。此前误写为 207 项，现按 QA.md 中本批次的原始记录更正；这不是当前版本的测试总数。本轮三套 Chromium 检查均在首个断言前遇到 socket 权限错误；未取得新的桌面、移动端或视觉验收。完整准备检查记录见 QA.md；实际部署状态须另查对应提交的 GitHub Pages 记录。
 
 ## 按要做的事浏览
 

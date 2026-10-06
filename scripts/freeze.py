@@ -74,7 +74,7 @@ def collect_sources(value):
 collect_sources(json.loads((root/'data/advisor-profiles.json').read_text())['profiles'][30:])
 manifest['newProfileCitedSourceCount']=len(profile_sources)
 manifest.update(json.loads(subprocess.check_output(['node','scripts/public-counts.mjs'],cwd=root,text=True)))
-manifest['revision']='four-schools-exploration-20261006'
+# The reviewed revision is caller-owned metadata, not a derived content counter.
 manifest['allowedFiles']=[]
 for name in sorted(set(files)):
     p=root/name

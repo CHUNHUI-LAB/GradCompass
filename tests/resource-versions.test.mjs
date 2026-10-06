@@ -42,6 +42,19 @@ test('README historical counts cite original commits and retain an explicit corr
  const correction=section('2026-10-04 历史统计更正');assert(correction.includes('51 条原始导师／49 位可见／67 条机会'));assert(correction.includes('49 位可见／67 条机会／29 个项目／15 组材料'));assert(correction.includes('历史数字不代表当前可申请资格或个人名额'));
 });
 
+test('README programme-introduction history matches its dated QA count with an explicit correction trail',()=>{
+ const readme=fs.readFileSync(new URL('README.md',root),'utf8');
+ const qa=fs.readFileSync(new URL('QA.md',root),'utf8').split('## Retained prior QA records')[0];
+ const section=readme.split('## 2026-10-02 项目简介补齐\n')[1]?.split('\n## ')[0];
+ assert(section);
+ assert(qa.includes('c3a2fe200fe03ea0d32eb6d6d1e581d0a44bf8b5'));
+ const historicalCount=Number(qa.match(/Full `npm test`: (\d+) passed/)?.[1]);
+ assert.equal(historicalCount,148,'dated QA retains its original 137 checks plus eleven additions');
+ assert.equal(Number(section.match(/检查 (\d+) 项通过/)?.[1]),historicalCount);
+ assert(section.includes('此前误写为 207 项'));
+ assert(section.includes('QA.md'));
+});
+
 test('README public navigation overview matches current counts without implying complete coverage',()=>{
  const readme=fs.readFileSync(new URL('README.md',root),'utf8');
  const overview=readme.split('## 按要做的事浏览\n')[1]?.split('\n## ')[0];

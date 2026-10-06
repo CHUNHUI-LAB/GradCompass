@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 47803,
-      "sha256": "ac1fdbfb211a36da01c4837dad4710f43cb53f7342cce3c458196fb74ada6362"
+      "bytes": 47917,
+      "sha256": "d13983c5f77c03f3024ae4fc9d9542c09637bd6cc5de19dadb500c26341306c3"
     },
     {
       "path": "REPO-MAP.md",
@@ -242,8 +242,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 10102,
-      "sha256": "d6d1d131fa93f65bf495d9a21936eebc0b41cf75b49b1e587aee8a1d7942a106"
+      "bytes": 10126,
+      "sha256": "e818ff0b793ab84fc30b2dc338f223c8264dea5095d6781129870289ececb8ab"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -497,8 +497,8 @@
     },
     {
       "path": "tests/freeze-preservation.test.mjs",
-      "bytes": 5623,
-      "sha256": "c33582f565aff61d005683f89f390c161c7bd4bed5c08d348db26344e3dfd5e3"
+      "bytes": 5683,
+      "sha256": "ec4545e79bc7d106c70effbb4015dfd814314df588bb905e83a3b1e482239322"
     },
     {
       "path": "tests/historical-source-baseline.mjs",
@@ -702,8 +702,8 @@
     },
     {
       "path": "tests/resource-versions.test.mjs",
-      "bytes": 8159,
-      "sha256": "ef1829564182e8d442a5a6958cb5f4d37b4613a93c19e7d75e747695b176a6d8"
+      "bytes": 8967,
+      "sha256": "d106fad194f8b9019b453509681e9ada198c6f438d3c00bfe7eb9192c2bb824a"
     },
     {
       "path": "tests/robotics-expansion-baseline.mjs",
