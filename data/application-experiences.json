@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-04",
+  "checkedAt": "2026-10-06",
   "scope": "历史亲历与准备方法，独立于官方招生、导师与机会库",
   "records": [
     {
@@ -807,6 +807,37 @@
       "bachelorApplicability": "直接相关于本科直博准备，尤其适合科研方向匹配、套磁沟通、实习排期和阶段状态识别；不是当前西湖招生制度、资格要求或成功概率的依据。",
       "evidenceType": "first_person_self_report",
       "checkedAt": "2026-10-04",
+      "rulesImpact": "none"
+    },
+    {
+      "id": "grad-heu-sunbohan-research-selection-2026",
+      "title": "机器人工程本科科研准备：把入营、组内意向和最终去向分开",
+      "url": "https://heu4-baoyan.github.io/heu4-baoyan/baoyan/CompSci/2026/cases/bohansun/",
+      "platform": "HEU 4系保研手册",
+      "author": "孙博涵（页面署名）",
+      "publishedAt": null,
+      "applicableCycle": "2026届本科升学；具体发布日期未注明",
+      "authorContext": "自述哈尔滨工程大学机器人工程本科，经历持续科研实习和多所学校/课题组申请。",
+      "outcome": "作者自述最终选择国科大前沿交叉科学学院、自动化所方向直博；未核验正式录取文件。南大智科、上交自动化等为入营后放弃，不能当作参加过考核或被拒。",
+      "summary": "作者从长期科研实习进入多轮组内与学校考核，最终按方向、导师与研究环境作选择。经验可用于记录每一阶段状态和技术准备；口头意向、夏令营结果与正式学籍须分别确认。",
+      "actionableMethods": [
+        "用具体项目贡献准备技术问答",
+        "分开记录入营、考核、口头意向和正式录取",
+        "核对并行考核时间冲突与培养单位"
+      ],
+      "excludedClaims": [
+        "不采用作者对学校门槛、名额流转、录取权限、补助或证书的概括为官方规则",
+        "不把未参加的院校考核评论写为亲历",
+        "不从个人结果推算当前录取概率或导师余位"
+      ],
+      "commercialDisclosure": "所读原文未见收费申请服务导流；未审计站外账号。",
+      "readScope": "web与Exa原文正文，背景、申请表、各校叙述及总结；无可读评论，未读站外社媒、私信或录取文件。",
+      "collection": "bachelor",
+      "background": "机器人工程本科 → 科研导向直博自述",
+      "dateNote": "2026为正文届别，非已知发表年；publishedAt保持null。",
+      "bachelorApplicability": "本科科研准备与阶段状态管理参考，不作为2027/2028政策。",
+      "evidenceType": "first_person_self_report",
+      "checkedAt": "2026-10-06",
       "rulesImpact": "none"
     }
   ]

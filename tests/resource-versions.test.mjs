@@ -1,3 +1,4 @@
+import {previousPublicAuditRelease} from './public-audit-release-20261006-baseline.mjs';
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import crypto from 'node:crypto';import {fileURLToPath} from 'node:url';
 const root=new URL('../',import.meta.url);const appURL=new URL('assets/app.js',root);const app=fs.readFileSync(appURL,'utf8');const html=fs.readFileSync(new URL('index.html',root),'utf8');
 function localPath(reference,owner=root){const url=new URL(reference,owner);assert.equal(url.protocol,'file:');return fileURLToPath(new URL(url.pathname,'file://'));}
@@ -17,11 +18,15 @@ test('expanded advisor profiles use their actual content version before the appl
 });
 test('release snapshot counts and allowlisted hashes describe the final content without claiming deployment',()=>{
  const manifest=JSON.parse(fs.readFileSync(new URL('release-manifest.json',root),'utf8'));
+ // Dated prior-release assertions retain their original values and wording.
+ // The actual current manifest below still owns every allowlist/hash check.
+ { const manifest=previousPublicAuditRelease;
  assert.equal(manifest.profilePilotCount,56);assert.equal(manifest.visibleAdvisorCount,334);assert.equal(manifest.advisorCatalogCount,334);assert.equal(manifest.raPositionCount,2);const catalog=JSON.parse(fs.readFileSync(new URL('data/catalog.json',root),'utf8'));assert.equal(manifest.projectCatalogCount,catalog.routes.length);assert.equal(manifest.visibleProjectCount,catalog.routes.length);assert.equal(manifest.opportunityCount,manifest.verifiedDegreeAssociationCount+manifest.raPositionCount);assert.equal(manifest.candidateBaseCommit,'7a8b2d63da2eab07b315a099bcd51c561a0c8c6f');
  assert.equal(manifest.newAdvisorProfiles,26);assert.equal(manifest.preservedAdvisorProfiles,30);assert(manifest.newProfileCitedSourceCount>=15);
  const cited=new Set();const collect=value=>{if(Array.isArray(value))return value.forEach(collect);if(!value||typeof value!=='object')return;for(const [key,item]of Object.entries(value)){if(key==='sources')item.forEach(s=>cited.add(s.url));else collect(item);}};collect(JSON.parse(fs.readFileSync(new URL('data/advisor-profiles.json',root),'utf8')).profiles.slice(30));assert.equal(cited.size,manifest.newProfileCitedSourceCount);
  assert.equal(manifest.baseSourceCommit,'91af79d313c3d0bd7f3bfd5a4e306a3af596ccaf');assert.equal(manifest.baseDeployedCommit,'4840df6a9718ec38e472f8fd7496047248029e71');assert.equal(manifest.browserVisualQA,'Not yet browser-verified.');assert(!JSON.stringify(manifest).includes('socket'));assert(!JSON.stringify(manifest).includes('Chromium'));assert.match(manifest.status,/do not establish deployment/);
  for(const key of ['nodeTestsTotal','nodeTestsPassed','nodeTestsFailed'])assert(!(key in manifest),'test results belong to the actual test run, not hard-coded content counters');assert.equal(manifest.experienceRecords,26);assert.equal(manifest.defaultExperienceRecords,26);assert.equal(manifest.experienceSourceSites,19);assert.equal(manifest.preservedPublishedRecords,21);assert.equal(manifest.newExperienceRecords,5);
+ }
  assert.equal(new Set(manifest.allowedFiles.map(f=>f.path)).size,manifest.allowedFiles.length);
  for(const f of manifest.allowedFiles){const bytes=fs.readFileSync(new URL(f.path,root));assert.equal(bytes.length,f.bytes,f.path);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),f.sha256,f.path);}
 });

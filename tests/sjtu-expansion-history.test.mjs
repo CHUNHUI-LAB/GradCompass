@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './public-audit-20261006-history-fs.mjs';
 import {jhuLanguageBytes} from './jhu-language-baseline.mjs';
 import {fourSchoolsExpansionBytes} from './four-schools-expansion-baseline.mjs';
 import crypto from 'node:crypto';

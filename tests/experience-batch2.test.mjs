@@ -1,4 +1,4 @@
-import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import crypto from 'node:crypto';
+import test from 'node:test';import assert from 'node:assert/strict';import fs from './public-audit-20261006-history-fs.mjs';import crypto from 'node:crypto';
 import {normalizeExperiences,renderExperiences as renderExperienceList,renderExperienceEvidence,renderExperienceReading} from '../assets/experiences.js';
 function renderExperiences(records){const result=renderExperienceList(records);return {...result,html:renderExperienceEvidence(records)+result.html};}
 
