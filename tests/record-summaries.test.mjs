@@ -7,7 +7,7 @@ const material={id:'m',title:'Sample statement',institution:'Example University'
 const catalog={metadata:{checkedDate:'2026-10-01'},routes:[project],deadlines:[date],materials:[material]};
 test('source attribution on list is text only; official links belong to summary',()=>{const h=sourceAttribution(project);assert(h.includes('example.org'));assert(!h.includes('<a'));const r=renderRecordSummary('project',project,catalog);assert(r.html.includes('target="_blank" rel="noopener noreferrer"'));assert(r.html.indexOf('申请条件')<r.html.indexOf('打开官网'));});
 test('project summary retains conditions and links to internal date summaries without eligibility badges',()=>{const r=renderRecordSummary('project',project,catalog);assert.equal(r.label,'项目摘要');for(const text of [project.eligibilitySummary,'English evidence is required',project.supervisorAssociation,project.applicationMethod,project.notes[0],'data-summary-kind="deadline"','data-summary-kind="material"','项目概览','学校','院系','项目名称','学位类型'])assert(r.html.includes(text));assert(!r.html.includes('本科路径已核实'));assert(!r.html.includes('class="badge'));assert(r.html.indexOf('项目概览')<r.html.indexOf('申请条件'));assert(!r.html.includes('已记录学制'));const withDuration=renderRecordSummary('project',{...project,duration:'Source-provided duration'},catalog);assert(withDuration.html.includes('Source-provided duration'));const masters=renderRecordSummary('project',{...project,noMasterRequired:false},catalog);assert(masters.html.includes('硕士前置'));assert(masters.html.includes(project.eligibilitySummary));});
-test('deadline summary preserves known date and timezone, leaving missing times unknown',()=>{const h=renderRecordSummary('deadline',date,catalog).html;for(const text of ['2027-01-10','Asia/Hong_Kong','截止时刻</dt><dd>未公布','data-summary-kind="project"','申请系统是否开放和导师名额需要分别确认'])assert(h.includes(text));assert(!h.includes('23:59'));assert(!h.includes('当前已开放'));const missing=renderRecordSummary('deadline',{...date,date:null,timezone:null},catalog).html;assert(missing.includes('截止日期待确认'));assert(missing.includes('时区</dt><dd>未注明'));});
+test('deadline summary preserves known date and timezone, leaving missing times unknown',()=>{const h=renderRecordSummary('deadline',date,catalog).html;for(const text of ['2027-01-10','Asia/Hong_Kong','截止时刻</dt><dd>未记录（请核对官网）','data-summary-kind="project"','申请系统是否开放和导师名额需要分别确认'])assert(h.includes(text));assert(!h.includes('23:59'));assert(!h.includes('当前已开放'));const missing=renderRecordSummary('deadline',{...date,date:null,timezone:null},catalog).html;assert(missing.includes('截止日期待确认'));assert(missing.includes('时区</dt><dd>未注明'));});
 test('material summary preserves scope and requirements rather than manufacturing a complete checklist',()=>{const h=renderRecordSummary('material',material,catalog).html;for(const text of [material.requirement,material.scope,'不代表完整申请清单','data-summary-kind="project"'])assert(h.includes(text));assert(h.indexOf(material.requirement)<h.indexOf('打开官网'));});
 test('summary rendering rejects missing records and escapes untrusted text and URLs',()=>{assert.equal(renderRecordSummary('other',project,catalog),null);assert.equal(renderRecordSummary('project',null,catalog),null);const h=renderRecordSummary('material',{...material,title:'<img onerror="bad">',requirement:'<script>bad</script>',sources:[{url:'javascript:alert(1)'}]},catalog).html;assert(h.includes('&lt;img'));assert(h.includes('&lt;script'));assert(!h.includes('<img'));assert(!h.includes('javascript:'));});
 
@@ -15,3 +15,43 @@ test('material requirement statuses and known gaps stay explicit',()=>{const r={
 
 test('project conditions remove only exact repeated requirement text',()=>{const h=renderRecordSummary('project',{...project,eligibilitySummary:'Exact condition',requirements:[{text:'Exact condition'},{text:'Exact condition with an additional requirement'}]},catalog).html;assert.equal((h.match(/<p>Exact condition<\/p>/g)||[]).length,1);assert(!h.includes('<li>Exact condition</li>'));assert(h.includes('Exact condition with an additional requirement'));});
 test('material scope removes exact duplicated text without dropping extra limitations',()=>{const r={...material,scope:'2027/28 Fall',admissionYear:'2027/28 Fall',summary:'Overview',note:'Overview 适用范围：2027/28 Fall；Additional condition remains',scopeNotes:['2027/28 Fall','Separate condition']};const h=renderRecordSummary('material',r,catalog).html;assert.equal((h.match(/2027\/28 Fall/g)||[]).length,1);assert(h.includes('Additional condition remains'));assert(h.includes('Separate condition'));const different=renderRecordSummary('material',{...r,note:'Different 2027/28 Fall condition'},catalog).html;assert(different.includes('Different 2027/28 Fall condition'));});
+
+
+test('deadline summary preserves a recorded ISO time and offset without timezone conversion',()=>{
+ for(const stamp of ['2026-08-31T10:00:00+08:00','2026-10-15T23:59:00-04:00','2026-12-01T15:59:00Z']){
+  const h=renderRecordSummary('deadline',{...date,date:stamp,timezone:null},catalog).html;
+  assert(h.includes('截止日期</dt><dd>'+stamp));
+  assert(h.includes('截止时刻</dt><dd>'+stamp.split('T')[1]));
+  const offset=stamp.endsWith('Z')?'UTC':stamp.slice(-6);
+  assert(h.includes('时区</dt><dd>原日期 UTC 偏移：'+offset));
+  assert(!h.includes('未公布'));
+ }
+ const explicit=renderRecordSummary('deadline',{...date,date:'2026-08-31T10:00:00+08:00',deadlineTime:'10:00（原文明示）'},catalog).html;
+ assert(explicit.includes('截止时刻</dt><dd>10:00（原文明示）'));
+});
+
+test('deadline summary distinguishes missing evidence from a source publication claim',()=>{
+ const unknown=renderRecordSummary('deadline',{...date,date:null,deadlineTime:null,timezone:null},catalog).html;
+ assert(unknown.includes('截止日期</dt><dd>未记录（请核对官网）'));
+ assert(unknown.includes('截止时刻</dt><dd>未记录（请核对官网）'));
+ assert(!unknown.includes('未公布'));
+ const conflict=renderRecordSummary('deadline',{...date,date:null,deadlineTime:null,cycleReview:{sourceConflict:true,checkedDate:'2026-10-01'}},catalog).html;
+ assert(conflict.includes('截止日期</dt><dd>待复核（来源版本不一致）'));
+ assert(conflict.includes('截止时刻</dt><dd>待复核（来源版本不一致）'));
+ const invalid=renderRecordSummary('deadline',{...date,date:'2026-08-31T99:00:00+08:00'},catalog).html;
+ assert(invalid.includes('截止时刻</dt><dd>未记录（请核对官网）'));
+});
+
+
+test('deadline timezone fallback uses only the original offset and preserves explicit source labels',()=>{
+ const withOffset={...date,date:'2026-08-31T10:00:00+08:00',timezone:null};
+ const explicit=renderRecordSummary('deadline',{...withOffset,timezone:'America/New_York'},catalog).html;
+ assert(explicit.includes('时区</dt><dd>America/New_York'));
+ assert(explicit.includes('截止时刻</dt><dd>10:00:00+08:00'));
+ assert(!explicit.includes('原日期 UTC 偏移'));
+ for(const stamp of ['2026-08-31','2026-08-31T10:00:00','2026-08-31T10:00:00+99:00']){
+  const h=renderRecordSummary('deadline',{...withOffset,date:stamp},catalog).html;
+  assert(h.includes('时区</dt><dd>未注明'));
+  assert(!h.includes('原日期 UTC 偏移'));
+ }
+});

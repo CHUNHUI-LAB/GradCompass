@@ -60,8 +60,12 @@ export function renderRecordSummary(kind,record,catalog){
   title=record.title;label='日期摘要';
   const status=deadlineStatus(record,catalog.metadata?.checkedDate);
   const dateLabel=status==='expired'?'此轮已截止':record.date?'截止日期已公布':'截止日期待确认';
-  const missingDateLabel=record.cycleReview?.sourceConflict?'待复核（来源版本不一致）':'未公布';
-  body=section('日期与适用范围',`<dl class="fact-grid"><dt>截止日期</dt><dd>${e(record.date||missingDateLabel)}</dd><dt>截止时刻</dt><dd>${e(record.deadlineTime||missingDateLabel)}</dd><dt>时区</dt><dd>${e(record.timezone||'未注明')}</dd><dt>日期状态</dt><dd>${e(dateLabel)}</dd></dl>`+paragraph(record.admissionYear)+paragraph(record.note))+section('相关项目',projects(relatedProjects(record,catalog)))+section('申请前确认','<p>截止日期、申请系统是否开放和导师名额需要分别确认；未知的时刻与批次不作推断。</p>');
+  const missingDateLabel=record.cycleReview?.sourceConflict?'待复核（来源版本不一致）':'未记录（请核对官网）';
+  // Preserve the literal recorded time and offset; never synthesize or convert a timezone.
+  const recordedStamp=String(record.date||'').match(/^\d{4}-\d{2}-\d{2}T((?:[01]\d|2[0-3]):[0-5]\d(?::[0-5]\d(?:\.\d+)?)?(Z|[+-](?:[01]\d|2[0-3]):[0-5]\d)?)$/);
+  const recordedTime=record.deadlineTime||recordedStamp?.[1];
+  const recordedZone=record.timezone||(recordedStamp?.[2]?`原日期 UTC 偏移：${recordedStamp[2]==='Z'?'UTC':recordedStamp[2]}`:'未注明');
+  body=section('日期与适用范围',`<dl class="fact-grid"><dt>截止日期</dt><dd>${e(record.date||missingDateLabel)}</dd><dt>截止时刻</dt><dd>${e(recordedTime||missingDateLabel)}</dd><dt>时区</dt><dd>${e(recordedZone)}</dd><dt>日期状态</dt><dd>${e(dateLabel)}</dd></dl>`+paragraph(record.admissionYear)+paragraph(record.note))+section('相关项目',projects(relatedProjects(record,catalog)))+section('申请前确认','<p>截止日期、申请系统是否开放和导师名额需要分别确认；未知的时刻与批次不作推断。</p>');
  }else{
   title=record.title||record.program||'申请材料';label='材料摘要';
   let scopeNote=record.summary&&record.note?.startsWith(record.summary)?record.note.slice(record.summary.length).trim():record.note;

@@ -63,6 +63,7 @@ files.extend(['tests/jhu-language-baseline.mjs','tests/jhu-language-history-fs.m
 files.extend(['data/four-schools-exploration-20261006.json','tests/four-schools-review.test.mjs','tests/four-schools-expansion-baseline.mjs','tests/four-schools-expansion-history.test.mjs','tests/fixtures/history/reviewed-four-schools-expansion-20261006.json'])
 files.extend(['tests/sjtu-expansion-baseline.mjs','tests/sjtu-expansion-history.test.mjs','tests/fixtures/history/reviewed-sjtu-expansion.json'])
 files.extend(['data/maintenance-2026-10-06.json', 'tests/public-audit-20261006.test.mjs', 'tests/public-audit-20261006-baseline.mjs', 'tests/public-audit-20261006-history-fs.mjs', 'tests/fixtures/history/reviewed-public-audit-20261006.json', 'tests/public-audit-release-20261006-baseline.mjs', 'tests/public-audit-release-20261006.test.mjs', 'tests/fixtures/history/reviewed-public-audit-release-20261006.json', 'tests/fixtures/history/reviewed-pre-public-audit-release-079eaea.json'])
+files.extend(['tests/date-summary-20261006-baseline.mjs', 'tests/date-summary-20261006.test.mjs', 'tests/fixtures/history/reviewed-date-summary-20261006.json'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):
