@@ -1,4 +1,4 @@
-import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import crypto from 'node:crypto';import {normalizeExperiences,renderExperiences as renderExperienceList,renderExperienceEvidence,renderExperienceReading,experienceHref} from '../assets/experiences.js';
+import test from 'node:test';import assert from 'node:assert/strict';import fs from './public-audit-20261006-history-fs.mjs';import crypto from 'node:crypto';import {normalizeExperiences,renderExperiences as renderExperienceList,renderExperienceEvidence,renderExperienceReading,experienceHref} from '../assets/experiences.js';
 function renderExperiences(records){const result=renderExperienceList(records);return {...result,html:renderExperienceEvidence(records)+result.html};}
 
 const raw=JSON.parse(fs.readFileSync(new URL('../data/application-experiences.json',import.meta.url)));const records=normalizeExperiences(raw);const provenance=JSON.parse(fs.readFileSync(new URL('../data/application-experience-provenance.json',import.meta.url)));const get=id=>records.find(r=>r.id===id);const reading=id=>renderExperienceReading(records,id).html;

@@ -1,0 +1,542 @@
+{
+  "schemaVersion": 1,
+  "baseCommit": "079eaea16e636f2e91ab2cb0e6ffa309f589440e",
+  "scope": "Exact independently reviewed public audit candidate; local-only, not a published release.",
+  "files": {
+    "data/catalog.json": {
+      "kind": "json",
+      "beforeSha256": "dcd05106b6bfb61bd1fe0f9a3c2c004cc3a32f59ee3b9ecc05dfc17527d98b91",
+      "afterSha256": "55803258de42f4bcb42950fb9f0019ad6a5d9a63a4cf7b86795c60d7ae9e97db",
+      "beforeGitBlob": "6d1a67a250c657a17ec4a37a97a527d66144be63",
+      "afterGitBlob": "3deae5d308310abec5be7410ddb704f4f964e842",
+      "operations": [
+        {
+          "path": [
+            "routes",
+            40,
+            "applicationStatus"
+          ],
+          "before": "unknown",
+          "after": "open"
+        },
+        {
+          "path": [
+            "routes",
+            40,
+            "requirements"
+          ],
+          "before": [
+            {
+              "kind": "academic",
+              "text": "中国公民、至少两封副教授及以上专家推荐信；本科和硕士均毕业于国内外高水平大学或一流科研机构，或走海外直博且本科院校原则上同时进入 THE/U.S.News/QS/ARWU 前 100、GPA 不低于 3.5/4。普通招考为申请-考核制，最终导师及名额以 2027 博士简章为准。",
+              "sources": [
+                {
+                  "label": "南科大自动化与智能制造学院 2027 级博士优秀生源快响计划",
+                  "url": "https://aim.sustech.edu.cn/Article-detail-id-1014-typeid-7.html",
+                  "checkedDate": "2026-10-04"
+                }
+              ]
+            }
+          ],
+          "after": [
+            {
+              "kind": "academic",
+              "text": "中国公民、至少两封副教授及以上专家推荐信；本科和硕士均毕业于国内外高水平大学或一流科研机构，或走海外直博且本科院校原则上同时进入 THE/U.S.News/QS/ARWU 前 100、GPA 不低于 3.5/4。普通招考为申请-考核制，最终导师及名额以 2027 博士简章为准。",
+              "sources": [
+                {
+                  "label": "南科大自动化与智能制造学院 2027 级博士优秀生源快响计划",
+                  "url": "https://aim.sustech.edu.cn/Article-detail-id-1014-typeid-7.html",
+                  "checkedDate": "2026-10-04"
+                }
+              ]
+            },
+            {
+              "kind": "deadline",
+              "text": "报名自2026年9月23日9:00起可随时提交，院系按报名情况组织复试；正文未明写时区和最终截止。公开通知开放不等于已实测提交门户或确认导师余位。",
+              "sources": [
+                {
+                  "label": "南科大自动化与智能制造学院2027博士快响计划",
+                  "url": "https://aim.sustech.edu.cn/Article-detail-id-1014-typeid-7.html",
+                  "checkedDate": "2026-10-06"
+                }
+              ]
+            },
+            {
+              "kind": "documents",
+              "text": "两封副教授及以上（或相当专业技术职称）专家推荐信，报考导师不撰写，其中一封原则上由硕士导师撰写；个人陈述、研究计划、本科毕业证和学位证及认证报告、本科盖章成绩单、英语等级证书或成绩单、报名登记表等。硕士学历/学籍、成绩、论文或开题报告按学习经历适用；已有论文、奖项、专利等附证明。申请英语考核免考另交相应证明。海外本科专项如何对应硕士专属表项仍须核实，不能反推人人必须有论文或硕士。",
+              "sources": [
+                {
+                  "label": "南科大自动化与智能制造学院2027博士快响计划",
+                  "url": "https://aim.sustech.edu.cn/Article-detail-id-1014-typeid-7.html",
+                  "checkedDate": "2026-10-06"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": [
+            "routes",
+            40,
+            "cycleReview"
+          ],
+          "beforeMissing": true,
+          "after": {
+            "reviewId": "public-source-audit-20261006-sustech",
+            "checkedDate": "2026-10-06",
+            "scope": "学院2027快响报名窗口和材料；未核个人接收/余位或提交门户",
+            "reason": "现行通知明确自2026-09-23 9:00起可随时提交；本科与硕士通常路径和特定海外本科直博两条资格并列。",
+            "sources": [
+              {
+                "label": "南科大自动化与智能制造学院2027博士快响计划",
+                "url": "https://aim.sustech.edu.cn/Article-detail-id-1014-typeid-7.html",
+                "checkedDate": "2026-10-06"
+              }
+            ],
+            "previous": {
+              "applicationStatus": "unknown",
+              "requirements": [
+                {
+                  "kind": "academic",
+                  "text": "中国公民、至少两封副教授及以上专家推荐信；本科和硕士均毕业于国内外高水平大学或一流科研机构，或走海外直博且本科院校原则上同时进入 THE/U.S.News/QS/ARWU 前 100、GPA 不低于 3.5/4。普通招考为申请-考核制，最终导师及名额以 2027 博士简章为准。",
+                  "sources": [
+                    {
+                      "label": "南科大自动化与智能制造学院 2027 级博士优秀生源快响计划",
+                      "url": "https://aim.sustech.edu.cn/Article-detail-id-1014-typeid-7.html",
+                      "checkedDate": "2026-10-04"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "path": [
+            "routes",
+            45,
+            "requirements"
+          ],
+          "before": [
+            {
+              "kind": "academic",
+              "text": "申请推免直博须预计取得所在学校推荐免试资格，最终以教育部推免服务系统备案为准。",
+              "sources": [
+                {
+                  "label": "浙江大学人工智能学院2027年招收推免生综合考核实施细则",
+                  "url": "https://ai.zju.edu.cn/2026/0914/c90347a320259/page.psp",
+                  "checkedDate": "2026-10-05"
+                }
+              ]
+            },
+            {
+              "kind": "language",
+              "text": "申请直接攻读博士须满足英语门槛：大学英语六级460及以上、WSK/PETS 5、英语专业八级、雅思5.5或新托福80；具体有效期按细则执行。",
+              "sources": [
+                {
+                  "label": "浙江大学人工智能学院2027年招收推免生综合考核实施细则",
+                  "url": "https://ai.zju.edu.cn/2026/0914/c90347a320259/page.psp",
+                  "checkedDate": "2026-10-05"
+                }
+              ]
+            },
+            {
+              "kind": "references",
+              "text": "申请直博须提交至少两位报考学科专业领域副教授及以上专家推荐书。",
+              "sources": [
+                {
+                  "label": "浙江大学人工智能学院2027年招收推免生综合考核实施细则",
+                  "url": "https://ai.zju.edu.cn/2026/0914/c90347a320259/page.psp",
+                  "checkedDate": "2026-10-05"
+                }
+              ]
+            },
+            {
+              "kind": "deadline",
+              "text": "2027级推免申请系统开放时间为2026年8月10日9:00至9月10日24:00；复试安排在2026年9月17日至19日。",
+              "sources": [
+                {
+                  "label": "浙江大学人工智能学院关于接收2027级推荐免试研究生工作安排",
+                  "url": "https://ai.zju.edu.cn/2026/0810/c90497a3194262/page.htm",
+                  "checkedDate": "2026-10-05"
+                },
+                {
+                  "label": "浙江大学人工智能学院2027年推荐免试研究生招生复试公告",
+                  "url": "https://ai.zju.edu.cn/2026/0914/c90347a3202664/page.psp",
+                  "checkedDate": "2026-10-05"
+                }
+              ]
+            }
+          ],
+          "after": [
+            {
+              "kind": "academic",
+              "text": "申请推免直博须预计取得所在学校推荐免试资格，最终以教育部推免服务系统备案为准。",
+              "sources": [
+                {
+                  "label": "浙江大学人工智能学院2027年招收推免生综合考核实施细则",
+                  "url": "https://ai.zju.edu.cn/2026/0914/c90347a3202597/page.htm",
+                  "checkedDate": "2026-10-06"
+                }
+              ]
+            },
+            {
+              "kind": "language",
+              "text": "申请直接攻读博士须满足英语门槛：大学英语六级460及以上、WSK/PETS 5、英语专业八级、雅思5.5或新托福80；具体有效期按细则执行。",
+              "sources": [
+                {
+                  "label": "浙江大学人工智能学院2027年招收推免生综合考核实施细则",
+                  "url": "https://ai.zju.edu.cn/2026/0914/c90347a3202597/page.htm",
+                  "checkedDate": "2026-10-06"
+                }
+              ]
+            },
+            {
+              "kind": "references",
+              "text": "申请直博须提交至少两位报考学科专业领域副教授及以上专家推荐书。",
+              "sources": [
+                {
+                  "label": "浙江大学人工智能学院2027年招收推免生综合考核实施细则",
+                  "url": "https://ai.zju.edu.cn/2026/0914/c90347a3202597/page.htm",
+                  "checkedDate": "2026-10-06"
+                }
+              ]
+            },
+            {
+              "kind": "deadline",
+              "text": "2027级推免申请系统开放时间为2026年8月10日9:00至9月10日24:00；复试安排在2026年9月17日至19日。",
+              "sources": [
+                {
+                  "label": "浙江大学人工智能学院关于接收2027级推荐免试研究生工作安排",
+                  "url": "https://ai.zju.edu.cn/2026/0810/c90497a3194262/page.htm",
+                  "checkedDate": "2026-10-05"
+                },
+                {
+                  "label": "浙江大学人工智能学院2027年推荐免试研究生招生复试公告",
+                  "url": "https://ai.zju.edu.cn/2026/0914/c90347a3202664/page.psp",
+                  "checkedDate": "2026-10-05"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": [
+            "routes",
+            45,
+            "cycleReview"
+          ],
+          "before": {
+            "checkedDate": "2026-10-05",
+            "reason": "2027级推免直博的专业代码、英语门槛、专家推荐书、网申时间和复试时间已有学院正式细则；招生计划仍以学校专业目录和实际录取为准，不能推出某位导师的个人余位或2028 Fall名额。",
+            "sources": [
+              {
+                "label": "浙江大学人工智能学院2027年招收推免生综合考核实施细则",
+                "url": "https://ai.zju.edu.cn/2026/0914/c90347a320259/page.psp",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "浙江大学人工智能学院2027年推荐免试研究生招生复试公告",
+                "url": "https://ai.zju.edu.cn/2026/0914/c90347a3202664/page.psp",
+                "checkedDate": "2026-10-05"
+              },
+              {
+                "label": "浙江大学人工智能学院导师资格目录（持续更新）",
+                "url": "https://ai.zju.edu.cn/zstz/list1.htm",
+                "checkedDate": "2026-10-05"
+              }
+            ]
+          },
+          "after": {
+            "reviewId": "public-source-audit-20261006-zju",
+            "checkedDate": "2026-10-06",
+            "reason": "本轮原细则URL两种读取均失败；另已核读同题同日的官方可读正文（URL含尾号7），其2027标题、2026-09-14日期和条件一致。仅修正当前requirements中的来源链接，资格、轮次与个人名额结论不变。",
+            "sources": [
+              {
+                "label": "2027年人工智能学院招收推免生综合考核实施细则",
+                "url": "https://ai.zju.edu.cn/2026/0914/c90347a3202597/page.htm",
+                "checkedDate": "2026-10-06"
+              }
+            ],
+            "previous": {
+              "requirements": [
+                {
+                  "kind": "academic",
+                  "text": "申请推免直博须预计取得所在学校推荐免试资格，最终以教育部推免服务系统备案为准。",
+                  "sources": [
+                    {
+                      "label": "浙江大学人工智能学院2027年招收推免生综合考核实施细则",
+                      "url": "https://ai.zju.edu.cn/2026/0914/c90347a320259/page.psp",
+                      "checkedDate": "2026-10-05"
+                    }
+                  ]
+                },
+                {
+                  "kind": "language",
+                  "text": "申请直接攻读博士须满足英语门槛：大学英语六级460及以上、WSK/PETS 5、英语专业八级、雅思5.5或新托福80；具体有效期按细则执行。",
+                  "sources": [
+                    {
+                      "label": "浙江大学人工智能学院2027年招收推免生综合考核实施细则",
+                      "url": "https://ai.zju.edu.cn/2026/0914/c90347a320259/page.psp",
+                      "checkedDate": "2026-10-05"
+                    }
+                  ]
+                },
+                {
+                  "kind": "references",
+                  "text": "申请直博须提交至少两位报考学科专业领域副教授及以上专家推荐书。",
+                  "sources": [
+                    {
+                      "label": "浙江大学人工智能学院2027年招收推免生综合考核实施细则",
+                      "url": "https://ai.zju.edu.cn/2026/0914/c90347a320259/page.psp",
+                      "checkedDate": "2026-10-05"
+                    }
+                  ]
+                },
+                {
+                  "kind": "deadline",
+                  "text": "2027级推免申请系统开放时间为2026年8月10日9:00至9月10日24:00；复试安排在2026年9月17日至19日。",
+                  "sources": [
+                    {
+                      "label": "浙江大学人工智能学院关于接收2027级推荐免试研究生工作安排",
+                      "url": "https://ai.zju.edu.cn/2026/0810/c90497a3194262/page.htm",
+                      "checkedDate": "2026-10-05"
+                    },
+                    {
+                      "label": "浙江大学人工智能学院2027年推荐免试研究生招生复试公告",
+                      "url": "https://ai.zju.edu.cn/2026/0914/c90347a3202664/page.psp",
+                      "checkedDate": "2026-10-05"
+                    }
+                  ]
+                }
+              ]
+            },
+            "history": [
+              {
+                "checkedDate": "2026-10-05",
+                "reason": "2027级推免直博的专业代码、英语门槛、专家推荐书、网申时间和复试时间已有学院正式细则；招生计划仍以学校专业目录和实际录取为准，不能推出某位导师的个人余位或2028 Fall名额。",
+                "sources": [
+                  {
+                    "label": "浙江大学人工智能学院2027年招收推免生综合考核实施细则",
+                    "url": "https://ai.zju.edu.cn/2026/0914/c90347a320259/page.psp",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "浙江大学人工智能学院2027年推荐免试研究生招生复试公告",
+                    "url": "https://ai.zju.edu.cn/2026/0914/c90347a3202664/page.psp",
+                    "checkedDate": "2026-10-05"
+                  },
+                  {
+                    "label": "浙江大学人工智能学院导师资格目录（持续更新）",
+                    "url": "https://ai.zju.edu.cn/zstz/list1.htm",
+                    "checkedDate": "2026-10-05"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "path": [
+            "deadlines",
+            6,
+            "timezone"
+          ],
+          "before": "Asia/Hong_Kong",
+          "after": null
+        },
+        {
+          "path": [
+            "deadlines",
+            6,
+            "note"
+          ],
+          "before": "Sep 2027 displayed: early round 2026-10-20, main round 2027-02-25；未来截止日期本身不证明当前已开放提交",
+          "after": "Sep 2027 displayed: early round 2026-10-20, main round 2027-02-25；未来截止日期本身不证明当前已开放提交；本轮官方项目页只明示截止日期，未明示时刻或时区，保留日期精度，不据学校所在地合成时间戳。"
+        },
+        {
+          "path": [
+            "deadlines",
+            6,
+            "cycleReview"
+          ],
+          "beforeMissing": true,
+          "after": {
+            "reviewId": "public-source-audit-20261006-polyu",
+            "checkedDate": "2026-10-06",
+            "scope": "仅截止精度复核",
+            "reason": "2027项目页、院系页和公开申请入口均未写本项目截止时刻/时区；原Asia/Hong_Kong不能标为来源明确值。",
+            "sources": [
+              {
+                "label": "PolyU 2027 Intelligent Robotics Engineering 43101-IR-IRT",
+                "url": "https://www.polyu.edu.hk/study/pg/tpg/2027/43101-ir-irt",
+                "checkedDate": "2026-10-06"
+              }
+            ],
+            "previous": {
+              "timezone": "Asia/Hong_Kong",
+              "note": "Sep 2027 displayed: early round 2026-10-20, main round 2027-02-25；未来截止日期本身不证明当前已开放提交"
+            }
+          }
+        },
+        {
+          "path": [
+            "deadlines",
+            7,
+            "timezone"
+          ],
+          "before": "Asia/Hong_Kong",
+          "after": null
+        },
+        {
+          "path": [
+            "deadlines",
+            7,
+            "note"
+          ],
+          "before": "Sep 2027 displayed: early round 2026-10-20, main round 2027-02-25；未来截止日期本身不证明当前已开放提交",
+          "after": "Sep 2027 displayed: early round 2026-10-20, main round 2027-02-25；未来截止日期本身不证明当前已开放提交；本轮官方项目页只明示截止日期，未明示时刻或时区，保留日期精度，不据学校所在地合成时间戳。"
+        },
+        {
+          "path": [
+            "deadlines",
+            7,
+            "cycleReview"
+          ],
+          "beforeMissing": true,
+          "after": {
+            "reviewId": "public-source-audit-20261006-polyu",
+            "checkedDate": "2026-10-06",
+            "scope": "仅截止精度复核",
+            "reason": "2027项目页、院系页和公开申请入口均未写本项目截止时刻/时区；原Asia/Hong_Kong不能标为来源明确值。",
+            "sources": [
+              {
+                "label": "PolyU 2027 Intelligent Robotics Engineering 43101-IR-IRT",
+                "url": "https://www.polyu.edu.hk/study/pg/tpg/2027/43101-ir-irt",
+                "checkedDate": "2026-10-06"
+              }
+            ],
+            "previous": {
+              "timezone": "Asia/Hong_Kong",
+              "note": "Sep 2027 displayed: early round 2026-10-20, main round 2027-02-25；未来截止日期本身不证明当前已开放提交"
+            }
+          }
+        }
+      ]
+    },
+    "data/application-experiences.json": {
+      "kind": "json",
+      "beforeSha256": "3e46c7e8eea013844c7e3ccf3430e0a9dd2518bd75bb0c1c7c21b4077db9cb07",
+      "afterSha256": "9d025238102e48decebb8e0b782da1c6c83581ef8fff7bed04215b2b82e916aa",
+      "beforeGitBlob": "439c2e4107e86f090a19cff2f93cfe2e95e36537",
+      "afterGitBlob": "19309bd42770091051f6e95421403d10912e3391",
+      "operations": [
+        {
+          "path": [
+            "checkedAt"
+          ],
+          "before": "2026-10-04",
+          "after": "2026-10-06"
+        },
+        {
+          "path": [
+            "records",
+            26
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "grad-heu-sunbohan-research-selection-2026",
+            "title": "机器人工程本科科研准备：把入营、组内意向和最终去向分开",
+            "url": "https://heu4-baoyan.github.io/heu4-baoyan/baoyan/CompSci/2026/cases/bohansun/",
+            "platform": "HEU 4系保研手册",
+            "author": "孙博涵（页面署名）",
+            "publishedAt": null,
+            "applicableCycle": "2026届本科升学；具体发布日期未注明",
+            "authorContext": "自述哈尔滨工程大学机器人工程本科，经历持续科研实习和多所学校/课题组申请。",
+            "outcome": "作者自述最终选择国科大前沿交叉科学学院、自动化所方向直博；未核验正式录取文件。南大智科、上交自动化等为入营后放弃，不能当作参加过考核或被拒。",
+            "summary": "作者从长期科研实习进入多轮组内与学校考核，最终按方向、导师与研究环境作选择。经验可用于记录每一阶段状态和技术准备；口头意向、夏令营结果与正式学籍须分别确认。",
+            "actionableMethods": [
+              "用具体项目贡献准备技术问答",
+              "分开记录入营、考核、口头意向和正式录取",
+              "核对并行考核时间冲突与培养单位"
+            ],
+            "excludedClaims": [
+              "不采用作者对学校门槛、名额流转、录取权限、补助或证书的概括为官方规则",
+              "不把未参加的院校考核评论写为亲历",
+              "不从个人结果推算当前录取概率或导师余位"
+            ],
+            "commercialDisclosure": "所读原文未见收费申请服务导流；未审计站外账号。",
+            "readScope": "web与Exa原文正文，背景、申请表、各校叙述及总结；无可读评论，未读站外社媒、私信或录取文件。",
+            "collection": "bachelor",
+            "background": "机器人工程本科 → 科研导向直博自述",
+            "dateNote": "2026为正文届别，非已知发表年；publishedAt保持null。",
+            "bachelorApplicability": "本科科研准备与阶段状态管理参考，不作为2027/2028政策。",
+            "evidenceType": "first_person_self_report",
+            "checkedAt": "2026-10-06",
+            "rulesImpact": "none"
+          }
+        }
+      ]
+    },
+    "data/application-experience-provenance.json": {
+      "kind": "json",
+      "beforeSha256": "857bd7ea00767b6d115cf79e14ddb3900bc79965ad49d419ba16c1457422cfe9",
+      "afterSha256": "234081c4e87e2778bf49d8f5cf5c7b553e3a0f3703e1678032d12c70d08811d8",
+      "beforeGitBlob": "a9fb86e56ba99ba2ebca3f451a88d859726ebba0",
+      "afterGitBlob": "30b88ef8baebfd91e7b6f2123c55ad716bcc0c46",
+      "operations": [
+        {
+          "path": [
+            "records",
+            26
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "grad-heu-sunbohan-research-selection-2026",
+            "url": "https://heu4-baoyan.github.io/heu4-baoyan/baoyan/CompSci/2026/cases/bohansun/",
+            "sourceType": "first_person_self_report",
+            "authorVsComment": "正文个人经历与作者泛化/转述分开；未读评论。",
+            "confidence": "可读原文自述，身份、成绩、录取文件未独立验证。",
+            "reviewedAtUtc": "2026-10-06T07:01:05.430555Z",
+            "sourceRetrievalWindowUtc": [
+              "2026-10-06T06:53:35Z",
+              "2026-10-06T06:54:39Z"
+            ],
+            "dateInterpretation": "2026届在正文，准确发表日期未知。",
+            "officialRulesVerified": false,
+            "officialPolicyImpact": "none",
+            "currentRulesExtrapolation": "none",
+            "excludedClaims": [
+              "不采用招生门槛、名额、资助、证书与录取权限泛化",
+              "不采用放弃参加学校的考核细节为亲历"
+            ],
+            "independentReview": {
+              "status": "source_content_accepted_after_schema_correction_parent_integration_review_pending",
+              "reviewWindowUtc": [
+                "2026-10-06T07:01:42Z",
+                "2026-10-06T07:05:28Z"
+              ],
+              "mode": "Independent original public body reread; no comments, private correspondence or offer documents.",
+              "scope": "Author background, stated final choice, application table, withdrawals and own account; hearsay and policy generalizations excluded.",
+              "requiredCorrections": "Retain unknown publication date; use existing scope and fieldLocations provenance fields.",
+              "wordingCheckedAtUtc": "2026-10-06T07:06:33.431201Z"
+            },
+            "scope": "公开原文正文，不含私信、录取材料或站外社媒；无评论正文返回。",
+            "fieldLocations": {
+              "authorContext": "背景",
+              "outcome": "页面开头最终去向与申请情况",
+              "stageSeparation": "申请情况第4、5项及相应正文明确入营后放弃",
+              "summary": "经历分享与总结"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "addedFiles": {
+    "data/maintenance-2026-10-06.json": {
+      "afterSha256": "e3ddde3093983535765e2e775067e4a4758b89998ad87488a1f986895c9b6863",
+      "afterGitBlob": "80db7a226106b3204b1b1f5e3b486fc715e04883"
+    }
+  }
+}

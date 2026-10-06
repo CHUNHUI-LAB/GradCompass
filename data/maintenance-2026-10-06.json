@@ -1,0 +1,1299 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-06",
+  "baseCommit": "079eaea16e636f2e91ab2cb0e6ffa309f589440e",
+  "scope": "2026-10-06公开数据有界复核候选；按当年标题、正文、项目/学位/招生方式分核，不代表所有学校、导师或平台搜全。",
+  "mutations": [
+    {
+      "target": "catalog.routes/zju-ai-phd-reference-2027",
+      "change": "修正3个当前requirement source URL；保留旧requirements及cycleReview"
+    },
+    {
+      "target": "catalog.routes/sustech-aim-phd-reference-2027",
+      "change": "公开报名open；补滚动窗口及条件性材料，不变资格布尔/个人关联"
+    },
+    {
+      "target": "catalog.deadlines/polyu_ire_msc-early, polyu_ire_msc-main",
+      "change": "只清空未经原文明示的时区并解释，不改两截止日期"
+    },
+    {
+      "target": "application-experiences + provenance",
+      "change": "追加1条原始机器人工程本科自述；原26条记录完全保留"
+    }
+  ],
+  "preserved": [
+    "所有334位导师与个人关联/名额字段",
+    "全部sourceRecord与旧checkedDate",
+    "旧经验26条及其逐条核读历史",
+    "PR14内容不混入main",
+    "未读/失败来源不伪更新成功时间"
+  ],
+  "observations": [
+    {
+      "institution": "SUSTech",
+      "scope": "自动化与智能制造学院2027博士快响计划",
+      "status": "verified_scope",
+      "sourceCycle": "2027",
+      "admissionMode": "application_assessment",
+      "degree": "PhD",
+      "programCode": null,
+      "eligibility": "中国公民；本科与硕士高水平院校经历，或特定海外本科直博；后者院校原则上同时入围THE/U.S.News/QS/ARWU前100，GPA≥3.5/4，须境外学历认证。不可说所有申请者都需硕士。",
+      "materials": {
+        "required": [
+          "两封副教授及以上（或相当专业技术职称）推荐，报考导师不得撰写",
+          "个人陈述",
+          "研究计划",
+          "本科毕业证、学位证、认证报告及盖章成绩单",
+          "英语等级证书或成绩单",
+          "报名登记表及院系其他要求"
+        ],
+        "conditional": [
+          "硕士学历/学籍、成绩、论文或开题报告按学习经历适用",
+          "论文、录用/检索证明、奖励/专利等已有成果材料；不能反推出必须发表论文",
+          "申请英语考核免考时上传相应证明"
+        ],
+        "optionalExplicit": []
+      },
+      "dates": [
+        {
+          "kind": "opening",
+          "date": "2026-09-23",
+          "time": "09:00",
+          "timezone": null,
+          "raw": "2026年9月23日9:00起",
+          "round": "随时提交，院系按报名组织复试"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aim.sustech.edu.cn/Article-detail-id-1014-typeid-7.html",
+          "title": "博士招生 | 南方科技大学自动化与智能制造学院2027级博士研究生招生优秀生源快响计划报考通知",
+          "readExtent": "official title and substantive body",
+          "result": "verified_scope",
+          "retrievalWindowUtc": [
+            "2026-10-06T06:50:02Z",
+            "2026-10-06T06:58:37.046389Z"
+          ],
+          "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+        }
+      ],
+      "gaps": [
+        "正文未标时区/最终截止或2027专业代码",
+        "海外本科者如何对应硕士专属表项仍须以系统/学院为准",
+        "不证明个人接收、剩余名额或2028 Fall"
+      ]
+    },
+    {
+      "institution": "ZJU",
+      "scope": "AI学院2027推免直博、硕士设置公告",
+      "status": "verified_scope",
+      "sourceCycle": "2027",
+      "admissionMode": "recommendation_exemption_direct_phd",
+      "degree": "PhD",
+      "programCode": [
+        "085410",
+        "089901",
+        "140300"
+      ],
+      "eligibility": "2027推免资格须教育部系统备案；直博英语门槛和有效期单列；不混作统考或普通申请考核。",
+      "materials": {
+        "required": [
+          "签字申请表、身份证、本科盖章成绩、英语证明、简历"
+        ],
+        "conditional": [
+          "直博至少两名副教授及以上专家推荐书",
+          "有论文、科研或奖励时附相应支撑材料；不是人人必须发表论文"
+        ],
+        "optionalExplicit": []
+      },
+      "dates": [
+        {
+          "kind": "preapplication_close",
+          "date": "2026-09-10",
+          "time": "24:00",
+          "timezone": null,
+          "raw": "2026年8月10日9:00开始，截止时间9月10日24：00",
+          "status": "past"
+        },
+        {
+          "kind": "admitted_student_health_form",
+          "date": "2027-03-31",
+          "time": null,
+          "timezone": null,
+          "scope": "仅拟录取推免生"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ai.zju.edu.cn/2026/0810/c90497a3194262/page.htm",
+          "title": "浙江大学人工智能学院关于接收2027级推荐免试研究生工作安排的通知",
+          "readExtent": "official title and substantive body",
+          "result": "verified_scope",
+          "retrievalWindowUtc": [
+            "2026-10-06T06:50:02Z",
+            "2026-10-06T06:58:37.046389Z"
+          ],
+          "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+        },
+        {
+          "url": "https://ai.zju.edu.cn/2026/0914/c90347a3202597/page.htm",
+          "title": "2027年人工智能学院招收推免生综合考核实施细则",
+          "readExtent": "official title and substantive body",
+          "result": "verified_scope",
+          "retrievalWindowUtc": [
+            "2026-10-06T06:50:02Z",
+            "2026-10-06T06:58:37.046389Z"
+          ],
+          "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+        },
+        {
+          "url": "https://ai.zju.edu.cn/2026/0616/c90497a3179370/page.htm",
+          "title": "人工智能学院关于2027年硕士研究生招生学科设置的公告",
+          "readExtent": "official title and substantive body",
+          "result": "verified_scope",
+          "retrievalWindowUtc": [
+            "2026-10-06T06:50:02Z",
+            "2026-10-06T06:58:37.046389Z"
+          ],
+          "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+        }
+      ],
+      "gaps": [
+        "现库细则URL少了尾号7，本轮原URL两种读取失败；已另核读同题同日的官方可读正文；不是声称该URL来自当前列表点击",
+        "6月公告机械大类085500，与8月推免专业085507按各源保留，不擅自等同",
+        "6月公告明确最终学校2027简章目录待发布，未据此新增当年统考路径",
+        "推免拟录取者不能另报同年统考；不得将全国日历通用于该类考生"
+      ]
+    },
+    {
+      "institution": "Tsinghua",
+      "scope": "IIIS2027推免085400；校级统考目录索引",
+      "status": "partial",
+      "sourceCycle": "2027推免；索引当前可读条目2026统考",
+      "admissionMode": "recommendation_exemption",
+      "degree": "MSc",
+      "programCode": "085400",
+      "sources": [
+        {
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/996743a2-3adb-4416-ac66-1e272055e0ae/1?yxsdm=047&zslx=%271%27",
+          "title": "清华大学2027年硕士研究生招生专业目录_推荐免试",
+          "readExtent": "Exa取得标题及完整目录表；web读取失败",
+          "result": "verified_scope",
+          "retrievalWindowUtc": [
+            "2026-10-06T06:50:02Z",
+            "2026-10-06T06:58:37.046389Z"
+          ],
+          "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+        },
+        {
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/list",
+          "title": "招生目录",
+          "readExtent": "官方索引；显示2026统考条目",
+          "result": "verified_scope",
+          "retrievalWindowUtc": [
+            "2026-10-06T06:50:02Z",
+            "2026-10-06T06:58:37.046389Z"
+          ],
+          "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+        }
+      ],
+      "finding": "047交叉信息研究院，085400专业学位电子信息，全日制计算机科学与技术专业硕士与main一致。",
+      "gaps": [
+        "未核到2027统考院系完整目录/材料/时点，不把2025或2026记录换年",
+        "推免页只列目录，没有个别导师接收或余位",
+        "本轮只检查这些页面，不能说学校尚未发布任何2027目录"
+      ]
+    },
+    {
+      "institution": "PKU",
+      "scope": "智能学院2027研究方向/导师指南与招生列表",
+      "status": "partial",
+      "sourceCycle": "2027",
+      "admissionMode": "program_guide_reference",
+      "degree": "PhD",
+      "programCode": null,
+      "sources": [
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+          "title": "智能学院2027年招生指南",
+          "readExtent": "official title and substantive body",
+          "result": "verified_scope",
+          "retrievalWindowUtc": [
+            "2026-10-06T06:50:02Z",
+            "2026-10-06T06:58:37.046389Z"
+          ],
+          "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/rcpy/yjszs.htm",
+          "title": "研究生招生",
+          "readExtent": "当前列表",
+          "result": "verified_scope",
+          "retrievalWindowUtc": [
+            "2026-10-06T06:50:02Z",
+            "2026-10-06T06:58:37.046389Z"
+          ],
+          "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+        }
+      ],
+      "finding": "智能机器人方向仍列英向华、赵卉菁、朱松纯、罗定生、刘航欣的博士/硕士导师方向；是方向名单。",
+      "gaps": [
+        "列表所见完整申请考核说明仍为2026，未核到当期2027申请说明",
+        "不从2027指南推出资格、日期、个人余位、统考/推免身份"
+      ]
+    },
+    {
+      "institution": "NJU",
+      "scope": "LAMDA2027实验室选拔",
+      "status": "verified_scope",
+      "sourceCycle": "2027 Fall",
+      "admissionMode": "lab_screening_then_university_admission",
+      "degree": "PhD/MSc",
+      "programCode": null,
+      "sources": [
+        {
+          "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
+          "title": "LAMDA招收2027年秋季入学研究生说明",
+          "readExtent": "official title and substantive body",
+          "result": "verified_scope",
+          "retrievalWindowUtc": [
+            "2026-10-06T06:50:02Z",
+            "2026-10-06T06:58:37.046389Z"
+          ],
+          "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2026-07-31",
+          "time": null,
+          "timezone": null,
+          "kind": "lab_materials_close",
+          "status": "past"
+        },
+        {
+          "date": "2027-03",
+          "time": null,
+          "timezone": null,
+          "kind": "conditional_supplement",
+          "status": "conditional",
+          "raw": "空额拟于2027年3月补招"
+        }
+      ],
+      "materials": {
+        "required": [
+          "生活照简历",
+          "一页研究动机说明",
+          "CMT三位导师志愿及是否服从分配"
+        ],
+        "conditional": [
+          "本科成绩单：直博/硕士申请者",
+          "实验室认为必要时补充材料"
+        ],
+        "optionalExplicit": [
+          "其他有助了解申请人的材料；PDF为建议格式"
+        ]
+      },
+      "finding": "main已记录过期首轮。实验室同意后仍须取得AI学院入学资格（推免或考研）；条件性补招不等于现已开放。",
+      "gaps": [
+        "具体招生专业代码、学校统考/博士申请完整条件本轮未核",
+        "拟招生名单不等于剩余名额"
+      ]
+    },
+    {
+      "institution": "Westlake",
+      "scope": "2027第一批校级通知重读、工学院招生页",
+      "status": "partial",
+      "sourceCycle": "2027旧成功记录；本轮工学院正文2026",
+      "admissionMode": "ordinary_application_assessment_vs_recommendation_separate",
+      "degree": "PhD",
+      "programCode": null,
+      "sources": [
+        {
+          "url": "https://www.westlake.edu.cn/admissions/graduate/brochure/general/202608/t20260813_68957.html",
+          "title": "2027第一批校级通知（标题仅来自既存记录，本轮未重新验证）",
+          "readExtent": "web不可访问；Exa CRAWL_EMPTY_CONTENT",
+          "result": "failed",
+          "retrievalWindowUtc": [
+            "2026-10-06T06:50:02Z",
+            "2026-10-06T06:58:37.046389Z"
+          ],
+          "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+        },
+        {
+          "url": "https://engineering.westlake.edu.cn/Admission/GraduateProgram/",
+          "title": "博士生招生",
+          "readExtent": "Exa正文仍列2026招生轮次",
+          "result": "historical_only",
+          "retrievalWindowUtc": [
+            "2026-10-06T06:50:02Z",
+            "2026-10-06T06:58:37.046389Z"
+          ],
+          "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+        }
+      ],
+      "lastSuccessfulSourceCheckFromRepository": "2026-10-03T07:03:38Z，data/maintenance-2026-10-03.json；路线checkedDate2026-10-01保持",
+      "finding": "不新增开放状态或后续轮次，原2027第一批已截止结论保留。",
+      "gaps": [
+        "2027校级本轮未成功重读",
+        "工学院旧轮次2025-10-15不得平移成2026-10-15",
+        "无2027后续轮次核实"
+      ]
+    },
+    {
+      "institution": "HKUST",
+      "scope": "本部CSE2027/28 MPhil/PhD目录，含2026/27 Spring",
+      "status": "verified_scope",
+      "sourceCycle": [
+        "2027/28 Fall",
+        "2026/27 Spring"
+      ],
+      "admissionMode": "ordinary_online_application",
+      "degree": "MPhil/PhD",
+      "programCode": null,
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse",
+          "title": "Postgraduate Programs 2027/28 — Master of Philosophy and Doctor of Philosophy Programs in Computer Science and Engineering",
+          "readExtent": "标题年份+官方资格及APPLICATION全文；web/Exa交叉读",
+          "result": "verified_scope",
+          "retrievalWindowUtc": [
+            "2026-10-06T06:50:02Z",
+            "2026-10-06T06:58:37.046389Z"
+          ],
+          "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+        }
+      ],
+      "eligibility": "MPhil本科/等同；PhD优秀本科学位或规定时长研究生学习。英语TOEFL旧制80/2026-01-21起新制4.5；IELTS6.5单项5.5，单次且不接受在家测试；英语母语或英文授课学士可豁免。",
+      "dates": [
+        {
+          "date": "2026-11-01",
+          "kind": "nonlocal_spring_close",
+          "sourceCycle": "2026/27 Spring",
+          "time": null,
+          "timezone": null
+        },
+        {
+          "date": "2027-06-01",
+          "kind": "nonlocal_fall_close",
+          "sourceCycle": "2027/28 Fall",
+          "time": null,
+          "timezone": null
+        }
+      ],
+      "gaps": [
+        "普通截止未标时刻/时区，HKPFS12:00/23:59不能移用",
+        "本轮文件总清单链接403；材料未完整重核",
+        "博士本科入口不自动创建个人导师关联"
+      ]
+    },
+    {
+      "institution": "HKUST(GZ)",
+      "scope": "红鸟MPhil与校级PhD日期分核",
+      "status": "verified_scope",
+      "sourceCycle": [
+        "2027/28 Fall",
+        "2026/27 Spring PhD"
+      ],
+      "admissionMode": "ordinary_online_application",
+      "degree": "MPhil/PhD",
+      "programCode": null,
+      "sources": [
+        {
+          "url": "https://cft.hkust-gz.edu.cn/rbm-program/admission/",
+          "title": "Admission — College of Future Technology",
+          "readExtent": "正文2027/28及2028延期规则",
+          "result": "verified_scope",
+          "retrievalWindowUtc": [
+            "2026-10-06T06:50:02Z",
+            "2026-10-06T06:58:37.046389Z"
+          ],
+          "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+        },
+        {
+          "url": "https://static.hkust-gz.edu.cn/PGOAS/Guideline-for-Application-of-2027-28-Fall-Red-Bird-MPhil-Program.pdf",
+          "title": "Guideline for Application of 2027-28 Fall Red Bird MPhil Program",
+          "readExtent": "Exa PDF全文文本/标题，标2026-4-2；web超时，封面未视觉核查",
+          "result": "pdf_text_verified",
+          "retrievalWindowUtc": [
+            "2026-10-06T06:50:02Z",
+            "2026-10-06T06:58:37.046389Z"
+          ],
+          "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+        },
+        {
+          "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+          "title": "2026-27 Spring Intake / 2027-28 Fall Intake",
+          "readExtent": "official title and substantive body",
+          "result": "verified_scope",
+          "retrievalWindowUtc": [
+            "2026-10-06T06:50:02Z",
+            "2026-10-06T06:58:37.046389Z"
+          ],
+          "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+        }
+      ],
+      "materials": {
+        "required": [
+          "红鸟：学士/等同、英语条件及真实支持文件"
+        ],
+        "conditional": [
+          "成绩排名证明无法提供时需替代证明；文科作品/设计作品集按背景适用"
+        ],
+        "optionalExplicit": [
+          "红鸟personal statement/research proposal/references；不得套用普通PhD推荐信要求"
+        ]
+      },
+      "dates": [
+        {
+          "date": "2027-03-01",
+          "time": "23:59",
+          "timezone": null,
+          "kind": "redbird_close"
+        },
+        {
+          "date": "2026-12-04",
+          "time": "23:59",
+          "timezone": "GMT+8",
+          "kind": "spring_phd_international_close"
+        },
+        {
+          "date": "2026-12-25",
+          "time": "23:59",
+          "timezone": "GMT+8",
+          "kind": "spring_phd_chinese_close"
+        },
+        {
+          "date": "2027-06-15",
+          "time": "23:59",
+          "timezone": "GMT+8",
+          "kind": "fall_phd_international_close"
+        },
+        {
+          "date": "2027-07-15",
+          "time": "23:59",
+          "timezone": "GMT+8",
+          "kind": "fall_phd_chinese_close"
+        }
+      ],
+      "finding": "红鸟2026-04-02开放至2027-03-01；迟交转2028 Fall是项目规则，不是导师2028名额。",
+      "gaps": [
+        "PDF未视觉核查；支持材料清单部分项目不逐项标optional，不把所有成果项目解读成人均必需",
+        "红鸟deadline正文不明时区",
+        "未进申请门户、未核个人余位"
+      ]
+    },
+    {
+      "institution": "BU",
+      "scope": "Robotics & Autonomous Systems MS2027 Spring/Fall",
+      "status": "verified_scope",
+      "sourceCycle": [
+        "2027 Spring",
+        "2027 Fall"
+      ],
+      "admissionMode": "ordinary_online_application",
+      "degree": "MS",
+      "programCode": null,
+      "sources": [
+        {
+          "url": "https://www.bu.edu/eng/academics/explore-degree-programs/master-of-science-in-robotics-autonomous-systems/",
+          "title": "Master of Science in Robotics & Autonomous Systems",
+          "readExtent": "official title and substantive body",
+          "result": "verified_scope",
+          "retrievalWindowUtc": [
+            "2026-10-06T06:50:02Z",
+            "2026-10-06T06:58:37.046389Z"
+          ],
+          "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+        },
+        {
+          "url": "https://www.bu.edu/eng/admissions/graduate/graduate-admissions/application-deadlines-requirements/",
+          "title": "Application Deadlines & Requirements",
+          "readExtent": "official title and substantive body",
+          "result": "verified_scope",
+          "retrievalWindowUtc": [
+            "2026-10-06T06:50:02Z",
+            "2026-10-06T06:58:37.046389Z"
+          ],
+          "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+        }
+      ],
+      "finding": "与main一致：Spring/Fall2027明确open；机器人项目GRE不要求，不误用LEAP必需GRE；本科工程/CS起点。",
+      "materials": {
+        "required": [
+          "PS",
+          "CV",
+          "全部就读院校成绩单",
+          "至少2封推荐（最多3）"
+        ],
+        "conditional": [
+          "非英文原成绩另附专业英语翻译；非美国学位国际生适用英语考试或获准豁免"
+        ],
+        "optionalExplicit": [
+          "在修课程清单、补充信息"
+        ]
+      },
+      "dates": [
+        {
+          "date": "2026-11-01",
+          "time": null,
+          "timezone": null,
+          "kind": "spring_close"
+        },
+        {
+          "date": "2027-01-15",
+          "time": null,
+          "timezone": null,
+          "kind": "fall_priority"
+        },
+        {
+          "date": "2027-03-15",
+          "time": null,
+          "timezone": null,
+          "kind": "fall_final"
+        }
+      ],
+      "gaps": [
+        "本轮不重核单独国际学生豁免页",
+        "10月15仅BU本科毕业年级early consideration，不能泛用",
+        "没有个人导师名额"
+      ]
+    },
+    {
+      "institution": "PolyU",
+      "scope": "RA岗位260907004",
+      "status": "verified_scope",
+      "sourceCycle": null,
+      "admissionMode": "employment",
+      "degree": null,
+      "sources": [
+        {
+          "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260907004",
+          "title": "Postdoctoral Fellow / Research Associate / Research Assistant (Full-time/Part-time) (several posts)",
+          "readExtent": "官方岗位全文、Qualifications与Closing date；web/Exa",
+          "result": "verified_scope",
+          "retrievalWindowUtc": [
+            "2026-10-06T06:50:02Z",
+            "2026-10-06T06:58:37.046389Z"
+          ],
+          "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+        }
+      ],
+      "finding": "RA honours学位/等同、12个月；Associate硕士或honours+3年经历不能移给RA；广告截止2027-02-21。与main一致。",
+      "dates": [
+        {
+          "date": "2027-02-21",
+          "time": null,
+          "timezone": null,
+          "kind": "job_close"
+        }
+      ],
+      "gaps": [
+        "不是学位录取/导师名额；未核剩余岗位数或门户",
+        "另一个RA260724022本轮未调研"
+      ]
+    },
+    {
+      "institution": "JHU",
+      "scope": "JHU Robotics MSE",
+      "status": "verified_scope",
+      "routeIds": [
+        "jhu-robotics-mse"
+      ],
+      "details": {
+        "family": "JHU Robotics MSE",
+        "routeIds": [
+          "jhu-robotics-mse"
+        ],
+        "status": "verified",
+        "identity": {
+          "school": "Whiting School of Engineering",
+          "unit": "Laboratory for Computational Sensing and Robotics",
+          "degree": "Master of Science in Engineering in Robotics (MSE)",
+          "programmeCode": null,
+          "programmeCodeStatus": "not_published_in_read_sources",
+          "testCodesNotProgrammeCodes": {
+            "GRE": "4655",
+            "TOEFL": "C559"
+          }
+        },
+        "cycle": "Spring 2027 / Fall 2027",
+        "deadlines": [
+          {
+            "id": "jhu-robotics-mse-2027-spring",
+            "date": "2026-10-15",
+            "time": "23:59",
+            "sourceTimezone": "ET",
+            "timezone": "America/New_York",
+            "round": "Spring ordinary",
+            "status": "verified",
+            "sourceId": "jhu_admissions"
+          },
+          {
+            "id": "jhu-robotics-mse-2027-fall-priority",
+            "date": "2026-12-15",
+            "time": "23:59",
+            "sourceTimezone": "ET",
+            "timezone": "America/New_York",
+            "round": "Fall priority",
+            "status": "verified",
+            "sourceId": "jhu_admissions"
+          },
+          {
+            "id": "jhu-robotics-mse-2027-fall-final",
+            "date": "2027-01-15",
+            "time": "23:59",
+            "sourceTimezone": "ET",
+            "timezone": "America/New_York",
+            "round": "Fall ordinary",
+            "status": "verified",
+            "sourceId": "jhu_admissions"
+          }
+        ],
+        "applicationStatus": {
+          "published": "open",
+          "actualSubmission": "unresearched",
+          "remainingCapacity": "unresearched",
+          "sourceId": "jhu_admissions"
+        },
+        "eligibility": {
+          "status": "verified",
+          "summary": "Bachelor’s/equivalent completed before enrolment; engineering, science or mathematics, or demonstrated preparation/accomplishment in those fields. No master’s prerequisite is listed.",
+          "sourceIds": [
+            "jhu_admissions",
+            "jhu_general"
+          ]
+        },
+        "materials": {
+          "status": "verified_public_requirements_only",
+          "required": [
+            {
+              "item": "Graduate application, statement of purpose, three recommendations, transcripts from prior institutions",
+              "sourceId": "jhu_admissions"
+            },
+            {
+              "item": "Unofficial transcripts for review; final official records after admission/enrolment",
+              "sourceId": "jhu_general"
+            }
+          ],
+          "conditional": [
+            {
+              "item": "English evidence or an approved waiver for applicants covered by WSE language policy",
+              "sourceId": "jhu_english"
+            },
+            {
+              "item": "Certified English translations for non-English documents; university-provided English translations can suffice",
+              "sourceId": "jhu_international"
+            }
+          ],
+          "optional": [
+            {
+              "item": "GRE; reviewed if submitted",
+              "sourceId": "jhu_admissions"
+            },
+            {
+              "item": "Professional evaluation of non-US academic records, recommended but not required; cannot replace transcript/translation",
+              "sourceIds": [
+                "jhu_admissions",
+                "jhu_international"
+              ]
+            }
+          ],
+          "notEstablished": [
+            {
+              "item": "CV requirement",
+              "reason": "Mentioned generically on WSE responsibility/previous-applicant pages, but not explicitly classified as required in the programme checklist; do not invent a classification."
+            }
+          ]
+        },
+        "languageCautions": [
+          {
+            "summary": "TOEFL 100/5.0 and IELTS 7 are preferred scores, not universal mandatory cutoffs. Waiver has to be requested; English-medium instruction can require documentary support.",
+            "sourceId": "jhu_english"
+          },
+          {
+            "summary": "Central WSE lists Duolingo, but the Robotics-specific page names IELTS, Cambridge and TOEFL. Do not silently assert programme-specific DET acceptance from that mismatch.",
+            "sourceIds": [
+              "jhu_admissions",
+              "jhu_english"
+            ]
+          }
+        ],
+        "sourceAgeCaution": "The WSE general GRE paragraph still names 2026 and its reapplication section includes 2025. Use the programme’s expressly 2027 optional-GRE statement for the present cycle.",
+        "excludedDeadline": "July 1, 2027 applies to internal candidates including BSMSE; not an ordinary external deadline.",
+        "individualVacancies": "unresearched; no inference from programme or faculty presence"
+      },
+      "sourceIds": [
+        "jhu_admissions",
+        "jhu_programme",
+        "jhu_general",
+        "jhu_international",
+        "jhu_english"
+      ],
+      "evidenceScope": "仅本轮列明项目及字段；其余院系和个人名额未调研"
+    },
+    {
+      "institution": "PolyU",
+      "scope": "PolyU Intelligent Robotics Engineering MSc",
+      "status": "verified_scope",
+      "routeIds": [
+        "polyu_ire_msc"
+      ],
+      "details": {
+        "family": "PolyU Intelligent Robotics Engineering MSc",
+        "routeIds": [
+          "polyu_ire_msc"
+        ],
+        "status": "verified_with_partial_deadline_precision",
+        "identity": {
+          "school": "Faculty of Engineering",
+          "unit": "Department of Mechanical Engineering",
+          "degree": "Master of Science in Intelligent Robotics Engineering",
+          "programmeCode": "43101",
+          "subcode": "43101-IR-IRT",
+          "sourceIds": [
+            "polyu_programme",
+            "polyu_department"
+          ]
+        },
+        "cycle": "September 2027",
+        "deadlines": [
+          {
+            "id": "polyu_ire_msc-early",
+            "date": "2026-10-20",
+            "round": "Early",
+            "appliesTo": "Local and non-local mixed-mode applicants",
+            "time": null,
+            "timezone": null,
+            "precision": "Date confirmed; clock time and timezone not stated in read current-cycle sources",
+            "sourceId": "polyu_programme"
+          },
+          {
+            "id": "polyu_ire_msc-main",
+            "date": "2027-02-25",
+            "round": "Main",
+            "appliesTo": "Local and non-local mixed-mode applicants",
+            "time": null,
+            "timezone": null,
+            "precision": "Date confirmed; clock time and timezone not stated in read current-cycle sources",
+            "sourceId": "polyu_programme"
+          }
+        ],
+        "applicationStatus": {
+          "publishedGeneralOpeningDate": "2026-07-02",
+          "programmePage": "2027 offer with apply link",
+          "actualSubmission": "unresearched",
+          "remainingCapacity": "unresearched",
+          "recommendedExistingApplicationStatus": "unknown",
+          "sourceIds": [
+            "polyu_faq",
+            "polyu_eadmission"
+          ]
+        },
+        "eligibility": {
+          "status": "verified",
+          "summary": "Relevant engineering/science honours bachelor’s or relevant professional/equivalent qualifications; non-honours applicants with relevant qualifications/experience can be considered individually.",
+          "sourceId": "polyu_programme"
+        },
+        "materials": {
+          "status": "verified_public_requirements_only",
+          "required": [
+            {
+              "item": "Transcripts/certificates",
+              "sourceIds": [
+                "polyu_programme",
+                "polyu_documents"
+              ]
+            },
+            {
+              "item": "Identity document and programme-specific supporting records",
+              "sourceId": "polyu_faq"
+            }
+          ],
+          "conditional": [
+            {
+              "item": "Official English translations when original documents are not English",
+              "sourceId": "polyu_faq"
+            },
+            {
+              "item": "English-test evidence for non-native speakers whose qualifying degree was not English-medium",
+              "sourceId": "polyu_english"
+            }
+          ],
+          "optional": [
+            {
+              "item": "CV",
+              "sourceIds": [
+                "polyu_programme",
+                "polyu_documents"
+              ]
+            },
+            {
+              "item": "Relevant professional qualifications and awards, if any",
+              "sourceIds": [
+                "polyu_programme",
+                "polyu_documents"
+              ]
+            }
+          ],
+          "notEstablished": [
+            {
+              "item": "References / personal statement / research proposal",
+              "reason": "Not listed as required in this programme’s additional-documents row. Do not import requirements from other PolyU programmes."
+            }
+          ]
+        },
+        "language": {
+          "summary": "When applicable: IELTS Academic overall 6.0 or TOEFL iBT 80/120; page specifies 4.5/6 for tests on/after 21 Jan 2026. Single sitting within two years. TOEFL Home Edition, IELTS Online, IELTS Indicator and IELTS One Skill Retake are not accepted.",
+          "sourceId": "polyu_english"
+        },
+        "study": {
+          "mode": "Mixed Mode",
+          "duration": "1.5 years full-time / 2.5 years part-time",
+          "credits": 31,
+          "sourceId": "polyu_programme"
+        },
+        "cautions": [
+          "Rolling consideration until full; the published calendar is not a guarantee of remaining capacity.",
+          "The two-year dissertation-scholarship condition is separate from the ordinary advertised 1.5-year full-time duration.",
+          "Existing deadline timezone Asia/Hong_Kong is geographically plausible but was not expressly established by the cited current-cycle sources."
+        ],
+        "individualVacancies": "unresearched; no guaranteed dissertation supervisor"
+      },
+      "sourceIds": [
+        "polyu_department",
+        "polyu_programme",
+        "polyu_english",
+        "polyu_documents",
+        "polyu_faq",
+        "polyu_eadmission"
+      ],
+      "evidenceScope": "仅本轮列明项目及字段；其余院系和个人名额未调研"
+    },
+    {
+      "institution": "CUHK-Shenzhen",
+      "scope": "CUHK-Shenzhen SAI AI MPhil/PhD",
+      "status": "verified_scope",
+      "routeIds": [
+        "cuhksz-ai-mphil",
+        "cuhksz-ai-phd"
+      ],
+      "details": {
+        "family": "CUHK-Shenzhen SAI AI MPhil/PhD",
+        "routeIds": [
+          "cuhksz-ai-mphil",
+          "cuhksz-ai-phd"
+        ],
+        "status": "verified_with_partial_deadline_precision",
+        "identity": {
+          "institution": "The Chinese University of Hong Kong, Shenzhen",
+          "unit": "School of Artificial Intelligence",
+          "degrees": [
+            "MPhil in Artificial Intelligence",
+            "PhD in Artificial Intelligence"
+          ],
+          "programmeCode": null,
+          "programmeCodeStatus": "not_published_in_read_sources",
+          "researchGroupCode": "B(4) is a research-group preference, not a programme code"
+        },
+        "cycle": "Spring 2027 / Fall 2027",
+        "deadlines": [
+          {
+            "id": "cuhksz-cycle",
+            "date": "2026-10-31",
+            "round": "Spring 2027",
+            "time": null,
+            "timezone": null,
+            "sourceId": "cuhksz_current"
+          },
+          {
+            "id": "cuhksz-ai-2027-fall-deadline",
+            "date": "2027-05-31",
+            "round": "Fall 2027",
+            "time": null,
+            "timezone": null,
+            "sourceId": "cuhksz_current"
+          }
+        ],
+        "applicationStatus": {
+          "published": "Rolling applications; closes when full",
+          "actualSubmission": "unresearched",
+          "remainingCapacity": "unresearched",
+          "recommendedExistingApplicationStatus": "unknown"
+        },
+        "eligibility": {
+          "status": "verified",
+          "MPhil": "Recognised bachelor’s with at least second-class honours, or at least B, or listed equivalent qualification.",
+          "PhD": "Master’s, or bachelor’s with at least second-class honours, or bachelor’s with at least B and GPA 3.2/4.0, or listed equivalent qualification.",
+          "discipline": "Computing/related expected; outstanding other disciplines welcomed.",
+          "sourceId": "cuhksz_current",
+          "noTuimianEvidence": {
+            "status": "historical_explicit_plus_current_application_route",
+            "sourceId": "cuhksz_2026_article",
+            "note": "2025-11-24 notice is expressly for 2026, explicitly exempting national exam and recommendation eligibility. Keep historical label; do not use it as evidence of 2027 dates."
+          }
+        },
+        "materials": {
+          "status": "verified_public_requirements_only",
+          "required": [
+            {
+              "item": "PDF qualification/enrolment evidence; transcripts with grading criteria and academic ranking; two confidential recommendations; identity evidence; English CV and personal statement",
+              "sourceId": "cuhksz_current"
+            }
+          ],
+          "conditional": [
+            {
+              "item": "English-test scores or qualifying language alternative; mainland applicants must use mainland ID; further documents if requested",
+              "sourceId": "cuhksz_current"
+            }
+          ],
+          "optional": [
+            {
+              "item": "Papers, awards and publications if any",
+              "sourceId": "cuhksz_current"
+            }
+          ]
+        },
+        "language": {
+          "summary": "Meet language requirement before submission. IELTS Academic 6.5, TOEFL 79/120 or 4.5/6, or listed alternatives. Current page permits TOEFL Home Edition and IELTS Online; do not carry PolyU’s exclusions across institutions.",
+          "sourceId": "cuhksz_current"
+        },
+        "supervision": {
+          "summary": "Prior contact is optional. Up to three supervisors and three group codes. PhD principal supervisor must be SAI faculty.",
+          "sourceId": "cuhksz_current",
+          "groupRosterSourceId": "cuhksz_group",
+          "vacancyStatus": "unresearched; roster cannot establish current openings or individual PhD principal-supervisor eligibility"
+        },
+        "cautions": [
+          "Current node/35 explicitly says 2027; article/185 is a historical 2026 notice.",
+          "No cutoff time or timezone stated; retain nulls.",
+          "Some research groups admit only MPhil students; group membership does not prove a PhD route."
+        ]
+      },
+      "sourceIds": [
+        "cuhksz_current",
+        "cuhksz_2026_article",
+        "cuhksz_group",
+        "cuhksz_current_zh"
+      ],
+      "evidenceScope": "仅本轮列明项目及字段；其余院系和个人名额未调研"
+    }
+  ],
+  "nationalExaminationProcess": {
+    "institution": "China national postgraduate entrance examination",
+    "status": "verified_scope",
+    "sourceCycle": "2027",
+    "admissionMode": "national_entrance_examination",
+    "scope": "全国硕士统考公共流程，非具体学科项目",
+    "sources": [
+      {
+        "url": "https://yz.chsi.com.cn/kyzx/other/202609/20260927/2293973606.html",
+        "title": "2027年全国硕士研究生招生考试公告",
+        "readExtent": "official title and substantive body",
+        "result": "verified_scope",
+        "retrievalWindowUtc": [
+          "2026-10-06T06:50:02Z",
+          "2026-10-06T06:58:37.046389Z"
+        ],
+        "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+      },
+      {
+        "url": "https://yz.chsi.com.cn/kyzx/jybzc/202609/20260924/2293971512.html",
+        "title": "教育部部署2027年全国硕士研究生考试招生工作",
+        "readExtent": "official title and substantive body",
+        "result": "verified_scope",
+        "retrievalWindowUtc": [
+          "2026-10-06T06:50:02Z",
+          "2026-10-06T06:58:37.046389Z"
+        ],
+        "reviewFinalizedAtUtc": "2026-10-06T06:58:37.046389Z"
+      }
+    ],
+    "dates": [
+      {
+        "kind": "preregistration",
+        "startDate": "2026-10-09",
+        "endDate": "2026-10-12",
+        "dailyWindow": "09:00–22:00",
+        "timezone": null,
+        "timezoneNote": "两篇原文未明写时区，保留原精度，不虚称已标北京时间"
+      },
+      {
+        "kind": "formal_registration",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-24",
+        "dailyWindow": "09:00–22:00",
+        "timezone": null
+      },
+      {
+        "kind": "initial_exam",
+        "startDate": "2026-12-19",
+        "endDate": "2026-12-20",
+        "timezone": null
+      }
+    ],
+    "finding": "网上报名与确认一体化，填报同时提交报考点核验材料；照片经学信网APP在线拍摄；预报名细则由省级安排。未报名或审核不通过不能参加考试，须按时补交不合格材料，逾期不补办。",
+    "catalogMapping": "现有filterDeadlines要求routeIds至少关联一个收录项目；全国流程暂只写maintenance，不虚构导师/项目连接。独立公共流程展示需另行支持。",
+    "scopeLimits": [
+      "并非所有学位或院系适用统考",
+      "推免拟录取者另受禁止重报统考约束",
+      "没有查看个人系统、提交、采集照片或支付"
+    ]
+  },
+  "publicExperienceSearch": {
+    "result": "1条原始自述候选；另读1篇Reddit正文及当前可见评论，保留为侧证不追加完整案例",
+    "sources": [
+      {
+        "url": "https://heu4-baoyan.github.io/heu4-baoyan/baoyan/CompSci/2026/cases/bohansun/",
+        "result": "candidate_original_self_report",
+        "readExtent": "原文背景、申请清单、各校叙述、经历及总结；无评论返回"
+      },
+      {
+        "url": "https://www.reddit.com/r/gradadmissions/comments/1skewfr/georgia_tech_ms_roboticsece_2026_admissions/",
+        "result": "not_added_thin_process_case",
+        "readExtent": "正文与可见Comments Section；未展开more replies；不把相关帖子当评论",
+        "finding": "原帖更新为Georgia Tech拒绝；不同home unit的等待/已录取评论属于不同自述，不能推为统一放榜/截止规则",
+        "commercialDisclosure": "所读讨论无付费服务推广；未审计用户其他发言",
+        "datePrecision": "正文只见相对时间；搜索出现2026-04-13不提升为原文精确日期"
+      }
+    ],
+    "commercialSearchLeads": "搜到机构推广及转载，只作线索，未用于规则或经验候选。",
+    "officialRulesImpact": "none"
+  },
+  "limitations": [
+    "全国统考流程留在maintenance；当前deadline列表强制项目关联，待独立公共流程展示支持后再纳入界面",
+    "未提交、登录、联系、付款或触及用户私有资料",
+    "旧历史fixture严格锁定，候选需独立来源复核及新审计层后才可发布",
+    "PDF文本已读但红鸟PDF封面未视觉核验"
+  ],
+  "readWindowUtc": [
+    "2026-10-06T06:50:02Z",
+    "2026-10-06T07:04:36.890227Z"
+  ],
+  "candidateStatus": "not_published_pending_independent_review",
+  "nearTermSourceReads": [
+    {
+      "id": "jhu_admissions",
+      "url": "https://lcsr.jhu.edu/education/robotics-masters-program/admissions/",
+      "title": "Admissions – Laboratory for Computational Sensing + Robotics",
+      "heading": "Admissions",
+      "checkedAtUtc": "2026-10-06T06:51:37Z",
+      "readExtent": "Main substantive body lines 45–128 fully read; title and h1 verified",
+      "extractFiles": [
+        "near-term-sources/web-reads-01.json"
+      ],
+      "status": "verified",
+      "method": "web.run official page open/click"
+    },
+    {
+      "id": "jhu_programme",
+      "url": "https://lcsr.jhu.edu/education/robotics-masters-program/",
+      "title": "Master’s Degree in Robotics – Laboratory for Computational Sensing + Robotics",
+      "heading": "Master's Degree in Robotics",
+      "checkedAtUtc": "2026-10-06T06:52:10Z",
+      "readExtent": "Main body lines 44–227 including duration, current deadlines and programme structure fully read",
+      "extractFiles": [
+        "near-term-sources/web-reads-03.json"
+      ],
+      "status": "verified",
+      "method": "web.run official page open/click"
+    },
+    {
+      "id": "jhu_general",
+      "url": "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/general-application-requirements/",
+      "title": "General Application Requirements - Johns Hopkins Whiting School of Engineering",
+      "heading": "General Application Requirements",
+      "checkedAtUtc": "2026-10-06T06:53:08Z",
+      "readExtent": "Substantive body lines 80–227 fully read in two windows; stale-year subsections explicitly identified",
+      "extractFiles": [
+        "near-term-sources/web-reads-06.json",
+        "near-term-sources/web-reads-07.json"
+      ],
+      "status": "verified_with_stale_subsections",
+      "method": "web.run official page open/click"
+    },
+    {
+      "id": "jhu_international",
+      "url": "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/international-students/",
+      "title": "International Students - Johns Hopkins Whiting School of Engineering",
+      "heading": "Information for International Students",
+      "checkedAtUtc": "2026-10-06T06:52:21Z",
+      "readExtent": "Title/h1 and substantive requirements lines 81–120 read; later footer not needed",
+      "extractFiles": [
+        "near-term-sources/web-reads-04.json"
+      ],
+      "status": "verified",
+      "method": "web.run official page open/click"
+    },
+    {
+      "id": "jhu_english",
+      "url": "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/international-students/english-proficiency-policy-test-waiver-eligibility/",
+      "title": "English Proficiency Policy and Test Waiver Eligibility - Johns Hopkins Whiting School of Engineering",
+      "heading": "English Proficiency Policy and Test Waiver Eligibility",
+      "checkedAtUtc": "2026-10-06T06:52:45Z",
+      "readExtent": "Full substantive policy lines 81–177 read including thresholds, waivers and score delivery",
+      "extractFiles": [
+        "near-term-sources/web-reads-06.json"
+      ],
+      "status": "verified",
+      "method": "web.run official page open/click"
+    },
+    {
+      "id": "polyu_department",
+      "url": "https://www.polyu.edu.hk/me/study/taught-postgraduate-programmes/msc-in-intelligent-robotics-engineering/",
+      "title": "Master of Science in Intelligent Robotics Engineering 智能機械人工程學理學碩士學位 | Department of Mechanical Engineering",
+      "heading": null,
+      "checkedAtUtc": "2026-10-06T06:53:49Z",
+      "readExtent": "Title and main body lines 286–387 read; initial successful full read included structure and scholarship; later excerpt reconfirms dates/eligibility",
+      "extractFiles": [
+        "near-term-sources/web-reads-09.json"
+      ],
+      "status": "verified",
+      "method": "web.run official page open/click"
+    },
+    {
+      "id": "polyu_programme",
+      "url": "https://www.polyu.edu.hk/study/pg/tpg/2027/43101-ir-irt",
+      "title": "43101-IR-IRT - Master of Science in Intelligent Robotics Engineering | The Hong Kong Polytechnic University (PolyU)",
+      "heading": null,
+      "checkedAtUtc": "2026-10-06T06:52:01Z",
+      "readExtent": "Full substantive programme body lines 41–282 read; title, code, subcode, entry, local/non-local deadlines and material labels verified",
+      "extractFiles": [
+        "near-term-sources/web-reads-02.json"
+      ],
+      "status": "verified",
+      "method": "web.run official page open/click"
+    },
+    {
+      "id": "polyu_english",
+      "url": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/admission-requirements-tpg",
+      "title": "Admission Requirements (TPG) | The Hong Kong Polytechnic University (PolyU)",
+      "heading": "Admission Requirements",
+      "checkedAtUtc": "2026-10-06T06:52:01Z",
+      "readExtent": "Full substantive body lines 43–69 read",
+      "extractFiles": [
+        "near-term-sources/web-reads-02.json"
+      ],
+      "status": "verified",
+      "method": "web.run official page open/click"
+    },
+    {
+      "id": "polyu_documents",
+      "url": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/additional-supporting-documents-required-application-admissions-tpg",
+      "title": "Additional Supporting Documents Required for Application for Admissions (TPG) | The Hong Kong Polytechnic University (PolyU)",
+      "heading": null,
+      "checkedAtUtc": "2026-10-06T06:52:10Z",
+      "readExtent": "Title/current semester selector plus 43101 programme row lines 145–146 read; other programmes excluded",
+      "extractFiles": [
+        "near-term-sources/web-reads-03.json"
+      ],
+      "status": "verified_target_row",
+      "method": "web.run official page open/click"
+    },
+    {
+      "id": "polyu_faq",
+      "url": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/frequently-asked-questions-tpg",
+      "title": "Frequently Asked Questions (TPG) | The Hong Kong Polytechnic University (PolyU)",
+      "heading": "Frequently Asked Questions",
+      "checkedAtUtc": "2026-10-06T06:53:08Z",
+      "readExtent": "Title and body lines 43–187 read; opening, materials and translation rules; no deadline timezone located",
+      "extractFiles": [
+        "near-term-sources/web-reads-04.json",
+        "near-term-sources/web-reads-07.json"
+      ],
+      "status": "verified_target_sections",
+      "method": "web.run official page open/click"
+    },
+    {
+      "id": "polyu_eadmission",
+      "url": "https://www38.polyu.edu.hk/eAdmission/index.do",
+      "title": "PolyU eAdmission",
+      "heading": null,
+      "checkedAtUtc": "2026-10-06T06:53:49Z",
+      "readExtent": "Public unauthenticated landing page fully read; Sept 2027 opening/early date; no login or form actions",
+      "extractFiles": [
+        "near-term-sources/web-reads-09.json"
+      ],
+      "status": "verified_public_landing_only",
+      "method": "web.run official page open/click"
+    },
+    {
+      "id": "cuhksz_current",
+      "url": "https://sai.cuhk.edu.cn/en/node/35",
+      "title": "MPhil-PhD in Artificial Intelligence | 人工智能学院",
+      "heading": "MPhil-PhD in Artificial Intelligence (h2)",
+      "checkedAtUtc": "2026-10-06T06:53:08Z",
+      "readExtent": "Full substantive body lines 131–368 read across windows: model, current dates, eligibility, materials, groups and funding; dates use explicit current How to Apply section",
+      "extractFiles": [
+        "near-term-sources/web-reads-01.json",
+        "near-term-sources/web-reads-04.json",
+        "near-term-sources/web-reads-07.json"
+      ],
+      "status": "verified",
+      "method": "web.run official page open/click"
+    },
+    {
+      "id": "cuhksz_2026_article",
+      "url": "https://sai.cuhk.edu.cn/article/185",
+      "title": "SAI招生 | 人工智能哲学硕士-博士项目2026年入学申请进行中 | 人工智能学院",
+      "heading": "SAI招生 | 人工智能哲学硕士-博士项目2026年入学申请进行中 (h2)",
+      "checkedAtUtc": "2026-10-06T06:53:49Z",
+      "readExtent": "Full substantive body lines 124–175 including publication date 2025-11-24 read; used only for historical explicit application-route rule",
+      "extractFiles": [
+        "near-term-sources/web-reads-09.json"
+      ],
+      "status": "verified_historical_only",
+      "method": "web.run official page open/click"
+    },
+    {
+      "id": "cuhksz_group",
+      "url": "https://sai.cuhk.edu.cn/page/205",
+      "title": "具身智能：从原理到实践 | 人工智能学院",
+      "heading": "具身智能：从原理到实践 (h2)",
+      "checkedAtUtc": "2026-10-06T06:53:49Z",
+      "readExtent": "Full substantive body lines 124–164 read; roster only, no dated student vacancy declaration",
+      "extractFiles": [
+        "near-term-sources/web-reads-09.json"
+      ],
+      "status": "verified_roster_only",
+      "method": "web.run official page open/click"
+    },
+    {
+      "id": "cuhksz_current_zh",
+      "url": "https://sai.cuhk.edu.cn/node/35",
+      "title": "人工智能哲学硕士-博士 | 人工智能学院",
+      "heading": "人工智能哲学硕士-博士 (h2)",
+      "checkedAtUtc": "2026-10-06T06:58:36Z",
+      "readExtent": "Title and substantive programme/admission body lines 135–282 read, including exact 2027 dates, eligibility, mean-score evidence condition, and identity/optional materials. Later group/funding/FAQ sections not fully read in Chinese.",
+      "extractFiles": [
+        "near-term-sources/web-reads-10.json"
+      ],
+      "status": "verified_target_admission_sections",
+      "method": "web.run official page open"
+    }
+  ],
+  "nearTermReadWindowUtc": {
+    "start": "2026-10-06T06:51:24Z",
+    "end": "2026-10-06T06:58:36Z"
+  },
+  "heldCandidates": [
+    {
+      "id": "hkust-cse-2027-spring-nonlocal-deadline",
+      "reason": "2026/27 Spring日期确证，但现有CSE路线是2027/28 Fall。未建立独立春季身份前，不挂接到秋季路线。"
+    },
+    {
+      "id": "national-examination-2027-calendar",
+      "reason": "现日历要求具体routeIds；全国流程只留本维护记录，待公共流程显示支持，不虚构学校或导师关联。"
+    }
+  ],
+  "sourceReviewCompletedAtUtc": "2026-10-06T07:04:36.890227Z",
+  "independentSourceReview": {
+    "reviewWindowUtc": [
+      "2026-10-06T07:01:42Z",
+      "2026-10-06T07:05:28Z"
+    ],
+    "outcome": "PolyU与HEU内容可收；浙大来源来历和南科大材料措辞已更正；HKUST春季关联暂缓。",
+    "parentIntegrationReview": "pending",
+    "remoteWrites": false
+  }
+}

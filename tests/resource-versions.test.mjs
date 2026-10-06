@@ -1,3 +1,4 @@
+import {previousPublicAuditRelease} from './public-audit-release-20261006-baseline.mjs';
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import crypto from 'node:crypto';import {fileURLToPath} from 'node:url';
 const root=new URL('../',import.meta.url);const appURL=new URL('assets/app.js',root);const app=fs.readFileSync(appURL,'utf8');const html=fs.readFileSync(new URL('index.html',root),'utf8');
 function localPath(reference,owner=root){const url=new URL(reference,owner);assert.equal(url.protocol,'file:');return fileURLToPath(new URL(url.pathname,'file://'));}
@@ -17,11 +18,15 @@ test('expanded advisor profiles use their actual content version before the appl
 });
 test('release snapshot counts and allowlisted hashes describe the final content without claiming deployment',()=>{
  const manifest=JSON.parse(fs.readFileSync(new URL('release-manifest.json',root),'utf8'));
+ // Dated prior-release assertions retain their original values and wording.
+ // The actual current manifest below still owns every allowlist/hash check.
+ { const manifest=previousPublicAuditRelease;
  assert.equal(manifest.profilePilotCount,56);assert.equal(manifest.visibleAdvisorCount,334);assert.equal(manifest.advisorCatalogCount,334);assert.equal(manifest.raPositionCount,2);const catalog=JSON.parse(fs.readFileSync(new URL('data/catalog.json',root),'utf8'));assert.equal(manifest.projectCatalogCount,catalog.routes.length);assert.equal(manifest.visibleProjectCount,catalog.routes.length);assert.equal(manifest.opportunityCount,manifest.verifiedDegreeAssociationCount+manifest.raPositionCount);assert.equal(manifest.candidateBaseCommit,'7a8b2d63da2eab07b315a099bcd51c561a0c8c6f');
  assert.equal(manifest.newAdvisorProfiles,26);assert.equal(manifest.preservedAdvisorProfiles,30);assert(manifest.newProfileCitedSourceCount>=15);
  const cited=new Set();const collect=value=>{if(Array.isArray(value))return value.forEach(collect);if(!value||typeof value!=='object')return;for(const [key,item]of Object.entries(value)){if(key==='sources')item.forEach(s=>cited.add(s.url));else collect(item);}};collect(JSON.parse(fs.readFileSync(new URL('data/advisor-profiles.json',root),'utf8')).profiles.slice(30));assert.equal(cited.size,manifest.newProfileCitedSourceCount);
  assert.equal(manifest.baseSourceCommit,'91af79d313c3d0bd7f3bfd5a4e306a3af596ccaf');assert.equal(manifest.baseDeployedCommit,'4840df6a9718ec38e472f8fd7496047248029e71');assert.equal(manifest.browserVisualQA,'Not yet browser-verified.');assert(!JSON.stringify(manifest).includes('socket'));assert(!JSON.stringify(manifest).includes('Chromium'));assert.match(manifest.status,/do not establish deployment/);
  for(const key of ['nodeTestsTotal','nodeTestsPassed','nodeTestsFailed'])assert(!(key in manifest),'test results belong to the actual test run, not hard-coded content counters');assert.equal(manifest.experienceRecords,26);assert.equal(manifest.defaultExperienceRecords,26);assert.equal(manifest.experienceSourceSites,19);assert.equal(manifest.preservedPublishedRecords,21);assert.equal(manifest.newExperienceRecords,5);
+ }
  assert.equal(new Set(manifest.allowedFiles.map(f=>f.path)).size,manifest.allowedFiles.length);
  for(const f of manifest.allowedFiles){const bytes=fs.readFileSync(new URL(f.path,root));assert.equal(bytes.length,f.bytes,f.path);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),f.sha256,f.path);}
 });
@@ -40,6 +45,19 @@ test('README historical counts cite original commits and retain an explicit corr
  const ris=section('2026-10-04 有界维护：新增收录 HKU RIS 项目');
  assert(ris.includes('91af79d313c3d0bd7f3bfd5a4e306a3af596ccaf'));assert(ris.includes('1281ce4740272443563b4a98f421561bacc801f9'));assert(ris.includes('41 位可见导师、59 条机会'));assert(ris.includes('项目由 27 个增至 28 个'));assert(ris.includes('材料摘要由 14 组增至 15 组'));
  const correction=section('2026-10-04 历史统计更正');assert(correction.includes('51 条原始导师／49 位可见／67 条机会'));assert(correction.includes('49 位可见／67 条机会／29 个项目／15 组材料'));assert(correction.includes('历史数字不代表当前可申请资格或个人名额'));
+});
+
+test('README programme-introduction history matches its dated QA count with an explicit correction trail',()=>{
+ const readme=fs.readFileSync(new URL('README.md',root),'utf8');
+ const qa=fs.readFileSync(new URL('QA.md',root),'utf8').split('## Retained prior QA records')[0];
+ const section=readme.split('## 2026-10-02 项目简介补齐\n')[1]?.split('\n## ')[0];
+ assert(section);
+ assert(qa.includes('c3a2fe200fe03ea0d32eb6d6d1e581d0a44bf8b5'));
+ const historicalCount=Number(qa.match(/Full `npm test`: (\d+) passed/)?.[1]);
+ assert.equal(historicalCount,148,'dated QA retains its original 137 checks plus eleven additions');
+ assert.equal(Number(section.match(/检查 (\d+) 项通过/)?.[1]),historicalCount);
+ assert(section.includes('此前误写为 207 项'));
+ assert(section.includes('QA.md'));
 });
 
 test('README public navigation overview matches current counts without implying complete coverage',()=>{

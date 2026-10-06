@@ -1,4 +1,4 @@
-import test from 'node:test'; import assert from 'node:assert/strict'; import fs from 'node:fs'; import crypto from 'node:crypto';
+import test from 'node:test'; import assert from 'node:assert/strict'; import fs from './public-audit-20261006-history-fs.mjs'; import crypto from 'node:crypto';
 import {fourSchoolsExpansionBytes,fourSchoolsExpansionObject,fourSchoolsExpansionFixture as f} from './four-schools-expansion-baseline.mjs';
 import {snapshotHash as hash,snapshotText as serialize} from './strict-history-transform.mjs';
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url));

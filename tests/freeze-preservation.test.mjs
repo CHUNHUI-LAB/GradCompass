@@ -61,6 +61,7 @@ test('freeze preserves reviewed metadata, refreshes real counts and hashes, and 
   const before=snapshot(dir);
   const injected=structuredClone(sourceManifest);
   injected.futureContributorMetadata={source:'preserve this exact object',nested:{value:17,list:[null,false,'后续审核']}};
+  injected.revision='future-reviewed-maintenance-revision';
   injected.browserVisualQA='A future reviewer recorded an exact run here.';
   injected.overseasProjects20261004.futureEvidence={review:'preserve nested metadata'};
   const counts=JSON.parse(execFileSync('node',['scripts/public-counts.mjs'],{cwd:dir,encoding:'utf8'}));

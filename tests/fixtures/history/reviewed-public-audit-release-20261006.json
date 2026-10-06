@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "baseCommit": "079eaea16e636f2e91ab2cb0e6ffa309f589440e",
+  "scope": "Exact content-version-only asset changes for the public audit candidate. No frontend logic or structure changes.",
+  "files": {
+    "assets/app.js": {
+      "kind": "text_fragments",
+      "beforeSha256": "234f1c7e60f7f66e1ecfc2d453f457c965ef2a53c2501592a3cdbd7dc38b15de",
+      "afterSha256": "672d4904e5c5bf1af91e403f6001042c90b60b2d3c15ac61fa12e5f4f3314daf",
+      "beforeGitBlob": "184c377d8bbf05aa251dff9f606d94aebea78af1",
+      "afterGitBlob": "e108fa3442b177148f9513ee3de0494a8ee4e907",
+      "operations": [
+        {
+          "before": "catalog.json?v=dcd05106b6bf",
+          "after": "catalog.json?v=55803258de42"
+        },
+        {
+          "before": "application-experiences.json?v=3e46c7e8eea0",
+          "after": "application-experiences.json?v=9d025238102e"
+        }
+      ]
+    },
+    "index.html": {
+      "kind": "text_fragments",
+      "beforeSha256": "91d414b12c05307a0797cb0050739104c46d09e3fbc4dc13ec29145b62c98a06",
+      "afterSha256": "9ef4f28c1830d9ed484fdc9fc3e6e22e0a4b7dcd84368bae7f15e221119db7de",
+      "beforeGitBlob": "d5f6064be99377332f0feeebde9b17ef4da63280",
+      "afterGitBlob": "437ed6b9bd3fd6aedd6f1846eb653e2a28667b8e",
+      "operations": [
+        {
+          "before": "./assets/app.js?v=234f1c7e60f7",
+          "after": "./assets/app.js?v=672d4904e5c5"
+        }
+      ]
+    }
+  }
+}

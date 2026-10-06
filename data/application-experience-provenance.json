@@ -481,6 +481,44 @@
       "sourceRereadAtUtc": "2026-10-04T03:11:39Z",
       "sourceRereadNote": "本批汇总者在该时刻再次读取全文并核对本人背景、未优营、PI接触与未参加实习；当时独立复核尚待完成，后续原文复核结果见independentReview。",
       "bachelorApplicability": "直接相关于本科直博准备，尤其适合科研方向匹配、套磁沟通、实习排期和阶段状态识别；不是当前西湖招生制度、资格要求或成功概率的依据。"
+    },
+    {
+      "id": "grad-heu-sunbohan-research-selection-2026",
+      "url": "https://heu4-baoyan.github.io/heu4-baoyan/baoyan/CompSci/2026/cases/bohansun/",
+      "sourceType": "first_person_self_report",
+      "authorVsComment": "正文个人经历与作者泛化/转述分开；未读评论。",
+      "confidence": "可读原文自述，身份、成绩、录取文件未独立验证。",
+      "reviewedAtUtc": "2026-10-06T07:01:05.430555Z",
+      "sourceRetrievalWindowUtc": [
+        "2026-10-06T06:53:35Z",
+        "2026-10-06T06:54:39Z"
+      ],
+      "dateInterpretation": "2026届在正文，准确发表日期未知。",
+      "officialRulesVerified": false,
+      "officialPolicyImpact": "none",
+      "currentRulesExtrapolation": "none",
+      "excludedClaims": [
+        "不采用招生门槛、名额、资助、证书与录取权限泛化",
+        "不采用放弃参加学校的考核细节为亲历"
+      ],
+      "independentReview": {
+        "status": "source_content_accepted_after_schema_correction_parent_integration_review_pending",
+        "reviewWindowUtc": [
+          "2026-10-06T07:01:42Z",
+          "2026-10-06T07:05:28Z"
+        ],
+        "mode": "Independent original public body reread; no comments, private correspondence or offer documents.",
+        "scope": "Author background, stated final choice, application table, withdrawals and own account; hearsay and policy generalizations excluded.",
+        "requiredCorrections": "Retain unknown publication date; use existing scope and fieldLocations provenance fields.",
+        "wordingCheckedAtUtc": "2026-10-06T07:06:33.431201Z"
+      },
+      "scope": "公开原文正文，不含私信、录取材料或站外社媒；无评论正文返回。",
+      "fieldLocations": {
+        "authorContext": "背景",
+        "outcome": "页面开头最终去向与申请情况",
+        "stageSeparation": "申请情况第4、5项及相应正文明确入营后放弃",
+        "summary": "经历分享与总结"
+      }
     }
   ],
   "excludedSourceCategories": [

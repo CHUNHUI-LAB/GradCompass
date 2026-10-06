@@ -62,6 +62,7 @@ files.extend(['tests/avatar-initials-baseline.mjs','tests/avatar-initials-histor
 files.extend(['tests/jhu-language-baseline.mjs','tests/jhu-language-history-fs.mjs','tests/jhu-language-current.test.mjs','tests/fixtures/history/reviewed-jhu-language-20261005.json'])
 files.extend(['data/four-schools-exploration-20261006.json','tests/four-schools-review.test.mjs','tests/four-schools-expansion-baseline.mjs','tests/four-schools-expansion-history.test.mjs','tests/fixtures/history/reviewed-four-schools-expansion-20261006.json'])
 files.extend(['tests/sjtu-expansion-baseline.mjs','tests/sjtu-expansion-history.test.mjs','tests/fixtures/history/reviewed-sjtu-expansion.json'])
+files.extend(['data/maintenance-2026-10-06.json', 'tests/public-audit-20261006.test.mjs', 'tests/public-audit-20261006-baseline.mjs', 'tests/public-audit-20261006-history-fs.mjs', 'tests/fixtures/history/reviewed-public-audit-20261006.json', 'tests/public-audit-release-20261006-baseline.mjs', 'tests/public-audit-release-20261006.test.mjs', 'tests/fixtures/history/reviewed-public-audit-release-20261006.json', 'tests/fixtures/history/reviewed-pre-public-audit-release-079eaea.json'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):
@@ -74,7 +75,7 @@ def collect_sources(value):
 collect_sources(json.loads((root/'data/advisor-profiles.json').read_text())['profiles'][30:])
 manifest['newProfileCitedSourceCount']=len(profile_sources)
 manifest.update(json.loads(subprocess.check_output(['node','scripts/public-counts.mjs'],cwd=root,text=True)))
-manifest['revision']='four-schools-exploration-20261006'
+# The reviewed revision is caller-owned metadata, not a derived content counter.
 manifest['allowedFiles']=[]
 for name in sorted(set(files)):
     p=root/name

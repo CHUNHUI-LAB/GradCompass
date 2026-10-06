@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './public-audit-20261006-history-fs.mjs';
 import crypto from 'node:crypto';
 import {jhuLanguageBytes,jhuLanguageFixture as f} from './jhu-language-baseline.mjs';
 import {snapshotHash as hash} from './strict-history-transform.mjs';
