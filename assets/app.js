@@ -316,7 +316,7 @@ async function loadExperienceSupplement(){
  refreshOptionalView('experiences');
 }
 async function loadProfileSupplement(){
- try{advisorProfiles=profileMap(await optionalJSON(new URL('../data/advisor-profiles.json?v=f1b3044692f6',import.meta.url)),catalog.advisors);catalog={...catalog,advisorProfiles};}
+ try{advisorProfiles=profileMap(await optionalJSON(new URL('../data/advisor-profiles.json?v=3349af249f73',import.meta.url)),catalog.advisors);catalog={...catalog,advisorProfiles};}
  catch{}
  refreshOptionalView('advisors');refreshOptionalDetail('advisor');
 }

@@ -8,13 +8,13 @@
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
   "browserVisualQA": "Not yet browser-verified.",
-  "profilePilotCount": 56,
+  "profilePilotCount": 61,
   "visibleAdvisorCount": 334,
   "opportunityCount": 59,
   "raPositionCount": 2,
   "newAdvisorProfiles": 26,
   "preservedAdvisorProfiles": 30,
-  "newProfileCitedSourceCount": 72,
+  "newProfileCitedSourceCount": 82,
   "experienceRecords": 27,
   "defaultExperienceRecords": 27,
   "experienceSourceSites": 20,
@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 49518,
-      "sha256": "d6298c365fa8db93d562ee7d664f1c3a63d287803536c4b529f91b8eb92c0679"
+      "bytes": 50425,
+      "sha256": "027a8491059c77b185d3ccf767f00b2a38aa37d52e991433c5ca82571f6dc9a9"
     },
     {
       "path": "REPO-MAP.md",
@@ -53,7 +53,7 @@
     {
       "path": "assets/app.js",
       "bytes": 73911,
-      "sha256": "0c46b2f2ce01900e51041128a7f1645bbd59d39b832b86c0e03ed55378d0395d"
+      "sha256": "64e0021d433f7f673c05e7eeb43b41baabe93666705ac36656b6c44bc5720af1"
     },
     {
       "path": "assets/campus-art.webp",
@@ -107,8 +107,8 @@
     },
     {
       "path": "data/advisor-profiles.json",
-      "bytes": 424965,
-      "sha256": "f1b3044692f6bbebed815428f10133c535272bcccce7bd431657cf432511d042"
+      "bytes": 451802,
+      "sha256": "3349af249f730d7c56575a4cdde7828144434c8f7165c8ba774f3c4ba3db2fe9"
     },
     {
       "path": "data/application-experience-provenance.json",
@@ -238,7 +238,7 @@
     {
       "path": "index.html",
       "bytes": 8270,
-      "sha256": "c9550f3cd01835c8a7dbd33b162df93d20749a997219cafcfab99568c7ada050"
+      "sha256": "99b189411c14072b6180c59edd2da58744a4c7f631ad86bee57eda704e906fb4"
     },
     {
       "path": "package.json",
@@ -247,8 +247,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 11343,
-      "sha256": "2338d6e6142da300600e80eae2145fca53b743fee9e7a2de71edeac7ceac4f40"
+      "bytes": 11373,
+      "sha256": "11224e097736b77206cdf519c4d8f9b142595d07c80913af9147064c70aae922"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -689,6 +689,11 @@
       "path": "tests/pku-history.test.mjs",
       "bytes": 7769,
       "sha256": "577f89d6dfd9d719912d349a9621ef4d16ec1bc7f021cb2591530944f6c6b111"
+    },
+    {
+      "path": "tests/pku-profiles.test.mjs",
+      "bytes": 4089,
+      "sha256": "576c41237ae3ee37b4ba4693836ffa7d7979a798a3031db02fb4ca14f1f789d8"
     },
     {
       "path": "tests/pku-review.test.mjs",

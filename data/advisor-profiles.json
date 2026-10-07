@@ -8659,10 +8659,623 @@
       "checkedDate": "2026-10-04",
       "confirmedVacancy": false,
       "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "pku-ying-xianghua",
+      "cardSummaryZh": "围绕计算机视觉、三维重建与计算成像，研究机器如何从图像恢复场景结构并形成可计算的视觉表示。",
+      "overview": {
+        "textZh": "英向华为北京大学智能学院信息科学中心教授，2004 年获中国科学院模式识别与智能系统博士。官方档案将其研究概括为计算机视觉、虚拟现实和计算成像，并列出三维重建、摄像机标定、多视点几何、场景特征检测和高维数据拟合等方向。",
+        "sources": [
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1362/2272.htm",
+            "checkedDate": "2026-10-07"
+          },
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+            "checkedDate": "2026-10-07"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "北京大学智能学院信息科学中心（公开教师档案）",
+        "affiliation": {
+          "textZh": "官方教师页将英向华列于智能学院信息科学中心；公开页面没有把他单独标为一个独立实验室，因此这里不把院系归属扩写成实验室归属。",
+          "sources": [
+            {
+              "url": "https://www.cis.pku.edu.cn/info/1362/2272.htm",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        },
+        "themes": [
+          "计算机视觉",
+          "三维重建与摄像机标定",
+          "多视点几何",
+          "计算成像与机器学习"
+        ],
+        "structure": {
+          "textZh": "公开档案列出论文、专利和学术服务信息，但未公布当前团队规模、成员名单或指导分工。",
+          "sources": [
+            {
+              "url": "https://www.cis.pku.edu.cn/info/1362/2272.htm",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "官方研究范围涉及三维视觉、虚拟现实与计算成像；这是公开研究方向，不等同于向每位新生承诺具体设备或算力。",
+            "sources": [
+              {
+                "url": "https://www.cis.pku.edu.cn/info/1362/2272.htm",
+                "checkedDate": "2026-10-07"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "三维重建与摄像机标定",
+          "year": 2026,
+          "venue": "北京大学智能学院官方教师简介（研究成果范围）",
+          "summaryZh": "官方简介将三维重建、摄像机标定和多视点几何列为长期研究重点；这里按研究主题呈现，未据此指认单篇论文或当前项目。",
+          "url": "https://www.cis.pku.edu.cn/info/1362/2272.htm",
+          "sources": [
+            {
+              "url": "https://www.cis.pku.edu.cn/info/1362/2272.htm",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        },
+        {
+          "title": "高维数据拟合与不变量表示",
+          "year": 2026,
+          "venue": "北京大学智能学院官方教师简介（研究成果范围）",
+          "summaryZh": "官方简介列出高维数据拟合、场景特征检测和相关不变量研究方向；未把主题摘要当作具体招生项目。",
+          "url": "https://www.cis.pku.edu.cn/info/1362/2272.htm",
+          "sources": [
+            {
+              "url": "https://www.cis.pku.edu.cn/info/1362/2272.htm",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "北京大学智能学院 2027 年招生指南把英向华列入计算机视觉和智能机器人方向博士生导师；这是项目/方向参考，未核实个人当期余位或 2028 Fall 接收。",
+        "sources": [
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+            "checkedDate": "2026-10-07"
+          },
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1362/2272.htm",
+            "checkedDate": "2026-10-07"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人当期招生余位、资助额度与最终导师接收决定未在公开页面中核实",
+        "2028 Fall 是否开放、对应学位与申请批次尚未找到个人明确声明"
+      ],
+      "links": [
+        {
+          "label": "北京大学智能学院教师页",
+          "url": "https://www.cis.pku.edu.cn/info/1362/2272.htm"
+        },
+        {
+          "label": "北京大学智能学院 2027 招生指南",
+          "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm"
+        }
+      ],
+      "checkedDate": "2026-10-07",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "pku-zhaohuijing",
+      "cardSummaryZh": "聚焦机器感知、智能车与自主移动机器人，把视觉、激光和定位问题放进真实交通与移动场景。",
+      "overview": {
+        "textZh": "赵卉菁为北京大学智能学院教授，官方档案显示其获东京大学博士，研究方向包括机器感知、智能车、自动驾驶和自主移动机器人。页面还列出面向车辆定位、越野场景语义分割等研究成果。",
+        "sources": [
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1362/2246.htm",
+            "checkedDate": "2026-10-07"
+          },
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+            "checkedDate": "2026-10-07"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "POSS / 机器感知与智能车研究方向（公开教师档案）",
+        "affiliation": {
+          "textZh": "官方页面将其研究与机器感知、智能车和自主移动机器人关联，并链接 POSS 研究资源；页面没有提供当前独立课题组的成员规模，因此不据此推断团队结构。",
+          "sources": [
+            {
+              "url": "https://www.cis.pku.edu.cn/info/1362/2246.htm",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        },
+        "themes": [
+          "机器感知",
+          "智能车与自动驾驶",
+          "自主移动机器人",
+          "多模态环境感知"
+        ],
+        "structure": {
+          "textZh": "公开教师页展示研究项目、论文和研究方向，但未公布当前成员名单、招生分工或稳定的实验室人数。",
+          "sources": [
+            {
+              "url": "https://www.cis.pku.edu.cn/info/1362/2246.htm",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "公开方向涉及 LiDAR/视觉里程计、车辆定位和移动场景感知；这些是研究主题，不代表具体硬件或算力对申请者开放。",
+            "sources": [
+              {
+                "url": "https://www.cis.pku.edu.cn/info/1362/2246.htm",
+                "checkedDate": "2026-10-07"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "An Active and Contrastive Learning Framework for Fine-Grained Off-Road Semantic Segmentation",
+          "year": 2023,
+          "venue": "IEEE Transactions on Intelligent Vehicles（官网列举）",
+          "summaryZh": "官方教师页列举该论文，主题对应越野场景的细粒度语义分割与主动/对比学习。",
+          "url": "https://www.cis.pku.edu.cn/info/1362/2246.htm",
+          "sources": [
+            {
+              "url": "https://www.cis.pku.edu.cn/info/1362/2246.htm",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        },
+        {
+          "title": "Scene-Aware Error Modeling of LiDAR/Visual Odometry for Fusion-Based Vehicle Localization",
+          "year": 2022,
+          "venue": "IEEE Transactions on Intelligent Vehicles（官网列举）",
+          "summaryZh": "官方教师页列举该论文，主题对应 LiDAR/视觉里程计误差建模与融合定位。",
+          "url": "https://www.cis.pku.edu.cn/info/1362/2246.htm",
+          "sources": [
+            {
+              "url": "https://www.cis.pku.edu.cn/info/1362/2246.htm",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "北京大学智能学院 2027 年招生指南把赵卉菁列入计算机视觉和智能机器人方向博士生导师；该条目只证明项目方向参考，未核实个人当期余位、资助或 2028 Fall 接收。",
+        "sources": [
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+            "checkedDate": "2026-10-07"
+          },
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1362/2246.htm",
+            "checkedDate": "2026-10-07"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人当期招生余位、资助额度与最终导师接收决定未在公开页面中核实",
+        "2028 Fall 是否开放、对应学位与申请批次尚未找到个人明确声明"
+      ],
+      "links": [
+        {
+          "label": "北京大学智能学院教师页",
+          "url": "https://www.cis.pku.edu.cn/info/1362/2246.htm"
+        },
+        {
+          "label": "北京大学智能学院 2027 招生指南",
+          "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm"
+        }
+      ],
+      "checkedDate": "2026-10-07",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "pku-zhu-songchun",
+      "cardSummaryZh": "把计算机视觉、统计建模、认知科学与自主机器人连接起来，面向通用人工智能的感知、推理与行动。",
+      "overview": {
+        "textZh": "朱松纯为北京大学智能学院讲席教授，官方档案概括其研究涉及计算机视觉、统计建模与计算、认知科学、机器学习和自主机器人；页面同时记录其曾任 UCLA 教授、VCLA 主任，并担任北京大学人工智能研究院院长等经历。",
+        "sources": [
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1362/2267.htm",
+            "checkedDate": "2026-10-07"
+          },
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+            "checkedDate": "2026-10-07"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "北京大学智能学院 / 跨媒体通用人工智能研究方向",
+        "affiliation": {
+          "textZh": "官方档案分别记录其在北京大学智能学院、北京大学人工智能研究院和 BIGAI 的机构角色；这里保留机构关系，不把这些角色合并为单一实验室。",
+          "sources": [
+            {
+              "url": "https://www.cis.pku.edu.cn/info/1362/2267.htm",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        },
+        "themes": [
+          "通用人工智能基础",
+          "计算机视觉与统计建模",
+          "认知科学与常识推理",
+          "自主机器人"
+        ],
+        "structure": {
+          "textZh": "官方页面按不同研究阶段概括其研究路径，但未公布当前课题组完整成员、规模和具体指导安排。",
+          "sources": [
+            {
+              "url": "https://www.cis.pku.edu.cn/info/1362/2267.htm",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "公开资料呈现跨媒体、视觉、认知和机器人研究平台的机构背景；平台或项目的存在不等于新生可以直接获得固定资源。",
+            "sources": [
+              {
+                "url": "https://www.cis.pku.edu.cn/info/1362/2267.htm",
+                "checkedDate": "2026-10-07"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "视觉的统计建模与计算理论",
+          "year": 2026,
+          "venue": "北京大学智能学院官方教师简介（研究成果范围）",
+          "summaryZh": "官方档案将视觉、统计建模与计算列为研究主线；这里保留为主题性研究范围，不虚构具体论文题名。",
+          "url": "https://www.cis.pku.edu.cn/info/1362/2267.htm",
+          "sources": [
+            {
+              "url": "https://www.cis.pku.edu.cn/info/1362/2267.htm",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        },
+        {
+          "title": "面向通用人工智能的“小数据、大任务”研究路径",
+          "year": 2026,
+          "venue": "北京大学智能学院官方教师简介（研究成果范围）",
+          "summaryZh": "官方档案以四个研究阶段描述从视觉到认知、机器人和通用人工智能的研究路径；这里不据此指认当前项目或名额。",
+          "url": "https://www.cis.pku.edu.cn/info/1362/2267.htm",
+          "sources": [
+            {
+              "url": "https://www.cis.pku.edu.cn/info/1362/2267.htm",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "北京大学智能学院 2027 年招生指南将朱松纯列入计算机视觉、认知智能、多智能体与智能机器人方向博士生导师；这属于项目/方向参考，未核实个人当期招生名额。",
+        "sources": [
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+            "checkedDate": "2026-10-07"
+          },
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1362/2267.htm",
+            "checkedDate": "2026-10-07"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人当期招生余位、资助额度与最终导师接收决定未在公开页面中核实",
+        "2028 Fall 是否开放、对应学位与申请批次尚未找到个人明确声明",
+        "公开页面同时包含多个机构角色，当前具体招生团队与指导边界尚待个人页面进一步确认"
+      ],
+      "links": [
+        {
+          "label": "北京大学智能学院教师页",
+          "url": "https://www.cis.pku.edu.cn/info/1362/2267.htm"
+        },
+        {
+          "label": "北京大学智能学院 2027 招生指南",
+          "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm"
+        }
+      ],
+      "checkedDate": "2026-10-07",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "pku-luo-dingsheng",
+      "cardSummaryZh": "研究机器学习、语音语言和仿人机器人技能学习，关注从感知到动作控制的内部模型。",
+      "overview": {
+        "textZh": "罗定生为北京大学智能学院副教授，官方档案显示其曾任智能科学系副系主任，2003 年获北京大学博士，并负责机器学习与智能仿人机器人研究组；页面列出人工智能、机器学习、语音语言、智能信息处理、机器人学等方向。",
+        "sources": [
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1362/2259.htm",
+            "checkedDate": "2026-10-07"
+          },
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+            "checkedDate": "2026-10-07"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "机器学习与智能仿人机器人课题组",
+        "affiliation": {
+          "textZh": "官方教师页将该课题组置于北京大学信息科学技术学院/智能科学相关研究体系，并明确列出仿人机器人和机器学习研究；当前成员规模与具体招生分工未公开。",
+          "sources": [
+            {
+              "url": "https://www.cis.pku.edu.cn/info/1362/2259.htm",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        },
+        "themes": [
+          "机器学习",
+          "机器人技能学习",
+          "仿人机器人",
+          "语音语言与智能信息处理"
+        ],
+        "structure": {
+          "textZh": "公开档案介绍课题组研究方向并列出论文成果，但未公布当前成员名单、人数或导师分工。",
+          "sources": [
+            {
+              "url": "https://www.cis.pku.edu.cn/info/1362/2259.htm",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "公开页面把仿人机器人、机器人动作模型和智能信息处理列为研究对象；不把研究对象描述转换为对学生可用设备的承诺。",
+            "sources": [
+              {
+                "url": "https://www.cis.pku.edu.cn/info/1362/2259.htm",
+                "checkedDate": "2026-10-07"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Human-Inspired Internal Models for Robot Arm Motions",
+          "year": 2017,
+          "venue": "IROS 2017（官网列举）",
+          "summaryZh": "官方教师页列举该论文，主题对应受人类运动启发的机械臂内部模型。",
+          "url": "https://www.cis.pku.edu.cn/info/1362/2259.htm",
+          "sources": [
+            {
+              "url": "https://www.cis.pku.edu.cn/info/1362/2259.htm",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        },
+        {
+          "title": "A Hierarchical Inverse Model Based on Proprioception and DNN for Robot Reaching",
+          "year": 2017,
+          "venue": "IECON 2017（官网列举）",
+          "summaryZh": "官方教师页列举该论文，主题对应本体感觉、深度神经网络和机器人到达动作的层次逆模型。",
+          "url": "https://www.cis.pku.edu.cn/info/1362/2259.htm",
+          "sources": [
+            {
+              "url": "https://www.cis.pku.edu.cn/info/1362/2259.htm",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "北京大学智能学院 2027 年招生指南将罗定生列入智能机器人方向博士生导师；该信息是项目/方向参考，未核实个人当期余位、资助或 2028 Fall 接收。",
+        "sources": [
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+            "checkedDate": "2026-10-07"
+          },
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1362/2259.htm",
+            "checkedDate": "2026-10-07"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人当期招生余位、资助额度与最终导师接收决定未在公开页面中核实",
+        "2028 Fall 是否开放、对应学位与申请批次尚未找到个人明确声明"
+      ],
+      "links": [
+        {
+          "label": "北京大学智能学院教师页",
+          "url": "https://www.cis.pku.edu.cn/info/1362/2259.htm"
+        },
+        {
+          "label": "北京大学智能学院 2027 招生指南",
+          "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm"
+        }
+      ],
+      "checkedDate": "2026-10-07",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "pku-liu-hangxin",
+      "cardSummaryZh": "面向具身智能研究机器人感知、规划、学习与人机交互，并把灵巧操作放入真实机器人平台验证。",
+      "overview": {
+        "textZh": "刘航欣为北京大学智能学院助理教授，兼任 BIGAI 研究员；官方教师页记录其本科毕业于 Virginia Tech、在 UCLA 获硕士和博士学位，曾任 BIGAI 机器人实验室负责人，研究覆盖机器人感知、认知、学习、机器人本体设计和人机交互。个人主页进一步列出规划、学习、AR/VR 和具身机器人项目。",
+        "sources": [
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1362/9405.htm",
+            "checkedDate": "2026-10-07"
+          },
+          {
+            "url": "https://liuhx111.github.io/",
+            "checkedDate": "2026-10-07"
+          },
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+            "checkedDate": "2026-10-07"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "Hangxin Liu research group（北京大学智能学院）",
+        "affiliation": {
+          "textZh": "个人主页标注北京大学智能学院与 BIGAI 兼职身份；这里分开记录院系与外部机构联系，不把两者合并成单一组织。",
+          "sources": [
+            {
+              "url": "https://www.cis.pku.edu.cn/info/1362/9405.htm",
+              "checkedDate": "2026-10-07"
+            },
+            {
+              "url": "https://liuhx111.github.io/",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        },
+        "themes": [
+          "机器人感知",
+          "任务与运动规划",
+          "具身学习",
+          "人机交互与灵巧操作"
+        ],
+        "structure": {
+          "textZh": "个人主页按论文和项目展示研究活动，但未公布当前团队人数、成员名单或招生分工。",
+          "sources": [
+            {
+              "url": "https://liuhx111.github.io/",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "PR2 physics/photo-realistic humanoid testbed 是公开项目平台；项目页展示研究用途，不保证对每位申请者开放。",
+            "sources": [
+              {
+                "url": "https://pr2-humanoid.github.io/",
+                "checkedDate": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "textZh": "M2diffuser、移动操作规划和 SEED-UMI 等项目体现具身学习与灵巧操作研究资源，项目公开不等于当前实验室设备清单。",
+            "sources": [
+              {
+                "url": "https://m2diffuser.github.io/",
+                "checkedDate": "2026-10-07"
+              },
+              {
+                "url": "https://aug-kin-rep.github.io/",
+                "checkedDate": "2026-10-07"
+              },
+              {
+                "url": "https://liuhx111.github.io/",
+                "checkedDate": "2026-10-07"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Integration of Robot and Scene Kinematics for Sequential Mobile Manipulation Planning",
+          "year": 2025,
+          "venue": "IEEE Transactions on Robotics",
+          "summaryZh": "项目页展示将机器人运动学与场景运动学结合，用于序列移动操作规划。",
+          "url": "https://aug-kin-rep.github.io/",
+          "sources": [
+            {
+              "url": "https://aug-kin-rep.github.io/",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        },
+        {
+          "title": "PR2: A Physics- and Photo-realistic Humanoid Testbed with Pilot Study in Competition",
+          "year": 2025,
+          "venue": "Journal of Field Robotics",
+          "summaryZh": "项目页展示面向仿人机器人研究的物理与照片级真实测试平台及试验。",
+          "url": "https://pr2-humanoid.github.io/",
+          "sources": [
+            {
+              "url": "https://pr2-humanoid.github.io/",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        },
+        {
+          "title": "M2diffuser: Diffusion-Based Whole-Body Planning for Mobile Manipulation",
+          "year": 2025,
+          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "summaryZh": "项目页展示基于扩散模型的移动操作全身规划方向；以项目页题名为准，不额外推断当前招生。",
+          "url": "https://m2diffuser.github.io/",
+          "sources": [
+            {
+              "url": "https://m2diffuser.github.io/",
+              "checkedDate": "2026-10-07"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "官方教师页与北京大学智能学院 2027 年招生指南确认刘航欣属于智能机器人方向博士导师；个人主页未给出当前招生轮次、余位或 2028 Fall 的明确声明。",
+        "sources": [
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1362/9405.htm",
+            "checkedDate": "2026-10-07"
+          },
+          {
+            "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+            "checkedDate": "2026-10-07"
+          },
+          {
+            "url": "https://liuhx111.github.io/",
+            "checkedDate": "2026-10-07"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人当期招生余位、资助额度与最终导师接收决定未在公开页面中核实",
+        "2028 Fall 是否开放、对应学位与申请批次尚未找到个人明确声明",
+        "公开页面未给出当前课题组完整成员结构、经费来源或具体学位层次的招生边界"
+      ],
+      "links": [
+        {
+          "label": "北京大学智能学院教师页",
+          "url": "https://www.cis.pku.edu.cn/info/1362/9405.htm"
+        },
+        {
+          "label": "Hangxin Liu 个人主页",
+          "url": "https://liuhx111.github.io/"
+        },
+        {
+          "label": "北京大学智能学院 2027 招生指南",
+          "url": "https://www.cis.pku.edu.cn/info/1034/9565.htm"
+        }
+      ],
+      "checkedDate": "2026-10-07",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
     }
   ],
   "reviewRequired": true,
-  "batch": "1+2+3+4+5+6+7",
+  "batch": "1+2+3+4+5+6+7+8+9",
   "batch3Review": {
     "checkedDate": "2026-10-02",
     "baseCommit": "595c832d7d0610ed550131dc97b3f2da4fbf6c87",
@@ -9296,6 +9909,32 @@
       "a5f6 source mislabeled as 2027; official HTML is 2026",
       "2027 reference flag inferred only from 2026 SUSTech MEE programme",
       "historical name listing as current individual recruitment or available places"
+    ]
+  },
+  "batch9Review": {
+    "checkedDate": "2026-10-07",
+    "baseCommit": "e337079",
+    "newAdvisorIds": [
+      "pku-ying-xianghua",
+      "pku-zhaohuijing",
+      "pku-zhu-songchun",
+      "pku-luo-dingsheng",
+      "pku-liu-hangxin"
+    ],
+    "preservedProfiles": 56,
+    "catalogMutation": false,
+    "scope": "补齐北京大学智能学院已有五位机器人与具身智能导师的公开专业简介；只补 profile supplement，不修改 catalog admission authority。",
+    "sources": [
+      "https://www.cis.pku.edu.cn/info/1362/2272.htm",
+      "https://www.cis.pku.edu.cn/info/1362/2246.htm",
+      "https://www.cis.pku.edu.cn/info/1362/2267.htm",
+      "https://www.cis.pku.edu.cn/info/1362/2259.htm",
+      "https://www.cis.pku.edu.cn/info/1362/9405.htm",
+      "https://www.cis.pku.edu.cn/info/1034/9565.htm",
+      "https://liuhx111.github.io/",
+      "https://aug-kin-rep.github.io/",
+      "https://pr2-humanoid.github.io/",
+      "https://m2diffuser.github.io/"
     ]
   }
 }
