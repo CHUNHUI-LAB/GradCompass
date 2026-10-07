@@ -1,10 +1,10 @@
-import {renderProjectComparison,selectProjectComparisonRoutes} from './project-comparison.js?v=035290c0de4d';
-import {renderPageOverview,overviewPresets} from './page-overviews.js?v=a3848ca725ea';
-import {normalizeMaterialSupplement} from './material-supplement.js?v=335d6ea48c25';
-import {renderRecordSummary,supervisorAssociationText,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=0e866c54fcce';
-import {normalizeExperiences,renderExperiences,renderExperienceReading,renderExperienceEvidence,renderExperienceResults} from './experiences.js?v=ee9b5a4db5f7';
-import {profileMap,profileSummary,renderProfile,renderProfileReferences} from './profiles.js?v=d298d9af1233';
-import {nameInitials,rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue} from './core.js?v=5ddeade0f642';
+import {renderProjectComparison,selectProjectComparisonRoutes} from './project-comparison.js?v=472c47c4a986';
+import {renderPageOverview,overviewPresets} from './page-overviews.js?v=433037809a5b';
+import {normalizeMaterialSupplement} from './material-supplement.js?v=2300843e0d07';
+import {renderRecordSummary,supervisorAssociationText,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=5ec7398e98f4';
+import {normalizeExperiences,renderExperiences,renderExperienceReading,renderExperienceEvidence,renderExperienceResults} from './experiences.js?v=934cd9361d2c';
+import {profileMap,profileSummary,renderProfile,renderProfileReferences} from './profiles.js?v=bd00ba182e6f';
+import {nameInitials,rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue} from './core.js?v=ca3e6e9103ba';
 const $=selector=>document.querySelector(selector);
 const e=value=>escapeHTML(readerText(value));
 const experienceFilters={query:'',collection:''};
