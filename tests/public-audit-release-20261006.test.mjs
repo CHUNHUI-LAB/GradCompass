@@ -1,3 +1,4 @@
+import {detailReturnBytes} from './detail-return-focus-baseline.mjs';
 import test from 'node:test';
 import {raDeadlineBytes} from './ra-deadline-20261007-baseline.mjs';
 import {dateSummaryBytes} from './date-summary-20261006-baseline.mjs';
@@ -13,6 +14,7 @@ const manifest=JSON.parse(read('release-manifest.json'));
 const addedFiles=['data/maintenance-2026-10-06.json','tests/public-audit-20261006.test.mjs','tests/public-audit-20261006-baseline.mjs','tests/public-audit-20261006-history-fs.mjs','tests/fixtures/history/reviewed-public-audit-20261006.json','tests/public-audit-release-20261006-baseline.mjs','tests/public-audit-release-20261006.test.mjs','tests/fixtures/history/reviewed-public-audit-release-20261006.json','tests/fixtures/history/reviewed-pre-public-audit-release-079eaea.json'];
 addedFiles.push('tests/date-summary-20261006-baseline.mjs','tests/date-summary-20261006.test.mjs','tests/fixtures/history/reviewed-date-summary-20261006.json');
 addedFiles.push('tests/ra-deadline-provenance.test.mjs','tests/ra-deadline-20261007-baseline.mjs','tests/ra-deadline-20261007-history.test.mjs','tests/fixtures/history/reviewed-ra-deadline-20261007.json');
+addedFiles.push('tests/detail-return-focus.test.mjs','tests/detail-return-focus-baseline.mjs','tests/detail-return-focus-history.test.mjs','tests/fixtures/history/detail-return-focus-20261007.json');
 const git=b=>crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${b.length}\0`),b])).digest('hex');
 
 test('public audit asset stage is exact, reversible and limited to three content-version fragments',()=>{
@@ -21,7 +23,7 @@ test('public audit asset stage is exact, reversible and limited to three content
  for(const [path,e] of Object.entries(f.files)){
   assert.equal(e.kind,'text_fragments');assert.equal(e.operations.length,prefixes[path].length);
   e.operations.forEach((op,i)=>{for(const side of ['before','after']){assert(op[side].startsWith(prefixes[path][i]));assert.match(op[side].slice(prefixes[path][i].length),/^[0-9a-f]{12}$/);}assert.notEqual(op.before,op.after);});
-  const current=dateSummaryBytes(path,raDeadlineBytes(path,read(path))),old=publicAuditReleaseBytes(path,current);assertCurrentPublicAuditAsset(path,current);
+  const current=dateSummaryBytes(path,raDeadlineBytes(path,detailReturnBytes(path,read(path)))),old=publicAuditReleaseBytes(path,current);assertCurrentPublicAuditAsset(path,current);
   assert.equal(hash(old),e.beforeSha256);assert.equal(git(old),e.beforeGitBlob);assert.equal(git(current),e.afterGitBlob);
   assert.deepEqual(publicAuditReleaseBytes(path,old,'forward'),current);assert.deepEqual(publicAuditReleaseBytes(path,old),old);
   // Independent old manifest hashes, not generated from this working tree.
@@ -31,7 +33,7 @@ test('public audit asset stage is exact, reversible and limited to three content
 
 test('asset inverse never hides logic edits, unrelated fields, whitespace or partial version rollback',()=>{
  for(const [path,e] of Object.entries(f.files)){
-  const raw=dateSummaryBytes(path,raDeadlineBytes(path,read(path)));const mutants=[Buffer.concat([raw,Buffer.from(' ')]),Buffer.from(String(raw).replace('\n','\n// unreviewed change\n')),...e.operations.map(op=>Buffer.from(String(raw).replace(op.after,()=>op.before)))];
+  const raw=dateSummaryBytes(path,raDeadlineBytes(path,detailReturnBytes(path,read(path))));const mutants=[Buffer.concat([raw,Buffer.from(' ')]),Buffer.from(String(raw).replace('\n','\n// unreviewed change\n')),...e.operations.map(op=>Buffer.from(String(raw).replace(op.after,()=>op.before)))];
   for(const altered of mutants){assert.throws(()=>assertCurrentPublicAuditAsset(path,altered),/unreviewed current asset/);assert.strictEqual(publicAuditReleaseBytes(path,altered),altered);}
  }
 });

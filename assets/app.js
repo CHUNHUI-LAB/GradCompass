@@ -10,6 +10,7 @@ const e=value=>escapeHTML(readerText(value));
 const experienceFilters={query:'',collection:''};
 let projectCompareIds=[];let projectDifferencesOnly=false;
 let experienceRecords=null;let experienceSupplementState='loading';let materialSupplementState='loading';let projectSummaryState='loading';let catalog;let advisorProfiles=new Map;let updateStatus;let currentView='advisors';let activeExperienceId=null;let compareIds=[];let noticeTimer;let activeDetail=null;let pendingDetailClose=null;let detailOriginSerial=0;const closedDetailOrigins=new Set;
+let detailReturnFocus=null,detailReturnPending=false;
 const viewLabels={advisors:'找导师',routes:'申请项目',deadlines:'截止日期',materials:'申请材料',experiences:'申请经验',sources:'信息来源'};
 const viewDescriptions={advisors:'了解导师的研究方向，查看对应学位项目和研究助理岗位。已核实学位关联与岗位单列；暂无已核实关联的导师仍保留研究资料，不表示不招生。',routes:'先了解项目怎样培养、研究什么，再查看招生方式、前置学历、批次、材料和相关导师。MSc、MPhil、PhD 与 RA 聘用分别核对。',deadlines:'查看已公布的申请截止日期、已截止的轮次和待确认的批次；未来截止日期不代表现在已开放申请。',materials:'按项目查看官方材料要求；提交前请核对当期申请系统的完整清单。',experiences:'',sources:'了解信息来源、核验范围与更新状态。'};
 const countsLabel={advisors:'条机会',routes:'个学位项目',deadlines:'项日期记录',materials:'组材料要求'};
@@ -58,19 +59,36 @@ function parseDetailLocation(){
  if(!match)return null;try{return{view:match[1],kind:match[2],id:decodeURIComponent(match[3])};}catch{return null;}
 }
 function updateDetailBack(){const state=window.history?.state||{},depth=state.gradDetailDepth||0;$('#detail-back').textContent=(depth>1||(depth>0&&state.gradDetailHasList===false))?'← 返回上一条摘要':'← 返回结果';}
+// Store semantic identity, not a DOM node: late supplements replace card actions.
+function captureDetailOpener(){
+ const focused=document.activeElement,key=detailFocusKey(focused);
+ for(const scope of ['#view-content','#page-overview']){
+  const controls=[...($(scope).querySelectorAll?.('a,button,[tabindex]')||[])];
+  if(key&&controls.includes(focused))return{view:currentView,scope,key,index:controls.filter(node=>detailFocusKey(node)===key).indexOf(focused)};
+ }
+ return{view:currentView};
+}
+// Only an actual list return may move focus; nested/read-only refreshes must not.
+function restoreDetailOpener(view){
+ if(!detailReturnPending)return;detailReturnPending=false;
+ if(view!==detailReturnFocus?.view||parseDetailLocation()||parseCompareLocation()||$('#detail-dialog').open||$('#compare-dialog').open)return;
+ const saved=detailReturnFocus,controls=saved.scope?[...($(saved.scope).querySelectorAll?.('a,button,[tabindex]')||[])]:[];
+ const target=controls.filter(node=>detailFocusKey(node)===saved.key)[saved.index];
+ focusDetailControl(target||$('#results-title'));
+}
 function pushDetailRoute(kind,id){
  const hash='#'+currentView+'/summary/'+kind+'/'+encodeURIComponent(id);if(location.hash===hash)return;
- const prior=parseDetailLocation(),old=window.history?.state||{};const depth=prior&&prior.view===currentView?(old.gradDetailDepth||0)+1:1;
+ const prior=parseDetailLocation(),old=window.history?.state||{};if(!prior)detailReturnFocus=captureDetailOpener();detailReturnPending=false;const depth=prior&&prior.view===currentView?(old.gradDetailDepth||0)+1:1;
  if(prior&&!old.gradDetailOrigin&&old.gradDetailHasList!==true&&window.history?.replaceState){Object.assign(old,{gradDetailDepth:0,gradDetailBase:currentView,gradDetailHasList:false,gradDetailOrigin:Date.now()+':'+(++detailOriginSerial)});window.history.replaceState(old,'',location.hash);}
- const next={...old,gradDetailDepth:depth,gradDetailBase:currentView,gradDetailHasList:prior?(old.gradDetailHasList??false):true,gradDetailOrigin:prior?(old.gradDetailOrigin||Date.now()+':'+(++detailOriginSerial)):null};
+ const next={...old,gradDetailOpener:detailReturnFocus,gradDetailDepth:depth,gradDetailBase:currentView,gradDetailHasList:prior?(old.gradDetailHasList??false):true,gradDetailOrigin:prior?(old.gradDetailOrigin||Date.now()+':'+(++detailOriginSerial)):null};
  if(window.history?.pushState)window.history.pushState(next,'',hash);else location.hash=hash;
 }
 function dismissDetail(){
- const route=parseDetailLocation(),depth=window.history?.state?.gradDetailDepth||0;$('#detail-dialog').close();
+ const route=parseDetailLocation(),depth=window.history?.state?.gradDetailDepth||0;detailReturnPending=!!route;$('#detail-dialog').close();
  if(!route)return;
  if(window.history?.state?.gradDetailHasList===false){closedDetailOrigins.add(window.history.state.gradDetailOrigin);window.history.replaceState({...window.history.state,gradDetailHasList:true},'',location.hash);if(depth>0)pendingDetailClose=route.view;}
  if(depth>0&&window.history?.go){window.history.go(-depth);return;}
- const hash='#'+route.view;if(window.history?.replaceState)window.history.replaceState(null,'',hash);else location.hash=hash;
+ const hash='#'+route.view;if(window.history?.replaceState)window.history.replaceState(null,'',hash);else location.hash=hash;restoreDetailOpener(route.view);
 }
 // Reading position is per browser-history entry, never persisted across sessions.
 let experienceRestoreSerial=0,experienceRestoring=false,experienceEntrySerial=0,activeExperienceEntryKey=null;const experiencePositions=new Map;
@@ -131,12 +149,12 @@ function navigateExperience(evt){
  evt.preventDefault();window.history.pushState(next,'',hash);routeLocation();return true;
 }
 function routeLocation(){
- const comparison=parseCompareLocation();if(comparison){if($('#detail-dialog').open)$('#detail-dialog').close();if(currentView!=='routes')switchView('routes');projectCompareIds=selectProjectComparisonRoutes(catalog,comparison).map(r=>r.id);updateTray();if(projectCompareIds.length>=2)openProjectCompare(true);else{$('#compare-content').innerHTML=renderProjectComparison(catalog,projectCompareIds);if(!$('#compare-dialog').open)$('#compare-dialog').showModal();}return;}if($('#compare-dialog').open)$('#compare-dialog').close();
+ const comparison=parseCompareLocation();if(comparison){detailReturnPending=false;if($('#detail-dialog').open)$('#detail-dialog').close();if(currentView!=='routes')switchView('routes');projectCompareIds=selectProjectComparisonRoutes(catalog,comparison).map(r=>r.id);updateTray();if(projectCompareIds.length>=2)openProjectCompare(true);else{$('#compare-content').innerHTML=renderProjectComparison(catalog,projectCompareIds);if(!$('#compare-dialog').open)$('#compare-dialog').showModal();}return;}if($('#compare-dialog').open)$('#compare-dialog').close();
  const experienceHash=activeExperienceId===null?'#experiences':'#experiences/'+encodeURIComponent(activeExperienceId);
  if(currentView==='experiences'&&location.hash===experienceHash&&window.history?.state?.gradExperienceKey===activeExperienceEntryKey)return;
- if(pendingDetailClose){const view=pendingDetailClose;pendingDetailClose=null;window.history.replaceState(null,'','#'+view);if($('#detail-dialog').open)$('#detail-dialog').close();if(currentView!==view)switchView(view);return;}
- const route=parseDetailLocation();if(!route){const view=location.hash.slice(1)||'advisors';if(view===currentView&&activeExperienceId===null&&currentView!=='experiences'){if($('#detail-dialog').open)$('#detail-dialog').close();return;}switchView(view);return;}
- const historyState=window.history?.state;if(historyState?.gradDetailHasList===false&&closedDetailOrigins.has(historyState.gradDetailOrigin))window.history.replaceState({...historyState,gradDetailHasList:true},'',location.hash);
+ if(pendingDetailClose){const view=pendingDetailClose;pendingDetailClose=null;window.history.replaceState(null,'','#'+view);if($('#detail-dialog').open)$('#detail-dialog').close();if(currentView!==view)switchView(view);restoreDetailOpener(view);return;}
+ const route=parseDetailLocation();if(!route){const view=location.hash.slice(1)||'advisors';if($('#detail-dialog').open)detailReturnPending=true;if(view===currentView&&activeExperienceId===null&&currentView!=='experiences'){if($('#detail-dialog').open)$('#detail-dialog').close();restoreDetailOpener(view);return;}switchView(view);restoreDetailOpener(view);return;}
+ const historyState=window.history?.state;detailReturnFocus=historyState?.gradDetailOpener||{view:route.view};detailReturnPending=false;if(historyState?.gradDetailHasList===false&&closedDetailOrigins.has(historyState.gradDetailOrigin))window.history.replaceState({...historyState,gradDetailHasList:true},'',location.hash);
  if(currentView!==route.view)switchView(route.view);
  if(route.kind==='advisor')openDetail(route.id,true);else openSummary(route.kind,route.id,true);
 }
