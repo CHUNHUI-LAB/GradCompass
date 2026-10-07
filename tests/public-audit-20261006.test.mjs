@@ -1,3 +1,4 @@
+import {cuhkDeadlineBytes} from './cuhk-deadline-20261007-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -7,7 +8,7 @@ import {snapshotHash as hash,snapshotText as serialize} from './strict-history-t
 import {normalizeExperiences,renderExperiences,renderExperienceEvidence,renderExperienceReading,filterExperiences} from '../assets/experiences.js';
 import {buildPageOverview} from '../assets/page-overviews.js';
 import {browseAdvisors,browseRoutes,buildOpportunities} from '../assets/core.js';
-const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url)),data=p=>JSON.parse(read(p));
+const read=p=>cuhkDeadlineBytes(p,fs.readFileSync(new URL('../'+p,import.meta.url))),data=p=>JSON.parse(read(p));
 const git=b=>crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${b.length}\0`),b])).digest('hex');
 const experienceId='grad-heu-sunbohan-research-selection-2026';
 const catalog=data('data/catalog.json'),experiences=data('data/application-experiences.json'),provenance=data('data/application-experience-provenance.json');

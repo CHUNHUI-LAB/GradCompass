@@ -1,0 +1,510 @@
+{
+  "schemaVersion": 1,
+  "baseCommit": "eb4abd2639ea97a99ccb870c165fa1f97b952652",
+  "contentCommit": "a188f2a06d7621b1a004787238d90d183a9e3425",
+  "baseTree": "d1515c606544c3cc0e66ef9ddc1f7cc2d73af791",
+  "scope": "Exact local CUHK Robotics MSc deadline correction on merged main, byte-identical to the PR17 candidate. Public source facts and local validation are not deployment or application-portal verification.",
+  "checkedDate": "2026-10-07",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-robotics",
+      "archivedEvidence": "Programme extracted body; source-review report additionally records a live browser read, but no programme browser snapshot is included in the retained evidence bundle.",
+      "deadline": "2027-03-31",
+      "deadlineTime": null,
+      "timezone": null
+    },
+    {
+      "url": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+      "archivedEvidence": "Expanded Mechanical and Automation Engineering Robotics MSc entry in the saved browser accessibility snapshot, including rolling admission and early closure when full.",
+      "deadline": "2027-03-31",
+      "deadlineTime": null,
+      "timezone": null
+    }
+  ],
+  "inputSha256": {
+    "REPORT.md": "a6a3b61d849e7904aa0d6e7eeaba5a28eef71272bf1ac5b3ea720b12b521d1bd",
+    "source-register.json": "7a6d1fbece36210844763734a302653a0dbc8b42d0a67210bfc9141c1c8c5664",
+    "HELD-cuhk-deadline-data-only.patch": "40b638267fa947a7b131aac60bbfb6c9a8c212f9d14cefeb128d8570ecb590e1",
+    "evidence/browser3.json": "16eaf9d441b55a5688b1ade24cac6af9779e21e13a1a6909575d32adfad516a2",
+    "evidence/exa3.json": "6f0d2420e0a8f99c790778eb35628a5b5689b9b7fd13d75e1c5e2eee9b3a9012"
+  },
+  "files": {
+    "data/catalog.json": {
+      "kind": "json",
+      "beforeSha256": "55803258de42f4bcb42950fb9f0019ad6a5d9a63a4cf7b86795c60d7ae9e97db",
+      "afterSha256": "6709c1a72af44ab2b985c25de8b4f3d3d8c28b6f784acb96be5a8236c594e767",
+      "beforeGitBlob": "3deae5d308310abec5be7410ddb704f4f964e842",
+      "afterGitBlob": "83a577f9445d04e40dda811356e8be5b0579c095",
+      "operations": [
+        {
+          "path": [
+            "routes",
+            8,
+            "admissionYear"
+          ],
+          "before": "Current programme page checked; no deadline shown in extracted page",
+          "after": "2027 admission；官方项目与研究生院日期页核实截止 2027-03-31；时间和时区未明示"
+        },
+        {
+          "path": [
+            "routes",
+            8,
+            "cycle2027Verified"
+          ],
+          "before": false,
+          "after": true
+        },
+        {
+          "path": [
+            "routes",
+            8,
+            "sources",
+            1
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "cuhk_robotics_programme_20261007",
+            "label": "CUHK MSc in Robotics 官方项目页（云端浏览器正文）",
+            "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-robotics",
+            "checkedDate": "2026-10-07",
+            "section": "MSc in Robotics; Application Deadline; rolling applications",
+            "evidenceScope": "live_cloud_browser_accessibility_body",
+            "sourceVersion": "官方项目页直接显示 31 March 2027；未显示钟点或时区"
+          }
+        },
+        {
+          "path": [
+            "routes",
+            8,
+            "sources",
+            2
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "cuhk_robotics_deadlines_20261007",
+            "label": "CUHK Graduate School 普通申请日期（MAE 分类已展开）",
+            "url": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+            "checkedDate": "2026-10-07",
+            "section": "Application Commencement Date; Mechanical and Automation Engineering > Taught Programmes > MSc in Robotics",
+            "evidenceScope": "live_cloud_browser_expanded_programme_section",
+            "sourceVersion": "2026-09-01 开放；MSc in Robotics 截止 2027-03-31；未进入申请系统"
+          }
+        },
+        {
+          "path": [
+            "routes",
+            8,
+            "cycleReview"
+          ],
+          "beforeMissing": true,
+          "after": {
+            "checkedDate": "2026-10-07",
+            "scope": "只补已核实当轮截止，不重核全部材料、课程版本或导师名额",
+            "previousAdmissionYear": "Current programme page checked; no deadline shown in extracted page",
+            "previousCycle2027Verified": false,
+            "previousCheckedDate": "2026-10-01",
+            "reason": "云端浏览器直接核读官方项目页与研究生院日期页展开的MSc in Robotics条目，两页均为2027-03-31；解决此前空字段/不同提取结果。",
+            "sources": [
+              {
+                "id": "cuhk_robotics_programme_20261007",
+                "label": "CUHK MSc in Robotics 官方项目页（云端浏览器正文）",
+                "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-robotics",
+                "checkedDate": "2026-10-07",
+                "section": "MSc in Robotics; Application Deadline; rolling applications",
+                "evidenceScope": "live_cloud_browser_accessibility_body",
+                "sourceVersion": "官方项目页直接显示 31 March 2027；未显示钟点或时区"
+              },
+              {
+                "id": "cuhk_robotics_deadlines_20261007",
+                "label": "CUHK Graduate School 普通申请日期（MAE 分类已展开）",
+                "url": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+                "checkedDate": "2026-10-07",
+                "section": "Application Commencement Date; Mechanical and Automation Engineering > Taught Programmes > MSc in Robotics",
+                "evidenceScope": "live_cloud_browser_expanded_programme_section",
+                "sourceVersion": "2026-09-01 开放；MSc in Robotics 截止 2027-03-31；未进入申请系统"
+              }
+            ],
+            "retrievalConflict": {
+              "webTextReader": "项目与总日期页读取超时",
+              "alternateReader": "项目正文显示2027-03-31；总日期页提取未完整保留所有项目标题",
+              "resolution": "以本轮云端浏览器逐项目展开读取交叉确认，不由检索摘要定结论。"
+            }
+          }
+        },
+        {
+          "path": [
+            "deadlines",
+            27
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "cuhk-robotics-msc-2027-deadline",
+            "title": "CUHK MSc in Robotics 2027申请截止",
+            "institution": "CUHK",
+            "routeIds": [
+              "cuhk_robotics_msc"
+            ],
+            "date": "2027-03-31",
+            "deadlineTime": null,
+            "timezone": null,
+            "status": "unknown",
+            "dateStatus": "upcoming",
+            "admissionYear": "2027 admission",
+            "note": "官方项目页与研究生院总日期页的Robotics条目交叉一致；滚动录取，满额即止。未标钟点或时区；未登录测试提交，不推定剩余名额或导师关联。",
+            "sources": [
+              {
+                "id": "cuhk_robotics_programme_20261007",
+                "label": "CUHK MSc in Robotics 官方项目页（云端浏览器正文）",
+                "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-robotics",
+                "checkedDate": "2026-10-07",
+                "section": "MSc in Robotics; Application Deadline; rolling applications",
+                "evidenceScope": "live_cloud_browser_accessibility_body",
+                "sourceVersion": "官方项目页直接显示 31 March 2027；未显示钟点或时区"
+              },
+              {
+                "id": "cuhk_robotics_deadlines_20261007",
+                "label": "CUHK Graduate School 普通申请日期（MAE 分类已展开）",
+                "url": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+                "checkedDate": "2026-10-07",
+                "section": "Application Commencement Date; Mechanical and Automation Engineering > Taught Programmes > MSc in Robotics",
+                "evidenceScope": "live_cloud_browser_expanded_programme_section",
+                "sourceVersion": "2026-09-01 开放；MSc in Robotics 截止 2027-03-31；未进入申请系统"
+              }
+            ],
+            "checkedDate": "2026-10-07"
+          }
+        },
+        {
+          "path": [
+            "sources",
+            212
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "cuhk_robotics_programme_20261007",
+            "label": "CUHK MSc in Robotics 官方项目页（云端浏览器正文）",
+            "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-robotics",
+            "checkedDate": "2026-10-07",
+            "section": "MSc in Robotics; Application Deadline; rolling applications",
+            "evidenceScope": "live_cloud_browser_accessibility_body",
+            "sourceVersion": "官方项目页直接显示 31 March 2027；未显示钟点或时区"
+          }
+        },
+        {
+          "path": [
+            "sources",
+            213
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "cuhk_robotics_deadlines_20261007",
+            "label": "CUHK Graduate School 普通申请日期（MAE 分类已展开）",
+            "url": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+            "checkedDate": "2026-10-07",
+            "section": "Application Commencement Date; Mechanical and Automation Engineering > Taught Programmes > MSc in Robotics",
+            "evidenceScope": "live_cloud_browser_expanded_programme_section",
+            "sourceVersion": "2026-09-01 开放；MSc in Robotics 截止 2027-03-31；未进入申请系统"
+          }
+        }
+      ]
+    },
+    "data/project-summaries.json": {
+      "kind": "json",
+      "beforeSha256": "8c0004f515919965b94eb0c82ddfd875f2aaaaba805c51e1060b62320eba164d",
+      "afterSha256": "32bc4ca62ca672b599be9a6f24fb5f4479e77cd1f74111b1f155e717c4f73e71",
+      "beforeGitBlob": "27530f233b0da24474e2f7a1367d6804595279d6",
+      "afterGitBlob": "1098d497f139e3776b85a7066b50d0ff8fa0b193",
+      "operations": [
+        {
+          "path": [
+            "sources",
+            70
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "cuhk_robotics_programme_20261007",
+            "label": "CUHK MSc in Robotics 官方项目页（云端浏览器正文）",
+            "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-robotics",
+            "checkedDate": "2026-10-07",
+            "section": "MSc in Robotics; Application Deadline; rolling applications",
+            "evidenceScope": "live_cloud_browser_accessibility_body",
+            "sourceVersion": "官方项目页直接显示 31 March 2027；未显示钟点或时区"
+          }
+        },
+        {
+          "path": [
+            "sources",
+            71
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "cuhk_robotics_deadlines_20261007",
+            "label": "CUHK Graduate School 普通申请日期（MAE 分类已展开）",
+            "url": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+            "checkedDate": "2026-10-07",
+            "section": "Application Commencement Date; Mechanical and Automation Engineering > Taught Programmes > MSc in Robotics",
+            "evidenceScope": "live_cloud_browser_expanded_programme_section",
+            "sourceVersion": "2026-09-01 开放；MSc in Robotics 截止 2027-03-31；未进入申请系统"
+          }
+        },
+        {
+          "path": [
+            "records",
+            12,
+            "cycle",
+            "text"
+          ],
+          "before": "院系课程页仍为 2026/27，所列 2026-04-30 截止已过；研究生院同一网址的两次全文检索分别呈现空截止栏和 2027-03-31。2027/28 截止及最终课程版本仍待一致确认。",
+          "after": "2027申请截止已由官方项目页和研究生院日期页交叉核实为2027-03-31；滚动录取，满额即止。原文未标钟点或时区。院系课程页的2026/27教学版本不自动升级为2027/28；实际提交与余位未核实。"
+        },
+        {
+          "path": [
+            "records",
+            12,
+            "cycle",
+            "sourceIds",
+            0
+          ],
+          "before": "cuhk_robotics_programme",
+          "after": "cuhk_robotics_programme_20261007"
+        },
+        {
+          "path": [
+            "records",
+            12,
+            "cycle",
+            "sourceIds",
+            1
+          ],
+          "before": "cuhk_robotics_curriculum",
+          "after": "cuhk_robotics_deadlines_20261007"
+        },
+        {
+          "path": [
+            "records",
+            12,
+            "cycleReview"
+          ],
+          "beforeMissing": true,
+          "after": {
+            "checkedDate": "2026-10-07",
+            "previous": {
+              "text": "院系课程页仍为 2026/27，所列 2026-04-30 截止已过；研究生院同一网址的两次全文检索分别呈现空截止栏和 2027-03-31。2027/28 截止及最终课程版本仍待一致确认。",
+              "sourceIds": [
+                "cuhk_robotics_programme",
+                "cuhk_robotics_curriculum"
+              ]
+            },
+            "scope": "只更新截止证据，其他段落与原核读日期不变"
+          }
+        }
+      ]
+    },
+    "data/material-summaries.json": {
+      "kind": "json",
+      "beforeSha256": "9d27adfd4472e2c5f7bd37e61968fb550929f74c5e1083b52721410dea70f361",
+      "afterSha256": "4f94cabe3790125aaaf172da1eeebf09b009aad34200f6adba2c1c626ee90579",
+      "beforeGitBlob": "3bdf8d6a5e60bb9f65a06cf49160eab5a19cbc0c",
+      "afterGitBlob": "f288b807a828890272b669418f21c2df936a1193",
+      "operations": [
+        {
+          "path": [
+            "sources",
+            49
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "cuhk_robotics_programme_20261007",
+            "label": "CUHK MSc in Robotics 官方项目页（云端浏览器正文）",
+            "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-robotics",
+            "checkedDate": "2026-10-07",
+            "section": "MSc in Robotics; Application Deadline; rolling applications",
+            "evidenceScope": "live_cloud_browser_accessibility_body",
+            "sourceVersion": "官方项目页直接显示 31 March 2027；未显示钟点或时区"
+          }
+        },
+        {
+          "path": [
+            "sources",
+            50
+          ],
+          "beforeMissing": true,
+          "after": {
+            "id": "cuhk_robotics_deadlines_20261007",
+            "label": "CUHK Graduate School 普通申请日期（MAE 分类已展开）",
+            "url": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+            "checkedDate": "2026-10-07",
+            "section": "Application Commencement Date; Mechanical and Automation Engineering > Taught Programmes > MSc in Robotics",
+            "evidenceScope": "live_cloud_browser_expanded_programme_section",
+            "sourceVersion": "2026-09-01 开放；MSc in Robotics 截止 2027-03-31；未进入申请系统"
+          }
+        },
+        {
+          "path": [
+            "records",
+            3,
+            "summary"
+          ],
+          "before": "授课型机器人硕士：以本科学历、成绩与英语证明为基础，通用清单要求两份推荐报告；课程页尚未显示当轮截止。",
+          "after": "授课型机器人硕士：原材料摘要保留；2027申请截止已核实为2027-03-31，满额可提前停止。"
+        },
+        {
+          "path": [
+            "records",
+            3,
+            "note"
+          ],
+          "before": "授课型机器人硕士：以本科学历、成绩与英语证明为基础，通用清单要求两份推荐报告；课程页尚未显示当轮截止。 适用范围：现行项目及通用材料；2027期限本次未核得；这是有界摘要，提交前仍须核对当期系统。",
+          "after": "材料要求沿用原核读范围与日期；本轮只补2027公开截止。时间、时区、实际提交状态和剩余名额未确认。"
+        },
+        {
+          "path": [
+            "records",
+            3,
+            "admissionYear"
+          ],
+          "before": "现行项目及通用材料；2027期限本次未核得",
+          "after": "现行材料摘要；2027公开截止于2026-10-07另核"
+        },
+        {
+          "path": [
+            "records",
+            3,
+            "unknowns",
+            0
+          ],
+          "before": "2027开放/截止日期、系内CV/PS/研究计划要求。",
+          "after": "截止钟点/时区、实际提交与剩余名额；系内CV/PS/研究计划要求仍待核实。"
+        },
+        {
+          "path": [
+            "records",
+            3,
+            "requirements",
+            5,
+            "text"
+          ],
+          "before": "官方项目页的Application Deadline栏为空；2027轮次未核实，不沿用2026日期。",
+          "after": "官方项目页与研究生院总日期页交叉核实2027-03-31截止；滚动录取至满额。原文未标钟点或时区，未进入申请系统。"
+        },
+        {
+          "path": [
+            "records",
+            3,
+            "requirements",
+            5,
+            "requirementStatus"
+          ],
+          "before": "unknown",
+          "after": "published"
+        },
+        {
+          "path": [
+            "records",
+            3,
+            "requirements",
+            5,
+            "sourceIds",
+            0
+          ],
+          "before": "cuhk_msc",
+          "after": "cuhk_robotics_programme_20261007"
+        },
+        {
+          "path": [
+            "records",
+            3,
+            "requirements",
+            5,
+            "sourceIds",
+            1
+          ],
+          "beforeMissing": true,
+          "after": "cuhk_robotics_deadlines_20261007"
+        },
+        {
+          "path": [
+            "records",
+            3,
+            "sourceIds",
+            3
+          ],
+          "beforeMissing": true,
+          "after": "cuhk_robotics_programme_20261007"
+        },
+        {
+          "path": [
+            "records",
+            3,
+            "sourceIds",
+            4
+          ],
+          "beforeMissing": true,
+          "after": "cuhk_robotics_deadlines_20261007"
+        },
+        {
+          "path": [
+            "records",
+            3,
+            "cycleReview"
+          ],
+          "beforeMissing": true,
+          "after": {
+            "checkedDate": "2026-10-07",
+            "scope": "只补截止证据，不刷新其他材料的核读日期",
+            "previous": {
+              "summary": "授课型机器人硕士：以本科学历、成绩与英语证明为基础，通用清单要求两份推荐报告；课程页尚未显示当轮截止。",
+              "note": "授课型机器人硕士：以本科学历、成绩与英语证明为基础，通用清单要求两份推荐报告；课程页尚未显示当轮截止。 适用范围：现行项目及通用材料；2027期限本次未核得；这是有界摘要，提交前仍须核对当期系统。",
+              "admissionYear": "现行项目及通用材料；2027期限本次未核得",
+              "unknowns": [
+                "2027开放/截止日期、系内CV/PS/研究计划要求。"
+              ],
+              "deadlineRequirement": {
+                "kind": "deadline",
+                "text": "官方项目页的Application Deadline栏为空；2027轮次未核实，不沿用2026日期。",
+                "requirementStatus": "unknown",
+                "sourceIds": [
+                  "cuhk_msc"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "assets/app.js": {
+      "kind": "text_fragments",
+      "beforeSha256": "84c14b37326919b4fd0b071b9837f44239a612b316f21df9ac2d58e98042974f",
+      "afterSha256": "0c46b2f2ce01900e51041128a7f1645bbd59d39b832b86c0e03ed55378d0395d",
+      "beforeGitBlob": "78dfbcbf0a472afda96425e76b088f3163caa23a",
+      "afterGitBlob": "9bac796282d7148e5cb58086c48eca9a6e167d7a",
+      "operations": [
+        {
+          "before": "catalog.json?v=55803258de42",
+          "after": "catalog.json?v=6709c1a72af4"
+        },
+        {
+          "before": "project-summaries.json?v=8c0004f51591",
+          "after": "project-summaries.json?v=32bc4ca62ca6"
+        },
+        {
+          "before": "material-summaries.json?v=9d27adfd4472",
+          "after": "material-summaries.json?v=4f94cabe3790"
+        }
+      ]
+    },
+    "index.html": {
+      "kind": "text_fragments",
+      "beforeSha256": "a07ff43f3395d111e62183d4837eef28eaf64525e882cfa9e47c8b20a22105ef",
+      "afterSha256": "c9550f3cd01835c8a7dbd33b162df93d20749a997219cafcfab99568c7ada050",
+      "beforeGitBlob": "6ae77adb7001e4deffe35a56a1c2ef8869508f04",
+      "afterGitBlob": "6c5a8b2256ef3d457673531626af4df4c67c72eb",
+      "operations": [
+        {
+          "before": "./assets/app.js?v=84c14b373269",
+          "after": "./assets/app.js?v=0c46b2f2ce01"
+        }
+      ]
+    }
+  }
+}

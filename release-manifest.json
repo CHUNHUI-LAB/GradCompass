@@ -22,10 +22,10 @@
   "newExperienceRecords": 1,
   "materialRecords": 17,
   "materialSupplementRecords": 15,
-  "materialSupplementSources": 49,
+  "materialSupplementSources": 51,
   "projectSummaryRecords": 30,
   "projectSummarySchools": 11,
-  "projectSummarySources": 70,
+  "projectSummarySources": 72,
   "preservedProjectSummaryRecords": 17,
   "newProjectSummaryRecords": 10,
   "pageOverviews": 5,
@@ -53,7 +53,7 @@
     {
       "path": "assets/app.js",
       "bytes": 73911,
-      "sha256": "84c14b37326919b4fd0b071b9837f44239a612b316f21df9ac2d58e98042974f"
+      "sha256": "0c46b2f2ce01900e51041128a7f1645bbd59d39b832b86c0e03ed55378d0395d"
     },
     {
       "path": "assets/campus-art.webp",
@@ -127,8 +127,8 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 3730757,
-      "sha256": "55803258de42f4bcb42950fb9f0019ad6a5d9a63a4cf7b86795c60d7ae9e97db"
+      "bytes": 3736821,
+      "sha256": "6709c1a72af44ab2b985c25de8b4f3d3d8c28b6f784acb96be5a8236c594e767"
     },
     {
       "path": "data/four-schools-exploration-20261006.json",
@@ -157,8 +157,8 @@
     },
     {
       "path": "data/material-summaries.json",
-      "bytes": 83108,
-      "sha256": "9d27adfd4472e2c5f7bd37e61968fb550929f74c5e1083b52721410dea70f361"
+      "bytes": 85402,
+      "sha256": "4f94cabe3790125aaaf172da1eeebf09b009aad34200f6adba2c1c626ee90579"
     },
     {
       "path": "data/nju-advisor-review-20261005.json",
@@ -177,8 +177,8 @@
     },
     {
       "path": "data/project-summaries.json",
-      "bytes": 96591,
-      "sha256": "8c0004f515919965b94eb0c82ddfd875f2aaaaba805c51e1060b62320eba164d"
+      "bytes": 98225,
+      "sha256": "32bc4ca62ca672b599be9a6f24fb5f4479e77cd1f74111b1f155e717c4f73e71"
     },
     {
       "path": "data/ra-positions.json",
@@ -238,7 +238,7 @@
     {
       "path": "index.html",
       "bytes": 8270,
-      "sha256": "a07ff43f3395d111e62183d4837eef28eaf64525e882cfa9e47c8b20a22105ef"
+      "sha256": "c9550f3cd01835c8a7dbd33b162df93d20749a997219cafcfab99568c7ada050"
     },
     {
       "path": "package.json",
@@ -247,8 +247,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 11181,
-      "sha256": "285efb7d9e7f95bba57f685ef77a87dd7fc8f4a06d28a00483268bc0309fd58c"
+      "bytes": 11343,
+      "sha256": "2338d6e6142da300600e80eae2145fca53b743fee9e7a2de71edeac7ceac4f40"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -306,6 +306,16 @@
       "sha256": "c7e23fe5620ad23c1431faae6ef5e68c5eef33fe142c770af9ef1d3ffdad3f19"
     },
     {
+      "path": "tests/cuhk-deadline-20261007-baseline.mjs",
+      "bytes": 1747,
+      "sha256": "d6663a5d98d448340fa9693dec2284b37ab7f0c79d1eb3fab2c2d6c36b4fc8e5"
+    },
+    {
+      "path": "tests/cuhk-deadline-20261007.test.mjs",
+      "bytes": 16660,
+      "sha256": "68dcee507e0fddbedde35abba755248f4dc4369df18d8a956cf0092681ac6102"
+    },
+    {
       "path": "tests/current-correction-baseline.mjs",
       "bytes": 2431,
       "sha256": "5c2311585f12664fcf9698eb0e1550ce346e843248b5657934d5f737b43f08c0"
@@ -337,8 +347,8 @@
     },
     {
       "path": "tests/date-summary-20261006.test.mjs",
-      "bytes": 4516,
-      "sha256": "79a9e1f4fa19dbee00a125b9572182361a05f5e5edec787bac9087bcc8f9ef1c"
+      "bytes": 4610,
+      "sha256": "3315154c5ae1019b36502f9b61175b3e3687d97cde05fb83ef89c0058eed92f9"
     },
     {
       "path": "tests/detail-reader-polish.test.mjs",
@@ -352,8 +362,8 @@
     },
     {
       "path": "tests/detail-return-focus-history.test.mjs",
-      "bytes": 2690,
-      "sha256": "fd0057847ca238a16d76f1e4da0392e8c17d47d22a952209fcdb59237753566b"
+      "bytes": 2787,
+      "sha256": "56d1db16769d3a56abee8a3b2592eb9a1dc8838595f2582d8cd88b2d221a92f9"
     },
     {
       "path": "tests/detail-return-focus.test.mjs",
@@ -454,6 +464,11 @@
       "path": "tests/fixtures/history/reviewed-concurrent-reference.json",
       "bytes": 203440,
       "sha256": "7e23297db0a10d258e44c8323a65b414de304649ee0f208b7d702280e98d3692"
+    },
+    {
+      "path": "tests/fixtures/history/reviewed-cuhk-deadline-20261007.json",
+      "bytes": 21548,
+      "sha256": "6fc45019ccdc863b1c6394ae9038ac365547971ccc5c509d302e3a2cea04b74a"
     },
     {
       "path": "tests/fixtures/history/reviewed-current-3f294-corrections.json",
@@ -732,13 +747,13 @@
     },
     {
       "path": "tests/public-audit-20261006-history-fs.mjs",
-      "bytes": 1250,
-      "sha256": "e15e4bb7565256b3ebb3b20cb1e15aaad01e7928877eb0614d9ca9ad633901bc"
+      "bytes": 1351,
+      "sha256": "e840cd5f0c778b7b4460124a55bf1076841b944c9fe2cec3f46d45583fb3ce52"
     },
     {
       "path": "tests/public-audit-20261006.test.mjs",
-      "bytes": 10446,
-      "sha256": "adad3f38c1477a9108219c19a34de7f84068062fa27b7a836eadbe5ea978dccf"
+      "bytes": 10540,
+      "sha256": "1775d76e562af9c8a9aaa44067f10fa7b2efe9783805658b8c707a3c1dfe143c"
     },
     {
       "path": "tests/public-audit-release-20261006-baseline.mjs",
@@ -747,8 +762,8 @@
     },
     {
       "path": "tests/public-audit-release-20261006.test.mjs",
-      "bytes": 8963,
-      "sha256": "fcd767688a8926a51fa0cd70e9498f8c7e39d123830e00d3500461dd8968ef38"
+      "bytes": 9248,
+      "sha256": "25dfd650f1205bb2e4d8dba9cca6ae3edaa26f5427ef6bbbc2d5d45622bb33db"
     },
     {
       "path": "tests/public-discovery.test.mjs",
@@ -762,8 +777,8 @@
     },
     {
       "path": "tests/ra-deadline-20261007-history.test.mjs",
-      "bytes": 6022,
-      "sha256": "d1af4a8a3ed243ae0ae1b4459cd31175a46f4109d49c813ce2376e380d9ebb0d"
+      "bytes": 6119,
+      "sha256": "1c0810a2f915de0fc10020835c35c27b34155eac2d1a58909b0e5c837153da1e"
     },
     {
       "path": "tests/ra-deadline-provenance.test.mjs",

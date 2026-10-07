@@ -1,3 +1,4 @@
+import {cuhkDeadlineBytes} from './cuhk-deadline-20261007-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -5,7 +6,7 @@ import crypto from 'node:crypto';
 import {detailReturnFixture as fixture,detailReturnBytes,assertCurrentDetailReturnAsset} from './detail-return-focus-baseline.mjs';
 import {assertCurrentRaDeadlineAsset} from './ra-deadline-20261007-baseline.mjs';
 import {snapshotHash as hash} from './strict-history-transform.mjs';
-const read=path=>fs.readFileSync(new URL('../'+path,import.meta.url));
+const read=path=>cuhkDeadlineBytes(path,fs.readFileSync(new URL('../'+path,import.meta.url)));
 const git=bytes=>crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${bytes.length}\0`),bytes])).digest('hex');
 test('focus-return stage pins current raw assets and reverses exactly to the RA release',()=>{
  assert.equal(fixture.baseCommit,'c12ca28745146a6f937cff1ed49c65806eaab3f7');
