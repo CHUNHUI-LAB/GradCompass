@@ -52,8 +52,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 72357,
-      "sha256": "cfd789b4c1f94610d2916662ddb6bad5231c06d24438755a8bbe7f98d884cdfd"
+      "bytes": 73911,
+      "sha256": "84c14b37326919b4fd0b071b9837f44239a612b316f21df9ac2d58e98042974f"
     },
     {
       "path": "assets/campus-art.webp",
@@ -238,7 +238,7 @@
     {
       "path": "index.html",
       "bytes": 8270,
-      "sha256": "eee25fddaaa2725e85e2a227a429031326d5cdb4373e4d7934a9731f2d56fe0d"
+      "sha256": "a07ff43f3395d111e62183d4837eef28eaf64525e882cfa9e47c8b20a22105ef"
     },
     {
       "path": "package.json",
@@ -247,8 +247,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 10980,
-      "sha256": "763fad5236a5ef4c4d328ea907a3ee7cedccb05a8bc15cf120e2a8cfa056e15e"
+      "bytes": 11181,
+      "sha256": "285efb7d9e7f95bba57f685ef77a87dd7fc8f4a06d28a00483268bc0309fd58c"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -337,13 +337,28 @@
     },
     {
       "path": "tests/date-summary-20261006.test.mjs",
-      "bytes": 4425,
-      "sha256": "0137f8d5289f87ceb19f3447c3cc21528989e8894958a374ff5c45c58e15b767"
+      "bytes": 4516,
+      "sha256": "79a9e1f4fa19dbee00a125b9572182361a05f5e5edec787bac9087bcc8f9ef1c"
     },
     {
       "path": "tests/detail-reader-polish.test.mjs",
       "bytes": 17067,
       "sha256": "b5319d2424fba9261c6933dc56fd74a79d5d73b5cadb3d0743e253139e3eb6c6"
+    },
+    {
+      "path": "tests/detail-return-focus-baseline.mjs",
+      "bytes": 1028,
+      "sha256": "f031a42802497f9c43baccf9f56342e0f479709d528070211f6e5eec70ccd878"
+    },
+    {
+      "path": "tests/detail-return-focus-history.test.mjs",
+      "bytes": 2690,
+      "sha256": "fd0057847ca238a16d76f1e4da0392e8c17d47d22a952209fcdb59237753566b"
+    },
+    {
+      "path": "tests/detail-return-focus.test.mjs",
+      "bytes": 13933,
+      "sha256": "79397d1959725bf16429b3ea253eea477ed89d3da68ea516a1ae8582d27a7f86"
     },
     {
       "path": "tests/detail-ui-baseline.mjs",
@@ -419,6 +434,11 @@
       "path": "tests/f2-design.test.mjs",
       "bytes": 5589,
       "sha256": "852f6196567ca2eabe96edaae1f097e8f59151da544d02aa9951a8a5a97c6f05"
+    },
+    {
+      "path": "tests/fixtures/history/detail-return-focus-20261007.json",
+      "bytes": 166466,
+      "sha256": "fd89f026d1306d33044999be5cfb8b97e46e861f359abdb1a4453aa849a94a9d"
     },
     {
       "path": "tests/fixtures/history/reviewed-avatar-initials.json",
@@ -712,8 +732,8 @@
     },
     {
       "path": "tests/public-audit-20261006-history-fs.mjs",
-      "bytes": 1152,
-      "sha256": "fe011b9663476e7cf29571014bf9278814a725f560d10cc676c8bd35017e984d"
+      "bytes": 1250,
+      "sha256": "e15e4bb7565256b3ebb3b20cb1e15aaad01e7928877eb0614d9ca9ad633901bc"
     },
     {
       "path": "tests/public-audit-20261006.test.mjs",
@@ -727,8 +747,8 @@
     },
     {
       "path": "tests/public-audit-release-20261006.test.mjs",
-      "bytes": 8645,
-      "sha256": "e21bb72e6127e29cb276f407f69acc23889f5cf2707341d9389db6c6a59c5235"
+      "bytes": 8963,
+      "sha256": "fcd767688a8926a51fa0cd70e9498f8c7e39d123830e00d3500461dd8968ef38"
     },
     {
       "path": "tests/public-discovery.test.mjs",
@@ -742,8 +762,8 @@
     },
     {
       "path": "tests/ra-deadline-20261007-history.test.mjs",
-      "bytes": 5928,
-      "sha256": "505ae83d3ca6ece3acdb2a90acb4be3630f3687a8eb86a31c28cf75fec784e7a"
+      "bytes": 6022,
+      "sha256": "d1af4a8a3ed243ae0ae1b4459cd31175a46f4109d49c813ce2376e380d9ebb0d"
     },
     {
       "path": "tests/ra-deadline-provenance.test.mjs",
