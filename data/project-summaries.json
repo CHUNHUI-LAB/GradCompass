@@ -597,6 +597,24 @@
       "checkedDate": "2026-10-04",
       "evidenceScope": "official substantive page text",
       "readWindowUtc": "2026-10-04T15:01:30Z/2026-10-04T15:04:13Z"
+    },
+    {
+      "id": "cuhk_robotics_programme_20261007",
+      "label": "CUHK MSc in Robotics 官方项目页（云端浏览器正文）",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-robotics",
+      "checkedDate": "2026-10-07",
+      "section": "MSc in Robotics; Application Deadline; rolling applications",
+      "evidenceScope": "live_cloud_browser_accessibility_body",
+      "sourceVersion": "官方项目页直接显示 31 March 2027；未显示钟点或时区"
+    },
+    {
+      "id": "cuhk_robotics_deadlines_20261007",
+      "label": "CUHK Graduate School 普通申请日期（MAE 分类已展开）",
+      "url": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+      "checkedDate": "2026-10-07",
+      "section": "Application Commencement Date; Mechanical and Automation Engineering > Taught Programmes > MSc in Robotics",
+      "evidenceScope": "live_cloud_browser_expanded_programme_section",
+      "sourceVersion": "2026-09-01 开放；MSc in Robotics 截止 2027-03-31；未进入申请系统"
     }
   ],
   "records": [
@@ -1181,10 +1199,10 @@
         ]
       },
       "cycle": {
-        "text": "院系课程页仍为 2026/27，所列 2026-04-30 截止已过；研究生院同一网址的两次全文检索分别呈现空截止栏和 2027-03-31。2027/28 截止及最终课程版本仍待一致确认。",
+        "text": "2027申请截止已由官方项目页和研究生院日期页交叉核实为2027-03-31；滚动录取，满额即止。原文未标钟点或时区。院系课程页的2026/27教学版本不自动升级为2027/28；实际提交与余位未核实。",
         "sourceIds": [
-          "cuhk_robotics_programme",
-          "cuhk_robotics_curriculum"
+          "cuhk_robotics_programme_20261007",
+          "cuhk_robotics_deadlines_20261007"
         ]
       },
       "cautions": [
@@ -1195,7 +1213,18 @@
             "cuhk_robotics_curriculum"
           ]
         }
-      ]
+      ],
+      "cycleReview": {
+        "checkedDate": "2026-10-07",
+        "previous": {
+          "text": "院系课程页仍为 2026/27，所列 2026-04-30 截止已过；研究生院同一网址的两次全文检索分别呈现空截止栏和 2027-03-31。2027/28 截止及最终课程版本仍待一致确认。",
+          "sourceIds": [
+            "cuhk_robotics_programme",
+            "cuhk_robotics_curriculum"
+          ]
+        },
+        "scope": "只更新截止证据，其他段落与原核读日期不变"
+      }
     },
     {
       "routeId": "polyu_aae_rpg-mphil",

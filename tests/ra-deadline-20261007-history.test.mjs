@@ -1,3 +1,4 @@
+import {cuhkDeadlineBytes} from './cuhk-deadline-20261007-baseline.mjs';
 import {detailReturnBytes} from './detail-return-focus-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -9,7 +10,7 @@ import historicalFs from './public-audit-20261006-history-fs.mjs';
 import {publicAuditReleaseBytes} from './public-audit-release-20261006-baseline.mjs';
 import {publicAuditBytes} from './public-audit-20261006-baseline.mjs';
 import {snapshotHash as hash} from './strict-history-transform.mjs';
-const read=path=>detailReturnBytes(path,fs.readFileSync(new URL('../'+path,import.meta.url)));
+const read=path=>detailReturnBytes(path,cuhkDeadlineBytes(path,fs.readFileSync(new URL('../'+path,import.meta.url))));
 const git=bytes=>crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${bytes.length}\0`),bytes])).digest('hex');
 const baselineGitBlobs={
   "assets/app.js": "31758169f5f81111df24dbdc947368f8eee4c752",

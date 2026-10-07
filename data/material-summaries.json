@@ -372,6 +372,24 @@
       "checkedDate": "2026-10-05",
       "evidenceScope": "official substantive page text; current public policy, no application portal inspection",
       "readWindowUtc": "2026-10-05T13:18:52Z/2026-10-05T13:19:26Z"
+    },
+    {
+      "id": "cuhk_robotics_programme_20261007",
+      "label": "CUHK MSc in Robotics 官方项目页（云端浏览器正文）",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-robotics",
+      "checkedDate": "2026-10-07",
+      "section": "MSc in Robotics; Application Deadline; rolling applications",
+      "evidenceScope": "live_cloud_browser_accessibility_body",
+      "sourceVersion": "官方项目页直接显示 31 March 2027；未显示钟点或时区"
+    },
+    {
+      "id": "cuhk_robotics_deadlines_20261007",
+      "label": "CUHK Graduate School 普通申请日期（MAE 分类已展开）",
+      "url": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+      "checkedDate": "2026-10-07",
+      "section": "Application Commencement Date; Mechanical and Automation Engineering > Taught Programmes > MSc in Robotics",
+      "evidenceScope": "live_cloud_browser_expanded_programme_section",
+      "sourceVersion": "2026-09-01 开放；MSc in Robotics 截止 2027-03-31；未进入申请系统"
     }
   ],
   "records": [
@@ -641,11 +659,11 @@
       ],
       "status": "verified",
       "checkedDate": "2026-10-01",
-      "summary": "授课型机器人硕士：以本科学历、成绩与英语证明为基础，通用清单要求两份推荐报告；课程页尚未显示当轮截止。",
-      "note": "授课型机器人硕士：以本科学历、成绩与英语证明为基础，通用清单要求两份推荐报告；课程页尚未显示当轮截止。 适用范围：现行项目及通用材料；2027期限本次未核得；这是有界摘要，提交前仍须核对当期系统。",
-      "admissionYear": "现行项目及通用材料；2027期限本次未核得",
+      "summary": "授课型机器人硕士：原材料摘要保留；2027申请截止已核实为2027-03-31，满额可提前停止。",
+      "note": "材料要求沿用原核读范围与日期；本轮只补2027公开截止。时间、时区、实际提交状态和剩余名额未确认。",
+      "admissionYear": "现行材料摘要；2027公开截止于2026-10-07另核",
       "unknowns": [
-        "2027开放/截止日期、系内CV/PS/研究计划要求。"
+        "截止钟点/时区、实际提交与剩余名额；系内CV/PS/研究计划要求仍待核实。"
       ],
       "scopeNotes": [],
       "requirements": [
@@ -692,18 +710,41 @@
         },
         {
           "kind": "deadline",
-          "text": "官方项目页的Application Deadline栏为空；2027轮次未核实，不沿用2026日期。",
-          "requirementStatus": "unknown",
+          "text": "官方项目页与研究生院总日期页交叉核实2027-03-31截止；滚动录取至满额。原文未标钟点或时区，未进入申请系统。",
+          "requirementStatus": "published",
           "sourceIds": [
-            "cuhk_msc"
+            "cuhk_robotics_programme_20261007",
+            "cuhk_robotics_deadlines_20261007"
           ]
         }
       ],
       "sourceIds": [
         "cuhk_msc",
         "cuhk_elig",
-        "cuhk_docs"
-      ]
+        "cuhk_docs",
+        "cuhk_robotics_programme_20261007",
+        "cuhk_robotics_deadlines_20261007"
+      ],
+      "cycleReview": {
+        "checkedDate": "2026-10-07",
+        "scope": "只补截止证据，不刷新其他材料的核读日期",
+        "previous": {
+          "summary": "授课型机器人硕士：以本科学历、成绩与英语证明为基础，通用清单要求两份推荐报告；课程页尚未显示当轮截止。",
+          "note": "授课型机器人硕士：以本科学历、成绩与英语证明为基础，通用清单要求两份推荐报告；课程页尚未显示当轮截止。 适用范围：现行项目及通用材料；2027期限本次未核得；这是有界摘要，提交前仍须核对当期系统。",
+          "admissionYear": "现行项目及通用材料；2027期限本次未核得",
+          "unknowns": [
+            "2027开放/截止日期、系内CV/PS/研究计划要求。"
+          ],
+          "deadlineRequirement": {
+            "kind": "deadline",
+            "text": "官方项目页的Application Deadline栏为空；2027轮次未核实，不沿用2026日期。",
+            "requirementStatus": "unknown",
+            "sourceIds": [
+              "cuhk_msc"
+            ]
+          }
+        }
+      }
     },
     {
       "id": "polyu-aae-ise-rpg-materials",
