@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {raDeadlineBytes} from './ra-deadline-20261007-baseline.mjs';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
@@ -6,7 +7,7 @@ import {dateSummaryFixture as f,dateSummaryBytes,assertCurrentDateSummaryAsset} 
 import {publicAuditReleaseBytes,assertCurrentPublicAuditAsset} from './public-audit-release-20261006-baseline.mjs';
 import {snapshotHash as hash} from './strict-history-transform.mjs';
 import {renderRecordSummary} from '../assets/record-summaries.js';
-const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url));
+const read=p=>raDeadlineBytes(p,fs.readFileSync(new URL('../'+p,import.meta.url)));
 const git=b=>crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${b.length}\0`),b])).digest('hex');
 const baselineGitBlobs={
   "assets/record-summaries.js": "877973b520941a5174a94efb29079d1338f64da7",

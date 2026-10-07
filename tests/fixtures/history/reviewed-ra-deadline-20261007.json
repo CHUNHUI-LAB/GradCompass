@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "baseCommit": "11604f91474a4c1a7740bb5c2fd7eb6cd73056bc",
+  "baseTree": "b555143721d7e8313e8d6f89ffe5f40f337396c2",
+  "scope": "RA deadline display projection retains recorded verification provenance; no data, eligibility or taxonomy changes",
+  "files": {
+    "assets/app.js": {
+      "kind": "text_fragments",
+      "beforeSha256": "079efe04a2f54853f81fb55b138ab5555770aa83ccbb1f91f4693091502bdbd4",
+      "afterSha256": "cfd789b4c1f94610d2916662ddb6bad5231c06d24438755a8bbe7f98d884cdfd",
+      "beforeGitBlob": "31758169f5f81111df24dbdc947368f8eee4c752",
+      "afterGitBlob": "c77104826a26ed7eaccccf40eee61eb6374e5efc",
+      "operations": [
+        {
+          "before": "./project-comparison.js?v=035290c0de4d",
+          "after": "./project-comparison.js?v=472c47c4a986"
+        },
+        {
+          "before": "./page-overviews.js?v=a3848ca725ea",
+          "after": "./page-overviews.js?v=433037809a5b"
+        },
+        {
+          "before": "./material-supplement.js?v=335d6ea48c25",
+          "after": "./material-supplement.js?v=2300843e0d07"
+        },
+        {
+          "before": "./record-summaries.js?v=0e866c54fcce",
+          "after": "./record-summaries.js?v=5ec7398e98f4"
+        },
+        {
+          "before": "./experiences.js?v=ee9b5a4db5f7",
+          "after": "./experiences.js?v=934cd9361d2c"
+        },
+        {
+          "before": "./profiles.js?v=d298d9af1233",
+          "after": "./profiles.js?v=bd00ba182e6f"
+        },
+        {
+          "before": "./core.js?v=5ddeade0f642",
+          "after": "./core.js?v=ca3e6e9103ba"
+        }
+      ]
+    },
+    "assets/core.js": {
+      "kind": "text_fragments",
+      "beforeSha256": "5ddeade0f642306fb7c1fb1e531186a74e3bdfdefc9889dd385841874773ad0d",
+      "afterSha256": "ca3e6e9103ba389667e636d508c36ea9675af5aa08ae8fb8a23a77e5142366d0",
+      "beforeGitBlob": "68e599f5f4ae3024a1e7bf61f038e976cdd4a7e7",
+      "afterGitBlob": "7a5f7296d9a12c1165e56d6252f6f6dba9701362",
+      "operations": [
+        {
+          "before": "routeIds:[],jobId:j.id,date:j.currentRecruitment.deadline||null",
+          "after": "routeIds:[],jobId:j.id,checkedDate:j.currentRecruitment.checkedDate||j.checkedDate||'未记录',date:j.currentRecruitment.deadline||null"
+        }
+      ]
+    },
+    "assets/experiences.js": {
+      "kind": "text_fragments",
+      "beforeSha256": "ee9b5a4db5f77a6933f9ac49b20498b43c02122e2ded32d9440968251c430f1d",
+      "afterSha256": "934cd9361d2cb57b29727dce00b95de6b8e85e6c47fbc58281c118cc92228e15",
+      "beforeGitBlob": "16d0fe002f6ba94ba2a3466ef48c79fbc8f0ad4a",
+      "afterGitBlob": "7059198163fce61977842b4407e35f2829bbd3b9",
+      "operations": [
+        {
+          "before": "./core.js?v=5ddeade0f642",
+          "after": "./core.js?v=ca3e6e9103ba"
+        }
+      ]
+    },
+    "assets/material-supplement.js": {
+      "kind": "text_fragments",
+      "beforeSha256": "335d6ea48c25d6d0dc0cd77080f9e8c5590fe3b3e22ac40ae68dc514d74ad6cf",
+      "afterSha256": "2300843e0d07203062ae004341924c29ff9961f28317ba0391ef80be9735a8e4",
+      "beforeGitBlob": "58e2bbb980f6030bf08e1e733d2ee74ba4ec6e72",
+      "afterGitBlob": "27e545f43527c604cb16d5d30f8cc8076ec7504d",
+      "operations": [
+        {
+          "before": "./core.js?v=5ddeade0f642",
+          "after": "./core.js?v=ca3e6e9103ba"
+        }
+      ]
+    },
+    "assets/page-overviews.js": {
+      "kind": "text_fragments",
+      "beforeSha256": "a3848ca725ea3e172c1f46da91315f6a5c53c3859fc4ce9f09c6cc7b2c7b2e27",
+      "afterSha256": "433037809a5b0743d9974f00491d414618832bde589a8cdcccead80b3e93b760",
+      "beforeGitBlob": "121da6439c3ceafe0b668aae01f69a3c1e0bf23c",
+      "afterGitBlob": "ac7c9ef26798c12f752dfc0a33b6c6773129e816",
+      "operations": [
+        {
+          "before": "./core.js?v=5ddeade0f642",
+          "after": "./core.js?v=ca3e6e9103ba"
+        }
+      ]
+    },
+    "assets/profiles.js": {
+      "kind": "text_fragments",
+      "beforeSha256": "d298d9af1233e3f4a4d5888e1b9ac7d59d3dbabd43c579e2ec605521722ec9ec",
+      "afterSha256": "bd00ba182e6f30bdfd1630ee954d42020e897d455ca8b9fde855c5acc44b55b5",
+      "beforeGitBlob": "d164e6a781ee3d0fc31b2c5f1675ee033c8a1449",
+      "afterGitBlob": "d90a5e93670ee558b0cf4843427abbd04d7dcae4",
+      "operations": [
+        {
+          "before": "./core.js?v=5ddeade0f642",
+          "after": "./core.js?v=ca3e6e9103ba"
+        }
+      ]
+    },
+    "assets/project-comparison.js": {
+      "kind": "text_fragments",
+      "beforeSha256": "035290c0de4d8478146fdd0815257571212d4f756022a8454491756e46485185",
+      "afterSha256": "472c47c4a98629177cef481ce9b8b0caad556e86b2ef488760f890455c674ab0",
+      "beforeGitBlob": "cbfa03fbb68794a2e7dc387c98bb8acfcec1eeb8",
+      "afterGitBlob": "2a344432cbf162bc9ad205b1bf84105006a2f691",
+      "operations": [
+        {
+          "before": "./core.js?v=5ddeade0f642",
+          "after": "./core.js?v=ca3e6e9103ba"
+        },
+        {
+          "before": "./record-summaries.js?v=0e866c54fcce",
+          "after": "./record-summaries.js?v=5ec7398e98f4"
+        }
+      ]
+    },
+    "assets/record-summaries.js": {
+      "kind": "text_fragments",
+      "beforeSha256": "0e866c54fcce70001dc54ae2017ded6a07d114ae971b1b56b5abaa4a7851e966",
+      "afterSha256": "5ec7398e98f4a404e08edfd63ae97c353a72cd7db1c38675acbc8c3b0a99fa26",
+      "beforeGitBlob": "96242fb2cb2705569fa81e45b4b62935a7b0fe25",
+      "afterGitBlob": "eed6c1cf514c2ab0f39356c36d93635b114109ef",
+      "operations": [
+        {
+          "before": "./core.js?v=5ddeade0f642",
+          "after": "./core.js?v=ca3e6e9103ba"
+        }
+      ]
+    },
+    "index.html": {
+      "kind": "text_fragments",
+      "beforeSha256": "242267fc9f89212a21de87f4bb82f00c6d444528b0d2de5907797734c5557508",
+      "afterSha256": "eee25fddaaa2725e85e2a227a429031326d5cdb4373e4d7934a9731f2d56fe0d",
+      "beforeGitBlob": "1c1fe4a4a37fb0fa1ef083f184da0519a44c810e",
+      "afterGitBlob": "4d03f20a048ccff27f15892cb2de86e5acf4ef85",
+      "operations": [
+        {
+          "before": "./assets/app.js?v=079efe04a2f5",
+          "after": "./assets/app.js?v=cfd789b4c1f9"
+        }
+      ]
+    }
+  }
+}

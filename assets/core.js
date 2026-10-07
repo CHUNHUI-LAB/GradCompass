@@ -142,7 +142,7 @@ export function filterDeadlines(catalog,filters={}){
   return true;
  });
  const jobIds=new Set(filterOpportunities(catalog,filters).filter(o=>o.kind==='employment').map(o=>o.jobId));
- const jobs=(catalog.raPositions||[]).filter(j=>jobIds.has(j.id)).map(j=>({id:`${j.id}-deadline`,title:j.title,institution:j.institution,routeIds:[],jobId:j.id,date:j.currentRecruitment.deadline||null,status:j.currentRecruitment.status==='open'?'open':'unknown',note:`RA 岗位 ${j.jobReference||''}；截止时刻${j.currentRecruitment.deadlineTime||'未公布'}；公开广告不保证剩余额度`,sources:j.currentRecruitment.sources}));
+ const jobs=(catalog.raPositions||[]).filter(j=>jobIds.has(j.id)).map(j=>({id:`${j.id}-deadline`,title:j.title,institution:j.institution,routeIds:[],jobId:j.id,checkedDate:j.currentRecruitment.checkedDate||j.checkedDate||'未记录',date:j.currentRecruitment.deadline||null,status:j.currentRecruitment.status==='open'?'open':'unknown',note:`RA 岗位 ${j.jobReference||''}；截止时刻${j.currentRecruitment.deadlineTime||'未公布'}；公开广告不保证剩余额度`,sources:j.currentRecruitment.sources}));
  return [...academic,...jobs].sort((a,b)=>(a.date||'9999').localeCompare(b.date||'9999'));
 }
 export function toggleCompare(ids,id,limit=3){if(ids.includes(id))return ids.filter(i=>i!==id);if(ids.length>=limit)return ids;return [...ids,id];}
