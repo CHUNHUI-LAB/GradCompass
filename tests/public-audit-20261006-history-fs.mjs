@@ -2,7 +2,7 @@ import {cuhkDeadlineBytes} from './cuhk-deadline-20261007-baseline.mjs';
 import {detailReturnBytes} from './detail-return-focus-baseline.mjs';
 // Explicit pre-public-audit view, solely for historical test input. This is not
 // a global fs patch: current-source tests and production retain raw node:fs.
-import fs from 'node:fs';
+import fs from './profile-coverage-history-fs.mjs';
 import {raDeadlineBytes} from './ra-deadline-20261007-baseline.mjs';
 import {dateSummaryBytes} from './date-summary-20261006-baseline.mjs';
 import path from 'node:path';
