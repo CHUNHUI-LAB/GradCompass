@@ -21,9 +21,9 @@ const factsOf = (profile) => [
 ];
 
 test('PKU batch appends exactly five existing advisor IDs and preserves catalog authority', () => {
-  assert.deepEqual(supplement.profiles.slice(-5).map((profile) => profile.advisorId), ids);
-  assert.equal(supplement.profiles.length, 61);
-  assert.equal(supplement.batch, '1+2+3+4+5+6+7+8+9');
+  assert.deepEqual(ids.map((id) => supplement.profiles.find((profile) => profile.advisorId === id)?.advisorId), ids);
+  assert.ok(supplement.profiles.length >= 61);
+  assert.match(supplement.batch, /(^|\+)9(\+|$)/);
   assert.deepEqual(supplement.batch9Review.newAdvisorIds, ids);
   assert.equal(supplement.batch9Review.preservedProfiles, 56);
   assert.equal(supplement.batch9Review.catalogMutation, false);
