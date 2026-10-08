@@ -9272,10 +9272,606 @@
       "checkedDate": "2026-10-07",
       "confirmedVacancy": false,
       "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "nju-li-yufeng",
+      "cardSummaryZh": "研究鲁棒可靠机器学习、神经符号学习与半监督学习，关注模型在开放数据和复杂任务中的稳定性与可解释性。",
+      "overview": {
+        "textZh": "李宇峰为南京大学人工智能学院教授、LAMDA 成员和博士生导师。官方主页将其研究概括为鲁棒与可靠机器学习，并细分为溯因学习与神经符号学习、半监督/弱监督学习、统计学习与优化，以及图像、文本、图和视频应用。",
+        "sources": [
+          {
+            "url": "https://www.lamda.nju.edu.cn/liyf/",
+            "checkedDate": "2026-10-08"
+          },
+          {
+            "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
+            "checkedDate": "2026-10-08"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "LAMDA Group / 南京大学人工智能学院",
+        "affiliation": {
+          "textZh": "官方主页显示其属于南京大学人工智能学院、软件新技术国家重点实验室和 LAMDA Group；这里保留机构层级，不把研究组网页自动等同于独立课题组。",
+          "sources": [
+            {
+              "url": "https://www.lamda.nju.edu.cn/liyf/",
+              "checkedDate": "2026-10-08"
+            },
+            {
+              "url": "https://www.lamda.nju.edu.cn/CH.MainPage.ashx",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        "themes": [
+          "鲁棒与可靠机器学习",
+          "神经符号与溯因学习",
+          "半监督与弱监督学习",
+          "统计学习、优化及多模态应用"
+        ],
+        "structure": {
+          "textZh": "个人主页公开论文、软件和学生/项目动态，但未给出当前团队规模、成员完整名单或指导分工。",
+          "sources": [
+            {
+              "url": "https://www.lamda.nju.edu.cn/liyf/",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "主页公开 LAMDA-SSL 半监督学习工具包和 LaWGPT 等软件项目；公开软件不代表每位学生都获得固定算力、项目席位或硬件资源。",
+            "sources": [
+              {
+                "url": "https://www.lamda.nju.edu.cn/liyf/",
+                "checkedDate": "2026-10-08"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "NeSy-Route: A Neural-Symbolic Benchmark for Constrained Route Planning in Remote Sensing",
+          "year": 2026,
+          "venue": "ECCV 2026（个人主页列举）",
+          "summaryZh": "官方主页将其列为 2026 ECCV 论文，主题连接神经符号学习、约束规划和遥感数据。",
+          "url": "https://www.lamda.nju.edu.cn/liyf/",
+          "sources": [
+            {
+              "url": "https://www.lamda.nju.edu.cn/liyf/",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        {
+          "title": "Mitigating Neuro-Symbolic Reasoning Shortcuts with Data-Driven Knowledge Augmentation",
+          "year": 2026,
+          "venue": "KDD 2026（个人主页列举）",
+          "summaryZh": "官方主页将其列为 2026 KDD 论文，主题对应神经符号推理中的捷径问题与知识增强。",
+          "url": "https://www.lamda.nju.edu.cn/liyf/",
+          "sources": [
+            {
+              "url": "https://www.lamda.nju.edu.cn/liyf/",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        {
+          "title": "Improving Semi-Supervised Support Vector Machines through Unlabeled Instances Selection",
+          "year": 2011,
+          "venue": "AAAI 2011（个人主页列举）",
+          "summaryZh": "官方主页列出该论文，体现其长期半监督学习研究线索。",
+          "url": "https://www.lamda.nju.edu.cn/liyf/",
+          "sources": [
+            {
+              "url": "https://www.lamda.nju.edu.cn/liyf/",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "南京大学 LAMDA 2027 秋季招收说明把李宇峰列入拟招生导师范围；这是项目/年份参考，未核实个人当期余位、资助或 2028 Fall 接收。",
+        "sources": [
+          {
+            "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
+            "checkedDate": "2026-10-08"
+          },
+          {
+            "url": "https://www.lamda.nju.edu.cn/liyf/",
+            "checkedDate": "2026-10-08"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人当期招生余位、资助额度与最终导师接收决定未在公开页面中核实",
+        "2028 Fall 是否开放、对应学位与申请批次尚未找到个人明确声明"
+      ],
+      "links": [
+        {
+          "label": "南京大学 LAMDA 个人主页",
+          "url": "https://www.lamda.nju.edu.cn/liyf/"
+        },
+        {
+          "label": "LAMDA 2027 秋季招收说明",
+          "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html"
+        }
+      ],
+      "checkedDate": "2026-10-08",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "nju-shen-furao",
+      "cardSummaryZh": "围绕自组织增量学习、神经网络和机器人智能，研究模型如何在动态输入中在线聚类、推理并适应环境。",
+      "overview": {
+        "textZh": "申富饶为南京大学计算机科学与技术系教授、博士生导师。南京大学人工智能学院官方页面介绍其研究方向包括神经网络、数据挖掘、机器人智能，并重点介绍自组织增量学习神经网络（SOINN）、联想记忆和基于模式的推理。",
+        "sources": [
+          {
+            "url": "https://ai.nju.edu.cn/e9/5e/c18540a321886/pagem.htm",
+            "checkedDate": "2026-10-08"
+          },
+          {
+            "url": "https://scit.nju.edu.cn/1c/2c/c10927a597036/page.htm",
+            "checkedDate": "2026-10-08"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "南京大学人工智能学院神经网络与机器人智能研究方向",
+        "affiliation": {
+          "textZh": "官方教师页将其归于南京大学人工智能学院；公开页面未给出独立实验室名称，因此这里不把研究方向扩写成课题组。",
+          "sources": [
+            {
+              "url": "https://ai.nju.edu.cn/e9/5e/c18540a321886/pagem.htm",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        "themes": [
+          "自组织增量学习网络（SOINN）",
+          "神经网络与数据挖掘",
+          "模式推理与联想记忆",
+          "机器人智能"
+        ],
+        "structure": {
+          "textZh": "官方简介列出研究项目和论文成果，但未公开当前团队规模、成员名单或招生分工。",
+          "sources": [
+            {
+              "url": "https://ai.nju.edu.cn/e9/5e/c18540a321886/pagem.htm",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "公开资料显示其长期维护 SOINN 等算法研究线索；这代表公开研究方向，不等同于固定硬件、数据或算力承诺。",
+            "sources": [
+              {
+                "url": "https://ai.nju.edu.cn/e9/5e/c18540a321886/pagem.htm",
+                "checkedDate": "2026-10-08"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "IC neuron: An efficient unit to construct neural networks",
+          "year": 2022,
+          "venue": "Neural Networks（南京大学官方科研新闻列举）",
+          "summaryZh": "南京大学官方科研新闻介绍该论文提出 IC neuron，并报告其在多种网络与图像分类任务中的实验表现。",
+          "url": "https://scit.nju.edu.cn/1c/2c/c10927a597036/page.htm",
+          "sources": [
+            {
+              "url": "https://scit.nju.edu.cn/1c/2c/c10927a597036/page.htm",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        {
+          "title": "Self-Organizing Incremental Neural Network（SOINN）",
+          "year": 2026,
+          "venue": "南京大学人工智能学院官方教师简介（研究成果范围）",
+          "summaryZh": "官方简介将 SOINN 及其在 Neural Networks 等期刊发表的系列工作列为长期研究方向；这里按研究主题呈现，不虚构单篇论文。",
+          "url": "https://ai.nju.edu.cn/e9/5e/c18540a321886/pagem.htm",
+          "sources": [
+            {
+              "url": "https://ai.nju.edu.cn/e9/5e/c18540a321886/pagem.htm",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "现有南京大学人工智能学院博士项目参考与导师目录支持其导师身份和研究方向；未找到其个人明确写出 2028 Fall 余位或当期资助。",
+        "sources": [
+          {
+            "url": "https://ai.nju.edu.cn/e9/5e/c18540a321886/pagem.htm",
+            "checkedDate": "2026-10-08"
+          },
+          {
+            "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
+            "checkedDate": "2026-10-08"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人当期招生余位、资助额度与最终导师接收决定未在公开页面中核实",
+        "2028 Fall 是否开放、对应学位与申请批次尚未找到个人明确声明"
+      ],
+      "links": [
+        {
+          "label": "南京大学人工智能学院教师页",
+          "url": "https://ai.nju.edu.cn/e9/5e/c18540a321886/pagem.htm"
+        },
+        {
+          "label": "南京大学科研新闻：IC neuron",
+          "url": "https://scit.nju.edu.cn/1c/2c/c10927a597036/page.htm"
+        }
+      ],
+      "checkedDate": "2026-10-08",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "tongji-he-bin",
+      "cardSummaryZh": "面向智能机器人与无人系统，研究智能感知、检测、数字孪生和物理智能在复杂环境中的协同。",
+      "overview": {
+        "textZh": "何斌为同济大学电子与信息工程学院长聘特聘教授、博士生导师，现任上海自主智能无人系统科学中心执行主任和自主智能无人系统全国重点实验室副主任。官方页面列出智能机器人、无人系统智能感知、数字孪生和物理智能等方向。",
+        "sources": [
+          {
+            "url": "https://robot.tongji.edu.cn/info/1256/2083.htm",
+            "checkedDate": "2026-10-08"
+          },
+          {
+            "url": "https://robot.tongji.edu.cn/",
+            "checkedDate": "2026-10-08"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "同济大学智能机器人与计算感知实验室 / 上海自主智能无人系统科学中心",
+        "affiliation": {
+          "textZh": "个人页同时标注同济大学电子与信息工程学院、上海自主智能无人系统科学中心和全国重点实验室职务；这些是分开的机构/行政关系，不合并为单一实验室名称。",
+          "sources": [
+            {
+              "url": "https://robot.tongji.edu.cn/info/1256/2083.htm",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        "themes": [
+          "智能机器人",
+          "无人系统智能感知与检测",
+          "数字孪生",
+          "物理智能"
+        ],
+        "structure": {
+          "textZh": "实验室主页展示教师和科研方向，但未公布当前团队完整人数、成员名单或何斌个人指导分工。",
+          "sources": [
+            {
+              "url": "https://robot.tongji.edu.cn/",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "实验室公开动态提到云边端协同、智能感知与双臂协同机器人等科研平台；平台建设信息不等同于每位申请者的设备使用承诺。",
+            "sources": [
+              {
+                "url": "https://robot.tongji.edu.cn/jieguo.jsp?currentnum=24&newskeycode2=&searchScope=0&wbtreeid=1289",
+                "checkedDate": "2026-10-08"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "智能机器人、无人系统智能感知与数字孪生",
+          "year": 2026,
+          "venue": "同济大学官方教师简介（研究成果范围）",
+          "summaryZh": "官方页面将这些方向列为主要研究方向；这里保留主题范围，不据此指认单篇论文或当前项目。",
+          "url": "https://robot.tongji.edu.cn/info/1256/2083.htm",
+          "sources": [
+            {
+              "url": "https://robot.tongji.edu.cn/info/1256/2083.htm",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        {
+          "title": "智能检测与计算感知",
+          "year": 2026,
+          "venue": "同济大学官方科研项目/平台信息（研究方向范围）",
+          "summaryZh": "公开科研资料将智能检测与计算感知列为相关研究布局，不能直接推导个人招生名额。",
+          "url": "https://robot.tongji.edu.cn/info/1256/2083.htm",
+          "sources": [
+            {
+              "url": "https://robot.tongji.edu.cn/info/1256/2083.htm",
+              "checkedDate": "2026-10-08"
+            },
+            {
+              "url": "https://srias.tongji.edu.cn/main.htm",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "同济大学智能机器人与计算感知实验室博士入口和 2026 博士招生参考支持何斌的博士导师/研究方向身份；未核实个人当期余位或 2028 Fall 接收。",
+        "sources": [
+          {
+            "url": "https://robot.tongji.edu.cn/info/1256/2083.htm",
+            "checkedDate": "2026-10-08"
+          },
+          {
+            "url": "https://robot.tongji.edu.cn/sysjs.htm",
+            "checkedDate": "2026-10-08"
+          },
+          {
+            "url": "https://yz.tongji.edu.cn/__local/4/DE/C5/CBF316CC9EAB81193FCB6F174F2_FAE3F663_3C498.pdf",
+            "checkedDate": "2026-10-08"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人当期招生余位、资助额度与最终导师接收决定未在公开页面中核实",
+        "2028 Fall 是否开放、对应学位与申请批次尚未找到个人明确声明"
+      ],
+      "links": [
+        {
+          "label": "同济大学智能机器人实验室教师页",
+          "url": "https://robot.tongji.edu.cn/info/1256/2083.htm"
+        },
+        {
+          "label": "同济大学智能机器人实验室主页",
+          "url": "https://robot.tongji.edu.cn/"
+        }
+      ],
+      "checkedDate": "2026-10-08",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "tongji-xu-yang",
+      "cardSummaryZh": "研究机器人主动感知、环境探测与规划决策，关注机器人在未知环境中的长期学习与理解。",
+      "overview": {
+        "textZh": "徐阳为同济大学上海自主智能无人系统科学中心副教授、博士生导师，2026 年 3 月全职加入同济大学。官方页面将其研究概括为机器人主动感知探测、规划决策、主动认知和长期学习。",
+        "sources": [
+          {
+            "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+            "checkedDate": "2026-10-08"
+          },
+          {
+            "url": "https://shepherd-gregory.github.io/",
+            "checkedDate": "2026-10-08"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "徐阳课题组 / 同济大学智能机器人与计算感知实验室",
+        "affiliation": {
+          "textZh": "个人页将徐阳置于上海自主智能无人系统科学中心，实验室主页提供同济大学智能机器人与计算感知实验室的统一平台；两者关系分开记录。",
+          "sources": [
+            {
+              "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+              "checkedDate": "2026-10-08"
+            },
+            {
+              "url": "https://robot.tongji.edu.cn/",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        "themes": [
+          "机器人主动感知与认知",
+          "自主环境探测与规划",
+          "规划决策与长期学习",
+          "机器人理解"
+        ],
+        "structure": {
+          "textZh": "官方页介绍论文、项目和招生招聘文字，但未公布当前团队规模、成员完整名单或具体指导分工。",
+          "sources": [
+            {
+              "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "官方页面列出机器人主动感知、环境探测与规划决策研究方向，并链接个人学术主页；研究方向不等同于已确认硬件或项目席位。",
+            "sources": [
+              {
+                "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+                "checkedDate": "2026-10-08"
+              },
+              {
+                "url": "https://shepherd-gregory.github.io/",
+                "checkedDate": "2026-10-08"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "机器人主动感知与未知环境探测",
+          "year": 2026,
+          "venue": "同济大学官方教师简介（研究成果范围）",
+          "summaryZh": "官方研究方向将主动感知、环境探测和规划决策列为长期主题；这里按主题呈现，不虚构单篇论文题名。",
+          "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+          "sources": [
+            {
+              "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        {
+          "title": "机器人长期学习与理解",
+          "year": 2026,
+          "venue": "同济大学官方教师简介（研究成果范围）",
+          "summaryZh": "官方页面将机器人长期学习与理解列入研究方向，未据此指认当前项目或招生名额。",
+          "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+          "sources": [
+            {
+              "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "徐阳官方教师页明确写出“招收 2027 年入学的硕博研究生”，并同时欢迎本科生科研实习；这是个人 2027 招募信号，但未确认剩余名额、资助额度或 2028 Fall。",
+        "sources": [
+          {
+            "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+            "checkedDate": "2026-10-08"
+          }
+        ]
+      },
+      "unknowns": [
+        "2027 硕博招募的具体学位、名额和资助条件未在页面中拆分",
+        "2028 Fall 是否继续接收及当前余位未确认",
+        "当前课题组成员结构和设备使用边界未公开"
+      ],
+      "links": [
+        {
+          "label": "同济大学徐阳教师页",
+          "url": "https://robot.tongji.edu.cn/info/1256/2810.htm"
+        },
+        {
+          "label": "徐阳个人学术主页",
+          "url": "https://shepherd-gregory.github.io/"
+        }
+      ],
+      "checkedDate": "2026-10-08",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
+    },
+    {
+      "advisorId": "ustc-ren-shaoqing",
+      "cardSummaryZh": "围绕下一代基础模型、具身智能和 AI for Science，连接世界模型、自动驾驶与机器人学习问题。",
+      "overview": {
+        "textZh": "任少卿为中国科学技术大学讲席教授、博士生导师和通用人工智能研究所所长。官方个人主页列出下一代基础模型、具身智能和 AI for Science，并进一步列出世界模型、自动驾驶、计算机视觉和深度学习等方向。",
+        "sources": [
+          {
+            "url": "https://faculty.ustc.edu.cn/sqren/zh_CN/index.htm",
+            "checkedDate": "2026-10-08"
+          },
+          {
+            "url": "https://dslx.ustc.edu.cn/?menu=expertlist&year=2026",
+            "checkedDate": "2026-10-08"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "中国科学技术大学通用人工智能研究所",
+        "affiliation": {
+          "textZh": "官方个人主页标注其为中国科大通用人工智能研究所所长，工作地点包含科大上海研究院和合肥本部；这里保留机构与地点边界，不推断具体课题组规模。",
+          "sources": [
+            {
+              "url": "https://faculty.ustc.edu.cn/sqren/zh_CN/index.htm",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        "themes": [
+          "下一代基础模型",
+          "世界模型与具身智能",
+          "自动驾驶与计算机视觉",
+          "AI for Science"
+        ],
+        "structure": {
+          "textZh": "个人主页公开研究方向、招生信息和机构招聘信息，但未公布当前团队成员完整名单、指导分工或实际招收名额。",
+          "sources": [
+            {
+              "url": "https://faculty.ustc.edu.cn/sqren/zh_CN/index.htm",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "官方主页公开通用人工智能研究所持续招聘教授、研究员、博士后和工程师，并提到上海/合肥工作地点；招聘信息不等于研究生设备或经费承诺。",
+            "sources": [
+              {
+                "url": "https://faculty.ustc.edu.cn/sqren/zh_CN/index.htm",
+                "checkedDate": "2026-10-08"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "下一代基础模型与世界模型",
+          "year": 2026,
+          "venue": "中国科大官方个人主页（研究方向范围）",
+          "summaryZh": "官方个人主页把下一代基础模型和世界模型列为研究方向；这里按研究主题呈现，不虚构单篇论文。",
+          "url": "https://faculty.ustc.edu.cn/sqren/zh_CN/index.htm",
+          "sources": [
+            {
+              "url": "https://faculty.ustc.edu.cn/sqren/zh_CN/index.htm",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        {
+          "title": "具身智能与 AI for Science",
+          "year": 2026,
+          "venue": "中国科大官方个人主页（研究方向范围）",
+          "summaryZh": "官方个人主页将具身智能和 AI for Science 列入研究方向；主题范围不等于当前项目或名额确认。",
+          "url": "https://faculty.ustc.edu.cn/sqren/zh_CN/index.htm",
+          "sources": [
+            {
+              "url": "https://faculty.ustc.edu.cn/sqren/zh_CN/index.htm",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "任少卿个人主页明确欢迎有意攻读博士、硕士及本科实习者联系，并要求附简历和研究计划；这是未注明年份的个人招募声明，未核实 2027/2028 余位或具体学位名额。",
+        "sources": [
+          {
+            "url": "https://faculty.ustc.edu.cn/sqren/zh_CN/index.htm",
+            "checkedDate": "2026-10-08"
+          },
+          {
+            "url": "https://yz.ustc.edu.cn/article/2795",
+            "checkedDate": "2026-10-08"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人主页未注明当前招收人数、资助额度和具体录取周期",
+        "博士/硕士申请的专业入口、材料要求和导师分配边界尚待确认",
+        "上海研究院与合肥本部的具体指导地点和实验资源未公开"
+      ],
+      "links": [
+        {
+          "label": "中国科大任少卿个人主页",
+          "url": "https://faculty.ustc.edu.cn/sqren/zh_CN/index.htm"
+        },
+        {
+          "label": "中国科大招生导师目录",
+          "url": "https://dslx.ustc.edu.cn/?menu=expertlist&year=2026"
+        }
+      ],
+      "checkedDate": "2026-10-08",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview"
     }
   ],
   "reviewRequired": true,
-  "batch": "1+2+3+4+5+6+7+8+9",
+  "batch": "1+2+3+4+5+6+7+8+9+10",
   "batch3Review": {
     "checkedDate": "2026-10-02",
     "baseCommit": "595c832d7d0610ed550131dc97b3f2da4fbf6c87",
@@ -9935,6 +10531,31 @@
       "https://aug-kin-rep.github.io/",
       "https://pr2-humanoid.github.io/",
       "https://m2diffuser.github.io/"
+    ]
+  },
+  "batch10Review": {
+    "checkedDate": "2026-10-08",
+    "baseCommit": "8d92688",
+    "newAdvisorIds": [
+      "nju-li-yufeng",
+      "nju-shen-furao",
+      "tongji-he-bin",
+      "tongji-xu-yang",
+      "ustc-ren-shaoqing"
+    ],
+    "preservedProfiles": 61,
+    "catalogMutation": false,
+    "scope": "补齐南京大学、同济大学和中国科学技术大学已有五位大陆高校导师的公开专业简介；只补 profile supplement，不修改 catalog admission authority。",
+    "sources": [
+      "https://www.lamda.nju.edu.cn/liyf/",
+      "https://ai.nju.edu.cn/e9/5e/c18540a321886/pagem.htm",
+      "https://scit.nju.edu.cn/1c/2c/c10927a597036/page.htm",
+      "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
+      "https://robot.tongji.edu.cn/info/1256/2083.htm",
+      "https://robot.tongji.edu.cn/info/1256/2810.htm",
+      "https://robot.tongji.edu.cn/",
+      "https://faculty.ustc.edu.cn/sqren/zh_CN/index.htm",
+      "https://dslx.ustc.edu.cn/?menu=expertlist&year=2026"
     ]
   }
 }
