@@ -1,5 +1,6 @@
-// Raw-current tests intentionally use node:fs. Historical read views are never
-// applied before this stage's current hash and semantic assertions.
+import {profileCoverageBytes} from './profile-coverage-baseline.mjs';
+// CUHK-stage assertions first reverse only the separately pinned later profile
+// expansion. Current manifest and production-byte checks still use raw node:fs.
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -13,8 +14,7 @@ import {assertCurrentPublicAudit} from './public-audit-20261006-baseline.mjs';
 import {normalizeProjectSummaries,renderRecordSummary} from '../assets/record-summaries.js';
 import {normalizeMaterialSupplement} from '../assets/material-supplement.js';
 import {browseAdvisors,browseRoutes,buildOpportunities,filterDeadlines} from '../assets/core.js';
-import {fullProfileCoverageBytes} from './full-profile-coverage-baseline.mjs';
-const root=new URL('../',import.meta.url),rawRead=p=>fs.readFileSync(new URL(p,root)),read=p=>fullProfileCoverageBytes(p,rawRead(p)),data=p=>JSON.parse(read(p));
+const root=new URL('../',import.meta.url),rawRead=p=>fs.readFileSync(new URL(p,root)),read=p=>profileCoverageBytes(p,rawRead(p)),data=p=>JSON.parse(read(p));
 const git=b=>crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${b.length}\0`),b])).digest('hex');
 const paths=['data/catalog.json','data/project-summaries.json','data/material-summaries.json','assets/app.js','index.html'];
 const sourceUrls=['https://www.gs.cuhk.edu.hk/programmes/engineering/msc-robotics','https://www.gs.cuhk.edu.hk/admissions/application-deadline'];

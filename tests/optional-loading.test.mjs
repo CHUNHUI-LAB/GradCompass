@@ -40,7 +40,7 @@ class Element{
  showModal(){this.open=true;this.opens++;}
  close(){this.open=false;this.listeners.close?.();}
 }
-async function boot({file,mode='loaded',hash='',allPending=false}={}){
+async function boot({file,mode='loaded',hash='',allPending=false,missingProfileId=null}={}){
  const nodes=new Map(),events={},navigation={},requests=[];
  const el=s=>{if(!nodes.has(s))nodes.set(s,new Element());return nodes.get(s);};
  globalThis.document={querySelector:el,querySelectorAll:s=>s==='dialog'?[el('#detail-dialog'),el('#compare-dialog')]:[],getElementById:id=>el('#'+id),addEventListener:(k,f)=>events[k]=f,activeElement:{tagName:'BODY'}};
@@ -56,6 +56,7 @@ async function boot({file,mode='loaded',hash='',allPending=false}={}){
    if(target&&mode==='json-pending')return new Promise(()=>{});
    if(target&&mode==='json-reject')throw Error('Injected JSON rejection');
    if(target&&mode==='malformed')return file==='advisor-profiles.json'?{profiles:{}}:{records:'bad'};
+   if(target&&mode==='profile-absent'){const value=read(url);assert.equal(file,'advisor-profiles.json');assert(value.profiles.some(profile=>profile.advisorId===missingProfileId));return {...value,profiles:value.profiles.filter(profile=>profile.advisorId!==missingProfileId)};}
    if(target&&mode==='json-late')return new Promise((resolve,reject)=>{settle=rejectIt=>rejectIt?reject(Error('Injected late JSON rejection')):resolve(read(url));});
    return read(url);
   }};
@@ -158,4 +159,16 @@ test('late material comparison render failure stays contained and loaded require
  const app=await boot({file:'material-summaries.json',mode:'fetch-late'});app.view('routes/compare/'+projectIds.join(','));const before=app.el('#compare-content').innerHTML,warnings=[],warn=console.warn;console.warn=(...args)=>warnings.push(args);
  try{app.el('#compare-content').failWrites=1;await app.complete();}finally{console.warn=warn;}
  assert.equal(warnings.length,1);assert.equal(app.el('#compare-content').innerHTML,before);app.view('sources');app.view('routes/compare/'+projectIds.join(','));assert.notEqual(app.el('#compare-content').innerHTML,before);assert(app.el('#compare-dialog').open);
+});
+
+// Explicit network fixture: the shipped catalog/profile corpus remains unchanged.
+test('an explicitly absent pending-adviser supplement retains honest fallback and no verified opportunity',async()=>{
+ const id='cuhk_zhongyu_li',shipped=data('advisor-profiles.json');
+ assert.equal(shipped.profiles.length,334);assert(shipped.profiles.some(profile=>profile.advisorId===id));
+ assert(!opportunities.some(row=>row.advisorId===id));assert(browseAdvisors(catalog).some(advisor=>advisor.id===id));
+ const app=await boot({file:'advisor-profiles.json',mode:'profile-absent',missingProfileId:id});
+ assertCore(app);app.detail('advisor',id);const html=app.el('#detail-content').innerHTML;
+ assert(html.includes('专业简介待补充'));assert(html.includes('研究方向与代表工作'));assert(html.includes('<dt>MSc</dt>'));assert(!html.includes('data-profile-advisor'));
+ app.detail('advisor',profileId);assert(app.el('#detail-content').innerHTML.includes('data-profile-advisor="'+profileId+'"'));
+ assert.deepEqual(data('advisor-profiles.json'),shipped);
 });
