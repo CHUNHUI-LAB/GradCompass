@@ -247,8 +247,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 11655,
-      "sha256": "71aeaca2ecac117f28a90c8a0a51ff189067753e67963d6633284dc84e91a2ec"
+      "bytes": 11769,
+      "sha256": "13ae205011dbe644d6af5baf66ace82583c6bce28eeda65d2a79f29a97d6a4e7"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -347,8 +347,8 @@
     },
     {
       "path": "tests/date-summary-20261006.test.mjs",
-      "bytes": 4636,
-      "sha256": "4633a4e580681d4562f18252ae5930ba6383db5fa35c37a7b2bc7ffce0d09b63"
+      "bytes": 4743,
+      "sha256": "3f8179b8089a5cfeb2637a8897ec9e1f80ebd5c87c68c4f981aec805283075bd"
     },
     {
       "path": "tests/detail-reader-polish.test.mjs",
@@ -362,8 +362,8 @@
     },
     {
       "path": "tests/detail-return-focus-history.test.mjs",
-      "bytes": 2813,
-      "sha256": "2cdca87ec390ba4853f7aa8a3905b84bcf9bb2d7c0d4673d4aa44107feeeddc9"
+      "bytes": 2923,
+      "sha256": "fc4cd8b1d6d02039a4c7e147b5b01d7b1ec97a40718b8935558db524d3e591af"
     },
     {
       "path": "tests/detail-return-focus.test.mjs",
@@ -442,13 +442,23 @@
     },
     {
       "path": "tests/f2-design.test.mjs",
-      "bytes": 5589,
-      "sha256": "852f6196567ca2eabe96edaae1f097e8f59151da544d02aa9951a8a5a97c6f05"
+      "bytes": 5708,
+      "sha256": "91b1522252bc90362e84102364db83738240447f2d3a1546422d1da72e52869f"
     },
     {
       "path": "tests/fixtures/history/detail-return-focus-20261007.json",
       "bytes": 166466,
       "sha256": "fd89f026d1306d33044999be5cfb8b97e46e861f359abdb1a4453aa849a94a9d"
+    },
+    {
+      "path": "tests/fixtures/history/public-audit-20261006-app.js",
+      "bytes": 72357,
+      "sha256": "672d4904e5c5bf1af91e403f6001042c90b60b2d3c15ac61fa12e5f4f3314daf"
+    },
+    {
+      "path": "tests/fixtures/history/public-audit-20261006-index.html",
+      "bytes": 8270,
+      "sha256": "9ef4f28c1830d9ed484fdc9fc3e6e22e0a4b7dcd84368bae7f15e221119db7de"
     },
     {
       "path": "tests/fixtures/history/reviewed-avatar-initials.json",
@@ -597,8 +607,8 @@
     },
     {
       "path": "tests/historical-source-fs.mjs",
-      "bytes": 1517,
-      "sha256": "26d691efe286a5eb153abc61247a751d50c3b70b2cf22b272572bcdce23f4f8c"
+      "bytes": 1631,
+      "sha256": "0c7e914b21f3d60eeceb247bc401f41e0ca469bf0dc4ace0447c4b11cab1737b"
     },
     {
       "path": "tests/hku-ris-baseline.mjs",
@@ -782,8 +792,8 @@
     },
     {
       "path": "tests/public-audit-20261006-history-fs.mjs",
-      "bytes": 1377,
-      "sha256": "625c3453b3123f54edca7d5d799067a81e63828957a7c1c5d9b73c28e96deced"
+      "bytes": 1491,
+      "sha256": "cfc8caf974b1897b8fd06afcb0004d0ab94a977fdaeb34c1e1936f8554798715"
     },
     {
       "path": "tests/public-audit-20261006.test.mjs",
@@ -797,8 +807,8 @@
     },
     {
       "path": "tests/public-audit-release-20261006.test.mjs",
-      "bytes": 9825,
-      "sha256": "3b7722663c4efc4cb9de5ecc4ee512ecfd4816ece5d58b584562e68702f07067"
+      "bytes": 9955,
+      "sha256": "3e4e07c19629c670c43cea56bc0c54556507b590780d57942dee00ba95cb92da"
     },
     {
       "path": "tests/public-discovery.test.mjs",
@@ -812,8 +822,8 @@
     },
     {
       "path": "tests/ra-deadline-20261007-history.test.mjs",
-      "bytes": 6145,
-      "sha256": "698043ebe67932ca7fd9eed2ce90e878a1a624139d06189d13f3d0e3a6b94798"
+      "bytes": 6255,
+      "sha256": "815ce3f1d4fa453807300b46d22052f3b2c4be14217615d95b7fd6f74afed8c2"
     },
     {
       "path": "tests/ra-deadline-provenance.test.mjs",

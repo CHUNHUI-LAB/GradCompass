@@ -20,6 +20,7 @@ addedFiles.push('tests/detail-return-focus.test.mjs','tests/detail-return-focus-
 addedFiles.push("tests/cuhk-deadline-20261007-baseline.mjs","tests/cuhk-deadline-20261007.test.mjs","tests/fixtures/history/reviewed-cuhk-deadline-20261007.json");
 // The current derived profile-source count is checked against raw data in profile-coverage-history.test.mjs.
 addedFiles.push('tests/full-profile-coverage.test.mjs','tests/nju-tongji-ustc-profiles.test.mjs','tests/pku-profiles.test.mjs','tests/profile-coverage-baseline.mjs','tests/profile-coverage-history-fs.mjs','tests/profile-coverage-history.test.mjs','tests/fixtures/history/reviewed-profile-coverage-20261008.json');
+addedFiles.push('tests/fixtures/history/public-audit-20261006-app.js','tests/fixtures/history/public-audit-20261006-index.html');
 const git=b=>crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${b.length}\0`),b])).digest('hex');
 
 test('public audit asset stage is exact, reversible and limited to three content-version fragments',()=>{
