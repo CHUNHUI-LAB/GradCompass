@@ -68,6 +68,7 @@ files.extend(['tests/ra-deadline-provenance.test.mjs', 'tests/ra-deadline-202610
 files.extend(['tests/detail-return-focus.test.mjs', 'tests/detail-return-focus-baseline.mjs', 'tests/detail-return-focus-history.test.mjs', 'tests/fixtures/history/detail-return-focus-20261007.json'])
 files.extend(["tests/cuhk-deadline-20261007-baseline.mjs","tests/cuhk-deadline-20261007.test.mjs","tests/fixtures/history/reviewed-cuhk-deadline-20261007.json"])
 files.extend(['tests/profile-coverage-baseline.mjs','tests/profile-coverage-history-fs.mjs','tests/profile-coverage-history.test.mjs','tests/fixtures/history/reviewed-profile-coverage-20261008.json'])
+files.extend(['tests/published-history-fs.mjs','tests/published-history-inputs.test.mjs','tests/reviewed-public-data.mjs','tests/evidence-reviews.mjs','tests/live-data-maintenance.test.mjs','tests/fixtures/history/published-inputs-4653bbd.json.gz','tests/fixtures/evidence/maintenance-20261008.json'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):

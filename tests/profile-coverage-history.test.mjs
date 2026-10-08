@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './published-history-fs.mjs';
 import crypto from 'node:crypto';
 import historicalFs from './profile-coverage-history-fs.mjs';
 import {profileCoverageFixture as fixture, profileCoverageBytes, assertCurrentProfileCoverageFile} from './profile-coverage-baseline.mjs';
@@ -95,7 +95,7 @@ test('all production bytes and every existing immutable history fixture and base
   }
 });
 
-test('current counts use raw 334-profile content while dated source counters use exact 56-profile history', () => {
+test('published counts use archived 334-profile content while dated source counters use exact 56-profile history', () => {
   const manifest = JSON.parse(read('release-manifest.json'));
   const catalog = JSON.parse(read('data/catalog.json'));
   const data = {...catalog, raPositions: JSON.parse(read('data/ra-positions.json')).raPositions};

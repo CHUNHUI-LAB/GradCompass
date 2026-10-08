@@ -75167,8 +75167,8 @@
       "status": "verified",
       "eligibilitySummary": "MPhil: bachelor's Second Class Honours or equivalent. Four-year PhD: First Class Honours bachelor's or equivalent is an alternative to master's. Three-year PhD normally requires research master's and is a separate route.",
       "supervisorAssociation": "逐导师、逐学位证据见 routeAssociations；授课型硕士不保证进组或论文指导",
-      "admissionYear": "Department page still displays September 2026; no individual 2027 vacancy inferred",
-      "cycle2027Verified": false,
+      "admissionYear": "2027年1月／5月／9月入学普通轮（研究生院AAE/ISE分院系日期已核实；个人名额另核）",
+      "cycle2027Verified": true,
       "applicationStatus": "unknown",
       "applicationMethod": "Ordinary direct RPgAdmission application; identify named supervisor",
       "sources": [
@@ -75186,11 +75186,26 @@
           "label": "公开一手来源",
           "url": "https://www.polyu.edu.hk/en/gs/prospective-students/how-to-apply/",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "id": "polyu_departments_20261008",
+          "label": "PolyU Graduate School: Application Deadline（含2027/28 Sept列）",
+          "url": "https://www.polyu.edu.hk/gs/prospective-students/how-to-apply/application-deadline/",
+          "checkedDate": "2026-10-08",
+          "section": "完整表头与AAE、ISE行：Jan 2027、May 2027、Sept 2027；不把HKPFS时刻套入普通轮"
+        },
+        {
+          "id": "polyu_period_20261008",
+          "label": "PolyU Research Postgraduate - Application Period（2026/27及2027/28）",
+          "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+          "checkedDate": "2026-10-08",
+          "section": "2027年1/5/9月普通轮；院系单独期限与申请提前量"
         }
       ],
       "notes": [
         "The cited ordinary direct-application route does not list mainland 推免 qualification as a prerequisite; collaborative/partner nomination routes are not included",
-        "Not assessed; degree equivalence, academic results, English, graduation timing, supervisor consent, funding and quotas remain individual checks"
+        "Not assessed; degree equivalence, academic results, English, graduation timing, supervisor consent, funding and quotas remain individual checks",
+        "2026-10-08仅复核批次：2027年1月入学已于2026-09-30截止；5月、9月入学分别截止2027-01-31、2027-05-31。普通轮原文未标钟点或时区；不表示个人余位、资助或实际提交状态已核实。"
       ],
       "requirements": [
         {
@@ -75241,7 +75256,31 @@
         "applicant_eligibility_note": "Not assessed; degree equivalence, academic results, English, graduation timing, supervisor consent, funding and quotas remain individual checks"
       },
       "checkedDate": "2026-10-01",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "cycleReview": {
+        "checkedDate": "2026-10-08",
+        "scope": "仅复核研究生院分院系入学批次与普通申请日期；不重核资格、个人导师名额或申请系统",
+        "reason": "当前研究生院表头明确含2027/28 September 2027，AAE与ISE对应行均列2027-05-31；学校普通申请期交叉一致。旧AAE September 2026及ISE January 2027项目页保留为各自年份来源，不再据此将秋季项目日期写为未确认。",
+        "previousAdmissionYear": "Department page still displays September 2026; no individual 2027 vacancy inferred",
+        "previousCycle2027Verified": false,
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "id": "polyu_departments_20261008",
+            "label": "PolyU Graduate School: Application Deadline（含2027/28 Sept列）",
+            "url": "https://www.polyu.edu.hk/gs/prospective-students/how-to-apply/application-deadline/",
+            "checkedDate": "2026-10-08",
+            "section": "完整表头与AAE、ISE行：Jan 2027、May 2027、Sept 2027；不把HKPFS时刻套入普通轮"
+          },
+          {
+            "id": "polyu_period_20261008",
+            "label": "PolyU Research Postgraduate - Application Period（2026/27及2027/28）",
+            "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+            "checkedDate": "2026-10-08",
+            "section": "2027年1/5/9月普通轮；院系单独期限与申请提前量"
+          }
+        ]
+      }
     },
     {
       "id": "polyu_aae_rpg-phd",
@@ -75257,8 +75296,8 @@
       "status": "verified",
       "eligibilitySummary": "MPhil: bachelor's Second Class Honours or equivalent. Four-year PhD: First Class Honours bachelor's or equivalent is an alternative to master's. Three-year PhD normally requires research master's and is a separate route.",
       "supervisorAssociation": "逐导师、逐学位证据见 routeAssociations；授课型硕士不保证进组或论文指导",
-      "admissionYear": "Department page still displays September 2026; no individual 2027 vacancy inferred",
-      "cycle2027Verified": false,
+      "admissionYear": "2027年1月／5月／9月入学普通轮（研究生院AAE/ISE分院系日期已核实；个人名额另核）",
+      "cycle2027Verified": true,
       "applicationStatus": "unknown",
       "applicationMethod": "Ordinary direct RPgAdmission application; identify named supervisor",
       "sources": [
@@ -75276,11 +75315,26 @@
           "label": "公开一手来源",
           "url": "https://www.polyu.edu.hk/en/gs/prospective-students/how-to-apply/",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "id": "polyu_departments_20261008",
+          "label": "PolyU Graduate School: Application Deadline（含2027/28 Sept列）",
+          "url": "https://www.polyu.edu.hk/gs/prospective-students/how-to-apply/application-deadline/",
+          "checkedDate": "2026-10-08",
+          "section": "完整表头与AAE、ISE行：Jan 2027、May 2027、Sept 2027；不把HKPFS时刻套入普通轮"
+        },
+        {
+          "id": "polyu_period_20261008",
+          "label": "PolyU Research Postgraduate - Application Period（2026/27及2027/28）",
+          "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+          "checkedDate": "2026-10-08",
+          "section": "2027年1/5/9月普通轮；院系单独期限与申请提前量"
         }
       ],
       "notes": [
         "The cited ordinary direct-application route does not list mainland 推免 qualification as a prerequisite; collaborative/partner nomination routes are not included",
-        "Not assessed; degree equivalence, academic results, English, graduation timing, supervisor consent, funding and quotas remain individual checks"
+        "Not assessed; degree equivalence, academic results, English, graduation timing, supervisor consent, funding and quotas remain individual checks",
+        "2026-10-08仅复核批次：2027年1月入学已于2026-09-30截止；5月、9月入学分别截止2027-01-31、2027-05-31。普通轮原文未标钟点或时区；不表示个人余位、资助或实际提交状态已核实。"
       ],
       "requirements": [
         {
@@ -75331,7 +75385,31 @@
         "applicant_eligibility_note": "Not assessed; degree equivalence, academic results, English, graduation timing, supervisor consent, funding and quotas remain individual checks"
       },
       "checkedDate": "2026-10-01",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "cycleReview": {
+        "checkedDate": "2026-10-08",
+        "scope": "仅复核研究生院分院系入学批次与普通申请日期；不重核资格、个人导师名额或申请系统",
+        "reason": "当前研究生院表头明确含2027/28 September 2027，AAE与ISE对应行均列2027-05-31；学校普通申请期交叉一致。旧AAE September 2026及ISE January 2027项目页保留为各自年份来源，不再据此将秋季项目日期写为未确认。",
+        "previousAdmissionYear": "Department page still displays September 2026; no individual 2027 vacancy inferred",
+        "previousCycle2027Verified": false,
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "id": "polyu_departments_20261008",
+            "label": "PolyU Graduate School: Application Deadline（含2027/28 Sept列）",
+            "url": "https://www.polyu.edu.hk/gs/prospective-students/how-to-apply/application-deadline/",
+            "checkedDate": "2026-10-08",
+            "section": "完整表头与AAE、ISE行：Jan 2027、May 2027、Sept 2027；不把HKPFS时刻套入普通轮"
+          },
+          {
+            "id": "polyu_period_20261008",
+            "label": "PolyU Research Postgraduate - Application Period（2026/27及2027/28）",
+            "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+            "checkedDate": "2026-10-08",
+            "section": "2027年1/5/9月普通轮；院系单独期限与申请提前量"
+          }
+        ]
+      }
     },
     {
       "id": "polyu_ise_rpg-mphil",
@@ -75347,8 +75425,8 @@
       "status": "verified",
       "eligibilitySummary": "MPhil: bachelor's Second Class Honours or equivalent. Four-year PhD: First Class Honours bachelor's or equivalent is an alternative to master's. The three-year PhD research-master prerequisite does not apply to the four-year bachelor's-entry route.",
       "supervisorAssociation": "逐导师、逐学位证据见 routeAssociations；授课型硕士不保证进组或论文指导",
-      "admissionYear": "Programme source includes January 2027 material; Fall 2027 PI quota unannounced",
-      "cycle2027Verified": false,
+      "admissionYear": "2027年1月／5月／9月入学普通轮（研究生院AAE/ISE分院系日期已核实；个人名额另核）",
+      "cycle2027Verified": true,
       "applicationStatus": "unknown",
       "applicationMethod": "Ordinary direct RPgAdmission application",
       "sources": [
@@ -75366,11 +75444,26 @@
           "label": "公开一手来源",
           "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/2023/admission-requirements-rpg",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "id": "polyu_departments_20261008",
+          "label": "PolyU Graduate School: Application Deadline（含2027/28 Sept列）",
+          "url": "https://www.polyu.edu.hk/gs/prospective-students/how-to-apply/application-deadline/",
+          "checkedDate": "2026-10-08",
+          "section": "完整表头与AAE、ISE行：Jan 2027、May 2027、Sept 2027；不把HKPFS时刻套入普通轮"
+        },
+        {
+          "id": "polyu_period_20261008",
+          "label": "PolyU Research Postgraduate - Application Period（2026/27及2027/28）",
+          "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+          "checkedDate": "2026-10-08",
+          "section": "2027年1/5/9月普通轮；院系单独期限与申请提前量"
         }
       ],
       "notes": [
         "The cited ordinary direct-application route does not list mainland 推免 qualification as a prerequisite; collaborative/partner nomination routes are not included",
-        "Not assessed; degree equivalence, academic results, English, graduation timing, supervisor consent, funding and quotas remain individual checks"
+        "Not assessed; degree equivalence, academic results, English, graduation timing, supervisor consent, funding and quotas remain individual checks",
+        "2026-10-08仅复核批次：2027年1月入学已于2026-09-30截止；5月、9月入学分别截止2027-01-31、2027-05-31。普通轮原文未标钟点或时区；不表示个人余位、资助或实际提交状态已核实。"
       ],
       "requirements": [
         {
@@ -75421,7 +75514,31 @@
         "applicant_eligibility_note": "Not assessed; degree equivalence, academic results, English, graduation timing, supervisor consent, funding and quotas remain individual checks"
       },
       "checkedDate": "2026-10-01",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "cycleReview": {
+        "checkedDate": "2026-10-08",
+        "scope": "仅复核研究生院分院系入学批次与普通申请日期；不重核资格、个人导师名额或申请系统",
+        "reason": "当前研究生院表头明确含2027/28 September 2027，AAE与ISE对应行均列2027-05-31；学校普通申请期交叉一致。旧AAE September 2026及ISE January 2027项目页保留为各自年份来源，不再据此将秋季项目日期写为未确认。",
+        "previousAdmissionYear": "Programme source includes January 2027 material; Fall 2027 PI quota unannounced",
+        "previousCycle2027Verified": false,
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "id": "polyu_departments_20261008",
+            "label": "PolyU Graduate School: Application Deadline（含2027/28 Sept列）",
+            "url": "https://www.polyu.edu.hk/gs/prospective-students/how-to-apply/application-deadline/",
+            "checkedDate": "2026-10-08",
+            "section": "完整表头与AAE、ISE行：Jan 2027、May 2027、Sept 2027；不把HKPFS时刻套入普通轮"
+          },
+          {
+            "id": "polyu_period_20261008",
+            "label": "PolyU Research Postgraduate - Application Period（2026/27及2027/28）",
+            "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+            "checkedDate": "2026-10-08",
+            "section": "2027年1/5/9月普通轮；院系单独期限与申请提前量"
+          }
+        ]
+      }
     },
     {
       "id": "polyu_ise_rpg-phd",
@@ -75437,8 +75554,8 @@
       "status": "verified",
       "eligibilitySummary": "MPhil: bachelor's Second Class Honours or equivalent. Four-year PhD: First Class Honours bachelor's or equivalent is an alternative to master's. The three-year PhD research-master prerequisite does not apply to the four-year bachelor's-entry route.",
       "supervisorAssociation": "逐导师、逐学位证据见 routeAssociations；授课型硕士不保证进组或论文指导",
-      "admissionYear": "Programme source includes January 2027 material; Fall 2027 PI quota unannounced",
-      "cycle2027Verified": false,
+      "admissionYear": "2027年1月／5月／9月入学普通轮（研究生院AAE/ISE分院系日期已核实；个人名额另核）",
+      "cycle2027Verified": true,
       "applicationStatus": "unknown",
       "applicationMethod": "Ordinary direct RPgAdmission application",
       "sources": [
@@ -75456,11 +75573,26 @@
           "label": "公开一手来源",
           "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/2023/admission-requirements-rpg",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "id": "polyu_departments_20261008",
+          "label": "PolyU Graduate School: Application Deadline（含2027/28 Sept列）",
+          "url": "https://www.polyu.edu.hk/gs/prospective-students/how-to-apply/application-deadline/",
+          "checkedDate": "2026-10-08",
+          "section": "完整表头与AAE、ISE行：Jan 2027、May 2027、Sept 2027；不把HKPFS时刻套入普通轮"
+        },
+        {
+          "id": "polyu_period_20261008",
+          "label": "PolyU Research Postgraduate - Application Period（2026/27及2027/28）",
+          "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+          "checkedDate": "2026-10-08",
+          "section": "2027年1/5/9月普通轮；院系单独期限与申请提前量"
         }
       ],
       "notes": [
         "The cited ordinary direct-application route does not list mainland 推免 qualification as a prerequisite; collaborative/partner nomination routes are not included",
-        "Not assessed; degree equivalence, academic results, English, graduation timing, supervisor consent, funding and quotas remain individual checks"
+        "Not assessed; degree equivalence, academic results, English, graduation timing, supervisor consent, funding and quotas remain individual checks",
+        "2026-10-08仅复核批次：2027年1月入学已于2026-09-30截止；5月、9月入学分别截止2027-01-31、2027-05-31。普通轮原文未标钟点或时区；不表示个人余位、资助或实际提交状态已核实。"
       ],
       "requirements": [
         {
@@ -75511,7 +75643,31 @@
         "applicant_eligibility_note": "Not assessed; degree equivalence, academic results, English, graduation timing, supervisor consent, funding and quotas remain individual checks"
       },
       "checkedDate": "2026-10-01",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "cycleReview": {
+        "checkedDate": "2026-10-08",
+        "scope": "仅复核研究生院分院系入学批次与普通申请日期；不重核资格、个人导师名额或申请系统",
+        "reason": "当前研究生院表头明确含2027/28 September 2027，AAE与ISE对应行均列2027-05-31；学校普通申请期交叉一致。旧AAE September 2026及ISE January 2027项目页保留为各自年份来源，不再据此将秋季项目日期写为未确认。",
+        "previousAdmissionYear": "Programme source includes January 2027 material; Fall 2027 PI quota unannounced",
+        "previousCycle2027Verified": false,
+        "previousCheckedDate": "2026-10-01",
+        "sources": [
+          {
+            "id": "polyu_departments_20261008",
+            "label": "PolyU Graduate School: Application Deadline（含2027/28 Sept列）",
+            "url": "https://www.polyu.edu.hk/gs/prospective-students/how-to-apply/application-deadline/",
+            "checkedDate": "2026-10-08",
+            "section": "完整表头与AAE、ISE行：Jan 2027、May 2027、Sept 2027；不把HKPFS时刻套入普通轮"
+          },
+          {
+            "id": "polyu_period_20261008",
+            "label": "PolyU Research Postgraduate - Application Period（2026/27及2027/28）",
+            "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+            "checkedDate": "2026-10-08",
+            "section": "2027年1/5/9月普通轮；院系单独期限与申请提前量"
+          }
+        ]
+      }
     },
     {
       "id": "polyu_ire_msc",
@@ -80875,6 +81031,111 @@
         }
       ],
       "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "polyu-aae-ise-2027-jan-ordinary",
+      "title": "PolyU AAE／ISE MPhil／PhD 2027年1月入学普通申请截止",
+      "institution": "PolyU",
+      "routeIds": [
+        "polyu_aae_rpg-mphil",
+        "polyu_aae_rpg-phd",
+        "polyu_ise_rpg-mphil",
+        "polyu_ise_rpg-phd"
+      ],
+      "date": "2026-09-30",
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "expired",
+      "dateStatus": "expired",
+      "admissionYear": "2026/27 January 2027",
+      "note": "研究生院分院系表与学校普通申请期交叉核实。原文未注明截止钟点或时区；HKPFS的12:00/23:59 HKT不适用于本普通轮。非本地/本地申请人还应分别遵守至少4/3个月提前量，个别导师接收与资助另核；未登录验证提交。",
+      "sources": [
+        {
+          "id": "polyu_departments_20261008",
+          "label": "PolyU Graduate School: Application Deadline（含2027/28 Sept列）",
+          "url": "https://www.polyu.edu.hk/gs/prospective-students/how-to-apply/application-deadline/",
+          "checkedDate": "2026-10-08",
+          "section": "完整表头与AAE、ISE行：Jan 2027、May 2027、Sept 2027；不把HKPFS时刻套入普通轮"
+        },
+        {
+          "id": "polyu_period_20261008",
+          "label": "PolyU Research Postgraduate - Application Period（2026/27及2027/28）",
+          "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+          "checkedDate": "2026-10-08",
+          "section": "2027年1/5/9月普通轮；院系单独期限与申请提前量"
+        }
+      ],
+      "checkedDate": "2026-10-08"
+    },
+    {
+      "id": "polyu-aae-ise-2027-may-ordinary",
+      "title": "PolyU AAE／ISE MPhil／PhD 2027年5月入学普通申请截止",
+      "institution": "PolyU",
+      "routeIds": [
+        "polyu_aae_rpg-mphil",
+        "polyu_aae_rpg-phd",
+        "polyu_ise_rpg-mphil",
+        "polyu_ise_rpg-phd"
+      ],
+      "date": "2027-01-31",
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2026/27 May 2027",
+      "note": "研究生院分院系表与学校普通申请期交叉核实。原文未注明截止钟点或时区；HKPFS的12:00/23:59 HKT不适用于本普通轮。非本地/本地申请人还应分别遵守至少4/3个月提前量，个别导师接收与资助另核；未登录验证提交。",
+      "sources": [
+        {
+          "id": "polyu_departments_20261008",
+          "label": "PolyU Graduate School: Application Deadline（含2027/28 Sept列）",
+          "url": "https://www.polyu.edu.hk/gs/prospective-students/how-to-apply/application-deadline/",
+          "checkedDate": "2026-10-08",
+          "section": "完整表头与AAE、ISE行：Jan 2027、May 2027、Sept 2027；不把HKPFS时刻套入普通轮"
+        },
+        {
+          "id": "polyu_period_20261008",
+          "label": "PolyU Research Postgraduate - Application Period（2026/27及2027/28）",
+          "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+          "checkedDate": "2026-10-08",
+          "section": "2027年1/5/9月普通轮；院系单独期限与申请提前量"
+        }
+      ],
+      "checkedDate": "2026-10-08"
+    },
+    {
+      "id": "polyu-aae-ise-2027-sep-ordinary",
+      "title": "PolyU AAE／ISE MPhil／PhD 2027年9月入学普通申请截止",
+      "institution": "PolyU",
+      "routeIds": [
+        "polyu_aae_rpg-mphil",
+        "polyu_aae_rpg-phd",
+        "polyu_ise_rpg-mphil",
+        "polyu_ise_rpg-phd"
+      ],
+      "date": "2027-05-31",
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027/28 September 2027",
+      "note": "研究生院分院系表与学校普通申请期交叉核实。原文未注明截止钟点或时区；HKPFS的12:00/23:59 HKT不适用于本普通轮。非本地/本地申请人还应分别遵守至少4/3个月提前量，个别导师接收与资助另核；未登录验证提交。",
+      "sources": [
+        {
+          "id": "polyu_departments_20261008",
+          "label": "PolyU Graduate School: Application Deadline（含2027/28 Sept列）",
+          "url": "https://www.polyu.edu.hk/gs/prospective-students/how-to-apply/application-deadline/",
+          "checkedDate": "2026-10-08",
+          "section": "完整表头与AAE、ISE行：Jan 2027、May 2027、Sept 2027；不把HKPFS时刻套入普通轮"
+        },
+        {
+          "id": "polyu_period_20261008",
+          "label": "PolyU Research Postgraduate - Application Period（2026/27及2027/28）",
+          "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+          "checkedDate": "2026-10-08",
+          "section": "2027年1/5/9月普通轮；院系单独期限与申请提前量"
+        }
+      ],
+      "checkedDate": "2026-10-08"
     }
   ],
   "materials": [

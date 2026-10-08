@@ -1,6 +1,6 @@
 // Explicit pre-profile-expansion read view for historical assertions only.
 // No global fs patch and no production imports.
-import fs from 'node:fs';
+import fs from './published-history-fs.mjs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {profileCoverageBytes} from './profile-coverage-baseline.mjs';

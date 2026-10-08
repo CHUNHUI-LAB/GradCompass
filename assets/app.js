@@ -298,13 +298,13 @@ async function optionalJSON(url){
  return response.json();
 }
 async function loadProjectSummaries(){
- try{const projectData=await optionalJSON(new URL('../data/project-summaries.json?v=32bc4ca62ca6',import.meta.url));const summaries=normalizeProjectSummaries(projectData,catalog);catalog={...catalog,projectSummaries:summaries};projectSummaryState=summaries.size===projectData.records.length?'loaded':'partial';}
+ try{const projectData=await optionalJSON(new URL('../data/project-summaries.json?v=446d5e279b4c',import.meta.url));const summaries=normalizeProjectSummaries(projectData,catalog);catalog={...catalog,projectSummaries:summaries};projectSummaryState=summaries.size===projectData.records.length?'loaded':'partial';}
  catch{projectSummaryState='unavailable';}
  refreshOptionalView('routes');refreshOptionalDetail('project');
  refreshOptionalComparison();
 }
 async function loadMaterialSupplement(){
- try{const materialData=await optionalJSON(new URL('../data/material-summaries.json?v=4f94cabe3790',import.meta.url));const supplement=normalizeMaterialSupplement(materialData,catalog);catalog={...catalog,materials:[...(catalog.materials||[]),...supplement]};materialSupplementState=supplement.length===materialData.records.length?'loaded':'partial';}
+ try{const materialData=await optionalJSON(new URL('../data/material-summaries.json?v=c95ac15b3cac',import.meta.url));const supplement=normalizeMaterialSupplement(materialData,catalog);catalog={...catalog,materials:[...(catalog.materials||[]),...supplement]};materialSupplementState=supplement.length===materialData.records.length?'loaded':'partial';}
  catch{materialSupplementState='unavailable';}
  refreshOptionalView('materials');refreshOptionalDetail('material');
  // Project reading and comparison also consume the material supplement.
@@ -325,5 +325,5 @@ function loadOptionalSupplements(){
   void load().catch(error=>console.warn('Optional data refresh failed',error));
  }
 }
-async function initialize(){try{const responses=await Promise.all(['catalog.json?v=6709c1a72af4','ra-positions.json','update-status.json'].map(name=>fetch(new URL('../data/'+name,import.meta.url))));if(responses.some(res=>!res.ok))throw Error('数据读取失败，请刷新重试');const [academicData,raData,statusData]=await Promise.all(responses.map(res=>res.json()));catalog={...academicData,raPositions:raData.raPositions||[]};updateStatus=statusData;if(!Array.isArray(catalog.advisors)||!Array.isArray(catalog.routes))throw Error('数据格式暂不可用');$('#checked-date').textContent=`核验于 ${catalog.metadata.checkedDate}`;$('.edition a').textContent=updateStatus.statusLabel;populateFilters();bind();switchView(parseDetailLocation()?.view||location.hash.slice(1)||'advisors');if(parseDetailLocation()||parseCompareLocation())routeLocation();loadOptionalSupplements();}catch(err){$('#result-count').textContent='数据未能载入';$('#view-content').innerHTML=`<div class="empty"><h3>暂时无法读取数据</h3><p>${e(err.message)}</p><p>请刷新页面重试，或直接打开公开 JSON 查看已保存的记录</p><a class="source-link" href="./data/catalog.json">公开数据文件</a></div>`;}}
+async function initialize(){try{const responses=await Promise.all(['catalog.json?v=501de657749c','ra-positions.json','update-status.json'].map(name=>fetch(new URL('../data/'+name,import.meta.url))));if(responses.some(res=>!res.ok))throw Error('数据读取失败，请刷新重试');const [academicData,raData,statusData]=await Promise.all(responses.map(res=>res.json()));catalog={...academicData,raPositions:raData.raPositions||[]};updateStatus=statusData;if(!Array.isArray(catalog.advisors)||!Array.isArray(catalog.routes))throw Error('数据格式暂不可用');$('#checked-date').textContent=`核验于 ${catalog.metadata.checkedDate}`;$('.edition a').textContent=updateStatus.statusLabel;populateFilters();bind();switchView(parseDetailLocation()?.view||location.hash.slice(1)||'advisors');if(parseDetailLocation()||parseCompareLocation())routeLocation();loadOptionalSupplements();}catch(err){$('#result-count').textContent='数据未能载入';$('#view-content').innerHTML=`<div class="empty"><h3>暂时无法读取数据</h3><p>${e(err.message)}</p><p>请刷新页面重试，或直接打开公开 JSON 查看已保存的记录</p><a class="source-link" href="./data/catalog.json">公开数据文件</a></div>`;}}
 initialize();
