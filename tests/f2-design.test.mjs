@@ -5,8 +5,10 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from './historical-source-fs.mjs';
 import crypto from 'node:crypto';
+import rawFs from 'node:fs';
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url),'utf8');
-const html=read('index.html'),css=read('assets/style.css'),app=read('assets/app.js'),experiences=read('assets/experiences.js');
+const rawRead=p=>rawFs.readFileSync(new URL('../'+p,import.meta.url),'utf8');
+const html=rawRead('index.html'),css=rawRead('assets/style.css'),app=rawRead('assets/app.js'),experiences=rawRead('assets/experiences.js');
 test('approved F2 source bytes remain identical after reversing only the reviewed five-case append',()=>{
  const expected={
   'advisor-profiles.json':'910aa0b3db20e72ab4a2268ac910276a8e619cc2',

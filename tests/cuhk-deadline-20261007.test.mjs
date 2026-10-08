@@ -13,7 +13,8 @@ import {assertCurrentPublicAudit} from './public-audit-20261006-baseline.mjs';
 import {normalizeProjectSummaries,renderRecordSummary} from '../assets/record-summaries.js';
 import {normalizeMaterialSupplement} from '../assets/material-supplement.js';
 import {browseAdvisors,browseRoutes,buildOpportunities,filterDeadlines} from '../assets/core.js';
-const root=new URL('../',import.meta.url),read=p=>fs.readFileSync(new URL(p,root)),data=p=>JSON.parse(read(p));
+import {fullProfileCoverageBytes} from './full-profile-coverage-baseline.mjs';
+const root=new URL('../',import.meta.url),rawRead=p=>fs.readFileSync(new URL(p,root)),read=p=>fullProfileCoverageBytes(p,rawRead(p)),data=p=>JSON.parse(read(p));
 const git=b=>crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${b.length}\0`),b])).digest('hex');
 const paths=['data/catalog.json','data/project-summaries.json','data/material-summaries.json','assets/app.js','index.html'];
 const sourceUrls=['https://www.gs.cuhk.edu.hk/programmes/engineering/msc-robotics','https://www.gs.cuhk.edu.hk/admissions/application-deadline'];
@@ -121,7 +122,7 @@ test('CUHK projection cannot reinterpret unknown files, lone fragments or invali
 test('CUHK raw current manifest verifies actual counts and bytes with no fabricated release or browser claims',()=>{
  const manifest=data('release-manifest.json'),counts=JSON.parse(execFileSync(process.execPath,['scripts/public-counts.mjs'],{cwd:fileURLToPath(root),encoding:'utf8'}));
  for(const [key,value]of Object.entries(counts))assert.equal(manifest[key],value,key);assert.equal(counts.projectSummarySources,72);assert.equal(counts.materialSupplementSources,51);assert.equal(counts.projectSummaryRecords,30);assert.equal(counts.materialSupplementRecords,15);assert.equal(counts.opportunityCount,59);assert.equal(counts.verifiedDegreeAssociationCount,57);
- for(const row of manifest.allowedFiles){const raw=read(row.path);assert.equal(raw.length,row.bytes,row.path);assert.equal(hash(raw),row.sha256,row.path);}
+ for(const row of manifest.allowedFiles){const raw=rawRead(row.path);assert.equal(raw.length,row.bytes,row.path);assert.equal(hash(raw),row.sha256,row.path);}
  assert.equal(manifest.browserVisualQA,'Not yet browser-verified.');assert.equal(manifest.firstRunVerified,false);assert(!Object.hasOwn(manifest,'nodeTestsPassed'));
  for(const p of ['tests/cuhk-deadline-20261007-baseline.mjs','tests/cuhk-deadline-20261007.test.mjs','tests/fixtures/history/reviewed-cuhk-deadline-20261007.json'])assert(manifest.allowedFiles.some(r=>r.path===p));
 });

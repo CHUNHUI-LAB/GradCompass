@@ -9,7 +9,8 @@ import {dateSummaryFixture as f,dateSummaryBytes,assertCurrentDateSummaryAsset} 
 import {publicAuditReleaseBytes,assertCurrentPublicAuditAsset} from './public-audit-release-20261006-baseline.mjs';
 import {snapshotHash as hash} from './strict-history-transform.mjs';
 import {renderRecordSummary} from '../assets/record-summaries.js';
-const read=p=>raDeadlineBytes(p,detailReturnBytes(p,cuhkDeadlineBytes(p,fs.readFileSync(new URL('../'+p,import.meta.url)))));
+import {fullProfileCoverageBytes} from './full-profile-coverage-baseline.mjs';
+const read=p=>raDeadlineBytes(p,detailReturnBytes(p,cuhkDeadlineBytes(p,fullProfileCoverageBytes(p,fs.readFileSync(new URL('../'+p,import.meta.url))))));
 const git=b=>crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${b.length}\0`),b])).digest('hex');
 const baselineGitBlobs={
   "assets/record-summaries.js": "877973b520941a5174a94efb29079d1338f64da7",
