@@ -8,13 +8,13 @@
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
   "browserVisualQA": "Not yet browser-verified.",
-  "profilePilotCount": 66,
+  "profilePilotCount": 334,
   "visibleAdvisorCount": 334,
   "opportunityCount": 59,
   "raPositionCount": 2,
   "newAdvisorProfiles": 26,
   "preservedAdvisorProfiles": 30,
-  "newProfileCitedSourceCount": 98,
+  "newProfileCitedSourceCount": 383,
   "experienceRecords": 27,
   "defaultExperienceRecords": 27,
   "experienceSourceSites": 20,
@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 51373,
-      "sha256": "d9eb5fe0a82af01b1e26c9fdbf885eac8f9274145c6ea3cb51cd3a9137ad9fef"
+      "bytes": 52345,
+      "sha256": "8906714452701c646e1218d4e5d27e31ad3dac239b78c4021e465217fd50d656"
     },
     {
       "path": "REPO-MAP.md",
@@ -53,7 +53,7 @@
     {
       "path": "assets/app.js",
       "bytes": 73911,
-      "sha256": "f7a2601f8659176de479882389d9b2be2696a785d410b9f22bb1aa1dffdc0629"
+      "sha256": "864f55a4a95a88fff081e17326551e328c7c9c19293b263b803ae0da5836b7a8"
     },
     {
       "path": "assets/campus-art.webp",
@@ -107,8 +107,8 @@
     },
     {
       "path": "data/advisor-profiles.json",
-      "bytes": 478027,
-      "sha256": "898d2466fa1ec4aea5e7d6ed268e0fd4af84c2eaa20029c99eee9cf94834029c"
+      "bytes": 2287543,
+      "sha256": "4e1e76cbc3a7b9f686ffcb82941e2a2e55985952af53ee23bed33d9bf1518a3c"
     },
     {
       "path": "data/application-experience-provenance.json",
@@ -238,7 +238,7 @@
     {
       "path": "index.html",
       "bytes": 8270,
-      "sha256": "b8b8e8896337402b17d9f48778dcdc4db078fb815bbecacef12bb0cc9ecf3197"
+      "sha256": "6e5d69bbd9618d1ea9cffbdba69215f2763dd9798b345bffb422bffb9b8224a4"
     },
     {
       "path": "package.json",
@@ -247,8 +247,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 11415,
-      "sha256": "4212f1d6bf8e97c26c9ba5128c019b856c2ec1c5a82277a035a7761e12e18294"
+      "bytes": 11454,
+      "sha256": "7da3717a9398021d947c99bf5a3571ec3b68f51f3f52636483f74e218cfe94a2"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -576,6 +576,11 @@
       "sha256": "ec4545e79bc7d106c70effbb4015dfd814314df588bb905e83a3b1e482239322"
     },
     {
+      "path": "tests/full-profile-coverage.test.mjs",
+      "bytes": 3053,
+      "sha256": "dfa57acd80868cacaa5d1b47f6d41d9766cd1917bbc43eb246cab75b01db7581"
+    },
+    {
       "path": "tests/historical-source-baseline.mjs",
       "bytes": 4204,
       "sha256": "b1a78051068d20ce11a82322237fe94399c88cb1cd043356ad2365cfa96373a7"
@@ -647,8 +652,8 @@
     },
     {
       "path": "tests/nju-tongji-ustc-profiles.test.mjs",
-      "bytes": 3756,
-      "sha256": "29443b1ebba258fdea97dc18bd1d4fc50c8ff0719c9403dd138477fa60d3d24e"
+      "bytes": 3775,
+      "sha256": "b33a565b4465b397e012fd8e20f137b280a85f475f0536a46786f6721a74c3f0"
     },
     {
       "path": "tests/opportunities.test.mjs",

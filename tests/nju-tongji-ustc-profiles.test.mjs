@@ -12,9 +12,9 @@ const added = ids.map((id) => supplement.profiles.find((p) => p.advisorId === id
 const factsOf = (p) => [p.overview, p.labSnapshot.affiliation, p.labSnapshot.structure, ...p.labSnapshot.resources, p.recruitment, ...p.representativeWorks];
 
 test('NJU/Tongji/USTC batch appends five existing advisors without changing catalog authority', () => {
-  assert.deepEqual(supplement.profiles.slice(-5).map((p) => p.advisorId), ids);
-  assert.equal(supplement.profiles.length, 66);
-  assert.equal(supplement.batch, '1+2+3+4+5+6+7+8+9+10');
+  assert.deepEqual(ids.map((id) => supplement.profiles.find((p) => p.advisorId === id)?.advisorId), ids);
+  assert.ok(supplement.profiles.length >= 66);
+  assert.match(supplement.batch, /(^|\+)10(\+|$)/);
   assert.deepEqual(supplement.batch10Review.newAdvisorIds, ids);
   assert.equal(supplement.batch10Review.preservedProfiles, 61);
   assert.equal(supplement.batch10Review.catalogMutation, false);
