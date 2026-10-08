@@ -1,9 +1,10 @@
+import {runPublishedCounts} from './published-history-fs.mjs';
 import {profileCoverageBytes} from './profile-coverage-baseline.mjs';
 // CUHK-stage assertions first reverse only the separately pinned later profile
-// expansion. Current manifest and production-byte checks still use raw node:fs.
+// expansion. This dated file checks published inputs; live manifest and production-byte checks remain in resource-versions and live-data-maintenance tests.
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './published-history-fs.mjs';
 import crypto from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
@@ -36,7 +37,7 @@ test('CUHK correction pins PR17 provenance and a narrow reviewed field allowlist
  for(const sha of Object.values(f.inputSha256))assert.match(sha,/^[a-f0-9]{64}$/);
 });
 
-test('CUHK raw current bytes round trip exactly to independently pinned PR17 files',()=>{
+test('CUHK published-stage bytes round trip exactly to independently pinned PR17 files',()=>{
  const beforeHashes={
  'data/catalog.json':'55803258de42f4bcb42950fb9f0019ad6a5d9a63a4cf7b86795c60d7ae9e97db',
  'data/project-summaries.json':'8c0004f515919965b94eb0c82ddfd875f2aaaaba805c51e1060b62320eba164d',
@@ -81,7 +82,7 @@ test('CUHK project and material updates retain all unrelated records and origina
  for(const key of Object.keys(old))if(!['summary','note','admissionYear','unknowns','requirements','sourceIds'].includes(key))assert.deepEqual(m[key],old[key]);
 });
 
-test('CUHK raw current normalizers and rendered details retain date and evidence boundaries',()=>{
+test('CUHK published-stage normalizers and rendered details retain date and evidence boundaries',()=>{
  const summaries=normalizeProjectSummaries(projects,catalog),supplement=normalizeMaterialSupplement(materials,catalog);assert.equal(summaries.size,30);assert.equal(supplement.length,15);
  const joined={...catalog,projectSummaries:summaries},project=renderRecordSummary('project',catalog.routes[8],joined).html,material=renderRecordSummary('material',supplement.find(r=>r.id==='cuhk-robotics-msc-materials'),joined).html,deadline=renderRecordSummary('deadline',catalog.deadlines[27],joined).html;
  for(const html of [project,material,deadline]){assert(html.includes('2027-03-31'));for(const url of sourceUrls)assert(html.includes(url));assert(!html.includes('[object Object]'));}
@@ -119,8 +120,8 @@ test('CUHK projection cannot reinterpret unknown files, lone fragments or invali
  assert.throws(()=>cuhkDeadlineBytes(paths[0],read(paths[0]),'invalid'));
 });
 
-test('CUHK raw current manifest verifies actual counts and bytes with no fabricated release or browser claims',()=>{
- const manifest=data('release-manifest.json'),counts=JSON.parse(execFileSync(process.execPath,['scripts/public-counts.mjs'],{cwd:fileURLToPath(root),encoding:'utf8'}));
+test('CUHK published-stage manifest verifies actual counts and bytes with no fabricated release or browser claims',()=>{
+ const manifest=data('release-manifest.json'),counts=runPublishedCounts();
  for(const [key,value]of Object.entries(counts))assert.equal(manifest[key],value,key);assert.equal(counts.projectSummarySources,72);assert.equal(counts.materialSupplementSources,51);assert.equal(counts.projectSummaryRecords,30);assert.equal(counts.materialSupplementRecords,15);assert.equal(counts.opportunityCount,59);assert.equal(counts.verifiedDegreeAssociationCount,57);
  for(const row of manifest.allowedFiles){const raw=rawRead(row.path);assert.equal(raw.length,row.bytes,row.path);assert.equal(hash(raw),row.sha256,row.path);}
  assert.equal(manifest.browserVisualQA,'Not yet browser-verified.');assert.equal(manifest.firstRunVerified,false);assert(!Object.hasOwn(manifest,'nodeTestsPassed'));

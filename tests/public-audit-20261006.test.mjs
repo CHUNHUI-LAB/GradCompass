@@ -1,7 +1,7 @@
 import {cuhkDeadlineBytes} from './cuhk-deadline-20261007-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './published-history-fs.mjs';
 import crypto from 'node:crypto';
 import {publicAuditFixture as f,publicAuditBytes,publicAuditObject,assertCurrentPublicAudit} from './public-audit-20261006-baseline.mjs';
 import {snapshotHash as hash,snapshotText as serialize} from './strict-history-transform.mjs';

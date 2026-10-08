@@ -1,3 +1,4 @@
+import {runPublishedCounts} from './published-history-fs.mjs';
 import {profileCoverageBytes} from './profile-coverage-baseline.mjs';
 import {cuhkDeadlineBytes} from './cuhk-deadline-20261007-baseline.mjs';
 import {detailReturnBytes} from './detail-return-focus-baseline.mjs';
@@ -5,7 +6,7 @@ import test from 'node:test';
 import {raDeadlineBytes} from './ra-deadline-20261007-baseline.mjs';
 import {dateSummaryBytes} from './date-summary-20261006-baseline.mjs';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './published-history-fs.mjs';
 import crypto from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
@@ -44,9 +45,9 @@ test('asset inverse never hides logic edits, unrelated fields, whitespace or par
  }
 });
 
-test('current release pointers and every computed counter describe actual data while dated history stays immutable',()=>{
+test('published release pointers and every computed counter describe actual data while dated history stays immutable',()=>{
  assert.equal(manifest.revision,'public-audit-20261006');assert.equal(manifest.baseSourceCommit,f.baseCommit);assert.equal(manifest.candidateBaseCommit,f.baseCommit);assert.equal(manifest.snapshotDate,'2026-10-06');
- const counts=JSON.parse(execFileSync(process.execPath,['scripts/public-counts.mjs'],{cwd:fileURLToPath(root),encoding:'utf8'}));
+ const counts=runPublishedCounts();
  for(const [key,value]of Object.entries(counts))assert.equal(manifest[key],value,'raw current count: '+key);
  assert.equal(manifest.experienceRecords,27);assert.equal(manifest.defaultExperienceRecords,27);assert.equal(manifest.experienceSourceSites,20);assert.equal(manifest.preservedPublishedRecords,26);assert.equal(manifest.newExperienceRecords,1);
  const audit=manifest.publicAudit20261006;assert.equal(audit.baseCommit,f.baseCommit);assert.equal(audit.previousReleaseSnapshot,'tests/fixtures/history/reviewed-pre-public-audit-release-079eaea.json');assert.equal(audit.previousReleaseSha256,previousPublicAuditReleaseSha256);assert.deepEqual(audit.newExperienceIds,['grad-heu-sunbohan-research-selection-2026']);assert.equal(audit.preservedExperienceRecords,26);assert.equal(audit.synthesizedExperienceRecords,26);assert.equal(audit.pendingSynthesisRecords,1);
@@ -57,7 +58,7 @@ test('current release pointers and every computed counter describe actual data w
  assert.equal(hash(read(audit.previousReleaseSnapshot)),previousPublicAuditReleaseSha256);
 });
 
-test('current allowlist preserves every legacy file and includes the complete strict replay dependency graph',()=>{
+test('published allowlist preserves every legacy file and includes the complete strict replay dependency graph',()=>{
  const expected=[...previous.allowedFiles.map(x=>x.path),...addedFiles].sort();assert.equal(new Set(expected).size,expected.length);
  assert.deepEqual(manifest.allowedFiles.map(x=>x.path),expected);assert(!expected.includes('release-manifest.json'),'avoid a self-referential manifest hash');
  for(const row of manifest.allowedFiles){const bytes=read(row.path);assert.equal(bytes.length,row.bytes,row.path);assert.equal(hash(bytes),row.sha256,row.path);}
@@ -70,7 +71,7 @@ test('current allowlist preserves every legacy file and includes the complete st
 test('README separates recomputed current candidate counts from preserved 26-case 19-platform history',()=>{
  const readme=String(read('README.md'));
  const scope=readme.split('## 当前本地候选（2026-10-06，尚未发布）\n')[1]?.split('\n## ')[0];assert(scope);
- const counts=JSON.parse(execFileSync(process.execPath,['scripts/public-counts.mjs'],{cwd:fileURLToPath(root),encoding:'utf8'}));
+ const counts=runPublishedCounts();
  assert(scope.includes(`当前共 ${counts.experienceRecords} 篇申请经验、${counts.experienceSourceSites} 个来源站点或合集`));
  for(const text of [`${counts.advisorCatalogCount} 位导师`,`${counts.projectCatalogCount} 个项目`,`${counts.verifiedDegreeAssociationCount} 条已核实个人学位关联`,`${counts.raPositionCount} 个独立 RA 岗位`,`${counts.profilePilotCount} 份导师简介`,`${counts.projectSummaryRecords} 份项目简介`,`${counts.materialRecords} 组材料摘要`])assert(scope.includes(text),text);
  assert(scope.includes('原 26 篇经验及其来源对象保持不变'));assert(scope.includes('1 篇尚待综合'));assert(scope.includes('尚未发布'));assert(scope.includes('不代表 GitHub Pages 已部署'));assert(scope.includes('不代表真实浏览器验收完成'));

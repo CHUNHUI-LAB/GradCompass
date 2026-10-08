@@ -1,3 +1,4 @@
+import {execFileSync} from 'node:child_process';
 import {profileCoverageBytes} from './profile-coverage-baseline.mjs';
 import {previousPublicAuditRelease} from './public-audit-release-20261006-baseline.mjs';
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import crypto from 'node:crypto';import {fileURLToPath} from 'node:url';
@@ -64,6 +65,6 @@ test('README programme-introduction history matches its dated QA count with an e
 test('README public navigation overview matches current counts without implying complete coverage',()=>{
  const readme=fs.readFileSync(new URL('README.md',root),'utf8');
  const overview=readme.split('## 按要做的事浏览\n')[1]?.split('\n## ')[0];
- assert(overview.includes('334 位导师均可查阅'));assert(overview.includes('个人学位关联 57 条'));assert(overview.includes('RA 岗位 2 条'));assert(overview.includes('新增博士项目参考另行标注'));assert(overview.includes('65 个项目均可查阅'));assert(overview.includes('30 份培养与研究简介'));assert(overview.includes('17 组官方材料摘要'));assert(!overview.includes('背景资格仍是底层收录条件'));
- const materials=readme.split('## 材料补充与范围\n')[1]?.split('\n## ')[0];assert(materials.includes('15 组官方摘要、47 个实际引用来源'));assert(materials.includes('共 17 组'));
+ assert(overview.includes('334 位导师均可查阅'));assert(overview.includes('个人学位关联 57 条'));assert(overview.includes('RA 岗位 2 条'));assert(overview.includes('新增博士项目参考另行标注'));assert(overview.includes('65 个项目均可查阅'));const counts=JSON.parse(execFileSync(process.execPath,['scripts/public-counts.mjs'],{cwd:fileURLToPath(root),encoding:'utf8'}));assert(overview.includes(`${counts.projectSummaryRecords} 份培养与研究简介`));assert(overview.includes(`${counts.materialRecords} 组官方材料摘要`));assert(!overview.includes('背景资格仍是底层收录条件'));
+ const materials=readme.split('## 材料补充与范围\n')[1]?.split('\n## ')[0];const source=JSON.parse(fs.readFileSync(new URL('data/material-summaries.json',root)));const used=new Set(source.records.flatMap(r=>r.requirements.flatMap(q=>q.sourceIds)));const unique=new Set(source.sources.map(s=>s.url));const cited=new Set(source.sources.filter(s=>used.has(s.id)).map(s=>s.url));assert(materials.includes(`${source.records.length} 组官方摘要`));assert(materials.includes(`${source.sources.length} 个标识、${unique.size} 个不同网址`));assert(materials.includes(`${cited.size} 个不同网址`));assert(materials.includes(`共 ${counts.materialRecords} 组`));
 });

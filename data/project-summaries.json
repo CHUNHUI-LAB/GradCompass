@@ -615,6 +615,34 @@
       "section": "Application Commencement Date; Mechanical and Automation Engineering > Taught Programmes > MSc in Robotics",
       "evidenceScope": "live_cloud_browser_expanded_programme_section",
       "sourceVersion": "2026-09-01 开放；MSc in Robotics 截止 2027-03-31；未进入申请系统"
+    },
+    {
+      "id": "polyu_departments_20261008",
+      "label": "PolyU Graduate School: Application Deadline（含2027/28 Sept列）",
+      "url": "https://www.polyu.edu.hk/gs/prospective-students/how-to-apply/application-deadline/",
+      "checkedDate": "2026-10-08",
+      "section": "完整表头与AAE、ISE行：Jan 2027、May 2027、Sept 2027；不把HKPFS时刻套入普通轮"
+    },
+    {
+      "id": "polyu_period_20261008",
+      "label": "PolyU Research Postgraduate - Application Period（2026/27及2027/28）",
+      "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+      "checkedDate": "2026-10-08",
+      "section": "2027年1/5/9月普通轮；院系单独期限与申请提前量"
+    },
+    {
+      "id": "nju_robotics_policy_20261008",
+      "label": "南京大学机器人与自动化学院2026年博士申请考核细则（0810Z1；官方PDF）",
+      "url": "https://ra.nju.edu.cn/DFS//file/2025/12/09/20251209102825799e79ixk.pdf",
+      "checkedDate": "2026-10-08",
+      "section": "封面2026、0810Z1；普通招考/硕博连读、报考条件、材料与考核；网页发布2025-12-09，PDF落款2025-11-27"
+    },
+    {
+      "id": "sjtu_ai_policy_20261008",
+      "label": "人工智能学院2026年博士研究生招生报名通知（全日制）",
+      "url": "https://soai.sjtu.edu.cn/cn/show/474",
+      "checkedDate": "2026-10-08",
+      "section": "H1与2026-05-14发布日期；三种选拔通道、资格及材料；不替代2027推免通知"
     }
   ],
   "records": [
@@ -806,10 +834,10 @@
         ]
       },
       "cycle": {
-        "text": "已核读项目页是 2027 年 1 月入学，截止 2026-09-30，核读时已过。学校表格另列 2027 年 5 月入学；本次来源未确认 2027 秋季 ISE 批次或导师名额。",
+        "text": "2026-10-08仅复核日期：研究生院AAE/ISE行明确列2027年1月、5月、9月入学，截止依次为2026-09-30（已过）、2027-01-31、2027-05-31。普通轮钟点和时区未注明；旧院系项目页仍按自身年份保留，个人名额与资助未由日期推定。",
         "sourceIds": [
-          "polyu_ise_jan2027",
-          "polyu_deadlines"
+          "polyu_departments_20261008",
+          "polyu_period_20261008"
         ]
       },
       "cautions": [
@@ -819,7 +847,35 @@
             "polyu_apply"
           ]
         }
-      ]
+      ],
+      "cycleReview": {
+        "checkedDate": "2026-10-08",
+        "scope": "仅复核入学周期与普通申请日期；其余简介事实和来源日期保留",
+        "previous": {
+          "text": "已核读项目页是 2027 年 1 月入学，截止 2026-09-30，核读时已过。学校表格另列 2027 年 5 月入学；本次来源未确认 2027 秋季 ISE 批次或导师名额。",
+          "sourceIds": [
+            "polyu_ise_jan2027",
+            "polyu_deadlines"
+          ]
+        },
+        "previousCheckedDate": "2026-10-02",
+        "sources": [
+          {
+            "id": "polyu_departments_20261008",
+            "label": "PolyU Graduate School: Application Deadline（含2027/28 Sept列）",
+            "url": "https://www.polyu.edu.hk/gs/prospective-students/how-to-apply/application-deadline/",
+            "checkedDate": "2026-10-08",
+            "section": "完整表头与AAE、ISE行：Jan 2027、May 2027、Sept 2027；不把HKPFS时刻套入普通轮"
+          },
+          {
+            "id": "polyu_period_20261008",
+            "label": "PolyU Research Postgraduate - Application Period（2026/27及2027/28）",
+            "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+            "checkedDate": "2026-10-08",
+            "section": "2027年1/5/9月普通轮；院系单独期限与申请提前量"
+          }
+        ]
+      }
     },
     {
       "routeId": "polyu_ise_rpg-phd",
@@ -848,10 +904,10 @@
         ]
       },
       "cycle": {
-        "text": "已核读项目页是 2027 年 1 月入学，截止 2026-09-30，核读时已过。学校表格另列 2027 年 5 月入学；本次来源未确认 2027 秋季 ISE 批次或导师名额。",
+        "text": "2026-10-08仅复核日期：研究生院AAE/ISE行明确列2027年1月、5月、9月入学，截止依次为2026-09-30（已过）、2027-01-31、2027-05-31。普通轮钟点和时区未注明；旧院系项目页仍按自身年份保留，个人名额与资助未由日期推定。",
         "sourceIds": [
-          "polyu_ise_jan2027",
-          "polyu_deadlines"
+          "polyu_departments_20261008",
+          "polyu_period_20261008"
         ]
       },
       "cautions": [
@@ -861,7 +917,35 @@
             "polyu_apply"
           ]
         }
-      ]
+      ],
+      "cycleReview": {
+        "checkedDate": "2026-10-08",
+        "scope": "仅复核入学周期与普通申请日期；其余简介事实和来源日期保留",
+        "previous": {
+          "text": "已核读项目页是 2027 年 1 月入学，截止 2026-09-30，核读时已过。学校表格另列 2027 年 5 月入学；本次来源未确认 2027 秋季 ISE 批次或导师名额。",
+          "sourceIds": [
+            "polyu_ise_jan2027",
+            "polyu_deadlines"
+          ]
+        },
+        "previousCheckedDate": "2026-10-02",
+        "sources": [
+          {
+            "id": "polyu_departments_20261008",
+            "label": "PolyU Graduate School: Application Deadline（含2027/28 Sept列）",
+            "url": "https://www.polyu.edu.hk/gs/prospective-students/how-to-apply/application-deadline/",
+            "checkedDate": "2026-10-08",
+            "section": "完整表头与AAE、ISE行：Jan 2027、May 2027、Sept 2027；不把HKPFS时刻套入普通轮"
+          },
+          {
+            "id": "polyu_period_20261008",
+            "label": "PolyU Research Postgraduate - Application Period（2026/27及2027/28）",
+            "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+            "checkedDate": "2026-10-08",
+            "section": "2027年1/5/9月普通轮；院系单独期限与申请提前量"
+          }
+        ]
+      }
     },
     {
       "routeId": "cityu_me_rpg-mphil",
@@ -1254,10 +1338,10 @@
         ]
       },
       "cycle": {
-        "text": "院系页仍标 2026 年 9 月入学；学校表格另列 AAE 的 2027 年 1 月及 5 月批次，截止分别为 2026-09-30、2027-01-31。尚未据此确认 2027 秋季批次或导师名额。",
+        "text": "2026-10-08仅复核日期：研究生院AAE/ISE行明确列2027年1月、5月、9月入学，截止依次为2026-09-30（已过）、2027-01-31、2027-05-31。普通轮钟点和时区未注明；旧院系项目页仍按自身年份保留，个人名额与资助未由日期推定。",
         "sourceIds": [
-          "polyu_aae_programme",
-          "polyu_deadlines"
+          "polyu_departments_20261008",
+          "polyu_period_20261008"
         ]
       },
       "cautions": [
@@ -1268,7 +1352,35 @@
             "polyu_apply"
           ]
         }
-      ]
+      ],
+      "cycleReview": {
+        "checkedDate": "2026-10-08",
+        "scope": "仅复核入学周期与普通申请日期；其余简介事实和来源日期保留",
+        "previous": {
+          "text": "院系页仍标 2026 年 9 月入学；学校表格另列 AAE 的 2027 年 1 月及 5 月批次，截止分别为 2026-09-30、2027-01-31。尚未据此确认 2027 秋季批次或导师名额。",
+          "sourceIds": [
+            "polyu_aae_programme",
+            "polyu_deadlines"
+          ]
+        },
+        "previousCheckedDate": "2026-10-02",
+        "sources": [
+          {
+            "id": "polyu_departments_20261008",
+            "label": "PolyU Graduate School: Application Deadline（含2027/28 Sept列）",
+            "url": "https://www.polyu.edu.hk/gs/prospective-students/how-to-apply/application-deadline/",
+            "checkedDate": "2026-10-08",
+            "section": "完整表头与AAE、ISE行：Jan 2027、May 2027、Sept 2027；不把HKPFS时刻套入普通轮"
+          },
+          {
+            "id": "polyu_period_20261008",
+            "label": "PolyU Research Postgraduate - Application Period（2026/27及2027/28）",
+            "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+            "checkedDate": "2026-10-08",
+            "section": "2027年1/5/9月普通轮；院系单独期限与申请提前量"
+          }
+        ]
+      }
     },
     {
       "routeId": "polyu_aae_rpg-phd",
@@ -1297,10 +1409,10 @@
         ]
       },
       "cycle": {
-        "text": "院系页仍标 2026 年 9 月入学；学校表格另列 AAE 的 2027 年 1 月及 5 月批次，截止分别为 2026-09-30、2027-01-31。尚未据此确认 2027 秋季批次或导师名额。",
+        "text": "2026-10-08仅复核日期：研究生院AAE/ISE行明确列2027年1月、5月、9月入学，截止依次为2026-09-30（已过）、2027-01-31、2027-05-31。普通轮钟点和时区未注明；旧院系项目页仍按自身年份保留，个人名额与资助未由日期推定。",
         "sourceIds": [
-          "polyu_aae_programme",
-          "polyu_deadlines"
+          "polyu_departments_20261008",
+          "polyu_period_20261008"
         ]
       },
       "cautions": [
@@ -1311,7 +1423,35 @@
             "polyu_apply"
           ]
         }
-      ]
+      ],
+      "cycleReview": {
+        "checkedDate": "2026-10-08",
+        "scope": "仅复核入学周期与普通申请日期；其余简介事实和来源日期保留",
+        "previous": {
+          "text": "院系页仍标 2026 年 9 月入学；学校表格另列 AAE 的 2027 年 1 月及 5 月批次，截止分别为 2026-09-30、2027-01-31。尚未据此确认 2027 秋季批次或导师名额。",
+          "sourceIds": [
+            "polyu_aae_programme",
+            "polyu_deadlines"
+          ]
+        },
+        "previousCheckedDate": "2026-10-02",
+        "sources": [
+          {
+            "id": "polyu_departments_20261008",
+            "label": "PolyU Graduate School: Application Deadline（含2027/28 Sept列）",
+            "url": "https://www.polyu.edu.hk/gs/prospective-students/how-to-apply/application-deadline/",
+            "checkedDate": "2026-10-08",
+            "section": "完整表头与AAE、ISE行：Jan 2027、May 2027、Sept 2027；不把HKPFS时刻套入普通轮"
+          },
+          {
+            "id": "polyu_period_20261008",
+            "label": "PolyU Research Postgraduate - Application Period（2026/27及2027/28）",
+            "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+            "checkedDate": "2026-10-08",
+            "section": "2027年1/5/9月普通轮；院系单独期限与申请提前量"
+          }
+        ]
+      }
     },
     {
       "routeId": "polyu_ire_msc",
@@ -2011,6 +2151,86 @@
           "sourceIds": [
             "bu_robotics_20261004_program",
             "bu_robotics_20261004_admissions"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "nju-robotics-phd-reference-2026",
+      "institution": "NJU",
+      "degree": "PhD",
+      "evidenceScope": "reference",
+      "sourceCycle": "2026",
+      "checkedDate": "2026-10-08",
+      "overview": {
+        "text": "2026年0810Z1控制科学与智能工程博士招生参考，适用于普通招考及硕博连读。",
+        "sourceIds": [
+          "nju_robotics_policy_20261008"
+        ]
+      },
+      "training": {
+        "text": "本页是选拔细则：材料审核后进行笔试和面试，笔试含专业英语及自动控制原理。培养课程、学制和资助须另查。",
+        "sourceIds": [
+          "nju_robotics_policy_20261008"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "普通招考条件列应届硕士、已获硕士或博士学位及硕士毕业人员，不构成本科直接申请依据；本细则同时覆盖硕博连读，其具体入口条件仍应结合学校章程核对；同等学力与定向考生不接收。",
+        "sourceIds": [
+          "nju_robotics_policy_20261008"
+        ]
+      },
+      "cycle": {
+        "text": "2026历史批次：纸质材料须于2026-01-09前以EMS寄出，以邮戳为准；网报日期另见学校通知。已过期，不能换年使用。",
+        "sourceIds": [
+          "nju_robotics_policy_20261008"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "需两名相关领域教授或相当职称专家推荐；无已发表论文的应届生可按毕业论文初稿或已投稿论文评分，不应写成必须发表论文。个人新周期名额仍未核。",
+          "sourceIds": [
+            "nju_robotics_policy_20261008"
+          ]
+        }
+      ]
+    },
+    {
+      "routeId": "sjtu-ai-phd-reference-2026",
+      "institution": "SJTU",
+      "degree": "PhD",
+      "evidenceScope": "reference",
+      "sourceCycle": "2026",
+      "checkedDate": "2026-10-08",
+      "overview": {
+        "text": "2026全日制博士通知列140500智能科学与技术学术学位及085400电子信息专业学位；081000与081200另限直博/硕博连读。",
+        "sourceIds": [
+          "sjtu_ai_policy_20261008"
+        ]
+      },
+      "training": {
+        "text": "通知区分申请考核、校内硕博连读及海外高校优秀中国籍本科直博。材料筛选后接受专业测试、面试与导师组评价；未核课程与统一学制。",
+        "sourceIds": [
+          "sjtu_ai_policy_20261008"
+        ]
+      },
+      "bachelorEntry": {
+        "text": "普通申请考核须满足硕士条件。海外本科专项另限中国籍、四项指定世界榜单均前100高校、本科GPA≥3.5/4及学历认证，仅列081000/081200；不能扩为所有本科通道。",
+        "sourceIds": [
+          "sjtu_ai_policy_20261008"
+        ]
+      },
+      "cycle": {
+        "text": "2026-05-14通知的报名截止为2026-05-25 17:00，时区未标；该轮已过，2027推免须按独立通知。",
+        "sourceIds": [
+          "sjtu_ai_policy_20261008"
+        ]
+      },
+      "cautions": [
+        {
+          "text": "硕博连读限符合条件的本校在读硕士；海外本科者如何对应清单中的硕士成绩与硕导推荐条目须学院确认。本页不证明个人2027/2028名额。",
+          "sourceIds": [
+            "sjtu_ai_policy_20261008"
           ]
         }
       ]

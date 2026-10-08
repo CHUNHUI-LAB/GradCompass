@@ -390,6 +390,20 @@
       "section": "Application Commencement Date; Mechanical and Automation Engineering > Taught Programmes > MSc in Robotics",
       "evidenceScope": "live_cloud_browser_expanded_programme_section",
       "sourceVersion": "2026-09-01 开放；MSc in Robotics 截止 2027-03-31；未进入申请系统"
+    },
+    {
+      "id": "nju_robotics_policy_20261008",
+      "label": "南京大学机器人与自动化学院2026年博士申请考核细则（0810Z1；官方PDF）",
+      "url": "https://ra.nju.edu.cn/DFS//file/2025/12/09/20251209102825799e79ixk.pdf",
+      "checkedDate": "2026-10-08",
+      "section": "封面2026、0810Z1；普通招考/硕博连读、报考条件、材料与考核；网页发布2025-12-09，PDF落款2025-11-27"
+    },
+    {
+      "id": "sjtu_ai_policy_20261008",
+      "label": "人工智能学院2026年博士研究生招生报名通知（全日制）",
+      "url": "https://soai.sjtu.edu.cn/cn/show/474",
+      "checkedDate": "2026-10-08",
+      "section": "H1与2026-05-14发布日期；三种选拔通道、资格及材料；不替代2027推免通知"
     }
   ],
   "records": [
@@ -1899,6 +1913,150 @@
       "sourceIds": [
         "bu_robotics_20261004_program",
         "bu_robotics_20261004_admissions"
+      ]
+    },
+    {
+      "id": "nju-robotics-phd-materials-reference-2026",
+      "title": "南京大学机器人博士材料（2026历史申请考核参考）",
+      "institution": "NJU",
+      "degree": "PhD",
+      "routeIds": [
+        "nju-robotics-phd-reference-2026"
+      ],
+      "status": "verified",
+      "checkedDate": "2026-10-08",
+      "summary": "历史普通招考/硕博连读材料，不能平移为2027要求。",
+      "admissionYear": "2026历史批次，0810Z1控制科学与智能工程",
+      "scopeNotes": [
+        "已核官方PDF封面与正文；不新增本科资格、个人关联或名额。"
+      ],
+      "unknowns": [
+        "网报日期与新年度细则未在本轮核实；未核实个人名额及资助。"
+      ],
+      "requirements": [
+        {
+          "kind": "transcript",
+          "text": "报名简表签名、硕士阶段盖章成绩及身份证双面复印件；学历学位或学籍证明按应届/往届分支。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "nju_robotics_policy_20261008"
+          ]
+        },
+        {
+          "kind": "references",
+          "text": "两名相关学科教授或相当职称专家书面推荐，使用附件模板。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "nju_robotics_policy_20261008"
+          ]
+        },
+        {
+          "kind": "personalStatementResearchProposalReferences",
+          "text": "自我评价与博士研究计划。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "nju_robotics_policy_20261008"
+          ]
+        },
+        {
+          "kind": "researchOutputs",
+          "text": "已有成果与奖励证明按实际提供；已获硕士者交学位论文及评议书，应届硕士交开题报告。",
+          "requirementStatus": "conditional",
+          "sourceIds": [
+            "nju_robotics_policy_20261008"
+          ]
+        },
+        {
+          "kind": "language",
+          "text": "英语条件可选CET4/6≥426、IELTS≥6.0、TOEFL≥85、以第一作者身份已在英文国际期刊发表的专业学术论文或境外英语授课学历认证分支，提交适用证明。",
+          "requirementStatus": "conditional",
+          "sourceIds": [
+            "nju_robotics_policy_20261008"
+          ]
+        },
+        {
+          "kind": "deadline",
+          "text": "2026-01-09前EMS寄出纸质材料，以邮戳为准；未标钟点、时区。此日期已过，网报是另外必需环节。",
+          "requirementStatus": "published",
+          "sourceIds": [
+            "nju_robotics_policy_20261008"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "nju_robotics_policy_20261008"
+      ]
+    },
+    {
+      "id": "sjtu-ai-phd-materials-reference-2026",
+      "title": "上海交大AI博士材料（2026历史全日制参考）",
+      "institution": "SJTU",
+      "degree": "PhD",
+      "routeIds": [
+        "sjtu-ai-phd-reference-2026"
+      ],
+      "status": "verified",
+      "checkedDate": "2026-10-08",
+      "summary": "按普通硕士申请、校内硕博连读和海外本科专项分别阅读材料。",
+      "admissionYear": "2026历史批次，2026-05-14通知",
+      "scopeNotes": [
+        "纸质材料复试现场交；通知中硕士专属表项不能自动套给海外本科申请者。"
+      ],
+      "unknowns": [
+        "海外本科专项的硕士成绩、硕导推荐条目替代办法未说明；新年度资格、名额与材料另核。"
+      ],
+      "requirements": [
+        {
+          "kind": "researchProposal",
+          "text": "签名报名登记表、身份证及博士研究计划。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "sjtu_ai_policy_20261008"
+          ]
+        },
+        {
+          "kind": "transcript",
+          "text": "硕士成绩、学历学位或应届学籍及适用认证按申请分支提供；海外本科替代办法待确认。",
+          "requirementStatus": "conditional",
+          "sourceIds": [
+            "sjtu_ai_policy_20261008"
+          ]
+        },
+        {
+          "kind": "references",
+          "text": "清单写两封推荐：一封硕士导师、一封相关领域副高以上专家，由专家在推荐信系统中提交；海外本科分支如何对应硕导要求未说明。",
+          "requirementStatus": "required",
+          "sourceIds": [
+            "sjtu_ai_policy_20261008"
+          ]
+        },
+        {
+          "kind": "researchOutputs",
+          "text": "已有论文、专利和其他成果按实际提供；硕士论文摘要及目录对硕博连读与海外直博明确免交。",
+          "requirementStatus": "conditional",
+          "sourceIds": [
+            "sjtu_ai_policy_20261008"
+          ]
+        },
+        {
+          "kind": "language",
+          "text": "按适用分支提供英语证明；通知列CET6≥425、非家考TOEFL iBT≥90、非Online IELTS学术≥6.0，或规定英语国家全英文授课学位。",
+          "requirementStatus": "conditional",
+          "sourceIds": [
+            "sjtu_ai_policy_20261008"
+          ]
+        },
+        {
+          "kind": "deadline",
+          "text": "2026-05-25 17:00截止，时区未标；已过期。",
+          "requirementStatus": "published",
+          "sourceIds": [
+            "sjtu_ai_policy_20261008"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "sjtu_ai_policy_20261008"
       ]
     }
   ]
