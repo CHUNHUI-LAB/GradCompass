@@ -247,8 +247,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 11454,
-      "sha256": "7da3717a9398021d947c99bf5a3571ec3b68f51f3f52636483f74e218cfe94a2"
+      "bytes": 11655,
+      "sha256": "71aeaca2ecac117f28a90c8a0a51ff189067753e67963d6633284dc84e91a2ec"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -312,8 +312,8 @@
     },
     {
       "path": "tests/cuhk-deadline-20261007.test.mjs",
-      "bytes": 16660,
-      "sha256": "68dcee507e0fddbedde35abba755248f4dc4369df18d8a956cf0092681ac6102"
+      "bytes": 16791,
+      "sha256": "e1d7b038ff19be44e6d299f36cbd5d87e25212aab6fe62daee6a02aac4f8dc7b"
     },
     {
       "path": "tests/current-correction-baseline.mjs",
@@ -347,8 +347,8 @@
     },
     {
       "path": "tests/date-summary-20261006.test.mjs",
-      "bytes": 4610,
-      "sha256": "3315154c5ae1019b36502f9b61175b3e3687d97cde05fb83ef89c0058eed92f9"
+      "bytes": 4636,
+      "sha256": "4633a4e580681d4562f18252ae5930ba6383db5fa35c37a7b2bc7ffce0d09b63"
     },
     {
       "path": "tests/detail-reader-polish.test.mjs",
@@ -362,8 +362,8 @@
     },
     {
       "path": "tests/detail-return-focus-history.test.mjs",
-      "bytes": 2787,
-      "sha256": "56d1db16769d3a56abee8a3b2592eb9a1dc8838595f2582d8cd88b2d221a92f9"
+      "bytes": 2813,
+      "sha256": "2cdca87ec390ba4853f7aa8a3905b84bcf9bb2d7c0d4673d4aa44107feeeddc9"
     },
     {
       "path": "tests/detail-return-focus.test.mjs",
@@ -521,6 +521,11 @@
       "sha256": "1d718c097f1321e71c4982a94004a2626ea93a2910770876cf1353841b0bccaf"
     },
     {
+      "path": "tests/fixtures/history/reviewed-profile-coverage-20261008.json",
+      "bytes": 2161693,
+      "sha256": "ab22bad0a1b6f71bbd242eaa42a39672269550945dfc940861a6b47815a91cb7"
+    },
+    {
       "path": "tests/fixtures/history/reviewed-public-audit-20261006.json",
       "bytes": 26299,
       "sha256": "43e95863c0d8a62307fc0cf396c2af586747f944e21d3771214df73c48ec7d12"
@@ -662,8 +667,8 @@
     },
     {
       "path": "tests/optional-loading.test.mjs",
-      "bytes": 18169,
-      "sha256": "7781531934298c9e08a76d71f0f3cc536ca10e3b9c4199e237100e54be288595"
+      "bytes": 19525,
+      "sha256": "b7421b854c71183de03ddb3ed985ec89fefbd863a73b616528f960a757066c29"
     },
     {
       "path": "tests/overseas-additions.test.mjs",
@@ -709,6 +714,21 @@
       "path": "tests/pku-review.test.mjs",
       "bytes": 1608,
       "sha256": "7d7adabc5d650ec2ec9d22728ff7cd170e1561d271784c9eb0d5ab8fd0595eb7"
+    },
+    {
+      "path": "tests/profile-coverage-baseline.mjs",
+      "bytes": 2046,
+      "sha256": "a7134d5af37a0331d5c1117045f44066f4bb827b9055af35e8891ce7ed0493f9"
+    },
+    {
+      "path": "tests/profile-coverage-history-fs.mjs",
+      "bytes": 876,
+      "sha256": "4363086bb427c171a4df6999499295e1ecde531e1429794619ef07765c196bea"
+    },
+    {
+      "path": "tests/profile-coverage-history.test.mjs",
+      "bytes": 9174,
+      "sha256": "45078709edc723f8a46d4bd77c0ed3d18f370c7ea6b98c75f82ee320759c3389"
     },
     {
       "path": "tests/profiles-batch5.test.mjs",
@@ -762,8 +782,8 @@
     },
     {
       "path": "tests/public-audit-20261006-history-fs.mjs",
-      "bytes": 1351,
-      "sha256": "e840cd5f0c778b7b4460124a55bf1076841b944c9fe2cec3f46d45583fb3ce52"
+      "bytes": 1377,
+      "sha256": "625c3453b3123f54edca7d5d799067a81e63828957a7c1c5d9b73c28e96deced"
     },
     {
       "path": "tests/public-audit-20261006.test.mjs",
@@ -777,8 +797,8 @@
     },
     {
       "path": "tests/public-audit-release-20261006.test.mjs",
-      "bytes": 9248,
-      "sha256": "25dfd650f1205bb2e4d8dba9cca6ae3edaa26f5427ef6bbbc2d5d45622bb33db"
+      "bytes": 9825,
+      "sha256": "3b7722663c4efc4cb9de5ecc4ee512ecfd4816ece5d58b584562e68702f07067"
     },
     {
       "path": "tests/public-discovery.test.mjs",
@@ -792,8 +812,8 @@
     },
     {
       "path": "tests/ra-deadline-20261007-history.test.mjs",
-      "bytes": 6119,
-      "sha256": "1c0810a2f915de0fc10020835c35c27b34155eac2d1a58909b0e5c837153da1e"
+      "bytes": 6145,
+      "sha256": "698043ebe67932ca7fd9eed2ce90e878a1a624139d06189d13f3d0e3a6b94798"
     },
     {
       "path": "tests/ra-deadline-provenance.test.mjs",
@@ -827,13 +847,13 @@
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 26277,
-      "sha256": "b715e8e380550e70da134b5224f3eaeea20d9a31deabbb394e7618adc7bb9612"
+      "bytes": 26303,
+      "sha256": "7da4635af5cc1ae7e36cde9f3bb16c7345a133dd599e5bb13e40a02969091935"
     },
     {
       "path": "tests/resource-versions.test.mjs",
-      "bytes": 9259,
-      "sha256": "b311162ad043cbf4cddf96bbd093f078e90d5371090bca84729153b9584a0876"
+      "bytes": 9373,
+      "sha256": "3b473ba381dc8ed772457986c6532bbd28b540b5893047fec512b8c0d02be72e"
     },
     {
       "path": "tests/robotics-expansion-baseline.mjs",

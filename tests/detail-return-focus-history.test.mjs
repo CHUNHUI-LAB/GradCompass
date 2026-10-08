@@ -1,7 +1,7 @@
 import {cuhkDeadlineBytes} from './cuhk-deadline-20261007-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './profile-coverage-history-fs.mjs';
 import crypto from 'node:crypto';
 import {detailReturnFixture as fixture,detailReturnBytes,assertCurrentDetailReturnAsset} from './detail-return-focus-baseline.mjs';
 import {assertCurrentRaDeadlineAsset} from './ra-deadline-20261007-baseline.mjs';

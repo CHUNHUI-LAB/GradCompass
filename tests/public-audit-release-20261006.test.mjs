@@ -1,3 +1,4 @@
+import {profileCoverageBytes} from './profile-coverage-baseline.mjs';
 import {cuhkDeadlineBytes} from './cuhk-deadline-20261007-baseline.mjs';
 import {detailReturnBytes} from './detail-return-focus-baseline.mjs';
 import test from 'node:test';
@@ -17,6 +18,8 @@ addedFiles.push('tests/date-summary-20261006-baseline.mjs','tests/date-summary-2
 addedFiles.push('tests/ra-deadline-provenance.test.mjs','tests/ra-deadline-20261007-baseline.mjs','tests/ra-deadline-20261007-history.test.mjs','tests/fixtures/history/reviewed-ra-deadline-20261007.json');
 addedFiles.push('tests/detail-return-focus.test.mjs','tests/detail-return-focus-baseline.mjs','tests/detail-return-focus-history.test.mjs','tests/fixtures/history/detail-return-focus-20261007.json');
 addedFiles.push("tests/cuhk-deadline-20261007-baseline.mjs","tests/cuhk-deadline-20261007.test.mjs","tests/fixtures/history/reviewed-cuhk-deadline-20261007.json");
+// The current derived profile-source count is checked against raw data in profile-coverage-history.test.mjs.
+addedFiles.push('tests/full-profile-coverage.test.mjs','tests/nju-tongji-ustc-profiles.test.mjs','tests/pku-profiles.test.mjs','tests/profile-coverage-baseline.mjs','tests/profile-coverage-history-fs.mjs','tests/profile-coverage-history.test.mjs','tests/fixtures/history/reviewed-profile-coverage-20261008.json');
 const git=b=>crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${b.length}\0`),b])).digest('hex');
 
 test('public audit asset stage is exact, reversible and limited to three content-version fragments',()=>{
@@ -25,7 +28,7 @@ test('public audit asset stage is exact, reversible and limited to three content
  for(const [path,e] of Object.entries(f.files)){
   assert.equal(e.kind,'text_fragments');assert.equal(e.operations.length,prefixes[path].length);
   e.operations.forEach((op,i)=>{for(const side of ['before','after']){assert(op[side].startsWith(prefixes[path][i]));assert.match(op[side].slice(prefixes[path][i].length),/^[0-9a-f]{12}$/);}assert.notEqual(op.before,op.after);});
-  const current=dateSummaryBytes(path,raDeadlineBytes(path,detailReturnBytes(path,cuhkDeadlineBytes(path,read(path))))),old=publicAuditReleaseBytes(path,current);assertCurrentPublicAuditAsset(path,current);
+  const current=dateSummaryBytes(path,raDeadlineBytes(path,detailReturnBytes(path,cuhkDeadlineBytes(path,profileCoverageBytes(path,read(path)))))),old=publicAuditReleaseBytes(path,current);assertCurrentPublicAuditAsset(path,current);
   assert.equal(hash(old),e.beforeSha256);assert.equal(git(old),e.beforeGitBlob);assert.equal(git(current),e.afterGitBlob);
   assert.deepEqual(publicAuditReleaseBytes(path,old,'forward'),current);assert.deepEqual(publicAuditReleaseBytes(path,old),old);
   // Independent old manifest hashes, not generated from this working tree.
@@ -35,7 +38,7 @@ test('public audit asset stage is exact, reversible and limited to three content
 
 test('asset inverse never hides logic edits, unrelated fields, whitespace or partial version rollback',()=>{
  for(const [path,e] of Object.entries(f.files)){
-  const raw=dateSummaryBytes(path,raDeadlineBytes(path,detailReturnBytes(path,cuhkDeadlineBytes(path,read(path)))));const mutants=[Buffer.concat([raw,Buffer.from(' ')]),Buffer.from(String(raw).replace('\n','\n// unreviewed change\n')),...e.operations.map(op=>Buffer.from(String(raw).replace(op.after,()=>op.before)))];
+  const raw=dateSummaryBytes(path,raDeadlineBytes(path,detailReturnBytes(path,cuhkDeadlineBytes(path,profileCoverageBytes(path,read(path))))));const mutants=[Buffer.concat([raw,Buffer.from(' ')]),Buffer.from(String(raw).replace('\n','\n// unreviewed change\n')),...e.operations.map(op=>Buffer.from(String(raw).replace(op.after,()=>op.before)))];
   for(const altered of mutants){assert.throws(()=>assertCurrentPublicAuditAsset(path,altered),/unreviewed current asset/);assert.strictEqual(publicAuditReleaseBytes(path,altered),altered);}
  }
 });
@@ -46,7 +49,7 @@ test('current release pointers and every computed counter describe actual data w
  for(const [key,value]of Object.entries(counts))assert.equal(manifest[key],value,'raw current count: '+key);
  assert.equal(manifest.experienceRecords,27);assert.equal(manifest.defaultExperienceRecords,27);assert.equal(manifest.experienceSourceSites,20);assert.equal(manifest.preservedPublishedRecords,26);assert.equal(manifest.newExperienceRecords,1);
  const audit=manifest.publicAudit20261006;assert.equal(audit.baseCommit,f.baseCommit);assert.equal(audit.previousReleaseSnapshot,'tests/fixtures/history/reviewed-pre-public-audit-release-079eaea.json');assert.equal(audit.previousReleaseSha256,previousPublicAuditReleaseSha256);assert.deepEqual(audit.newExperienceIds,['grad-heu-sunbohan-research-selection-2026']);assert.equal(audit.preservedExperienceRecords,26);assert.equal(audit.synthesizedExperienceRecords,26);assert.equal(audit.pendingSynthesisRecords,1);
- const mutable=new Set(['revision','baseSourceCommit','candidateBaseCommit','snapshotDate','preservedPublishedRecords','newExperienceRecords','allowedFiles',...Object.keys(counts)]);
+ const mutable=new Set(['revision','baseSourceCommit','candidateBaseCommit','snapshotDate','preservedPublishedRecords','newExperienceRecords','allowedFiles','newProfileCitedSourceCount',...Object.keys(counts)]);
  for(const [key,value]of Object.entries(previous))if(!mutable.has(key))assert.deepEqual(manifest[key],value,'preserved historical/reviewer metadata: '+key);
  assert.deepEqual(Object.keys(manifest).filter(k=>!Object.hasOwn(previous,k)),['publicAudit20261006']);
  assert.equal(manifest.browserVisualQA,'Not yet browser-verified.');assert.match(manifest.status,/do not establish deployment/);for(const key of ['nodeTestsTotal','nodeTestsPassed','nodeTestsFailed'])assert(!Object.hasOwn(manifest,key));assert(!JSON.stringify(manifest).includes('socket'));assert(!JSON.stringify(manifest).includes('Chromium'));
