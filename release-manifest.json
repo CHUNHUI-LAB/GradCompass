@@ -42,13 +42,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 53700,
-      "sha256": "db42522a0dbbbbdc9a908a467b2b60978c867fcb9915df4bcf9c50d86e8f971d"
+      "bytes": 56175,
+      "sha256": "36332325bd1d0a34e74313f665945d08116fbe5e1d0094b9aa36afe6b66370c2"
     },
     {
       "path": "REPO-MAP.md",
-      "bytes": 11845,
-      "sha256": "d836d95b864139e2615b0a4e0256fb18f3869dbdc032b4b7016aacc958fc60ca"
+      "bytes": 12396,
+      "sha256": "d567142cc3ade9378c83c3bdf61ea39fd0c9ed5676bc2a91152671639f7636c8"
     },
     {
       "path": "assets/app.js",
@@ -104,6 +104,16 @@
       "path": "assets/style.css",
       "bytes": 36076,
       "sha256": "8bdf5b250a9e88e4aaf8f311f6c79520cd2b81b1702a702333ce931ee651f98a"
+    },
+    {
+      "path": "audits/advisor-completeness-20261009.json",
+      "bytes": 526034,
+      "sha256": "54eed863f554f5e23322692b88a1d101dafb1940eaa741f571d5e2d74ebdfed9"
+    },
+    {
+      "path": "audits/source-access-20261009.json",
+      "bytes": 256348,
+      "sha256": "1ee2d63dc678a48b1e1aca616e81710b389c90a95a1ef8cfc1eaf4986ae9ecf8"
     },
     {
       "path": "data/advisor-profiles.json",
@@ -246,9 +256,14 @@
       "sha256": "366ebedf1c6e0c53ae713c0eb17ee755ae64ddf63a8d8650ff8abdc3a1f30ce6"
     },
     {
+      "path": "scripts/audit_advisors.py",
+      "bytes": 13330,
+      "sha256": "4ba492a0843759b066305c12ce583bc5af4bcf33672c019b603d1ed62bf52127"
+    },
+    {
       "path": "scripts/freeze.py",
-      "bytes": 12071,
-      "sha256": "9dd1c651bcd870511fbd7eac834835f1520055d35b53b8332cd2edc2b56d231e"
+      "bytes": 12243,
+      "sha256": "4b3192af92b6d429b9c415f134fdabb66e68e9a929fdf3dcb897b86da3cf2a01"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -264,6 +279,11 @@
       "path": "tests/advisor-additions-baseline.mjs",
       "bytes": 1190,
       "sha256": "81d22a366b6c4ac6879985117bc8d09d940c7fdfa682b83bf2014a465bc80310"
+    },
+    {
+      "path": "tests/advisor-completeness-audit.test.mjs",
+      "bytes": 1714,
+      "sha256": "690b5561a8261a928fa9bf28b0e64d084b1f7bc87556891ed7507623d5852107"
     },
     {
       "path": "tests/avatar-initials-baseline.mjs",
