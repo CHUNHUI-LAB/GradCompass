@@ -370,3 +370,14 @@ Final pre-rebase-metadata and independent complete suites both passed 491/491, w
 - Scope: test-only, whole-file hash-gated reversible history stage; restore release metadata preservation and missing explicit test/helper/fixture allowlist entries. Keep the prior immutable historical fixtures and independent Git blob expectations. Unknown changes, reordered arrays and partial reversions must pass through unchanged rather than being silently accepted.
 - All production assets, dataset bytes and the HTML entry are preserved from this baseline, including 91 advisors, 55 projects, 57 verified degree associations, 2 RA positions and the multilingual search additions. These record counts do not establish current recruitment or remaining capacity.
 - Freeze must preserve caller-owned metadata and browser evidence verbatim, refresh only derived counts and file hashes, validate the source manifest before application writes, and remain byte-idempotent. Source tests and deployed artifact checks are recorded separately from browser acceptance.
+
+## 2026-10-10 个人主页与实验室链接补充
+
+Base: `d7de1df40bfb6cd1b67bd2e77cc85f0a5e310116`. This batch appends 54 link records for 53 existing advisors across nine schools (50 distinct destination URLs), with separate homepage review dates and source receipts. Catalog advisors, doctoral associations, vacancy decisions and original profile facts remain unchanged. Shared-team attribution and the YesLab dynamic-content limitation are explicit.
+
+- Full `npm test`: 621 passed, 0 failed, 0 skipped. Five new current-source checks cover original-field preservation, receipt coverage, all 334 profiles' link rendering, shared-page limits, and personal recruitment year/mode boundaries.
+- Focused current-source/profile/resource checks: 22 passed before final documentation updates. Historical dated resource counts now read the immutable published archive; current manifest counts and resource hashes still read current files. Earlier receipts and historical fixtures are untouched.
+- In-app browser on local port 4173: actual detail pages for 魏婧雯、钟志航、周博宇、鲁洪良、叶广南、何斌 displayed their new or previously hidden homepage/lab links. 钟志航's 28-entry early-contact text appeared in the admissions section with the explicit unverified PhD-vacancy boundary. No captured browser error logs were present during these checks. This was a targeted check at the browser's existing viewport, not device emulation or an exhaustive browser check of all advisors.
+- Source access and review scope are recorded in `audits/homepage-enrichment-20261010.json`; individual data additions are recorded in `tests/fixtures/evidence/homepages-20261010.json`. Public recruitment invitations preserve stated years and do not establish remaining capacity.
+
+These results describe the local source and targeted browser checks. Any later GitHub validation and Pages deployment must be checked against the pushed commit separately.

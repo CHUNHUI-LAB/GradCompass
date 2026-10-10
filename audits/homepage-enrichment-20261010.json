@@ -1,0 +1,1360 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-10",
+  "scopeZh": "补充已有导师的个人、实验室和共享团队主页，恢复已有档案链接的详情显示；不改写目录中的招生、博士资格、项目关联与名额。",
+  "count": 53,
+  "addedLinkCount": 54,
+  "advisors": [
+    {
+      "advisorId": "nju-wei-jingwen",
+      "urls": [
+        "https://jwwei-nju.github.io/"
+      ],
+      "identitySourceUrl": "https://ra.nju.edu.cn/szll/zzjs/20251125/i353102.html",
+      "readScopeZh": "个人主页补充时序基础模型、机器人动力系统健康管理及具身能源系统研究，并提供个人联系与研究成果入口。",
+      "pages": [
+        {
+          "url": "https://ra.nju.edu.cn/szll/zzjs/20251125/i353102.html",
+          "finalUrl": "https://ra.nju.edu.cn/szll/zzjs/20251125/i353102.html",
+          "status": 200,
+          "title": "魏婧雯",
+          "contentSha256": "ff1972a8e057970d1bca90e812092d5e0a4a287f0db342ca9875c79324af582a"
+        },
+        {
+          "url": "https://jwwei-nju.github.io/",
+          "finalUrl": "https://jwwei-nju.github.io/",
+          "status": 200,
+          "title": "魏婧雯 Jingwen Wei | 南京大学 Nanjing University",
+          "contentSha256": "f19ed4101daf56801ee7bf5c4d757a92c6c2a2c97aef1077f7ba7ca252681dfe"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "nju-bing-zhenshan",
+      "urls": [
+        "https://zhenshan-bing.github.io/"
+      ],
+      "identitySourceUrl": "https://is.nju.edu.cn/bzs/main.htm",
+      "readScopeZh": "个人主页介绍 EMBODICA Lab，研究具身智能、强化学习及仿生机器人。页面保留 2027 年考核制博士招募文字，按原年份参考。",
+      "pages": [
+        {
+          "url": "https://is.nju.edu.cn/bzs/main.htm",
+          "finalUrl": "https://is.nju.edu.cn/bzs/main.htm",
+          "status": 200,
+          "title": "中文信息",
+          "contentSha256": "47762711591fc1365b8a312761cf54c5d375788b35c39a1208836e2dcd57ca79"
+        },
+        {
+          "url": "https://zhenshan-bing.github.io/",
+          "finalUrl": "https://zhenshan-bing.github.io/",
+          "status": 200,
+          "title": "",
+          "contentSha256": "90cc764afe466dfca94977454828348f7e0e113f8355cf31b5a7b03fce051cd4"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "nju-lyu-shangke",
+      "urls": [
+        "https://lsk-robot.github.io/"
+      ],
+      "identitySourceUrl": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352806.html",
+      "readScopeZh": "个人主页补充机器人控制与学习、足式机器人及操作研究；页面列有从西湖大学转入南京大学后的经历，博士联系邀请未注明入学年份。",
+      "pages": [
+        {
+          "url": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352806.html",
+          "finalUrl": "https://ra.nju.edu.cn/szll/zzjs/20251119/i352806.html",
+          "status": 200,
+          "title": "吕尚可",
+          "contentSha256": "f18507161ebc8a9f2699df4cacefb50aac4bbaaad8c2d006042ee170b94b05c4"
+        },
+        {
+          "url": "https://lsk-robot.github.io/",
+          "finalUrl": "https://lsk-robot.github.io/",
+          "status": 200,
+          "title": "Shangke Lyu Homepage - Homepage",
+          "contentSha256": "8e52b8d020eaf43c425d190edc23d19565601427ca63a8974e445a176ae8fd70"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "nju-shi-jieqi",
+      "urls": [
+        "https://jayceeshi.github.io/"
+      ],
+      "identitySourceUrl": "https://is.nju.edu.cn/b2/88/c60077a701064/page.htm",
+      "readScopeZh": "个人主页介绍三维视觉、多传感器融合、SLAM、语义建图、视觉语言导航及具身操作。招生文字同时提到一个普博名额和推免结束后的研究生/直博名额限制，原文未标明对应入学年份，须按申请方式向导师核实。",
+      "pages": [
+        {
+          "url": "https://is.nju.edu.cn/b2/88/c60077a701064/page.htm",
+          "finalUrl": "https://is.nju.edu.cn/b2/88/c60077a701064/page.htm",
+          "status": 200,
+          "title": "史桀绮",
+          "contentSha256": "41545e54f98b83230ea1d8bb4e9eaee433b925d09c71d99d325caa9a66b6aa30"
+        },
+        {
+          "url": "https://jayceeshi.github.io/",
+          "finalUrl": "https://jayceeshi.github.io/",
+          "status": 200,
+          "title": "Personal profile - Jieqi Shi",
+          "contentSha256": "f972fa823ded68fa2aba7be7064ca5166cd866badcdd54688c0418c6ba4ca55b"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "nju-ma-yingjie",
+      "urls": [
+        "https://eaglema.github.io/"
+      ],
+      "identitySourceUrl": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335919.html",
+      "readScopeZh": "个人主页补充优化、非线性模型预测控制、系统辨识与数据驱动方法，并提供研究及博士联系入口；联系邀请未明确入学年份。",
+      "pages": [
+        {
+          "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335919.html",
+          "finalUrl": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335919.html",
+          "status": 200,
+          "title": "马英杰",
+          "contentSha256": "5ca5666204f290dc98bae19f37c0426390bfa24d6ee9642d97809a199827be3f"
+        },
+        {
+          "url": "https://eaglema.github.io/",
+          "finalUrl": "https://eaglema.github.io/",
+          "status": 200,
+          "title": "Yingjie Ma",
+          "contentSha256": "6fd2c6eec7260c6a9b4e81976d950702f8ff0a3e975510cba3ca66f2652a74cf"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "nju-mei-wenjie",
+      "urls": [
+        "https://xnmwj701.github.io/"
+      ],
+      "identitySourceUrl": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335917.html",
+      "readScopeZh": "个人主页补充数据驱动动力系统、几何控制与机器人运动研究，以及个人经历和成果入口。",
+      "pages": [
+        {
+          "url": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335917.html",
+          "finalUrl": "https://ra.nju.edu.cn/szll/zzjs/20250901/i335917.html",
+          "status": 200,
+          "title": "梅文杰",
+          "contentSha256": "01d9d474bc9e00630013141f3a31d65d0562a9ebffa87cd670e3c89c31fad8f1"
+        },
+        {
+          "url": "https://xnmwj701.github.io/",
+          "finalUrl": "https://xnmwj701.github.io/",
+          "status": 200,
+          "title": "Short Bio",
+          "contentSha256": "741488ad1ac5d6afb58ce1f2dc897f11f99d6d2bb681458e4484b19a6e089f99"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "nju-zhang-zhenyu",
+      "urls": [
+        "https://jessezhang92.github.io/"
+      ],
+      "identitySourceUrl": "https://is.nju.edu.cn/d1/83/c57725a643459/page1.htm",
+      "readScopeZh": "个人主页补充三维视觉、图形学与生成建模研究；页面明确提及 2027 Fall 博士/硕士申请，保留原周期供参考。",
+      "pages": [
+        {
+          "url": "https://is.nju.edu.cn/d1/83/c57725a643459/page1.htm",
+          "finalUrl": "https://is.nju.edu.cn/d1/83/c57725a643459/page1.htm",
+          "status": 200,
+          "title": "张振宇",
+          "contentSha256": "28ae1d7831310e71290eac9fa0fee4a3f04d2ac6616ec0d7cfa87deeb7d48221"
+        },
+        {
+          "url": "https://jessezhang92.github.io/",
+          "finalUrl": "https://jessezhang92.github.io/",
+          "status": 200,
+          "title": "Zhenyu Zhang's Homepage",
+          "contentSha256": "404297e3ea1fd87c034cd9a1a108b02efee415b563b80eef00fd826accb45cfe"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "sustech-chenglong-fu",
+      "urls": [
+        "https://mee.sustech.edu.cn/kexueyanjiu/3033.html"
+      ],
+      "identitySourceUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/891.html",
+      "readScopeZh": "学校机械与能源工程系机器人团队页面明确列出该导师，补充共享团队入口；个人独立主页此前未能正常读取，不能把共享团队页称为该导师的独立实验室。",
+      "pages": [
+        {
+          "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/891.html",
+          "finalUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/891.html",
+          "status": 200,
+          "title": "付成龙",
+          "contentSha256": "cd406a12b5699527a6b91ebabc613db229df571c2ee6432ec80413a49915b937"
+        },
+        {
+          "url": "https://mee.sustech.edu.cn/kexueyanjiu/3033.html",
+          "finalUrl": "https://mee.sustech.edu.cn/kexueyanjiu/3033.html",
+          "status": 200,
+          "title": "机器人_南方科技大学",
+          "contentSha256": "ca620154187bcc65bf0373f25867e380c0fddb52139699b6aa1699995fdfdc73"
+        }
+      ],
+      "verificationScope": "shared-team-page"
+    },
+    {
+      "advisorId": "sustech-chengzhi-hu",
+      "urls": [
+        "https://mee.sustech.edu.cn/kexueyanjiu/3033.html"
+      ],
+      "identitySourceUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/907.html",
+      "readScopeZh": "学校机械与能源工程系机器人团队页面明确列出该导师，补充共享团队入口；个人独立主页此前未能正常读取，不能把共享团队页称为该导师的独立实验室。",
+      "pages": [
+        {
+          "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/907.html",
+          "finalUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/907.html",
+          "status": 200,
+          "title": "胡程志",
+          "contentSha256": "22f017397922edaf96a677c08a6e400535169f752124aeffc8436a5a9e88fccf"
+        },
+        {
+          "url": "https://mee.sustech.edu.cn/kexueyanjiu/3033.html",
+          "finalUrl": "https://mee.sustech.edu.cn/kexueyanjiu/3033.html",
+          "status": 200,
+          "title": "机器人_南方科技大学",
+          "contentSha256": "ca620154187bcc65bf0373f25867e380c0fddb52139699b6aa1699995fdfdc73"
+        }
+      ],
+      "verificationScope": "shared-team-page"
+    },
+    {
+      "advisorId": "sustech-pan-yang",
+      "urls": [
+        "https://mee.sustech.edu.cn/kexueyanjiu/3033.html"
+      ],
+      "identitySourceUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/926.html",
+      "readScopeZh": "学校机械与能源工程系机器人团队页面明确列出该导师，补充共享团队入口；个人独立主页此前未能正常读取，不能把共享团队页称为该导师的独立实验室。",
+      "pages": [
+        {
+          "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/926.html",
+          "finalUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/926.html",
+          "status": 200,
+          "title": "潘阳",
+          "contentSha256": "99979331e8d1b91bfbd417e466c4680bfd20db6c65ac09bca7de15ac86c47dad"
+        },
+        {
+          "url": "https://mee.sustech.edu.cn/kexueyanjiu/3033.html",
+          "finalUrl": "https://mee.sustech.edu.cn/kexueyanjiu/3033.html",
+          "status": 200,
+          "title": "机器人_南方科技大学",
+          "contentSha256": "ca620154187bcc65bf0373f25867e380c0fddb52139699b6aa1699995fdfdc73"
+        }
+      ],
+      "verificationScope": "shared-team-page"
+    },
+    {
+      "advisorId": "sustech-zhenzhong-jia",
+      "urls": [
+        "https://mee.sustech.edu.cn/kexueyanjiu/3033.html"
+      ],
+      "identitySourceUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/927.html",
+      "readScopeZh": "学校机械与能源工程系机器人团队页面明确列出该导师，补充共享团队入口；个人独立主页此前未能正常读取，不能把共享团队页称为该导师的独立实验室。",
+      "pages": [
+        {
+          "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/927.html",
+          "finalUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/927.html",
+          "status": 200,
+          "title": "贾振中",
+          "contentSha256": "d66243092d0807c0550acd96edaafd73372f7d89ce8a6fc5bd31412cfd401cd6"
+        },
+        {
+          "url": "https://mee.sustech.edu.cn/kexueyanjiu/3033.html",
+          "finalUrl": "https://mee.sustech.edu.cn/kexueyanjiu/3033.html",
+          "status": 200,
+          "title": "机器人_南方科技大学",
+          "contentSha256": "ca620154187bcc65bf0373f25867e380c0fddb52139699b6aa1699995fdfdc73"
+        }
+      ],
+      "verificationScope": "shared-team-page"
+    },
+    {
+      "advisorId": "sustech-hongqiang-wang",
+      "urls": [
+        "https://wanglab.mee.sustech.edu.cn/"
+      ],
+      "identitySourceUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/903.html",
+      "readScopeZh": "AARLab 独立实验室主页补充机器人驱动、柔性与微型机器人研究，以及团队、成果和联系入口。",
+      "pages": [
+        {
+          "url": "https://mee.sustech.edu.cn/jiaozhiyuangong/903.html",
+          "finalUrl": "https://mee.sustech.edu.cn/jiaozhiyuangong/903.html",
+          "status": 200,
+          "title": "王宏强",
+          "contentSha256": "9b7ca53fadba35207cde896181b25103eaad72ea4cfd8e2ecb3b6a0b2dfe9072"
+        },
+        {
+          "url": "https://wanglab.mee.sustech.edu.cn/",
+          "finalUrl": "https://wanglab.mee.sustech.edu.cn/",
+          "status": 200,
+          "title": "Home - AARLab@SUSTech",
+          "contentSha256": "1393eeca2a57e5c8649514ae67f4414b274b5818ac87a1957a0833686c86e87c"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "fudan-zhang-wenqiang",
+      "urls": [
+        "https://www.fudanroilab.com/"
+      ],
+      "identitySourceUrl": "https://ai.fudan.edu.cn/zwq_37535/list.htm",
+      "readScopeZh": "ROI Lab 独立实验室主页补充机器人与智能视觉研究、团队及成果入口。",
+      "pages": [
+        {
+          "url": "https://ai.fudan.edu.cn/zwq_37535/list.htm",
+          "finalUrl": "https://ai.fudan.edu.cn/zwq_37535/list.htm",
+          "status": 200,
+          "title": "中文信息",
+          "contentSha256": "ad5c126f08bc229c750ffed00664871f78a16c6f9202f92d44e66543eea79626"
+        },
+        {
+          "url": "https://www.fudanroilab.com/",
+          "finalUrl": "https://www.fudanroilab.com/",
+          "status": 200,
+          "title": "Lab of Robotics Oriented Intelligence - Fudan University",
+          "contentSha256": "b8e98cf12ff758d87382eda7561f62896e07199ec671202af63e245b3e29bcf5"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "fudan-chen-tao",
+      "urls": [
+        "https://eetchen.github.io/"
+      ],
+      "identitySourceUrl": "https://fit.fudan.edu.cn/Data/View/2989",
+      "readScopeZh": "EDLAB 主页补充嵌入式深度学习、视觉分析与端侧智能研究，并提供团队和论文入口。",
+      "pages": [
+        {
+          "url": "https://fit.fudan.edu.cn/Data/View/2989",
+          "finalUrl": "https://fit.fudan.edu.cn/Data/View/2989",
+          "status": 200,
+          "title": "陈涛 - 师资队伍 - 复旦大学未来信息创新学院",
+          "contentSha256": "8416ae72bd8fc43f60ce5357fbc49032b7569f829b4888c805b924eccc26ddea"
+        },
+        {
+          "url": "https://eetchen.github.io/",
+          "finalUrl": "https://eetchen.github.io/",
+          "status": 200,
+          "title": "EDLAB",
+          "contentSha256": "8801a47ba9593a3e6451c9e11d66bbcb399da37735d8f40e112eb3a923816677"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "fudan-xu-yuedong",
+      "urls": [
+        "https://ydxu2025.github.io/"
+      ],
+      "identitySourceUrl": "https://ai3.fudan.edu.cn/info/1088/2024.htm",
+      "readScopeZh": "个人主页介绍 MediaNet 团队，补充大模型训练/推理系统、强化学习及多模态研究。",
+      "pages": [
+        {
+          "url": "https://ai3.fudan.edu.cn/info/1088/2024.htm",
+          "finalUrl": "https://ai3.fudan.edu.cn/info/1088/2024.htm",
+          "status": 200,
+          "title": "徐跃东-复旦大学人工智能创新与产业研究院",
+          "contentSha256": "68ca14b37261cfe460fed6cbc9f59e010956f7595f9e12fcfc951e71c8c7d132"
+        },
+        {
+          "url": "https://ydxu2025.github.io/",
+          "finalUrl": "https://ydxu2025.github.io/",
+          "status": 200,
+          "title": "Yuedong Xu",
+          "contentSha256": "75e6ca0ea9d1ffc08bbeb83d162d1d0678c5596abc2b3372d9e047e3a46f70ab"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "fudan-jin-cheng",
+      "urls": [
+        "https://cjinfdu.github.io/"
+      ],
+      "identitySourceUrl": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+      "readScopeZh": "个人主页核对中文姓名、复旦大学身份和个人联系入口，供进一步查看导师本人资料。",
+      "pages": [
+        {
+          "url": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+          "finalUrl": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+          "status": 200,
+          "title": "计算机科学与技术一级学科 1：人工智能",
+          "contentSha256": "1ca5d5df836722b1cbca99f57aee4bdca4ca767a04ca6b76cb4d17969b393af6"
+        },
+        {
+          "url": "https://cjinfdu.github.io/",
+          "finalUrl": "https://cjinfdu.github.io/",
+          "status": 200,
+          "title": "金城",
+          "contentSha256": "86504476994b93c21696210c2b62c008fb7f501f9203449a8937234637066c29"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "fudan-li-bin",
+      "urls": [
+        "https://aimpressionist.github.io/"
+      ],
+      "identitySourceUrl": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+      "readScopeZh": "个人主页补充视觉智能、生成式人工智能与多模态研究；博士联系邀请与有年份的硕士申请文字分别阅读。",
+      "pages": [
+        {
+          "url": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+          "finalUrl": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+          "status": 200,
+          "title": "计算机科学与技术一级学科 1：人工智能",
+          "contentSha256": "1ca5d5df836722b1cbca99f57aee4bdca4ca767a04ca6b76cb4d17969b393af6"
+        },
+        {
+          "url": "https://aimpressionist.github.io/",
+          "finalUrl": "https://aimpressionist.github.io/",
+          "status": 200,
+          "title": "Bin Li - Fudan University",
+          "contentSha256": "bfe07f0b74ca9bb314d9d6adc98075e1bc1f1aa30168869619efef0c2f498f0b"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "fudan-lu-hong",
+      "urls": [
+        "https://faculty.fudan.edu.cn/mvl/zh_CN/index.htm"
+      ],
+      "identitySourceUrl": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+      "readScopeZh": "教师个人站介绍 Machine Vision Lab，补充机器视觉研究和个人联系入口。",
+      "pages": [
+        {
+          "url": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+          "finalUrl": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+          "status": 200,
+          "title": "计算机科学与技术一级学科 1：人工智能",
+          "contentSha256": "1ca5d5df836722b1cbca99f57aee4bdca4ca767a04ca6b76cb4d17969b393af6"
+        },
+        {
+          "url": "https://faculty.fudan.edu.cn/mvl/zh_CN/index.htm",
+          "finalUrl": "https://faculty.fudan.edu.cn/mvl/zh_CN/index.htm",
+          "status": 200,
+          "title": "路红 Machine Vision Lab--Home",
+          "contentSha256": "1505be355f8386c96de5cf77f2e4b814ccbd64ccb8c68df06c3242f22103810d"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "fudan-qiu-xipeng",
+      "urls": [
+        "https://xpqiu.github.io/"
+      ],
+      "identitySourceUrl": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+      "readScopeZh": "个人主页介绍 OpenMOSS 团队，补充大模型架构、多模态、智能体及具身智能研究。",
+      "pages": [
+        {
+          "url": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+          "finalUrl": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+          "status": 200,
+          "title": "计算机科学与技术一级学科 1：人工智能",
+          "contentSha256": "1ca5d5df836722b1cbca99f57aee4bdca4ca767a04ca6b76cb4d17969b393af6"
+        },
+        {
+          "url": "https://xpqiu.github.io/",
+          "finalUrl": "https://xpqiu.github.io/",
+          "status": 200,
+          "title": "首页 · 邱锡鹏",
+          "contentSha256": "3344917044d9add2f9a30b46893bf61dc8277084b1650cb5f55ebc45d8d6b22e"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "fudan-tan-weimin",
+      "urls": [
+        "https://dml.fudan.edu.cn/"
+      ],
+      "identitySourceUrl": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+      "readScopeZh": "复旦大学导师方向名录将数字媒体实验室列为该导师的相关主页；这是共享实验室入口，不能据此认定为个人独立实验室。",
+      "pages": [
+        {
+          "url": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+          "finalUrl": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+          "status": 200,
+          "title": "计算机科学与技术一级学科 1：人工智能",
+          "contentSha256": "1ca5d5df836722b1cbca99f57aee4bdca4ca767a04ca6b76cb4d17969b393af6"
+        },
+        {
+          "url": "https://dml.fudan.edu.cn/",
+          "finalUrl": "https://dml.fudan.edu.cn/",
+          "status": 200,
+          "title": "复旦大学数字媒体实验室",
+          "contentSha256": "68a47f60b65216842ba013a19967a260bf67d5cff53db9eef07275a31da6600c"
+        }
+      ],
+      "verificationScope": "shared-team-page"
+    },
+    {
+      "advisorId": "fudan-wu-zuxuan",
+      "urls": [
+        "https://zxwu.azurewebsites.net/"
+      ],
+      "identitySourceUrl": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+      "readScopeZh": "个人主页补充具身智能、视频生成及高效模型研究，并提供成果、团队和联系入口。",
+      "pages": [
+        {
+          "url": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+          "finalUrl": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+          "status": 200,
+          "title": "计算机科学与技术一级学科 1：人工智能",
+          "contentSha256": "1ca5d5df836722b1cbca99f57aee4bdca4ca767a04ca6b76cb4d17969b393af6"
+        },
+        {
+          "url": "https://zxwu.azurewebsites.net/",
+          "finalUrl": "https://zxwu.azurewebsites.net/",
+          "status": 200,
+          "title": "Zuxuan Wu - Fudan University",
+          "contentSha256": "335a1da693c96bb02ccb0504676b6da707cacbbcecaee7ef77af2b72257e660e"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "fudan-xue-xiangyang",
+      "urls": [
+        "https://faculty.fudan.edu.cn/xyxue/zh_CN/index.htm"
+      ],
+      "identitySourceUrl": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+      "readScopeZh": "教师个人站补充计算机视觉、多媒体、机器学习及机器人相关研究信息。",
+      "pages": [
+        {
+          "url": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+          "finalUrl": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+          "status": 200,
+          "title": "计算机科学与技术一级学科 1：人工智能",
+          "contentSha256": "1ca5d5df836722b1cbca99f57aee4bdca4ca767a04ca6b76cb4d17969b393af6"
+        },
+        {
+          "url": "https://faculty.fudan.edu.cn/xyxue/zh_CN/index.htm",
+          "finalUrl": "https://faculty.fudan.edu.cn/xyxue/zh_CN/index.htm",
+          "status": 200,
+          "title": "薛向阳 中文主页--首页",
+          "contentSha256": "acada8f706e97684e394d901d4b564716c383321b5699808bb8973dff31b28c9"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "fudan-ye-guangnan",
+      "urls": [
+        "https://yeslab.co/"
+      ],
+      "identitySourceUrl": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+      "readScopeZh": "复旦大学导师方向名录将 YesLab 列为该导师的主页入口。本次访问只能读取站点标题，动态正文尚未完整核读，暂不从此页面补写团队规模或招生判断。",
+      "pages": [
+        {
+          "url": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+          "finalUrl": "https://ai.fudan.edu.cn/7b/d6/c24781a490454/page.htm",
+          "status": 200,
+          "title": "计算机科学与技术一级学科 1：人工智能",
+          "contentSha256": "1ca5d5df836722b1cbca99f57aee4bdca4ca767a04ca6b76cb4d17969b393af6"
+        },
+        {
+          "url": "https://yeslab.co/",
+          "finalUrl": "https://yeslab.co/",
+          "status": 200,
+          "title": "FDU YesLab",
+          "contentSha256": "fb0bbeafaaa6913d431f515cedcabb4f62d32acfad0904616e633777bf75829e"
+        }
+      ],
+      "verificationScope": "official-listed-entry-only"
+    },
+    {
+      "advisorId": "tongji-he-bin",
+      "urls": [
+        "https://robot.tongji.edu.cn/sysjs.htm"
+      ],
+      "identitySourceUrl": "https://robot.tongji.edu.cn/info/1256/2083.htm",
+      "readScopeZh": "同济大学智能机器人与计算感知实验室介绍页补充共享实验室研究方向与团队入口；实验室共同信息不证明个人博士名额。",
+      "pages": [
+        {
+          "url": "https://robot.tongji.edu.cn/info/1256/2083.htm",
+          "finalUrl": "https://robot.tongji.edu.cn/info/1256/2083.htm",
+          "status": 200,
+          "title": "何斌-同济大学智能机器人与计算感知实验室",
+          "contentSha256": "5b312af774dd706b38fbeeee8f8cf116637e54580f984992ddaad5eb207a37f5"
+        },
+        {
+          "url": "https://robot.tongji.edu.cn/sysjs.htm",
+          "finalUrl": "https://robot.tongji.edu.cn/sysjs.htm",
+          "status": 200,
+          "title": "实验室介绍-同济大学智能机器人与计算感知实验室",
+          "contentSha256": "bb2f5fcb1f5cc43083ada1e0dd7b61865c213a05a9e25335fd395a8671199d8e"
+        }
+      ],
+      "verificationScope": "shared-team-page"
+    },
+    {
+      "advisorId": "tongji-xu-yang",
+      "urls": [
+        "https://robot.tongji.edu.cn/sysjs.htm"
+      ],
+      "identitySourceUrl": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+      "readScopeZh": "同济大学智能机器人与计算感知实验室介绍页补充共享实验室研究方向与团队入口；实验室共同信息不证明个人博士名额。",
+      "pages": [
+        {
+          "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+          "finalUrl": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+          "status": 200,
+          "title": "徐阳-同济大学智能机器人与计算感知实验室",
+          "contentSha256": "13effdfd384122919b0d55b2049d3a5217539d3b5614f46a538cb12b7cbbdbb3"
+        },
+        {
+          "url": "https://robot.tongji.edu.cn/sysjs.htm",
+          "finalUrl": "https://robot.tongji.edu.cn/sysjs.htm",
+          "status": 200,
+          "title": "实验室介绍-同济大学智能机器人与计算感知实验室",
+          "contentSha256": "bb2f5fcb1f5cc43083ada1e0dd7b61865c213a05a9e25335fd395a8671199d8e"
+        }
+      ],
+      "verificationScope": "shared-team-page"
+    },
+    {
+      "advisorId": "ustc-xiao-mingjun",
+      "urls": [
+        "https://faculty.ustc.edu.cn/xiaomingjun/zh_CN/index.htm"
+      ],
+      "identitySourceUrl": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+      "readScopeZh": "教师个人站补充移动智能计算、边缘与联邦学习等研究、个人联系和成果入口。",
+      "pages": [
+        {
+          "url": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+          "finalUrl": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+          "status": 200,
+          "title": "中国科学技术大学-研究生招生在线",
+          "contentSha256": "43fd9b471763179bb016f0f4dd2faf9255cd23dd3c4245f97b6bbef939f58ff7"
+        },
+        {
+          "url": "https://faculty.ustc.edu.cn/xiaomingjun/zh_CN/index.htm",
+          "finalUrl": "https://faculty.ustc.edu.cn/xiaomingjun/zh_CN/index.htm",
+          "status": 200,
+          "title": "中国科学技术大学 肖明军--中文主页--首页",
+          "contentSha256": "5c65cb6c1e13e748d282e75ac739e123e7828efe5f785d8fd3774121aa926906"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "ustc-wang-zilei",
+      "urls": [
+        "https://faculty.ustc.edu.cn/wangzilei/zh_CN/index.htm",
+        "https://vim.ustc.edu.cn/"
+      ],
+      "identitySourceUrl": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+      "readScopeZh": "教师个人站明确列出 VIM 实验室及其主页；补充计算机视觉、深度学习研究和团队入口。",
+      "pages": [
+        {
+          "url": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+          "finalUrl": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+          "status": 200,
+          "title": "中国科学技术大学-研究生招生在线",
+          "contentSha256": "43fd9b471763179bb016f0f4dd2faf9255cd23dd3c4245f97b6bbef939f58ff7"
+        },
+        {
+          "url": "https://faculty.ustc.edu.cn/wangzilei/zh_CN/index.htm",
+          "finalUrl": "https://faculty.ustc.edu.cn/wangzilei/zh_CN/index.htm",
+          "status": 200,
+          "title": "中国科学技术大学 王子磊--中文主页--首页",
+          "contentSha256": "06750759dc1d1ceeef3bbba5f7d42424da229b326b864c5bd643ff58b84e66a7"
+        },
+        {
+          "url": "https://vim.ustc.edu.cn/",
+          "finalUrl": "https://vim.ustc.edu.cn/main.htm",
+          "status": 200,
+          "title": "USTC Vision and Multimedia (VIM) - 视觉与多媒体研究组",
+          "contentSha256": "043cacfc1071b4d541d6bcc2c756cd5a4276cf27205a442784cd462a94926c19"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "ustc-lv-linyuan",
+      "urls": [
+        "https://faculty.ustc.edu.cn/lvlinyuan"
+      ],
+      "identitySourceUrl": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+      "readScopeZh": "教师个人站补充复杂网络与复杂系统研究及 Linyuan Lab 信息；独立实验室域名此前未成功读取，当前先提供可读的教师个人站。",
+      "pages": [
+        {
+          "url": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+          "finalUrl": "https://yz.ustc.edu.cn/article/2851/184?num=2",
+          "status": 200,
+          "title": "中国科学技术大学-研究生招生在线",
+          "contentSha256": "43fd9b471763179bb016f0f4dd2faf9255cd23dd3c4245f97b6bbef939f58ff7"
+        },
+        {
+          "url": "https://faculty.ustc.edu.cn/lvlinyuan",
+          "finalUrl": "https://faculty.ustc.edu.cn/lvlinyuan",
+          "status": 200,
+          "title": "中国科学技术大学 吕琳媛--中文主页--首页",
+          "contentSha256": "761991d5365e1deb38d0af4f9f705751d4bd6e9a055792b35a21b3db60f66d1b"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "tsinghua-gao-yang",
+      "urls": [
+        "https://people.iiis.tsinghua.edu.cn/~gaoyang/yang-gao.weebly.com/index.html"
+      ],
+      "identitySourceUrl": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+      "readScopeZh": "个人主页由清华大学交叉信息研究院教师页指向，补充机器人学习、强化学习与计算机视觉研究。",
+      "pages": [
+        {
+          "url": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+          "finalUrl": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Vision_and_Robotics_Lab.htm",
+          "status": 200,
+          "title": "Vision and Robotics Lab-Institute for Interdisciplinary Information Sciences (IIIS)",
+          "contentSha256": "a2eec4060a4896ad7d754cdaf3b27fb7503792ebfa5a6621a8006aa8c0649cca"
+        },
+        {
+          "url": "https://people.iiis.tsinghua.edu.cn/~gaoyang/yang-gao.weebly.com/index.html",
+          "finalUrl": "https://people.iiis.tsinghua.edu.cn/~gaoyang/yang-gao.weebly.com/index.html",
+          "status": 200,
+          "title": "Yang Gao - Home",
+          "contentSha256": "42df746cbe422441ecf5fe8e5614c95ea8f80a0037c2a6d7310a4f72f25b1272"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "tsinghua-rui-chen",
+      "urls": [
+        "https://callmeray.github.io/homepage/"
+      ],
+      "identitySourceUrl": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
+      "readScopeZh": "个人主页补充机器人学习、触觉与三维视觉研究，以及成果和联系入口；实习、访问和博士后邀请不能用来推定博士招生。",
+      "pages": [
+        {
+          "url": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
+          "finalUrl": "https://www.me.tsinghua.edu.cn/en/info/1277/1942.htm",
+          "status": 200,
+          "title": "Rui Chen-Department of Mechanical Engineering Tsinghua University",
+          "contentSha256": "93e2118f561bcc380b4df8188528c1df6d84ae9fb10f5b34f458fa008a00c9b4"
+        },
+        {
+          "url": "https://callmeray.github.io/homepage/",
+          "finalUrl": "https://callmeray.github.io/homepage/",
+          "status": 200,
+          "title": "Rui Chen/ 陈睿",
+          "contentSha256": "38fc4515efd271d75fb69f9c7d61005362ec4186f91e4ea033410e8a5afb6f65"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "zju-zhou-xiaowei",
+      "urls": [
+        "https://xzhou.me/"
+      ],
+      "identitySourceUrl": "https://person.zju.edu.cn/xzhou",
+      "readScopeZh": "个人主页补充三维视觉、姿态估计与场景重建研究，并提供团队、成果和联系入口。",
+      "pages": [
+        {
+          "url": "https://person.zju.edu.cn/xzhou",
+          "finalUrl": "https://person.zju.edu.cn/xzhou",
+          "status": 200,
+          "title": "周晓巍-浙江大学个人主页",
+          "contentSha256": "bfe36a28ffe686a7ebea8d0305a73f8b004b15592240990fa0d1a484502aaf41"
+        },
+        {
+          "url": "https://xzhou.me/",
+          "finalUrl": "https://xzhou.me/",
+          "status": 200,
+          "title": "Xiaowei Zhou's Homepage",
+          "contentSha256": "507788e348b9be9dac6e7a6fee716acb64236f19d880f1fd6ac8e592bb937b1d"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "seu-feng-lei",
+      "urls": [
+        "https://lfeng1995.github.io/"
+      ],
+      "identitySourceUrl": "https://cs.seu.edu.cn/fenglei/main.htm",
+      "readScopeZh": "个人主页补充可靠人工智能、隐私与安全、多模态及智能体研究；博士后招聘不能解释为博士招生。",
+      "pages": [
+        {
+          "url": "https://cs.seu.edu.cn/fenglei/main.htm",
+          "finalUrl": "https://cs.seu.edu.cn/fenglei/main.htm",
+          "status": 200,
+          "title": "中文信息",
+          "contentSha256": "3067a778933eadfd4024b136e906aac111f19733af996ace3900a0ba1290780c"
+        },
+        {
+          "url": "https://lfeng1995.github.io/",
+          "finalUrl": "https://lfeng1995.github.io/",
+          "status": 200,
+          "title": "Lei Feng",
+          "contentSha256": "d78a37d31bc6069be328ed858ca3c71dd9db1ef6d3e68b676199ef34f2845135"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "seu-song-mofei",
+      "urls": [
+        "https://palm.seu.edu.cn/smf/index.html"
+      ],
+      "identitySourceUrl": "https://cs.seu.edu.cn/2019/0301/c23024a264097/page.htm",
+      "readScopeZh": "PALM 教师个人主页补充计算机视觉、三维建模与图形学研究，并提供论文和联系入口。",
+      "pages": [
+        {
+          "url": "https://cs.seu.edu.cn/2019/0301/c23024a264097/page.htm",
+          "finalUrl": "https://cs.seu.edu.cn/2019/0301/c23024a264097/page.htm",
+          "status": 200,
+          "title": "宋沫飞",
+          "contentSha256": "da2175a87dcfa2586eb3c36d65b7a7cdd1d9887c2fb003c3b140226e04044f73"
+        },
+        {
+          "url": "https://palm.seu.edu.cn/smf/index.html",
+          "finalUrl": "https://palm.seu.edu.cn/smf/index.html",
+          "status": 200,
+          "title": "Mofei Song (宋沫飞) & PALM, SEU",
+          "contentSha256": "86aaac1577369efe00c21a58b335493f5a6f89ba872b20fb794cdb275417aa02"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "seu-wang-teng",
+      "urls": [
+        "https://tengivy.github.io/"
+      ],
+      "identitySourceUrl": "https://automation.seu.edu.cn/wt/",
+      "readScopeZh": "个人主页介绍 GeoEMI Lab，补充空间感知、导航定位与多模态推理研究。",
+      "pages": [
+        {
+          "url": "https://automation.seu.edu.cn/wt/",
+          "finalUrl": "https://automation.seu.edu.cn/wt/",
+          "status": 200,
+          "title": "中文信息",
+          "contentSha256": "e7b40a5a07b8a40a813275b0c0b6412403fcddfa863df71902c7983ff0b50a3c"
+        },
+        {
+          "url": "https://tengivy.github.io/",
+          "finalUrl": "https://tengivy.github.io/",
+          "status": 200,
+          "title": "王腾 | Teng Wang",
+          "contentSha256": "1b8d05b33ee83c4aea3c7552b8ef4ec4b624f38110aa51cf7f58d21381df07d9"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "seu-fang-pengfei",
+      "urls": [
+        "https://fpfcjdsg.github.io/"
+      ],
+      "identitySourceUrl": "https://cs.seu.edu.cn/2024/0117/c48203a479330/page.htm",
+      "readScopeZh": "个人主页补充计算机视觉、机器学习研究、成果和联系入口。",
+      "pages": [
+        {
+          "url": "https://cs.seu.edu.cn/2024/0117/c48203a479330/page.htm",
+          "finalUrl": "https://cs.seu.edu.cn/2024/0117/c48203a479330/page.htm",
+          "status": 200,
+          "title": "方鹏飞",
+          "contentSha256": "0303cee98eb63ba1edc15404a37037b541febb1a367630f800651e8871740b37"
+        },
+        {
+          "url": "https://fpfcjdsg.github.io/",
+          "finalUrl": "https://fpfcjdsg.github.io/",
+          "status": 200,
+          "title": "Pengfei Fang",
+          "contentSha256": "84864a99f1949d6ff781fcf1e60796976e282ebacd662b031ec196e2ee255319"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "seu-sun-mingxuan",
+      "urls": [
+        "https://cynthiamingxuan.github.io/"
+      ],
+      "identitySourceUrl": "https://cs.seu.edu.cn/msun/main.htm",
+      "readScopeZh": "个人主页补充可信机器学习、公平性、鲁棒性及隐私研究；2027 Fall 博士/硕士邀请按原周期参考。",
+      "pages": [
+        {
+          "url": "https://cs.seu.edu.cn/msun/main.htm",
+          "finalUrl": "https://cs.seu.edu.cn/msun/main.htm",
+          "status": 200,
+          "title": "中文信息",
+          "contentSha256": "d76f3ace2100c58bfc4c280aba75926f72c7fddf14e327fbbca22cc3f97f052b"
+        },
+        {
+          "url": "https://cynthiamingxuan.github.io/",
+          "finalUrl": "https://cynthiamingxuan.github.io/",
+          "status": 200,
+          "title": "Mingxuan Sun - Mingxuan Sun",
+          "contentSha256": "3e4c055daca43393e1ee0182b9d2f22e5d092f448aac0b9511ade662b117ffd4"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "seu-liu-fan",
+      "urls": [
+        "https://liufancs.github.io/"
+      ],
+      "identitySourceUrl": "https://cs.seu.edu.cn/liufan/main.htm",
+      "readScopeZh": "个人主页补充多媒体检索、推荐、大模型与智能体研究，并提供成果和联系入口。",
+      "pages": [
+        {
+          "url": "https://cs.seu.edu.cn/liufan/main.htm",
+          "finalUrl": "https://cs.seu.edu.cn/liufan/main.htm",
+          "status": 200,
+          "title": "中文信息",
+          "contentSha256": "5308c99645d7afa7eb8727a1c681a910030f43f1312f73785dc7985ae622e178"
+        },
+        {
+          "url": "https://liufancs.github.io/",
+          "finalUrl": "https://liufancs.github.io/",
+          "status": 200,
+          "title": "Fan Liu (刘帆) - Fan Liu",
+          "contentSha256": "9cce78a49efb3c86fd16749c0f90750bd725b54ace6f1ff81b6b3c103a308ae7"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "seu-xu-ning",
+      "urls": [
+        "https://xning-home.github.io/index.html"
+      ],
+      "identitySourceUrl": "https://xning-home.github.io/",
+      "readScopeZh": "个人主页补充机器学习、大模型及芯片设计智能化研究；2027 直博与硕士申请文字保留原方式，不能套用于普通博士申请。",
+      "pages": [
+        {
+          "url": "https://xning-home.github.io/",
+          "finalUrl": "https://xning-home.github.io/",
+          "status": 200,
+          "title": "Ning Xu's Homepage",
+          "contentSha256": "346f5fcf067837b7e8bb4e9ece38f3dd18ce2981a159e17f65b02478a15c4408"
+        },
+        {
+          "url": "https://xning-home.github.io/index.html",
+          "finalUrl": "https://xning-home.github.io/index.html",
+          "status": 200,
+          "title": "Ning Xu's Homepage",
+          "contentSha256": "346f5fcf067837b7e8bb4e9ece38f3dd18ce2981a159e17f65b02478a15c4408"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "seu-lv-jiaqi",
+      "urls": [
+        "https://lvjiaqi77.github.io/index.html"
+      ],
+      "identitySourceUrl": "https://lvjiaqi77.github.io",
+      "readScopeZh": "个人主页补充可靠高效人工智能、弱监督与模型演化研究；页面的本科/硕士联系邀请不能解释为博士招生。",
+      "pages": [
+        {
+          "url": "https://lvjiaqi77.github.io",
+          "finalUrl": "https://lvjiaqi77.github.io/",
+          "status": 200,
+          "title": "Jiaqi Lv",
+          "contentSha256": "d6d33f7d2b63632844b0fd12e0faac7fbdcb4ab10de2df3c8663774a13195e4b"
+        },
+        {
+          "url": "https://lvjiaqi77.github.io/index.html",
+          "finalUrl": "https://lvjiaqi77.github.io/index.html",
+          "status": 200,
+          "title": "Jiaqi Lv",
+          "contentSha256": "d6d33f7d2b63632844b0fd12e0faac7fbdcb4ab10de2df3c8663774a13195e4b"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "sjtu-cai-panpan",
+      "urls": [
+        "https://cindycia.github.io/"
+      ],
+      "identitySourceUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/caipanpan",
+      "readScopeZh": "个人主页介绍 Robot Planning and Learning Lab（RoPL），补充机器人规划与学习、基础模型、移动操作及自动驾驶研究。",
+      "pages": [
+        {
+          "url": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/caipanpan",
+          "finalUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/caipanpan",
+          "status": 200,
+          "title": "专职教师 - 上海交通大学人工智能学院",
+          "contentSha256": "10d1d9b22cc44fdf237fa96ed66b51a192deab64e0d60776a3a474ff2ec49e36"
+        },
+        {
+          "url": "https://cindycia.github.io/",
+          "finalUrl": "https://cindycia.github.io/",
+          "status": 200,
+          "title": "Panpan Cai",
+          "contentSha256": "c0d18baec443b4a28480405ab288707ae3fc96c3231794de45be1f2cf5cef57f"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "sjtu-chen-lipeng",
+      "urls": [
+        "https://lipeng-chen.github.io/"
+      ],
+      "identitySourceUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/chenlipeng",
+      "readScopeZh": "个人主页补充触觉与多模态感知、灵巧操作、足式运动及人机协作研究；长期博士招募邀请未注明入学年份。",
+      "pages": [
+        {
+          "url": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/chenlipeng",
+          "finalUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/chenlipeng",
+          "status": 200,
+          "title": "专职教师 - 上海交通大学人工智能学院",
+          "contentSha256": "5c0bc2791096f8fd463bd3a5b9aecac397492660a1a5069143a66e57b9e7eeb4"
+        },
+        {
+          "url": "https://lipeng-chen.github.io/",
+          "finalUrl": "https://lipeng-chen.github.io/",
+          "status": 200,
+          "title": "Lipeng Chen - Lipeng Chen",
+          "contentSha256": "5994aa5a6828926b34858f5d1d16a5efd1fe12e4574cf5e4cedb955d587af6f3"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "sjtu-cheng-yuan",
+      "urls": [
+        "https://cyuan328.github.io/"
+      ],
+      "identitySourceUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/chengyuan",
+      "readScopeZh": "个人主页介绍 Computing Technology Laboratory（CLab），补充光计算、边缘智能、类脑传感及软硬件协同研究；博士邀请未注明入学年份。",
+      "pages": [
+        {
+          "url": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/chengyuan",
+          "finalUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/chengyuan",
+          "status": 200,
+          "title": "专职教师 - 上海交通大学人工智能学院",
+          "contentSha256": "0c0a16636bfc65bd9edd0fe0d4edbbb9a64f148022f57bcb5ca2307c64d5ca81"
+        },
+        {
+          "url": "https://cyuan328.github.io/",
+          "finalUrl": "https://cyuan328.github.io/",
+          "status": 200,
+          "title": "About us",
+          "contentSha256": "fd222d9ccd0c2f7d7ee41a11f56a297ac1ea1e26b76672d905ffc5bf738f95b1"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "sjtu-guo-ning",
+      "urls": [
+        "https://gabriel-ning.github.io/"
+      ],
+      "identitySourceUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/guoning",
+      "readScopeZh": "个人主页补充多模态具身智能、触觉操作、可变形物体仿真及软体机器人研究；个人页面不单独证明博士招生资格。",
+      "pages": [
+        {
+          "url": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/guoning",
+          "finalUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/guoning",
+          "status": 200,
+          "title": "专职教师 - 上海交通大学人工智能学院",
+          "contentSha256": "080e82fde6cbf64484f502e1afe342e5c7e9801be56d631c4b97f37958aeac47"
+        },
+        {
+          "url": "https://gabriel-ning.github.io/",
+          "finalUrl": "https://gabriel-ning.github.io/",
+          "status": 200,
+          "title": "About me - Ning Guo",
+          "contentSha256": "8077de575c18c284f27d33949bde008e2a72e4b863cabe91620c02d8e6051643"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "sjtu-lian-wenzhao",
+      "urls": [
+        "https://lianwenzhao.github.io/"
+      ],
+      "identitySourceUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/lianwenzhao",
+      "readScopeZh": "个人主页介绍 HIROL Lab，补充机器人操作、模仿学习、强化学习及仿真到现实研究；博士邀请未注明入学年份。",
+      "pages": [
+        {
+          "url": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/lianwenzhao",
+          "finalUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/lianwenzhao",
+          "status": 200,
+          "title": "专职教师 - 上海交通大学人工智能学院",
+          "contentSha256": "cc1dbcd00d10095d68b67aa4889a6e90aad295ede018b5e96b7d506323124708"
+        },
+        {
+          "url": "https://lianwenzhao.github.io/",
+          "finalUrl": "https://lianwenzhao.github.io/",
+          "status": 200,
+          "title": "Wenzhao Lian",
+          "contentSha256": "76cf59d1c800b36a16fcef65a32103c94cd5de3078149e911a07035ac129bdfb"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "sjtu-li-shuai",
+      "urls": [
+        "https://shuaili8.github.io/"
+      ],
+      "identitySourceUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/lishuai",
+      "readScopeZh": "个人主页补充强化学习、多臂老虎机、扩散模型及 Transformer 理论研究，并提供成果和联系入口。",
+      "pages": [
+        {
+          "url": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/lishuai",
+          "finalUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/lishuai",
+          "status": 200,
+          "title": "专职教师 - 上海交通大学人工智能学院",
+          "contentSha256": "5dfced0ec70207344f8b9a86483be3ef45fb158dcdda24096b681a43a8df2a30"
+        },
+        {
+          "url": "https://shuaili8.github.io/",
+          "finalUrl": "https://shuaili8.github.io/",
+          "status": 200,
+          "title": "Shuai Li",
+          "contentSha256": "e0227cea5475563d5891d41ad4488175112cff26f33f8b74a8f19441d9052ed6"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "sjtu-li-yonglu",
+      "urls": [
+        "https://dirtyharrylyl.github.io/"
+      ],
+      "identitySourceUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/liyonglu",
+      "readScopeZh": "个人主页介绍 RHOS Lab，补充物理推理、具身智能、人体行为理解与人机交互研究。",
+      "pages": [
+        {
+          "url": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/liyonglu",
+          "finalUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/liyonglu",
+          "status": 200,
+          "title": "专职教师 - 上海交通大学人工智能学院",
+          "contentSha256": "b60f8aa7eb4c8611c4c4d1610776d0449dddd6d4d0e0306f61669cd4346e3f67"
+        },
+        {
+          "url": "https://dirtyharrylyl.github.io/",
+          "finalUrl": "https://dirtyharrylyl.github.io/",
+          "status": 200,
+          "title": "Yong-Lu Li",
+          "contentSha256": "27f103d71162929ad8bf08e4b9a6428c971388e4fbc14f6d8461d65632130b0a"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "sjtu-qian-chen",
+      "urls": [
+        "https://qianc62.github.io/"
+      ],
+      "identitySourceUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/qianchen",
+      "readScopeZh": "个人主页介绍 Agentic AI Lab（AAIL），补充自然语言处理、自主智能体及多智能体系统研究。",
+      "pages": [
+        {
+          "url": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/qianchen",
+          "finalUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/qianchen",
+          "status": 200,
+          "title": "专职教师 - 上海交通大学人工智能学院",
+          "contentSha256": "58e58ff7ebc630c19dcb2fbfd3c565af30997bcee3c17de6f1d8bf9b07acdde9"
+        },
+        {
+          "url": "https://qianc62.github.io/",
+          "finalUrl": "https://qianc62.github.io/",
+          "status": 200,
+          "title": "钱忱",
+          "contentSha256": "f58f72c099a070f4eb46ea643c6a4d9591cbc15ee23a5adb311329b6e03e7bc6"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "sjtu-ren-qibing",
+      "urls": [
+        "https://renqibing.github.io/"
+      ],
+      "identitySourceUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/renqibing",
+      "readScopeZh": "个人主页补充研究、成果和联系入口；页面已有的 2026 年博士申请信息只作历史参考。",
+      "pages": [
+        {
+          "url": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/renqibing",
+          "finalUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/renqibing",
+          "status": 200,
+          "title": "专职教师 - 上海交通大学人工智能学院",
+          "contentSha256": "fe617e0cd83805a9371f0550ba793536f76c5fdb2cf70b58309f39b99c740fcf"
+        },
+        {
+          "url": "https://renqibing.github.io/",
+          "finalUrl": "https://renqibing.github.io/",
+          "status": 200,
+          "title": "Qibing Ren",
+          "contentSha256": "64c3161ff8d5c910cb58800e818a5aff9829a07ab9d41a468931034c8a9a0541"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "sjtu-sun-jianhua",
+      "urls": [
+        "https://gothicai.github.io/HomePage"
+      ],
+      "identitySourceUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/Jianhua",
+      "readScopeZh": "个人主页补充物理人工智能、世界模型与持续学习研究，并提供成果和联系入口。",
+      "pages": [
+        {
+          "url": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/Jianhua",
+          "finalUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/Jianhua",
+          "status": 200,
+          "title": "专职教师 - 上海交通大学人工智能学院",
+          "contentSha256": "599db3a53d51c296e0bfae5fc86371a35e316a1aa5428237d53a5a227beacf77"
+        },
+        {
+          "url": "https://gothicai.github.io/HomePage",
+          "finalUrl": "https://gothicai.github.io/HomePage/",
+          "status": 200,
+          "title": "Jianhua Sun",
+          "contentSha256": "c17c56257a94aaf9330f043244ba1aa3f682629a51a8178faa21835021b5408a"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "sjtu-wen-muning",
+      "urls": [
+        "https://morning9393.github.io/"
+      ],
+      "identitySourceUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/wenmuning",
+      "readScopeZh": "个人主页补充强化学习、智能体与多智能体研究；当前硕士和实习联系邀请不推定为博士招生。",
+      "pages": [
+        {
+          "url": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/wenmuning",
+          "finalUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/wenmuning",
+          "status": 200,
+          "title": "专职教师 - 上海交通大学人工智能学院",
+          "contentSha256": "8ce21fef3cba89491cea21e0d84db4506214355d268345fa8072fd8d49df1013"
+        },
+        {
+          "url": "https://morning9393.github.io/",
+          "finalUrl": "https://morning9393.github.io/",
+          "status": 200,
+          "title": "Muning Wen",
+          "contentSha256": "0367bc85f66f28e746e0f0d001a4206c6ed793ede2b2a301a0b80dde3b653abf"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "sjtu-wen-chuan",
+      "urls": [
+        "https://alvinwen428.github.io/"
+      ],
+      "identitySourceUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/wenchuan",
+      "readScopeZh": "个人主页补充通用机器人与具身智能的算法、系统和硬件研究；博士联系邀请未注明入学年份。",
+      "pages": [
+        {
+          "url": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/wenchuan",
+          "finalUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/wenchuan",
+          "status": 200,
+          "title": "专职教师 - 上海交通大学人工智能学院",
+          "contentSha256": "d4e81f68b8d287753374e7dc4d3812ff8f89a5aeb4f2791058d41c9f60473566"
+        },
+        {
+          "url": "https://alvinwen428.github.io/",
+          "finalUrl": "https://alvinwen428.github.io/",
+          "status": 200,
+          "title": "Chuan Wen's Homepage",
+          "contentSha256": "75e3040e596059e0ab28c7108245f18b80f80773491fcd7559b257abc32b0c9e"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "sjtu-yang-lixin",
+      "urls": [
+        "https://lixiny.github.io/"
+      ],
+      "identitySourceUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/yanglixin",
+      "readScopeZh": "个人主页补充三维视觉、手部交互及灵巧操作研究，并提供 MVIG 相关成果和联系入口。",
+      "pages": [
+        {
+          "url": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/yanglixin",
+          "finalUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/yanglixin",
+          "status": 200,
+          "title": "专职教师 - 上海交通大学人工智能学院",
+          "contentSha256": "a39ace4de19607e249b33b8ca2020d20ea4f33ef5f0da352800ecbb1a4cfe763"
+        },
+        {
+          "url": "https://lixiny.github.io/",
+          "finalUrl": "https://lixiny.github.io/",
+          "status": 200,
+          "title": "Lixin Yang (杨理欣)",
+          "contentSha256": "ccdee9ecf86f34a0ac4d821df577bc6ea6a50cbed823d50370f3489a04250354"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    },
+    {
+      "advisorId": "sjtu-zhong-zhihang",
+      "urls": [
+        "https://zzh-tech.github.io/"
+      ],
+      "identitySourceUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/zhongzhihang",
+      "readScopeZh": "个人主页介绍 Visionary Laboratory，研究神经渲染、三维高斯与空间智能体。2028 入学关注：页面在硕博申请说明中欢迎 28 级同学提前联系进组，要求至少提前半年联系并参加考核；27 级常规招生名额已基本确定。这是提前联系信号，未明确 2028 Fall 博士剩余名额、数量或录取承诺。",
+      "pages": [
+        {
+          "url": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/zhongzhihang",
+          "finalUrl": "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/zhongzhihang",
+          "status": 200,
+          "title": "专职教师 - 上海交通大学人工智能学院",
+          "contentSha256": "ed91995d93857dc9dc1882eb91db85ee650bdd2b45d7f6def2f2c16bb72418cb"
+        },
+        {
+          "url": "https://zzh-tech.github.io/",
+          "finalUrl": "https://zzh-tech.github.io/",
+          "status": 200,
+          "title": "Zhihang Zhong · Spatial Intelligence",
+          "contentSha256": "ef52c0f594373a23d3d721ca69e3ee4529c6ef91bb06bc68666f2f98601fd103"
+        }
+      ],
+      "verificationScope": "personal-or-lab-page"
+    }
+  ],
+  "deferred": [
+    {
+      "advisorId": "ustc-xu-tong",
+      "reasonZh": "找到的可读页面为院系教师介绍，尚未补得可读独立个人主页；不计入本次新增主页。"
+    },
+    {
+      "advisorId": "fudan-li-wei",
+      "reasonZh": "此前个人域名返回 404；不作为已核读主页加入。"
+    },
+    {
+      "advisorId": "fudan-ma-xingjun",
+      "reasonZh": "此前独立域名 TLS 读取失败，需后续复查。"
+    },
+    {
+      "advisorId": "fudan-zhang-junping",
+      "reasonZh": "此前独立实验室站读取超时，需后续复查。"
+    }
+  ]
+}

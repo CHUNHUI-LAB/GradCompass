@@ -104,3 +104,10 @@
 - `scripts/audit_advisors.py`：只读生成字段、来源、博士关联、招生行与简介深度审计；`--probe` 只测 URL 访问，不把 HTTP 成功当作事实核验。
 - `audits/advisor-completeness-20261009.json`：334 位导师逐人审计结果，明确区分目录摘要、博士路线缺口、历史关联和 2028 Fall 证据。
 - `audits/source-access-20261009.json`：729 个去重 URL 的访问状态；403、超时、软 404 和重定向仍需人工读取，不能直接改写导师事实。
+
+## 2026-10-10 主页补充与展示
+
+- `assets/profiles.js` 展示档案原有链接、新补主页及个人主页招生补充；`assets/app.js` 在招生区域挂接补充说明。
+- `data/advisor-profiles.json` 的 `homepageReview` 单列核读日期、说明、链接及来源，不覆盖目录中的招生判断。
+- `audits/homepage-enrichment-20261010.json` 记录 53 位导师、54 个新增主页入口与身份证据，区分共享团队和动态正文限制。
+- `tests/fixtures/evidence/homepages-20261010.json` 逐字段记录本次数据增加，保留历史证据记录；`tests/homepage-enrichment.test.mjs` 验证旧字段保留、来源、显示和招生边界。
