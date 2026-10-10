@@ -381,3 +381,15 @@ Base: `d7de1df40bfb6cd1b67bd2e77cc85f0a5e310116`. This batch appends 54 link rec
 - Source access and review scope are recorded in `audits/homepage-enrichment-20261010.json`; individual data additions are recorded in `tests/fixtures/evidence/homepages-20261010.json`. Public recruitment invitations preserve stated years and do not establish remaining capacity.
 
 These results describe the local source and targeted browser checks. Any later GitHub validation and Pages deployment must be checked against the pushed commit separately.
+
+## 2026-10-10 已有导师入职时间与近五年筛选
+
+Base: `6b210fb5b4905b8e978a73ef02c43a82e82a4dca`. All 334 existing profiles receive a separate appointment review. 147 dates are supported at their public precision: 67 within 2021-10-10 through 2026-10-10, 75 earlier, five overlapping the boundary; 187 remain pending. Among the recent cohort, 34 carry early-career evidence, 14 previous academic/research appointments, eight industry experience, and 11 incomplete career histories. These categories do not establish age, a complete employment history, doctoral eligibility or current vacancies.
+
+- Focused source, UI, receipt, preservation, resource-version and published-history checks: 40 passed, zero failures or skips.
+- Browser at its existing viewport on local port 4173: the recent filter showed 67 unique advisors; SUSTech + PhD + recent showed 周博宇 and 鲁洪良 as doctoral references, with different career labels. The early-career filter selected 鲁洪良; his detail showed July 2026, public precision, appointment source date and prior postdoc context. Closing the detail retained the conditions. No responsive-device coverage is claimed.
+- A linked CV confirmed 蔡盼盼's first SJTU appointment in August 2022, excluding the January 2025 school transfer. CVs also supplied dates for 刘希慧、申亚京、刘航欣、李宇峰、张振宇、李帅. Academic-paper PDFs discovered during CV lookup were excluded as CV/date evidence. Birthday and personal contact fields from CVs are not included in this supplement.
+- New data are restricted to the `appointmentReview` property, with exact per-profile evidence operations. Original profile fields, catalog data, doctoral/vacancy/cycle decisions and historical source dates remain unchanged. The existing active-filter historical test file stays byte-identical; the new appointment UI test is separate.
+- The dated audit lists all 334 people and access limits; pending source access is separate from date verification. Only source URLs, hashes and bounded read scopes are published, not copied CV contents.
+
+Final complete `npm test`: **627 passed, zero failed, zero skipped**, in 420.6 seconds. Freeze was verified byte-idempotent across all 200 allowlisted files. Publication outcomes must be checked against the pushed commit separately; these local results do not establish deployment success.

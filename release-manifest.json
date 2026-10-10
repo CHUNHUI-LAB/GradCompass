@@ -14,7 +14,7 @@
   "raPositionCount": 2,
   "newAdvisorProfiles": 26,
   "preservedAdvisorProfiles": 30,
-  "newProfileCitedSourceCount": 431,
+  "newProfileCitedSourceCount": 438,
   "experienceRecords": 27,
   "defaultExperienceRecords": 27,
   "experienceSourceSites": 20,
@@ -37,23 +37,28 @@
     },
     {
       "path": "QA.md",
-      "bytes": 53096,
-      "sha256": "a889eb5c08d4f8b39fe8c0c48088f679e5b28775f6e4fbea14c9c27f45d2ccda"
+      "bytes": 55478,
+      "sha256": "b518b7d42649b0b8f6b2fd1ab4ec1073f838a9e112212f6bbc6646e375c7d7db"
     },
     {
       "path": "README.md",
-      "bytes": 58170,
-      "sha256": "bd0b1f6d407645207044b95b2ce0c64580846c59714545add570259e62e2d8d7"
+      "bytes": 60195,
+      "sha256": "545846180a9cb584859d766369dba0ec333559094960d05349c5e3680506d7b5"
     },
     {
       "path": "REPO-MAP.md",
-      "bytes": 13078,
-      "sha256": "bea3f85b19f5f1ff0469d6ac9306c2923c7c198cf4fbd82ef3b48f1d167a1928"
+      "bytes": 14739,
+      "sha256": "c189bc65b4fca90e4dbd6b813544802a06ec5e8b81afd9cf318cb7cb5699c3f2"
     },
     {
       "path": "assets/app.js",
-      "bytes": 73992,
-      "sha256": "c906c7bafbab92e5dae8c4f04e80fbd2fdb0f9e467801fe111a5b4213d65f01a"
+      "bytes": 75312,
+      "sha256": "67e63f5be427aa1e60d0a18b5d1988c436a843e544f7ef4ffee296f301c77465"
+    },
+    {
+      "path": "assets/appointments.js",
+      "bytes": 2050,
+      "sha256": "bbe93af17e11f26630168725b4b6f5ba439ac417eedc8688bc8af472697a6fc8"
     },
     {
       "path": "assets/campus-art.webp",
@@ -62,13 +67,13 @@
     },
     {
       "path": "assets/core.js",
-      "bytes": 34058,
-      "sha256": "ca3e6e9103ba389667e636d508c36ea9675af5aa08ae8fb8a23a77e5142366d0"
+      "bytes": 34328,
+      "sha256": "bb95e1b2a919391b45f2b1368408c43844a688bf22ae2cfc5a3c99afe92f8e9f"
     },
     {
       "path": "assets/experiences.js",
       "bytes": 22992,
-      "sha256": "934cd9361d2cb57b29727dce00b95de6b8e85e6c47fbc58281c118cc92228e15"
+      "sha256": "c9a60ea35e0918615622f146b2d0172c2da158f5901536de48b9419aa6110f56"
     },
     {
       "path": "assets/favicon.svg",
@@ -78,27 +83,27 @@
     {
       "path": "assets/material-supplement.js",
       "bytes": 1866,
-      "sha256": "2300843e0d07203062ae004341924c29ff9961f28317ba0391ef80be9735a8e4"
+      "sha256": "1f991657d410c085c901d927d7225a0e996de78b800f73cc5e537a24683a9687"
     },
     {
       "path": "assets/page-overviews.js",
       "bytes": 15555,
-      "sha256": "433037809a5b0743d9974f00491d414618832bde589a8cdcccead80b3e93b760"
+      "sha256": "aaa63b83428ac3e7670cd657fc423d2a8bc3a76040a6eea1fcc0236785b5b90a"
     },
     {
       "path": "assets/profiles.js",
-      "bytes": 4270,
-      "sha256": "3a67a336d5bc8016bf9612b3255f87ad108486da61b9709a1dabe587c48ee670"
+      "bytes": 5586,
+      "sha256": "075a5a5f0b63e27ca3532b77feca405d5ae7e993221648a0d27503fc72fe2559"
     },
     {
       "path": "assets/project-comparison.js",
       "bytes": 13304,
-      "sha256": "472c47c4a98629177cef481ce9b8b0caad556e86b2ef488760f890455c674ab0"
+      "sha256": "eaf480754d360affc1643c8d25bc1b34e9290678f22d8dd859628ace2ed1a46b"
     },
     {
       "path": "assets/record-summaries.js",
       "bytes": 13864,
-      "sha256": "5ec7398e98f4a404e08edfd63ae97c353a72cd7db1c38675acbc8c3b0a99fa26"
+      "sha256": "48cb09760af42df02c221818b8cbed905f6ed8845edf4f9d68f8fc037fdd7083"
     },
     {
       "path": "assets/style.css",
@@ -109,6 +114,16 @@
       "path": "audits/advisor-completeness-20261009.json",
       "bytes": 526034,
       "sha256": "54eed863f554f5e23322692b88a1d101dafb1940eaa741f571d5e2d74ebdfed9"
+    },
+    {
+      "path": "audits/appointment-review-20261010.json",
+      "bytes": 555048,
+      "sha256": "aed461af55b0149074d6c06beceb61f483fbff6657d165a165bacc72ee50ce04"
+    },
+    {
+      "path": "audits/appointment-summary-20261010.md",
+      "bytes": 34239,
+      "sha256": "3bfb0d0a9e98f1bf611bee418ab312cbfa1d20d4c70e8a0cab6ba9513118c6ee"
     },
     {
       "path": "audits/homepage-enrichment-20261010.json",
@@ -122,8 +137,8 @@
     },
     {
       "path": "data/advisor-profiles.json",
-      "bytes": 2333206,
-      "sha256": "75a002747a2d9e87936b6ffb710d0d2c437bb7856763a2ad55ac06b364dc020a"
+      "bytes": 2653393,
+      "sha256": "2c7906666484cd06e994f1ea09de7b81b2af0813419b994c2955179b0f79c7cf"
     },
     {
       "path": "data/application-experience-provenance.json",
@@ -252,8 +267,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 8270,
-      "sha256": "3e70ac973fe0eb71fa06875a28a6fcef16df80b387bb2111db28afeecc14e880"
+      "bytes": 9137,
+      "sha256": "239b3382fbe2ef6910ece5145c31e33c114c7f96b1f89462cf447c83e95bf37c"
     },
     {
       "path": "package.json",
@@ -267,8 +282,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 12389,
-      "sha256": "56da54557a9f13a55b5b5f67d8f6095fb03463df39fdfaa3dfe354ebd7230046"
+      "bytes": 12628,
+      "sha256": "a2b4d163802cf819cd2dd9c5e201992563ec2c5a76026f37e99f32edfab4c0f3"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -289,6 +304,16 @@
       "path": "tests/advisor-completeness-audit.test.mjs",
       "bytes": 1714,
       "sha256": "690b5561a8261a928fa9bf28b0e64d084b1f7bc87556891ed7507623d5852107"
+    },
+    {
+      "path": "tests/appointment-ui.test.mjs",
+      "bytes": 7716,
+      "sha256": "19fa432211772d07bc299f5e74bc7cc93c3305841161b6b1bb87955c37fecc99"
+    },
+    {
+      "path": "tests/appointments.test.mjs",
+      "bytes": 8201,
+      "sha256": "050223ce5c00c039cfeb70295139b68797739179f7261654fe79854fdef6a024"
     },
     {
       "path": "tests/avatar-initials-baseline.mjs",
@@ -412,8 +437,8 @@
     },
     {
       "path": "tests/evidence-reviews.mjs",
-      "bytes": 397,
-      "sha256": "a5f8cfc47374bb6313970e17436f20d67f12ec7a242cfe24fb5093a940940d48"
+      "bytes": 531,
+      "sha256": "353b92ad3c532723e3d5e38c7e026030b9822734fc45786b9eec727b41c8b2ea"
     },
     {
       "path": "tests/experience-batch-20261004-baseline.mjs",
@@ -474,6 +499,11 @@
       "path": "tests/f2-design.test.mjs",
       "bytes": 5708,
       "sha256": "91b1522252bc90362e84102364db83738240447f2d3a1546422d1da72e52869f"
+    },
+    {
+      "path": "tests/fixtures/evidence/appointments-20261010.json",
+      "bytes": 409075,
+      "sha256": "49d0b3ced5962b4686c0e368998f471bc20a8922e5e4ce2155aab9156a8e99c3"
     },
     {
       "path": "tests/fixtures/evidence/homepages-20261010.json",
@@ -667,8 +697,8 @@
     },
     {
       "path": "tests/homepage-enrichment.test.mjs",
-      "bytes": 5198,
-      "sha256": "0cc7fcfc662c80a134de5ecec8507fd8c70e2e0f17f51b5338edc244d18e653a"
+      "bytes": 5257,
+      "sha256": "925480470d4c4c8598d6254f4a77f6357c169f19afa44ccf1a08c2e9c47f92ae"
     },
     {
       "path": "tests/jhu-language-baseline.mjs",

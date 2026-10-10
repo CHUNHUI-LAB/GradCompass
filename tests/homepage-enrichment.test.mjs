@@ -10,11 +10,11 @@ const profiles=new Map(current.profiles.map(p=>[p.advisorId,p]));
 test('homepage batch preserves original profile facts, links, identities, order and catalog decisions',()=>{
  assert.equal(current.profiles.length,334);assert.equal(audit.count,53);assert.equal(audit.addedLinkCount,54);
  assert.deepEqual(read('data/catalog.json').advisors,JSON.parse(publishedBytes('data/catalog.json')).advisors);
- const strip=p=>{const {links,homepageReview,...facts}=p;return facts;};
+ const strip=p=>{const {links,homepageReview,appointmentReview,...facts}=p;return facts;};
  for(let i=0;i<old.profiles.length;i++){
   const before=old.profiles[i],after=current.profiles[i];assert.deepEqual(strip(after),strip(before));
   assert.deepEqual(after.links.slice(0,before.links.length),before.links);
-  if(!audit.advisors.some(r=>r.advisorId===after.advisorId))assert.deepEqual(after,before);
+  if(!audit.advisors.some(r=>r.advisorId===after.advisorId))assert.deepEqual((({appointmentReview,...facts})=>facts)(after),before);
  }
  assert.deepEqual(current.profiles.filter(p=>p.homepageReview).map(p=>p.advisorId).sort(),audit.advisors.map(r=>r.advisorId).sort());
 });

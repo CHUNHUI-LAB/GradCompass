@@ -1,3 +1,4 @@
+import {appointmentMatches} from './appointments.js?v=bbe93af17e11';
 // Avatar labels use name letters only; parenthesized aliases are not name tokens.
 // Keep the recorded full name untouched and preserve the first-two-token convention.
 export function nameInitials(value){
@@ -73,7 +74,7 @@ export function hasVerifiedAssociation(advisor,route){
 export function browseAdvisors(catalog,filters={}){
  const q=filters.query||'',degree=filters.opportunityType||filters.degree;
  return (catalog.advisors||[]).filter(a=>{
-  if(filters.institution&&a.institution!==filters.institution||!rankMatches(a,filters)||filters.topic&&!themesFor(a).includes(filters.topic))return false;
+  if(filters.institution&&a.institution!==filters.institution||!rankMatches(a,filters)||!appointmentMatches(a,catalog,filters)||filters.topic&&!themesFor(a).includes(filters.topic))return false;
   if(degree==='RA')return filterOpportunities(catalog,filters).some(o=>o.advisorId===a.id&&o.type==='RA');
   if(degree&&degree!=='RA'&&!routesFor(a,catalog).some(r=>isBrowsableRoute(r)&&degreeLabel(r)===degree))return false;
   if(!openingMatches(a,{...filters,degree}))return false;
@@ -86,7 +87,7 @@ export function browseRoutes(catalog,filters={}){
  return (catalog.routes||[]).filter(r=>{
   if(!isBrowsableRoute(r)||filters.institution&&r.institution!==filters.institution||degree&&degreeLabel(r)!==degree)return false;
   const related=browseAdvisors(catalog,{...filters,query:'',opportunityType:'',degree:''}).filter(a=>(a.routeIds||[]).includes(r.id));
-  if((filters.rank||filters.topic||filters.opening)&&!related.length)return false;
+  if((filters.rank||filters.topic||filters.opening||filters.appointment)&&!related.length)return false;
   return !q||matchesSearch(routeSearchText(r),q)||related.some(a=>matchesSearch(searchText(a,catalog),q));
  });
 }
@@ -108,7 +109,7 @@ export function filterAdvisors(catalog,filters={}){
  return catalog.advisors.filter(a=>{
   if(!hasVerifiedPath(a,catalog))return false;
   if(filters.institution&&a.institution!==filters.institution)return false;
-  if(!rankMatches(a,filters))return false;
+  if(!rankMatches(a,filters)||!appointmentMatches(a,catalog,filters))return false;
   if(filters.topic&&!themesFor(a).includes(filters.topic))return false;
   if(filters.degree&&!routesFor(a,catalog).some(r=>degreeLabel(r)===filters.degree&&isVerifiedRoute(r)))return false;
   if(!openingMatches(a,filters))return false;
@@ -123,8 +124,8 @@ export function filterRoutes(catalog,filters={}){
   if((filters.opportunityType||filters.degree)&&degreeLabel(r)!==(filters.opportunityType||filters.degree))return false;
   // All advisor-specific criteria must be true of one eligible linked advisor.
   // A mere association to this route cannot confer eligibility on the advisor.
-  const related=catalog.advisors.filter(a=>hasVerifiedPath(a,catalog)&&(a.routeIds||[]).includes(r.id)&&rankMatches(a,filters)&&(!filters.topic||themesFor(a).includes(filters.topic))&&openingMatches(a,{...filters,degree:degreeLabel(r)}));
-  if((filters.rank||filters.topic||filters.opening)&&!related.length)return false;
+  const related=catalog.advisors.filter(a=>hasVerifiedPath(a,catalog)&&(a.routeIds||[]).includes(r.id)&&rankMatches(a,filters)&&appointmentMatches(a,catalog,filters)&&(!filters.topic||themesFor(a).includes(filters.topic))&&openingMatches(a,{...filters,degree:degreeLabel(r)}));
+  if((filters.rank||filters.topic||filters.opening||filters.appointment)&&!related.length)return false;
   return !q||matchesSearch(routeSearchText(r),q)||related.some(a=>matchesSearch(searchText(a,catalog),q));
  });
 }
@@ -181,7 +182,7 @@ export function filterOpportunities(catalog,filters={}){
   const a=catalog.advisors.find(a=>a.id===o.advisorId);const type=filters.opportunityType||filters.degree;
   if(type&&o.type!==type)return false;
   if(filters.institution&&a.institution!==filters.institution)return false;
-  if(!rankMatches(a,filters))return false;
+  if(!rankMatches(a,filters)||!appointmentMatches(a,catalog,filters))return false;
   if(filters.topic&&!themesFor(a).includes(filters.topic))return false;
   if(filters.opening&&o.openingStatus!==filters.opening)return false;
   const route=catalog.routes.find(r=>r.id===o.routeId);const job=(catalog.raPositions||[]).find(j=>j.id===o.jobId);

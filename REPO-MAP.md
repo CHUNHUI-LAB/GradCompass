@@ -111,3 +111,11 @@
 - `data/advisor-profiles.json` 的 `homepageReview` 单列核读日期、说明、链接及来源，不覆盖目录中的招生判断。
 - `audits/homepage-enrichment-20261010.json` 记录 53 位导师、54 个新增主页入口与身份证据，区分共享团队和动态正文限制。
 - `tests/fixtures/evidence/homepages-20261010.json` 逐字段记录本次数据增加，保留历史证据记录；`tests/homepage-enrichment.test.mjs` 验证旧字段保留、来源、显示和招生边界。
+
+## 入职时间证据与筛选（2026-10-10）
+
+`data/advisor-profiles.json` 的每个已有档案追加 `appointmentReview`，通过原 `advisorId` 关联，仍不得覆盖 `catalog` 的资格、学位、招生或余位字段。日期状态为 `verified` 或 `pending`；明确记录事件类型、任职已开始的判断、年份/月/日/区间精度、日期上下界、职业经历线索、核查窗口及来源。只有本校首次非学生、非博士后、非访问教研聘任可参与筛选。
+
+`assets/appointments.js` 在截至 2026-10-10 的五年窗口内判定近期、较早、跨边界或未知。来源缺失、无效日期、未来聘任或错误事件类型均不能生成近期标签。初任教研、此前高校任职及行业经历仅用于履历分类，不能推断年龄。`assets/core.js` 将任职条件与同一导师的学校、职级、方向及申请类型组合；`assets/app.js` 和 `assets/profiles.js` 分别展示卡片标签与详情来源，补充数据未加载时禁用任职控件。
+
+`audits/appointment-summary-20261010.md` 是逐人可阅读汇总，`audits/appointment-review-20261010.json` 记录所有 334 位导师的判断、尝试网址、访问状态与内容读取哈希。正式字段追加通过独立证据收据 `tests/fixtures/evidence/appointments-20261010.json` 及其固定 SHA-256 审核；旧收据和历史输入不修改。`tests/appointments.test.mjs` 验证日期边界、晋升/博士后排除、原招生边界与来源，`tests/appointment-ui.test.mjs` 验证异步数据、组合筛选、筛选条件移除和页面间状态。历史筛选测试保持原字节，新界面测试单列。

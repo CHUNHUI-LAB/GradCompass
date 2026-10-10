@@ -71,6 +71,7 @@ files.extend(["tests/cuhk-deadline-20261007-baseline.mjs","tests/cuhk-deadline-2
 files.extend(['tests/profile-coverage-baseline.mjs','tests/profile-coverage-history-fs.mjs','tests/profile-coverage-history.test.mjs','tests/fixtures/history/reviewed-profile-coverage-20261008.json'])
 files.extend(['tests/published-history-fs.mjs','tests/published-history-inputs.test.mjs','tests/reviewed-public-data.mjs','tests/evidence-reviews.mjs','tests/live-data-maintenance.test.mjs','tests/fixtures/history/published-inputs-4653bbd.json.gz','tests/fixtures/evidence/maintenance-20261008.json'])
 files.extend(['audits/homepage-enrichment-20261010.json','tests/homepage-enrichment.test.mjs','tests/fixtures/evidence/homepages-20261010.json'])
+files.extend(['assets/appointments.js','audits/appointment-review-20261010.json','audits/appointment-summary-20261010.md','tests/appointments.test.mjs','tests/appointment-ui.test.mjs','tests/fixtures/evidence/appointments-20261010.json'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):
