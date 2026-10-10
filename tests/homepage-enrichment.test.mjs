@@ -1,3 +1,4 @@
+import {reverseBoundedMaintenanceReviews} from './evidence-reviews.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -9,13 +10,9 @@ const audit=read('audits/homepage-enrichment-20261010.json');
 const profiles=new Map(current.profiles.map(p=>[p.advisorId,p]));
 test('homepage batch preserves original profile facts, links, identities, order and catalog decisions',()=>{
  assert.equal(current.profiles.length,334);assert.equal(audit.count,53);assert.equal(audit.addedLinkCount,54);
- assert.deepEqual(read('data/catalog.json').advisors,JSON.parse(publishedBytes('data/catalog.json')).advisors);
- const strip=p=>{const {links,homepageReview,appointmentReview,...facts}=p;return facts;};
- for(let i=0;i<old.profiles.length;i++){
-  const before=old.profiles[i],after=current.profiles[i];assert.deepEqual(strip(after),strip(before));
-  assert.deepEqual(after.links.slice(0,before.links.length),before.links);
-  if(!audit.advisors.some(r=>r.advisorId===after.advisorId))assert.deepEqual((({appointmentReview,...facts})=>facts)(after),before);
- }
+ const restored=reverseBoundedMaintenanceReviews({'data/catalog.json':read('data/catalog.json'),'data/advisor-profiles.json':current},p=>fs.readFileSync(new URL('../'+p,import.meta.url)));
+ assert.deepEqual(restored['data/catalog.json'].advisors,JSON.parse(publishedBytes('data/catalog.json')).advisors);
+ assert.deepEqual(restored['data/advisor-profiles.json'],old);
  assert.deepEqual(current.profiles.filter(p=>p.homepageReview).map(p=>p.advisorId).sort(),audit.advisors.map(r=>r.advisorId).sort());
 });
 test('every added homepage has named identity evidence, bounded read scope and content receipt',()=>{

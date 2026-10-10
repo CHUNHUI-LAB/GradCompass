@@ -1,3 +1,4 @@
+import {reverseBoundedMaintenanceReviews} from './evidence-reviews.mjs';
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import crypto from 'node:crypto';import {execFileSync} from 'node:child_process';import {fileURLToPath} from 'node:url';
 import {publishedBytes,publishedPaths} from './published-history-fs.mjs';
 import {assertReviewedPublicData,reviewedPublicData} from './reviewed-public-data.mjs';
@@ -15,11 +16,63 @@ test('live public data matches reviewed semantic facts rather than a full-file b
  const formatted=Object.fromEntries(Object.entries(actual).map(([p,d])=>[p,JSON.parse(JSON.stringify(d,null,4)+'\n\n')]));assertReviewedPublicData(formatted,read);
  assert.notDeepEqual(read('data/catalog.json'),publishedBytes('data/catalog.json'),'a real data maintenance pass may differ from the historical release');
 });
+// Reverse exact MRL replacements, homepage additions and appointment reviews; retain
+// full-object comparisons so unreviewed changes remain visible to the guard.
+const recruitmentReview=JSON.parse(read('tests/fixtures/evidence/maintenance-20261009.json'));
+function assertRetainedRecruitmentHistory(data,readReview=read){
+ const restored=reverseBoundedMaintenanceReviews(data,readReview);
+ assert.deepEqual(restored['data/catalog.json'].advisors,oldCatalog.advisors);
+ assert.deepEqual(restored['data/advisor-profiles.json'],JSON.parse(publishedBytes('data/advisor-profiles.json')));
+ return restored;
+}
 test('live maintenance retains all collaborators, historical source records, old deadlines and opportunities',()=>{
- assert.deepEqual(catalog.advisors,oldCatalog.advisors);assert.deepEqual(catalog.routes.map(r=>r.sourceRecord??null),oldCatalog.routes.map(r=>r.sourceRecord??null));
+ assertRetainedRecruitmentHistory(actual);assert.deepEqual(catalog.routes.map(r=>r.sourceRecord??null),oldCatalog.routes.map(r=>r.sourceRecord??null));
  assert.deepEqual(catalog.deadlines.slice(0,oldCatalog.deadlines.length),oldCatalog.deadlines);
  const ra=actual['data/ra-positions.json'].raPositions;assert.deepEqual(buildOpportunities({...catalog,raPositions:ra}),buildOpportunities({...oldCatalog,raPositions:ra}));
  for(const id of polyIds){const r=catalog.routes.find(r=>r.id===id),old=oldCatalog.routes.find(r=>r.id===id);assert.equal(r.checkedDate,old.checkedDate);assert.equal(r.cycleReview.previousAdmissionYear,old.admissionYear);assert.equal(r.cycleReview.previousCycle2027Verified,old.cycle2027Verified);assert.deepEqual(r.sources.slice(0,old.sources.length),old.sources);assert.equal(r.applicationStatus,'unknown');}
+});
+test('current Shen review separates closed ordinary intake from an unverified joint-programme opportunity and preserves both prior reviews',()=>{
+ const advisor=catalog.advisors.find(a=>a.id==='hkust-yajing-shen'),old=oldCatalog.advisors.find(a=>a.id===advisor.id);
+ assert.equal(advisor.recruitmentReview.checkedDate,'2026-10-09');
+ assert.deepEqual(advisor.recruitmentReview.previousReview,old.recruitmentReview);
+ for(const [key,value]of Object.entries(advisor.recruitmentReview.previous))assert.deepEqual(value,old[key]);
+ assert.equal(advisor.opening,'unknown');assert.equal(advisor.fall2027OpeningVerified,false);
+ assert.deepEqual(advisor.openingDetails.filter(o=>o.degree!=='PhD'),old.openingDetails.filter(o=>o.degree!=='PhD'));
+ const phd=advisor.openingDetails.find(o=>o.degree==='PhD');assert.equal(phd.status,'unknown');assert.equal(phd.degreeRouteAssociated,false);
+ assert.match(phd.summary,/普通/);assert.match(phd.summary,/HKUST.*SLAI/);
+ const profile=actual['data/advisor-profiles.json'].profiles.find(p=>p.advisorId===advisor.id);assert.equal(profile.confirmedVacancy,false);
+ assert.equal(buildOpportunities({...catalog,raPositions:actual['data/ra-positions.json'].raPositions}).some(o=>o.advisorId===advisor.id&&o.type==='PhD'),false);
+});
+test('recruitment history inversion rejects extra operations and unrelated advisor, source or opportunity changes',()=>{
+ for(const mutate of [d=>{d['data/catalog.json'].advisors[0].opening='tampered';},d=>{d['data/catalog.json'].advisors[9].sourceRecord={forged:true};},d=>{d['data/catalog.json'].advisors[9].openingDetails[0].status='open';},d=>{d['data/catalog.json'].advisors[9].openingDetails[2].status='open';},d=>{d['data/catalog.json'].advisors[9].recruitmentReview.previousReview.checkedDate='2099-01-01';},d=>{d['data/advisor-profiles.json'].profiles[11].confirmedVacancy=true;}]){
+  const data=structuredClone(actual);mutate(data);assert.throws(()=>assertRetainedRecruitmentHistory(data));
+ }
+ const extra=structuredClone(recruitmentReview);extra.operations.push(structuredClone(extra.operations[0]));assert.throws(()=>assertRetainedRecruitmentHistory(actual,p=>p.endsWith('maintenance-20261009.json')?Buffer.from(JSON.stringify(extra)):read(p)),/unreviewed bounded receipt/);
+});
+test('combined maintenance rejects unreviewed homepage links, fields, original-link edits and extra receipt operations',()=>{
+ for(const mutate of [
+  d=>{d['data/advisor-profiles.json'].profiles[41].links.push({label:'unreviewed 55th link',url:'https://example.org/new'});},
+  d=>{d['data/advisor-profiles.json'].profiles[41].homepageReview.unreviewed='unexpected';},
+  d=>{d['data/advisor-profiles.json'].profiles[41].links[0].url='https://example.org/changed-original';},
+  d=>{d['data/advisor-profiles.json'].profiles[11].homepageReview={unreviewed:true};}
+ ]){const data=structuredClone(actual);mutate(data);assert.throws(()=>assertRetainedRecruitmentHistory(data));}
+ const path='tests/fixtures/evidence/homepages-20261010.json',extra=JSON.parse(read(path));extra.operations.push(structuredClone(extra.operations[0]));
+ assert.throws(()=>assertRetainedRecruitmentHistory(actual,p=>p===path?Buffer.from(JSON.stringify(extra)):read(p)),/unreviewed bounded receipt/);
+});
+test('combined maintenance preserves all reviewed appointments and rejects any unreviewed appointment change',()=>{
+ const profiles=actual['data/advisor-profiles.json'].profiles,shen=profiles.find(p=>p.advisorId==='hkust-yajing-shen');
+ assert.equal(profiles.filter(p=>p.appointmentReview).length,334);assert.equal(shen.appointmentReview.earliestDate,'2022-09-01');
+ for(const mutate of [
+  d=>{d['data/advisor-profiles.json'].profiles[11].appointmentReview.earliestDate='2024-01-01';},
+  d=>{d['data/advisor-profiles.json'].profiles[0].appointmentReview.unreviewed='unexpected';},
+  d=>{d['data/advisor-profiles.json'].profiles[0].appointmentReview.careerContext='fabricated';},
+  d=>{delete d['data/advisor-profiles.json'].profiles[333].appointmentReview;}
+ ]){const data=structuredClone(actual);mutate(data);assert.throws(()=>assertRetainedRecruitmentHistory(data));}
+ const path='tests/fixtures/evidence/appointments-20261010.json';
+ for(const mutate of [r=>r.operations.pop(),r=>r.operations.push(structuredClone(r.operations[0])),r=>{r.operations[0].value.unreviewed=true;}]){
+  const receipt=JSON.parse(read(path));mutate(receipt);
+  assert.throws(()=>assertRetainedRecruitmentHistory(actual,p=>p===path?Buffer.from(JSON.stringify(receipt)):read(p)),/unreviewed bounded receipt/);
+ }
 });
 test('live PolyU ordinary dates retain intake labels, department scope and unknown time instead of importing HKPFS times',()=>{
  for(const [season,date,year]of dates){const d=catalog.deadlines.find(x=>x.id===`polyu-aae-ise-2027-${season}-ordinary`);assert(d);assert.equal(d.date,date);assert.equal(d.admissionYear,year);assert.deepEqual(d.routeIds,polyIds);assert.equal(d.deadlineTime,null);assert.equal(d.timezone,null);assert.equal(d.status,season==='jan'?'expired':'unknown');assert.match(d.note,/HKPFS/);assert.match(d.note,/未登录/);assert.equal(d.sources.length,2);}

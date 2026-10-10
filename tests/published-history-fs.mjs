@@ -27,6 +27,24 @@ export function decodePublishedArchive(compressed){
 const archive=decodePublishedArchive(fs.readFileSync(new URL('./fixtures/history/published-inputs-4653bbd.json.gz',import.meta.url)));
 export const publishedIdentities=Object.freeze(structuredClone(archive.identities));
 export const publishedPaths=Object.freeze(Object.keys(archive.files));
+// The original archive did not embed this test input. Its supplemental bytes
+// come from the same published commit and must match that archive's identities.
+// Keep the original 51 archived paths and compressed archive unchanged.
+export const supplementalPublishedPaths=Object.freeze(['tests/render.test.mjs']);
+export function decodePublishedSupplement(name,raw){
+ assert.equal(name,'tests/render.test.mjs','outside the single published supplement');
+ const identity=archive.identities[name],bytes=Buffer.from(raw);
+ assert.equal(bytes.length,identity.bytes,name+' supplemental historical length');
+ assert.equal(sha(bytes),identity.sha256,name+' supplemental historical SHA-256');
+ assert.equal(crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${bytes.length}\0`),bytes])).digest('hex'),identity.gitBlob,name+' supplemental published Git blob');
+ return bytes;
+}
+const publishedSupplement=decodePublishedSupplement('tests/render.test.mjs',fs.readFileSync(new URL('./fixtures/history/published-render-4653bbd.mjs',import.meta.url)));
+export function supplementalPublishedBytes(name){
+ assert.equal(name,'tests/render.test.mjs','outside the single published supplement');
+ return Buffer.from(publishedSupplement);
+}
+
 export function publishedBytes(name){assert(Object.hasOwn(archive.files,name),'unarchived historical input: '+name);return Buffer.from(archive.files[name].base64,'base64');}
 export function publishedFileMetadata(name){assert(Object.hasOwn(archive.files,name));const {base64,...metadata}=archive.files[name];return {...metadata};}
 export function runPublishedCounts(){
@@ -40,7 +58,7 @@ export default {...fs,readFileSync(file,options){
  const filename=file instanceof URL?fileURLToPath(file):typeof file==='string'?file:null;
  if(filename===null)return fs.readFileSync(file,options);
  const relative=path.relative(root,filename).split(path.sep).join('/');
- if(!Object.hasOwn(archive.files,relative))return fs.readFileSync(file,options);
- const bytes=publishedBytes(relative),encoding=typeof options==='string'?options:options?.encoding;
+ if(!Object.hasOwn(archive.files,relative)&&relative!=='tests/render.test.mjs')return fs.readFileSync(file,options);
+ const bytes=relative==='tests/render.test.mjs'?supplementalPublishedBytes(relative):publishedBytes(relative),encoding=typeof options==='string'?options:options?.encoding;
  return encoding?bytes.toString(encoding):bytes;
 }};
