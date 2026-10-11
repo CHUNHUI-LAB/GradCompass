@@ -404,6 +404,31 @@
       "url": "https://soai.sjtu.edu.cn/cn/show/474",
       "checkedDate": "2026-10-08",
       "section": "H1与2026-05-14发布日期；三种选拔通道、资格及材料；不替代2027推免通知"
+    },
+    {
+      "id": "hku_ris_portal_20261011",
+      "label": "HKU RIS 2027年9月入学项目页（R394）",
+      "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0%20",
+      "checkedDate": "2026-10-11",
+      "section": "Master of Science in Engineering (Robotics and Intelligent Systems)；Full-time；2027 September；Entrance Requirements；Download Documents 的 R394 链接",
+      "sourceVersion": "当前项目页显示2027年9月入学及2027/28轮次；仅核读公开内容，未登录提交"
+    },
+    {
+      "id": "hku_ris_faculty_20261011",
+      "label": "HKU RIS 工学院当前项目页",
+      "url": "https://mscadmissions.engg.hku.hk/master-of-science-in-engineering-in-robotics-intelligent-systems/",
+      "checkedDate": "2026-10-11",
+      "section": "Robotics and Intelligent Systems标题、2027-28日期、72学分及通向R394的项目链接；本次页面未显示先前的10月上旬开放预期",
+      "sourceVersion": "2026-10-11当前公开项目页；不由Apply Now推断实际提交可用"
+    },
+    {
+      "id": "hku_ris_support_20261011",
+      "label": "HKU 工学院 R394 当前链接材料须知（两页）",
+      "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R394&pDOCUMENT_TYPE=SUPPORTDOCUMENT",
+      "checkedDate": "2026-10-11",
+      "section": "Notes on Submission of Supporting Documents；两页完整核读：推荐信不要求、通知后补件期限、成绩/学位/语言/身份证明、翻译和申请阶段免邮寄",
+      "sourceVersion": "PDF本身未标年份；2026-10-11由显示2027年9月入学的RIS项目页及R394申请说明页直接链接，保留该适用范围",
+      "sha256": "05ed83e1479ae38ef71304ee9564adcc2ff5cdd620c44e6bcd1f71dd92c2f646"
     }
   ],
   "records": [
@@ -1674,16 +1699,18 @@
       ],
       "status": "verified",
       "checkedDate": "2026-10-04",
-      "summary": "先准备认证本科成绩与学历及适用的英语证明；RIS专属文书和推荐信清单仍待核对。",
+      "summary": "2027年9月入学项目页明确列个人陈述、成绩单与CV；当前关联材料须知写明不要求推荐信。通用学历和语言要求仍按各自来源准备。",
       "note": "适用2027/28招生日期及现行授课型通用规则；不是完整申请清单，不套用港大MPhil/PhD材料要求。",
       "admissionYear": "2027/28项目＋现行授课型通用材料",
       "unknowns": [
-        "RIS 2027/28专属Instructions and Supporting Documents尚未确认；旧周期页面所链未标周期R394清单不移用于本轮。CV、PS、研究计划、推荐信数量及附加文件尚待当期项目确认。",
+        "RIS个人陈述字数及模板、是否另需独立研究计划尚未明确；已核CV与PS不能推出研究计划必交。R394材料PDF未标年份，本次仅确认其由当前2027入学项目页直接链接。",
         "实际申请入口和所有必填字段未验证；已公布日期不等于当前可提交。"
       ],
       "scopeNotes": [
         "工程或相关领域本科入口；不泛化为所有背景，也不把本硕士项目关联到任何特定导师。",
-        "语言页自2026入学起按9月1日前两年；通用流程页旧脚注仍按申请日前两年，差异保留。"
+        "语言页自2026入学起按9月1日前两年；通用流程页旧脚注仍按申请日前两年，差异保留。",
+        "2026-10-11仅补核RIS项目文书、关联材料须知与日期说明；原通用英语来源及其有效期差异保留，不标成全部要求已重新核验。",
+        "当前R394材料须知明确不要求推荐信；这不等于已证实可选提交推荐信。该须知还说明申请阶段免邮寄，补件以提交后邮件通知及其一个月期限为准；补件通知不代表录取。"
       ],
       "requirements": [
         {
@@ -1713,19 +1740,22 @@
         },
         {
           "kind": "cvPersonalStatement",
-          "text": "RIS专属CV、PS、研究计划、推荐信数量尚未核实，不能把研究型项目的清单写为本项目必需。",
-          "requirementStatus": "unknown",
+          "text": "2027年9月入学RIS项目页明确要求用个人陈述、成绩单和CV说明申请动机与完成项目的潜力。PS字数与格式、单独研究计划要求未在此处写明。",
+          "requirementStatus": "required",
           "sourceIds": [
-            "hku_ris_20261004_procedures"
+            "hku_ris_20261004_procedures",
+            "hku_ris_portal_20261011"
           ]
         },
         {
           "kind": "deadline",
-          "text": "2027/28主轮2027-01-04 12:00、清轮2027-04-09 12:00，均香港时间（UTC+8）。官方仍写预计10月上旬开放且可能延迟；本次未确认提交入口开放，不由未来截止或Apply now文字推定已可提交。",
+          "text": "2027/28主轮2027-01-04 12:00、清轮2027-04-09 12:00，均香港时间（UTC+8）。2026-10-11项目门户与学院页日期一致，并可读取R394公开申请说明；本次未登录或测试实际提交，开放状态仍待确认。",
           "requirementStatus": "published",
           "sourceIds": [
             "hku_ris_20261004_programme",
-            "hku_ris_20261004_application"
+            "hku_ris_20261004_application",
+            "hku_ris_portal_20261011",
+            "hku_ris_faculty_20261011"
           ]
         }
       ],
@@ -1733,7 +1763,10 @@
         "hku_ris_20261004_programme",
         "hku_ris_20261004_application",
         "hku_ris_20261004_requirements",
-        "hku_ris_20261004_procedures"
+        "hku_ris_20261004_procedures",
+        "hku_ris_portal_20261011",
+        "hku_ris_faculty_20261011",
+        "hku_ris_support_20261011"
       ]
     },
     {
