@@ -22,10 +22,10 @@
   "newExperienceRecords": 1,
   "materialRecords": 19,
   "materialSupplementRecords": 17,
-  "materialSupplementSources": 53,
+  "materialSupplementSources": 56,
   "projectSummaryRecords": 32,
   "projectSummarySchools": 13,
-  "projectSummarySources": 76,
+  "projectSummarySources": 79,
   "preservedProjectSummaryRecords": 17,
   "newProjectSummaryRecords": 10,
   "pageOverviews": 5,
@@ -42,18 +42,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 60195,
-      "sha256": "545846180a9cb584859d766369dba0ec333559094960d05349c5e3680506d7b5"
+      "bytes": 61317,
+      "sha256": "413bc31167c96decfa56467ba0f6ea448d48918d796e1b0907cefa05564ed11f"
     },
     {
       "path": "REPO-MAP.md",
-      "bytes": 14739,
-      "sha256": "c189bc65b4fca90e4dbd6b813544802a06ec5e8b81afd9cf318cb7cb5699c3f2"
+      "bytes": 15351,
+      "sha256": "f371c1f29002efd776fb2d9f1e7a6ba04f7b7ab68033b8d3edca2b6f03a09f91"
     },
     {
       "path": "assets/app.js",
       "bytes": 75312,
-      "sha256": "67e63f5be427aa1e60d0a18b5d1988c436a843e544f7ef4ffee296f301c77465"
+      "sha256": "d9dae8a2757bc636fffbc433f6969617bee9e4612f094f9bc39f6cea42472206"
     },
     {
       "path": "assets/appointments.js",
@@ -157,8 +157,8 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 3752516,
-      "sha256": "501de657749c19e5839ee5e84f34f806a3b0610b68ed00b2e64d70f6c5326697"
+      "bytes": 3753724,
+      "sha256": "0fcc93d6af114e68d4dbf8c196f1b4f3a8f05882c2f39b1703713d695bbab51c"
     },
     {
       "path": "data/four-schools-exploration-20261006.json",
@@ -187,8 +187,8 @@
     },
     {
       "path": "data/material-summaries.json",
-      "bytes": 91706,
-      "sha256": "c95ac15b3cac2abd4e4e8cd18e7102e51dffcdb00afe4145d9b0371e8f6e72c8"
+      "bytes": 94339,
+      "sha256": "f9f659f15e141da6b6e7183e6ac3175369e1b95e3f9d4d1e3edeea2c2a40d150"
     },
     {
       "path": "data/nju-advisor-review-20261005.json",
@@ -207,8 +207,8 @@
     },
     {
       "path": "data/project-summaries.json",
-      "bytes": 109344,
-      "sha256": "446d5e279b4ca674d5c4fd11aec2601e984207e3435c8673e3abaae4f135b166"
+      "bytes": 111425,
+      "sha256": "bd338f3d5d16a4ec5561768326db8839d4b359f2820119322ab419b93b6f02d9"
     },
     {
       "path": "data/ra-positions.json",
@@ -268,7 +268,7 @@
     {
       "path": "index.html",
       "bytes": 9137,
-      "sha256": "239b3382fbe2ef6910ece5145c31e33c114c7f96b1f89462cf447c83e95bf37c"
+      "sha256": "736b6776c9d4713e0f3f8d3efa9889b958b7b6f86a6ff93d02f0979d6309c6ef"
     },
     {
       "path": "package.json",
@@ -282,8 +282,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 12628,
-      "sha256": "a2b4d163802cf819cd2dd9c5e201992563ec2c5a76026f37e99f32edfab4c0f3"
+      "bytes": 12746,
+      "sha256": "8053e0429ba6cf05a8915e17d30b2a13e717b3f5865cd3d99ced03f79abd204e"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -437,8 +437,8 @@
     },
     {
       "path": "tests/evidence-reviews.mjs",
-      "bytes": 531,
-      "sha256": "353b92ad3c532723e3d5e38c7e026030b9822734fc45786b9eec727b41c8b2ea"
+      "bytes": 670,
+      "sha256": "38497ba36616a0d8fe29520975dfdf5a5ccab720f456d269745127df40486943"
     },
     {
       "path": "tests/experience-batch-20261004-baseline.mjs",
@@ -504,6 +504,11 @@
       "path": "tests/fixtures/evidence/appointments-20261010.json",
       "bytes": 409075,
       "sha256": "49d0b3ced5962b4686c0e368998f471bc20a8922e5e4ce2155aab9156a8e99c3"
+    },
+    {
+      "path": "tests/fixtures/evidence/hku-ris-materials-20261011.json",
+      "bytes": 14509,
+      "sha256": "363d5714471f91fcc43bbbf4b0749c1ab048efb78da178164eecf66530dd7af1"
     },
     {
       "path": "tests/fixtures/evidence/homepages-20261010.json",
@@ -689,6 +694,11 @@
       "path": "tests/hku-ris-baseline.mjs",
       "bytes": 872,
       "sha256": "3b2085d61e86fec81606351573eb42445b3771862c2264bd864f129ba8aa426b"
+    },
+    {
+      "path": "tests/hku-ris-materials-20261011.test.mjs",
+      "bytes": 5125,
+      "sha256": "2aa198b95f3df2260d648e770430db2947d0a6b5a67ec23f224e3799d62865b2"
     },
     {
       "path": "tests/hku-ris.test.mjs",

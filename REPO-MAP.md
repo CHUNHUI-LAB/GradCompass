@@ -119,3 +119,7 @@
 `assets/appointments.js` 在截至 2026-10-10 的五年窗口内判定近期、较早、跨边界或未知。来源缺失、无效日期、未来聘任或错误事件类型均不能生成近期标签。初任教研、此前高校任职及行业经历仅用于履历分类，不能推断年龄。`assets/core.js` 将任职条件与同一导师的学校、职级、方向及申请类型组合；`assets/app.js` 和 `assets/profiles.js` 分别展示卡片标签与详情来源，补充数据未加载时禁用任职控件。
 
 `audits/appointment-summary-20261010.md` 是逐人可阅读汇总，`audits/appointment-review-20261010.json` 记录所有 334 位导师的判断、尝试网址、访问状态与内容读取哈希。正式字段追加通过独立证据收据 `tests/fixtures/evidence/appointments-20261010.json` 及其固定 SHA-256 审核；旧收据和历史输入不修改。`tests/appointments.test.mjs` 验证日期边界、晋升/博士后排除、原招生边界与来源，`tests/appointment-ui.test.mjs` 验证异步数据、组合筛选、筛选条件移除和页面间状态。历史筛选测试保持原字节，新界面测试单列。
+
+## 2026-10-11 HKU RIS 材料复核候选
+
+`tests/fixtures/evidence/hku-ris-materials-20261011.json` 逐字段记录 RIS 材料及日期说明的已核变化。项目门户的 2027 年 9 月入学标签与 R394 文件链接共同界定范围；未标年份的 PDF 不独立认定周期。旧来源及记录核验日期不覆盖，新来源单列本轮日期。无需新增前端字段、材料状态或资格判断；推荐信“不要求”在有来源的范围说明中表达，不改写为“选交”。回归另见 `tests/hku-ris-materials-20261011.test.mjs`，历史快照与既有测试保持原字节。
