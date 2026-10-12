@@ -1,5 +1,5 @@
 // Append future independently reviewed fact deltas here; never rewrite old receipts.
-export const evidenceReviews=Object.freeze([{path:'tests/fixtures/evidence/maintenance-20261008.json',sha256:'d6fd6d89e68c82328f168301f2c7425c070645c3f8c1e9101101833268ed3f07'},{path:'tests/fixtures/evidence/homepages-20261010.json',sha256:'357e92c32d5d194eef4c0a953f2635f4e31749e3ec7dedf88b8734a8372be53a'},{path:'tests/fixtures/evidence/appointments-20261010.json',sha256:'49d0b3ced5962b4686c0e368998f471bc20a8922e5e4ce2155aab9156a8e99c3'},{path:'tests/fixtures/evidence/maintenance-20261009.json',sha256:'fe81a90659e8e80ef3378baab52f95226806179dcc22e5e27f59c810e01062d4'}]);
+export const evidenceReviews=Object.freeze([{path:'tests/fixtures/evidence/maintenance-20261008.json',sha256:'d6fd6d89e68c82328f168301f2c7425c070645c3f8c1e9101101833268ed3f07'},{path:'tests/fixtures/evidence/homepages-20261010.json',sha256:'357e92c32d5d194eef4c0a953f2635f4e31749e3ec7dedf88b8734a8372be53a'},{path:'tests/fixtures/evidence/appointments-20261010.json',sha256:'49d0b3ced5962b4686c0e368998f471bc20a8922e5e4ce2155aab9156a8e99c3'},{path:'tests/fixtures/evidence/maintenance-20261009.json',sha256:'fe81a90659e8e80ef3378baab52f95226806179dcc22e5e27f59c810e01062d4'},{path:'tests/fixtures/evidence/hku-ris-materials-20261011.json',sha256:'363d5714471f91fcc43bbbf4b0749c1ab048efb78da178164eecf66530dd7af1'}]);
 
 // Test-only exact inverses for three independent reviewed fact changes.
 // Hashes and complete path lists are fixed; unknown facts cannot be stripped away.
@@ -2273,9 +2273,20 @@ const boundedMaintenanceReviews=[
   ]
  }
 ];
+// Selective recruitment inversion must not remove homepages or appointments.
+export function reverseBoundedRecruitmentReview(data,read){
+ return reverseBoundedReviews(data,read,[boundedMaintenanceReviews[0]]);
+}
 export function reverseBoundedMaintenanceReviews(data,read){
+ return reverseBoundedReviews(data,read,boundedMaintenanceReviews);
+}
+function reverseBoundedReviews(data,read,specs){
  const restored=structuredClone(data);
- for(const spec of boundedMaintenanceReviews){
+ for(const spec of specs){
+  if(spec===boundedMaintenanceReviews[0]){
+   assert.equal(restored['data/catalog.json']?.advisors?.[9]?.id,'hkust-yajing-shen','bounded recruitment advisor identity');
+   assert.equal(restored['data/advisor-profiles.json']?.profiles?.[11]?.advisorId,'hkust-yajing-shen','bounded recruitment profile identity');
+  }
   const raw=read(spec.path);
   assert.equal(crypto.createHash('sha256').update(raw).digest('hex'),spec.sha256,'unreviewed bounded receipt: '+spec.path);
   const review=JSON.parse(raw);

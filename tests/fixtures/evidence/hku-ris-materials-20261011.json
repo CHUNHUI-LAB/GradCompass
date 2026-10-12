@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-11",
+  "baseCommit": "4653bbd56a237a618a58c6f599e32e071ddf7094",
+  "reviewAgainstCommit": "bdcd267ec0dd29519d631c143d14eef2514959eb",
+  "scope": "Bounded HKU RIS taught MSc material/cycle review only: resolve CV/PS and reference-letter unknowns from the current R394 portal link, keep undated PDF scope, all prior sources and dates, and unknown actual submission status. No advisors, degree associations, RA, other routes, quotas or 2028 changes.",
+  "officialEvidence": [
+    {
+      "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0%20",
+      "title": "HKU RIS 2027年9月入学项目页（R394）",
+      "section": "Master of Science in Engineering (Robotics and Intelligent Systems)；Full-time；2027 September；Entrance Requirements；Download Documents 的 R394 链接",
+      "checkedDate": "2026-10-11"
+    },
+    {
+      "url": "https://mscadmissions.engg.hku.hk/master-of-science-in-engineering-in-robotics-intelligent-systems/",
+      "title": "HKU RIS 工学院当前项目页",
+      "section": "Robotics and Intelligent Systems标题、2027-28日期、72学分及通向R394的项目链接；本次页面未显示先前的10月上旬开放预期",
+      "checkedDate": "2026-10-11"
+    },
+    {
+      "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R394&pDOCUMENT_TYPE=SUPPORTDOCUMENT",
+      "title": "HKU 工学院 R394 当前链接材料须知（两页）",
+      "section": "Notes on Submission of Supporting Documents；两页完整核读：推荐信不要求、通知后补件期限、成绩/学位/语言/身份证明、翻译和申请阶段免邮寄",
+      "checkedDate": "2026-10-11",
+      "sha256": "05ed83e1479ae38ef71304ee9564adcc2ff5cdd620c44e6bcd1f71dd92c2f646"
+    }
+  ],
+  "operations": [
+    {
+      "file": "data/catalog.json",
+      "path": "/routes/33/sources/4",
+      "operation": "add",
+      "value": {
+        "id": "hku_ris_portal_20261011",
+        "label": "HKU RIS 2027年9月入学项目页（R394）",
+        "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0%20",
+        "checkedDate": "2026-10-11",
+        "section": "Master of Science in Engineering (Robotics and Intelligent Systems)；Full-time；2027 September；Entrance Requirements；Download Documents 的 R394 链接",
+        "sourceVersion": "当前项目页显示2027年9月入学及2027/28轮次；仅核读公开内容，未登录提交"
+      }
+    },
+    {
+      "file": "data/catalog.json",
+      "path": "/routes/33/sources/5",
+      "operation": "add",
+      "value": {
+        "id": "hku_ris_faculty_20261011",
+        "label": "HKU RIS 工学院当前项目页",
+        "url": "https://mscadmissions.engg.hku.hk/master-of-science-in-engineering-in-robotics-intelligent-systems/",
+        "checkedDate": "2026-10-11",
+        "section": "Robotics and Intelligent Systems标题、2027-28日期、72学分及通向R394的项目链接；本次页面未显示先前的10月上旬开放预期",
+        "sourceVersion": "2026-10-11当前公开项目页；不由Apply Now推断实际提交可用"
+      }
+    },
+    {
+      "file": "data/catalog.json",
+      "path": "/routes/33/notes/0",
+      "operation": "replace",
+      "old": "2027/28主轮2027-01-04 12:00、清轮2027-04-09 12:00，均香港时间（UTC+8）。官方仍写预计10月上旬开放且可能延迟；本次未确认提交入口开放，不由未来截止或Apply now文字推定已可提交。",
+      "value": "2027/28主轮2027-01-04 12:00、清轮2027-04-09 12:00，均香港时间（UTC+8）。2026-10-11项目门户与学院页日期一致，并可读取R394公开申请说明；本次未登录或测试实际提交，开放状态仍待确认。"
+    },
+    {
+      "file": "data/project-summaries.json",
+      "path": "/sources/76",
+      "operation": "add",
+      "value": {
+        "id": "hku_ris_portal_20261011",
+        "label": "HKU RIS 2027年9月入学项目页（R394）",
+        "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0%20",
+        "checkedDate": "2026-10-11",
+        "section": "Master of Science in Engineering (Robotics and Intelligent Systems)；Full-time；2027 September；Entrance Requirements；Download Documents 的 R394 链接",
+        "sourceVersion": "当前项目页显示2027年9月入学及2027/28轮次；仅核读公开内容，未登录提交"
+      }
+    },
+    {
+      "file": "data/project-summaries.json",
+      "path": "/sources/77",
+      "operation": "add",
+      "value": {
+        "id": "hku_ris_faculty_20261011",
+        "label": "HKU RIS 工学院当前项目页",
+        "url": "https://mscadmissions.engg.hku.hk/master-of-science-in-engineering-in-robotics-intelligent-systems/",
+        "checkedDate": "2026-10-11",
+        "section": "Robotics and Intelligent Systems标题、2027-28日期、72学分及通向R394的项目链接；本次页面未显示先前的10月上旬开放预期",
+        "sourceVersion": "2026-10-11当前公开项目页；不由Apply Now推断实际提交可用"
+      }
+    },
+    {
+      "file": "data/project-summaries.json",
+      "path": "/sources/78",
+      "operation": "add",
+      "value": {
+        "id": "hku_ris_support_20261011",
+        "label": "HKU 工学院 R394 当前链接材料须知（两页）",
+        "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R394&pDOCUMENT_TYPE=SUPPORTDOCUMENT",
+        "checkedDate": "2026-10-11",
+        "section": "Notes on Submission of Supporting Documents；两页完整核读：推荐信不要求、通知后补件期限、成绩/学位/语言/身份证明、翻译和申请阶段免邮寄",
+        "sourceVersion": "PDF本身未标年份；2026-10-11由显示2027年9月入学的RIS项目页及R394申请说明页直接链接，保留该适用范围",
+        "sha256": "05ed83e1479ae38ef71304ee9564adcc2ff5cdd620c44e6bcd1f71dd92c2f646"
+      }
+    },
+    {
+      "file": "data/project-summaries.json",
+      "path": "/records/27/cycle/text",
+      "operation": "replace",
+      "old": "2027/28主轮2027-01-04 12:00、清轮2027-04-09 12:00，均香港时间（UTC+8）。官方仍写预计10月上旬开放且可能延迟；本次未确认提交入口开放，不由未来截止或Apply now文字推定已可提交。",
+      "value": "2027/28主轮2027-01-04 12:00、清轮2027-04-09 12:00，均香港时间（UTC+8）。2026-10-11项目门户与学院页日期一致，并可读取R394公开申请说明；本次未登录或测试实际提交，开放状态仍待确认。"
+    },
+    {
+      "file": "data/project-summaries.json",
+      "path": "/records/27/cycle/sourceIds/2",
+      "operation": "add",
+      "value": "hku_ris_portal_20261011"
+    },
+    {
+      "file": "data/project-summaries.json",
+      "path": "/records/27/cycle/sourceIds/3",
+      "operation": "add",
+      "value": "hku_ris_faculty_20261011"
+    },
+    {
+      "file": "data/project-summaries.json",
+      "path": "/records/27/cautions/1/text",
+      "operation": "replace",
+      "old": "通用材料清单可供准备，RIS专属CV、PS、研究计划和推荐信要求尚未完整核实。课程页存在其他专业的模板残留，本摘要未采用这些内容。",
+      "value": "当前2027年9月入学项目页明确列个人陈述、成绩单与CV；其R394材料须知明确不要求推荐信。PDF本身未标年份，按本次项目页链接适用；PS字数、模板和单独研究计划要求仍待确认。"
+    },
+    {
+      "file": "data/project-summaries.json",
+      "path": "/records/27/cautions/1/sourceIds/2",
+      "operation": "add",
+      "value": "hku_ris_portal_20261011"
+    },
+    {
+      "file": "data/project-summaries.json",
+      "path": "/records/27/cautions/1/sourceIds/3",
+      "operation": "add",
+      "value": "hku_ris_support_20261011"
+    },
+    {
+      "file": "data/material-summaries.json",
+      "path": "/sources/53",
+      "operation": "add",
+      "value": {
+        "id": "hku_ris_portal_20261011",
+        "label": "HKU RIS 2027年9月入学项目页（R394）",
+        "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0%20",
+        "checkedDate": "2026-10-11",
+        "section": "Master of Science in Engineering (Robotics and Intelligent Systems)；Full-time；2027 September；Entrance Requirements；Download Documents 的 R394 链接",
+        "sourceVersion": "当前项目页显示2027年9月入学及2027/28轮次；仅核读公开内容，未登录提交"
+      }
+    },
+    {
+      "file": "data/material-summaries.json",
+      "path": "/sources/54",
+      "operation": "add",
+      "value": {
+        "id": "hku_ris_faculty_20261011",
+        "label": "HKU RIS 工学院当前项目页",
+        "url": "https://mscadmissions.engg.hku.hk/master-of-science-in-engineering-in-robotics-intelligent-systems/",
+        "checkedDate": "2026-10-11",
+        "section": "Robotics and Intelligent Systems标题、2027-28日期、72学分及通向R394的项目链接；本次页面未显示先前的10月上旬开放预期",
+        "sourceVersion": "2026-10-11当前公开项目页；不由Apply Now推断实际提交可用"
+      }
+    },
+    {
+      "file": "data/material-summaries.json",
+      "path": "/sources/55",
+      "operation": "add",
+      "value": {
+        "id": "hku_ris_support_20261011",
+        "label": "HKU 工学院 R394 当前链接材料须知（两页）",
+        "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R394&pDOCUMENT_TYPE=SUPPORTDOCUMENT",
+        "checkedDate": "2026-10-11",
+        "section": "Notes on Submission of Supporting Documents；两页完整核读：推荐信不要求、通知后补件期限、成绩/学位/语言/身份证明、翻译和申请阶段免邮寄",
+        "sourceVersion": "PDF本身未标年份；2026-10-11由显示2027年9月入学的RIS项目页及R394申请说明页直接链接，保留该适用范围",
+        "sha256": "05ed83e1479ae38ef71304ee9564adcc2ff5cdd620c44e6bcd1f71dd92c2f646"
+      }
+    },
+    {
+      "file": "data/material-summaries.json",
+      "path": "/records/12/summary",
+      "operation": "replace",
+      "old": "先准备认证本科成绩与学历及适用的英语证明；RIS专属文书和推荐信清单仍待核对。",
+      "value": "2027年9月入学项目页明确列个人陈述、成绩单与CV；当前关联材料须知写明不要求推荐信。通用学历和语言要求仍按各自来源准备。"
+    },
+    {
+      "file": "data/material-summaries.json",
+      "path": "/records/12/unknowns/0",
+      "operation": "replace",
+      "old": "RIS 2027/28专属Instructions and Supporting Documents尚未确认；旧周期页面所链未标周期R394清单不移用于本轮。CV、PS、研究计划、推荐信数量及附加文件尚待当期项目确认。",
+      "value": "RIS个人陈述字数及模板、是否另需独立研究计划尚未明确；已核CV与PS不能推出研究计划必交。R394材料PDF未标年份，本次仅确认其由当前2027入学项目页直接链接。"
+    },
+    {
+      "file": "data/material-summaries.json",
+      "path": "/records/12/scopeNotes/2",
+      "operation": "add",
+      "value": "2026-10-11仅补核RIS项目文书、关联材料须知与日期说明；原通用英语来源及其有效期差异保留，不标成全部要求已重新核验。"
+    },
+    {
+      "file": "data/material-summaries.json",
+      "path": "/records/12/scopeNotes/3",
+      "operation": "add",
+      "value": "当前R394材料须知明确不要求推荐信；这不等于已证实可选提交推荐信。该须知还说明申请阶段免邮寄，补件以提交后邮件通知及其一个月期限为准；补件通知不代表录取。"
+    },
+    {
+      "file": "data/material-summaries.json",
+      "path": "/records/12/requirements/3/text",
+      "operation": "replace",
+      "old": "RIS专属CV、PS、研究计划、推荐信数量尚未核实，不能把研究型项目的清单写为本项目必需。",
+      "value": "2027年9月入学RIS项目页明确要求用个人陈述、成绩单和CV说明申请动机与完成项目的潜力。PS字数与格式、单独研究计划要求未在此处写明。"
+    },
+    {
+      "file": "data/material-summaries.json",
+      "path": "/records/12/requirements/3/requirementStatus",
+      "operation": "replace",
+      "old": "unknown",
+      "value": "required"
+    },
+    {
+      "file": "data/material-summaries.json",
+      "path": "/records/12/requirements/3/sourceIds/1",
+      "operation": "add",
+      "value": "hku_ris_portal_20261011"
+    },
+    {
+      "file": "data/material-summaries.json",
+      "path": "/records/12/requirements/4/text",
+      "operation": "replace",
+      "old": "2027/28主轮2027-01-04 12:00、清轮2027-04-09 12:00，均香港时间（UTC+8）。官方仍写预计10月上旬开放且可能延迟；本次未确认提交入口开放，不由未来截止或Apply now文字推定已可提交。",
+      "value": "2027/28主轮2027-01-04 12:00、清轮2027-04-09 12:00，均香港时间（UTC+8）。2026-10-11项目门户与学院页日期一致，并可读取R394公开申请说明；本次未登录或测试实际提交，开放状态仍待确认。"
+    },
+    {
+      "file": "data/material-summaries.json",
+      "path": "/records/12/requirements/4/sourceIds/2",
+      "operation": "add",
+      "value": "hku_ris_portal_20261011"
+    },
+    {
+      "file": "data/material-summaries.json",
+      "path": "/records/12/requirements/4/sourceIds/3",
+      "operation": "add",
+      "value": "hku_ris_faculty_20261011"
+    },
+    {
+      "file": "data/material-summaries.json",
+      "path": "/records/12/sourceIds/4",
+      "operation": "add",
+      "value": "hku_ris_portal_20261011"
+    },
+    {
+      "file": "data/material-summaries.json",
+      "path": "/records/12/sourceIds/5",
+      "operation": "add",
+      "value": "hku_ris_faculty_20261011"
+    },
+    {
+      "file": "data/material-summaries.json",
+      "path": "/records/12/sourceIds/6",
+      "operation": "add",
+      "value": "hku_ris_support_20261011"
+    }
+  ]
+}

@@ -22,10 +22,10 @@
   "newExperienceRecords": 1,
   "materialRecords": 19,
   "materialSupplementRecords": 17,
-  "materialSupplementSources": 53,
+  "materialSupplementSources": 56,
   "projectSummaryRecords": 32,
   "projectSummarySchools": 13,
-  "projectSummarySources": 76,
+  "projectSummarySources": 79,
   "preservedProjectSummaryRecords": 17,
   "newProjectSummaryRecords": 10,
   "pageOverviews": 5,
@@ -42,18 +42,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 60195,
-      "sha256": "545846180a9cb584859d766369dba0ec333559094960d05349c5e3680506d7b5"
+      "bytes": 61317,
+      "sha256": "413bc31167c96decfa56467ba0f6ea448d48918d796e1b0907cefa05564ed11f"
     },
     {
       "path": "REPO-MAP.md",
-      "bytes": 14739,
-      "sha256": "c189bc65b4fca90e4dbd6b813544802a06ec5e8b81afd9cf318cb7cb5699c3f2"
+      "bytes": 15351,
+      "sha256": "f371c1f29002efd776fb2d9f1e7a6ba04f7b7ab68033b8d3edca2b6f03a09f91"
     },
     {
       "path": "assets/app.js",
       "bytes": 75312,
-      "sha256": "52e7c893443c9d1695a0e0029e1a39428ee8f4f6b482c6047bc797cacf14ccfa"
+      "sha256": "4d576aee0eb788786bc0b27bb6043d5b6308ac364dfe0522a380e2ea5a6ba9a7"
     },
     {
       "path": "assets/appointments.js",
@@ -157,8 +157,8 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 3757508,
-      "sha256": "2016695433ef037543aef3128c2673d8bf7e7d4199be614137d985c7aa72d7a0"
+      "bytes": 3758716,
+      "sha256": "6d373a4f75f1449aec911be6c888abca9b83f5fe7099c2541f5f8cfd8993fd5c"
     },
     {
       "path": "data/four-schools-exploration-20261006.json",
@@ -187,8 +187,8 @@
     },
     {
       "path": "data/material-summaries.json",
-      "bytes": 91706,
-      "sha256": "c95ac15b3cac2abd4e4e8cd18e7102e51dffcdb00afe4145d9b0371e8f6e72c8"
+      "bytes": 94339,
+      "sha256": "f9f659f15e141da6b6e7183e6ac3175369e1b95e3f9d4d1e3edeea2c2a40d150"
     },
     {
       "path": "data/nju-advisor-review-20261005.json",
@@ -207,8 +207,8 @@
     },
     {
       "path": "data/project-summaries.json",
-      "bytes": 109344,
-      "sha256": "446d5e279b4ca674d5c4fd11aec2601e984207e3435c8673e3abaae4f135b166"
+      "bytes": 111425,
+      "sha256": "bd338f3d5d16a4ec5561768326db8839d4b359f2820119322ab419b93b6f02d9"
     },
     {
       "path": "data/ra-positions.json",
@@ -268,7 +268,7 @@
     {
       "path": "index.html",
       "bytes": 9137,
-      "sha256": "dc8c86eb904d2ac07f6a8764b05ab70a1f3568e36951743eb967ae33ae30c462"
+      "sha256": "e85165491a635f65d27b66d1b35c50208ddc04e01517a89103a9328196acedc4"
     },
     {
       "path": "package.json",
@@ -282,8 +282,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 12796,
-      "sha256": "ed683a9a3fc49abc835b78531973e57727cd2c51518de84a322ca9d8aa1b2a20"
+      "bytes": 12957,
+      "sha256": "2584330b48027352de3544c1cbd5b5df4251aece61fb47caa403702a15724a33"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -339,6 +339,11 @@
       "path": "tests/cityu-cycle-review.test.mjs",
       "bytes": 4033,
       "sha256": "c319a506c31b0ff2fd71a419d486cb52263d5d133dfb4a30f36d37d4ad015db0"
+    },
+    {
+      "path": "tests/combined-evidence-reviews.test.mjs",
+      "bytes": 12943,
+      "sha256": "80eba90e9d323080046bfcaba1ce42ab23cbf1218c13a7b37ae2d07d1424a04b"
     },
     {
       "path": "tests/concurrent-reference-baseline.mjs",
@@ -437,8 +442,8 @@
     },
     {
       "path": "tests/evidence-reviews.mjs",
-      "bytes": 44252,
-      "sha256": "b861991d12fed06ff5ee325ff96b074e28a8d2b9682480738e5b362d8588941d"
+      "bytes": 45019,
+      "sha256": "f00435414e89561e697034b8eee3661ea2ee5d08f49cacafc8900561f4f8d446"
     },
     {
       "path": "tests/experience-batch-20261004-baseline.mjs",
@@ -504,6 +509,11 @@
       "path": "tests/fixtures/evidence/appointments-20261010.json",
       "bytes": 409075,
       "sha256": "49d0b3ced5962b4686c0e368998f471bc20a8922e5e4ce2155aab9156a8e99c3"
+    },
+    {
+      "path": "tests/fixtures/evidence/hku-ris-materials-20261011.json",
+      "bytes": 14509,
+      "sha256": "363d5714471f91fcc43bbbf4b0749c1ab048efb78da178164eecf66530dd7af1"
     },
     {
       "path": "tests/fixtures/evidence/homepages-20261010.json",
@@ -699,6 +709,11 @@
       "path": "tests/hku-ris-baseline.mjs",
       "bytes": 872,
       "sha256": "3b2085d61e86fec81606351573eb42445b3771862c2264bd864f129ba8aa426b"
+    },
+    {
+      "path": "tests/hku-ris-materials-20261011.test.mjs",
+      "bytes": 5874,
+      "sha256": "ec2f58ef8cf71bf54b31b6b66db616568403e5d89ee76b27efa4373a23aa8c90"
     },
     {
       "path": "tests/hku-ris.test.mjs",
