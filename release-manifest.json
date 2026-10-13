@@ -62,8 +62,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 75375,
-      "sha256": "3b7731440e1c07f9cc42f930b77dc510a608cbf0189b738876f8cfe46a98754a"
+      "bytes": 75526,
+      "sha256": "6dc76904681fec1979a53d1aced54cf886802c158b40ff1b621678d6179ec4a4"
     },
     {
       "path": "assets/appointments.js",
@@ -298,7 +298,7 @@
     {
       "path": "index.html",
       "bytes": 11951,
-      "sha256": "3d99e95f262a9f4b7b5a882a7d3c48c86200f061c8f69b9b364d34301a1f2a20"
+      "sha256": "2b5e97ea9d4215883a4e4b24c1c4f96711289ef89ec40fce4f1f89d22db4c3b4"
     },
     {
       "path": "package-lock.json",
@@ -477,8 +477,8 @@
     },
     {
       "path": "tests/editorial-views.test.mjs",
-      "bytes": 6288,
-      "sha256": "494cf12e1dfdbf2763f4f1ba701cff2071a387244bc45b9b6ebd77b9ecd97932"
+      "bytes": 10544,
+      "sha256": "efba668d7b564579d58bdcfd920b6d5d96677ac190a2f672a731c0bbaf96f732"
     },
     {
       "path": "tests/evidence-reviews.mjs",

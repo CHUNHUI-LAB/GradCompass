@@ -2,13 +2,69 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {renderProjectCard,renderDeadlineTimeline,renderMaterialCard,renderSourceDirectory} from '../assets/editorial-views.js';
-import {filterDeadlines,deadlineStatus,escapeHTML,readerText,sourcesOf} from '../assets/core.js';
+import {filterDeadlines,deadlineStatus,escapeHTML,readerText,sourcesOf,browseRoutes,matchesSearch,institutionLabel,isBrowsableRoute,degreeLabel} from '../assets/core.js';
 import {normalizeMaterialSupplement} from '../assets/material-supplement.js';
 import {normalizeExperiences,renderExperiences,renderExperienceEvidence} from '../assets/experiences.js';
 
 const read = name => JSON.parse(fs.readFileSync(new URL('../data/'+name,import.meta.url)));
 const catalog = {...read('catalog.json'),raPositions:read('ra-positions.json').raPositions};
 const escaped = value => escapeHTML(readerText(value));
+
+// Run the current application functions with a small DOM boundary. These are
+// behavior contracts, not browser/layout acceptance or a second implementation.
+const appSource = fs.readFileSync(new URL('../assets/app.js',import.meta.url),'utf8');
+const materialMatchSource = appSource.slice(appSource.indexOf('function materialMatches('),appSource.indexOf('\nfunction materialCard('));
+const traySource = appSource.slice(appSource.indexOf('function updateTray(){'),appSource.indexOf('\nfunction showCompareLimit('));
+const currentMaterialMatches = new Function('catalog','state','browseRoutes','displayInstitution','matchesSearch',`${materialMatchSource}; return materialMatches;`);
+const materialCatalog = {...catalog,materials:[...catalog.materials,...normalizeMaterialSupplement(read('material-summaries.json'),catalog)]};
+const materialIds = filters => materialCatalog.materials.filter(currentMaterialMatches(materialCatalog,filters,browseRoutes,institutionLabel,matchesSearch)).map(record=>record.id);
+
+test('project comparison accessible names follow selection, removal and clear',()=>{
+ const route = catalog.routes[0];
+ for(const initiallySelected of [false,true]) {
+  const html = renderProjectCard(route,{catalog,selectedIds:initiallySelected?[route.id]:[]});
+  const attributes = html.match(/<button[^>]*data-compare-project=[^>]*>/)[0];
+  const button = {dataset:{compareProject:route.id},attrs:{'aria-label':attributes.match(/aria-label="([^"]+)"/)[1]},
+   setAttribute(key,value){this.attrs[key]=String(value);},getAttribute(key){return this.attrs[key];}};
+  const nodes = new Map(), $ = selector => {if(!nodes.has(selector))nodes.set(selector,{setAttribute(){}});return nodes.get(selector);};
+  const document = {body:{classList:{toggle(){}}},querySelectorAll:selector=>selector==='[data-compare-project]'?[button]:[]};
+  const update = new Function('catalog','currentView','projectCompareIds','compareIds','$','document','buildOpportunities',`${traySource}; updateTray();`);
+  for(const selected of [true,false,true,false]) {
+   update(catalog,'routes',selected?[route.id]:[],[],$,document,()=>[]);
+   assert.equal(button.attrs['aria-pressed'],String(selected));
+   assert.equal(button.textContent,selected?'已选项目':'＋ 加入对比');
+   assert.equal(button.attrs['aria-label'].startsWith(selected?'移出比较：':'加入比较：'),true);
+  }
+ }
+});
+
+test('material search matches separated words in real recorded requirements',()=>{
+ const before = JSON.stringify(materialCatalog);
+ assert(materialIds({query:'IELTS 6.5'}).includes('hku-mphil-materials'));
+ assert(materialIds({query:'6.5 IELTS'}).includes('hku-mphil-materials'));
+ assert.equal(materialIds({query:'IELTS zero-nonexistent-material-word'}).length,0);
+ assert.equal(JSON.stringify(materialCatalog),before);
+});
+
+test('material search normalizes full-width text and surrounding whitespace',()=>{
+ const expected = materialIds({query:'IELTS'});
+ assert(expected.length>0);
+ assert.deepEqual(materialIds({query:'ＩＥＬＴＳ'}),expected);
+ assert.deepEqual(materialIds({query:'  IELTS  '}),expected);
+ assert.deepEqual(materialIds({query:'   '}),materialIds({query:''}));
+});
+
+test('empty material search preserves institution and degree gates without mutating evidence',()=>{
+ const before = JSON.stringify(materialCatalog);
+ for(const filters of [{},{institution:'HKU'},{opportunityType:'MPhil'},{institution:'HKU',opportunityType:'MPhil'},{institution:'PolyU',opportunityType:'MSc'},{opportunityType:'RA'},{institution:'not-a-school'}]) {
+  const routes = materialCatalog.routes.filter(route=>isBrowsableRoute(route)&&(!filters.institution||route.institution===filters.institution)&&(!filters.opportunityType||degreeLabel(route)===filters.opportunityType));
+  const ids = new Set(routes.map(route=>route.id));
+  const expected = materialCatalog.materials.filter(material=>(!filters.institution||material.institution===filters.institution)&&material.routeIds?.some(id=>ids.has(id))).map(material=>material.id);
+  assert.deepEqual(materialIds({...filters,query:''}),expected);
+ }
+ assert.equal(materialIds({query:''}).length,19);
+ assert.equal(JSON.stringify(materialCatalog),before);
+});
 
 test('project rows preserve independent record actions, exact conditions and selection',()=>{
  const before = JSON.stringify(catalog);

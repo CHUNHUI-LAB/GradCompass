@@ -10,7 +10,7 @@ import {normalizeMaterialSupplement} from './material-supplement.js?v=b0c35cbda1
 import {renderRecordSummary,supervisorAssociationText,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=127e40e7b02d';
 import {normalizeExperiences,renderExperiences,renderExperienceReading,renderExperienceEvidence,renderExperienceResults} from './experiences.js?v=43e00b87988c';
 import {profileMap,profileSummary,renderProfile,renderProfileReferences,renderHomepageRecruitment} from './profiles.js?v=68304478accd';
-import {nameInitials,rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue} from './core.js?v=67f72bbe4700';
+import {nameInitials,rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue,matchesSearch} from './core.js?v=67f72bbe4700';
 const $=selector=>document.querySelector(selector);
 const e=value=>escapeHTML(readerText(value));
 const experienceFilters={query:'',collection:''};
@@ -65,7 +65,7 @@ function renderDeadlines(){
  $('#view-content').innerHTML=records.length?renderDeadlineTimeline(records,{catalog}):emptyResult();
  setCount(records.length);
 }
-function materialMatches(m){if(state.institution&&m.institution!==state.institution)return false;const ids=new Set(browseRoutes(catalog,{...state,query:''}).map(r=>r.id));if(m.routeIds?.length&&!m.routeIds.some(id=>ids.has(id)))return false;if(!m.routeIds?.some(id=>ids.has(id)))return false;if(state.query&&!JSON.stringify([m.title,m.requirements,m.items,m.note,displayInstitution(m.institution)]).toLowerCase().includes(state.query.toLowerCase()))return false;return true;}
+function materialMatches(m){if(state.institution&&m.institution!==state.institution)return false;const ids=new Set(browseRoutes(catalog,{...state,query:''}).map(r=>r.id));if(m.routeIds?.length&&!m.routeIds.some(id=>ids.has(id)))return false;if(!m.routeIds?.some(id=>ids.has(id)))return false;if(state.query&&!matchesSearch(JSON.stringify([m.title,m.requirements,m.items,m.note,displayInstitution(m.institution)]),state.query))return false;return true;}
 function materialCard(m){return renderMaterialCard(m,{catalog});}
 function renderMaterials(){
  const records=(catalog.materials||[]).filter(materialMatches),schools=new Set((catalog.materials||[]).map(m=>m.institution));
@@ -392,7 +392,7 @@ function updateTray(){
   const selected=compareIds.includes(b.dataset.compare);b.setAttribute('aria-pressed',String(selected));b.textContent=selected?'已选':'＋ 比较';
   const label=b.getAttribute?.('aria-label');if(label)b.setAttribute('aria-label',label.replace(/^(加入|移出)比较/,selected?'移出比较':'加入比较'));
  }
- for(const b of document.querySelectorAll('[data-compare-project]')){const selected=projectCompareIds.includes(b.dataset.compareProject);b.setAttribute('aria-pressed',String(selected));b.textContent=selected?'已选项目':'＋ 加入对比';}
+ for(const b of document.querySelectorAll('[data-compare-project]')){const selected=projectCompareIds.includes(b.dataset.compareProject);b.setAttribute('aria-pressed',String(selected));b.textContent=selected?'已选项目':'＋ 加入对比';const label=b.getAttribute?.('aria-label');if(label)b.setAttribute('aria-label',label.replace(/^(加入|移出)比较/,selected?'移出比较':'加入比较'));}
  for(const feedback of document.querySelectorAll('.compare-inline-feedback'))feedback.remove?.();
 }
 function showCompareLimit(trigger,message){
