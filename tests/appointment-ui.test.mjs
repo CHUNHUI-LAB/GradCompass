@@ -42,7 +42,7 @@ const row=()=>el('#active-filters');
 const chips=()=>row().children.filter(child=>child.dataset.removeFilter);
 const chip=key=>chips().find(child=>child.dataset.removeFilter===key);
 const change=(name,value)=>{const control=el('#'+name+'-filter');control.value=value;control.focus();control.listeners.change({target:control})};
-const search=value=>{const control=el('#search');control.value=value;control.focus();control.listeners.input({target:control})};
+const search=value=>{const control=el('#search');control.value=value;control.focus();control.listeners.input({target:control});control.listeners.keydown({key:'Enter',preventDefault(){}})};
 const view=name=>{location.hash='#'+name;navigation.hashchange()};
 const click=button=>{assert(button,'expected visible filter action');button.focus();row().listeners.click({target:button})};
 const remove=key=>click(chip(key));

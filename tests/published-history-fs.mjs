@@ -25,6 +25,28 @@ export function decodePublishedArchive(compressed){
  return snapshot;
 }
 const archive=decodePublishedArchive(fs.readFileSync(new URL('./fixtures/history/published-inputs-4653bbd.json.gz',import.meta.url)));
+// The dated release manifest also lists test programs. These previously fell
+// through to mutable working files, so a current UI test edit invalidated old
+// release evidence. This separate additive archive preserves only those old
+// test bytes; the original published archive and all expected hashes stay exact.
+export const publishedTestArchiveSha256='15764d5605492772346f5bb167059277bc93ed42846ac8e7674ef3c057548f51';
+export function decodePublishedTestArchive(compressed){
+ assert.equal(sha(compressed),publishedTestArchiveSha256,'immutable published test input archive');
+ const snapshot=JSON.parse(gunzipSync(compressed));
+ assert.equal(snapshot.schemaVersion,1);assert.equal(snapshot.sourceCommit,'273739928bd6c0e4a17005105f708d0030d7cdd8');assert.equal(snapshot.publishedManifestCommit,publishedCommit);
+ const manifest=JSON.parse(Buffer.from(archive.files['release-manifest.json'].base64,'base64'));
+ for(const [name,row] of Object.entries(snapshot.files)){
+  assert(name.startsWith('tests/')&&!name.split('/').includes('..'),'test-only historical path');
+  assert(!Object.hasOwn(archive.files,name),'original published input must not be shadowed');
+  const expected=manifest.allowedFiles.find(file=>file.path===name);assert(expected,'test must belong to the published manifest');
+  const bytes=Buffer.from(row.base64,'base64');assert.equal(bytes.length,row.bytes,name+' historical test length');assert.equal(sha(bytes),row.sha256,name+' historical test SHA-256');
+  assert.equal(row.bytes,expected.bytes,name+' original manifest length');assert.equal(row.sha256,expected.sha256,name+' original manifest SHA-256');
+ }
+ return snapshot;
+}
+const testArchive=decodePublishedTestArchive(fs.readFileSync(new URL('./fixtures/history/published-test-inputs-2737399.json.gz',import.meta.url)));
+export const publishedTestPaths=Object.freeze(Object.keys(testArchive.files));
+export function publishedTestBytes(name){assert(Object.hasOwn(testArchive.files,name),'unarchived historical test: '+name);return Buffer.from(testArchive.files[name].base64,'base64');}
 export const publishedIdentities=Object.freeze(structuredClone(archive.identities));
 export const publishedPaths=Object.freeze(Object.keys(archive.files));
 export function publishedBytes(name){assert(Object.hasOwn(archive.files,name),'unarchived historical input: '+name);return Buffer.from(archive.files[name].base64,'base64');}
@@ -40,7 +62,10 @@ export default {...fs,readFileSync(file,options){
  const filename=file instanceof URL?fileURLToPath(file):typeof file==='string'?file:null;
  if(filename===null)return fs.readFileSync(file,options);
  const relative=path.relative(root,filename).split(path.sep).join('/');
- if(!Object.hasOwn(archive.files,relative))return fs.readFileSync(file,options);
- const bytes=publishedBytes(relative),encoding=typeof options==='string'?options:options?.encoding;
- return encoding?bytes.toString(encoding):bytes;
+ const encoding=typeof options==='string'?options:options?.encoding;
+ if(!Object.hasOwn(archive.files,relative)){
+  if(!Object.hasOwn(testArchive.files,relative))return fs.readFileSync(file,options);
+  const bytes=publishedTestBytes(relative);return encoding?bytes.toString(encoding):bytes;
+ }
+ const bytes=publishedBytes(relative);return encoding?bytes.toString(encoding):bytes;
 }};

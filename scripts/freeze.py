@@ -17,13 +17,17 @@ if not isinstance(manifest,dict) or manifest.get('project')!='GradCompass':
 # Version only the changed dependency chain; unchanged modules retain their URLs.
 def version(name):return hashlib.sha256((root/name).read_bytes()).hexdigest()[:12]
 app=root/'assets/app.js'
-app_text=app.read_text()
+dataset_owners=[app,root/'assets/editorial-views.js']
+source_text={owner:owner.read_text() for owner in dataset_owners}
 for name in ['catalog.json','material-summaries.json','project-summaries.json','advisor-profiles.json','sustech-advisor-review-20261004.json','tsinghua-advisor-review-20261004.json','pku-advisor-review-20261004.json','zju-advisor-review-20261005.json','fudan-advisor-review-20261005.json','sjtu-advisor-review-20261005.json','nju-advisor-review-20261005.json','ustc-advisor-review-20261005.json','tongji-advisor-review-20261005.json','seu-advisor-review-20261005.json','sjtu-robotics-advisor-review-20261005.json']:
-    app_text,count=re.subn(r"(?<=[/'])"+re.escape(name)+r"(?:\?v=[0-9a-f]+)?(?=')",name+'?v='+version('data/'+name),app_text)
+    count=0
+    for owner in dataset_owners:
+        source_text[owner],replaced=re.subn(r"(?<=[/'])"+re.escape(name)+r"(?:\?v=[0-9a-f]+)?(?=')",name+'?v='+version('data/'+name),source_text[owner])
+        count+=replaced
     if count!=1:raise SystemExit('Expected exactly one changed dataset URL: '+name)
-app_text,count=re.subn(r"new URL\('\.\./data/application-experiences\.json(?:\?v=[0-9a-f]+)?'", "new URL('../data/application-experiences.json?v="+version('data/application-experiences.json')+"'",app_text)
+source_text[app],count=re.subn(r"new URL\('\.\./data/application-experiences\.json(?:\?v=[0-9a-f]+)?'", "new URL('../data/application-experiences.json?v="+version('data/application-experiences.json')+"'",source_text[app])
 if count!=1:raise SystemExit('Expected exactly one versioned experience dataset URL')
-app.write_text(app_text)
+for owner,text in source_text.items():owner.write_text(text)
 # Content-version the complete local dependency graph, including changed leaves.
 # The dependency walk is acyclic; no stale unversioned core import may survive.
 visited=set()
@@ -73,6 +77,7 @@ files.extend(['tests/published-history-fs.mjs','tests/published-history-inputs.t
 files.extend(['audits/homepage-enrichment-20261010.json','tests/homepage-enrichment.test.mjs','tests/fixtures/evidence/homepages-20261010.json'])
 files.extend(['assets/appointments.js','audits/appointment-review-20261010.json','audits/appointment-summary-20261010.md','tests/appointments.test.mjs','tests/appointment-ui.test.mjs','tests/fixtures/evidence/appointments-20261010.json'])
 files.extend(['tests/fixtures/evidence/hku-ris-materials-20261011.json','tests/hku-ris-materials-20261011.test.mjs'])
+files.extend(['assets/advisor-cards.js','assets/editorial-views.js','assets/reader.js','assets/result-dom.js','assets/opportunity-comparison.js','tests/advisor-cards.test.mjs','tests/editorial-views.test.mjs','tests/reader.test.mjs','tests/opportunity-comparison.test.mjs','REDESIGN.md','package-lock.json','tests/fixtures/history/published-test-inputs-2737399.json.gz','tests/published-test-inputs.test.mjs'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):

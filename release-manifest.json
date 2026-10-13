@@ -42,8 +42,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 61317,
-      "sha256": "413bc31167c96decfa56467ba0f6ea448d48918d796e1b0907cefa05564ed11f"
+      "bytes": 61874,
+      "sha256": "a0eeffd33fd51c75224b871f5b4a9f8089719bee5a9ecefef6eca31b21621fac"
+    },
+    {
+      "path": "REDESIGN.md",
+      "bytes": 4800,
+      "sha256": "ff97baf6d38d545a4be9f521d3669359d63f639bb28f6927539ee89c942d17f9"
     },
     {
       "path": "REPO-MAP.md",
@@ -51,9 +56,14 @@
       "sha256": "f371c1f29002efd776fb2d9f1e7a6ba04f7b7ab68033b8d3edca2b6f03a09f91"
     },
     {
+      "path": "assets/advisor-cards.js",
+      "bytes": 7471,
+      "sha256": "2933fd946ffba3d9d6a113d21e8415f9a6c6a5ec89f192fc8d06c5891900703b"
+    },
+    {
       "path": "assets/app.js",
-      "bytes": 75312,
-      "sha256": "d9dae8a2757bc636fffbc433f6969617bee9e4612f094f9bc39f6cea42472206"
+      "bytes": 75375,
+      "sha256": "3b7731440e1c07f9cc42f930b77dc510a608cbf0189b738876f8cfe46a98754a"
     },
     {
       "path": "assets/appointments.js",
@@ -67,13 +77,18 @@
     },
     {
       "path": "assets/core.js",
-      "bytes": 34328,
-      "sha256": "bb95e1b2a919391b45f2b1368408c43844a688bf22ae2cfc5a3c99afe92f8e9f"
+      "bytes": 34582,
+      "sha256": "67f72bbe4700831bf815747ca945e619d06e70494361168b0e3ec4e42be19ab6"
+    },
+    {
+      "path": "assets/editorial-views.js",
+      "bytes": 16176,
+      "sha256": "1f896da1b3be9554050dba5a2e74098aebc447776a1528da221e73345af19593"
     },
     {
       "path": "assets/experiences.js",
-      "bytes": 22992,
-      "sha256": "c9a60ea35e0918615622f146b2d0172c2da158f5901536de48b9419aa6110f56"
+      "bytes": 23160,
+      "sha256": "43e00b87988cb3935fe115838dfbdfe478435bef9ff7d18dd919995c7c19e4e7"
     },
     {
       "path": "assets/favicon.svg",
@@ -83,32 +98,47 @@
     {
       "path": "assets/material-supplement.js",
       "bytes": 1866,
-      "sha256": "1f991657d410c085c901d927d7225a0e996de78b800f73cc5e537a24683a9687"
+      "sha256": "b0c35cbda1d62b926854a7b906b76132ca19d578aa9e51d9eb88d2f33484bba8"
+    },
+    {
+      "path": "assets/opportunity-comparison.js",
+      "bytes": 12397,
+      "sha256": "178aa7fcac7181a6667cdd8e940ad6f61f146b54031ce113308e865a6842cfb7"
     },
     {
       "path": "assets/page-overviews.js",
       "bytes": 15555,
-      "sha256": "aaa63b83428ac3e7670cd657fc423d2a8bc3a76040a6eea1fcc0236785b5b90a"
+      "sha256": "8121755a1b0268cb2ae188f46378dc914c3143e7041f16204d7f1eaa1fffe674"
     },
     {
       "path": "assets/profiles.js",
       "bytes": 5586,
-      "sha256": "075a5a5f0b63e27ca3532b77feca405d5ae7e993221648a0d27503fc72fe2559"
+      "sha256": "68304478accd50a788cbf60870150ed0272ce8c481654a329c06b844f3f64a11"
     },
     {
       "path": "assets/project-comparison.js",
-      "bytes": 13304,
-      "sha256": "eaf480754d360affc1643c8d25bc1b34e9290678f22d8dd859628ace2ed1a46b"
+      "bytes": 13356,
+      "sha256": "5bfa65101b995bde26b3b5967a6b1121e670d462208eb303e373f8898f5133ff"
+    },
+    {
+      "path": "assets/reader.js",
+      "bytes": 3264,
+      "sha256": "45a074f571c258cdec83d7f024484a1039b4a6f3000b8cfb08e64a5f357920d1"
     },
     {
       "path": "assets/record-summaries.js",
       "bytes": 13864,
-      "sha256": "48cb09760af42df02c221818b8cbed905f6ed8845edf4f9d68f8fc037fdd7083"
+      "sha256": "127e40e7b02d8a9de7a1e7f01d4eb8449455dee68776dd6481e8de750bbfe789"
+    },
+    {
+      "path": "assets/result-dom.js",
+      "bytes": 3830,
+      "sha256": "ea6b026bd69414e24aaa302abdc894dcca0595e09875addd9ba73acc7eaece2c"
     },
     {
       "path": "assets/style.css",
-      "bytes": 36076,
-      "sha256": "8bdf5b250a9e88e4aaf8f311f6c79520cd2b81b1702a702333ce931ee651f98a"
+      "bytes": 51995,
+      "sha256": "0515ef046af32b8a4b9fff806d78498530e046a776725e91dd7fd832cf57eaed"
     },
     {
       "path": "audits/advisor-completeness-20261009.json",
@@ -267,13 +297,18 @@
     },
     {
       "path": "index.html",
-      "bytes": 9137,
-      "sha256": "736b6776c9d4713e0f3f8d3efa9889b958b7b6f86a6ff93d02f0979d6309c6ef"
+      "bytes": 11951,
+      "sha256": "3d99e95f262a9f4b7b5a882a7d3c48c86200f061c8f69b9b364d34301a1f2a20"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 1731,
+      "sha256": "97ca1c3a88f831274b74edf42d389cbbe2bec234388902b3dd594ce41dfb1a2c"
     },
     {
       "path": "package.json",
-      "bytes": 323,
-      "sha256": "366ebedf1c6e0c53ae713c0eb17ee755ae64ddf63a8d8650ff8abdc3a1f30ce6"
+      "bytes": 448,
+      "sha256": "7f02d963c20408d16146a53533be96a63e3860352ff23431ed2c904e4b4c5317"
     },
     {
       "path": "scripts/audit_advisors.py",
@@ -282,8 +317,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 12746,
-      "sha256": "8053e0429ba6cf05a8915e17d30b2a13e717b3f5865cd3d99ced03f79abd204e"
+      "bytes": 13400,
+      "sha256": "0d7983ea5db8062ba000f3d9f7e96abeb1b79fa89b5ace663d7e20e6a6a2c2a4"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -292,13 +327,18 @@
     },
     {
       "path": "tests/active-filters.test.mjs",
-      "bytes": 14912,
-      "sha256": "a88a30518e32a3a51f35f9b1a276b07ff3b8474f42158a5c3f840b2d86c554a6"
+      "bytes": 16887,
+      "sha256": "5324c8b3f35176958c95e6903350d00548e855c64bb1ad3282edcec3992ce43b"
     },
     {
       "path": "tests/advisor-additions-baseline.mjs",
       "bytes": 1190,
       "sha256": "81d22a366b6c4ac6879985117bc8d09d940c7fdfa682b83bf2014a465bc80310"
+    },
+    {
+      "path": "tests/advisor-cards.test.mjs",
+      "bytes": 8664,
+      "sha256": "1a948c655c2d1c20f23018e8d0b99379d6a72e440e505853ab9b8b732b851664"
     },
     {
       "path": "tests/advisor-completeness-audit.test.mjs",
@@ -307,8 +347,8 @@
     },
     {
       "path": "tests/appointment-ui.test.mjs",
-      "bytes": 7716,
-      "sha256": "19fa432211772d07bc299f5e74bc7cc93c3305841161b6b1bb87955c37fecc99"
+      "bytes": 7776,
+      "sha256": "17c49304073d6233c6fe79863e07d0bc8668f265bf418ee492b17b9e707e86c9"
     },
     {
       "path": "tests/appointments.test.mjs",
@@ -327,8 +367,8 @@
     },
     {
       "path": "tests/browser-smoke.mjs",
-      "bytes": 5765,
-      "sha256": "aaf7a8d262266710b7de1b2daf990b4ac1f9f63169daafd47554fe5200e0dd35"
+      "bytes": 24433,
+      "sha256": "f8f1c8854a7d1399a53ab9b8f504109d317fec4bc1c93b54b1e20b589da88052"
     },
     {
       "path": "tests/cityu-current-cycle.test.mjs",
@@ -352,8 +392,8 @@
     },
     {
       "path": "tests/core.test.mjs",
-      "bytes": 9818,
-      "sha256": "c7e23fe5620ad23c1431faae6ef5e68c5eef33fe142c770af9ef1d3ffdad3f19"
+      "bytes": 9817,
+      "sha256": "1147bb45266b60942f69086d79e719a85e86e997220941561a9398d79f04c762"
     },
     {
       "path": "tests/cuhk-deadline-20261007-baseline.mjs",
@@ -417,8 +457,8 @@
     },
     {
       "path": "tests/detail-return-focus.test.mjs",
-      "bytes": 13933,
-      "sha256": "79397d1959725bf16429b3ea253eea477ed89d3da68ea516a1ae8582d27a7f86"
+      "bytes": 13992,
+      "sha256": "eabbeee0ed989a54d791d28c092992494c4d8a5623cccca0142e822c346c4767"
     },
     {
       "path": "tests/detail-ui-baseline.mjs",
@@ -434,6 +474,11 @@
       "path": "tests/editorial-design.test.mjs",
       "bytes": 5508,
       "sha256": "7946933b5adcc54851124d818e60790e47f581ad712d929b065e0828a155b071"
+    },
+    {
+      "path": "tests/editorial-views.test.mjs",
+      "bytes": 6288,
+      "sha256": "494cf12e1dfdbf2763f4f1ba701cff2071a387244bc45b9b6ebd77b9ecd97932"
     },
     {
       "path": "tests/evidence-reviews.mjs",
@@ -462,8 +507,8 @@
     },
     {
       "path": "tests/experience-navigation.test.mjs",
-      "bytes": 18372,
-      "sha256": "95ea54ed8e49a34790cb70d91cdda922a4545464eaa25568ffc9732623200d63"
+      "bytes": 18667,
+      "sha256": "124462747c6ec2dc64716aa897975ed4e29c38bead3a6cc8a9dc2c85693f2e94"
     },
     {
       "path": "tests/experience-october.test.mjs",
@@ -492,13 +537,13 @@
     },
     {
       "path": "tests/f2-comparison-navigation.test.mjs",
-      "bytes": 23505,
-      "sha256": "402952fbab116b408acb0ce376af5e6a1f5233ff7c85cfcb34553d6c1432a405"
+      "bytes": 23564,
+      "sha256": "0ae7da41a15e646746e5966cc0816d8f5db06893e3efec8de64c49efa3a94bc1"
     },
     {
       "path": "tests/f2-design.test.mjs",
-      "bytes": 5708,
-      "sha256": "91b1522252bc90362e84102364db83738240447f2d3a1546422d1da72e52869f"
+      "bytes": 6924,
+      "sha256": "3c7e0cce8ba3713819ea9945ae467ce6634c8e1974dcc0673b7f3cde9a120ce7"
     },
     {
       "path": "tests/fixtures/evidence/appointments-20261010.json",
@@ -539,6 +584,11 @@
       "path": "tests/fixtures/history/published-inputs-4653bbd.json.gz",
       "bytes": 1511665,
       "sha256": "a97bb5479abfc737a6059928e70d8401c3d16668e9eeff8e5483c7aaa6c571ef"
+    },
+    {
+      "path": "tests/fixtures/history/published-test-inputs-2737399.json.gz",
+      "bytes": 61269,
+      "sha256": "15764d5605492772346f5bb167059277bc93ed42846ac8e7674ef3c057548f51"
     },
     {
       "path": "tests/fixtures/history/reviewed-avatar-initials.json",
@@ -747,8 +797,8 @@
     },
     {
       "path": "tests/material-loading.test.mjs",
-      "bytes": 6069,
-      "sha256": "f877db51c21e22ef2e5314877891d25d1c28377d2c308d211e0d3d1e60b1ecfe"
+      "bytes": 6201,
+      "sha256": "84c7cc8fcf54185335cb744550fbb23e2504a883ba0e2ee76893b12ef52c9bf3"
     },
     {
       "path": "tests/material-supplement.test.mjs",
@@ -771,9 +821,14 @@
       "sha256": "e422114cd46ebea2af3c15c0db9ad85c6326a1298a06d307b27b26487f032292"
     },
     {
+      "path": "tests/opportunity-comparison.test.mjs",
+      "bytes": 6914,
+      "sha256": "84462b922c7b81c08161a8b2f11c212a05355e7c0311ce14b8d2fbca66a25b8d"
+    },
+    {
       "path": "tests/optional-loading.test.mjs",
-      "bytes": 19525,
-      "sha256": "b7421b854c71183de03ddb3ed985ec89fefbd863a73b616528f960a757066c29"
+      "bytes": 19920,
+      "sha256": "25955c2a37e23a6ba9fc01e3a525d73181c15e372a4cf525b59b56b2e17d8c76"
     },
     {
       "path": "tests/overseas-additions.test.mjs",
@@ -787,8 +842,8 @@
     },
     {
       "path": "tests/page-overview-navigation.test.mjs",
-      "bytes": 7341,
-      "sha256": "1eef914b15f91373f8619c9f0edd1cfbf7ff18faca91ee4da9489951491f5340"
+      "bytes": 7433,
+      "sha256": "6080b516193bb86bc1455617a701dd7f482cbf875e4add641e96fc406f835e6d"
     },
     {
       "path": "tests/page-overviews-browser.mjs",
@@ -912,13 +967,18 @@
     },
     {
       "path": "tests/published-history-fs.mjs",
-      "bytes": 3347,
-      "sha256": "b5a588f6daff2496bb68ad9b2ee9b4d25bd861a21d203b27df3c975c61a9d619"
+      "bytes": 5559,
+      "sha256": "a6c5f56997695046ee74299af1fae27de23829abc554861ad5cf8cd01586808b"
     },
     {
       "path": "tests/published-history-inputs.test.mjs",
       "bytes": 2444,
       "sha256": "d49a1ba469c5327898294f5b63f925a94496a2459609201f6be7ed9c3f499fb2"
+    },
+    {
+      "path": "tests/published-test-inputs.test.mjs",
+      "bytes": 1915,
+      "sha256": "c23a300eed44fa0c27fd793672c196bfc63ce078c10cbf32185cea9791f06854"
     },
     {
       "path": "tests/ra-deadline-20261007-baseline.mjs",
@@ -946,6 +1006,11 @@
       "sha256": "62324145b4ca4c2d988c3f83ba1c8e6c955ec770f1796d2fef1a8dab73578cf6"
     },
     {
+      "path": "tests/reader.test.mjs",
+      "bytes": 6212,
+      "sha256": "fe36980d48cbea18d93686ba6d1929b59e6732998f2072548ee447f678cd4b38"
+    },
+    {
       "path": "tests/record-summaries.test.mjs",
       "bytes": 8697,
       "sha256": "6d4c69d1e5ae1dc0f4f0ec1f93671704d808e08ae5f12923dad6988b434214d8"
@@ -962,8 +1027,8 @@
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 26303,
-      "sha256": "7da4635af5cc1ae7e36cde9f3bb16c7345a133dd599e5bb13e40a02969091935"
+      "bytes": 26852,
+      "sha256": "c93cce130ce22a15c2331e16ed50ef89f2918bce4931944648167933dc6bfc27"
     },
     {
       "path": "tests/resource-versions.test.mjs",
@@ -1119,5 +1184,13 @@
     "synthesizedExperienceRecords": 26,
     "pendingSynthesisRecords": 1,
     "scope": "Bounded public-data review, exact historical replay and content packaging; not deployment or browser acceptance"
+  },
+  "frontendCandidate": {
+    "revision": "editorial-redesign-20261013",
+    "baseCommit": "273739928bd6c0e4a17005105f708d0030d7cdd8",
+    "date": "2026-10-13",
+    "status": "release via main branch GitHub Pages; deployment and public acceptance tracked separately",
+    "browserAcceptance": "Local Chrome behavior and viewport checks recorded in REDESIGN.md and the delivered validation report.",
+    "historicalMetadata": "Existing top-level batch metadata is retained unchanged; this object describes the frontend candidate only."
   }
 }

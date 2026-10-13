@@ -90,7 +90,7 @@ async function setup({hash = '#routes', delayedProjects = false, delayedFile = n
  const close = id => click('[data-close]', {close:id});
  const escape = id => { let prevented = false; el('#' + id).listeners.cancel({preventDefault(){ prevented = true; }}); assert(prevented); };
  const change = (name, value) => { const input = el('#' + name + '-filter'); input.value = value; input.listeners.change({target:input}); };
- const search = value => { const input = el('#search'); input.value = value; input.listeners.input({target:input}); };
+ const search = value => { const input = el('#search'); input.value = value; input.listeners.input({target:input}); input.listeners.keydown({key:'Enter',preventDefault(){}}); };
  const navigate = hash => { history.pushState(null, '', hash); navigation.hashchange(); };
  return {el, events, navigation, history, entries, choose, remove, compare, summary, close, escape, change, search, navigate, click, releaseProjects, projects, fixture, get index(){ return index; }};
 }

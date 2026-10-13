@@ -8,14 +8,14 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>GradCompass · 找导师与项目</title>
 <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
-<link rel="stylesheet" href="./assets/style.css?v=8bdf5b250a9e">
-<script type="module" src="./assets/app.js?v=d9dae8a2757b"></script>
+<link rel="stylesheet" href="./assets/style.css?v=0515ef046af3">
+<script type="module" src="./assets/app.js?v=3b7731440e1c"></script>
 </head>
 <body>
 <a class="skip-link" href="#results">跳到结果</a>
 <header class="site-header">
   <a class="brand" href="#advisors" aria-label="GradCompass 首页"><svg class="brand-compass" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="17" stroke="currentColor" stroke-width="1.7"/><path d="m27 12-5 11-10 5 5-11Z" stroke="currentColor" stroke-width="1.7"/><path d="m27 12-7 8-3-3Z" fill="currentColor"/></svg><span>GradCompass</span></a>
-  <button id="menu-toggle" class="menu-toggle" type="button" aria-label="展开主导航" aria-expanded="false" aria-controls="primary-nav"><span aria-hidden="true">☰</span></button>
+  <button id="menu-toggle" class="menu-toggle" type="button" aria-label="展开主导航" aria-expanded="false" aria-controls="primary-nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button>
   <nav aria-label="主导航" id="primary-nav">
     <a href="#advisors" data-view="advisors" aria-current="page"><span>找导师</span><small class="nav-purpose">看方向与招生</small></a>
     <a href="#routes" data-view="routes"><span>申请项目</span><small class="nav-purpose">查学位与条件</small></a>
@@ -23,19 +23,33 @@
     <a href="#materials" data-view="materials"><span>申请材料</span><small class="nav-purpose">查官方材料要求</small></a>
     <a href="#experiences" data-view="experiences"><span>申请经验</span><small class="nav-purpose">看他人申请经历</small></a>
     <a href="#sources" data-view="sources"><span>信息来源</span><small class="nav-purpose">核对证据与更新</small></a>
+    <span id="nav-indicator" aria-hidden="true"></span>
   </nav>
-  <span class="header-motto">公开信息整理 · 申请前请核对</span>
+  <span class="header-motto">RESEARCH, IN FOCUS.</span>
 </header>
-<main>
-  <section class="intro" aria-labelledby="page-title">
-    <div><p class="eyebrow">GRADUATE RESEARCH · SOURCE-BACKED</p><h1 id="page-title">找到适合你的研究方向</h1><p id="page-description">了解导师与项目，从信息整理走向清晰选择</p></div>
-    <div class="edition"><span id="checked-date">核验于 2026-10-01</span><a href="#sources">每日检查已启用 · 首轮待验证</a></div>
+<main data-current-view="advisors">
+  <section class="intro is-intro-play" aria-labelledby="page-title">
+    <div class="intro-copy"><p class="eyebrow">YOUR NEXT CHAPTER IN RESEARCH</p><h1 id="page-title">找到适合你的研究方向</h1><p id="page-description">研究方向、导师与申请机会，一处梳理。</p></div>
+    <div class="intro-aside">
+      <svg class="hero-compass" viewBox="0 0 240 144" fill="none" aria-hidden="true">
+        <g class="compass-grid" stroke="currentColor" stroke-width=".75"><path d="M8 72h224M120 5v134"/><circle cx="120" cy="72" r="55"/><circle cx="120" cy="72" r="35" stroke-dasharray="2 5"/><path d="M67 19l106 106M67 125 173 19" stroke-dasharray="2 5"/></g>
+        <g class="compass-drawing" stroke="currentColor" stroke-width="1.25" stroke-linejoin="round"><path pathLength="1" d="m147 35-16 48-48 26 26-48z"/><path pathLength="1" d="m147 35-27 37-11-11"/><path pathLength="1" d="m120 72 11 11"/></g>
+        <circle class="compass-center" cx="120" cy="72" r="2.5" fill="currentColor"/>
+        <g class="compass-labels" fill="currentColor" font-size="8"><text x="116" y="10">N</text><text x="116" y="141">S</text><text x="2" y="75">W</text><text x="232" y="75">E</text></g>
+      </svg>
+      <div class="edition"><span id="checked-date">核验于 2026-10-01</span><a href="#sources">查看来源与更新</a></div>
+    </div>
   </section>
   <section class="search-surface" aria-label="搜索机会">
     <label class="search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><span id="search-label" class="sr-only">搜索导师、学校、研究方向或项目</span><input id="search" type="search" placeholder="搜索导师、研究方向或项目…" autocomplete="off"><kbd aria-hidden="true">/</kbd></label><button class="search-go" type="button" data-find-results aria-label="查看筛选结果">搜索</button>
     
   </section>
-    <aside class="filters" aria-label="筛选条件">
+  <div class="mobile-filter-toolbar">
+    <button id="mobile-filter-toggle" class="mobile-filter-toggle" type="button" aria-controls="filter-dialog" aria-haspopup="dialog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="2.5" fill="currentColor" stroke="none"/><circle cx="15" cy="17" r="2.5" fill="currentColor" stroke="none"/></svg>筛选<span id="mobile-filter-count" class="filter-count" hidden>0</span></button>
+    <span class="mobile-filter-hint">从研究兴趣开始探索</span>
+  </div>
+  <aside class="filters" aria-label="筛选条件">
+      <div class="filter-heading"><h2 id="filter-title">筛选导师</h2><button id="reset-filters" class="text-button">重置</button></div>
 
       <label id="institution-filter-label">学校<select id="institution-filter"><option value="">全部学校</option></select></label>
       <label id="topic-filter-label">研究方向<select id="topic-filter"><option value="">全部研究方向</option></select></label>
@@ -49,16 +63,16 @@
       <label id="opening-filter-label"><span id="opening-filter-name">招生信息</span><select id="opening-filter"><option value="">全部招生信息</option><option value="explicit">已找到招生说明</option><option value="unknown">招生年份或名额待确认</option><option value="closed">已明确停止招生</option></select></label>
       <p class="small-note" id="opening-filter-note">有招生说明不代表当年仍有名额；RA 按岗位招聘信息筛选</p>
 <a href="#sources" class="small-link">查看核验方法与来源</a></div></details>
-      <div class="filter-heading"><h2 id="filter-title">筛选导师</h2><button id="reset-filters" class="text-button">重置</button></div>
     </aside>
 
-  <div id="page-overview" hidden></div>
+  <div id="page-overview"><details class="guide-disclosure" data-disclosure-key="guide-advisors"><summary><span>先了解研究，再核对机会</span><span class="guide-hint">阅读指南</span></summary><div class="guide-content"><p class="small-note">正在载入目录与阅读指南。可先输入研究方向，资料就绪后核对导师、具体项目与原始来源。</p></div></details></div>
   <div class="workspace">
 
     <section id="results" class="results" tabindex="-1" aria-labelledby="results-title">
       <div class="results-heading"><div><h2 id="results-title" tabindex="-1">找导师</h2><p id="result-count" role="status" aria-live="polite">正在载入目录与证据…</p></div><span id="results-note" class="quiet">导师全集保留，已核实关联与岗位分别展示</span></div>
       <div id="active-filters" class="active-filters" role="group" aria-label="当前筛选条件" hidden></div>
       <p id="view-description" class="view-description"></p>
+      <div id="supplement-status" class="supplement-status" role="status" hidden></div>
       <div id="view-content" tabindex="-1"><div class="loading"><span></span>正在载入数据</div></div>
     </section>
   </div>
@@ -68,6 +82,11 @@
 <div id="compare-tray" class="compare-tray" hidden><div><strong id="compare-count">已选 0 项</strong><span id="compare-names"></span></div><button id="compare-clear" class="text-button">清空</button><button id="compare-open" class="primary-button" disabled>比较已选机会</button></div>
 <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-top"><span class="reader-brand">GradCompass</span><span id="detail-kind" class="eyebrow">信息摘要</span><button id="detail-back" class="detail-button" type="button">← 返回结果</button><button class="close-button" data-close="detail-dialog" aria-label="关闭详情">关闭 <span aria-hidden="true">×</span></button></div><div id="detail-content"></div></dialog>
 <dialog id="compare-dialog" class="compare-dialog" aria-labelledby="compare-title"><div class="dialog-top"><h2 id="compare-title">把申请选择放在一起看</h2><button class="close-button" data-close="compare-dialog" aria-label="关闭比较">关闭 <span aria-hidden="true">×</span></button></div><div id="compare-content"></div></dialog>
+<dialog id="filter-dialog" class="filter-sheet" aria-labelledby="filter-dialog-title">
+  <div class="filter-sheet-heading"><div><p class="eyebrow">REFINE YOUR SEARCH</p><h2 id="filter-dialog-title">筛选条件</h2></div><button id="filter-cancel" class="close-button" type="button" aria-label="取消筛选并关闭">取消 <span aria-hidden="true">×</span></button></div>
+  <div class="filter-sheet-body"></div>
+  <div class="filter-sheet-footer"><p id="filter-draft-count" role="status" aria-live="polite">选择条件后查看结果</p><button id="filter-apply" class="primary-button" type="button">查看结果 <span aria-hidden="true">→</span></button></div>
+</dialog>
 <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
 <noscript><p class="noscript">交互筛选需要 JavaScript。仍可直接阅读 <a href="./data/catalog.json">公开数据文件</a></p></noscript>
 </body>

@@ -23,7 +23,7 @@ test('async project introductions refresh overview and list while preserving act
  releaseProjects();await new Promise(resolve=>setImmediate(resolve));assert(el('#page-overview').innerHTML.includes('28 个项目有培养与研究简介'));assert.equal(el('#institution-filter').value,'HKU');assert.equal(el('#result-count').textContent,'6 个学位项目');assert(el('#view-content').innerHTML.includes('当前结果中 5 个有简介'));
 });
 test('overview remains page-wide under zero results and direct summary actions still work',()=>{
- view('routes');el('#search').listeners.input({target:{value:'no-matching-project-xyz'}});assert(el('#result-count').textContent.startsWith('0 '));assert(el('#page-overview').innerHTML.includes('全页 34 个项目'));
+ view('routes');el('#search').value='no-matching-project-xyz';el('#search').listeners.input({target:el('#search')});el('#search').listeners.keydown({key:'Enter',preventDefault(){}});assert(el('#result-count').textContent.startsWith('0 '));assert(el('#page-overview').innerHTML.includes('全页 34 个项目'));
  click('[data-summary-kind]',{summaryKind:'project',summaryId:'HKUST-CSE-MPhil'});assert(el('#detail-dialog').open);assert(el('#detail-content').innerHTML.includes('培养与研究简介'));click('[data-close]',{close:'detail-dialog'});assert(!el('#detail-dialog').open);assert(el('#result-count').textContent.startsWith('0 '));
 });
 test('named quick filters deterministically replace only the current page filters',()=>{
