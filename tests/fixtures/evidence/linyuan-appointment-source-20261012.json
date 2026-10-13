@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-12",
+  "baseCommit": "4653bbd56a237a618a58c6f599e32e071ddf7094",
+  "reviewAgainstCommit": "273739928bd6c0e4a17005105f708d0030d7cdd8",
+  "scope": "Only correct the evidence scope of the existing USTC Linyuan Lü appointment source and append a directly supporting official report. Preserve the March 2023 date interval, original review date/window, classification, all other 333 profiles, catalog, research and admissions claims. Historical receipts and audits are immutable.",
+  "officialEvidence": [
+    {
+      "url": "https://news.ustc.edu.cn/dsscddh/info/1005/1633.htm",
+      "title": "我校两位教授荣获第十九届中国青年女科学家奖",
+      "section": "2024-04-29 官方报道“吕琳媛”简介明确写明“2023年3月入职中国科学技术大学”；支持入职月份，不证明具体日、招生名额或完整职业史。",
+      "checkedDate": "2026-10-12"
+    }
+  ],
+  "operations": [
+    {
+      "file": "data/advisor-profiles.json",
+      "path": "/profiles/333/appointmentReview/sources/0/readScope",
+      "operation": "replace",
+      "old": "2023 年 3 月转入中国科大；此前在杭州师范大学、电子科技大学任职。",
+      "value": "原研究生招生页未明确给出 2023 年 3 月入职日期；仅保留作既有导师介绍来源，不作为该入职月份的直接证据。入职月份以新增的校方新闻报道为准。"
+    },
+    {
+      "file": "data/advisor-profiles.json",
+      "path": "/profiles/333/appointmentReview/sources/1",
+      "operation": "add",
+      "value": {
+        "url": "https://news.ustc.edu.cn/dsscddh/info/1005/1633.htm",
+        "checkedDate": "2026-10-12",
+        "title": "我校两位教授荣获第十九届中国青年女科学家奖",
+        "readScope": "2024-04-29 官方报道“吕琳媛”简介明确写明“2023年3月入职中国科学技术大学”；支持入职月份，不证明具体日、招生名额或完整职业史。"
+      }
+    }
+  ]
+}

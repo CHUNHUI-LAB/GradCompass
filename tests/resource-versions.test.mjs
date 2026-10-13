@@ -69,3 +69,15 @@ test('README public navigation overview matches current counts without implying 
  assert(overview.includes('334 位导师均可查阅'));assert(overview.includes('个人学位关联 57 条'));assert(overview.includes('RA 岗位 2 条'));assert(overview.includes('新增博士项目参考另行标注'));assert(overview.includes('65 个项目均可查阅'));const counts=JSON.parse(execFileSync(process.execPath,['scripts/public-counts.mjs'],{cwd:fileURLToPath(root),encoding:'utf8'}));assert(overview.includes(`${counts.projectSummaryRecords} 份培养与研究简介`));assert(overview.includes(`${counts.materialRecords} 组官方材料摘要`));assert(!overview.includes('背景资格仍是底层收录条件'));
  const materials=readme.split('## 材料补充与范围\n')[1]?.split('\n## ')[0];const source=JSON.parse(fs.readFileSync(new URL('data/material-summaries.json',root)));const used=new Set(source.records.flatMap(r=>r.requirements.flatMap(q=>q.sourceIds)));const unique=new Set(source.sources.map(s=>s.url));const cited=new Set(source.sources.filter(s=>used.has(s.id)).map(s=>s.url));assert(materials.includes(`${source.records.length} 组官方摘要`));assert(materials.includes(`${source.sources.length} 个标识、${unique.size} 个不同网址`));assert(materials.includes(`${cited.size} 个不同网址`));assert(materials.includes(`共 ${counts.materialRecords} 组`));
 });
+
+
+test('footer preserves source navigation and exposes both related production sites',()=>{
+ const footer=html.match(/<footer\b[^>]*>[\s\S]*?<\/footer>/)?.[0];assert(footer);
+ assert(footer.includes('<a href="#sources" data-view="sources">数据说明与更新状态</a>'));
+ const links=[...footer.matchAll(/<a\b([^>]*)href="([^"]+)"([^>]*)>/g)];
+ assert.equal(links.length,3);
+ for(const name of ['RoboPaperAtlas','IELTSOrbit']){
+  const matches=links.filter(m=>m[2]===`https://chunhui-lab.github.io/${name}/`);assert.equal(matches.length,1,name);
+  const attrs=matches[0][1]+matches[0][3];assert.match(attrs,/target="_blank"/);assert.match(attrs,/rel="noopener noreferrer"/);assert(!attrs.includes('data-view'));
+ }
+});
