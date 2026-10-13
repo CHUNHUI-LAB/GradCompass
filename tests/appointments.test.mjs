@@ -7,6 +7,24 @@ import {renderAppointmentReview} from '../assets/profiles.js';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url)));
 const catalog=read('data/catalog.json'),profiles=read('data/advisor-profiles.json').profiles;
 const audit=read('audits/appointment-review-20261010.json'),receipt=read('tests/fixtures/evidence/appointments-20261010.json');
+const sourceReceipt=read('tests/fixtures/evidence/linyuan-appointment-source-20261012.json');
+const originalProfiles=structuredClone(profiles);
+const sourceReview=originalProfiles[333].appointmentReview;
+assert.equal(originalProfiles[333].advisorId,'ustc-lv-linyuan');
+assert.equal(sourceReceipt.baseCommit,'4653bbd56a237a618a58c6f599e32e071ddf7094');
+assert.equal(sourceReceipt.reviewAgainstCommit,'273739928bd6c0e4a17005105f708d0030d7cdd8');
+assert.equal(sourceReceipt.reviewDate,'2026-10-12');
+assert.deepEqual(sourceReceipt.operations.map(({file,path,operation})=>({file,path,operation})),[
+ {file:'data/advisor-profiles.json',path:'/profiles/333/appointmentReview/sources/0/readScope',operation:'replace'},
+ {file:'data/advisor-profiles.json',path:'/profiles/333/appointmentReview/sources/1',operation:'add'}
+]);
+assert.equal(sourceReview.sources.length,2);
+assert.deepEqual(sourceReview.sources[1],sourceReceipt.operations[1].value);
+assert.equal(sourceReview.sources[1].url,'https://news.ustc.edu.cn/dsscddh/info/1005/1633.htm');
+assert.equal(sourceReview.sources[1].checkedDate,'2026-10-12');
+assert.equal(sourceReview.sources[0].readScope,sourceReceipt.operations[0].value);
+sourceReview.sources.pop();
+sourceReview.sources[0].readScope=sourceReceipt.operations[0].old;
 const map=new Map(profiles.map(p=>[p.advisorId,p]));
 const live={...catalog,advisorProfiles:map};
 const ids=(filters={})=>new Set(browseAdvisors(live,filters).map(x=>x.id));
@@ -14,19 +32,19 @@ const r=id=>map.get(id).appointmentReview;
 const sample=(start,end=start,context='unknown')=>({appointmentReview:{status:'verified',eventType:'first_faculty_research_appointment_current_institution',appointmentConfirmed:true,earliestDate:start,latestDate:end,careerContext:context,dateText:'公开日期',noteZh:'公开履历',sources:[{url:'https://example.org/cv',title:'CV',checkedDate:'2026-10-10'}]}});
 
 test('every existing advisor has a separate appointment review, with exact evidence operations and no catalog changes',()=>{
- assert.equal(profiles.length,334);assert.equal(audit.count,334);assert.equal(receipt.operations.length,334);
+ assert.equal(originalProfiles.length,334);assert.equal(audit.count,334);assert.equal(receipt.operations.length,334);
  assert.equal(new Set(audit.advisors.map(a=>a.advisorId)).size,334);
- for(let i=0;i<profiles.length;i++){
-  const p=profiles[i],row=audit.advisors.find(a=>a.advisorId===p.advisorId);assert(row,p.advisorId);
+ for(let i=0;i<originalProfiles.length;i++){
+  const p=originalProfiles[i],row=audit.advisors.find(a=>a.advisorId===p.advisorId);assert(row,p.advisorId);
   assert.deepEqual(row.appointmentReview,p.appointmentReview);assert.equal(row.classification,appointmentStatus(p));
   assert.deepEqual(receipt.operations[i],{file:'data/advisor-profiles.json',path:`/profiles/${i}/appointmentReview`,operation:'add',value:p.appointmentReview});
   assert.equal(p.appointmentReview.checkedDate,'2026-10-10');assert.deepEqual(p.appointmentReview.window,appointmentWindow);
  }
- const counts={};for(const p of profiles){const status=appointmentStatus(p);counts[status]=(counts[status]||0)+1;}
+ const counts={};for(const p of originalProfiles){const status=appointmentStatus(p);counts[status]=(counts[status]||0)+1;}
  assert.deepEqual(counts,audit.classificationCounts);assert.equal(counts.recent+counts.earlier+counts.boundary,audit.verifiedDateCount);
  assert.equal(catalog.advisors.length,334);assert.equal(filterOpportunities(catalog).length,57);
  const evidence=new Set(receipt.officialEvidence.map(s=>s.url));
- for(const p of profiles)if(p.appointmentReview.status==='verified'){
+ for(const p of originalProfiles)if(p.appointmentReview.status==='verified'){
   assert(p.appointmentReview.sources.length);assert(p.appointmentReview.precision);assert(p.appointmentReview.appointmentConfirmed);
   for(const s of p.appointmentReview.sources){assert(evidence.has(s.url));assert.equal(new URL(s.url).protocol,'https:');assert(s.readScope&&s.title);assert(s.checkedDate<='2026-10-10');}
  }
@@ -74,4 +92,16 @@ test('appointment details render precision, source dates, conflicts and safe str
  const recentUnknown=renderAppointmentReview(map.get('nju-tong-xin'));assert(!recentUnknown.includes('入职时间待核实'));assert(!recentUnknown.includes('教研职业早期线索；按公开履历分类'));
  assert.match(renderAppointmentReview(map.get('sjtu-xu-yunwen')),/五年边界待核实/);assert.match(renderAppointmentReview(map.get('tsinghua-shuguang-li')),/月份存在差异/);
  const attack=sample('2024-01-01');attack.appointmentReview.noteZh='<img onerror=bad>';attack.appointmentReview.sources.push({url:'javascript:alert(1)',title:'<script>',checkedDate:'2026-10-10'});const html=renderAppointmentReview(attack);assert(!html.includes('<img'));assert(!html.includes('javascript:'));assert(html.includes('&lt;img'));assert.equal(renderAppointmentReview(null),'');
+});
+
+test('Linyuan source repair preserves all appointment facts and admits only the one later checked source',()=>{
+ for(let i=0;i<profiles.length;i++){
+  if(i!==333){assert.deepEqual(profiles[i],originalProfiles[i]);continue;}
+  const current=structuredClone(profiles[i]);
+  current.appointmentReview.sources=structuredClone(originalProfiles[i].appointmentReview.sources);
+  assert.deepEqual(current,originalProfiles[i]);
+  assert.equal(appointmentStatus(profiles[i]),appointmentStatus(originalProfiles[i]));
+  assert.match(profiles[i].appointmentReview.sources[0].readScope,/未明确给出/);
+  assert.match(profiles[i].appointmentReview.sources[1].readScope,/2023年3月入职中国科学技术大学/);
+ }
 });

@@ -73,6 +73,7 @@ files.extend(['tests/published-history-fs.mjs','tests/published-history-inputs.t
 files.extend(['audits/homepage-enrichment-20261010.json','tests/homepage-enrichment.test.mjs','tests/fixtures/evidence/homepages-20261010.json'])
 files.extend(['assets/appointments.js','audits/appointment-review-20261010.json','audits/appointment-summary-20261010.md','tests/appointments.test.mjs','tests/appointment-ui.test.mjs','tests/fixtures/evidence/appointments-20261010.json'])
 files.extend(['tests/fixtures/evidence/hku-ris-materials-20261011.json','tests/hku-ris-materials-20261011.test.mjs'])
+files.append('tests/fixtures/evidence/linyuan-appointment-source-20261012.json')
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):

@@ -14,7 +14,7 @@
   "raPositionCount": 2,
   "newAdvisorProfiles": 26,
   "preservedAdvisorProfiles": 30,
-  "newProfileCitedSourceCount": 438,
+  "newProfileCitedSourceCount": 439,
   "experienceRecords": 27,
   "defaultExperienceRecords": 27,
   "experienceSourceSites": 20,
@@ -53,7 +53,7 @@
     {
       "path": "assets/app.js",
       "bytes": 75312,
-      "sha256": "d9dae8a2757bc636fffbc433f6969617bee9e4612f094f9bc39f6cea42472206"
+      "sha256": "fe95af3b50f4b9e201ddac15868356d3e235ff312389bdeee7d27497d98fbf71"
     },
     {
       "path": "assets/appointments.js",
@@ -137,8 +137,8 @@
     },
     {
       "path": "data/advisor-profiles.json",
-      "bytes": 2653393,
-      "sha256": "2c7906666484cd06e994f1ea09de7b81b2af0813419b994c2955179b0f79c7cf"
+      "bytes": 2653936,
+      "sha256": "e0ec210a6a61c7f20f743bd593b49ff45e0bd9de4c7fd4ba5f1729a53d7015b5"
     },
     {
       "path": "data/application-experience-provenance.json",
@@ -267,8 +267,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 9137,
-      "sha256": "736b6776c9d4713e0f3f8d3efa9889b958b7b6f86a6ff93d02f0979d6309c6ef"
+      "bytes": 9387,
+      "sha256": "91f9a016c8051684f5aebf3af11e3598cd7fc259584ebe2ca8981101f1cd4aa0"
     },
     {
       "path": "package.json",
@@ -282,8 +282,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 12746,
-      "sha256": "8053e0429ba6cf05a8915e17d30b2a13e717b3f5865cd3d99ced03f79abd204e"
+      "bytes": 12827,
+      "sha256": "b5786fc06d7fa7ab2e23eb68457717288c27784034458ef0ad9fb7bd22c2d2ea"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -312,8 +312,8 @@
     },
     {
       "path": "tests/appointments.test.mjs",
-      "bytes": 8201,
-      "sha256": "050223ce5c00c039cfeb70295139b68797739179f7261654fe79854fdef6a024"
+      "bytes": 10232,
+      "sha256": "6136356af9d0c496199dc7683ea2102398acc4d5de1e318a6821d02d3e2338da"
     },
     {
       "path": "tests/avatar-initials-baseline.mjs",
@@ -437,8 +437,8 @@
     },
     {
       "path": "tests/evidence-reviews.mjs",
-      "bytes": 670,
-      "sha256": "38497ba36616a0d8fe29520975dfdf5a5ccab720f456d269745127df40486943"
+      "bytes": 818,
+      "sha256": "13f80e375ae379a346878c5c65c82b12de138d684a1ca2a8ed6eed86cab6cf6e"
     },
     {
       "path": "tests/experience-batch-20261004-baseline.mjs",
@@ -514,6 +514,11 @@
       "path": "tests/fixtures/evidence/homepages-20261010.json",
       "bytes": 93680,
       "sha256": "357e92c32d5d194eef4c0a953f2635f4e31749e3ec7dedf88b8734a8372be53a"
+    },
+    {
+      "path": "tests/fixtures/evidence/linyuan-appointment-source-20261012.json",
+      "bytes": 2020,
+      "sha256": "aa9ddb3946794f8d6272422291739937726c9ecc5483cbc4c442d6afbfa9e6c4"
     },
     {
       "path": "tests/fixtures/evidence/maintenance-20261008.json",
@@ -967,8 +972,8 @@
     },
     {
       "path": "tests/resource-versions.test.mjs",
-      "bytes": 10122,
-      "sha256": "df56bbf0051bb6e5971698bcb07d4fa3f763b6b2ecab17d22086a9d723a324d3"
+      "bytes": 10845,
+      "sha256": "5d9835a55e3221ef898261577aa097eb7655017fa4967590ee0740547d58291f"
     },
     {
       "path": "tests/reviewed-public-data.mjs",
