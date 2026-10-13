@@ -31,3 +31,27 @@ print('eight mutation cases rejected; no browser started')
 `],{cwd:root,encoding:'utf8'});
  assert.match(result,/eight mutation cases rejected/);
 });
+
+test('desktop readiness derives exact live card identities, preserving reference advisors and multiple opportunities',async()=>{
+ const {expectedAdvisorCards}=await import('../scripts/desktop-expectations.mjs');
+ const {browseAdvisors,filterOpportunities}=await import('../assets/core.js');
+ const catalog=JSON.parse(read('data/catalog.json'));catalog.raPositions=JSON.parse(read('data/ra-positions.json')).raPositions;
+ const cards=expectedAdvisorCards(catalog),people=browseAdvisors(catalog,{}),records=filterOpportunities(catalog,{});
+ assert.deepEqual(cards.filter(c=>!c.reference).map(c=>c.opportunityId),records.map(o=>o.id));
+ assert.deepEqual([...new Set(cards.map(c=>c.advisorId))].sort(),people.map(a=>a.id).sort());
+ assert.equal(cards.filter(c=>c.reference).length,people.filter(a=>!records.some(o=>o.advisorId===a.id)).length);
+ assert(cards.length>records.length);assert(cards.length>people.length);
+ assert(!read('scripts/desktop_screenshots.py').includes('length===57'));
+ const result=execFileSync('python3',['-c',String.raw`
+import runpy,json,subprocess,copy
+m=runpy.run_path('scripts/desktop_screenshots.py')
+expected=json.loads(subprocess.check_output(['node','scripts/desktop-expectations.mjs'],text=True))
+valid={'view':'advisors','cards':expected}
+assert m['matches_advisor_view'](valid,expected)
+for changed in [[],expected[:57],expected[:-1],expected+[expected[0]],list(reversed(expected)),[dict(expected[0],advisorId='wrong')]+expected[1:],[dict(expected[0],opportunityId='wrong')]+expected[1:],[dict(expected[0],reference=True)]+expected[1:]]:
+ assert not m['matches_advisor_view']({'view':'advisors','cards':changed},expected)
+assert not m['matches_advisor_view']({'view':'sources','cards':expected},expected)
+print('exact identities accepted; nine incomplete or incorrect views rejected')
+`],{cwd:root,encoding:'utf8'});
+ assert.match(result,/nine incomplete or incorrect views rejected/);
+});

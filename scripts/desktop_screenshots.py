@@ -22,6 +22,16 @@ VIEWPORTS = [(1440, 900), (1920, 1080)]
 TARGETS = ['https://chunhui-lab.github.io/RoboPaperAtlas/',
            'https://chunhui-lab.github.io/IELTSOrbit/']
 ELEMENT = 'element-6066-11e4-a52e-4f735466cecf'
+ADVISOR_VIEW_JS = """return {view:document.querySelector('main')?.dataset.currentView,
+    cards:[...document.querySelectorAll('#view-content .advisor-card')].map(a=>({
+        advisorId:a.dataset.advisorId,opportunityId:a.dataset.opportunityId||null,
+        reference:a.dataset.referenceAdvisor==='true'})),
+    resultCount:document.querySelector('#result-count')?.textContent};"""
+
+
+def matches_advisor_view(actual, expected):
+    """Require every exact rendered card identity, never a guessed numeric count."""
+    return bool(expected) and actual.get('view') == 'advisors' and actual.get('cards') == expected
 
 
 def require(condition, message):
@@ -110,6 +120,9 @@ def main():
         head = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=root, text=True).strip()
         require(head == os.environ.get('EXPECTED_HEAD'), 'Checkout is not the requested PR head')
         report['head'] = head
+        expected_cards = json.loads(subprocess.check_output(['node', 'scripts/desktop-expectations.mjs'], cwd=root, text=True))
+        require(expected_cards, 'Public data produced no expected advisor cards')
+        report['expectedAdvisorCards'] = expected_cards
         binary = shutil.which('google-chrome') or shutil.which('chromium')
         executable = shutil.which('chromedriver')
         if not executable and os.environ.get('CHROMEWEBDRIVER'):
@@ -150,7 +163,7 @@ def main():
             prefix = f'{width}x{height}'
             driver.cdp('Emulation.setDeviceMetricsOverride', {'width': width, 'height': height, 'deviceScaleFactor': 1, 'mobile': False})
             driver.call('POST', '/url', {'url': base + '#advisors'})
-            wait_for(lambda: driver.js("return document.querySelectorAll('.advisor-card').length===57"))
+            wait_for(lambda: matches_advisor_view(driver.js(ADVISOR_VIEW_JS), expected_cards))
             require(driver.js('return [innerWidth,innerHeight]') == [width, height], 'Actual CSS viewport differs')
             capture(prefix + '-initial')
             driver.js("document.querySelector('footer').scrollIntoView({block:'end'});document.querySelector('footer a').focus({preventScroll:true});")
@@ -187,7 +200,7 @@ def main():
             wait_for(lambda: driver.js("return document.querySelector('main').dataset.currentView==='sources'"))
             capture(prefix + '-sources')
             driver.call('POST', '/back', {})
-            wait_for(lambda: driver.js("return document.querySelector('main').dataset.currentView==='advisors'&&document.querySelectorAll('.advisor-card').length===57"))
+            wait_for(lambda: matches_advisor_view(driver.js(ADVISOR_VIEW_JS), expected_cards))
             capture(prefix + '-back')
             errors = [e for e in driver.call('POST', '/log', {'type': 'browser'}) if e['level'] == 'SEVERE' and base in e.get('message', '')]
             require(not errors, 'Local candidate browser console errors')
@@ -198,6 +211,7 @@ def main():
         report.update(status='failed', error=type(error).__name__ + ': ' + str(error)[:1000])
         if driver and driver.session:
             try:
+                report['failureAdvisorView'] = driver.js(ADVISOR_VIEW_JS)
                 (out / 'failure.png').write_bytes(base64.b64decode(driver.call('GET', '/screenshot')))
             except Exception:
                 pass
