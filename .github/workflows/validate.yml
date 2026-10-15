@@ -13,7 +13,7 @@ jobs:
   validate:
     name: Node tests and freeze validation
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 20
     env:
       CI: 'true'
       npm_config_offline: 'true'

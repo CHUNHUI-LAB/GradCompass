@@ -1,5 +1,5 @@
 import {appointmentStatus,appointmentLabels,appointmentWindow} from './appointments.js?v=bbe93af17e11';
-import {escapeHTML,safeUrl} from './core.js?v=bb95e1b2a919';
+import {escapeHTML,safeUrl} from './core.js?v=67f72bbe4700';
 const e=escapeHTML;
 const link=(url,label)=>{const safe=safeUrl(url);return safe?`<a class="source-link" href="${e(safe)}" target="_blank" rel="noopener noreferrer">${e(label)}</a>`:'';};
 export function profileMap(data,advisors){const known=new Set(advisors.map(a=>a.id));const map=new Map;for(const p of data?.profiles||[]){if(known.has(p.advisorId)&&!map.has(p.advisorId))map.set(p.advisorId,p);}return map;}

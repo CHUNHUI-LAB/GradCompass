@@ -79,13 +79,14 @@ for(const entry of files){
   if(entry.view==='materials')assert(app.el('#view-content').innerHTML.includes('补充材料资料正在载入'));
   if(entry.view==='experiences')assert.equal(app.el('#result-count').textContent,'经验资料正在载入');
   if(entry.view==='routes')assert(app.el('#view-content').innerHTML.includes('项目培养简介正在载入'));
+  if(entry.view==='advisors'){app.detail('advisor',profileId);assert(app.el('#detail-content').innerHTML.includes('专业简介正在载入'));assert(!app.el('#detail-content').innerHTML.includes('专业简介待补充'));}
  });
  for(const mode of ['404','fetch-reject','json-reject','malformed'])test(entry.file+' '+mode+' degrades only its own supplement',async()=>{
   const app=await boot({file:entry.file,mode});assertCore(app);assertAvailableSiblings(app,entry.file);app.view(entry.view);
   if(entry.view==='materials'){assert.equal(app.el('#result-count').textContent,catalog.materials.length+' 组材料要求');assert(app.el('#view-content').innerHTML.includes('补充材料资料暂未载入'));}
   if(entry.view==='experiences'){assert.equal(app.el('#result-count').textContent,'经验资料暂未载入');assert(app.el('#view-content').innerHTML.includes('经验资料暂时无法读取'));}
   if(entry.view==='routes'){assert.equal(app.el('#result-count').textContent,projectCount+' 个学位项目');assert(app.el('#view-content').innerHTML.includes('项目培养简介暂未载入'));}
-  if(entry.view==='advisors'){app.detail('advisor',profileId);assert(app.el('#detail-content').innerHTML.includes('专业简介待补充'));assert(app.el('#detail-content').innerHTML.includes('研究方向与代表工作'));}
+  if(entry.view==='advisors'){app.detail('advisor',profileId);assert(app.el('#detail-content').innerHTML.includes('专业简介暂未载入'));assert(!app.el('#detail-content').innerHTML.includes('专业简介待补充'));assert(app.el('#detail-content').innerHTML.includes('研究方向与代表工作'));assert(app.el('#detail-content').innerHTML.includes('data-retry-supplement="profiles"'));}
  });
  for(const mode of ['fetch-late','json-late'])test(entry.file+' '+mode+' respects newer navigation and appears on return',async()=>{
   const app=await boot({file:entry.file,mode});assertCore(app);app.view('sources');const before=app.el('#view-content').innerHTML,writes=app.el('#view-content').writes;

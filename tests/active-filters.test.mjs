@@ -41,7 +41,7 @@ const row=()=>el('#active-filters');
 const chips=()=>row().children.filter(child=>child.dataset.removeFilter);
 const chip=key=>chips().find(child=>child.dataset.removeFilter===key);
 const change=(name,value)=>{const control=el('#'+name+'-filter');control.value=value;control.focus();control.listeners.change({target:control})};
-const search=value=>{const control=el('#search');control.value=value;control.focus();control.listeners.input({target:control})};
+const search=value=>{const control=el('#search');control.value=value;control.focus();control.listeners.input({target:control});control.listeners.keydown({key:'Enter',preventDefault(){}})};
 const view=name=>{location.hash='#'+name;navigation.hashchange()};
 const click=button=>{assert(button,'expected visible filter action');button.focus();row().listeners.click({target:button})};
 const remove=key=>click(chip(key));
@@ -113,8 +113,11 @@ test('async project refresh preserves active-chip keyboard focus and visible lab
 test('feedback uses semantic native actions, bounded color transitions, wrapping and reduced-motion opt-out',()=>{
  assert.match(html,/<div id="active-filters"[^>]*role="group"[^>]*aria-label="当前筛选条件"[^>]*hidden/);
  assert(html.indexOf('id="result-count"')<html.indexOf('id="active-filters"'));assert(html.indexOf('id="active-filters"')<html.indexOf('id="view-description"'));
- const css=fs.readFileSync(new URL('../assets/style.css',import.meta.url),'utf8'),rules=css.match(/\.filter-chip\{[^}]+\}/)[0];
- assert.match(rules,/max-width:100%/);assert.match(css,/overflow-wrap:anywhere/);assert.match(css,/min-height:44px/);assert.match(css,/160ms ease/);assert(!rules.match(/transition:[^}]*\b(?:all|transform|height|width)\b/));assert(!rules.includes('animation:'));
+ const css=fs.readFileSync(new URL('../assets/style.css',import.meta.url),'utf8').replace(/\s+/g,''),rules=css.match(/\.filter-chip\{[^}]+\}/)[0];
+ assert.match(rules,/max-width:100%/);assert.match(css,/overflow-wrap:anywhere/);assert.match(css,/min-height:44px/);
+ assert.match(css,/--motion-fast:160ms/);assert.match(css,/--ease:cubic-bezier\(\.22,1,\.36,1\)/);
+ assert.match(css,/background-colorvar\(--motion-fast\)var\(--ease\)/);
+ assert(!rules.match(/transition:[^}]*\b(?:all|transform|height|width)\b/));assert(!rules.includes('animation:'));
  assert.match(css,/@media\(prefers-reduced-motion:reduce\)[\s\S]*?transition:none!important/);
 });
 
@@ -122,4 +125,24 @@ test('feedback uses semantic native actions, bounded color transitions, wrapping
 test('explicit empty-result recovery restores a visible filter instead of the removed button',()=>{
  view('advisors');reset();search('no matching record');const recovery=new Element('', 'BUTTON');recovery.focus();dataClick('[data-reset]',{});assert.equal(document.activeElement,el('#search'));assert.equal(el('#result-count').textContent,'1 位导师 · 1 条已核实学位关联 · 0 个 RA 岗位');
  view('deadlines');change('institution','missing-school');recovery.focus();dataClick('[data-reset]',{});assert.equal(document.activeElement,el('#institution-filter'));assert.equal(el('#result-count').textContent,'1 项日期记录');view('advisors');reset();
+});
+
+test('search defers result updates without rebuilding the guide and Enter applies immediately',async()=>{
+ view('advisors');reset();const input=el('#search'),before=el('#result-count').textContent,guide=el('#page-overview').innerHTML;
+ input.focus();input.value='no deferred result';input.listeners.input({target:input});
+ assert.equal(el('#result-count').textContent,before,'input is debounced');
+ await new Promise(resolve=>setTimeout(resolve,30));assert.equal(el('#result-count').textContent,before);
+ await new Promise(resolve=>setTimeout(resolve,130));assert.equal(el('#result-count').textContent,'0 位导师 · 0 条已核实学位关联 · 0 个 RA 岗位');
+ assert.equal(el('#page-overview').innerHTML,guide);assert.equal(document.activeElement,input);
+ input.value='Sample';input.listeners.input({target:input});input.listeners.keydown({key:'Enter',preventDefault(){}});
+ assert.equal(el('#result-count').textContent,before);reset();
+});
+
+test('Chinese composition keeps committed results until compositionend and does not submit its Enter',async()=>{
+ view('advisors');reset();const input=el('#search'),before=el('#result-count').textContent;
+ input.focus();input.listeners.compositionstart({target:input});input.value='尚未匹配';input.listeners.input({target:input,isComposing:true});
+ input.listeners.keydown({key:'Enter',isComposing:true,preventDefault(){}});
+ await new Promise(resolve=>setTimeout(resolve,160));assert.equal(el('#result-count').textContent,before);
+ input.listeners.compositionend({target:input});await new Promise(resolve=>setTimeout(resolve,160));
+ assert.equal(el('#result-count').textContent,'0 位导师 · 0 条已核实学位关联 · 0 个 RA 岗位');assert.equal(document.activeElement,input);reset();
 });

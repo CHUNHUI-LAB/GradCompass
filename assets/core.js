@@ -73,9 +73,12 @@ export function hasVerifiedAssociation(advisor,route){
 }
 export function browseAdvisors(catalog,filters={}){
  const q=filters.query||'',degree=filters.opportunityType||filters.degree;
+ // All advisors share this query's employment result; compute it once rather
+ // than repeating source/profile search for every person in the directory.
+ const raAdvisorIds=degree==='RA'&&catalog.advisors?.length?new Set(filterOpportunities(catalog,filters).filter(o=>o.type==='RA').map(o=>o.advisorId)):null;
  return (catalog.advisors||[]).filter(a=>{
   if(filters.institution&&a.institution!==filters.institution||!rankMatches(a,filters)||!appointmentMatches(a,catalog,filters)||filters.topic&&!themesFor(a).includes(filters.topic))return false;
-  if(degree==='RA')return filterOpportunities(catalog,filters).some(o=>o.advisorId===a.id&&o.type==='RA');
+  if(degree==='RA')return raAdvisorIds.has(a.id);
   if(degree&&degree!=='RA'&&!routesFor(a,catalog).some(r=>isBrowsableRoute(r)&&degreeLabel(r)===degree))return false;
   if(!openingMatches(a,{...filters,degree}))return false;
   const searchable=[searchText(a,catalog),...(catalog.raPositions||[]).filter(j=>j.advisorId===a.id).map(j=>searchObjectText(j))].join(' ');
