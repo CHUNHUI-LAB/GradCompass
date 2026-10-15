@@ -2,8 +2,21 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
-import historicalFs,{publishedBytes,publishedPaths,publishedTestBytes,publishedTestPaths,decodePublishedTestArchive} from './published-history-fs.mjs';
+import historicalFs,{publishedBytes,publishedPaths,publishedIdentities,publishedTestBytes,publishedTestPaths,decodePublishedTestArchive} from './published-history-fs.mjs';
 const sha=bytes=>crypto.createHash('sha256').update(bytes).digest('hex');
+
+test('MRL render-date maintenance reuses the original published render input without another historical archive',()=>{
+ const name='tests/render.test.mjs',bytes=publishedTestBytes(name),identity=publishedIdentities[name];
+ assert.equal(bytes.length,26303);assert.equal(bytes.length,identity.bytes);
+ assert.equal(sha(bytes),'7da4635af5cc1ae7e36cde9f3bb16c7345a133dd599e5bb13e40a02969091935');
+ assert.equal(sha(bytes),identity.sha256);
+ assert.equal(crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${bytes.length}\0`),bytes])).digest('hex'),identity.gitBlob);
+ const current=fs.readFileSync(new URL('./render.test.mjs',import.meta.url),'utf8');
+ assert(current.includes("import fs from 'node:fs'"));
+ assert(current.includes("['hkust-yajing-shen','2026-10-09']"));
+ assert.notDeepEqual(Buffer.from(current),bytes);
+ assert.deepEqual(historicalFs.readFileSync(new URL('./render.test.mjs',import.meta.url)),bytes);
+});
 
 test('additive historical test bytes match the original published manifest without shadowing runtime data',()=>{
  const manifest=JSON.parse(publishedBytes('release-manifest.json'));

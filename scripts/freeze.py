@@ -78,6 +78,7 @@ files.extend(['audits/homepage-enrichment-20261010.json','tests/homepage-enrichm
 files.extend(['assets/appointments.js','audits/appointment-review-20261010.json','audits/appointment-summary-20261010.md','tests/appointments.test.mjs','tests/appointment-ui.test.mjs','tests/fixtures/evidence/appointments-20261010.json'])
 files.extend(['tests/fixtures/evidence/hku-ris-materials-20261011.json','tests/hku-ris-materials-20261011.test.mjs'])
 files.extend(['assets/advisor-cards.js','assets/editorial-views.js','assets/reader.js','assets/result-dom.js','assets/opportunity-comparison.js','tests/advisor-cards.test.mjs','tests/editorial-views.test.mjs','tests/reader.test.mjs','tests/opportunity-comparison.test.mjs','REDESIGN.md','package-lock.json','tests/fixtures/history/published-test-inputs-2737399.json.gz','tests/published-test-inputs.test.mjs'])
+files.extend(['tests/fixtures/evidence/maintenance-20261009.json','tests/combined-evidence-reviews.test.mjs'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):

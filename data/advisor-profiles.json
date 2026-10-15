@@ -1849,16 +1849,16 @@
         }
       ],
       "recruitment": {
-        "textZh": "核读时官方招募页明确 Fall 2027 MPhil（本地及国际）为 0 openings，PhD 也为 0 openings；这是该轮当前公开状态，不能外推为永久停招。页面另列 HKUST 本科 UROP/FYP 及博士后说明，均不等同于 MPhil/PhD 或 RA 名额。",
+        "textZh": "Fall 2027 MPhil 为 0 名额，普通 PhD 无名额；官网另列 HKUST–SLAI 联合培养机会。该项目完整资格、截止、资助及当前剩余名额未核实。实验室所述机会仍取决于名额、资助、项目需要及筛选；不改变MPhil普通项目关联或新增RA岗位。",
         "sources": [
           {
             "url": "https://mrl.hkust.edu.hk/openings/",
-            "checkedDate": "2026-10-02"
+            "checkedDate": "2026-10-09"
           }
         ]
       },
       "unknowns": [
-        "官方招募页核读时明确 Fall 2027 MPhil（本地及国际）与 PhD 均为 0 openings；仅限该轮当前状态",
+        "Fall 2027 普通PhD无名额；官网另列HKUST–SLAI联合培养机会，但项目招生页本轮读取超时，完整资格、截止、资助与当前剩余名额待核。MPhil仍为0名额。",
         "其他入学轮次、后续名额变化、个人资助与 RA 岗位未确认",
         "训练要求为实验室自述；实际指导体验、学生工作时间、设备和算力分配未核实",
         "Nature 正文直读发生跳转错误，已读出版社检索返回的摘要和日期；Science 正文返回 403，采用学校研究仓储摘要，未声称读完论文或补充视频"

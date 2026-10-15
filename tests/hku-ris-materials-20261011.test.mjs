@@ -5,6 +5,7 @@ import crypto from 'node:crypto';
 import {normalizeMaterialSupplement} from '../assets/material-supplement.js';
 import {normalizeProjectSummaries,renderRecordSummary} from '../assets/record-summaries.js';
 import {assertReviewedPublicData} from './reviewed-public-data.mjs';
+import {reverseBoundedRecruitmentReview} from './evidence-reviews.mjs';
 import {buildOpportunities} from '../assets/core.js';
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url));
 const json=p=>JSON.parse(read(p));
@@ -17,7 +18,13 @@ const material=normalizeMaterialSupplement(raw,catalog).find(r=>r.id==='hku-ris-
 const summary=normalizeProjectSummaries(projects,catalog).get('hku-ris-msc');
 
 test('HKU RIS review is exactly reversible to the independently fetched October 11 baseline',()=>{
- const files=Object.fromEntries(Object.keys(baselineHashes).map(p=>[p,json(p)]));
+ // Remove only the independent MRL review; earlier homepage/appointment facts
+ // belong to this baseline and must remain intact. Keep all original hashes.
+ const files=reverseBoundedRecruitmentReview(Object.fromEntries([...Object.keys(baselineHashes),'data/advisor-profiles.json'].map(p=>[p,json(p)])),read);
+ assert.equal(crypto.createHash('sha256').update(read('tests/fixtures/evidence/hku-ris-materials-20261011.json')).digest('hex'),'363d5714471f91fcc43bbbf4b0749c1ab048efb78da178164eecf66530dd7af1');
+ assert.equal(files['data/catalog.json'].routes[33].id,'hku-ris-msc');
+ assert.equal(files['data/project-summaries.json'].records[27].routeId,'hku-ris-msc');
+ assert.equal(files['data/material-summaries.json'].records[12].id,'hku-ris-msc-materials');
  for(const op of [...receipt.operations].reverse()){
   const keys=op.path.slice(1).split('/').map(k=>k.replaceAll('~1','/').replaceAll('~0','~'));
   let owner=files[op.file];for(const key of keys.slice(0,-1))owner=owner[key];const key=keys.at(-1);

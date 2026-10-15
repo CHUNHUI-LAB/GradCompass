@@ -2772,14 +2772,14 @@
       "eligibility": "verified",
       "eligibilityMeaning": "至少一条本科起点、无需推免、无需先获硕士的官方路径及导师/项目关联已记录；个人资格未评估",
       "defaultVisible": true,
-      "opening": "closed",
-      "openingSummary": "Fall 2027 MPhil / PhD 当前均为 0 名额；不代表其他轮次或永久停止招生",
+      "opening": "unknown",
+      "openingSummary": "Fall 2027 MPhil 为 0 名额，普通 PhD 无名额；官网另列 HKUST–SLAI 联合培养机会。该项目完整资格、截止、资助及当前剩余名额未核实。",
       "openings": {
         "mphil": "官方页面当前明确 Fall 2027 MPhil 为 0 名额（本地及国际申请人）；仅表示该轮当前公开状态",
         "msc": "未核实公开声明",
-        "phd": "官方页面当前明确 Fall 2027 PhD 为 0 名额；仅表示该轮当前公开状态",
+        "phd": "官方页面明确 Fall 2027 普通 PhD 无名额，同时另列 HKUST–SLAI 联合培养机会。联合培养项目细则本轮读取超时；不能按普通博士开放，也不能将该声明推定为当前尚余 1 人。",
         "ra": "本轮未找到明确公开名额/招生声明；不等于不招",
-        "cycle2027": "Fall 2027 MPhil / PhD 当前均为 0 名额；不代表其他轮次或永久停止招生"
+        "cycle2027": "Fall 2027 MPhil 为 0 名额，普通 PhD 无名额；官网另列 HKUST–SLAI 联合培养机会。该项目完整资格、截止、资助及当前剩余名额未核实。"
       },
       "openingDetails": [
         {
@@ -2820,21 +2820,21 @@
         },
         {
           "degree": "PhD",
-          "status": "closed",
-          "summary": "官方页面当前明确 Fall 2027 PhD 为 0 名额；仅表示该轮当前公开状态",
+          "status": "unknown",
+          "summary": "官方页面明确 Fall 2027 普通 PhD 无名额，同时另列 HKUST–SLAI 联合培养机会。联合培养项目细则本轮读取超时；不能按普通博士开放，也不能将该声明推定为当前尚余 1 人。",
           "cycle2027FallVerified": true,
           "cycle": "2027 Fall",
           "degreeRouteAssociated": false,
-          "sourceStatus": "zero_openings_for_fall_2027",
+          "sourceStatus": "ordinary_closed_joint_program_details_pending",
           "noticeDate": null,
           "sources": [
             {
-              "label": "公开一手来源",
+              "label": "Mevita Robotics Lab 分学位招募：普通博士与联合培养例外",
               "url": "https://mrl.hkust.edu.hk/openings/",
-              "checkedDate": "2026-10-02"
+              "checkedDate": "2026-10-09"
             }
           ],
-          "checkedDate": "2026-10-02"
+          "checkedDate": "2026-10-09"
         },
         {
           "degree": "RA",
@@ -2961,47 +2961,147 @@
         "checked_date": "2026-10-01"
       },
       "recruitmentReview": {
-        "checkedDate": "2026-10-02",
-        "checkedAt": "2026-10-02T06:18:45Z",
-        "timezone": "Asia/Hong_Kong",
-        "scope": "仅更新 Fall 2027 MPhil / PhD 招募状态，不重审学校资格或其他研究介绍",
-        "reason": "实验室当前招募页明列两类学位均为 0 openings；旧记录为 0–1。学校项目仍存在与该导师当前名额为零可以同时成立。",
-        "identityEvidence": {
-          "advisorId": "hkust-yajing-shen",
-          "name": "Yajing Shen / 申亚京",
-          "lab": "Mevita Robotics Lab",
-          "url": "https://mrl.hkust.edu.hk/team/",
-          "checkedDate": "2026-10-02"
+        "checkedDate": "2026-10-09",
+        "checkedAt": "2026-10-09T16:31:20Z",
+        "scope": "仅修正2027普通博士无名额与官网联合培养例外的区分；不重核身份研究或学校资格",
+        "reason": "官方PhD段落限定normal admissions无名额，下一句另列HKUST–SLAI联合培养机会；旧摘要未保留该例外。",
+        "previousReview": {
+          "checkedDate": "2026-10-02",
+          "checkedAt": "2026-10-02T06:18:45Z",
+          "timezone": "Asia/Hong_Kong",
+          "scope": "仅更新 Fall 2027 MPhil / PhD 招募状态，不重审学校资格或其他研究介绍",
+          "reason": "实验室当前招募页明列两类学位均为 0 openings；旧记录为 0–1。学校项目仍存在与该导师当前名额为零可以同时成立。",
+          "identityEvidence": {
+            "advisorId": "hkust-yajing-shen",
+            "name": "Yajing Shen / 申亚京",
+            "lab": "Mevita Robotics Lab",
+            "url": "https://mrl.hkust.edu.hk/team/",
+            "checkedDate": "2026-10-02"
+          },
+          "previous": {
+            "checkedDate": "2026-10-01",
+            "opening": "explicit",
+            "openingSummary": "已明确公布；0–1 不是至少 1 名",
+            "openings": {
+              "mphil": "明确 Fall 2027 0–1 openings，local/international；取决于 quota/funding/project needs/screening",
+              "msc": "未核实公开声明",
+              "phd": "明确 Fall 2027 0–1 openings；与 MPhil 分开",
+              "ra": "本轮未找到明确公开名额/招生声明；不等于不招",
+              "cycle2027": "已明确公布；0–1 不是至少 1 名"
+            },
+            "openingDetails": [
+              {
+                "degree": "MPhil",
+                "status": "explicit",
+                "summary": "明确 Fall 2027 0–1 openings，local/international；取决于 quota/funding/project needs/screening",
+                "cycle2027FallVerified": true,
+                "cycle": "2027 Fall",
+                "degreeRouteAssociated": true,
+                "sourceStatus": null,
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "公开一手来源",
+                    "url": "https://mrl.hkust.edu.hk/openings/",
+                    "checkedDate": "2026-10-01"
+                  }
+                ],
+                "checkedDate": "2026-10-01"
+              },
+              {
+                "degree": "MSc",
+                "status": "unknown",
+                "summary": "未核实公开声明",
+                "cycle2027FallVerified": false,
+                "cycle": "Unspecified or unverified for Fall 2027",
+                "degreeRouteAssociated": false,
+                "sourceStatus": null,
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "公开一手来源",
+                    "url": "https://mrl.hkust.edu.hk/openings/",
+                    "checkedDate": "2026-10-01"
+                  }
+                ],
+                "checkedDate": "2026-10-01"
+              },
+              {
+                "degree": "PhD",
+                "status": "explicit",
+                "summary": "明确 Fall 2027 0–1 openings；与 MPhil 分开",
+                "cycle2027FallVerified": true,
+                "cycle": "2027 Fall",
+                "degreeRouteAssociated": false,
+                "sourceStatus": null,
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "公开一手来源",
+                    "url": "https://mrl.hkust.edu.hk/openings/",
+                    "checkedDate": "2026-10-01"
+                  }
+                ],
+                "checkedDate": "2026-10-01"
+              },
+              {
+                "degree": "RA",
+                "status": "unknown",
+                "summary": "本轮未找到明确公开名额/招生声明；不等于不招",
+                "cycle2027FallVerified": false,
+                "cycle": "Unspecified or unverified for Fall 2027",
+                "degreeRouteAssociated": null,
+                "sourceStatus": null,
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "公开一手来源",
+                    "url": "https://mrl.hkust.edu.hk/openings/",
+                    "checkedDate": "2026-10-01"
+                  }
+                ],
+                "checkedDate": "2026-10-01"
+              }
+            ],
+            "fall2027OpeningVerified": true
+          },
+          "sources": [
+            {
+              "label": "Mevita Robotics Lab 当前招募",
+              "url": "https://mrl.hkust.edu.hk/openings/",
+              "checkedDate": "2026-10-02",
+              "evidenceScope": "official_page_and_live_cloud_browser_visible_text"
+            }
+          ]
         },
         "previous": {
-          "checkedDate": "2026-10-01",
-          "opening": "explicit",
-          "openingSummary": "已明确公布；0–1 不是至少 1 名",
+          "opening": "closed",
+          "openingSummary": "Fall 2027 MPhil / PhD 当前均为 0 名额；不代表其他轮次或永久停止招生",
           "openings": {
-            "mphil": "明确 Fall 2027 0–1 openings，local/international；取决于 quota/funding/project needs/screening",
+            "mphil": "官方页面当前明确 Fall 2027 MPhil 为 0 名额（本地及国际申请人）；仅表示该轮当前公开状态",
             "msc": "未核实公开声明",
-            "phd": "明确 Fall 2027 0–1 openings；与 MPhil 分开",
+            "phd": "官方页面当前明确 Fall 2027 PhD 为 0 名额；仅表示该轮当前公开状态",
             "ra": "本轮未找到明确公开名额/招生声明；不等于不招",
-            "cycle2027": "已明确公布；0–1 不是至少 1 名"
+            "cycle2027": "Fall 2027 MPhil / PhD 当前均为 0 名额；不代表其他轮次或永久停止招生"
           },
           "openingDetails": [
             {
               "degree": "MPhil",
-              "status": "explicit",
-              "summary": "明确 Fall 2027 0–1 openings，local/international；取决于 quota/funding/project needs/screening",
+              "status": "closed",
+              "summary": "官方页面当前明确 Fall 2027 MPhil 为 0 名额（本地及国际申请人）；仅表示该轮当前公开状态",
               "cycle2027FallVerified": true,
               "cycle": "2027 Fall",
               "degreeRouteAssociated": true,
-              "sourceStatus": null,
+              "sourceStatus": "zero_openings_for_fall_2027",
               "noticeDate": null,
               "sources": [
                 {
                   "label": "公开一手来源",
                   "url": "https://mrl.hkust.edu.hk/openings/",
-                  "checkedDate": "2026-10-01"
+                  "checkedDate": "2026-10-02"
                 }
               ],
-              "checkedDate": "2026-10-01"
+              "checkedDate": "2026-10-02"
             },
             {
               "degree": "MSc",
@@ -3023,21 +3123,21 @@
             },
             {
               "degree": "PhD",
-              "status": "explicit",
-              "summary": "明确 Fall 2027 0–1 openings；与 MPhil 分开",
+              "status": "closed",
+              "summary": "官方页面当前明确 Fall 2027 PhD 为 0 名额；仅表示该轮当前公开状态",
               "cycle2027FallVerified": true,
               "cycle": "2027 Fall",
               "degreeRouteAssociated": false,
-              "sourceStatus": null,
+              "sourceStatus": "zero_openings_for_fall_2027",
               "noticeDate": null,
               "sources": [
                 {
                   "label": "公开一手来源",
                   "url": "https://mrl.hkust.edu.hk/openings/",
-                  "checkedDate": "2026-10-01"
+                  "checkedDate": "2026-10-02"
                 }
               ],
-              "checkedDate": "2026-10-01"
+              "checkedDate": "2026-10-02"
             },
             {
               "degree": "RA",
@@ -3057,15 +3157,14 @@
               ],
               "checkedDate": "2026-10-01"
             }
-          ],
-          "fall2027OpeningVerified": true
+          ]
         },
         "sources": [
           {
-            "label": "Mevita Robotics Lab 当前招募",
+            "label": "Join Mevita Robotics Lab",
             "url": "https://mrl.hkust.edu.hk/openings/",
-            "checkedDate": "2026-10-02",
-            "evidenceScope": "official_page_and_live_cloud_browser_visible_text"
+            "checkedDate": "2026-10-09",
+            "evidenceScope": "H1、MPhil与PhD段落及申请材料；未见发布日期"
           }
         ]
       }
