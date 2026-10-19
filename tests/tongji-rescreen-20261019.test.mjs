@@ -7,10 +7,11 @@ import {profileMap,renderProfile,renderProfileReferences} from '../assets/profil
 import {appointmentStatus} from '../assets/appointments.js';
 import historicalFs,{publishedBytes,tongjiHistoricalTestBytes,decodeTongjiHistoricalTests} from './published-history-fs.mjs';
 import {evidenceReviews} from './evidence-reviews.mjs';
-import {assertReviewedPublicData} from './reviewed-public-data.mjs';
+import {assertReviewedPublicData,reviewedPublicData} from './reviewed-public-data.mjs';
 const raw=p=>fs.readFileSync(new URL('../'+p,import.meta.url));
 const json=p=>JSON.parse(raw(p));
-const catalog=json('data/catalog.json'),profiles=json('data/advisor-profiles.json').profiles;
+const checkpoint=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/tongji-rescreen-20261019.json'});
+const catalog=checkpoint['data/catalog.json'],profiles=checkpoint['data/advisor-profiles.json'].profiles;
 const audit=json('audits/tongji-rescreen-20261019.json'),receipt=json('tests/fixtures/evidence/tongji-rescreen-20261019.json');
 const additions=catalog.advisors.slice(372,424),addedProfiles=profiles.slice(372,424),map=new Map(profiles.map(p=>[p.advisorId,p]));
 const a=id=>catalog.advisors.find(a=>a.id==='tongji-'+id),p=id=>map.get('tongji-'+id);

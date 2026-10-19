@@ -26,7 +26,7 @@ test('every existing advisor has a separate appointment review, with exact evide
  }
  const counts={};for(const p of auditedProfiles){const status=appointmentStatus(p);counts[status]=(counts[status]||0)+1;}
  assert.deepEqual(counts,audit.classificationCounts);assert.equal(counts.recent+counts.earlier+counts.boundary,audit.verifiedDateCount);
- assert.equal(catalog.advisors.length,424);assert.equal(filterOpportunities(catalog).length,57);
+ assert.equal(catalog.advisors.length,492);assert.equal(filterOpportunities(catalog).length,57);
  const evidence=new Set(receipt.officialEvidence.map(s=>s.url));
  for(const p of auditedProfiles)if(p.appointmentReview.status==='verified'){
   assert(p.appointmentReview.sources.length);assert(p.appointmentReview.precision);assert(p.appointmentReview.appointmentConfirmed);
@@ -59,7 +59,7 @@ test('first faculty dates exclude promotions, internal moves and earlier postdoc
 
 test('appointment filters combine with school, rank and doctoral reference routes without creating admissions',()=>{
  const recent=new Set([...ids({appointment:'recent'})].filter(id=>auditedIds.has(id)));assert.equal(recent.size,audit.classificationCounts.recent);
- const expected=catalog.advisors.filter(a=>a.institution==='SUSTech'&&['sustech-boyu-zhou','sustech-hongliang-lu'].includes(a.id)).map(a=>a.id).sort();
+ const expected=catalog.advisors.filter(a=>a.institution==='SUSTech'&&['sustech-boyu-zhou','sustech-dai-jiansheng','sustech-feng-huijuan','sustech-hongliang-lu','sustech-ma-xin','sustech-xie-zhexin','sustech-zhou-lifeng'].includes(a.id)).map(a=>a.id).sort();
  assert.deepEqual([...ids({institution:'SUSTech',appointment:'recent',opportunityType:'PhD'})].sort(),expected);
  const early=ids({appointment:'early_career'});assert(early.has('sustech-hongliang-lu'));assert(!early.has('sustech-boyu-zhou'));assert(!early.has('seu-sun-mingxuan'));
  const transfer=ids({appointment:'previous_faculty'});assert(transfer.has('sustech-boyu-zhou'));assert(transfer.has('seu-sun-mingxuan'));

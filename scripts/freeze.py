@@ -82,6 +82,7 @@ files.extend(['audits/pku-expansion-20261019.json','audits/pku-expansion-summary
 files.append('tests/fixtures/history/published-test-inputs-pku-20261019.json.gz')
 files.extend(['audits/tongji-rescreen-20261019.json','audits/tongji-rescreen-summary-20261019.md','tests/fixtures/evidence/tongji-rescreen-20261019.json','tests/tongji-rescreen-20261019.test.mjs'])
 files.append('tests/fixtures/history/published-test-inputs-tongji-20261019.json.gz')
+files.extend(['audits/all-schools-rescreen-20261019.json','audits/all-schools-rescreen-summary-20261019.md','tests/fixtures/evidence/all-schools-rescreen-20261019.json','tests/all-schools-rescreen-20261019.test.mjs','tests/fixtures/history/published-test-inputs-all-schools-20261019.json.gz'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):

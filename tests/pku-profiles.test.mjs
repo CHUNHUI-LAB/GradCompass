@@ -30,8 +30,8 @@ test('PKU batch appends exactly five existing advisor IDs and preserves catalog 
   assert.equal(profileMap({ profiles: added }, catalog.advisors).size, 5);
   const opportunities = buildOpportunities(data);
   assert.equal(opportunities.length, 59);
-  assert.equal(catalog.advisors.length, 424);
-  assert.equal(catalog.routes.length, 75);
+  assert.equal(catalog.advisors.length, 492);
+  assert.equal(catalog.routes.length, 92);
 });
 
 test('PKU profiles contain dated HTTPS evidence and no admission authority fields', () => {

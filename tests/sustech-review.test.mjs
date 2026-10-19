@@ -1,9 +1,11 @@
+import {reviewedPublicData} from './reviewed-public-data.mjs';
 import {filterOpportunities as referenceFilter,buildOpportunities as verifiedOpportunities} from '../assets/core.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 
 const read = p => fs.readFileSync(new URL('../' + p, import.meta.url), 'utf8');
+const checkpoint=reviewedPublicData(p=>fs.readFileSync(new URL('../'+p,import.meta.url)),{throughReceipt:'tests/fixtures/evidence/tongji-rescreen-20261019.json'});
 const review = JSON.parse(read('data/sustech-advisor-review-20261004.json'));
 
 test('SUSTech review keeps 2027 department evidence separate from 2028 PI openings', () => {
@@ -12,7 +14,7 @@ test('SUSTech review keeps 2027 department evidence separate from 2028 PI openin
   assert.equal(review.advisors.length, 8);
   assert(review.admissionEvidence.some(e => e.cycle === '2027 Fall reference'));
   assert(review.admissionEvidence.some(e => e.id === 'sustech-mee-phd-program-reference'));
-  const phdRoutes = JSON.parse(read('data/catalog.json')).routes.filter(r => r.institution === 'SUSTech' && r.degree === 'PhD' && r.status === 'reference');
+  const phdRoutes = checkpoint['data/catalog.json'].routes.filter(r => r.institution === 'SUSTech' && r.degree === 'PhD' && r.status === 'reference');
   assert.equal(phdRoutes.length, 2);
   assert(phdRoutes.some(r => r.id === 'sustech-mee-phd-reference-2026'));
   assert(phdRoutes.some(r => r.id === 'sustech-aim-phd-reference-2027'));
@@ -38,4 +40,4 @@ test('SUSTech review records no individual 2028 vacancy or funding claim', () =>
   assert.match(review.conclusionZh, /当期接收和名额待核/);assert.match(review.conclusionZh,/缺直接证据不等于无资格/);
 });
 
-test('concurrent 5c27 PhD filter preserves SUSTech references without counting verified associations',()=>{const c=JSON.parse(read('data/catalog.json'));const rows=referenceFilter(c,{institution:'SUSTech',opportunityType:'PhD'});assert.equal(rows.length,8);assert(rows.every(o=>o.reference===true&&o.kind==='reference'));assert(!verifiedOpportunities(c).some(o=>rows.some(r=>r.id===o.id)));});
+test('concurrent 5c27 PhD filter preserves SUSTech references without counting verified associations',()=>{const c=checkpoint['data/catalog.json'];const rows=referenceFilter(c,{institution:'SUSTech',opportunityType:'PhD'});assert.equal(rows.length,8);assert(rows.every(o=>o.reference===true&&o.kind==='reference'));assert(!verifiedOpportunities(c).some(o=>rows.some(r=>r.id===o.id)));});

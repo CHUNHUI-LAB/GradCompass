@@ -10,9 +10,10 @@ import {profileMap,renderProfile,renderProfileReferences} from '../assets/profil
 import {appointmentStatus,appointmentWindow} from '../assets/appointments.js';
 const raw=p=>fs.readFileSync(new URL('../'+p,import.meta.url));
 const read=p=>JSON.parse(raw(p));
-const catalog=read('data/catalog.json'),profiles=read('data/advisor-profiles.json').profiles;
+const checkpoint=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/tongji-rescreen-20261019.json'});
+const catalog=checkpoint['data/catalog.json'],profiles=checkpoint['data/advisor-profiles.json'].profiles;
 const audit=read('audits/pku-expansion-20261019.json'),receipt=read('tests/fixtures/evidence/pku-expansion-20261019.json');
-const oldReviewed=reviewedPublicData(p=>raw(p));
+const oldReviewed=checkpoint;
 const names=['王启宁','王龙','王勇','谢广明','喻俊志','张飞天','刘畅','孙环波','庞智博','王雪峰','吕鹏宇','李启亮','李阿明','黄天云','杨莹','段志生','楚梦渝','刘利斌','曾钢','裴玉茹','陈宝权','钟亦武','张驰','吴玺宏','曲天书','谭营','董豪','卢宗青','仉尚航','王鹤','王亦洲','施柏鑫','周嘉欢','穆亚东','杨耀东','朱毅鑫','刘宏','刘梦源'];
 const additions=catalog.advisors.slice(334,372),addedProfiles=profiles.slice(334,372),map=new Map(profiles.map(p=>[p.advisorId,p]));
 const a=id=>catalog.advisors.find(a=>a.id==='pku-'+id),p=id=>map.get('pku-'+id);

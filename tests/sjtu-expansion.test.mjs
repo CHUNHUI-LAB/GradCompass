@@ -1,8 +1,10 @@
+import {reviewedPublicData} from './reviewed-public-data.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {browseAdvisors,filterOpportunities} from '../assets/core.js';
-const catalog=JSON.parse(fs.readFileSync(new URL('../data/catalog.json',import.meta.url),'utf8'));
+const checkpoint=reviewedPublicData(p=>fs.readFileSync(new URL('../'+p,import.meta.url)),{throughReceipt:'tests/fixtures/evidence/tongji-rescreen-20261019.json'});
+const catalog=checkpoint['data/catalog.json'];
 const review=JSON.parse(fs.readFileSync(new URL('../data/sjtu-robotics-advisor-review-20261005.json',import.meta.url),'utf8'));
 const sjtu=catalog.advisors.filter(a=>a.institution==='SJTU');
 test('SJTU expansion covers three official schools and 59 new advisor records',()=>{

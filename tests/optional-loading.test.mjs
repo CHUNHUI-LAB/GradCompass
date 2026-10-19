@@ -165,7 +165,7 @@ test('late material comparison render failure stays contained and loaded require
 // Explicit network fixture: the shipped catalog/profile corpus remains unchanged.
 test('an explicitly absent pending-adviser supplement retains honest fallback and no verified opportunity',async()=>{
  const id='cuhk_zhongyu_li',shipped=data('advisor-profiles.json');
- assert.equal(shipped.profiles.length,424);assert(shipped.profiles.some(profile=>profile.advisorId===id));
+ assert.equal(shipped.profiles.length,492);assert(shipped.profiles.some(profile=>profile.advisorId===id));
  assert(!opportunities.some(row=>row.advisorId===id));assert(browseAdvisors(catalog).some(advisor=>advisor.id===id));
  const app=await boot({file:'advisor-profiles.json',mode:'profile-absent',missingProfileId:id});
  assertCore(app);app.detail('advisor',id);const html=app.el('#detail-content').innerHTML;

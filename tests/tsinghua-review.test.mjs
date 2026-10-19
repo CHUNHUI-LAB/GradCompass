@@ -1,3 +1,4 @@
+import {reviewedPublicData} from './reviewed-public-data.mjs';
 import {filterOpportunities as referenceFilter,buildOpportunities as verifiedOpportunities} from '../assets/core.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -5,7 +6,8 @@ import fs from 'node:fs';
 import {browseAdvisors, browseRoutes, buildOpportunities} from '../assets/core.js';
 
 const read = p => fs.readFileSync(new URL('../' + p, import.meta.url), 'utf8');
-const catalog = JSON.parse(read('data/catalog.json'));
+const checkpoint=reviewedPublicData(p=>fs.readFileSync(new URL('../'+p,import.meta.url)),{throughReceipt:'tests/fixtures/evidence/tongji-rescreen-20261019.json'});
+const catalog = checkpoint['data/catalog.json'];
 const review = JSON.parse(read('data/tsinghua-advisor-review-20261004.json'));
 const ra = JSON.parse(read('data/ra-positions.json'));
 
@@ -44,4 +46,4 @@ test('Tsinghua review keeps doctoral eligibility and Fall 2028 boundaries explic
   assert(review.admissionEvidence.some(e => e.id === 'tsinghua-iiis-phd-2027'));
 });
 
-test('concurrent 5c27 PhD filter preserves Tsinghua references without counting verified associations',()=>{const c=JSON.parse(read('data/catalog.json'));const rows=referenceFilter(c,{institution:'Tsinghua',opportunityType:'PhD'});assert.equal(rows.length,7);assert(rows.every(o=>o.reference===true&&o.kind==='reference'));assert(!verifiedOpportunities(c).some(o=>rows.some(r=>r.id===o.id)));});
+test('concurrent 5c27 PhD filter preserves Tsinghua references without counting verified associations',()=>{const c=checkpoint['data/catalog.json'];const rows=referenceFilter(c,{institution:'Tsinghua',opportunityType:'PhD'});assert.equal(rows.length,7);assert(rows.every(o=>o.reference===true&&o.kind==='reference'));assert(!verifiedOpportunities(c).some(o=>rows.some(r=>r.id===o.id)));});

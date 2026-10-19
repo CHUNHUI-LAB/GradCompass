@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {reviewedPublicData} from './reviewed-public-data.mjs';
 import {browseAdvisors,browseRoutes,isBrowsableRoute,hasVerifiedAssociation,buildOpportunities,routeEvidenceText,filterDeadlines} from '../assets/core.js';
 import {renderRecordSummary,normalizeProjectSummaries} from '../assets/record-summaries.js';
 import {selectProjectComparisonRoutes,renderProjectComparison} from '../assets/project-comparison.js';
@@ -13,7 +14,7 @@ const synthetic={metadata:{checkedDate:'2026-10-04'},advisors:[advisor],routes:[
 
 test('public discovery retains every recorded advisor and academic route without changing source data',()=>{
  const before=JSON.stringify(catalog);
- assert.equal(catalog.advisors.length,424);
+ assert.equal(catalog.advisors.length,492);
  assert.deepEqual(new Set(browseAdvisors(catalog).map(a=>a.id)),new Set(catalog.advisors.map(a=>a.id)));
  assert.deepEqual(new Set(browseRoutes(catalog).map(r=>r.id)),new Set(catalog.routes.filter(isBrowsableRoute).map(r=>r.id)));
  for(const id of ['cuhk_zhongyu_li','xjtlu-yaran-chen'])assert(browseAdvisors(catalog).some(a=>a.id===id),id);
@@ -84,12 +85,14 @@ test('historical MSc cycles, IIIS programme identity and recommendation requirem
  assert.equal(current.projectCycleVerified,true);assert.equal(current.individualRecruitmentVerified,false);assert(!catalog.advisors.some(a=>a.routeIds.includes(current.id)));
 });
 test('all fifteen concurrent research profiles and four doctoral references survive without manufactured personal openings',()=>{
- const added=catalog.advisors.filter(a=>['SUSTech','Tsinghua'].includes(a.institution));assert.equal(added.length,15);
- const profiles=read('data/advisor-profiles.json');for(const a of added){assert(profiles.profiles.some(p=>p.advisorId===a.id));assert.equal(a.routeIds.length,2);assert(a.routeIds.some(id=>id.includes('phd-reference')));assert(a.routeAssociations.every(x=>x.verificationStatus==='pending'));
+ const checkpoint=reviewedPublicData(p=>fs.readFileSync(new URL('../'+p,import.meta.url)),{throughReceipt:'tests/fixtures/evidence/tongji-rescreen-20261019.json'});
+ const dated=checkpoint['data/catalog.json'];
+ const added=dated.advisors.filter(a=>['SUSTech','Tsinghua'].includes(a.institution));assert.equal(added.length,15);
+ const profiles=checkpoint['data/advisor-profiles.json'];for(const a of added){assert(profiles.profiles.some(p=>p.advisorId===a.id));assert.equal(a.routeIds.length,2);assert(a.routeIds.some(id=>id.includes('phd-reference')));assert(a.routeAssociations.every(x=>x.verificationStatus==='pending'));
   for(const o of a.openingDetails||[]){assert.notEqual(o.cycle2027FallVerified,true);assert.notEqual(o.cycle2028FallVerified,true);assert.notEqual(o.confirmedVacancy,true);assert.notEqual(o.remainingHeadcountVerified,true);}
  }
- assert.equal(catalog.routes.filter(r=>['SUSTech','Tsinghua'].includes(r.institution)&&r.degree==='PhD'&&r.status==='reference').length,4);
- assert.equal(buildOpportunities(catalog).length,59);assert.equal(browseAdvisors(catalog).length,424);assert.equal(browseRoutes(catalog).length,75);
+ assert.equal(dated.routes.filter(r=>['SUSTech','Tsinghua'].includes(r.institution)&&r.degree==='PhD'&&r.status==='reference').length,4);
+ assert.equal(buildOpportunities(catalog).length,59);assert.equal(browseAdvisors(catalog).length,492);assert.equal(browseRoutes(catalog).length,92);
 });
 
 test('native IIIS academic and professional degrees cannot be called science masters',()=>{

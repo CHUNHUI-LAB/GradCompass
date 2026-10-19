@@ -1,9 +1,11 @@
+import {reviewedPublicData} from './reviewed-public-data.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {browseAdvisors,browseRoutes,filterOpportunities} from '../assets/core.js';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'));
-const catalog=read('data/catalog.json');
+const checkpoint=reviewedPublicData(p=>fs.readFileSync(new URL('../'+p,import.meta.url)),{throughReceipt:'tests/fixtures/evidence/tongji-rescreen-20261019.json'});
+const catalog=checkpoint['data/catalog.json'];
 const review=read('data/zju-robotics-advisor-review-20261005.json');
 const expanded=catalog.advisors.filter(a=>a.institution==='ZJU');
 test('ZJU expansion covers multiple robotics and embodied-AI schools',()=>{

@@ -5,9 +5,11 @@ import crypto from 'node:crypto';
 import {publishedBytes,publishedPaths,publishedCommit} from './published-history-fs.mjs';
 import {evidenceReviews} from './evidence-reviews.mjs';
 const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
-export function reviewedPublicData(read){
+export function reviewedPublicData(read,{throughReceipt=null}={}){
  const expected=Object.fromEntries(publishedPaths.filter(p=>p.startsWith('data/')&&p.endsWith('.json')).map(p=>[p,JSON.parse(publishedBytes(p))]));
- for(const receipt of evidenceReviews){
+ const stop=throughReceipt===null?evidenceReviews.length:evidenceReviews.findIndex(r=>r.path===throughReceipt)+1;
+ assert(stop>0,'dated receipt must be registered');
+ for(const receipt of evidenceReviews.slice(0,stop)){
   const raw=read(receipt.path);assert.equal(hash(raw),receipt.sha256,'unreviewed evidence receipt');
   const review=JSON.parse(raw);assert.equal(review.schemaVersion,1);assert.equal(review.baseCommit,publishedCommit);assert.match(review.reviewDate,/^\d{4}-\d{2}-\d{2}$/);
   assert(review.scope&&review.officialEvidence.length&&review.operations.length);
