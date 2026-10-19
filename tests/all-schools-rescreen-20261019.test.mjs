@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 import {browseAdvisors,filterOpportunities,buildOpportunities,hasVerifiedAssociation} from '../assets/core.js';
-import {profileMap,renderProfile,renderProfileReferences} from '../assets/profiles.js';
+import {profileMap,renderProfile,renderProfileReferences,renderAppointmentReview} from '../assets/profiles.js';
 import {appointmentStatus} from '../assets/appointments.js';
 import {evidenceReviews} from './evidence-reviews.mjs';
 import {reviewedPublicData,assertReviewedPublicData} from './reviewed-public-data.mjs';
@@ -101,4 +101,20 @@ test('the additive historical test archive preserves original manifest bytes wit
  for(const name of allSchoolsHistoricalTestPaths){const entry=manifest.allowedFiles.find(r=>r.path===name),bytes=allSchoolsHistoricalTestBytes(name);assert.equal(bytes.length,entry.bytes);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),entry.sha256);assert.deepEqual(historicalFs.readFileSync(new URL('../'+name,import.meta.url)),bytes);assert.notDeepEqual(raw(name),bytes);}
  const zip=raw('tests/fixtures/history/published-test-inputs-all-schools-20261019.json.gz');assert.throws(()=>decodeAllSchoolsHistoricalTests(Buffer.concat([zip,Buffer.from(' ')])),/immutable/);
  assert.deepEqual(fs.readFileSync(new URL('../data/catalog.json',import.meta.url)),raw('data/catalog.json'));
+});
+
+
+test('two appointment citations use explicitly dated personal Work/About sources while every unrelated published fact and receipt is preserved',()=>{
+ const before=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/all-schools-rescreen-20261019.json'})['data/advisor-profiles.json'].profiles;
+ const followup=json('tests/fixtures/evidence/appointment-source-followup-20261019.json');
+ const report=json('audits/appointment-source-followup-20261019.json');assert.equal(followup.operations.length,2);assert.equal(report.sourceLedger.length,2);
+ const expected=new Map([['polyu-tao-yifu',{url:'https://yifutao.github.io/',date:'2026-07-01'}],['polyu-du-huifeng',{url:'https://huifengdu.github.io/cv/',date:'2025-09-01'}]]);
+ for(let i=0;i<profiles.length;i++){
+  const p=profiles[i],old=before[i];if(!expected.has(p.advisorId)){assert.deepEqual(p,old);continue;}
+  const {appointmentReview:ar,...rest}=p,{appointmentReview:oldAr,...oldRest}=old;assert.deepEqual(rest,oldRest);
+  const {sources,noteZh,...fields}=ar,{sources:oldSources,noteZh:oldNote,...oldFields}=oldAr;assert.deepEqual(fields,oldFields);assert.equal(ar.precision,'month');assert.equal(ar.earliestDate,expected.get(p.advisorId).date);assert.equal(appointmentStatus(p),'recent');assert.equal(sources[0].url,expected.get(p.advisorId).url);
+  const h=renderAppointmentReview(p);assert(h.includes(sources[0].url));assert.match(noteZh,/本人/);assert.match(noteZh,/不将.*日当实际到岗日/);
+  const source=report.sourceLedger.find(r=>r.url===sources[0].url);assert.equal(source.httpStatus,200);assert.equal(source.retrieval,'direct_public_response');assert.equal(source.contentSha256,sources[0].contentSha256);assert.match(source.section,/since July 2026|2025.09/);
+ }
+ const original=evidenceReviews.find(r=>r.path.endsWith('all-schools-rescreen-20261019.json'));assert.equal(original.sha256,'974934bbca8f32e1a6668b2d673437dbeaffb774f560e2c6956526ccc36f442e');
 });

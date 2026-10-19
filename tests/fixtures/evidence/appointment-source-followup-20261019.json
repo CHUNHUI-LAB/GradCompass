@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "baseCommit": "4653bbd56a237a618a58c6f599e32e071ddf7094",
+  "reviewDate": "2026-10-19",
+  "scope": "Bounded source attribution followup for two newly recorded first institutional faculty appointments. Cite personally dated About/Work CV rather than an institutional identity page or a news timestamp. Preserve every appointment date, precision, classification, recruitment and other profile facts; do not rewrite the published all-school receipt.",
+  "officialEvidence": [
+    {
+      "url": "https://yifutao.github.io/",
+      "title": "Ethan Yifu Tao 陶奕甫",
+      "section": "本人About明确Assistant Professor at PolyU since July 2026；不是把7月6日News日期当到岗日。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "retrieval": "direct_public_response",
+      "contentSha256": "1f3f181385005f74f4553cd8fc6c71863010572de77f4300e62591b6786c3d64",
+      "extractedTextSha256": "da2ccc6530c917a6ec04d2c514e11202ba2933b5eece0279df944cdf12b21572"
+    },
+    {
+      "url": "https://huifengdu.github.io/cv/",
+      "title": "CV | Huifeng Du",
+      "section": "本人CV的Work栏目列2025.09–Now Assistant Professor and Presidential Young Scholar，PolyU，Research and Teaching；前项是MIT博士后。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "retrieval": "direct_public_response",
+      "contentSha256": "7378cd9dac625657597346cda99a3497cbd3860753980ada0f45df57255ebf40",
+      "extractedTextSha256": "ba661f8766e19c63dab42596b36ec80e9d9635bcec72f536ff3d87bdf89515b1"
+    }
+  ],
+  "operations": [
+    {
+      "file": "data/advisor-profiles.json",
+      "path": "/profiles/480/appointmentReview",
+      "operation": "replace",
+      "old": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2026 年 7 月（具体日待核）",
+        "earliestDate": "2026-07-01",
+        "latestDate": "2026-07-31",
+        "careerContext": "early_career",
+        "noteZh": "本人主页明确since July 2026，并列此前牛津博士后，不混作本校教职。",
+        "sources": [
+          {
+            "label": "Prof. TAO Yifu, Ethan 陶奕甫 | Department of Mechanical Engineering",
+            "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tao-yifu-ethan-prof/",
+            "checkedDate": "2026-10-19",
+            "title": "Prof. TAO Yifu, Ethan 陶奕甫 | Department of Mechanical Engineering",
+            "readScope": "本人主页明确since July 2026，并列此前牛津博士后，不混作本校教职。",
+            "contentSha256": "4e9cb5383e59e312ff2a7fe60f9c492db2cd257286d1833d910612087bd1e8c8",
+            "extractedTextSha256": null
+          }
+        ]
+      },
+      "value": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2026 年 7 月（具体日待核）",
+        "earliestDate": "2026-07-01",
+        "latestDate": "2026-07-31",
+        "careerContext": "early_career",
+        "noteZh": "本人About明确自2026年7月开始本校助理教授任职，记录到月份；此前牛津博士后不作为本校教职，不将News中2026年7月6日当实际到岗日。",
+        "sources": [
+          {
+            "url": "https://yifutao.github.io/",
+            "label": "本人About任职说明",
+            "title": "Ethan Yifu Tao 陶奕甫",
+            "checkedDate": "2026-10-19",
+            "readScope": "本人About明确Assistant Professor at PolyU since July 2026；不是把7月6日News日期当到岗日。",
+            "contentSha256": "1f3f181385005f74f4553cd8fc6c71863010572de77f4300e62591b6786c3d64"
+          }
+        ]
+      }
+    },
+    {
+      "file": "data/advisor-profiles.json",
+      "path": "/profiles/481/appointmentReview",
+      "operation": "replace",
+      "old": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2025 年 9 月（具体日待核）",
+        "earliestDate": "2025-09-01",
+        "latestDate": "2025-09-30",
+        "careerContext": "early_career",
+        "noteZh": "本人News日期2025年9月3日称已加入PolyU，只确认2025年9月，不将新闻日当实际到岗日。",
+        "sources": [
+          {
+            "label": "Prof. DU Huifeng 杜匯豐 | Department of Mechanical Engineering",
+            "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/du-huifeng-prof/",
+            "checkedDate": "2026-10-19",
+            "title": "Prof. DU Huifeng 杜匯豐 | Department of Mechanical Engineering",
+            "readScope": "本人News日期2025年9月3日称已加入PolyU，只确认2025年9月，不将新闻日当实际到岗日。",
+            "contentSha256": "b58e17d203e6c85aadab150d50f42fd9c242fe080ea4b95dfb3846192cf186bf",
+            "extractedTextSha256": null
+          }
+        ]
+      },
+      "value": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2025 年 9 月（具体日待核）",
+        "earliestDate": "2025-09-01",
+        "latestDate": "2025-09-30",
+        "careerContext": "early_career",
+        "noteZh": "本人CV的Work栏目明确2025.09–Now在香港理工大学任Assistant Professor and Presidential Young Scholar，按履历记到月份；2025年9月3日主页News只作交叉对照，不将新闻日当实际到岗日。",
+        "sources": [
+          {
+            "url": "https://huifengdu.github.io/cv/",
+            "label": "本人CV工作履历",
+            "title": "CV | Huifeng Du",
+            "checkedDate": "2026-10-19",
+            "readScope": "本人CV的Work栏目列2025.09–Now Assistant Professor and Presidential Young Scholar，PolyU，Research and Teaching；前项是MIT博士后。",
+            "contentSha256": "7378cd9dac625657597346cda99a3497cbd3860753980ada0f45df57255ebf40"
+          }
+        ]
+      }
+    }
+  ]
+}

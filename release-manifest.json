@@ -14,7 +14,7 @@
   "raPositionCount": 2,
   "newAdvisorProfiles": 26,
   "preservedAdvisorProfiles": 30,
-  "newProfileCitedSourceCount": 678,
+  "newProfileCitedSourceCount": 679,
   "experienceRecords": 27,
   "defaultExperienceRecords": 27,
   "experienceSourceSites": 20,
@@ -37,13 +37,13 @@
     },
     {
       "path": "QA.md",
-      "bytes": 64020,
-      "sha256": "086f36402c32e9e680eec3b4cc3d6b07ba7b6d72676c03e50a65b22456c9855d"
+      "bytes": 64938,
+      "sha256": "57fb0b322f5850622b30282fe98174acb27c822e97597c72b17300d19cbcf3b2"
     },
     {
       "path": "README.md",
-      "bytes": 67989,
-      "sha256": "0a4ac325962027cd703556c4aeff0613c21b05fdb734db2fbaca2245fc77dde2"
+      "bytes": 68405,
+      "sha256": "47ef1b24c0e7612cf2e49e39e85548659b54eef92043c75dc53dc57620a91a5d"
     },
     {
       "path": "REDESIGN.md",
@@ -52,8 +52,8 @@
     },
     {
       "path": "REPO-MAP.md",
-      "bytes": 18494,
-      "sha256": "dcd4631ea900faaf791459e8f743a7e898da8f8e538c63e05566deaeb5bd134b"
+      "bytes": 18742,
+      "sha256": "630a30b01a03f31530f7a0db112f14f5fcc96f2fe5b74b833423c523ddc9b85e"
     },
     {
       "path": "assets/advisor-cards.js",
@@ -63,7 +63,7 @@
     {
       "path": "assets/app.js",
       "bytes": 75526,
-      "sha256": "ae7241c71d1142f065512720580298d5f13af3adbf897ebbb1f322fc6ddaf991"
+      "sha256": "dcaad0ae01ae161bd06a7819a38668cae2f03ff569a38fad066d433f5eaa2693"
     },
     {
       "path": "assets/appointments.js",
@@ -161,6 +161,11 @@
       "sha256": "aed461af55b0149074d6c06beceb61f483fbff6657d165a165bacc72ee50ce04"
     },
     {
+      "path": "audits/appointment-source-followup-20261019.json",
+      "bytes": 2946,
+      "sha256": "c134d9f76b5ca8aaba22e551376625255e525d1e1c004dffdb6f42bfad90fdb2"
+    },
+    {
       "path": "audits/appointment-summary-20261010.md",
       "bytes": 34239,
       "sha256": "3bfb0d0a9e98f1bf611bee418ab312cbfa1d20d4c70e8a0cab6ba9513118c6ee"
@@ -197,8 +202,8 @@
     },
     {
       "path": "data/advisor-profiles.json",
-      "bytes": 3682103,
-      "sha256": "b4988938cca6b6c9ede662ac055611178e0e52deb93078a24e75bf61bc7114d5"
+      "bytes": 3681988,
+      "sha256": "2fbb1bcdb2e448504a6f3af60ed455a04c1d1b26f9185771d50396673b8e01b3"
     },
     {
       "path": "data/application-experience-provenance.json",
@@ -328,7 +333,7 @@
     {
       "path": "index.html",
       "bytes": 11951,
-      "sha256": "1a35547d170b939327a2f5e95f6f1727a1ee02a7713fb6e715e8d210ed8729e8"
+      "sha256": "dc3e2ad99ce1d70513ced0868edcf7fa9125a19748afdfe14cba41aa5c8674c4"
     },
     {
       "path": "package-lock.json",
@@ -347,8 +352,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 14249,
-      "sha256": "35e4747ec4d020559fb4a1ee0a0c437dae10975f76061b5f848f720f7895dc72"
+      "bytes": 14384,
+      "sha256": "1d9b7bfa6921e83529772662abe26269f7cf7b5e8db98f616924bb44ec7eab23"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -377,8 +382,8 @@
     },
     {
       "path": "tests/all-schools-rescreen-20261019.test.mjs",
-      "bytes": 12982,
-      "sha256": "5824519d29f7cd92db91381c014873a1fb795cf3ce422ed0a49366cf370e0242"
+      "bytes": 14954,
+      "sha256": "eeaabc776545a4bd6c09ec6aa3b115cfef038ed3afc430bb7c2212213fc16c87"
     },
     {
       "path": "tests/appointment-ui.test.mjs",
@@ -517,8 +522,8 @@
     },
     {
       "path": "tests/evidence-reviews.mjs",
-      "bytes": 1084,
-      "sha256": "d96071aab78e65d725ec88ee37f5731daddf4a8bb8f428b209c42c3a00fd7da6"
+      "bytes": 1233,
+      "sha256": "a269681d89855bb51fb47939f028b98f08ba586687587df524bc90257fd3f84b"
     },
     {
       "path": "tests/experience-batch-20261004-baseline.mjs",
@@ -584,6 +589,11 @@
       "path": "tests/fixtures/evidence/all-schools-rescreen-20261019.json",
       "bytes": 1042637,
       "sha256": "974934bbca8f32e1a6668b2d673437dbeaffb774f560e2c6956526ccc36f442e"
+    },
+    {
+      "path": "tests/fixtures/evidence/appointment-source-followup-20261019.json",
+      "bytes": 7098,
+      "sha256": "cdacd80c134789c7876c26965562a6b7fbd8678cfb097d8bd25f8d26678d6ef5"
     },
     {
       "path": "tests/fixtures/evidence/appointments-20261010.json",
@@ -812,8 +822,8 @@
     },
     {
       "path": "tests/hku-ris-materials-20261011.test.mjs",
-      "bytes": 5877,
-      "sha256": "8b988b378c197b7b4639cf987aa43b3dddcc52739bdccd5762a8eb7a5cccecbf"
+      "bytes": 5916,
+      "sha256": "8af50d540a68931cca346224bc6f6ff69256d8960ba57d5f673ad04b4e825cc2"
     },
     {
       "path": "tests/hku-ris.test.mjs",

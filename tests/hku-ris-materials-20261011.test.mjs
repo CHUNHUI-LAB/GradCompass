@@ -19,7 +19,7 @@ const summary=normalizeProjectSummaries(projects,catalog).get('hku-ris-msc');
 test('HKU RIS review is exactly reversible to the independently fetched October 11 baseline',()=>{
  const files=Object.fromEntries(Object.keys(baselineHashes).map(p=>[p,json(p)]));
  // Remove only this later reviewed append batch, checking every exact value.
- const laterExpansions=['all-schools-rescreen-20261019','tongji-rescreen-20261019','pku-expansion-20261019'];
+ const laterExpansions=['appointment-source-followup-20261019','all-schools-rescreen-20261019','tongji-rescreen-20261019','pku-expansion-20261019'];
  for(const batch of laterExpansions){
  const expansion=json('tests/fixtures/evidence/'+batch+'.json');
  for(const op of [...expansion.operations].reverse()){

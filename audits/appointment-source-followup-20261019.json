@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-19",
+  "baseCommit": "949837eaba964f36bedf2990c8cd2cd4d4411a80",
+  "scopeZh": "两份新任职记录补正直达日期证据，保留11位近期、24位更早、1位边界与32位待核的分类。原始逐校报告和已发布收据均不改写；本文件补充其任职证据引用。",
+  "changes": [
+    {
+      "advisorId": "polyu-tao-yifu",
+      "index": 480,
+      "previousEvidenceLimit": "原appointmentReview引用院系身份页，日期月份需要本人明确起始履历支持；没有从公告日期推定到岗日期。",
+      "sourceUrl": "https://yifutao.github.io/",
+      "preservedDateText": "2026 年 7 月（具体日待核）",
+      "noteZh": "本人About明确自2026年7月开始本校助理教授任职，记录到月份；此前牛津博士后不作为本校教职，不将News中2026年7月6日当实际到岗日。"
+    },
+    {
+      "advisorId": "polyu-du-huifeng",
+      "index": 481,
+      "previousEvidenceLimit": "原appointmentReview引用院系身份页，日期月份需要本人明确起始履历支持；没有从公告日期推定到岗日期。",
+      "sourceUrl": "https://huifengdu.github.io/cv/",
+      "preservedDateText": "2025 年 9 月（具体日待核）",
+      "noteZh": "本人CV的Work栏目明确2025.09–Now在香港理工大学任Assistant Professor and Presidential Young Scholar，按履历记到月份；2025年9月3日主页News只作交叉对照，不将新闻日当实际到岗日。"
+    }
+  ],
+  "sourceLedger": [
+    {
+      "url": "https://yifutao.github.io/",
+      "title": "Ethan Yifu Tao 陶奕甫",
+      "section": "本人About明确Assistant Professor at PolyU since July 2026；不是把7月6日News日期当到岗日。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "retrieval": "direct_public_response",
+      "contentSha256": "1f3f181385005f74f4553cd8fc6c71863010572de77f4300e62591b6786c3d64",
+      "extractedTextSha256": "da2ccc6530c917a6ec04d2c514e11202ba2933b5eece0279df944cdf12b21572"
+    },
+    {
+      "url": "https://huifengdu.github.io/cv/",
+      "title": "CV | Huifeng Du",
+      "section": "本人CV的Work栏目列2025.09–Now Assistant Professor and Presidential Young Scholar，PolyU，Research and Teaching；前项是MIT博士后。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "retrieval": "direct_public_response",
+      "contentSha256": "7378cd9dac625657597346cda99a3497cbd3860753980ada0f45df57255ebf40",
+      "extractedTextSha256": "ba661f8766e19c63dab42596b36ec80e9d9635bcec72f536ff3d87bdf89515b1"
+    }
+  ],
+  "boundariesZh": [
+    "新闻发布日期不自动等于实际入职日或月份；本次月份有本人Work/CV或明确since月份支持。",
+    "只引用公开职业经历；不发布CV正文、电话或其他个人字段。",
+    "先前发布的all-schools证据收据保持原始SHA，随后追加此二项变更。"
+  ]
+}

@@ -78837,16 +78837,15 @@
         "earliestDate": "2026-07-01",
         "latestDate": "2026-07-31",
         "careerContext": "early_career",
-        "noteZh": "本人主页明确since July 2026，并列此前牛津博士后，不混作本校教职。",
+        "noteZh": "本人About明确自2026年7月开始本校助理教授任职，记录到月份；此前牛津博士后不作为本校教职，不将News中2026年7月6日当实际到岗日。",
         "sources": [
           {
-            "label": "Prof. TAO Yifu, Ethan 陶奕甫 | Department of Mechanical Engineering",
-            "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tao-yifu-ethan-prof/",
+            "url": "https://yifutao.github.io/",
+            "label": "本人About任职说明",
+            "title": "Ethan Yifu Tao 陶奕甫",
             "checkedDate": "2026-10-19",
-            "title": "Prof. TAO Yifu, Ethan 陶奕甫 | Department of Mechanical Engineering",
-            "readScope": "本人主页明确since July 2026，并列此前牛津博士后，不混作本校教职。",
-            "contentSha256": "4e9cb5383e59e312ff2a7fe60f9c492db2cd257286d1833d910612087bd1e8c8",
-            "extractedTextSha256": null
+            "readScope": "本人About明确Assistant Professor at PolyU since July 2026；不是把7月6日News日期当到岗日。",
+            "contentSha256": "1f3f181385005f74f4553cd8fc6c71863010572de77f4300e62591b6786c3d64"
           }
         ]
       }
@@ -78974,16 +78973,15 @@
         "earliestDate": "2025-09-01",
         "latestDate": "2025-09-30",
         "careerContext": "early_career",
-        "noteZh": "本人News日期2025年9月3日称已加入PolyU，只确认2025年9月，不将新闻日当实际到岗日。",
+        "noteZh": "本人CV的Work栏目明确2025.09–Now在香港理工大学任Assistant Professor and Presidential Young Scholar，按履历记到月份；2025年9月3日主页News只作交叉对照，不将新闻日当实际到岗日。",
         "sources": [
           {
-            "label": "Prof. DU Huifeng 杜匯豐 | Department of Mechanical Engineering",
-            "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/du-huifeng-prof/",
+            "url": "https://huifengdu.github.io/cv/",
+            "label": "本人CV工作履历",
+            "title": "CV | Huifeng Du",
             "checkedDate": "2026-10-19",
-            "title": "Prof. DU Huifeng 杜匯豐 | Department of Mechanical Engineering",
-            "readScope": "本人News日期2025年9月3日称已加入PolyU，只确认2025年9月，不将新闻日当实际到岗日。",
-            "contentSha256": "b58e17d203e6c85aadab150d50f42fd9c242fe080ea4b95dfb3846192cf186bf",
-            "extractedTextSha256": null
+            "readScope": "本人CV的Work栏目列2025.09–Now Assistant Professor and Presidential Young Scholar，PolyU，Research and Teaching；前项是MIT博士后。",
+            "contentSha256": "7378cd9dac625657597346cda99a3497cbd3860753980ada0f45df57255ebf40"
           }
         ]
       }
