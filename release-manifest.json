@@ -848,7 +848,7 @@
     {
       "path": "tests/optional-loading.test.mjs",
       "bytes": 19920,
-      "sha256": "25955c2a37e23a6ba9fc01e3a525d73181c15e372a4cf525b59b56b2e17d8c76"
+      "sha256": "3118a43d9e6332ea4885738c4a1ff100109081acca5c8810f68c0941ce31bf09"
     },
     {
       "path": "tests/overseas-additions.test.mjs",
