@@ -7,6 +7,8 @@ import {renderAppointmentReview} from '../assets/profiles.js';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url)));
 const catalog=read('data/catalog.json'),profiles=read('data/advisor-profiles.json').profiles;
 const audit=read('audits/appointment-review-20261010.json'),receipt=read('tests/fixtures/evidence/appointments-20261010.json');
+const auditedProfiles=profiles.slice(0,334);
+const auditedIds=new Set(audit.advisors.map(a=>a.advisorId));
 const map=new Map(profiles.map(p=>[p.advisorId,p]));
 const live={...catalog,advisorProfiles:map};
 const ids=(filters={})=>new Set(browseAdvisors(live,filters).map(x=>x.id));
@@ -14,34 +16,34 @@ const r=id=>map.get(id).appointmentReview;
 const sample=(start,end=start,context='unknown')=>({appointmentReview:{status:'verified',eventType:'first_faculty_research_appointment_current_institution',appointmentConfirmed:true,earliestDate:start,latestDate:end,careerContext:context,dateText:'公开日期',noteZh:'公开履历',sources:[{url:'https://example.org/cv',title:'CV',checkedDate:'2026-10-10'}]}});
 
 test('every existing advisor has a separate appointment review, with exact evidence operations and no catalog changes',()=>{
- assert.equal(profiles.length,334);assert.equal(audit.count,334);assert.equal(receipt.operations.length,334);
+ assert.equal(auditedProfiles.length,334);assert.equal(audit.count,334);assert.equal(receipt.operations.length,334);
  assert.equal(new Set(audit.advisors.map(a=>a.advisorId)).size,334);
- for(let i=0;i<profiles.length;i++){
-  const p=profiles[i],row=audit.advisors.find(a=>a.advisorId===p.advisorId);assert(row,p.advisorId);
+ for(let i=0;i<auditedProfiles.length;i++){
+  const p=auditedProfiles[i],row=audit.advisors.find(a=>a.advisorId===p.advisorId);assert(row,p.advisorId);
   assert.deepEqual(row.appointmentReview,p.appointmentReview);assert.equal(row.classification,appointmentStatus(p));
   assert.deepEqual(receipt.operations[i],{file:'data/advisor-profiles.json',path:`/profiles/${i}/appointmentReview`,operation:'add',value:p.appointmentReview});
-  assert.equal(p.appointmentReview.checkedDate,'2026-10-10');assert.deepEqual(p.appointmentReview.window,appointmentWindow);
+  assert.equal(p.appointmentReview.checkedDate,'2026-10-10');assert.deepEqual(p.appointmentReview.window,{asOf:'2026-10-10',start:'2021-10-10',end:'2026-10-10'});
  }
- const counts={};for(const p of profiles){const status=appointmentStatus(p);counts[status]=(counts[status]||0)+1;}
+ const counts={};for(const p of auditedProfiles){const status=appointmentStatus(p);counts[status]=(counts[status]||0)+1;}
  assert.deepEqual(counts,audit.classificationCounts);assert.equal(counts.recent+counts.earlier+counts.boundary,audit.verifiedDateCount);
- assert.equal(catalog.advisors.length,334);assert.equal(filterOpportunities(catalog).length,57);
+ assert.equal(catalog.advisors.length,372);assert.equal(filterOpportunities(catalog).length,57);
  const evidence=new Set(receipt.officialEvidence.map(s=>s.url));
- for(const p of profiles)if(p.appointmentReview.status==='verified'){
+ for(const p of auditedProfiles)if(p.appointmentReview.status==='verified'){
   assert(p.appointmentReview.sources.length);assert(p.appointmentReview.precision);assert(p.appointmentReview.appointmentConfirmed);
   for(const s of p.appointmentReview.sources){assert(evidence.has(s.url));assert.equal(new URL(s.url).protocol,'https:');assert(s.readScope&&s.title);assert(s.checkedDate<='2026-10-10');}
  }
 });
 
 test('rolling-window boundary, coarse precision and future appointments do not fabricate a recent tag',()=>{
- assert.equal(appointmentStatus(sample('2021-10-10')),'recent');
- assert.equal(appointmentStatus(sample('2021-10-09')),'earlier');
+ assert.equal(appointmentStatus(sample('2021-10-19')),'recent');
+ assert.equal(appointmentStatus(sample('2021-10-18')),'earlier');
  assert.equal(appointmentStatus(sample('2021-01-01','2021-12-31')),'boundary');
  assert.equal(appointmentStatus(sample('2021-10-01','2021-10-31')),'boundary');
- assert.equal(appointmentStatus(sample('2026-10-10')),'recent');
- assert.equal(appointmentStatus(sample('2026-10-11')),'unknown');
+ assert.equal(appointmentStatus(sample('2026-10-19')),'recent');
+ assert.equal(appointmentStatus(sample('2026-10-20')),'unknown');
  assert.equal(appointmentStatus(sample('2026-02-30')),'unknown');
  assert.equal(appointmentStatus(sample('2024-02-01','2023-01-01')),'unknown');
- for(const delta of [{sources:[]},{sources:[{url:'javascript:alert(1)',checkedDate:'2026-10-10'}]},{sources:[{url:'https://example.org',checkedDate:'2026-10-11'}]},{sources:[{url:'https://example.org',checkedDate:'2026-02-30'}]},{status:'pending'},{appointmentConfirmed:false},{eventType:'promotion'},{eventType:'postdoc_start'},{eventType:'department_transfer'}])assert.equal(appointmentStatus({appointmentReview:{...sample('2024-01-01').appointmentReview,...delta}}),'unknown');
+ for(const delta of [{sources:[]},{sources:[{url:'javascript:alert(1)',checkedDate:'2026-10-10'}]},{sources:[{url:'https://example.org',checkedDate:'2026-10-20'}]},{sources:[{url:'https://example.org',checkedDate:'2026-02-30'}]},{status:'pending'},{appointmentConfirmed:false},{eventType:'promotion'},{eventType:'postdoc_start'},{eventType:'department_transfer'}])assert.equal(appointmentStatus({appointmentReview:{...sample('2024-01-01').appointmentReview,...delta}}),'unknown');
  assert.equal(appointmentStatus(null),'unknown');assert.equal(appointmentStatus({newPi:{verified:true,date:'2026'}}),'unknown');
 });
 
@@ -56,7 +58,7 @@ test('first faculty dates exclude promotions, internal moves and earlier postdoc
 });
 
 test('appointment filters combine with school, rank and doctoral reference routes without creating admissions',()=>{
- const recent=ids({appointment:'recent'});assert.equal(recent.size,audit.classificationCounts.recent);
+ const recent=new Set([...ids({appointment:'recent'})].filter(id=>auditedIds.has(id)));assert.equal(recent.size,audit.classificationCounts.recent);
  const expected=catalog.advisors.filter(a=>a.institution==='SUSTech'&&['sustech-boyu-zhou','sustech-hongliang-lu'].includes(a.id)).map(a=>a.id).sort();
  assert.deepEqual([...ids({institution:'SUSTech',appointment:'recent',opportunityType:'PhD'})].sort(),expected);
  const early=ids({appointment:'early_career'});assert(early.has('sustech-hongliang-lu'));assert(!early.has('sustech-boyu-zhou'));assert(!early.has('seu-sun-mingxuan'));

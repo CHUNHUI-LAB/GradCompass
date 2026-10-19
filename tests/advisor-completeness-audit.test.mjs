@@ -3,12 +3,13 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 
 const readJson = path => JSON.parse(fs.readFileSync(new URL(`../${path}`, import.meta.url)));
-const catalog = readJson('data/catalog.json');
-const profiles = readJson('data/advisor-profiles.json');
+const liveCatalog = readJson('data/catalog.json');
+const catalog = {...liveCatalog,advisors:liveCatalog.advisors.slice(0,334),routes:liveCatalog.routes.slice(0,65)};
+const profiles = {profiles:readJson('data/advisor-profiles.json').profiles.slice(0,334)};
 const audit = readJson('audits/advisor-completeness-20261009.json');
 const access = readJson('audits/source-access-20261009.json');
 
-test('advisor completeness audit is aligned with the current catalog and is explicit about evidence limits', () => {
+test('advisor completeness audit is aligned with its dated 334-advisor cohort and is explicit about evidence limits', () => {
   assert.equal(audit.checkedDate, '2026-10-09');
   assert.equal(audit.summary.advisors, catalog.advisors.length);
   assert.equal(audit.summary.profiles, profiles.profiles.length);

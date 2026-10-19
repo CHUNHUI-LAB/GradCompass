@@ -8,8 +8,8 @@ const current=read('data/advisor-profiles.json'),old=JSON.parse(publishedBytes('
 const audit=read('audits/homepage-enrichment-20261010.json');
 const profiles=new Map(current.profiles.map(p=>[p.advisorId,p]));
 test('homepage batch preserves original profile facts, links, identities, order and catalog decisions',()=>{
- assert.equal(current.profiles.length,334);assert.equal(audit.count,53);assert.equal(audit.addedLinkCount,54);
- assert.deepEqual(read('data/catalog.json').advisors,JSON.parse(publishedBytes('data/catalog.json')).advisors);
+ assert.equal(current.profiles.length,372);assert.equal(audit.count,53);assert.equal(audit.addedLinkCount,54);
+ assert.deepEqual(read('data/catalog.json').advisors.slice(0,334),JSON.parse(publishedBytes('data/catalog.json')).advisors);
  const strip=p=>{const {links,homepageReview,appointmentReview,...facts}=p;return facts;};
  for(let i=0;i<old.profiles.length;i++){
   const before=old.profiles[i],after=current.profiles[i];assert.deepEqual(strip(after),strip(before));
@@ -37,7 +37,7 @@ test('every added homepage has named identity evidence, bounded read scope and c
 test('detail displays pre-existing links and new homepages with safe labels and deduplication',()=>{
  for(const p of current.profiles){
   const html=renderProfile(p);assert.match(html,/个人主页、实验室与相关链接/);
-  for(const l of p.links)assert(html.includes(l.url.replaceAll('&','&amp;')),p.advisorId+' '+l.url);
+  for(const l of p.links)assert(html.includes(new URL(l.url).href.replaceAll('&','&amp;')),p.advisorId+' '+l.url);
   assert(!/undefined|\[object Object\]/.test(html));
  }
  const html=renderProfileLinks({links:[null,{url:'javascript:alert(1)',label:'unsafe'},{url:'https://example.org/',label:'<script>alert(1)</script>'},{url:'https://example.org/',label:'duplicate'}],homepageReview:{links:[{url:'https://example.net/',label:'lab'}],textZh:'<img onerror=bad>'}});

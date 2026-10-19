@@ -51,6 +51,27 @@ export const publishedIdentities=Object.freeze(structuredClone(archive.identitie
 export const publishedPaths=Object.freeze(Object.keys(archive.files));
 export function publishedBytes(name){assert(Object.hasOwn(archive.files,name),'unarchived historical input: '+name);return Buffer.from(archive.files[name].base64,'base64');}
 export function publishedFileMetadata(name){assert(Object.hasOwn(archive.files,name));const {base64,...metadata}=archive.files[name];return {...metadata};}
+
+// Further dated test programs retained when PKU's live cohort expands. This
+// addition cannot replace either preexisting archive or any production input.
+export const pkuHistoricalTestArchiveSha256='d2a36dfb5f48ac558ade70cc3db82de8efa927d488ae715a36ba89412cfb7b78';
+export function decodePkuHistoricalTests(compressed){
+ assert.equal(sha(compressed),pkuHistoricalTestArchiveSha256,'immutable PKU historical test inputs');
+ const snapshot=JSON.parse(gunzipSync(compressed));
+ assert.equal(snapshot.schemaVersion,1);assert.equal(snapshot.sourceCommit,publishedCommit);assert.equal(snapshot.publishedManifestCommit,publishedCommit);
+ const manifest=JSON.parse(publishedBytes('release-manifest.json'));
+ for(const [name,row]of Object.entries(snapshot.files)){
+  assert(name.startsWith('tests/')&&!name.split('/').includes('..'));
+  assert(!Object.hasOwn(archive.files,name)&&!Object.hasOwn(testArchive.files,name),'preexisting archives cannot be shadowed');
+  const expected=manifest.allowedFiles.find(r=>r.path===name);assert(expected,'must exist in the published manifest');
+  const bytes=Buffer.from(row.base64,'base64');assert.equal(bytes.length,expected.bytes);assert.equal(row.bytes,expected.bytes);assert.equal(sha(bytes),expected.sha256);assert.equal(row.sha256,expected.sha256);
+ }
+ return snapshot;
+}
+const pkuTestArchive=decodePkuHistoricalTests(fs.readFileSync(new URL('./fixtures/history/published-test-inputs-pku-20261019.json.gz',import.meta.url)));
+export const pkuHistoricalTestPaths=Object.freeze(Object.keys(pkuTestArchive.files));
+export function pkuHistoricalTestBytes(name){assert(Object.hasOwn(pkuTestArchive.files,name));return Buffer.from(pkuTestArchive.files[name].base64,'base64');}
+
 export function runPublishedCounts(){
  const dir=fs.mkdtempSync(path.join(os.tmpdir(),'gradcompass-published-counts-'));
  try{
@@ -64,7 +85,10 @@ export default {...fs,readFileSync(file,options){
  const relative=path.relative(root,filename).split(path.sep).join('/');
  const encoding=typeof options==='string'?options:options?.encoding;
  if(!Object.hasOwn(archive.files,relative)){
-  if(!Object.hasOwn(testArchive.files,relative))return fs.readFileSync(file,options);
+  if(!Object.hasOwn(testArchive.files,relative)){
+   if(!Object.hasOwn(pkuTestArchive.files,relative))return fs.readFileSync(file,options);
+   const bytes=pkuHistoricalTestBytes(relative);return encoding?bytes.toString(encoding):bytes;
+  }
   const bytes=publishedTestBytes(relative);return encoding?bytes.toString(encoding):bytes;
  }
  const bytes=publishedBytes(relative);return encoding?bytes.toString(encoding):bytes;

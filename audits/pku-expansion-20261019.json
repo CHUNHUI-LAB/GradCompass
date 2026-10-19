@@ -1,0 +1,3246 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-19",
+  "institution": "PKU",
+  "baseCommit": "c77d97e",
+  "previousAdvisorCount": 5,
+  "addedAdvisorCount": 38,
+  "currentAdvisorCount": 43,
+  "addedRoutes": [
+    "pku-amr-phd-directory-reference",
+    "pku-sai-related-phd-reference-2027",
+    "pku-cs-phd-directory-reference-2027",
+    "pku-wict-phd-directory-reference",
+    "pku-iai-interdisciplinary-phd-reference",
+    "pku-shenzhen-robotics-phd-faculty-reference"
+  ],
+  "preservedCatalogAdvisorCount": 334,
+  "preservedProfileCount": 334,
+  "advisors": [
+    {
+      "advisorId": "pku-wang-qining",
+      "nameZh": "王启宁",
+      "department": "先进制造与机器人学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://amr.pku.edu.cn/jzyg/szdw/W/2f3aa646c29a417aae8934458413a8c2.htm",
+      "doctoralEvidenceUrls": [
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "王启宁官网所列个人／团队入口（正文待补核）",
+          "url": "http://www2.coe.pku.edu.cn/subpaget.asp?id=232"
+        }
+      ],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2009 年 7 月（具体日待核）",
+        "earliestDate": "2009-07-01",
+        "latestDate": "2009-07-31",
+        "careerContext": "early_career",
+        "noteZh": "官方履历明确2009年7月起任北大助理教授；2012、2016、2021年的职级变化属于后续晋升。",
+        "sources": [
+          {
+            "label": "王启宁_北京大学先进制造与机器人学院",
+            "url": "https://amr.pku.edu.cn/jzyg/szdw/W/2f3aa646c29a417aae8934458413a8c2.htm",
+            "checkedDate": "2026-10-19",
+            "title": "王启宁_北京大学先进制造与机器人学院",
+            "readScope": "官方履历明确2009年7月起任北大助理教授；2012、2016、2021年的职级变化属于后续晋升。",
+            "contentSha256": "42b7405c0af6b192729b546dcd956bfd9dd96cc3b00fa11615e6d53bd3b31dd5"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://amr.pku.edu.cn/jzyg/szdw/W/2f3aa646c29a417aae8934458413a8c2.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+          "column": "博士生指导教师名录",
+          "matchedName": "王启宁"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-wang-long",
+      "nameZh": "王龙",
+      "department": "先进制造与机器人学院",
+      "scope": "机器人控制相关",
+      "identityUrl": "https://amr.pku.edu.cn/jzyg/szdw/W/14911a87e0274cdcb6ad52bb7684bd5b.htm",
+      "doctoralEvidenceUrls": [
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "王龙官网所列个人／团队入口（正文待补核）",
+          "url": "http://www2.coe.pku.edu.cn/subpaget.asp?id=83"
+        }
+      ],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "公开页面有求学、博士后和访问经历，尚未读到明确的本校首次正式教研入职日期。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://amr.pku.edu.cn/jzyg/szdw/W/14911a87e0274cdcb6ad52bb7684bd5b.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+          "column": "博士生指导教师名录",
+          "matchedName": "王龙"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-wang-yong",
+      "nameZh": "王勇",
+      "department": "先进制造与机器人学院",
+      "scope": "机器人控制相关",
+      "identityUrl": "https://amr.pku.edu.cn/jzyg/szdw/W/8b7007df8e71414589a5d2813180193c.htm",
+      "doctoralEvidenceUrls": [
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "王勇官网所列个人／团队入口（正文待补核）",
+          "url": "http://www2.coe.pku.edu.cn/subpage.asp?id=180"
+        }
+      ],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前北大教研身份，但本次已读来源未给出明确首次入职日期；网页发布时间、毕业年与论文年不作为入职日期。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://amr.pku.edu.cn/jzyg/szdw/W/8b7007df8e71414589a5d2813180193c.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+          "column": "博士生指导教师名录",
+          "matchedName": "王勇"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-xie-guangming",
+      "nameZh": "谢广明",
+      "department": "先进制造与机器人学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://amr.pku.edu.cn/jzyg/szdw/X/0dba539cb6214815a8b90e659d9eabef.htm",
+      "doctoralEvidenceUrls": [
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "谢广明官网所列个人／团队入口（正文待补核）",
+          "url": "http://www2.coe.pku.edu.cn/subpaget.asp?id=58"
+        }
+      ],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2003 年（具体月日待核）",
+        "earliestDate": "2003-01-01",
+        "latestDate": "2003-12-31",
+        "careerContext": "early_career",
+        "noteZh": "2003年起任北大讲师；2001–2003年博士后不计正式教研入职，2025年转院不重新计时。",
+        "sources": [
+          {
+            "label": "谢广明_北京大学先进制造与机器人学院",
+            "url": "https://amr.pku.edu.cn/jzyg/szdw/X/0dba539cb6214815a8b90e659d9eabef.htm",
+            "checkedDate": "2026-10-19",
+            "title": "谢广明_北京大学先进制造与机器人学院",
+            "readScope": "2003年起任北大讲师；2001–2003年博士后不计正式教研入职，2025年转院不重新计时。",
+            "contentSha256": "295c676323acb7fd5a73355a9599778373b901133e737ee303b2cdd885d5926e"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://amr.pku.edu.cn/jzyg/szdw/X/0dba539cb6214815a8b90e659d9eabef.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+          "column": "博士生指导教师名录",
+          "matchedName": "谢广明"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-yu-junzhi",
+      "nameZh": "喻俊志",
+      "department": "先进制造与机器人学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://amr.pku.edu.cn/jzyg/szdw/Y/7cc6c4a98def4c4089fe08ce09a5479c.htm",
+      "doctoralEvidenceUrls": [
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "homepageUrl": "https://pkuyulab.com/",
+      "homepageReadLimit": "实验室入口由本人校方页面直接给出；访问返回浏览器验证页，未读取实验室正文。",
+      "linkedHomepageEntries": [
+        {
+          "label": "喻俊志个人／实验室入口（正文待补核）",
+          "url": "https://pkuyulab.com/"
+        }
+      ],
+      "recruitment": "教师页写明每年招收博士、机械专硕1–2名，未分列两类名额，也未注明适用入学年；不能当作博士剩余1–2名或2028 Fall承诺。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2018 年（具体月日待核）",
+        "earliestDate": "2018-01-01",
+        "latestDate": "2018-12-31",
+        "careerContext": "previous_faculty",
+        "noteZh": "2018年起任北大教授；2004–2006年北大博士后不计正式教研入职，2020年校内转系不重新计时。此前在中科院自动化所任副研究员、研究员。",
+        "sources": [
+          {
+            "label": "喻俊志_北京大学先进制造与机器人学院",
+            "url": "https://amr.pku.edu.cn/jzyg/szdw/Y/7cc6c4a98def4c4089fe08ce09a5479c.htm",
+            "checkedDate": "2026-10-19",
+            "title": "喻俊志_北京大学先进制造与机器人学院",
+            "readScope": "2018年起任北大教授；2004–2006年北大博士后不计正式教研入职，2020年校内转系不重新计时。此前在中科院自动化所任副研究员、研究员。",
+            "contentSha256": "f8576524fc885f1378935093ee192e1f55dbe293bbb200b2640d6e3144bca0e3"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://amr.pku.edu.cn/jzyg/szdw/Y/7cc6c4a98def4c4089fe08ce09a5479c.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+          "column": "博士生指导教师名录",
+          "matchedName": "喻俊志"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-zhang-feitian",
+      "nameZh": "张飞天",
+      "department": "先进制造与机器人学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://amr.pku.edu.cn/jzyg/szdw/Z/9c771ce215234288accbc577c8611c0a.htm",
+      "doctoralEvidenceUrls": [
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2021 年（具体月日待核）",
+        "earliestDate": "2021-01-01",
+        "latestDate": "2021-12-31",
+        "careerContext": "previous_faculty",
+        "noteZh": "本校履历只给出2021年起任职，缺少月份，跨越2021-10-19截点；不能直接归入近五年。",
+        "sources": [
+          {
+            "label": "张飞天_北京大学先进制造与机器人学院",
+            "url": "https://amr.pku.edu.cn/jzyg/szdw/Z/9c771ce215234288accbc577c8611c0a.htm",
+            "checkedDate": "2026-10-19",
+            "title": "张飞天_北京大学先进制造与机器人学院",
+            "readScope": "本校履历只给出2021年起任职，缺少月份，跨越2021-10-19截点；不能直接归入近五年。",
+            "contentSha256": "a5a1e7d1bb11e5fb5ea2d1822cd3a071faa9f60873175b2f8abdf183c58bf985"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://amr.pku.edu.cn/jzyg/szdw/Z/9c771ce215234288accbc577c8611c0a.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+          "column": "博士生指导教师名录",
+          "matchedName": "张飞天"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-liu-chang",
+      "nameZh": "刘畅",
+      "department": "先进制造与机器人学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://amr.pku.edu.cn/jzyg/szdw/L/81491482bb754439856d18f54551152b.htm",
+      "doctoralEvidenceUrls": [
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "刘畅官网所列个人／团队入口（正文待补核）",
+          "url": "http://www2.coe.pku.edu.cn/faculty/liuchang/index.html"
+        }
+      ],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2021 年（具体月日待核）",
+        "earliestDate": "2021-01-01",
+        "latestDate": "2021-12-31",
+        "careerContext": "industry_transition",
+        "noteZh": "2021年加入北大，月份未明示，因此保留五年边界待核；此前2020–2021年在英伟达任软件工程师。",
+        "sources": [
+          {
+            "label": "刘畅_北京大学先进制造与机器人学院",
+            "url": "https://amr.pku.edu.cn/jzyg/szdw/L/81491482bb754439856d18f54551152b.htm",
+            "checkedDate": "2026-10-19",
+            "title": "刘畅_北京大学先进制造与机器人学院",
+            "readScope": "2021年加入北大，月份未明示，因此保留五年边界待核；此前2020–2021年在英伟达任软件工程师。",
+            "contentSha256": "f99b75454168361d2518b20bf8ced04d71a9a8d4e3e360e42c3e39b81a7105ef"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://amr.pku.edu.cn/jzyg/szdw/L/81491482bb754439856d18f54551152b.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+          "column": "博士生指导教师名录",
+          "matchedName": "刘畅"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-sun-huanbo",
+      "nameZh": "孙环波",
+      "department": "先进制造与机器人学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://amr.pku.edu.cn/jzyg/szdw/S/84bbbff41d22491badf79d233691265d.htm",
+      "doctoralEvidenceUrls": [
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "homepageUrl": "https://www.hapticsensinglab.com",
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "孙环波个人／实验室主页",
+          "url": "https://www.hapticsensinglab.com"
+        }
+      ],
+      "recruitment": "实验室Join Us明确欢迎博士生及其他成员，含推免、硕博连读、申请考核等不同通道说明；公告未单列2027或2028 Fall博士余位。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2024 年（具体月日待核）",
+        "earliestDate": "2024-01-01",
+        "latestDate": "2024-12-31",
+        "careerContext": "early_career",
+        "noteZh": "本人实验室曾公告2024年8月落地计划；马普所2024年任职公告的检索片段明确已成为北大助理教授，当前校方教师页与本人团队页确认在职。按2024年记录，具体到岗月日待更直接履历核实。马普所正文访问403，仅核读索引片段。",
+        "sources": [
+          {
+            "label": "Haptic Sensing Lab",
+            "url": "https://www.hapticsensinglab.com",
+            "checkedDate": "2026-10-19",
+            "title": "Haptic Sensing Lab",
+            "readScope": "实验室2024年公告计划8月1日落地北大，当前团队页确认其已任北大助理教授；按2024年记录，实际到岗月份仍待更直接履历核实。",
+            "contentSha256": "1810c451633d21c9159147234d9d954d75e3e726cbef41001cd960926770725a"
+          },
+          {
+            "url": "https://is.mpg.de/en/awards/huanbo-sun-becomes-assistant-professor-in-peking-university",
+            "title": "MPI-IS：Huanbo Sun becomes Assistant Professor in Peking University",
+            "checkedDate": "2026-10-19",
+            "readScope": "只核读官方任职公告的检索索引片段：2024年8月1日，明确成为北大助理教授；网页正文访问403。与本人实验室计划和当前北大教研身份交叉核验，保留年份精度，不把新闻发布时间直接当实际到岗日。",
+            "indexedExcerptSha256": "823f1fc29c4ea20e1fd86bdbe9ea3cdd9bd040763338ac587b2dd8754afe4d6d",
+            "accessLimit": "官方正文403；只核读检索索引片段"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://amr.pku.edu.cn/jzyg/szdw/S/84bbbff41d22491badf79d233691265d.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm",
+        "https://www.hapticsensinglab.com/people",
+        "https://www.hapticsensinglab.com/join-us",
+        "https://www.hapticsensinglab.com"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+          "column": "博士生指导教师名录",
+          "matchedName": "孙环波"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-pang-zhibo",
+      "nameZh": "庞智博",
+      "department": "先进制造与机器人学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://amr.pku.edu.cn/jzyg/szdw/P/2a0b83b7eedb480293ee6eccdf490ef7.htm",
+      "doctoralEvidenceUrls": [
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "homepageUrl": "https://pku-pi-lab.github.io/",
+      "homepageReadLimit": "官方教师页提供实验室入口；本次返回的页面正文极短，未据此确认团队成员或资源。",
+      "linkedHomepageEntries": [
+        {
+          "label": "庞智博个人／实验室入口（正文待补核）",
+          "url": "https://pku-pi-lab.github.io/"
+        }
+      ],
+      "recruitment": "官方页说明依北大招生计划有若干硕博指标及联合培养机会，未标入学年、当期剩余数或2028 Fall；企业、联合培养与北大本部指标分开确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2025 年 10 月（具体日待核）",
+        "earliestDate": "2025-10-01",
+        "latestDate": "2025-10-31",
+        "careerContext": "previous_faculty",
+        "noteZh": "官方履历明确2025年10月起任北大长聘教授；此前有KTH双聘教授与ABB资深主任科学家经历。",
+        "sources": [
+          {
+            "label": "庞智博_北京大学先进制造与机器人学院",
+            "url": "https://amr.pku.edu.cn/jzyg/szdw/P/2a0b83b7eedb480293ee6eccdf490ef7.htm",
+            "checkedDate": "2026-10-19",
+            "title": "庞智博_北京大学先进制造与机器人学院",
+            "readScope": "官方履历明确2025年10月起任北大长聘教授；此前有KTH双聘教授与ABB资深主任科学家经历。",
+            "contentSha256": "ded1b3e50c221598458d7ffd86b4581db5d6614af0542b13b2ac3ec3f792ed76"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://amr.pku.edu.cn/jzyg/szdw/P/2a0b83b7eedb480293ee6eccdf490ef7.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+          "column": "博士生指导教师名录",
+          "matchedName": "庞智博"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-wang-xuefeng",
+      "nameZh": "王雪峰",
+      "department": "先进制造与机器人学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://amr.pku.edu.cn/jzyg/szdw/W/5ebefc691c0d49209f91a42b49c2260d.htm",
+      "doctoralEvidenceUrls": [
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2020 年 11 月（具体日待核）",
+        "earliestDate": "2020-11-01",
+        "latestDate": "2020-11-30",
+        "careerContext": "previous_faculty",
+        "noteZh": "官方工作履历明确2020年11月加入北大；此前阿拉巴马大学助理教授、佐治亚理工博士后经历分别记录。",
+        "sources": [
+          {
+            "label": "王雪峰_北京大学先进制造与机器人学院",
+            "url": "https://amr.pku.edu.cn/jzyg/szdw/W/5ebefc691c0d49209f91a42b49c2260d.htm",
+            "checkedDate": "2026-10-19",
+            "title": "王雪峰_北京大学先进制造与机器人学院",
+            "readScope": "官方工作履历明确2020年11月加入北大；此前阿拉巴马大学助理教授、佐治亚理工博士后经历分别记录。",
+            "contentSha256": "25d6ad4c39d4da7b72cff9bb565b9a65c5fcff9f03133018307d07e5ec931d91"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://amr.pku.edu.cn/jzyg/szdw/W/5ebefc691c0d49209f91a42b49c2260d.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+          "column": "博士生指导教师名录",
+          "matchedName": "王雪峰"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-lv-pengyu",
+      "nameZh": "吕鹏宇",
+      "department": "先进制造与机器人学院",
+      "scope": "机器人材料与制造相关",
+      "identityUrl": "https://amr.pku.edu.cn/jzyg/szdw/L/b5757df80ae94769980287036651ed63.htm",
+      "doctoralEvidenceUrls": [
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [],
+      "recruitment": "教师页明确招收博士研究生、硕士、博士后及本科生，欢迎力学、仿生材料、先进制造等相关背景；未注明2027/2028年余位。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2017 年（具体月日待核）",
+        "earliestDate": "2017-01-01",
+        "latestDate": "2017-12-31",
+        "careerContext": "early_career",
+        "noteZh": "2017年起在北大任助理研究员、副研究员，2023年任助理教授属于晋升，不能把2023年当成本校首次教研入职。",
+        "sources": [
+          {
+            "label": "吕鹏宇_北京大学先进制造与机器人学院",
+            "url": "https://amr.pku.edu.cn/jzyg/szdw/L/b5757df80ae94769980287036651ed63.htm",
+            "checkedDate": "2026-10-19",
+            "title": "吕鹏宇_北京大学先进制造与机器人学院",
+            "readScope": "2017年起在北大任助理研究员、副研究员，2023年任助理教授属于晋升，不能把2023年当成本校首次教研入职。",
+            "contentSha256": "3a7a80a3dd1a035391877e413f2f2dbde0134d828a82f0b3081b371d2a9e83d1"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://amr.pku.edu.cn/jzyg/szdw/L/b5757df80ae94769980287036651ed63.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm",
+          "column": "博士生指导教师名录",
+          "matchedName": "吕鹏宇"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-li-qiliang",
+      "nameZh": "李启亮",
+      "department": "先进制造与机器人学院",
+      "scope": "机器人传感相关",
+      "identityUrl": "https://amr.pku.edu.cn/jzyg/szdw/L/3f7d3b40e8504115a7ca996eb6b43a71.htm",
+      "doctoralEvidenceUrls": [
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [],
+      "recruitment": "教师页写明长期招收硕博研究生等，未标入学年与博士剩余名额。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2023 年 11 月（具体日待核）",
+        "earliestDate": "2023-11-01",
+        "latestDate": "2023-11-30",
+        "careerContext": "previous_faculty",
+        "noteZh": "工作履历明确2023年11月加入北大；2025年学院调整不重新计入职。此前2007–2023年在乔治梅森大学历任教职。",
+        "sources": [
+          {
+            "label": "李启亮_北京大学先进制造与机器人学院",
+            "url": "https://amr.pku.edu.cn/jzyg/szdw/L/3f7d3b40e8504115a7ca996eb6b43a71.htm",
+            "checkedDate": "2026-10-19",
+            "title": "李启亮_北京大学先进制造与机器人学院",
+            "readScope": "工作履历明确2023年11月加入北大；2025年学院调整不重新计入职。此前2007–2023年在乔治梅森大学历任教职。",
+            "contentSha256": "6187decf88b4a2cdb0319a195f3ef19058f550c4cc489a7a126ad34d402553b7"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://amr.pku.edu.cn/jzyg/szdw/L/3f7d3b40e8504115a7ca996eb6b43a71.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+          "column": "博士生指导教师名录",
+          "matchedName": "李启亮"
+        },
+        {
+          "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm",
+          "column": "博士生指导教师名录",
+          "matchedName": "李启亮"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-li-aming",
+      "nameZh": "李阿明",
+      "department": "先进制造与机器人学院",
+      "scope": "机器人群体控制相关",
+      "identityUrl": "https://amr.pku.edu.cn/jzyg/szdw/L/3c852b458353440ea61a5cc2e7496212.htm",
+      "doctoralEvidenceUrls": [
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2020 年 11 月（具体日待核）",
+        "earliestDate": "2020-11-01",
+        "latestDate": "2020-11-30",
+        "careerContext": "early_career",
+        "noteZh": "2020年11月起任北大工学院特聘研究员；2025年6月转入先进制造与机器人学院属于校内调整。此前在牛津及苏黎世联邦理工从事博士后研究。",
+        "sources": [
+          {
+            "label": "李阿明_北京大学先进制造与机器人学院",
+            "url": "https://amr.pku.edu.cn/jzyg/szdw/L/3c852b458353440ea61a5cc2e7496212.htm",
+            "checkedDate": "2026-10-19",
+            "title": "李阿明_北京大学先进制造与机器人学院",
+            "readScope": "2020年11月起任北大工学院特聘研究员；2025年6月转入先进制造与机器人学院属于校内调整。此前在牛津及苏黎世联邦理工从事博士后研究。",
+            "contentSha256": "9e11bb3351b5f42e03910c676f3bc1cabd98a9f6b5cd044f911560961a95edf2"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://amr.pku.edu.cn/jzyg/szdw/L/3c852b458353440ea61a5cc2e7496212.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+          "column": "博士生指导教师名录",
+          "matchedName": "李阿明"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-huang-tianyun",
+      "nameZh": "黄天云",
+      "department": "先进制造与机器人学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://amr.pku.edu.cn/jzyg/szdw/H/723a9c3b4fce4eafbfddda1bc84e1d05.htm",
+      "doctoralEvidenceUrls": [
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "黄天云官网所列个人／团队入口（正文待补核）",
+          "url": "http://www2.coe.pku.edu.cn/subpaget.asp?id=733"
+        }
+      ],
+      "recruitment": "教师页明确长期招收微电子、智能传感驱动、嵌入式、微加工及功能材料背景博士研究生和博士后；没有2028 Fall周期承诺。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2021 年 9 月（具体日待核）",
+        "earliestDate": "2021-09-01",
+        "latestDate": "2021-09-30",
+        "careerContext": "early_career",
+        "noteZh": "官方履历明确2021年9月起任北大助理教授，早于当前五年截点；2016–2018年北大博士后不计正式教研入职。",
+        "sources": [
+          {
+            "label": "黄天云_北京大学先进制造与机器人学院",
+            "url": "https://amr.pku.edu.cn/jzyg/szdw/H/723a9c3b4fce4eafbfddda1bc84e1d05.htm",
+            "checkedDate": "2026-10-19",
+            "title": "黄天云_北京大学先进制造与机器人学院",
+            "readScope": "官方履历明确2021年9月起任北大助理教授，早于当前五年截点；2016–2018年北大博士后不计正式教研入职。",
+            "contentSha256": "bca8f78226aaca670452f6c0d8eb7e3691a87189d608b3e22620648e2ef1a98d"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://amr.pku.edu.cn/jzyg/szdw/H/723a9c3b4fce4eafbfddda1bc84e1d05.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+          "column": "博士生指导教师名录",
+          "matchedName": "黄天云"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-yang-ying",
+      "nameZh": "杨莹",
+      "department": "先进制造与机器人学院",
+      "scope": "机器人控制相关",
+      "identityUrl": "https://amr.pku.edu.cn/jzyg/szdw/Y/20922bb0ff6b4147a6e80e231e25fa15.htm",
+      "doctoralEvidenceUrls": [
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "杨莹官网所列个人／团队入口（正文待补核）",
+          "url": "http://www2.coe.pku.edu.cn/subpage.asp?id=186"
+        }
+      ],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2004 年 12 月（具体日待核）",
+        "earliestDate": "2004-12-01",
+        "latestDate": "2004-12-31",
+        "careerContext": "early_career",
+        "noteZh": "2004年12月起任北大讲师、副教授；2003–2004年博士后不计正式教研入职，2014年升任教授不重新计时。",
+        "sources": [
+          {
+            "label": "杨莹_北京大学先进制造与机器人学院",
+            "url": "https://amr.pku.edu.cn/jzyg/szdw/Y/20922bb0ff6b4147a6e80e231e25fa15.htm",
+            "checkedDate": "2026-10-19",
+            "title": "杨莹_北京大学先进制造与机器人学院",
+            "readScope": "2004年12月起任北大讲师、副教授；2003–2004年博士后不计正式教研入职，2014年升任教授不重新计时。",
+            "contentSha256": "3d5acbfc2610c06392b45d6a4bc81b56c0513fed6f4d89193db10b7075bec1fa"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://amr.pku.edu.cn/jzyg/szdw/Y/20922bb0ff6b4147a6e80e231e25fa15.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+          "column": "博士生指导教师名录",
+          "matchedName": "杨莹"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-duan-zhisheng",
+      "nameZh": "段志生",
+      "department": "先进制造与机器人学院",
+      "scope": "机器人控制相关",
+      "identityUrl": "https://amr.pku.edu.cn/jzyg/szdw/D/63c5f7b386c946d8921436bc5dfc4b6f.htm",
+      "doctoralEvidenceUrls": [
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "段志生官网所列个人／团队入口（正文待补核）",
+          "url": "http://www2.coe.pku.edu.cn/subpaget.asp?id=137"
+        }
+      ],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2002 年 6 月（具体日待核）",
+        "earliestDate": "2002-06-01",
+        "latestDate": "2002-06-30",
+        "careerContext": "early_career",
+        "noteZh": "官方履历明确2002年6月起任北大讲师；2000–2002年博士后与后续副教授、教授任职分别记录。",
+        "sources": [
+          {
+            "label": "段志生_北京大学先进制造与机器人学院",
+            "url": "https://amr.pku.edu.cn/jzyg/szdw/D/63c5f7b386c946d8921436bc5dfc4b6f.htm",
+            "checkedDate": "2026-10-19",
+            "title": "段志生_北京大学先进制造与机器人学院",
+            "readScope": "官方履历明确2002年6月起任北大讲师；2000–2002年博士后与后续副教授、教授任职分别记录。",
+            "contentSha256": "5b6aea28944d2e16cd62d1d2a6957811faeafe68efbc267fd450f7677da8d188"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://amr.pku.edu.cn/jzyg/szdw/D/63c5f7b386c946d8921436bc5dfc4b6f.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+        "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+          "column": "博士生指导教师名录",
+          "matchedName": "段志生"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-chu-mengyu",
+      "nameZh": "楚梦渝",
+      "department": "智能学院",
+      "scope": "具身仿真相关",
+      "identityUrl": "https://sai.pku.edu.cn/info/1362/2386.htm",
+      "doctoralEvidenceUrls": [
+        "https://sai.pku.edu.cn/info/1034/9565.htm"
+      ],
+      "homepageUrl": "https://rachelcmy.github.io/",
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "楚梦渝个人／实验室主页",
+          "url": "https://rachelcmy.github.io/"
+        }
+      ],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2022 年（具体月日待核）",
+        "earliestDate": "2022-01-01",
+        "latestDate": "2022-12-31",
+        "careerContext": "early_career",
+        "noteZh": "个人履历明确2022年起任北大助理教授；此前2020–2022年在马普信息学所任博士后。",
+        "sources": [
+          {
+            "label": "Mengyu (Rachel) Chu · Peking University",
+            "url": "https://rachelcmy.github.io/",
+            "checkedDate": "2026-10-19",
+            "title": "Mengyu (Rachel) Chu · Peking University",
+            "readScope": "个人履历明确2022年起任北大助理教授；此前2020–2022年在马普信息学所任博士后。",
+            "contentSha256": "f5f91b658c3dba56792493623b5364d70d3b146873bfa7092484e24434a5799c"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://sai.pku.edu.cn/info/1362/2386.htm",
+        "https://sai.pku.edu.cn/info/1034/9565.htm",
+        "https://sai.pku.edu.cn/info/1465/2515.htm",
+        "https://rachelcmy.github.io/"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://sai.pku.edu.cn/info/1034/9565.htm",
+          "column": "博士生导师",
+          "direction": "智能图形与交互",
+          "matchedName": "楚梦渝"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-liu-libin",
+      "nameZh": "刘利斌",
+      "department": "智能学院",
+      "scope": "机器人学习与仿真",
+      "identityUrl": "https://sai.pku.edu.cn/info/1362/2389.htm",
+      "doctoralEvidenceUrls": [
+        "https://sai.pku.edu.cn/info/1034/9565.htm"
+      ],
+      "homepageUrl": "https://libliu.info/",
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "刘利斌个人／实验室主页",
+          "url": "https://libliu.info/"
+        }
+      ],
+      "recruitment": "个人主页明确招收1位2027 Fall博士（普博，原文标注2026.11录取、2027.09入学），方向为具身智能硬件、采集设备、视触觉传感与机器人系统，要求已获硕士或入学前取得硕士。该数字是公开招募声明，当前剩余与正式批次日期仍须确认；不适用于2028 Fall。",
+      "recruitmentSignal": "open2027",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2020 年（具体月日待核）",
+        "earliestDate": "2020-01-01",
+        "latestDate": "2020-12-31",
+        "careerContext": "industry_transition",
+        "noteZh": "校方个人介绍明确2020年全职回国加入北大；此前DeepMotion首席科学家属于行业经历。",
+        "sources": [
+          {
+            "label": "刘利斌-北京大学智能学院",
+            "url": "https://sai.pku.edu.cn/info/1362/2389.htm",
+            "checkedDate": "2026-10-19",
+            "title": "刘利斌-北京大学智能学院",
+            "readScope": "校方个人介绍明确2020年全职回国加入北大；此前DeepMotion首席科学家属于行业经历。",
+            "contentSha256": "42faa37f639ae87d6f10123d4aa9d0760a890f7b8636b249a90c3864e974e8f4"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://sai.pku.edu.cn/info/1362/2389.htm",
+        "https://sai.pku.edu.cn/info/1034/9565.htm",
+        "https://libliu.info/"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://sai.pku.edu.cn/info/1034/9565.htm",
+          "column": "博士生导师",
+          "direction": "智能图形与交互",
+          "matchedName": "刘利斌"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-zeng-gang",
+      "nameZh": "曾钢",
+      "department": "智能学院",
+      "scope": "机器人感知相关",
+      "identityUrl": "https://sai.pku.edu.cn/info/1362/2254.htm",
+      "doctoralEvidenceUrls": [
+        "https://sai.pku.edu.cn/info/1034/9565.htm"
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "官方页的2008年青年优秀人才入选时间属于人才项目记录，不能直接当作正式到岗时间。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://sai.pku.edu.cn/info/1362/2254.htm",
+        "https://sai.pku.edu.cn/info/1034/9565.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://sai.pku.edu.cn/info/1034/9565.htm",
+          "column": "博士生导师",
+          "direction": "计算机视觉",
+          "matchedName": "曾钢"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-pei-yuru",
+      "nameZh": "裴玉茹",
+      "department": "智能学院",
+      "scope": "机器人视觉与医学相关",
+      "identityUrl": "https://sai.pku.edu.cn/info/1362/2238.htm",
+      "doctoralEvidenceUrls": [
+        "https://sai.pku.edu.cn/info/1034/9565.htm"
+      ],
+      "homepageUrl": "https://yrpei.github.io/",
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "裴玉茹个人／实验室主页",
+          "url": "https://yrpei.github.io/"
+        }
+      ],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "博士毕业年份和授课经历不直接作为本校首次教研入职日期；本次仍待核。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://sai.pku.edu.cn/info/1362/2238.htm",
+        "https://sai.pku.edu.cn/info/1034/9565.htm",
+        "https://yrpei.github.io/"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://sai.pku.edu.cn/info/1034/9565.htm",
+          "column": "博士生导师",
+          "direction": "计算机视觉",
+          "matchedName": "裴玉茹"
+        },
+        {
+          "url": "https://sai.pku.edu.cn/info/1034/9565.htm",
+          "column": "博士生导师",
+          "direction": "智能图形与交互",
+          "matchedName": "裴玉茹"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-chen-baoquan",
+      "nameZh": "陈宝权",
+      "department": "智能学院",
+      "scope": "具身视觉与仿真相关",
+      "identityUrl": "https://sai.pku.edu.cn/info/1362/2268.htm",
+      "doctoralEvidenceUrls": [
+        "https://sai.pku.edu.cn/info/1034/9565.htm"
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "陈宝权官网所列个人／团队入口（正文待补核）",
+          "url": "http://vcl.pku.edu.cn/index.html"
+        }
+      ],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前北大教研身份，但本次已读来源未给出明确首次入职日期；网页发布时间、毕业年与论文年不作为入职日期。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://sai.pku.edu.cn/info/1362/2268.htm",
+        "https://sai.pku.edu.cn/info/1034/9565.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://sai.pku.edu.cn/info/1034/9565.htm",
+          "column": "博士生导师",
+          "direction": "计算机视觉",
+          "matchedName": "陈宝权"
+        },
+        {
+          "url": "https://sai.pku.edu.cn/info/1034/9565.htm",
+          "column": "博士生导师",
+          "direction": "智能图形与交互",
+          "matchedName": "陈宝权"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-zhong-yiwu",
+      "nameZh": "钟亦武",
+      "department": "智能学院",
+      "scope": "机器人感知与具身智能",
+      "identityUrl": "https://sai.pku.edu.cn/info/1362/3348.htm",
+      "doctoralEvidenceUrls": [
+        "https://sai.pku.edu.cn/info/1034/9565.htm"
+      ],
+      "homepageUrl": "https://yiwuzhong.notion.site/homepage",
+      "homepageReadLimit": "校方提供Notion个人主页入口，本次访问未完整返回正文；个人站内容与任职日期仍待补核。",
+      "linkedHomepageEntries": [
+        {
+          "label": "钟亦武个人／实验室入口（正文待补核）",
+          "url": "https://yiwuzhong.notion.site/homepage"
+        }
+      ],
+      "recruitment": "教师页明确长期招收博士生，提到直博与申请考核等通道；未注明2027/2028 Fall余位，应按当年申请方式分别确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前北大教研身份，但本次已读来源未给出明确首次入职日期；网页发布时间、毕业年与论文年不作为入职日期。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://sai.pku.edu.cn/info/1362/3348.htm",
+        "https://sai.pku.edu.cn/info/1034/9565.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://sai.pku.edu.cn/info/1034/9565.htm",
+          "column": "博士生导师",
+          "direction": "计算机视觉",
+          "matchedName": "钟亦武"
+        },
+        {
+          "url": "https://sai.pku.edu.cn/info/1034/9565.htm",
+          "column": "博士生导师",
+          "direction": "自然语言处理",
+          "matchedName": "钟亦武"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-zhang-chi",
+      "nameZh": "张驰",
+      "department": "智能学院",
+      "scope": "具身认知相关",
+      "identityUrl": "https://sai.pku.edu.cn/info/1362/9415.htm",
+      "doctoralEvidenceUrls": [
+        "https://sai.pku.edu.cn/info/1034/9565.htm"
+      ],
+      "homepageUrl": "https://wellyzhang.github.io/",
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "张驰个人／实验室主页",
+          "url": "https://wellyzhang.github.io/"
+        }
+      ],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2026 年（具体月日待核）",
+        "earliestDate": "2026-01-01",
+        "latestDate": "2026-10-19",
+        "careerContext": "industry_transition",
+        "noteZh": "校方履历在2025–2026年字节跳动经历之后写明同年加入北大，按2026年记录；当前已任职，日期上界截于本次核查日，月份待核。",
+        "sources": [
+          {
+            "label": "张驰-北京大学智能学院",
+            "url": "https://sai.pku.edu.cn/info/1362/9415.htm",
+            "checkedDate": "2026-10-19",
+            "title": "张驰-北京大学智能学院",
+            "readScope": "校方履历在2025–2026年字节跳动经历之后写明同年加入北大，按2026年记录；当前已任职，日期上界截于本次核查日，月份待核。",
+            "contentSha256": "4e2adc9ca7b3d13322d6d66791668966c34c857e3941cd2d21c3d4763be515b6"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://sai.pku.edu.cn/info/1362/9415.htm",
+        "https://sai.pku.edu.cn/info/1034/9565.htm",
+        "https://wellyzhang.github.io/"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://sai.pku.edu.cn/info/1034/9565.htm",
+          "column": "博士生导师",
+          "direction": "自然语言处理",
+          "matchedName": "张驰"
+        },
+        {
+          "url": "https://sai.pku.edu.cn/info/1034/9565.htm",
+          "column": "博士生导师",
+          "direction": "认知推理",
+          "matchedName": "张驰"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-wu-xihong",
+      "nameZh": "吴玺宏",
+      "department": "智能学院",
+      "scope": "机器人听觉相关",
+      "identityUrl": "https://sai.pku.edu.cn/info/1362/2253.htm",
+      "doctoralEvidenceUrls": [
+        "https://sai.pku.edu.cn/info/1034/9565.htm"
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前北大教研身份，但本次已读来源未给出明确首次入职日期；网页发布时间、毕业年与论文年不作为入职日期。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://sai.pku.edu.cn/info/1362/2253.htm",
+        "https://sai.pku.edu.cn/info/1034/9565.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://sai.pku.edu.cn/info/1034/9565.htm",
+          "column": "博士生导师",
+          "direction": "听觉、言语与音乐",
+          "matchedName": "吴玺宏"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-qu-tianshu",
+      "nameZh": "曲天书",
+      "department": "智能学院",
+      "scope": "机器人听觉相关",
+      "identityUrl": "https://sai.pku.edu.cn/info/1362/2241.htm",
+      "doctoralEvidenceUrls": [
+        "https://sai.pku.edu.cn/info/1034/9565.htm"
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2004 年（具体月日待核）",
+        "earliestDate": "2004-01-01",
+        "latestDate": "2004-12-31",
+        "careerContext": "early_career",
+        "noteZh": "官方履历明确2004年至今承担北大教学科研；2002–2004年北大博士后不计首次正式教研任职。",
+        "sources": [
+          {
+            "label": "曲天书-北京大学智能学院",
+            "url": "https://sai.pku.edu.cn/info/1362/2241.htm",
+            "checkedDate": "2026-10-19",
+            "title": "曲天书-北京大学智能学院",
+            "readScope": "官方履历明确2004年至今承担北大教学科研；2002–2004年北大博士后不计首次正式教研任职。",
+            "contentSha256": "e811adc1483e7d21dd55441a39079ab68e0b67910d12e8d95798a520db2e887c"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://sai.pku.edu.cn/info/1362/2241.htm",
+        "https://sai.pku.edu.cn/info/1034/9565.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://sai.pku.edu.cn/info/1034/9565.htm",
+          "column": "博士生导师",
+          "direction": "听觉、言语与音乐",
+          "matchedName": "曲天书"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-tan-ying",
+      "nameZh": "谭营",
+      "department": "智能学院",
+      "scope": "机器人群体智能相关",
+      "identityUrl": "https://sai.pku.edu.cn/info/1362/2263.htm",
+      "doctoralEvidenceUrls": [
+        "https://sai.pku.edu.cn/info/1034/9565.htm"
+      ],
+      "homepageUrl": "https://www.cil.pku.edu.cn/",
+      "homepageReadLimit": "校方教师页链接指向计算智能实验室；本次正文未成功返回，未据此补写团队或成果细节。",
+      "linkedHomepageEntries": [
+        {
+          "label": "谭营个人／实验室入口（正文待补核）",
+          "url": "https://www.cil.pku.edu.cn/"
+        }
+      ],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前北大教研身份，但本次已读来源未给出明确首次入职日期；网页发布时间、毕业年与论文年不作为入职日期。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://sai.pku.edu.cn/info/1362/2263.htm",
+        "https://sai.pku.edu.cn/info/1034/9565.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://sai.pku.edu.cn/info/1034/9565.htm",
+          "column": "博士生导师",
+          "direction": "机器学习",
+          "matchedName": "谭营"
+        },
+        {
+          "url": "https://sai.pku.edu.cn/info/1034/9565.htm",
+          "column": "博士生导师",
+          "direction": "多智能体",
+          "matchedName": "谭营"
+        },
+        {
+          "url": "https://sai.pku.edu.cn/info/1034/9565.htm",
+          "column": "博士生导师",
+          "direction": "数据智能与计算智能",
+          "matchedName": "谭营"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-dong-hao",
+      "nameZh": "董豪",
+      "department": "计算机学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://cs.pku.edu.cn/info/1094/1651.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+        "https://cs.pku.edu.cn/info/1051/5510.htm"
+      ],
+      "homepageUrl": "https://zsdonghao.github.io/",
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "董豪个人／实验室主页",
+          "url": "https://zsdonghao.github.io/"
+        }
+      ],
+      "recruitment": "主页写明通常每年招收2–3名博士及1–2名硕士，并有其他类别合作培养说明；未注明2028 Fall，年度数量不等于当前剩余数，不同学籍和培养渠道须分别确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2019 年 8 月（具体日待核）",
+        "earliestDate": "2019-08-01",
+        "latestDate": "2019-08-31",
+        "careerContext": "early_career",
+        "noteZh": "中心欢迎公告明确2019年8月正式加入任研究员、助理教授；现任长聘副教授属于后续晋升。",
+        "sources": [
+          {
+            "label": "欢迎董豪博士加入中心-新闻动态-北京大学前沿计算研究中心",
+            "url": "https://cfcs.pku.edu.cn/news/42cfcs239210.htm",
+            "checkedDate": "2026-10-19",
+            "title": "欢迎董豪博士加入中心-新闻动态-北京大学前沿计算研究中心",
+            "readScope": "中心欢迎公告明确2019年8月正式加入任研究员、助理教授；现任长聘副教授属于后续晋升。",
+            "contentSha256": "2c8eb4e2bd70f2ab1eca69a90f236409c5c14206a9c4448e80b2b62714184efc"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://cs.pku.edu.cn/info/1094/1651.htm",
+        "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+        "https://cs.pku.edu.cn/info/1051/5510.htm",
+        "https://zsdonghao.github.io/"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+          "column": "博士指导教师",
+          "direction": "人工智能",
+          "matchedName": "董豪"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-lu-zongqing",
+      "nameZh": "卢宗青",
+      "department": "计算机学院",
+      "scope": "机器人学习相关",
+      "identityUrl": "https://www.ai.pku.edu.cn/info/1313/1699.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+        "https://cs.pku.edu.cn/info/1051/5510.htm"
+      ],
+      "homepageUrl": "https://z0ngqing.github.io/",
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "卢宗青个人／实验室主页",
+          "url": "https://z0ngqing.github.io/"
+        }
+      ],
+      "recruitment": "个人主页明确招收2027 Fall博士，同时招募RA和博士后；未给出博士数量、余位或资助条款，不能沿用到2028 Fall。",
+      "recruitmentSignal": "open2027",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2017 年（具体月日待核）",
+        "earliestDate": "2017-01-01",
+        "latestDate": "2017-12-31",
+        "careerContext": "early_career",
+        "noteZh": "个人履历明确2017年秋加入北大，按年份保留；2024年1月获长聘副教授属于晋升。",
+        "sources": [
+          {
+            "label": "Zongqing's Homepage",
+            "url": "https://z0ngqing.github.io/",
+            "checkedDate": "2026-10-19",
+            "title": "Zongqing's Homepage",
+            "readScope": "个人履历明确2017年秋加入北大，按年份保留；2024年1月获长聘副教授属于晋升。",
+            "contentSha256": "6061fa7e4e507022fd6552befb7713e82de3a5c1206d303d60b515ff757fbb63"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://www.ai.pku.edu.cn/info/1313/1699.htm",
+        "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+        "https://cs.pku.edu.cn/info/1051/5510.htm",
+        "https://z0ngqing.github.io/"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+          "column": "博士指导教师",
+          "direction": "计算机视觉与多媒体",
+          "matchedName": "卢宗青"
+        },
+        {
+          "url": "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+          "column": "博士指导教师",
+          "direction": "人工智能",
+          "matchedName": "卢宗青"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-zhang-shanghang",
+      "nameZh": "仉尚航",
+      "department": "计算机学院",
+      "scope": "机器人感知泛化相关",
+      "identityUrl": "https://idm.pku.edu.cn/info/1017/1598.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+        "https://cs.pku.edu.cn/info/1051/5510.htm"
+      ],
+      "homepageUrl": "https://www.shanghangzhang.com/",
+      "homepageReadLimit": "校方直接提供个人站，但本次HTTP200返回错误提示而非学术正文；不能按访问成功认定已读主页。",
+      "linkedHomepageEntries": [
+        {
+          "label": "仉尚航个人／实验室入口（正文待补核）",
+          "url": "https://www.shanghangzhang.com/"
+        }
+      ],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2022 年 1 月（具体日待核）",
+        "earliestDate": "2022-01-01",
+        "latestDate": "2022-01-31",
+        "careerContext": "industry_transition",
+        "noteZh": "校方工作履历明确2022年1月起在北大任助理教授；此前在伯克利从事博士后研究，另有Petuum研究经理行业经历。",
+        "sources": [
+          {
+            "label": "仉尚航-视频与视觉技术国家工程研究中心",
+            "url": "https://idm.pku.edu.cn/info/1017/1598.htm",
+            "checkedDate": "2026-10-19",
+            "title": "仉尚航-视频与视觉技术国家工程研究中心",
+            "readScope": "校方工作履历明确2022年1月起在北大任助理教授；此前在伯克利从事博士后研究，另有Petuum研究经理行业经历。",
+            "contentSha256": "637d581c52fede7df98ef2d072a544cc1e4e02a5158671fe1902cf5228a36751"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://idm.pku.edu.cn/info/1017/1598.htm",
+        "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+        "https://cs.pku.edu.cn/info/1051/5510.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+          "column": "博士指导教师",
+          "direction": "计算机视觉与多媒体",
+          "matchedName": "仉尚航"
+        },
+        {
+          "url": "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+          "column": "博士指导教师",
+          "direction": "人工智能",
+          "matchedName": "仉尚航"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-wang-he",
+      "nameZh": "王鹤",
+      "department": "计算机学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://cs.pku.edu.cn/info/1094/1777.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+        "https://cs.pku.edu.cn/info/1051/5510.htm"
+      ],
+      "homepageUrl": "https://hughw19.github.io/",
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "王鹤个人／实验室主页",
+          "url": "https://hughw19.github.io/"
+        }
+      ],
+      "recruitment": "校方教师页列出CFCS博士2名、国际/港澳台博士1名以及多渠道联合培养说明，但未标适用入学年份。数字不能当作2028 Fall余位，北大本部、外校联培与不同学生类别须分开核实。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前北大教研身份，但本次已读来源未给出明确首次入职日期；网页发布时间、毕业年与论文年不作为入职日期。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cs.pku.edu.cn/info/1094/1777.htm",
+        "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+        "https://cs.pku.edu.cn/info/1051/5510.htm",
+        "https://hughw19.github.io/"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+          "column": "博士指导教师",
+          "direction": "人工智能",
+          "matchedName": "王鹤"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-wang-yizhou",
+      "nameZh": "王亦洲",
+      "department": "计算机学院",
+      "scope": "机器人视觉相关",
+      "identityUrl": "https://www.ai.pku.edu.cn/info/1136/1219.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+        "https://cs.pku.edu.cn/info/1051/5510.htm"
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2007 年 12 月（具体日待核）",
+        "earliestDate": "2007-12-01",
+        "latestDate": "2007-12-31",
+        "careerContext": "industry_transition",
+        "noteZh": "校方履历明确2007年12月加入北大；此前在Xerox PARC任研究员。",
+        "sources": [
+          {
+            "label": "王亦洲-北京大学人工智能研究院",
+            "url": "https://www.ai.pku.edu.cn/info/1136/1219.htm",
+            "checkedDate": "2026-10-19",
+            "title": "王亦洲-北京大学人工智能研究院",
+            "readScope": "校方履历明确2007年12月加入北大；此前在Xerox PARC任研究员。",
+            "contentSha256": "c3dfd6795f972da751580b555e98bc0c316e6a38cc71572c433ebf78b1ec71f2"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://www.ai.pku.edu.cn/info/1136/1219.htm",
+        "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+        "https://cs.pku.edu.cn/info/1051/5510.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+          "column": "博士指导教师",
+          "direction": "计算机视觉与多媒体",
+          "matchedName": "王亦洲"
+        },
+        {
+          "url": "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+          "column": "博士指导教师",
+          "direction": "人工智能",
+          "matchedName": "王亦洲"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-shi-boxin",
+      "nameZh": "施柏鑫",
+      "department": "计算机学院",
+      "scope": "机器人视觉相关",
+      "identityUrl": "https://ci.idm.pku.edu.cn/team",
+      "doctoralEvidenceUrls": [
+        "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+        "https://cs.pku.edu.cn/info/1051/5510.htm"
+      ],
+      "homepageUrl": "https://ci.idm.pku.edu.cn/team",
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "施柏鑫个人／实验室主页",
+          "url": "https://ci.idm.pku.edu.cn/team"
+        }
+      ],
+      "recruitment": "团队页含联合指导及2027 Fall待入学成员，不能把列出的所有成员计成当前在读人数，也不能由成员名单推导仍有博士余位。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "本次可读团队简介未给出明确的北大首次教研入职日期。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://ci.idm.pku.edu.cn/team",
+        "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+        "https://cs.pku.edu.cn/info/1051/5510.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+          "column": "博士指导教师",
+          "direction": "计算机视觉与多媒体",
+          "matchedName": "施柏鑫"
+        },
+        {
+          "url": "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+          "column": "博士指导教师",
+          "direction": "人工智能",
+          "matchedName": "施柏鑫"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-zhou-jiahuan",
+      "nameZh": "周嘉欢",
+      "department": "王选计算机研究所",
+      "scope": "机器人感知相关",
+      "identityUrl": "https://www.ai.pku.edu.cn/info/1312/2839.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+        "https://www.ai.pku.edu.cn/info/1312/2839.htm",
+        "https://www.ai.pku.edu.cn/info/1312/1687.htm"
+      ],
+      "homepageUrl": "https://zhoujiahuan1991.github.io/",
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "周嘉欢个人／实验室主页",
+          "url": "https://zhoujiahuan1991.github.io/"
+        }
+      ],
+      "recruitment": "个人主页明确常年招收博士、硕士、博士后及实习生，未注明2028 Fall或当前博士余位。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2022 年 3 月（具体日待核）",
+        "earliestDate": "2022-03-01",
+        "latestDate": "2022-03-31",
+        "careerContext": "unknown",
+        "noteZh": "个人主页2022年3月新闻明确加入北京大学；本次未完整核实入职前职业经历，不推定职业早期。",
+        "sources": [
+          {
+            "label": "PKU-OV3 周嘉欢主页",
+            "url": "https://zhoujiahuan1991.github.io/",
+            "checkedDate": "2026-10-19",
+            "title": "PKU-OV3 周嘉欢主页",
+            "readScope": "个人主页2022年3月新闻明确加入北京大学；本次未完整核实入职前职业经历，不推定职业早期。",
+            "contentSha256": "7004675e267a08aa7fcd6ef4553218705460cc6a605d5c14cabde44d4a6ada76"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://www.ai.pku.edu.cn/info/1312/2839.htm",
+        "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+        "https://www.ai.pku.edu.cn/info/1312/1687.htm",
+        "https://wict.pku.edu.cn/xstd/xstd_01/1201844icst1354287.htm",
+        "https://zhoujiahuan1991.github.io/"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+          "column": "博士指导教师",
+          "direction": "计算机视觉与多媒体",
+          "matchedName": "周嘉欢"
+        },
+        {
+          "url": "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+          "column": "博士指导教师",
+          "direction": "人工智能",
+          "matchedName": "周嘉欢"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-mu-yadong",
+      "nameZh": "穆亚东",
+      "department": "王选计算机研究所",
+      "scope": "机器人感知相关",
+      "identityUrl": "https://www.ai.pku.edu.cn/info/1312/1687.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+        "https://www.ai.pku.edu.cn/info/1312/2839.htm",
+        "https://www.ai.pku.edu.cn/info/1312/1687.htm"
+      ],
+      "homepageUrl": "https://www.muyadong.com",
+      "homepageReadLimit": "校方教师页给出个人域名；本次HTTPS访问超时，正文和个人招生信息仍待补读。",
+      "linkedHomepageEntries": [
+        {
+          "label": "穆亚东个人／实验室入口（正文待补核）",
+          "url": "https://www.muyadong.com"
+        }
+      ],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前北大教研身份，但本次已读来源未给出明确首次入职日期；网页发布时间、毕业年与论文年不作为入职日期。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://www.ai.pku.edu.cn/info/1312/1687.htm",
+        "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+        "https://www.ai.pku.edu.cn/info/1312/2839.htm",
+        "https://wict.pku.edu.cn/xstd/xstd_01/1201844icst1222613.htm"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+          "column": "博士指导教师",
+          "direction": "计算机视觉与多媒体",
+          "matchedName": "穆亚东"
+        },
+        {
+          "url": "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+          "column": "博士指导教师",
+          "direction": "人工智能",
+          "matchedName": "穆亚东"
+        },
+        {
+          "url": "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+          "column": "博士指导教师",
+          "direction": "计算机图形学",
+          "matchedName": "穆亚东"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-yang-yaodong",
+      "nameZh": "杨耀东",
+      "department": "人工智能研究院／前沿交叉科学研究院",
+      "scope": "机器人学习与具身智能",
+      "identityUrl": "https://www.ai.pku.edu.cn/info/1313/2015.htm",
+      "doctoralEvidenceUrls": [
+        "https://www.ai.pku.edu.cn/rcpy1/yjszsypy.htm"
+      ],
+      "homepageUrl": "https://www.yangyaodong.com",
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "杨耀东个人／实验室主页",
+          "url": "https://www.yangyaodong.com"
+        }
+      ],
+      "recruitment": "个人主页明确“2027招生：北京大学0名，已满、本轮暂无名额”，另列中关村学院若干机会。北大2027已满应保留为已满信号，外部渠道不能算作北大名额；未明确2028 Fall。",
+      "recruitmentSignal": "full2027",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2022 年（具体月日待核）",
+        "earliestDate": "2022-01-01",
+        "latestDate": "2022-12-31",
+        "careerContext": "previous_faculty",
+        "noteZh": "个人履历明确2022年起任北大助理教授；此前2021–2022年在伦敦国王学院任助理教授。",
+        "sources": [
+          {
+            "label": "杨耀东 · Yaodong Yang · 北京大学",
+            "url": "https://www.yangyaodong.com",
+            "checkedDate": "2026-10-19",
+            "title": "杨耀东 · Yaodong Yang · 北京大学",
+            "readScope": "个人履历明确2022年起任北大助理教授；此前2021–2022年在伦敦国王学院任助理教授。",
+            "contentSha256": "38c6e2e879a2b310d1eb54ce009fb844321b1bfafac1c803efe5adb873e040bb"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://www.ai.pku.edu.cn/info/1313/2015.htm",
+        "https://www.ai.pku.edu.cn/rcpy1/yjszsypy.htm",
+        "https://www.yangyaodong.com"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://www.ai.pku.edu.cn/rcpy1/yjszsypy.htm",
+          "column": "博士生导师身份；个人当年招生渠道待核",
+          "matchedName": "杨耀东"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-zhu-yixin",
+      "nameZh": "朱毅鑫",
+      "department": "心理与认知科学学院／人工智能研究院（跨院博士入口参考）",
+      "scope": "机器人认知相关",
+      "identityUrl": "https://www.ai.pku.edu.cn/info/1136/1864.htm",
+      "doctoralEvidenceUrls": [
+        "https://www.ai.pku.edu.cn/rcpy1/yjszsypy.htm"
+      ],
+      "homepageUrl": "https://yzhu.io",
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "朱毅鑫个人／实验室主页",
+          "url": "https://yzhu.io"
+        }
+      ],
+      "recruitment": "校方研究生联系说明要求英文CV、2–3页英文SOP和成绩单，并简述计划课题；人工智能研究院列其为依托前沿交叉科学研究院招生的博士生导师。个人主页当前滚动招聘文字明确的是博士后，不能当作2028博士招募。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前北大教研身份，但本次已读来源未给出明确首次入职日期；网页发布时间、毕业年与论文年不作为入职日期。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://www.ai.pku.edu.cn/info/1136/1864.htm",
+        "https://www.ai.pku.edu.cn/rcpy1/yjszsypy.htm",
+        "https://yzhu.io"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://www.ai.pku.edu.cn/rcpy1/yjszsypy.htm",
+          "column": "博士生导师身份；个人当年招生渠道待核",
+          "matchedName": "朱毅鑫"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-liu-hong",
+      "nameZh": "刘宏",
+      "department": "信息工程学院（深圳研究生院）",
+      "scope": "机器人核心",
+      "identityUrl": "https://www.ece.pku.edu.cn/info/1046/2460.htm",
+      "doctoralEvidenceUrls": [
+        "https://www.ai.pku.edu.cn/info/1281/2961.htm",
+        "https://www.ece.pku.edu.cn/info/1046/2596.htm"
+      ],
+      "homepageUrl": "https://robotics.pkusz.edu.cn/team/teachers/",
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "刘宏个人／实验室主页",
+          "url": "https://robotics.pkusz.edu.cn/team/teachers/"
+        }
+      ],
+      "recruitment": "本次确认博士导师身份或博士方向名单，但未在已核读页面找到个人当期博士招募声明；不能据此断言不招生。2027/2028 Fall接收、名额与资助须联系导师确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前北大教研身份，但本次已读来源未给出明确首次入职日期；网页发布时间、毕业年与论文年不作为入职日期。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://www.ece.pku.edu.cn/info/1046/2460.htm",
+        "https://www.ai.pku.edu.cn/info/1281/2961.htm",
+        "https://www.ece.pku.edu.cn/info/1046/2596.htm",
+        "https://robotics.pkusz.edu.cn/team/teachers/"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://www.ai.pku.edu.cn/info/1281/2961.htm",
+          "column": "博士生导师身份；个人当年招生渠道待核",
+          "matchedName": "刘宏"
+        }
+      ]
+    },
+    {
+      "advisorId": "pku-liu-mengyuan",
+      "nameZh": "刘梦源",
+      "department": "信息工程学院（深圳研究生院）",
+      "scope": "机器人核心",
+      "identityUrl": "https://www.ece.pku.edu.cn/info/1046/2596.htm",
+      "doctoralEvidenceUrls": [
+        "https://www.ai.pku.edu.cn/info/1281/2961.htm",
+        "https://www.ece.pku.edu.cn/info/1046/2596.htm"
+      ],
+      "homepageUrl": "https://robotics.pkusz.edu.cn/person/teachers/刘梦源/",
+      "homepageReadLimit": null,
+      "linkedHomepageEntries": [
+        {
+          "label": "刘梦源个人／实验室主页",
+          "url": "https://robotics.pkusz.edu.cn/person/teachers/刘梦源/"
+        }
+      ],
+      "recruitment": "教师页写明每年招收3–6名硕士生/博士生/博士后，属于多类别合并描述，不能改写成3–6名博士或当前剩余数；未注明2028 Fall，具体博士学籍、专业及招生渠道待核。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2023 年 3 月（具体日待核）",
+        "earliestDate": "2023-03-01",
+        "latestDate": "2023-03-31",
+        "careerContext": "previous_faculty",
+        "noteZh": "实验室2023年3月欢迎公告明确本月全职回北大任职；此前2020–2023年中山大学长聘副教授。2012–2017年在北大学生经历不计首次教研入职。",
+        "sources": [
+          {
+            "label": "北京大学智能机器人开放实验室",
+            "url": "https://robotics.pkusz.edu.cn/report/20230331-1.欢迎刘梦源老师全职回北大任职/?back=3",
+            "checkedDate": "2026-10-19",
+            "title": "北京大学智能机器人开放实验室",
+            "readScope": "实验室2023年3月欢迎公告明确本月全职回北大任职；此前2020–2023年中山大学长聘副教授。2012–2017年在北大学生经历不计首次教研入职。",
+            "contentSha256": "3457a354d73f2c39b8ccebcadc75114ffa072c7490d2198328f9e9194fc994bd"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://www.ece.pku.edu.cn/info/1046/2596.htm",
+        "https://www.ai.pku.edu.cn/info/1281/2961.htm",
+        "https://robotics.pkusz.edu.cn/person/teachers/刘梦源/"
+      ],
+      "unknowns": [
+        "当期博士剩余名额、资助条款与导师最终接收需确认",
+        "2028 Fall博士招募未在本轮已读来源中核实",
+        "本次以身份、博士依据、研究方向与主页为重点；具体论文书目信息、完整团队与设备配置仍待逐项核验"
+      ],
+      "doctoralMatches": [
+        {
+          "url": "https://www.ece.pku.edu.cn/info/1046/2596.htm",
+          "column": "博士生导师身份；个人当年招生渠道待核",
+          "matchedName": "刘梦源"
+        }
+      ]
+    }
+  ],
+  "exclusionsAndPending": [
+    {
+      "name": "崔锦实",
+      "reason": "2027智能学院指南仅在相关硕士导师栏出现，不据此纳入新增博士参考。",
+      "sourceUrls": [
+        "https://sai.pku.edu.cn/info/1034/9565.htm"
+      ]
+    },
+    {
+      "name": "查红彬",
+      "reason": "可读官网保留教授及研究身份，但本轮2027指南博士栏未见其名，个人当期博士入口继续待核，不加入本批博士路线。",
+      "sourceUrls": [
+        "https://sai.pku.edu.cn/info/1034/9565.htm",
+        "https://sai.pku.edu.cn/info/1362/2247.htm"
+      ]
+    },
+    {
+      "name": "麦金耿、邵金燕",
+      "reason": "可读师资页确认研究相关，尚未核对到个人当前博士导师依据，未由同系任职推导博士招生。",
+      "sourceUrls": [
+        "https://amr.pku.edu.cn/jzyg/szdw/M/f0e5ad6838904ef79607b7bc3668bb72.htm",
+        "https://amr.pku.edu.cn/jzyg/szdw/S/73a7e84e4e2345a7a4e7b51ec671c2c3.htm"
+      ]
+    },
+    {
+      "name": "杨林",
+      "reason": "虽列博士导师，当前研究主要为芯片、热管理与声子，本批机器人相关性不足，未仅凭学院名称纳入。",
+      "sourceUrls": [
+        "https://amr.pku.edu.cn/jzyg/szdw/Y/1efaecc549cb4e83a7023f760b61de8a.htm"
+      ]
+    },
+    {
+      "name": "深圳机器人实验室其他合作成员",
+      "reason": "团队页同时列校外合作教师、博士后与工程师，未将所有团队成员视为北大独立博士导师。",
+      "sourceUrls": [
+        "https://robotics.pkusz.edu.cn/team/teachers/"
+      ]
+    }
+  ],
+  "sourceLedger": [
+    {
+      "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index.htm",
+      "title": "机器人科学与工程系_北京大学先进制造与机器人学院",
+      "section": "博士资格或院系项目参考，非剩余名额",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "e3b7f869c6c7a03fb042fc8c4171a6af64fc9ce5c3ca2338c2101ee7a10c458a",
+      "readLimit": null
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/yblxylxjc1/index1.htm",
+      "title": "机器人科学与工程系_北京大学先进制造与机器人学院",
+      "section": "博士资格或院系项目参考，非剩余名额",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "6e9ea2d22b658bbb8d6b3d01b2e6b5c8ffade0799686d79fdba9e5e838829ff4",
+      "readLimit": null
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxlxxtykz/index.htm",
+      "title": "控制科学与系统工程系（控制科学方向）_北京大学先进制造与机器人学院",
+      "section": "博士资格或院系项目参考，非剩余名额",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "de8feabf9ec86e0c0278fdda04421d85caf8f5b5b1d8df490b1d0e38e89084e8",
+      "readLimit": null
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jyjx/yjsjy/zsxx1/bsszdjs/lxxjclylx/index.htm",
+      "title": "先进制造系_北京大学先进制造与机器人学院",
+      "section": "博士资格或院系项目参考，非剩余名额",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "494329de8f06af00c0e647667f81dec62e9082f9b991f53f76ea8948716a8dc5",
+      "readLimit": null
+    },
+    {
+      "url": "https://sai.pku.edu.cn/info/1034/9565.htm",
+      "title": "智能学院2027年招生指南-北京大学智能学院",
+      "section": "博士资格或院系项目参考，非剩余名额",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "30e10c88be552765965f40f8b21c938f9e54d6c8df2ef53533a18d11565b8895",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+      "title": "导师信息-北京大学计算机学院",
+      "section": "博士资格或院系项目参考，非剩余名额",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "89d16f287e8b8c8b7cf14c867394ee7058ade91c96dd083f66385eec4915e278",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.pku.edu.cn/info/1051/5510.htm",
+      "title": "北京大学计算机学院2027年研究生招生指南-北京大学计算机学院",
+      "section": "博士资格或院系项目参考，非剩余名额",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "e75b774dfaf6c4b6c7af2a10262bf89d898fd9660d392fbcc53ab261ef77736c",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.ai.pku.edu.cn/info/1312/2839.htm",
+      "title": "周嘉欢-北京大学人工智能研究院",
+      "section": "博士资格或院系项目参考，非剩余名额；周嘉欢身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "d7c112525495684284f7243e693ca2f227e5c2b5f174ee39ea5fe3420cbcb702",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.ai.pku.edu.cn/info/1312/1687.htm",
+      "title": "穆亚东-北京大学人工智能研究院",
+      "section": "博士资格或院系项目参考，非剩余名额；穆亚东身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "528d245beeb1db75752c109caf5692b6e2804799a68f8556e0559d1380d426e6",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.ai.pku.edu.cn/rcpy1/yjszsypy.htm",
+      "title": "研究生招生与培养-北京大学人工智能研究院",
+      "section": "博士资格或院系项目参考，非剩余名额",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "7e7d782fed01e8d20cab4fb512d0b6a37c66fb977d8e22470a331c42c52308ea",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.ai.pku.edu.cn/info/1281/2961.htm",
+      "title": "刘宏-北京大学人工智能研究院",
+      "section": "博士资格或院系项目参考，非剩余名额；刘宏补充身份、履历或招生说明",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "4f104a46b3efcc9eba046c2a233775ea15786626a5639d907bd17110e96f2c12",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.ece.pku.edu.cn/info/1046/2596.htm",
+      "title": "刘梦源-北京大学信息工程学院",
+      "section": "博士资格或院系项目参考，非剩余名额；刘梦源身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "562392493ad66e7cb978b93b9bc09be388b9aca1b24def1327a11ab3d6cc0f0c",
+      "readLimit": null
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jzyg/szdw/W/2f3aa646c29a417aae8934458413a8c2.htm",
+      "title": "王启宁_北京大学先进制造与机器人学院",
+      "section": "王启宁身份、职称、研究方向及履历；王启宁本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "42b7405c0af6b192729b546dcd956bfd9dd96cc3b00fa11615e6d53bd3b31dd5",
+      "readLimit": null
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jzyg/szdw/W/14911a87e0274cdcb6ad52bb7684bd5b.htm",
+      "title": "王龙_北京大学先进制造与机器人学院",
+      "section": "王龙身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "101545544d03a6d378c707f63b8aaea0f78b9244f2a968ecec653cc02bab7071",
+      "readLimit": null
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jzyg/szdw/W/8b7007df8e71414589a5d2813180193c.htm",
+      "title": "王勇_北京大学先进制造与机器人学院",
+      "section": "王勇身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "f410c69bf17e4dd91274d3a833c4bb6e9354d543caec80cafb2f247c1abc9dfd",
+      "readLimit": null
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jzyg/szdw/X/0dba539cb6214815a8b90e659d9eabef.htm",
+      "title": "谢广明_北京大学先进制造与机器人学院",
+      "section": "谢广明身份、职称、研究方向及履历；谢广明本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "295c676323acb7fd5a73355a9599778373b901133e737ee303b2cdd885d5926e",
+      "readLimit": null
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jzyg/szdw/Y/7cc6c4a98def4c4089fe08ce09a5479c.htm",
+      "title": "喻俊志_北京大学先进制造与机器人学院",
+      "section": "喻俊志身份、职称、研究方向及履历；喻俊志本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "f8576524fc885f1378935093ee192e1f55dbe293bbb200b2640d6e3144bca0e3",
+      "readLimit": null
+    },
+    {
+      "url": "https://pkuyulab.com/",
+      "title": "Yu Lab | 仿生智能科技",
+      "section": "喻俊志个人或实验室入口；招生、履历正文仅在可读时采信",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "df3bf9c31b88289f550b0e06e044acbeeb705d02058fea938ef09f7d189fa2c6",
+      "readLimit": "仅核对官方所给入口；正文未完整读取，未用其支持任职、研究或招生事实"
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jzyg/szdw/Z/9c771ce215234288accbc577c8611c0a.htm",
+      "title": "张飞天_北京大学先进制造与机器人学院",
+      "section": "张飞天身份、职称、研究方向及履历；张飞天本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "a5a1e7d1bb11e5fb5ea2d1822cd3a071faa9f60873175b2f8abdf183c58bf985",
+      "readLimit": null
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jzyg/szdw/L/81491482bb754439856d18f54551152b.htm",
+      "title": "刘畅_北京大学先进制造与机器人学院",
+      "section": "刘畅身份、职称、研究方向及履历；刘畅本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "f99b75454168361d2518b20bf8ced04d71a9a8d4e3e360e42c3e39b81a7105ef",
+      "readLimit": null
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jzyg/szdw/S/84bbbff41d22491badf79d233691265d.htm",
+      "title": "孙环波_北京大学先进制造与机器人学院",
+      "section": "孙环波身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "75e8d19a5577583b877558ff42be25849b23f24a5e5221d2d9ab7190e77cfc97",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.hapticsensinglab.com",
+      "title": "Haptic Sensing Lab",
+      "section": "孙环波个人或实验室入口；招生、履历正文仅在可读时采信；孙环波本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "1810c451633d21c9159147234d9d954d75e3e726cbef41001cd960926770725a",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.hapticsensinglab.com/people",
+      "title": "Haptic Sensing Lab - People",
+      "section": "孙环波补充身份、履历或招生说明",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "04a7bc72e2da121726528b93f95056ca9c53d5b71ab1224e54e060eaafdbe1eb",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.hapticsensinglab.com/join-us",
+      "title": "Haptic Sensing Lab - Join Us",
+      "section": "孙环波补充身份、履历或招生说明",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "4ea81012a48455919a300168d3f02c6ed73d73a7ede280e25eebdbeb33d5d41f",
+      "readLimit": null
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jzyg/szdw/P/2a0b83b7eedb480293ee6eccdf490ef7.htm",
+      "title": "庞智博_北京大学先进制造与机器人学院",
+      "section": "庞智博身份、职称、研究方向及履历；庞智博本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "ded1b3e50c221598458d7ffd86b4581db5d6614af0542b13b2ac3ec3f792ed76",
+      "readLimit": null
+    },
+    {
+      "url": "https://pku-pi-lab.github.io/",
+      "title": "PKU PI-Lab | 物理智能实验室",
+      "section": "庞智博个人或实验室入口；招生、履历正文仅在可读时采信",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "82f8526d8b1c4bb4dc1878f7712150d1f999da8a3fb7fb7e191746413754e2cf",
+      "readLimit": "仅核对官方所给入口；正文未完整读取，未用其支持任职、研究或招生事实"
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jzyg/szdw/W/5ebefc691c0d49209f91a42b49c2260d.htm",
+      "title": "王雪峰_北京大学先进制造与机器人学院",
+      "section": "王雪峰身份、职称、研究方向及履历；王雪峰本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "25d6ad4c39d4da7b72cff9bb565b9a65c5fcff9f03133018307d07e5ec931d91",
+      "readLimit": null
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jzyg/szdw/L/b5757df80ae94769980287036651ed63.htm",
+      "title": "吕鹏宇_北京大学先进制造与机器人学院",
+      "section": "吕鹏宇身份、职称、研究方向及履历；吕鹏宇本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "3a7a80a3dd1a035391877e413f2f2dbde0134d828a82f0b3081b371d2a9e83d1",
+      "readLimit": null
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jzyg/szdw/L/3f7d3b40e8504115a7ca996eb6b43a71.htm",
+      "title": "李启亮_北京大学先进制造与机器人学院",
+      "section": "李启亮身份、职称、研究方向及履历；李启亮本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "6187decf88b4a2cdb0319a195f3ef19058f550c4cc489a7a126ad34d402553b7",
+      "readLimit": null
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jzyg/szdw/L/3c852b458353440ea61a5cc2e7496212.htm",
+      "title": "李阿明_北京大学先进制造与机器人学院",
+      "section": "李阿明身份、职称、研究方向及履历；李阿明本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "9e11bb3351b5f42e03910c676f3bc1cabd98a9f6b5cd044f911560961a95edf2",
+      "readLimit": null
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jzyg/szdw/H/723a9c3b4fce4eafbfddda1bc84e1d05.htm",
+      "title": "黄天云_北京大学先进制造与机器人学院",
+      "section": "黄天云身份、职称、研究方向及履历；黄天云本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "bca8f78226aaca670452f6c0d8eb7e3691a87189d608b3e22620648e2ef1a98d",
+      "readLimit": null
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jzyg/szdw/Y/20922bb0ff6b4147a6e80e231e25fa15.htm",
+      "title": "杨莹_北京大学先进制造与机器人学院",
+      "section": "杨莹身份、职称、研究方向及履历；杨莹本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "3d5acbfc2610c06392b45d6a4bc81b56c0513fed6f4d89193db10b7075bec1fa",
+      "readLimit": null
+    },
+    {
+      "url": "https://amr.pku.edu.cn/jzyg/szdw/D/63c5f7b386c946d8921436bc5dfc4b6f.htm",
+      "title": "段志生_北京大学先进制造与机器人学院",
+      "section": "段志生身份、职称、研究方向及履历；段志生本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "5b6aea28944d2e16cd62d1d2a6957811faeafe68efbc267fd450f7677da8d188",
+      "readLimit": null
+    },
+    {
+      "url": "https://sai.pku.edu.cn/info/1362/2386.htm",
+      "title": "楚梦渝-北京大学智能学院",
+      "section": "楚梦渝身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "1cf6076dbc64ad4535b31c583f9ef5d43b67ecac7d4f3e80a73e8f2124719fe2",
+      "readLimit": null
+    },
+    {
+      "url": "https://rachelcmy.github.io/",
+      "title": "Mengyu (Rachel) Chu · Peking University",
+      "section": "楚梦渝个人或实验室入口；招生、履历正文仅在可读时采信；楚梦渝本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "f5f91b658c3dba56792493623b5364d70d3b146873bfa7092484e24434a5799c",
+      "readLimit": null
+    },
+    {
+      "url": "https://sai.pku.edu.cn/info/1465/2515.htm",
+      "title": "楚梦渝-北京大学智能学院",
+      "section": "楚梦渝补充身份、履历或招生说明",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "9646223c2a96bdd977a3b73414173b11f908bb34051c32391bc52fd9a5d422eb",
+      "readLimit": null
+    },
+    {
+      "url": "https://sai.pku.edu.cn/info/1362/2389.htm",
+      "title": "刘利斌-北京大学智能学院",
+      "section": "刘利斌身份、职称、研究方向及履历；刘利斌本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "42faa37f639ae87d6f10123d4aa9d0760a890f7b8636b249a90c3864e974e8f4",
+      "readLimit": null
+    },
+    {
+      "url": "https://libliu.info/",
+      "title": "Libin Liu",
+      "section": "刘利斌个人或实验室入口；招生、履历正文仅在可读时采信",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "3ee32c5f3c4219a9c7235e5c1857a26f34653fef81d7577f1b7ea2b17b3c1149",
+      "readLimit": null
+    },
+    {
+      "url": "https://sai.pku.edu.cn/info/1362/2254.htm",
+      "title": "曾钢-北京大学智能学院",
+      "section": "曾钢身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "5ee05c3e9bf4c175f9a51d73f7c1442245b475da9ffb9a3d3d6c6e382616eb31",
+      "readLimit": null
+    },
+    {
+      "url": "https://sai.pku.edu.cn/info/1362/2238.htm",
+      "title": "裴玉茹-北京大学智能学院",
+      "section": "裴玉茹身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "c021d3392d5328b3e4255ae2a558937934ed92b3c5c1a86ca321ecd76de4a20d",
+      "readLimit": null
+    },
+    {
+      "url": "https://yrpei.github.io/",
+      "title": "yrpei.github.io",
+      "section": "裴玉茹个人或实验室入口；招生、履历正文仅在可读时采信",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "f3454e8b514d9fc7f4812a09f6593f4481e10fc7d75e42d57a0ffcf357b26caf",
+      "readLimit": null
+    },
+    {
+      "url": "https://sai.pku.edu.cn/info/1362/2268.htm",
+      "title": "陈宝权-北京大学智能学院",
+      "section": "陈宝权身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "3ecef0643887e904c10b04c1f223eb9eff90f492b79a9d1b7b878843db12963f",
+      "readLimit": null
+    },
+    {
+      "url": "https://sai.pku.edu.cn/info/1362/3348.htm",
+      "title": "钟亦武-北京大学智能学院",
+      "section": "钟亦武身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "bb4f08a777fcebf46a54b488c513b5ed31efd2b8aa4e01bef0a0559ab78dfcbc",
+      "readLimit": null
+    },
+    {
+      "url": "https://yiwuzhong.notion.site/homepage",
+      "title": "https://yiwuzhong.notion.site/homepage",
+      "section": "钟亦武个人或实验室入口；招生、履历正文仅在可读时采信",
+      "checkedDate": "2026-10-19",
+      "httpStatus": null,
+      "contentSha256": null,
+      "readLimit": "仅核对官方所给入口；正文未完整读取，未用其支持任职、研究或招生事实"
+    },
+    {
+      "url": "https://sai.pku.edu.cn/info/1362/9415.htm",
+      "title": "张驰-北京大学智能学院",
+      "section": "张驰身份、职称、研究方向及履历；张驰本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "4e2adc9ca7b3d13322d6d66791668966c34c857e3941cd2d21c3d4763be515b6",
+      "readLimit": null
+    },
+    {
+      "url": "https://wellyzhang.github.io/",
+      "title": "About Me - Chi's Homepage | 张驰的主页",
+      "section": "张驰个人或实验室入口；招生、履历正文仅在可读时采信",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "26cf0ec4924587bb402d7f49a8123e3a0f85754c2f90e58a10f07dd2664cbbbd",
+      "readLimit": null
+    },
+    {
+      "url": "https://sai.pku.edu.cn/info/1362/2253.htm",
+      "title": "吴玺宏-北京大学智能学院",
+      "section": "吴玺宏身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "e37515d01710930ec9edd61086d535c9976ba8725df713809028a52c9853b4ad",
+      "readLimit": null
+    },
+    {
+      "url": "https://sai.pku.edu.cn/info/1362/2241.htm",
+      "title": "曲天书-北京大学智能学院",
+      "section": "曲天书身份、职称、研究方向及履历；曲天书本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "e811adc1483e7d21dd55441a39079ab68e0b67910d12e8d95798a520db2e887c",
+      "readLimit": null
+    },
+    {
+      "url": "https://sai.pku.edu.cn/info/1362/2263.htm",
+      "title": "谭营-北京大学智能学院",
+      "section": "谭营身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "a19f053127bc1fbcbcb3dd4ca0379bb8d4b27802dd0bbd43a48fa8cad5722273",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.cil.pku.edu.cn/",
+      "title": "https://www.cil.pku.edu.cn/",
+      "section": "谭营个人或实验室入口；招生、履历正文仅在可读时采信",
+      "checkedDate": "2026-10-19",
+      "httpStatus": null,
+      "contentSha256": null,
+      "readLimit": "仅核对官方所给入口；正文未完整读取，未用其支持任职、研究或招生事实"
+    },
+    {
+      "url": "https://cs.pku.edu.cn/info/1094/1651.htm",
+      "title": "董豪-北京大学计算机学院",
+      "section": "董豪身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "c2ab5c6c4f026eae441e4bbe5080a0441f687c265f3130851d966f808baf7c9d",
+      "readLimit": null
+    },
+    {
+      "url": "https://zsdonghao.github.io/",
+      "title": "Hao Dong - Peking University",
+      "section": "董豪个人或实验室入口；招生、履历正文仅在可读时采信",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "a57df73ad1d68fd97fe29f0cdb3d3f4c5b59111d1e552abe7b39843562e5f52b",
+      "readLimit": null
+    },
+    {
+      "url": "https://cfcs.pku.edu.cn/news/42cfcs239210.htm",
+      "title": "欢迎董豪博士加入中心-新闻动态-北京大学前沿计算研究中心",
+      "section": "董豪本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "2c8eb4e2bd70f2ab1eca69a90f236409c5c14206a9c4448e80b2b62714184efc",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.ai.pku.edu.cn/info/1313/1699.htm",
+      "title": "卢宗青-北京大学人工智能研究院",
+      "section": "卢宗青身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "f14bcaab9ba520ab3e85560197bea3db5e393926807c83c23b4ba8afff52c31f",
+      "readLimit": null
+    },
+    {
+      "url": "https://z0ngqing.github.io/",
+      "title": "Zongqing's Homepage",
+      "section": "卢宗青个人或实验室入口；招生、履历正文仅在可读时采信；卢宗青本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "6061fa7e4e507022fd6552befb7713e82de3a5c1206d303d60b515ff757fbb63",
+      "readLimit": null
+    },
+    {
+      "url": "https://idm.pku.edu.cn/info/1017/1598.htm",
+      "title": "仉尚航-视频与视觉技术国家工程研究中心",
+      "section": "仉尚航身份、职称、研究方向及履历；仉尚航本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "637d581c52fede7df98ef2d072a544cc1e4e02a5158671fe1902cf5228a36751",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.shanghangzhang.com/",
+      "title": "https://www.shanghangzhang.com/",
+      "section": "仉尚航个人或实验室入口；招生、履历正文仅在可读时采信",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "4236a047946cb67d6a7e839ec4fee7092e36705e2ebb69f80a5614aa3adf8eee",
+      "readLimit": "仅核对官方所给入口；正文未完整读取，未用其支持任职、研究或招生事实"
+    },
+    {
+      "url": "https://cs.pku.edu.cn/info/1094/1777.htm",
+      "title": "王鹤-北京大学计算机学院",
+      "section": "王鹤身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "d08fd4b9fe08fd764dc4da872b04011003154202daae4e52d4f413cb633e2676",
+      "readLimit": null
+    },
+    {
+      "url": "https://hughw19.github.io/",
+      "title": "He Wang",
+      "section": "王鹤个人或实验室入口；招生、履历正文仅在可读时采信",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "ac9673c2568d611eb6887f9cdd6ce2154ca1d11b1b099a1ab8df86dfdaac5243",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.ai.pku.edu.cn/info/1136/1219.htm",
+      "title": "王亦洲-北京大学人工智能研究院",
+      "section": "王亦洲身份、职称、研究方向及履历；王亦洲本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "c3dfd6795f972da751580b555e98bc0c316e6a38cc71572c433ebf78b1ec71f2",
+      "readLimit": null
+    },
+    {
+      "url": "https://ci.idm.pku.edu.cn/team",
+      "title": "Camera Intelligence",
+      "section": "施柏鑫身份、职称、研究方向及履历；施柏鑫个人或实验室入口；招生、履历正文仅在可读时采信",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "ea47ed21b5bcb25a8b103ce7dd221b4bcf14d542fb3890af28719b6428871273",
+      "readLimit": null
+    },
+    {
+      "url": "https://zhoujiahuan1991.github.io/",
+      "title": "PKU-OV3 周嘉欢主页",
+      "section": "周嘉欢个人或实验室入口；招生、履历正文仅在可读时采信；周嘉欢本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "7004675e267a08aa7fcd6ef4553218705460cc6a605d5c14cabde44d4a6ada76",
+      "readLimit": null
+    },
+    {
+      "url": "https://wict.pku.edu.cn/xstd/xstd_01/1201844icst1354287.htm",
+      "title": "北京大学王选计算机研究所",
+      "section": "周嘉欢补充身份、履历或招生说明",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "41f4617ee6338bcc5dd7a33cc6cca665c945e0f967c94b671251fdbd5b40a597",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.muyadong.com",
+      "title": "https://www.muyadong.com",
+      "section": "穆亚东个人或实验室入口；招生、履历正文仅在可读时采信",
+      "checkedDate": "2026-10-19",
+      "httpStatus": null,
+      "contentSha256": null,
+      "readLimit": "仅核对官方所给入口；正文未完整读取，未用其支持任职、研究或招生事实"
+    },
+    {
+      "url": "https://wict.pku.edu.cn/xstd/xstd_01/1201844icst1222613.htm",
+      "title": "北京大学王选计算机研究所",
+      "section": "穆亚东补充身份、履历或招生说明",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "de79b716d277f049fc15f997e08418cf21ce68ae524a43692f1784d460a7ddf9",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.ai.pku.edu.cn/info/1313/2015.htm",
+      "title": "杨耀东-北京大学人工智能研究院",
+      "section": "杨耀东身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "38fd6942cbbfbf4e26750d2afd77feee9dae385a2c5fbf20bc5ff21fc991e464",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.yangyaodong.com",
+      "title": "杨耀东 · Yaodong Yang · 北京大学",
+      "section": "杨耀东个人或实验室入口；招生、履历正文仅在可读时采信；杨耀东本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "38c6e2e879a2b310d1eb54ce009fb844321b1bfafac1c803efe5adb873e040bb",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.ai.pku.edu.cn/info/1136/1864.htm",
+      "title": "朱毅鑫-北京大学人工智能研究院",
+      "section": "朱毅鑫身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "828d4bd0734f11b69dda870d73eecfa959cb153d16c623df4d1a7962d8e1a7cc",
+      "readLimit": null
+    },
+    {
+      "url": "https://yzhu.io",
+      "title": "Yixin Zhu | PKU",
+      "section": "朱毅鑫个人或实验室入口；招生、履历正文仅在可读时采信",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "9e44dcd94147c137c9d85ad58c9af1c51bbe4ac2ae921db3543e3028398d097b",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.ece.pku.edu.cn/info/1046/2460.htm",
+      "title": "刘宏-北京大学信息工程学院",
+      "section": "刘宏身份、职称、研究方向及履历",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "6cc3e91a3ae445513c36170c742dcaf1a1e4efeb758e0801da6b0c4a21052339",
+      "readLimit": null
+    },
+    {
+      "url": "https://robotics.pkusz.edu.cn/team/teachers/",
+      "title": "北京大学智能机器人开放实验室",
+      "section": "刘宏个人或实验室入口；招生、履历正文仅在可读时采信",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "b42a8e8690664393f20747d26c48624a4dfb2311cfd8fc086edb4d4092b637c2",
+      "readLimit": null
+    },
+    {
+      "url": "https://robotics.pkusz.edu.cn/person/teachers/刘梦源/",
+      "title": "北京大学智能机器人开放实验室",
+      "section": "刘梦源个人或实验室入口；招生、履历正文仅在可读时采信",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "718c49063f98fa186716a45934f75ab438c1c49de60ef0bd773eaf4045bf86e7",
+      "readLimit": null
+    },
+    {
+      "url": "https://robotics.pkusz.edu.cn/report/20230331-1.欢迎刘梦源老师全职回北大任职/?back=3",
+      "title": "北京大学智能机器人开放实验室",
+      "section": "刘梦源本校首次正式教研任职与此前经历，排除博士后、晋升、校内转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "3457a354d73f2c39b8ccebcadc75114ffa072c7490d2198328f9e9194fc994bd",
+      "readLimit": null
+    },
+    {
+      "url": "https://is.mpg.de/en/awards/huanbo-sun-becomes-assistant-professor-in-peking-university",
+      "title": "MPI-IS：Huanbo Sun becomes Assistant Professor in Peking University",
+      "section": "只核读官方任职公告的检索索引片段：2024年8月1日，明确成为北大助理教授；网页正文访问403。与本人实验室计划和当前北大教研身份交叉核验，保留年份精度，不把新闻发布时间直接当实际到岗日。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 403,
+      "contentSha256": null,
+      "readLimit": "正文不可读取；仅核读官方检索索引片段并交叉核对当前身份。",
+      "indexedExcerptSha256": "823f1fc29c4ea20e1fd86bdbe9ea3cdd9bd040763338ac587b2dd8754afe4d6d"
+    }
+  ],
+  "scope": "现有目录的机器人、具身智能及感知、控制、仿真相关导师扩展；不是北大全校教师穷举。博士名录、个人招募、资格和余位分开。",
+  "retrieval": "公开原始来源HTML；不绕过验证码或登录。仅保存链接、原始响应哈希及核读范围，不复制全文。",
+  "cycle2028FallPhdVerifiedCount": 0
+}

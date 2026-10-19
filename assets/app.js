@@ -1,16 +1,16 @@
-import {renderOpportunityComparison} from './opportunity-comparison.js?v=178aa7fcac71';
-import {appointmentStatus,appointmentLabels} from './appointments.js?v=bbe93af17e11';
-import {groupAdvisorResults,renderAdvisorCard,advisorResultCount} from './advisor-cards.js?v=2933fd946ffb';
-import {renderProjectCard,renderDeadlineTimeline,renderMaterialCard,renderSourceDirectory} from './editorial-views.js?v=1f896da1b3be';
+import {renderOpportunityComparison} from './opportunity-comparison.js?v=d70e34caddb6';
+import {appointmentStatus,appointmentLabels} from './appointments.js?v=e9737c36e453';
+import {groupAdvisorResults,renderAdvisorCard,advisorResultCount} from './advisor-cards.js?v=e811f4a03393';
+import {renderProjectCard,renderDeadlineTimeline,renderMaterialCard,renderSourceDirectory} from './editorial-views.js?v=a83a5f62dab4';
 import {enhanceReader} from './reader.js?v=45a074f571c2';
 import {reconcileResults} from './result-dom.js?v=ea6b026bd694';
-import {renderProjectComparison,selectProjectComparisonRoutes} from './project-comparison.js?v=5bfa65101b99';
-import {renderPageOverview,overviewPresets} from './page-overviews.js?v=8121755a1b02';
-import {normalizeMaterialSupplement} from './material-supplement.js?v=b0c35cbda1d6';
-import {renderRecordSummary,supervisorAssociationText,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=127e40e7b02d';
-import {normalizeExperiences,renderExperiences,renderExperienceReading,renderExperienceEvidence,renderExperienceResults} from './experiences.js?v=43e00b87988c';
-import {profileMap,profileSummary,renderProfile,renderProfileReferences,renderHomepageRecruitment} from './profiles.js?v=68304478accd';
-import {nameInitials,rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue,matchesSearch} from './core.js?v=67f72bbe4700';
+import {renderProjectComparison,selectProjectComparisonRoutes} from './project-comparison.js?v=be2763ab06c6';
+import {renderPageOverview,overviewPresets} from './page-overviews.js?v=36972bf8d29a';
+import {normalizeMaterialSupplement} from './material-supplement.js?v=90879fba1512';
+import {renderRecordSummary,supervisorAssociationText,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=038728ffe5cd';
+import {normalizeExperiences,renderExperiences,renderExperienceReading,renderExperienceEvidence,renderExperienceResults} from './experiences.js?v=597682e28760';
+import {profileMap,profileSummary,renderProfile,renderProfileReferences,renderHomepageRecruitment} from './profiles.js?v=c6ea2bfe3282';
+import {nameInitials,rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue,matchesSearch} from './core.js?v=05f6d8a849dd';
 const $=selector=>document.querySelector(selector);
 const e=value=>escapeHTML(readerText(value));
 const experienceFilters={query:'',collection:''};
@@ -266,7 +266,7 @@ function configureFilters(){
  $('#rank-filter-note').hidden=!keys.includes('rank');$('#appointment-filter-note').hidden=!keys.includes('appointment');
  $('#appointment-filter').disabled=advisorProfiles.size===0;
  $('#appointment-filter').setAttribute('aria-describedby','appointment-filter-note');
- $('#appointment-filter-note').textContent=(profileSupplementState==='loading'?'任职资料载入中，完成后可筛选。 ':profileSupplementState==='unavailable'?'任职资料暂未载入，可在结果区重试。 ':'')+'截至 2026-10-10，窗口为 2021-10-10 至 2026-10-10。按本校教研首次任职筛选；教研职业早期线索不等于年龄或博士名额已确认。';
+ $('#appointment-filter-note').textContent=(profileSupplementState==='loading'?'任职资料载入中，完成后可筛选。 ':profileSupplementState==='unavailable'?'任职资料暂未载入，可在结果区重试。 ':'')+'截至 2026-10-19，窗口为 2021-10-19 至 2026-10-19。按本校教研首次任职筛选；教研职业早期线索不等于年龄或博士名额已确认。';
  $('#opportunity-filter-note').hidden=currentView!=='advisors';$('#opening-filter-note').hidden=!keys.includes('opening');
  $('#filter-title').textContent={advisors:'筛选导师',routes:'筛选项目',deadlines:'筛选学校',materials:'筛选材料'}[currentView]||'筛选';
  $('#opportunity-filter-name').textContent=currentView==='materials'?'适用学位':currentView==='routes'?'学位类型':'申请类型';
@@ -588,7 +588,7 @@ async function loadExperienceSupplement(){
  refreshOptionalView('experiences');
 }
 async function loadProfileSupplement(){
- try{advisorProfiles=profileMap(await optionalJSON(new URL('../data/advisor-profiles.json?v=2c7906666484',import.meta.url)),catalog.advisors);catalog={...catalog,advisorProfiles};profileSupplementState='ready';}
+ try{advisorProfiles=profileMap(await optionalJSON(new URL('../data/advisor-profiles.json?v=1f6a28c4cfb6',import.meta.url)),catalog.advisors);catalog={...catalog,advisorProfiles};profileSupplementState='ready';}
  catch{profileSupplementState='unavailable';}
  refreshOptionalView('advisors');refreshOptionalDetail('advisor');
 }
@@ -601,7 +601,7 @@ async function initialize(){
  if(initializing)return;initializing=true;
  const retry=$('#view-content').querySelector?.('[data-retry-core]');if(retry){retry.disabled=true;retry.textContent='正在载入…';}
  try{
-  const responses=await Promise.all(['catalog.json?v=0fcc93d6af11','ra-positions.json','update-status.json'].map(name=>fetch(new URL('../data/'+name,import.meta.url))));
+  const responses=await Promise.all(['catalog.json?v=56a9711fe87a','ra-positions.json','update-status.json'].map(name=>fetch(new URL('../data/'+name,import.meta.url))));
   if(responses.some(res=>!res.ok))throw Error('数据读取失败，请重试');
   const [academicData,raData,statusData]=await Promise.all(responses.map(res=>res.json()));
   if(!Array.isArray(academicData.advisors)||!Array.isArray(academicData.routes))throw Error('数据格式暂不可用');

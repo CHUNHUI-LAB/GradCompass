@@ -1,6 +1,6 @@
-import {browseAdvisors,filterOpportunities,escapeHTML,readerText,safeUrl,institutionLabel,rankOf,rankLabels,themesFor,textValue} from './core.js?v=67f72bbe4700';
-import {profileSummary} from './profiles.js?v=68304478accd';
-import {appointmentStatus,appointmentLabels} from './appointments.js?v=bbe93af17e11';
+import {browseAdvisors,filterOpportunities,escapeHTML,readerText,safeUrl,institutionLabel,rankOf,rankLabels,themesFor,textValue} from './core.js?v=05f6d8a849dd';
+import {profileSummary} from './profiles.js?v=c6ea2bfe3282';
+import {appointmentStatus,appointmentLabels} from './appointments.js?v=e9737c36e453';
 
 const e=value=>escapeHTML(readerText(value));
 const kinds=['degree','employment','reference'];

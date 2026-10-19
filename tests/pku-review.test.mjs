@@ -13,12 +13,13 @@ test('PKU 2027 intelligent robotics PhD references are explicit and bounded', ()
   assert.equal(route.status, 'reference');
   assert.equal(route.degree, 'PhD');
   assert.equal(route.cycle2027Verified, true);
-  const advisors = browseAdvisors(catalog, {institution: 'PKU'});
+  const historical = {...catalog, advisors: catalog.advisors.filter(a => review.advisors.some(old => old.id === a.id))};
+  const advisors = browseAdvisors(historical, {institution: 'PKU'});
   assert.equal(advisors.length, 5);
-  const rows = filterOpportunities(catalog, {institution: 'PKU', opportunityType: 'PhD'});
+  const rows = filterOpportunities(historical, {institution: 'PKU', opportunityType: 'PhD'});
   assert.equal(rows.length, 5);
   assert(rows.every(row => row.reference === true));
-  assert.equal(filterOpportunities(catalog, {institution: 'PKU'}).length, 0);
+  assert.equal(filterOpportunities(historical, {institution: 'PKU'}).length, 0);
   assert(review.admissionEvidence.some(e => e.id === 'pku-sai-phd-2027-guide'));
   for (const advisor of review.advisors) {
     assert.equal(advisor.cycle2027FallReference, true);

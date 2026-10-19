@@ -393,3 +393,16 @@ Base: `6b210fb5b4905b8e978a73ef02c43a82e82a4dca`. All 334 existing profiles rece
 - The dated audit lists all 334 people and access limits; pending source access is separate from date verification. Only source URLs, hashes and bounded read scopes are published, not copied CV contents.
 
 Final complete `npm test`: **627 passed, zero failed, zero skipped**, in 420.6 seconds. Freeze was verified byte-idempotent across all 200 allowlisted files. Publication outcomes must be checked against the pushed commit separately; these local results do not establish deployment success.
+
+## 2026-10-19 北大博士相关导师扩展
+
+本轮追加38位北大导师及对应简介、6条博士参考路线。目录372位导师与372份简介、71条项目；既有334位导师和简介对象保持完整，原57条已核实学位关联及2个RA岗位不变。独立证据回放核对82项追加，另以固定哈希检查原334位对象的完整保留。
+
+- 关键Node门禁23项通过，覆盖本轮身份与博士依据、2027开放／已满信号、2028边界、日期精度、来源读取限制、证据收据、发布计数和资源版本。完整Node结果以本轮`npm test`最终输出及发布提交的Validate任务为准。
+- 应用内浏览器实际交互：学校选北京大学、申请类型选PhD显示43位导师及43条博士项目参考；招生说明筛选返回刘利斌、卢宗青2位；近五年入职组合筛选返回10位，其中9位为本次新增。
+- 刘利斌站内详情可读2027 Fall普博、硕士前置、个人主页及任职来源；杨耀东目录记录保留2027北大已满，未视为开放。具体剩余数和2028 Fall均未核实。
+- 任职筛选窗口更新为2021-10-19至2026-10-19，原334位分类不变；详情显示各自证据核查日期。孙环波的2024任职结论另有马普所官方公告检索片段交叉支持，原站403与仅核读索引的范围保留。
+- 新增简介尚未逐篇核验具体论文，详情显示明确待补文字，未把研究主题计作论文。未读Notion、错误页、验证页和极短页面均保留读取限制。
+- 未执行全站Playwright smoke：官方Chromium下载在本机遭遇网络重置；本轮界面验收使用应用内浏览器完成上述真实筛选和详情交互。测试、浏览器验收与GitHub Pages部署分别确认，不在发布清单中写入虚构通过数。
+
+旧历史输入、旧证据收据不重写。单列追加5份原已发布测试文件字节，固定哈希并与原发布清单核对，供旧批次验证读取；当前生产数据仍由真实文件读取和独立证据门禁检查。新压缩快照的篡改负例同样执行。

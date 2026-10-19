@@ -16,7 +16,7 @@ test('live public data matches reviewed semantic facts rather than a full-file b
  assert.notDeepEqual(read('data/catalog.json'),publishedBytes('data/catalog.json'),'a real data maintenance pass may differ from the historical release');
 });
 test('live maintenance retains all collaborators, historical source records, old deadlines and opportunities',()=>{
- assert.deepEqual(catalog.advisors,oldCatalog.advisors);assert.deepEqual(catalog.routes.map(r=>r.sourceRecord??null),oldCatalog.routes.map(r=>r.sourceRecord??null));
+ assert.deepEqual(catalog.advisors.slice(0,oldCatalog.advisors.length),oldCatalog.advisors);assert.deepEqual(catalog.routes.slice(0,oldCatalog.routes.length).map(r=>r.sourceRecord??null),oldCatalog.routes.map(r=>r.sourceRecord??null));
  assert.deepEqual(catalog.deadlines.slice(0,oldCatalog.deadlines.length),oldCatalog.deadlines);
  const ra=actual['data/ra-positions.json'].raPositions;assert.deepEqual(buildOpportunities({...catalog,raPositions:ra}),buildOpportunities({...oldCatalog,raPositions:ra}));
  for(const id of polyIds){const r=catalog.routes.find(r=>r.id===id),old=oldCatalog.routes.find(r=>r.id===id);assert.equal(r.checkedDate,old.checkedDate);assert.equal(r.cycleReview.previousAdmissionYear,old.admissionYear);assert.equal(r.cycleReview.previousCycle2027Verified,old.cycle2027Verified);assert.deepEqual(r.sources.slice(0,old.sources.length),old.sources);assert.equal(r.applicationStatus,'unknown');}

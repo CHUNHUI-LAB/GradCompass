@@ -1,4 +1,4 @@
-import {escapeHTML,safeUrl} from './core.js?v=67f72bbe4700';
+import {escapeHTML,safeUrl} from './core.js?v=05f6d8a849dd';
 const e=escapeHTML;
 export function normalizeExperiences(data){
  if(data?.schemaVersion!==1||!Array.isArray(data.records))throw Error('Invalid experience collection');
