@@ -1849,16 +1849,17 @@
         }
       ],
       "recruitment": {
-        "textZh": "核读时官方招募页明确 Fall 2027 MPhil（本地及国际）为 0 openings，PhD 也为 0 openings；这是该轮当前公开状态，不能外推为永久停招。页面另列 HKUST 本科 UROP/FYP 及博士后说明，均不等同于 MPhil/PhD 或 RA 名额。",
+        "textZh": "2027 Fall普通博士明确无招生名额；本人另列1个HKUST-SLAI联合指导机会。仅联合项目例外，正式培养通道、申请资格与当前剩余数仍待核；不将公告1个机会当作当前还剩1名。MPhil零名额另计。",
         "sources": [
           {
             "url": "https://mrl.hkust.edu.hk/openings/",
-            "checkedDate": "2026-10-02"
+            "label": "Join Us – Mevita Robotics Lab",
+            "checkedDate": "2026-10-19"
           }
         ]
       },
       "unknowns": [
-        "官方招募页核读时明确 Fall 2027 MPhil（本地及国际）与 PhD 均为 0 openings；仅限该轮当前状态",
+        "2027 Fall普通博士明确无招生名额；本人另列1个HKUST-SLAI联合指导机会。仅联合项目例外，正式培养通道、申请资格与当前剩余数仍待核；不将公告1个机会当作当前还剩1名。MPhil零名额另计。",
         "其他入学轮次、后续名额变化、个人资助与 RA 岗位未确认",
         "训练要求为实验室自述；实际指导体验、学生工作时间、设备和算力分配未核实",
         "Nature 正文直读发生跳转错误，已读出版社检索返回的摘要和日期；Science 正文返回 403，采用学校研究仓储摘要，未声称读完论文或补充视频"
@@ -1879,6 +1880,10 @@
         {
           "label": "分学位招募及训练说明",
           "url": "https://mrl.hkust.edu.hk/openings/"
+        },
+        {
+          "label": "HKUST-SLAI联合项目入口（正式要求待核）",
+          "url": "https://www.slai.edu.cn/zh-hans/admissions"
         }
       ],
       "appointmentReview": {
@@ -35076,6 +35081,10 @@
         {
           "label": "导师官方主页",
           "url": "https://gift.sjtu.edu.cn/faculty"
+        },
+        {
+          "label": "本人当前校方档案（教育与工作履历）",
+          "url": "https://gift.sjtu.edu.cn/faculty/40893"
         }
       ],
       "checkedDate": "2026-10-08",
@@ -35083,22 +35092,31 @@
       "profileScope": "public_professional_and_lab_overview",
       "appointmentReview": {
         "schemaVersion": 1,
-        "checkedDate": "2026-10-10",
+        "checkedDate": "2026-10-19",
         "eventType": "first_faculty_research_appointment_current_institution",
         "window": {
-          "asOf": "2026-10-10",
-          "start": "2021-10-10",
-          "end": "2026-10-10"
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
         },
-        "status": "pending",
-        "appointmentConfirmed": false,
-        "precision": null,
-        "dateText": "日期待核实",
-        "earliestDate": null,
-        "latestDate": null,
-        "careerContext": "unknown",
-        "noteZh": "已检查现有教师页、个人主页或实验室入口，尚未确认本校首个非学生、非博士后、非访问教研岗位的起始时间；页面可访问不等于日期已核实。",
-        "sources": []
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2023 年 2 月（具体日待核）",
+        "earliestDate": "2023-02-01",
+        "latestDate": "2023-02-28",
+        "careerContext": "industry_transition",
+        "noteZh": "首次交大教研任职2023年2月；此前华为工作单列。",
+        "sources": [
+          {
+            "url": "https://gift.sjtu.edu.cn/faculty/40893",
+            "label": "溥渊未来技术学院",
+            "checkedDate": "2026-10-19",
+            "title": "溥渊未来技术学院",
+            "readScope": "首次交大教研任职2023年2月；此前华为工作单列。",
+            "contentSha256": "94303a60b05db1c82db36930b47fa93204dda37a3ad2879eed93bb4698f9532d"
+          }
+        ]
       }
     },
     {
@@ -35203,6 +35221,10 @@
         {
           "label": "导师官方主页",
           "url": "https://gift.sjtu.edu.cn/faculty"
+        },
+        {
+          "label": "本人当前校方档案（教育与工作履历）",
+          "url": "https://gift.sjtu.edu.cn/faculty/40899"
         }
       ],
       "checkedDate": "2026-10-08",
@@ -35210,22 +35232,31 @@
       "profileScope": "public_professional_and_lab_overview",
       "appointmentReview": {
         "schemaVersion": 1,
-        "checkedDate": "2026-10-10",
+        "checkedDate": "2026-10-19",
         "eventType": "first_faculty_research_appointment_current_institution",
         "window": {
-          "asOf": "2026-10-10",
-          "start": "2021-10-10",
-          "end": "2026-10-10"
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
         },
-        "status": "pending",
-        "appointmentConfirmed": false,
-        "precision": null,
-        "dateText": "日期待核实",
-        "earliestDate": null,
-        "latestDate": null,
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2005 年（具体月日待核）",
+        "earliestDate": "2005-01-01",
+        "latestDate": "2005-12-31",
         "careerContext": "unknown",
-        "noteZh": "已检查现有教师页、个人主页或实验室入口，尚未确认本校首个非学生、非博士后、非访问教研岗位的起始时间；页面可访问不等于日期已核实。",
-        "sources": []
+        "noteZh": "本人校方简介明确2005毕业后留校任教；GIFT首项助理研究员自2005起。记录到年份，在职博士与2023年转院不重置任职时间。",
+        "sources": [
+          {
+            "url": "https://gift.sjtu.edu.cn/faculty/40899",
+            "label": "溥渊未来技术学院",
+            "checkedDate": "2026-10-19",
+            "title": "溥渊未来技术学院",
+            "readScope": "本人校方简介明确2005毕业后留校任教；GIFT首项助理研究员自2005起。记录到年份，在职博士与2023年转院不重置任职时间。",
+            "contentSha256": "5f4666091df10da1ceccc87301571ba86b8dd7289156a49bdff6def6619cbd36"
+          }
+        ]
       }
     },
     {
@@ -35329,6 +35360,10 @@
         {
           "label": "导师官方主页",
           "url": "https://gift.sjtu.edu.cn/faculty"
+        },
+        {
+          "label": "本人当前校方档案（教育与工作履历）",
+          "url": "https://gift.sjtu.edu.cn/faculty/45211"
         }
       ],
       "checkedDate": "2026-10-08",
@@ -35336,22 +35371,31 @@
       "profileScope": "public_professional_and_lab_overview",
       "appointmentReview": {
         "schemaVersion": 1,
-        "checkedDate": "2026-10-10",
+        "checkedDate": "2026-10-19",
         "eventType": "first_faculty_research_appointment_current_institution",
         "window": {
-          "asOf": "2026-10-10",
-          "start": "2021-10-10",
-          "end": "2026-10-10"
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
         },
-        "status": "pending",
-        "appointmentConfirmed": false,
-        "precision": null,
-        "dateText": "日期待核实",
-        "earliestDate": null,
-        "latestDate": null,
-        "careerContext": "unknown",
-        "noteZh": "已检查现有教师页、个人主页或实验室入口，尚未确认本校首个非学生、非博士后、非访问教研岗位的起始时间；页面可访问不等于日期已核实。",
-        "sources": []
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2026 年 5 月（具体日待核）",
+        "earliestDate": "2026-05-01",
+        "latestDate": "2026-05-31",
+        "careerContext": "early_career",
+        "noteZh": "首次正式助理研究员自2026年5月；2023年9月至2026年4月是交大博士后，不作为教研首任。助理研究员或博士学位不证明独立博士指导资格。",
+        "sources": [
+          {
+            "url": "https://gift.sjtu.edu.cn/faculty/45211",
+            "label": "溥渊未来技术学院",
+            "checkedDate": "2026-10-19",
+            "title": "溥渊未来技术学院",
+            "readScope": "首次正式助理研究员自2026年5月；2023年9月至2026年4月是交大博士后，不作为教研首任。助理研究员或博士学位不证明独立博士指导资格。",
+            "contentSha256": "7fabc6fa451db262b15d21166880073ec92ddd1a4bdd4aefc19238af342e6dda"
+          }
+        ]
       }
     },
     {
@@ -35456,6 +35500,10 @@
         {
           "label": "导师官方主页",
           "url": "https://gift.sjtu.edu.cn/faculty"
+        },
+        {
+          "label": "本人当前校方档案（教育与工作履历）",
+          "url": "https://gift.sjtu.edu.cn/faculty/45323"
         }
       ],
       "checkedDate": "2026-10-08",
@@ -35463,22 +35511,31 @@
       "profileScope": "public_professional_and_lab_overview",
       "appointmentReview": {
         "schemaVersion": 1,
-        "checkedDate": "2026-10-10",
+        "checkedDate": "2026-10-19",
         "eventType": "first_faculty_research_appointment_current_institution",
         "window": {
-          "asOf": "2026-10-10",
-          "start": "2021-10-10",
-          "end": "2026-10-10"
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
         },
-        "status": "pending",
-        "appointmentConfirmed": false,
-        "precision": null,
-        "dateText": "日期待核实",
-        "earliestDate": null,
-        "latestDate": null,
-        "careerContext": "unknown",
-        "noteZh": "已检查现有教师页、个人主页或实验室入口，尚未确认本校首个非学生、非博士后、非访问教研岗位的起始时间；页面可访问不等于日期已核实。",
-        "sources": []
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2026 年（具体月日待核）",
+        "earliestDate": "2026-01-01",
+        "latestDate": "2026-10-19",
+        "careerContext": "early_career",
+        "noteZh": "本人校方履历列2026起教研任职，此前CNRS博士后；不将2025人才项目年份当到岗年。",
+        "sources": [
+          {
+            "url": "https://gift.sjtu.edu.cn/faculty/45323",
+            "label": "溥渊未来技术学院",
+            "checkedDate": "2026-10-19",
+            "title": "溥渊未来技术学院",
+            "readScope": "本人校方履历列2026起教研任职，此前CNRS博士后；不将2025人才项目年份当到岗年。",
+            "contentSha256": "43d9dcf13ab51b4eff732457b2fcbd42dcd236d9eb414e91dd8c3dfdbd9d4a4b"
+          }
+        ]
       }
     },
     {
@@ -35585,6 +35642,10 @@
         {
           "label": "导师官方主页",
           "url": "https://gift.sjtu.edu.cn/faculty"
+        },
+        {
+          "label": "本人当前校方档案（教育与工作履历）",
+          "url": "https://gift.sjtu.edu.cn/faculty/40839"
         }
       ],
       "checkedDate": "2026-10-08",
@@ -35592,22 +35653,31 @@
       "profileScope": "public_professional_and_lab_overview",
       "appointmentReview": {
         "schemaVersion": 1,
-        "checkedDate": "2026-10-10",
+        "checkedDate": "2026-10-19",
         "eventType": "first_faculty_research_appointment_current_institution",
         "window": {
-          "asOf": "2026-10-10",
-          "start": "2021-10-10",
-          "end": "2026-10-10"
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
         },
-        "status": "pending",
-        "appointmentConfirmed": false,
-        "precision": null,
-        "dateText": "日期待核实",
-        "earliestDate": null,
-        "latestDate": null,
-        "careerContext": "unknown",
-        "noteZh": "已检查现有教师页、个人主页或实验室入口，尚未确认本校首个非学生、非博士后、非访问教研岗位的起始时间；页面可访问不等于日期已核实。",
-        "sources": []
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2024 年 2 月（具体日待核）",
+        "earliestDate": "2024-02-01",
+        "latestDate": "2024-02-29",
+        "careerContext": "previous_faculty",
+        "noteZh": "首次交大正式教研任职2024年2月；此前肯塔基大学助理／副／正教授及产业经历分别保留，不以转校推断年轻。",
+        "sources": [
+          {
+            "url": "https://gift.sjtu.edu.cn/faculty/40839",
+            "label": "溥渊未来技术学院",
+            "checkedDate": "2026-10-19",
+            "title": "溥渊未来技术学院",
+            "readScope": "首次交大正式教研任职2024年2月；此前肯塔基大学助理／副／正教授及产业经历分别保留，不以转校推断年轻。",
+            "contentSha256": "16b8de6e829699aa5d7627f92cd2d36ebbdc98bae64c0ef4c2a3ba08069d2d41"
+          }
+        ]
       }
     },
     {
@@ -35711,6 +35781,10 @@
         {
           "label": "导师官方主页",
           "url": "https://gift.sjtu.edu.cn/faculty"
+        },
+        {
+          "label": "本人当前校方档案（教育与工作履历）",
+          "url": "https://gift.sjtu.edu.cn/faculty/44958"
         }
       ],
       "checkedDate": "2026-10-08",
@@ -35718,22 +35792,31 @@
       "profileScope": "public_professional_and_lab_overview",
       "appointmentReview": {
         "schemaVersion": 1,
-        "checkedDate": "2026-10-10",
+        "checkedDate": "2026-10-19",
         "eventType": "first_faculty_research_appointment_current_institution",
         "window": {
-          "asOf": "2026-10-10",
-          "start": "2021-10-10",
-          "end": "2026-10-10"
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
         },
-        "status": "pending",
-        "appointmentConfirmed": false,
-        "precision": null,
-        "dateText": "日期待核实",
-        "earliestDate": null,
-        "latestDate": null,
-        "careerContext": "unknown",
-        "noteZh": "已检查现有教师页、个人主页或实验室入口，尚未确认本校首个非学生、非博士后、非访问教研岗位的起始时间；页面可访问不等于日期已核实。",
-        "sources": []
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2026 年 3 月（具体日待核）",
+        "earliestDate": "2026-03-01",
+        "latestDate": "2026-03-31",
+        "careerContext": "previous_faculty",
+        "noteZh": "首次交大教研任职2026年3月；2021至2025年华南理工副教授不当作交大任职。",
+        "sources": [
+          {
+            "url": "https://gift.sjtu.edu.cn/faculty/44958",
+            "label": "溥渊未来技术学院",
+            "checkedDate": "2026-10-19",
+            "title": "溥渊未来技术学院",
+            "readScope": "首次交大教研任职2026年3月；2021至2025年华南理工副教授不当作交大任职。",
+            "contentSha256": "38d540cdc29706fb2f47da36570b106a47413fec03c87b30b551d8451992eb55"
+          }
+        ]
       }
     },
     {

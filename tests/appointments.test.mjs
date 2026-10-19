@@ -1,13 +1,16 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {reviewedPublicData} from './reviewed-public-data.mjs';
 import {appointmentStatus,appointmentMatches,appointmentWindow} from '../assets/appointments.js';
 import {browseAdvisors,filterAdvisors,filterOpportunities} from '../assets/core.js';
 import {renderAppointmentReview} from '../assets/profiles.js';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url)));
 const catalog=read('data/catalog.json'),profiles=read('data/advisor-profiles.json').profiles;
 const audit=read('audits/appointment-review-20261010.json'),receipt=read('tests/fixtures/evidence/appointments-20261010.json');
-const auditedProfiles=profiles.slice(0,334);
+const dated=reviewedPublicData(p=>fs.readFileSync(new URL('../'+p,import.meta.url)),{throughReceipt:'tests/fixtures/evidence/appointment-source-followup-20261019.json'});
+const auditedProfiles=dated['data/advisor-profiles.json'].profiles.slice(0,334);
+const datedCatalog={...dated['data/catalog.json'],advisorProfiles:new Map(dated['data/advisor-profiles.json'].profiles.map(p=>[p.advisorId,p]))};
 const auditedIds=new Set(audit.advisors.map(a=>a.advisorId));
 const map=new Map(profiles.map(p=>[p.advisorId,p]));
 const live={...catalog,advisorProfiles:map};
@@ -58,7 +61,7 @@ test('first faculty dates exclude promotions, internal moves and earlier postdoc
 });
 
 test('appointment filters combine with school, rank and doctoral reference routes without creating admissions',()=>{
- const recent=new Set([...ids({appointment:'recent'})].filter(id=>auditedIds.has(id)));assert.equal(recent.size,audit.classificationCounts.recent);
+ const recent=new Set(browseAdvisors(datedCatalog,{appointment:'recent'}).map(a=>a.id).filter(id=>auditedIds.has(id)));assert.equal(recent.size,audit.classificationCounts.recent);
  const expected=catalog.advisors.filter(a=>a.institution==='SUSTech'&&['sustech-boyu-zhou','sustech-dai-jiansheng','sustech-feng-huijuan','sustech-hongliang-lu','sustech-ma-xin','sustech-xie-zhexin','sustech-zhou-lifeng'].includes(a.id)).map(a=>a.id).sort();
  assert.deepEqual([...ids({institution:'SUSTech',appointment:'recent',opportunityType:'PhD'})].sort(),expected);
  const early=ids({appointment:'early_career'});assert(early.has('sustech-hongliang-lu'));assert(!early.has('sustech-boyu-zhou'));assert(!early.has('seu-sun-mingxuan'));

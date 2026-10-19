@@ -245,7 +245,8 @@
         }
       ],
       "routeIds": [
-        "HKU-ECE-MPhil"
+        "HKU-ECE-MPhil",
+        "hku-doctoral-direction-reference-20261019"
       ],
       "routeAssociations": [
         {
@@ -281,6 +282,26 @@
             }
           ],
           "checkedDate": "2026-10-01"
+        },
+        {
+          "routeId": "hku-doctoral-direction-reference-20261019",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_direction_reference_only",
+          "summary": "本人Prospective Students明确招募Ph.D. students，非仅本人博士学位。个人当期正式接收、具体通道和当前余位待核；不计为已核实学位关联。",
+          "sources": [
+            {
+              "url": "https://xh-liu.github.io/",
+              "label": "Xihui Liu",
+              "checkedDate": "2026-10-19"
+            }
+          ],
+          "checkedDate": "2026-10-19",
+          "sourceCycle": "未限定个人入学年",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "remainingHeadcountVerified": false
         }
       ],
       "eligibility": "verified",
@@ -767,7 +788,8 @@
         }
       ],
       "routeIds": [
-        "HKUST-CSE-MPhil"
+        "HKUST-CSE-MPhil",
+        "hkust-doctoral-faculty-reference-all-schools-20261019"
       ],
       "routeAssociations": [
         {
@@ -798,6 +820,26 @@
             }
           ],
           "checkedDate": "2026-10-01"
+        },
+        {
+          "routeId": "hkust-doctoral-faculty-reference-all-schools-20261019",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_direction_reference_only",
+          "summary": "本人Early Admission段明确PhD/MPhil申请；未指定2027或2028批次。个人当期正式接收、具体通道和当前余位待核；不计为已核实学位关联。",
+          "sources": [
+            {
+              "url": "https://cqf.io/",
+              "label": "Qifeng Chen (陳启峰)",
+              "checkedDate": "2026-10-19"
+            }
+          ],
+          "checkedDate": "2026-10-19",
+          "sourceCycle": "未限定个人入学年",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "remainingHeadcountVerified": false
         }
       ],
       "eligibility": "verified",
@@ -1078,7 +1120,8 @@
         }
       ],
       "routeIds": [
-        "HKU-CDS-MPhil"
+        "HKU-CDS-MPhil",
+        "hku-doctoral-direction-reference-20261019"
       ],
       "routeAssociations": [
         {
@@ -1114,6 +1157,26 @@
             }
           ],
           "checkedDate": "2026-10-01"
+        },
+        {
+          "routeId": "hku-doctoral-direction-reference-20261019",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_history_only",
+          "summary": "本人院系档案的团队成员代表论文列博士毕业记录；仅博士培养参考，不推当期独立接收。个人当期正式接收、具体通道和当前余位待核；不计为已核实学位关联。",
+          "sources": [
+            {
+              "url": "https://ai.hku.hk/people/academic-staff/jpan",
+              "label": "Pan, J.",
+              "checkedDate": "2026-10-19"
+            }
+          ],
+          "checkedDate": "2026-10-19",
+          "sourceCycle": "未限定个人入学年",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "remainingHeadcountVerified": false
         }
       ],
       "eligibility": "verified",
@@ -1332,7 +1395,8 @@
         }
       ],
       "routeIds": [
-        "HKU-CDS-MPhil"
+        "HKU-CDS-MPhil",
+        "hku-doctoral-direction-reference-20261019"
       ],
       "routeAssociations": [
         {
@@ -1368,6 +1432,26 @@
             }
           ],
           "checkedDate": "2026-10-01"
+        },
+        {
+          "routeId": "hku-doctoral-direction-reference-20261019",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_direction_reference_only",
+          "summary": "本人将Post-doc、Ph.D.、MPhil的联系途径列明；2026/2027 Internship年份不继承为PhD入学年。个人当期正式接收、具体通道和当前余位待核；不计为已核实学位关联。",
+          "sources": [
+            {
+              "url": "https://www.hongyang.li/",
+              "label": "Hongyang Li, Assistant Professor at HKU",
+              "checkedDate": "2026-10-19"
+            }
+          ],
+          "checkedDate": "2026-10-19",
+          "sourceCycle": "未限定个人入学年",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "remainingHeadcountVerified": false
         }
       ],
       "eligibility": "verified",
@@ -1618,7 +1702,8 @@
         }
       ],
       "routeIds": [
-        "HKUST-CSE-MPhil"
+        "HKUST-CSE-MPhil",
+        "hkust-doctoral-faculty-reference-all-schools-20261019"
       ],
       "routeAssociations": [
         {
@@ -1649,6 +1734,26 @@
             }
           ],
           "checkedDate": "2026-10-01"
+        },
+        {
+          "routeId": "hkust-doctoral-faculty-reference-all-schools-20261019",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_history_only",
+          "summary": "本人HKUST XU Lab People明确在组成员为PhD Student；仅博士培养参考，普通students文字或本人学位不单独计证。个人当期正式接收、具体通道和当前余位待核；不计为已核实学位关联。",
+          "sources": [
+            {
+              "url": "https://hkust-xulab.com/people",
+              "label": "People – Xu Lab",
+              "checkedDate": "2026-10-19"
+            }
+          ],
+          "checkedDate": "2026-10-19",
+          "sourceCycle": "未限定个人入学年",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "remainingHeadcountVerified": false
         }
       ],
       "eligibility": "verified",
@@ -1910,7 +2015,8 @@
         }
       ],
       "routeIds": [
-        "HKU-ECE-MPhil"
+        "HKU-ECE-MPhil",
+        "hku-doctoral-direction-reference-20261019"
       ],
       "routeAssociations": [
         {
@@ -1946,6 +2052,26 @@
             }
           ],
           "checkedDate": "2026-10-01"
+        },
+        {
+          "routeId": "hku-doctoral-direction-reference-20261019",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_direction_reference_only",
+          "summary": "本人院系正文明确Prospective PhD students和博士开放邀请。个人当期正式接收、具体通道和当前余位待核；不计为已核实学位关联。",
+          "sources": [
+            {
+              "url": "https://www.ai.hku.hk/people/academic-staff/yanchaoy",
+              "label": "Yang, Yanchao",
+              "checkedDate": "2026-10-19"
+            }
+          ],
+          "checkedDate": "2026-10-19",
+          "sourceCycle": "未限定个人入学年",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "remainingHeadcountVerified": false
         }
       ],
       "eligibility": "verified",
@@ -2197,7 +2323,8 @@
         }
       ],
       "routeIds": [
-        "HKUST-ECE-MPhil"
+        "HKUST-ECE-MPhil",
+        "hkust-doctoral-faculty-reference-all-schools-20261019"
       ],
       "routeAssociations": [
         {
@@ -2223,6 +2350,26 @@
             }
           ],
           "checkedDate": "2026-10-01"
+        },
+        {
+          "routeId": "hkust-doctoral-faculty-reference-all-schools-20261019",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_history_only",
+          "summary": "沈劭劼课题组Current Members下明确PhD students分类；只作博士培养参考，不保证未来接收。个人当期正式接收、具体通道和当前余位待核；不计为已核实学位关联。",
+          "sources": [
+            {
+              "url": "https://uav.hkust.edu.hk/current-members/",
+              "label": "Current Members - HKUST Aerial Robotics Group",
+              "checkedDate": "2026-10-19"
+            }
+          ],
+          "checkedDate": "2026-10-19",
+          "sourceCycle": "未限定个人入学年",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "remainingHeadcountVerified": false
         }
       ],
       "eligibility": "verified",
@@ -2477,7 +2624,8 @@
         }
       ],
       "routeIds": [
-        "HKU-MECH-MPhil"
+        "HKU-MECH-MPhil",
+        "hku-doctoral-direction-reference-20261019"
       ],
       "routeAssociations": [
         {
@@ -2513,6 +2661,26 @@
             }
           ],
           "checkedDate": "2026-10-01"
+        },
+        {
+          "routeId": "hku-doctoral-direction-reference-20261019",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_direction_reference_only",
+          "summary": "本人MARS实验室明确MPhil及PhD students的multiple openings，未按每种类型拆成剩余数。个人当期正式接收、具体通道和当前余位待核；不计为已核实学位关联。",
+          "sources": [
+            {
+              "url": "https://mars.hku.hk/",
+              "label": "HKU MaRS Lab",
+              "checkedDate": "2026-10-19"
+            }
+          ],
+          "checkedDate": "2026-10-19",
+          "sourceCycle": "未限定个人入学年",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "remainingHeadcountVerified": false
         }
       ],
       "eligibility": "verified",
@@ -2741,7 +2909,8 @@
         }
       ],
       "routeIds": [
-        "HKUST-ECE-MPhil"
+        "HKUST-ECE-MPhil",
+        "hkust-doctoral-faculty-reference-all-schools-20261019"
       ],
       "routeAssociations": [
         {
@@ -2767,19 +2936,39 @@
             }
           ],
           "checkedDate": "2026-10-01"
+        },
+        {
+          "routeId": "hkust-doctoral-faculty-reference-all-schools-20261019",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_direction_reference_only",
+          "summary": "Ph.D.栏目：Fall2027普通招生无名额，另列1个HKUST-SLAI联合指导机会；MPhil0单列。个人当期正式接收、具体通道和当前余位待核；不计为已核实学位关联。",
+          "sources": [
+            {
+              "url": "https://mrl.hkust.edu.hk/openings/",
+              "label": "Join Us – Mevita Robotics Lab",
+              "checkedDate": "2026-10-19"
+            }
+          ],
+          "checkedDate": "2026-10-19",
+          "sourceCycle": "未限定个人入学年",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "remainingHeadcountVerified": false
         }
       ],
       "eligibility": "verified",
       "eligibilityMeaning": "至少一条本科起点、无需推免、无需先获硕士的官方路径及导师/项目关联已记录；个人资格未评估",
       "defaultVisible": true,
-      "opening": "closed",
-      "openingSummary": "Fall 2027 MPhil / PhD 当前均为 0 名额；不代表其他轮次或永久停止招生",
+      "opening": "explicit",
+      "openingSummary": "2027 Fall普通博士明确无招生名额；本人另列1个HKUST-SLAI联合指导机会。仅联合项目例外，正式培养通道、申请资格与当前剩余数仍待核；不将公告1个机会当作当前还剩1名。MPhil零名额另计。",
       "openings": {
         "mphil": "官方页面当前明确 Fall 2027 MPhil 为 0 名额（本地及国际申请人）；仅表示该轮当前公开状态",
         "msc": "未核实公开声明",
-        "phd": "官方页面当前明确 Fall 2027 PhD 为 0 名额；仅表示该轮当前公开状态",
+        "phd": "2027 Fall普通博士明确无招生名额；本人另列1个HKUST-SLAI联合指导机会。仅联合项目例外，正式培养通道、申请资格与当前剩余数仍待核；不将公告1个机会当作当前还剩1名。MPhil零名额另计。",
         "ra": "本轮未找到明确公开名额/招生声明；不等于不招",
-        "cycle2027": "Fall 2027 MPhil / PhD 当前均为 0 名额；不代表其他轮次或永久停止招生"
+        "cycle2027": "2027 Fall普通博士明确无招生名额；本人另列1个HKUST-SLAI联合指导机会。仅联合项目例外，正式培养通道、申请资格与当前剩余数仍待核；不将公告1个机会当作当前还剩1名。MPhil零名额另计。"
       },
       "openingDetails": [
         {
@@ -2820,21 +3009,28 @@
         },
         {
           "degree": "PhD",
-          "status": "closed",
-          "summary": "官方页面当前明确 Fall 2027 PhD 为 0 名额；仅表示该轮当前公开状态",
+          "status": "explicit",
+          "summary": "2027 Fall普通博士明确无招生名额；本人另列1个HKUST-SLAI联合指导机会。仅联合项目例外，正式培养通道、申请资格与当前剩余数仍待核；不将公告1个机会当作当前还剩1名。MPhil零名额另计。",
           "cycle2027FallVerified": true,
           "cycle": "2027 Fall",
           "degreeRouteAssociated": false,
-          "sourceStatus": "zero_openings_for_fall_2027",
+          "sourceStatus": "normal_zero_joint_programme_exception",
           "noticeDate": null,
           "sources": [
             {
-              "label": "公开一手来源",
               "url": "https://mrl.hkust.edu.hk/openings/",
-              "checkedDate": "2026-10-02"
+              "label": "Join Us – Mevita Robotics Lab",
+              "checkedDate": "2026-10-19"
             }
           ],
-          "checkedDate": "2026-10-02"
+          "checkedDate": "2026-10-19",
+          "scope": "hkust_slai_joint_programme_only",
+          "normalAdmissionStatus": "closed",
+          "normalAdmissionQuota": 0,
+          "advertisedJointOpportunities": 1,
+          "remainingHeadcountVerified": false,
+          "confirmedVacancy": false,
+          "cycle2028FallVerified": false
         },
         {
           "degree": "RA",
@@ -2855,7 +3051,7 @@
           "checkedDate": "2026-10-01"
         }
       ],
-      "fall2027OpeningVerified": false,
+      "fall2027OpeningVerified": true,
       "newPi": {
         "verified": false,
         "window": "calendar-year-2026",
@@ -2961,10 +3157,10 @@
         "checked_date": "2026-10-01"
       },
       "recruitmentReview": {
-        "checkedDate": "2026-10-02",
+        "checkedDate": "2026-10-19",
         "checkedAt": "2026-10-02T06:18:45Z",
         "timezone": "Asia/Hong_Kong",
-        "scope": "仅更新 Fall 2027 MPhil / PhD 招募状态，不重审学校资格或其他研究介绍",
+        "scope": "2027 Fall普通博士明确无招生名额；本人另列1个HKUST-SLAI联合指导机会。仅联合项目例外，正式培养通道、申请资格与当前剩余数仍待核；不将公告1个机会当作当前还剩1名。MPhil零名额另计。",
         "reason": "实验室当前招募页明列两类学位均为 0 openings；旧记录为 0–1。学校项目仍存在与该导师当前名额为零可以同时成立。",
         "identityEvidence": {
           "advisorId": "hkust-yajing-shen",
@@ -3067,7 +3263,116 @@
             "checkedDate": "2026-10-02",
             "evidenceScope": "official_page_and_live_cloud_browser_visible_text"
           }
-        ]
+        ],
+        "previousReview": {
+          "checkedDate": "2026-10-02",
+          "checkedAt": "2026-10-02T06:18:45Z",
+          "timezone": "Asia/Hong_Kong",
+          "scope": "仅更新 Fall 2027 MPhil / PhD 招募状态，不重审学校资格或其他研究介绍",
+          "reason": "实验室当前招募页明列两类学位均为 0 openings；旧记录为 0–1。学校项目仍存在与该导师当前名额为零可以同时成立。",
+          "identityEvidence": {
+            "advisorId": "hkust-yajing-shen",
+            "name": "Yajing Shen / 申亚京",
+            "lab": "Mevita Robotics Lab",
+            "url": "https://mrl.hkust.edu.hk/team/",
+            "checkedDate": "2026-10-02"
+          },
+          "previous": {
+            "checkedDate": "2026-10-01",
+            "opening": "explicit",
+            "openingSummary": "已明确公布；0–1 不是至少 1 名",
+            "openings": {
+              "mphil": "明确 Fall 2027 0–1 openings，local/international；取决于 quota/funding/project needs/screening",
+              "msc": "未核实公开声明",
+              "phd": "明确 Fall 2027 0–1 openings；与 MPhil 分开",
+              "ra": "本轮未找到明确公开名额/招生声明；不等于不招",
+              "cycle2027": "已明确公布；0–1 不是至少 1 名"
+            },
+            "openingDetails": [
+              {
+                "degree": "MPhil",
+                "status": "explicit",
+                "summary": "明确 Fall 2027 0–1 openings，local/international；取决于 quota/funding/project needs/screening",
+                "cycle2027FallVerified": true,
+                "cycle": "2027 Fall",
+                "degreeRouteAssociated": true,
+                "sourceStatus": null,
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "公开一手来源",
+                    "url": "https://mrl.hkust.edu.hk/openings/",
+                    "checkedDate": "2026-10-01"
+                  }
+                ],
+                "checkedDate": "2026-10-01"
+              },
+              {
+                "degree": "MSc",
+                "status": "unknown",
+                "summary": "未核实公开声明",
+                "cycle2027FallVerified": false,
+                "cycle": "Unspecified or unverified for Fall 2027",
+                "degreeRouteAssociated": false,
+                "sourceStatus": null,
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "公开一手来源",
+                    "url": "https://mrl.hkust.edu.hk/openings/",
+                    "checkedDate": "2026-10-01"
+                  }
+                ],
+                "checkedDate": "2026-10-01"
+              },
+              {
+                "degree": "PhD",
+                "status": "explicit",
+                "summary": "明确 Fall 2027 0–1 openings；与 MPhil 分开",
+                "cycle2027FallVerified": true,
+                "cycle": "2027 Fall",
+                "degreeRouteAssociated": false,
+                "sourceStatus": null,
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "公开一手来源",
+                    "url": "https://mrl.hkust.edu.hk/openings/",
+                    "checkedDate": "2026-10-01"
+                  }
+                ],
+                "checkedDate": "2026-10-01"
+              },
+              {
+                "degree": "RA",
+                "status": "unknown",
+                "summary": "本轮未找到明确公开名额/招生声明；不等于不招",
+                "cycle2027FallVerified": false,
+                "cycle": "Unspecified or unverified for Fall 2027",
+                "degreeRouteAssociated": null,
+                "sourceStatus": null,
+                "noticeDate": null,
+                "sources": [
+                  {
+                    "label": "公开一手来源",
+                    "url": "https://mrl.hkust.edu.hk/openings/",
+                    "checkedDate": "2026-10-01"
+                  }
+                ],
+                "checkedDate": "2026-10-01"
+              }
+            ],
+            "fall2027OpeningVerified": true
+          },
+          "sources": [
+            {
+              "label": "Mevita Robotics Lab 当前招募",
+              "url": "https://mrl.hkust.edu.hk/openings/",
+              "checkedDate": "2026-10-02",
+              "evidenceScope": "official_page_and_live_cloud_browser_visible_text"
+            }
+          ]
+        }
       }
     },
     {
@@ -3104,7 +3409,8 @@
         }
       ],
       "routeIds": [
-        "HKU-DASE-MPhil"
+        "HKU-DASE-MPhil",
+        "hku-doctoral-direction-reference-20261019"
       ],
       "routeAssociations": [
         {
@@ -3140,6 +3446,26 @@
             }
           ],
           "checkedDate": "2026-10-01"
+        },
+        {
+          "routeId": "hku-doctoral-direction-reference-20261019",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_direction_reference_only",
+          "summary": "本人明确申请HKU-DASE PhD并列本人为potential advisor；2027/28 Fall原字符串保留，不推2028 Fall。个人当期正式接收、具体通道和当前余位待核；不计为已核实学位关联。",
+          "sources": [
+            {
+              "url": "https://chensunmac.github.io/openings/",
+              "label": "Openings - Chen Sun",
+              "checkedDate": "2026-10-19"
+            }
+          ],
+          "checkedDate": "2026-10-19",
+          "sourceCycle": "未限定个人入学年",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "remainingHeadcountVerified": false
         }
       ],
       "eligibility": "verified",
@@ -6391,7 +6717,8 @@
         }
       ],
       "routeIds": [
-        "polyu_ire_msc"
+        "polyu_ire_msc",
+        "polyu-doctoral-faculty-reference-all-schools-20261019"
       ],
       "routeAssociations": [
         {
@@ -6472,6 +6799,26 @@
             "pi_program_association": "No personal MPhil opening confirmed",
             "status": "verification_queue"
           }
+        },
+        {
+          "routeId": "polyu-doctoral-faculty-reference-all-schools-20261019",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_direction_reference_only",
+          "summary": "本人Research Supervision明确欢迎prospective PhD students，并列导师自设学术与材料要求。个人当期正式接收、具体通道和当前余位待核；不计为已核实学位关联。",
+          "sources": [
+            {
+              "url": "https://www.polyu.edu.hk/me/david/",
+              "label": "David NAVARRO | Roboticist",
+              "checkedDate": "2026-10-19"
+            }
+          ],
+          "checkedDate": "2026-10-19",
+          "sourceCycle": "未限定个人入学年",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "remainingHeadcountVerified": false
         }
       ],
       "eligibility": "verified",
@@ -9830,8 +10177,31 @@
           "url": "https://scholar.xjtlu.edu.cn/en/publications/robogpt-an-intelligent-agent-of-making-long-horizon-decisions-for/"
         }
       ],
-      "routeIds": [],
-      "routeAssociations": [],
+      "routeIds": [
+        "xjtlu-doctoral-faculty-reference-all-schools-20261019"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "xjtlu-doctoral-faculty-reference-all-schools-20261019",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_direction_reference_only",
+          "summary": "本人校方档案明确研究组持续招收doctoral students；Liverpool培养路径与独立主导师资格仍待核。个人当期正式接收、具体通道和当前余位待核；不计为已核实学位关联。",
+          "sources": [
+            {
+              "url": "https://scholar.xjtlu.edu.cn/en/persons/YaranChen/",
+              "label": "Yaran Chen\n      -  Xi'an Jiaotong-Liverpool University",
+              "checkedDate": "2026-10-19"
+            }
+          ],
+          "checkedDate": "2026-10-19",
+          "sourceCycle": "未限定个人入学年",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "remainingHeadcountVerified": false
+        }
+      ],
       "eligibility": "unknown",
       "eligibilityMeaning": "具体本科起点、无需硕士和无需推免的学位路径与导师关联尚未完成核验",
       "defaultVisible": false,
@@ -10980,7 +11350,8 @@
         }
       ],
       "routeIds": [
-        "HKU-MECH-MPhil"
+        "HKU-MECH-MPhil",
+        "hku-doctoral-direction-reference-20261019"
       ],
       "routeAssociations": [
         {
@@ -11011,6 +11382,26 @@
             }
           ],
           "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "hku-doctoral-direction-reference-20261019",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_direction_reference_only",
+          "summary": "本人实验室PhD/Postdoc Positions分开学位要求，PhD候选应具硕士；非硕士招募推定。个人当期正式接收、具体通道和当前余位待核；不计为已核实学位关联。",
+          "sources": [
+            {
+              "url": "https://arclab.hku.hk/OpenPositions.html",
+              "label": "https://arclab.hku.hk/OpenPositions.html",
+              "checkedDate": "2026-10-19"
+            }
+          ],
+          "checkedDate": "2026-10-19",
+          "sourceCycle": "未限定个人入学年",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "remainingHeadcountVerified": false
         }
       ],
       "eligibility": "verified",
@@ -11246,7 +11637,8 @@
         }
       ],
       "routeIds": [
-        "HKU-CDS-MPhil"
+        "HKU-CDS-MPhil",
+        "hku-doctoral-direction-reference-20261019"
       ],
       "routeAssociations": [
         {
@@ -11277,6 +11669,26 @@
             }
           ],
           "checkedDate": "2026-10-04"
+        },
+        {
+          "routeId": "hku-doctoral-direction-reference-20261019",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_direction_reference_only",
+          "summary": "本人Prospective students明确招募Ph.D. students，不从RA或博士后招募继承。个人当期正式接收、具体通道和当前余位待核；不计为已核实学位关联。",
+          "sources": [
+            {
+              "url": "https://i.cs.hku.hk/~hszhao/",
+              "label": "Hengshuang Zhao",
+              "checkedDate": "2026-10-19"
+            }
+          ],
+          "checkedDate": "2026-10-19",
+          "sourceCycle": "未限定个人入学年",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "remainingHeadcountVerified": false
         }
       ],
       "eligibility": "verified",
@@ -46995,9 +47407,32 @@
         "移动机器人SLAM"
       ],
       "summary": "研究智能驾驶感知、构图、定位、端到端模型和移动机器人 SLAM。",
-      "profileUrl": "https://gift.sjtu.edu.cn/faculty",
-      "routeIds": [],
-      "routeAssociations": [],
+      "profileUrl": "https://gift.sjtu.edu.cn/faculty/40893",
+      "routeIds": [
+        "sjtu-doctoral-faculty-reference-all-schools-20261019"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "sjtu-doctoral-faculty-reference-all-schools-20261019",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_direction_reference_only",
+          "summary": "2026年博士目录490溥渊、085400电子信息控制工程方向逐人列秦通；历史博士参考，不推2027或2028。个人当期正式接收、具体通道和当前余位待核；不计为已核实学位关联。",
+          "sources": [
+            {
+              "url": "https://ga.sjtu.edu.cn/zsgl/zsmlgl/zsml_bs.aspx",
+              "label": "上海交通大学博士研究生招生专业目录查询",
+              "checkedDate": "2026-10-19"
+            }
+          ],
+          "checkedDate": "2026-10-19",
+          "sourceCycle": "2026",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "remainingHeadcountVerified": false
+        }
+      ],
       "eligibility": "pending",
       "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
       "defaultVisible": true,
@@ -47120,9 +47555,32 @@
         "康复机器人"
       ],
       "summary": "研究移动机器人导航控制、机器人 SLAM 和康复机器人。",
-      "profileUrl": "https://gift.sjtu.edu.cn/faculty",
-      "routeIds": [],
-      "routeAssociations": [],
+      "profileUrl": "https://gift.sjtu.edu.cn/faculty/40899",
+      "routeIds": [
+        "sjtu-doctoral-faculty-reference-all-schools-20261019"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "sjtu-doctoral-faculty-reference-all-schools-20261019",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_direction_reference_only",
+          "summary": "本人的交大自主机器人实验室名录明确研究员、博导及当前溥渊副院长身份。个人当期正式接收、具体通道和当前余位待核；不计为已核实学位关联。",
+          "sources": [
+            {
+              "url": "https://robotics.sjtu.edu.cn/minglu/465.html",
+              "label": "王景川 -上海交通大学自主机器人实验室",
+              "checkedDate": "2026-10-19"
+            }
+          ],
+          "checkedDate": "2026-10-19",
+          "sourceCycle": "未限定个人入学年",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "remainingHeadcountVerified": false
+        }
+      ],
       "eligibility": "pending",
       "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
       "defaultVisible": true,
@@ -47244,7 +47702,7 @@
         "机器人运动健康"
       ],
       "summary": "研究无人系统智能指挥与控制以及机器人智能运动与健康。",
-      "profileUrl": "https://gift.sjtu.edu.cn/faculty",
+      "profileUrl": "https://gift.sjtu.edu.cn/faculty/45211",
       "routeIds": [],
       "routeAssociations": [],
       "eligibility": "pending",
@@ -47369,7 +47827,7 @@
         "具身智能"
       ],
       "summary": "研究机器人触觉感知、灵巧操作和具身智能。",
-      "profileUrl": "https://gift.sjtu.edu.cn/faculty",
+      "profileUrl": "https://gift.sjtu.edu.cn/faculty/45323",
       "routeIds": [],
       "routeAssociations": [],
       "eligibility": "pending",
@@ -47496,9 +47954,32 @@
         "XR"
       ],
       "summary": "研究 AI、计算机视觉、机器人、自动驾驶和 XR/VR。",
-      "profileUrl": "https://gift.sjtu.edu.cn/faculty",
-      "routeIds": [],
-      "routeAssociations": [],
+      "profileUrl": "https://gift.sjtu.edu.cn/faculty/40839",
+      "routeIds": [
+        "sjtu-doctoral-faculty-reference-all-schools-20261019"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "sjtu-doctoral-faculty-reference-all-schools-20261019",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_direction_reference_only",
+          "summary": "2026年博士目录490溥渊、085400电子信息控制工程方向逐人列杨睿刚；历史博士参考，不推2027或2028。个人当期正式接收、具体通道和当前余位待核；不计为已核实学位关联。",
+          "sources": [
+            {
+              "url": "https://ga.sjtu.edu.cn/zsgl/zsmlgl/zsml_bs.aspx",
+              "label": "上海交通大学博士研究生招生专业目录查询",
+              "checkedDate": "2026-10-19"
+            }
+          ],
+          "checkedDate": "2026-10-19",
+          "sourceCycle": "2026",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "remainingHeadcountVerified": false
+        }
+      ],
       "eligibility": "pending",
       "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
       "defaultVisible": true,
@@ -47620,7 +48101,7 @@
         "微纳制造"
       ],
       "summary": "研究微纳机器人和微纳制造。",
-      "profileUrl": "https://gift.sjtu.edu.cn/faculty",
+      "profileUrl": "https://gift.sjtu.edu.cn/faculty/44958",
       "routeIds": [],
       "routeAssociations": [],
       "eligibility": "pending",
@@ -107026,6 +107507,122 @@
             {
               "label": "Siyuan Xu",
               "url": "https://xsy786912649.github.io/",
+              "checkedDate": "2026-10-19"
+            }
+          ]
+        }
+      ],
+      "checkedDate": "2026-10-19",
+      "defaultVisible": false
+    },
+    {
+      "id": "hku-doctoral-direction-reference-20261019",
+      "institution": "HKU",
+      "department": "按各导师院系分别核对",
+      "program": "机器人、具身智能与学习／感知博士方向参考（已有记录补核）",
+      "degree": "PhD",
+      "bachelorEligible": false,
+      "noTuimianRequired": false,
+      "noMasterRequired": false,
+      "status": "reference",
+      "eligibilitySummary": "逐人博士邀请或培养记录的方向参考；具体博士项目、学历前置、奖学金、正式接收与当期余位须分别核实，false不表示禁止本科申请。",
+      "supervisorAssociation": "个人博士方向参考，非已核实具体学位关联",
+      "admissionYear": "个人年份分别读取，未核统一当期",
+      "cycle2027Verified": false,
+      "projectCycleVerified": false,
+      "individualRecruitmentVerified": false,
+      "currentCycleVerificationStatus": "pending",
+      "sourceCycle": "未核统一招生年",
+      "admissionMode": "doctoral_faculty_reference",
+      "applicationStatus": "unknown",
+      "sources": [
+        {
+          "url": "https://xh-liu.github.io/",
+          "label": "Xihui Liu",
+          "checkedDate": "2026-10-19"
+        },
+        {
+          "url": "https://ai.hku.hk/people/academic-staff/jpan",
+          "label": "Pan, J.",
+          "checkedDate": "2026-10-19"
+        },
+        {
+          "url": "https://www.hongyang.li/",
+          "label": "Hongyang Li, Assistant Professor at HKU",
+          "checkedDate": "2026-10-19"
+        },
+        {
+          "url": "https://www.ai.hku.hk/people/academic-staff/yanchaoy",
+          "label": "Yang, Yanchao",
+          "checkedDate": "2026-10-19"
+        },
+        {
+          "url": "https://mars.hku.hk/",
+          "label": "HKU MaRS Lab",
+          "checkedDate": "2026-10-19"
+        },
+        {
+          "url": "https://chensunmac.github.io/openings/",
+          "label": "Openings - Chen Sun",
+          "checkedDate": "2026-10-19"
+        },
+        {
+          "url": "https://arclab.hku.hk/OpenPositions.html",
+          "label": "https://arclab.hku.hk/OpenPositions.html",
+          "checkedDate": "2026-10-19"
+        },
+        {
+          "url": "https://i.cs.hku.hk/~hszhao/",
+          "label": "Hengshuang Zhao",
+          "checkedDate": "2026-10-19"
+        }
+      ],
+      "notes": [
+        "项目条件与个人接收分开；常年邀请不顺延为2028 Fall。"
+      ],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "个人学位、导师接收、入学年和资助要求待对应项目核对。",
+          "sources": [
+            {
+              "url": "https://xh-liu.github.io/",
+              "label": "Xihui Liu",
+              "checkedDate": "2026-10-19"
+            },
+            {
+              "url": "https://ai.hku.hk/people/academic-staff/jpan",
+              "label": "Pan, J.",
+              "checkedDate": "2026-10-19"
+            },
+            {
+              "url": "https://www.hongyang.li/",
+              "label": "Hongyang Li, Assistant Professor at HKU",
+              "checkedDate": "2026-10-19"
+            },
+            {
+              "url": "https://www.ai.hku.hk/people/academic-staff/yanchaoy",
+              "label": "Yang, Yanchao",
+              "checkedDate": "2026-10-19"
+            },
+            {
+              "url": "https://mars.hku.hk/",
+              "label": "HKU MaRS Lab",
+              "checkedDate": "2026-10-19"
+            },
+            {
+              "url": "https://chensunmac.github.io/openings/",
+              "label": "Openings - Chen Sun",
+              "checkedDate": "2026-10-19"
+            },
+            {
+              "url": "https://arclab.hku.hk/OpenPositions.html",
+              "label": "https://arclab.hku.hk/OpenPositions.html",
+              "checkedDate": "2026-10-19"
+            },
+            {
+              "url": "https://i.cs.hku.hk/~hszhao/",
+              "label": "Hengshuang Zhao",
               "checkedDate": "2026-10-19"
             }
           ]

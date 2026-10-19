@@ -10,7 +10,8 @@ import {reviewedPublicData,assertReviewedPublicData} from './reviewed-public-dat
 import historicalFs,{publishedBytes,allSchoolsHistoricalTestPaths,allSchoolsHistoricalTestBytes,decodeAllSchoolsHistoricalTests} from './published-history-fs.mjs';
 const raw=p=>fs.readFileSync(new URL('../'+p,import.meta.url));
 const json=p=>JSON.parse(raw(p));
-const catalog=json('data/catalog.json'),profiles=json('data/advisor-profiles.json').profiles;
+const dated=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/appointment-source-followup-20261019.json'});
+const catalog=dated['data/catalog.json'],profiles=dated['data/advisor-profiles.json'].profiles;
 const audit=json('audits/all-schools-rescreen-20261019.json'),receipt=json('tests/fixtures/evidence/all-schools-rescreen-20261019.json');
 const additions=catalog.advisors.slice(424),newProfiles=profiles.slice(424);
 const prior=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/tongji-rescreen-20261019.json'});

@@ -1,0 +1,436 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-19",
+  "baseCommit": "74b4e5c8ba1482c04f2d1b5a9605bb8bf7d096ee",
+  "scopeZh": "检查22条未进入博士筛选的旧记录；17条有逐人博士依据后补方向参考，5条留待核。另核实交大6个既有人的首次本校教研任职，并保留申亚京普通博士零名额与联合项目例外。",
+  "reviewedRecords": 22,
+  "resolvedDoctoralReferences": [
+    {
+      "advisorId": "hku-xihui-liu",
+      "kind": "personal_invitation",
+      "sourceUrl": "https://xh-liu.github.io/",
+      "readScope": "本人Prospective Students明确招募Ph.D. students，非仅本人博士学位。",
+      "routeId": "hku-doctoral-direction-reference-20261019"
+    },
+    {
+      "advisorId": "hkust-qifeng-chen",
+      "kind": "personal_invitation",
+      "sourceUrl": "https://cqf.io/",
+      "readScope": "本人Early Admission段明确PhD/MPhil申请；未指定2027或2028批次。",
+      "routeId": "hkust-doctoral-faculty-reference-all-schools-20261019"
+    },
+    {
+      "advisorId": "hku-jia-pan",
+      "kind": "supervision_history_only",
+      "sourceUrl": "https://ai.hku.hk/people/academic-staff/jpan",
+      "readScope": "本人院系档案的团队成员代表论文列博士毕业记录；仅博士培养参考，不推当期独立接收。",
+      "routeId": "hku-doctoral-direction-reference-20261019"
+    },
+    {
+      "advisorId": "hku-hongyang-li",
+      "kind": "personal_invitation",
+      "sourceUrl": "https://www.hongyang.li/",
+      "readScope": "本人将Post-doc、Ph.D.、MPhil的联系途径列明；2026/2027 Internship年份不继承为PhD入学年。",
+      "routeId": "hku-doctoral-direction-reference-20261019"
+    },
+    {
+      "advisorId": "hkust-yinghao-xu",
+      "kind": "supervision_history_only",
+      "sourceUrl": "https://hkust-xulab.com/people",
+      "readScope": "本人HKUST XU Lab People明确在组成员为PhD Student；仅博士培养参考，普通students文字或本人学位不单独计证。",
+      "routeId": "hkust-doctoral-faculty-reference-all-schools-20261019"
+    },
+    {
+      "advisorId": "hku-yanchao-yang",
+      "kind": "personal_invitation",
+      "sourceUrl": "https://www.ai.hku.hk/people/academic-staff/yanchaoy",
+      "readScope": "本人院系正文明确Prospective PhD students和博士开放邀请。",
+      "routeId": "hku-doctoral-direction-reference-20261019"
+    },
+    {
+      "advisorId": "hkust-shaojie-shen",
+      "kind": "supervision_history_only",
+      "sourceUrl": "https://uav.hkust.edu.hk/current-members/",
+      "readScope": "沈劭劼课题组Current Members下明确PhD students分类；只作博士培养参考，不保证未来接收。",
+      "routeId": "hkust-doctoral-faculty-reference-all-schools-20261019"
+    },
+    {
+      "advisorId": "hku-fu-zhang",
+      "kind": "personal_invitation",
+      "sourceUrl": "https://mars.hku.hk/",
+      "readScope": "本人MARS实验室明确MPhil及PhD students的multiple openings，未按每种类型拆成剩余数。",
+      "routeId": "hku-doctoral-direction-reference-20261019"
+    },
+    {
+      "advisorId": "hkust-yajing-shen",
+      "kind": "degree_specific_recruitment",
+      "sourceUrl": "https://mrl.hkust.edu.hk/openings/",
+      "readScope": "Ph.D.栏目：Fall2027普通招生无名额，另列1个HKUST-SLAI联合指导机会；MPhil0单列。",
+      "routeId": "hkust-doctoral-faculty-reference-all-schools-20261019"
+    },
+    {
+      "advisorId": "hku-chen-sun",
+      "kind": "personal_invitation",
+      "sourceUrl": "https://chensunmac.github.io/openings/",
+      "readScope": "本人明确申请HKU-DASE PhD并列本人为potential advisor；2027/28 Fall原字符串保留，不推2028 Fall。",
+      "routeId": "hku-doctoral-direction-reference-20261019"
+    },
+    {
+      "advisorId": "polyu_david_navarro",
+      "kind": "personal_invitation",
+      "sourceUrl": "https://www.polyu.edu.hk/me/david/",
+      "readScope": "本人Research Supervision明确欢迎prospective PhD students，并列导师自设学术与材料要求。",
+      "routeId": "polyu-doctoral-faculty-reference-all-schools-20261019"
+    },
+    {
+      "advisorId": "xjtlu-yaran-chen",
+      "kind": "personal_invitation",
+      "sourceUrl": "https://scholar.xjtlu.edu.cn/en/persons/YaranChen/",
+      "readScope": "本人校方档案明确研究组持续招收doctoral students；Liverpool培养路径与独立主导师资格仍待核。",
+      "routeId": "xjtlu-doctoral-faculty-reference-all-schools-20261019"
+    },
+    {
+      "advisorId": "hku-peng-lu",
+      "kind": "personal_invitation",
+      "sourceUrl": "https://arclab.hku.hk/OpenPositions.html",
+      "readScope": "本人实验室PhD/Postdoc Positions分开学位要求，PhD候选应具硕士；非硕士招募推定。",
+      "routeId": "hku-doctoral-direction-reference-20261019"
+    },
+    {
+      "advisorId": "hku-hengshuang-zhao",
+      "kind": "personal_invitation",
+      "sourceUrl": "https://i.cs.hku.hk/~hszhao/",
+      "readScope": "本人Prospective students明确招募Ph.D. students，不从RA或博士后招募继承。",
+      "routeId": "hku-doctoral-direction-reference-20261019"
+    },
+    {
+      "advisorId": "sjtu-wang-jingchuan",
+      "kind": "individual_doctoral_identity",
+      "sourceUrl": "https://robotics.sjtu.edu.cn/minglu/465.html",
+      "readScope": "本人的交大自主机器人实验室名录明确研究员、博导及当前溥渊副院长身份。",
+      "routeId": "sjtu-doctoral-faculty-reference-all-schools-20261019"
+    },
+    {
+      "advisorId": "sjtu-qin-tong",
+      "kind": "historical_named_doctoral_roster",
+      "sourceUrl": "https://ga.sjtu.edu.cn/zsgl/zsmlgl/zsml_bs.aspx",
+      "readScope": "2026年博士目录490溥渊、085400电子信息控制工程方向逐人列秦通；历史博士参考，不推2027或2028。",
+      "routeId": "sjtu-doctoral-faculty-reference-all-schools-20261019"
+    },
+    {
+      "advisorId": "sjtu-yang-ruigang",
+      "kind": "historical_named_doctoral_roster",
+      "sourceUrl": "https://ga.sjtu.edu.cn/zsgl/zsmlgl/zsml_bs.aspx",
+      "readScope": "2026年博士目录490溥渊、085400电子信息控制工程方向逐人列杨睿刚；历史博士参考，不推2027或2028。",
+      "routeId": "sjtu-doctoral-faculty-reference-all-schools-20261019"
+    }
+  ],
+  "pendingRecords": [
+    {
+      "advisorId": "hkust-ping-tan",
+      "name": "谭平",
+      "reason": "本人页目前仅明确任职、研究或博士学位；未核到足够的个人博士招募／指导依据，未强行补为博士。"
+    },
+    {
+      "advisorId": "cuhk_zhongyu_li",
+      "name": "李钟毓",
+      "reason": "本人页目前仅明确任职、研究或博士学位；未核到足够的个人博士招募／指导依据，未强行补为博士。"
+    },
+    {
+      "advisorId": "sjtu-wang-chenggang",
+      "name": "王成罡",
+      "reason": "本人页目前仅明确任职、研究或博士学位；未核到足够的个人博士招募／指导依据，未强行补为博士。"
+    },
+    {
+      "advisorId": "sjtu-yan-youcan",
+      "name": "闫友璨",
+      "reason": "本人页目前仅明确任职、研究或博士学位；未核到足够的个人博士招募／指导依据，未强行补为博士。"
+    },
+    {
+      "advisorId": "sjtu-yu-tingting",
+      "name": "喻婷婷",
+      "reason": "本人页目前仅明确任职、研究或博士学位；未核到足够的个人博士招募／指导依据，未强行补为博士。"
+    }
+  ],
+  "appointmentChanges": [
+    {
+      "advisorId": "sjtu-qin-tong",
+      "sourceUrl": "https://gift.sjtu.edu.cn/faculty/40893",
+      "date": "2023-02",
+      "careerContext": "industry_transition"
+    },
+    {
+      "advisorId": "sjtu-wang-jingchuan",
+      "sourceUrl": "https://gift.sjtu.edu.cn/faculty/40899",
+      "date": "2005",
+      "careerContext": "unknown"
+    },
+    {
+      "advisorId": "sjtu-wang-chenggang",
+      "sourceUrl": "https://gift.sjtu.edu.cn/faculty/45211",
+      "date": "2026-05",
+      "careerContext": "early_career"
+    },
+    {
+      "advisorId": "sjtu-yan-youcan",
+      "sourceUrl": "https://gift.sjtu.edu.cn/faculty/45323",
+      "date": "2026",
+      "careerContext": "early_career"
+    },
+    {
+      "advisorId": "sjtu-yang-ruigang",
+      "sourceUrl": "https://gift.sjtu.edu.cn/faculty/40839",
+      "date": "2024-02",
+      "careerContext": "previous_faculty"
+    },
+    {
+      "advisorId": "sjtu-yu-tingting",
+      "sourceUrl": "https://gift.sjtu.edu.cn/faculty/44958",
+      "date": "2026-03",
+      "careerContext": "previous_faculty"
+    }
+  ],
+  "jointProgrammeCorrection": {
+    "advisorId": "hkust-yajing-shen",
+    "sourceUrl": "https://mrl.hkust.edu.hk/openings/",
+    "scope": "2027 Fall普通博士无名额，1个HKUST-SLAI联合指导机会，正式资格与当前余位待核；MPhil仍0"
+  },
+  "sourceLedger": [
+    {
+      "url": "https://xh-liu.github.io/",
+      "title": "Xihui Liu",
+      "section": "港大逐人博士邀请／培养记录；各条关联另列具体范围；本人Prospective Students明确招募Ph.D. students，非仅本人博士学位。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "85dc8b6a90938405c7095fdd168077f115e134517043b991f84acdddc184f99b",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://ai.hku.hk/people/academic-staff/jpan",
+      "title": "Pan, J.",
+      "section": "港大逐人博士邀请／培养记录；各条关联另列具体范围；本人院系档案的团队成员代表论文列博士毕业记录；仅博士培养参考，不推当期独立接收。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "94c509693bc54d14b19fa11a41f9b1118eec7e4d994e6ef29c5e7b8b27477930",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.hongyang.li/",
+      "title": "Hongyang Li, Assistant Professor at HKU",
+      "section": "港大逐人博士邀请／培养记录；各条关联另列具体范围；本人将Post-doc、Ph.D.、MPhil的联系途径列明；2026/2027 Internship年份不继承为PhD入学年。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "b510c04a5dd12a2925b13b390bea39c28f277c99ca8c595b6d76acb4065f9063",
+      "retrieval": "same_day_cached_public_response",
+      "readLimit": "同日稍早请求的原始正文已核读；本次新请求超时，未把新请求记为成功。"
+    },
+    {
+      "url": "https://www.ai.hku.hk/people/academic-staff/yanchaoy",
+      "title": "Yang, Yanchao",
+      "section": "港大逐人博士邀请／培养记录；各条关联另列具体范围；本人院系正文明确Prospective PhD students和博士开放邀请。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "16a055476b4b85d041bd504aa8e8bc164d34cdc075890140b41a7fee0040279a",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://mars.hku.hk/",
+      "title": "HKU MaRS Lab",
+      "section": "港大逐人博士邀请／培养记录；各条关联另列具体范围；本人MARS实验室明确MPhil及PhD students的multiple openings，未按每种类型拆成剩余数。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "c4e4df99320c651e326f37d09c0933efb20b55c9aa0534c7211e9def2f4cac76",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://chensunmac.github.io/openings/",
+      "title": "Openings - Chen Sun",
+      "section": "港大逐人博士邀请／培养记录；各条关联另列具体范围；本人明确申请HKU-DASE PhD并列本人为potential advisor；2027/28 Fall原字符串保留，不推2028 Fall。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "34ce6d5f88a0288715389920da9bbc0497a41ab2fe2c3640052b93a7d7fd9ff4",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://arclab.hku.hk/OpenPositions.html",
+      "title": "https://arclab.hku.hk/OpenPositions.html",
+      "section": "港大逐人博士邀请／培养记录；各条关联另列具体范围；本人实验室PhD/Postdoc Positions分开学位要求，PhD候选应具硕士；非硕士招募推定。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "7f46b041e1dd52705091e041634142a8bbed7cb53f04fd09cdef53d836b563ae",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://i.cs.hku.hk/~hszhao/",
+      "title": "Hengshuang Zhao",
+      "section": "港大逐人博士邀请／培养记录；各条关联另列具体范围；本人Prospective students明确招募Ph.D. students，不从RA或博士后招募继承。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "4ffb226e99163ff78b52b290faf945a47f0332ff3905dad7575f14d5be093b6e",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://cqf.io/",
+      "title": "Qifeng Chen (陳启峰)",
+      "section": "本人Early Admission段明确PhD/MPhil申请；未指定2027或2028批次。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "b7a4f4635a91c2853aa4b542b85f6f8235f8eba2c7512e253c106afce6ac01d4",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://hkust-xulab.com/people",
+      "title": "People – Xu Lab",
+      "section": "本人HKUST XU Lab People明确在组成员为PhD Student；仅博士培养参考，普通students文字或本人学位不单独计证。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "d511a1333029e64c3be4b4a876844077f8565b3e0cbc5c110653483524d699f3",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://uav.hkust.edu.hk/current-members/",
+      "title": "Current Members - HKUST Aerial Robotics Group",
+      "section": "沈劭劼课题组Current Members下明确PhD students分类；只作博士培养参考，不保证未来接收。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "1bfe06fd7fb4749905e23b876c5fe9c6904187edfab6a84a6a62fc68ec5d4591",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://mrl.hkust.edu.hk/openings/",
+      "title": "Join Us – Mevita Robotics Lab",
+      "section": "Ph.D.栏目：Fall2027普通招生无名额，另列1个HKUST-SLAI联合指导机会；MPhil0单列。；Ph.D.招生栏普通0与HKUST-SLAI联合1个机会，MPhil仍0；数量不作剩余数保证。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "a5295bbec6301e022d1d3c350404744a8d13001242c5189cd921ec687ece24db",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.polyu.edu.hk/me/david/",
+      "title": "David NAVARRO | Roboticist",
+      "section": "本人Research Supervision明确欢迎prospective PhD students，并列导师自设学术与材料要求。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "e80f3e901e82953ff396b995713eb8af141d4e21e206a3183d5ea0c69404096a",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://scholar.xjtlu.edu.cn/en/persons/YaranChen/",
+      "title": "Yaran Chen\n      -  Xi'an Jiaotong-Liverpool University",
+      "section": "本人校方档案明确研究组持续招收doctoral students；Liverpool培养路径与独立主导师资格仍待核。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "720f383cf5418f8398aa05cb8f297f993701c75f275d9d4f39df3f6329baf898",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://robotics.sjtu.edu.cn/minglu/465.html",
+      "title": "王景川 -上海交通大学自主机器人实验室",
+      "section": "本人的交大自主机器人实验室名录明确研究员、博导及当前溥渊副院长身份。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "3ffa151392e9b9da76d310d57818deaaea8bf0cb6f7c9c53868ee525978b1c65",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://ga.sjtu.edu.cn/zsgl/zsmlgl/zsml_bs.aspx",
+      "title": "上海交通大学博士研究生招生专业目录查询",
+      "section": "2026年博士目录490溥渊、085400电子信息控制工程方向逐人列秦通；历史博士参考，不推2027或2028。；2026年博士目录490溥渊、085400电子信息控制工程方向逐人列杨睿刚；历史博士参考，不推2027或2028。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "c5ee8a2320abadb4908a9aa48d7d402efe3513dc8ec508af2c905af171b9d060",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://gift.sjtu.edu.cn/faculty/40893",
+      "title": "溥渊未来技术学院",
+      "section": "首次交大教研任职2023年2月；此前华为工作单列。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "94303a60b05db1c82db36930b47fa93204dda37a3ad2879eed93bb4698f9532d",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://gift.sjtu.edu.cn/faculty/40899",
+      "title": "溥渊未来技术学院",
+      "section": "本人校方简介明确2005毕业后留校任教；GIFT首项助理研究员自2005起。记录到年份，在职博士与2023年转院不重置任职时间。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "5f4666091df10da1ceccc87301571ba86b8dd7289156a49bdff6def6619cbd36",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://gift.sjtu.edu.cn/faculty/45211",
+      "title": "溥渊未来技术学院",
+      "section": "首次正式助理研究员自2026年5月；2023年9月至2026年4月是交大博士后，不作为教研首任。助理研究员或博士学位不证明独立博士指导资格。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "7fabc6fa451db262b15d21166880073ec92ddd1a4bdd4aefc19238af342e6dda",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://gift.sjtu.edu.cn/faculty/45323",
+      "title": "溥渊未来技术学院",
+      "section": "本人校方履历列2026起教研任职，此前CNRS博士后；不将2025人才项目年份当到岗年。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "43d9dcf13ab51b4eff732457b2fcbd42dcd236d9eb414e91dd8c3dfdbd9d4a4b",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://gift.sjtu.edu.cn/faculty/40839",
+      "title": "溥渊未来技术学院",
+      "section": "首次交大正式教研任职2024年2月；此前肯塔基大学助理／副／正教授及产业经历分别保留，不以转校推断年轻。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "16b8de6e829699aa5d7627f92cd2d36ebbdc98bae64c0ef4c2a3ba08069d2d41",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://gift.sjtu.edu.cn/faculty/44958",
+      "title": "溥渊未来技术学院",
+      "section": "首次交大教研任职2026年3月；2021至2025年华南理工副教授不当作交大任职。",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "38d540cdc29706fb2f47da36570b106a47413fec03c87b30b551d8451992eb55",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    }
+  ],
+  "summary": {
+    "advisors": 492,
+    "profiles": 492,
+    "routes": 93,
+    "newExistingDoctoralReferences": 17,
+    "newlyVerifiedOldAppointments": 6,
+    "newRecentOldAppointments": 5,
+    "unchangedVerifiedDegreeAssociations": 57,
+    "unchangedRaPositions": 2
+  },
+  "boundariesZh": [
+    "培养记录不等于当前独立博士招生资格；17条新增关联均pending。",
+    "普通招生与联合项目、博士与MPhil、博士后与任职日期分别处理。",
+    "2026博士名录不能视为2027或2028接收；2027/28 Fall仍按原字符串保留，不推断2028 Fall。",
+    "同日早些已读的公开响应与本次新请求失败分别标注；不发布原始正文、学生名单或私人字段。"
+  ]
+}

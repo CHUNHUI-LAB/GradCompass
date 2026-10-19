@@ -21,7 +21,7 @@ test('NJU/Tongji/USTC batch appends five existing advisors without changing cata
   assert.equal(profileMap({ profiles: added }, catalog.advisors).size, 5);
   assert.equal(buildOpportunities(data).length, 59);
   assert.equal(catalog.advisors.length, 492);
-  assert.equal(catalog.routes.length, 92);
+  assert.equal(catalog.routes.length, 93);
 });
 
 test('new mainland profiles contain dated HTTPS evidence and preserve admission boundaries', () => {

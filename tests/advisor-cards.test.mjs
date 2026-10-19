@@ -42,8 +42,8 @@ test('two RA jobs remain independent rows under one advisor and keep their exact
 
 test('PhD discovery distinguishes people, verified degree associations and project references',()=>{
   const groups=groupAdvisorResults(catalog,{opportunityType:'PhD'});
-  assert.deepEqual(counts(groups),{advisors:470,degree:31,employment:0,reference:445});
-  assert.equal(advisorResultCount(groups),'470 位导师 · 31 条已核实学位关联 · 0 个 RA 岗位 · 445 条博士项目参考');
+  assert.deepEqual(counts(groups),{advisors:487,degree:31,employment:0,reference:462});
+  assert.equal(advisorResultCount(groups),'487 位导师 · 31 条已核实学位关联 · 0 个 RA 岗位 · 462 条博士项目参考');
   const reference=groups.find(group=>group.opportunities.every(row=>row.kind==='reference'));
   const html=render(reference);
   assert(html.includes('博士项目参考'));assert(html.includes('个人关联与余位待核'));
