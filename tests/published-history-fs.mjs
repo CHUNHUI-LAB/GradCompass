@@ -72,6 +72,25 @@ const pkuTestArchive=decodePkuHistoricalTests(fs.readFileSync(new URL('./fixture
 export const pkuHistoricalTestPaths=Object.freeze(Object.keys(pkuTestArchive.files));
 export function pkuHistoricalTestBytes(name){assert(Object.hasOwn(pkuTestArchive.files,name));return Buffer.from(pkuTestArchive.files[name].base64,'base64');}
 
+// Additive Tongji dated-test bytes, fetched from the same original Git object.
+// Only these two previously unarchived tests can be served; no production shadowing.
+export const tongjiHistoricalTestArchiveSha256='b7d1f406fa0cd1f9784c133a17eb3008a82c3716314bf859503ec7c7805dfa9f';
+export function decodeTongjiHistoricalTests(compressed){
+ assert.equal(sha(compressed),tongjiHistoricalTestArchiveSha256,'immutable Tongji historical test inputs');
+ const snapshot=JSON.parse(gunzipSync(compressed));
+ assert.equal(snapshot.schemaVersion,1);assert.equal(snapshot.sourceCommit,publishedCommit);assert.equal(snapshot.publishedManifestCommit,publishedCommit);
+ assert.deepEqual(Object.keys(snapshot.files),['tests/four-schools-review.test.mjs','tests/seven-schools-review.test.mjs']);
+ const manifest=JSON.parse(publishedBytes('release-manifest.json'));
+ for(const [name,row]of Object.entries(snapshot.files)){
+  assert(!Object.hasOwn(archive.files,name)&&!Object.hasOwn(testArchive.files,name)&&!Object.hasOwn(pkuTestArchive.files,name),'preexisting archives cannot be shadowed');
+  const expected=manifest.allowedFiles.find(r=>r.path===name);assert(expected);
+  const bytes=Buffer.from(row.base64,'base64');assert.equal(bytes.length,expected.bytes);assert.equal(row.bytes,expected.bytes);assert.equal(sha(bytes),expected.sha256);assert.equal(row.sha256,expected.sha256);
+ }
+ return snapshot;
+}
+const tongjiTestArchive=decodeTongjiHistoricalTests(fs.readFileSync(new URL('./fixtures/history/published-test-inputs-tongji-20261019.json.gz',import.meta.url)));
+export function tongjiHistoricalTestBytes(name){assert(Object.hasOwn(tongjiTestArchive.files,name));return Buffer.from(tongjiTestArchive.files[name].base64,'base64');}
+
 export function runPublishedCounts(){
  const dir=fs.mkdtempSync(path.join(os.tmpdir(),'gradcompass-published-counts-'));
  try{
@@ -86,7 +105,10 @@ export default {...fs,readFileSync(file,options){
  const encoding=typeof options==='string'?options:options?.encoding;
  if(!Object.hasOwn(archive.files,relative)){
   if(!Object.hasOwn(testArchive.files,relative)){
-   if(!Object.hasOwn(pkuTestArchive.files,relative))return fs.readFileSync(file,options);
+   if(!Object.hasOwn(pkuTestArchive.files,relative)){
+    if(!Object.hasOwn(tongjiTestArchive.files,relative))return fs.readFileSync(file,options);
+    const bytes=tongjiHistoricalTestBytes(relative);return encoding?bytes.toString(encoding):bytes;
+   }
    const bytes=pkuHistoricalTestBytes(relative);return encoding?bytes.toString(encoding):bytes;
   }
   const bytes=publishedTestBytes(relative);return encoding?bytes.toString(encoding):bytes;

@@ -5,13 +5,16 @@ import crypto from 'node:crypto';
 import {browseAdvisors,filterOpportunities,buildOpportunities} from '../assets/core.js';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'));
 const catalog=read('data/catalog.json'),audit=read('data/four-schools-exploration-20261006.json');
+// The 2026-10-06 review is a bounded 334-advisor / 65-route cohort.
+// Current additions are independently guarded by their append receipts and live tests.
+const datedCatalog={...catalog,advisors:catalog.advisors.slice(0,334),routes:catalog.routes.slice(0,65)};
 const advisor=id=>catalog.advisors.find(a=>a.id===id);
 test('four-school evidence audit matches catalog, source projections and public PhD filters',()=>{
  assert.deepEqual(audit.schoolCounts,{Fudan:38,USTC:32,Tongji:28,SEU:47});assert.equal(audit.addedAdvisorCount,127);assert.equal(audit.claims.length,145);
  for(const [inst,prefix] of [['Fudan','fudan'],['USTC','ustc'],['Tongji','tongji'],['SEU','seu']]){
-  const review=read('data/'+prefix+'-advisor-review-20261005.json'),people=catalog.advisors.filter(a=>a.institution===inst);
-  assert.deepEqual(review.advisors.map(a=>a.id),people.map(a=>a.id));assert.equal(browseAdvisors(catalog,{institution:inst}).length,audit.schoolCounts[inst]);
-  assert.equal(filterOpportunities(catalog,{institution:inst,opportunityType:'PhD'}).length,people.length+(inst==='USTC'?1:0));
+  const review=read('data/'+prefix+'-advisor-review-20261005.json'),people=datedCatalog.advisors.filter(a=>a.institution===inst);
+  assert.deepEqual(review.advisors.map(a=>a.id),people.map(a=>a.id));assert.equal(browseAdvisors(datedCatalog,{institution:inst}).length,audit.schoolCounts[inst]);
+  assert.equal(filterOpportunities(datedCatalog,{institution:inst,opportunityType:'PhD'}).length,people.length+(inst==='USTC'?1:0));
   const input=catalog.metadata.sourceInputs.find(s=>s.file===prefix+'-advisor-review-20261005.json');assert.equal(input.sha256,crypto.createHash('sha256').update(fs.readFileSync(new URL('../data/'+input.file,import.meta.url))).digest('hex'));
   for(const a of people){const r=review.advisors.find(r=>r.id===a.id),claim=audit.claims.find(r=>r.advisorId===a.id);assert(claim);assert.equal(r.position,a.position);assert.equal(r.profileUrl,a.profileUrl);assert.deepEqual(r.referencePhdRouteIds,a.routeIds);assert.deepEqual(r.routeAssociations,a.routeAssociations);assert.deepEqual(r.openingDetails,a.openingDetails);assert.equal(a.checkedDate,'2026-10-06');assert.equal(a.cycle2028FallVerified,false);assert.equal(a.fall2028OpeningVerified,false);
    for(const x of a.routeAssociations){assert.equal(x.status,'reference');assert.equal(x.verificationStatus,'pending');assert.equal(x.individualRecruitmentVerified,false);}

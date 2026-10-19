@@ -8,7 +8,7 @@ const current=read('data/advisor-profiles.json'),old=JSON.parse(publishedBytes('
 const audit=read('audits/homepage-enrichment-20261010.json');
 const profiles=new Map(current.profiles.map(p=>[p.advisorId,p]));
 test('homepage batch preserves original profile facts, links, identities, order and catalog decisions',()=>{
- assert.equal(current.profiles.length,372);assert.equal(audit.count,53);assert.equal(audit.addedLinkCount,54);
+ assert.equal(current.profiles.length,424);assert.equal(audit.count,53);assert.equal(audit.addedLinkCount,54);
  assert.deepEqual(read('data/catalog.json').advisors.slice(0,334),JSON.parse(publishedBytes('data/catalog.json')).advisors);
  const strip=p=>{const {links,homepageReview,appointmentReview,...facts}=p;return facts;};
  for(let i=0;i<old.profiles.length;i++){

@@ -80,6 +80,8 @@ files.extend(['tests/fixtures/evidence/hku-ris-materials-20261011.json','tests/h
 files.extend(['assets/advisor-cards.js','assets/editorial-views.js','assets/reader.js','assets/result-dom.js','assets/opportunity-comparison.js','tests/advisor-cards.test.mjs','tests/editorial-views.test.mjs','tests/reader.test.mjs','tests/opportunity-comparison.test.mjs','REDESIGN.md','package-lock.json','tests/fixtures/history/published-test-inputs-2737399.json.gz','tests/published-test-inputs.test.mjs'])
 files.extend(['audits/pku-expansion-20261019.json','audits/pku-expansion-summary-20261019.md','tests/fixtures/evidence/pku-expansion-20261019.json','tests/pku-expansion-20261019.test.mjs'])
 files.append('tests/fixtures/history/published-test-inputs-pku-20261019.json.gz')
+files.extend(['audits/tongji-rescreen-20261019.json','audits/tongji-rescreen-summary-20261019.md','tests/fixtures/evidence/tongji-rescreen-20261019.json','tests/tongji-rescreen-20261019.test.mjs'])
+files.append('tests/fixtures/history/published-test-inputs-tongji-20261019.json.gz')
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):

@@ -3,7 +3,9 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {filterOpportunities} from '../assets/core.js';
 const read = p => JSON.parse(fs.readFileSync(new URL('../'+p, import.meta.url), 'utf8'));
-const catalog = read('data/catalog.json');
+const currentCatalog = read('data/catalog.json');
+// Retain this dated 334-advisor / 65-route review; current coverage has its own receipts.
+const catalog={...currentCatalog,advisors:currentCatalog.advisors.slice(0,334),routes:currentCatalog.routes.slice(0,65)};
 const schools = [
   {institution:'ZJU', zh:'浙江大学', baseRoute:'zju-ai-phd-reference-2027', review:'zju-advisor-review-20261005.json', advisorIds:['zju-wu-fei','zju-zhuang-yueting','zju-li-xi','zju-chen-pei']},
   {institution:'Fudan', zh:'复旦大学', baseRoute:'fudan-ai-phd-reference-2026', review:'fudan-advisor-review-20261005.json', advisorIds:['fudan-zhang-wenqiang','fudan-chen-tao','fudan-leng-siyang','fudan-cheng-yuan','fudan-huang-xuanjing','fudan-feng-rui','fudan-sun-weiwei','fudan-ding-henghui','fudan-xu-fan','fudan-shan-hongming']},

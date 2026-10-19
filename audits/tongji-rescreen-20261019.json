@@ -1,0 +1,3783 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-19",
+  "institution": "Tongji",
+  "baseCommit": "68052c5798b81a47fbe62e32dfaaae2af624f421",
+  "previousAdvisorCount": 28,
+  "addedAdvisorCount": 52,
+  "currentAdvisorCount": 80,
+  "preservedCatalogAdvisorCount": 372,
+  "preservedProfileCount": 372,
+  "addedRoutes": [
+    "tongji-control-doctoral-faculty-reference-20261019",
+    "tongji-cs-doctoral-faculty-reference-20261019",
+    "tongji-auto-doctoral-faculty-reference-20261019",
+    "tongji-geomatics-doctoral-faculty-reference-20261019"
+  ],
+  "groupCounts": {
+    "control": 21,
+    "cs": 17,
+    "auto": 8,
+    "geo": 6
+  },
+  "scope": "同济跨院机器人、具身、智能车辆与感知导航的一轮补漏；不宣称全站或同济全校教师穷尽。52份新记录中51位有本人博士指导身份或招募依据，操锟单列博士培养历史，当前独立招生资格待核。",
+  "omissionAnalysis": {
+    "observed": "旧同济28位中主要集中于机器人实验室、机械学院；控制系、计算机、汽车及测绘独立目录覆盖不足。",
+    "mechanism": "此前内容候选集合不够广，不是前端学校下拉框丢记录。控制系师资页初始HTML为空列表，公开页面脚本再读师资接口；计算机教授名单共5页，须逐页比对。",
+    "reviewMethod": "先读四院系完整师资入口／公开分页或页面所用公开只读接口，再按姓名、所属单位、研究范围与个人博士依据去重；个人及团队招生页单独核验，不以首页几位教师或固定新增人数作为完成标准。",
+    "limits": "师资名录也有过期头衔与访问失败；尚不宣称其余高校无遗漏。"
+  },
+  "screening": {
+    "controlFacultyDirectoryCount": 90,
+    "controlDirectoryUrl": "https://cse.tongji.edu.cn/szdw_38070/list.htm",
+    "controlDirectoryTransport": {
+      "method": "POST",
+      "url": "https://cse.tongji.edu.cn/_wp3services/generalQuery?queryObj=articles",
+      "scope": "原师资网页szdw.js公开只读查询，siteId345、columnId38070、scope1；90行返回与90总数一致",
+      "responseSha256": "235d50d946385bca7d0366b3c94bc8b85c28af40c5d8b5d364836d4b7956a4f6"
+    },
+    "csProfessorDirectoryPages": [
+      "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_.htm",
+      "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/4.htm",
+      "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/3.htm",
+      "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/2.htm",
+      "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/1.htm"
+    ],
+    "autoDirectoryUrl": "https://auto.tongji.edu.cn/szdw/szdw/aszm.htm",
+    "geoDoctoralListUrl": "https://celiang.tongji.edu.cn/Staff/a2025zsdsmd.htm",
+    "candidateNonInclusionIsNotNoAdmission": true
+  },
+  "advisors": [
+    {
+      "advisorId": "tongji-fan-rui",
+      "nameZh": "范睿",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人核心",
+      "identityUrl": "https://cse.tongji.edu.cn/cd/d1/c38370a380369/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://see.tongji.edu.cn/info/1376/10427.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "范睿",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": "https://mias.group/",
+      "homepageReadLimit": null,
+      "recruitment": "博士栏目2026年10月公告明确：已开放2028级博士申请报名；2027级除城市交通研究院外均已招满。原文未注明2028入学月份或Fall季节，因此记录2028级博士明确报名信号，2028 Fall精确季节仍待确认。博士可报考电信学院、上海自主智能无人系统科学中心、城市交通研究院；不能把硕士栏的中意学院等例外移用到博士。每年通常招收2+名属于通常规模，不是2028当前余位。通常仅考虑已有CCF推荐期刊/会议或IEEE/ACM/ASME Transactions第一作者论文者；直博5.5年、普博4年。博士申请问卷为官方公开入口，本次未提交申请。",
+      "recruitmentSignal": "open2028year",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2021 年 10 月（具体日待核）",
+        "earliestDate": "2021-10-01",
+        "latestDate": "2021-10-31",
+        "careerContext": "early_career",
+        "noteZh": "校方履历明确2021年10月全职加入同济任研究员、博士生导师；2022年12月教授、2024年12月长聘属于晋升。仅到月份，跨越2021-10-19截点，保留五年边界待核，不推断年龄。",
+        "sources": [
+          {
+            "label": "范睿",
+            "url": "https://cse.tongji.edu.cn/cd/d1/c38370a380369/page.htm",
+            "checkedDate": "2026-10-19",
+            "title": "范睿",
+            "readScope": "校方履历明确2021年10月全职加入同济任研究员、博士生导师；2022年12月教授、2024年12月长聘属于晋升。仅到月份，跨越2021-10-19截点，保留五年边界待核，不推断年龄。",
+            "contentSha256": "c5d962fa15e5872844f79011034d12926239d035845cccec87da0dd85bd54724"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/cd/d1/c38370a380369/page.htm",
+        "https://see.tongji.edu.cn/info/1376/10427.htm",
+        "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/A_G.htm",
+        "https://mias.group/",
+        "https://mias.group/members",
+        "https://mias.group/vacancies.html",
+        "https://www.ruirangerfan.com"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "已确认2028级博士报名信号；入学季节与正式申请批次待核",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-chen-qijun",
+      "nameZh": "陈启军",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人核心",
+      "identityUrl": "https://cse.tongji.edu.cn/cd/e0/c38370a380384/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://cse.tongji.edu.cn/cd/e0/c38370a380384/page.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "陈启军",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/cd/e0/c38370a380384/page.htm",
+        "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/A_G.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-chen-jie",
+      "nameZh": "陈杰",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人核心",
+      "identityUrl": "https://cse.tongji.edu.cn/c8/69/c38370a378985/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://cse.tongji.edu.cn/c8/69/c38370a378985/page.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "陈杰",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/c8/69/c38370a378985/page.htm",
+        "https://cse.tongji.edu.cn/szdw_38070/list.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-dong-yanchao",
+      "nameZh": "董延超",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人核心",
+      "identityUrl": "https://cse.tongji.edu.cn/ce/3f/c38371a380479/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://cse.tongji.edu.cn/ce/3f/c38371a380479/page.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "董延超",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2012 年（具体月日待核）",
+        "earliestDate": "2012-01-01",
+        "latestDate": "2012-12-31",
+        "careerContext": "early_career",
+        "noteZh": "2012年起在同济任讲师，2016年副教授属于晋升。",
+        "sources": [
+          {
+            "label": "董延超",
+            "url": "https://cse.tongji.edu.cn/ce/3f/c38371a380479/page.htm",
+            "checkedDate": "2026-10-19",
+            "title": "董延超",
+            "readScope": "2012年起在同济任讲师，2016年副教授属于晋升。",
+            "contentSha256": "2cdaf4c4c961e33969f00d702a7c3f66b9393cf453a1c7391abcc88380d500f1"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/ce/3f/c38371a380479/page.htm",
+        "https://cse.tongji.edu.cn/szdw_38070/list.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-dong-yi",
+      "nameZh": "董怡",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人协同控制相关",
+      "identityUrl": "https://cse.tongji.edu.cn/ce/31/c38370a380465/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://see.tongji.edu.cn/info/1376/10424.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "董怡",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2020 年 1 月（具体日待核）",
+        "earliestDate": "2020-01-01",
+        "latestDate": "2020-01-31",
+        "careerContext": "previous_faculty",
+        "noteZh": "工作履历为2020年1月起同济特聘研究员；此前南京理工大学教授，属于转校。",
+        "sources": [
+          {
+            "label": "董怡",
+            "url": "https://cse.tongji.edu.cn/ce/31/c38370a380465/page.htm",
+            "checkedDate": "2026-10-19",
+            "title": "董怡",
+            "readScope": "工作履历为2020年1月起同济特聘研究员；此前南京理工大学教授，属于转校。",
+            "contentSha256": "392271f160adb4e3326db3ac35b71432bdab216c8fc3eecd2230ff0c45ad0547"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/ce/31/c38370a380465/page.htm",
+        "https://see.tongji.edu.cn/info/1376/10424.htm",
+        "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/A_G.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-guo-lulu",
+      "nameZh": "郭露露",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人与智能车辆控制",
+      "identityUrl": "https://cse.tongji.edu.cn/ce/37/c38370a380471/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://cse.tongji.edu.cn/ce/37/c38370a380471/page.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "郭露露",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2021 年 9 月（具体日待核）",
+        "earliestDate": "2021-09-01",
+        "latestDate": "2021-09-30",
+        "careerContext": "early_career",
+        "noteZh": "2021年9月起同济研究员，早于五年截点；此前佐治亚大学博士后不计正式教研入职。",
+        "sources": [
+          {
+            "label": "郭露露",
+            "url": "https://cse.tongji.edu.cn/ce/37/c38370a380471/page.htm",
+            "checkedDate": "2026-10-19",
+            "title": "郭露露",
+            "readScope": "2021年9月起同济研究员，早于五年截点；此前佐治亚大学博士后不计正式教研入职。",
+            "contentSha256": "041adcf11e38d6e29263232d7c43c8ee7e7b657675864926341606a0b2dd4ea8"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/ce/37/c38370a380471/page.htm",
+        "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/A_G.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-hong-yiguang",
+      "nameZh": "洪奕光",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人协同控制相关",
+      "identityUrl": "https://cse.tongji.edu.cn/ce/11/c38370a380433/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://see.tongji.edu.cn/info/1377/10305.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "洪奕光",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/ce/11/c38370a380433/page.htm",
+        "https://see.tongji.edu.cn/info/1377/10305.htm",
+        "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/H_N.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-li-xiuxian",
+      "nameZh": "李修贤",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人核心",
+      "identityUrl": "https://cse.tongji.edu.cn/ce/32/c38370a380466/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://cse.tongji.edu.cn/ce/32/c38370a380466/page.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "李修贤",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2020 年（具体月日待核）",
+        "earliestDate": "2020-01-01",
+        "latestDate": "2020-12-31",
+        "careerContext": "early_career",
+        "noteZh": "官方履历给出2020年在同济工作，具体月日未列；之前博士后与访问经历不作为本校任职。",
+        "sources": [
+          {
+            "label": "李修贤",
+            "url": "https://cse.tongji.edu.cn/ce/32/c38370a380466/page.htm",
+            "checkedDate": "2026-10-19",
+            "title": "李修贤",
+            "readScope": "官方履历给出2020年在同济工作，具体月日未列；之前博士后与访问经历不作为本校任职。",
+            "contentSha256": "c36aa6860914b1f972f3c5b2765cecf1f5b8a268c79ea7e018be27b33fdb503f"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/ce/32/c38370a380466/page.htm",
+        "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/H_N.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-li-xuefeng",
+      "nameZh": "李雪峰",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人感知相关",
+      "identityUrl": "https://cse.tongji.edu.cn/ce/41/c38371a380481/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://cse.tongji.edu.cn/ce/41/c38371a380481/page.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "李雪峰",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "个人页称每年招收博士1–2人、硕士2–3人，另招科研助理；未标适用入学年，不能当作2027/2028剩余名额。申请说明涉及英语读写、简历与推荐信，应向导师确认当前要求。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/ce/41/c38371a380481/page.htm",
+        "https://cse.tongji.edu.cn/szdw_38070/list.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-liang-shu",
+      "nameZh": "梁舒",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人协同控制相关",
+      "identityUrl": "https://cse.tongji.edu.cn/ce/36/c38370a380470/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://cse.tongji.edu.cn/ce/36/c38370a380470/page.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "梁舒",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2021 年（具体月日待核）",
+        "earliestDate": "2021-01-01",
+        "latestDate": "2021-12-31",
+        "careerContext": "previous_faculty",
+        "noteZh": "2021年入职同济，仅有年份，跨五年截点；此前北京科技大学讲师、副教授属于此前教职。",
+        "sources": [
+          {
+            "label": "梁舒",
+            "url": "https://cse.tongji.edu.cn/ce/36/c38370a380470/page.htm",
+            "checkedDate": "2026-10-19",
+            "title": "梁舒",
+            "readScope": "2021年入职同济，仅有年份，跨五年截点；此前北京科技大学讲师、副教授属于此前教职。",
+            "contentSha256": "5e522f8f05d7f4e43275d546bfe0d63ed6ed27c7421e8c9d64315a46dcac10e1"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/ce/36/c38370a380470/page.htm",
+        "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/H_N.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-meng-min",
+      "nameZh": "孟敏",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人协同控制相关",
+      "identityUrl": "https://cse.tongji.edu.cn/ce/33/c38370a380467/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://cse.tongji.edu.cn/ce/33/c38370a380467/page.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "孟敏",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/ce/33/c38370a380467/page.htm",
+        "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/H_N.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-qi-peng",
+      "nameZh": "齐鹏",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人核心",
+      "identityUrl": "https://cse.tongji.edu.cn/ce/44/c38370a380484/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://see.tongji.edu.cn/info/1378/14972.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "齐鹏",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/ce/44/c38370a380484/page.htm",
+        "https://see.tongji.edu.cn/info/1378/14972.htm",
+        "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/O_T.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-shi-miaojing",
+      "nameZh": "史淼晶",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人视觉相关",
+      "identityUrl": "https://cse.tongji.edu.cn/ce/38/c38370a380472/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://see.tongji.edu.cn/info/1378/11185.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "史淼晶",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "校方列英国KCL等任职，但未明确本校首次正式教研到岗日期；不把海外2020教职写成同济入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/ce/38/c38370a380472/page.htm",
+        "https://see.tongji.edu.cn/info/1378/11185.htm",
+        "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/O_T.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-wang-jun",
+      "nameZh": "王峻",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人与智能车辆控制",
+      "identityUrl": "https://cse.tongji.edu.cn/cd/ff/c38370a380415/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://cse.tongji.edu.cn/cd/ff/c38370a380415/page.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "王峻",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2010 年 9 月（具体日待核）",
+        "earliestDate": "2010-09-01",
+        "latestDate": "2010-09-30",
+        "careerContext": "previous_faculty",
+        "noteZh": "2010年9月起任同济教授；此前清华博士后后留校任教，转校与初任教研分开。",
+        "sources": [
+          {
+            "label": "王峻",
+            "url": "https://cse.tongji.edu.cn/cd/ff/c38370a380415/page.htm",
+            "checkedDate": "2026-10-19",
+            "title": "王峻",
+            "readScope": "2010年9月起任同济教授；此前清华博士后后留校任教，转校与初任教研分开。",
+            "contentSha256": "17d06796b1910584630c25b9131d8b28c104f4ebef89dd847daade1f16dfeaec"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/cd/ff/c38370a380415/page.htm",
+        "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/U_Z.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-wang-hanli",
+      "nameZh": "王瀚漓",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人感知相关",
+      "identityUrl": "https://cse.tongji.edu.cn/ce/00/c38370a380416/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://cse.tongji.edu.cn/ce/00/c38370a380416/page.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "王瀚漓",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": "https://mic.tongji.edu.cn/",
+      "homepageReadLimit": null,
+      "recruitment": "官方个人页与MIC实验室保留常年博士招募及博士申请细则，未将每年招募或旧招生政策写成2028 Fall个人余位。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2010 年（具体月日待核）",
+        "earliestDate": "2010-01-01",
+        "latestDate": "2010-12-31",
+        "careerContext": "industry_transition",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": [
+          {
+            "label": "王瀚漓",
+            "url": "https://cse.tongji.edu.cn/ce/00/c38370a380416/page.htm",
+            "checkedDate": "2026-10-19",
+            "title": "王瀚漓",
+            "readScope": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+            "contentSha256": "fc28e62d90e0a614dfbf93ba844e742833169c486fd1d641b62de2148b210b0c"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/ce/00/c38370a380416/page.htm",
+        "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/U_Z.htm",
+        "https://mic.tongji.edu.cn/",
+        "https://mic.tongji.edu.cn/4d/0e/c31165a281870/page.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-wang-zhuping",
+      "nameZh": "王祝萍",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人核心",
+      "identityUrl": "https://cse.tongji.edu.cn/ce/1b/c38370a380443/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://see.tongji.edu.cn/info/1379/10344.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "王祝萍",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2007 年（具体月日待核）",
+        "earliestDate": "2007-01-01",
+        "latestDate": "2007-12-31",
+        "careerContext": "unknown",
+        "noteZh": "官方履历明确2007年至今同济任职；此前在新加坡国立大学任职性质未完整分清，careerContext保留待核。",
+        "sources": [
+          {
+            "label": "王祝萍",
+            "url": "https://cse.tongji.edu.cn/ce/1b/c38370a380443/page.htm",
+            "checkedDate": "2026-10-19",
+            "title": "王祝萍",
+            "readScope": "官方履历明确2007年至今同济任职；此前在新加坡国立大学任职性质未完整分清，careerContext保留待核。",
+            "contentSha256": "e23e7291c9bcdd79f2a80577df11f89d1dc412f9a5949deb9a16d59fa0401089"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/ce/1b/c38370a380443/page.htm",
+        "https://see.tongji.edu.cn/info/1379/10344.htm",
+        "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/U_Z.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-zhang-hao",
+      "nameZh": "张皓",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人协同控制相关",
+      "identityUrl": "https://cse.tongji.edu.cn/ce/19/c38370a380441/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://cse.tongji.edu.cn/ce/19/c38370a380441/page.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "张皓",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2007 年 9 月（具体日待核）",
+        "earliestDate": "2007-09-01",
+        "latestDate": "2007-09-30",
+        "careerContext": "early_career",
+        "noteZh": "2007年9月任教同济；2010副教授与2014博导、后续教授不重算入职。页面标题为教授，履历段仍有旧副教授称谓，按标题呈现并保留此差异。",
+        "sources": [
+          {
+            "label": "张皓",
+            "url": "https://cse.tongji.edu.cn/ce/19/c38370a380441/page.htm",
+            "checkedDate": "2026-10-19",
+            "title": "张皓",
+            "readScope": "2007年9月任教同济；2010副教授与2014博导、后续教授不重算入职。页面标题为教授，履历段仍有旧副教授称谓，按标题呈现并保留此差异。",
+            "contentSha256": "a30bb65f85c353e4e245b0f261237a61933b79165b9c8951827082d430b91876"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/ce/19/c38370a380441/page.htm",
+        "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/U_Z.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-yin-huilin",
+      "nameZh": "尹慧琳",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人感知与安全相关",
+      "identityUrl": "https://cse.tongji.edu.cn/ce/4c/c38371a380492/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://cse.tongji.edu.cn/ce/4c/c38371a380492/page.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "尹慧琳",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2006 年 7 月（具体日待核）",
+        "earliestDate": "2006-07-01",
+        "latestDate": "2006-07-31",
+        "careerContext": "unknown",
+        "noteZh": "工作履历为2006年7月起同济中德学院，2020转至控制系不重新计入职。",
+        "sources": [
+          {
+            "label": "尹慧琳",
+            "url": "https://cse.tongji.edu.cn/ce/4c/c38371a380492/page.htm",
+            "checkedDate": "2026-10-19",
+            "title": "尹慧琳",
+            "readScope": "工作履历为2006年7月起同济中德学院，2020转至控制系不重新计入职。",
+            "contentSha256": "427151a0b44db782fb83bc9109aa97bd1d55227ef02206a5acda3c8c09821f79"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/ce/4c/c38371a380492/page.htm",
+        "https://cse.tongji.edu.cn/szdw_38070/list.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-ye-wei",
+      "nameZh": "叶伟",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人核心",
+      "identityUrl": "https://cse.tongji.edu.cn/ce/35/c38370a380469/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://cse.tongji.edu.cn/ce/35/c38370a380469/page.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "叶伟",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": "https://yeweiysh.github.io/",
+      "homepageReadLimit": null,
+      "recruitment": "官方个人页欢迎报考博士/硕士研究生，个人主页列Prospective Students；未明确2027/2028入学周期与个人余位。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/ce/35/c38370a380469/page.htm",
+        "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/U_Z.htm",
+        "https://yeweiysh.github.io/"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-zeng-yifeng",
+      "nameZh": "曾一锋",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人核心",
+      "identityUrl": "https://cse.tongji.edu.cn/ce/3d/c38370a380477/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://cse.tongji.edu.cn/ce/3d/c38370a380477/page.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "曾一锋",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "控制系个人页明确招收人工智能方向硕士、博士及博士后，未标适用入学年与当前余位。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/ce/3d/c38370a380477/page.htm",
+        "https://cse.tongji.edu.cn/szdw_38070/list.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-cao-kun",
+      "nameZh": "操锟",
+      "department": "电子与信息工程学院／控制科学与工程系",
+      "scope": "机器人核心",
+      "identityUrl": "https://cse.tongji.edu.cn/ce/70/c38371a380528/page.htm",
+      "doctoralEvidenceUrls": [
+        "https://ntu-caokun.github.io/about_zh/"
+      ],
+      "doctoralEvidenceKind": "supervision_history_not_current_authority",
+      "doctoralMatches": [
+        {
+          "matchedName": "操锟",
+          "section": "个人页2025年9月博士生加入实验室新闻",
+          "boundary": "公开博士培养历史参考，当前独立博士招生资格待核。"
+        }
+      ],
+      "homepageUrl": "https://ntu-caokun.github.io/about_zh/",
+      "homepageReadLimit": null,
+      "recruitment": "个人页2025年9月新闻列两名博士生加入实验室，提供公开博士培养历史参考；招生段欢迎研究助理与博士后，并非明确2027/2028博士招生简章。当前独立博士招生资格、培养院系与接收方式仍须单独确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2024 年（具体月日待核）",
+        "earliestDate": "2024-01-01",
+        "latestDate": "2024-12-31",
+        "careerContext": "early_career",
+        "noteZh": "校方履历明确2024年加入同济；2023年人才计划入选不当作入职。个人页职称较旧，当前按控制系目录长聘副教授呈现。",
+        "sources": [
+          {
+            "label": "操锟",
+            "url": "https://cse.tongji.edu.cn/ce/70/c38371a380528/page.htm",
+            "checkedDate": "2026-10-19",
+            "title": "操锟",
+            "readScope": "校方履历明确2024年加入同济；2023年人才计划入选不当作入职。个人页职称较旧，当前按控制系目录长聘副教授呈现。",
+            "contentSha256": "c2afd279cf2ecb2b1cb6bb722546e32b9c2562ab1b3c0e2fa4cbbc1c51b9e310"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://cse.tongji.edu.cn/ce/70/c38371a380528/page.htm",
+        "https://ntu-caokun.github.io/about_zh/",
+        "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/A_G.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-chen-guang",
+      "nameZh": "陈广",
+      "department": "计算机科学与技术学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://faculty.tongji.edu.cn/%7EjIJVre/zh_CN/index.htm",
+      "doctoralEvidenceUrls": [
+        "https://faculty.tongji.edu.cn/%7EjIJVre/zh_CN/index.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "陈广",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "个人教师主页明确欢迎直接攻博、博士研究生申请与博士后，未注明2027/2028入学年及余位。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://faculty.tongji.edu.cn/%7EjIJVre/zh_CN/index.htm",
+        "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-chen-liang",
+      "nameZh": "陈亮",
+      "department": "计算机科学与技术学院",
+      "scope": "具身视觉与仿真相关",
+      "identityUrl": "https://cs.tongji.edu.cn/info/1065/3884.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3884.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "陈亮",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3884.htm",
+        "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-cheng-jiujun",
+      "nameZh": "程久军",
+      "department": "计算机科学与技术学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://cs.tongji.edu.cn/info/1065/3466.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3466.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "程久军",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3466.htm",
+        "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-jiang-xun",
+      "nameZh": "蒋寻",
+      "department": "计算机科学与技术学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://cs.tongji.edu.cn/info/1065/3476.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3476.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "蒋寻",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": "https://sig-mipal.github.io/homepage",
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3476.htm",
+        "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/4.htm",
+        "https://sig-mipal.github.io/homepage"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-liu-qingwen",
+      "nameZh": "刘庆文",
+      "department": "计算机科学与技术学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://cs.tongji.edu.cn/info/1065/3481.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3481.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "刘庆文",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3481.htm",
+        "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/4.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-ren-yunfan",
+      "nameZh": "任云帆",
+      "department": "计算机科学与技术学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://cs.tongji.edu.cn/info/1065/3487.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3487.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "任云帆",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "官方个人页明确招收2027年春/秋季入学直博生、普通博士生若干；2027秋硕士另列。春秋批次、直博与普博条件须按院系正式通知确认，“若干”不代表当前剩余数，未核实2028 Fall声明。",
+      "recruitmentSignal": "open2027fall",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3487.htm",
+        "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/4.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-peng-duo",
+      "nameZh": "彭铎",
+      "department": "计算机科学与技术学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://cs.tongji.edu.cn/info/1065/3485.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3485.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "彭铎",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": "https://duopeng-cver.github.io/pengduo/",
+      "homepageReadLimit": "该个人／实验室入口由本人校方页给出，本次返回404错误页，未获得本人主页正文；未据此核实团队内容。",
+      "recruitment": "个人页明确常年招收直博、普通博士，以及硕士推免和考研学生；未注明2027/2028年当期余位。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3485.htm",
+        "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/4.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-wang-zheng",
+      "nameZh": "汪政",
+      "department": "计算机科学与技术学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://cs.tongji.edu.cn/info/1065/3497.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3497.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "汪政",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3497.htm",
+        "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/3.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-wang-xuanhan",
+      "nameZh": "王轩瀚",
+      "department": "计算机科学与技术学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://cs.tongji.edu.cn/info/1065/3502.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3502.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "王轩瀚",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "官方个人页欢迎本科、硕士、博士和博士后咨询；没有明确2027/2028招生批次或余位。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3502.htm",
+        "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/3.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-xu-xing",
+      "nameZh": "徐行",
+      "department": "计算机科学与技术学院",
+      "scope": "机器人多模态感知相关",
+      "identityUrl": "https://cs.tongji.edu.cn/info/1065/3508.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3508.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "徐行",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": "https://interxuxing.github.io/",
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3508.htm",
+        "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/2.htm",
+        "https://interxuxing.github.io/"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-zeng-pengpeng",
+      "nameZh": "曾鹏鹏",
+      "department": "计算机科学与技术学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://cs.tongji.edu.cn/info/1065/3515.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3515.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "曾鹏鹏",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3515.htm",
+        "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/2.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-zhang-junqi",
+      "nameZh": "张军旗",
+      "department": "计算机科学与技术学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://cs.tongji.edu.cn/info/1065/3517.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3517.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "张军旗",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3517.htm",
+        "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/2.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-zhu-lanyun",
+      "nameZh": "祝澜耘",
+      "department": "计算机科学与技术学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://cs.tongji.edu.cn/info/1065/3527.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3527.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "祝澜耘",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "官方个人页明确正在招收2027年入学研究生，其中博士包含直博、普博，硕士含保研、考研。原文没有指定入学季节，因此按2027级博士邀请记录，精确Fall与当期余位待核；不顺延至2028。",
+      "recruitmentSignal": "open2027year",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3527.htm",
+        "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/1.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-sun-yaoru",
+      "nameZh": "孙杳如",
+      "department": "计算机科学与技术学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://cs.tongji.edu.cn/info/1065/3494.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3494.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "孙杳如",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "个人页欢迎有志攻读博士、硕士、博士后和访问的人员联系，未列具体入学年和余位。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3494.htm",
+        "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/3.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-xiao-guobao",
+      "nameZh": "肖国宝",
+      "department": "计算机科学与技术学院",
+      "scope": "机器人视觉相关",
+      "identityUrl": "https://cs.tongji.edu.cn/info/1065/3507.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3507.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "肖国宝",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3507.htm",
+        "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/3.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-zhao-cairong",
+      "nameZh": "赵才荣",
+      "department": "计算机科学与技术学院",
+      "scope": "机器人视觉相关",
+      "identityUrl": "https://cs.tongji.edu.cn/info/1065/3523.htm",
+      "doctoralEvidenceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3523.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "赵才荣",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3523.htm",
+        "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/2.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-zhang-lin",
+      "nameZh": "张林",
+      "department": "计算机科学与技术学院",
+      "scope": "机器人核心",
+      "identityUrl": "https://cs.tongji.edu.cn/info/1065/3518.htm",
+      "doctoralEvidenceUrls": [
+        "https://cslinzhang.github.io/home/application.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "张林",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": "https://cslinzhang.github.io/home/",
+      "homepageReadLimit": null,
+      "recruitment": "个人招生说明明确招收全日制博士和硕士，方向含具身与空间智能、环境感知与建图定位；页面更新为2026年1月，未承诺2027/2028博士余位。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2011 年 8 月（具体日待核）",
+        "earliestDate": "2011-08-01",
+        "latestDate": "2011-08-31",
+        "careerContext": "industry_transition",
+        "noteZh": "个人介绍明确2011年8月博士毕业后进入同济；此前Microsoft/Autodesk工作，2017/2022晋升不重算。",
+        "sources": [
+          {
+            "label": "张林-同济大学计算机科学与技术学院",
+            "url": "https://cs.tongji.edu.cn/info/1065/3518.htm",
+            "checkedDate": "2026-10-19",
+            "title": "张林-同济大学计算机科学与技术学院",
+            "readScope": "个人介绍明确2011年8月博士毕业后进入同济；此前Microsoft/Autodesk工作，2017/2022晋升不重算。",
+            "contentSha256": "f3a18c9e827c369c1054f66d931bc8d86d386413f54e14084b06143132afaf70"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3518.htm",
+        "https://cslinzhang.github.io/home/application.htm",
+        "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/2.htm",
+        "https://cslinzhang.github.io/home/"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-huang-yanjun",
+      "nameZh": "黄岩军",
+      "department": "汽车与能源学院",
+      "scope": "机器人与智能车辆",
+      "identityUrl": "https://faculty.tongji.edu.cn/huangyanjun/zh_CN/index.htm",
+      "doctoralEvidenceUrls": [
+        "https://faculty.tongji.edu.cn/huangyanjun/zh_CN/index.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "黄岩军",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": "https://faculty.tongji.edu.cn/huangyanjun/zh_CN/index.htm",
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2020 年 7 月（具体日待核）",
+        "earliestDate": "2020-07-01",
+        "latestDate": "2020-07-31",
+        "careerContext": "unknown",
+        "noteZh": "个人主页工作经历明确2020年7月起同济汽车学院；人才项目与升任长聘不作为首次入职。",
+        "sources": [
+          {
+            "label": "同济大学主页平台管理系统 黄岩军--中文主页--首页",
+            "url": "https://faculty.tongji.edu.cn/huangyanjun/zh_CN/index.htm",
+            "checkedDate": "2026-10-19",
+            "title": "同济大学主页平台管理系统 黄岩军--中文主页--首页",
+            "readScope": "个人主页工作经历明确2020年7月起同济汽车学院；人才项目与升任长聘不作为首次入职。",
+            "contentSha256": "cc6b15582c35072e525361855633ca64a0ef12d6bfc0ef048e2944acce49bdfe"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://faculty.tongji.edu.cn/huangyanjun/zh_CN/index.htm",
+        "https://auto.tongji.edu.cn/szdw/szdw/aszm.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-xiong-lu",
+      "nameZh": "熊璐",
+      "department": "汽车与能源学院",
+      "scope": "机器人与智能车辆",
+      "identityUrl": "https://auto.tongji.edu.cn/info/1178/6445.htm",
+      "doctoralEvidenceUrls": [
+        "https://auto.tongji.edu.cn/info/1178/6445.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "熊璐",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://auto.tongji.edu.cn/info/1178/6445.htm",
+        "https://auto.tongji.edu.cn/szdw/szdw/aszm.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-chu-hongqing",
+      "nameZh": "褚洪庆",
+      "department": "汽车与能源学院",
+      "scope": "机器人与智能车辆控制",
+      "identityUrl": "https://auto.tongji.edu.cn/info/1162/7631.htm",
+      "doctoralEvidenceUrls": [
+        "https://auto.tongji.edu.cn/info/1162/7631.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "褚洪庆",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2021 年 3 月（具体日待核）",
+        "earliestDate": "2021-03-01",
+        "latestDate": "2021-03-31",
+        "careerContext": "unknown",
+        "noteZh": "官方履历明确2021年3月加入同济，早于五年截点。",
+        "sources": [
+          {
+            "label": "褚洪庆-同济大学-汽车与能源学院",
+            "url": "https://auto.tongji.edu.cn/info/1162/7631.htm",
+            "checkedDate": "2026-10-19",
+            "title": "褚洪庆-同济大学-汽车与能源学院",
+            "readScope": "官方履历明确2021年3月加入同济，早于五年截点。",
+            "contentSha256": "f9bd2f92c3652d9d763a281d50f2320a288fbb7687bbf84b9c2a0110607390f2"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://auto.tongji.edu.cn/info/1162/7631.htm",
+        "https://auto.tongji.edu.cn/szdw/szdw/aszm.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-zhuo-guirong",
+      "nameZh": "卓桂荣",
+      "department": "汽车与能源学院",
+      "scope": "机器人与智能车辆感知",
+      "identityUrl": "https://auto.tongji.edu.cn/info/1180/6595.htm",
+      "doctoralEvidenceUrls": [
+        "https://auto.tongji.edu.cn/info/1180/6595.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "卓桂荣",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2004 年 12 月（具体日待核）",
+        "earliestDate": "2004-12-01",
+        "latestDate": "2004-12-31",
+        "careerContext": "early_career",
+        "noteZh": "履历2004年12月至今同济汽车学院；2002–2004同济博士后单独排除。",
+        "sources": [
+          {
+            "label": "卓桂荣-同济大学-汽车与能源学院",
+            "url": "https://auto.tongji.edu.cn/info/1180/6595.htm",
+            "checkedDate": "2026-10-19",
+            "title": "卓桂荣-同济大学-汽车与能源学院",
+            "readScope": "履历2004年12月至今同济汽车学院；2002–2004同济博士后单独排除。",
+            "contentSha256": "235d487a526ca2bd18e4f06cb4f946fdcc6fd57c5c528fb74c6a9b32e6b1da75"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://auto.tongji.edu.cn/info/1180/6595.htm",
+        "https://auto.tongji.edu.cn/szdw/szdw/aszm.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-tang-chen",
+      "nameZh": "唐辰",
+      "department": "汽车与能源学院",
+      "scope": "机器人与智能车辆控制",
+      "identityUrl": "https://faculty.tongji.edu.cn/tangchen1/zh_CN/index.htm",
+      "doctoralEvidenceUrls": [
+        "https://faculty.tongji.edu.cn/tangchen1/zh_CN/index.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "唐辰",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": "https://faculty.tongji.edu.cn/tangchen1/zh_CN/index.htm",
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "个人页工作经历仅列海外博士后与行业任职，没有本校首次正式教研起始时间，不由2021年博士后结束推断到岗。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://faculty.tongji.edu.cn/tangchen1/zh_CN/index.htm",
+        "https://auto.tongji.edu.cn/szdw/szdw/aszm.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-zhang-lin-auto",
+      "nameZh": "张琳",
+      "department": "汽车与能源学院",
+      "scope": "机器人与智能车辆控制",
+      "identityUrl": "https://faculty.tongji.edu.cn/zhanglin123456",
+      "doctoralEvidenceUrls": [
+        "https://faculty.tongji.edu.cn/zhanglin123456"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "张琳",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": "https://faculty.tongji.edu.cn/zhanglin123456",
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2023 年 3 月（具体日待核）",
+        "earliestDate": "2023-03-01",
+        "latestDate": "2023-03-31",
+        "careerContext": "early_career",
+        "noteZh": "2023年3月起汽车学院副教授；2020年1月至2023年3月本校博士后不计正式教研入职。注意与计算机学院张林不是同一位导师。",
+        "sources": [
+          {
+            "label": "同济大学主页平台管理系统 张琳--中文主页--首页",
+            "url": "https://faculty.tongji.edu.cn/zhanglin123456",
+            "checkedDate": "2026-10-19",
+            "title": "同济大学主页平台管理系统 张琳--中文主页--首页",
+            "readScope": "2023年3月起汽车学院副教授；2020年1月至2023年3月本校博士后不计正式教研入职。注意与计算机学院张林不是同一位导师。",
+            "contentSha256": "f9c13260ce419b08aff70e2c795a1e6af21ea32a2e1c184976781860e2c9a1b1"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://faculty.tongji.edu.cn/zhanglin123456",
+        "https://auto.tongji.edu.cn/szdw/szdw/aszm.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-yu-zhuoping",
+      "nameZh": "余卓平",
+      "department": "汽车与能源学院",
+      "scope": "机器人与智能车辆控制",
+      "identityUrl": "https://auto.tongji.edu.cn/info/1179/6449.htm",
+      "doctoralEvidenceUrls": [
+        "https://auto.tongji.edu.cn/info/1179/6449.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "余卓平",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "1985 年（具体月日待核）",
+        "earliestDate": "1985-01-01",
+        "latestDate": "1985-12-31",
+        "careerContext": "unknown",
+        "noteZh": "履历明确1985年开始在同济执教；页面部分行政头衔为旧记载，本记录仅保留教授、博士生导师及研究身份。",
+        "sources": [
+          {
+            "label": "余卓平-同济大学-汽车与能源学院",
+            "url": "https://auto.tongji.edu.cn/info/1179/6449.htm",
+            "checkedDate": "2026-10-19",
+            "title": "余卓平-同济大学-汽车与能源学院",
+            "readScope": "履历明确1985年开始在同济执教；页面部分行政头衔为旧记载，本记录仅保留教授、博士生导师及研究身份。",
+            "contentSha256": "061fa186038881eb2d63009af1112360fc378ea88b59827bd39c6c7b9d8a4e27"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://auto.tongji.edu.cn/info/1179/6449.htm",
+        "https://auto.tongji.edu.cn/szdw/szdw/aszm.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-gao-bingzhao",
+      "nameZh": "高炳钊",
+      "department": "汽车与能源学院",
+      "scope": "机器人与智能车辆控制",
+      "identityUrl": "https://auto.tongji.edu.cn/info/1165/7634.htm",
+      "doctoralEvidenceUrls": [
+        "https://auto.tongji.edu.cn/info/1165/7634.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "高炳钊",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://auto.tongji.edu.cn/info/1165/7634.htm",
+        "https://auto.tongji.edu.cn/szdw/szdw/aszm.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-liu-chun",
+      "nameZh": "刘春",
+      "department": "测绘与地理信息学院",
+      "scope": "机器人空间感知相关",
+      "identityUrl": "https://celiang.tongji.edu.cn/info/1300/2394.htm",
+      "doctoralEvidenceUrls": [
+        "https://celiang.tongji.edu.cn/info/1300/2394.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "刘春",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://celiang.tongji.edu.cn/info/1300/2394.htm",
+        "https://celiang.tongji.edu.cn/Staff/a2025zsdsmd.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-feng-tiantian",
+      "nameZh": "冯甜甜",
+      "department": "测绘与地理信息学院",
+      "scope": "机器人视觉定位相关",
+      "identityUrl": "https://celiang.tongji.edu.cn/info/1301/2406.htm",
+      "doctoralEvidenceUrls": [
+        "https://celiang.tongji.edu.cn/info/1301/2406.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "冯甜甜",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2010 年 8 月（具体日待核）",
+        "earliestDate": "2010-08-01",
+        "latestDate": "2010-08-31",
+        "careerContext": "early_career",
+        "noteZh": "2010年8月起同济讲师，后续副教授与长聘不重新计时。",
+        "sources": [
+          {
+            "label": "冯甜甜-同济大学测绘与地理信息学院",
+            "url": "https://celiang.tongji.edu.cn/info/1301/2406.htm",
+            "checkedDate": "2026-10-19",
+            "title": "冯甜甜-同济大学测绘与地理信息学院",
+            "readScope": "2010年8月起同济讲师，后续副教授与长聘不重新计时。",
+            "contentSha256": "6df49b54d4f297ac8ccd87a89c6ac776419689d6fe96e77d513192b5de1dfc95"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://celiang.tongji.edu.cn/info/1301/2406.htm",
+        "https://celiang.tongji.edu.cn/Staff/a2025zsdsmd.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-xu-xiong",
+      "nameZh": "许雄",
+      "department": "测绘与地理信息学院",
+      "scope": "机器人视觉导航相关",
+      "identityUrl": "https://celiang.tongji.edu.cn/info/1301/2415.htm",
+      "doctoralEvidenceUrls": [
+        "https://celiang.tongji.edu.cn/info/1301/2415.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "许雄",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "个人页明确博士招生方向涉及摄影测量、视觉、自动化、人工智能，也欢迎通过上海自主智能无人系统科学中心申请博士；具体培养单位与年度接收需逐项确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2013 年 10 月（具体日待核）",
+        "earliestDate": "2013-10-01",
+        "latestDate": "2013-10-31",
+        "careerContext": "early_career",
+        "noteZh": "2013年10月起同济助理研究员；之前博士后排除，2018副研究员和2025长聘不重算。",
+        "sources": [
+          {
+            "label": "许雄-同济大学测绘与地理信息学院",
+            "url": "https://celiang.tongji.edu.cn/info/1301/2415.htm",
+            "checkedDate": "2026-10-19",
+            "title": "许雄-同济大学测绘与地理信息学院",
+            "readScope": "2013年10月起同济助理研究员；之前博士后排除，2018副研究员和2025长聘不重算。",
+            "contentSha256": "ff5b58775f4081f47a5443a111f5973de336da6b28e3a872ae43ebfbd9c1d6f0"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://celiang.tongji.edu.cn/info/1301/2415.htm",
+        "https://celiang.tongji.edu.cn/Staff/a2025zsdsmd.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-wu-hangbin",
+      "nameZh": "吴杭彬",
+      "department": "测绘与地理信息学院",
+      "scope": "机器人空间感知相关",
+      "identityUrl": "https://celiang.tongji.edu.cn/info/1300/4267.htm",
+      "doctoralEvidenceUrls": [
+        "https://celiang.tongji.edu.cn/info/1300/4267.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "吴杭彬",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "教师页欢迎激光/视觉融合多场景感知、高精地图及环境交互方向本科、硕博和博士后加入，未列2027/2028入学年或余位。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2010 年 8 月（具体日待核）",
+        "earliestDate": "2010-08-01",
+        "latestDate": "2010-08-31",
+        "careerContext": "unknown",
+        "noteZh": "官方学习工作履历为2010年8月至今同济；此前本校博士与香港理工研究助理不作为本校正式入职。",
+        "sources": [
+          {
+            "label": "吴杭彬-同济大学测绘与地理信息学院",
+            "url": "https://celiang.tongji.edu.cn/info/1300/4267.htm",
+            "checkedDate": "2026-10-19",
+            "title": "吴杭彬-同济大学测绘与地理信息学院",
+            "readScope": "官方学习工作履历为2010年8月至今同济；此前本校博士与香港理工研究助理不作为本校正式入职。",
+            "contentSha256": "c27c7b3c3d6ffddd835643554e100fb581d323b523d189646d6ed7c43b0d4820"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://celiang.tongji.edu.cn/info/1300/4267.htm",
+        "https://celiang.tongji.edu.cn/Staff/a2025zsdsmd.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-huang-wei",
+      "nameZh": "黄炜",
+      "department": "测绘与地理信息学院",
+      "scope": "具身空间智能相关",
+      "identityUrl": "https://celiang.tongji.edu.cn/info/1300/2388.htm",
+      "doctoralEvidenceUrls": [
+        "https://celiang.tongji.edu.cn/info/1300/2388.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "黄炜",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": "https://huangweibuct.github.io/weihuang.github.io/",
+      "homepageReadLimit": null,
+      "recruitment": "官方个人页拟招收2027级博士2名，方向为城市行人空间多模态智能理解、城市环境与日常出行交互。原文未注明入学季节；2名为公开拟招数量，不能证明当前还剩2名，也不构成2028承诺。",
+      "recruitmentSignal": "open2027year",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "本校首次教研入职时间待核",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已确认当前同济教研身份，本次已读来源未给出首次本校正式教研到岗日期；毕业、博士后、晋升和页面更新时间不代替入职。",
+        "sources": []
+      },
+      "citedSourceUrls": [
+        "https://celiang.tongji.edu.cn/info/1300/2388.htm",
+        "https://celiang.tongji.edu.cn/Staff/a2025zsdsmd.htm",
+        "https://huangweibuct.github.io/weihuang.github.io/"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    },
+    {
+      "advisorId": "tongji-li-haojun",
+      "nameZh": "李浩军",
+      "department": "测绘与地理信息学院",
+      "scope": "机器人定位导航相关",
+      "identityUrl": "https://celiang.tongji.edu.cn/info/1300/2390.htm",
+      "doctoralEvidenceUrls": [
+        "https://celiang.tongji.edu.cn/info/1300/2390.htm"
+      ],
+      "doctoralEvidenceKind": "individual_doctoral_identity_or_invitation",
+      "doctoralMatches": [
+        {
+          "matchedName": "李浩军",
+          "section": "个人履历／导师类型／本人博士招生说明",
+          "boundary": "个人校方正文或本人招生页确认博士指导身份或博士招募。"
+        }
+      ],
+      "homepageUrl": null,
+      "homepageReadLimit": null,
+      "recruitment": "已确认博士相关身份或公开培养参考；本轮已读来源未核实个人2027/2028明确招募与当前余位。不表示不招生，具体培养入口、申请条件和资助需向导师与院系确认。",
+      "recruitmentSignal": "no_dated_signal_verified",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-10-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-19",
+          "start": "2021-10-19",
+          "end": "2026-10-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2014 年（具体月日待核）",
+        "earliestDate": "2014-01-01",
+        "latestDate": "2014-12-31",
+        "careerContext": "unknown",
+        "noteZh": "教师页明确2014年至今在同济从事教学科研；此前上海天文台工作性质未完整核清，保留职业背景待核。",
+        "sources": [
+          {
+            "label": "李浩军-同济大学测绘与地理信息学院",
+            "url": "https://celiang.tongji.edu.cn/info/1300/2390.htm",
+            "checkedDate": "2026-10-19",
+            "title": "李浩军-同济大学测绘与地理信息学院",
+            "readScope": "教师页明确2014年至今在同济从事教学科研；此前上海天文台工作性质未完整核清，保留职业背景待核。",
+            "contentSha256": "da139928a491e55d707746868a8eac58050c0a15e4d064f57e15b57619b9c0f8"
+          }
+        ]
+      },
+      "citedSourceUrls": [
+        "https://celiang.tongji.edu.cn/info/1300/2390.htm",
+        "https://celiang.tongji.edu.cn/Staff/a2025zsdsmd.htm"
+      ],
+      "unknowns": [
+        "个人正式申请资格、培养单位、当前剩余名额与资助仍须确认",
+        "未核实2028 Fall博士接收；不将旧年或常年邀请顺延",
+        "具体论文书目、完整团队结构与设备资源仍待逐项核验"
+      ]
+    }
+  ],
+  "exclusionsAndPending": [
+    {
+      "name": "宋井宽",
+      "reason": "校方确认具身方向与教授身份，个人主页本次连接失败，已读校方页未明确个人博士依据，保留待补核而不由教授职称自动挂接博士。",
+      "sourceUrls": [
+        "https://cs.tongji.edu.cn/info/1065/3493.htm",
+        "https://jingkuansong.github.io/index.html"
+      ]
+    },
+    {
+      "name": "丁玉隆、姚陈鹏、刘洋、林雨青、许春权",
+      "reason": "研究与项目相关，但本轮已读教师页未明确当前独立博士指导或本人博士招募；不把助理教授、博士学位或机器人关键词等同博导。后续可由博士名录或个人入口补核。",
+      "sourceUrls": [
+        "https://cse.tongji.edu.cn/ce/01/c38372a380417/page.htm",
+        "https://cse.tongji.edu.cn/ce/6d/c38372a380525/page.htm",
+        "https://cse.tongji.edu.cn/ce/6b/c38372a380523/page.htm",
+        "https://cse.tongji.edu.cn/ce/49/c38371a380489/page.htm",
+        "https://cse.tongji.edu.cn/ce/69/c38372a380521/page.htm"
+      ]
+    },
+    {
+      "name": "陈君毅、田炜",
+      "reason": "汽车学院当前个人页导师类型为硕导，不将其硕士培养资料写成博士招生。",
+      "sourceUrls": [
+        "https://auto.tongji.edu.cn/info/1162/6489.htm",
+        "https://auto.tongji.edu.cn/info/1176/7060.htm"
+      ]
+    },
+    {
+      "name": "程书明、余其",
+      "reason": "博士身份可读，研究主要为量子信息、量子控制；本轮未仅凭控制院系任职纳入机器人主目录。",
+      "sourceUrls": [
+        "https://cse.tongji.edu.cn/ce/34/c38370a380468/page.htm",
+        "https://cse.tongji.edu.cn/ce/3a/c38370a380474/page.htm"
+      ]
+    },
+    {
+      "name": "纯热能、发动机、建筑电气及一般遥感教师",
+      "reason": "未因学院目录出现就全部纳入；本轮优先机器人、具身、自动驾驶以及明确相关的感知、导航、控制。边缘方向仍可另行逐人复核。",
+      "sourceUrls": [
+        "https://auto.tongji.edu.cn/szdw/szdw/aszm.htm",
+        "https://celiang.tongji.edu.cn/Staff/a2025zsdsmd.htm"
+      ]
+    },
+    {
+      "name": "操锟",
+      "reason": "本次纳入公开博士培养历史参考，尚未把独立博士招生资格核为通过；与其他51位个人博士身份或邀请依据区分。",
+      "sourceUrls": [
+        "https://ntu-caokun.github.io/about_zh/"
+      ]
+    }
+  ],
+  "sourceLedger": [
+    {
+      "url": "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/A_G.htm",
+      "title": "A-G-电子与信息工程学院",
+      "section": "师资目录及分页定位；不把师资列表本身当作每个人的博士资格或2027/2028招生计划",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "5eff107116b76859d8aae9bae94bd341f29b77dd6756d7497373fcb7d30f71e2",
+      "readLimit": null
+    },
+    {
+      "url": "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/H_N.htm",
+      "title": "H-N-电子与信息工程学院",
+      "section": "师资目录及分页定位；不把师资列表本身当作每个人的博士资格或2027/2028招生计划",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "2d97880ef6272b118607ea2fb5c92dcd932a19c3f860c02f3abe7606d2cec1dc",
+      "readLimit": null
+    },
+    {
+      "url": "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/O_T.htm",
+      "title": "O-T-电子与信息工程学院",
+      "section": "师资目录及分页定位；不把师资列表本身当作每个人的博士资格或2027/2028招生计划",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "5600429193ab3e7a301fb4aaca91e8716ef41a7204929de089069e6daea1ddfc",
+      "readLimit": null
+    },
+    {
+      "url": "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/U_Z.htm",
+      "title": "U-Z-电子与信息工程学院",
+      "section": "师资目录及分页定位；不把师资列表本身当作每个人的博士资格或2027/2028招生计划",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "77c2470ad9088b1ca7a28efd7a2441bbf98a833a1229b1a34745dc430e33669e",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_.htm",
+      "title": "教授（研究员）-同济大学计算机科学与技术学院",
+      "section": "师资目录及分页定位；不把师资列表本身当作每个人的博士资格或2027/2028招生计划",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "2cfbf3b0d4c4f1bc85ca5b6f9594be348e1b9186c4e2886f61a2fa26bf62c78e",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/4.htm",
+      "title": "教授（研究员）-同济大学计算机科学与技术学院",
+      "section": "师资目录及分页定位；不把师资列表本身当作每个人的博士资格或2027/2028招生计划",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "faa3bcf768585120439ea5385bb4d4bf06bb00fc787176aff41d3e0e755b5a32",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/3.htm",
+      "title": "教授（研究员）-同济大学计算机科学与技术学院",
+      "section": "师资目录及分页定位；不把师资列表本身当作每个人的博士资格或2027/2028招生计划",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "592315d728153a1529ffa447e7eb0219333bd50c391a5ddae9c51d8bd091afe3",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/2.htm",
+      "title": "教授（研究员）-同济大学计算机科学与技术学院",
+      "section": "师资目录及分页定位；不把师资列表本身当作每个人的博士资格或2027/2028招生计划",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "8c1362f9919dfb27fa2d3fee6af3be60bb44d624b435e13959f300ee2af5d7bd",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/1.htm",
+      "title": "教授（研究员）-同济大学计算机科学与技术学院",
+      "section": "师资目录及分页定位；不把师资列表本身当作每个人的博士资格或2027/2028招生计划",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "4ee59c8afe366e8011b07c50cedf4ab521288b2e1f24c797a3e3f0a7ea646a8f",
+      "readLimit": null
+    },
+    {
+      "url": "https://auto.tongji.edu.cn/szdw/szdw/aszm.htm",
+      "title": "按首字母-同济大学-汽车与能源学院",
+      "section": "师资目录及分页定位；不把师资列表本身当作每个人的博士资格或2027/2028招生计划；纯热能、发动机、建筑电气及一般遥感教师候选保留／暂不挂接的范围与访问限制",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "0541c2b822a4b9bbb4338a09a34d8f2d10ba9c94043156d8b1b318c37a3237ad",
+      "readLimit": null
+    },
+    {
+      "url": "https://celiang.tongji.edu.cn/Staff/a2025zsdsmd.htm",
+      "title": "2025招生导师名单-同济大学测绘与地理信息学院",
+      "section": "师资目录及分页定位；不把师资列表本身当作每个人的博士资格或2027/2028招生计划；纯热能、发动机、建筑电气及一般遥感教师候选保留／暂不挂接的范围与访问限制",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "8ff9648cc1cf4532788a41ecb408a004ff254480a9feeee7dba8a38f7dbf5e70",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/cd/d1/c38370a380369/page.htm",
+      "title": "范睿",
+      "section": "范睿当前教研身份、职称及研究方向；范睿首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "c5d962fa15e5872844f79011034d12926239d035845cccec87da0dd85bd54724",
+      "readLimit": null
+    },
+    {
+      "url": "https://see.tongji.edu.cn/info/1376/10427.htm",
+      "title": "范睿-电子与信息工程学院",
+      "section": "范睿个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "ade91e78eaea8f65d762d95c1a409ae700917291d7bd646b07128720b7d40a31",
+      "readLimit": null
+    },
+    {
+      "url": "https://mias.group/",
+      "title": "MIAS Group @ TongjiU",
+      "section": "范睿个人／实验室入口；正文仅在可读取时使用",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "68a4382bb9294fe0c43c3590e3004de2cd339a072ad7d433dba3c2bc259328fa",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.ruirangerfan.com",
+      "title": "Rui (Ranger) FAN",
+      "section": "范睿本人主页About与MIAS负责人、2021年10月教研任职及晋升履历，正文已核读；不采集生日与私人生活信息；团队成员页给出的本人个人站，已核读正文与校方身份交叉对应",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "1fcde7649f074abc0a22d2f3967652698a221a430694c6d70ee9e24b06fabb59",
+      "readLimit": null
+    },
+    {
+      "url": "https://mias.group/members",
+      "title": "Members | MIAS Group",
+      "section": "范睿负责人身份、2021起教研与博士指导历史；不将拟入学人员计为当前在读总数",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "9bbad935643d22c448a4d396250d1ad4c29fa5a38ca8a05924fcd57becc31ecb",
+      "readLimit": null
+    },
+    {
+      "url": "https://mias.group/vacancies.html",
+      "title": "招生与招聘 · MIAS Group",
+      "section": "博士栏目role-0及内联roles数据：2026.10博士2028级报名、2027院系例外、博士条件与学制；已在浏览器核对实际渲染；硕士role-1单独核对，不混用",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "c2f010e014e928f8fc4fd6d2327e67860183a72e6b7ebbeeba978b978c817fca",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/cd/e0/c38370a380384/page.htm",
+      "title": "陈启军",
+      "section": "陈启军当前教研身份、职称及研究方向；陈启军个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "1eda361d3c3e352c6254a1baa477bbcaff859f6b39d7726e7e77bdc5ff0d77aa",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/c8/69/c38370a378985/page.htm",
+      "title": "陈杰",
+      "section": "陈杰当前教研身份、职称及研究方向；陈杰个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "f5352e8b08914a224a97340fa089d49d646a8b86798130aa8cf029a6c83a8f69",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/szdw_38070/list.htm",
+      "title": "师资队伍",
+      "section": "控制系动态师资总表；同时核对原网页公开只读接口返回90人，个人博士依据另查正文",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "bca45955123829d27e780b9d4b3f2f2282e7901bb034f69a896fd634c2216bd1",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/3f/c38371a380479/page.htm",
+      "title": "董延超",
+      "section": "董延超当前教研身份、职称及研究方向；董延超个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；董延超首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "2cdaf4c4c961e33969f00d702a7c3f66b9393cf453a1c7391abcc88380d500f1",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/31/c38370a380465/page.htm",
+      "title": "董怡",
+      "section": "董怡当前教研身份、职称及研究方向；董怡首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "392271f160adb4e3326db3ac35b71432bdab216c8fc3eecd2230ff0c45ad0547",
+      "readLimit": null
+    },
+    {
+      "url": "https://see.tongji.edu.cn/info/1376/10424.htm",
+      "title": "董怡-电子与信息工程学院",
+      "section": "董怡个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "4471cb409ce6587821b290902b55dbe062f86b30479e5a43c55afe8c416ad568",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/37/c38370a380471/page.htm",
+      "title": "郭露露",
+      "section": "郭露露当前教研身份、职称及研究方向；郭露露个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；郭露露首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "041adcf11e38d6e29263232d7c43c8ee7e7b657675864926341606a0b2dd4ea8",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/11/c38370a380433/page.htm",
+      "title": "洪奕光",
+      "section": "洪奕光当前教研身份、职称及研究方向",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "1887deb2e2688431fa53f11727a0f8f5d11c127e362b2e055b1e271dd79fe82f",
+      "readLimit": null
+    },
+    {
+      "url": "https://see.tongji.edu.cn/info/1377/10305.htm",
+      "title": "洪奕光-电子与信息工程学院",
+      "section": "洪奕光个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "23b297a28f70c49d4c7735443e85e741c979d748ebfab2a0268acb6532e6bd67",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/32/c38370a380466/page.htm",
+      "title": "李修贤",
+      "section": "李修贤当前教研身份、职称及研究方向；李修贤个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；李修贤首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "c36aa6860914b1f972f3c5b2765cecf1f5b8a268c79ea7e018be27b33fdb503f",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/41/c38371a380481/page.htm",
+      "title": "李雪峰",
+      "section": "李雪峰当前教研身份、职称及研究方向；李雪峰个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "a1d5735dac6f714389a2055ac806a76c692a3ba43c3897f47fec33f9b0b9ac75",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/36/c38370a380470/page.htm",
+      "title": "梁舒",
+      "section": "梁舒当前教研身份、职称及研究方向；梁舒个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；梁舒首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "5e522f8f05d7f4e43275d546bfe0d63ed6ed27c7421e8c9d64315a46dcac10e1",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/33/c38370a380467/page.htm",
+      "title": "孟敏",
+      "section": "孟敏当前教研身份、职称及研究方向；孟敏个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "6824679f0230162dc4705e045b9e4d977e0b794896605390123de3c6ca31e00f",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/44/c38370a380484/page.htm",
+      "title": "齐鹏",
+      "section": "齐鹏当前教研身份、职称及研究方向",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "357368f33c057b80394f5004d27be16ebf3190607372a15a9933d2dbe2f3d73d",
+      "readLimit": null
+    },
+    {
+      "url": "https://see.tongji.edu.cn/info/1378/14972.htm",
+      "title": "齐鹏-电子与信息工程学院",
+      "section": "齐鹏个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "b2b6cc5c2ad34d2ebcdc227d042586991efde06e7212d275d39bbb6af57ee205",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/38/c38370a380472/page.htm",
+      "title": "史淼晶",
+      "section": "史淼晶当前教研身份、职称及研究方向",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "a10aa079361d1fe1f714029617e3af97a8a25ec2ef1145f3a32a9d9d7fc26b52",
+      "readLimit": null
+    },
+    {
+      "url": "https://see.tongji.edu.cn/info/1378/11185.htm",
+      "title": "史淼晶-电子与信息工程学院",
+      "section": "史淼晶个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "6b4df88ac8d352e84e80eccdbdcb30172f42c94824e83b8ef4fc79f648673837",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/cd/ff/c38370a380415/page.htm",
+      "title": "王峻",
+      "section": "王峻当前教研身份、职称及研究方向；王峻个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；王峻首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "17d06796b1910584630c25b9131d8b28c104f4ebef89dd847daade1f16dfeaec",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/00/c38370a380416/page.htm",
+      "title": "王瀚漓",
+      "section": "王瀚漓当前教研身份、职称及研究方向；王瀚漓个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；王瀚漓首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "fc28e62d90e0a614dfbf93ba844e742833169c486fd1d641b62de2148b210b0c",
+      "readLimit": null
+    },
+    {
+      "url": "https://mic.tongji.edu.cn/",
+      "title": "多媒体与智能计算实验室",
+      "section": "王瀚漓个人／实验室入口；正文仅在可读取时使用",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "13236d0d0f45a516d5e587f5fe3486ebe0333f35d4fe158f2fa44522f04d6589",
+      "readLimit": null
+    },
+    {
+      "url": "https://mic.tongji.edu.cn/4d/0e/c31165a281870/page.htm",
+      "title": "MIC Ph.D. Student Admissions Policy",
+      "section": "MIC博士招生政策，历史细则不推导2028余位",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "d3604a1570cd862400179685d62e6f2a77a1c83389a30e1a4fe76e43f1ef736f",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/1b/c38370a380443/page.htm",
+      "title": "王祝萍",
+      "section": "王祝萍当前教研身份、职称及研究方向；王祝萍首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "e23e7291c9bcdd79f2a80577df11f89d1dc412f9a5949deb9a16d59fa0401089",
+      "readLimit": null
+    },
+    {
+      "url": "https://see.tongji.edu.cn/info/1379/10344.htm",
+      "title": "王祝萍-电子与信息工程学院",
+      "section": "王祝萍个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "ac4911f555b039c274062b8cdd12ce6fcfc4deab2f678846193fa1677a624989",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/19/c38370a380441/page.htm",
+      "title": "张皓",
+      "section": "张皓当前教研身份、职称及研究方向；张皓个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；张皓首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "a30bb65f85c353e4e245b0f261237a61933b79165b9c8951827082d430b91876",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/4c/c38371a380492/page.htm",
+      "title": "尹慧琳",
+      "section": "尹慧琳当前教研身份、职称及研究方向；尹慧琳个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；尹慧琳首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "427151a0b44db782fb83bc9109aa97bd1d55227ef02206a5acda3c8c09821f79",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/35/c38370a380469/page.htm",
+      "title": "​叶伟",
+      "section": "叶伟当前教研身份、职称及研究方向；叶伟个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "9740882238545a8b71bca5eb1fc42803e46c573d842c7df5e1f1f3c6de1721a2",
+      "readLimit": null
+    },
+    {
+      "url": "https://yeweiysh.github.io/",
+      "title": "Wei Ye",
+      "section": "叶伟个人／实验室入口；正文仅在可读取时使用",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "c8ad5d13c9f95721907b210e6f47be605afa40d2dfcfa0f4f93ee04178f97d00",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/3d/c38370a380477/page.htm",
+      "title": "曾一锋",
+      "section": "曾一锋当前教研身份、职称及研究方向；曾一锋个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "c7d474791f701ead0c4ac928f5f5233858adbb2f9fe2f7708714e3187005842c",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/70/c38371a380528/page.htm",
+      "title": "操锟",
+      "section": "操锟当前教研身份、职称及研究方向；操锟首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "c2afd279cf2ecb2b1cb6bb722546e32b9c2562ab1b3c0e2fa4cbbc1c51b9e310",
+      "readLimit": null
+    },
+    {
+      "url": "https://ntu-caokun.github.io/about_zh/",
+      "title": "个人简介 - Kun Cao (操锟) / Homepage",
+      "section": "操锟个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；操锟个人／实验室入口；正文仅在可读取时使用；操锟候选保留／暂不挂接的范围与访问限制",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "3d9b1b6e05d59363187f99fa201d44d38abdfe0c6cf13bb0aec6b12b0329e271",
+      "readLimit": null
+    },
+    {
+      "url": "https://faculty.tongji.edu.cn/%7EjIJVre/zh_CN/index.htm",
+      "title": "同济大学主页平台管理系统 陈广--中文主页--首页",
+      "section": "陈广当前教研身份、职称及研究方向；陈广个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "08877c2ca5f040f300e724d01b756909fd7cd3abba39b6f3ee1346ebeebc11b3",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3884.htm",
+      "title": "陈亮-同济大学计算机科学与技术学院",
+      "section": "陈亮当前教研身份、职称及研究方向；陈亮个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "04e938b7bafcd029803edbd91fc58270eff00a15b29457c45a4cc19dbc8d9bf6",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3466.htm",
+      "title": "程久军-同济大学计算机科学与技术学院",
+      "section": "程久军当前教研身份、职称及研究方向；程久军个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "1941b0bfdcceb0693e8b439f1257ac0eaea7feabaa0f36ce0ad0f29b0c9a916b",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3476.htm",
+      "title": "蒋寻-同济大学计算机科学与技术学院",
+      "section": "蒋寻当前教研身份、职称及研究方向；蒋寻个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "473268fbfd992129dec190aeec4e55c7ec96a8e58af4303bd4cca0e6b7309b6d",
+      "readLimit": null
+    },
+    {
+      "url": "https://sig-mipal.github.io/homepage",
+      "title": "MIPAL--Multimodal Intelligence & Physical Application Lab",
+      "section": "蒋寻个人／实验室入口；正文仅在可读取时使用",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "9efaa89ab9cf1243fef592cd607f952b3d4ebac4d21003ced156174dffbc320b",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3481.htm",
+      "title": "刘庆文-同济大学计算机科学与技术学院",
+      "section": "刘庆文当前教研身份、职称及研究方向；刘庆文个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "6d9d3aac6aeb5c422a07ec4ae70555cfad4fab1b6305671eaf354169ece41837",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3487.htm",
+      "title": "任云帆-同济大学计算机科学与技术学院",
+      "section": "任云帆当前教研身份、职称及研究方向；任云帆个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "52db4f1dab2ed778ce680d8a8b2f89dad5f3a7c5455dbdbdaf96e81e32811157",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3485.htm",
+      "title": "彭铎-同济大学计算机科学与技术学院",
+      "section": "彭铎当前教研身份、职称及研究方向；彭铎个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "cb4e401d16ad60432787fa78389dbccfb82f2e1eb0c6d2749bdd02179786272f",
+      "readLimit": null
+    },
+    {
+      "url": "https://duopeng-cver.github.io/pengduo/",
+      "title": "Site not found · GitHub Pages",
+      "section": "彭铎个人／实验室入口；正文仅在可读取时使用",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 404,
+      "contentSha256": "70d613e3acfba24fd2876fcbacaf639e1e111ef4d54baf70761c47673f37d6a3",
+      "readLimit": "校方原页给出的入口，当前正文未完整读取；不以该入口支持研究、任职或招生结论"
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3497.htm",
+      "title": "汪政-同济大学计算机科学与技术学院",
+      "section": "汪政当前教研身份、职称及研究方向；汪政个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "db3e4c3bc03d59ded46b4f7ac25726d19e95255f28449829ad8a1e62cdb2790f",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3502.htm",
+      "title": "王轩瀚-同济大学计算机科学与技术学院",
+      "section": "王轩瀚当前教研身份、职称及研究方向；王轩瀚个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "608ba1aab755bce1627d41e1db433034ced483efa8b3d62dd30761f3b41adbdb",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3508.htm",
+      "title": "徐行-同济大学计算机科学与技术学院",
+      "section": "徐行当前教研身份、职称及研究方向；徐行个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "1241ad174c6b54f660c5aa762f04bc77890c510ffea2febff6c77c76bfec880f",
+      "readLimit": null
+    },
+    {
+      "url": "https://interxuxing.github.io/",
+      "title": "Xing Xu",
+      "section": "徐行个人／实验室入口；正文仅在可读取时使用",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "8cd2f364aaa517da96b9050e43d3f635d1b3b7b4f00b8e0430ad655c031af8e7",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3515.htm",
+      "title": "曾鹏鹏-同济大学计算机科学与技术学院",
+      "section": "曾鹏鹏当前教研身份、职称及研究方向；曾鹏鹏个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "39b33a97f6b350da30d5424a5565ed818d5bac245fc572917a6ead21af3ab525",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3517.htm",
+      "title": "张军旗-同济大学计算机科学与技术学院",
+      "section": "张军旗当前教研身份、职称及研究方向；张军旗个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "cb7a0e58a33f8b0bfd3d05ce81a1a5e97de69be589974119610d1e7ee33a7b05",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3527.htm",
+      "title": "祝澜耘-同济大学计算机科学与技术学院",
+      "section": "祝澜耘当前教研身份、职称及研究方向；祝澜耘个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "8926648a6a6117657e9a6e8f5e489f530ce898651ab9801b017e2adb7d097b36",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3494.htm",
+      "title": "孙杳如-同济大学计算机科学与技术学院",
+      "section": "孙杳如当前教研身份、职称及研究方向；孙杳如个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "2bf2fd80cdc94a6748ac2b05d1bc4101ac16840df4df33904613123d7bdc7f83",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3507.htm",
+      "title": "肖国宝-同济大学计算机科学与技术学院",
+      "section": "肖国宝当前教研身份、职称及研究方向；肖国宝个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "2e0af00ccb74ed02b6e31422b2ef9f9400e8396f9c1ebcdb411acc8e2a29b683",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3523.htm",
+      "title": "赵才荣-同济大学计算机科学与技术学院",
+      "section": "赵才荣当前教研身份、职称及研究方向；赵才荣个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "ab702b4e44cbeb6c6d93841af78c48705c49f6381fb03a5aaee982d81992a388",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3518.htm",
+      "title": "张林-同济大学计算机科学与技术学院",
+      "section": "张林当前教研身份、职称及研究方向；张林首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "f3a18c9e827c369c1054f66d931bc8d86d386413f54e14084b06143132afaf70",
+      "readLimit": null
+    },
+    {
+      "url": "https://cslinzhang.github.io/home/application.htm",
+      "title": "Useful Links",
+      "section": "张林个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "5cf4ddddefce1fc65dba770493bd15685470db36997bd1e9bb846a761522f2be",
+      "readLimit": null
+    },
+    {
+      "url": "https://cslinzhang.github.io/home/",
+      "title": "Lin Zhang's Homepage",
+      "section": "张林个人／实验室入口；正文仅在可读取时使用",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "daed9262f2f5efa0f4ff69dea0ad23049697c5ce9c70f828d11acb5976607791",
+      "readLimit": null
+    },
+    {
+      "url": "https://faculty.tongji.edu.cn/huangyanjun/zh_CN/index.htm",
+      "title": "同济大学主页平台管理系统 黄岩军--中文主页--首页",
+      "section": "黄岩军当前教研身份、职称及研究方向；黄岩军个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；黄岩军个人／实验室入口；正文仅在可读取时使用；黄岩军首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "cc6b15582c35072e525361855633ca64a0ef12d6bfc0ef048e2944acce49bdfe",
+      "readLimit": null
+    },
+    {
+      "url": "https://auto.tongji.edu.cn/info/1178/6445.htm",
+      "title": "熊璐-同济大学-汽车与能源学院",
+      "section": "熊璐当前教研身份、职称及研究方向；熊璐个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "c7dfe7c3b269966f0363dabc4e430cde5106c1112243fdf99df2e60b65a9d22e",
+      "readLimit": null
+    },
+    {
+      "url": "https://auto.tongji.edu.cn/info/1162/7631.htm",
+      "title": "褚洪庆-同济大学-汽车与能源学院",
+      "section": "褚洪庆当前教研身份、职称及研究方向；褚洪庆个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；褚洪庆首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "f9bd2f92c3652d9d763a281d50f2320a288fbb7687bbf84b9c2a0110607390f2",
+      "readLimit": null
+    },
+    {
+      "url": "https://auto.tongji.edu.cn/info/1180/6595.htm",
+      "title": "卓桂荣-同济大学-汽车与能源学院",
+      "section": "卓桂荣当前教研身份、职称及研究方向；卓桂荣个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；卓桂荣首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "235d487a526ca2bd18e4f06cb4f946fdcc6fd57c5c528fb74c6a9b32e6b1da75",
+      "readLimit": null
+    },
+    {
+      "url": "https://faculty.tongji.edu.cn/tangchen1/zh_CN/index.htm",
+      "title": "同济大学主页平台管理系统 唐辰--中文主页--首页",
+      "section": "唐辰当前教研身份、职称及研究方向；唐辰个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；唐辰个人／实验室入口；正文仅在可读取时使用",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "98b0d70e4ef74bde8340d9dba1c31af8aee511a6fd46ffaf525497b525329c9a",
+      "readLimit": null
+    },
+    {
+      "url": "https://faculty.tongji.edu.cn/zhanglin123456",
+      "title": "同济大学主页平台管理系统 张琳--中文主页--首页",
+      "section": "张琳当前教研身份、职称及研究方向；张琳个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；张琳个人／实验室入口；正文仅在可读取时使用；张琳首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "f9c13260ce419b08aff70e2c795a1e6af21ea32a2e1c184976781860e2c9a1b1",
+      "readLimit": null
+    },
+    {
+      "url": "https://auto.tongji.edu.cn/info/1179/6449.htm",
+      "title": "余卓平-同济大学-汽车与能源学院",
+      "section": "余卓平当前教研身份、职称及研究方向；余卓平个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；余卓平首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "061fa186038881eb2d63009af1112360fc378ea88b59827bd39c6c7b9d8a4e27",
+      "readLimit": null
+    },
+    {
+      "url": "https://auto.tongji.edu.cn/info/1165/7634.htm",
+      "title": "高炳钊-同济大学-汽车与能源学院",
+      "section": "高炳钊当前教研身份、职称及研究方向；高炳钊个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "fa743196d6b6993813ab0b20b79228e8f963e1302cc42684d70c859fd119601c",
+      "readLimit": null
+    },
+    {
+      "url": "https://celiang.tongji.edu.cn/info/1300/2394.htm",
+      "title": "刘春-同济大学测绘与地理信息学院",
+      "section": "刘春当前教研身份、职称及研究方向；刘春个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "0bafa16de2709e2a69cae5924e91078dd4e99d4a16441529c00e0338f040a9f3",
+      "readLimit": null
+    },
+    {
+      "url": "https://celiang.tongji.edu.cn/info/1301/2406.htm",
+      "title": "冯甜甜-同济大学测绘与地理信息学院",
+      "section": "冯甜甜当前教研身份、职称及研究方向；冯甜甜个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；冯甜甜首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "6df49b54d4f297ac8ccd87a89c6ac776419689d6fe96e77d513192b5de1dfc95",
+      "readLimit": null
+    },
+    {
+      "url": "https://celiang.tongji.edu.cn/info/1301/2415.htm",
+      "title": "许雄-同济大学测绘与地理信息学院",
+      "section": "许雄当前教研身份、职称及研究方向；许雄个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；许雄首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "ff5b58775f4081f47a5443a111f5973de336da6b28e3a872ae43ebfbd9c1d6f0",
+      "readLimit": null
+    },
+    {
+      "url": "https://celiang.tongji.edu.cn/info/1300/4267.htm",
+      "title": "吴杭彬-同济大学测绘与地理信息学院",
+      "section": "吴杭彬当前教研身份、职称及研究方向；吴杭彬个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；吴杭彬首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "c27c7b3c3d6ffddd835643554e100fb581d323b523d189646d6ed7c43b0d4820",
+      "readLimit": null
+    },
+    {
+      "url": "https://celiang.tongji.edu.cn/info/1300/2388.htm",
+      "title": "黄炜-同济大学测绘与地理信息学院",
+      "section": "黄炜当前教研身份、职称及研究方向；黄炜个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "56b36b765ee4d612bb85353e8b69e77d72a76948411a57941067b95b919c5cd5",
+      "readLimit": null
+    },
+    {
+      "url": "https://huangweibuct.github.io/weihuang.github.io/",
+      "title": "Dr. Wei Huang",
+      "section": "黄炜个人／实验室入口；正文仅在可读取时使用",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "630af159750d3f667182efc28a8eaa0df2fb731241ca7f7fdfed809d90dbf61a",
+      "readLimit": null
+    },
+    {
+      "url": "https://celiang.tongji.edu.cn/info/1300/2390.htm",
+      "title": "李浩军-同济大学测绘与地理信息学院",
+      "section": "李浩军当前教研身份、职称及研究方向；李浩军个人正文中的博士身份／邀请／培养历史，排除导航栏博士入口；李浩军首次本校正式教研任职，排除学生／博士后／晋升／内部转院",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "da139928a491e55d707746868a8eac58050c0a15e4d064f57e15b57619b9c0f8",
+      "readLimit": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3493.htm",
+      "title": "宋井宽-同济大学计算机科学与技术学院",
+      "section": "宋井宽候选保留／暂不挂接的范围与访问限制",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "627b3e4b96f8280ce2fba4047af2d0878732c4fcc51a698defd47b94b94f566b",
+      "readLimit": null
+    },
+    {
+      "url": "https://jingkuansong.github.io/index.html",
+      "title": "https://jingkuansong.github.io/index.html",
+      "section": "宋井宽候选保留／暂不挂接的范围与访问限制",
+      "checkedDate": "2026-10-19",
+      "httpStatus": null,
+      "contentSha256": null,
+      "readLimit": "校方原页给出的入口，当前正文未完整读取；不以该入口支持研究、任职或招生结论"
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/01/c38372a380417/page.htm",
+      "title": "丁玉隆",
+      "section": "丁玉隆、姚陈鹏、刘洋、林雨青、许春权候选保留／暂不挂接的范围与访问限制",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "2c41a555f552a159f2e57737623d7c41e2683f34387df299383e452cdc60502d",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/6d/c38372a380525/page.htm",
+      "title": "刘洋",
+      "section": "丁玉隆、姚陈鹏、刘洋、林雨青、许春权候选保留／暂不挂接的范围与访问限制",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "66fae9526926cf50f47b4227273317360dde31188a8c505a55b01da0314fda71",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/6b/c38372a380523/page.htm",
+      "title": "林雨青",
+      "section": "丁玉隆、姚陈鹏、刘洋、林雨青、许春权候选保留／暂不挂接的范围与访问限制",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "ae18c3358445ec5fb29893c8cd5144eca962c1e73dc26dbb96ff9700988e733c",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/49/c38371a380489/page.htm",
+      "title": "许春权",
+      "section": "丁玉隆、姚陈鹏、刘洋、林雨青、许春权候选保留／暂不挂接的范围与访问限制",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "971db665a0593151fe83d3aa8603b38fc007a2f534a167261a91109b7a8a2004",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/69/c38372a380521/page.htm",
+      "title": "姚陈鹏",
+      "section": "丁玉隆、姚陈鹏、刘洋、林雨青、许春权候选保留／暂不挂接的范围与访问限制",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "21e4e96b9d80dab8d4ee854c08537f390afb4b0aced9a8e96c190bd0c4bf1819",
+      "readLimit": null
+    },
+    {
+      "url": "https://auto.tongji.edu.cn/info/1162/6489.htm",
+      "title": "陈君毅-同济大学-汽车与能源学院",
+      "section": "陈君毅、田炜候选保留／暂不挂接的范围与访问限制",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "6b6078dc5c14cc791bc1c7fbda322cf1be06dde7a4ee0cdbfd8b0bdd20cb1a47",
+      "readLimit": null
+    },
+    {
+      "url": "https://auto.tongji.edu.cn/info/1176/7060.htm",
+      "title": "田炜-同济大学-汽车与能源学院",
+      "section": "陈君毅、田炜候选保留／暂不挂接的范围与访问限制",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "26ddff6bbcf381112a4a374c431e7d0e1fae2b7c33774d8f5c5dd2bb39c347cc",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/34/c38370a380468/page.htm",
+      "title": "程书明",
+      "section": "程书明、余其候选保留／暂不挂接的范围与访问限制",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "a156ae0f1558d3d5399bb1a7f0d34ba5ea6b1af02df343ae7efbaac684f04408",
+      "readLimit": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/ce/3a/c38370a380474/page.htm",
+      "title": "余其",
+      "section": "程书明、余其候选保留／暂不挂接的范围与访问限制",
+      "checkedDate": "2026-10-19",
+      "httpStatus": 200,
+      "contentSha256": "e3030b630f429d06aa11f91a709e469927e8bc4fc4fca8bbed8b603e5ccdc827",
+      "readLimit": null
+    }
+  ],
+  "cycle2028DoctoralIntakeSignalCount": 1,
+  "cycle2028FallPhdVerifiedCount": 0,
+  "cycle2027FallPhdSignalCount": 1,
+  "cycle2027EntryYearPhdSignalCount": 3,
+  "retrieval": "读取校方及本人公开原文；动态博士公告同时核对HTML内联数据和实际浏览器role-0渲染。保留网址、响应哈希与阅读范围，未提交问卷、未发送邮件、未绕过访问限制。"
+}
