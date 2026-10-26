@@ -138,11 +138,11 @@ export function deadlineStatus(deadline,checkedDate='2026-10-01'){
  return deadline.status==='open'?'open':'unknown';
 }
 export function filterDeadlines(catalog,filters={}){
- const routeIds=new Set(browseRoutes(catalog,filters).map(r=>r.id));
+ const routeIds=new Set(browseRoutes(catalog,{...filters,query:''}).map(r=>r.id));
  const academic=(catalog.deadlines||[]).filter(d=>{
   if(filters.institution&&d.institution!==filters.institution)return false;
   if(!(d.routeIds||[]).some(id=>routeIds.has(id)))return false;
-  if(filters.query&&!matchesSearch([d.title,d.note,institutionSearchText(d.institution),d.admissionYear,searchObjectText(d.cycleReview),searchObjectText(d.sources)].join(' '),filters.query))return false;
+  if(filters.query&&!matchesSearch([d.title,d.note,institutionSearchText(d.institution),d.admissionYear,d.date,d.startDate,d.degree,d.applicantScope,d.applicationDateKind,searchObjectText(d.cycleReview),searchObjectText(d.sources)].join(' '),filters.query))return false;
   return true;
  });
  const jobIds=new Set(filterOpportunities(catalog,filters).filter(o=>o.kind==='employment').map(o=>o.jobId));

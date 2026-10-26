@@ -429,6 +429,14 @@
       "section": "Notes on Submission of Supporting Documents；两页完整核读：推荐信不要求、通知后补件期限、成绩/学位/语言/身份证明、翻译和申请阶段免邮寄",
       "sourceVersion": "PDF本身未标年份；2026-10-11由显示2027年9月入学的RIS项目页及R394申请说明页直接链接，保留该适用范围",
       "sha256": "05ed83e1479ae38ef71304ee9564adcc2ff5cdd620c44e6bcd1f71dd92c2f646"
+    },
+    {
+      "id": "sz_ai_dates_20261026",
+      "label": "港中深人工智能学院2027春秋研究型博士申请",
+      "url": "https://sai.cuhk.edu.cn/en/node/35",
+      "checkedDate": "2026-10-26",
+      "section": "当前完整正文How to Apply明确2027春截止2026年10月31日、2027秋2027年6月30日。旧10月2日5月31日记录保留历史。滚动录取满额即止；不据此核实名额、资助、完整材料或实际系统提交。",
+      "sourceVersion": "Date-only recheck; original material requirements and verification dates retained."
     }
   ],
   "records": [
@@ -1625,7 +1633,8 @@
         "导师/课题组是否仅招硕士、追加研究计划要求；具体剩余名额。"
       ],
       "scopeNotes": [
-        "2027期限来自/node/35中文现页；article/185仅支持2026申请制历史，不作为2027期限证据。"
+        "2027期限来自/node/35中文现页；article/185仅支持2026申请制历史，不作为2027期限证据。",
+        "2026-10-26仅日期更新：当前/en/node/35秋季为2027-06-30，旧2027-05-31记录保留收据；其余材料仍沿用原核验日期。"
       ],
       "requirements": [
         {
@@ -1678,15 +1687,16 @@
         },
         {
           "kind": "deadline",
-          "text": "2027春季截止2026-10-31；2027秋季截止2027-05-31。滚动录取，录满可提前止收。",
+          "text": "2026-10-26日期复核：人工智能学院2027春季截止2026-10-31；秋季截止2027-06-30。滚动录取，录满可提前止收；其他学院日期不同，未补写钟点或时区。",
           "requirementStatus": "published",
           "sourceIds": [
-            "sz_ai"
+            "sz_ai_dates_20261026"
           ]
         }
       ],
       "sourceIds": [
-        "sz_ai"
+        "sz_ai",
+        "sz_ai_dates_20261026"
       ]
     },
     {

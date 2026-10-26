@@ -88,11 +88,11 @@ test('timeline groups every visible deadline once against catalog date and prese
  const records = filterDeadlines(catalog);
  const before = JSON.stringify(records);
  const html = renderDeadlineTimeline(records,{catalog});
- assert(html.includes(`分组基准日：${catalog.metadata.checkedDate}`));
+ assert(html.includes(`分组基准日：${catalog.metadata.deadlineAsOf||catalog.metadata.checkedDate}`));
  assert.equal((html.match(/data-deadline-id=/g)||[]).length,records.length);
  for(const record of records) {
   assert(html.includes(`data-deadline-id="${record.id}"`));
-  const group = deadlineStatus(record,catalog.metadata.checkedDate)==='expired'?'expired':record.date?'upcoming':'unknown';
+  const group = deadlineStatus(record,catalog.metadata.deadlineAsOf||catalog.metadata.checkedDate)==='expired'?'expired':record.date?'upcoming':'unknown';
   const portion = html.split(`data-deadline-group="${group}"`)[1].split('<section class="deadline-group"')[0];
   assert(portion.includes(`data-deadline-id="${record.id}"`));
   if(record.admissionYear)assert(html.includes(escaped(record.admissionYear)));

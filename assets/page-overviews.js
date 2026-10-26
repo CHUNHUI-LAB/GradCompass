@@ -1,4 +1,4 @@
-import {escapeHTML,buildOpportunities,browseRoutes as filterRoutes,browseAdvisors,filterDeadlines,deadlineStatus,themesFor,institutionLabel} from './core.js?v=64326cc257e3';
+import {escapeHTML,buildOpportunities,browseRoutes as filterRoutes,browseAdvisors,filterDeadlines,deadlineStatus,themesFor,institutionLabel} from './core.js?v=0c8488d71b29';
 
 const e=escapeHTML;
 const count=(rows,predicate)=>rows.filter(predicate).length;
@@ -13,7 +13,8 @@ export const overviewPresets={
  'advisors-recruitment':{view:'advisors',filters:{opening:'explicit'}},
  'advisors-ra':{view:'advisors',filters:{opportunityType:'RA'}},
  'routes-mphil':{view:'routes',filters:{opportunityType:'MPhil'}},
- 'routes-msc':{view:'routes',filters:{opportunityType:'MSc'}}
+ 'routes-msc':{view:'routes',filters:{opportunityType:'MSc'}},
+ 'deadlines-phd-2027':{view:'deadlines',filters:{query:'2027',opportunityType:'PhD'}}
 };
 
 export function buildPageOverview(view,catalog,{experiences=null,projectSummaryState='loading',materialSupplementState='unavailable'}={}){
@@ -43,16 +44,16 @@ export function buildPageOverview(view,catalog,{experiences=null,projectSummaryS
   ],note:'全页概览不随筛选变化；项目详情中的入学年份与来源说明优先于笼统的学校标签。'};
  }
  if(view==='deadlines'){
-  const records=filterDeadlines(catalog);const checked=catalog.metadata.checkedDate;
+  const records=filterDeadlines(catalog);const checked=catalog.metadata.deadlineAsOf||catalog.metadata.checkedDate;
   const future=records.filter(d=>d.date&&deadlineStatus(d,checked)!=='expired');
   const pending=records.filter(d=>!d.date&&deadlineStatus(d,checked)!=='expired');
   const expired=records.filter(d=>deadlineStatus(d,checked)==='expired');
   const next=future[0];const nextText=next?`${next.date.slice(0,10)}，${institutionLabel(next.institution)}「${next.title}」。这只是本页已记录日期中最早的后续截止，开放状态、具体时刻和剩余名额仍须核对。`:'本页暂没有可列出的后续截止日期；请先核对目标项目的当期公告。';
-  return {label:'日历总览',title:'先核最近一轮，再补尚未明确的时间',scope:`日期目录核验于 ${checked}`,insights:[
+  return {label:'日历总览',title:'先核最近一轮，再补尚未明确的时间',scope:`日期分组基准日 ${checked}`,insights:[
    {title:'全部学校中最早的后续截止',text:nextText,action:summaryAction('deadline',next,'查看这轮日期与条件')},
    {title:'有日期 ≠ 已开放提交',text:`本页有 ${future.length} 条后续日期记录、${pending.length} 条日期或批次待确认。主轮、早轮、补录和 RA 招聘各有适用范围；补录尤其要确认是否仍有余额。`,action:summaryAction('deadline',records.find(d=>d.id==='cuhk_mae_rpg-clearing'),'查看补录轮限制')},
    {title:'旧轮次与资料缺口要保留',text:`${expired.length} 条已截止记录单独保留。日历尚未覆盖所有项目的新批次说明；即使本页标为待核，也应打开项目摘要继续核对，不能据此断言学校尚未公布。`,action:{href:'#routes',label:'去项目摘要核对入学年'}}
-  ],note:`全页概览不随学校筛选变化；下方显示筛选结果。本页按日期目录核验日 ${checked} 分组，不是实时开放状态；正式安排提交前请核对官网。`};
+  ],note:`全页概览不随学校筛选变化；下方显示筛选结果。本页按基准日 ${checked} 分组，各项实际核验日期见来源，不是实时开放状态；正式安排提交前请核对官网。`};
  }
  if(view==='materials'){
   const materials=catalog.materials||[];const find=id=>materials.find(m=>m.id===id);

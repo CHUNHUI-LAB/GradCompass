@@ -163,3 +163,12 @@
 `audits/robotics-scope-correction-20261026.json`保存上一批5位移出者的完整原目录与简介，区分两位交叉候选及三位机器人主线证据不足者，夏泽洋保留。候选不参与主目录、博士筛选、入职时间或已核实机会计数。主目录只保留本人明确机器人主线的本轮新增，不能因2028招募、通用AI或学院名称直接纳入。此限定只对上一批6位完成，不追溯宣称原492位已全量复核。
 
 第11份收据`tests/fixtures/evidence/robotics-scope-correction-20261026.json`含11项精确移出操作；原10份及历史档案保持不变。初筛测试固定第10份截止点，当前实际文件仍按全部11份回放核对；逆变换须恢复精确旧对象，不能丢弃新差异。
+
+
+## 2026-10-26 2027博士申请日程
+
+`audits/phd-application-dates-2027-20261026.json`记录20校渠道覆盖、32条来源、实际浏览器正文哈希和未核/受阻范围；可读汇总为`audits/phd-application-dates-2027-summary-20261026.md`。主事实继续使用`catalog.deadlines`，新增44条后为75条，2027博士组合筛选58条（包括已截止和待核）。不新增导师、学位路线或个人招募标记。
+
+日期可含`startDate`、`startTime`、`applicantScope`、`applicationDateKind`、`dateVerification`，空截止仍为空。`metadata.deadlineAsOf`只决定日历分组基准，不覆盖全目录核验日期或任职窗口。关键词匹配日期记录，不能因关联的历史方向项目未写2027而把新2027日期过滤掉。
+
+港中深AI的当前截止更正同步到两个学位项目、项目简介、材料日期和日历；旧观察、源对象、资格与原核验日期保留。第12份`tests/fixtures/evidence/phd-application-dates-2027-20261026.json`逐项记录53个精确变更，历史测试按各自登记截止点回放，生产数据仍由全部12份收据核对。

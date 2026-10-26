@@ -1,16 +1,16 @@
-import {renderOpportunityComparison} from './opportunity-comparison.js?v=62f536bae4a3';
+import {renderOpportunityComparison} from './opportunity-comparison.js?v=69466554cd8c';
 import {appointmentStatus,appointmentLabels} from './appointments.js?v=fe7c21c5cd26';
-import {groupAdvisorResults,renderAdvisorCard,advisorResultCount} from './advisor-cards.js?v=7b99795eed62';
-import {renderProjectCard,renderDeadlineTimeline,renderMaterialCard,renderSourceDirectory} from './editorial-views.js?v=532dfb062099';
+import {groupAdvisorResults,renderAdvisorCard,advisorResultCount} from './advisor-cards.js?v=85490f1d0468';
+import {renderProjectCard,renderDeadlineTimeline,renderMaterialCard,renderSourceDirectory} from './editorial-views.js?v=4ed324df6e38';
 import {enhanceReader} from './reader.js?v=45a074f571c2';
 import {reconcileResults} from './result-dom.js?v=ea6b026bd694';
-import {renderProjectComparison,selectProjectComparisonRoutes} from './project-comparison.js?v=82f45a2177bc';
-import {renderPageOverview,overviewPresets} from './page-overviews.js?v=a495b53e1a13';
-import {normalizeMaterialSupplement} from './material-supplement.js?v=58f313af0966';
-import {renderRecordSummary,supervisorAssociationText,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=c3c17520a806';
-import {normalizeExperiences,renderExperiences,renderExperienceReading,renderExperienceEvidence,renderExperienceResults} from './experiences.js?v=68cc45f999bc';
-import {profileMap,profileSummary,renderProfile,renderProfileReferences,renderHomepageRecruitment} from './profiles.js?v=d00cdb86b357';
-import {nameInitials,rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue,matchesSearch} from './core.js?v=64326cc257e3';
+import {renderProjectComparison,selectProjectComparisonRoutes} from './project-comparison.js?v=0c12950e3eef';
+import {renderPageOverview,overviewPresets} from './page-overviews.js?v=53ab073fbdc5';
+import {normalizeMaterialSupplement} from './material-supplement.js?v=df3a92a092e7';
+import {renderRecordSummary,supervisorAssociationText,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=7cbd92a72779';
+import {normalizeExperiences,renderExperiences,renderExperienceReading,renderExperienceEvidence,renderExperienceResults} from './experiences.js?v=3e486a87bd5b';
+import {profileMap,profileSummary,renderProfile,renderProfileReferences,renderHomepageRecruitment} from './profiles.js?v=5326d78756f6';
+import {nameInitials,rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue,matchesSearch} from './core.js?v=0c8488d71b29';
 const $=selector=>document.querySelector(selector);
 const e=value=>escapeHTML(readerText(value));
 const experienceFilters={query:'',collection:''};
@@ -24,7 +24,7 @@ const viewLabels={advisors:'找导师',routes:'申请项目',deadlines:'截止�
 const viewDescriptions={advisors:'了解导师的研究方向，查看对应学位项目和研究助理岗位。已核实学位关联与岗位单列；暂无已核实关联的导师仍保留研究资料，不表示不招生。',routes:'先了解项目怎样培养、研究什么，再查看招生方式、前置学历、批次、材料和相关导师。MSc、MPhil、PhD 与 RA 聘用分别核对。',deadlines:'查看已公布的申请截止日期、已截止的轮次和待确认的批次；未来截止日期不代表现在已开放申请。',materials:'按项目查看官方材料要求；提交前请核对当期申请系统的完整清单。',experiences:'',sources:'了解信息来源、核验范围与更新状态。'};
 const countsLabel={advisors:'条机会',routes:'个学位项目',deadlines:'项日期记录',materials:'组材料要求'};
 const emptyFilters=()=>({query:'',institution:'',topic:'',opportunityType:'',opening:'',rank:'',appointment:''});
-const viewFilterKeys={advisors:['query','institution','rank','appointment','topic','opportunityType','opening'],routes:['query','institution','opportunityType'],deadlines:['institution'],materials:['query','institution','opportunityType'],experiences:[],sources:[]};
+const viewFilterKeys={advisors:['query','institution','rank','appointment','topic','opportunityType','opening'],routes:['query','institution','opportunityType'],deadlines:['query','institution','opportunityType'],materials:['query','institution','opportunityType'],experiences:[],sources:[]};
 const filterStates=Object.fromEntries(Object.keys(viewFilterKeys).map(view=>[view,emptyFilters()]));
 let state=filterStates.advisors;
 const openLabel={explicit:'已找到招生说明',unknown:'招生年份或名额待确认',closed:'已明确停止招生'};
@@ -62,7 +62,7 @@ function renderRoutes(){
 }
 function renderDeadlines(){
  const records=filterDeadlines(catalog,state);
- $('#view-content').innerHTML=records.length?renderDeadlineTimeline(records,{catalog}):emptyResult();
+ $('#view-content').innerHTML='<p class="small-note"><button type="button" class="text-button" data-overview-preset="deadlines-phd-2027">筛选2027年博士申请日期</button> · 按学校、入学年和学位组合筛选；网申、材料、直博预报名及校内转博分别记录。<a href="./audits/phd-application-dates-2027-summary-20261026.md" target="_blank" rel="noopener noreferrer">查看20校核查汇总 ↗</a></p>'+(records.length?renderDeadlineTimeline(records,{catalog}):emptyResult());
  setCount(records.length);
 }
 function materialMatches(m){if(state.institution&&m.institution!==state.institution)return false;const ids=new Set(browseRoutes(catalog,{...state,query:''}).map(r=>r.id));if(m.routeIds?.length&&!m.routeIds.some(id=>ids.has(id)))return false;if(!m.routeIds?.some(id=>ids.has(id)))return false;if(state.query&&!matchesSearch(JSON.stringify([m.title,m.requirements,m.items,m.note,displayInstitution(m.institution)]),state.query))return false;return true;}
@@ -235,7 +235,7 @@ function syncFilterValues(filters=state){for(const [id,key] of [['search','query
 const filterControls={query:'search',institution:'institution-filter',rank:'rank-filter',appointment:'appointment-filter',topic:'topic-filter',opportunityType:'opportunity-filter',opening:'opening-filter'};
 let activeFilterMarkup='';
 function activeFilterEntries(){
- const labels={query:'关键词',institution:'学校',rank:'导师职级',appointment:'入职时间',topic:'研究方向',opportunityType:currentView==='materials'?'适用学位':currentView==='routes'?'学位类型':'申请类型',opening:state.opportunityType==='RA'?'招聘信息':'招生信息'};
+ const labels={query:'关键词',institution:'学校',rank:'导师职级',appointment:'入职时间',topic:'研究方向',opportunityType:currentView==='materials'?'适用学位':['routes','deadlines'].includes(currentView)?'学位类型':'申请类型',opening:state.opportunityType==='RA'?'招聘信息':'招生信息'};
  return viewFilterKeys[currentView].filter(key=>state[key]).map(key=>({key,label:labels[key],value:key==='query'?state[key]:[...($('#'+filterControls[key]).options||[])].find(option=>option.value===state[key])?.textContent||state[key]}));
 }
 function renderActiveFilters(){
@@ -269,12 +269,12 @@ function configureFilters(){
  $('#appointment-filter-note').textContent=(profileSupplementState==='loading'?'任职资料载入中，完成后可筛选。 ':profileSupplementState==='unavailable'?'任职资料暂未载入，可在结果区重试。 ':'')+'截至 2026-10-19，窗口为 2021-10-19 至 2026-10-19。按本校教研首次任职筛选；教研职业早期线索不等于年龄或博士名额已确认。';
  $('#opportunity-filter-note').hidden=currentView!=='advisors';$('#opening-filter-note').hidden=!keys.includes('opening');
  $('#filter-title').textContent={advisors:'筛选导师',routes:'筛选项目',deadlines:'筛选学校',materials:'筛选材料'}[currentView]||'筛选';
- $('#opportunity-filter-name').textContent=currentView==='materials'?'适用学位':currentView==='routes'?'学位类型':'申请类型';
+ $('#opportunity-filter-name').textContent=currentView==='materials'?'适用学位':['routes','deadlines'].includes(currentView)?'学位类型':'申请类型';
  const labels={RA:'RA · 研究助理',MSc:'MSc · 硕士项目',MPhil:'MPhil · 研究型硕士',PhD:'PhD · 博士'};
  const types=currentView==='advisors'?['RA','MSc','MPhil','PhD']:['MSc','MPhil','PhD'];
  $('#opportunity-filter').innerHTML=`<option value="">${currentView==='advisors'?'全部申请类型':'全部学位'}</option>`+types.map(value=>`<option value="${value}">${labels[value]}</option>`).join('');
- $('#search').placeholder={advisors:'搜索导师、学校或研究方向…',routes:'搜索项目、方向或申请条件…',materials:'搜索材料名称或要求…'}[currentView]||'';
- $('#search-label').textContent={advisors:'搜索导师、学校或研究方向',routes:'搜索项目名称、研究方向或申请条件',materials:'搜索材料名称或要求'}[currentView]||'搜索';
+ $('#search').placeholder={advisors:'搜索导师、学校或研究方向…',routes:'搜索项目、方向或申请条件…',deadlines:'搜索入学年、院系或申请渠道，如 2027…',materials:'搜索材料名称或要求…'}[currentView]||'';
+ $('#search-label').textContent={advisors:'搜索导师、学校或研究方向',routes:'搜索项目名称、研究方向或申请条件',deadlines:'搜索入学年、院系或申请渠道',materials:'搜索材料名称或要求'}[currentView]||'搜索';
  updateFilterLabels(working);syncFilterValues(working);updateMobileFilterSummary();
 }
 const guideLabels={advisors:'先了解研究，再核对机会',routes:'培养方式与申请入口',deadlines:'如何理解截止日期',materials:'按项目核对准备清单',experiences:'如何参考他人的申请经历'};
@@ -310,6 +310,7 @@ function render(){
  const titles={advisors:'找到适合你的研究方向',routes:'选择下一段研究旅程',deadlines:'让每一步，都有时间准备',materials:'从一份清晰的材料清单开始',experiences:'从他人的经历，找到下一步',sources:'让每一条信息，有据可查'};
  const descriptions={advisors:'研究方向、导师与申请机会，一处梳理。',routes:'了解培养方式与申请条件，比较适合你的学位项目。',deadlines:'按入学季与批次核对日期，保留原始时刻和时区。',materials:'按学校与项目查阅要求，明确必交、条件性和待确认项。',experiences:'阅读真实申请经历，结合背景与年份理解每一种结果。',sources:'官方规则、导师公告与个人经验，各自保留判断边界。'};
  $('#page-title').textContent=titles[currentView];$('#page-description').textContent=descriptions[currentView];
+ $('#checked-date').textContent=currentView==='deadlines'?`日历分组基准 ${catalog.metadata.deadlineAsOf||catalog.metadata.checkedDate}`:`核验于 ${catalog.metadata.checkedDate}`;
  for(const el of document.querySelectorAll('[data-view]')){if(el.dataset.view===currentView)el.setAttribute('aria-current','page');else el.removeAttribute('aria-current');}
  $('#supplement-status').hidden=true;
  renderResults();document.title=$('#results-title').textContent+' · GradCompass';updateNavigationIndicator();
@@ -570,13 +571,13 @@ async function optionalJSON(url){
  return response.json();
 }
 async function loadProjectSummaries(){
- try{const projectData=await optionalJSON(new URL('../data/project-summaries.json?v=bd338f3d5d16',import.meta.url));const summaries=normalizeProjectSummaries(projectData,catalog);catalog={...catalog,projectSummaries:summaries};projectSummaryState=summaries.size===projectData.records.length?'loaded':'partial';}
+ try{const projectData=await optionalJSON(new URL('../data/project-summaries.json?v=db075344713d',import.meta.url));const summaries=normalizeProjectSummaries(projectData,catalog);catalog={...catalog,projectSummaries:summaries};projectSummaryState=summaries.size===projectData.records.length?'loaded':'partial';}
  catch{projectSummaryState='unavailable';}
  refreshOptionalView('routes');refreshOptionalDetail('project');
  refreshOptionalComparison();
 }
 async function loadMaterialSupplement(){
- try{const materialData=await optionalJSON(new URL('../data/material-summaries.json?v=f9f659f15e14',import.meta.url));const supplement=normalizeMaterialSupplement(materialData,catalog);catalog={...catalog,materials:[...new Map([...(catalog.materials||[]),...supplement].map(item=>[item.id,item])).values()]};materialSupplementState=supplement.length===materialData.records.length?'loaded':'partial';}
+ try{const materialData=await optionalJSON(new URL('../data/material-summaries.json?v=a7c65505ba55',import.meta.url));const supplement=normalizeMaterialSupplement(materialData,catalog);catalog={...catalog,materials:[...new Map([...(catalog.materials||[]),...supplement].map(item=>[item.id,item])).values()]};materialSupplementState=supplement.length===materialData.records.length?'loaded':'partial';}
  catch{materialSupplementState='unavailable';}
  refreshOptionalView('materials');refreshOptionalDetail('material');
  // Project reading and comparison also consume the material supplement.
@@ -601,7 +602,7 @@ async function initialize(){
  if(initializing)return;initializing=true;
  const retry=$('#view-content').querySelector?.('[data-retry-core]');if(retry){retry.disabled=true;retry.textContent='正在载入…';}
  try{
-  const responses=await Promise.all(['catalog.json?v=7e196ced3ba7','ra-positions.json','update-status.json'].map(name=>fetch(new URL('../data/'+name,import.meta.url))));
+  const responses=await Promise.all(['catalog.json?v=fa15941e7ff3','ra-positions.json','update-status.json'].map(name=>fetch(new URL('../data/'+name,import.meta.url))));
   if(responses.some(res=>!res.ok))throw Error('数据读取失败，请重试');
   const [academicData,raData,statusData]=await Promise.all(responses.map(res=>res.json()));
   if(!Array.isArray(academicData.advisors)||!Array.isArray(academicData.routes))throw Error('数据格式暂不可用');

@@ -6,7 +6,10 @@ import {browseAdvisors,browseRoutes,buildOpportunities} from '../assets/core.js'
 import {appointmentStatus} from '../assets/appointments.js';
 import {assertReviewedPublicData,reviewedPublicData} from './reviewed-public-data.mjs';
 const raw=p=>fs.readFileSync(new URL('../'+p,import.meta.url)),json=p=>JSON.parse(raw(p));
-const c=json('data/catalog.json'),p=json('data/advisor-profiles.json');
+// Test this dated correction at its registered receipt boundary; the final
+// test below still guards all actual production files through every receipt.
+const correction=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/robotics-scope-correction-20261026.json'});
+const c=correction['data/catalog.json'],p=correction['data/advisor-profiles.json'];
 const before=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/rescreen-20261026.json'});
 const prior=before['data/catalog.json'],priorP=before['data/advisor-profiles.json'];
 const audit=json('audits/robotics-scope-correction-20261026.json'),receipt=json('tests/fixtures/evidence/robotics-scope-correction-20261026.json');

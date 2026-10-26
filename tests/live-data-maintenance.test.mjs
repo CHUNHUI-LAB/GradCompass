@@ -19,7 +19,10 @@ test('live maintenance retains all collaborators, historical source records, old
  const preservedAdvisors=structuredClone(catalog.advisors);
  for(const batch of ['rescreen-20261026','existing-doctoral-links-20261019'])for(const op of JSON.parse(read('tests/fixtures/evidence/'+batch+'.json')).operations.filter(op=>op.file==='data/catalog.json'&&op.operation==='replace')){assert.match(op.path,/^\/advisors\/\d+$/);const index=+op.path.split('/').at(-1);assert.deepEqual(preservedAdvisors[index],op.value,'only exact independently pinned updates may be restored');preservedAdvisors[index]=op.old;}
  assert.deepEqual(preservedAdvisors.slice(0,oldCatalog.advisors.length),oldCatalog.advisors);assert.deepEqual(catalog.routes.slice(0,oldCatalog.routes.length).map(r=>r.sourceRecord??null),oldCatalog.routes.map(r=>r.sourceRecord??null));
- assert.deepEqual(catalog.deadlines.slice(0,oldCatalog.deadlines.length),oldCatalog.deadlines);
+ const preservedDates=structuredClone(catalog.deadlines.slice(0,oldCatalog.deadlines.length));
+ const dateReview=JSON.parse(read('tests/fixtures/evidence/phd-application-dates-2027-20261026.json'));
+ for(const op of dateReview.operations.filter(op=>op.file==='data/catalog.json'&&op.operation==='replace'&&op.path.startsWith('/deadlines/'))){const index=+op.path.split('/').at(-1);assert.deepEqual(preservedDates[index],op.value);preservedDates[index]=op.old;}
+ assert.deepEqual(preservedDates,oldCatalog.deadlines);
  const ra=actual['data/ra-positions.json'].raPositions;assert.deepEqual(buildOpportunities({...catalog,raPositions:ra}),buildOpportunities({...oldCatalog,raPositions:ra}));
  for(const id of polyIds){const r=catalog.routes.find(r=>r.id===id),old=oldCatalog.routes.find(r=>r.id===id);assert.equal(r.checkedDate,old.checkedDate);assert.equal(r.cycleReview.previousAdmissionYear,old.admissionYear);assert.equal(r.cycleReview.previousCycle2027Verified,old.cycle2027Verified);assert.deepEqual(r.sources.slice(0,old.sources.length),old.sources);assert.equal(r.applicationStatus,'unknown');}
 });

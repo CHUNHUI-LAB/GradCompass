@@ -208,7 +208,8 @@
       "2026-10-05 上海交通大学第二轮扩展：逐页扫描自动化与感知、人工智能和溥渊未来技术学院官网，补充机器人、具身智能、无人系统、空间智能、智能控制及相关交叉导师；个人招生继续待核。",
       "2026-10-06 四校分院系扩展：追加127位，修正个人博士招募与院系来源；2027项目/名单参考、未注明年份个人信号、2028博士周期及剩余名额分别保存。"
     ],
-    "associationMeaning": "routeIds 保留可阅读连接；只有 routeAssociations 中 status=verified、verificationStatus=verified 且有直接个人-项目证据才是已核实关联。pending 不代表无资格。"
+    "associationMeaning": "routeIds 保留可阅读连接；只有 routeAssociations 中 status=verified、verificationStatus=verified 且有直接个人-项目证据才是已核实关联。pending 不代表无资格。",
+    "deadlineAsOf": "2026-10-26"
   },
   "advisors": [
     {
@@ -102967,12 +102968,17 @@
           "label": "公开一手来源",
           "url": "https://sai.cuhk.edu.cn/page/205",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "label": "港中深人工智能学院2027春秋研究型博士申请",
+          "url": "https://sai.cuhk.edu.cn/en/node/35",
+          "checkedDate": "2026-10-26"
         }
       ],
       "notes": [
         "本科无推免路径已证实；不把2026截止日期移作2027",
         "研究组B(4)具身智能：从原理到实践直接列胡君杰、林天麟；可填至多3导师/3组；允许不提前联系",
-        "当前官方页列2027春季2026-10-31、秋季2027-05-31截止，滚动录取至满额；未注明截止时刻，名额与实际提交状态仍需确认"
+        "当前官方页列2027春季2026-10-31、秋季2027-06-30截止，滚动录取至满额；未注明截止时刻，名额与实际提交状态仍需确认"
       ],
       "requirements": [
         {
@@ -103045,9 +103051,9 @@
       "checkedDate": "2026-10-01",
       "defaultVisible": true,
       "cycleReview": {
-        "checkedDate": "2026-10-02",
+        "checkedDate": "2026-10-26",
         "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
-        "reason": "已直接打开官方How to Apply标签核实2027春秋日期，解决Exa仍返回2026-06-30旧文的版本差异。保留2026历史招生文章及原sourceRecord，不再用它们判断当前截止。",
+        "reason": "2026-10-26当前官方How to Apply正文明确秋季截止2027-06-30；春季2026-10-31不变。10月2日5月31日观察完整保留在history，不再作为当前日期。只复核日期，资格、材料、个人余位与系统提交状态不由本次日期更新确认。",
         "previousAdmissionYear": "2026项目说明；2027完整项目轮次未确认",
         "previousCheckedDate": "2026-10-01",
         "sources": [
@@ -103055,13 +103061,38 @@
             "label": "CUHK-Shenzhen AI 当前官方申请标签（已直接核读）",
             "url": "https://sai.cuhk.edu.cn/en/node/35",
             "checkedDate": "2026-10-02"
+          },
+          {
+            "label": "港中深人工智能学院2027春秋研究型博士申请",
+            "url": "https://sai.cuhk.edu.cn/en/node/35",
+            "checkedDate": "2026-10-26"
           }
         ],
         "retrievalConflict": {
-          "web": "2027 Spring 31 October 2026; Fall 31 May 2027",
-          "exa": "2026 entry 30 June 2026",
-          "resolution": "Current official How to Apply tab read in dot cloud browser on 2026-10-02 confirms 2027 dates; no deadline time/timezone stated"
-        }
+          "web": "2027 Spring 31 October 2026; Fall 30 June 2027",
+          "resolution": "2026-10-26 current official full page; previous observation preserved in history"
+        },
+        "history": [
+          {
+            "checkedDate": "2026-10-02",
+            "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+            "reason": "已直接打开官方How to Apply标签核实2027春秋日期，解决Exa仍返回2026-06-30旧文的版本差异。保留2026历史招生文章及原sourceRecord，不再用它们判断当前截止。",
+            "previousAdmissionYear": "2026项目说明；2027完整项目轮次未确认",
+            "previousCheckedDate": "2026-10-01",
+            "sources": [
+              {
+                "label": "CUHK-Shenzhen AI 当前官方申请标签（已直接核读）",
+                "url": "https://sai.cuhk.edu.cn/en/node/35",
+                "checkedDate": "2026-10-02"
+              }
+            ],
+            "retrievalConflict": {
+              "web": "2027 Spring 31 October 2026; Fall 31 May 2027",
+              "exa": "2026 entry 30 June 2026",
+              "resolution": "Current official How to Apply tab read in dot cloud browser on 2026-10-02 confirms 2027 dates; no deadline time/timezone stated"
+            }
+          }
+        ]
       }
     },
     {
@@ -103096,11 +103127,16 @@
           "label": "公开一手来源",
           "url": "https://sai.cuhk.edu.cn/page/205",
           "checkedDate": "2026-10-01"
+        },
+        {
+          "label": "港中深人工智能学院2027春秋研究型博士申请",
+          "url": "https://sai.cuhk.edu.cn/en/node/35",
+          "checkedDate": "2026-10-26"
         }
       ],
       "notes": [
         "博士主导师须为SAI教员；胡君杰官网SAI身份明确，林天麟在官方B(4)页列理工&人工智能学院，应再确认目标批次具体主导资格",
-        "当前官方页列2027春季2026-10-31、秋季2027-05-31截止，滚动录取至满额；未注明截止时刻，名额与实际提交状态仍需确认"
+        "当前官方页列2027春季2026-10-31、秋季2027-06-30截止，滚动录取至满额；未注明截止时刻，名额与实际提交状态仍需确认"
       ],
       "requirements": [
         {
@@ -103173,9 +103209,9 @@
       "checkedDate": "2026-10-01",
       "defaultVisible": true,
       "cycleReview": {
-        "checkedDate": "2026-10-02",
+        "checkedDate": "2026-10-26",
         "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
-        "reason": "已直接打开官方How to Apply标签核实2027春秋日期，解决Exa仍返回2026-06-30旧文的版本差异。保留2026历史招生文章及原sourceRecord，不再用它们判断当前截止。",
+        "reason": "2026-10-26当前官方How to Apply正文明确秋季截止2027-06-30；春季2026-10-31不变。10月2日5月31日观察完整保留在history，不再作为当前日期。只复核日期，资格、材料、个人余位与系统提交状态不由本次日期更新确认。",
         "previousAdmissionYear": "2026项目资格说明；部分PI已发2027招生",
         "previousCheckedDate": "2026-10-01",
         "sources": [
@@ -103183,13 +103219,38 @@
             "label": "CUHK-Shenzhen AI 当前官方申请标签（已直接核读）",
             "url": "https://sai.cuhk.edu.cn/en/node/35",
             "checkedDate": "2026-10-02"
+          },
+          {
+            "label": "港中深人工智能学院2027春秋研究型博士申请",
+            "url": "https://sai.cuhk.edu.cn/en/node/35",
+            "checkedDate": "2026-10-26"
           }
         ],
         "retrievalConflict": {
-          "web": "2027 Spring 31 October 2026; Fall 31 May 2027",
-          "exa": "2026 entry 30 June 2026",
-          "resolution": "Current official How to Apply tab read in dot cloud browser on 2026-10-02 confirms 2027 dates; no deadline time/timezone stated"
-        }
+          "web": "2027 Spring 31 October 2026; Fall 30 June 2027",
+          "resolution": "2026-10-26 current official full page; previous observation preserved in history"
+        },
+        "history": [
+          {
+            "checkedDate": "2026-10-02",
+            "scope": "仅复核入学批次及公开截止；未重核完整资格、材料或导师名额",
+            "reason": "已直接打开官方How to Apply标签核实2027春秋日期，解决Exa仍返回2026-06-30旧文的版本差异。保留2026历史招生文章及原sourceRecord，不再用它们判断当前截止。",
+            "previousAdmissionYear": "2026项目资格说明；部分PI已发2027招生",
+            "previousCheckedDate": "2026-10-01",
+            "sources": [
+              {
+                "label": "CUHK-Shenzhen AI 当前官方申请标签（已直接核读）",
+                "url": "https://sai.cuhk.edu.cn/en/node/35",
+                "checkedDate": "2026-10-02"
+              }
+            ],
+            "retrievalConflict": {
+              "web": "2027 Spring 31 October 2026; Fall 31 May 2027",
+              "exa": "2026 entry 30 June 2026",
+              "resolution": "Current official How to Apply tab read in dot cloud browser on 2026-10-02 confirms 2027 dates; no deadline time/timezone stated"
+            }
+          }
+        ]
       }
     },
     {
@@ -108461,21 +108522,61 @@
         "cuhksz-ai-mphil",
         "cuhksz-ai-phd"
       ],
-      "date": "2027-05-31",
+      "date": "2027-06-30",
       "deadlineTime": null,
       "timezone": null,
       "status": "unknown",
       "dateStatus": "upcoming",
       "admissionYear": "2027 Fall",
-      "note": "当前官方How to Apply标签直接核实；滚动招生，满额即止。春季截止另列。未注明时刻及时区，未测试申请系统提交或导师剩余名额。",
+      "note": "2026-10-26当前官方人工智能学院How to Apply正文明确秋季截止2027-06-30；旧2027-05-31保留为历史观察。滚动招生、满额即止；春季2026-10-31另列。未注明时刻及时区，未测试系统提交或导师余位。",
       "sources": [
         {
           "label": "CUHK-Shenzhen AI 当前官方申请标签（已直接核读）",
           "url": "https://sai.cuhk.edu.cn/en/node/35",
           "checkedDate": "2026-10-02"
+        },
+        {
+          "label": "港中深人工智能学院2027春秋研究型博士申请",
+          "url": "https://sai.cuhk.edu.cn/en/node/35",
+          "checkedDate": "2026-10-26"
         }
       ],
-      "checkedDate": "2026-10-02"
+      "checkedDate": "2026-10-02",
+      "cycleReview": {
+        "checkedDate": "2026-10-26",
+        "reason": "人工智能学院当前2027 Fall正文与10月2日记录不同，采用6月30日，旧值及旧核验日期完整保留。不可混用理工/数据科学学院的5月31日。",
+        "previous": {
+          "id": "cuhksz-ai-2027-fall-deadline",
+          "title": "CUHK-Shenzhen AI MPhil／PhD 2027秋季申请截止",
+          "institution": "CUHK-Shenzhen",
+          "routeIds": [
+            "cuhksz-ai-mphil",
+            "cuhksz-ai-phd"
+          ],
+          "date": "2027-05-31",
+          "deadlineTime": null,
+          "timezone": null,
+          "status": "unknown",
+          "dateStatus": "upcoming",
+          "admissionYear": "2027 Fall",
+          "note": "当前官方How to Apply标签直接核实；滚动招生，满额即止。春季截止另列。未注明时刻及时区，未测试申请系统提交或导师剩余名额。",
+          "sources": [
+            {
+              "label": "CUHK-Shenzhen AI 当前官方申请标签（已直接核读）",
+              "url": "https://sai.cuhk.edu.cn/en/node/35",
+              "checkedDate": "2026-10-02"
+            }
+          ],
+          "checkedDate": "2026-10-02"
+        },
+        "sources": [
+          {
+            "label": "港中深人工智能学院2027春秋研究型博士申请",
+            "url": "https://sai.cuhk.edu.cn/en/node/35",
+            "checkedDate": "2026-10-26"
+          }
+        ]
+      }
     },
     {
       "id": "hku-2027-first-clearing",
@@ -108909,6 +109010,1366 @@
         }
       ],
       "checkedDate": "2026-10-08"
+    },
+    {
+      "id": "pku-sai-phd-2027-online",
+      "title": "智能学院2027普博申请考核 · 网申截止",
+      "institution": "PKU",
+      "degree": "PhD",
+      "routeIds": [
+        "pku-sai-phd-reference-2027",
+        "pku-sai-related-phd-reference-2027"
+      ],
+      "date": "2026-11-25",
+      "startDate": "2026-10-26",
+      "startTime": "09:00",
+      "deadlineTime": "17:00",
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "智能学院普通申请考核博士",
+      "dateVerification": "published",
+      "note": "网申及缴费10月26日09:00起，11月25日17:00止；只允许一个志愿。不是推免直博或校内硕博连读。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "北大智能学院2027博士申请考核说明",
+          "url": "https://www.cis.pku.edu.cn/info/1034/11055.htm",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "pku-sai-phd-2027-materials",
+      "title": "智能学院2027普博 · 纸质材料寄达截止",
+      "institution": "PKU",
+      "degree": "PhD",
+      "routeIds": [
+        "pku-sai-phd-reference-2027",
+        "pku-sai-related-phd-reference-2027"
+      ],
+      "date": "2026-11-27",
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": "12:00",
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027",
+      "applicationDateKind": "materials_arrival",
+      "applicantScope": "完成智能学院网报的考生",
+      "dateVerification": "published",
+      "note": "纸质材料须11月27日中午12:00前寄达，EMS，以寄达而非邮戳为准；网申必须另在11月25日17:00前完成。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "北大智能学院2027博士申请考核说明",
+          "url": "https://www.cis.pku.edu.cn/info/1034/11055.htm",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "pku-sz-ece-phd-2027-online",
+      "title": "深圳信息工程学院2027计算机/低空博士 · 网申截止",
+      "institution": "PKU",
+      "degree": "PhD",
+      "routeIds": [
+        "pku-shenzhen-robotics-phd-faculty-reference"
+      ],
+      "date": "2026-12-25",
+      "startDate": "2026-10-26",
+      "startTime": "09:00",
+      "deadlineTime": "17:00",
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "深圳研究生院计算机科学与技术、低空智能通信技术与工程",
+      "dateVerification": "published",
+      "note": "网报选择深圳研究生院。集成电路科学与工程依托集成电路学院，另为11月25日17:00截止；不把深圳该日期用于校本部智能学院。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "北大信息工程学院2027博士招生说明",
+          "url": "https://www.ece.pku.edu.cn/info/1025/3243.htm",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "pku-sz-ece-phd-2027-materials",
+      "title": "深圳信息工程学院2027博士 · 材料邮寄节点",
+      "institution": "PKU",
+      "degree": "PhD",
+      "routeIds": [
+        "pku-shenzhen-robotics-phd-faculty-reference"
+      ],
+      "date": "2027-01-07",
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": "17:00",
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027",
+      "applicationDateKind": "materials_shipping",
+      "applicantScope": "信息工程学院说明列明的三个招生专业",
+      "dateVerification": "published",
+      "note": "原文要求1月7日17:00前通过顺丰邮寄，不擅自改成寄达或邮戳定义；提交前向学院核对物流边界。网申按各自专业截止另行完成。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "北大信息工程学院2027博士招生说明",
+          "url": "https://www.ece.pku.edu.cn/info/1025/3243.htm",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "pku-aais-phd-2027-online",
+      "title": "前沿交叉院（含人工智能研究院）2027博士 · 网申截止",
+      "institution": "PKU",
+      "degree": "PhD",
+      "routeIds": [
+        "pku-iai-interdisciplinary-phd-reference"
+      ],
+      "date": "2026-12-25",
+      "startDate": "2026-10-26",
+      "startTime": "09:00",
+      "deadlineTime": "17:00",
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "前沿交叉学科研究院普通申请考核渠道",
+      "dateVerification": "published",
+      "note": "10月26日09:00至12月25日17:00网上报名；数据科学与工程下含人工智能研究院，具体报考方向、导师和资格按当期专业说明核对。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "北大前沿交叉学科研究院2027博士招生说明",
+          "url": "https://www.aais.pku.edu.cn/info/1350/20761.htm",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "pku-aais-phd-2027-materials",
+      "title": "前沿交叉院2027博士 · 纸质材料寄达截止",
+      "institution": "PKU",
+      "degree": "PhD",
+      "routeIds": [
+        "pku-iai-interdisciplinary-phd-reference"
+      ],
+      "date": "2027-01-08",
+      "startDate": "2026-10-26",
+      "startTime": "09:00",
+      "deadlineTime": "17:00",
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027",
+      "applicationDateKind": "materials_arrival",
+      "applicantScope": "前沿交叉学科研究院正式申请考核",
+      "dateVerification": "published",
+      "note": "纸质材料在10月26日09:00至1月8日17:00之间寄（送）达各专业办公室；网申12月25日17:00截止，不能等到材料截止才报名。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "北大前沿交叉学科研究院2027博士招生说明",
+          "url": "https://www.aais.pku.edu.cn/info/1350/20761.htm",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "pku-cs-phd-2027-transfer",
+      "title": "计算机学院2027校内硕博连读 · 申请截止",
+      "institution": "PKU",
+      "degree": "PhD",
+      "routeIds": [
+        "pku-cs-phd-directory-reference-2027"
+      ],
+      "date": "2026-10-30",
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": "17:00",
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027",
+      "applicationDateKind": "internal_transfer",
+      "applicantScope": "符合校内硕博连读要求的在校硕士生",
+      "dateVerification": "published",
+      "note": "10月21日学院通知，10月30日17:00截止。仅校内在读硕士生选拔，不是外校申请考核、推免直博的通用日期。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "北大计算机学院2027硕博连读选拔通知",
+          "url": "https://cs.pku.edu.cn/info/1051/6670.htm",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "pku-mech-phd-2027-online",
+      "title": "力学与工程科学学院2027学术博士 · 网报截止",
+      "institution": "PKU",
+      "degree": "PhD",
+      "routeIds": [
+        "pku-amr-phd-directory-reference"
+      ],
+      "date": "2026-12-25",
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "力学与工程科学学院学术型申请考核",
+      "dateVerification": "published",
+      "note": "网页提示12月25日截止，提示未给网报钟点，故不补写17:00。机械等专业学位非全日制渠道另行通知，不与本项混用。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "北大力学与工程科学学院2027学术博士说明",
+          "url": "https://mech.pku.edu.cn/jyjx/yjsjy/tzgg1/c5f6f5a2784c4655be85a4eb1180e08c.htm",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "pku-mech-phd-2027-electronic",
+      "title": "力学与工程科学学院2027学术博士 · 电子材料发送截止",
+      "institution": "PKU",
+      "degree": "PhD",
+      "routeIds": [
+        "pku-amr-phd-directory-reference"
+      ],
+      "date": "2026-12-28",
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": "08:30",
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027",
+      "applicationDateKind": "materials_electronic",
+      "applicantScope": "完成力工学院学术型博士网报者",
+      "dateVerification": "published",
+      "note": "网页提示12月28日08:30前把电子材料发送指定邮箱。本项是电子材料节点，不代表纸质材料寄达规则已核实。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "北大力学与工程科学学院2027学术博士说明",
+          "url": "https://mech.pku.edu.cn/jyjx/yjsjy/tzgg1/c5f6f5a2784c4655be85a4eb1180e08c.htm",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "tsinghua-phd-2027-autumn",
+      "title": "2027博士秋季申请批次 · 已截止",
+      "institution": "Tsinghua",
+      "degree": "PhD",
+      "routeIds": [
+        "tsinghua-me-phd-reference-2027",
+        "tsinghua-iiis-phd-reference-2027",
+        "tsinghua-doctoral-faculty-reference-all-schools-20261019"
+      ],
+      "date": "2026-07-28",
+      "startDate": "2026-07-01",
+      "startTime": "10:00",
+      "deadlineTime": "15:00",
+      "timezone": null,
+      "status": "expired",
+      "dateStatus": "expired",
+      "admissionYear": "2027",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "各院系推免生，以及除计算机/五道口/网络研究院外的普通博士",
+      "dateVerification": "published",
+      "note": "申请批次在2026年秋季选拔2027级；7月1日10:00至7月28日15:00。秋季指申请批次，不能解读为2026入学。各院系特殊材料节点另核。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "清华大学2027博士招生简章",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "tsinghua-phd-2027-winter",
+      "title": "2027博士冬季申请批次 · 计算机等指定院系",
+      "institution": "Tsinghua",
+      "degree": "PhD",
+      "routeIds": [
+        "tsinghua-doctoral-faculty-reference-all-schools-20261019"
+      ],
+      "date": "2026-11-30",
+      "startDate": "2026-11-01",
+      "startTime": "10:00",
+      "deadlineTime": "15:00",
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "计算机系、五道口金融学院、网络研究院普通招考；其他院系有额外条件",
+      "dateVerification": "published",
+      "note": "11月1日10:00至11月30日15:00；计算机系等三院系明确适用。其他院系只有秋季未完成计划并另发冬季招生说明才适用；不宣称机械系或交叉信息院已经确定参加。非全日制专业博士另核。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "清华大学2027博士招生简章",
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/1ceee112-93f3-400d-bd92-c1bfce260b0f",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "zju-ai-phd-2027-first",
+      "title": "人工智能学院2027普博第一次报名 · 网申截止",
+      "institution": "ZJU",
+      "degree": "PhD",
+      "routeIds": [
+        "zju-ai-phd-reference-2027",
+        "zju-robotics-phd-directory-reference-2026"
+      ],
+      "date": "2026-11-20",
+      "startDate": "2026-10-20",
+      "startTime": "09:00",
+      "deadlineTime": "20:00",
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "人工智能学院全日制非定向普通博士及规定专项",
+      "dateVerification": "published",
+      "note": "10月20日09:00至11月20日20:00；本次证据来自人工智能学院，不将学院全部材料要求套给控制、机械等其他院系。2027第二次约4月上旬仅是非全日制等指定对象，精确日期待后续。历史方向链接只供跳转。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "浙大人工智能学院2027博士招生简章",
+          "url": "https://ai.zju.edu.cn/2026/1020/c90497a3216866/page.htm",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "zju-ai-phd-2027-materials",
+      "title": "人工智能学院2027普博 · 纸质材料邮戳节点",
+      "institution": "ZJU",
+      "degree": "PhD",
+      "routeIds": [
+        "zju-ai-phd-reference-2027"
+      ],
+      "date": "2026-11-25",
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027",
+      "applicationDateKind": "materials_postmark",
+      "applicantScope": "人工智能学院完成普博网上报名者",
+      "dateVerification": "published",
+      "note": "官方要求11月25日前邮寄，以11月25日之前邮戳为准；保留“之前”边界，钟点不明。仅接受顺丰/EMS；与11月20日20:00的网申截止分开。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "浙大人工智能学院2027博士招生简章",
+          "url": "https://ai.zju.edu.cn/2026/1020/c90497a3216866/page.htm",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "zju-ai-phd-2027-spring-transfer",
+      "title": "人工智能学院2027春季校内硕博连读 · 网申截止",
+      "institution": "ZJU",
+      "degree": "PhD",
+      "routeIds": [
+        "zju-ai-phd-reference-2027"
+      ],
+      "date": "2026-11-20",
+      "startDate": "2026-10-20",
+      "startTime": "09:00",
+      "deadlineTime": "20:00",
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027 Spring",
+      "applicationDateKind": "internal_transfer",
+      "applicantScope": "符合条件的浙大在学全日制硕士生",
+      "dateVerification": "published",
+      "note": "春季硕博连读10月20日09:00至11月20日20:00。秋季硕博连读仅预计2027年3月中下旬，无精确截止；专项例外依原通知。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "浙大人工智能学院2027博士招生简章",
+          "url": "https://ai.zju.edu.cn/2026/1020/c90497a3216866/page.htm",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "westlake-phd-2027-round2",
+      "title": "工学院2027国内普博第二轮 · 申请截止",
+      "institution": "Westlake",
+      "degree": "PhD",
+      "routeIds": [
+        "westlake-ai-phd",
+        "westlake-ee-phd"
+      ],
+      "date": "2026-11-02",
+      "startDate": "2026-10-10",
+      "startTime": "10:00",
+      "deadlineTime": "10:00",
+      "timezone": "Asia/Shanghai",
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "工学院国内普通招考申请者",
+      "dateVerification": "published",
+      "note": "北京时间10月10日10:00至11月2日10:00，拟11月中旬考核。只记录工学院本轮，不沿用物理/生命学院或国际渠道的旧索引日期。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "西湖工学院2027博士招生简章（国内渠道）",
+          "url": "https://engineering.westlake.edu.cn/Admission/GraduateProgram/zszx_2623/202610/t20261016_70469.shtml",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "westlake-ee-phd-2027-round3",
+      "title": "工学院2027国内普博第三轮 · 不含智能信息技术",
+      "institution": "Westlake",
+      "degree": "PhD",
+      "routeIds": [
+        "westlake-ee-phd"
+      ],
+      "date": "2026-12-28",
+      "startDate": "2026-12-07",
+      "startTime": "10:00",
+      "deadlineTime": "10:00",
+      "timezone": "Asia/Shanghai",
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "工学院电子科学与技术等；智能信息技术除外",
+      "dateVerification": "published",
+      "note": "北京时间12月7日10:00至12月28日10:00。原文明示智能信息技术不在第三轮范围，该轮不适用于智能信息技术申请者。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "西湖工学院2027博士招生简章（国内渠道）",
+          "url": "https://engineering.westlake.edu.cn/Admission/GraduateProgram/zszx_2623/202610/t20261016_70469.shtml",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "westlake-phd-2027-round4",
+      "title": "工学院2027国内普博第四轮 · 申请截止",
+      "institution": "Westlake",
+      "degree": "PhD",
+      "routeIds": [
+        "westlake-ai-phd",
+        "westlake-ee-phd"
+      ],
+      "date": "2027-03-22",
+      "startDate": "2027-01-25",
+      "startTime": "10:00",
+      "deadlineTime": "10:00",
+      "timezone": "Asia/Shanghai",
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "工学院国内普博本轮申请者",
+      "dateVerification": "published",
+      "note": "北京时间2027年1月25日10:00至3月22日10:00，拟4月中旬考核；有调整以通知为准。不能将未来批次解释为今天已开放。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "西湖工学院2027博士招生简章（国内渠道）",
+          "url": "https://engineering.westlake.edu.cn/Admission/GraduateProgram/zszx_2623/202610/t20261016_70469.shtml",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "westlake-phd-2027-international-round1",
+      "title": "工学院相关学科2027 Fall国际博士首轮 · 申请截止",
+      "institution": "Westlake",
+      "degree": "PhD",
+      "routeIds": [
+        "westlake-ai-phd",
+        "westlake-ee-phd"
+      ],
+      "date": "2026-11-02",
+      "startDate": "2026-10-10",
+      "startTime": "10:00",
+      "deadlineTime": "10:00",
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027 Fall",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "国际申请者；电子科学与技术、智能信息技术等",
+      "dateVerification": "published",
+      "note": "当前浏览器展开国际时间表为10月10日10:00至11月2日10:00；索引仍有11月9日旧版本，本次采用实际可见正文。表格未明确时区，后续轮次待公布，不复制国内第三/四轮。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "西湖2027 Fall国际博士申请时间表",
+          "url": "https://en.westlake.edu.cn/admissions/graduate/#Application_Timeline",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "sustech-aim-phd-2027-fast",
+      "title": "自动化与智能制造学院2027博士快响计划 · 已公布起始时间",
+      "institution": "SUSTech",
+      "degree": "PhD",
+      "routeIds": [
+        "sustech-aim-phd-reference-2027"
+      ],
+      "date": null,
+      "startDate": "2026-09-23",
+      "startTime": "09:00",
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "unknown",
+      "admissionYear": "2027",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "本学院快响计划申请考核；国内外高水平高校/机构申请者",
+      "dateVerification": "published_start_only",
+      "note": "官方9月23日09:00起接受报名，可随时提交，院系按报名情况复试；本通知未列截止。不是断言全校全年开放，不能套用其他学院的10月19日截止。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "南科大自动化与智能制造学院2027博士快响计划",
+          "url": "https://aim.sustech.edu.cn/Article-detail-id-1014-typeid-7.html",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "nju-lamda-phd-2027-screening",
+      "title": "LAMDA 2027秋季博士/直博 · 实验室材料截止（历史）",
+      "institution": "NJU",
+      "degree": "PhD",
+      "routeIds": [
+        "nju-lamda-phd-reference-2027"
+      ],
+      "date": "2026-07-31",
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "expired",
+      "dateStatus": "expired",
+      "admissionYear": "2027 Fall",
+      "applicationDateKind": "lab_screening",
+      "applicantScope": "LAMDA拟招生导师明确列博士/直博的申请者",
+      "dateVerification": "published",
+      "note": "实验室材料7月31日截止，已过期；实验室同意不替代南京大学正式招生资格。拟2027年3月补招只在出现空额时进行，尚无精确日期。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "南京大学LAMDA 2027秋季研究生招生说明",
+          "url": "https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "sjtu-sais-phd-2027-pre",
+      "title": "自动化与感知学院2027直博 · 预推免报名截止（历史）",
+      "institution": "SJTU",
+      "degree": "PhD",
+      "routeIds": [
+        "sjtu-robotics-phd-reference-2026"
+      ],
+      "date": "2026-09-12",
+      "startDate": "2026-09-08",
+      "startTime": null,
+      "deadlineTime": "09:00",
+      "timezone": null,
+      "status": "expired",
+      "dateStatus": "expired",
+      "admissionYear": "2027",
+      "applicationDateKind": "pre_recommendation",
+      "applicantScope": "2027届有推免资格本科生；常规直博及专项直博",
+      "dateVerification": "published",
+      "note": "9月8日通知“即日起”接受预报名，9月12日09:00截止，已过期。仅预推免直博筛选；不是普通申请考核、也不是教育部推免系统最终填报截止。2026方向链接只供跳转。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "上海交大自动化与感知学院2027预推免办法",
+          "url": "https://sais.sjtu.edu.cn/yjs_zsgz/1838.html",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "tongji-me-phd-2027-pre",
+      "title": "机械工程与机器人学院2027含直博推免 · 预报名截止（历史）",
+      "institution": "Tongji",
+      "degree": "PhD",
+      "routeIds": [
+        "tongji-mechanical-phd-directory-reference-2026"
+      ],
+      "date": "2026-09-01",
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": "12:00",
+      "timezone": null,
+      "status": "expired",
+      "dateStatus": "expired",
+      "admissionYear": "2027",
+      "applicationDateKind": "pre_recommendation",
+      "applicantScope": "机械工程与机器人学院含直博推免申请者",
+      "dateVerification": "published",
+      "note": "校级官方分院系汇总列9月1日12:00截止；学院详情链接本次404，依据是仍可读的校级汇总。仅含直博预报名，已截止，不能套用普通博士。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "同济2027推免含直博分院系预报名汇总",
+          "url": "https://yz.tongji.edu.cn/info/1010/4220.htm",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "tongji-cs-control-phd-2027-pre",
+      "title": "计算机/电子信息学院2027含直博推免 · 预报名截止（历史）",
+      "institution": "Tongji",
+      "degree": "PhD",
+      "routeIds": [
+        "tongji-cs-doctoral-faculty-reference-20261019",
+        "tongji-control-doctoral-faculty-reference-20261019"
+      ],
+      "date": "2026-08-25",
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": "12:00",
+      "timezone": null,
+      "status": "expired",
+      "dateStatus": "expired",
+      "admissionYear": "2027",
+      "applicationDateKind": "pre_recommendation",
+      "applicantScope": "计算机学院和电子信息学院含直博推免",
+      "dateVerification": "published",
+      "note": "校级汇总中计算机和电子信息两院均8月25日12:00截止；其他院系不同，不概括为全校同一截止。已截止，不是普通申请考核。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "同济2027推免含直博分院系预报名汇总",
+          "url": "https://yz.tongji.edu.cn/info/1010/4220.htm",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "seu-palm-phd-2027-screening",
+      "title": "PALM 2027博士/直博 · 实验室未设明确截止",
+      "institution": "SEU",
+      "degree": "PhD",
+      "routeIds": [
+        "seu-palm-phd-reference-2027"
+      ],
+      "date": null,
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "unknown",
+      "admissionYear": "2027",
+      "applicationDateKind": "lab_screening",
+      "applicantScope": "PALM明确列博士/直博的拟招生导师",
+      "dateVerification": "published_no_deadline_specified",
+      "note": "实验室原文“报名截止：暂无”，面试以邮件通知；只确认未列截止，不能解释为校级普通博士全年开放。学院正式考核和网报另行完成。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "东南PALM实验室2027博士及推免硕士招新",
+          "url": "https://palm.seu.edu.cn/application.html",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "nju-phd-2027-ordinary-pending",
+      "title": "2027普通博士申请考核 · 报名时间待核",
+      "institution": "NJU",
+      "degree": "PhD",
+      "routeIds": [
+        "nju-robotics-phd-reference-2026"
+      ],
+      "date": null,
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "unknown",
+      "admissionYear": "2027",
+      "applicationDateKind": "pending",
+      "applicantScope": "本项目机器人相关普通博士渠道；不含已列的推免/实验室活动",
+      "dateVerification": "not_verified_in_reviewed_scope",
+      "note": "本次查阅范围尚未核实2027普通博士的完整精确报名安排，保留空日期。未核实不等于学校尚未公布；不把2026旧通知、推免预报名或实验室筛选当作普通博士截止。所关联历史方向项目只供查看背景。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "南京大学博士招生简章目录",
+          "url": "https://yzb.nju.edu.cn/47864/list.htm",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "sjtu-phd-2027-ordinary-pending",
+      "title": "2027普通博士申请考核 · 报名时间待核",
+      "institution": "SJTU",
+      "degree": "PhD",
+      "routeIds": [
+        "sjtu-doctoral-faculty-reference-all-schools-20261019"
+      ],
+      "date": null,
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "unknown",
+      "admissionYear": "2027",
+      "applicationDateKind": "pending",
+      "applicantScope": "本项目机器人相关普通博士渠道；不含已列的推免/实验室活动",
+      "dateVerification": "not_verified_in_reviewed_scope",
+      "note": "本次查阅范围尚未核实2027普通博士的完整精确报名安排，保留空日期。未核实不等于学校尚未公布；不把2026旧通知、推免预报名或实验室筛选当作普通博士截止。所关联历史方向项目只供查看背景。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "上海交大博士招生简章列表",
+          "url": "https://yzb.sjtu.edu.cn/zsjz/bsszs",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "fudan-phd-2027-ordinary-pending",
+      "title": "2027普通博士申请考核 · 报名时间待核",
+      "institution": "Fudan",
+      "degree": "PhD",
+      "routeIds": [
+        "fudan-robotics-school-phd-reference-2026"
+      ],
+      "date": null,
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "unknown",
+      "admissionYear": "2027",
+      "applicationDateKind": "pending",
+      "applicantScope": "本项目机器人相关普通博士渠道；不含已列的推免/实验室活动",
+      "dateVerification": "not_verified_in_reviewed_scope",
+      "note": "本次查阅范围尚未核实2027普通博士的完整精确报名安排，保留空日期。未核实不等于学校尚未公布；不把2026旧通知、推免预报名或实验室筛选当作普通博士截止。所关联历史方向项目只供查看背景。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "复旦博士招生简章目录及研招主页",
+          "url": "https://gsao.fudan.edu.cn/15159/list.htm",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "tongji-phd-2027-ordinary-pending",
+      "title": "2027普通博士申请考核 · 报名时间待核",
+      "institution": "Tongji",
+      "degree": "PhD",
+      "routeIds": [
+        "tongji-control-doctoral-faculty-reference-20261019"
+      ],
+      "date": null,
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "unknown",
+      "admissionYear": "2027",
+      "applicationDateKind": "pending",
+      "applicantScope": "本项目机器人相关普通博士渠道；不含已列的推免/实验室活动",
+      "dateVerification": "not_verified_in_reviewed_scope",
+      "note": "本次查阅范围尚未核实2027普通博士的完整精确报名安排，保留空日期。未核实不等于学校尚未公布；不把2026旧通知、推免预报名或实验室筛选当作普通博士截止。所关联历史方向项目只供查看背景。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "同济研招招生新闻列表",
+          "url": "https://yz.tongji.edu.cn/zsxw.htm",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "ustc-phd-2027-ordinary-pending",
+      "title": "2027普通博士申请考核 · 报名时间待核",
+      "institution": "USTC",
+      "degree": "PhD",
+      "routeIds": [
+        "ustc-ai-phd-reference-2026"
+      ],
+      "date": null,
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "unknown",
+      "admissionYear": "2027",
+      "applicationDateKind": "pending",
+      "applicantScope": "本项目机器人相关普通博士渠道；不含已列的推免/实验室活动",
+      "dateVerification": "not_verified_in_reviewed_scope",
+      "note": "本次查阅范围尚未核实2027普通博士的完整精确报名安排，保留空日期。未核实不等于学校尚未公布；不把2026旧通知、推免预报名或实验室筛选当作普通博士截止。所关联历史方向项目只供查看背景。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "中国科大研究生招生在线",
+          "url": "https://yz.ustc.edu.cn/",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "seu-phd-2027-ordinary-pending",
+      "title": "2027普通博士申请考核 · 报名时间待核",
+      "institution": "SEU",
+      "degree": "PhD",
+      "routeIds": [
+        "seu-robotics-phd-reference-2026"
+      ],
+      "date": null,
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "unknown",
+      "admissionYear": "2027",
+      "applicationDateKind": "pending",
+      "applicantScope": "本项目机器人相关普通博士渠道；不含已列的推免/实验室活动",
+      "dateVerification": "not_verified_in_reviewed_scope",
+      "note": "本次查阅范围尚未核实2027普通博士的完整精确报名安排，保留空日期。未核实不等于学校尚未公布；不把2026旧通知、推免预报名或实验室筛选当作普通博士截止。所关联历史方向项目只供查看背景。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "东南大学博士招生列表",
+          "url": "https://yzb.seu.edu.cn/6677/list.htm",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "hku-phd-2027-main",
+      "title": "2027/28 PhD校级主轮 · 申请截止",
+      "institution": "HKU",
+      "degree": "PhD",
+      "routeIds": [
+        "HKU-University-wide-requirement-PhD-supplement",
+        "hku-doctoral-direction-reference-20261019"
+      ],
+      "date": "2026-12-01",
+      "startDate": "2026-09-01",
+      "startTime": null,
+      "deadlineTime": "23:59",
+      "timezone": "Asia/Hong_Kong",
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027/28",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "港大研究型博士申请；院系及个人条件另核",
+      "dateVerification": "published",
+      "note": "主轮自2026-09-01至2026-12-01香港时间23:59。校方建议尽量主轮申请；具体院系可能提前审理。独立关联PhD，不从MPhil日期推断博士资格。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "港大2027/28研究型博士申请时间表",
+          "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "hku-phd-2027-clearing1",
+      "title": "2027/28 PhD校级第一清轮 · 申请截止",
+      "institution": "HKU",
+      "degree": "PhD",
+      "routeIds": [
+        "HKU-University-wide-requirement-PhD-supplement",
+        "hku-doctoral-direction-reference-20261019"
+      ],
+      "date": "2027-04-30",
+      "startDate": "2026-12-02",
+      "startTime": null,
+      "deadlineTime": "23:59",
+      "timezone": "Asia/Hong_Kong",
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027/28",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "港大研究型博士申请；院系及个人条件另核",
+      "dateVerification": "published",
+      "note": "第一清轮自2026-12-02至2027-04-30香港时间23:59。清轮仅在主轮后仍有余位时才考虑；可能提前审理。独立关联PhD，不从MPhil日期推断博士资格。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "港大2027/28研究型博士申请时间表",
+          "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "hku-phd-2027-clearing2",
+      "title": "2027/28 PhD校级第二清轮 · 申请截止",
+      "institution": "HKU",
+      "degree": "PhD",
+      "routeIds": [
+        "HKU-University-wide-requirement-PhD-supplement",
+        "hku-doctoral-direction-reference-20261019"
+      ],
+      "date": "2027-08-31",
+      "startDate": "2027-05-01",
+      "startTime": null,
+      "deadlineTime": "23:59",
+      "timezone": "Asia/Hong_Kong",
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027/28",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "港大研究型博士申请；院系及个人条件另核",
+      "dateVerification": "published",
+      "note": "第二清轮自2027-05-01至2027-08-31香港时间23:59。清轮仅在主轮后仍有余位时才考虑；可能提前审理。独立关联PhD，不从MPhil日期推断博士资格。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "港大2027/28研究型博士申请时间表",
+          "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "hkust-cse-ece-phd-2027-fall-nonlocal",
+      "title": "CSE/ECE 2027秋 PhD · 非本地普通申请截止",
+      "institution": "HKUST",
+      "degree": "PhD",
+      "routeIds": [
+        "HKUST-CSE-PhD-supplement",
+        "HKUST-ECE-PhD-supplement"
+      ],
+      "date": "2027-06-01",
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027/28 Fall",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "CSE/ECE非本地全日制博士；身份按学校定义",
+      "dateVerification": "published",
+      "note": "逐页核对CSE/ECE博士目录，非本地普通申请截止2027-06-01。原文未列普通轮钟点和时区，不移用HKPFS的12:00/23:59。秋季9月、春季2月入学分开；非本地身份由签证规则确定。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "港科大CSE 2027/28博士项目申请日期",
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse",
+          "checkedDate": "2026-10-26"
+        },
+        {
+          "label": "港科大ECE 2027/28博士项目申请日期",
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ece",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "hkust-cse-ece-phd-2027-fall-local",
+      "title": "CSE/ECE 2027秋 PhD · 本地普通申请截止",
+      "institution": "HKUST",
+      "degree": "PhD",
+      "routeIds": [
+        "HKUST-CSE-PhD-supplement",
+        "HKUST-ECE-PhD-supplement"
+      ],
+      "date": "2027-07-15",
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027/28 Fall",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "CSE/ECE本地全日制博士；身份按学校定义",
+      "dateVerification": "published",
+      "note": "逐页核对CSE/ECE博士目录，本地普通申请截止2027-07-15。原文未列普通轮钟点和时区，不移用HKPFS的12:00/23:59。秋季9月、春季2月入学分开；非本地身份由签证规则确定。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "港科大CSE 2027/28博士项目申请日期",
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse",
+          "checkedDate": "2026-10-26"
+        },
+        {
+          "label": "港科大ECE 2027/28博士项目申请日期",
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ece",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "hkust-cse-ece-phd-2027-spring-nonlocal",
+      "title": "CSE/ECE 2027春 PhD · 非本地普通申请截止",
+      "institution": "HKUST",
+      "degree": "PhD",
+      "routeIds": [
+        "HKUST-CSE-PhD-supplement",
+        "HKUST-ECE-PhD-supplement"
+      ],
+      "date": "2026-11-01",
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2026/27 Spring (2027 February)",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "CSE/ECE非本地全日制博士；身份按学校定义",
+      "dateVerification": "published",
+      "note": "逐页核对CSE/ECE博士目录，非本地普通申请截止2026-11-01。原文未列普通轮钟点和时区，不移用HKPFS的12:00/23:59。秋季9月、春季2月入学分开；非本地身份由签证规则确定。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "港科大CSE 2027/28博士项目申请日期",
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse",
+          "checkedDate": "2026-10-26"
+        },
+        {
+          "label": "港科大ECE 2027/28博士项目申请日期",
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ece",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "hkust-cse-ece-phd-2027-spring-local",
+      "title": "CSE/ECE 2027春 PhD · 本地普通申请截止",
+      "institution": "HKUST",
+      "degree": "PhD",
+      "routeIds": [
+        "HKUST-CSE-PhD-supplement",
+        "HKUST-ECE-PhD-supplement"
+      ],
+      "date": "2026-12-15",
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2026/27 Spring (2027 February)",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "CSE/ECE本地全日制博士；身份按学校定义",
+      "dateVerification": "published",
+      "note": "逐页核对CSE/ECE博士目录，本地普通申请截止2026-12-15。原文未列普通轮钟点和时区，不移用HKPFS的12:00/23:59。秋季9月、春季2月入学分开；非本地身份由签证规则确定。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "港科大CSE 2027/28博士项目申请日期",
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse",
+          "checkedDate": "2026-10-26"
+        },
+        {
+          "label": "港科大ECE 2027/28博士项目申请日期",
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ece",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "hkust-gz-phd-2027-spring-international",
+      "title": "2027春PhD · 国际申请人校级截止",
+      "institution": "HKUST(GZ)",
+      "degree": "PhD",
+      "routeIds": [
+        "hkust-gz-roas-phd",
+        "hkust-gz-ai-phd",
+        "hkust-gz-intr-phd"
+      ],
+      "date": "2026-12-04",
+      "startDate": "2026-07-21",
+      "startTime": null,
+      "deadlineTime": "23:59",
+      "timezone": "Asia/Shanghai",
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2026/27 Spring (2027 January)",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "国际博士申请者",
+      "dateVerification": "published",
+      "note": "申请自2026年7月21日起，GMT+8截止时区映射Asia/Shanghai；2027年1月25日入学。本项非红鸟MPhil、非秋季博士；滚动录取。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "港科广2027春秋博士校级时间表",
+          "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "hkust-gz-phd-2027-spring-chinese",
+      "title": "2027春PhD · 中国申请人校级截止",
+      "institution": "HKUST(GZ)",
+      "degree": "PhD",
+      "routeIds": [
+        "hkust-gz-roas-phd",
+        "hkust-gz-ai-phd",
+        "hkust-gz-intr-phd"
+      ],
+      "date": "2026-12-25",
+      "startDate": "2026-07-21",
+      "startTime": null,
+      "deadlineTime": "23:59",
+      "timezone": "Asia/Shanghai",
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2026/27 Spring (2027 January)",
+      "applicationDateKind": "formal_application",
+      "applicantScope": "中国博士申请者",
+      "dateVerification": "published",
+      "note": "申请自2026年7月21日起，GMT+8截止时区映射Asia/Shanghai；2027年1月25日入学。本项非红鸟MPhil、非秋季博士；滚动录取。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "港科广2027春秋博士校级时间表",
+          "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "xjtlu-phd-2027-funded-march",
+      "title": "2027博士03月入学 · 已有资助项目申请节点",
+      "institution": "XJTLU",
+      "degree": "PhD",
+      "routeIds": [
+        "xjtlu-doctoral-faculty-reference-all-schools-20261019"
+      ],
+      "date": "2026-10-30",
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027 2027-03-01",
+      "applicationDateKind": "funding_pathway_guide",
+      "applicantScope": "已有资助博士项目奖学金",
+      "dateVerification": "published",
+      "note": "官方分路径规划表：2026-10-30申请对应2027-03-01入学；钟点、时区未写。学校全年接受博士申请，但表内分资助渠道节点仍有意义。原文说明只是一般规划指引，处理时间及最终入学日期可调整，不写成所有博士统一硬截止。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "西交利物浦博士How to Apply批次表",
+          "url": "https://www.xjtlu.edu.cn/en/admissions/doctoral/how-to-apply/",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "xjtlu-phd-2027-funded-june",
+      "title": "2027博士06月入学 · 已有资助项目申请节点",
+      "institution": "XJTLU",
+      "degree": "PhD",
+      "routeIds": [
+        "xjtlu-doctoral-faculty-reference-all-schools-20261019"
+      ],
+      "date": "2027-01-15",
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027 2027-06-01",
+      "applicationDateKind": "funding_pathway_guide",
+      "applicantScope": "已有资助博士项目奖学金",
+      "dateVerification": "published",
+      "note": "官方分路径规划表：2027-01-15申请对应2027-06-01入学；钟点、时区未写。学校全年接受博士申请，但表内分资助渠道节点仍有意义。原文说明只是一般规划指引，处理时间及最终入学日期可调整，不写成所有博士统一硬截止。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "西交利物浦博士How to Apply批次表",
+          "url": "https://www.xjtlu.edu.cn/en/admissions/doctoral/how-to-apply/",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "xjtlu-phd-2027-funded-september",
+      "title": "2027博士09月入学 · 已有资助项目申请节点",
+      "institution": "XJTLU",
+      "degree": "PhD",
+      "routeIds": [
+        "xjtlu-doctoral-faculty-reference-all-schools-20261019"
+      ],
+      "date": "2027-04-30",
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027 2027-09-01",
+      "applicationDateKind": "funding_pathway_guide",
+      "applicantScope": "已有资助博士项目奖学金",
+      "dateVerification": "published",
+      "note": "官方分路径规划表：2027-04-30申请对应2027-09-01入学；钟点、时区未写。学校全年接受博士申请，但表内分资助渠道节点仍有意义。原文说明只是一般规划指引，处理时间及最终入学日期可调整，不写成所有博士统一硬截止。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "西交利物浦博士How to Apply批次表",
+          "url": "https://www.xjtlu.edu.cn/en/admissions/doctoral/how-to-apply/",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "xjtlu-phd-2027-self-merit-march",
+      "title": "2027博士03月入学 · 自拟课题自费/Merit奖申请节点",
+      "institution": "XJTLU",
+      "degree": "PhD",
+      "routeIds": [
+        "xjtlu-doctoral-faculty-reference-all-schools-20261019"
+      ],
+      "date": "2026-07-30",
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "expired",
+      "dateStatus": "expired",
+      "admissionYear": "2027 2027-03-01",
+      "applicationDateKind": "funding_pathway_guide",
+      "applicantScope": "自拟课题自费或PhD Merit-Based Scholarship",
+      "dateVerification": "published",
+      "note": "官方分路径规划表：2026-07-30申请对应2027-03-01入学；钟点、时区未写。学校全年接受博士申请，但表内分资助渠道节点仍有意义。原文说明只是一般规划指引，处理时间及最终入学日期可调整，不写成所有博士统一硬截止。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "西交利物浦博士How to Apply批次表",
+          "url": "https://www.xjtlu.edu.cn/en/admissions/doctoral/how-to-apply/",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
+    },
+    {
+      "id": "xjtlu-phd-2027-self-merit-september",
+      "title": "2027博士09月入学 · 自拟课题自费/Merit奖申请节点",
+      "institution": "XJTLU",
+      "degree": "PhD",
+      "routeIds": [
+        "xjtlu-doctoral-faculty-reference-all-schools-20261019"
+      ],
+      "date": "2027-01-15",
+      "startDate": null,
+      "startTime": null,
+      "deadlineTime": null,
+      "timezone": null,
+      "status": "unknown",
+      "dateStatus": "upcoming",
+      "admissionYear": "2027 2027-09-01",
+      "applicationDateKind": "funding_pathway_guide",
+      "applicantScope": "自拟课题自费或PhD Merit-Based Scholarship",
+      "dateVerification": "published",
+      "note": "官方分路径规划表：2027-01-15申请对应2027-09-01入学；钟点、时区未写。学校全年接受博士申请，但表内分资助渠道节点仍有意义。原文说明只是一般规划指引，处理时间及最终入学日期可调整，不写成所有博士统一硬截止。 本项只记录申请日程；未登录测试提交，不能推定任何导师接收、余位或2028招生。",
+      "sources": [
+        {
+          "label": "西交利物浦博士How to Apply批次表",
+          "url": "https://www.xjtlu.edu.cn/en/admissions/doctoral/how-to-apply/",
+          "checkedDate": "2026-10-26"
+        }
+      ],
+      "checkedDate": "2026-10-26",
+      "reviewId": "phd-application-dates-2027-20261026"
     }
   ],
   "materials": [

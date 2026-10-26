@@ -1,4 +1,4 @@
-import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,degreeDisplay,deadlineStatus,isBrowsableRoute,routeEvidenceText,browseRoutes as filterRoutes,matchesSearch,routeSearchText} from './core.js?v=64326cc257e3';
+import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,degreeDisplay,deadlineStatus,isBrowsableRoute,routeEvidenceText,browseRoutes as filterRoutes,matchesSearch,routeSearchText} from './core.js?v=0c8488d71b29';
 const e=value=>escapeHTML(readerText(value));
 // Display-only wording: preserve source records and their qualification caveats.
 const supervisorAssociationLabels=new Map([
@@ -58,14 +58,14 @@ export function renderRecordSummary(kind,record,catalog){
   body=projectIntroduction(brief)+section('项目概览',paragraph(routeEvidenceText(record))+overview)+section('申请条件',paragraph(record.eligibilitySummary)+(distinctRequirements.length?items(distinctRequirements):''))+section('申请方式与批次',paragraph(record.applicationMethod)+paragraph(record.admissionYear))+section('导师与名额',paragraph(supervisorAssociationText(record.supervisorAssociation)||'具体导师关联与名额仍需另行确认。')+paragraph('以下为目录研究关联，包含待核与历史参考；不代表每位导师已确认接收该项目申请。')+advisorLinks)+section('准备材料',materialLinks)+section('申请日期',deadlineLinks)+section('需要留意',(record.notes||[]).length?items(record.notes):'<p>项目要求不等于个人资格或录取结果，申请前仍需核对当期要求。</p>');
  }else if(kind==='deadline'){
   title=record.title;label='日期摘要';
-  const status=deadlineStatus(record,catalog.metadata?.checkedDate);
+  const status=deadlineStatus(record,catalog.metadata?.deadlineAsOf||catalog.metadata?.checkedDate);
   const dateLabel=status==='expired'?'此轮已截止':record.date?'截止日期已公布':'截止日期待确认';
   const missingDateLabel=record.cycleReview?.sourceConflict?'待复核（来源版本不一致）':'未记录（请核对官网）';
   // Preserve the literal recorded time and offset; never synthesize or convert a timezone.
   const recordedStamp=String(record.date||'').match(/^\d{4}-\d{2}-\d{2}T((?:[01]\d|2[0-3]):[0-5]\d(?::[0-5]\d(?:\.\d+)?)?(Z|[+-](?:[01]\d|2[0-3]):[0-5]\d)?)$/);
   const recordedTime=record.deadlineTime||recordedStamp?.[1];
   const recordedZone=record.timezone||(recordedStamp?.[2]?`原日期 UTC 偏移：${recordedStamp[2]==='Z'?'UTC':recordedStamp[2]}`:'未注明');
-  body=section('日期与适用范围',`<dl class="fact-grid"><dt>截止日期</dt><dd>${e(record.date||missingDateLabel)}</dd><dt>截止时刻</dt><dd>${e(recordedTime||missingDateLabel)}</dd><dt>时区</dt><dd>${e(recordedZone)}</dd><dt>日期状态</dt><dd>${e(dateLabel)}</dd></dl>`+paragraph(record.admissionYear)+paragraph(record.note))+section('相关项目',projects(relatedProjects(record,catalog)))+section('申请前确认','<p>截止日期、申请系统是否开放和导师名额需要分别确认；未知的时刻与批次不作推断。</p>');
+  body=section('日期与适用范围',`<dl class="fact-grid">${record.startDate?`<dt>申请开始</dt><dd>${e(record.startDate)}${record.startTime?' '+e(record.startTime):'（时刻未注明）'}</dd>`:''}<dt>截止日期</dt><dd>${e(record.date||missingDateLabel)}</dd><dt>截止时刻</dt><dd>${e(recordedTime||missingDateLabel)}</dd><dt>时区</dt><dd>${e(recordedZone)}</dd><dt>日期状态</dt><dd>${e(dateLabel)}</dd>${record.applicantScope?`<dt>适用对象</dt><dd>${e(record.applicantScope)}</dd>`:''}</dl>`+paragraph(record.admissionYear)+paragraph(record.note))+section('相关项目',projects(relatedProjects(record,catalog)))+section('申请前确认','<p>截止日期、申请系统是否开放和导师名额需要分别确认；未知的时刻与批次不作推断。</p>');
  }else{
   title=record.title||record.program||'申请材料';label='材料摘要';
   let scopeNote=record.summary&&record.note?.startsWith(record.summary)?record.note.slice(record.summary.length).trim():record.note;

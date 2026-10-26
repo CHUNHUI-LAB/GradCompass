@@ -1,5 +1,5 @@
-import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,degreeDisplay,routeEvidenceText,deadlineStatus,textValue} from './core.js?v=64326cc257e3';
-import {sourceAttribution,supervisorAssociationText} from './record-summaries.js?v=c3c17520a806';
+import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,degreeDisplay,routeEvidenceText,deadlineStatus,textValue} from './core.js?v=0c8488d71b29';
+import {sourceAttribution,supervisorAssociationText} from './record-summaries.js?v=7cbd92a72779';
 
 const e = value => escapeHTML(readerText(value));
 const list = value => Array.isArray(value) ? value : [];
@@ -31,7 +31,7 @@ export function renderProjectCard(route,{catalog,selectedIds=[]}={}) {
 }
 
 function deadlineCard(record,catalog) {
- const checkedDate = catalog?.metadata?.checkedDate;
+ const checkedDate = catalog?.metadata?.deadlineAsOf || catalog?.metadata?.checkedDate;
  const recruitment = list(catalog?.raPositions).find(job=>job.id===record.jobId)?.currentRecruitment;
  const status = deadlineStatus(record,checkedDate);
  const date = record.date&&/^\d{4}-\d{2}-\d{2}/.test(record.date)?record.date.slice(0,10):null;
@@ -41,10 +41,10 @@ function deadlineCard(record,catalog) {
   <div class="status-group">${badge(status==='open'?'verified':status,status==='open'&&date?'官方日期已公布':status==='expired'?'此轮已截止':date?'日期已公布 · 开放状态待核':'日期 / 批次待核')}<span class="route-label">${e(displayInstitution(record.institution))}</span></div>
   <h3><button class="card-title-button" data-summary-kind="deadline" data-summary-id="${e(record.id)}">${e(record.title)}</button></h3>
   <dl class="deadline-meta"><div><dt>适用批次</dt><dd>${e(record.admissionYear||'未注明')}</dd></div><div><dt>原始时刻</dt><dd>${e(originalTime)}</dd></div><div><dt>时区</dt><dd>${e(record.timezone||recruitment?.timezone||'未注明')}</dd></div></dl>
-  <p>${e(record.note||'具体适用申请类别请核对官方原文')}</p>${sourceAttribution(record)}<button class="detail-button" data-summary-kind="deadline" data-summary-id="${e(record.id)}">查看日期摘要 <span aria-hidden="true">→</span></button></div></article>`;
+  ${record.startDate?`<p class="small-note">申请开始：${e(record.startDate)}${record.startTime?' '+e(record.startTime):'（时刻未注明）'}</p>`:''}${record.applicantScope?`<p class="small-note">适用对象：${e(record.applicantScope)}</p>`:''}<p>${e(record.note||'具体适用申请类别请核对官方原文')}</p>${sourceAttribution(record)}<button class="detail-button" data-summary-kind="deadline" data-summary-id="${e(record.id)}">查看日期摘要 <span aria-hidden="true">→</span></button></div></article>`;
 }
 export function renderDeadlineTimeline(records,{catalog}={}) {
- const checkedDate = catalog?.metadata?.checkedDate;
+ const checkedDate = catalog?.metadata?.deadlineAsOf || catalog?.metadata?.checkedDate;
  const groups = [
   ['upcoming','已公布的后续截止日期',records.filter(record=>record.date&&deadlineStatus(record,checkedDate)!=='expired')],
   ['unknown','日期或批次仍待确认',records.filter(record=>!record.date&&deadlineStatus(record,checkedDate)!=='expired')],

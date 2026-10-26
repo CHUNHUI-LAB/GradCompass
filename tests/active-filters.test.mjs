@@ -91,8 +91,8 @@ test('view-specific chips and clear-all preserve inactive page filters and compa
  view('materials');change('opportunity','MSc');assert.equal(chips().length,1);assert(chip('opportunityType').textContent.includes('适用学位：MSc · 硕士项目'));clear();view('advisors');
 });
 
-test('deadline removal focuses the visible school select and ignores unsupported query/rank changes',()=>{
- view('deadlines');change('institution','HKU');search('ignored');change('rank','assistant');assert.equal(chips().length,1);assert(!chip('query'));assert(!chip('rank'));remove('institution');assert(row().hidden);assert.equal(document.activeElement,el('#institution-filter'));assert.equal(el('#result-count').textContent,'1 项日期记录');view('advisors');
+test('deadline school, intake query and degree combine while unsupported rank changes remain ignored',()=>{
+ view('deadlines');change('institution','HKU');search('2027');change('opportunity','MSc');change('rank','assistant');assert.equal(chips().length,3);assert(chip('query'));assert(chip('opportunityType'));assert(!chip('rank'));assert.equal(el('#result-count').textContent,'1 项日期记录');change('opportunity','PhD');assert.equal(el('#result-count').textContent,'0 项日期记录');remove('opportunityType');remove('query');remove('institution');assert(row().hidden);assert.equal(document.activeElement,el('#search'));assert.equal(el('#result-count').textContent,'1 项日期记录');view('advisors');
 });
 
 test('recruitment labels follow RA employment terminology while the condition remains selected',()=>{
@@ -124,7 +124,7 @@ test('feedback uses semantic native actions, bounded color transitions, wrapping
 
 test('explicit empty-result recovery restores a visible filter instead of the removed button',()=>{
  view('advisors');reset();search('no matching record');const recovery=new Element('', 'BUTTON');recovery.focus();dataClick('[data-reset]',{});assert.equal(document.activeElement,el('#search'));assert.equal(el('#result-count').textContent,'1 位导师 · 1 条已核实学位关联 · 0 个 RA 岗位');
- view('deadlines');change('institution','missing-school');recovery.focus();dataClick('[data-reset]',{});assert.equal(document.activeElement,el('#institution-filter'));assert.equal(el('#result-count').textContent,'1 项日期记录');view('advisors');reset();
+ view('deadlines');change('institution','missing-school');recovery.focus();dataClick('[data-reset]',{});assert.equal(document.activeElement,el('#search'));assert.equal(el('#result-count').textContent,'1 项日期记录');view('advisors');reset();
 });
 
 test('search defers result updates without rebuilding the guide and Enter applies immediately',async()=>{
