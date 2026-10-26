@@ -1,6 +1,6 @@
 // Appointment discovery uses a dated evidence window, independent of age, rank,
 // admission eligibility, recruitment cycles and the historical 2026 newPi field.
-export const appointmentWindow=Object.freeze({asOf:'2026-10-19',start:'2021-10-19',end:'2026-10-19'});
+export const appointmentWindow=Object.freeze({asOf:'2026-10-26',start:'2021-10-26',end:'2026-10-26'});
 export const appointmentLabels=Object.freeze({recent:'近五年入职 · 已核验',early_career:'教研职业早期线索',previous_faculty:'此前已有教研任职',industry_transition:'此前有行业任职经历',earlier:'五年前入职',boundary:'五年边界待核实',unknown:'入职时间待核实'});
 function validDate(value){if(typeof value!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(value))return false;const date=new Date(value+'T00:00:00Z');return Number.isFinite(date.getTime())&&date.toISOString().slice(0,10)===value;}
 function hasSource(review){return Array.isArray(review?.sources)&&review.sources.some(s=>{try{return new URL(s.url).protocol==='https:'&&validDate(s.checkedDate)&&s.checkedDate<=appointmentWindow.asOf;}catch{return false;}});}

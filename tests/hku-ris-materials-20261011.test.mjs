@@ -19,7 +19,7 @@ const summary=normalizeProjectSummaries(projects,catalog).get('hku-ris-msc');
 test('HKU RIS review is exactly reversible to the independently fetched October 11 baseline',()=>{
  const files=Object.fromEntries(Object.keys(baselineHashes).map(p=>[p,json(p)]));
  // Remove only this later reviewed append batch, checking every exact value.
- const laterExpansions=['existing-doctoral-links-20261019','appointment-source-followup-20261019','all-schools-rescreen-20261019','tongji-rescreen-20261019','pku-expansion-20261019'];
+ const laterExpansions=['rescreen-20261026','existing-doctoral-links-20261019','appointment-source-followup-20261019','all-schools-rescreen-20261019','tongji-rescreen-20261019','pku-expansion-20261019'];
  for(const batch of laterExpansions){
  const expansion=json('tests/fixtures/evidence/'+batch+'.json');
  for(const op of [...expansion.operations].reverse()){
@@ -54,6 +54,6 @@ test('current RIS sources bind R394 to the 2027 taught programme without changin
  assert.equal(route.degree,'MSc');assert.equal(route.applicationStatus,'unknown');assert.equal(route.checkedDate,'2026-10-04');assert.equal(material.checkedDate,'2026-10-04');assert(route.notes[0].includes('未登录或测试实际提交'));
  for(const d of catalog.deadlines.filter(d=>d.routeIds?.includes(route.id))){assert.equal(d.status,'unknown');assert.equal(d.deadlineTime,'12:00');assert.equal(d.timezone,'Asia/Hong_Kong');assert.equal(d.checkedDate,'2026-10-04');assert(d.note.includes('官方仍写预计'));assert(!d.sources.some(s=>s.checkedDate==='2026-10-11')); }
  assert(!receipt.operations.some(op=>op.file==='data/catalog.json'&&op.path.startsWith('/deadlines/')));
- assert.equal(catalog.advisors.length,492);assert.equal(catalog.routes.length,93);assert.equal(catalog.deadlines.length,31);
+ assert.equal(catalog.advisors.length,498);assert.equal(catalog.routes.length,94);assert.equal(catalog.deadlines.length,31);
  const ops=buildOpportunities({...catalog,raPositions:json('data/ra-positions.json').raPositions});assert.equal(ops.filter(o=>o.kind==='degree').length,57);assert.equal(ops.filter(o=>o.kind==='employment').length,2);
 });

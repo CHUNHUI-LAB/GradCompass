@@ -13,14 +13,14 @@ catalog.advisorProfiles=profiles;
 const render=(group,extra={})=>renderAdvisorCard(group,{catalog,profiles,profileState:'ready',compareIds:[],...extra});
 const counts=groups=>({advisors:groups.length,...Object.fromEntries(['degree','employment','reference'].map(kind=>[kind,groups.flatMap(group=>group.opportunities).filter(row=>row.kind===kind).length]))});
 
-test('default grouping preserves all 492 people and independent verified association and job counts',()=>{
+test('default grouping preserves all 498 people and independent verified association and job counts',()=>{
   const groups=groupAdvisorResults(catalog);
-  assert.deepEqual(counts(groups),{advisors:492,degree:57,employment:2,reference:0});
-  assert.equal(new Set(groups.map(group=>group.advisor.id)).size,492);
-  assert.equal(groups.filter(group=>!group.opportunities.length).length,451);
-  assert.equal(advisorResultCount(groups),'492 位导师 · 57 条已核实学位关联 · 2 个 RA 岗位');
+  assert.deepEqual(counts(groups),{advisors:498,degree:57,employment:2,reference:0});
+  assert.equal(new Set(groups.map(group=>group.advisor.id)).size,498);
+  assert.equal(groups.filter(group=>!group.opportunities.length).length,457);
+  assert.equal(advisorResultCount(groups),'498 位导师 · 57 条已核实学位关联 · 2 个 RA 岗位');
   const html=groups.map(group=>render(group)).join('');
-  assert.equal((html.match(/<article class="advisor-card"/g)||[]).length,492);
+  assert.equal((html.match(/<article class="advisor-card"/g)||[]).length,498);
 });
 
 test('two RA jobs remain independent rows under one advisor and keep their exact comparison identities',()=>{
@@ -42,8 +42,8 @@ test('two RA jobs remain independent rows under one advisor and keep their exact
 
 test('PhD discovery distinguishes people, verified degree associations and project references',()=>{
   const groups=groupAdvisorResults(catalog,{opportunityType:'PhD'});
-  assert.deepEqual(counts(groups),{advisors:487,degree:31,employment:0,reference:462});
-  assert.equal(advisorResultCount(groups),'487 位导师 · 31 条已核实学位关联 · 0 个 RA 岗位 · 462 条博士项目参考');
+  assert.deepEqual(counts(groups),{advisors:495,degree:31,employment:0,reference:470});
+  assert.equal(advisorResultCount(groups),'495 位导师 · 31 条已核实学位关联 · 0 个 RA 岗位 · 470 条博士项目参考');
   const reference=groups.find(group=>group.opportunities.every(row=>row.kind==='reference'));
   const html=render(reference);
   assert(html.includes('博士项目参考'));assert(html.includes('个人关联与余位待核'));

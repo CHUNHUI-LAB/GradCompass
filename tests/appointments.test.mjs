@@ -29,7 +29,7 @@ test('every existing advisor has a separate appointment review, with exact evide
  }
  const counts={};for(const p of auditedProfiles){const status=appointmentStatus(p);counts[status]=(counts[status]||0)+1;}
  assert.deepEqual(counts,audit.classificationCounts);assert.equal(counts.recent+counts.earlier+counts.boundary,audit.verifiedDateCount);
- assert.equal(catalog.advisors.length,492);assert.equal(filterOpportunities(catalog).length,57);
+ assert.equal(catalog.advisors.length,498);assert.equal(filterOpportunities(catalog).length,57);
  const evidence=new Set(receipt.officialEvidence.map(s=>s.url));
  for(const p of auditedProfiles)if(p.appointmentReview.status==='verified'){
   assert(p.appointmentReview.sources.length);assert(p.appointmentReview.precision);assert(p.appointmentReview.appointmentConfirmed);
@@ -38,15 +38,15 @@ test('every existing advisor has a separate appointment review, with exact evide
 });
 
 test('rolling-window boundary, coarse precision and future appointments do not fabricate a recent tag',()=>{
- assert.equal(appointmentStatus(sample('2021-10-19')),'recent');
- assert.equal(appointmentStatus(sample('2021-10-18')),'earlier');
+ assert.equal(appointmentStatus(sample('2021-10-26')),'recent');
+ assert.equal(appointmentStatus(sample('2021-10-25')),'earlier');
  assert.equal(appointmentStatus(sample('2021-01-01','2021-12-31')),'boundary');
  assert.equal(appointmentStatus(sample('2021-10-01','2021-10-31')),'boundary');
- assert.equal(appointmentStatus(sample('2026-10-19')),'recent');
- assert.equal(appointmentStatus(sample('2026-10-20')),'unknown');
+ assert.equal(appointmentStatus(sample('2026-10-26')),'recent');
+ assert.equal(appointmentStatus(sample('2026-10-27')),'unknown');
  assert.equal(appointmentStatus(sample('2026-02-30')),'unknown');
  assert.equal(appointmentStatus(sample('2024-02-01','2023-01-01')),'unknown');
- for(const delta of [{sources:[]},{sources:[{url:'javascript:alert(1)',checkedDate:'2026-10-10'}]},{sources:[{url:'https://example.org',checkedDate:'2026-10-20'}]},{sources:[{url:'https://example.org',checkedDate:'2026-02-30'}]},{status:'pending'},{appointmentConfirmed:false},{eventType:'promotion'},{eventType:'postdoc_start'},{eventType:'department_transfer'}])assert.equal(appointmentStatus({appointmentReview:{...sample('2024-01-01').appointmentReview,...delta}}),'unknown');
+ for(const delta of [{sources:[]},{sources:[{url:'javascript:alert(1)',checkedDate:'2026-10-10'}]},{sources:[{url:'https://example.org',checkedDate:'2026-10-27'}]},{sources:[{url:'https://example.org',checkedDate:'2026-02-30'}]},{status:'pending'},{appointmentConfirmed:false},{eventType:'promotion'},{eventType:'postdoc_start'},{eventType:'department_transfer'}])assert.equal(appointmentStatus({appointmentReview:{...sample('2024-01-01').appointmentReview,...delta}}),'unknown');
  assert.equal(appointmentStatus(null),'unknown');assert.equal(appointmentStatus({newPi:{verified:true,date:'2026'}}),'unknown');
 });
 

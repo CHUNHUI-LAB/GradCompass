@@ -8,7 +8,9 @@ import {renderAppointmentReview} from '../assets/profiles.js';
 import {reviewedPublicData,assertReviewedPublicData} from './reviewed-public-data.mjs';
 const raw=p=>fs.readFileSync(new URL('../'+p,import.meta.url));
 const json=p=>JSON.parse(raw(p));
-const c=json('data/catalog.json'),p=json('data/advisor-profiles.json').profiles;
+// October 19 cohort is fixed; today's full files are independently replayed below.
+const dated=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/existing-doctoral-links-20261019.json'});
+const c=dated['data/catalog.json'],p=dated['data/advisor-profiles.json'].profiles;
 const before=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/appointment-source-followup-20261019.json'});
 const oldC=before['data/catalog.json'],oldP=before['data/advisor-profiles.json'].profiles;
 const audit=json('audits/existing-doctoral-links-20261019.json'),receipt=json('tests/fixtures/evidence/existing-doctoral-links-20261019.json');

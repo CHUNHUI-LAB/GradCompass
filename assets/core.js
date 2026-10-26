@@ -1,4 +1,4 @@
-import {appointmentMatches} from './appointments.js?v=e9737c36e453';
+import {appointmentMatches} from './appointments.js?v=fe7c21c5cd26';
 // Avatar labels use name letters only; parenthesized aliases are not name tokens.
 // Keep the recorded full name untouched and preserve the first-two-token convention.
 export function nameInitials(value){

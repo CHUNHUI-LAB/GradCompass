@@ -72,7 +72,7 @@ test('2027 open and full statements, mixed headcounts and 2028 remain distinct',
 });
 
 test('new appointment evidence retains first non-postdoc dates and year-boundary uncertainty',()=>{
- assert.deepEqual(appointmentWindow,{asOf:'2026-10-19',start:'2021-10-19',end:'2026-10-19'});
+ assert.deepEqual(appointmentWindow,{asOf:'2026-10-26',start:'2021-10-26',end:'2026-10-26'});
  const counts={};for(const profile of addedProfiles){const status=appointmentStatus(profile);counts[status]=(counts[status]||0)+1;assert.equal(profile.appointmentReview.checkedDate,'2026-10-19');}
  assert.deepEqual(counts,{earlier:14,unknown:13,boundary:2,recent:9});
  for(const [id,date]of [['wang-qining','2009-07-01'],['li-aming','2020-11-01'],['lv-pengyu','2017-01-01'],['li-qiliang','2023-11-01'],['liu-mengyuan','2023-03-01'],['huang-tianyun','2021-09-01'],['zhang-shanghang','2022-01-01']])assert.equal(p(id).appointmentReview.earliestDate,date,id);

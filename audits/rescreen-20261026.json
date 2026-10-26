@@ -1,0 +1,1706 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-26",
+  "baseCommit": "36a91d40a64bea7adc9449ac23a0f81f44150c15",
+  "scopeZh": "对原76条明确招生记录及5个博士筛选缺口的优先来源作访问检查与招生关键词定位；对下列事实逐段核读。非全体492位导师全部事实的今日复核。",
+  "existingExplicitRecords": 76,
+  "previousDoctoralGaps": 5,
+  "sourceAccess": [
+    {
+      "url": "https://ai.fudan.edu.cn/82/47/c24277a754247/page.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://ai.fudan.edu.cn/82/47/c24277a754247/page.htm",
+      "responseSha256": "7972c2a1c11a96ebc55ee9d449ad416bec8622683915beb3677bc586ecfc4918",
+      "error": null
+    },
+    {
+      "url": "https://ai.hku.hk/people/academic-staff/hongyang",
+      "httpStatus": 200,
+      "finalUrl": "https://ai.hku.hk/people/academic-staff/hongyang",
+      "responseSha256": "44d2d1a19bac0840633d57dbf67e52e544a9f8a8ed95332a745e48b7d2828c03",
+      "error": null
+    },
+    {
+      "url": "https://ai.hku.hk/people/academic-staff/hszhao",
+      "httpStatus": 200,
+      "finalUrl": "https://ai.hku.hk/people/academic-staff/hszhao",
+      "responseSha256": "870953480757319e80bbe8508601e4ae0e5c756e889942e135af2380fecbda31",
+      "error": null
+    },
+    {
+      "url": "https://ai3.fudan.edu.cn/info/1088/1494.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://ai3.fudan.edu.cn/info/1088/1494.htm",
+      "responseSha256": "6c381fd87d60849c0f9e864d34ddf454581648d3bea64f73c4cd4e80bd98ac0c",
+      "error": null
+    },
+    {
+      "url": "https://ai3.fudan.edu.cn/info/1088/1754.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://ai3.fudan.edu.cn/info/1088/1754.htm",
+      "responseSha256": "7d678888334f47807808f1d471c0bd931f45a368fe69a6b224c9e4b001132d35",
+      "error": null
+    },
+    {
+      "url": "https://ai3.fudan.edu.cn/info/1088/2024.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://ai3.fudan.edu.cn/info/1088/2024.htm",
+      "responseSha256": "68ca14b37261cfe460fed6cbc9f59e010956f7595f9e12fcfc951e71c8c7d132",
+      "error": null
+    },
+    {
+      "url": "https://ai3.fudan.edu.cn/info/1088/2304.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://ai3.fudan.edu.cn/info/1088/2304.htm",
+      "responseSha256": "499d3ccae350a77bad206ab0ddb578871fd8dd3aa712e08f2c819a85dd9d6e41",
+      "error": null
+    },
+    {
+      "url": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://aiia.seu.edu.cn/palm/2026/0527/c68597a569220/page.htm",
+      "responseSha256": "4e6d0defb501b359abbabea9d0897a0118bb94917f50e10f318bfd6f85964e76",
+      "error": null
+    },
+    {
+      "url": "https://arclab.hku.hk/",
+      "httpStatus": 200,
+      "finalUrl": "https://arclab.hku.hk/",
+      "responseSha256": "084cb11448753bb70e29278370fd559f7e396a55a53a8d629e6f6cb51c0ebfb5",
+      "error": null
+    },
+    {
+      "url": "https://arclab.hku.hk/OpenPositions.html",
+      "httpStatus": 200,
+      "finalUrl": "https://arclab.hku.hk/OpenPositions.html",
+      "responseSha256": "7f46b041e1dd52705091e041634142a8bbed7cb53f04fd09cdef53d836b563ae",
+      "error": null
+    },
+    {
+      "url": "https://arclab.hku.hk/People.html",
+      "httpStatus": 200,
+      "finalUrl": "https://arclab.hku.hk/People.html",
+      "responseSha256": "5de648bf6d28f0b903654bebd7e7fc3c30c109e3831f6e8d830df3b14946a13d",
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.20328",
+      "httpStatus": 200,
+      "finalUrl": "https://arxiv.org/abs/2403.20328",
+      "responseSha256": "30c0fe6301a4172a555c3f54d443ec2168f5a4cf94d520456871cf52fcb7bf06",
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.21738",
+      "httpStatus": 200,
+      "finalUrl": "https://arxiv.org/abs/2504.21738",
+      "responseSha256": "12d1719a4bc1a145a4820a3f08d91b2b75f0d2acb07ba76df325c83598d367c2",
+      "error": null
+    },
+    {
+      "url": "https://auto.lab.westlake.edu.cn/index.html",
+      "httpStatus": 200,
+      "finalUrl": "https://auto.lab.westlake.edu.cn/index.html",
+      "responseSha256": "d8a5e71dc1fd043f20baeb0dbf9a0272197612d4ae37a76aa3746c14f8107f86",
+      "error": null
+    },
+    {
+      "url": "https://auto.lab.westlake.edu.cn/join-us.html",
+      "httpStatus": 200,
+      "finalUrl": "https://auto.lab.westlake.edu.cn/join-us.html",
+      "responseSha256": "39adc86665995d31d840b9c0d291682b24e42318bb2422492f8c228f646a06fa",
+      "error": null
+    },
+    {
+      "url": "https://automation.seu.edu.cn/cyy/main.psp",
+      "httpStatus": 200,
+      "finalUrl": "https://automation.seu.edu.cn/cyy/main.psp",
+      "responseSha256": "104bb5c368c51b8b05a50e6382525c443a325219b210619f0f1af3c2c380fc13",
+      "error": null
+    },
+    {
+      "url": "https://automation.seu.edu.cn/hym/",
+      "httpStatus": 200,
+      "finalUrl": "https://automation.seu.edu.cn/hym/",
+      "responseSha256": "dd667395a457b2571fdacdfca81faec8590d396e3cf8530a5a435f9c7840debf",
+      "error": null
+    },
+    {
+      "url": "https://automation.seu.edu.cn/lj/list.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://automation.seu.edu.cn/lj/list.htm",
+      "responseSha256": "c415d13782e9d8b3a478011c083c32b263dffc73cfbd81861db4f593268c2af8",
+      "error": null
+    },
+    {
+      "url": "https://automation.seu.edu.cn/lzg/",
+      "httpStatus": 200,
+      "finalUrl": "https://automation.seu.edu.cn/lzg/",
+      "responseSha256": "e423971b7b3313685619eca41ca7189a28962f07a9ff29669a738f565ed6911e",
+      "error": null
+    },
+    {
+      "url": "https://automation.seu.edu.cn/ywk/list.psp",
+      "httpStatus": 200,
+      "finalUrl": "https://automation.seu.edu.cn/ywk/list.psp",
+      "responseSha256": "a8dd48cc3b3a55f806c2c1ce7d996af75b23493a87ab95435681de01ae58b69b",
+      "error": null
+    },
+    {
+      "url": "https://automation.seu.edu.cn/yxc/list.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://automation.seu.edu.cn/yxc/list.htm",
+      "responseSha256": "dd4fd3923e72d4a427e94e82332622191e737eefe32eacdc2131da7f924b0cd7",
+      "error": null
+    },
+    {
+      "url": "https://automation.seu.edu.cn/zb_32794/list.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://automation.seu.edu.cn/zb_32794/list.htm",
+      "responseSha256": "a8db2c39c3b5e999155beee5e8d4950b4e57411aa2ad66a97c27d4000edc16e2",
+      "error": null
+    },
+    {
+      "url": "https://celiang.tongji.edu.cn/Staff/a2025zsdsmd.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://celiang.tongji.edu.cn/Staff/a2025zsdsmd.htm",
+      "responseSha256": "8ff9648cc1cf4532788a41ecb408a004ff254480a9feeee7dba8a38f7dbf5e70",
+      "error": null
+    },
+    {
+      "url": "https://celiang.tongji.edu.cn/info/1300/2388.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://celiang.tongji.edu.cn/info/1300/2388.htm",
+      "responseSha256": "56b36b765ee4d612bb85353e8b69e77d72a76948411a57941067b95b919c5cd5",
+      "error": null
+    },
+    {
+      "url": "https://cft.hkust-gz.edu.cn/rbm-program/admission/admission-faq/",
+      "httpStatus": 200,
+      "finalUrl": "https://cft.hkust-gz.edu.cn/rbm-program/admission/admission-faq/",
+      "responseSha256": "5edfed1ae79c60057ab5cb9d12d4da48856227baf1e39630ff1949ecb4f28ce6",
+      "error": null
+    },
+    {
+      "url": "https://changhao-chen.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://changhao-chen.github.io/",
+      "responseSha256": "c9fe9b1f9374ddc2efb23251938b3ff8ac4b8f7389d5a00a5471539318f43d91",
+      "error": null
+    },
+    {
+      "url": "https://changhao-chen.github.io/people/",
+      "httpStatus": 200,
+      "finalUrl": "https://changhao-chen.github.io/people/",
+      "responseSha256": "7e57570cb670e4735c20a36af799ba47490c70ed1ae116a4c02f2169b437affb",
+      "error": null
+    },
+    {
+      "url": "https://chensunmac.github.io/openings/",
+      "httpStatus": 200,
+      "finalUrl": "https://chensunmac.github.io/openings/",
+      "responseSha256": "34ce6d5f88a0288715389920da9bbc0497a41ab2fe2c3640052b93a7d7fd9ff4",
+      "error": null
+    },
+    {
+      "url": "https://crai.cuhk.edu.cn/",
+      "httpStatus": 200,
+      "finalUrl": "https://crai.cuhk.edu.cn/",
+      "responseSha256": "1db3d09cd93f593e6fdbd2f2539898a189cab60738d4e41b5f8d9afdb7627ba3",
+      "error": null
+    },
+    {
+      "url": "https://crai.cuhk.edu.cn/recruitment/257",
+      "httpStatus": 200,
+      "finalUrl": "https://crai.cuhk.edu.cn/recruitment/257",
+      "responseSha256": "5f649931b42defb2c504e177ffe410e2381a0c288971ea0bf36e15978c1e7967",
+      "error": null
+    },
+    {
+      "url": "https://cs.pku.edu.cn/info/1051/5510.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://cs.pku.edu.cn/info/1051/5510.htm",
+      "responseSha256": "e75b774dfaf6c4b6c7af2a10262bf89d898fd9660d392fbcc53ab261ef77736c",
+      "error": null
+    },
+    {
+      "url": "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://cs.pku.edu.cn/zsxx/yjszs/dsxx.htm",
+      "responseSha256": "63f4bdd2522d4a00689d5486e14486047e3d888c0713b25916a342cb8002c0a5",
+      "error": null
+    },
+    {
+      "url": "https://cs.seu.edu.cn/2019/0301/c23024a264097/page.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://cs.seu.edu.cn/2019/0301/c23024a264097/page.htm",
+      "responseSha256": "da2175a87dcfa2586eb3c36d65b7a7cdd1d9887c2fb003c3b140226e04044f73",
+      "error": null
+    },
+    {
+      "url": "https://cs.seu.edu.cn/2024/0117/c48203a479330/page.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://cs.seu.edu.cn/2024/0117/c48203a479330/page.htm",
+      "responseSha256": "0303cee98eb63ba1edc15404a37037b541febb1a367630f800651e8871740b37",
+      "error": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3487.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://cs.tongji.edu.cn/info/1065/3487.htm",
+      "responseSha256": "52db4f1dab2ed778ce680d8a8b2f89dad5f3a7c5455dbdbdaf96e81e32811157",
+      "error": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/info/1065/3527.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://cs.tongji.edu.cn/info/1065/3527.htm",
+      "responseSha256": "8926648a6a6117657e9a6e8f5e489f530ce898651ab9801b017e2adb7d097b36",
+      "error": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/1.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/1.htm",
+      "responseSha256": "a44571879a2705bf55b827a6b98623b5f0b6de94cdc2ddb6837377bc7c9295a5",
+      "error": null
+    },
+    {
+      "url": "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/4.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://cs.tongji.edu.cn/szdw/jsmlx/js_yjy_/4.htm",
+      "responseSha256": "44d18712cb3d6209965eb50f40ca5ab4cbe93e897e16b10e3658e055df126020",
+      "error": null
+    },
+    {
+      "url": "https://cse.tongji.edu.cn/cd/d1/c38370a380369/page.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://cse.tongji.edu.cn/cd/d1/c38370a380369/page.htm",
+      "responseSha256": "aa4ece47d473526d2571dd2d4a15cd6fe63b13580666748a87d7d66db5fb136d",
+      "error": null
+    },
+    {
+      "url": "https://cuhkleggedrobotlab.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://cuhkleggedrobotlab.github.io/",
+      "responseSha256": "2679b5a2cf94893018d7e7f7b4ddd274ba2ce44c1c4e7d33c02bab272b68f3fb",
+      "error": null
+    },
+    {
+      "url": "https://cuhkleggedrobotlab.github.io/join/",
+      "httpStatus": 200,
+      "finalUrl": "https://cuhkleggedrobotlab.github.io/join/",
+      "responseSha256": "c957e73f4878bc42d172dffde409b7a9703af6b351e254bf17839bc102f84cb8",
+      "error": null
+    },
+    {
+      "url": "https://dslx.ustc.edu.cn/?menu=expertlist&year=2026",
+      "httpStatus": 200,
+      "finalUrl": "https://dslx.ustc.edu.cn/?menu=expertlist&year=2026",
+      "responseSha256": "a4c9c0a08169a1abe3f14aa6dc8d67abec6f880f04ea696a386184d75d79dfb2",
+      "error": null
+    },
+    {
+      "url": "https://earlab-cuhksz.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://earlab-cuhksz.github.io/",
+      "responseSha256": "9657cd1678e6826719300bc4604045d602819d38b2f38d6cb2248ddc98768c55",
+      "error": null
+    },
+    {
+      "url": "https://ece.hku.hk/people/xihui-liu/",
+      "httpStatus": 403,
+      "finalUrl": "https://ece.hku.hk/people/xihui-liu/",
+      "responseSha256": "b84727454e3026022e2ac38c3842913dd700178e6bfc63e30e1846ab6d877932",
+      "error": null
+    },
+    {
+      "url": "https://eetchen.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://eetchen.github.io/",
+      "responseSha256": "8801a47ba9593a3e6451c9e11d66bbcb399da37735d8f40e112eb3a923816677",
+      "error": null
+    },
+    {
+      "url": "https://emsail-group.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://emsail-group.github.io/",
+      "responseSha256": "990121c1c858693490a670d95bb9f4e3dc6914fc369aac5ff2e9ff70c5c5006f",
+      "error": null
+    },
+    {
+      "url": "https://en.westlake.edu.cn/about/faculty/engineering/jin-pub_year.html",
+      "httpStatus": 200,
+      "finalUrl": "https://en.westlake.edu.cn/about/faculty/engineering/jin-pub_year.html",
+      "responseSha256": "5c12d16edc7f3729412323fbd2586f17557e7557a3f13e3e4f27edf2721a0b29",
+      "error": null
+    },
+    {
+      "url": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+      "httpStatus": 200,
+      "finalUrl": "https://en.westlake.edu.cn/faculty/chi-zhang.html",
+      "responseSha256": "c25121512ef71e71479eca59a1370cce806bd32f61b5ca949842382bcc76ebac",
+      "error": null
+    },
+    {
+      "url": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+      "httpStatus": 200,
+      "finalUrl": "https://en.westlake.edu.cn/faculty/dixia-fan.html",
+      "responseSha256": "767731e6ed65bc82ae19a514fa7576bd96403bd3584935cba77a4995f8f8ec8d",
+      "error": null
+    },
+    {
+      "url": "https://en.westlake.edu.cn/faculty/donglin-wang.html",
+      "httpStatus": 200,
+      "finalUrl": "https://en.westlake.edu.cn/faculty/donglin-wang.html",
+      "responseSha256": "2003baa7619e5c7c19e71b491e6429ea6f282903f0c9c19fc0745e1913227150",
+      "error": null
+    },
+    {
+      "url": "https://en.westlake.edu.cn/faculty/guojun-qi.html",
+      "httpStatus": 200,
+      "finalUrl": "https://en.westlake.edu.cn/faculty/guojun-qi.html",
+      "responseSha256": "8c4d4865b1b32924c40b710326852d4c21f2d8a2ecf1a9f0b21fc02fc1fdb7f7",
+      "error": null
+    },
+    {
+      "url": "https://en.westlake.edu.cn/faculty/kaicheng-yu.html",
+      "httpStatus": 200,
+      "finalUrl": "https://en.westlake.edu.cn/faculty/kaicheng-yu.html",
+      "responseSha256": "b05f61f2c8dcb73dbbe954ea20b4eefa3e656c74ccf2a6665b02b63fa4b83e00",
+      "error": null
+    },
+    {
+      "url": "https://en.westlake.edu.cn/faculty/peidong-liu.html",
+      "httpStatus": 200,
+      "finalUrl": "https://en.westlake.edu.cn/faculty/peidong-liu.html",
+      "responseSha256": "364568eac7bda3809a0bb861322dcb3f51fff8f0f4884fa9ef73bc0a65d124ee",
+      "error": null
+    },
+    {
+      "url": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+      "httpStatus": 200,
+      "finalUrl": "https://en.westlake.edu.cn/faculty/wei-wang.html",
+      "responseSha256": "64af4aae88117eb80101a05cbc52a6afa714209c98db1a84ef16184a04120c44",
+      "error": null
+    },
+    {
+      "url": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+      "httpStatus": 200,
+      "finalUrl": "https://en.westlake.edu.cn/faculty/yaochu-jin.html",
+      "responseSha256": "4b1e519343241c259040569cee5f7bfd6847933072861e2b0551fbb8bd5d94ba",
+      "error": null
+    },
+    {
+      "url": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+      "httpStatus": 200,
+      "finalUrl": "https://en.westlake.edu.cn/faculty/zexi-liang.html",
+      "responseSha256": "cfb125103405ce0ba2416ad60b49fe68e90ae7e4e35a9bf935dd3fe452b80a13",
+      "error": null
+    },
+    {
+      "url": "https://en.westlake.edu.cn/news_events/westlakenews/Faculty_Staff/202504/t20250410_54513.html",
+      "httpStatus": 200,
+      "finalUrl": "https://en.westlake.edu.cn/news_events/westlakenews/Faculty_Staff/202504/t20250410_54513.html",
+      "responseSha256": "e010f2e81a3c1cb399449ef4139ee0476746ac4410ae14f7f63fd2dd4d6522be",
+      "error": null
+    },
+    {
+      "url": "https://ethliup.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://ethliup.github.io/",
+      "responseSha256": "9e56c76c046df5bfb60cdaceafcd2774ded4346571a3eaf1d2c7a541187ee167",
+      "error": null
+    },
+    {
+      "url": "https://faculty.fudan.edu.cn/fanxu/zh_CN",
+      "httpStatus": 200,
+      "finalUrl": "https://faculty.fudan.edu.cn/fanxu/zh_CN",
+      "responseSha256": "6963d5b01acb2080c3bb4c0ef2bd1a2dc03c5ede7c388015850de45d4b05a6f4",
+      "error": null
+    },
+    {
+      "url": "https://faculty.tongji.edu.cn/fuchanghong/zh_CN/index.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://faculty.tongji.edu.cn/fuchanghong/zh_CN/index.htm",
+      "responseSha256": "6ee1fec0598bfec6d006bb4539507f6b35d291f140d4e80dcb61b8afb0701126",
+      "error": null
+    },
+    {
+      "url": "https://faculty.tongji.edu.cn/xiahaisheng/zh_CN/index.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://faculty.tongji.edu.cn/xiahaisheng/zh_CN/index.htm",
+      "responseSha256": "9ffb31f136fddc23f9f3b16b8801477a28126fab94fdcaa124315202a3248877",
+      "error": null
+    },
+    {
+      "url": "https://faculty.ustc.edu.cn/hanmingfei/zh_CN/index.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://faculty.ustc.edu.cn/hanmingfei/zh_CN/index.htm",
+      "responseSha256": "5f7b4495c4f2cb97dec2af2a6b70b802da9d36f0caf248b361c55bad17d3f76d",
+      "error": null
+    },
+    {
+      "url": "https://faculty.ustc.edu.cn/hanmingfei/zh_CN/zdylm/1039017/list/index.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://faculty.ustc.edu.cn/hanmingfei/zh_CN/zdylm/1039017/list/index.htm",
+      "responseSha256": "7560b77810a0ff3133678aca313c3a5680fadfd826d35d92b0b7a725ed88c8d2",
+      "error": null
+    },
+    {
+      "url": "https://faculty.ustc.edu.cn/liuwu/zh_CN/index.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://faculty.ustc.edu.cn/liuwu/zh_CN/index.htm",
+      "responseSha256": "e59111355fc25299d292530e6e3f4d75499cf3d75a4ad092db358bcce8b42a74",
+      "error": null
+    },
+    {
+      "url": "https://faculty.ustc.edu.cn/sqren/zh_CN/index.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://faculty.ustc.edu.cn/sqren/zh_CN/index.htm",
+      "responseSha256": "ece8b26165c9eca38a7bb139059d006830670a082612ab75bd3296f15274bd15",
+      "error": null
+    },
+    {
+      "url": "https://faculty.ustc.edu.cn/xiaojunbin/en/index.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://faculty.ustc.edu.cn/xiaojunbin/en/index.htm",
+      "responseSha256": "f59c263df191837c86eb767d1589cdeb23fe523a50bf7d766ca5e71d11657469",
+      "error": null
+    },
+    {
+      "url": "https://faculty.ustc.edu.cn/xiaojunbin/zh_CN/index.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://faculty.ustc.edu.cn/xiaojunbin/zh_CN/index.htm",
+      "responseSha256": "12222dbfdee9c9717e01085ddb75c1d51609cb33c1df145e1537c8bb17cb7452",
+      "error": null
+    },
+    {
+      "url": "https://faculty.ustc.edu.cn/xinchen/zh_CN/index.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://faculty.ustc.edu.cn/xinchen/zh_CN/index.htm",
+      "responseSha256": "189efb82e3b6ae47f48a034a102c43ab8a542f02eeb44c4d1115926fd814a1f1",
+      "error": null
+    },
+    {
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/",
+      "httpStatus": 200,
+      "finalUrl": "https://facultyprofiles.hkust-gz.edu.cn/",
+      "responseSha256": "2d72eaf768259b56804ba8b659d22c564992f541cad2ebf168238ab5dbab589a",
+      "error": null
+    },
+    {
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Yan/yanli2",
+      "httpStatus": 200,
+      "finalUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Yan/yanli2",
+      "responseSha256": "2d72eaf768259b56804ba8b659d22c564992f541cad2ebf168238ab5dbab589a",
+      "error": null
+    },
+    {
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ping-tan-pingtan",
+      "httpStatus": 200,
+      "finalUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ping-tan-pingtan",
+      "responseSha256": "4992b908660d1c8ba5daa199a1138127368cc7303b097d2f73b3783f3acf21fb",
+      "error": null
+    },
+    {
+      "url": "https://fangqiangding.com/",
+      "httpStatus": 200,
+      "finalUrl": "https://fangqiangding.com/",
+      "responseSha256": "3abbf33b98ba8393eaa9f3d4a4458e52a2043886879233ce80f0020f8f644d00",
+      "error": null
+    },
+    {
+      "url": "https://fangqiangding.com/group/",
+      "httpStatus": 200,
+      "finalUrl": "https://fangqiangding.com/group/",
+      "responseSha256": "207c26d4299d307d6680b1a21451d5b2bd2f2505a1bc3533dd282033b1610534",
+      "error": null
+    },
+    {
+      "url": "https://feichenlab.com/",
+      "httpStatus": 200,
+      "finalUrl": "https://feichenlab.com/",
+      "responseSha256": "4602dd6c644be5637c018a07f8154a09bea0ce62cfd4648805b3b8129c71b825",
+      "error": null
+    },
+    {
+      "url": "https://feichenlab.com/openings/",
+      "httpStatus": 200,
+      "finalUrl": "https://feichenlab.com/openings/",
+      "responseSha256": "a0ae9cc5d289d969923b528171380c23fd39e1dd6f5d65d3d9c25ab5366b7a8b",
+      "error": null
+    },
+    {
+      "url": "https://fit.fudan.edu.cn/Assets/userfiles/sys_2939ad18-5046-44ce-ba93-a7f600e54d68/files/309%E6%9C%AA%E6%9D%A5%E4%BF%A1%E6%81%AF%E5%8D%9A%E5%A3%AB%E7%94%9F%E7%94%B3%E8%AF%B7%E5%AE%A1%E6%A0%B8%E5%88%B6%E9%80%89%E6%8B%94%E5%8A%9E%E6%B3%95.pdf",
+      "httpStatus": 200,
+      "finalUrl": "https://fit.fudan.edu.cn/Assets/userfiles/sys_2939ad18-5046-44ce-ba93-a7f600e54d68/files/309%E6%9C%AA%E6%9D%A5%E4%BF%A1%E6%81%AF%E5%8D%9A%E5%A3%AB%E7%94%9F%E7%94%B3%E8%AF%B7%E5%AE%A1%E6%A0%B8%E5%88%B6%E9%80%89%E6%8B%94%E5%8A%9E%E6%B3%95.pdf",
+      "responseSha256": "28f64215cdd287c8b90b248a2befae7b4016130917612b6463772ee91b16d64f",
+      "error": null
+    },
+    {
+      "url": "https://fit.fudan.edu.cn/Data/View/2989",
+      "httpStatus": 200,
+      "finalUrl": "https://fit.fudan.edu.cn/Data/View/2989",
+      "responseSha256": "130790e63f624c2e71ade824dffb163dabed3e69d2c75731a17630fc84de21c6",
+      "error": null
+    },
+    {
+      "url": "https://fit.fudan.edu.cn/En/Data/List/PhD%20Programmes",
+      "httpStatus": 200,
+      "finalUrl": "https://fit.fudan.edu.cn/En/Data/List/PhD%20Programmes",
+      "responseSha256": "fe2198dafea793df25da0a4b7ba9de10d70b1c759537d7c6b84da891adb2bde4",
+      "error": null
+    },
+    {
+      "url": "https://fpfcjdsg.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://fpfcjdsg.github.io/",
+      "responseSha256": "84864a99f1949d6ff781fcf1e60796976e282ebacd662b031ec196e2ee255319",
+      "error": null
+    },
+    {
+      "url": "https://ga.sjtu.edu.cn/zsgl/zsmlgl/zsml_bs.aspx?COLLCC=3580823700",
+      "httpStatus": 200,
+      "finalUrl": "https://ga.sjtu.edu.cn/zsgl/zsmlgl/zsml_bs.aspx?COLLCC=3580823700",
+      "responseSha256": "bb9e5b4aaf241b05314e3b98923c856b5998863a6bf7fa0b9acd08e9ea50b81a",
+      "error": null
+    },
+    {
+      "url": "https://gift.sjtu.edu.cn/faculty",
+      "httpStatus": 200,
+      "finalUrl": "https://gift.sjtu.edu.cn/faculty",
+      "responseSha256": "cd3572f38ff7bbab78467ff7e111748d78e02dbbcac18f0f0eb3caa2b38c4521",
+      "error": null
+    },
+    {
+      "url": "https://gift.sjtu.edu.cn/faculty/44958",
+      "httpStatus": 200,
+      "finalUrl": "https://gift.sjtu.edu.cn/faculty/44958",
+      "responseSha256": "38d540cdc29706fb2f47da36570b106a47413fec03c87b30b551d8451992eb55",
+      "error": null
+    },
+    {
+      "url": "https://gift.sjtu.edu.cn/faculty/45211",
+      "httpStatus": 200,
+      "finalUrl": "https://gift.sjtu.edu.cn/faculty/45211",
+      "responseSha256": "7fabc6fa451db262b15d21166880073ec92ddd1a4bdd4aefc19238af342e6dda",
+      "error": null
+    },
+    {
+      "url": "https://gift.sjtu.edu.cn/faculty/45323",
+      "httpStatus": 200,
+      "finalUrl": "https://gift.sjtu.edu.cn/faculty/45323",
+      "responseSha256": "43d9dcf13ab51b4eff732457b2fcbd42dcd236d9eb414e91dd8c3dfdbd9d4a4b",
+      "error": null
+    },
+    {
+      "url": "https://gradsch.hku.hk/prospective_students/programmes/regulations_for_the_degree_of_master_of_philosophy_mphil",
+      "httpStatus": 200,
+      "finalUrl": "https://gradsch.hku.hk/prospective_students/programmes/regulations_for_the_degree_of_master_of_philosophy_mphil",
+      "responseSha256": "4a69366f62d5efc771e53faa0398f98d267a8c365483ee9477a5b877114f4d75",
+      "error": null
+    },
+    {
+      "url": "https://hku-sas.hku.hk/",
+      "httpStatus": 403,
+      "finalUrl": "https://hku-sas.hku.hk/",
+      "responseSha256": "19e48dd8b39e0c90e85029cf2af24c53544868f09ed1c1aaa81eb228aa6b3da5",
+      "error": null
+    },
+    {
+      "url": "https://huangweibuct.github.io/weihuang.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://huangweibuct.github.io/weihuang.github.io/",
+      "responseSha256": "630af159750d3f667182efc28a8eaa0df2fb731241ca7f7fdfed809d90dbf61a",
+      "error": null
+    },
+    {
+      "url": "https://i.cs.hku.hk/~hszhao/",
+      "httpStatus": 200,
+      "finalUrl": "https://i.cs.hku.hk/~hszhao/",
+      "responseSha256": "4ffb226e99163ff78b52b290faf945a47f0332ff3905dad7575f14d5be093b6e",
+      "error": null
+    },
+    {
+      "url": "https://i4fsi.lab.westlake.edu.cn",
+      "httpStatus": 200,
+      "finalUrl": "https://i4fsi.lab.westlake.edu.cn/",
+      "responseSha256": "5eed6ff14efb6baf89213c6c61cb6a471a2f278fbd63dc79bae217a0259fe468",
+      "error": null
+    },
+    {
+      "url": "https://icoz69.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://icoz69.github.io/",
+      "responseSha256": "0b719349074d3ba3a88837523e261a66d781267381202db0792084543bef914c",
+      "error": null
+    },
+    {
+      "url": "https://infh.hkust-gz.edu.cn/about/our-people/faculty/",
+      "httpStatus": 200,
+      "finalUrl": "https://infh.hkust-gz.edu.cn/about/our-people/faculty/",
+      "responseSha256": "2667f19f8f944c778ecfb88960767913c8934c67b5848121b69812ef5f834105",
+      "error": null
+    },
+    {
+      "url": "https://ins.seu.edu.cn/sgm/",
+      "httpStatus": 200,
+      "finalUrl": "https://ins.seu.edu.cn/sgm/",
+      "responseSha256": "cdec67c7a144147c0f8da39c47c0d5918dda111df32b3e6de85ca176ce735591",
+      "error": null
+    },
+    {
+      "url": "https://ins.seu.edu.cn/zh/main.psp",
+      "httpStatus": 200,
+      "finalUrl": "https://ins.seu.edu.cn/zh/main.psp",
+      "responseSha256": "8c0fff202efadb3edfce3bfb3d1ac4fef6048e061e8da873360f069d788cf650",
+      "error": null
+    },
+    {
+      "url": "https://ins.seu.edu.cn/zj/list.psp",
+      "httpStatus": 200,
+      "finalUrl": "https://ins.seu.edu.cn/zj/list.psp",
+      "responseSha256": "99da1f565a3f6e836d0739b57441e56268b8a073bd5d6bbf62f29078eeddb8b2",
+      "error": null
+    },
+    {
+      "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260724022",
+      "httpStatus": 200,
+      "finalUrl": "https://jobs.polyu.edu.hk/job_detail.php?job=260724022",
+      "responseSha256": "ab3baaa128ab6b58105546057bd6bfd3d46de774ab7da1f227995ccbf3625fa9",
+      "error": null
+    },
+    {
+      "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260907004",
+      "httpStatus": 200,
+      "finalUrl": "https://jobs.polyu.edu.hk/job_detail.php?job=260907004",
+      "responseSha256": "46d1cbfb2b91051a4e5cc67a1f1d8c9df721d015055bcfab3ec0cc5a2a8079b4",
+      "error": null
+    },
+    {
+      "url": "https://junjh.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://junjh.github.io/",
+      "responseSha256": "3afc26acd3e4c42809066359dbe88be415fe99289a5f9ca205c62208771947fd",
+      "error": null
+    },
+    {
+      "url": "https://junweiliang.me/",
+      "httpStatus": 200,
+      "finalUrl": "https://junweiliang.me/",
+      "responseSha256": "bb6756bfa397c0659b89d66277cb24692fd626fad49bd4a85048a9c723fb70b9",
+      "error": null
+    },
+    {
+      "url": "https://kiki007.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://kiki007.github.io/",
+      "responseSha256": "9224076c371ed00ef5a7a6baf9fbd25aaa6fec5777425ffda95a901f2794af89",
+      "error": null
+    },
+    {
+      "url": "https://kiki007.github.io/news/announcement_1/",
+      "httpStatus": 200,
+      "finalUrl": "https://kiki007.github.io/news/announcement_1/",
+      "responseSha256": "4fc0c16d2704f82c21a93c9c04abf4525af8b91bb0147a124dae914cb3d0ab20",
+      "error": null
+    },
+    {
+      "url": "https://labsun.org/",
+      "httpStatus": 200,
+      "finalUrl": "https://labsun.org/",
+      "responseSha256": "f2c7d9c9a42235042724366eb6608856b213d5a2dcf95e74293a7d52bcd230a0",
+      "error": null
+    },
+    {
+      "url": "https://libliu.info/",
+      "httpStatus": 200,
+      "finalUrl": "https://libliu.info/",
+      "responseSha256": "3ee32c5f3c4219a9c7235e5c1857a26f34653fef81d7577f1b7ea2b17b3c1149",
+      "error": null
+    },
+    {
+      "url": "https://ling-pan.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://ling-pan.github.io/",
+      "responseSha256": "c654da1328d72441cb38526cb40c9fec8ec47451e347760d3a01f7a5ad065b6d",
+      "error": null
+    },
+    {
+      "url": "https://liyan.me/",
+      "httpStatus": 200,
+      "finalUrl": "https://liyan.me/",
+      "responseSha256": "b7bdfc3823e11ab29d425182f43704f877829614609b8afd993ebf187fc4be46",
+      "error": null
+    },
+    {
+      "url": "https://maple.lab.westlake.edu.cn/",
+      "httpStatus": 200,
+      "finalUrl": "https://maple.lab.westlake.edu.cn/",
+      "responseSha256": "ee159ba67d7c7ab6292068a6aa4e19c3c2339cb81b580438dd6c373112a48ff9",
+      "error": null
+    },
+    {
+      "url": "https://maple.lab.westlake.edu.cn/Join_us.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://maple.lab.westlake.edu.cn/Join_us.htm",
+      "responseSha256": "a2363d1bf439091a958fb32b4106bdbc2846231811d01de7b59db9fb71009d02",
+      "error": null
+    },
+    {
+      "url": "https://mars.hku.hk/",
+      "httpStatus": 200,
+      "finalUrl": "https://mars.hku.hk/",
+      "responseSha256": "c4e4df99320c651e326f37d09c0933efb20b55c9aa0534c7211e9def2f4cac76",
+      "error": null
+    },
+    {
+      "url": "https://me.seu.edu.cn/2025/1104/c31182a544715/pagem.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://me.seu.edu.cn/2025/1104/c31182a544715/pagem.htm",
+      "responseSha256": "b8bb0a01cb770e062fe9d710fd5258205a769bb5cef1fd623fed56872390cb77",
+      "error": null
+    },
+    {
+      "url": "https://me.seu.edu.cn/wqq/list.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://me.seu.edu.cn/wqq/list.htm",
+      "responseSha256": "9b2d3cbdc00e6835ea5eeef4d0e345db99dfe2967dd0790475aa6ae1be0dfb9a",
+      "error": null
+    },
+    {
+      "url": "https://me.seu.edu.cn/wxy/list.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://me.seu.edu.cn/wxy/list.htm",
+      "responseSha256": "55ab1c3028875c3e71003db7bc1c630cbaa0e1a1062541144cb91dbf09c3fd31",
+      "error": null
+    },
+    {
+      "url": "https://mech.hku.hk/academic-staff/lu-p/",
+      "httpStatus": null,
+      "finalUrl": null,
+      "responseSha256": null,
+      "error": "HTTPSConnectionPool(host='mech.hku.hk', port=443): Read timed out."
+    },
+    {
+      "url": "https://mech.hku.hk/academic-staff/zhang-f/",
+      "httpStatus": 403,
+      "finalUrl": "https://mech.hku.hk/academic-staff/zhang-f/",
+      "responseSha256": "2add39b58f351caace89ea6e2e7ab4e2249cee552d81880ec7c2e6d93e8c8400",
+      "error": null
+    },
+    {
+      "url": "https://mefaculty.tongji.edu.cn/__local/4/48/CC/D50F50067FE7FDC234E678B2ED6_CC7FA6E8_21A5D.pdf",
+      "httpStatus": 200,
+      "finalUrl": "https://mefaculty.tongji.edu.cn/__local/4/48/CC/D50F50067FE7FDC234E678B2ED6_CC7FA6E8_21A5D.pdf",
+      "responseSha256": "127a4be4081a5a2f60fe21935ae473c7fe4a103415b7ad6f0397427b8851ddda",
+      "error": null
+    },
+    {
+      "url": "https://mefaculty.tongji.edu.cn/info/1373/3764.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://mefaculty.tongji.edu.cn/info/1373/3764.htm",
+      "responseSha256": "d64dcee3d3797361ab43ede0441fc583c51fe8cad124d00baa9905884f8de669",
+      "error": null
+    },
+    {
+      "url": "https://mefaculty.tongji.edu.cn/info/1373/3853.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://mefaculty.tongji.edu.cn/info/1373/3853.htm",
+      "responseSha256": "0af7c8effa9bb7ac2931b198e6e59dcbda90606c4b6253ddf0309e5bc6bb1423",
+      "error": null
+    },
+    {
+      "url": "https://mefaculty.tongji.edu.cn/info/1463/5600.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://mefaculty.tongji.edu.cn/info/1463/5600.htm",
+      "responseSha256": "68276b6f5c7db88723e5de012d399f970e9ec5fcf4fb02e444043480c6e149d0",
+      "error": null
+    },
+    {
+      "url": "https://metaslam.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://metaslam.github.io/",
+      "responseSha256": "22c5bf448016ed1fbb3adc1e9f168c67f3cce070e68efac3f39298fd3a634e93",
+      "error": null
+    },
+    {
+      "url": "https://mias.group/",
+      "httpStatus": 200,
+      "finalUrl": "https://mias.group/",
+      "responseSha256": "68a4382bb9294fe0c43c3590e3004de2cd339a072ad7d433dba3c2bc259328fa",
+      "error": null
+    },
+    {
+      "url": "https://mias.group/members",
+      "httpStatus": 200,
+      "finalUrl": "https://mias.group/members/",
+      "responseSha256": "9bbad935643d22c448a4d396250d1ad4c29fa5a38ca8a05924fcd57becc31ecb",
+      "error": null
+    },
+    {
+      "url": "https://mias.group/vacancies.html",
+      "httpStatus": 200,
+      "finalUrl": "https://mias.group/vacancies.html",
+      "responseSha256": "c2f010e014e928f8fc4fd6d2327e67860183a72e6b7ebbeeba978b978c817fca",
+      "error": null
+    },
+    {
+      "url": "https://milab.westlake.edu.cn/",
+      "httpStatus": 200,
+      "finalUrl": "https://milab.westlake.edu.cn/",
+      "responseSha256": "cf802cb1cceea308af3cf7c0618839f4413eb6d72fdb5b9c27a7c558459cf8a2",
+      "error": null
+    },
+    {
+      "url": "https://milab.westlake.edu.cn/contact.html",
+      "httpStatus": 200,
+      "finalUrl": "https://milab.westlake.edu.cn/contact.html",
+      "responseSha256": "1c9fe35ebf78b70935b14a899f1a73e0120503b118f01161bacbe870077d5db1",
+      "error": null
+    },
+    {
+      "url": "https://milab.westlake.edu.cn/people.html",
+      "httpStatus": 200,
+      "finalUrl": "https://milab.westlake.edu.cn/people.html",
+      "responseSha256": "9ba03647c7d7e13ec2e6628dcb8b09de36043c21babfeb023fbb38c19b4d50df",
+      "error": null
+    },
+    {
+      "url": "https://mrl.hkust.edu.hk/",
+      "httpStatus": 200,
+      "finalUrl": "https://mrl.hkust.edu.hk/",
+      "responseSha256": "c8300b78ca6e9f16b10fd539f415dfd2c4f20890a2f8629915b20790a8f19ba9",
+      "error": null
+    },
+    {
+      "url": "https://mrl.hkust.edu.hk/openings/",
+      "httpStatus": 200,
+      "finalUrl": "https://mrl.hkust.edu.hk/openings/",
+      "responseSha256": "27a0197c3742d52d3e4b3923b14c0fca5ecd3135383a543618ca34650f7904de",
+      "error": null
+    },
+    {
+      "url": "https://mrl.hkust.edu.hk/team/",
+      "httpStatus": 200,
+      "finalUrl": "https://mrl.hkust.edu.hk/team/",
+      "responseSha256": "cd132e37f333d3617f815527ebaf3bfbf6b9d485f3d27dfb7121e212b1982371",
+      "error": null
+    },
+    {
+      "url": "https://muyuan.westlake.edu.cn/qtlm/sylb/202205/t20220507_20349.shtml",
+      "httpStatus": 200,
+      "finalUrl": "https://muyuan.westlake.edu.cn/qtlm/sylb/202205/t20220507_20349.shtml",
+      "responseSha256": "6064dd4bbfc5a9b0f99716558899297b49d47dc57136ef03207957c03be1c8e9",
+      "error": null
+    },
+    {
+      "url": "https://myweb.cuhk.edu.cn/tllam",
+      "httpStatus": 200,
+      "finalUrl": "https://myweb.cuhk.edu.cn/tllam",
+      "responseSha256": "6bc5ae30bcb845fe0b9e68807d26b446d8dcdb8f4490aabd5748a80d8ad7cc73",
+      "error": null
+    },
+    {
+      "url": "https://opendrivelab.com/",
+      "httpStatus": 200,
+      "finalUrl": "https://opendrivelab.com/",
+      "responseSha256": "e64170b422ce1117908c7cdcbf2975cf08a4c7a2ce974ffad87e87a255a2913e",
+      "error": null
+    },
+    {
+      "url": "https://pairslab.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://pairslab.github.io/",
+      "responseSha256": "615887f6c105da0b8177711af28b0f5a1bc2ff4bde37cd4cbe9333295e58943e",
+      "error": null
+    },
+    {
+      "url": "https://pairslab.github.io/join/",
+      "httpStatus": 200,
+      "finalUrl": "https://pairslab.github.io/join/",
+      "responseSha256": "af043d0a644445f6379de8d293e774783748f50a8447d7a573969b874b3a66f4",
+      "error": null
+    },
+    {
+      "url": "https://palm.seu.edu.cn/application.html",
+      "httpStatus": 200,
+      "finalUrl": "https://palm.seu.edu.cn/application.html",
+      "responseSha256": "4af509773640d059b2e2979eb4770d7a8df5afa1faaffd5fc750bd470683436c",
+      "error": null
+    },
+    {
+      "url": "https://palm.seu.edu.cn/smf/index.html",
+      "httpStatus": 200,
+      "finalUrl": "https://palm.seu.edu.cn/smf/index.html",
+      "responseSha256": "86aaac1577369efe00c21a58b335493f5a6f89ba872b20fb794cdb275417aa02",
+      "error": null
+    },
+    {
+      "url": "https://pingtan.people.ust.hk/index.html",
+      "httpStatus": 200,
+      "finalUrl": "https://pingtan.people.ust.hk/index.html",
+      "responseSha256": "55a6218723eba4df28496f9f271af791a75ef1fa98a1e2ed45df682417ed98c5",
+      "error": null
+    },
+    {
+      "url": "https://polyu-taslab.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://polyu-taslab.github.io/",
+      "responseSha256": "85e0deabd784da14a4a2ff31d9c153b48264b417c534d5be4ccdeb39c4c073a5",
+      "error": null
+    },
+    {
+      "url": "https://polyu-taslab.github.io/openings/",
+      "httpStatus": 200,
+      "finalUrl": "https://polyu-taslab.github.io/openings/",
+      "responseSha256": "11a9a3fc339553b47fc45aa55c77fb19b79b895323266d1796eeadc8d98d15a7",
+      "error": null
+    },
+    {
+      "url": "https://precognition.team/",
+      "httpStatus": 200,
+      "finalUrl": "https://precognition.team/",
+      "responseSha256": "73820c8bcd1152e7f551de6aa7f934bf619bf313cf1e8cb93c03e8c85f03e49a",
+      "error": null
+    },
+    {
+      "url": "https://raidsgroup.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://raidsgroup.github.io/",
+      "responseSha256": "d226098c5c70e9d9853ac81e180ed5075e134efd6b00cf47c8dfcbe6a736e28c",
+      "error": null
+    },
+    {
+      "url": "https://research.cuhk.edu.hk/en/persons/yunhui-liu/",
+      "httpStatus": null,
+      "finalUrl": null,
+      "responseSha256": null,
+      "error": "HTTPSConnectionPool(host='research.cuhk.edu.hk', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "url": "https://ri.hkust.edu.hk/people/ling-pan",
+      "httpStatus": 200,
+      "finalUrl": "https://ri.hkust.edu.hk/people/ling-pan",
+      "responseSha256": "0862fbb41ab4475488779e68bfa2c12f7d2646e0e7c3e17863fbd2851caef7a0",
+      "error": null
+    },
+    {
+      "url": "https://ri.hkust.edu.hk/people/ziqi-wang",
+      "httpStatus": 200,
+      "finalUrl": "https://ri.hkust.edu.hk/people/ziqi-wang",
+      "responseSha256": "1ce5c502f535d7d8a5c8b7131f8df8d80e90ad063c09a4e2da0c9addf49568f8",
+      "error": null
+    },
+    {
+      "url": "https://ril-lab.top/en/",
+      "httpStatus": 200,
+      "finalUrl": "https://ril-lab.top/en/",
+      "responseSha256": "91a0bc165ffeaaae19c0e5291a9cc7e6c45d584a6b1baa177e1cb3c3622d54b9",
+      "error": null
+    },
+    {
+      "url": "https://robot.tongji.edu.cn/info/1256/2090.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://robot.tongji.edu.cn/info/1256/2090.htm",
+      "responseSha256": "76dd9d11509a1d4d223c971d31442a2b2ea00099d47e9d2df7affdc34fa02450",
+      "error": null
+    },
+    {
+      "url": "https://robot.tongji.edu.cn/info/1256/2363.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://robot.tongji.edu.cn/info/1256/2363.htm",
+      "responseSha256": "ad10a4ac76bb1b90b72e739c144b5cee2256f21f7309857b55eedab24bf673eb",
+      "error": null
+    },
+    {
+      "url": "https://robot.tongji.edu.cn/info/1256/2759.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://robot.tongji.edu.cn/info/1256/2759.htm",
+      "responseSha256": "e539ee928f8d786ba643acb28e07e6ddaf73546c1148caf189471f20b1c2a01c",
+      "error": null
+    },
+    {
+      "url": "https://robot.tongji.edu.cn/info/1256/2798.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://robot.tongji.edu.cn/info/1256/2798.htm",
+      "responseSha256": "636307df2ef6ae40a7b44df71b5c74a688904d5610421a26a2b7eda1f047395a",
+      "error": null
+    },
+    {
+      "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+      "responseSha256": "13effdfd384122919b0d55b2049d3a5217539d3b5614f46a538cb12b7cbbdbb3",
+      "error": null
+    },
+    {
+      "url": "https://robot.tongji.edu.cn/sysjs.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://robot.tongji.edu.cn/sysjs.htm",
+      "responseSha256": "bb2f5fcb1f5cc43083ada1e0dd7b61865c213a05a9e25335fd395a8671199d8e",
+      "error": null
+    },
+    {
+      "url": "https://sai.cuhk.edu.cn/en/node/35",
+      "httpStatus": 200,
+      "finalUrl": "https://sai.cuhk.edu.cn/en/node/35",
+      "responseSha256": "64bfd1a17a9f12a8ea5fce59ef742323d9b8bd90e5d844f7cb9fa4941c79540c",
+      "error": null
+    },
+    {
+      "url": "https://sai.cuhk.edu.cn/en/teacher/153",
+      "httpStatus": 200,
+      "finalUrl": "https://sai.cuhk.edu.cn/en/teacher/153",
+      "responseSha256": "f74340f3cb64c6b5e633897fcac9d06b34a26f3da7c355de64f2b67378a60cc2",
+      "error": null
+    },
+    {
+      "url": "https://sai.cuhk.edu.cn/page/205",
+      "httpStatus": 200,
+      "finalUrl": "https://sai.cuhk.edu.cn/page/205",
+      "responseSha256": "bdc918dd1b1d77c122546a72a41b86642386d50c32adae0a205ba0333fda1175",
+      "error": null
+    },
+    {
+      "url": "https://sai.pku.edu.cn/info/1034/9565.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://sai.pku.edu.cn/info/1034/9565.htm",
+      "responseSha256": "30e10c88be552765965f40f8b21c938f9e54d6c8df2ef53533a18d11565b8895",
+      "error": null
+    },
+    {
+      "url": "https://sai.pku.edu.cn/info/1362/2389.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://sai.pku.edu.cn/info/1362/2389.htm",
+      "responseSha256": "42faa37f639ae87d6f10123d4aa9d0760a890f7b8636b249a90c3864e974e8f4",
+      "error": null
+    },
+    {
+      "url": "https://sail.ai.hku.hk/",
+      "httpStatus": 200,
+      "finalUrl": "https://sail.ai.hku.hk/",
+      "responseSha256": "8ae63bbdfba5581a9b15d27ab47e6e1da2730f276fe148ff85f3b64b05b807f7",
+      "error": null
+    },
+    {
+      "url": "https://sais.sjtu.edu.cn/faculty.html",
+      "httpStatus": 200,
+      "finalUrl": "https://sais.sjtu.edu.cn/faculty.html",
+      "responseSha256": "209903e83b29ce54d5d557ef0b314b6bd0679aa84137d94606b8622b66570b02",
+      "error": null
+    },
+    {
+      "url": "https://sais.sjtu.edu.cn/faculty/majin.html",
+      "httpStatus": 200,
+      "finalUrl": "https://sais.sjtu.edu.cn/faculty/majin.html",
+      "responseSha256": "f42caefb780c811495bfc6eab50f68928e4c62c2ff559fe966de674806a5a186",
+      "error": null
+    },
+    {
+      "url": "https://scholars.cityu.edu.hk/en/persons/pengyin/",
+      "httpStatus": 200,
+      "finalUrl": "https://scholars.cityu.edu.hk/en/persons/pengyin/",
+      "responseSha256": "4826edc7ad746c6d3439b8d69e5c62e12f272b7ea706cb7365ecafa444792b45",
+      "error": null
+    },
+    {
+      "url": "https://see.tongji.edu.cn/info/1376/10427.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://see.tongji.edu.cn/info/1376/10427.htm",
+      "responseSha256": "ade91e78eaea8f65d762d95c1a409ae700917291d7bd646b07128720b7d40a31",
+      "error": null
+    },
+    {
+      "url": "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/A_G.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://see.tongji.edu.cn/szdw1/jzyg/jiaoshou/A_G.htm",
+      "responseSha256": "5eff107116b76859d8aae9bae94bd341f29b77dd6756d7497373fcb7d30f71e2",
+      "error": null
+    },
+    {
+      "url": "https://shiyuzhao.westlake.edu.cn/index.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://shiyuzhao.westlake.edu.cn/index.htm",
+      "responseSha256": "4cee9cba96c3828b2f702d29611d0de120609392a3850d3082302e32a70e6b20",
+      "error": null
+    },
+    {
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/roas/faculty-profile/",
+      "httpStatus": 500,
+      "finalUrl": "https://sysh.hkust-gz.edu.cn/thrust-areas/roas/faculty-profile/",
+      "responseSha256": "ab042cc6e4c80819737233295dfcaea741e7bca9ff6b8d537f91ecf4ff903267",
+      "error": null
+    },
+    {
+      "url": "https://wangwei.lab.westlake.edu.cn/",
+      "httpStatus": 200,
+      "finalUrl": "https://wangwei.lab.westlake.edu.cn/",
+      "responseSha256": "176c851a7f929d486ef62e369d1987cfc4f4658484e498cb999546c7b781c97a",
+      "error": null
+    },
+    {
+      "url": "https://www.ai.hku.hk/people/academic-staff/yanchaoy",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ai.hku.hk/people/academic-staff/yanchaoy",
+      "responseSha256": "d4739e46e087fd4c349d8c6f7d96e923d0c7ce1e9d6cc5975d2e9147d84680b3",
+      "error": null
+    },
+    {
+      "url": "https://www.ai.pku.edu.cn/info/1313/1699.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ai.pku.edu.cn/info/1313/1699.htm",
+      "responseSha256": "f14bcaab9ba520ab3e85560197bea3db5e393926807c83c23b4ba8afff52c31f",
+      "error": null
+    },
+    {
+      "url": "https://www.cityu.edu.hk/mne/people/academic-staff/mne-faculty/prof-sun-yuxiang",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cityu.edu.hk/mne/people/academic-staff/mne-faculty/prof-sun-yuxiang",
+      "responseSha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "error": null
+    },
+    {
+      "url": "https://www.dase.hku.hk/people/c-sun",
+      "httpStatus": 200,
+      "finalUrl": "https://www.dase.hku.hk/people/c-sun",
+      "responseSha256": "a1914970af5fbed482031d7191629a8ee5ecf68ee364700efa7beff52c2e635a",
+      "error": null
+    },
+    {
+      "url": "https://www.ds.cityu.edu.hk/en/programmes/postgraduate-programmes/phd-programme-data-science",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ds.cityu.edu.hk/en/programmes/postgraduate-programmes/phd-programme-data-science",
+      "responseSha256": "5c8f8d13628ca7ef2f4b2b963ccc13b2963668c790c7fc4d4bc5ea15f32b0e66",
+      "error": null
+    },
+    {
+      "url": "https://www.fudan.edu.cn/2025/1021/c24a146999/page.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://www.fudan.edu.cn/2025/1021/c24a146999/page.htm",
+      "responseSha256": "f4f7ad518a2ff61fc6d8d6b30bdd6304b72b75dd01b3401ce307c1791b5babec",
+      "error": null
+    },
+    {
+      "url": "https://www.hkclr.hk/en/join-us/cuhk-legged-robot-lab",
+      "httpStatus": 200,
+      "finalUrl": "https://www.hkclr.hk/en/join-us/cuhk-legged-robot-lab",
+      "responseSha256": "873f199dfd83d65547f5d998d88fa403f28512471f1a6e69f775c21c6b4e45aa",
+      "error": null
+    },
+    {
+      "url": "https://www.hongyang.li/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.hongyang.li/",
+      "responseSha256": "084574cadd2138fa76f9b4d8265544ff939e9c8d2c10117ce1f0eb8cab334bee",
+      "error": null
+    },
+    {
+      "url": "https://www.polyu.edu.hk/en/aae/people/academic-staff/dr-wen-weisong/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.polyu.edu.hk/en/aae/people/academic-staff/dr-wen-weisong/",
+      "responseSha256": "a6482e15910668b066cbcda297b6dca410e59143e23264fd325aad2fec539750",
+      "error": null
+    },
+    {
+      "url": "https://www.polyu.edu.hk/ise/people/academic-staff/pai-zheng/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.polyu.edu.hk/ise/people/academic-staff/pai-zheng/",
+      "responseSha256": "e45f132687c1d5fe1cbd69278e43abd4ebd8829d51bc029b5f1a8273e5de19d3",
+      "error": null
+    },
+    {
+      "url": "https://www.ruirangerfan.com",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ruirangerfan.com/",
+      "responseSha256": "1fcde7649f074abc0a22d2f3967652698a221a430694c6d70ee9e24b06fabb59",
+      "error": null
+    },
+    {
+      "url": "https://www.yukaicheng.cn/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.yukaicheng.cn/",
+      "responseSha256": "de40303b643f2c58e617fd1e14a31b8ed40588338d74afc51719b5031de0fb51",
+      "error": null
+    },
+    {
+      "url": "https://www4.mae.cuhk.edu.hk/peoples/chen-fei/",
+      "httpStatus": null,
+      "finalUrl": null,
+      "responseSha256": null,
+      "error": "HTTPSConnectionPool(host='www4.mae.cuhk.edu.hk', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "url": "https://www4.mae.cuhk.edu.hk/peoples/li-zhongyu/",
+      "httpStatus": null,
+      "finalUrl": null,
+      "responseSha256": null,
+      "error": "HTTPSConnectionPool(host='www4.mae.cuhk.edu.hk', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "url": "https://xh-liu.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://xh-liu.github.io/",
+      "responseSha256": "85dc8b6a90938405c7095fdd168077f115e134517043b991f84acdddc184f99b",
+      "error": null
+    },
+    {
+      "url": "https://yanchaoyang.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://yanchaoyang.github.io/",
+      "responseSha256": "253394cc1cdf83ab4b40ae4c7d7afc9eecbc6af583d853eaf2d5c97a45e8455a",
+      "error": null
+    },
+    {
+      "url": "https://ydxu2025.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://ydxu2025.github.io/",
+      "responseSha256": "75e6ca0ea9d1ffc08bbeb83d162d1d0678c5596abc2b3372d9e047e3a46f70ab",
+      "error": null
+    },
+    {
+      "url": "https://yz.tongji.edu.cn/__local/4/DE/C5/CBF316CC9EAB81193FCB6F174F2_FAE3F663_3C498.pdf",
+      "httpStatus": 200,
+      "finalUrl": "https://yz.tongji.edu.cn/__local/4/DE/C5/CBF316CC9EAB81193FCB6F174F2_FAE3F663_3C498.pdf",
+      "responseSha256": "83d6a9df366075037c55b7fc0485c8416640daaf3f168b859144ce82ec170a59",
+      "error": null
+    },
+    {
+      "url": "https://yz.ustc.edu.cn/article/2795",
+      "httpStatus": 200,
+      "finalUrl": "https://yz.ustc.edu.cn/article/2795",
+      "responseSha256": "1eddfe9410a8977cbd9952a72604480660d2c613dffb0d1bd1d1a3a14ee15c4e",
+      "error": null
+    },
+    {
+      "url": "https://yzb.seu.edu.cn/2025/1105/c6668a544833/page.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://yzb.seu.edu.cn/2025/1105/c6668a544833/page.htm",
+      "responseSha256": "fc5a97530f8e213a956c76ddda86e3067d17375bffa9546d9552f23d70b3d93e",
+      "error": null
+    },
+    {
+      "url": "https://yzb.seu.edu.cn/6668/list.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://yzb.seu.edu.cn/6668/list.htm",
+      "responseSha256": "d35c6c1510f9cfef7b2d74c7a093e5b80b1f6edb19bcd2ec46af90c7a984fabe",
+      "error": null
+    },
+    {
+      "url": "https://z0ngqing.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://z0ngqing.github.io/",
+      "responseSha256": "6061fa7e4e507022fd6552befb7713e82de3a5c1206d303d60b515ff757fbb63",
+      "error": null
+    },
+    {
+      "url": "https://zyliatzju.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://zyliatzju.github.io/",
+      "responseSha256": "9cea0e60e634e50365e7b9b832b00bd22ffe4e3a487a8107afd208fe6c2f73c2",
+      "error": null
+    },
+    {
+      "url": "https://zyliatzju.github.io/assets/files/CV_Zhongyu_Li_Berkeley_Public.pdf",
+      "httpStatus": 200,
+      "finalUrl": "https://zyliatzju.github.io/assets/files/CV_Zhongyu_Li_Berkeley_Public.pdf",
+      "responseSha256": "33a0c17a9aea6ca41fcd6cf95eb10a11ed73009b09f2472e2a166a631067b551",
+      "error": null
+    },
+    {
+      "url": "https://yangling0818.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://yangling0818.github.io/",
+      "responseSha256": "58b2931e66fa8348f3efe8da7583fba182de495f7657ad2fefe56576c2d500d4",
+      "error": null
+    },
+    {
+      "url": "https://cmlr.pku.edu.cn/People/Faculty/1f5e4970b3ce4df496e29e2cafbd915f.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://cmlr.pku.edu.cn/People/Faculty/1f5e4970b3ce4df496e29e2cafbd915f.htm",
+      "responseSha256": "34445f9b28c23508d3e3005de9d2631b06ed04f49ee372b8d6ee8fdd1a260e3f",
+      "error": null
+    },
+    {
+      "url": "https://gen-verse.github.io/DIG/",
+      "httpStatus": 200,
+      "finalUrl": "https://gen-verse.github.io/DIG/",
+      "responseSha256": "b359d9a675fba4a37d7361afd9f87a812943e7798f98f4ff644d80c781aa011f",
+      "error": null
+    },
+    {
+      "url": "https://www.guannanhe.com/index_zh.html",
+      "httpStatus": 200,
+      "finalUrl": "https://www.guannanhe.com/index_zh.html",
+      "responseSha256": "eaff76b8270f0f97c7d2519737e80b7025b3f903690f8128a68a78ee53154c86",
+      "error": null
+    },
+    {
+      "url": "https://www.coe.pku.edu.cn/graduate/zsds26/13286.html",
+      "httpStatus": 200,
+      "finalUrl": "https://www.coe.pku.edu.cn/graduate/zsds26/13286.html",
+      "responseSha256": "16715f4ab97159bb6be4ca92fcf4fa5abe021240d2ae945ae7435c7a8d47bff6",
+      "error": null
+    },
+    {
+      "url": "https://me.sjtu.edu.cn/teacher_directory1/xiazeyang",
+      "httpStatus": 200,
+      "finalUrl": "https://me.sjtu.edu.cn/teacher_directory1/xiazeyang",
+      "responseSha256": "b2b131f4244b28612d8b913396dfd9ec4750a245c6ad224f1a4579dd44229a66",
+      "error": null
+    },
+    {
+      "url": "https://airx.sjtu.edu.cn/",
+      "httpStatus": 200,
+      "finalUrl": "https://airx.sjtu.edu.cn/",
+      "responseSha256": "bd5637206d0b153c3a6b985f8cdfecd1e735e0c4fb20be8b17f579d65c3b7712",
+      "error": null
+    },
+    {
+      "url": "https://letterligo.github.io/",
+      "httpStatus": 200,
+      "finalUrl": "https://letterligo.github.io/",
+      "responseSha256": "42305caf1362e9989ec4a657cb3aac60168bd0990524b63abcd98b3182b515fe",
+      "error": null
+    },
+    {
+      "url": "https://letterligo.netlify.app/",
+      "httpStatus": 200,
+      "finalUrl": "https://letterligo.netlify.app/",
+      "responseSha256": "e1385f8149687e43c762b38c1a4b21efcb79547ffd9527a1214439ee6aa3ea32",
+      "error": null
+    },
+    {
+      "url": "https://www.polyu.edu.hk/dsai/news-and-events/news/2026/20260810-welcome-new-ap/?sc_lang=en",
+      "httpStatus": 200,
+      "finalUrl": "https://www.polyu.edu.hk/dsai/news-and-events/news/2026/20260810-welcome-new-ap/?sc_lang=en",
+      "responseSha256": "2512ad91cb476dc40b78ad4fa55281af93369c6049da369400163d6d5af430eb",
+      "error": null
+    },
+    {
+      "url": "https://math.seu.edu.cn/cdx/list.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://math.seu.edu.cn/cdx/list.htm",
+      "responseSha256": "a3cc83d5569e918715dc06e3d262e4cde419d1ae03ab15d1ff45995d9d2e8aba",
+      "error": null
+    },
+    {
+      "url": "https://math.seu.edu.cn/_s256/cdx/list.psp",
+      "httpStatus": 200,
+      "finalUrl": "https://math.seu.edu.cn/_s256/cdx/list.psp",
+      "responseSha256": "ee959e81790c51f34b89ff8d41919ef4a82cf7089e3e85ae0c36173b67fc7096",
+      "error": null
+    },
+    {
+      "url": "https://faculty.ustc.edu.cn/jinzhezeng/zh_CN/zdylm/998937/list/index.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://faculty.ustc.edu.cn/jinzhezeng/zh_CN/zdylm/998937/list/index.htm",
+      "responseSha256": "1e901e0767dd42e8d2fec70ccefda7a25cf5bbdfe6466b19e1d7d9d461113925",
+      "error": null
+    },
+    {
+      "url": "https://faculty.ustc.edu.cn/jinzhezeng/zh_CN/index/998933/list/index.htm",
+      "httpStatus": 200,
+      "finalUrl": "https://faculty.ustc.edu.cn/jinzhezeng/zh_CN/index/998933/list/index.htm",
+      "responseSha256": "8c6beb8dac4a54a714c2a8ba708419776dc02e7e46b90f3655029e6278a7e73d",
+      "error": null
+    },
+    {
+      "url": "https://www.zhihu.com/en/article/1917225490940408958",
+      "httpStatus": 200,
+      "finalUrl": "https://www.zhihu.com/en/article/1917225490940408958",
+      "responseSha256": "deb443b6b889b372649e11d29f611ccb05f03c41c06148889b3f6447955e8a9a",
+      "error": null
+    },
+    {
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+      "responseSha256": "bc46a96bcd1ffa1630c7650d33050320cbb64683d28950fe83b123a8a093ba1b",
+      "error": null
+    }
+  ],
+  "sourceLedger": [
+    {
+      "url": "https://cmlr.pku.edu.cn/People/Faculty/1f5e4970b3ce4df496e29e2cafbd915f.htm",
+      "title": "北大国际机器学习研究中心",
+      "section": "本人招生区明确2028 Fall硕士／博士邀请；年度规模与当前余位分开。",
+      "checkedDate": "2026-10-26",
+      "httpStatus": 200,
+      "contentSha256": "34445f9b28c23508d3e3005de9d2631b06ed04f49ee372b8d6ee8fdd1a260e3f",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.coe.pku.edu.cn/graduate/zsds26/13286.html",
+      "title": "何冠楠_北京大学工学院_北大工学院,力学,固体力学,流体力学,湍流,一般力学,工程计算,有限元,能源,资源,先进制造,工业工程,机器人,航空,航天",
+      "section": "本人中文主页招生条目2028年博士1名；相对词明年与核查日期冲突须提示；履历与校方2021/09交叉确认。",
+      "checkedDate": "2026-10-26",
+      "httpStatus": 200,
+      "contentSha256": "16715f4ab97159bb6be4ca92fcf4fa5abe021240d2ae945ae7435c7a8d47bff6",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://yangling0818.github.io/",
+      "title": "Ling Yang 杨灵",
+      "section": "本人招生区明确2028 Fall硕士／博士邀请；年度规模与当前余位分开。",
+      "checkedDate": "2026-10-26",
+      "httpStatus": 200,
+      "contentSha256": "58b2931e66fa8348f3efe8da7583fba182de495f7657ad2fefe56576c2d500d4",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.guannanhe.com/index_zh.html",
+      "title": "主页 - 何冠楠课题组",
+      "section": "2021年9月首次本校助理教授；2025年6月转院不重置。",
+      "checkedDate": "2026-10-26",
+      "httpStatus": 200,
+      "contentSha256": "eaff76b8270f0f97c7d2519737e80b7025b3f903690f8128a68a78ee53154c86",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://me.sjtu.edu.cn/teacher_directory1/xiazeyang",
+      "title": "夏泽洋-上海交通大学机械与动力工程学院",
+      "section": "仅核到2024年，未确定月份；此前2012–2024年中科院深圳先进院教研任职。",
+      "checkedDate": "2026-10-26",
+      "httpStatus": 200,
+      "contentSha256": "b2b131f4244b28612d8b913396dfd9ec4750a245c6ad224f1a4579dd44229a66",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://letterligo.netlify.app/",
+      "title": "Xinfeng Li's Homepage - Homepage",
+      "section": "当前Netlify个人主页Openings明确Fall2027和Fall2028博士；旧GitHub主页只重定向。院系新闻明确任职生效日3August2026，不采用8月10日新闻日期。",
+      "checkedDate": "2026-10-26",
+      "httpStatus": 200,
+      "contentSha256": "e1385f8149687e43c762b38c1a4b21efcb79547ffd9527a1214439ee6aa3ea32",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.polyu.edu.hk/dsai/news-and-events/news/2026/20260810-welcome-new-ap/?sc_lang=en",
+      "title": "Welcome On Board – Two New Assistant Professors Join DSAI | Department of Data Science and Artificial Intelligence",
+      "section": "校方明确both effective 3 August 2026；新闻发布于8月10日，后者不作入职日。",
+      "checkedDate": "2026-10-26",
+      "httpStatus": 200,
+      "contentSha256": "2512ad91cb476dc40b78ad4fa55281af93369c6049da369400163d6d5af430eb",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://math.seu.edu.cn/cdx/list.htm",
+      "title": "数学学院",
+      "section": "本人教师主页2028博士1/2~3及图例：双选意向数/指标数，第3博士指标为竞争指标；不能按搜索摘要旧图例写成已录取。",
+      "checkedDate": "2026-10-26",
+      "httpStatus": 200,
+      "contentSha256": "a3cc83d5569e918715dc06e3d262e4cde419d1ae03ab15d1ff45995d9d2e8aba",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://faculty.ustc.edu.cn/jinzhezeng/zh_CN/index/998933/list/index.htm",
+      "title": "中国科学技术大学 曾晋哲--曾晋哲--首页",
+      "section": "2025年2月首次预聘副教授；2026年7月双聘不重置。",
+      "checkedDate": "2026-10-26",
+      "httpStatus": 200,
+      "contentSha256": "8c6beb8dac4a54a714c2a8ba708419776dc02e7e46b90f3655029e6278a7e73d",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://faculty.ustc.edu.cn/jinzhezeng/zh_CN/zdylm/998937/list/index.htm",
+      "title": "中国科学技术大学 曾晋哲--曾晋哲--招生信息",
+      "section": "本人招生页2028级硕转博/普通招考与博士专业；本人履历明确2025年2月任预聘副教授，2026年7月双聘不重置首次日期。",
+      "checkedDate": "2026-10-26",
+      "httpStatus": 200,
+      "contentSha256": "1e901e0767dd42e8d2fec70ccefda7a25cf5bbdfe6466b19e1d7d9d461113925",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ping-tan-pingtan",
+      "title": "Faculty Profiles - TAN Ping | The Hong Kong University of Science and Technology",
+      "section": "校方本人Research Postgraduate Supervision的Current RPGs明确Doctor of Philosophy；只证明博士指导记录，未确认2027／2028招募或余位。",
+      "checkedDate": "2026-10-26",
+      "httpStatus": 200,
+      "contentSha256": "4992b908660d1c8ba5daa199a1138127368cc7303b097d2f73b3783f3acf21fb",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://www.zhihu.com/en/article/1917225490940408958",
+      "title": "知乎 - 有问题，就会有答案",
+      "section": "署名Zhongyu Li、自述且链接本人主页的招生文明确2026 Fall博士；2025-06-14发布，是已过去的历史邀请，不能顺延成2027／2028当前名额。",
+      "checkedDate": "2026-10-26",
+      "httpStatus": 200,
+      "contentSha256": "deb443b6b889b372649e11d29f611ccb05f03c41c06148889b3f6447955e8a9a",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    },
+    {
+      "url": "https://sais.sjtu.edu.cn/faculty/majin.html",
+      "title": "马进-上海交通大学自动化与感知学院",
+      "section": "本人页28级研究生明确2028年9月；未拆分学位，不新增博士2028 Fall标记。",
+      "checkedDate": "2026-10-26",
+      "httpStatus": 200,
+      "contentSha256": "f42caefb780c811495bfc6eab50f68928e4c62c2ff559fe966de674806a5a186",
+      "retrieval": "direct_public_response",
+      "readLimit": null
+    }
+  ],
+  "addedAdvisors": [
+    {
+      "advisorId": "pku-yang-ling",
+      "name": "杨灵",
+      "institution": "PKU",
+      "fall2028": true,
+      "summary": "本人主页明确招收2028 Fall博士和硕士。博士每年4–6名、硕士每年3名是通常年度规模，不是2028当前剩余数；博士后与至少3个月研究实习另列。正式申请资格、培养专业、资助及录取须按北大当年通知确认。",
+      "appointment": null,
+      "readLimit": null
+    },
+    {
+      "advisorId": "pku-he-guannan",
+      "name": "何冠楠",
+      "institution": "PKU",
+      "fall2028": false,
+      "summary": "本人中文主页明确邀请2028年入学的1名多模态大模型方向博士申请者，本科生／硕士生可提前联系。页面同时使用“明年”，与本次日期不一致，因此仅保留原文明确的2028年，不据相对年份顺延；入学月份、正式通道和当前余位未确认。",
+      "appointment": [
+        "2021-09",
+        "month",
+        "early_career",
+        "2021年9月首次本校助理教授；2025年6月转院不重置。",
+        "https://www.guannanhe.com/index_zh.html"
+      ],
+      "readLimit": null
+    },
+    {
+      "advisorId": "sjtu-xia-zeyang",
+      "name": "夏泽洋",
+      "institution": "SJTU",
+      "fall2028": false,
+      "summary": "本人校方教师页欢迎2028年入学博士生联系；另列2027年入学硕士生，两个年份不互换。未明确2028 Fall或入学月份，也未提供博士当前余位；博士后招聘是独立岗位。",
+      "appointment": [
+        "2024",
+        "year",
+        "previous_faculty",
+        "仅核到2024年，未确定月份；此前2012–2024年中科院深圳先进院教研任职。",
+        "https://me.sjtu.edu.cn/teacher_directory1/xiazeyang"
+      ],
+      "readLimit": "校方页给出AIRX团队网址；本次HTTPS响应只见模板标题，未核读团队正文，不能当作资源或招生证据。"
+    },
+    {
+      "advisorId": "polyu-li-xinfeng",
+      "name": "Xinfeng Li",
+      "institution": "PolyU",
+      "fall2028": true,
+      "summary": "本人当前主页明确招收2027 Fall及2028 Fall博士；博士后、远程RA／实习另列。须满足PolyU正式博士申请条件；HKPFS为建议申请的竞争性奖学金，页面推荐标准不代表已获资助，当前剩余人数未确认。",
+      "appointment": [
+        "2026-08-03",
+        "day",
+        "early_career",
+        "校方明确both effective 3 August 2026；新闻发布于8月10日，后者不作入职日。",
+        "https://www.polyu.edu.hk/dsai/news-and-events/news/2026/20260810-welcome-new-ap/?sc_lang=en"
+      ],
+      "readLimit": null
+    },
+    {
+      "advisorId": "seu-chen-duxin",
+      "name": "陈都鑫",
+      "institution": "SEU",
+      "fall2028": false,
+      "summary": "本人教师主页列2028年系统科学／数学招生，博士记为1／2~3。原文注明这是“已达成双选意向数／指标数”，博士第3指标为竞争指标；不能把双选意向写成已录取，也不能据此承诺还剩1–2名。具体博士报考专业以系统科学及院系确认结果为准，2028入学季节未明确。",
+      "appointment": null,
+      "readLimit": null
+    },
+    {
+      "advisorId": "ustc-zeng-jinzhe",
+      "name": "曾晋哲",
+      "institution": "USTC",
+      "fall2028": false,
+      "summary": "本人招生页明确2028级硕转博／普通招考可联系。博士专业列智能科学与技术、物理化学；普通招考与硕转博条件、原导师同意要求分别核验。与上海创智学院朱通的联合培养是单列渠道，不能移用为普通通道免考；未写2028 Fall或当前余位。",
+      "appointment": [
+        "2025-02",
+        "month",
+        "early_career",
+        "2025年2月首次预聘副教授；2026年7月双聘不重置。",
+        "https://faculty.ustc.edu.cn/jinzhezeng/zh_CN/index/998933/list/index.htm"
+      ],
+      "readLimit": null
+    }
+  ],
+  "resolvedDoctoralGaps": [
+    {
+      "advisorId": "hkust-ping-tan",
+      "scope": "doctoral_supervision_history_only",
+      "summary": "校方本人Research Postgraduate Supervision的Current RPGs明确Doctor of Philosophy；只证明博士指导记录，未确认2027／2028招募或余位。",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ping-tan-pingtan"
+    },
+    {
+      "advisorId": "cuhk_zhongyu_li",
+      "scope": "historical_personal_doctoral_invitation",
+      "summary": "署名Zhongyu Li、自述且链接本人主页的招生文明确2026 Fall博士；2025-06-14发布，是已过去的历史邀请，不能顺延成2027／2028当前名额。",
+      "url": "https://www.zhihu.com/en/article/1917225490940408958"
+    }
+  ],
+  "pendingDoctoralGaps": [
+    "sjtu-wang-chenggang",
+    "sjtu-yan-youcan",
+    "sjtu-yu-tingting"
+  ],
+  "unchangedReviewedSignals": [
+    {
+      "advisorId": "hkust-yajing-shen",
+      "url": "https://mrl.hkust.edu.hk/openings/",
+      "finding": "普通2027 Fall博士无名额，HKUST-SLAI联合机会1另列，MPhil0；不把公告数量当剩余人数。"
+    },
+    {
+      "advisorId": "hkust-pan-ling",
+      "url": "https://ling-pan.github.io/",
+      "finding": "Spring/Fall2027个人邀请，未新增2028。"
+    },
+    {
+      "advisorId": "hkust-wang-ziqi",
+      "url": "https://kiki007.github.io/news/announcement_1/",
+      "finding": "优先Fall2027计算机图形方向，不顺延2028。"
+    },
+    {
+      "advisorId": "hku-chen-sun",
+      "url": "https://chensunmac.github.io/openings/",
+      "finding": "保留2027/28 Fall原字符串，未单独推2028 Fall。"
+    },
+    {
+      "advisorId": "tongji-fan-rui",
+      "url": "https://mias.group/vacancies.html#role-0",
+      "finding": "浏览器博士栏确认2028级开放；2027仅城市交通研究院例外；季节未明确。",
+      "retrieval": "browser_rendered_visible_text",
+      "extractedTextSha256": "95f27f6ac9fab045871a10d2a6b9cdcbf88a8b4c3423f6cbab39714bd6eafe23",
+      "readLimit": "静态HTML抽取只有壳，事实另由实际浏览器博士栏目核读。"
+    }
+  ],
+  "clarifiedGraduateSignal": {
+    "advisorId": "sjtu-ma-jin",
+    "summary": "本人页明确28级研究生为2028年9月入学、开放申请；招生句未拆分硕士与博士，不能据另列博士导师身份推定本条为2028 Fall博士招募。"
+  },
+  "counts": {
+    "advisors": 498,
+    "profiles": 498,
+    "routes": 94,
+    "doctoralDiscoverablePeople": 495,
+    "verifiedDegreeAssociations": 57,
+    "raPositions": 2,
+    "fall2028PersonalInvitations": 2,
+    "intake2028DoctoralSignals": 7
+  },
+  "limitsZh": [
+    "访问成功只代表取得响应，未把所有200响应都当作正文或全部事实已核实。",
+    "本轮未把学院统招、奖学金、项目年限或将来毕业年当作个人招生年。",
+    "何冠楠页面明年与当前日期冲突，记录明确2028年并提示冲突。",
+    "陈都鑫双选意向不等于录取，竞争指标不等于已获指标。",
+    "李钟毓为本人署名平台历史邀请，非校方当前招募公告。"
+  ]
+}

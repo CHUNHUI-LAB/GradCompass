@@ -17,7 +17,7 @@ test('live public data matches reviewed semantic facts rather than a full-file b
 });
 test('live maintenance retains all collaborators, historical source records, old deadlines and opportunities',()=>{
  const preservedAdvisors=structuredClone(catalog.advisors);
- for(const op of JSON.parse(read('tests/fixtures/evidence/existing-doctoral-links-20261019.json')).operations.filter(op=>op.file==='data/catalog.json'&&op.operation==='replace')){assert.match(op.path,/^\/advisors\/\d+$/);const index=+op.path.split('/').at(-1);assert.deepEqual(preservedAdvisors[index],op.value,'only exact independently pinned updates may be restored');preservedAdvisors[index]=op.old;}
+ for(const batch of ['rescreen-20261026','existing-doctoral-links-20261019'])for(const op of JSON.parse(read('tests/fixtures/evidence/'+batch+'.json')).operations.filter(op=>op.file==='data/catalog.json'&&op.operation==='replace')){assert.match(op.path,/^\/advisors\/\d+$/);const index=+op.path.split('/').at(-1);assert.deepEqual(preservedAdvisors[index],op.value,'only exact independently pinned updates may be restored');preservedAdvisors[index]=op.old;}
  assert.deepEqual(preservedAdvisors.slice(0,oldCatalog.advisors.length),oldCatalog.advisors);assert.deepEqual(catalog.routes.slice(0,oldCatalog.routes.length).map(r=>r.sourceRecord??null),oldCatalog.routes.map(r=>r.sourceRecord??null));
  assert.deepEqual(catalog.deadlines.slice(0,oldCatalog.deadlines.length),oldCatalog.deadlines);
  const ra=actual['data/ra-positions.json'].raPositions;assert.deepEqual(buildOpportunities({...catalog,raPositions:ra}),buildOpportunities({...oldCatalog,raPositions:ra}));
