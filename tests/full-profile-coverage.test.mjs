@@ -12,10 +12,10 @@ const generated = supplement.profiles.filter((p) => generatedIds.has(p.advisorId
 const factsOf = (p) => [p.overview, p.labSnapshot.affiliation, p.labSnapshot.structure, ...p.labSnapshot.resources, p.recruitment, ...p.representativeWorks];
 
 test('every catalog advisor has exactly one profile supplement and full coverage joins without creating opportunities', () => {
-  assert.equal(catalog.advisors.length, 498);
-  assert.equal(supplement.profiles.length, 498);
-  assert.equal(profileMap(supplement, catalog.advisors).size, 498);
-  assert.equal(new Set(supplement.profiles.map((p) => p.advisorId)).size, 498);
+  assert.equal(catalog.advisors.length, 493);
+  assert.equal(supplement.profiles.length, 493);
+  assert.equal(profileMap(supplement, catalog.advisors).size, 493);
+  assert.equal(new Set(supplement.profiles.map((p) => p.advisorId)).size, 493);
   assert.equal(buildOpportunities(data).length, 59);
   assert.equal(supplement.batch11Review.newAdvisorIds.length, 268);
   assert.equal(supplement.batch11Review.preservedProfiles, 66);

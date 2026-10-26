@@ -8,7 +8,9 @@ import {renderProfile,renderProfileReferences} from '../assets/profiles.js';
 import {reviewedPublicData,assertReviewedPublicData} from './reviewed-public-data.mjs';
 const raw=p=>fs.readFileSync(new URL('../'+p,import.meta.url));
 const json=p=>JSON.parse(raw(p));
-const c=json('data/catalog.json'),p=json('data/advisor-profiles.json').profiles;
+// Preserve the original published October 26 batch; current data are independently checked below.
+const dated=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/rescreen-20261026.json'});
+const c=dated['data/catalog.json'],p=dated['data/advisor-profiles.json'].profiles;
 const audit=json('audits/rescreen-20261026.json'),receipt=json('tests/fixtures/evidence/rescreen-20261026.json');
 const before=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/existing-doctoral-links-20261019.json'});
 const old=before['data/catalog.json'],oldP=before['data/advisor-profiles.json'].profiles;
@@ -63,7 +65,7 @@ test('all unrelated fields and original ordering survive exactly, and independen
  }
  assert.equal(receipt.operations.length,18);assert.equal(receipt.operations.filter(o=>o.operation==='add').length,13);
  const all=Object.fromEntries(fs.readdirSync(new URL('../data/',import.meta.url)).filter(n=>n.endsWith('.json')).map(n=>['data/'+n,json('data/'+n)]));assertReviewedPublicData(all,raw);
- for(const mutate of [d=>d.advisors.find(a=>a.id==='pku-he-guannan').fall2028OpeningVerified=true,d=>d.advisors.find(a=>a.id==='seu-chen-duxin').openingDetails[0].remainingHeadcountVerified=true,d=>d.advisors.find(a=>a.id==='cuhk_zhongyu_li').fall2027OpeningVerified=true]){const changed=structuredClone(all);mutate(changed['data/catalog.json']);assert.throws(()=>assertReviewedPublicData(changed,raw));}
+ for(const mutate of [d=>d.advisors.find(a=>a.id==='sjtu-xia-zeyang').fall2028OpeningVerified=true,d=>d.advisors.find(a=>a.id==='sjtu-xia-zeyang').openingDetails[0].remainingHeadcountVerified=true,d=>d.advisors.find(a=>a.id==='cuhk_zhongyu_li').fall2027OpeningVerified=true]){const changed=structuredClone(all);mutate(changed['data/catalog.json']);assert.throws(()=>assertReviewedPublicData(changed,raw));}
 });
 
 test('source access and fact reading have separate scope; homepage templates and rendered doctoral text are explicit',()=>{

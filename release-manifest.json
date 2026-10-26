@@ -8,13 +8,13 @@
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
   "browserVisualQA": "Not yet browser-verified.",
-  "profilePilotCount": 498,
-  "visibleAdvisorCount": 498,
+  "profilePilotCount": 493,
+  "visibleAdvisorCount": 493,
   "opportunityCount": 59,
   "raPositionCount": 2,
   "newAdvisorProfiles": 26,
   "preservedAdvisorProfiles": 30,
-  "newProfileCitedSourceCount": 696,
+  "newProfileCitedSourceCount": 687,
   "experienceRecords": 27,
   "defaultExperienceRecords": 27,
   "experienceSourceSites": 20,
@@ -37,13 +37,13 @@
     },
     {
       "path": "QA.md",
-      "bytes": 69188,
-      "sha256": "569b5cc2d624a6bba3d5fdba5848a14e9321197c3e29d2fde60f792c7b427ef9"
+      "bytes": 69843,
+      "sha256": "1dd2dae7a5d64f6fb921802b50f27963637a8923564fc05ec65997baab799e6c"
     },
     {
       "path": "README.md",
-      "bytes": 72035,
-      "sha256": "d6418e4b3c7253c452d4cc61c75046202da904dba1bdaa95e7d41d155c385ca6"
+      "bytes": 73588,
+      "sha256": "ee1be0e897370641caee9865bdae2e7046400274a48a370055a952f6521fe0a6"
     },
     {
       "path": "REDESIGN.md",
@@ -52,8 +52,8 @@
     },
     {
       "path": "REPO-MAP.md",
-      "bytes": 19879,
-      "sha256": "6c5afb71533f8880b5476b9eb4be3855fc6380f585ac4d4fa4e96f215d56a606"
+      "bytes": 20712,
+      "sha256": "34251d75c9c302482f9c6655038193443852ad0f0fe1e9321c3bdacff121cacd"
     },
     {
       "path": "assets/advisor-cards.js",
@@ -63,7 +63,7 @@
     {
       "path": "assets/app.js",
       "bytes": 75526,
-      "sha256": "6ac6c02897353ed9b8c57d6a09adacfa680b4443dc78076d7f03a2acb36c5db1"
+      "sha256": "085547074aa23e7919c294ba2b41bf25771e8a7c4f6622620881104167265c8b"
     },
     {
       "path": "assets/appointments.js",
@@ -206,6 +206,16 @@
       "sha256": "e56513aabe2cd5ccfe9ca891c01537010784da3ec06fa128098f71a193ba84d4"
     },
     {
+      "path": "audits/robotics-scope-correction-20261026.json",
+      "bytes": 75679,
+      "sha256": "a27c456c625aa905a72699e0126046e5af4748814adf97cf10afb11bf78a46d5"
+    },
+    {
+      "path": "audits/robotics-scope-correction-summary-20261026.md",
+      "bytes": 3498,
+      "sha256": "2e6568dd08d738d3df63984578dfe089326b22d188b02354d3818c596f8cabdd"
+    },
+    {
       "path": "audits/source-access-20261009.json",
       "bytes": 256348,
       "sha256": "1ee2d63dc678a48b1e1aca616e81710b389c90a95a1ef8cfc1eaf4986ae9ecf8"
@@ -222,8 +232,8 @@
     },
     {
       "path": "data/advisor-profiles.json",
-      "bytes": 3721209,
-      "sha256": "daf3295bb6f2a8a539e74957fcfd3a8b9ac520e8bf1d55e3b77cd2ed97443b55"
+      "bytes": 3691954,
+      "sha256": "99db2eff79b3b70afd87ec103309bcc10ae435fba1808a31fcd90466f1c8497e"
     },
     {
       "path": "data/application-experience-provenance.json",
@@ -242,8 +252,8 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 5073001,
-      "sha256": "6cdb765b50eecaefa33fa63d9d24695d0690505affbdb18123d848fa359ac6a6"
+      "bytes": 5036405,
+      "sha256": "7e196ced3ba7a94983dba65a3ed39abb33f0643aa1a9768bca56133c61b646cb"
     },
     {
       "path": "data/four-schools-exploration-20261006.json",
@@ -353,7 +363,7 @@
     {
       "path": "index.html",
       "bytes": 11951,
-      "sha256": "48778a3fdbdf2a0e7efeb7c8cc92797730c5e3597fa377ac18252909c89471bc"
+      "sha256": "a0900c6c72e9782780f9f22a326b7ac3d3b58ea079e92327651956d0ada496d9"
     },
     {
       "path": "package-lock.json",
@@ -372,8 +382,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 14784,
-      "sha256": "9fad04c68aa42078cf3fd384411cee86f8432946b0e8254e77675ad6949e0be6"
+      "bytes": 15022,
+      "sha256": "153fcf62a5f21afdb6c53e07fd3d4695c2a8a2a326218af85581880b2f3a23a9"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -393,7 +403,7 @@
     {
       "path": "tests/advisor-cards.test.mjs",
       "bytes": 8664,
-      "sha256": "159e5635815a8740ec9c03a4ca838fbbfc16e93f4a3dc155e6a5533e91aef3b9"
+      "sha256": "4b98f3650c1658f70cd88c17f29f6b506a1d3a149cd50e7aca49312df1f5efc5"
     },
     {
       "path": "tests/advisor-completeness-audit.test.mjs",
@@ -413,7 +423,7 @@
     {
       "path": "tests/appointments.test.mjs",
       "bytes": 8981,
-      "sha256": "47e3b560dd4696502d397180e9323563a6c00827169de27744690394d269502e"
+      "sha256": "4cf9e918c480b3f0cfce7afce2db4fd4b7a1cdc018c470b1e8f8bdd41de0d831"
     },
     {
       "path": "tests/avatar-initials-baseline.mjs",
@@ -453,7 +463,7 @@
     {
       "path": "tests/core.test.mjs",
       "bytes": 9909,
-      "sha256": "597b8067d8b8f6d8a6bb4c08e3f8b05e4fbf155171a0ae1bd714cdc42c0db982"
+      "sha256": "f52e8680fd68d980596b07b48ec4e27ba3304210c0592ef85cdd9bac26fef610"
     },
     {
       "path": "tests/cuhk-deadline-20261007-baseline.mjs",
@@ -542,8 +552,8 @@
     },
     {
       "path": "tests/evidence-reviews.mjs",
-      "bytes": 1512,
-      "sha256": "90ae867852d78905578280477a64d0de429d62c34ec1a04b224533f7e2729a3a"
+      "bytes": 1663,
+      "sha256": "0d83b910d0134792c25062766ad4d2ed20a11c693ecd13ed2e6e625c013708f6"
     },
     {
       "path": "tests/existing-doctoral-links-20261019.test.mjs",
@@ -654,6 +664,11 @@
       "path": "tests/fixtures/evidence/rescreen-20261026.json",
       "bytes": 199312,
       "sha256": "6b8c201aa8af1def60dc976ad8edbac7c670b5d9b44f7ebae30f6eabdb1da333"
+    },
+    {
+      "path": "tests/fixtures/evidence/robotics-scope-correction-20261026.json",
+      "bytes": 73614,
+      "sha256": "44a2c9c427c15b97785f31f3aeb0a33fd0f4e7317dc811b0c8f0015e538714e6"
     },
     {
       "path": "tests/fixtures/evidence/tongji-rescreen-20261019.json",
@@ -833,7 +848,7 @@
     {
       "path": "tests/full-profile-coverage.test.mjs",
       "bytes": 3053,
-      "sha256": "fd5cbe740ba0f080383611faedc26fc6afe7f43464e06b1116f27ce8a9a70174"
+      "sha256": "ba400731d920176147f431a60869ac77295ee0e895569c343086ad4b35707c76"
     },
     {
       "path": "tests/historical-source-baseline.mjs",
@@ -857,8 +872,8 @@
     },
     {
       "path": "tests/hku-ris-materials-20261011.test.mjs",
-      "bytes": 5971,
-      "sha256": "09c480d1899420a48b71e57fc2fdbf189e60ec9e5ba827178af3c429fb7f12c0"
+      "bytes": 6235,
+      "sha256": "1792671bfc9f08638e9e269357e49f3475b0a67245b91291e2d4cdbf3cd0b2a9"
     },
     {
       "path": "tests/hku-ris.test.mjs",
@@ -923,7 +938,7 @@
     {
       "path": "tests/nju-tongji-ustc-profiles.test.mjs",
       "bytes": 3775,
-      "sha256": "66dc1bbf414d87b45b03fe4dcd6721d0729e342e93678fcdcdd0edfc4ffe3550"
+      "sha256": "57a63e52920a21bc20633c41429134b81d163dc974f86724aef33740cc1da18f"
     },
     {
       "path": "tests/opportunities.test.mjs",
@@ -938,7 +953,7 @@
     {
       "path": "tests/optional-loading.test.mjs",
       "bytes": 19920,
-      "sha256": "4f65fd693fa48f540258637624812a0d2622b077e94439c360fe90602c33c7ab"
+      "sha256": "7642ba0ea948227e1b2a20dfa36555bf6f0e8609f834f0daa21faf1bfaf2ab7c"
     },
     {
       "path": "tests/overseas-additions.test.mjs",
@@ -983,7 +998,7 @@
     {
       "path": "tests/pku-profiles.test.mjs",
       "bytes": 4110,
-      "sha256": "7b8de6ef945feb13952629f3359f2226b6eba80cb93c2467494def34794fb858"
+      "sha256": "ca3f7e8a0768c0a44fc8def6750cd6348e18c16b847c1d354995424293d74d4e"
     },
     {
       "path": "tests/pku-review.test.mjs",
@@ -1078,7 +1093,7 @@
     {
       "path": "tests/public-discovery.test.mjs",
       "bytes": 10234,
-      "sha256": "b2e0b1a7c57d20c4b29eb5ff2c1080b951affb71d9128fa51b09c7c6c797e6a9"
+      "sha256": "bba96004f6f25f2cfdb51eec063c70e25a0d63607a5fedf1eed9bd6c3b94e891"
     },
     {
       "path": "tests/published-history-fs.mjs",
@@ -1147,13 +1162,13 @@
     },
     {
       "path": "tests/rescreen-20261026.test.mjs",
-      "bytes": 9085,
-      "sha256": "2770b4ef3afec4857c08f36c02ff370b82a61e61ef783703b6839f840086d5f5"
+      "bytes": 9291,
+      "sha256": "60c86528d2243be4d76fb2811896646d5c61e5bda4d6bdff56943bbaa5f866d5"
     },
     {
       "path": "tests/resource-versions.test.mjs",
       "bytes": 10100,
-      "sha256": "4a2223e6a7a9438a6eb85ef2462503091033bfc1365cb42e23fd84f033fc8711"
+      "sha256": "7167e67b97a0183c8f3e403457918208806b5bf3cc5115d4ca4261617131c167"
     },
     {
       "path": "tests/reviewed-public-data.mjs",
@@ -1169,6 +1184,11 @@
       "path": "tests/robotics-expansion-history.test.mjs",
       "bytes": 6619,
       "sha256": "61f6d11c50b8a0b2d5b09530ce7ce1d0f3880dee15a7b71e2b581e780f375fff"
+    },
+    {
+      "path": "tests/robotics-scope-correction-20261026.test.mjs",
+      "bytes": 5603,
+      "sha256": "d74699b1a322b791949ce164cc6281d31e6e8335220c844bd2e170c7085c3bda"
     },
     {
       "path": "tests/seven-schools-baseline.mjs",
@@ -1274,10 +1294,10 @@
     "baseCommit": "1281ce4740272443563b4a98f421561bacc801f9",
     "scope": "Two inaccurate MSc overview text fragments only; no structure, style or interaction changes"
   },
-  "advisorCatalogCount": 498,
+  "advisorCatalogCount": 493,
   "verifiedDegreeAssociationCount": 57,
-  "projectCatalogCount": 94,
-  "visibleProjectCount": 94,
+  "projectCatalogCount": 93,
+  "visibleProjectCount": 93,
   "candidateBaseCommit": "079eaea16e636f2e91ab2cb0e6ffa309f589440e",
   "evidenceScope": "All recorded advisors and academic references remain readable; verified degree associations require exact sourced advisor-route joins. Project evidence is not individual recruitment or remaining capacity.",
   "detailUiPolish": {
