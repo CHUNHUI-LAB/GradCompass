@@ -107,6 +107,27 @@ const allSchoolsTestArchive=decodeAllSchoolsHistoricalTests(fs.readFileSync(new 
 export const allSchoolsHistoricalTestPaths=Object.freeze(Object.keys(allSchoolsTestArchive.files));
 export function allSchoolsHistoricalTestBytes(name){assert(Object.hasOwn(allSchoolsTestArchive.files,name));return Buffer.from(allSchoolsTestArchive.files[name].base64,'base64');}
 
+// Preserve only the original summary navigation test when its live UI contract changes.
+// Existing archives and production inputs remain authoritative and cannot be shadowed.
+export const summaryNavigationArchiveSha256='77620440a1d11f1e9047e83bd4de38c00099557d46c3cd9eb658e7a13bf7fe6b';
+export function decodeSummaryNavigationHistoricalTest(compressed){
+ assert.equal(sha(compressed),summaryNavigationArchiveSha256,'immutable summary navigation historical test');
+ const snapshot=JSON.parse(gunzipSync(compressed));
+ assert.equal(snapshot.schemaVersion,1);assert.equal(snapshot.sourceCommit,publishedCommit);assert.equal(snapshot.publishedManifestCommit,publishedCommit);
+ assert.deepEqual(Object.keys(snapshot.files),['tests/summary-navigation.test.mjs']);
+ const manifest=JSON.parse(publishedBytes('release-manifest.json'));
+ for(const [name,row]of Object.entries(snapshot.files)){
+  for(const prior of [archive,testArchive,pkuTestArchive,tongjiTestArchive,allSchoolsTestArchive])assert(!Object.hasOwn(prior.files,name),'preexisting history cannot be shadowed');
+  const expected=manifest.allowedFiles.find(r=>r.path===name);assert(expected);
+  const bytes=Buffer.from(row.base64,'base64');assert.equal(bytes.length,expected.bytes);assert.equal(row.bytes,expected.bytes);assert.equal(sha(bytes),expected.sha256);assert.equal(row.sha256,expected.sha256);
+  assert.equal(row.gitBlob,publishedIdentities[name].gitBlob);
+  assert.equal(crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${bytes.length}\0`),bytes])).digest('hex'),row.gitBlob);
+ }
+ return snapshot;
+}
+const summaryNavigationArchive=decodeSummaryNavigationHistoricalTest(fs.readFileSync(new URL('./fixtures/history/published-test-inputs-summary-navigation-20261028.json.gz',import.meta.url)));
+export function summaryNavigationHistoricalTestBytes(name){assert(Object.hasOwn(summaryNavigationArchive.files,name),'unarchived summary navigation test: '+name);return Buffer.from(summaryNavigationArchive.files[name].base64,'base64');}
+
 export function runPublishedCounts(){
  const dir=fs.mkdtempSync(path.join(os.tmpdir(),'gradcompass-published-counts-'));
  try{
@@ -119,6 +140,7 @@ export default {...fs,readFileSync(file,options){
  if(filename===null)return fs.readFileSync(file,options);
  const relative=path.relative(root,filename).split(path.sep).join('/');
  const encoding=typeof options==='string'?options:options?.encoding;
+ if(Object.hasOwn(summaryNavigationArchive.files,relative)){const bytes=summaryNavigationHistoricalTestBytes(relative);return encoding?bytes.toString(encoding):bytes;}
  if(!Object.hasOwn(archive.files,relative)){
   if(!Object.hasOwn(testArchive.files,relative)){
    if(!Object.hasOwn(pkuTestArchive.files,relative)){

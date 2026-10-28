@@ -82,6 +82,7 @@ files.extend(['audits/pku-expansion-20261019.json','audits/pku-expansion-summary
 files.append('tests/fixtures/history/published-test-inputs-pku-20261019.json.gz')
 files.extend(['audits/tongji-rescreen-20261019.json','audits/tongji-rescreen-summary-20261019.md','tests/fixtures/evidence/tongji-rescreen-20261019.json','tests/tongji-rescreen-20261019.test.mjs'])
 files.append('tests/fixtures/history/published-test-inputs-tongji-20261019.json.gz')
+files.extend(['tests/fixtures/history/published-test-inputs-summary-navigation-20261028.json.gz','tests/summary-navigation-history.test.mjs'])
 files.extend(['audits/all-schools-rescreen-20261019.json','audits/all-schools-rescreen-summary-20261019.md','tests/fixtures/evidence/all-schools-rescreen-20261019.json','tests/all-schools-rescreen-20261019.test.mjs','tests/fixtures/history/published-test-inputs-all-schools-20261019.json.gz'])
 files.extend(['audits/appointment-source-followup-20261019.json','tests/fixtures/evidence/appointment-source-followup-20261019.json'])
 files.extend(['audits/existing-doctoral-links-summary-20261019.md','audits/existing-doctoral-links-20261019.json','tests/fixtures/evidence/existing-doctoral-links-20261019.json','tests/existing-doctoral-links-20261019.test.mjs'])

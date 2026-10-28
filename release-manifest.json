@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 75556,
-      "sha256": "12432cbf66adb093d00b4cf3896a30baa611111b0dfcc596ae71ebe0deed8d0c"
+      "bytes": 76883,
+      "sha256": "09c45392e57510b11bf56f92796f50a5ee92f47781e844d457809be855ae4cad"
     },
     {
       "path": "REDESIGN.md",
@@ -392,8 +392,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 15264,
-      "sha256": "c719ddcf25fada885c027c8d22afd6abd5038d4cc0638a467fa5bb2c431e2a76"
+      "bytes": 15407,
+      "sha256": "c3394e858eb26a9e045444723e9b8eda4c489ac76ee97259a28c63b0f4438ee0"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -726,6 +726,11 @@
       "sha256": "d2a36dfb5f48ac558ade70cc3db82de8efa927d488ae715a36ba89412cfb7b78"
     },
     {
+      "path": "tests/fixtures/history/published-test-inputs-summary-navigation-20261028.json.gz",
+      "bytes": 6283,
+      "sha256": "77620440a1d11f1e9047e83bd4de38c00099557d46c3cd9eb658e7a13bf7fe6b"
+    },
+    {
       "path": "tests/fixtures/history/published-test-inputs-tongji-20261019.json.gz",
       "bytes": 6168,
       "sha256": "b7d1f406fa0cd1f9784c133a17eb3008a82c3716314bf859503ec7c7805dfa9f"
@@ -983,7 +988,7 @@
     {
       "path": "tests/page-overview-navigation.test.mjs",
       "bytes": 7433,
-      "sha256": "6080b516193bb86bc1455617a701dd7f482cbf875e4add641e96fc406f835e6d"
+      "sha256": "faa060b26e3075232fc37652b72464589535ab1e396f0e17200ead6846ef8380"
     },
     {
       "path": "tests/page-overviews-browser.mjs",
@@ -997,8 +1002,8 @@
     },
     {
       "path": "tests/phd-application-dates-2027-20261026.test.mjs",
-      "bytes": 10091,
-      "sha256": "4d18acd0eaaed1c90d83b902a4d2210bfad25e58f8c6d5123c96ba7c214d5588"
+      "bytes": 11135,
+      "sha256": "3371ac51fecf8dbcb3f337fbdb007290c2c8b878c481d01672466926cc78e831"
     },
     {
       "path": "tests/pku-baseline.mjs",
@@ -1117,8 +1122,8 @@
     },
     {
       "path": "tests/published-history-fs.mjs",
-      "bytes": 11385,
-      "sha256": "4b11e1809aeed4fa339858b2521af2eb0803e2477fce42d02894b97446e50492"
+      "bytes": 13565,
+      "sha256": "993f911a0c0766ff71040063b1a46708b3bd5a36221c071c81582e44754b8203"
     },
     {
       "path": "tests/published-history-inputs.test.mjs",
@@ -1246,9 +1251,14 @@
       "sha256": "523ba9bdd928fb7c9995f6df40b1431f300c85f59583640c5d49a97113ab5895"
     },
     {
+      "path": "tests/summary-navigation-history.test.mjs",
+      "bytes": 2138,
+      "sha256": "dd380bf9c5f8a4edb14837c61827788527703e6521b2c052593efcca04cef3cc"
+    },
+    {
       "path": "tests/summary-navigation.test.mjs",
-      "bytes": 13614,
-      "sha256": "f6ad05864237ba8500511963199aea1021d526304920a1e9bfb0a38fceb55617"
+      "bytes": 14222,
+      "sha256": "888b5db7a234ec7252c68c4a53a387ce9d6d6139cec39e1b693bbebbbe6037fe"
     },
     {
       "path": "tests/sustech-review.test.mjs",

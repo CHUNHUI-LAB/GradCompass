@@ -5,7 +5,7 @@ import {filterDeadlines,deadlineStatus,buildOpportunities,browseAdvisors} from '
 import {renderDeadlineTimeline} from '../assets/editorial-views.js';
 import {renderRecordSummary,normalizeProjectSummaries} from '../assets/record-summaries.js';
 import {normalizeMaterialSupplement} from '../assets/material-supplement.js';
-import {overviewPresets} from '../assets/page-overviews.js';
+import {overviewPresets,buildPageOverview} from '../assets/page-overviews.js';
 import {reviewedPublicData,assertReviewedPublicData} from './reviewed-public-data.mjs';
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url));
 const json=p=>JSON.parse(read(p));
@@ -82,4 +82,23 @@ test('independent receipt replays all current data and rejects date, channel and
  assert.equal(receipt.operations.length,53);
  const actual=Object.fromEntries(fs.readdirSync(new URL('../data/',import.meta.url)).filter(n=>n.endsWith('.json')).map(n=>['data/'+n,json('data/'+n)]));assertReviewedPublicData(actual,read);
  for(const mutate of [d=>d.deadlines.find(d=>d.id==='cuhksz-ai-2027-fall-deadline').date='2027-05-31',d=>d.deadlines.find(d=>d.id==='westlake-ee-phd-2027-round3').routeIds.push('westlake-ai-phd'),d=>d.deadlines.find(d=>d.id==='fudan-phd-2027-ordinary-pending').date='2026-12-15',d=>d.deadlines.find(d=>d.id==='hkust-cse-ece-phd-2027-fall-nonlocal').deadlineTime='23:59']){const bad=structuredClone(actual);mutate(bad['data/catalog.json']);assert.throws(()=>assertReviewedPublicData(bad,read));}
+});
+
+
+test('calendar overview separates the grouping baseline from source verification and preserves the historical fallback',()=>{
+ const before=JSON.stringify(c);
+ assert.equal(c.metadata.deadlineAsOf,'2026-10-26');
+ assert.notEqual(c.metadata.deadlineAsOf,c.metadata.checkedDate);
+ const overview=buildPageOverview('deadlines',c);
+ assert.equal(overview.scope,'日期分组基准日 2026-10-26');
+ assert(overview.note.includes('按基准日 2026-10-26 分组'));
+ assert(overview.note.includes('各项实际核验日期见来源'));
+ assert(overview.note.includes('不是实时开放状态'));
+ assert(!JSON.stringify(overview).includes('日期目录核验'));
+ const historical=structuredClone(c);
+ delete historical.metadata.deadlineAsOf;
+ const fallback=buildPageOverview('deadlines',historical);
+ assert.equal(fallback.scope,`日期分组基准日 ${historical.metadata.checkedDate}`);
+ assert(fallback.note.includes(`按基准日 ${historical.metadata.checkedDate} 分组`));
+ assert.equal(JSON.stringify(c),before);
 });
