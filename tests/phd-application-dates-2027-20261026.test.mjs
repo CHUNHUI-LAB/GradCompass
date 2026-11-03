@@ -71,6 +71,8 @@ test('calendar starts and pending dates render at the explicit date baseline wit
 });
 
 test('blocked or missing official content cannot become a new verification, opening, or date by inference',()=>{
+ // This assertion covers the calendar receipt, before the separately reviewed advisor follow-up.
+ const c=reviewedPublicData(read,{throughReceipt:'tests/fixtures/evidence/phd-application-dates-2027-20261026.json'})['data/catalog.json'];
  const cityu=audit.sources.find(s=>s.id==='cityu');assert.equal(cityu.lastContentVerifiedDate,'2026-10-03');assert.equal(cityu.findingStatus,'blocked_recheck');
  const ustc=audit.sources.find(s=>s.id==='ustc-list');assert.equal(ustc.accessLimitation.acceptedAsNewVerifiedDate,false);assert(!audit.addedCalendarIds.some(id=>id.includes('ustc-tong')));
  for(const d of audit.addedCalendarIds.map(find)){assert.notEqual(d.status,'open');assert(!d.confirmedVacancy);assert(!d.cycle2028FallVerified);}

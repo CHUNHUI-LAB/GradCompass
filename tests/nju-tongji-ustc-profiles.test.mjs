@@ -1,11 +1,18 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {reviewedPublicData} from './reviewed-public-data.mjs';
 import { profileMap, renderProfile, renderProfileReferences } from '../assets/profiles.js';
 import { buildOpportunities, safeUrl } from '../assets/core.js';
 const read = (path) => fs.readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
-const supplement = JSON.parse(read('data/advisor-profiles.json'));
-const catalog = JSON.parse(read('data/catalog.json'));
+// Validate current facts before reconstructing the pre-follow-up historical review.
+const current = reviewedPublicData(read);
+for (const path of ['data/advisor-profiles.json', 'data/catalog.json']) {
+  assert.deepEqual(JSON.parse(read(path)), current[path], path + ' differs from reviewed live facts');
+}
+const prior = reviewedPublicData(read, {throughReceipt: 'tests/fixtures/evidence/phd-application-dates-2027-20261026.json'});
+const supplement = prior['data/advisor-profiles.json'];
+const catalog = prior['data/catalog.json'];
 const data = { ...catalog, raPositions: JSON.parse(read('data/ra-positions.json')).raPositions };
 const ids = ['nju-li-yufeng', 'nju-shen-furao', 'tongji-he-bin', 'tongji-xu-yang', 'ustc-ren-shaoqing'];
 const added = ids.map((id) => supplement.profiles.find((p) => p.advisorId === id));

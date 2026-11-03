@@ -1,0 +1,1053 @@
+{
+  "schemaVersion": 1,
+  "baseCommit": "4653bbd56a237a618a58c6f599e32e071ddf7094",
+  "reviewDate": "2026-11-03",
+  "scope": "陈飞飞机器人导师参考档案与徐阳双来源招生表述；不新增2028确认机会。",
+  "officialEvidence": [
+    {
+      "url": "https://ai.hnu.edu.cn/info/1035/1043.htm",
+      "label": "湖南大学徐进锋教师介绍",
+      "title": "湖南大学徐进锋教师介绍",
+      "checkedDate": "2026-11-03",
+      "section": "任职、研究方向与博士申请说明；未明确年份和独立指导条件"
+    },
+    {
+      "url": "https://me.sjtu.edu.cn/teacher_directory1/chenfeifei.html",
+      "label": "上海交通大学陈飞飞教师主页",
+      "title": "上海交通大学陈飞飞教师主页",
+      "checkedDate": "2026-11-03",
+      "section": "工作经历2018年5月、2026年8月晋升；2027博士已满与硕士1名"
+    },
+    {
+      "url": "https://faculty.tongji.edu.cn/xuyang1/zh_CN/index.htm",
+      "label": "同济大学徐阳教师主页",
+      "title": "同济大学徐阳教师主页",
+      "checkedDate": "2026-11-03",
+      "section": "长期普博春秋、直博、硕士与RA；未明确2028"
+    },
+    {
+      "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+      "label": "同济大学徐阳实验室介绍",
+      "title": "同济大学徐阳实验室介绍",
+      "checkedDate": "2026-11-03",
+      "section": "当前仍写2027年入学硕博"
+    }
+  ],
+  "operations": [
+    {
+      "file": "data/catalog.json",
+      "path": "/advisors/82",
+      "operation": "replace",
+      "old": {
+        "id": "tongji-xu-yang",
+        "name": "Yang Xu",
+        "nameZh": "徐阳",
+        "institution": "Tongji",
+        "department": "上海自主智能无人系统科学中心",
+        "position": "副教授 / 博士生导师",
+        "topics": [
+          "机器人主动感知与认知、自主环境探测与规划、机器人长期学习与理解"
+        ],
+        "summary": "机器人主动感知与认知、自主环境探测与规划、机器人长期学习与理解",
+        "profileUrl": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+        "routeIds": [
+          "tongji-robotics-phd-reference-2026"
+        ],
+        "routeAssociations": [
+          {
+            "routeId": "tongji-robotics-phd-reference-2026",
+            "degree": "PhD",
+            "status": "reference",
+            "verificationStatus": "pending",
+            "summary": "同济大学智能机器人与自主智能博士项目（2026 招生及导师公告参考）；个人当期接收、专业入口和余位仍待核。",
+            "sources": [
+              {
+                "label": "导师个人博士招生公开表述",
+                "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+                "checkedDate": "2026-10-06"
+              },
+              {
+                "label": "同济大学2026年博士研究生招生章程",
+                "url": "https://yz.tongji.edu.cn/__local/4/DE/C5/CBF316CC9EAB81193FCB6F174F2_FAE3F663_3C498.pdf",
+                "checkedDate": "2026-10-06"
+              },
+              {
+                "label": "同济大学智能机器人与计算感知实验室博士招生入口",
+                "url": "https://robot.tongji.edu.cn/sysjs.htm",
+                "checkedDate": "2026-10-06"
+              }
+            ],
+            "checkedDate": "2026-10-06",
+            "scope": "program_reference_only",
+            "note": "博士身份或拟招生名单不等于个人当期余位。",
+            "sourceCycle": "2026",
+            "admissionMode": "application_assessment",
+            "projectCycleVerified": true,
+            "individualRecruitmentVerified": false,
+            "cycle2027FallReference": false
+          }
+        ],
+        "eligibility": "pending",
+        "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+        "defaultVisible": true,
+        "opening": "explicit",
+        "openingSummary": "个人页明确欢迎2027入学博士及硕士申请；仍需确认个人余位及正式招生条件。 个人2028 Fall博士招生未核实。",
+        "openings": {
+          "msc": "未核实公开声明",
+          "mphil": "未核实公开声明",
+          "phd": "个人页明确欢迎2027入学博士及硕士申请；仍需确认个人余位及正式招生条件。",
+          "ra": "未核实公开岗位",
+          "cycle2027": "2027 招生表述/拟招生计划参考；接收、余位和正式资格仍需确认。",
+          "cycle2028": "个人 2028 Fall 博士招生未核实"
+        },
+        "openingDetails": [
+          {
+            "degree": "PhD",
+            "status": "explicit",
+            "summary": "个人页明确欢迎2027入学博士及硕士申请；仍需确认个人余位及正式招生条件。",
+            "cycle2027FallVerified": false,
+            "cycle2027FallReference": true,
+            "cycle2028FallVerified": false,
+            "cycle": "2027；个人2028博士招生未核实",
+            "degreeRouteAssociated": false,
+            "sourceStatus": "personal_recruitment_statement",
+            "noticeDate": null,
+            "sources": [
+              {
+                "label": "导师个人博士招生公开表述",
+                "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+                "checkedDate": "2026-10-06"
+              }
+            ],
+            "checkedDate": "2026-10-06",
+            "individualRecruitmentVerified": true,
+            "projectCycleVerified": true,
+            "confirmedVacancy": false,
+            "remainingHeadcountVerified": false,
+            "associationVerificationStatus": "pending",
+            "sourceCycle": "2027",
+            "admissionMode": "doctoral_admission"
+          }
+        ],
+        "fall2027OpeningVerified": false,
+        "fall2028OpeningVerified": false,
+        "newPi": {
+          "verified": false,
+          "window": "calendar-year-2026",
+          "date": null,
+          "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+          "sources": [],
+          "dateEvidenceVerified": false
+        },
+        "appointment": {
+          "new_pi_2026_verified": false,
+          "date": null,
+          "note": "未核实 2026 新入职证据"
+        },
+        "sources": [
+          {
+            "label": "导师个人博士招生公开表述",
+            "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+            "checkedDate": "2026-10-06"
+          },
+          {
+            "label": "同济大学2026年博士研究生招生章程",
+            "url": "https://yz.tongji.edu.cn/__local/4/DE/C5/CBF316CC9EAB81193FCB6F174F2_FAE3F663_3C498.pdf",
+            "checkedDate": "2026-10-06"
+          },
+          {
+            "label": "同济大学智能机器人与计算感知实验室博士招生入口",
+            "url": "https://robot.tongji.edu.cn/sysjs.htm",
+            "checkedDate": "2026-10-06"
+          }
+        ],
+        "caveats": [
+          "官方个人页或博士导师目录提供博士指导身份依据。",
+          "个人公开招募信号、院系项目关联、申请资格和当前剩余名额分别核验。",
+          "本轮查阅来源未核实个人2028 Fall博士招生声明；不表示不招生。"
+        ],
+        "checkedDate": "2026-10-06",
+        "sourceFile": "tongji-advisor-review-20261005.json",
+        "sourceRecord": {
+          "id": "tongji-xu-yang",
+          "name": "Yang Xu",
+          "nameZh": "徐阳",
+          "department": "上海自主智能无人系统科学中心",
+          "position": "副教授 / 博士生导师",
+          "researchZh": "机器人主动感知与认知、自主环境探测与规划、机器人长期学习与理解",
+          "profileUrl": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+          "routeIds": [
+            "tongji-robotics-phd-reference-2026"
+          ],
+          "cycle2027FallReference": true,
+          "cycle2028FallVerified": false,
+          "catalogStatus": "profile_visible_association_pending",
+          "sources": [
+            {
+              "label": "导师个人博士招生公开表述",
+              "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+              "checkedDate": "2026-10-06"
+            },
+            {
+              "label": "同济大学2026年博士研究生招生章程",
+              "url": "https://yz.tongji.edu.cn/__local/4/DE/C5/CBF316CC9EAB81193FCB6F174F2_FAE3F663_3C498.pdf",
+              "checkedDate": "2026-10-06"
+            },
+            {
+              "label": "同济大学智能机器人与计算感知实验室博士招生入口",
+              "url": "https://robot.tongji.edu.cn/sysjs.htm",
+              "checkedDate": "2026-10-06"
+            }
+          ],
+          "routeAssociations": [
+            {
+              "routeId": "tongji-robotics-phd-reference-2026",
+              "degree": "PhD",
+              "status": "reference",
+              "verificationStatus": "pending",
+              "summary": "同济大学智能机器人与自主智能博士项目（2026 招生及导师公告参考）；个人当期接收、专业入口和余位仍待核。",
+              "sources": [
+                {
+                  "label": "导师个人博士招生公开表述",
+                  "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+                  "checkedDate": "2026-10-06"
+                },
+                {
+                  "label": "同济大学2026年博士研究生招生章程",
+                  "url": "https://yz.tongji.edu.cn/__local/4/DE/C5/CBF316CC9EAB81193FCB6F174F2_FAE3F663_3C498.pdf",
+                  "checkedDate": "2026-10-06"
+                },
+                {
+                  "label": "同济大学智能机器人与计算感知实验室博士招生入口",
+                  "url": "https://robot.tongji.edu.cn/sysjs.htm",
+                  "checkedDate": "2026-10-06"
+                }
+              ],
+              "checkedDate": "2026-10-06",
+              "scope": "program_reference_only",
+              "note": "博士身份或拟招生名单不等于个人当期余位。",
+              "sourceCycle": "2026",
+              "admissionMode": "application_assessment",
+              "projectCycleVerified": true,
+              "individualRecruitmentVerified": false,
+              "cycle2027FallReference": false
+            }
+          ],
+          "associationNote": "研究档案可见；具体个人项目关联待核，不计为已核实机会."
+        },
+        "cycle2027FallReference": true,
+        "cycle2027FallVerified": false,
+        "cycle2028FallVerified": false
+      },
+      "value": {
+        "id": "tongji-xu-yang",
+        "name": "Yang Xu",
+        "nameZh": "徐阳",
+        "institution": "Tongji",
+        "department": "上海自主智能无人系统科学中心",
+        "position": "副教授 / 博士生导师",
+        "topics": [
+          "机器人主动感知与认知、自主环境探测与规划、机器人长期学习与理解"
+        ],
+        "summary": "机器人主动感知与认知、自主环境探测与规划、机器人长期学习与理解",
+        "profileUrl": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+        "routeIds": [
+          "tongji-robotics-phd-reference-2026"
+        ],
+        "routeAssociations": [
+          {
+            "routeId": "tongji-robotics-phd-reference-2026",
+            "degree": "PhD",
+            "status": "reference",
+            "verificationStatus": "pending",
+            "summary": "同济大学智能机器人与自主智能博士项目（2026 招生及导师公告参考）；个人当期接收、专业入口和余位仍待核。",
+            "sources": [
+              {
+                "label": "导师个人博士招生公开表述",
+                "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+                "checkedDate": "2026-10-06"
+              },
+              {
+                "label": "同济大学2026年博士研究生招生章程",
+                "url": "https://yz.tongji.edu.cn/__local/4/DE/C5/CBF316CC9EAB81193FCB6F174F2_FAE3F663_3C498.pdf",
+                "checkedDate": "2026-10-06"
+              },
+              {
+                "label": "同济大学智能机器人与计算感知实验室博士招生入口",
+                "url": "https://robot.tongji.edu.cn/sysjs.htm",
+                "checkedDate": "2026-10-06"
+              }
+            ],
+            "checkedDate": "2026-10-06",
+            "scope": "program_reference_only",
+            "note": "博士身份或拟招生名单不等于个人当期余位。",
+            "sourceCycle": "2026",
+            "admissionMode": "application_assessment",
+            "projectCycleVerified": true,
+            "individualRecruitmentVerified": false,
+            "cycle2027FallReference": false
+          }
+        ],
+        "eligibility": "pending",
+        "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
+        "defaultVisible": true,
+        "opening": "explicit",
+        "openingSummary": "2026-11-03并列核验：实验室页仍明确招收2027年入学硕博；学校教师主页另列长期普博（春/秋）、直博、硕士及RA招募。两者不互相替代；2028 Fall及当前博士余位未核实。",
+        "openings": {
+          "msc": "未核实公开声明",
+          "mphil": "未核实公开声明",
+          "phd": "2026-11-03并列核验：实验室页仍明确招收2027年入学硕博；学校教师主页另列长期普博（春/秋）、直博、硕士及RA招募。两者不互相替代；2028 Fall及当前博士余位未核实。",
+          "ra": "教师主页长期招募RA；具体岗位期限、余位和资助未核实，不作为已核实RA机会。",
+          "cycle2027": "2027 招生表述/拟招生计划参考；接收、余位和正式资格仍需确认。",
+          "cycle2028": "个人 2028 Fall 博士招生未核实"
+        },
+        "openingDetails": [
+          {
+            "degree": "PhD",
+            "status": "explicit",
+            "summary": "个人页明确欢迎2027入学博士及硕士申请；仍需确认个人余位及正式招生条件。",
+            "cycle2027FallVerified": false,
+            "cycle2027FallReference": true,
+            "cycle2028FallVerified": false,
+            "cycle": "2027；个人2028博士招生未核实",
+            "degreeRouteAssociated": false,
+            "sourceStatus": "personal_recruitment_statement",
+            "noticeDate": null,
+            "sources": [
+              {
+                "label": "导师个人博士招生公开表述",
+                "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+                "checkedDate": "2026-10-06"
+              }
+            ],
+            "checkedDate": "2026-10-06",
+            "individualRecruitmentVerified": true,
+            "projectCycleVerified": true,
+            "confirmedVacancy": false,
+            "remainingHeadcountVerified": false,
+            "associationVerificationStatus": "pending",
+            "sourceCycle": "2027",
+            "admissionMode": "doctoral_admission"
+          }
+        ],
+        "fall2027OpeningVerified": false,
+        "fall2028OpeningVerified": false,
+        "newPi": {
+          "verified": false,
+          "window": "calendar-year-2026",
+          "date": null,
+          "note": "未核实 2026 新入职证据，不因职称或页面更新标成新 PI",
+          "sources": [],
+          "dateEvidenceVerified": false
+        },
+        "appointment": {
+          "new_pi_2026_verified": false,
+          "date": null,
+          "note": "未核实 2026 新入职证据"
+        },
+        "sources": [
+          {
+            "label": "导师个人博士招生公开表述",
+            "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+            "checkedDate": "2026-10-06"
+          },
+          {
+            "label": "同济大学2026年博士研究生招生章程",
+            "url": "https://yz.tongji.edu.cn/__local/4/DE/C5/CBF316CC9EAB81193FCB6F174F2_FAE3F663_3C498.pdf",
+            "checkedDate": "2026-10-06"
+          },
+          {
+            "label": "同济大学智能机器人与计算感知实验室博士招生入口",
+            "url": "https://robot.tongji.edu.cn/sysjs.htm",
+            "checkedDate": "2026-10-06"
+          },
+          {
+            "url": "https://faculty.tongji.edu.cn/xuyang1/zh_CN/index.htm",
+            "label": "同济大学徐阳教师主页",
+            "title": "同济大学徐阳教师主页",
+            "checkedDate": "2026-11-03"
+          },
+          {
+            "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+            "label": "同济大学徐阳实验室介绍",
+            "title": "同济大学徐阳实验室介绍",
+            "checkedDate": "2026-11-03"
+          }
+        ],
+        "caveats": [
+          "官方个人页或博士导师目录提供博士指导身份依据。",
+          "个人公开招募信号、院系项目关联、申请资格和当前剩余名额分别核验。",
+          "本轮查阅来源未核实个人2028 Fall博士招生声明；不表示不招生。"
+        ],
+        "checkedDate": "2026-11-03",
+        "sourceFile": "tongji-advisor-review-20261005.json",
+        "sourceRecord": {
+          "id": "tongji-xu-yang",
+          "name": "Yang Xu",
+          "nameZh": "徐阳",
+          "department": "上海自主智能无人系统科学中心",
+          "position": "副教授 / 博士生导师",
+          "researchZh": "机器人主动感知与认知、自主环境探测与规划、机器人长期学习与理解",
+          "profileUrl": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+          "routeIds": [
+            "tongji-robotics-phd-reference-2026"
+          ],
+          "cycle2027FallReference": true,
+          "cycle2028FallVerified": false,
+          "catalogStatus": "profile_visible_association_pending",
+          "sources": [
+            {
+              "label": "导师个人博士招生公开表述",
+              "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+              "checkedDate": "2026-10-06"
+            },
+            {
+              "label": "同济大学2026年博士研究生招生章程",
+              "url": "https://yz.tongji.edu.cn/__local/4/DE/C5/CBF316CC9EAB81193FCB6F174F2_FAE3F663_3C498.pdf",
+              "checkedDate": "2026-10-06"
+            },
+            {
+              "label": "同济大学智能机器人与计算感知实验室博士招生入口",
+              "url": "https://robot.tongji.edu.cn/sysjs.htm",
+              "checkedDate": "2026-10-06"
+            }
+          ],
+          "routeAssociations": [
+            {
+              "routeId": "tongji-robotics-phd-reference-2026",
+              "degree": "PhD",
+              "status": "reference",
+              "verificationStatus": "pending",
+              "summary": "同济大学智能机器人与自主智能博士项目（2026 招生及导师公告参考）；个人当期接收、专业入口和余位仍待核。",
+              "sources": [
+                {
+                  "label": "导师个人博士招生公开表述",
+                  "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+                  "checkedDate": "2026-10-06"
+                },
+                {
+                  "label": "同济大学2026年博士研究生招生章程",
+                  "url": "https://yz.tongji.edu.cn/__local/4/DE/C5/CBF316CC9EAB81193FCB6F174F2_FAE3F663_3C498.pdf",
+                  "checkedDate": "2026-10-06"
+                },
+                {
+                  "label": "同济大学智能机器人与计算感知实验室博士招生入口",
+                  "url": "https://robot.tongji.edu.cn/sysjs.htm",
+                  "checkedDate": "2026-10-06"
+                }
+              ],
+              "checkedDate": "2026-10-06",
+              "scope": "program_reference_only",
+              "note": "博士身份或拟招生名单不等于个人当期余位。",
+              "sourceCycle": "2026",
+              "admissionMode": "application_assessment",
+              "projectCycleVerified": true,
+              "individualRecruitmentVerified": false,
+              "cycle2027FallReference": false
+            }
+          ],
+          "associationNote": "研究档案可见；具体个人项目关联待核，不计为已核实机会."
+        },
+        "cycle2027FallReference": true,
+        "cycle2027FallVerified": false,
+        "cycle2028FallVerified": false
+      }
+    },
+    {
+      "file": "data/catalog.json",
+      "path": "/advisors/493",
+      "operation": "add",
+      "value": {
+        "id": "sjtu-chen-feifei",
+        "name": "Feifei Chen",
+        "nameZh": "陈飞飞",
+        "institution": "SJTU",
+        "department": "机械与动力工程学院",
+        "position": "教授；博士生导师",
+        "topics": [
+          "软体机器人",
+          "机器人本体感知与运动控制",
+          "仿人臂手"
+        ],
+        "summary": "2018年5月加入上海交通大学任助理教授及博士生导师，2026年8月晋升教授；研究软体机器人、本体感知和运动控制。晋升不作为新入职。",
+        "profileUrl": "https://me.sjtu.edu.cn/teacher_directory1/chenfeifei.html",
+        "routeIds": [
+          "sjtu-doctoral-faculty-reference-all-schools-20261019"
+        ],
+        "routeAssociations": [
+          {
+            "routeId": "sjtu-doctoral-faculty-reference-all-schools-20261019",
+            "degree": "PhD",
+            "status": "reference",
+            "verificationStatus": "pending",
+            "scope": "doctoral_supervision_reference",
+            "summary": "校方确认博士生导师身份及2027博士名额已满；仅关联交大博士参考入口，不是可申请名额。",
+            "sources": [
+              {
+                "url": "https://me.sjtu.edu.cn/teacher_directory1/chenfeifei.html",
+                "label": "上海交通大学陈飞飞教师主页",
+                "title": "上海交通大学陈飞飞教师主页",
+                "checkedDate": "2026-11-03"
+              }
+            ],
+            "checkedDate": "2026-11-03",
+            "sourceCycle": "2027",
+            "admissionMode": "personal_recruitment_reference",
+            "projectCycleVerified": false,
+            "individualRecruitmentVerified": false,
+            "note": "不提升正式项目关联或个人2028招生核验状态。"
+          }
+        ],
+        "eligibility": "pending",
+        "eligibilityMeaning": "博士指导身份有校方证据；当年正式项目关联、申请资格及2028招生仍待核。",
+        "defaultVisible": true,
+        "opening": "unknown",
+        "openingSummary": "校方教师页明确：2027年入学博士名额已满，硕士空余1名。该余量仅为页面当前表述，不推断2028博士招生、资助或剩余名额。",
+        "openings": {
+          "msc": "校方页面称2027年入学硕士空余1名；仅记录页面表述，实际状态需联系确认。",
+          "mphil": "未核实",
+          "phd": "校方教师页明确：2027年入学博士名额已满，硕士空余1名。该余量仅为页面当前表述，不推断2028博士招生、资助或剩余名额。",
+          "ra": "未核实公开岗位",
+          "cycle2027": "博士名额已满（校方页面表述）",
+          "cycle2028": "个人2028博士招生未核实"
+        },
+        "openingDetails": [
+          {
+            "degree": "PhD",
+            "status": "unknown",
+            "summary": "校方教师页明确：2027年入学博士名额已满，硕士空余1名。该余量仅为页面当前表述，不推断2028博士招生、资助或剩余名额。",
+            "cycle2027FallVerified": false,
+            "cycle2027IntakeVerified": false,
+            "cycle2028FallVerified": false,
+            "cycle2028IntakeVerified": false,
+            "cycle": "2027（博士已满）；2028未核实",
+            "degreeRouteAssociated": false,
+            "sourceStatus": "official_recruitment_status",
+            "noticeDate": null,
+            "sources": [
+              {
+                "url": "https://me.sjtu.edu.cn/teacher_directory1/chenfeifei.html",
+                "label": "上海交通大学陈飞飞教师主页",
+                "title": "上海交通大学陈飞飞教师主页",
+                "checkedDate": "2026-11-03"
+              }
+            ],
+            "checkedDate": "2026-11-03",
+            "individualRecruitmentVerified": false,
+            "projectCycleVerified": false,
+            "confirmedVacancy": false,
+            "remainingHeadcountVerified": false,
+            "associationVerificationStatus": "pending"
+          }
+        ],
+        "fall2027OpeningVerified": false,
+        "fall2028OpeningVerified": false,
+        "intake2027OpeningVerified": false,
+        "intake2028OpeningVerified": false,
+        "newPi": {
+          "verified": false,
+          "window": "calendar-year-2026",
+          "date": null,
+          "note": "首次任职日期由简介appointmentReview提供；不由职称推断新PI或年龄。",
+          "sources": [],
+          "dateEvidenceVerified": false
+        },
+        "appointment": {
+          "new_pi_2026_verified": false,
+          "date": null,
+          "note": "首次教研入职与后续晋升分开"
+        },
+        "sources": [
+          {
+            "url": "https://me.sjtu.edu.cn/teacher_directory1/chenfeifei.html",
+            "label": "上海交通大学陈飞飞教师主页",
+            "title": "上海交通大学陈飞飞教师主页",
+            "checkedDate": "2026-11-03"
+          }
+        ],
+        "caveats": [
+          "2027博士名额已满不等于2028也已满或有空缺。",
+          "2018年入职与2026年晋升分开记录。",
+          "硕士1名仅为页面表述，不构成博士名额。"
+        ],
+        "checkedDate": "2026-11-03",
+        "sourceFile": "audits/advisor-followup-20261103.json"
+      }
+    },
+    {
+      "file": "data/advisor-profiles.json",
+      "path": "/profiles/64",
+      "operation": "replace",
+      "old": {
+        "advisorId": "tongji-xu-yang",
+        "cardSummaryZh": "研究机器人主动感知、环境探测与规划决策，关注机器人在未知环境中的长期学习与理解。",
+        "overview": {
+          "textZh": "徐阳为同济大学上海自主智能无人系统科学中心副教授、博士生导师，2026 年 3 月全职加入同济大学。官方页面将其研究概括为机器人主动感知探测、规划决策、主动认知和长期学习。",
+          "sources": [
+            {
+              "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+              "checkedDate": "2026-10-08"
+            },
+            {
+              "url": "https://shepherd-gregory.github.io/",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        "labSnapshot": {
+          "name": "徐阳课题组 / 同济大学智能机器人与计算感知实验室",
+          "affiliation": {
+            "textZh": "个人页将徐阳置于上海自主智能无人系统科学中心，实验室主页提供同济大学智能机器人与计算感知实验室的统一平台；两者关系分开记录。",
+            "sources": [
+              {
+                "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+                "checkedDate": "2026-10-08"
+              },
+              {
+                "url": "https://robot.tongji.edu.cn/",
+                "checkedDate": "2026-10-08"
+              }
+            ]
+          },
+          "themes": [
+            "机器人主动感知与认知",
+            "自主环境探测与规划",
+            "规划决策与长期学习",
+            "机器人理解"
+          ],
+          "structure": {
+            "textZh": "官方页介绍论文、项目和招生招聘文字，但未公布当前团队规模、成员完整名单或具体指导分工。",
+            "sources": [
+              {
+                "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+                "checkedDate": "2026-10-08"
+              }
+            ]
+          },
+          "resources": [
+            {
+              "textZh": "官方页面列出机器人主动感知、环境探测与规划决策研究方向，并链接个人学术主页；研究方向不等同于已确认硬件或项目席位。",
+              "sources": [
+                {
+                  "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+                  "checkedDate": "2026-10-08"
+                },
+                {
+                  "url": "https://shepherd-gregory.github.io/",
+                  "checkedDate": "2026-10-08"
+                }
+              ]
+            }
+          ]
+        },
+        "representativeWorks": [
+          {
+            "title": "机器人主动感知与未知环境探测",
+            "year": 2026,
+            "venue": "同济大学官方教师简介（研究成果范围）",
+            "summaryZh": "官方研究方向将主动感知、环境探测和规划决策列为长期主题；这里按主题呈现，不虚构单篇论文题名。",
+            "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+            "sources": [
+              {
+                "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+                "checkedDate": "2026-10-08"
+              }
+            ]
+          },
+          {
+            "title": "机器人长期学习与理解",
+            "year": 2026,
+            "venue": "同济大学官方教师简介（研究成果范围）",
+            "summaryZh": "官方页面将机器人长期学习与理解列入研究方向，未据此指认当前项目或招生名额。",
+            "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+            "sources": [
+              {
+                "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+                "checkedDate": "2026-10-08"
+              }
+            ]
+          }
+        ],
+        "recruitment": {
+          "textZh": "徐阳官方教师页明确写出“招收 2027 年入学的硕博研究生”，并同时欢迎本科生科研实习；这是个人 2027 招募信号，但未确认剩余名额、资助额度或 2028 Fall。",
+          "sources": [
+            {
+              "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        "unknowns": [
+          "2027 硕博招募的具体学位、名额和资助条件未在页面中拆分",
+          "2028 Fall 是否继续接收及当前余位未确认",
+          "当前课题组成员结构和设备使用边界未公开"
+        ],
+        "links": [
+          {
+            "label": "同济大学徐阳教师页",
+            "url": "https://robot.tongji.edu.cn/info/1256/2810.htm"
+          },
+          {
+            "label": "徐阳个人学术主页",
+            "url": "https://shepherd-gregory.github.io/"
+          },
+          {
+            "label": "智能机器人与计算感知实验室介绍（共享团队）",
+            "url": "https://robot.tongji.edu.cn/sysjs.htm"
+          }
+        ],
+        "checkedDate": "2026-10-08",
+        "confirmedVacancy": false,
+        "profileScope": "public_professional_and_lab_overview",
+        "homepageReview": {
+          "checkedDate": "2026-10-10",
+          "textZh": "同济大学智能机器人与计算感知实验室介绍页补充共享实验室研究方向与团队入口；实验室共同信息不证明个人博士名额。",
+          "links": [
+            {
+              "label": "智能机器人与计算感知实验室介绍（共享团队）",
+              "url": "https://robot.tongji.edu.cn/sysjs.htm"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+              "checkedDate": "2026-10-10"
+            },
+            {
+              "url": "https://robot.tongji.edu.cn/sysjs.htm",
+              "checkedDate": "2026-10-10"
+            }
+          ]
+        },
+        "appointmentReview": {
+          "schemaVersion": 1,
+          "checkedDate": "2026-10-10",
+          "eventType": "first_faculty_research_appointment_current_institution",
+          "window": {
+            "asOf": "2026-10-10",
+            "start": "2021-10-10",
+            "end": "2026-10-10"
+          },
+          "status": "verified",
+          "appointmentConfirmed": true,
+          "precision": "month",
+          "dateText": "2026 年 3 月（具体日未核实）",
+          "earliestDate": "2026-03-01",
+          "latestDate": "2026-03-31",
+          "careerContext": "early_career",
+          "noteZh": "2026 年 3 月全职加入同济；此前 2023 年起在浙大从事博士后研究。",
+          "sources": [
+            {
+              "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+              "checkedDate": "2026-10-10",
+              "title": "徐阳-同济大学智能机器人与计算感知实验室",
+              "readScope": "2026 年 3 月全职加入同济；此前 2023 年起在浙大从事博士后研究。",
+              "contentSha256": "13effdfd384122919b0d55b2049d3a5217539d3b5614f46a538cb12b7cbbdbb3"
+            }
+          ]
+        }
+      },
+      "value": {
+        "advisorId": "tongji-xu-yang",
+        "cardSummaryZh": "研究机器人主动感知、环境探测与规划决策，关注机器人在未知环境中的长期学习与理解。",
+        "overview": {
+          "textZh": "徐阳为同济大学上海自主智能无人系统科学中心副教授、博士生导师，2026 年 3 月全职加入同济大学。官方页面将其研究概括为机器人主动感知探测、规划决策、主动认知和长期学习。",
+          "sources": [
+            {
+              "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+              "checkedDate": "2026-10-08"
+            },
+            {
+              "url": "https://shepherd-gregory.github.io/",
+              "checkedDate": "2026-10-08"
+            }
+          ]
+        },
+        "labSnapshot": {
+          "name": "徐阳课题组 / 同济大学智能机器人与计算感知实验室",
+          "affiliation": {
+            "textZh": "个人页将徐阳置于上海自主智能无人系统科学中心，实验室主页提供同济大学智能机器人与计算感知实验室的统一平台；两者关系分开记录。",
+            "sources": [
+              {
+                "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+                "checkedDate": "2026-10-08"
+              },
+              {
+                "url": "https://robot.tongji.edu.cn/",
+                "checkedDate": "2026-10-08"
+              }
+            ]
+          },
+          "themes": [
+            "机器人主动感知与认知",
+            "自主环境探测与规划",
+            "规划决策与长期学习",
+            "机器人理解"
+          ],
+          "structure": {
+            "textZh": "官方页介绍论文、项目和招生招聘文字，但未公布当前团队规模、成员完整名单或具体指导分工。",
+            "sources": [
+              {
+                "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+                "checkedDate": "2026-10-08"
+              }
+            ]
+          },
+          "resources": [
+            {
+              "textZh": "官方页面列出机器人主动感知、环境探测与规划决策研究方向，并链接个人学术主页；研究方向不等同于已确认硬件或项目席位。",
+              "sources": [
+                {
+                  "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+                  "checkedDate": "2026-10-08"
+                },
+                {
+                  "url": "https://shepherd-gregory.github.io/",
+                  "checkedDate": "2026-10-08"
+                }
+              ]
+            }
+          ]
+        },
+        "representativeWorks": [
+          {
+            "title": "机器人主动感知与未知环境探测",
+            "year": 2026,
+            "venue": "同济大学官方教师简介（研究成果范围）",
+            "summaryZh": "官方研究方向将主动感知、环境探测和规划决策列为长期主题；这里按主题呈现，不虚构单篇论文题名。",
+            "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+            "sources": [
+              {
+                "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+                "checkedDate": "2026-10-08"
+              }
+            ]
+          },
+          {
+            "title": "机器人长期学习与理解",
+            "year": 2026,
+            "venue": "同济大学官方教师简介（研究成果范围）",
+            "summaryZh": "官方页面将机器人长期学习与理解列入研究方向，未据此指认当前项目或招生名额。",
+            "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+            "sources": [
+              {
+                "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+                "checkedDate": "2026-10-08"
+              }
+            ]
+          }
+        ],
+        "recruitment": {
+          "textZh": "2026-11-03并列核验：实验室页仍明确招收2027年入学硕博；学校教师主页另列长期普博（春/秋）、直博、硕士及RA招募。两者不互相替代；2028 Fall及当前博士余位未核实。",
+          "sources": [
+            {
+              "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+              "checkedDate": "2026-10-08"
+            },
+            {
+              "url": "https://faculty.tongji.edu.cn/xuyang1/zh_CN/index.htm",
+              "label": "同济大学徐阳教师主页",
+              "title": "同济大学徐阳教师主页",
+              "checkedDate": "2026-11-03"
+            },
+            {
+              "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+              "label": "同济大学徐阳实验室介绍",
+              "title": "同济大学徐阳实验室介绍",
+              "checkedDate": "2026-11-03"
+            }
+          ]
+        },
+        "unknowns": [
+          "2027 硕博招募的具体学位、名额和资助条件未在页面中拆分",
+          "2028 Fall 是否继续接收及当前余位未确认",
+          "当前课题组成员结构和设备使用边界未公开"
+        ],
+        "links": [
+          {
+            "label": "同济大学徐阳教师页",
+            "url": "https://robot.tongji.edu.cn/info/1256/2810.htm"
+          },
+          {
+            "label": "徐阳个人学术主页",
+            "url": "https://shepherd-gregory.github.io/"
+          },
+          {
+            "label": "智能机器人与计算感知实验室介绍（共享团队）",
+            "url": "https://robot.tongji.edu.cn/sysjs.htm"
+          },
+          {
+            "label": "同济大学徐阳教师主页",
+            "url": "https://faculty.tongji.edu.cn/xuyang1/zh_CN/index.htm"
+          }
+        ],
+        "checkedDate": "2026-11-03",
+        "confirmedVacancy": false,
+        "profileScope": "public_professional_and_lab_overview",
+        "homepageReview": {
+          "checkedDate": "2026-10-10",
+          "textZh": "同济大学智能机器人与计算感知实验室介绍页补充共享实验室研究方向与团队入口；实验室共同信息不证明个人博士名额。",
+          "links": [
+            {
+              "label": "智能机器人与计算感知实验室介绍（共享团队）",
+              "url": "https://robot.tongji.edu.cn/sysjs.htm"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+              "checkedDate": "2026-10-10"
+            },
+            {
+              "url": "https://robot.tongji.edu.cn/sysjs.htm",
+              "checkedDate": "2026-10-10"
+            }
+          ]
+        },
+        "appointmentReview": {
+          "schemaVersion": 1,
+          "checkedDate": "2026-10-10",
+          "eventType": "first_faculty_research_appointment_current_institution",
+          "window": {
+            "asOf": "2026-10-10",
+            "start": "2021-10-10",
+            "end": "2026-10-10"
+          },
+          "status": "verified",
+          "appointmentConfirmed": true,
+          "precision": "month",
+          "dateText": "2026 年 3 月（具体日未核实）",
+          "earliestDate": "2026-03-01",
+          "latestDate": "2026-03-31",
+          "careerContext": "early_career",
+          "noteZh": "2026 年 3 月全职加入同济；此前 2023 年起在浙大从事博士后研究。",
+          "sources": [
+            {
+              "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+              "checkedDate": "2026-10-10",
+              "title": "徐阳-同济大学智能机器人与计算感知实验室",
+              "readScope": "2026 年 3 月全职加入同济；此前 2023 年起在浙大从事博士后研究。",
+              "contentSha256": "13effdfd384122919b0d55b2049d3a5217539d3b5614f46a538cb12b7cbbdbb3"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "data/advisor-profiles.json",
+      "path": "/profiles/493",
+      "operation": "add",
+      "value": {
+        "advisorId": "sjtu-chen-feifei",
+        "cardSummaryZh": "2018年5月加入上海交通大学任助理教授及博士生导师，2026年8月晋升教授；研究软体机器人、本体感知和运动控制。晋升不作为新入职。",
+        "overview": {
+          "textZh": "2018年5月加入上海交通大学任助理教授及博士生导师，2026年8月晋升教授；研究软体机器人、本体感知和运动控制。晋升不作为新入职。",
+          "sources": [
+            {
+              "url": "https://me.sjtu.edu.cn/teacher_directory1/chenfeifei.html",
+              "label": "上海交通大学陈飞飞教师主页",
+              "title": "上海交通大学陈飞飞教师主页",
+              "checkedDate": "2026-11-03"
+            }
+          ]
+        },
+        "labSnapshot": {
+          "name": "陈飞飞课题组",
+          "affiliation": {
+            "textZh": "上海交通大学机械与动力工程学院。",
+            "sources": [
+              {
+                "url": "https://me.sjtu.edu.cn/teacher_directory1/chenfeifei.html",
+                "label": "上海交通大学陈飞飞教师主页",
+                "title": "上海交通大学陈飞飞教师主页",
+                "checkedDate": "2026-11-03"
+              }
+            ]
+          },
+          "themes": [
+            "软体机器人",
+            "机器人本体感知与运动控制",
+            "仿人臂手"
+          ],
+          "structure": {
+            "textZh": "本次仅核实研究方向、任职与招生段落，团队规模和指导分工未核实。",
+            "sources": [
+              {
+                "url": "https://me.sjtu.edu.cn/teacher_directory1/chenfeifei.html",
+                "label": "上海交通大学陈飞飞教师主页",
+                "title": "上海交通大学陈飞飞教师主页",
+                "checkedDate": "2026-11-03"
+              }
+            ]
+          },
+          "resources": [
+            {
+              "textZh": "研究方向包括软体机器人、机器人本体感知与运动控制；不将研究方向解释为具体设备可用性。",
+              "sources": [
+                {
+                  "url": "https://me.sjtu.edu.cn/teacher_directory1/chenfeifei.html",
+                  "label": "上海交通大学陈飞飞教师主页",
+                  "title": "上海交通大学陈飞飞教师主页",
+                  "checkedDate": "2026-11-03"
+                }
+              ]
+            }
+          ]
+        },
+        "representativeWorks": [],
+        "recruitment": {
+          "textZh": "校方教师页明确：2027年入学博士名额已满，硕士空余1名。该余量仅为页面当前表述，不推断2028博士招生、资助或剩余名额。",
+          "sources": [
+            {
+              "url": "https://me.sjtu.edu.cn/teacher_directory1/chenfeifei.html",
+              "label": "上海交通大学陈飞飞教师主页",
+              "title": "上海交通大学陈飞飞教师主页",
+              "checkedDate": "2026-11-03"
+            }
+          ]
+        },
+        "unknowns": [
+          "2028博士招生年份、接收意向和余位未公布或未核实",
+          "正式项目关联、申请资格、资助条件待核",
+          "指导风格、团队氛围及资源使用条件未核实"
+        ],
+        "links": [
+          {
+            "label": "上海交通大学陈飞飞教师主页",
+            "url": "https://me.sjtu.edu.cn/teacher_directory1/chenfeifei.html"
+          }
+        ],
+        "checkedDate": "2026-11-03",
+        "confirmedVacancy": false,
+        "profileScope": "public_professional_and_lab_overview",
+        "appointmentReview": {
+          "schemaVersion": 1,
+          "checkedDate": "2026-11-03",
+          "eventType": "first_faculty_research_appointment_current_institution",
+          "window": {
+            "asOf": "2026-10-26",
+            "start": "2021-10-26",
+            "end": "2026-10-26"
+          },
+          "status": "verified",
+          "appointmentConfirmed": true,
+          "precision": "month",
+          "dateText": "2018年5月",
+          "earliestDate": "2018-05-01",
+          "latestDate": "2018-05-31",
+          "careerContext": "early_career",
+          "noteZh": "2018年5月起任助理教授兼博导；2026年8月为晋升教授，不重置首次入职日期。",
+          "sources": [
+            {
+              "url": "https://me.sjtu.edu.cn/teacher_directory1/chenfeifei.html",
+              "label": "上海交通大学陈飞飞教师主页",
+              "title": "上海交通大学陈飞飞教师主页",
+              "checkedDate": "2026-11-03",
+              "readScope": "工作经历与博士指导身份"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {reviewedPublicData} from './reviewed-public-data.mjs';
 import {buildOpportunities,browseAdvisors,browseRoutes} from '../assets/core.js';
 import {normalizeMaterialSupplement} from '../assets/material-supplement.js';
 import {normalizeProjectSummaries} from '../assets/record-summaries.js';
@@ -165,7 +166,11 @@ test('late material comparison render failure stays contained and loaded require
 // Explicit network fixture: the shipped catalog/profile corpus remains unchanged.
 test('an explicitly absent pending-adviser supplement retains honest fallback and no verified opportunity',async()=>{
  const id='cuhk_zhongyu_li',shipped=data('advisor-profiles.json');
- assert.equal(shipped.profiles.length,493);assert(shipped.profiles.some(profile=>profile.advisorId===id));
+ const readReceipt=path=>fs.readFileSync(new URL('../'+path,import.meta.url));
+ const historical=reviewedPublicData(readReceipt,{throughReceipt:'tests/fixtures/evidence/phd-application-dates-2027-20261026.json'});
+ assert.equal(historical['data/advisor-profiles.json'].profiles.length,493);
+ assert.deepEqual(shipped,reviewedPublicData(readReceipt)['data/advisor-profiles.json'],'the network fixture must start with the complete reviewed live corpus');
+ assert(shipped.profiles.some(profile=>profile.advisorId===id));
  assert(!opportunities.some(row=>row.advisorId===id));assert(browseAdvisors(catalog).some(advisor=>advisor.id===id));
  const app=await boot({file:'advisor-profiles.json',mode:'profile-absent',missingProfileId:id});
  assertCore(app);app.detail('advisor',id);const html=app.el('#detail-content').innerHTML;

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-11-03",
+  "baseCommit": "05d698aac690bcb6e80a49ebae2d738bd233023f",
+  "scopeZh": "定向复核三位导师；不代表全库或所有高校已完成检索。",
+  "candidates": [
+    {
+      "advisorId": "hnu-xu-jinfeng",
+      "name": "徐进锋",
+      "institution": "湖南大学",
+      "classification": "cross_direction_candidate",
+      "listedInRoboticsMainDirectory": false,
+      "classificationIsEditorialInference": true,
+      "reasonZh": "官方三维视觉、点云与动态开放场景研究与感知交叉，但机器人核心课题、独立博士指导条件、2028年份及名额未核实。",
+      "appointmentZh": "2026年6月任助理教授",
+      "recruitmentZh": "申请说明包含博士申请，未明确入学年份及名额。",
+      "sources": [
+        {
+          "url": "https://ai.hnu.edu.cn/info/1035/1043.htm",
+          "label": "湖南大学徐进锋教师介绍",
+          "title": "湖南大学徐进锋教师介绍",
+          "checkedDate": "2026-11-03"
+        }
+      ]
+    }
+  ],
+  "addedAdvisorIds": [
+    "sjtu-chen-feifei"
+  ],
+  "updatedAdvisorIds": [
+    "tongji-xu-yang"
+  ],
+  "sourceLedger": [
+    {
+      "url": "https://ai.hnu.edu.cn/info/1035/1043.htm",
+      "label": "湖南大学徐进锋教师介绍",
+      "title": "湖南大学徐进锋教师介绍",
+      "checkedDate": "2026-11-03",
+      "section": "任职、研究方向与博士申请说明；未明确年份和独立指导条件"
+    },
+    {
+      "url": "https://me.sjtu.edu.cn/teacher_directory1/chenfeifei.html",
+      "label": "上海交通大学陈飞飞教师主页",
+      "title": "上海交通大学陈飞飞教师主页",
+      "checkedDate": "2026-11-03",
+      "section": "工作经历2018年5月、2026年8月晋升；2027博士已满与硕士1名"
+    },
+    {
+      "url": "https://faculty.tongji.edu.cn/xuyang1/zh_CN/index.htm",
+      "label": "同济大学徐阳教师主页",
+      "title": "同济大学徐阳教师主页",
+      "checkedDate": "2026-11-03",
+      "section": "长期普博春秋、直博、硕士与RA；未明确2028"
+    },
+    {
+      "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+      "label": "同济大学徐阳实验室介绍",
+      "title": "同济大学徐阳实验室介绍",
+      "checkedDate": "2026-11-03",
+      "section": "当前仍写2027年入学硕博"
+    }
+  ],
+  "correctionZh": "徐阳两个来源并列：旧实验室页仍有2027表述；不能声称旧页面删除年份或更改为长期招募。",
+  "notVerified": [
+    "本次没有新确认2028 Fall机器人博士机会",
+    "陈飞飞2027博士已满不推出2028结论",
+    "徐进锋暂不纳入机器人主目录"
+  ]
+}

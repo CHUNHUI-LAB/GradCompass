@@ -24838,12 +24838,12 @@
       "eligibilityMeaning": "导师身份与研究保留；个人对应学位/招生方式关联待核。pending 不表示不具备招生资格。",
       "defaultVisible": true,
       "opening": "explicit",
-      "openingSummary": "个人页明确欢迎2027入学博士及硕士申请；仍需确认个人余位及正式招生条件。 个人2028 Fall博士招生未核实。",
+      "openingSummary": "2026-11-03并列核验：实验室页仍明确招收2027年入学硕博；学校教师主页另列长期普博（春/秋）、直博、硕士及RA招募。两者不互相替代；2028 Fall及当前博士余位未核实。",
       "openings": {
         "msc": "未核实公开声明",
         "mphil": "未核实公开声明",
-        "phd": "个人页明确欢迎2027入学博士及硕士申请；仍需确认个人余位及正式招生条件。",
-        "ra": "未核实公开岗位",
+        "phd": "2026-11-03并列核验：实验室页仍明确招收2027年入学硕博；学校教师主页另列长期普博（春/秋）、直博、硕士及RA招募。两者不互相替代；2028 Fall及当前博士余位未核实。",
+        "ra": "教师主页长期招募RA；具体岗位期限、余位和资助未核实，不作为已核实RA机会。",
         "cycle2027": "2027 招生表述/拟招生计划参考；接收、余位和正式资格仍需确认。",
         "cycle2028": "个人 2028 Fall 博士招生未核实"
       },
@@ -24906,6 +24906,18 @@
           "label": "同济大学智能机器人与计算感知实验室博士招生入口",
           "url": "https://robot.tongji.edu.cn/sysjs.htm",
           "checkedDate": "2026-10-06"
+        },
+        {
+          "url": "https://faculty.tongji.edu.cn/xuyang1/zh_CN/index.htm",
+          "label": "同济大学徐阳教师主页",
+          "title": "同济大学徐阳教师主页",
+          "checkedDate": "2026-11-03"
+        },
+        {
+          "url": "https://robot.tongji.edu.cn/info/1256/2810.htm",
+          "label": "同济大学徐阳实验室介绍",
+          "title": "同济大学徐阳实验室介绍",
+          "checkedDate": "2026-11-03"
         }
       ],
       "caveats": [
@@ -24913,7 +24925,7 @@
         "个人公开招募信号、院系项目关联、申请资格和当前剩余名额分别核验。",
         "本轮查阅来源未核实个人2028 Fall博士招生声明；不表示不招生。"
       ],
-      "checkedDate": "2026-10-06",
+      "checkedDate": "2026-11-03",
       "sourceFile": "tongji-advisor-review-20261005.json",
       "sourceRecord": {
         "id": "tongji-xu-yang",
@@ -100049,6 +100061,122 @@
       "checkedDate": "2026-10-26",
       "sourceFile": "../audits/rescreen-20261026.json",
       "labUrl": "https://me.sjtu.edu.cn/teacher_directory1/xiazeyang"
+    },
+    {
+      "id": "sjtu-chen-feifei",
+      "name": "Feifei Chen",
+      "nameZh": "陈飞飞",
+      "institution": "SJTU",
+      "department": "机械与动力工程学院",
+      "position": "教授；博士生导师",
+      "topics": [
+        "软体机器人",
+        "机器人本体感知与运动控制",
+        "仿人臂手"
+      ],
+      "summary": "2018年5月加入上海交通大学任助理教授及博士生导师，2026年8月晋升教授；研究软体机器人、本体感知和运动控制。晋升不作为新入职。",
+      "profileUrl": "https://me.sjtu.edu.cn/teacher_directory1/chenfeifei.html",
+      "routeIds": [
+        "sjtu-doctoral-faculty-reference-all-schools-20261019"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "sjtu-doctoral-faculty-reference-all-schools-20261019",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "校方确认博士生导师身份及2027博士名额已满；仅关联交大博士参考入口，不是可申请名额。",
+          "sources": [
+            {
+              "url": "https://me.sjtu.edu.cn/teacher_directory1/chenfeifei.html",
+              "label": "上海交通大学陈飞飞教师主页",
+              "title": "上海交通大学陈飞飞教师主页",
+              "checkedDate": "2026-11-03"
+            }
+          ],
+          "checkedDate": "2026-11-03",
+          "sourceCycle": "2027",
+          "admissionMode": "personal_recruitment_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "不提升正式项目关联或个人2028招生核验状态。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "博士指导身份有校方证据；当年正式项目关联、申请资格及2028招生仍待核。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "校方教师页明确：2027年入学博士名额已满，硕士空余1名。该余量仅为页面当前表述，不推断2028博士招生、资助或剩余名额。",
+      "openings": {
+        "msc": "校方页面称2027年入学硕士空余1名；仅记录页面表述，实际状态需联系确认。",
+        "mphil": "未核实",
+        "phd": "校方教师页明确：2027年入学博士名额已满，硕士空余1名。该余量仅为页面当前表述，不推断2028博士招生、资助或剩余名额。",
+        "ra": "未核实公开岗位",
+        "cycle2027": "博士名额已满（校方页面表述）",
+        "cycle2028": "个人2028博士招生未核实"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "unknown",
+          "summary": "校方教师页明确：2027年入学博士名额已满，硕士空余1名。该余量仅为页面当前表述，不推断2028博士招生、资助或剩余名额。",
+          "cycle2027FallVerified": false,
+          "cycle2027IntakeVerified": false,
+          "cycle2028FallVerified": false,
+          "cycle2028IntakeVerified": false,
+          "cycle": "2027（博士已满）；2028未核实",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "official_recruitment_status",
+          "noticeDate": null,
+          "sources": [
+            {
+              "url": "https://me.sjtu.edu.cn/teacher_directory1/chenfeifei.html",
+              "label": "上海交通大学陈飞飞教师主页",
+              "title": "上海交通大学陈飞飞教师主页",
+              "checkedDate": "2026-11-03"
+            }
+          ],
+          "checkedDate": "2026-11-03",
+          "individualRecruitmentVerified": false,
+          "projectCycleVerified": false,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "首次任职日期由简介appointmentReview提供；不由职称推断新PI或年龄。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "首次教研入职与后续晋升分开"
+      },
+      "sources": [
+        {
+          "url": "https://me.sjtu.edu.cn/teacher_directory1/chenfeifei.html",
+          "label": "上海交通大学陈飞飞教师主页",
+          "title": "上海交通大学陈飞飞教师主页",
+          "checkedDate": "2026-11-03"
+        }
+      ],
+      "caveats": [
+        "2027博士名额已满不等于2028也已满或有空缺。",
+        "2018年入职与2026年晋升分开记录。",
+        "硕士1名仅为页面表述，不构成博士名额。"
+      ],
+      "checkedDate": "2026-11-03",
+      "sourceFile": "audits/advisor-followup-20261103.json"
     }
   ],
   "routes": [

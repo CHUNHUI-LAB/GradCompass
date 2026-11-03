@@ -4,11 +4,13 @@ import fs from 'node:fs';
 import crypto from 'node:crypto';
 import {normalizeMaterialSupplement} from '../assets/material-supplement.js';
 import {normalizeProjectSummaries,renderRecordSummary} from '../assets/record-summaries.js';
-import {assertReviewedPublicData} from './reviewed-public-data.mjs';
+import {assertReviewedPublicData,reviewedPublicData} from './reviewed-public-data.mjs';
 import {buildOpportunities} from '../assets/core.js';
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url));
 const json=p=>JSON.parse(read(p));
-const catalog=json('data/catalog.json'),raw=json('data/material-summaries.json'),projects=json('data/project-summaries.json');
+// Preserve the prior review's assertions while live data is checked against every receipt below.
+const prior=reviewedPublicData(read,{throughReceipt:'tests/fixtures/evidence/phd-application-dates-2027-20261026.json'});
+const catalog=prior['data/catalog.json'],raw=prior['data/material-summaries.json'],projects=prior['data/project-summaries.json'];
 const receipt=json('tests/fixtures/evidence/hku-ris-materials-20261011.json');
 const sha=value=>crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const baselineHashes={"data/catalog.json":"4ee1ebc798beefcfe0a68934bdd2e7ffc4b96d99cf3bd873f4c46cc11dd566a5","data/project-summaries.json":"77b000d870b5ad85df276fbc23f71f4ee1b458a439252e2060a20b157a15d46e","data/material-summaries.json":"5df80564b3228d5393e256c3bcc183212bcc6468eb0be4293321d36d14f71d6e"};
@@ -19,7 +21,7 @@ const summary=normalizeProjectSummaries(projects,catalog).get('hku-ris-msc');
 test('HKU RIS review is exactly reversible to the independently fetched October 11 baseline',()=>{
  const files=Object.fromEntries(Object.keys(baselineHashes).map(p=>[p,json(p)]));
  // Remove only this later reviewed append batch, checking every exact value.
- const laterExpansions=['phd-application-dates-2027-20261026','robotics-scope-correction-20261026','rescreen-20261026','existing-doctoral-links-20261019','appointment-source-followup-20261019','all-schools-rescreen-20261019','tongji-rescreen-20261019','pku-expansion-20261019'];
+ const laterExpansions=['advisor-followup-20261103','phd-application-dates-2027-20261026','robotics-scope-correction-20261026','rescreen-20261026','existing-doctoral-links-20261019','appointment-source-followup-20261019','all-schools-rescreen-20261019','tongji-rescreen-20261019','pku-expansion-20261019'];
  for(const batch of laterExpansions){
  const expansion=json('tests/fixtures/evidence/'+batch+'.json');
  for(const op of [...expansion.operations].reverse()){
