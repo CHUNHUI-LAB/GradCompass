@@ -6,6 +6,7 @@ import {browseAdvisors,browseRoutes,isBrowsableRoute,hasVerifiedAssociation,buil
 import {renderRecordSummary,normalizeProjectSummaries} from '../assets/record-summaries.js';
 import {selectProjectComparisonRoutes,renderProjectComparison} from '../assets/project-comparison.js';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url)));
+const reviewed=reviewedPublicData(p=>fs.readFileSync(new URL('../'+p,import.meta.url)))['data/catalog.json'];
 const catalog=read('data/catalog.json');catalog.raPositions=read('data/ra-positions.json').raPositions;
 const source={url:'https://example.edu/admission',label:'Synthetic official source'};
 const route={id:'synthetic-phd',degree:'PhD',institution:'Example',status:'verified',bachelorEligible:false,noMasterRequired:false,noTuimianRequired:false,admissionMode:'recommendation_exemption',sources:[source],eligibilitySummary:'Requires specified prior qualification'};
@@ -14,7 +15,7 @@ const synthetic={metadata:{checkedDate:'2026-10-04'},advisors:[advisor],routes:[
 
 test('public discovery retains every recorded advisor and academic route without changing source data',()=>{
  const before=JSON.stringify(catalog);
- assert.equal(catalog.advisors.length,494);
+ assert.equal(catalog.advisors.length,reviewed.advisors.length);
  assert.deepEqual(new Set(browseAdvisors(catalog).map(a=>a.id)),new Set(catalog.advisors.map(a=>a.id)));
  assert.deepEqual(new Set(browseRoutes(catalog).map(r=>r.id)),new Set(catalog.routes.filter(isBrowsableRoute).map(r=>r.id)));
  for(const id of ['cuhk_zhongyu_li','xjtlu-yaran-chen'])assert(browseAdvisors(catalog).some(a=>a.id===id),id);
@@ -92,7 +93,7 @@ test('all fifteen concurrent research profiles and four doctoral references surv
   for(const o of a.openingDetails||[]){assert.notEqual(o.cycle2027FallVerified,true);assert.notEqual(o.cycle2028FallVerified,true);assert.notEqual(o.confirmedVacancy,true);assert.notEqual(o.remainingHeadcountVerified,true);}
  }
  assert.equal(dated.routes.filter(r=>['SUSTech','Tsinghua'].includes(r.institution)&&r.degree==='PhD'&&r.status==='reference').length,4);
- assert.equal(buildOpportunities(catalog).length,59);assert.equal(browseAdvisors(catalog).length,494);assert.equal(browseRoutes(catalog).length,93);
+ assert.equal(buildOpportunities(catalog).length,59);assert.equal(browseAdvisors(catalog).length,reviewed.advisors.length);assert.equal(browseRoutes(catalog).length,reviewed.routes.length);
 });
 
 test('native IIIS academic and professional degrees cannot be called science masters',()=>{

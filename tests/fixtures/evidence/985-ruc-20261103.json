@@ -1,0 +1,769 @@
+{
+  "schemaVersion": 1,
+  "baseCommit": "4653bbd56a237a618a58c6f599e32e071ddf7094",
+  "reviewDate": "2026-11-03",
+  "scope": "中国人民大学机器人导师逐校补充；不新增已确认2028名额",
+  "officialEvidence": [
+    {
+      "url": "https://ai.ruc.edu.cn/szdw/zrjs/hd/index.htm",
+      "label": "胡迪个人研究与招生介绍",
+      "title": "胡迪个人研究与招生介绍",
+      "checkedDate": "2026-11-03",
+      "section": "身份、工作经历、研究方向及学生/招生说明"
+    },
+    {
+      "url": "https://yongcaiwang.github.io/",
+      "label": "王永才个人研究与招生介绍",
+      "title": "王永才个人研究与招生介绍",
+      "checkedDate": "2026-11-03",
+      "section": "身份、工作经历、研究方向及学生/招生说明"
+    },
+    {
+      "url": "https://ai.ruc.edu.cn/szdw/zrjs/hwb/index.htm",
+      "label": "黄文炳个人研究与招生介绍",
+      "title": "黄文炳个人研究与招生介绍",
+      "checkedDate": "2026-11-03",
+      "section": "身份、工作经历、研究方向及学生/招生说明"
+    }
+  ],
+  "operations": [
+    {
+      "file": "data/catalog.json",
+      "path": "/routes/93",
+      "operation": "add",
+      "value": {
+        "id": "ruc-doctoral-faculty-reference-20261103",
+        "institution": "RUC",
+        "department": "本轮核实的机器人相关院系（逐人列明）",
+        "program": "机器人相关博士指导方向参考（2026-11-03逐校核验）",
+        "degree": "PhD",
+        "bachelorEligible": false,
+        "noTuimianRequired": false,
+        "noMasterRequired": false,
+        "status": "reference",
+        "eligibilitySummary": "逐人博士身份、本人招募或博士培养历史的方向参考；不代表个人当年正式接收、招生通道、申请资格或剩余名额。本科直博、申请考核与硕博连读要求尚须分别确认；false不表示禁止本科申请。",
+        "supervisorAssociation": "逐人博士身份、本人招募或博士培养历史的方向参考；不代表个人当年正式接收、招生通道、申请资格或剩余名额。",
+        "admissionYear": "身份／培养／历史批次参考，个人入学年分别标注",
+        "cycle2027Verified": false,
+        "projectCycleVerified": false,
+        "individualRecruitmentVerified": false,
+        "currentCycleVerificationStatus": "pending",
+        "sourceCycle": "未核统一当前周期",
+        "sourceCycles": [
+          "未核统一当前周期"
+        ],
+        "admissionMode": "doctoral_faculty_reference",
+        "evidenceScope": "doctoral_faculty_reference_only",
+        "applicationStatus": "unknown",
+        "applicationMethod": "查阅本校与培养院系当年博士简章；本人公开邀请不替代正式申请。",
+        "sources": [
+          {
+            "url": "https://ai.ruc.edu.cn/szdw/zrjs/hd/index.htm",
+            "label": "胡迪个人研究与招生介绍",
+            "title": "胡迪个人研究与招生介绍",
+            "checkedDate": "2026-11-03",
+            "section": "身份、工作经历、研究方向及学生/招生说明"
+          },
+          {
+            "url": "https://yongcaiwang.github.io/",
+            "label": "王永才个人研究与招生介绍",
+            "title": "王永才个人研究与招生介绍",
+            "checkedDate": "2026-11-03",
+            "section": "身份、工作经历、研究方向及学生/招生说明"
+          },
+          {
+            "url": "https://ai.ruc.edu.cn/szdw/zrjs/hwb/index.htm",
+            "label": "黄文炳个人研究与招生介绍",
+            "title": "黄文炳个人研究与招生介绍",
+            "checkedDate": "2026-11-03",
+            "section": "身份、工作经历、研究方向及学生/招生说明"
+          }
+        ],
+        "notes": [
+          "逐人博士身份、本人招募或博士培养历史的方向参考；不代表个人当年正式接收、招生通道、申请资格或剩余名额。",
+          "近五年入职分类不推断年龄或首次担任独立PI，也不建立个人招生资格。"
+        ],
+        "requirements": [
+          {
+            "kind": "academic",
+            "text": "个人博士指导资格、申请方式、学历要求与资助待逐人确认。",
+            "sources": [
+              {
+                "url": "https://ai.ruc.edu.cn/szdw/zrjs/hd/index.htm",
+                "label": "胡迪个人研究与招生介绍",
+                "title": "胡迪个人研究与招生介绍",
+                "checkedDate": "2026-11-03",
+                "section": "身份、工作经历、研究方向及学生/招生说明"
+              },
+              {
+                "url": "https://yongcaiwang.github.io/",
+                "label": "王永才个人研究与招生介绍",
+                "title": "王永才个人研究与招生介绍",
+                "checkedDate": "2026-11-03",
+                "section": "身份、工作经历、研究方向及学生/招生说明"
+              },
+              {
+                "url": "https://ai.ruc.edu.cn/szdw/zrjs/hwb/index.htm",
+                "label": "黄文炳个人研究与招生介绍",
+                "title": "黄文炳个人研究与招生介绍",
+                "checkedDate": "2026-11-03",
+                "section": "身份、工作经历、研究方向及学生/招生说明"
+              }
+            ]
+          }
+        ],
+        "checkedDate": "2026-11-03",
+        "defaultVisible": false
+      }
+    },
+    {
+      "file": "data/catalog.json",
+      "path": "/advisors/494",
+      "operation": "add",
+      "value": {
+        "id": "ruc-hu-di",
+        "name": "Di Hu",
+        "nameZh": "胡迪",
+        "institution": "RUC",
+        "department": "高瓴人工智能学院",
+        "position": "长聘副教授；博士生导师",
+        "topics": [
+          "机器人触觉感知",
+          "多模态交互",
+          "机器人学习"
+        ],
+        "summary": "研究多模态交互，校方明确机器人触觉和交互学习成果；现为长聘副教授、博士生导师。",
+        "profileUrl": "https://ai.ruc.edu.cn/szdw/zrjs/hd/index.htm",
+        "routeIds": [
+          "ruc-doctoral-faculty-reference-20261103"
+        ],
+        "routeAssociations": [
+          {
+            "routeId": "ruc-doctoral-faculty-reference-20261103",
+            "degree": "PhD",
+            "status": "reference",
+            "verificationStatus": "pending",
+            "scope": "doctoral_supervision_reference",
+            "summary": "个人页明确博士生导师身份；不是当期正式招生关联。",
+            "sources": [
+              {
+                "url": "https://ai.ruc.edu.cn/szdw/zrjs/hd/index.htm",
+                "label": "胡迪个人研究与招生介绍",
+                "title": "胡迪个人研究与招生介绍",
+                "checkedDate": "2026-11-03",
+                "section": "身份、工作经历、研究方向及学生/招生说明"
+              }
+            ],
+            "checkedDate": "2026-11-03",
+            "sourceCycle": "未明确2028",
+            "admissionMode": "doctoral_faculty_reference",
+            "projectCycleVerified": false,
+            "individualRecruitmentVerified": false,
+            "note": "不提升个人2028招生核验状态。"
+          }
+        ],
+        "eligibility": "pending",
+        "eligibilityMeaning": "博士指导身份与正式项目关联、个人申请资格、当前名额分别核实。",
+        "defaultVisible": true,
+        "opening": "unknown",
+        "openingSummary": "未核实个人2028博士招生、入学季节或剩余名额。",
+        "openings": {
+          "msc": "未逐项核实",
+          "mphil": "未核实",
+          "phd": "未核实个人2028博士招生、入学季节或剩余名额。",
+          "ra": "未核实公开岗位",
+          "cycle2027": "未据本轮确认",
+          "cycle2028": "个人2028博士招生未核实"
+        },
+        "openingDetails": [],
+        "fall2027OpeningVerified": false,
+        "fall2028OpeningVerified": false,
+        "intake2027OpeningVerified": false,
+        "intake2028OpeningVerified": false,
+        "newPi": {
+          "verified": false,
+          "window": "calendar-year-2026",
+          "date": null,
+          "note": "任职经历见简介；不从职称推断新PI、年龄或招生名额。",
+          "sources": [],
+          "dateEvidenceVerified": false
+        },
+        "appointment": {
+          "new_pi_2026_verified": false,
+          "date": null,
+          "note": "2020起在中国人民大学任教研岗位；后续晋升不重置入职时间。"
+        },
+        "sources": [
+          {
+            "url": "https://ai.ruc.edu.cn/szdw/zrjs/hd/index.htm",
+            "label": "胡迪个人研究与招生介绍",
+            "title": "胡迪个人研究与招生介绍",
+            "checkedDate": "2026-11-03",
+            "section": "身份、工作经历、研究方向及学生/招生说明"
+          }
+        ],
+        "caveats": [
+          "工作经历仍写准聘副教授，但页首/个人简介明确长聘副教授，保留来源内部差异。",
+          "未核到2028招生或当前剩余名额。",
+          "方向匹配、博士指导身份不等于2028招生或剩余名额。"
+        ],
+        "checkedDate": "2026-11-03",
+        "sourceFile": "audits/985-ruc-20261103.json"
+      }
+    },
+    {
+      "file": "data/advisor-profiles.json",
+      "path": "/profiles/494",
+      "operation": "add",
+      "value": {
+        "advisorId": "ruc-hu-di",
+        "cardSummaryZh": "研究多模态交互，校方明确机器人触觉和交互学习成果；现为长聘副教授、博士生导师。",
+        "overview": {
+          "textZh": "研究多模态交互，校方明确机器人触觉和交互学习成果；现为长聘副教授、博士生导师。 任职线索：2020起在中国人民大学任教研岗位；后续晋升不重置入职时间。",
+          "sources": [
+            {
+              "url": "https://ai.ruc.edu.cn/szdw/zrjs/hd/index.htm",
+              "label": "胡迪个人研究与招生介绍",
+              "title": "胡迪个人研究与招生介绍",
+              "checkedDate": "2026-11-03",
+              "section": "身份、工作经历、研究方向及学生/招生说明"
+            }
+          ]
+        },
+        "labSnapshot": {
+          "name": "胡迪研究方向",
+          "affiliation": {
+            "textZh": "中国人民大学高瓴人工智能学院",
+            "sources": [
+              {
+                "url": "https://ai.ruc.edu.cn/szdw/zrjs/hd/index.htm",
+                "label": "胡迪个人研究与招生介绍",
+                "title": "胡迪个人研究与招生介绍",
+                "checkedDate": "2026-11-03",
+                "section": "身份、工作经历、研究方向及学生/招生说明"
+              }
+            ]
+          },
+          "themes": [
+            "机器人触觉感知",
+            "多模态交互",
+            "机器人学习"
+          ],
+          "structure": {
+            "textZh": "本轮核实公开身份与研究课题，团队规模、指导分工和实验条件未作独立核验。",
+            "sources": [
+              {
+                "url": "https://ai.ruc.edu.cn/szdw/zrjs/hd/index.htm",
+                "label": "胡迪个人研究与招生介绍",
+                "title": "胡迪个人研究与招生介绍",
+                "checkedDate": "2026-11-03",
+                "section": "身份、工作经历、研究方向及学生/招生说明"
+              }
+            ]
+          },
+          "resources": [
+            {
+              "textZh": "持续机器人触觉与交互、物体操作、策略修正、sim-to-real成果；非仅多模态AI标签。；研究内容不保证申请者可用设备或资源。",
+              "sources": [
+                {
+                  "url": "https://ai.ruc.edu.cn/szdw/zrjs/hd/index.htm",
+                  "label": "胡迪个人研究与招生介绍",
+                  "title": "胡迪个人研究与招生介绍",
+                  "checkedDate": "2026-11-03",
+                  "section": "身份、工作经历、研究方向及学生/招生说明"
+                }
+              ]
+            }
+          ]
+        },
+        "representativeWorks": [],
+        "recruitment": {
+          "textZh": "未核实个人2028博士招生、入学季节或剩余名额。",
+          "sources": [
+            {
+              "url": "https://ai.ruc.edu.cn/szdw/zrjs/hd/index.htm",
+              "label": "胡迪个人研究与招生介绍",
+              "title": "胡迪个人研究与招生介绍",
+              "checkedDate": "2026-11-03",
+              "section": "身份、工作经历、研究方向及学生/招生说明"
+            }
+          ]
+        },
+        "unknowns": [
+          "工作经历仍写准聘副教授，但页首/个人简介明确长聘副教授，保留来源内部差异。",
+          "未核到2028招生或当前剩余名额。",
+          "2028具体入学季节、剩余名额、正式申请资格及资助未核实",
+          "组内氛围、指导风格与资源使用条件未核实"
+        ],
+        "links": [
+          {
+            "label": "胡迪个人研究与招生介绍",
+            "url": "https://ai.ruc.edu.cn/szdw/zrjs/hd/index.htm"
+          }
+        ],
+        "checkedDate": "2026-11-03",
+        "confirmedVacancy": false,
+        "profileScope": "public_professional_and_lab_overview",
+        "appointmentReview": {
+          "schemaVersion": 1,
+          "checkedDate": "2026-11-03",
+          "eventType": "first_faculty_research_appointment_current_institution",
+          "window": {
+            "asOf": "2026-10-26",
+            "start": "2021-10-26",
+            "end": "2026-10-26"
+          },
+          "status": "pending",
+          "appointmentConfirmed": false,
+          "precision": null,
+          "dateText": "见个人简介任职线索",
+          "earliestDate": null,
+          "latestDate": null,
+          "careerContext": "unknown",
+          "noteZh": "本轮核读的任职线索见个人简介；全站筛选窗口冻结于2026-10-26，未回填旧核验日期。",
+          "sources": [
+            {
+              "url": "https://ai.ruc.edu.cn/szdw/zrjs/hd/index.htm",
+              "label": "胡迪个人研究与招生介绍",
+              "title": "胡迪个人研究与招生介绍",
+              "checkedDate": "2026-11-03",
+              "section": "身份、工作经历、研究方向及学生/招生说明"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "data/catalog.json",
+      "path": "/advisors/495",
+      "operation": "add",
+      "value": {
+        "id": "ruc-wang-yongcai",
+        "name": "Yongcai Wang",
+        "nameZh": "王永才",
+        "institution": "RUC",
+        "department": "信息学院计算机系",
+        "position": "教授；博士生导师",
+        "topics": [
+          "SLAM",
+          "视觉语言导航",
+          "协同感知"
+        ],
+        "summary": "研究SLAM、空间智能与协同感知，公开个人页列教授、博士生导师及博士招生类型。",
+        "profileUrl": "https://yongcaiwang.github.io/",
+        "routeIds": [
+          "ruc-doctoral-faculty-reference-20261103"
+        ],
+        "routeAssociations": [
+          {
+            "routeId": "ruc-doctoral-faculty-reference-20261103",
+            "degree": "PhD",
+            "status": "reference",
+            "verificationStatus": "pending",
+            "scope": "doctoral_supervision_reference",
+            "summary": "个人页明确博士生导师身份；不是当期正式招生关联。",
+            "sources": [
+              {
+                "url": "https://yongcaiwang.github.io/",
+                "label": "王永才个人研究与招生介绍",
+                "title": "王永才个人研究与招生介绍",
+                "checkedDate": "2026-11-03",
+                "section": "身份、工作经历、研究方向及学生/招生说明"
+              }
+            ],
+            "checkedDate": "2026-11-03",
+            "sourceCycle": "未明确2028",
+            "admissionMode": "doctoral_faculty_reference",
+            "projectCycleVerified": false,
+            "individualRecruitmentVerified": false,
+            "note": "不提升个人2028招生核验状态。"
+          }
+        ],
+        "eligibility": "pending",
+        "eligibilityMeaning": "博士指导身份与正式项目关联、个人申请资格、当前名额分别核实。",
+        "defaultVisible": true,
+        "opening": "unknown",
+        "openingSummary": "个人页列直博、普博、工程博士等招生类型并欢迎联系，但未注明入学年份；不据此确认2028接收意向或名额。",
+        "openings": {
+          "msc": "未逐项核实",
+          "mphil": "未核实",
+          "phd": "个人页列直博、普博、工程博士等招生类型并欢迎联系，但未注明入学年份；不据此确认2028接收意向或名额。",
+          "ra": "未核实公开岗位",
+          "cycle2027": "未据本轮确认",
+          "cycle2028": "个人2028博士招生未核实"
+        },
+        "openingDetails": [],
+        "fall2027OpeningVerified": false,
+        "fall2028OpeningVerified": false,
+        "intake2027OpeningVerified": false,
+        "intake2028OpeningVerified": false,
+        "newPi": {
+          "verified": false,
+          "window": "calendar-year-2026",
+          "date": null,
+          "note": "任职经历见简介；不从职称推断新PI、年龄或招生名额。",
+          "sources": [],
+          "dateEvidenceVerified": false
+        },
+        "appointment": {
+          "new_pi_2026_verified": false,
+          "date": null,
+          "note": "2015-08起在中国人民大学任教研岗位；后续晋升不重置入职时间。"
+        },
+        "sources": [
+          {
+            "url": "https://yongcaiwang.github.io/",
+            "label": "王永才个人研究与招生介绍",
+            "title": "王永才个人研究与招生介绍",
+            "checkedDate": "2026-11-03",
+            "section": "身份、工作经历、研究方向及学生/招生说明"
+          }
+        ],
+        "caveats": [
+          "未核到2028招生或当前剩余名额。",
+          "方向匹配、博士指导身份不等于2028招生或剩余名额。"
+        ],
+        "checkedDate": "2026-11-03",
+        "sourceFile": "audits/985-ruc-20261103.json"
+      }
+    },
+    {
+      "file": "data/advisor-profiles.json",
+      "path": "/profiles/495",
+      "operation": "add",
+      "value": {
+        "advisorId": "ruc-wang-yongcai",
+        "cardSummaryZh": "研究SLAM、空间智能与协同感知，公开个人页列教授、博士生导师及博士招生类型。",
+        "overview": {
+          "textZh": "研究SLAM、空间智能与协同感知，公开个人页列教授、博士生导师及博士招生类型。 任职线索：2015-08起在中国人民大学任教研岗位；后续晋升不重置入职时间。",
+          "sources": [
+            {
+              "url": "https://yongcaiwang.github.io/",
+              "label": "王永才个人研究与招生介绍",
+              "title": "王永才个人研究与招生介绍",
+              "checkedDate": "2026-11-03",
+              "section": "身份、工作经历、研究方向及学生/招生说明"
+            }
+          ]
+        },
+        "labSnapshot": {
+          "name": "王永才研究方向",
+          "affiliation": {
+            "textZh": "中国人民大学信息学院计算机系",
+            "sources": [
+              {
+                "url": "https://yongcaiwang.github.io/",
+                "label": "王永才个人研究与招生介绍",
+                "title": "王永才个人研究与招生介绍",
+                "checkedDate": "2026-11-03",
+                "section": "身份、工作经历、研究方向及学生/招生说明"
+              }
+            ]
+          },
+          "themes": [
+            "SLAM",
+            "视觉语言导航",
+            "协同感知"
+          ],
+          "structure": {
+            "textZh": "本轮核实公开身份与研究课题，团队规模、指导分工和实验条件未作独立核验。",
+            "sources": [
+              {
+                "url": "https://yongcaiwang.github.io/",
+                "label": "王永才个人研究与招生介绍",
+                "title": "王永才个人研究与招生介绍",
+                "checkedDate": "2026-11-03",
+                "section": "身份、工作经历、研究方向及学生/招生说明"
+              }
+            ]
+          },
+          "resources": [
+            {
+              "textZh": "本人主页列SLAM研究；官方博士生报道确认同步定位建图与视觉语言导航培养。；研究内容不保证申请者可用设备或资源。",
+              "sources": [
+                {
+                  "url": "https://yongcaiwang.github.io/",
+                  "label": "王永才个人研究与招生介绍",
+                  "title": "王永才个人研究与招生介绍",
+                  "checkedDate": "2026-11-03",
+                  "section": "身份、工作经历、研究方向及学生/招生说明"
+                }
+              ]
+            }
+          ]
+        },
+        "representativeWorks": [],
+        "recruitment": {
+          "textZh": "个人页列直博、普博、工程博士等招生类型并欢迎联系，但未注明入学年份；不据此确认2028接收意向或名额。",
+          "sources": [
+            {
+              "url": "https://yongcaiwang.github.io/",
+              "label": "王永才个人研究与招生介绍",
+              "title": "王永才个人研究与招生介绍",
+              "checkedDate": "2026-11-03",
+              "section": "身份、工作经历、研究方向及学生/招生说明"
+            }
+          ]
+        },
+        "unknowns": [
+          "未核到2028招生或当前剩余名额。",
+          "2028具体入学季节、剩余名额、正式申请资格及资助未核实",
+          "组内氛围、指导风格与资源使用条件未核实"
+        ],
+        "links": [
+          {
+            "label": "王永才个人研究与招生介绍",
+            "url": "https://yongcaiwang.github.io/"
+          }
+        ],
+        "checkedDate": "2026-11-03",
+        "confirmedVacancy": false,
+        "profileScope": "public_professional_and_lab_overview",
+        "appointmentReview": {
+          "schemaVersion": 1,
+          "checkedDate": "2026-11-03",
+          "eventType": "first_faculty_research_appointment_current_institution",
+          "window": {
+            "asOf": "2026-10-26",
+            "start": "2021-10-26",
+            "end": "2026-10-26"
+          },
+          "status": "pending",
+          "appointmentConfirmed": false,
+          "precision": null,
+          "dateText": "见个人简介任职线索",
+          "earliestDate": null,
+          "latestDate": null,
+          "careerContext": "unknown",
+          "noteZh": "本轮核读的任职线索见个人简介；全站筛选窗口冻结于2026-10-26，未回填旧核验日期。",
+          "sources": [
+            {
+              "url": "https://yongcaiwang.github.io/",
+              "label": "王永才个人研究与招生介绍",
+              "title": "王永才个人研究与招生介绍",
+              "checkedDate": "2026-11-03",
+              "section": "身份、工作经历、研究方向及学生/招生说明"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "data/catalog.json",
+      "path": "/advisors/496",
+      "operation": "add",
+      "value": {
+        "id": "ruc-huang-wenbing",
+        "name": "Wenbing Huang",
+        "nameZh": "黄文炳",
+        "institution": "RUC",
+        "department": "高瓴人工智能学院",
+        "position": "预聘副教授；博士生导师",
+        "topics": [
+          "多模态机器人感知",
+          "触觉力序列表示",
+          "几何深度学习"
+        ],
+        "summary": "校方列预聘副教授、博士生导师，明确多模态机器人感知与触觉力序列研究；同时从事AI for Science，具体机器人课题接收意向需单独确认。",
+        "profileUrl": "https://ai.ruc.edu.cn/szdw/zrjs/hwb/index.htm",
+        "routeIds": [
+          "ruc-doctoral-faculty-reference-20261103"
+        ],
+        "routeAssociations": [
+          {
+            "routeId": "ruc-doctoral-faculty-reference-20261103",
+            "degree": "PhD",
+            "status": "reference",
+            "verificationStatus": "pending",
+            "scope": "doctoral_supervision_reference",
+            "summary": "个人页明确博士生导师身份；不是当期正式招生关联。",
+            "sources": [
+              {
+                "url": "https://ai.ruc.edu.cn/szdw/zrjs/hwb/index.htm",
+                "label": "黄文炳个人研究与招生介绍",
+                "title": "黄文炳个人研究与招生介绍",
+                "checkedDate": "2026-11-03",
+                "section": "身份、工作经历、研究方向及学生/招生说明"
+              }
+            ],
+            "checkedDate": "2026-11-03",
+            "sourceCycle": "未明确2028",
+            "admissionMode": "doctoral_faculty_reference",
+            "projectCycleVerified": false,
+            "individualRecruitmentVerified": false,
+            "note": "不提升个人2028招生核验状态。"
+          }
+        ],
+        "eligibility": "pending",
+        "eligibilityMeaning": "博士指导身份与正式项目关联、个人申请资格、当前名额分别核实。",
+        "defaultVisible": true,
+        "opening": "unknown",
+        "openingSummary": "未核实个人2028博士招生、入学季节或剩余名额。",
+        "openings": {
+          "msc": "未逐项核实",
+          "mphil": "未核实",
+          "phd": "未核实个人2028博士招生、入学季节或剩余名额。",
+          "ra": "未核实公开岗位",
+          "cycle2027": "未据本轮确认",
+          "cycle2028": "个人2028博士招生未核实"
+        },
+        "openingDetails": [],
+        "fall2027OpeningVerified": false,
+        "fall2028OpeningVerified": false,
+        "intake2027OpeningVerified": false,
+        "intake2028OpeningVerified": false,
+        "newPi": {
+          "verified": false,
+          "window": "calendar-year-2026",
+          "date": null,
+          "note": "任职经历见简介；不从职称推断新PI、年龄或招生名额。",
+          "sources": [],
+          "dateEvidenceVerified": false
+        },
+        "appointment": {
+          "new_pi_2026_verified": false,
+          "date": null,
+          "note": "2022-09起在中国人民大学任教研岗位；后续晋升不重置入职时间。"
+        },
+        "sources": [
+          {
+            "url": "https://ai.ruc.edu.cn/szdw/zrjs/hwb/index.htm",
+            "label": "黄文炳个人研究与招生介绍",
+            "title": "黄文炳个人研究与招生介绍",
+            "checkedDate": "2026-11-03",
+            "section": "身份、工作经历、研究方向及学生/招生说明"
+          }
+        ],
+        "caveats": [
+          "近期论文多为AI for Science；机器人方向依据为明确方向及2024机器人认知论文，不把泛具身标签当主要依据。",
+          "未核到2028招生或当前剩余名额。",
+          "方向匹配、博士指导身份不等于2028招生或剩余名额。"
+        ],
+        "checkedDate": "2026-11-03",
+        "sourceFile": "audits/985-ruc-20261103.json"
+      }
+    },
+    {
+      "file": "data/advisor-profiles.json",
+      "path": "/profiles/496",
+      "operation": "add",
+      "value": {
+        "advisorId": "ruc-huang-wenbing",
+        "cardSummaryZh": "校方列预聘副教授、博士生导师，明确多模态机器人感知与触觉力序列研究；同时从事AI for Science，具体机器人课题接收意向需单独确认。",
+        "overview": {
+          "textZh": "校方列预聘副教授、博士生导师，明确多模态机器人感知与触觉力序列研究；同时从事AI for Science，具体机器人课题接收意向需单独确认。 任职线索：2022-09起在中国人民大学任教研岗位；后续晋升不重置入职时间。",
+          "sources": [
+            {
+              "url": "https://ai.ruc.edu.cn/szdw/zrjs/hwb/index.htm",
+              "label": "黄文炳个人研究与招生介绍",
+              "title": "黄文炳个人研究与招生介绍",
+              "checkedDate": "2026-11-03",
+              "section": "身份、工作经历、研究方向及学生/招生说明"
+            }
+          ]
+        },
+        "labSnapshot": {
+          "name": "黄文炳研究方向",
+          "affiliation": {
+            "textZh": "中国人民大学高瓴人工智能学院",
+            "sources": [
+              {
+                "url": "https://ai.ruc.edu.cn/szdw/zrjs/hwb/index.htm",
+                "label": "黄文炳个人研究与招生介绍",
+                "title": "黄文炳个人研究与招生介绍",
+                "checkedDate": "2026-11-03",
+                "section": "身份、工作经历、研究方向及学生/招生说明"
+              }
+            ]
+          },
+          "themes": [
+            "多模态机器人感知",
+            "触觉力序列表示",
+            "几何深度学习"
+          ],
+          "structure": {
+            "textZh": "本轮核实公开身份与研究课题，团队规模、指导分工和实验条件未作独立核验。",
+            "sources": [
+              {
+                "url": "https://ai.ruc.edu.cn/szdw/zrjs/hwb/index.htm",
+                "label": "黄文炳个人研究与招生介绍",
+                "title": "黄文炳个人研究与招生介绍",
+                "checkedDate": "2026-11-03",
+                "section": "身份、工作经历、研究方向及学生/招生说明"
+              }
+            ]
+          },
+          "resources": [
+            {
+              "textZh": "研究方向明确机器人多模态感知、触觉力序列表示；2024论文列Robot Cognitive Learning by Considering Physical Properties。跨科学应用很多，推荐优先级低于机器人核心系统PI。；研究内容不保证申请者可用设备或资源。",
+              "sources": [
+                {
+                  "url": "https://ai.ruc.edu.cn/szdw/zrjs/hwb/index.htm",
+                  "label": "黄文炳个人研究与招生介绍",
+                  "title": "黄文炳个人研究与招生介绍",
+                  "checkedDate": "2026-11-03",
+                  "section": "身份、工作经历、研究方向及学生/招生说明"
+                }
+              ]
+            }
+          ]
+        },
+        "representativeWorks": [],
+        "recruitment": {
+          "textZh": "未核实个人2028博士招生、入学季节或剩余名额。",
+          "sources": [
+            {
+              "url": "https://ai.ruc.edu.cn/szdw/zrjs/hwb/index.htm",
+              "label": "黄文炳个人研究与招生介绍",
+              "title": "黄文炳个人研究与招生介绍",
+              "checkedDate": "2026-11-03",
+              "section": "身份、工作经历、研究方向及学生/招生说明"
+            }
+          ]
+        },
+        "unknowns": [
+          "近期论文多为AI for Science；机器人方向依据为明确方向及2024机器人认知论文，不把泛具身标签当主要依据。",
+          "未核到2028招生或当前剩余名额。",
+          "2028具体入学季节、剩余名额、正式申请资格及资助未核实",
+          "组内氛围、指导风格与资源使用条件未核实"
+        ],
+        "links": [
+          {
+            "label": "黄文炳个人研究与招生介绍",
+            "url": "https://ai.ruc.edu.cn/szdw/zrjs/hwb/index.htm"
+          }
+        ],
+        "checkedDate": "2026-11-03",
+        "confirmedVacancy": false,
+        "profileScope": "public_professional_and_lab_overview",
+        "appointmentReview": {
+          "schemaVersion": 1,
+          "checkedDate": "2026-11-03",
+          "eventType": "first_faculty_research_appointment_current_institution",
+          "window": {
+            "asOf": "2026-10-26",
+            "start": "2021-10-26",
+            "end": "2026-10-26"
+          },
+          "status": "pending",
+          "appointmentConfirmed": false,
+          "precision": null,
+          "dateText": "见个人简介任职线索",
+          "earliestDate": null,
+          "latestDate": null,
+          "careerContext": "unknown",
+          "noteZh": "本轮核读的任职线索见个人简介；全站筛选窗口冻结于2026-10-26，未回填旧核验日期。",
+          "sources": [
+            {
+              "url": "https://ai.ruc.edu.cn/szdw/zrjs/hwb/index.htm",
+              "label": "黄文炳个人研究与招生介绍",
+              "title": "黄文炳个人研究与招生介绍",
+              "checkedDate": "2026-11-03",
+              "section": "身份、工作经历、研究方向及学生/招生说明"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

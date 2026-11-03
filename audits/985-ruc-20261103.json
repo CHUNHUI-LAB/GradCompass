@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-11-03",
+  "school": "中国人民大学",
+  "institution": "RUC",
+  "scopeZh": "核查高瓴人工智能学院及信息学院/计算机系的一手教师和研究来源；本批为有证据候选补充，不宣称全校导师穷尽。",
+  "addedAdvisorIds": [
+    "ruc-hu-di",
+    "ruc-wang-yongcai",
+    "ruc-huang-wenbing"
+  ],
+  "candidates": [],
+  "sources": [
+    {
+      "url": "https://ai.ruc.edu.cn/szdw/zrjs/hd/index.htm",
+      "label": "胡迪个人研究与招生介绍",
+      "title": "胡迪个人研究与招生介绍",
+      "checkedDate": "2026-11-03",
+      "section": "身份、工作经历、研究方向及学生/招生说明"
+    },
+    {
+      "url": "https://yongcaiwang.github.io/",
+      "label": "王永才个人研究与招生介绍",
+      "title": "王永才个人研究与招生介绍",
+      "checkedDate": "2026-11-03",
+      "section": "身份、工作经历、研究方向及学生/招生说明"
+    },
+    {
+      "url": "https://ai.ruc.edu.cn/szdw/zrjs/hwb/index.htm",
+      "label": "黄文炳个人研究与招生介绍",
+      "title": "黄文炳个人研究与招生介绍",
+      "checkedDate": "2026-11-03",
+      "section": "身份、工作经历、研究方向及学生/招生说明"
+    }
+  ],
+  "limitations": [],
+  "notVerified": [
+    "未核实新增2028 Fall个人博士招生或剩余名额"
+  ]
+}

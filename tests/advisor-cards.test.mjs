@@ -1,3 +1,4 @@
+import {reviewedPublicData} from './reviewed-public-data.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -6,6 +7,9 @@ import {profileMap} from '../assets/profiles.js';
 import {browseAdvisors,filterOpportunities,escapeHTML} from '../assets/core.js';
 
 const read=name=>JSON.parse(fs.readFileSync(new URL('../data/'+name,import.meta.url),'utf8'));
+const raw=p=>fs.readFileSync(new URL('../'+p,import.meta.url));
+const reviewed=reviewedPublicData(raw);
+const expectedCount=reviewed['data/catalog.json'].advisors.length;
 const catalog=read('catalog.json');
 catalog.raPositions=read('ra-positions.json').raPositions;
 const profiles=profileMap(read('advisor-profiles.json'),catalog.advisors);
@@ -13,14 +17,14 @@ catalog.advisorProfiles=profiles;
 const render=(group,extra={})=>renderAdvisorCard(group,{catalog,profiles,profileState:'ready',compareIds:[],...extra});
 const counts=groups=>({advisors:groups.length,...Object.fromEntries(['degree','employment','reference'].map(kind=>[kind,groups.flatMap(group=>group.opportunities).filter(row=>row.kind===kind).length]))});
 
-test('default grouping preserves all 494 people and independent verified association and job counts',()=>{
+test('default grouping preserves all reviewed people and independent verified association and job counts',()=>{
   const groups=groupAdvisorResults(catalog);
-  assert.deepEqual(counts(groups),{advisors:494,degree:57,employment:2,reference:0});
-  assert.equal(new Set(groups.map(group=>group.advisor.id)).size,494);
-  assert.equal(groups.filter(group=>!group.opportunities.length).length,453);
-  assert.equal(advisorResultCount(groups),'494 位导师 · 57 条已核实学位关联 · 2 个 RA 岗位');
+  assert.deepEqual(counts(groups),{advisors:expectedCount,degree:57,employment:2,reference:0});
+  assert.equal(new Set(groups.map(group=>group.advisor.id)).size,expectedCount);
+  assert.equal(groups.filter(group=>!group.opportunities.length).length,expectedCount-41);
+  assert.equal(advisorResultCount(groups),`${expectedCount} 位导师 · 57 条已核实学位关联 · 2 个 RA 岗位`);
   const html=groups.map(group=>render(group)).join('');
-  assert.equal((html.match(/<article class="advisor-card"/g)||[]).length,494);
+  assert.equal((html.match(/<article class="advisor-card"/g)||[]).length,expectedCount);
 });
 
 test('two RA jobs remain independent rows under one advisor and keep their exact comparison identities',()=>{
@@ -42,8 +46,11 @@ test('two RA jobs remain independent rows under one advisor and keep their exact
 
 test('PhD discovery distinguishes people, verified degree associations and project references',()=>{
   const groups=groupAdvisorResults(catalog,{opportunityType:'PhD'});
-  assert.deepEqual(counts(groups),{advisors:491,degree:31,employment:0,reference:466});
-  assert.equal(advisorResultCount(groups),'491 位导师 · 31 条已核实学位关联 · 0 个 RA 岗位 · 466 条博士项目参考');
+  const expected={...reviewed['data/catalog.json'],raPositions:reviewed['data/ra-positions.json'].raPositions};
+  const people=browseAdvisors(expected,{opportunityType:'PhD'}).length;
+  const references=filterOpportunities(expected,{opportunityType:'PhD'}).filter(row=>row.kind==='reference').length;
+  assert.deepEqual(counts(groups),{advisors:people,degree:31,employment:0,reference:references});
+  assert.equal(advisorResultCount(groups),`${people} 位导师 · 31 条已核实学位关联 · 0 个 RA 岗位 · ${references} 条博士项目参考`);
   const reference=groups.find(group=>group.opportunities.every(row=>row.kind==='reference'));
   const html=render(reference);
   assert(html.includes('博士项目参考'));assert(html.includes('个人关联与余位待核'));
@@ -123,4 +130,12 @@ test('card content is escaped, unsafe source URLs are omitted and valid original
   advisor.profileUrl='https://example.org/profile?x=1&y=2';
   const safe=render(group,{profiles:new Map});
   assert(safe.includes('href="https://example.org/profile?x=1&amp;y=2" target="_blank" rel="noopener noreferrer"'));
+});
+
+// Keep the exact pre-expansion count contract at its immutable reviewed boundary.
+test('November 3 pre-expansion grouping retains its exact dated count contract',()=>{
+ const stage=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/advisor-followup-20261103.json'});
+ const c={...stage['data/catalog.json'],raPositions:stage['data/ra-positions.json'].raPositions};
+ assert.deepEqual(counts(groupAdvisorResults(c)),{advisors:494,degree:57,employment:2,reference:0});
+ assert.deepEqual(counts(groupAdvisorResults(c,{opportunityType:'PhD'})),{advisors:491,degree:31,employment:0,reference:466});
 });

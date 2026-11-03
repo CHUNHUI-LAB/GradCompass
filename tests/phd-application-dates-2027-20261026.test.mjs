@@ -9,7 +9,8 @@ import {overviewPresets,buildPageOverview} from '../assets/page-overviews.js';
 import {reviewedPublicData,assertReviewedPublicData} from './reviewed-public-data.mjs';
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url));
 const json=p=>JSON.parse(read(p));
-const c=json('data/catalog.json');
+// This dated calendar coverage predates later school additions; live facts are guarded below.
+const c=reviewedPublicData(read,{throughReceipt:'tests/fixtures/evidence/phd-application-dates-2027-20261026.json'})['data/catalog.json'];
 const audit=json('audits/phd-application-dates-2027-20261026.json');
 const receipt=json('tests/fixtures/evidence/phd-application-dates-2027-20261026.json');
 const prior=reviewedPublicData(read,{throughReceipt:'tests/fixtures/evidence/robotics-scope-correction-20261026.json'});

@@ -3,7 +3,8 @@ import {reviewedPublicData,assertReviewedPublicData} from './reviewed-public-dat
 import {buildOpportunities,browseAdvisors} from '../assets/core.js';
 import {renderProfile,renderProfileReferences} from '../assets/profiles.js';
 const raw=p=>fs.readFileSync(new URL('../'+p,import.meta.url)),json=p=>JSON.parse(raw(p));
-const c=json('data/catalog.json'),p=json('data/advisor-profiles.json'),receipt=json('tests/fixtures/evidence/advisor-followup-20261103.json');
+const dated=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/advisor-followup-20261103.json'});
+const c=dated['data/catalog.json'],p=dated['data/advisor-profiles.json'],receipt=json('tests/fixtures/evidence/advisor-followup-20261103.json');
 const old=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/phd-application-dates-2027-20261026.json'});
 test('bounded three-person follow-up retains all unrelated records and adds no verified openings',()=>{
  assert.equal(c.advisors.length,494);assert.equal(p.profiles.length,494);assert.equal(c.routes.length,93);assert.equal(receipt.operations.length,4);
@@ -20,5 +21,5 @@ test('cross-direction candidate remains outside robotics main list and Xu Yang k
 });
 test('all live facts still require pinned evidence, including full/2028 confusion',()=>{
  const all=Object.fromEntries(fs.readdirSync(new URL('../data/',import.meta.url)).filter(n=>n.endsWith('.json')).map(n=>['data/'+n,json('data/'+n)]));assertReviewedPublicData(all,raw);
- for(const mutate of [a=>a.fall2028OpeningVerified=true,a=>a.opening='explicit',a=>a.openings.phd='2028有名额']){let copy=structuredClone(all);mutate(copy['data/catalog.json'].advisors.at(-1));assert.throws(()=>assertReviewedPublicData(copy,raw));}
+ for(const mutate of [a=>a.fall2028OpeningVerified=true,a=>a.opening='explicit',a=>a.openings.phd='2028有名额']){let copy=structuredClone(all);mutate(copy['data/catalog.json'].advisors.find(a=>a.id==='sjtu-chen-feifei'));assert.throws(()=>assertReviewedPublicData(copy,raw));}
 });

@@ -1,16 +1,16 @@
-import {renderOpportunityComparison} from './opportunity-comparison.js?v=69466554cd8c';
+import {renderOpportunityComparison} from './opportunity-comparison.js?v=1d0b9712fbb0';
 import {appointmentStatus,appointmentLabels} from './appointments.js?v=fe7c21c5cd26';
-import {groupAdvisorResults,renderAdvisorCard,advisorResultCount} from './advisor-cards.js?v=85490f1d0468';
-import {renderProjectCard,renderDeadlineTimeline,renderMaterialCard,renderSourceDirectory} from './editorial-views.js?v=4ed324df6e38';
+import {groupAdvisorResults,renderAdvisorCard,advisorResultCount} from './advisor-cards.js?v=352aadf24d4f';
+import {renderProjectCard,renderDeadlineTimeline,renderMaterialCard,renderSourceDirectory} from './editorial-views.js?v=53c6594e8499';
 import {enhanceReader} from './reader.js?v=45a074f571c2';
 import {reconcileResults} from './result-dom.js?v=ea6b026bd694';
-import {renderProjectComparison,selectProjectComparisonRoutes} from './project-comparison.js?v=0c12950e3eef';
-import {renderPageOverview,overviewPresets} from './page-overviews.js?v=53ab073fbdc5';
-import {normalizeMaterialSupplement} from './material-supplement.js?v=df3a92a092e7';
-import {renderRecordSummary,supervisorAssociationText,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=7cbd92a72779';
-import {normalizeExperiences,renderExperiences,renderExperienceReading,renderExperienceEvidence,renderExperienceResults} from './experiences.js?v=3e486a87bd5b';
-import {profileMap,profileSummary,renderProfile,renderProfileReferences,renderHomepageRecruitment} from './profiles.js?v=5326d78756f6';
-import {nameInitials,rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue,matchesSearch} from './core.js?v=0c8488d71b29';
+import {renderProjectComparison,selectProjectComparisonRoutes} from './project-comparison.js?v=9c9ca6b956b2';
+import {renderPageOverview,overviewPresets} from './page-overviews.js?v=f3181e1226e7';
+import {normalizeMaterialSupplement} from './material-supplement.js?v=ad272e1b8a8a';
+import {renderRecordSummary,supervisorAssociationText,sourceAttribution,normalizeProjectSummaries,filterProjectRoutes} from './record-summaries.js?v=6296cfddcedd';
+import {normalizeExperiences,renderExperiences,renderExperienceReading,renderExperienceEvidence,renderExperienceResults} from './experiences.js?v=587cc09e0e4f';
+import {profileMap,profileSummary,renderProfile,renderProfileReferences,renderHomepageRecruitment} from './profiles.js?v=f484e6d43a59';
+import {nameInitials,rankOf,rankLabels,escapeHTML,readerText,buildOpportunities,filterOpportunities,safeUrl,sourcesOf,institutionLabel,degreeLabel,degreeDisplay,isVerifiedRoute,isBrowsableRoute,hasVerifiedAssociation,routeEvidenceText,browseAdvisors,browseRoutes,routesFor,hasVerifiedPath,themesFor,filterAdvisors,filterRoutes,deadlineStatus,filterDeadlines,toggleCompare,textValue,matchesSearch} from './core.js?v=adaf00b1db51';
 const $=selector=>document.querySelector(selector);
 const e=value=>escapeHTML(readerText(value));
 const experienceFilters={query:'',collection:''};
@@ -589,7 +589,7 @@ async function loadExperienceSupplement(){
  refreshOptionalView('experiences');
 }
 async function loadProfileSupplement(){
- try{advisorProfiles=profileMap(await optionalJSON(new URL('../data/advisor-profiles.json?v=56c7c252f27e',import.meta.url)),catalog.advisors);catalog={...catalog,advisorProfiles};profileSupplementState='ready';}
+ try{advisorProfiles=profileMap(await optionalJSON(new URL('../data/advisor-profiles.json?v=55f0f1e53392',import.meta.url)),catalog.advisors);catalog={...catalog,advisorProfiles};profileSupplementState='ready';}
  catch{profileSupplementState='unavailable';}
  refreshOptionalView('advisors');refreshOptionalDetail('advisor');
 }
@@ -602,7 +602,7 @@ async function initialize(){
  if(initializing)return;initializing=true;
  const retry=$('#view-content').querySelector?.('[data-retry-core]');if(retry){retry.disabled=true;retry.textContent='正在载入…';}
  try{
-  const responses=await Promise.all(['catalog.json?v=e801fd67d634','ra-positions.json','update-status.json'].map(name=>fetch(new URL('../data/'+name,import.meta.url))));
+  const responses=await Promise.all(['catalog.json?v=c816a3c11b37','ra-positions.json','update-status.json'].map(name=>fetch(new URL('../data/'+name,import.meta.url))));
   if(responses.some(res=>!res.ok))throw Error('数据读取失败，请重试');
   const [academicData,raData,statusData]=await Promise.all(responses.map(res=>res.json()));
   if(!Array.isArray(academicData.advisors)||!Array.isArray(academicData.routes))throw Error('数据格式暂不可用');

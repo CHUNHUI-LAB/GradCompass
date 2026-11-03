@@ -90,6 +90,8 @@ files.extend(['audits/rescreen-summary-20261026.md','audits/rescreen-20261026.js
 files.extend(['audits/robotics-scope-correction-summary-20261026.md','audits/robotics-scope-correction-20261026.json','tests/fixtures/evidence/robotics-scope-correction-20261026.json','tests/robotics-scope-correction-20261026.test.mjs'])
 files.extend(['audits/phd-application-dates-2027-summary-20261026.md','audits/phd-application-dates-2027-20261026.json','tests/fixtures/evidence/phd-application-dates-2027-20261026.json','tests/phd-application-dates-2027-20261026.test.mjs'])
 files.extend(['audits/advisor-followup-20261103.json','audits/advisor-followup-summary-20261103.md','tests/fixtures/evidence/advisor-followup-20261103.json','tests/advisor-followup-20261103.test.mjs'])
+files.extend(['audits/985-ruc-20261103.json', 'audits/985-ruc-summary-20261103.md', 'tests/fixtures/evidence/985-ruc-20261103.json'])
+files.append('tests/sequential-evidence.test.mjs')
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):

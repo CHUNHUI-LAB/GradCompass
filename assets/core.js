@@ -29,7 +29,7 @@ export function rankOf(advisor){
  return 'other';
 }
 export function rankMatches(advisor,filters={}){return !filters.rank||rankOf(advisor)===filters.rank;}
-export const institutionNames = {HKUST:'香港科技大学',HKU:'香港大学',CUHK:'香港中文大学',CityU:'香港城市大学',CityUHK:'香港城市大学','CUHK-Shenzhen':'香港中文大学（深圳）',PolyU:'香港理工大学',HKBU:'香港浸会大学','HKUST(GZ)':'香港科技大学（广州）','HKUST-GZ':'香港科技大学（广州）','CUHK(SZ)':'香港中文大学（深圳）','CUHK-SZ':'香港中文大学（深圳）',Westlake:'西湖大学',SUSTech:'南方科技大学',Tsinghua:'清华大学',PKU:'北京大学',ZJU:'浙江大学',Fudan:'复旦大学',SJTU:'上海交通大学',NJU:'南京大学',USTC:'中国科学技术大学',Tongji:'同济大学',SEU:'东南大学',XJTLU:'西交利物浦大学'};
+export const institutionNames = {"RUC":"中国人民大学",HKUST:'香港科技大学',HKU:'香港大学',CUHK:'香港中文大学',CityU:'香港城市大学',CityUHK:'香港城市大学','CUHK-Shenzhen':'香港中文大学（深圳）',PolyU:'香港理工大学',HKBU:'香港浸会大学','HKUST(GZ)':'香港科技大学（广州）','HKUST-GZ':'香港科技大学（广州）','CUHK(SZ)':'香港中文大学（深圳）','CUHK-SZ':'香港中文大学（深圳）',Westlake:'西湖大学',SUSTech:'南方科技大学',Tsinghua:'清华大学',PKU:'北京大学',ZJU:'浙江大学',Fudan:'复旦大学',SJTU:'上海交通大学',NJU:'南京大学',USTC:'中国科学技术大学',Tongji:'同济大学',SEU:'东南大学',XJTLU:'西交利物浦大学'};
 export const topicRules = [
  ['具身导航',/navigat|导航|interactive_navigation/i],
  ['机器人学习',/reinforcement|imitation|robot learning|robot_learning|强化学习|模仿学习|机器人学习|policy learning|策略学习/i],
@@ -47,7 +47,7 @@ export function normalizeSearchText(value){return textValue(value).normalize('NF
 export function searchTokens(value){return normalizeSearchText(value).split(' ').filter(Boolean);}
 export function matchesSearch(haystack,query){const source=normalizeSearchText(haystack);return searchTokens(query).every(token=>source.includes(token));}
 export const degreeSearchLabels={PhD:'PhD 博士 博士生 博士研究生 直博 博导',MPhil:'MPhil 研究型硕士 哲学硕士',MSc:'MSc 硕士 授课型硕士',MRes:'MRes 研究硕士'};
-export const institutionAliases={HKUST:'港科大 港科 港科大本部',HKU:'港大',CUHK:'港中文',CityUHK:'城大',PolyU:'理大',HKBU:'浸会',HKUSTGZ:'广州校区 港科大广州', 'HKUST(GZ)':'广州校区 港科大广州','CUHK-Shenzhen':'港中深 港中文深圳','Westlake':'西湖','SUSTech':'南科大','Tsinghua':'清华','PKU':'北大','ZJU':'浙大','Fudan':'复旦','SJTU':'上交 交大','NJU':'南大','USTC':'中科大 科大','Tongji':'同济','SEU':'东南'};
+export const institutionAliases={"RUC":"人大 人民大学",HKUST:'港科大 港科 港科大本部',HKU:'港大',CUHK:'港中文',CityUHK:'城大',PolyU:'理大',HKBU:'浸会',HKUSTGZ:'广州校区 港科大广州', 'HKUST(GZ)':'广州校区 港科大广州','CUHK-Shenzhen':'港中深 港中文深圳','Westlake':'西湖','SUSTech':'南科大','Tsinghua':'清华','PKU':'北大','ZJU':'浙大','Fudan':'复旦','SJTU':'上交 交大','NJU':'南大','USTC':'中科大 科大','Tongji':'同济','SEU':'东南'};
 export function searchObjectText(value,depth=0){if(value==null||depth>5)return '';if(typeof value==='string'||typeof value==='number'||typeof value==='boolean')return String(value);if(Array.isArray(value))return value.map(v=>searchObjectText(v,depth+1)).join(' ');if(typeof value==='object')return Object.entries(value).filter(([key])=>!['url','source','sources','checkedDate','sourceIds','advisorId','routeId'].includes(key)).map(([,v])=>searchObjectText(v,depth+1)).join(' ');return '';}
 export function escapeHTML(value){return textValue(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 export function safeUrl(value){try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)?u.href:null;}catch{return null;}}

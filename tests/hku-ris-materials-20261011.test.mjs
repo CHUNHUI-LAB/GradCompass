@@ -5,6 +5,7 @@ import crypto from 'node:crypto';
 import {normalizeMaterialSupplement} from '../assets/material-supplement.js';
 import {normalizeProjectSummaries,renderRecordSummary} from '../assets/record-summaries.js';
 import {assertReviewedPublicData,reviewedPublicData} from './reviewed-public-data.mjs';
+import {evidenceReviews} from './evidence-reviews.mjs';
 import {buildOpportunities} from '../assets/core.js';
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url));
 const json=p=>JSON.parse(read(p));
@@ -20,10 +21,13 @@ const summary=normalizeProjectSummaries(projects,catalog).get('hku-ris-msc');
 
 test('HKU RIS review is exactly reversible to the independently fetched October 11 baseline',()=>{
  const files=Object.fromEntries(Object.keys(baselineHashes).map(p=>[p,json(p)]));
- // Remove only this later reviewed append batch, checking every exact value.
- const laterExpansions=['advisor-followup-20261103','phd-application-dates-2027-20261026','robotics-scope-correction-20261026','rescreen-20261026','existing-doctoral-links-20261019','appointment-source-followup-20261019','all-schools-rescreen-20261019','tongji-rescreen-20261019','pku-expansion-20261019'];
+ // Reverse every later independently pinned receipt, checking every exact value.
+ const reviewIndex=evidenceReviews.findIndex(r=>r.path==='tests/fixtures/evidence/hku-ris-materials-20261011.json');
+ assert(reviewIndex>=0,'HKU review must remain registered');
+ const laterExpansions=evidenceReviews.slice(reviewIndex+1).reverse();
  for(const batch of laterExpansions){
- const expansion=json('tests/fixtures/evidence/'+batch+'.json');
+ const bytes=read(batch.path);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),batch.sha256,'unreviewed later evidence receipt');
+ const expansion=JSON.parse(bytes);
  for(const op of [...expansion.operations].reverse()){
   if(!Object.hasOwn(files,op.file))continue;
   assert(['add','replace','remove'].includes(op.operation));const keys=op.path.slice(1).split('/');let owner=files[op.file];for(const key of keys.slice(0,-1))owner=owner[key];const key=keys.at(-1);

@@ -1,9 +1,12 @@
+import {reviewedPublicData} from './reviewed-public-data.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { profileMap, renderProfile, renderProfileReferences } from '../assets/profiles.js';
 import { buildOpportunities, safeUrl } from '../assets/core.js';
 const read = (path) => fs.readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
+const reviewed = reviewedPublicData(read);
+const expectedCount = reviewed['data/catalog.json'].advisors.length;
 const supplement = JSON.parse(read('data/advisor-profiles.json'));
 const catalog = JSON.parse(read('data/catalog.json'));
 const data = { ...catalog, raPositions: JSON.parse(read('data/ra-positions.json')).raPositions };
@@ -12,10 +15,10 @@ const generated = supplement.profiles.filter((p) => generatedIds.has(p.advisorId
 const factsOf = (p) => [p.overview, p.labSnapshot.affiliation, p.labSnapshot.structure, ...p.labSnapshot.resources, p.recruitment, ...p.representativeWorks];
 
 test('every catalog advisor has exactly one profile supplement and full coverage joins without creating opportunities', () => {
-  assert.equal(catalog.advisors.length, 494);
-  assert.equal(supplement.profiles.length, 494);
-  assert.equal(profileMap(supplement, catalog.advisors).size, 494);
-  assert.equal(new Set(supplement.profiles.map((p) => p.advisorId)).size, 494);
+  assert.equal(catalog.advisors.length, expectedCount);
+  assert.equal(supplement.profiles.length, expectedCount);
+  assert.equal(profileMap(supplement, catalog.advisors).size, expectedCount);
+  assert.equal(new Set(supplement.profiles.map((p) => p.advisorId)).size, expectedCount);
   assert.equal(buildOpportunities(data).length, 59);
   assert.equal(supplement.batch11Review.newAdvisorIds.length, 268);
   assert.equal(supplement.batch11Review.preservedProfiles, 66);
