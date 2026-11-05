@@ -8,13 +8,13 @@
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
   "browserVisualQA": "Not yet browser-verified.",
-  "profilePilotCount": 497,
-  "visibleAdvisorCount": 497,
+  "profilePilotCount": 502,
+  "visibleAdvisorCount": 502,
   "opportunityCount": 59,
   "raPositionCount": 2,
   "newAdvisorProfiles": 26,
   "preservedAdvisorProfiles": 30,
-  "newProfileCitedSourceCount": 692,
+  "newProfileCitedSourceCount": 707,
   "experienceRecords": 27,
   "defaultExperienceRecords": 27,
   "experienceSourceSites": 20,
@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 78656,
-      "sha256": "8d77fc08b755e9a22f2f04902966ec83457d5ed7fcc2fecd60db563f109b21ad"
+      "bytes": 79521,
+      "sha256": "b1f2bf9a409a1d79776c5f7db2579348007b53d22eeb193b5dff11cf6b863e81"
     },
     {
       "path": "REDESIGN.md",
@@ -63,7 +63,7 @@
     {
       "path": "assets/app.js",
       "bytes": 76307,
-      "sha256": "df88b7a1dbba677c8b2e0b81b20bcfc60c6989a500d998f196de722b28f2b58d"
+      "sha256": "bed0cbb7e593604d7d2173bd89a9a2c6d02a5dd6117cef82c267c6ac21615bb4"
     },
     {
       "path": "assets/appointments.js",
@@ -246,6 +246,16 @@
       "sha256": "2e6568dd08d738d3df63984578dfe089326b22d188b02354d3818c596f8cabdd"
     },
     {
+      "path": "audits/ruc-census-followup-20261103.json",
+      "bytes": 63528,
+      "sha256": "f58c07a968e829ead0bd25c6ffc6e26f093de6e27ba231c4bec849b8e2b20fc2"
+    },
+    {
+      "path": "audits/ruc-census-followup-20261103.md",
+      "bytes": 7744,
+      "sha256": "ba575fdfc4559ab1883b8e02dff8d948e010541ff76913c0a50fae2ef14f37d6"
+    },
+    {
       "path": "audits/source-access-20261009.json",
       "bytes": 256348,
       "sha256": "1ee2d63dc678a48b1e1aca616e81710b389c90a95a1ef8cfc1eaf4986ae9ecf8"
@@ -262,8 +272,8 @@
     },
     {
       "path": "data/advisor-profiles.json",
-      "bytes": 3712122,
-      "sha256": "55f0f1e5339295a097763bbee5372485e8d59b89965723e5d754f5c77b99063b"
+      "bytes": 3767282,
+      "sha256": "fbb31db09e987bc078d03397354a6d27514b79dfed31e7ca5cbdf0d726c20af4"
     },
     {
       "path": "data/application-experience-provenance.json",
@@ -282,8 +292,8 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 5122185,
-      "sha256": "c816a3c11b37eb72e14306ddcbf04c783fb439a9f75730eec008bc4fb39708b2"
+      "bytes": 5150386,
+      "sha256": "44a8ea0c3f4e488e642b17f1dc532796793672bfa47a5203aa5aec8d27e6877f"
     },
     {
       "path": "data/four-schools-exploration-20261006.json",
@@ -393,7 +403,7 @@
     {
       "path": "index.html",
       "bytes": 11951,
-      "sha256": "c622165b55aba9b449a13940c5900f776b6c7cd8b9058c8282ed19f84637be55"
+      "sha256": "45695dacd3d0653ad771ee2357d4cd32d5d6a6d013d68eddfa6cc08d565c0596"
     },
     {
       "path": "package-lock.json",
@@ -412,8 +422,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 15794,
-      "sha256": "72b1d265bf0829cd0af8b4176fd179c93c11d37e50efb05225076985b6c020ef"
+      "bytes": 15994,
+      "sha256": "b04f0e347386218e7ee911472f1280e29595b77bcb3ba53529a3a367efee631b"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -587,8 +597,8 @@
     },
     {
       "path": "tests/evidence-reviews.mjs",
-      "bytes": 2099,
-      "sha256": "d6c1cc65e5e38de862fb4e04f56ba7a317c824edb65add8ae7a59283298e6293"
+      "bytes": 2247,
+      "sha256": "809b4351585e5e179effd5c3e401b910cfe1946635f560f94a2d73e34a9d8dfc"
     },
     {
       "path": "tests/existing-doctoral-links-20261019.test.mjs",
@@ -719,6 +729,11 @@
       "path": "tests/fixtures/evidence/robotics-scope-correction-20261026.json",
       "bytes": 73614,
       "sha256": "44a2c9c427c15b97785f31f3aeb0a33fd0f4e7317dc811b0c8f0015e538714e6"
+    },
+    {
+      "path": "tests/fixtures/evidence/ruc-census-followup-20261103.json",
+      "bytes": 98729,
+      "sha256": "c13eb09ef8bcb30222080161153d1976b79647c05df7d73bb4623e45c1eeaaee"
     },
     {
       "path": "tests/fixtures/evidence/tongji-rescreen-20261019.json",
@@ -1251,6 +1266,11 @@
       "sha256": "f7bdcb944f2cfc70460be8e06540680bae5f617616a2ec8343890c13e073a5ba"
     },
     {
+      "path": "tests/ruc-census-followup.test.mjs",
+      "bytes": 1823,
+      "sha256": "3edcfb81f086989f38a18dcd4b98cc0e1622c04c27c032ceb7e32a941f899263"
+    },
+    {
       "path": "tests/sequential-evidence.test.mjs",
       "bytes": 3590,
       "sha256": "299ec90e6b5a8569fe44a317420824737b747a1bf72f7e169552b2f20f0db669"
@@ -1364,7 +1384,7 @@
     "baseCommit": "1281ce4740272443563b4a98f421561bacc801f9",
     "scope": "Two inaccurate MSc overview text fragments only; no structure, style or interaction changes"
   },
-  "advisorCatalogCount": 497,
+  "advisorCatalogCount": 502,
   "verifiedDegreeAssociationCount": 57,
   "projectCatalogCount": 94,
   "visibleProjectCount": 94,

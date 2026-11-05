@@ -1,0 +1,1179 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-11-03",
+  "school": "中国人民大学",
+  "scopeZh": "人大机器人相关师资补充：5名新研究候选；博士资格4名正文已核、张静待核。覆盖边界与合作候选单列，不宣称当前全校穷尽。",
+  "addedAdvisorIds": [
+    "ruc-lu-zhiwu",
+    "ruc-song-ruihua",
+    "ruc-zeng-yi",
+    "ruc-jin-qin",
+    "ruc-zhang-jing"
+  ],
+  "sources": [
+    {
+      "url": "https://ai.ruc.edu.cn/szdw/zrjs/lzw/index.htm",
+      "label": "卢志武｜高瓴官方档案",
+      "title": "卢志武｜高瓴官方档案",
+      "checkedDate": "2026-11-03",
+      "section": "个人简介、工作经历、研究方向、学生要求正文",
+      "readScope": "个人简介、工作经历、研究方向、学生要求正文",
+      "access": "primary_page_body"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.27917v1",
+      "label": "EventSync（2026预印本）",
+      "title": "EventSync（2026预印本）",
+      "checkedDate": "2026-11-03",
+      "section": "作者单位与通讯脚注、摘要、IV-F真实机器人四项任务",
+      "readScope": "作者单位与通讯脚注、摘要、IV-F真实机器人四项任务",
+      "access": "primary_page_body"
+    },
+    {
+      "url": "https://ai.ruc.edu.cn/szdw/zrjs/srh/index.htm",
+      "label": "宋睿华｜高瓴官方档案",
+      "title": "宋睿华｜高瓴官方档案",
+      "checkedDate": "2026-11-03",
+      "section": "页首现职、工作经历、研究方向、2025 RoLD论文条目及作者标记",
+      "readScope": "页首现职、工作经历、研究方向、2025 RoLD论文条目及作者标记",
+      "access": "primary_page_body"
+    },
+    {
+      "url": "https://ai.ruc.edu.cn/xsjz/20250619002.html",
+      "label": "宋睿华｜2025研招讲座",
+      "title": "宋睿华｜2025研招讲座",
+      "checkedDate": "2026-11-03",
+      "section": "2025-06-17官方讲者简介：明确博士生导师；职称为当时信息",
+      "readScope": "2025-06-17官方讲者简介：明确博士生导师；职称为当时信息",
+      "access": "primary_page_body"
+    },
+    {
+      "url": "https://ai.ruc.edu.cn/szdw/zrjs/zy/index.htm",
+      "label": "曾毅｜高瓴官方档案",
+      "title": "曾毅｜高瓴官方档案",
+      "checkedDate": "2026-11-03",
+      "section": "个人简介中吴玉章讲席教授、博导；研究领域正文",
+      "readScope": "个人简介中吴玉章讲席教授、博导；研究领域正文",
+      "access": "primary_page_body"
+    },
+    {
+      "url": "https://arxiv.org/html/2606.27079v1",
+      "label": "ForesightSafety-VLA（2026预印本）",
+      "title": "ForesightSafety-VLA（2026预印本）",
+      "checkedDate": "2026-11-03",
+      "section": "作者机构脚注及人大通讯邮箱、摘要的机器人安全基准和RoboTwin场景",
+      "readScope": "作者机构脚注及人大通讯邮箱、摘要的机器人安全基准和RoboTwin场景",
+      "access": "primary_page_body"
+    },
+    {
+      "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/260ab5295d334a67beb7620e931268b1.htm",
+      "label": "金琴｜人大信息学院官方档案",
+      "title": "金琴｜人大信息学院官方档案",
+      "checkedDate": "2026-11-03",
+      "section": "个人简介的教授博导、工作经历2013.01、常设研究生联系说明",
+      "readScope": "个人简介的教授博导、工作经历2013.01、常设研究生联系说明",
+      "access": "primary_page_body"
+    },
+    {
+      "url": "https://arxiv.org/html/2602.11464v1",
+      "label": "EasyMimic（2026）",
+      "title": "EasyMimic（2026）",
+      "checkedDate": "2026-11-03",
+      "section": "作者名单和AIM3人大单位、摘要中人类视频模仿学习与LeRobot操作",
+      "readScope": "作者名单和AIM3人大单位、摘要中人类视频模仿学习与LeRobot操作",
+      "access": "primary_page_body"
+    },
+    {
+      "url": "https://arxiv.org/html/2608.02580v1",
+      "label": "Ego2Robot（2026预印本）",
+      "title": "Ego2Robot（2026预印本）",
+      "checkedDate": "2026-11-03",
+      "section": "作者名单和Qin Jin的人大AIM3署名、摘要中第一视角数据合成和真机部署",
+      "readScope": "作者名单和Qin Jin的人大AIM3署名、摘要中第一视角数据合成和真机部署",
+      "access": "primary_page_body"
+    },
+    {
+      "url": "https://www.ruc-aim3.com/joinus.html",
+      "label": "AIM3招生说明",
+      "title": "AIM3招生说明",
+      "checkedDate": "2026-11-03",
+      "section": "For Graduate Applicants明确Fall 2026：2名博士；不是2028信息",
+      "readScope": "For Graduate Applicants明确Fall 2026：2名博士；不是2028信息",
+      "access": "primary_page_body"
+    },
+    {
+      "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/d64b0daaa5534267ad7e57c0c8af9112.htm",
+      "label": "张静｜人大信息学院官方档案",
+      "title": "张静｜人大信息学院官方档案",
+      "checkedDate": "2026-11-03",
+      "section": "个人简介教授、官方链接及邮箱、工作经历2016.09入职；未写博导身份",
+      "readScope": "个人简介教授、官方链接及邮箱、工作经历2016.09入职；未写博导身份",
+      "access": "primary_page_body"
+    },
+    {
+      "url": "https://xiaojingzi.github.io/",
+      "label": "张静｜本人主页",
+      "title": "张静｜本人主页",
+      "checkedDate": "2026-11-03",
+      "section": "现职、研究方向、常设学生联系说明、2026 VLA论文及通讯作者星号",
+      "readScope": "现职、研究方向、常设学生联系说明、2026 VLA论文及通讯作者星号",
+      "access": "primary_page_body"
+    },
+    {
+      "url": "https://arxiv.org/html/2603.18091v1",
+      "label": "Action Draft and Verify（固定v1正文）",
+      "title": "Action Draft and Verify（固定v1正文）",
+      "checkedDate": "2026-11-03",
+      "section": "作者人大单位和通讯邮箱、摘要中的动作候选验证及仿真/真实操作；未核全篇",
+      "readScope": "作者人大单位和通讯邮箱、摘要中的动作候选验证及仿真/真实操作；未核全篇",
+      "access": "primary_page_body"
+    },
+    {
+      "url": "https://arxiv.org/html/2403.07312v3",
+      "label": "RoLD（固定v3原文）",
+      "title": "RoLD: Robot Latent Diffusion for Multi-task Policy Modeling",
+      "checkedDate": "2026-11-03",
+      "section": "作者人大单位、摘要、引言与预训练数据范围；未逐项复核全部实验",
+      "readScope": "作者人大单位、摘要、引言与预训练数据范围；未逐项复核全部实验",
+      "access": "primary_page_body"
+    },
+    {
+      "url": "https://stat.ruc.edu.cn/szdw/zzjsjl/azc/index.htm",
+      "title": "统计学院在职教授名册",
+      "label": "王菲菲现职与博士指导身份",
+      "section": "教授名册王菲菲条目（正文第164行）",
+      "checkedDate": "2026-11-05",
+      "access": "primary_page_body"
+    }
+  ],
+  "limitations": [
+    "高瓴官方名录30人及30份官方档案已由覆盖审计筛查，相关候选另查原文；不代表每人的全部论文全文审查。",
+    "信息学院旧名录90份个人页（常规教学职称77、客座10、兼职1、荣退2）已由覆盖审计筛查；另确认旧站遗漏2名现职。新版站不可用，现职常规师资仅能给至少79人的下界。",
+    "不是当前全人大所有院系师资穷尽；缺失正文及苏州/外围候选单列待核。",
+    "没有新增已核2028个人博士招募或余位；研究匹配、现职、博导资格、年度招生四层独立。"
+  ],
+  "coverage": {
+    "gaolingRoster": 30,
+    "gaolingProfilesRead": 30,
+    "informationOldRoster": 90,
+    "informationOldRegular": 77,
+    "informationOldExternalOrRetired": 13,
+    "informationAdditionalRegular": 2,
+    "informationObservedRegularLowerBound": 79,
+    "currentCompleteDenominator": null
+  },
+  "gaoling": {
+    "denominator": 30,
+    "rosterUrl": "https://ai.ruc.edu.cn/szdw/zrjs/index.htm",
+    "faculty": [
+      {
+        "name": "文继荣",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/wjr/index.htm",
+        "status": "robotics_collaboration_candidate",
+        "assessment": "Robo-ValueRL2026机器人强化学习合著；应保留合作贡献，但不能仅合著或学院管理角色推定独立机器人招生线。"
+      },
+      {
+        "name": "卢志武",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/lzw/index.htm",
+        "status": "core_omitted",
+        "assessment": "官网具身方向+EventSync论文通讯作者/人大单位/真实机器人操作证据，非仅关键词。"
+      },
+      {
+        "name": "赵鑫",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/zx/index.htm",
+        "status": "not_core_on_reviewed_evidence",
+        "assessment": "LLM/通用代码终端智能体/信息检索推荐；未闭合物理机器人任务。"
+      },
+      {
+        "name": "窦志成",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/dzc/index.htm",
+        "status": "not_core_on_reviewed_evidence",
+        "assessment": "检索/搜索/GUI/科研智能体，多模态；未闭合物理机器人任务。"
+      },
+      {
+        "name": "魏哲巍",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/wzw/index.htm",
+        "status": "not_core_on_reviewed_evidence",
+        "assessment": "大数据算法/图计算与智能体合作，未闭合物理机器人任务。"
+      },
+      {
+        "name": "徐君",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/xj/index.htm",
+        "status": "not_core_on_reviewed_evidence",
+        "assessment": "可信检索与推荐，未闭合机器人任务。"
+      },
+      {
+        "name": "宋睿华",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/srh/index.htm",
+        "status": "core_omitted",
+        "assessment": "官网RoLD多任务机器人策略论文通讯作者，另ROMA多感官主动感知合著；博士资格另核。"
+      },
+      {
+        "name": "祁琦",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/qq/index.htm",
+        "status": "not_core_on_reviewed_evidence",
+        "assessment": "博弈/机制设计/经济多智能体，不把多智能体关键词视为机器人。"
+      },
+      {
+        "name": "孙浩",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/sh/index.htm",
+        "status": "adjacent",
+        "assessment": "AI4Science/物理动力学/世界模型，可作方法相关方向；尚未闭合当前机器人控制或感知招生证据。"
+      },
+      {
+        "name": "曹朝",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/cc/index.htm",
+        "status": "not_core_on_reviewed_evidence",
+        "assessment": "智能体记忆/数字分身、大模型、分布式系统；通用智能体不等于具身机器人。"
+      },
+      {
+        "name": "曾毅",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/zy/index.htm",
+        "status": "core_omitted",
+        "assessment": "补查ForesightSafety-VLA原文确认人大通讯作者与机器人具身安全评测；不应只按伦理治理简介排为邻近。当前具体招生主题仍待确认。"
+      },
+      {
+        "name": "苏冰",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/sb/index.htm",
+        "status": "adjacent",
+        "assessment": "视觉/动作分类/时序表征，当前官方材料未闭合机器人动作执行任务。"
+      },
+      {
+        "name": "刘勇",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/ly/index.htm",
+        "status": "not_core_on_reviewed_evidence",
+        "assessment": "学习理论/大模型推理智能体/推荐检索，未闭合机器人任务。"
+      },
+      {
+        "name": "王子贺",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/wzh/index.htm",
+        "status": "not_core_on_reviewed_evidence",
+        "assessment": "博弈论、机制设计、算法设计，未闭合机器人任务。"
+      },
+      {
+        "name": "胡迪",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/hd/index.htm",
+        "status": "core_existing",
+        "assessment": "官网明确机器人感知、触觉交互与操作，多项机器人论文和培养记录。"
+      },
+      {
+        "name": "毛佳昕",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/mjx/index.htm",
+        "status": "not_core_on_reviewed_evidence",
+        "assessment": "信息检索/搜索行为/机器学习，未闭合机器人任务。"
+      },
+      {
+        "name": "陈旭",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/cx/index.htm",
+        "status": "not_core_on_reviewed_evidence",
+        "assessment": "LLM/强化学习/社会模拟智能体，未闭合机器人任务。"
+      },
+      {
+        "name": "许洪腾",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/xht/index.htm",
+        "status": "not_core_on_reviewed_evidence",
+        "assessment": "最优传输、生成模型、AI4Math/AI4Science；当前官方材料未闭合机器人任务。"
+      },
+      {
+        "name": "沈蔚然",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/swr/index.htm",
+        "status": "not_core_on_reviewed_evidence",
+        "assessment": "多智能体博弈/机制设计，未闭合物理机器人任务。"
+      },
+      {
+        "name": "周骁",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/zx1/index.htm",
+        "status": "pending_task_evidence",
+        "assessment": "官网明确具身智能兴趣并招研究生，但当前列出代表论文主要城市/医疗/推荐，尚缺具体物理机器人任务证据；不能据关键词直接当核心PI。"
+      },
+      {
+        "name": "李崇轩",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/lcx/index.htm",
+        "status": "adjacent",
+        "assessment": "官网及本人主页重扩散模型、视觉世界模型与3D生成；未见直接机器人任务闭合，不能泛称机器人PI。"
+      },
+      {
+        "name": "张骁",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/zxzx/index.htm",
+        "status": "not_core_on_reviewed_evidence",
+        "assessment": "自适应可信学习/信息获取推荐智能体，未闭合机器人任务。"
+      },
+      {
+        "name": "林衍凯",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/lyk/index.htm",
+        "status": "robotics_collaboration_candidate",
+        "assessment": "补查原始论文DeepThinkVLA确认人大VLA操作研究，另RoboRetry作者项目有合著证据；本人当前主页以LLM/NLP为主，机器人接收课题待确认。"
+      },
+      {
+        "name": "黄文炳",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/hwb/index.htm",
+        "status": "core_existing",
+        "assessment": "官网明确机器人多模态感知、触觉力序列和决策；同时兼有AI4Science，具体招生课题需区分。"
+      },
+      {
+        "name": "王希廷",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/wxt/index.htm",
+        "status": "adjacent",
+        "assessment": "解释/对齐/评测，与宋睿华合作人类动作反应生成；不能仅用虚拟人动作论文推为机器人PI。"
+      },
+      {
+        "name": "朱余韬",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/zyt/index.htm",
+        "status": "not_core_on_reviewed_evidence",
+        "assessment": "2026预聘助理教授，信息检索/搜索/自动研究智能体，不等于机器人。"
+      },
+      {
+        "name": "马彦彪",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/myb/index.htm",
+        "status": "adjacent_new_faculty",
+        "assessment": "空间理解、多模态/高效模型，未核到直接机器人任务与博士指导资格。"
+      },
+      {
+        "name": "张瑞",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/zr/index.htm",
+        "status": "adjacent_new_faculty",
+        "assessment": "2026讲师，物理驱动科学计算及汽车/飞行器优化设计；未见机器人控制任务或博士招生证据。"
+      },
+      {
+        "name": "卫雅珂",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/wyk/index.htm",
+        "status": "adjacent_new_faculty",
+        "assessment": "2026博士毕业并任讲师，本人主页为多模态机制/融合和感知；未核到机器人任务或博士导师资格。"
+      },
+      {
+        "name": "吴泳涛",
+        "official_profile": "https://ai.ruc.edu.cn/szdw/zrjs/wyt/index.htm",
+        "status": "not_core_on_reviewed_evidence",
+        "assessment": "2026博士毕业，优化/泛化/可信大模型，未闭合机器人任务。"
+      }
+    ],
+    "caveats": [
+      "未发现证据不等于该教师绝不从事相关研究。",
+      "现职、研究匹配、博士指导资格、2028招生/余位四层独立，不相互替代。",
+      "2026年近期论文是可核验研究变化，不等于近期入职。",
+      "不使用学术关系聚合网站推断指导关系。"
+    ]
+  },
+  "information": {
+    "coverage": {
+      "official_old_roster_unique": 90,
+      "official_old_roster_regular_teaching_titles": 77,
+      "visiting": 10,
+      "adjunct": 1,
+      "retired": 2,
+      "computer_department_total_including_external": 61,
+      "economic_information_management": 22,
+      "basic_it_teaching": 5,
+      "new_confirmed_regular_faculty_missing_old_roster": 2,
+      "observed_regular_faculty_lower_bound": 79,
+      "official_profile_pages_fetched": 90,
+      "method": "五页不限名录去重，90个官方个人页全文提取及研究简介筛查，相关人个人主页与论文/团队页面复核",
+      "complete_current_school_denominator": null,
+      "limitation": "旧站遗漏2025入职王文轩、张帆进；新版info2025站无法连接，不能声称现职全部穷尽"
+    },
+    "rosterUrls": [
+      "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/bx/bx1/index.htm",
+      "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/bx/bx1/index1.htm",
+      "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/bx/bx1/index2.htm",
+      "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/bx/bx1/index3.htm",
+      "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/bx/bx1/index4.htm"
+    ],
+    "faculty": [
+      {
+        "name": "Calton Pu",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/kzjs2/f06f867578cc42b09c1c2a1eb2903e84.htm",
+        "category": "非现职常规师资分母",
+        "assessment": "客座教授"
+      },
+      {
+        "name": "Christian Jensen",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/kzjs2/ccbc35e1476e4432bbbe1423e57cb847.htm",
+        "category": "非现职常规师资分母",
+        "assessment": "客座教授"
+      },
+      {
+        "name": "Ramamohanarao Kotagiri",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/kzjs2/27f72bc03baa41de87375850fd6b479e.htm",
+        "category": "非现职常规师资分母",
+        "assessment": "客座教授"
+      },
+      {
+        "name": "卞昊穹",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js3/a459f3bb58474992831a4740214e50e7.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "曹巍",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/xxjsjcjys1/fjs3/8a88810f50d54489a132689aa6e60e0c.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "柴云鹏",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/06f9baa19a6b43a9897c773886be5702.htm",
+        "category": "实验室成员/管理，非自动纳入",
+        "assessment": "RIAS学术委员及管理委员，主攻云计算/数据库，不因职务认定机器人PI"
+      },
+      {
+        "name": "陈红",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/418462431bfb4a8280359068cb470e88.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "陈晋川",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/67d6616dfa7b4c3ca464e1cdd016238d.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "陈文萍",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js3/4587356fe16c4526ac406b392839bc39.htm",
+        "category": "合作或邻近实证研究，单列",
+        "assessment": "现职讲师；RIAS专职；SupGS-SLAM ICRA2026共同作者；博导/独立招博未证实"
+      },
+      {
+        "name": "陈跃国",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/041edbe694e8488c8e3da4747cc2d3bc.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "程絮森",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/js_5/aa88747c1cef4c4fb127bb2a0fbe5bca.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "堵丁柱",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/kzjs2/9d3454ff28c441b1a14a4307876c50d6.htm",
+        "category": "非现职常规师资分母",
+        "assessment": "客座教授"
+      },
+      {
+        "name": "杜玮",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/fe64172ae39e4e11bba8adf2def4246b.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "杜小勇",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/7374b0a3f58045fc9543703ccea2eb9c.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "范举",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/d528f21f2e4b4436956eb0d39126d6e1.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "付虹蛟",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/4a6f45ab1c3e4e7581d4d11d37dbc382.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "韩家炜",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/kzjs2/5dbec65441dd482db1b558b0d1405552.htm",
+        "category": "非现职常规师资分母",
+        "assessment": "客座教授"
+      },
+      {
+        "name": "何昆",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/ba47055daaf8425cb6fc42fee12667e5.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "胡鹤",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/6d76a97d40ab412d8352a5add9bd1572.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "黄建军",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js3/b21dce30706a4caf972c7a4187ad029e.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "黄科满",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/b7e3b01865c54f28ade2c68279095d2b.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "黄铭钧",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/kzjs2/27e41b5ff14a4f029dacd2935acd3f30.htm",
+        "category": "非现职常规师资分母",
+        "assessment": "客座教授"
+      },
+      {
+        "name": "蒋洪迅",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/fb399c9b31e34965ad44e381f31f48e3.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "金琴",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/260ab5295d334a67beb7620e931268b1.htm",
+        "category": "核心具身/机器人研究",
+        "assessment": "教授、博导；EasyMimic ICRA2026、Ego2Robot CoRL2026；AIM3招募页明确Fall2026招2博士（已过年度），2027未核验"
+      },
+      {
+        "name": "李翠平",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/aebd5e3b1cfa45f185229034e905ed57.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "李德英",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/c2523870862c49758d02a6705c1e1556.htm",
+        "category": "合作或邻近实证研究，单列",
+        "assessment": "教授、博导；RIAS专职，2024–2026持续共同作者点云/协同感知/无人机，不等同独立主攻或已确认招生"
+      },
+      {
+        "name": "李倩",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/7d3900eee1da4ea5a3791a2efded8558.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "李彤",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/f37f06a19ae342ca9b31b9dcab7b6d69.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "李锡荣",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/fe4411ba1320491698c4c7e555d03510.htm",
+        "category": "合作或邻近实证研究，单列",
+        "assessment": "教授、博导；BADet点云3D检测PR2022；主线多媒体/医疗，近期具身主线未确认"
+      },
+      {
+        "name": "李亚平",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js3/82294deab21a4819a100a2c1dd7ebafa.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "梁彬",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/07258c4d6c4645b8ab8aae0aca0468e7.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "梁循",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/js_5/bd0337a9f7b2450b829f07d5fa89a7d7.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "刘伶",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/kzjs2/410abfad369c42c58f2ed364b3858143.htm",
+        "category": "非现职常规师资分母",
+        "assessment": "客座教授"
+      },
+      {
+        "name": "刘爽",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/695da3da9db84a589ae00844c835de17.htm",
+        "category": "合作或邻近实证研究，单列",
+        "assessment": "副教授、博导；自动驾驶测试综述、2025 PolyGraph三维重建合作；2027招生明确但方向软件测试、coding agents、AI基础设施，不能当机器人招博"
+      },
+      {
+        "name": "刘桃",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/21f23181b89343bcb53ca48ff18056f4.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "卢卫",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/43edc05040f54656aed4869bb7969de0.htm",
+        "category": "实验室成员/管理，非自动纳入",
+        "assessment": "RIAS管理委员，主攻数据库；不因职务认定机器人PI"
+      },
+      {
+        "name": "孟卫一",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/kzjs2/7801c0e0a3384fe5a96b49ea192cc828.htm",
+        "category": "非现职常规师资分母",
+        "assessment": "客座教授"
+      },
+      {
+        "name": "孟小峰",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/934ac2eab75a43e0a7759cb6d5209a78.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "秦波",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/3e3cc02fc39a4abcb0c9777658ed528e.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "石文昌",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/a875d4c8e58d4ba090af605770d6c651.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "苏俊",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/2b7f47ee72fc4d99b0cc80db2ef2944a.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "孙彩虹",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/92fffa13c87f46d88937c1ab68f3147c.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "孙辉",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/6b75cf45c2ee4187b7b5d655b7af900b.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "孙亚辉",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/f62321ff5ba948389f9c7493ccef6950.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "覃飙",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/fa082078c82443c0a9eeeb741ec4e025.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "覃雄派",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/9e02dced231345c9810c26d88419ad04.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "王明明",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/610d39d2cf8541d8812a5e205243ef4d.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "王璞巍",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/d9bd0ea045ad41e1b7a5cab9c8c4cc9f.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "王秋月",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/7c3c07b26b834e578f94303013c4d932.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "王珊",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/rtjs/eade797b206b48a58a09c13f50500f14.htm",
+        "category": "非现职常规师资分母",
+        "assessment": "荣退教师"
+      },
+      {
+        "name": "王永才",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/198d5c8fc91c4a0895a1edde318db3a9.htm",
+        "category": "核心具身/机器人研究",
+        "assessment": "现职教授、博导；SLAM、点云、协同感知、VLN；个人主页2025.07晋升，官网职称滞后；未核验具体年度名额"
+      },
+      {
+        "name": "汪云海",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/3847c3192070434781093594cf0d3c71.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "肖林",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js3/0c6e371b84ee4896ae7ed5cafbefa8e7.htm",
+        "category": "资料不足",
+        "assessment": "官网正文资料过少，无法实证排除，留覆盖缺口"
+      },
+      {
+        "name": "谢红",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js3/b6efcf4785ab42238f60b8b01f2172b5.htm",
+        "category": "资料不足",
+        "assessment": "官网正文资料过少，无法实证排除，留覆盖缺口"
+      },
+      {
+        "name": "许伟",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/js_5/2d290100ef644d59838c602d85769ae8.htm",
+        "category": "实验室成员/管理，非自动纳入",
+        "assessment": "RIAS管理委员，主攻信息管理/金融/医疗；不因职务认定机器人PI"
+      },
+      {
+        "name": "杨刚",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/538a9f67dfd74d659c3b2370f8fbaf06.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "杨小平",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/rtjs/40618d449bbb4a52bde6a99969cb6840.htm",
+        "category": "非现职常规师资分母",
+        "assessment": "荣退教师"
+      },
+      {
+        "name": "叶向",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/xxjsjcjys1/fjs3/cbac2d82eda24af6a1ccad2d72564af8.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "尤晓东",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/xxjsjcjys1/fjs3/4d41095c70f842f696da938a6c90a33a.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "游伟",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/06a81e52c1ff45e0b6e3958095998058.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "于旭",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/kzjs2/d752f63473d546de931da49f4ffefcb3.htm",
+        "category": "非现职常规师资分母",
+        "assessment": "客座教授"
+      },
+      {
+        "name": "余力",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/js_5/f845c9ab3cb7419e8d7785f6771d7fbf.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "余艳",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/38fe2138cfe949ce94dd5cbeefd79551.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "战疆",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/xxjsjcjys1/fjs3/1630b8e0da8b4981aeaeee40b1ab65e9.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "张峰",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/6e7a15816d624b0c993f154b49344747.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "张金玲",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/xxjsjcjys1/fjs3/a301cab4fb5d4af0bcbf1aab93cff680.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "张立峰",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/414d6691206e4e389649cc8827b8f1cf.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "张文平",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/3d71f6494d614621b3596e36905fc142.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "张孝",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/6b6da5ffdd06405f89fc1a5e8d3c2265.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "张新勇",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/74f732357a39499fba70cf0d16ff1291.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "张延松",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/72bb878a55934728a0c504a8a96cc116.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "钟佳桂",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/js1_7/b006774efed04bfeae6aa7bab092bda6.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "周春来",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/cd67b464930f4c18b10d322cde45f884.htm",
+        "category": "实验室成员/管理，非自动纳入",
+        "assessment": "RIAS专职副教授、硕导；隐私/学习理论/不确定性，不因实验室成员身份认定机器人研究PI"
+      },
+      {
+        "name": "周晓方",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/kzjs2/0363e73f6b474065b4ea3c3f2aafad13.htm",
+        "category": "非现职常规师资分母",
+        "assessment": "客座教授"
+      },
+      {
+        "name": "左美云",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/js_5/4e6c250970404e45af4dc37e806c99e7.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "陈熙霖",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/jzjs2/e28238f85d8b4f5b924fcad2d9e80ac3.htm",
+        "category": "非现职常规师资分母",
+        "assessment": "兼职教授"
+      },
+      {
+        "name": "张心怡",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js3/d783feb617de43efa80b9d855a3059a2.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "李直旭",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/8172c4ada4ec4952b550e76f3a120d8c.htm",
+        "category": "合作或邻近实证研究，单列",
+        "assessment": "教授、博导；具身智能体通用多模态知识项目2023–2024；当前主要数据/知识工程，持续机器人论文待核"
+      },
+      {
+        "name": "韦淳于",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js3/4f513e7454fe4c3e9cf37c94b457fbf0.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "张超",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js3/6af4abea5e2e46feae2bca2621778a07.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "易鸣洋",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js3/0f48e176163240c787c01dd85d4cde40.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "匡丽妮",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/js1_7/dd8f6597c3de4de394ccc218c78bb8ca.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "王伶俐",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/js1_7/8d998f04339a4f2eab7cfd5d3a1c8c6f.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "鄂金龙",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/24391d5ff7584c0f86b5ced04be1aa45.htm",
+        "category": "实验室成员/管理，非自动纳入",
+        "assessment": "RIAS专职副教授、硕导；云边/网络/物联网基础设施，不因实验室成员身份认定机器人研究PI"
+      },
+      {
+        "name": "王晶",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/cdfcfa3437e84ebb857f865974cb31ca.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "杨波",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/js_5/5b9c7b093f8e4b2fa236f9ae74a9c852.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "张静",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/d64b0daaa5534267ad7e57c0c8af9112.htm",
+        "category": "核心具身/机器人研究",
+        "assessment": "现职教授与机器人研究已核；博士指导身份目前只有苏州官网搜索索引线索，待正文核验，暂不关联博士参考路线。"
+      },
+      {
+        "name": "赵素云",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/ee3b7633ab884b2596fc713137af091d.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "周季蕾",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/af235780c3074c0c9056e16a9dd4879b.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      },
+      {
+        "name": "吴云乘",
+        "officialProfile": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/635d950335c446d186224d02965519fd.htm",
+        "category": "本轮未发现直接匹配证据",
+        "assessment": "已核官方研究简介；本轮未取得闭合的物理机器人任务证据，不据此断言其从不研究机器人。"
+      }
+    ],
+    "gaps": [
+      "新版 https://info2025.ruc.edu.cn/szdw/qzjs/index.htm 返回upstream connect error，web工具不可访问；旧域同路径404。新站差异只能确认2例，未得到全新名单。",
+      "肖林、谢红官网几乎空白，无法有把握排除。",
+      "核心教师2027个人招生名额未确认；金琴Fall2026二名博士不能当2027名额。",
+      "李锡荣个人站无法读取；其学校页已有2022点云3D检测实证，但近期主攻具身未确认。",
+      "实验室合作人员不等于人大现职，硕导不等于博导，学位博士不等于博导。"
+    ],
+    "rosterSupplement": [
+      {
+        "name": "王文轩",
+        "category": "旧名录漏列现职；本轮不纳入物理具身核心",
+        "reason": "AIM3 Faculty和官方brain页确认信息学院讲师；大模型/智能体可靠性安全，未发现物理机器人直接证据",
+        "urls": [
+          "https://brain.ruc.edu.cn/jcyj/jctd/sjznaqzsys/sjznaqzsys_jctd/sjznaqzsys_fzls/a22999291979481782086fab7731589d.htm",
+          "https://jarviswang94.github.io/",
+          "https://www.ruc-aim3.com/people.html"
+        ]
+      },
+      {
+        "name": "张帆进",
+        "category": "旧名录漏列现职；本轮不纳入物理具身核心",
+        "reason": "官网2026新闻和个人主页确认信息学院，2025.11入职；学术知识图谱、AI for research；不是具身机器人",
+        "urls": [
+          "https://zfjsail.github.io/",
+          "https://se-office.ruc.edu.cn/xwdt/943829c075db469283548b50b036d9da.htm"
+        ]
+      }
+    ]
+  },
+  "collaborationCandidates": [
+    {
+      "name": "林衍凯",
+      "category": "collaboration_or_adjacent",
+      "decision": "不作为本批核心新增",
+      "assessment": "DeepThinkVLA原文列本人及人大邮箱，闭合VLA机器人策略合作；本人主页现职预聘副教授，主要LLM/NLP。独立机器人课题接收与学校博导身份未核。",
+      "sources": [
+        {
+          "url": "https://linyankai.github.io/",
+          "label": "林衍凯本人主页",
+          "title": "林衍凯本人主页",
+          "checkedDate": "2026-11-03",
+          "section": "页首预聘副教授、单位邮箱、近期研究动态",
+          "readScope": "页首预聘副教授、单位邮箱、近期研究动态",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://arxiv.org/html/2511.15669v1",
+          "label": "DeepThinkVLA",
+          "title": "DeepThinkVLA",
+          "checkedDate": "2026-11-03",
+          "section": "作者名单、人大邮箱、摘要中机器人动作与推理联合学习",
+          "readScope": "作者名单、人大邮箱、摘要中机器人动作与推理联合学习",
+          "access": "primary_page_body"
+        }
+      ],
+      "doctoralVerified": false,
+      "year2028Verified": false
+    },
+    {
+      "name": "文继荣",
+      "category": "collaboration_or_adjacent",
+      "decision": "不作为本批核心新增",
+      "assessment": "Robo-ValueRL作者名单和摘要确认机器人强化学习合著；管理职务与合著不能证明独立机器人招生线。",
+      "sources": [
+        {
+          "url": "https://ai.ruc.edu.cn/szdw/zrjs/wjr/index.htm",
+          "label": "文继荣官方档案",
+          "title": "文继荣官方档案",
+          "checkedDate": "2026-11-03",
+          "section": "现职、工作经历、研究方向正文",
+          "readScope": "现职、工作经历、研究方向正文",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://arxiv.org/abs/2607.09866",
+          "label": "Robo-ValueRL",
+          "title": "Robo-ValueRL",
+          "checkedDate": "2026-11-03",
+          "section": "作者名单与摘要：机器人操作强化学习；未读全文",
+          "readScope": "作者名单与摘要：机器人操作强化学习；未读全文",
+          "access": "primary_page_body"
+        }
+      ],
+      "doctoralVerified": null,
+      "year2028Verified": false
+    },
+    {
+      "name": "李德英",
+      "category": "collaboration_or_adjacent",
+      "decision": "不作为本批核心新增",
+      "assessment": "官网明确教授博导；共同作者页列DroneMOT、协同3D检测、点云配准等持续合作。保留研究相关性，不直接推定当前独立机器人招生主线。",
+      "sources": [
+        {
+          "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/c2523870862c49758d02a6705c1e1556.htm",
+          "label": "李德英｜人大信息学院官方档案",
+          "title": "李德英｜人大信息学院官方档案",
+          "checkedDate": "2026-11-03",
+          "section": "Exa正文：个人简介教授博导、工作经历、研究方向及科研成果",
+          "readScope": "Exa正文：个人简介教授博导、工作经历、研究方向及科研成果",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://yongcaiwang.github.io/",
+          "label": "王永才本人论文列表",
+          "title": "王永才本人论文列表",
+          "checkedDate": "2026-11-03",
+          "section": "2024—2026论文条目、作者与任务；SupGS-SLAM、DroneMOT、协同3D检测",
+          "readScope": "2024—2026论文条目、作者与任务；SupGS-SLAM、DroneMOT、协同3D检测",
+          "access": "primary_page_body"
+        }
+      ],
+      "doctoralVerified": true,
+      "year2028Verified": false
+    },
+    {
+      "name": "陈文萍",
+      "category": "collaboration_or_adjacent",
+      "decision": "不作为本批核心新增",
+      "assessment": "官方正文为讲师；共同作者主页列SupGS-SLAM（ICRA 2026）合著。学位博士不等于博导；不据实验室成员身份升格。",
+      "sources": [
+        {
+          "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js3/4587356fe16c4526ac406b392839bc39.htm",
+          "label": "陈文萍｜人大信息学院官方档案",
+          "title": "陈文萍｜人大信息学院官方档案",
+          "checkedDate": "2026-11-03",
+          "section": "Exa正文：姓名、学位、讲师职称、传感器网络方向",
+          "readScope": "Exa正文：姓名、学位、讲师职称、传感器网络方向",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://yongcaiwang.github.io/",
+          "label": "王永才本人论文列表",
+          "title": "王永才本人论文列表",
+          "checkedDate": "2026-11-03",
+          "section": "2024—2026论文条目、作者与任务；SupGS-SLAM、DroneMOT、协同3D检测",
+          "readScope": "2024—2026论文条目、作者与任务；SupGS-SLAM、DroneMOT、协同3D检测",
+          "access": "primary_page_body"
+        }
+      ],
+      "doctoralVerified": false,
+      "year2028Verified": false
+    },
+    {
+      "name": "李直旭",
+      "category": "collaboration_or_adjacent",
+      "decision": "不作为本批核心新增",
+      "assessment": "官网列2023.01—2024.06具身智能体多模态知识项目主持；项目早于2024.09人大入职，不标为人大时期项目。当前持续物理机器人主线仍待核。",
+      "sources": [
+        {
+          "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/8172c4ada4ec4952b550e76f3a120d8c.htm",
+          "label": "李直旭｜人大信息学院官方档案",
+          "title": "李直旭｜人大信息学院官方档案",
+          "checkedDate": "2026-11-03",
+          "section": "个人简介教授博导、工作经历2024.09人大任职、科研项目最后一项",
+          "readScope": "个人简介教授博导、工作经历2024.09人大任职、科研项目最后一项",
+          "access": "primary_page_body"
+        }
+      ],
+      "doctoralVerified": true,
+      "year2028Verified": false
+    },
+    {
+      "name": "李锡荣",
+      "category": "collaboration_or_adjacent",
+      "decision": "不作为本批核心新增",
+      "assessment": "官网列2022 BADet点云3D检测及自动驾驶3D检测综述；当前简介以多媒体与医学为主，不以旧合作证据认定当前机器人招生。",
+      "sources": [
+        {
+          "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/fe4411ba1320491698c4c7e555d03510.htm",
+          "label": "李锡荣｜人大信息学院官方档案",
+          "title": "李锡荣｜人大信息学院官方档案",
+          "checkedDate": "2026-11-03",
+          "section": "Exa正文：教授博导简介、研究方向、论文55/56（2022）",
+          "readScope": "Exa正文：教授博导简介、研究方向、论文55/56（2022）",
+          "access": "primary_page_body"
+        }
+      ],
+      "doctoralVerified": true,
+      "year2028Verified": false
+    },
+    {
+      "name": "刘爽",
+      "category": "collaboration_or_adjacent",
+      "decision": "不作为本批核心新增",
+      "assessment": "本人主页列PolyGraph三维扫描平面图重建合著；2027招生明确针对基础软件测试、coding agents和AI基础设施，不包装为机器人招博。",
+      "sources": [
+        {
+          "url": "https://liushuangcs.github.io/",
+          "label": "刘爽本人主页",
+          "title": "刘爽本人主页",
+          "checkedDate": "2026-11-03",
+          "section": "副教授博导简介、2027招生段、2025 PolyGraph论文作者条目",
+          "readScope": "副教授博导简介、2027招生段、2025 PolyGraph论文作者条目",
+          "access": "primary_page_body"
+        }
+      ],
+      "doctoralVerified": true,
+      "year2028Verified": false
+    }
+  ],
+  "pendingCandidates": [
+    {
+      "name": "沈栋",
+      "status": "pending_primary_body",
+      "decision": "不纳入核心新增",
+      "reason": "外围线索仍为索引级；待官方身份和机器人任务正文核验。",
+      "officialProfile": "https://math.ruc.edu.cn/szdw/zgjs/097c5d5c7bac45b9a397d6c6b4ce41d6.htm",
+      "sourceAccess": "official_search_index_only",
+      "gap": "教授博导、微型机器人控制方向为官方索引证据；目标个人页连接失败，2019.12为人大教授起点而非首次任教。"
+    },
+    {
+      "name": "王菲菲",
+      "status": "pending_robotics_primary_body",
+      "decision": "不纳入核心新增",
+      "reason": "现职教授与博导身份已由统计学院当前名册正文补核；机器人方向仍待可读原文闭合。",
+      "officialProfile": "https://stat.ruc.edu.cn/jszy/wff/index.html",
+      "sourceAccess": "mixed_primary_roster_body_and_index_only_research",
+      "gap": "当前教授、博士生导师、副院长身份已核；个人页机器人设计研究仍只有索引线索，首次任职、2028接收及名额未核。",
+      "priorReview20261103": {
+        "sourceAccess": "official_search_index_only",
+        "gap": "机器人设计、教授博导为官方索引证据；个人页重定向循环。独立官方旧正文副教授与新索引教授有时效冲突，暂不升级。"
+      },
+      "verifiedIdentitySources": [
+        {
+          "url": "https://stat.ruc.edu.cn/szdw/zzjsjl/azc/index.htm",
+          "title": "统计学院在职教授名册",
+          "label": "王菲菲现职与博士指导身份",
+          "section": "教授名册王菲菲条目（正文第164行）",
+          "checkedDate": "2026-11-05",
+          "access": "primary_page_body"
+        }
+      ]
+    },
+    {
+      "name": "周伟",
+      "officialProfile": "https://sc.ruc.edu.cn/department/ssg/ssg_users/index.htm",
+      "sourceAccess": "official_search_index_only",
+      "gap": "官方索引为讲师/硕导，具身与三维检测；博导资格、个人2028招生及任职起点未核。"
+    },
+    {
+      "name": "俞开业",
+      "officialProfile": "https://sc.ruc.edu.cn/department/ssg/ssg_users/index.htm",
+      "sourceAccess": "official_search_index_only",
+      "gap": "官方索引为讲师/硕导，低空安全及多模态；物理机器人个人主线、博导及2028未核。"
+    },
+    {
+      "name": "张立贤",
+      "officialProfile": "https://sc.ruc.edu.cn/department/ssg/ssg_users/index.htm",
+      "sourceAccess": "official_search_index_only",
+      "gap": "官方索引为讲师/硕导，遥感融合与世界模型；物理机器人个人主线、博导及2028未核。"
+    }
+  ],
+  "peripheralAccess": "11月3日沈栋页与苏州目录连接失败，王菲菲个人页重定向循环；11月5日独立统计学院现职名册正文补核王菲菲教授、博导、副院长，旧副教授页面不覆盖新名册。机器人方向仍待正文闭合；信息学院新版名册、沈栋与苏州读取缺口未解决。",
+  "cycleReview": "无新增已核实个人2028博士招生或当前剩余名额。金琴Fall2026招聘、2027工程专项推免和2026人大–智源联培均不得当作当前开放或2028机会。",
+  "notExhaustive": true,
+  "followupDate": "2026-11-05"
+}

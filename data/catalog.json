@@ -100446,6 +100446,536 @@
       ],
       "checkedDate": "2026-11-03",
       "sourceFile": "audits/985-ruc-20261103.json"
+    },
+    {
+      "id": "ruc-lu-zhiwu",
+      "name": "Zhiwu Lu",
+      "nameZh": "卢志武",
+      "institution": "RUC",
+      "department": "高瓴人工智能学院",
+      "position": "长聘教授；博士生导师",
+      "topics": [
+        "机器人操作",
+        "VLA",
+        "长时序任务记忆"
+      ],
+      "summary": "长聘教授、博导；以人大通讯作者参与EventSync，研究依赖历史的机器人操作与事件驱动记忆。",
+      "profileUrl": "https://ai.ruc.edu.cn/szdw/zrjs/lzw/index.htm",
+      "routeIds": [
+        "ruc-doctoral-faculty-reference-20261103"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "ruc-doctoral-faculty-reference-20261103",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "官方个人简介明确博士生导师；不等于当期招生。",
+          "sources": [
+            {
+              "url": "https://ai.ruc.edu.cn/szdw/zrjs/lzw/index.htm",
+              "label": "卢志武｜高瓴官方档案",
+              "title": "卢志武｜高瓴官方档案",
+              "checkedDate": "2026-11-03",
+              "section": "个人简介、工作经历、研究方向、学生要求正文",
+              "readScope": "个人简介、工作经历、研究方向、学生要求正文",
+              "access": "primary_page_body"
+            }
+          ],
+          "checkedDate": "2026-11-03",
+          "sourceCycle": "未明确2028",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "不提升个人2028招生核验状态。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "博士指导身份与正式项目关联、个人申请资格、当前名额分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "未核实个人2028博士招生、入学季节、接收意向或当前剩余名额。",
+      "openings": {
+        "msc": "未逐项核实",
+        "mphil": "未核实",
+        "phd": "未核实个人2028博士招生、入学季节、接收意向或当前剩余名额。",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未据本轮确认",
+        "cycle2028": "个人2028博士招生未核实"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "任职经历见简介；不从职称推断新PI、年龄或招生名额。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2013-09起人大信息学院副教授；2019-08转高瓴任教授。首次人大教研任职按2013-09，不以转院重置。"
+      },
+      "sources": [
+        {
+          "url": "https://ai.ruc.edu.cn/szdw/zrjs/lzw/index.htm",
+          "label": "卢志武｜高瓴官方档案",
+          "title": "卢志武｜高瓴官方档案",
+          "checkedDate": "2026-11-03",
+          "section": "个人简介、工作经历、研究方向、学生要求正文",
+          "readScope": "个人简介、工作经历、研究方向、学生要求正文",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.27917v1",
+          "label": "EventSync（2026预印本）",
+          "title": "EventSync（2026预印本）",
+          "checkedDate": "2026-11-03",
+          "section": "作者单位与通讯脚注、摘要、IV-F真实机器人四项任务",
+          "readScope": "作者单位与通讯脚注、摘要、IV-F真实机器人四项任务",
+          "access": "primary_page_body"
+        }
+      ],
+      "caveats": [
+        "EventSync为2026预印本；研究证据不代表招生名额。",
+        "方向匹配、博士指导身份不等于2028招生或剩余名额。"
+      ],
+      "checkedDate": "2026-11-03",
+      "sourceFile": "audits/ruc-census-followup-20261103.json"
+    },
+    {
+      "id": "ruc-song-ruihua",
+      "name": "Ruihua Song",
+      "nameZh": "宋睿华",
+      "institution": "RUC",
+      "department": "高瓴人工智能学院",
+      "position": "长聘教授；博士生导师",
+      "topics": [
+        "机器人策略学习",
+        "多任务策略",
+        "多模态交互"
+      ],
+      "summary": "官网列机器人多任务扩散策略RoLD及通讯作者标记；现页为长聘教授，官方2025讲座确认博导。",
+      "profileUrl": "https://ai.ruc.edu.cn/szdw/zrjs/srh/index.htm",
+      "routeIds": [
+        "ruc-doctoral-faculty-reference-20261103"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "ruc-doctoral-faculty-reference-20261103",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "2025官方研招讲座正文明确博士生导师；现页教授职称与当时副教授区分。",
+          "sources": [
+            {
+              "url": "https://ai.ruc.edu.cn/xsjz/20250619002.html",
+              "label": "宋睿华｜2025研招讲座",
+              "title": "宋睿华｜2025研招讲座",
+              "checkedDate": "2026-11-03",
+              "section": "2025-06-17官方讲者简介：明确博士生导师；职称为当时信息",
+              "readScope": "2025-06-17官方讲者简介：明确博士生导师；职称为当时信息",
+              "access": "primary_page_body"
+            }
+          ],
+          "checkedDate": "2026-11-03",
+          "sourceCycle": "未明确2028",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "不提升个人2028招生核验状态。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "博士指导身份与正式项目关联、个人申请资格、当前名额分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "未核实个人2028博士招生、入学季节、接收意向或当前剩余名额。",
+      "openings": {
+        "msc": "未逐项核实",
+        "mphil": "未核实",
+        "phd": "未核实个人2028博士招生、入学季节、接收意向或当前剩余名额。",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未据本轮确认",
+        "cycle2028": "个人2028博士招生未核实"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "任职经历见简介；不从职称推断新PI、年龄或招生名额。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2020-09起在人大高瓴任教；现职按页首长聘教授，工作经历仍保留旧长聘副教授表述。"
+      },
+      "sources": [
+        {
+          "url": "https://ai.ruc.edu.cn/szdw/zrjs/srh/index.htm",
+          "label": "宋睿华｜高瓴官方档案",
+          "title": "宋睿华｜高瓴官方档案",
+          "checkedDate": "2026-11-03",
+          "section": "页首现职、工作经历、研究方向、2025 RoLD论文条目及作者标记",
+          "readScope": "页首现职、工作经历、研究方向、2025 RoLD论文条目及作者标记",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://ai.ruc.edu.cn/xsjz/20250619002.html",
+          "label": "宋睿华｜2025研招讲座",
+          "title": "宋睿华｜2025研招讲座",
+          "checkedDate": "2026-11-03",
+          "section": "2025-06-17官方讲者简介：明确博士生导师；职称为当时信息",
+          "readScope": "2025-06-17官方讲者简介：明确博士生导师；职称为当时信息",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://arxiv.org/html/2403.07312v3",
+          "label": "RoLD（固定v3原文）",
+          "title": "RoLD: Robot Latent Diffusion for Multi-task Policy Modeling",
+          "checkedDate": "2026-11-03",
+          "section": "作者人大单位、摘要、引言与预训练数据范围；未逐项复核全部实验",
+          "readScope": "作者人大单位、摘要、引言与预训练数据范围；未逐项复核全部实验",
+          "access": "primary_page_body"
+        }
+      ],
+      "caveats": [
+        "现页职称与工作经历段存在未同步；本轮未对RoLD全文实验逐项复核。",
+        "方向匹配、博士指导身份不等于2028招生或剩余名额。"
+      ],
+      "checkedDate": "2026-11-03",
+      "sourceFile": "audits/ruc-census-followup-20261103.json"
+    },
+    {
+      "id": "ruc-zeng-yi",
+      "name": "Yi Zeng",
+      "nameZh": "曾毅",
+      "institution": "RUC",
+      "department": "高瓴人工智能学院",
+      "position": "吴玉章讲席教授；博士生导师",
+      "topics": [
+        "VLA安全评测",
+        "机器人交互安全",
+        "决策智能体"
+      ],
+      "summary": "人大吴玉章讲席教授、博导；ForesightSafety-VLA共同通讯作者，研究机器人策略安全评测，兼有广泛AI治理方向。",
+      "profileUrl": "https://ai.ruc.edu.cn/szdw/zrjs/zy/index.htm",
+      "routeIds": [
+        "ruc-doctoral-faculty-reference-20261103"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "ruc-doctoral-faculty-reference-20261103",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "官方个人简介明确博导；未核2028招生关联。",
+          "sources": [
+            {
+              "url": "https://ai.ruc.edu.cn/szdw/zrjs/zy/index.htm",
+              "label": "曾毅｜高瓴官方档案",
+              "title": "曾毅｜高瓴官方档案",
+              "checkedDate": "2026-11-03",
+              "section": "个人简介中吴玉章讲席教授、博导；研究领域正文",
+              "readScope": "个人简介中吴玉章讲席教授、博导；研究领域正文",
+              "access": "primary_page_body"
+            }
+          ],
+          "checkedDate": "2026-11-03",
+          "sourceCycle": "未明确2028",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "不提升个人2028招生核验状态。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "博士指导身份与正式项目关联、个人申请资格、当前名额分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "未核实个人2028博士招生、入学季节、接收意向或当前剩余名额。",
+      "openings": {
+        "msc": "未逐项核实",
+        "mphil": "未核实",
+        "phd": "未核实个人2028博士招生、入学季节、接收意向或当前剩余名额。",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未据本轮确认",
+        "cycle2028": "个人2028博士招生未核实"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "任职经历见简介；不从职称推断新PI、年龄或招生名额。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "首次在人大任教研岗位的具体年月尚未核实；不从旧机构论文、网页更新或职称推断。"
+      },
+      "sources": [
+        {
+          "url": "https://ai.ruc.edu.cn/szdw/zrjs/zy/index.htm",
+          "label": "曾毅｜高瓴官方档案",
+          "title": "曾毅｜高瓴官方档案",
+          "checkedDate": "2026-11-03",
+          "section": "个人简介中吴玉章讲席教授、博导；研究领域正文",
+          "readScope": "个人简介中吴玉章讲席教授、博导；研究领域正文",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://arxiv.org/html/2606.27079v1",
+          "label": "ForesightSafety-VLA（2026预印本）",
+          "title": "ForesightSafety-VLA（2026预印本）",
+          "checkedDate": "2026-11-03",
+          "section": "作者机构脚注及人大通讯邮箱、摘要的机器人安全基准和RoboTwin场景",
+          "readScope": "作者机构脚注及人大通讯邮箱、摘要的机器人安全基准和RoboTwin场景",
+          "access": "primary_page_body"
+        }
+      ],
+      "caveats": [
+        "已核机器人VLA安全研究，不据此推定其全部研究都以机器人为主或接收特定机器人课题。",
+        "旧中科院时期研究不能标成人大项目。",
+        "方向匹配、博士指导身份不等于2028招生或剩余名额。"
+      ],
+      "checkedDate": "2026-11-03",
+      "sourceFile": "audits/ruc-census-followup-20261103.json"
+    },
+    {
+      "id": "ruc-jin-qin",
+      "name": "Qin Jin",
+      "nameZh": "金琴",
+      "institution": "RUC",
+      "department": "信息学院计算机系",
+      "position": "教授；博士生导师",
+      "topics": [
+        "机器人模仿学习",
+        "第一视角数据",
+        "机器人操作"
+      ],
+      "summary": "教授、博导，AIM3负责人；EasyMimic和Ego2Robot以人大AIM3署名，研究从人类视频学习机器人操作。",
+      "profileUrl": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/260ab5295d334a67beb7620e931268b1.htm",
+      "routeIds": [
+        "ruc-doctoral-faculty-reference-20261103"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "ruc-doctoral-faculty-reference-20261103",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "信息学院个人简介正文明确教授、博士生导师。",
+          "sources": [
+            {
+              "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/260ab5295d334a67beb7620e931268b1.htm",
+              "label": "金琴｜人大信息学院官方档案",
+              "title": "金琴｜人大信息学院官方档案",
+              "checkedDate": "2026-11-03",
+              "section": "个人简介的教授博导、工作经历2013.01、常设研究生联系说明",
+              "readScope": "个人简介的教授博导、工作经历2013.01、常设研究生联系说明",
+              "access": "primary_page_body"
+            }
+          ],
+          "checkedDate": "2026-11-03",
+          "sourceCycle": "未明确2028",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "不提升个人2028招生核验状态。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "博士指导身份与正式项目关联、个人申请资格、当前名额分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "官方页有常设硕博联系邀请；AIM3页列Fall 2026博士计划2名，已是历史年度。未核2028招生或当前剩余名额。",
+      "openings": {
+        "msc": "未逐项核实",
+        "mphil": "未核实",
+        "phd": "官方页有常设硕博联系邀请；AIM3页列Fall 2026博士计划2名，已是历史年度。未核2028招生或当前剩余名额。",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未据本轮确认",
+        "cycle2028": "个人2028博士招生未核实"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "任职经历见简介；不从职称推断新PI、年龄或招生名额。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2013-01起在中国人民大学任教授；首次本校教研任职按该年月。"
+      },
+      "sources": [
+        {
+          "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/260ab5295d334a67beb7620e931268b1.htm",
+          "label": "金琴｜人大信息学院官方档案",
+          "title": "金琴｜人大信息学院官方档案",
+          "checkedDate": "2026-11-03",
+          "section": "个人简介的教授博导、工作经历2013.01、常设研究生联系说明",
+          "readScope": "个人简介的教授博导、工作经历2013.01、常设研究生联系说明",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://arxiv.org/html/2602.11464v1",
+          "label": "EasyMimic（2026）",
+          "title": "EasyMimic（2026）",
+          "checkedDate": "2026-11-03",
+          "section": "作者名单和AIM3人大单位、摘要中人类视频模仿学习与LeRobot操作",
+          "readScope": "作者名单和AIM3人大单位、摘要中人类视频模仿学习与LeRobot操作",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://arxiv.org/html/2608.02580v1",
+          "label": "Ego2Robot（2026预印本）",
+          "title": "Ego2Robot（2026预印本）",
+          "checkedDate": "2026-11-03",
+          "section": "作者名单和Qin Jin的人大AIM3署名、摘要中第一视角数据合成和真机部署",
+          "readScope": "作者名单和Qin Jin的人大AIM3署名、摘要中第一视角数据合成和真机部署",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://www.ruc-aim3.com/joinus.html",
+          "label": "AIM3招生说明",
+          "title": "AIM3招生说明",
+          "checkedDate": "2026-11-03",
+          "section": "For Graduate Applicants明确Fall 2026：2名博士；不是2028信息",
+          "readScope": "For Graduate Applicants明确Fall 2026：2名博士；不是2028信息",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://www.jin-qin.com/",
+          "label": "金琴个人主页｜AIM3负责人",
+          "title": "金琴个人主页｜AIM3负责人",
+          "checkedDate": "2026-11-03",
+          "section": "Bio中directs AIM3实验室表述",
+          "readScope": "Bio中directs AIM3实验室表述",
+          "access": "primary_page_body"
+        }
+      ],
+      "caveats": [
+        "Fall 2026招募属于历史年度，不能改写成2028招募或当前余位。",
+        "方向匹配、博士指导身份不等于2028招生或剩余名额。"
+      ],
+      "checkedDate": "2026-11-03",
+      "sourceFile": "audits/ruc-census-followup-20261103.json"
+    },
+    {
+      "id": "ruc-zhang-jing",
+      "name": "Jing Zhang",
+      "nameZh": "张静",
+      "institution": "RUC",
+      "department": "信息学院计算机系",
+      "position": "教授",
+      "topics": [
+        "VLA动作验证",
+        "机器人操作",
+        "具身世界模型"
+      ],
+      "summary": "人大信息学院教授；本人主页列连续VLA与机器人操作成果，Action Draft and Verify正文确认人大署名及通讯邮箱。博士指导资格保留待核。",
+      "profileUrl": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/d64b0daaa5534267ad7e57c0c8af9112.htm",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "eligibilityMeaning": "博士指导身份与正式项目关联、个人申请资格、当前名额分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "本人主页有不指定年度/学位类型的学生联系邀请；未核2028博士接收意向、名额或入学季节。",
+      "openings": {
+        "msc": "未逐项核实",
+        "mphil": "未核实",
+        "phd": "本人主页有不指定年度/学位类型的学生联系邀请；未核2028博士接收意向、名额或入学季节。",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未据本轮确认",
+        "cycle2028": "个人2028博士招生未核实"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "任职经历见简介；不从职称推断新PI、年龄或招生名额。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2016-09起人大信息学院讲师，2020-08起副教授；现页为教授，不从晋升推定首次入职。"
+      },
+      "sources": [
+        {
+          "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/d64b0daaa5534267ad7e57c0c8af9112.htm",
+          "label": "张静｜人大信息学院官方档案",
+          "title": "张静｜人大信息学院官方档案",
+          "checkedDate": "2026-11-03",
+          "section": "个人简介教授、官方链接及邮箱、工作经历2016.09入职；未写博导身份",
+          "readScope": "个人简介教授、官方链接及邮箱、工作经历2016.09入职；未写博导身份",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://xiaojingzi.github.io/",
+          "label": "张静｜本人主页",
+          "title": "张静｜本人主页",
+          "checkedDate": "2026-11-03",
+          "section": "现职、研究方向、常设学生联系说明、2026 VLA论文及通讯作者星号",
+          "readScope": "现职、研究方向、常设学生联系说明、2026 VLA论文及通讯作者星号",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://arxiv.org/html/2603.18091v1",
+          "label": "Action Draft and Verify（固定v1正文）",
+          "title": "Action Draft and Verify（固定v1正文）",
+          "checkedDate": "2026-11-03",
+          "section": "作者人大单位和通讯邮箱、摘要中的动作候选验证及仿真/真实操作；未核全篇",
+          "readScope": "作者人大单位和通讯邮箱、摘要中的动作候选验证及仿真/真实操作；未核全篇",
+          "access": "primary_page_body"
+        }
+      ],
+      "caveats": [
+        "博士指导资格待官方正文或具名正式名单核验。",
+        "arXiv摘要页现标题为TokenPB，而固定v1 HTML及本人主页为Action Draft and Verify；按固定版本引用，不合并版本或替未核会议背书。",
+        "博士指导身份目前仅有苏州官网搜索索引证据，未完成正文核验，暂不关联博士参考路线。",
+        "方向匹配、博士指导身份不等于2028招生或剩余名额。"
+      ],
+      "checkedDate": "2026-11-03",
+      "sourceFile": "audits/ruc-census-followup-20261103.json"
     }
   ],
   "routes": [
@@ -108293,6 +108823,42 @@
           "title": "黄文炳个人研究与招生介绍",
           "checkedDate": "2026-11-03",
           "section": "身份、工作经历、研究方向及学生/招生说明"
+        },
+        {
+          "url": "https://ai.ruc.edu.cn/szdw/zrjs/lzw/index.htm",
+          "label": "卢志武｜高瓴官方档案",
+          "title": "卢志武｜高瓴官方档案",
+          "checkedDate": "2026-11-03",
+          "section": "个人简介、工作经历、研究方向、学生要求正文",
+          "readScope": "个人简介、工作经历、研究方向、学生要求正文",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://ai.ruc.edu.cn/xsjz/20250619002.html",
+          "label": "宋睿华｜2025研招讲座",
+          "title": "宋睿华｜2025研招讲座",
+          "checkedDate": "2026-11-03",
+          "section": "2025-06-17官方讲者简介：明确博士生导师；职称为当时信息",
+          "readScope": "2025-06-17官方讲者简介：明确博士生导师；职称为当时信息",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://ai.ruc.edu.cn/szdw/zrjs/zy/index.htm",
+          "label": "曾毅｜高瓴官方档案",
+          "title": "曾毅｜高瓴官方档案",
+          "checkedDate": "2026-11-03",
+          "section": "个人简介中吴玉章讲席教授、博导；研究领域正文",
+          "readScope": "个人简介中吴玉章讲席教授、博导；研究领域正文",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/260ab5295d334a67beb7620e931268b1.htm",
+          "label": "金琴｜人大信息学院官方档案",
+          "title": "金琴｜人大信息学院官方档案",
+          "checkedDate": "2026-11-03",
+          "section": "个人简介的教授博导、工作经历2013.01、常设研究生联系说明",
+          "readScope": "个人简介的教授博导、工作经历2013.01、常设研究生联系说明",
+          "access": "primary_page_body"
         }
       ],
       "notes": [
@@ -108324,6 +108890,42 @@
               "title": "黄文炳个人研究与招生介绍",
               "checkedDate": "2026-11-03",
               "section": "身份、工作经历、研究方向及学生/招生说明"
+            },
+            {
+              "url": "https://ai.ruc.edu.cn/szdw/zrjs/lzw/index.htm",
+              "label": "卢志武｜高瓴官方档案",
+              "title": "卢志武｜高瓴官方档案",
+              "checkedDate": "2026-11-03",
+              "section": "个人简介、工作经历、研究方向、学生要求正文",
+              "readScope": "个人简介、工作经历、研究方向、学生要求正文",
+              "access": "primary_page_body"
+            },
+            {
+              "url": "https://ai.ruc.edu.cn/xsjz/20250619002.html",
+              "label": "宋睿华｜2025研招讲座",
+              "title": "宋睿华｜2025研招讲座",
+              "checkedDate": "2026-11-03",
+              "section": "2025-06-17官方讲者简介：明确博士生导师；职称为当时信息",
+              "readScope": "2025-06-17官方讲者简介：明确博士生导师；职称为当时信息",
+              "access": "primary_page_body"
+            },
+            {
+              "url": "https://ai.ruc.edu.cn/szdw/zrjs/zy/index.htm",
+              "label": "曾毅｜高瓴官方档案",
+              "title": "曾毅｜高瓴官方档案",
+              "checkedDate": "2026-11-03",
+              "section": "个人简介中吴玉章讲席教授、博导；研究领域正文",
+              "readScope": "个人简介中吴玉章讲席教授、博导；研究领域正文",
+              "access": "primary_page_body"
+            },
+            {
+              "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/260ab5295d334a67beb7620e931268b1.htm",
+              "label": "金琴｜人大信息学院官方档案",
+              "title": "金琴｜人大信息学院官方档案",
+              "checkedDate": "2026-11-03",
+              "section": "个人简介的教授博导、工作经历2013.01、常设研究生联系说明",
+              "readScope": "个人简介的教授博导、工作经历2013.01、常设研究生联系说明",
+              "access": "primary_page_body"
             }
           ]
         }
