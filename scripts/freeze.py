@@ -95,6 +95,7 @@ files.append('tests/sequential-evidence.test.mjs')
 files.extend(['audits/ruc-census-followup-20261103.json', 'audits/ruc-census-followup-20261103.md', 'tests/fixtures/evidence/ruc-census-followup-20261103.json', 'tests/ruc-census-followup.test.mjs'])
 files.extend(['audits/ruc-wang-feifei-20261105.json', 'audits/ruc-wang-feifei-20261105.md', 'tests/fixtures/evidence/ruc-wang-feifei-20261105.json', 'tests/ruc-wang-feifei.test.mjs'])
 files.extend(['audits/ruc-shen-dong-20261105.json', 'audits/ruc-shen-dong-20261105.md', 'tests/fixtures/evidence/ruc-shen-dong-20261105.json', 'tests/ruc-shen-dong.test.mjs'])
+files.extend(['audits/ruc-observations-20261105.json', 'audits/ruc-observations-20261105.md', 'tests/ruc-observations.test.mjs'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):

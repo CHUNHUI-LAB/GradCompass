@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-11-05",
+  "scope": "仅人大观察候选与公开证据增量，不更改主目录、申请关联或招生状态",
+  "catalogUnchanged": true,
+  "rucCatalogCount": 10,
+  "globalCatalogCount": 504,
+  "records": [
+    {
+      "name": "朱倩",
+      "classification": "HRI观察候选",
+      "doctoralStatus": "unverified",
+      "recruitment2028Verified": false,
+      "summary": "官方DEKE档案确认2025年起任人大讲师，主线为HCI、交互式可视化与XR；官网论文清单及论文摘要确认服务机器人意图表达研究。不能因其不是导航/操控算法而否认HRI相关性，但目前持续机器人主线及博士指导资格未核，暂不新增主目录。",
+      "researchBoundary": "CHI2025论文是24人AR模拟咖啡聊天的社交线索引出研究，研究机器人形态和对话角色下的人类意图表达；不是实机感知、导航或操控性能验证。",
+      "recruitmentBoundary": "长期本科/研究生/访问学生科研实习不是正式学位录取或2028名额。博士资格未核实不等于已证实非博导。",
+      "sources": [
+        {
+          "url": "https://deke.ruc.edu.cn/kytd/zzry/baf23b89b84b474e97ce6d2d859fdb64.htm",
+          "readScope": "标题、工作经历、研究方向、科研成果第7项、长期科研实习说明",
+          "access": "primary_body",
+          "checkedDate": "2026-11-05"
+        },
+        {
+          "url": "https://arxiv.org/abs/2504.06167",
+          "readScope": "作者、摘要及Introduction的24人AR/Wizard of Oz研究范围；不是本轮全文研读",
+          "access": "primary_body",
+          "checkedDate": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "name": "李德英",
+      "classification": "机器人合作层",
+      "doctoralStatus": "primary_body_verified",
+      "recruitment2028Verified": false,
+      "summary": "学校个人页明确教授博导；MapDream的ICML2026正式出版页列Deying Li合著并明确视觉语言导航任务，增强合作层证据。合著不自动确认独立招生研究主线、具体指导分工或2028意向，仍不作为新增主目录导师。",
+      "sources": [
+        {
+          "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/c2523870862c49758d02a6705c1e1556.htm",
+          "readScope": "个人简介、工作经历、研究方向",
+          "access": "primary_body",
+          "checkedDate": "2026-11-05"
+        },
+        {
+          "url": "https://proceedings.mlr.press/v306/lian26c.html",
+          "readScope": "作者、题名、出版信息、摘要任务；不据摘要SOTA自述做性能推荐",
+          "access": "primary_body",
+          "checkedDate": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "name": "董谨豪",
+      "classification": "覆盖账本，非机器人入选",
+      "doctoralStatus": "unverified",
+      "recruitment2028Verified": false,
+      "summary": "官方正文确认2025年8月起信息学院DEKE讲师；研究代码/浏览器智能体与LLM基础设施，不将generic Agent等同物理机器人。不因科研实习开放而推断学位招生。",
+      "sources": [
+        {
+          "url": "https://deke.ruc.edu.cn/kytd/zzry/ab852a64cdbe42468db8234b238a03ca.htm",
+          "readScope": "身份、工作经历、研究方向、科研实习",
+          "access": "primary_body",
+          "checkedDate": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "name": "王文轩",
+      "classification": "同名论文排除",
+      "doctoralStatus": "not_reassessed",
+      "recruitment2028Verified": false,
+      "summary": "ST-VLA原文Wenxuan Wang所属南京大学，与人大教师身份不匹配；不把同名作者机器人论文归给人大王文轩。",
+      "sources": [
+        {
+          "url": "https://jarviswang94.github.io/",
+          "readScope": "人大身份及研究简介",
+          "access": "primary_body",
+          "checkedDate": "2026-11-05"
+        },
+        {
+          "url": "https://arxiv.org/html/2603.13788v1",
+          "readScope": "作者单位脚注：Wenxuan Wang，Nanjing University",
+          "access": "primary_body",
+          "checkedDate": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "name": "周伟",
+      "classification": "苏州观察候选",
+      "doctoralStatus": "unverified",
+      "recruitment2028Verified": false,
+      "summary": "苏州官方师资目录搜索索引显示讲师、硕士生导师及具身智能/世界模型等方向关键词，原页面正文仍未取得；不能把关键词升级为已核机器人论文，也不能推断博士资格或年度招生。",
+      "sources": [
+        {
+          "url": "https://sc.ruc.edu.cn/department/ssg/ssg_users/index.htm",
+          "access": "official_search_index_only",
+          "readScope": "索引名单片段；原页面超时/连接或SSL错误，未绕过；不是直接正文",
+          "checkedDate": "2026-11-05"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "observedNameSet": 81,
+    "composition": "旧77名常规职称条目，加此前王文轩、张帆进及本轮朱倩、董谨豪4名独立补漏。旧成员现职未全部重核。",
+    "officialAggregate": 83,
+    "warning": "81不是83人的当前核验覆盖率，不能断言恰好缺2人；DEKE专职9人不是新数据科学与技术系全体。",
+    "dekeNames": [
+      "卢卫",
+      "汪云海",
+      "范举",
+      "张峰",
+      "李彤",
+      "何昆",
+      "张心怡",
+      "朱倩",
+      "董谨豪"
+    ],
+    "sources": [
+      {
+        "url": "https://deke.ruc.edu.cn/kytd/zzry/index.htm",
+        "readScope": "专职人员9人列表",
+        "access": "primary_body",
+        "checkedDate": "2026-11-05"
+      },
+      {
+        "url": "https://info.ruc.edu.cn/xwgg/xygg/0917bac9d080474ba20e5f024e9344e5.htm",
+        "readScope": "2026-06-23学院聚合人数83及三系介绍",
+        "access": "primary_body",
+        "checkedDate": "2026-11-05"
+      }
+    ]
+  },
+  "remainingGaps": [
+    "新数据科学与技术系逐名名单及83聚合人数的现职逐人对账",
+    "朱倩博士资格、持续机器人研究主线与具体招生年份",
+    "周伟及苏州相关教师博士指导资格仍未闭合",
+    "个人2028招生、余位、资助与通道未新增验证"
+  ]
+}

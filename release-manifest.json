@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 80915,
-      "sha256": "3ab5a3ea4b9258c4a60d647360debaf336a3910ae64b56ef7186d2673badffe4"
+      "bytes": 81363,
+      "sha256": "e9ca2b409ff1e13e1dd2f8cbf74dc0df816219f426cc5d07629733368e373a02"
     },
     {
       "path": "REDESIGN.md",
@@ -256,6 +256,16 @@
       "sha256": "ba575fdfc4559ab1883b8e02dff8d948e010541ff76913c0a50fae2ef14f37d6"
     },
     {
+      "path": "audits/ruc-observations-20261105.json",
+      "bytes": 6337,
+      "sha256": "78399d497401a77768b5aa3dd6f4e9d1f5bc731dee50ff9aa152facbef41f045"
+    },
+    {
+      "path": "audits/ruc-observations-20261105.md",
+      "bytes": 3228,
+      "sha256": "41d77ba0ca369ae093b823b4ea2f81b1d5d55d4d688c00547f3555577bddd08c"
+    },
+    {
       "path": "audits/ruc-shen-dong-20261105.json",
       "bytes": 8604,
       "sha256": "d4686210f26c3c6aee6d41f5101d9255d7f17cb45e8d165f17b844da69558811"
@@ -442,8 +452,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 16354,
-      "sha256": "c32f28530ef32d3a9ef1a74b5b2c2fd3779cd4709a1ca4a0ef7e402ed4475f8b"
+      "bytes": 16484,
+      "sha256": "a3b3412d16ab66f6cec29158e7282532eb37a3edaca04bb31109cf12b3e9ddc9"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -1299,6 +1309,11 @@
       "path": "tests/ruc-census-followup.test.mjs",
       "bytes": 1823,
       "sha256": "3edcfb81f086989f38a18dcd4b98cc0e1622c04c27c032ceb7e32a941f899263"
+    },
+    {
+      "path": "tests/ruc-observations.test.mjs",
+      "bytes": 1103,
+      "sha256": "7365d690ba1ba77d456ce57cc0f632fc09d8fab2279db2a1df9c2d4459e02a84"
     },
     {
       "path": "tests/ruc-shen-dong.test.mjs",
