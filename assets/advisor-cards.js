@@ -1,6 +1,7 @@
-import {browseAdvisors,filterOpportunities,escapeHTML,readerText,safeUrl,institutionLabel,rankOf,rankLabels,themesFor,textValue} from './core.js?v=383d76e57aac';
-import {profileSummary} from './profiles.js?v=b669160fabf6';
-import {appointmentStatus,appointmentLabels} from './appointments.js?v=fe7c21c5cd26';
+import {recruitmentPriority,intakeLabels} from './recruitment-priorities.js?v=1d0333d710b3';
+import {browseAdvisors,filterOpportunities,escapeHTML,readerText,safeUrl,institutionLabel,rankOf,rankLabels,themesFor,textValue} from './core.js?v=c97baac0a033';
+import {profileSummary} from './profiles.js?v=e88b50873ed1';
+import {appointmentStatus,appointmentLabels} from './appointments.js?v=a8c3022d2fb3';
 
 const e=value=>escapeHTML(readerText(value));
 const kinds=['degree','employment','reference'];
@@ -66,7 +67,8 @@ function opportunityGroups(rows,advisor,catalog,compareIds){
 
 export function renderAdvisorCard(group,{catalog,profiles=catalog.advisorProfiles,profileState='loading',compareIds=[]}={}){
   const {advisor,opportunities}=group,profile=profileFor(profiles,advisor.id);
-  const appointment=appointmentMarkup(advisor,profile);
+  const appointment=appointmentMarkup(advisor,profile),intake=recruitmentPriority(advisor);
+  const intakeBadge=intake==='unknown'?'':`<span class="badge recruitment-${intake}" data-intake-status="${intake}">${e(intakeLabels[intake])}</span>`;
   const topics=themesFor(advisor),tags=(topics.length?topics:(advisor.topics||[]).map(textValue)).slice(0,5);
   const profileMessage=profile?'':profileState==='loading'?'专业简介正在载入；先展示已收录的研究摘要':profileState==='unavailable'?'补充简介暂未载入；先展示已收录的研究摘要':'专业简介待补充';
   const rows=kinds.flatMap(kind=>opportunities.filter(opportunity=>opportunity.kind===kind));
@@ -74,5 +76,5 @@ export function renderAdvisorCard(group,{catalog,profiles=catalog.advisorProfile
   const opportunitiesMarkup=rows.length?
     opportunityGroups(first,advisor,catalog,compareIds)+(more.length?`<details class="opportunity-more" data-disclosure-key="${e(advisor.id)}:opportunities"><summary>展开其余 ${more.length} 条记录</summary>${opportunityGroups(more,advisor,catalog,compareIds)}</details>`:''):
     '<div class="advisor-research-note"><span class="opportunity-group-title">研究资料</span><p>当前筛选下暂无已核实学位关联或 RA 岗位。项目关联为待核或参考，不表示导师不招生。</p></div>';
-  return `<article class="advisor-card" data-advisor-id="${e(advisor.id)}" data-result-key="${e(advisor.id)}" data-profile-state="${profile?'ready':e(profileState)}"><div class="advisor-main"><div class="identity-line"><h3><button type="button" class="name-button" data-detail="${e(advisor.id)}" aria-label="查看${e(advisor.name)}的导师研究档案">${e(advisor.name)}${advisor.nameZh&&advisor.nameZh!==advisor.name?` <span class="name-zh">${e(advisor.nameZh)}</span>`:''}</button></h3>${appointment.badges}</div><div class="institution-line"><strong>${e(institutionLabel(advisor.institution))}</strong>${advisor.department?` · ${e(advisor.department)}`:''}</div><p class="small-note advisor-rank">${e(rankLabels[rankOf(advisor)])} · 原职衔：${e(advisor.position||'未记录')}</p>${appointment.date}<p class="summary">${e(profileSummary(profile,advisor.summary))}</p>${profileMessage?`<p class="profile-state small-note">${e(profileMessage)}</p>`:''}<div class="tags">${tags.map(tag=>`<span class="tag">${e(tag.replaceAll('_',' '))}</span>`).join('')}</div><div class="advisor-primary-actions"><button type="button" class="detail-button" data-detail="${e(advisor.id)}" aria-label="查看${e(advisor.name)}的研究与证据">查看导师详情 <span aria-hidden="true">→</span></button>${originalLink(advisor.profileUrl,'原始主页 ↗')}</div></div><div class="advisor-opportunities">${opportunitiesMarkup}</div></article>`;
+  return `<article class="advisor-card" data-advisor-id="${e(advisor.id)}" data-result-key="${e(advisor.id)}" data-profile-state="${profile?'ready':e(profileState)}"><div class="advisor-main"><div class="identity-line"><h3><button type="button" class="name-button" data-detail="${e(advisor.id)}" aria-label="查看${e(advisor.name)}的导师研究档案">${e(advisor.name)}${advisor.nameZh&&advisor.nameZh!==advisor.name?` <span class="name-zh">${e(advisor.nameZh)}</span>`:''}</button></h3>${appointment.badges}${intakeBadge}</div><div class="institution-line"><strong>${e(institutionLabel(advisor.institution))}</strong>${advisor.department?` · ${e(advisor.department)}`:''}</div><p class="small-note advisor-rank">${e(rankLabels[rankOf(advisor)])} · 原职衔：${e(advisor.position||'未记录')}</p>${appointment.date}<p class="summary">${e(profileSummary(profile,advisor.summary))}</p>${profileMessage?`<p class="profile-state small-note">${e(profileMessage)}</p>`:''}<div class="tags">${tags.map(tag=>`<span class="tag">${e(tag.replaceAll('_',' '))}</span>`).join('')}</div><div class="advisor-primary-actions"><button type="button" class="detail-button" data-detail="${e(advisor.id)}" aria-label="查看${e(advisor.name)}的研究与证据">查看导师详情 <span aria-hidden="true">→</span></button>${originalLink(advisor.profileUrl,'原始主页 ↗')}</div></div><div class="advisor-opportunities">${opportunitiesMarkup}</div></article>`;
 }

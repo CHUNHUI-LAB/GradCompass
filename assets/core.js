@@ -1,4 +1,5 @@
-import {appointmentMatches} from './appointments.js?v=fe7c21c5cd26';
+import {intakeMatches} from './recruitment-priorities.js?v=1d0333d710b3';
+import {appointmentMatches} from './appointments.js?v=a8c3022d2fb3';
 // Avatar labels use name letters only; parenthesized aliases are not name tokens.
 // Keep the recorded full name untouched and preserve the first-two-token convention.
 export function nameInitials(value){
@@ -29,7 +30,7 @@ export function rankOf(advisor){
  return 'other';
 }
 export function rankMatches(advisor,filters={}){return !filters.rank||rankOf(advisor)===filters.rank;}
-export const institutionNames = {"BUAA":"北京航空航天大学","RUC":"中国人民大学",HKUST:'香港科技大学',HKU:'香港大学',CUHK:'香港中文大学',CityU:'香港城市大学',CityUHK:'香港城市大学','CUHK-Shenzhen':'香港中文大学（深圳）',PolyU:'香港理工大学',HKBU:'香港浸会大学','HKUST(GZ)':'香港科技大学（广州）','HKUST-GZ':'香港科技大学（广州）','CUHK(SZ)':'香港中文大学（深圳）','CUHK-SZ':'香港中文大学（深圳）',Westlake:'西湖大学',SUSTech:'南方科技大学',Tsinghua:'清华大学',PKU:'北京大学',ZJU:'浙江大学',Fudan:'复旦大学',SJTU:'上海交通大学',NJU:'南京大学',USTC:'中国科学技术大学',Tongji:'同济大学',SEU:'东南大学',XJTLU:'西交利物浦大学'};
+export const institutionNames = {"BIT":"北京理工大学","BUAA":"北京航空航天大学","RUC":"中国人民大学",HKUST:'香港科技大学',HKU:'香港大学',CUHK:'香港中文大学',CityU:'香港城市大学',CityUHK:'香港城市大学','CUHK-Shenzhen':'香港中文大学（深圳）',PolyU:'香港理工大学',HKBU:'香港浸会大学','HKUST(GZ)':'香港科技大学（广州）','HKUST-GZ':'香港科技大学（广州）','CUHK(SZ)':'香港中文大学（深圳）','CUHK-SZ':'香港中文大学（深圳）',Westlake:'西湖大学',SUSTech:'南方科技大学',Tsinghua:'清华大学',PKU:'北京大学',ZJU:'浙江大学',Fudan:'复旦大学',SJTU:'上海交通大学',NJU:'南京大学',USTC:'中国科学技术大学',Tongji:'同济大学',SEU:'东南大学',XJTLU:'西交利物浦大学'};
 export const topicRules = [
  ['具身导航',/navigat|导航|interactive_navigation/i],
  ['机器人学习',/reinforcement|imitation|robot learning|robot_learning|强化学习|模仿学习|机器人学习|policy learning|策略学习/i],
@@ -47,7 +48,7 @@ export function normalizeSearchText(value){return textValue(value).normalize('NF
 export function searchTokens(value){return normalizeSearchText(value).split(' ').filter(Boolean);}
 export function matchesSearch(haystack,query){const source=normalizeSearchText(haystack);return searchTokens(query).every(token=>source.includes(token));}
 export const degreeSearchLabels={PhD:'PhD 博士 博士生 博士研究生 直博 博导',MPhil:'MPhil 研究型硕士 哲学硕士',MSc:'MSc 硕士 授课型硕士',MRes:'MRes 研究硕士'};
-export const institutionAliases={"BUAA":"北航 北京航空航天 Beihang","RUC":"人大 人民大学",HKUST:'港科大 港科 港科大本部',HKU:'港大',CUHK:'港中文',CityUHK:'城大',PolyU:'理大',HKBU:'浸会',HKUSTGZ:'广州校区 港科大广州', 'HKUST(GZ)':'广州校区 港科大广州','CUHK-Shenzhen':'港中深 港中文深圳','Westlake':'西湖','SUSTech':'南科大','Tsinghua':'清华','PKU':'北大','ZJU':'浙大','Fudan':'复旦','SJTU':'上交 交大','NJU':'南大','USTC':'中科大 科大','Tongji':'同济','SEU':'东南'};
+export const institutionAliases={"BIT":"北理工 北京理工 Beijing Institute of Technology","BUAA":"北航 北京航空航天 Beihang","RUC":"人大 人民大学",HKUST:'港科大 港科 港科大本部',HKU:'港大',CUHK:'港中文',CityUHK:'城大',PolyU:'理大',HKBU:'浸会',HKUSTGZ:'广州校区 港科大广州', 'HKUST(GZ)':'广州校区 港科大广州','CUHK-Shenzhen':'港中深 港中文深圳','Westlake':'西湖','SUSTech':'南科大','Tsinghua':'清华','PKU':'北大','ZJU':'浙大','Fudan':'复旦','SJTU':'上交 交大','NJU':'南大','USTC':'中科大 科大','Tongji':'同济','SEU':'东南'};
 export function searchObjectText(value,depth=0){if(value==null||depth>5)return '';if(typeof value==='string'||typeof value==='number'||typeof value==='boolean')return String(value);if(Array.isArray(value))return value.map(v=>searchObjectText(v,depth+1)).join(' ');if(typeof value==='object')return Object.entries(value).filter(([key])=>!['url','source','sources','checkedDate','sourceIds','advisorId','routeId'].includes(key)).map(([,v])=>searchObjectText(v,depth+1)).join(' ');return '';}
 export function escapeHTML(value){return textValue(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 export function safeUrl(value){try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)?u.href:null;}catch{return null;}}
@@ -77,7 +78,7 @@ export function browseAdvisors(catalog,filters={}){
  // than repeating source/profile search for every person in the directory.
  const raAdvisorIds=degree==='RA'&&catalog.advisors?.length?new Set(filterOpportunities(catalog,filters).filter(o=>o.type==='RA').map(o=>o.advisorId)):null;
  return (catalog.advisors||[]).filter(a=>{
-  if(filters.institution&&a.institution!==filters.institution||!rankMatches(a,filters)||!appointmentMatches(a,catalog,filters)||filters.topic&&!themesFor(a).includes(filters.topic))return false;
+  if(filters.institution&&a.institution!==filters.institution||!rankMatches(a,filters)||!appointmentMatches(a,catalog,filters)||!intakeMatches(a,filters)||filters.topic&&!themesFor(a).includes(filters.topic))return false;
   if(degree==='RA')return raAdvisorIds.has(a.id);
   if(degree&&degree!=='RA'&&!routesFor(a,catalog).some(r=>isBrowsableRoute(r)&&degreeLabel(r)===degree))return false;
   if(!openingMatches(a,{...filters,degree}))return false;
@@ -90,7 +91,7 @@ export function browseRoutes(catalog,filters={}){
  return (catalog.routes||[]).filter(r=>{
   if(!isBrowsableRoute(r)||filters.institution&&r.institution!==filters.institution||degree&&degreeLabel(r)!==degree)return false;
   const related=browseAdvisors(catalog,{...filters,query:'',opportunityType:'',degree:''}).filter(a=>(a.routeIds||[]).includes(r.id));
-  if((filters.rank||filters.topic||filters.opening||filters.appointment)&&!related.length)return false;
+  if((filters.rank||filters.topic||filters.opening||filters.appointment||filters.intake)&&!related.length)return false;
   return !q||matchesSearch(routeSearchText(r),q)||related.some(a=>matchesSearch(searchText(a,catalog),q));
  });
 }
@@ -112,7 +113,7 @@ export function filterAdvisors(catalog,filters={}){
  return catalog.advisors.filter(a=>{
   if(!hasVerifiedPath(a,catalog))return false;
   if(filters.institution&&a.institution!==filters.institution)return false;
-  if(!rankMatches(a,filters)||!appointmentMatches(a,catalog,filters))return false;
+  if(!rankMatches(a,filters)||!appointmentMatches(a,catalog,filters)||!intakeMatches(a,filters))return false;
   if(filters.topic&&!themesFor(a).includes(filters.topic))return false;
   if(filters.degree&&!routesFor(a,catalog).some(r=>degreeLabel(r)===filters.degree&&isVerifiedRoute(r)))return false;
   if(!openingMatches(a,filters))return false;
@@ -127,8 +128,8 @@ export function filterRoutes(catalog,filters={}){
   if((filters.opportunityType||filters.degree)&&degreeLabel(r)!==(filters.opportunityType||filters.degree))return false;
   // All advisor-specific criteria must be true of one eligible linked advisor.
   // A mere association to this route cannot confer eligibility on the advisor.
-  const related=catalog.advisors.filter(a=>hasVerifiedPath(a,catalog)&&(a.routeIds||[]).includes(r.id)&&rankMatches(a,filters)&&appointmentMatches(a,catalog,filters)&&(!filters.topic||themesFor(a).includes(filters.topic))&&openingMatches(a,{...filters,degree:degreeLabel(r)}));
-  if((filters.rank||filters.topic||filters.opening||filters.appointment)&&!related.length)return false;
+  const related=catalog.advisors.filter(a=>hasVerifiedPath(a,catalog)&&(a.routeIds||[]).includes(r.id)&&rankMatches(a,filters)&&appointmentMatches(a,catalog,filters)&&intakeMatches(a,filters)&&(!filters.topic||themesFor(a).includes(filters.topic))&&openingMatches(a,{...filters,degree:degreeLabel(r)}));
+  if((filters.rank||filters.topic||filters.opening||filters.appointment||filters.intake)&&!related.length)return false;
   return !q||matchesSearch(routeSearchText(r),q)||related.some(a=>matchesSearch(searchText(a,catalog),q));
  });
 }
@@ -181,11 +182,13 @@ export function buildOpportunities(catalog,options={}){
 }
 export function filterOpportunities(catalog,filters={}){
  const q=filters.query||'';
- return buildOpportunities(catalog,{includeReferencePhd:(filters.opportunityType||filters.degree)==='PhD'}).filter(o=>{
+ const doctoralIntake=['fall2028_phd','year2028_phd'].includes(filters.intake);
+ return buildOpportunities(catalog,{includeReferencePhd:(filters.opportunityType||filters.degree)==='PhD'||doctoralIntake}).filter(o=>{
+  if(doctoralIntake&&o.type!=='PhD')return false;
   const a=catalog.advisors.find(a=>a.id===o.advisorId);const type=filters.opportunityType||filters.degree;
   if(type&&o.type!==type)return false;
   if(filters.institution&&a.institution!==filters.institution)return false;
-  if(!rankMatches(a,filters)||!appointmentMatches(a,catalog,filters))return false;
+  if(!rankMatches(a,filters)||!appointmentMatches(a,catalog,filters)||!intakeMatches(a,filters))return false;
   if(filters.topic&&!themesFor(a).includes(filters.topic))return false;
   if(filters.opening&&o.openingStatus!==filters.opening)return false;
   const route=catalog.routes.find(r=>r.id===o.routeId);const job=(catalog.raPositions||[]).find(j=>j.id===o.jobId);

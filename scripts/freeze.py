@@ -97,6 +97,8 @@ files.extend(['audits/ruc-wang-feifei-20261105.json', 'audits/ruc-wang-feifei-20
 files.extend(['audits/ruc-shen-dong-20261105.json', 'audits/ruc-shen-dong-20261105.md', 'tests/fixtures/evidence/ruc-shen-dong-20261105.json', 'tests/ruc-shen-dong.test.mjs'])
 files.extend(['audits/ruc-observations-20261105.json', 'audits/ruc-observations-20261105.md', 'tests/ruc-observations.test.mjs'])
 files.extend(['audits/985-buaa-20261105.json', 'audits/985-buaa-20261105.md', 'tests/fixtures/evidence/985-buaa-20261105.json', 'tests/buaa-expansion-20261105.test.mjs'])
+files.extend(['assets/recruitment-priorities.js','assets/advisor-priorities.js','tests/advisor-priorities.test.mjs','tests/advisor-priorities-browser.mjs'])
+files.extend(['audits/985-bit-20261105.json','audits/985-bit-20261105.md','tests/fixtures/evidence/985-bit-20261105.json','tests/bit-expansion-20261105.test.mjs'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):

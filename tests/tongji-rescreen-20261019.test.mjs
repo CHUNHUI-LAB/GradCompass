@@ -4,7 +4,10 @@ import fs from 'node:fs';
 import crypto from 'node:crypto';
 import {browseAdvisors,filterOpportunities,buildOpportunities,hasVerifiedAssociation} from '../assets/core.js';
 import {profileMap,renderProfile,renderProfileReferences} from '../assets/profiles.js';
-import {appointmentStatus} from '../assets/appointments.js';
+import {appointmentStatus as classifyAppointment,createAppointmentWindow} from '../assets/appointments.js';
+// Preserve the historical classification contract independently of today's UI.
+const appointmentWindow=createAppointmentWindow('2026-10-26');
+const appointmentStatus=profile=>classifyAppointment(profile,appointmentWindow);
 import historicalFs,{publishedBytes,tongjiHistoricalTestBytes,decodeTongjiHistoricalTests} from './published-history-fs.mjs';
 import {evidenceReviews} from './evidence-reviews.mjs';
 import {assertReviewedPublicData,reviewedPublicData} from './reviewed-public-data.mjs';

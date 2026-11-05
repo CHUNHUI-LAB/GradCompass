@@ -58,3 +58,19 @@ test('appointment data loading, school/type combinations, chips and per-view sta
  change('appointment','earlier');assert.equal(el('#result-count').textContent,'0 位导师 · 0 条已核实学位关联 · 0 个 RA 岗位');remove('appointment');assert.equal(el('#result-count').textContent,'1 位导师 · 1 条已核实学位关联 · 0 个 RA 岗位');
  change('appointment','early_career');view('routes');assert(el('#appointment-filter-label').hidden);assert(!chip('appointment'));view('advisors');assert.equal(el('#appointment-filter').value,'early_career');assert(chip('appointment'));clear();assert.equal(el('#appointment-filter').value,'');assert(row().hidden);
 });
+
+test('priority quick filters toggle independently, preserve school selection, and survive view changes',()=>{
+ view('advisors');reset();change('institution','HKU');
+ dataClick('[data-priority-key]',{priorityKey:'appointment',priorityValue:'recent'});
+ assert.equal(el('#appointment-filter').value,'recent');assert.equal(el('#institution-filter').value,'HKU');
+ dataClick('[data-priority-key]',{priorityKey:'intake',priorityValue:'fall2028_phd'});
+ assert.equal(el('#intake-filter').value,'fall2028_phd');assert.equal(el('#appointment-filter').value,'recent');
+ assert(chip('intake').textContent.includes('明确 2028 Fall 博士'));
+ assert.equal(el('#result-count').textContent,'0 位导师 · 0 条已核实学位关联 · 0 个 RA 岗位');
+ assert.match(el('#view-content').innerHTML,/没有匹配的明确 2028 Fall 博士招募/);
+ view('routes');assert(el('#advisor-priorities').hidden);assert(el('#intake-filter-label').hidden);
+ view('advisors');assert(!el('#advisor-priorities').hidden);assert.equal(el('#intake-filter').value,'fall2028_phd');
+ dataClick('[data-priority-key]',{priorityKey:'intake',priorityValue:'fall2028_phd'});
+ assert.equal(el('#intake-filter').value,'');assert.equal(el('#appointment-filter').value,'recent');
+ remove('appointment');assert.equal(el('#institution-filter').value,'HKU');clear();assert.equal(el('#intake-filter').value,'');
+});

@@ -3,7 +3,10 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 import {browseAdvisors,buildOpportunities,hasVerifiedAssociation} from '../assets/core.js';
-import {appointmentStatus,appointmentWindow} from '../assets/appointments.js';
+import {appointmentStatus as classifyAppointment,createAppointmentWindow} from '../assets/appointments.js';
+// Preserve the historical classification contract independently of today's UI.
+const appointmentWindow=createAppointmentWindow('2026-10-26');
+const appointmentStatus=profile=>classifyAppointment(profile,appointmentWindow);
 import {renderProfile,renderProfileReferences} from '../assets/profiles.js';
 import {reviewedPublicData,assertReviewedPublicData} from './reviewed-public-data.mjs';
 const raw=p=>fs.readFileSync(new URL('../'+p,import.meta.url));

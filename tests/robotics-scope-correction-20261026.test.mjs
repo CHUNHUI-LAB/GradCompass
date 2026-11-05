@@ -3,7 +3,10 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 import {browseAdvisors,browseRoutes,buildOpportunities} from '../assets/core.js';
-import {appointmentStatus} from '../assets/appointments.js';
+import {appointmentStatus as classifyAppointment,createAppointmentWindow} from '../assets/appointments.js';
+// Preserve the historical classification contract independently of today's UI.
+const appointmentWindow=createAppointmentWindow('2026-10-26');
+const appointmentStatus=profile=>classifyAppointment(profile,appointmentWindow);
 import {assertReviewedPublicData,reviewedPublicData} from './reviewed-public-data.mjs';
 const raw=p=>fs.readFileSync(new URL('../'+p,import.meta.url)),json=p=>JSON.parse(raw(p));
 // Test this dated correction at its registered receipt boundary; the final

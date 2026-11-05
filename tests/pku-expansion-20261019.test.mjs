@@ -7,7 +7,10 @@ import {reviewedPublicData} from './reviewed-public-data.mjs';
 import {evidenceReviews} from './evidence-reviews.mjs';
 import {browseAdvisors,filterOpportunities,buildOpportunities,hasVerifiedAssociation} from '../assets/core.js';
 import {profileMap,renderProfile,renderProfileReferences} from '../assets/profiles.js';
-import {appointmentStatus,appointmentWindow} from '../assets/appointments.js';
+import {appointmentStatus as classifyAppointment,createAppointmentWindow} from '../assets/appointments.js';
+// Preserve the historical classification contract independently of today's UI.
+const appointmentWindow=createAppointmentWindow('2026-10-26');
+const appointmentStatus=profile=>classifyAppointment(profile,appointmentWindow);
 const raw=p=>fs.readFileSync(new URL('../'+p,import.meta.url));
 const read=p=>JSON.parse(raw(p));
 const checkpoint=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/tongji-rescreen-20261019.json'});

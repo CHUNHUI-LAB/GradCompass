@@ -664,3 +664,31 @@ footer a { display: inline-flex; align-items: center; min-height: 44px; color: v
   .dialog-top { position: static; }
   .comparison-table-wrap,.project-comparison-scroll { overflow: visible; }
 }
+
+/* Evidence priorities stay outside the collapsed reading guide on every viewport. */
+#advisor-priorities { grid-column: 1 / -1; min-width: 0; }
+.advisor-priority-panel { margin: 0 0 28px; padding: 24px; background: #f8f4ec; border: 1px solid #ded5c7; border-radius: 14px; }
+.priority-heading { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 20px; margin-bottom: 18px; }
+.priority-heading h2 { margin: 0; font-size: 20px; }
+.priority-heading p { margin: 0; font-size: 14px; color: #625a50; }
+.priority-options { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 12px; }
+.priority-option { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; text-align: left; min-width: 0; min-height: 138px; padding: 16px; border: 1px solid #d2c5b1; border-radius: 9px; background: #fffdf8; color: #42382d; cursor: pointer; font: inherit; }
+.priority-option:hover,.priority-option[aria-pressed="true"] { border-color: #9a4f2d; background: #f1e4d4; }
+.priority-option[aria-pressed="true"] { box-shadow: inset 0 0 0 1px #9a4f2d; }
+.priority-option:focus-visible { outline: 3px solid #9a4f2d; outline-offset: 3px; }
+.priority-option:disabled { opacity: .65; cursor: wait; }
+.priority-count { font-size: 28px; font-weight: 650; line-height: 1.2; }
+.priority-title { font-size: 15px; font-weight: 600; line-height: 1.5; }
+.priority-description { font-size: 14px; line-height: 1.6; color: #625a50; }
+.priority-note,.priority-empty-note { margin: 14px 0 0; font-size: 14px; line-height: 1.8; color: #625a50; }
+.priority-empty-note { color: #78421e; }
+.badge.recruitment-fall2028_phd { background: #e1eee5; color: #24543a; border: 1px solid #9ebca7; }
+.badge.recruitment-year2028_phd,.badge.recruitment-graduate2028 { background: #f6ebd3; color: #765021; border: 1px solid #dac397; }
+@media (max-width: 900px) { .priority-options { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (max-width: 480px) { .advisor-priority-panel { padding: 16px; margin-bottom: 20px; } .priority-options { gap: 8px; } .priority-option { padding: 12px; min-height: 146px; } .priority-title { font-size: 14px; } .priority-count { font-size: 26px; } }
+@media (min-width: 1024px) {
+  main[data-current-view="advisors"]>#advisor-priorities { grid-row: 3; }
+  main[data-current-view="advisors"]>.filters { grid-row: 4/span 2; }
+  main[data-current-view="advisors"]>#page-overview { grid-row: 4; }
+  main[data-current-view="advisors"]>.workspace { grid-row: 5; }
+}
