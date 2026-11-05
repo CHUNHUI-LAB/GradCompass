@@ -96,6 +96,7 @@ files.extend(['audits/ruc-census-followup-20261103.json', 'audits/ruc-census-fol
 files.extend(['audits/ruc-wang-feifei-20261105.json', 'audits/ruc-wang-feifei-20261105.md', 'tests/fixtures/evidence/ruc-wang-feifei-20261105.json', 'tests/ruc-wang-feifei.test.mjs'])
 files.extend(['audits/ruc-shen-dong-20261105.json', 'audits/ruc-shen-dong-20261105.md', 'tests/fixtures/evidence/ruc-shen-dong-20261105.json', 'tests/ruc-shen-dong.test.mjs'])
 files.extend(['audits/ruc-observations-20261105.json', 'audits/ruc-observations-20261105.md', 'tests/ruc-observations.test.mjs'])
+files.extend(['audits/985-buaa-20261105.json', 'audits/985-buaa-20261105.md', 'tests/fixtures/evidence/985-buaa-20261105.json', 'tests/buaa-expansion-20261105.test.mjs'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):

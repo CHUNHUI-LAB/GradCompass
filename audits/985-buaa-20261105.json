@@ -1,0 +1,4568 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-11-05",
+  "school": "北京航空航天大学",
+  "institution": "BUAA",
+  "addedAdvisorIds": [
+    "buaa-liu-wenxin",
+    "buaa-quan-quan",
+    "buaa-ma-baoli",
+    "buaa-wang-wei-control",
+    "buaa-wang-xingjian",
+    "buaa-zheng-jianying",
+    "buaa-cheng-sheng",
+    "buaa-yu-xiang",
+    "buaa-qiao-jianzhong",
+    "buaa-liu-yang",
+    "buaa-zuo-zongyu",
+    "buaa-ren-lei",
+    "buaa-wu-shuai",
+    "buaa-pei-zhongcai",
+    "buaa-zhao-longfei",
+    "buaa-wang-shaoping",
+    "buaa-yan-jiaqi",
+    "buaa-duan-haibin",
+    "buaa-deng-yimin",
+    "buaa-wang-honglun",
+    "buaa-zhu-bing",
+    "buaa-xiao-jin",
+    "buaa-ruan-sipu",
+    "buaa-feng-yanggang",
+    "buaa-xu-kun",
+    "buaa-shi-di",
+    "buaa-ren-ziyu",
+    "buaa-zhang-tao-mechanical",
+    "buaa-du-hanheng",
+    "buaa-wang-dangxiao",
+    "buaa-wang-junchen",
+    "buaa-yu-jingjun",
+    "buaa-wang-yuliang",
+    "buaa-feng-lin",
+    "buaa-guo-jiangzhen",
+    "buaa-yang-xingbang",
+    "buaa-chen-diansheng",
+    "buaa-wen-li",
+    "buaa-zhang-wuxiang",
+    "buaa-bi-shusheng",
+    "buaa-ding-xilun",
+    "buaa-wang-tianmiao",
+    "buaa-wei-hongxing",
+    "buaa-liu-kexin",
+    "buaa-zhou-rui",
+    "buaa-wang-chenliang",
+    "buaa-laili-yuanjun",
+    "buaa-qi-chao",
+    "buaa-guo-lei-control",
+    "buaa-wang-wei-robotics",
+    "buaa-chen-jiaxin",
+    "buaa-niu-jianwei",
+    "buaa-liu-si",
+    "buaa-hua-yongchao",
+    "buaa-huang-linjiang",
+    "buaa-she-rui",
+    "buaa-yan-rui",
+    "buaa-pan-chengwei",
+    "buaa-liu-aishan",
+    "buaa-lei-xusheng",
+    "buaa-guo-zhanshe",
+    "buaa-zhou-lipu",
+    "buaa-sun-junhua",
+    "buaa-li-duan",
+    "buaa-guo-jingjing",
+    "buaa-cai-qingzhong",
+    "buaa-chu-zhongyi",
+    "buaa-ma-xinzhu",
+    "buaa-feng-bin"
+  ],
+  "addedCount": 69,
+  "coverage": {
+    "control": {
+      "automation": {
+        "currentRosterCount": 164,
+        "bulkPersonalBodySuccess": 161,
+        "followupBodyRecovered": [
+          "焦宗夏",
+          "郭雷"
+        ],
+        "effectivePersonalBodyReadCount": 163,
+        "remainingUnread": [
+          "王秋生"
+        ],
+        "roster": {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "readScope": "official_live_roster_embedded_JSON",
+          "note": ""
+        },
+        "screenedCount": 164
+      },
+      "mechanical": {
+        "current709DoctoralRosterNames": [
+          "郭卫东",
+          "毕树生",
+          "王田苗",
+          "刘荣",
+          "丁希仑",
+          "丑武胜",
+          "战强",
+          "王巍",
+          "于靖军",
+          "陈殿生",
+          "王党校",
+          "刘冠阳",
+          "王伟",
+          "张武翔",
+          "王玉亮",
+          "赵宏哲",
+          "蔡月日",
+          "徐坤",
+          "邓慧超",
+          "王君臣",
+          "吕胜男",
+          "田耀斌",
+          "冯仰刚",
+          "石狄",
+          "王成才",
+          "阮思朴",
+          "张容静",
+          "张天雪"
+        ],
+        "current709DoctoralRosterCount": 28,
+        "currentRosterScope": "official_search_index_only",
+        "currentRosterSource": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+        "historicalDoctoralBodySource": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+        "historicalDoctoralBodyVersion": "2025-02-17",
+        "current709MastersExtra": [
+          {
+            "name": "李大寨",
+            "decision": "observe_doctoral_not_verified",
+            "reason": "709 当前硕导名单比博导名单多出的成员；本轮无可归属的独立博士导师证明。",
+            "sources": [
+              {
+                "url": "https://www.me.buaa.edu.cn/rcpy/yjspy/sdjs.htm",
+                "readScope": "official_search_index_only",
+                "note": ""
+              },
+              {
+                "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+                "readScope": "official_search_index_only",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "name": "胡磊",
+            "decision": "observe_doctoral_not_verified",
+            "reason": "709 当前硕导名单比博导名单多出的成员；本轮无可归属的独立博士导师证明。",
+            "sources": [
+              {
+                "url": "https://www.me.buaa.edu.cn/rcpy/yjspy/sdjs.htm",
+                "readScope": "official_search_index_only",
+                "note": ""
+              },
+              {
+                "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+                "readScope": "official_search_index_only",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "name": "高志慧",
+            "decision": "observe_doctoral_not_verified",
+            "reason": "709 当前硕导名单比博导名单多出的成员；本轮无可归属的独立博士导师证明。",
+            "sources": [
+              {
+                "url": "https://www.me.buaa.edu.cn/rcpy/yjspy/sdjs.htm",
+                "readScope": "official_search_index_only",
+                "note": ""
+              },
+              {
+                "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+                "readScope": "official_search_index_only",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "name": "孙明磊",
+            "decision": "observe_doctoral_not_verified",
+            "reason": "709 当前硕导名单比博导名单多出的成员；本轮无可归属的独立博士导师证明。",
+            "sources": [
+              {
+                "url": "https://www.me.buaa.edu.cn/rcpy/yjspy/sdjs.htm",
+                "readScope": "official_search_index_only",
+                "note": ""
+              },
+              {
+                "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+                "readScope": "official_search_index_only",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "name": "徐颖",
+            "decision": "observe_doctoral_not_verified",
+            "reason": "709 当前硕导名单比博导名单多出的成员；本轮无可归属的独立博士导师证明。",
+            "sources": [
+              {
+                "url": "https://www.me.buaa.edu.cn/rcpy/yjspy/sdjs.htm",
+                "readScope": "official_search_index_only",
+                "note": ""
+              },
+              {
+                "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+                "readScope": "official_search_index_only",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "name": "陈佳伟",
+            "decision": "observe_doctoral_not_verified",
+            "reason": "709 当前硕导名单比博导名单多出的成员；本轮无可归属的独立博士导师证明。",
+            "sources": [
+              {
+                "url": "https://www.me.buaa.edu.cn/rcpy/yjspy/sdjs.htm",
+                "readScope": "official_search_index_only",
+                "note": ""
+              },
+              {
+                "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+                "readScope": "official_search_index_only",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "name": "刘世伟",
+            "decision": "observe_doctoral_not_verified",
+            "reason": "709 当前硕导名单比博导名单多出的成员；本轮无可归属的独立博士导师证明。",
+            "sources": [
+              {
+                "url": "https://www.me.buaa.edu.cn/rcpy/yjspy/sdjs.htm",
+                "readScope": "official_search_index_only",
+                "note": ""
+              },
+              {
+                "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+                "readScope": "official_search_index_only",
+                "note": ""
+              }
+            ]
+          }
+        ],
+        "exhaustiveness": "709 博导名单 28 名均纳入主候选或观察；机械全院当前名单正文不可稳定读取，因此不宣称机械全院穷尽。706/707/701/医工已补充主要发现，剩余方向交叉仍可能存在。",
+        "currentRosterIdentityCheck": "2026-11-05 两次独立定向检索 /info/1071/5912.htm 标题均为机械学院博士生导师名单；只作索引，未冒称正文。"
+      }
+    },
+    "ai_cs": {
+      "AI_roster": 65,
+      "AI_bodies": 65,
+      "CS_roster": 170,
+      "CS_bodies": 119,
+      "CS_missing_links": 51
+    },
+    "instruments": {
+      "roster_unique_names": 200,
+      "profile_pages_fetched": 200,
+      "aggregate_fulltime_faculty": 198,
+      "aggregate_all_staff": 257,
+      "reconciled": false,
+      "note": "200官网名册条目不等于198专任教师；范围/更新时点未解释。未宣称全院现职及博导全覆盖"
+    }
+  },
+  "notExhaustive": true,
+  "entries": [
+    {
+      "id": "buaa-liu-wenxin",
+      "name": "刘汶欣",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "position": "副教授；博士生导师",
+      "summary": "真实环境与计算受限小型平台视觉惯性里程计、SLAM、多传感器融合；The Tiercel 自主微型飞行器 ICRA 2020 和小型平台 VIO Autonomous Robots 2021。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2366.htm",
+          "label": "刘汶欣｜来源核查",
+          "title": "刘汶欣｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "刘汶欣｜来源核查",
+          "title": "刘汶欣｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2024-10起本校教研任职（月份精度）。当前自动化学院正文为副教授、博导；准聘教授等个人模板称呼不覆盖学院当前职称。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-quan-quan",
+      "name": "全权",
+      "department": "自动化科学与电气工程学院 / 自动控制系",
+      "position": "教授；博士生导师",
+      "summary": "多旋翼容错飞行控制；TRO 2023 一至三旋翼故障容错，IJRR 2024 群体机器人最优虚拟管道规划与控制。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1073/2401.htm",
+          "label": "全权｜来源核查",
+          "title": "全权｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "全权｜来源核查",
+          "title": "全权｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2010-09起本校教研任职（月份精度）。2022.08 是由副教授晋升教授，不是入校。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-ma-baoli",
+      "name": "马保离",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "position": "教授；博士生导师",
+      "summary": "移动机器人仅测距环绕控制（Automatica 2024）、非完整移动机器人与空间机器人控制。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2398.htm",
+          "label": "马保离｜来源核查",
+          "title": "马保离｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "马保离｜来源核查",
+          "title": "马保离｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "1998-01起本校教研任职（月份精度）。1995–1997 博士后不是教师入职。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-wang-wei-control",
+      "name": "王薇",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "position": "教授；博士生导师",
+      "summary": "移动机器人协同/编队控制；视觉伺服机器人自适应跟踪专利 CN114721275B 和机器人编队安全控制专利 CN115826417B。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2382.htm",
+          "label": "王薇｜来源核查",
+          "title": "王薇｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "王薇｜来源核查",
+          "title": "王薇｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2015-07起本校教研任职（月份精度）。2020.12 教授属晋升；与机械学院王伟区分。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-wang-xingjian",
+      "name": "王兴坚",
+      "department": "自动化科学与电气工程学院 / 机械电子工程系",
+      "position": "教授；博士生导师",
+      "summary": "下肢外骨骼、软体灵巧手、动力踝关节假肢；TMECH 2024 外骨骼阻抗控制、TIE 2023 髋部外骨骼、TMECH 2022 动力踝足假肢。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1071/2335.htm",
+          "label": "王兴坚｜来源核查",
+          "title": "王兴坚｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "王兴坚｜来源核查",
+          "title": "王兴坚｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2012-02起本校教研任职（月份精度）。2018 副教授、2023 教授均为晋升。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-zheng-jianying",
+      "name": "郑建英",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "position": "副教授；博士生导师",
+      "summary": "TIE 2025 强化学习机器人阻抗控制；TASE 2023 无人机未知三维环境探索；具身机械臂控制。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2391.htm",
+          "label": "郑建英｜来源核查",
+          "title": "郑建英｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "郑建英｜来源核查",
+          "title": "郑建英｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2018-06起本校教研任职（月份精度）。既有北航教职，不属于近五年新任。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-cheng-sheng",
+      "name": "程晟",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "position": "教授；博士生导师",
+      "summary": "飞行具身智能、空中操作；TRO 2024 DiffTune；RAL 2025 全向多旋翼高机动跟踪控制和 TCST 2025 L1Quad。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2385.htm",
+          "label": "程晟｜来源核查",
+          "title": "程晟｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "程晟｜来源核查",
+          "title": "程晟｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2026-04起本校教研任职（月份精度）。2021.09–2025.08 UIUC 为博士后，不能用作北航入职。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-yu-xiang",
+      "name": "余翔",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "position": "教授；博士生导师",
+      "summary": "空中机械臂的毫米级抓取/插入操控、飞行机械臂抗干扰控制；TRO 2026 Aerial GRIPPER 预测规划。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2364.htm",
+          "label": "余翔｜来源核查",
+          "title": "余翔｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "余翔｜来源核查",
+          "title": "余翔｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "首次本校教研任职日期未核实。工作经历栏为空，不据论文或人才称号推断入职年。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-qiao-jianzhong",
+      "name": "乔建忠",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "position": "教授；博士生导师",
+      "summary": "空间机械臂姿态跟踪（IEEE SMC 2021）、无人机多传感器仿生自主导航，连接实际机器人平台。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2363.htm",
+          "label": "乔建忠｜来源核查",
+          "title": "乔建忠｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "乔建忠｜来源核查",
+          "title": "乔建忠｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2014-05起本校教研任职（月份精度）。2021.11 研究员/教授为职级变化，不是新任。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-liu-yang",
+      "name": "刘杨",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "position": "副教授；博士生导师",
+      "summary": "多移动机器人规定时间包容控制（2026）；多机械臂协作控制专利 ZL202411328238.7。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2365.htm",
+          "label": "刘杨｜来源核查",
+          "title": "刘杨｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "刘杨｜来源核查",
+          "title": "刘杨｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2010-03起本校教研任职（月份精度）。2018.08 副教授为晋升。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-zuo-zongyu",
+      "name": "左宗玉",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "position": "教授；博士生导师",
+      "summary": "滚动四足机器人专利 ZL201811159204.4；拒止环境多无人机分布式 SLAM 专利 ZL202211081054.6。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2369.htm",
+          "label": "左宗玉｜来源核查",
+          "title": "左宗玉｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "左宗玉｜来源核查",
+          "title": "左宗玉｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2011-09起本校教研任职（月份精度）。2020.12 教授晋升不等于新入职。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-ren-lei",
+      "name": "任磊",
+      "department": "自动化科学与电气工程学院 / 工业互联网与建模仿真系",
+      "position": "教授；博士生导师",
+      "summary": "工业具身装配、模型驱动机器人运动规划；装配专利 ZL202611042698.2 和规划专利 ZL202510006079.7。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1075/2303.htm",
+          "label": "任磊｜来源核查",
+          "title": "任磊｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "任磊｜来源核查",
+          "title": "任磊｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2011-09起本校教研任职（月份精度）。2009–2011 博士后；2022 软件学院双聘不算首次入职。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-wu-shuai",
+      "name": "吴帅",
+      "department": "自动化科学与电气工程学院 / 机械电子工程系",
+      "position": "副研究员；博士生导师",
+      "summary": "个人正文明确已有液压肌肉驱动重载机器人研究成果，并正在拓展液压重型机器人与外骨骼；代表论文多为液压执行器。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1071/2322.htm",
+          "label": "吴帅｜来源核查",
+          "title": "吴帅｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "吴帅｜来源核查",
+          "title": "吴帅｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2013-07起本校教研任职（月份精度）。2011–2013 为博士后，2019 为副研究员晋升；具体机器人论文证据比其他入选者弱，保留边界。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-pei-zhongcai",
+      "name": "裴忠才",
+      "department": "自动化科学与电气工程学院 / 机械电子工程系",
+      "position": "教授；博士生导师",
+      "summary": "四足机器人 SAC 步态控制与可穿戴机器人跟随专利（2024），膝康复机器人与仿生鱼尾刚度研究。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1071/2341.htm",
+          "label": "裴忠才｜来源核查",
+          "title": "裴忠才｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "裴忠才｜来源核查",
+          "title": "裴忠才｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2000起本校教研任职（年份精度）。1997–2000 博士后，2006 教授是晋升。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-zhao-longfei",
+      "name": "赵龙飞",
+      "department": "自动化科学与电气工程学院 / 机械电子工程系",
+      "position": "研究员；博士生导师",
+      "summary": "仿生扑翼微飞行器悬停控制、扑翼驱动及矢量控制，属于实体仿生飞行机器人。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1071/2343.htm",
+          "label": "赵龙飞｜来源核查",
+          "title": "赵龙飞｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "赵龙飞｜来源核查",
+          "title": "赵龙飞｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2018-06起本校教研任职（月份精度）。2018 北航前沿院助理研究员；2021.08 自动化副研究员为院内转换，2025.12 研究员为晋升；末段终止时间有网页笔误。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-wang-shaoping",
+      "name": "王少萍",
+      "department": "自动化科学与电气工程学院 / 机械电子工程系",
+      "position": "教授；博士生导师",
+      "summary": "绳驱人形机械臂专利 ZL202210957154.4、机器人集群自重构层级控制（IEEE Cybernetics 2024）。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1071/2336.htm",
+          "label": "王少萍｜来源核查",
+          "title": "王少萍｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "王少萍｜来源核查",
+          "title": "王少萍｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "1994-07起本校教研任职（月份精度）。2000 教授为晋升。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-yan-jiaqi",
+      "name": "闫嘉琦",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "position": "教授；博士生导师",
+      "summary": "机械臂机理–贝叶斯联合建模控制专利 ZL202610008118.1（2026）；无人系统协同控制。代表论文主体为控制理论，不能宣传成已建成人形机器人实验室。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2396.htm",
+          "label": "闫嘉琦｜来源核查",
+          "title": "闫嘉琦｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "闫嘉琦｜来源核查",
+          "title": "闫嘉琦｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2024-11起本校教研任职（月份精度）。此前 Tokyo JSPS 和 ETH 博士后，不是北航教师任职。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-duan-haibin",
+      "name": "段海滨",
+      "department": "自动化科学与电气工程学院 / 自动控制系",
+      "position": "教授；博士生导师",
+      "summary": "无人机集群感知/规划与仿生视觉；配机械臂无人机控制专利 ZL201610036950.9。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1073/2416.htm",
+          "label": "段海滨｜来源核查",
+          "title": "段海滨｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "段海滨｜来源核查",
+          "title": "段海滨｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2005-05起本校教研任职（月份精度）。2012.08 教授为晋升；保留无人系统应用边界。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-deng-yimin",
+      "name": "邓亦敏",
+      "department": "自动化科学与电气工程学院 / 自动控制系",
+      "position": "副研究员；博士生导师",
+      "summary": "密集环境无人机集群轨迹与控制，2023 仿鹰眼机械臂搭载无人机目标检测，TMECH 2025 群体环绕。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1073/2425.htm",
+          "label": "邓亦敏｜来源核查",
+          "title": "邓亦敏｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "邓亦敏｜来源核查",
+          "title": "邓亦敏｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2017-07起本校教研任职（月份精度）。2021.08 副研究员为晋升。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-wang-honglun",
+      "name": "王宏伦",
+      "department": "自动化科学与电气工程学院 / 自动控制系",
+      "position": "教授；博士生导师",
+      "summary": "无人机自主避障/导航/对接，2025 编队避障专利 ZL202411163590.X；自主回收轨迹控制。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1073/2418.htm",
+          "label": "王宏伦｜来源核查",
+          "title": "王宏伦｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "王宏伦｜来源核查",
+          "title": "王宏伦｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2000-07起本校教研任职（月份精度）。2000 北航无人机所副教授；2016 调自动化不算初次入职。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-zhu-bing",
+      "name": "诸兵",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "position": "副教授；博士生导师",
+      "summary": "自主驾驶感知控制及四旋翼吊载鲁棒自适应控制专利 ZL202311495941.2。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2389.htm",
+          "label": "诸兵｜来源核查",
+          "title": "诸兵｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "诸兵｜来源核查",
+          "title": "诸兵｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2016-10起本校教研任职（月份精度）。主体是模型预测控制，实体平台为自动驾驶/无人机，不等同于操作机器人。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-xiao-jin",
+      "name": "肖瑾",
+      "department": "自动化科学与电气工程学院 / 自动控制与电工电子教学实验中心",
+      "position": "教授；博士生导师",
+      "summary": "具身智能与机器人、无人机群协调；遗传算法和 Dubins 算法的无人机编队重构专利。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1074/2445.htm",
+          "label": "肖瑾｜来源核查",
+          "title": "肖瑾｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "肖瑾｜来源核查",
+          "title": "肖瑾｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "readScope": "官方动态名册正文；2026 年页面内动态名单，直接 HTML 读取；不是搜索摘要。",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2008-01起本校教研任职（月份精度）。2008 起历任讲师/副教授/教授，不能把当前教授职称当新任。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-ruan-sipu",
+      "name": "阮思朴",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "position": "教授；博士生导师",
+      "summary": "医疗/服务机器人运动规划、模仿学习；TRO 2024 PRIMP 和 TRO 2023 窄通道路径规划。",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/ruansp/zh_CN/",
+          "label": "阮思朴｜来源核查",
+          "title": "阮思朴｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://shi.buaa.edu.cn/rsplab/zh_CN/article/229522/content/2089.htm",
+          "label": "阮思朴｜2027招生公告",
+          "title": "阮思朴团队2027招生公告",
+          "section": "2026-09-28；2027普博1、统招硕士1；机器人移动操作和手术机器人",
+          "readScope": "2026-09-28团队公告正文",
+          "access": "primary_page_body",
+          "checkedDate": "2026-11-05"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_primary_profile_body",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "首次本校教研任职日期未核实。个人正文显示 2021.1–2024.1 NUS 博士后，但未给北航开始时间；不能因博士后结束而推断 2024 入校。",
+      "recruitment": "个人页明确2027秋博士1名，团队2026-09-28公告细化为2027普博1名、统招硕士1名；计划不等于当前余位。2028接收和名额未核实。"
+    },
+    {
+      "id": "buaa-feng-yanggang",
+      "name": "冯仰刚",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "position": "教授；博士生导师",
+      "summary": "穿戴式机器人设计与控制，面向神经肌肉障碍康复和术后助力，物理人机交互。",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/yanggangfeng/zh_CN/index.htm",
+          "label": "冯仰刚｜来源核查",
+          "title": "冯仰刚｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_primary_profile_body",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2021-05起本校教研任职（月份精度）。2021 年 5 月加入北航在固定窗口之前，不能算近五年新入职。",
+      "recruitment": "个人页2026-10-23更新：预计招收2027年普博/硕转博学生1名；未明确春秋季，不代表当前余位。2028接收、资助与资格未核实。"
+    },
+    {
+      "id": "buaa-xu-kun",
+      "name": "徐坤",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "position": "教授；博士生导师",
+      "summary": "仿生攀岩机器人多模态运动与混合附着；机器人卫星类人灵巧作业；Advanced Science 攀岩机器人论文。",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/xkimkk/en/index.htm",
+          "label": "徐坤｜来源核查",
+          "title": "徐坤｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_primary_profile_body",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "首次本校教研任职日期未核实。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-shi-di",
+      "name": "石狄",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "position": "副教授；博士生导师",
+      "summary": "下肢康复外骨骼人机动力学自适应控制、SO(3) 康复多模式控制，TIE/TMRB 论文及国家基金项目。",
+      "sources": [
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/8158.htm",
+          "label": "石狄｜来源核查",
+          "title": "石狄｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://shi.buaa.edu.cn/shidi1/zh_CN/index.htm",
+          "label": "石狄｜来源核查",
+          "title": "石狄｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_primary_profile_body",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2023-10起本校教研任职（月份精度）。教师起点 2023.10；2021.7–2023.10 是北航博士后。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-ren-ziyu",
+      "name": "任子宇",
+      "department": "机械工程及自动化学院 / 机电工程及自动化系 706",
+      "position": "教授；博士指导身份参考（历史证据）",
+      "summary": "微型医疗机器人；官方院系介绍进一步显示磁性软材料微加工、多模态软体运动及仿生流体操控。",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/luyang/zh_CN/index.htm",
+          "label": "任子宇｜来源核查",
+          "title": "任子宇｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1248/8612.htm",
+          "label": "任子宇｜来源核查",
+          "title": "任子宇｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方页面搜索索引，未读取正文；当前介绍正文 SSL 失败；具体成果只作索引补强。",
+          "readScope": "官方页面搜索索引，未读取正文；当前介绍正文 SSL 失败；具体成果只作索引补强。",
+          "access": "official_search_index_only"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "label": "任子宇｜来源核查",
+          "title": "任子宇｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "历史官方名单正文；正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。",
+          "readScope": "历史官方名单正文；正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。",
+          "access": "official_body_snapshot"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "label": "任子宇｜来源核查",
+          "title": "任子宇｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方页面搜索索引，未读取正文；2026 年当前名单索引；正文读取失败。",
+          "readScope": "官方页面搜索索引，未读取正文；2026 年当前名单索引；正文读取失败。",
+          "access": "official_search_index_only"
+        }
+      ],
+      "doctoralEvidence": "2025-02-17官方博士名单正文与2026名单索引相互对应；历史博士指导身份参考，不冒充当前正文确认。",
+      "qualificationLevel": "verified_historical_official_body_plus_current_index",
+      "researchBasis": "explicit_physical_robotics_direction",
+      "appointment": "2024-01起本校教研任职（月份精度）。luyang URL 实际页面姓名、英文 Ziyu Ren 和邮箱均对应任子宇，不是归属错误；个人模板仅显示同专业硕导，独立官方博导名单闭合博士资格。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-zhang-tao-mechanical",
+      "name": "张涛",
+      "department": "机械工程及自动化学院 / 机械设计及自动化系 701",
+      "position": "副教授（当前官方索引；个人主页未填职称）；博士生导师",
+      "summary": "空间/月壤采样机器人，月面钻采载荷与温升 IJRR/JFR 研究，水下仿生机器人。",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/zhangtao12/zh_CN/index.htm",
+          "label": "张涛｜来源核查",
+          "title": "张涛｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1041/9705.htm",
+          "label": "张涛｜来源核查",
+          "title": "张涛｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方页面搜索索引，未读取正文；本轮最终检索明确副教授，机械设计701博士生导师；不同于其原广工教授经历。",
+          "readScope": "官方页面搜索索引，未读取正文；本轮最终检索明确副教授，机械设计701博士生导师；不同于其原广工教授经历。",
+          "access": "official_search_index_only"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_primary_profile_body",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2024-07-02起本校教研任职（日期精度）。2023.10 晋升教授属于前单位广东工业大学；当前北航官方索引为副教授，未把前单位职称带到北航。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-du-hanheng",
+      "name": "杜晗恒",
+      "department": "机械工程及自动化学院 / 微机电系统工程系 707",
+      "position": "副教授；博士生导师",
+      "summary": "柔性微小机器人设计与操控，与微纳结构超精密制造结合；目前已读正文为明确研究方向，代表机器人项目待补。",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/duhanheng/en/index.htm",
+          "label": "杜晗恒｜来源核查",
+          "title": "杜晗恒｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_primary_profile_body",
+      "researchBasis": "explicit_physical_robotics_direction",
+      "appointment": "2024-03-01起本校教研任职（日期精度）。柔性微小机器人方向明确，但成果具体度弱于其他主候选，应保留研究证据边界。",
+      "recruitment": "公开招生原文：招博后1-2名，博士1-2名，硕士1-2名。未标招生年份，不归到 2027/2028，也不当作实时剩余名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-wang-dangxiao",
+      "name": "王党校",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "position": "教授；博士生导师",
+      "summary": "力触觉交互与医疗康复机器人；主持 2025–2027 心肺助力可穿戴机器人项目。",
+      "sources": [
+        {
+          "url": "https://haptic.buaa.edu.cn/wang-dangxiao.html",
+          "label": "王党校｜来源核查",
+          "title": "王党校｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_primary_profile_body",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "首次本校教研任职日期未核实。2006 出站、2016 教授属长期任职/晋升，未取得本轮可精确引用的教师入职日。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-wang-junchen",
+      "name": "王君臣",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "position": "副教授；博士指导身份参考（历史证据）",
+      "summary": "双臂颅颌面截骨机器人（2025）、自主缝合夹取/移除（RAL 2022）、微创手术导航与术中感知。",
+      "sources": [
+        {
+          "url": "https://mrs.buaa.edu.cn/?page_id=47",
+          "label": "王君臣｜来源核查",
+          "title": "王君臣｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "label": "王君臣｜来源核查",
+          "title": "王君臣｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "历史官方名单正文；正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。",
+          "readScope": "历史官方名单正文；正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。",
+          "access": "official_body_snapshot"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "label": "王君臣｜来源核查",
+          "title": "王君臣｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方页面搜索索引，未读取正文；2026 年当前名单索引；正文读取失败。",
+          "readScope": "官方页面搜索索引，未读取正文；2026 年当前名单索引；正文读取失败。",
+          "access": "official_search_index_only"
+        }
+      ],
+      "doctoralEvidence": "2025-02-17官方博士名单正文与2026名单索引相互对应；历史博士指导身份参考，不冒充当前正文确认。",
+      "qualificationLevel": "verified_historical_official_body_plus_current_index",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "首次本校教研任职日期未核实。实验室成果正文已读；入职时间本轮未闭合。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-yu-jingjun",
+      "name": "于靖军",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "position": "教授；博士生导师",
+      "summary": "面向航空狭小舱段的柔性连续体机器人，舱段检测清理机器人及刚度/精度控制项目。",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/yujingjun/zh_CN/index.htm",
+          "label": "于靖军｜来源核查",
+          "title": "于靖军｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_primary_profile_body",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "首次本校教研任职日期未核实。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-wang-yuliang",
+      "name": "王玉亮",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "position": "教授；博士生导师",
+      "summary": "微纳机器人、微视觉测量/视觉感知与精密操控。",
+      "sources": [
+        {
+          "url": "https://teacher.buaa.edu.cn/wangyuliang/zh_CN/index.htm",
+          "label": "王玉亮｜来源核查",
+          "title": "王玉亮｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/6346.htm",
+          "label": "王玉亮｜来源核查",
+          "title": "王玉亮｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方页面搜索索引，未读取正文；2012–2019 副教授，2019 教授；任职精度为年，索引证据。",
+          "readScope": "官方页面搜索索引，未读取正文；2012–2019 副教授，2019 教授；任职精度为年，索引证据。",
+          "access": "official_search_index_only"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_primary_profile_body",
+      "researchBasis": "explicit_physical_robotics_direction",
+      "appointment": "2012起本校教研任职（年份精度）。任职年只由官方索引支持；2019 教授为晋升。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-feng-lin",
+      "name": "冯林",
+      "department": "机械工程及自动化学院 / 微机电系统工程系 707",
+      "position": "教授；博士生导师",
+      "summary": "磁控巨噬细胞机器人/集群靶向给药、自主位姿胶囊内镜、可变形磁流体机器人及光电操控。",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/fenglin/zh_CN/index.htm",
+          "label": "冯林｜来源核查",
+          "title": "冯林｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_primary_profile_body",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2016起本校教研任职（年份精度）。2016 首次教师任职在窗口外；不把后续教授晋升当入校。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-guo-jiangzhen",
+      "name": "郭江真",
+      "department": "医学科学与工程学院",
+      "position": "副教授；博士生导师",
+      "summary": "气管插管连续体机器人柔顺力控、AIS 2025 机器人插管导芯；矫形康复机器人。",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/jzguo/zh_CN/index.htm",
+          "label": "郭江真｜来源核查",
+          "title": "郭江真｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_primary_profile_body",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2020-06-08起本校教研任职（日期精度）。2020.06 开始教师任职，博士后不计入；固定窗口外。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-yang-xingbang",
+      "name": "杨兴帮",
+      "department": "生物与医学工程学院",
+      "position": "副教授；博士生导师",
+      "summary": "髋/踝助力外骨骼、仿生假肢、软体抓手、水空跨域变形机器人。",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/yangxingbang1/zh_CN/index.htm",
+          "label": "杨兴帮｜来源核查",
+          "title": "杨兴帮｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_primary_profile_body",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2021-09起本校教研任职（月份精度）。2021.09 早于固定 2021-10-26；2016–2017 北航博士后不算教师任职。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-chen-diansheng",
+      "name": "陈殿生",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "position": "教授；博士指导身份参考（历史证据）",
+      "summary": "脑出血手术机器人多源感知/血肿清除、上肢软体康复、眼科手术技能学习与自主操作。",
+      "sources": [
+        {
+          "url": "https://ecpkn.buaa.edu.cn/info/1139/2734.htm",
+          "label": "陈殿生｜来源核查",
+          "title": "陈殿生｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "label": "陈殿生｜来源核查",
+          "title": "陈殿生｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "历史官方名单正文；正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。",
+          "readScope": "历史官方名单正文；正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。",
+          "access": "official_body_snapshot"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "label": "陈殿生｜来源核查",
+          "title": "陈殿生｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方页面搜索索引，未读取正文；2026 年当前名单索引；正文读取失败。",
+          "readScope": "官方页面搜索索引，未读取正文；2026 年当前名单索引；正文读取失败。",
+          "access": "official_search_index_only"
+        }
+      ],
+      "doctoralEvidence": "2025-02-17官方博士名单正文与2026名单索引相互对应；历史博士指导身份参考，不冒充当前正文确认。",
+      "qualificationLevel": "verified_historical_official_body_plus_current_index",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "首次本校教研任职日期未核实。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-wen-li",
+      "name": "文力",
+      "department": "机械工程及自动化学院 / 机电工程及自动化系 706",
+      "position": "教授；博士指导身份参考（历史证据）",
+      "summary": "软体仿生机器人结构/控制；官方历史师资介绍包含生物机器人和智能控制。",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/09673/en/index.htm",
+          "label": "文力｜来源核查",
+          "title": "文力｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://sge.buaa.edu.cn/info/1216/3175.htm",
+          "label": "文力｜来源核查",
+          "title": "文力｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "official_historical_body；发布2021-09-17，服务2022级硕士；只作历史研究证据，不证明当前招生。",
+          "readScope": "official_historical_body；发布2021-09-17，服务2022级硕士；只作历史研究证据，不证明当前招生。",
+          "access": "official_historical_body"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/2298.htm",
+          "label": "文力｜来源核查",
+          "title": "文力｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方页面搜索索引，未读取正文；当前官方索引有 Festo 仿生章鱼软体抓手研究。",
+          "readScope": "官方页面搜索索引，未读取正文；当前官方索引有 Festo 仿生章鱼软体抓手研究。",
+          "access": "official_search_index_only"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "label": "文力｜来源核查",
+          "title": "文力｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "历史官方名单正文；正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。",
+          "readScope": "历史官方名单正文；正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。",
+          "access": "official_body_snapshot"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "label": "文力｜来源核查",
+          "title": "文力｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方页面搜索索引，未读取正文；2026 年当前名单索引；正文读取失败。",
+          "readScope": "官方页面搜索索引，未读取正文；2026 年当前名单索引；正文读取失败。",
+          "access": "official_search_index_only"
+        }
+      ],
+      "doctoralEvidence": "2025-02-17官方博士名单正文与2026名单索引相互对应；历史博士指导身份参考，不冒充当前正文确认。",
+      "qualificationLevel": "verified_historical_official_body_plus_current_index",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2013-07-01起本校教研任职（日期精度）。研究细项为历史正文与当前索引交叉支持；不能当作 2028 招生。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-zhang-wuxiang",
+      "name": "张武翔",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "position": "教授；博士生导师",
+      "summary": "智能机器人、康复外骨骼；石狄官方研究成果页有共同作者的下肢外骨骼人机控制与康复机器人具体成果。",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/zhangwuxiang/zh_CN/index.htm",
+          "label": "张武翔｜来源核查",
+          "title": "张武翔｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/8158.htm",
+          "label": "张武翔｜来源核查",
+          "title": "张武翔｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_primary_profile_body",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "首次本校教研任职日期未核实。当前个人正文明确教授/博导。石狄成果页补足具体物理机器人研究，不仅用实验室头衔。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-bi-shusheng",
+      "name": "毕树生",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "position": "教授；博士指导身份参考（历史证据）",
+      "summary": "水下仿生机器人与服务机器人。",
+      "sources": [
+        {
+          "url": "https://sge.buaa.edu.cn/info/1216/3175.htm",
+          "label": "毕树生｜来源核查",
+          "title": "毕树生｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "official_historical_body；发布2021-09-17，服务2022级硕士；只作历史研究证据，不证明当前招生。",
+          "readScope": "official_historical_body；发布2021-09-17，服务2022级硕士；只作历史研究证据，不证明当前招生。",
+          "access": "official_historical_body"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "label": "毕树生｜来源核查",
+          "title": "毕树生｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "历史官方名单正文；正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。",
+          "readScope": "历史官方名单正文；正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。",
+          "access": "official_body_snapshot"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "label": "毕树生｜来源核查",
+          "title": "毕树生｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方页面搜索索引，未读取正文；2026 年当前名单索引；正文读取失败。",
+          "readScope": "官方页面搜索索引，未读取正文；2026 年当前名单索引；正文读取失败。",
+          "access": "official_search_index_only"
+        }
+      ],
+      "doctoralEvidence": "2025-02-17官方博士名单正文与2026名单索引相互对应；历史博士指导身份参考，不冒充当前正文确认。",
+      "qualificationLevel": "verified_historical_official_body_plus_current_index",
+      "researchBasis": "explicit_physical_robotics_direction",
+      "appointment": "首次本校教研任职日期未核实。主要研究描述来自 2021 历史官方正文，当前 2026 名单支持仍列博导；近期具体项目待补。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-ding-xilun",
+      "name": "丁希仑",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "position": "教授；博士指导身份参考（历史证据）",
+      "summary": "仿生/智能机器人机构学；石狄官方成果页署名康复下肢外骨骼人机控制与变刚度执行器。",
+      "sources": [
+        {
+          "url": "https://sge.buaa.edu.cn/info/1216/3175.htm",
+          "label": "丁希仑｜来源核查",
+          "title": "丁希仑｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "official_historical_body；发布2021-09-17，服务2022级硕士；只作历史研究证据，不证明当前招生。",
+          "readScope": "official_historical_body；发布2021-09-17，服务2022级硕士；只作历史研究证据，不证明当前招生。",
+          "access": "official_historical_body"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/8158.htm",
+          "label": "丁希仑｜来源核查",
+          "title": "丁希仑｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "label": "丁希仑｜来源核查",
+          "title": "丁希仑｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "历史官方名单正文；正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。",
+          "readScope": "历史官方名单正文；正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。",
+          "access": "official_body_snapshot"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "label": "丁希仑｜来源核查",
+          "title": "丁希仑｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方页面搜索索引，未读取正文；2026 年当前名单索引；正文读取失败。",
+          "readScope": "官方页面搜索索引，未读取正文；2026 年当前名单索引；正文读取失败。",
+          "access": "official_search_index_only"
+        }
+      ],
+      "doctoralEvidence": "2025-02-17官方博士名单正文与2026名单索引相互对应；历史博士指导身份参考，不冒充当前正文确认。",
+      "qualificationLevel": "verified_historical_official_body_plus_current_index",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "首次本校教研任职日期未核实。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-wang-tianmiao",
+      "name": "王田苗",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "position": "教授；博士指导身份参考（历史证据）",
+      "summary": "医疗机器人、仿生机器人；当前官方机器人所博导名单仍列。",
+      "sources": [
+        {
+          "url": "https://sge.buaa.edu.cn/info/1216/3175.htm",
+          "label": "王田苗｜来源核查",
+          "title": "王田苗｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "official_historical_body；发布2021-09-17，服务2022级硕士；只作历史研究证据，不证明当前招生。",
+          "readScope": "official_historical_body；发布2021-09-17，服务2022级硕士；只作历史研究证据，不证明当前招生。",
+          "access": "official_historical_body"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "label": "王田苗｜来源核查",
+          "title": "王田苗｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "历史官方名单正文；正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。",
+          "readScope": "历史官方名单正文；正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。",
+          "access": "official_body_snapshot"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "label": "王田苗｜来源核查",
+          "title": "王田苗｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方页面搜索索引，未读取正文；2026 年当前名单索引；正文读取失败。",
+          "readScope": "官方页面搜索索引，未读取正文；2026 年当前名单索引；正文读取失败。",
+          "access": "official_search_index_only"
+        }
+      ],
+      "doctoralEvidence": "2025-02-17官方博士名单正文与2026名单索引相互对应；历史博士指导身份参考，不冒充当前正文确认。",
+      "qualificationLevel": "verified_historical_official_body_plus_current_index",
+      "researchBasis": "explicit_physical_robotics_direction",
+      "appointment": "首次本校教研任职日期未核实。研究主体来自 2021 历史官方正文；当前名单不证明本人 2028 年仍招生或名额。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-wei-hongxing",
+      "name": "魏洪兴",
+      "department": "机械工程及自动化学院 / 机电工程及自动化系 706；具身智能机器人研究院",
+      "position": "教授；博士指导身份参考（历史证据）",
+      "summary": "国产机器人操作系统、协作机器人关节/伺服与软硬件集成；2026 官方活动确认现任具身智能机器人研究院院长。",
+      "sources": [
+        {
+          "url": "https://xszx.buaa.edu.cn/info/1028/2602.htm",
+          "label": "魏洪兴｜来源核查",
+          "title": "魏洪兴｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://bhkj.buaa.edu.cn/info/1013/10555.htm",
+          "label": "魏洪兴｜来源核查",
+          "title": "魏洪兴｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "label": "魏洪兴｜来源核查",
+          "title": "魏洪兴｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "历史官方名单正文；正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。",
+          "readScope": "历史官方名单正文；正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。",
+          "access": "official_body_snapshot"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "label": "魏洪兴｜来源核查",
+          "title": "魏洪兴｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方页面搜索索引，未读取正文；2026 年当前名单索引；正文读取失败。",
+          "readScope": "官方页面搜索索引，未读取正文；2026 年当前名单索引；正文读取失败。",
+          "access": "official_search_index_only"
+        }
+      ],
+      "doctoralEvidence": "2025-02-17官方博士名单正文与2026名单索引相互对应；历史博士指导身份参考，不冒充当前正文确认。",
+      "qualificationLevel": "verified_historical_official_body_plus_current_index",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "首次本校教研任职日期未核实。2015 已为北航教授并开展协作机器人转化，不属于近五年首次任职；2026 院长不等于新入职。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-liu-kexin",
+      "name": "刘克新",
+      "department": "自动化科学与电气工程学院 / 自动控制系",
+      "position": "教授；博士生导师",
+      "summary": "UWB–惯性里程计非完整移动机器人编队相对位姿估计（TMECH 2026，通讯作者），无人机避障方法专利。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1073/2403.htm",
+          "label": "刘克新｜来源核查",
+          "title": "刘克新｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "刘克新｜来源核查",
+          "title": "刘克新｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 动态名单直接读取",
+          "readScope": "官方动态名册正文；2026 动态名单直接读取",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2018-07起本校教研任职（月份精度）。2016–2018 北京大学博士后不算北航任职。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-zhou-rui",
+      "name": "周锐",
+      "department": "自动化科学与电气工程学院 / 自动控制系",
+      "position": "教授；博士生导师",
+      "summary": "机器人集群形状装配（Nature Communications 2023）、多机器人分布式形状形成（TIE/TASE 2025），不仅是抽象多智能体控制。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1073/2407.htm",
+          "label": "周锐｜来源核查",
+          "title": "周锐｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "周锐｜来源核查",
+          "title": "周锐｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 动态名单直接读取",
+          "readScope": "官方动态名册正文；2026 动态名单直接读取",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "1999起本校教研任职（年份精度）。1997–1999 博士后不算教师入职，2004 教授为晋升。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-wang-chenliang",
+      "name": "王陈亮",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "position": "教授；博士生导师",
+      "summary": "自由漂浮空间机械臂自适应容错控制专利 ZL201910776466.3；主要研究仍为自适应抗干扰控制，机器人证据来自明确机械臂专利。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2383.htm",
+          "label": "王陈亮｜来源核查",
+          "title": "王陈亮｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "王陈亮｜来源核查",
+          "title": "王陈亮｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 动态名单直接读取",
+          "readScope": "官方动态名册正文；2026 动态名单直接读取",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2013起本校教研任职（年份精度）。2025 教授为晋升，不是新入职。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-laili-yuanjun",
+      "name": "赖李媛君",
+      "department": "自动化科学与电气工程学院 / 工业互联网与建模仿真系",
+      "position": "教授；博士生导师",
+      "summary": "工业信息物理系统中基于区域的定制机器人抓取检测，TASE 2022/2023；主体兼工业云边调度，不能泛化为整个人形机器人团队。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1075/2312.htm",
+          "label": "赖李媛君｜来源核查",
+          "title": "赖李媛君｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "赖李媛君｜来源核查",
+          "title": "赖李媛君｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；2026 动态名单直接读取",
+          "readScope": "官方动态名册正文；2026 动态名单直接读取",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2015起本校教研任职（年份精度）。2024 教授为晋升；英文署名 Yuanjun Laili。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-qi-chao",
+      "name": "齐超",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "position": "副教授；博士生导师",
+      "summary": "微型机器人、多自由度灵巧手为当前官方明确研究方向；代表论文集中在微执行器/微泵/MEMS，不编造完整机器人项目或实验成果。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2399.htm",
+          "label": "齐超｜来源核查",
+          "title": "齐超｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "齐超｜来源核查",
+          "title": "齐超｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；",
+          "readScope": "官方动态名册正文；",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "explicit_physical_robotics_direction",
+      "appointment": "2025起本校教研任职（年份精度）。2025 北航自动化/杭州人形机器人中心双聘；不能把 2024 人才项目当北航入职。",
+      "recruitment": "未据方向/任职推断 2028 招生。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-guo-lei-control",
+      "name": "郭雷",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "position": "教授；博士生导师",
+      "summary": "仿生智能与自主导航控制；余翔官方个人正文明确列郭雷为飞行机械臂抗干扰控制专利、Aerial GRIPPER（TRO 2026）共同作者。",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1017/1195.htm",
+          "label": "郭雷｜来源核查",
+          "title": "郭雷｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；院士简介正文，更新至2025-11；批量检测因无基本情况标题误判，正文实际存在并经 Exa 补核。",
+          "readScope": "官方个人正文；院士简介正文，更新至2025-11；批量检测因无基本情况标题误判，正文实际存在并经 Exa 补核。",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2364.htm",
+          "label": "郭雷｜来源核查",
+          "title": "郭雷｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；独立官方同团队个人页的具体机器人论文/专利署名。",
+          "readScope": "官方个人正文；独立官方同团队个人页的具体机器人论文/专利署名。",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "label": "郭雷｜来源核查",
+          "title": "郭雷｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方动态名册正文；当前博导身份",
+          "readScope": "官方动态名册正文；当前博导身份",
+          "access": "official_live_roster_embedded_JSON"
+        }
+      ],
+      "doctoralEvidence": "当前校方个人正文或动态师资名册明确博士生导师；仅作博士指导方向参考。",
+      "qualificationLevel": "verified_current_official_roster",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "首次本校教研任职日期未核实。任职起点未单独闭合，不能用 2011 长江特聘或 2023 院士当入职。",
+      "recruitment": "该已读正文未给出可归属的 2028 招生；研究方向及博导身份不代表届时名额。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-wang-wei-robotics",
+      "name": "王巍",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "position": "教授；博士指导身份参考（历史证据）",
+      "summary": "工业/仿生/特种机器人；平台当前正文只闭合身份和 2003-05-01 入职。",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/07100/en/index.htm",
+          "label": "王巍｜来源核查",
+          "title": "王巍｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方个人正文；",
+          "readScope": "官方个人正文；",
+          "access": "official_primary_body"
+        },
+        {
+          "url": "https://sge.buaa.edu.cn/info/1216/3175.htm",
+          "label": "王巍｜来源核查",
+          "title": "王巍｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "official_historical_body；发布2021-09-17，服务2022级硕士；只作历史研究证据，不证明当前招生。",
+          "readScope": "official_historical_body；发布2021-09-17，服务2022级硕士；只作历史研究证据，不证明当前招生。",
+          "access": "official_historical_body"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "label": "王巍｜来源核查",
+          "title": "王巍｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "历史官方名单正文；正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。",
+          "readScope": "历史官方名单正文；正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。",
+          "access": "official_body_snapshot"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "label": "王巍｜来源核查",
+          "title": "王巍｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "官方页面搜索索引，未读取正文；2026 年当前名单索引；正文读取失败。",
+          "readScope": "官方页面搜索索引，未读取正文；2026 年当前名单索引；正文读取失败。",
+          "access": "official_search_index_only"
+        }
+      ],
+      "doctoralEvidence": "2025-02-17官方博士名单正文与2026名单索引相互对应；历史博士指导身份参考，不冒充当前正文确认。",
+      "qualificationLevel": "verified_historical_official_body_plus_current_index",
+      "researchBasis": "historical_explicit_physical_robotics_direction",
+      "appointment": "2003-05-01起本校教研任职（日期精度）。当前个人正文闭合身份，机器人研究来自旧官方正文。 历史研究方向与当前任职分开标注，不当作近期成果。",
+      "recruitment": "未验证 2028 招生；博导资格不等于当届招生计划。 个人2028接收、正式通道、资助及当前余位未核实。"
+    },
+    {
+      "id": "buaa-chen-jiaxin",
+      "name": "陈佳鑫",
+      "department": "计算机学院",
+      "position": "副教授；博士生导师",
+      "summary": "无人系统视觉感知与导航、可微物理仿真。",
+      "sources": [
+        {
+          "url": "https://teacher.buaa.edu.cn/chenjiaxin/zh_CN/index.htm",
+          "label": "陈佳鑫｜来源核查",
+          "title": "陈佳鑫｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "L24–38任职和博导；L38无人系统视觉感知导航/可微物理仿真；L39招生；L55入职2021.3",
+          "readScope": "L24–38任职和博导；L38无人系统视觉感知导航/可微物理仿真；L39招生；L55入职2021.3",
+          "access": "primary_page_body"
+        }
+      ],
+      "doctoralEvidence": "校方个人正文明确博士生导师，正式申请通道和个人接收仍待核。",
+      "qualificationLevel": "current_primary_body",
+      "researchBasis": "official_specific_research_or_output",
+      "appointment": "本校任职线索：2021.3；校内晋升与博士后不重新计时。",
+      "recruitment": "2027秋研究生直博优先，明确；中央财经大学另推荐名额须分开，不保证余位；不保证个人2028接收或当前剩余名额。"
+    },
+    {
+      "id": "buaa-niu-jianwei",
+      "name": "牛建伟",
+      "department": "计算机学院",
+      "position": "教授；博士生导师",
+      "summary": "工业机器人操作系统、移动物流机器人与具身机器人系统平台。",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/jwniu/zh_CN/index/21841/list/index.htm",
+          "label": "牛建伟｜来源核查",
+          "title": "牛建伟｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "L29博导；L37–43计算机在职；L48工业机器人操作系统/移动物流机器人项目；L53具身机器人OS；L63工作起点",
+          "readScope": "L29博导；L37–43计算机在职；L48工业机器人操作系统/移动物流机器人项目；L53具身机器人OS；L63工作起点",
+          "access": "primary_page_body"
+        }
+      ],
+      "doctoralEvidence": "校方个人正文明确博士生导师，正式申请通道和个人接收仍待核。",
+      "qualificationLevel": "current_primary_body",
+      "researchBasis": "official_specific_research_or_output",
+      "appointment": "本校任职线索：2002.9；校内晋升与博士后不重新计时。",
+      "recruitment": "无年度招生已核，不写2028；不保证个人2028接收或当前剩余名额。"
+    },
+    {
+      "id": "buaa-liu-si",
+      "name": "刘偲",
+      "department": "人工智能学院",
+      "position": "教授；博士生导师",
+      "summary": "无人机视觉语言动作控制、具身指代表达和多模态机器人学习。",
+      "sources": [
+        {
+          "url": "https://iai.buaa.edu.cn/info/1131/1745.htm",
+          "label": "刘偲｜来源核查",
+          "title": "刘偲｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "L140博导；L159工作起点；L173具身；L194无人机视觉语言动作控制专利；L203具身指代表达论文",
+          "readScope": "L140博导；L159工作起点；L173具身；L194无人机视觉语言动作控制专利；L203具身指代表达论文",
+          "access": "primary_page_body"
+        }
+      ],
+      "doctoralEvidence": "校方个人正文明确博士生导师，正式申请通道和个人接收仍待核。",
+      "qualificationLevel": "current_primary_body",
+      "researchBasis": "official_specific_research_or_output",
+      "appointment": "本校任职线索：2018；校内晋升与博士后不重新计时。",
+      "recruitment": "无年度招生已核，不写2028；不保证个人2028接收或当前剩余名额。"
+    },
+    {
+      "id": "buaa-hua-yongchao",
+      "name": "化永朝",
+      "department": "人工智能学院",
+      "position": "副教授；博士生导师",
+      "summary": "无人机路径规划ZL202310587587.X；异构空地编队跟踪控制TAES2024；MaTF轨迹预测RA-L2026",
+      "sources": [
+        {
+          "url": "https://teacher.buaa.edu.cn/huayongchao/en/more/180755/jsjjgd/index.htm",
+          "label": "化永朝｜来源核查",
+          "title": "化永朝｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "L27博导；L30无人集群协同控制/决策规划/具身集群",
+          "readScope": "L27博导；L30无人集群协同控制/决策规划/具身集群",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://iai.buaa.edu.cn/info/1131/1755.htm",
+          "label": "化永朝｜来源核查",
+          "title": "化永朝｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "院系研究方向、具体论文与专利",
+          "readScope": "院系研究方向、具体论文与专利",
+          "access": "primary_page_body"
+        }
+      ],
+      "doctoralEvidence": "校方个人正文明确博士生导师，正式申请通道和个人接收仍待核。",
+      "qualificationLevel": "current_primary_body",
+      "researchBasis": "official_specific_research_or_output",
+      "appointment": "本校任职线索：2021（仅年，五年界限不判）；校内晋升与博士后不重新计时。",
+      "recruitment": "无年度招生已核，不写2028；不保证个人2028接收或当前剩余名额。"
+    },
+    {
+      "id": "buaa-huang-linjiang",
+      "name": "黄林江",
+      "department": "人工智能学院",
+      "position": "准聘教授；博士生导师",
+      "summary": "AeroDuo: Aerial Duo for UAV-based Vision and Language Navigation，ACM MM 2025；SOLVE自动驾驶CVPR2025",
+      "sources": [
+        {
+          "url": "https://iai.buaa.edu.cn/info/1131/1733.htm",
+          "label": "黄林江｜来源核查",
+          "title": "黄林江｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "姓名下职称/导师资格；基本情况→工作经历；研究方向；发明专利/代表性论文",
+          "readScope": "姓名下职称/导师资格；基本情况→工作经历；研究方向；发明专利/代表性论文",
+          "access": "primary_page_body"
+        }
+      ],
+      "doctoralEvidence": "校方个人正文明确博士生导师，正式申请通道和个人接收仍待核。",
+      "qualificationLevel": "current_primary_body",
+      "researchBasis": "official_specific_research_or_output",
+      "appointment": "本校任职线索：2024；校内晋升与博士后不重新计时。",
+      "recruitment": "本页未见年度/人数；不得推断2028或当前余位；不保证个人2028接收或当前剩余名额。"
+    },
+    {
+      "id": "buaa-she-rui",
+      "name": "厍睿",
+      "department": "人工智能学院",
+      "position": "准聘教授；博士生导师",
+      "summary": "PosDiffNet点云配准扰动，AAAI2024；RobustMat街景地标匹配TIP2023；车辆位姿专利",
+      "sources": [
+        {
+          "url": "https://iai.buaa.edu.cn/info/1131/1743.htm",
+          "label": "厍睿｜来源核查",
+          "title": "厍睿｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "姓名下职称/导师资格；基本情况→工作经历；研究方向；发明专利/代表性论文",
+          "readScope": "姓名下职称/导师资格；基本情况→工作经历；研究方向；发明专利/代表性论文",
+          "access": "primary_page_body"
+        }
+      ],
+      "doctoralEvidence": "校方个人正文明确博士生导师，正式申请通道和个人接收仍待核。",
+      "qualificationLevel": "current_primary_body",
+      "researchBasis": "official_specific_research_or_output",
+      "appointment": "本校任职线索：2024；校内晋升与博士后不重新计时。",
+      "recruitment": "本页未见年度/人数；不得推断2028或当前余位；不保证个人2028接收或当前剩余名额。"
+    },
+    {
+      "id": "buaa-yan-rui",
+      "name": "闫芮",
+      "department": "人工智能学院",
+      "position": "准聘教授；博士生导师",
+      "summary": "无人机集群博弈方向；障碍环境多对多攻防博弈专利ZL202510180127.4及Reach-Avoid Games with Polygonal Obstacles TAC2025",
+      "sources": [
+        {
+          "url": "https://iai.buaa.edu.cn/info/1131/1753.htm",
+          "label": "闫芮｜来源核查",
+          "title": "闫芮｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "姓名下职称/导师资格；基本情况→工作经历；研究方向；发明专利/代表性论文",
+          "readScope": "姓名下职称/导师资格；基本情况→工作经历；研究方向；发明专利/代表性论文",
+          "access": "primary_page_body"
+        }
+      ],
+      "doctoralEvidence": "校方个人正文明确博士生导师，正式申请通道和个人接收仍待核。",
+      "qualificationLevel": "current_primary_body",
+      "researchBasis": "official_specific_research_or_output",
+      "appointment": "本校任职线索：2024；校内晋升与博士后不重新计时。",
+      "recruitment": "本页未见年度/人数；不得推断2028或当前余位；不保证个人2028接收或当前剩余名额。"
+    },
+    {
+      "id": "buaa-pan-chengwei",
+      "name": "潘成伟",
+      "department": "人工智能学院",
+      "position": "副教授；博士生导师",
+      "summary": "导航机器人控制专利ZL202410472650.X、多无人机协同跟踪ZL202411869564.9；AADS自动驾驶仿真2019是入职前成果",
+      "sources": [
+        {
+          "url": "https://iai.buaa.edu.cn/info/1131/1752.htm",
+          "label": "潘成伟｜来源核查",
+          "title": "潘成伟｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "姓名下职称/导师资格；基本情况→工作经历；研究方向；发明专利/代表性论文",
+          "readScope": "姓名下职称/导师资格；基本情况→工作经历；研究方向；发明专利/代表性论文",
+          "access": "primary_page_body"
+        }
+      ],
+      "doctoralEvidence": "校方个人正文明确博士生导师，正式申请通道和个人接收仍待核。",
+      "qualificationLevel": "current_primary_body",
+      "researchBasis": "official_specific_research_or_output",
+      "appointment": "本校任职线索：2021（仅年，五年界限不判）；校内晋升与博士后不重新计时。",
+      "recruitment": "本页未见年度/人数；不得推断2028或当前余位；不保证个人2028接收或当前剩余名额。"
+    },
+    {
+      "id": "buaa-liu-aishan",
+      "name": "刘艾杉",
+      "department": "计算机学院",
+      "position": "副教授；硕士生/博士生导师",
+      "summary": "官方获奖项MetAdv: A Unified and Interactive Adversarial Testing Platform for Autonomous Driving，ACM MM2025；三维动态交互场景对抗攻击专利",
+      "sources": [
+        {
+          "url": "https://scse.buaa.edu.cn/info/1131/3235.htm",
+          "label": "刘艾杉｜来源核查",
+          "title": "刘艾杉｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "姓名下导师资格；工作经历；获奖情况/发明专利/代表性论文",
+          "readScope": "姓名下导师资格；工作经历；获奖情况/发明专利/代表性论文",
+          "access": "primary_page_body"
+        }
+      ],
+      "doctoralEvidence": "校方个人正文明确博士生导师，正式申请通道和个人接收仍待核。",
+      "qualificationLevel": "current_primary_body",
+      "researchBasis": "official_specific_research_or_output",
+      "appointment": "本校任职线索：2022.01；校内晋升与博士后不重新计时。",
+      "recruitment": "本页无已核年度招生及余位，不推断2028；不保证个人2028接收或当前剩余名额。"
+    },
+    {
+      "id": "buaa-lei-xusheng",
+      "name": "雷旭升",
+      "department": "仪器科学与光电工程学院 / 大科学装置研究院",
+      "position": "教授；博士生导师",
+      "summary": "无人旋翼飞行器控制导航、2022 GPS中断下姿态位置研究；并非具身学习主线",
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2056.htm",
+          "label": "雷旭升｜来源核查",
+          "title": "雷旭升｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "当前学院个人页：现职、研究方向、具体论文/专利；无人旋翼飞行器控制导航、2022 GPS中断下姿态位置研究；并非具身学习主线",
+          "readScope": "当前学院个人页：现职、研究方向、具体论文/专利；无人旋翼飞行器控制导航、2022 GPS中断下姿态位置研究；并非具身学习主线",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2056.htm",
+          "label": "雷旭升｜来源核查",
+          "title": "雷旭升｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "博士指导身份定位：正文出现博导资格，需单独核招生专业年份",
+          "readScope": "博士指导身份定位：正文出现博导资格，需单独核招生专业年份",
+          "access": "fulltext_profile"
+        }
+      ],
+      "doctoralEvidence": "博士指导证据：正文出现博导资格，需单独核招生专业年份。",
+      "qualificationLevel": "fulltext_profile",
+      "researchBasis": "specific_robotics_navigation_or_sensing",
+      "appointment": "2021-07起教授；2008-12起北航讲师；博士后、晋升及兼聘不重新计时。",
+      "recruitment": "个人2028博士招生、接收意向与余位未核实。"
+    },
+    {
+      "id": "buaa-guo-zhanshe",
+      "name": "郭占社",
+      "department": "仪器科学与光电工程学院 / 测控与信息技术系",
+      "position": "副教授；博士生导师",
+      "summary": "2024六足管道巡检机器人搭载全向视觉，2026管道缺陷定位；不是仅MEMS关键词",
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2028.htm",
+          "label": "郭占社｜来源核查",
+          "title": "郭占社｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "当前学院个人页：现职、研究方向、具体论文/专利；2024六足管道巡检机器人搭载全向视觉，2026管道缺陷定位；不是仅MEMS关键词",
+          "readScope": "当前学院个人页：现职、研究方向、具体论文/专利；2024六足管道巡检机器人搭载全向视觉，2026管道缺陷定位；不是仅MEMS关键词",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://teacher.buaa.edu.cn/guozhanshe/zh_CN/index/19432/list/index.htm",
+          "label": "郭占社｜来源核查",
+          "title": "郭占社｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "博士指导身份定位：副教授、博士生导师、在职",
+          "readScope": "博士指导身份定位：副教授、博士生导师、在职",
+          "access": "fulltext_current"
+        }
+      ],
+      "doctoralEvidence": "博士指导证据：副教授、博士生导师、在职。",
+      "qualificationLevel": "fulltext_current",
+      "researchBasis": "specific_robotics_navigation_or_sensing",
+      "appointment": "2006-08起副教授；2006-05入校；博士后、晋升及兼聘不重新计时。",
+      "recruitment": "个人2028博士招生、接收意向与余位未核实。"
+    },
+    {
+      "id": "buaa-zhou-lipu",
+      "name": "周力普",
+      "department": "仪器科学与光电工程学院 / 测控与信息技术系",
+      "position": "教授；博士生导师",
+      "summary": "SLAM、多传感融合；2025 TRO PnP/RA-L BA，2022 PLC-LiSLAM等持续机器人定位论文",
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2035.htm",
+          "label": "周力普｜来源核查",
+          "title": "周力普｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "当前学院个人页：现职、研究方向、具体论文/专利；SLAM、多传感融合；2025 TRO PnP/RA-L BA，2022 PLC-LiSLAM等持续机器人定位论文",
+          "readScope": "当前学院个人页：现职、研究方向、具体论文/专利；SLAM、多传感融合；2025 TRO PnP/RA-L BA，2022 PLC-LiSLAM等持续机器人定位论文",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://shi.buaa.edu.cn/zhoulipu/zh_CN/index/206149/list/index.htm",
+          "label": "周力普｜来源核查",
+          "title": "周力普｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "博士指导身份定位：教授、博士生导师；2025招生文字不能推到2028",
+          "readScope": "博士指导身份定位：教授、博士生导师；2025招生文字不能推到2028",
+          "access": "fulltext_current"
+        }
+      ],
+      "doctoralEvidence": "博士指导证据：教授、博士生导师；2025招生文字不能推到2028。",
+      "qualificationLevel": "fulltext_current",
+      "researchBasis": "specific_robotics_navigation_or_sensing",
+      "appointment": "2023-08至今，教授；博士后、晋升及兼聘不重新计时。",
+      "recruitment": "个人2028博士招生、接收意向与余位未核实。个人页2025招生文字仅作历史，不外推。"
+    },
+    {
+      "id": "buaa-sun-junhua",
+      "name": "孙军华",
+      "department": "仪器科学与光电工程学院 / 测控与信息技术系",
+      "position": "教授；博士指导身份参考（历史证据）",
+      "summary": "旧官方正文明确机器人路径规划与SLAM；当前有视觉SLAM课程、点云、多模态视觉及2024管道机器人专利",
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2037.htm",
+          "label": "孙军华｜来源核查",
+          "title": "孙军华｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "当前学院个人页：现职、研究方向、具体论文/专利；旧官方正文明确机器人路径规划与SLAM；当前有视觉SLAM课程、点云、多模态视觉及2024管道机器人专利",
+          "readScope": "当前学院个人页：现职、研究方向、具体论文/专利；旧官方正文明确机器人路径规划与SLAM；当前有视觉SLAM课程、点云、多模态视觉及2024管道机器人专利",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1018/4333.htm",
+          "label": "孙军华｜来源核查",
+          "title": "孙军华｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "博士指导身份定位：教授、博士生导师；现任由新名册和新正文确认",
+          "readScope": "博士指导身份定位：教授、博士生导师；现任由新名册和新正文确认",
+          "access": "fulltext_school_legacy"
+        }
+      ],
+      "doctoralEvidence": "博士指导证据：教授、博士生导师；现任由新名册和新正文确认。",
+      "qualificationLevel": "fulltext_school_legacy",
+      "researchBasis": "specific_robotics_navigation_or_sensing",
+      "appointment": "现任教授；任职起始需回核履历；博士后、晋升及兼聘不重新计时。",
+      "recruitment": "个人2028博士招生、接收意向与余位未核实。"
+    },
+    {
+      "id": "buaa-li-duan",
+      "name": "李端",
+      "department": "仪器科学与光电工程学院 / 测控与信息技术系",
+      "position": "副教授；博士生导师（国新院）",
+      "summary": "2026果园无人车转弯路径规划论文及多传感导航控制专利；主线激光雷达/点云",
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2039.htm",
+          "label": "李端｜来源核查",
+          "title": "李端｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "当前学院个人页：现职、研究方向、具体论文/专利；2026果园无人车转弯路径规划论文及多传感导航控制专利；主线激光雷达/点云",
+          "readScope": "当前学院个人页：现职、研究方向、具体论文/专利；2026果园无人车转弯路径规划论文及多传感导航控制专利；主线激光雷达/点云",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://shi.buaa.edu.cn/liduan/en/index/160003/list/index.htm",
+          "label": "李端｜来源核查",
+          "title": "李端｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "博士指导身份定位：博士生导师（国新院）；不可推为仪器学院本部博士招生",
+          "readScope": "博士指导身份定位：博士生导师（国新院）；不可推为仪器学院本部博士招生",
+          "access": "fulltext_current_scoped"
+        }
+      ],
+      "doctoralEvidence": "博士指导证据：博士生导师（国新院）；不可推为仪器学院本部博士招生。",
+      "qualificationLevel": "fulltext_current_scoped",
+      "researchBasis": "specific_robotics_navigation_or_sensing",
+      "appointment": "2019-08入校；2024-08起副教授；博士后、晋升及兼聘不重新计时。",
+      "recruitment": "个人2028博士招生、接收意向与余位未核实。"
+    },
+    {
+      "id": "buaa-guo-jingjing",
+      "name": "郭晶晶",
+      "department": "仪器科学与光电工程学院 / 测控与信息技术系",
+      "position": "副教授；博士生导师",
+      "summary": "2026 Advanced Science智能光磁软机器人；2024触觉磁驱光纤消融机器人专利。软体/医疗操作而非通用VLA",
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2041.htm",
+          "label": "郭晶晶｜来源核查",
+          "title": "郭晶晶｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "当前学院个人页：现职、研究方向、具体论文/专利；2026 Advanced Science智能光磁软机器人；2024触觉磁驱光纤消融机器人专利。软体/医疗操作而非通用VLA",
+          "readScope": "当前学院个人页：现职、研究方向、具体论文/专利；2026 Advanced Science智能光磁软机器人；2024触觉磁驱光纤消融机器人专利。软体/医疗操作而非通用VLA",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://shi.buaa.edu.cn/guojingjing/zh_CN/index.htm",
+          "label": "郭晶晶｜来源核查",
+          "title": "郭晶晶｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "博士指导身份定位：副教授、博士生导师、在职；杭州兼聘，申请专业/校区另核",
+          "readScope": "博士指导身份定位：副教授、博士生导师、在职；杭州兼聘，申请专业/校区另核",
+          "access": "fulltext_current"
+        }
+      ],
+      "doctoralEvidence": "博士指导证据：副教授、博士生导师、在职；杭州兼聘，申请专业/校区另核。",
+      "qualificationLevel": "fulltext_current",
+      "researchBasis": "specific_robotics_navigation_or_sensing",
+      "appointment": "2020-12至今，副教授；博士后、晋升及兼聘不重新计时。",
+      "recruitment": "个人2028博士招生、接收意向与余位未核实。"
+    },
+    {
+      "id": "buaa-cai-qingzhong",
+      "name": "蔡庆中",
+      "department": "仪器科学与光电工程学院 / 光电技术研究所",
+      "position": "副研究员；博士生导师",
+      "summary": "2026 UGV紧耦合IMU/UWB/气压定位EULF-IUB、无人机集群协同定位；2024自主无人机惯导",
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1191/1996.htm",
+          "label": "蔡庆中｜来源核查",
+          "title": "蔡庆中｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "当前学院个人页：现职、研究方向、具体论文/专利；2026 UGV紧耦合IMU/UWB/气压定位EULF-IUB、无人机集群协同定位；2024自主无人机惯导",
+          "readScope": "当前学院个人页：现职、研究方向、具体论文/专利；2026 UGV紧耦合IMU/UWB/气压定位EULF-IUB、无人机集群协同定位；2024自主无人机惯导",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://shi.buaa.edu.cn/qingzhongai/zh_CN/index/23374/list/index.htm",
+          "label": "蔡庆中｜来源核查",
+          "title": "蔡庆中｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "博士指导身份定位：副研究员、博士生导师、在职；仅2026拟招博士1名明确",
+          "readScope": "博士指导身份定位：副研究员、博士生导师、在职；仅2026拟招博士1名明确",
+          "access": "fulltext_current"
+        }
+      ],
+      "doctoralEvidence": "博士指导证据：副研究员、博士生导师、在职；仅2026拟招博士1名明确。",
+      "qualificationLevel": "fulltext_current",
+      "researchBasis": "specific_robotics_navigation_or_sensing",
+      "appointment": "2017-10起讲师；2020-07起副研究员；博士后、晋升及兼聘不重新计时。",
+      "recruitment": "个人2028博士招生、接收意向与余位未核实。仅见2026拟招博士1名，不当作当前或2028名额。"
+    },
+    {
+      "id": "buaa-chu-zhongyi",
+      "name": "楚中毅",
+      "department": "仪器科学与光电工程学院 / 精密仪器与导航控制系",
+      "position": "教授；博士指导身份参考（历史证据）",
+      "summary": "视力触多模态传感、灵巧操作、具身智能；2025 RA-L柔性电路板自主装配与力触接触感知",
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1187/1918.htm",
+          "label": "楚中毅｜来源核查",
+          "title": "楚中毅｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "当前学院个人页：现职、研究方向、具体论文/专利；视力触多模态传感、灵巧操作、具身智能；2025 RA-L柔性电路板自主装配与力触接触感知",
+          "readScope": "当前学院个人页：现职、研究方向、具体论文/专利；视力触多模态传感、灵巧操作、具身智能；2025 RA-L柔性电路板自主装配与力触接触感知",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://bhxb.buaa.edu.cn/bhzk/cn/article/id/14678",
+          "label": "楚中毅｜来源核查",
+          "title": "楚中毅｜公开研究与资格资料",
+          "checkedDate": "2026-11-05",
+          "section": "博士指导身份定位：2018校方学报作者简介教授博导；近期旧学院页搜索索引亦明确博导；现任由新学院正文确认。校园网限制主页未绕过",
+          "readScope": "博士指导身份定位：2018校方学报作者简介教授博导；近期旧学院页搜索索引亦明确博导；现任由新学院正文确认。校园网限制主页未绕过",
+          "access": "fulltext_historical_plus_current_index"
+        }
+      ],
+      "doctoralEvidence": "博士指导证据：2018校方学报作者简介教授博导；近期旧学院页搜索索引亦明确博导；现任由新学院正文确认。校园网限制主页未绕过。",
+      "qualificationLevel": "fulltext_historical_plus_current_index",
+      "researchBasis": "specific_robotics_navigation_or_sensing",
+      "appointment": "2007-01起在北航，现行教授；旧页索引2016-07起教授；博士后、晋升及兼聘不重新计时。",
+      "recruitment": "个人2028博士招生、接收意向与余位未核实。"
+    },
+    {
+      "id": "buaa-ma-xinzhu",
+      "name": "马新柱",
+      "department": "计算机学院",
+      "position": "副教授；博士生导师",
+      "summary": "三维感知、具身智能及AI4Science；官方代表成果包括自动驾驶单目三维检测、Pseudo-LiDAR。当前身份与研究任务明确，不把入职前论文误称在北航完成。",
+      "sources": [
+        {
+          "url": "https://scse.buaa.edu.cn/info/1131/3302.htm",
+          "title": "马新柱｜官方研究与博士身份",
+          "label": "马新柱｜官方教师资料",
+          "checkedDate": "2026-11-05",
+          "section": "个人简介：当前职称、博士导师身份；研究方向与代表成果；任职年月（若明确）",
+          "readScope": "个人简介：当前职称、博士导师身份；研究方向与代表成果；任职年月（若明确）",
+          "access": "primary_page_body"
+        }
+      ],
+      "doctoralEvidence": "当前校方教师正文明确博士生导师；不等于个人当期招生或2028余位。",
+      "qualificationLevel": "current_primary_body",
+      "researchBasis": "specific_research_or_output",
+      "appointment": "2025.07首次加入北航；旧失效网页教授称呼不用，采用现行学院副教授。",
+      "recruitment": "个人2027/2028博士计划、接收意向与余位未核实。"
+    },
+    {
+      "id": "buaa-feng-bin",
+      "name": "冯斌",
+      "department": "机械工程及自动化学院",
+      "position": "准聘教授；博士生导师",
+      "summary": "研究力触觉传感、仿生电子皮肤与具身触觉感知，作为机器人触觉硬件交叉方向收录；本轮核验明确研究方向，未逐篇评估其机器人应用论文。",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/fengbin/zh_CN/index.htm",
+          "title": "冯斌｜官方研究与博士身份",
+          "label": "冯斌｜官方教师资料",
+          "checkedDate": "2026-11-05",
+          "section": "个人简介：当前职称、博士导师身份；研究方向与代表成果；任职年月（若明确）",
+          "readScope": "个人简介：当前职称、博士导师身份；研究方向与代表成果；任职年月（若明确）",
+          "access": "primary_page_body"
+        }
+      ],
+      "doctoralEvidence": "当前校方教师正文明确博士生导师；不等于个人当期招生或2028余位。",
+      "qualificationLevel": "current_primary_body",
+      "researchBasis": "explicit_physical_tactile_direction",
+      "appointment": "官方工作经历明确2026.03起在北航，之前香港理工和香港城市阶段由简介说明为博士后；不以2025青年人才项目代替入职日期。",
+      "recruitment": "个人2027/2028博士计划、接收意向与余位未核实。一般博士硕士招生咨询无年份人数。"
+    }
+  ],
+  "observationPool": [
+    {
+      "name": "刘晓超",
+      "department": "自动化科学与电气工程学院 / 机械电子工程系",
+      "title": "研究员",
+      "decision": "observe_research_evidence",
+      "roboticsEvidence": "有机器人电液控制方向，但具体成果待核。",
+      "doctoralStatus": "verified_current_official_roster",
+      "doctoralEvidence": "研究员，博士生导师",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1071/2319.htm",
+          "readScope": "official_primary_body",
+          "note": ""
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "readScope": "official_live_roster_embedded_JSON",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "孟德元",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "title": "教授",
+      "decision": "observe_research_evidence",
+      "roboticsEvidence": "机器人系统应用方向和车辆编队专利存在；代表论文主要控制理论，待实体机器人闭合。",
+      "doctoralStatus": "verified_current_official_roster",
+      "doctoralEvidence": "教授，博士生导师",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2367.htm",
+          "readScope": "official_primary_body",
+          "note": ""
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "readScope": "official_live_roster_embedded_JSON",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "张超",
+      "department": "自动化科学与电气工程学院 / 机械电子工程系",
+      "title": "教授",
+      "decision": "observe_research_evidence",
+      "roboticsEvidence": "智能机器人设计控制方向存在，但当前代表成果主要液压与可靠性。",
+      "doctoralStatus": "verified_current_official_roster",
+      "doctoralEvidence": "教授，博士生导师",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1071/2329.htm",
+          "readScope": "official_primary_body",
+          "note": ""
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "readScope": "official_live_roster_embedded_JSON",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "胡庆雷",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "title": "教授",
+      "decision": "observe_research_evidence",
+      "roboticsEvidence": "空间机器人动力学/控制方向存在，当前所列代表成果主要航天器。",
+      "doctoralStatus": "verified_current_official_roster",
+      "doctoralEvidence": "教授，博士生导师",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2386.htm",
+          "readScope": "official_primary_body",
+          "note": ""
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "readScope": "official_live_roster_embedded_JSON",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "刘永光",
+      "department": "自动化科学与电气工程学院 / 机械电子工程系",
+      "title": "教授",
+      "decision": "observe_research_evidence",
+      "roboticsEvidence": "两栖无人机方向存在，所列论文主要压缩机。",
+      "doctoralStatus": "verified_current_official_roster",
+      "doctoralEvidence": "教授，博士生导师",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1071/2320.htm",
+          "readScope": "official_primary_body",
+          "note": ""
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "readScope": "official_live_roster_embedded_JSON",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "高晓辉",
+      "department": "自动化科学与电气工程学院 / 机械电子工程系",
+      "title": "副教授",
+      "decision": "observe_research_evidence",
+      "roboticsEvidence": "两栖无人机、机器人具身装配实验室职务存在；代表论文主要压缩机。",
+      "doctoralStatus": "verified_current_official_roster",
+      "doctoralEvidence": "副教授，博士生导师",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1071/2348.htm",
+          "readScope": "official_primary_body",
+          "note": ""
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "readScope": "official_live_roster_embedded_JSON",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "仝晓萌",
+      "department": "自动化科学与电气工程学院 / 机械电子工程系",
+      "title": "教授",
+      "decision": "observe_research_evidence",
+      "roboticsEvidence": "机器人具身智造与装配实验室主任；代表成果未闭合具体机器人系统。",
+      "doctoralStatus": "verified_current_official_roster",
+      "doctoralEvidence": "教授，博士生导师",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1071/2318.htm",
+          "readScope": "official_primary_body",
+          "note": ""
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "readScope": "official_live_roster_embedded_JSON",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "蔡茂林",
+      "department": "自动化科学与电气工程学院 / 机械电子工程系",
+      "title": "教授",
+      "decision": "observe_research_evidence",
+      "roboticsEvidence": "工业 AI/具身智能方向，待具体机器人项目证据。",
+      "doctoralStatus": "verified_current_official_roster",
+      "doctoralEvidence": "教授，博士生导师",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1071/2340.htm",
+          "readScope": "official_primary_body",
+          "note": ""
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "readScope": "official_live_roster_embedded_JSON",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "李阳",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "title": "教授",
+      "decision": "observe_research_evidence",
+      "roboticsEvidence": "VLA 与具身智能方向明确，但展示成果主要脑信号/医学影像，不能由关键词直接认作实体机器人导师。",
+      "doctoralStatus": "verified_current_official_roster",
+      "doctoralEvidence": "教授，博士生导师",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2375.htm",
+          "readScope": "official_primary_body",
+          "note": ""
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "readScope": "official_live_roster_embedded_JSON",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "郑泽伟",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "title": "教授",
+      "decision": "observe_research_evidence",
+      "roboticsEvidence": "无人系统控制方向存在，机器人字样主要来自课程；待具体无人机器人平台成果。",
+      "doctoralStatus": "verified_current_official_roster",
+      "doctoralEvidence": "教授，博士生导师",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2392.htm",
+          "readScope": "official_primary_body",
+          "note": ""
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "readScope": "official_live_roster_embedded_JSON",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "邵小东",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "title": "研究员",
+      "decision": "observe_research_evidence",
+      "roboticsEvidence": "非合作航天器目标、VLA/控制方向，当前未形成可直接归属的实体机器人研究证据。",
+      "doctoralStatus": "verified_current_official_roster",
+      "doctoralEvidence": "研究员，博士生导师",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2390.htm",
+          "readScope": "official_primary_body",
+          "note": ""
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "readScope": "official_live_roster_embedded_JSON",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "韩拓",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "title": "研究员",
+      "decision": "observe_research_evidence",
+      "roboticsEvidence": "主要控制/制导/飞行器；本轮未闭合目标机器人方向。",
+      "doctoralStatus": "verified_current_official_roster",
+      "doctoralEvidence": "研究员，博士生导师",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2397.htm",
+          "readScope": "official_primary_body",
+          "note": ""
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "readScope": "official_live_roster_embedded_JSON",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "郭卫东",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "title": "教授",
+      "decision": "observe_primary_research_body",
+      "roboticsEvidence": "机器人技术、快速原型与人机交互；2025 博导名单证明资格，但本轮具体机器人项目待核。",
+      "doctoralStatus": "verified_historical_official_body_plus_current_index",
+      "doctoralEvidence": "official_2025_body_and_current_2026_index",
+      "sources": [
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1020/4177.htm",
+          "readScope": "official_search_index_only",
+          "note": ""
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "readScope": "official_body_snapshot",
+          "note": "正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "readScope": "official_search_index_only",
+          "note": "2026 年当前名单索引；正文读取失败。"
+        }
+      ]
+    },
+    {
+      "name": "刘荣",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "title": "教授",
+      "decision": "observe_primary_research_body",
+      "roboticsEvidence": "机器人与 MEMS；双臂/攀爬机器人作品仍主要索引，待当前个人正文。",
+      "doctoralStatus": "verified_historical_official_body_plus_current_index",
+      "doctoralEvidence": "official_2025_body_and_current_2026_index",
+      "sources": [
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1020/4177.htm",
+          "readScope": "official_search_index_only",
+          "note": ""
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "readScope": "official_body_snapshot",
+          "note": "正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "readScope": "official_search_index_only",
+          "note": "2026 年当前名单索引；正文读取失败。"
+        }
+      ]
+    },
+    {
+      "name": "丑武胜",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "title": "教授",
+      "decision": "observe_primary_research_body",
+      "roboticsEvidence": "机器人机电系统与触觉/伺服；本轮具体实体项目证据不足。",
+      "doctoralStatus": "verified_historical_official_body_plus_current_index",
+      "doctoralEvidence": "official_2025_body_and_current_2026_index",
+      "sources": [
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1020/4177.htm",
+          "readScope": "official_search_index_only",
+          "note": ""
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "readScope": "official_body_snapshot",
+          "note": "正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "readScope": "official_search_index_only",
+          "note": "2026 年当前名单索引；正文读取失败。"
+        }
+      ]
+    },
+    {
+      "name": "战强",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "title": "教授",
+      "decision": "observe_primary_research_body",
+      "roboticsEvidence": "当前官方索引包含人形机器人、康复设备和 AI；正文读取失败。",
+      "doctoralStatus": "verified_historical_official_body_plus_current_index",
+      "doctoralEvidence": "official_2025_body_and_current_2026_index",
+      "sources": [
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/2301.htm",
+          "readScope": "official_search_index_only",
+          "note": ""
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "readScope": "official_body_snapshot",
+          "note": "正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "readScope": "official_search_index_only",
+          "note": "2026 年当前名单索引；正文读取失败。"
+        }
+      ]
+    },
+    {
+      "name": "刘冠阳",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "title": "副教授",
+      "decision": "observe_primary_research_body",
+      "roboticsEvidence": "智能机器人与力触觉人机交互；官方索引有当前 2026 简介，正文未读。",
+      "doctoralStatus": "verified_historical_official_body_plus_current_index",
+      "doctoralEvidence": "official_2025_body_and_current_2026_index",
+      "sources": [
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/8913.htm",
+          "readScope": "official_search_index_only",
+          "note": ""
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "readScope": "official_body_snapshot",
+          "note": "正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "readScope": "official_search_index_only",
+          "note": "2026 年当前名单索引；正文读取失败。"
+        }
+      ]
+    },
+    {
+      "name": "王伟",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "title": "副教授",
+      "decision": "observe_primary_research_body",
+      "roboticsEvidence": "机器人动力学控制、物流/加工/特种机器人，2025–2028 旋球式两栖机器人项目（索引）。与 703 同名者区分。",
+      "doctoralStatus": "verified_historical_official_body_plus_current_index",
+      "doctoralEvidence": "official_2025_body_and_current_2026_index",
+      "sources": [
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/4894.htm",
+          "readScope": "official_search_index_only",
+          "note": ""
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "readScope": "official_body_snapshot",
+          "note": "正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "readScope": "official_search_index_only",
+          "note": "2026 年当前名单索引；正文读取失败。"
+        }
+      ]
+    },
+    {
+      "name": "赵宏哲",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "title": "副教授",
+      "decision": "observe_primary_research_body",
+      "roboticsEvidence": "柔性机构、精密定位与航天机器人；具体机器人项目待正文核查。",
+      "doctoralStatus": "verified_historical_official_body_plus_current_index",
+      "doctoralEvidence": "official_2025_body_and_current_2026_index",
+      "sources": [
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/4883.htm",
+          "readScope": "official_search_index_only",
+          "note": ""
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "readScope": "official_body_snapshot",
+          "note": "正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "readScope": "official_search_index_only",
+          "note": "2026 年当前名单索引；正文读取失败。"
+        }
+      ]
+    },
+    {
+      "name": "蔡月日",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "title": "副教授",
+      "decision": "observe_primary_research_body",
+      "roboticsEvidence": "水下/陆地仿生与医疗/特种机器人，鱼形机器人 CPG 研究在官方索引。",
+      "doctoralStatus": "verified_historical_official_body_plus_current_index",
+      "doctoralEvidence": "official_2025_body_and_current_2026_index",
+      "sources": [
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/8908.htm",
+          "readScope": "official_search_index_only",
+          "note": ""
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "readScope": "official_body_snapshot",
+          "note": "正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "readScope": "official_search_index_only",
+          "note": "2026 年当前名单索引；正文读取失败。"
+        }
+      ]
+    },
+    {
+      "name": "邓慧超",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "title": "教授",
+      "decision": "observe_primary_research_body",
+      "roboticsEvidence": "仿生机器人、脑样智能与飞行控制；旧 709 概览微纳传感器简介已落后于当前索引。",
+      "doctoralStatus": "verified_historical_official_body_plus_current_index",
+      "doctoralEvidence": "official_2025_body_and_current_2026_index",
+      "sources": [
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/6640.htm",
+          "readScope": "official_search_index_only",
+          "note": ""
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "readScope": "official_body_snapshot",
+          "note": "正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "readScope": "official_search_index_only",
+          "note": "2026 年当前名单索引；正文读取失败。"
+        }
+      ]
+    },
+    {
+      "name": "吕胜男",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "title": "教授",
+      "decision": "observe_primary_research_body",
+      "roboticsEvidence": "折纸衍生、仿生机器人、空间折展机构；2026 索引当前身份明确。",
+      "doctoralStatus": "verified_historical_official_body_plus_current_index",
+      "doctoralEvidence": "official_2025_body_and_current_2026_index",
+      "sources": [
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/8914.htm",
+          "readScope": "official_search_index_only",
+          "note": ""
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "readScope": "official_body_snapshot",
+          "note": "正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "readScope": "official_search_index_only",
+          "note": "2026 年当前名单索引；正文读取失败。"
+        }
+      ]
+    },
+    {
+      "name": "田耀斌",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "title": "副教授",
+      "decision": "observe_primary_research_body",
+      "roboticsEvidence": "仿生/可重构机器人、多模态移动操作；官方当前索引，平台正文暂无内容。",
+      "doctoralStatus": "verified_historical_official_body_plus_current_index",
+      "doctoralEvidence": "official_2025_body_and_current_2026_index",
+      "sources": [
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/8917.htm",
+          "readScope": "official_search_index_only",
+          "note": ""
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "readScope": "official_body_snapshot",
+          "note": "正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "readScope": "official_search_index_only",
+          "note": "2026 年当前名单索引；正文读取失败。"
+        }
+      ]
+    },
+    {
+      "name": "王成才",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "title": "教授",
+      "decision": "observe_primary_research_body",
+      "roboticsEvidence": "个人正文明确机器人设计、集群与协同感知控制，但具体深海/深空机器人项目只有索引。",
+      "doctoralStatus": "verified_historical_official_body_plus_current_index",
+      "doctoralEvidence": "official_2025_body_and_current_2026_index",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/wangchengcai/zh_CN/index.htm",
+          "readScope": "official_primary_body",
+          "note": ""
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/8142.htm",
+          "readScope": "official_search_index_only",
+          "note": ""
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "readScope": "official_body_snapshot",
+          "note": "正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "readScope": "official_search_index_only",
+          "note": "2026 年当前名单索引；正文读取失败。"
+        }
+      ]
+    },
+    {
+      "name": "张容静",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "title": "教授",
+      "decision": "observe_primary_research_body",
+      "roboticsEvidence": "软体微型机器人、跨介质仿生、无线医疗机器人；2022–2024 博士后并不证明 2024 北航任职。",
+      "doctoralStatus": "verified_historical_official_body_plus_current_index",
+      "doctoralEvidence": "official_2025_body_and_current_2026_index",
+      "sources": [
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/8050.htm",
+          "readScope": "official_search_index_only",
+          "note": ""
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "readScope": "official_body_snapshot",
+          "note": "正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "readScope": "official_search_index_only",
+          "note": "2026 年当前名单索引；正文读取失败。"
+        }
+      ]
+    },
+    {
+      "name": "张天雪",
+      "department": "机械工程及自动化学院 / 机器人研究所 709",
+      "title": "副教授",
+      "decision": "observe_doctoral_status_conflict",
+      "roboticsEvidence": "磁共振/内耳医疗机器人、FBG 感知；2026 博导名单索引列名，但另一官方个人简介仍写硕导，需正文解决时间差。",
+      "doctoralStatus": "unresolved",
+      "doctoralEvidence": "unresolved",
+      "sources": [
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1041/9654.htm",
+          "readScope": "official_search_index_only",
+          "note": ""
+        },
+        {
+          "url": "https://shi.buaa.edu.cn/zhangtianxue/zh_CN/index.htm",
+          "readScope": "official_primary_body",
+          "note": ""
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "readScope": "official_search_index_only",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "陈友东",
+      "department": "机械工程及自动化学院 / 机电工程及自动化系 706",
+      "title": "待当前正文核验",
+      "decision": "observe_primary_research_body",
+      "roboticsEvidence": "智能机器人、具身智能、机器人控制与人机协作",
+      "doctoralStatus": "verified_historical_official_body_plus_current_index",
+      "doctoralEvidence": "official_2025_body_and_current_2026_index",
+      "sources": [
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1041/9606.htm",
+          "readScope": "official_search_index_only",
+          "note": ""
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "readScope": "official_body_snapshot",
+          "note": "正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "readScope": "official_search_index_only",
+          "note": "2026 年当前名单索引；正文读取失败。"
+        }
+      ]
+    },
+    {
+      "name": "付剑",
+      "department": "机械工程及自动化学院 / 机电工程及自动化系 706",
+      "title": "待当前正文核验",
+      "decision": "observe_primary_research_body",
+      "roboticsEvidence": "机器人驱动、感知和控制；具体机器人系统成果待核",
+      "doctoralStatus": "verified_historical_official_body_plus_current_index",
+      "doctoralEvidence": "official_2025_body_and_current_2026_index",
+      "sources": [
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1041/9568.htm",
+          "readScope": "official_search_index_only",
+          "note": ""
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+          "readScope": "official_body_snapshot",
+          "note": "正文为 2025-02-17 版，按二级学科；不能称为 2026 当前版。"
+        },
+        {
+          "url": "https://www.me.buaa.edu.cn/info/1071/5912.htm",
+          "readScope": "official_search_index_only",
+          "note": "2026 年当前名单索引；正文读取失败。"
+        }
+      ]
+    },
+    {
+      "name": "杨健",
+      "department": "自动化科学与电气工程学院 / 智能系统与控制工程系",
+      "title": "教授",
+      "decision": "observe_research_evidence",
+      "roboticsEvidence": "官方方向为仿生导航、组合导航，当前所列内容不足以确认面向具体实体机器人平台；保留近年任职信息，不因导航关键词直接纳入。",
+      "doctoralStatus": "verified_current_official_roster",
+      "doctoralEvidence": "教授，博士生导师",
+      "sources": [
+        {
+          "url": "https://dept3.buaa.edu.cn/info/1069/2376.htm",
+          "readScope": "official_primary_body",
+          "note": ""
+        },
+        {
+          "url": "https://dept3.buaa.edu.cn/szdw/qtjs.htm",
+          "readScope": "official_live_roster_embedded_JSON",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "范肇心",
+      "department": "人工智能学院",
+      "position": "助理教授、硕士生导师",
+      "decision": "硕导观察层，博士未核",
+      "recruitment": "广义联系邀请不等于博士招生",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/fanzhaoxin/zh_CN/index.htm"
+        }
+      ]
+    },
+    {
+      "name": "王良",
+      "department": "计算机学院",
+      "position": "副教授；硕士生/博士生导师",
+      "decision": "点云计算/合作观察，不入机器人博士主目录；官方当前主线体系结构，抓取专利待核贡献",
+      "research_evidence": "多夹具机械臂无序抓取专利ZL202110905807.X；PointISA点云分析MICRO2025；BitNN点云KNN硬件加速ISCA2024",
+      "recruitment": "本页无已核年度招生及余位，不推断2028",
+      "sources": [
+        {
+          "url": "https://scse.buaa.edu.cn/info/1131/3300.htm"
+        }
+      ]
+    },
+    {
+      "name": "刘雪峰",
+      "department": "计算机学院",
+      "position": "副教授；博士生导师",
+      "decision": "合作观察，不入机器人博士主目录；仅团队平台奖11/15",
+      "research_evidence": "具身智能机器人操作系统与仿真平台关键技术及应用，2026省部级创新技术一等奖11/15；勿将团队整体成果说成个人主导",
+      "recruitment": "本页无已核年度招生及余位，不推断2028",
+      "sources": [
+        {
+          "url": "https://scse.buaa.edu.cn/info/1131/3217.htm"
+        }
+      ]
+    },
+    {
+      "name": "余远金",
+      "department": "精密仪器与导航控制系",
+      "title": "教授",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "text_mention_pending_attribution",
+        "note": "页面含博导词样，尚未逐人排除团队/培养经历上下文，不作为资格已核",
+        "source": "https://yqgdxy.buaa.edu.cn/info/1187/2198.htm"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1187/2198.htm"
+        }
+      ]
+    },
+    {
+      "name": "姜丽伟",
+      "department": "大科学装置研究院",
+      "title": "副研究员",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2054.htm"
+        }
+      ]
+    },
+    {
+      "name": "刘峰",
+      "department": "大科学装置研究院",
+      "title": "副研究员",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2057.htm"
+        }
+      ]
+    },
+    {
+      "name": "周新秀",
+      "department": "大科学装置研究院",
+      "title": "教授",
+      "screening_category": "direction_watch",
+      "reason": "教授博导，明确机器人本体、灵巧手、视觉与感知决策执行；近期所列论文以量子控制为主",
+      "doctoralReview": {
+        "level": "fulltext_profile",
+        "note": "正文出现博导资格，需单独核招生专业年份",
+        "source": "https://yqgdxy.buaa.edu.cn/info/1185/2058.htm"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2058.htm"
+        }
+      ]
+    },
+    {
+      "name": "朱庄生",
+      "department": "大科学装置研究院",
+      "title": "教授",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2060.htm"
+        }
+      ]
+    },
+    {
+      "name": "庞昊颖",
+      "department": "大科学装置研究院",
+      "title": "副研究员",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2062.htm"
+        }
+      ]
+    },
+    {
+      "name": "段利红",
+      "department": "大科学装置研究院",
+      "title": "副研究员",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2064.htm"
+        }
+      ]
+    },
+    {
+      "name": "宋欣达",
+      "department": "大科学装置研究院",
+      "title": "副研究员",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2066.htm"
+        }
+      ]
+    },
+    {
+      "name": "刘占超",
+      "department": "大科学装置研究院",
+      "title": "副研究员",
+      "screening_category": "direction_watch",
+      "reason": "副研究员博导，方向具身智能导航；缺具体机器人任务论文",
+      "doctoralReview": {
+        "level": "fulltext_profile",
+        "note": "正文出现博导资格，需单独核招生专业年份",
+        "source": "https://yqgdxy.buaa.edu.cn/info/1185/2068.htm"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2068.htm"
+        }
+      ]
+    },
+    {
+      "name": "徐学平",
+      "department": "大科学装置研究院",
+      "title": "副研究员",
+      "screening_category": "adjacent",
+      "reason": "磁触觉传感，但未见具体机器人闭环任务",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2069.htm"
+        }
+      ]
+    },
+    {
+      "name": "宁晓琳",
+      "department": "大科学装置研究院",
+      "title": "教授",
+      "screening_category": "direction_watch",
+      "reason": "导航/机器人方向关键词，当前主要量子导航与医工；未据关键词升级",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2070.htm"
+        }
+      ]
+    },
+    {
+      "name": "曲春宇",
+      "department": "大科学装置研究院",
+      "title": "副研究员",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2072.htm"
+        }
+      ]
+    },
+    {
+      "name": "李建利",
+      "department": "大科学装置研究院",
+      "title": "教授",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2073.htm"
+        }
+      ]
+    },
+    {
+      "name": "杨剑之",
+      "department": "大科学装置研究院",
+      "title": "副研究员",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2076.htm"
+        }
+      ]
+    },
+    {
+      "name": "杜鹏程",
+      "department": "大科学装置研究院",
+      "title": "副研究员",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2080.htm"
+        }
+      ]
+    },
+    {
+      "name": "全伟",
+      "department": "大科学装置研究院",
+      "title": "教授",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2082.htm"
+        }
+      ]
+    },
+    {
+      "name": "魏凯",
+      "department": "大科学装置研究院",
+      "title": "教授",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "text_mention_pending_attribution",
+        "note": "页面含博导词样，尚未逐人排除团队/培养经历上下文，不作为资格已核",
+        "source": "https://yqgdxy.buaa.edu.cn/info/1185/2088.htm"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2088.htm"
+        }
+      ]
+    },
+    {
+      "name": "马辛",
+      "department": "大科学装置研究院",
+      "title": "副教授",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "text_mention_pending_attribution",
+        "note": "页面含博导词样，尚未逐人排除团队/培养经历上下文，不作为资格已核",
+        "source": "https://yqgdxy.buaa.edu.cn/info/1185/2094.htm"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2094.htm"
+        }
+      ]
+    },
+    {
+      "name": "李进",
+      "department": "大科学装置研究院",
+      "title": "教授",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "text_mention_pending_attribution",
+        "note": "页面含博导词样，尚未逐人排除团队/培养经历上下文，不作为资格已核",
+        "source": "https://yqgdxy.buaa.edu.cn/info/1185/2101.htm"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1185/2101.htm"
+        }
+      ]
+    },
+    {
+      "name": "樊尚春",
+      "department": "测控与信息技术系",
+      "title": "教授",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2018.htm"
+        }
+      ]
+    },
+    {
+      "name": "屈晓磊",
+      "department": "测控与信息技术系",
+      "title": "副教授",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2020.htm"
+        }
+      ]
+    },
+    {
+      "name": "周富强",
+      "department": "测控与信息技术系",
+      "title": "教授",
+      "screening_category": "collaboration_adjacent",
+      "reason": "郭占社2024六足巡检机器人论文合作者；本人主线视觉精密测量，不能遗漏合作关系",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2021.htm"
+        }
+      ]
+    },
+    {
+      "name": "屈玉福",
+      "department": "测控与信息技术系",
+      "title": "教授",
+      "screening_category": "adjacent",
+      "reason": "高精度视觉与多模式目标探测、2026月背智能采样成果；机器人主线未确立",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2022.htm"
+        }
+      ]
+    },
+    {
+      "name": "江洁",
+      "department": "测控与信息技术系",
+      "title": "教授",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2023.htm"
+        }
+      ]
+    },
+    {
+      "name": "潘晓",
+      "department": "测控与信息技术系",
+      "title": "助理研究员",
+      "screening_category": "adjacent",
+      "reason": "高动态视觉、无人机自主降落专利，需补机器人主线",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2026.htm"
+        }
+      ]
+    },
+    {
+      "name": "高扬",
+      "department": "测控与信息技术系",
+      "title": "副研究员",
+      "screening_category": "adjacent",
+      "reason": "航空视觉导航和机器视觉",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2029.htm"
+        }
+      ]
+    },
+    {
+      "name": "李小路",
+      "department": "测控与信息技术系",
+      "title": "教授",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "text_mention_pending_attribution",
+        "note": "页面含博导词样，尚未逐人排除团队/培养经历上下文，不作为资格已核",
+        "source": "https://yqgdxy.buaa.edu.cn/info/1186/2031.htm"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2031.htm"
+        }
+      ]
+    },
+    {
+      "name": "于宁",
+      "department": "测控与信息技术系",
+      "title": "副教授",
+      "screening_category": "direction_watch",
+      "reason": "官方新方向明确多模态大模型具身、强化学习室内机器人导航；代表论文尚为传感网络/测量，博士资格未核",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2033.htm"
+        }
+      ]
+    },
+    {
+      "name": "冯仁剑",
+      "department": "测控与信息技术系",
+      "title": "教授",
+      "screening_category": "adjacent",
+      "reason": "基于机器人的复杂人机交互终端测试；自动测试主线，非HRI用户研究",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2034.htm"
+        }
+      ]
+    },
+    {
+      "name": "宫政",
+      "department": "测控与信息技术系",
+      "title": "助理研究员",
+      "screening_category": "direction_watch",
+      "reason": "视觉SLAM明确，所列代表作以工业视觉标定测量为主；博导未核",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2036.htm"
+        }
+      ]
+    },
+    {
+      "name": "钟景",
+      "department": "测控与信息技术系",
+      "title": "教授",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2040.htm"
+        }
+      ]
+    },
+    {
+      "name": "王刚毅",
+      "department": "测控与信息技术系",
+      "title": "副教授",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2043.htm"
+        }
+      ]
+    },
+    {
+      "name": "祝世平",
+      "department": "测控与信息技术系",
+      "title": "副教授",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2045.htm"
+        }
+      ]
+    },
+    {
+      "name": "李健",
+      "department": "测控与信息技术系",
+      "title": "副教授",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2047.htm"
+        }
+      ]
+    },
+    {
+      "name": "聂晶",
+      "department": "测控与信息技术系",
+      "title": "研究员",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "text_mention_pending_attribution",
+        "note": "页面含博导词样，尚未逐人排除团队/培养经历上下文，不作为资格已核",
+        "source": "https://yqgdxy.buaa.edu.cn/info/1186/2049.htm"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/2049.htm"
+        }
+      ]
+    },
+    {
+      "name": "宫晓琳",
+      "department": "智能感知工程系",
+      "title": "副教授",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1190/2012.htm"
+        }
+      ]
+    },
+    {
+      "name": "文通",
+      "department": "智能感知工程系",
+      "title": "副教授",
+      "screening_category": "adjacent",
+      "reason": "运输系统实时路径规划/调度，但对象磁悬浮驱动系统而非自由移动机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1190/2013.htm"
+        }
+      ]
+    },
+    {
+      "name": "蔡仲雨",
+      "department": "智能感知工程系",
+      "title": "教授",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1190/2016.htm"
+        }
+      ]
+    },
+    {
+      "name": "袁珩",
+      "department": "智能感知工程系",
+      "title": "研究员",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1190/2017.htm"
+        }
+      ]
+    },
+    {
+      "name": "杨艳强",
+      "department": "光电技术研究所",
+      "title": "副教授",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1191/2007.htm"
+        }
+      ]
+    },
+    {
+      "name": "杨照华",
+      "department": "精密仪器与导航控制系",
+      "title": "研究员",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1187/1912.htm"
+        }
+      ]
+    },
+    {
+      "name": "张京娟",
+      "department": "精密仪器与导航控制系",
+      "title": "副研究员",
+      "screening_category": "aerial_navigation",
+      "reason": "微小型飞行器导航控制、机群定位，2018 UAV跟踪论文",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1187/1921.htm"
+        }
+      ]
+    },
+    {
+      "name": "张小跃",
+      "department": "光电技术研究所",
+      "title": "副教授",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "text_mention_pending_attribution",
+        "note": "页面含博导词样，尚未逐人排除团队/培养经历上下文，不作为资格已核",
+        "source": "https://yqgdxy.buaa.edu.cn/info/1191/1973.htm"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1191/1973.htm"
+        }
+      ]
+    },
+    {
+      "name": "刘惠兰",
+      "department": "教学实验中心",
+      "title": "副教授",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1192/2001.htm"
+        }
+      ]
+    },
+    {
+      "name": "李旭东",
+      "department": "遥感科学与技术系",
+      "title": "教授",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1188/1931.htm"
+        }
+      ]
+    },
+    {
+      "name": "刘杨",
+      "department": "光电工程系",
+      "title": "副教授",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1189/1939.htm"
+        }
+      ]
+    },
+    {
+      "name": "张春熹",
+      "department": "光电技术研究所",
+      "title": "教授",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1191/1986.htm"
+        }
+      ]
+    },
+    {
+      "name": "宋凝芳",
+      "department": "光电技术研究所",
+      "title": "研究员",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "text_mention_pending_attribution",
+        "note": "页面含博导词样，尚未逐人排除团队/培养经历上下文，不作为资格已核",
+        "source": "https://yqgdxy.buaa.edu.cn/info/1191/1990.htm"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1191/1990.htm"
+        }
+      ]
+    },
+    {
+      "name": "金靖",
+      "department": "光电技术研究所",
+      "title": "研究员",
+      "screening_category": "adjacent",
+      "reason": "事件相机、视觉惯性相关感知，未核具体机器人任务",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1191/1991.htm"
+        }
+      ]
+    },
+    {
+      "name": "魏振忠",
+      "department": "测控与信息技术系",
+      "title": "教授",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "text_mention_pending_attribution",
+        "note": "页面含博导词样，尚未逐人排除团队/培养经历上下文，不作为资格已核",
+        "source": "https://yqgdxy.buaa.edu.cn/info/1186/1870.htm"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/1870.htm"
+        }
+      ]
+    },
+    {
+      "name": "魏新国",
+      "department": "测控与信息技术系",
+      "title": "研究员",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/1868.htm"
+        }
+      ]
+    },
+    {
+      "name": "牛燕雄",
+      "department": "光电工程系",
+      "title": "教授",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1189/1954.htm"
+        }
+      ]
+    },
+    {
+      "name": "刘震",
+      "department": "测控与信息技术系",
+      "title": "研究员",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/1856.htm"
+        }
+      ]
+    },
+    {
+      "name": "樊巧云",
+      "department": "测控与信息技术系",
+      "title": "副教授",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1186/1857.htm"
+        }
+      ]
+    },
+    {
+      "name": "冉龙俊",
+      "department": "光电技术研究所",
+      "title": "副研究员",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1191/1998.htm"
+        }
+      ]
+    },
+    {
+      "name": "高爽",
+      "department": "光电技术研究所",
+      "title": "副研究员",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1191/1974.htm"
+        }
+      ]
+    },
+    {
+      "name": "程景春",
+      "department": "光电技术研究所",
+      "title": "副教授",
+      "screening_category": "research_qualified_degree_pending",
+      "reason": "2025场景地点识别与RA-L地铁定位、2024自动驾驶任务路径分配；博导未核",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1191/1997.htm"
+        }
+      ]
+    },
+    {
+      "name": "芦佳振",
+      "title": "讲师",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1191/1972.htm"
+        }
+      ]
+    },
+    {
+      "name": "宋来亮",
+      "department": "光电技术研究所",
+      "title": "助理研究员",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1191/1971.htm"
+        }
+      ]
+    },
+    {
+      "name": "周冠华",
+      "department": "遥感科学与技术系",
+      "title": "副教授",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1188/1928.htm"
+        }
+      ]
+    },
+    {
+      "name": "赵峰",
+      "department": "遥感科学与技术系",
+      "title": "副教授",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1188/1927.htm"
+        }
+      ]
+    },
+    {
+      "name": "赵慧洁",
+      "department": "遥感科学与技术系",
+      "title": "教授、博士生导师",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "text_mention_pending_attribution",
+        "note": "页面含博导词样，尚未逐人排除团队/培养经历上下文，不作为资格已核",
+        "source": "https://yqgdxy.buaa.edu.cn/info/1188/1935.htm"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1188/1935.htm"
+        }
+      ]
+    },
+    {
+      "name": "李立京",
+      "department": "光电工程系",
+      "title": "教授",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "text_mention_pending_attribution",
+        "note": "页面含博导词样，尚未逐人排除团队/培养经历上下文，不作为资格已核",
+        "source": "https://yqgdxy.buaa.edu.cn/info/1189/1945.htm"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1189/1945.htm"
+        }
+      ]
+    },
+    {
+      "name": "李保国",
+      "title": "讲师",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1189/1940.htm"
+        }
+      ]
+    },
+    {
+      "name": "赵建辉",
+      "department": "精密仪器与导航控制系",
+      "title": "教授",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "text_mention_pending_attribution",
+        "note": "页面含博导词样，尚未逐人排除团队/培养经历上下文，不作为资格已核",
+        "source": "https://yqgdxy.buaa.edu.cn/info/1187/1915.htm"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1187/1915.htm"
+        }
+      ]
+    },
+    {
+      "name": "盛蔚",
+      "department": "精密仪器与导航控制系",
+      "title": "教授",
+      "screening_category": "aerial_navigation",
+      "reason": "明确微小型全自主无人机飞控与多源导航",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1187/1914.htm"
+        }
+      ]
+    },
+    {
+      "name": "张玉民",
+      "department": "精密仪器与导航控制系",
+      "title": "副研究员",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1187/1909.htm"
+        }
+      ]
+    },
+    {
+      "name": "许东",
+      "department": "精密仪器与导航控制系",
+      "title": "副教授",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1187/1907.htm"
+        }
+      ]
+    },
+    {
+      "name": "魏彤",
+      "department": "精密仪器与导航控制系",
+      "title": "副教授",
+      "screening_category": "research_qualified_degree_pending",
+      "reason": "机器人视觉导航控制、2021 ToF/IMU/RGB标定；旧页只确认硕导，不能判定不是博导",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1187/1906.htm"
+        }
+      ]
+    },
+    {
+      "name": "李帆",
+      "department": "精密仪器与导航控制系",
+      "title": "副教授",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1187/1904.htm"
+        }
+      ]
+    },
+    {
+      "name": "吴发林",
+      "department": "精密仪器与导航控制系",
+      "title": "副教授",
+      "screening_category": "adjacent",
+      "reason": "导航遥感为主，事件相机无人机目标检测合作",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1187/1903.htm"
+        }
+      ]
+    },
+    {
+      "name": "王玮",
+      "department": "精密仪器与导航控制系",
+      "title": "副研究员",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1187/1902.htm"
+        }
+      ]
+    },
+    {
+      "name": "王学运",
+      "department": "精密仪器与导航控制系",
+      "title": "副教授",
+      "screening_category": "research_qualified_degree_pending",
+      "reason": "明确机器人决策控制、多源协同导航，2025 IROS Future of Robo竞赛；博导未核",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1187/1913.htm"
+        }
+      ]
+    },
+    {
+      "name": "李明",
+      "department": "精密仪器与导航控制系",
+      "title": "副教授",
+      "screening_category": "research_qualified_degree_pending",
+      "reason": "惯性视觉融合、态势感知运动规划；2024点线视觉SLAM、2025 IROS竞赛；博导未核",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1187/1901.htm"
+        }
+      ]
+    },
+    {
+      "name": "王蕾",
+      "department": "精密仪器与导航控制系",
+      "title": "副研究员",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1187/1900.htm"
+        }
+      ]
+    },
+    {
+      "name": "李魁",
+      "department": "精密仪器与导航控制系",
+      "title": "副研究员",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1187/1899.htm"
+        }
+      ]
+    },
+    {
+      "name": "刘保磊",
+      "department": "精密仪器与导航控制系",
+      "title": "副教授",
+      "screening_category": "adjacent_perception",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1187/1922.htm"
+        }
+      ]
+    },
+    {
+      "name": "张延顺",
+      "department": "教学实验中心",
+      "title": "副教授",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1192/2003.htm"
+        }
+      ]
+    },
+    {
+      "name": "陈刚",
+      "department": "教学实验中心",
+      "title": "讲师",
+      "screening_category": "adjacent_navigation",
+      "reason": "官方简介初筛未形成具体机器人感知/导航/操作任务证据；不等于证明从未研究机器人",
+      "doctoralReview": {
+        "level": "unverified",
+        "note": "未核实不等于非博导；学位博士与导师资格分开"
+      },
+      "sources": [
+        {
+          "url": "https://yqgdxy.buaa.edu.cn/info/1192/2004.htm"
+        }
+      ]
+    },
+    {
+      "name": "刘昊",
+      "department": "人工智能学院",
+      "decision": "observe_physical_robotics_task",
+      "reason": "教授博导和2027电子信息专业博士计划1名已有官方正文；视觉语言决策/强化学习招生方向不自动证明具体物理机器人任务，待补研究闭环。计划不等于当前余位，无2028证据。",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/liuhao/zh_CN/zsxx/190727/content/3279.htm",
+          "title": "刘昊｜官方研究与博士身份",
+          "label": "刘昊｜官方教师资料",
+          "checkedDate": "2026-11-05",
+          "section": "正文招生年份2027、博士电子信息1名；导航2022为旧标签",
+          "readScope": "正文招生年份2027、博士电子信息1名；导航2022为旧标签",
+          "access": "primary_page_body"
+        }
+      ]
+    },
+    {
+      "name": "解佳豪",
+      "department": "人工智能学院",
+      "decision": "observe_robotics_author_identity",
+      "reason": "2026-03-03入职、准聘教授博导和2027年9月推免博士/硕士已核。RTP机器人预印本PDF有同名北航通讯作者，额外作者身份交叉仍待核；本轮不把泛具身关键词单独当机器人实绩，不推断2028或余位。",
+      "sources": [
+        {
+          "url": "https://shi.buaa.edu.cn/jiejiahao/zh_CN/index/230164/list/index.htm",
+          "title": "解佳豪｜官方研究与博士身份",
+          "label": "解佳豪｜官方教师资料",
+          "checkedDate": "2026-11-05",
+          "section": "个人身份、入职及2027推免",
+          "readScope": "个人身份、入职及2027推免",
+          "access": "primary_page_body"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2609.35439",
+          "title": "RTP预印本｜官方研究与博士身份",
+          "label": "RTP预印本｜官方教师资料",
+          "checkedDate": "2026-11-05",
+          "section": "第一页Jiahao Xie北航单位及通讯脚注；身份归属仍待交叉",
+          "readScope": "第一页Jiahao Xie北航单位及通讯脚注；身份归属仍待交叉",
+          "access": "primary_page_body"
+        }
+      ]
+    },
+    {
+      "name": "沈帅",
+      "department": "自动化科学与电气工程学院",
+      "decision": "observe_doctoral_and_robotics_task",
+      "reason": "2026.1入职准聘副教授，三维/具身方向；博士资格未核实，不等于非博导；页面通用博导导航不作个人资格。具体机器人任务及2028招生未核。",
+      "sources": [
+        {
+          "url": "https://teacher.buaa.edu.cn/shenshuai/zh_CN/index.htm",
+          "title": "沈帅｜官方研究与博士身份",
+          "label": "沈帅｜官方教师资料",
+          "checkedDate": "2026-11-05",
+          "section": "个人简介、任职与研究清单",
+          "readScope": "个人简介、任职与研究清单",
+          "access": "primary_page_body"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "本轮不是北航全校穷尽，交通、无人系统等其他院系尚可能有交叉导师。",
+    "名单正文获取与关键词初筛不等于对所有人的全部论文做逐人全面研究审计；重点候选另行人工核读。",
+    "机械最新名单为索引层，2025博士名单正文为历史；不得合并成当前资格全文核验。",
+    "AI名单含博士后；仪器200名单条目与198专任聚合口径未对齐；不同院系名册不得相加冒充全校专任人数。",
+    "计算机名册51位没有可用个人链接；自动化王秋生个人正文未读；缺证据不等于没有博士资格或不招生。",
+    "2027动态专业目录尚未逐导师查询；AI推免博导附件需要验证码，未取得，不宣称全文核验。",
+    "没有新增2028个人招生或剩余名额；2027公开计划也不能视为当前余位。",
+    "所有核查日保留2026-11-05，近五年入职全站筛选仍采用2026-10-26窗口及来源日期规则；新核日期在简介展示但不保证进入该筛选。"
+  ],
+  "sources": [
+    {
+      "url": "https://yzb.buaa.edu.cn/info/1002/3682.htm",
+      "label": "北航2027博士招生简章",
+      "title": "北航2027博士招生简章",
+      "section": "2026-10-30；招生方式及报考要求、报考程序；推免、硕博连读、申请考核由院系分别实施。",
+      "readScope": "2026-10-30；招生方式及报考要求、报考程序；推免、硕博连读、申请考核由院系分别实施。",
+      "access": "primary_page_body",
+      "checkedDate": "2026-11-05"
+    },
+    {
+      "url": "https://www.me.buaa.edu.cn/yjspy/bdjs.htm",
+      "label": "机械学院历史博士导师名单",
+      "title": "机械学院历史博士导师名单",
+      "section": "2025-02-17名单正文；仅历史博士指导身份参考，不作当前名额。",
+      "readScope": "2025-02-17名单正文；仅历史博士指导身份参考，不作当前名额。",
+      "access": "primary_page_body",
+      "checkedDate": "2026-11-05"
+    }
+  ]
+}

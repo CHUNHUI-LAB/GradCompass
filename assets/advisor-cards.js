@@ -1,5 +1,5 @@
-import {browseAdvisors,filterOpportunities,escapeHTML,readerText,safeUrl,institutionLabel,rankOf,rankLabels,themesFor,textValue} from './core.js?v=adaf00b1db51';
-import {profileSummary} from './profiles.js?v=f484e6d43a59';
+import {browseAdvisors,filterOpportunities,escapeHTML,readerText,safeUrl,institutionLabel,rankOf,rankLabels,themesFor,textValue} from './core.js?v=383d76e57aac';
+import {profileSummary} from './profiles.js?v=b669160fabf6';
 import {appointmentStatus,appointmentLabels} from './appointments.js?v=fe7c21c5cd26';
 
 const e=value=>escapeHTML(readerText(value));
