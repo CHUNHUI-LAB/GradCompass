@@ -81992,6 +81992,222 @@
           }
         ]
       }
+    },
+    {
+      "advisorId": "ruc-wang-feifei",
+      "cardSummaryZh": "统计学院教授、博导；官方研究兴趣明确机器人智能与优化设计，论文清单列LASeR和MorphVAE机器人设计工作，并行研究联邦学习、文本与大模型。",
+      "overview": {
+        "textZh": "统计学院教授、博导；官方研究兴趣明确机器人智能与优化设计，论文清单列LASeR和MorphVAE机器人设计工作，并行研究联邦学习、文本与大模型。 任职线索：2017.07–2019.08在人大任博士后，2019.08–2021.08为常规教师Assistant Professor，2021.08起履历列Associate Professor；当前页头及现职名册已列教授。首次本校常规教研任职按2019.08，博士后与晋升不重新计时。",
+        "sources": [
+          {
+            "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Data_Science_and_Big_Data_Analytics/63e329ab1daa48398d2266c65b88c0fc.htm",
+            "title": "王菲菲｜统计学院官方英文师资页",
+            "label": "王菲菲｜统计学院官方英文师资页",
+            "section": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+            "readScope": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+            "access": "primary_page_body",
+            "checkedDate": "2026-11-05"
+          },
+          {
+            "url": "https://stat.ruc.edu.cn/szdw/zzjsjl/azc/index.htm",
+            "title": "王菲菲｜统计学院在职教授名册",
+            "label": "王菲菲｜统计学院在职教授名册",
+            "section": "王菲菲条目：教授、博士生导师、副院长",
+            "readScope": "王菲菲条目：教授、博士生导师、副院长",
+            "access": "primary_page_body",
+            "checkedDate": "2026-11-05"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "王菲菲研究方向",
+        "affiliation": {
+          "textZh": "中国人民大学统计学院数据科学与大数据统计系",
+          "sources": [
+            {
+              "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Data_Science_and_Big_Data_Analytics/63e329ab1daa48398d2266c65b88c0fc.htm",
+              "title": "王菲菲｜统计学院官方英文师资页",
+              "label": "王菲菲｜统计学院官方英文师资页",
+              "section": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+              "readScope": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+              "access": "primary_page_body",
+              "checkedDate": "2026-11-05"
+            },
+            {
+              "url": "https://stat.ruc.edu.cn/szdw/zzjsjl/azc/index.htm",
+              "title": "王菲菲｜统计学院在职教授名册",
+              "label": "王菲菲｜统计学院在职教授名册",
+              "section": "王菲菲条目：教授、博士生导师、副院长",
+              "readScope": "王菲菲条目：教授、博士生导师、副院长",
+              "access": "primary_page_body",
+              "checkedDate": "2026-11-05"
+            }
+          ]
+        },
+        "themes": [
+          "机器人形态设计",
+          "机器人优化设计",
+          "机器人学习"
+        ],
+        "structure": {
+          "textZh": "本轮核实公开身份与研究课题，团队规模、指导分工和实验条件未作独立核验。",
+          "sources": [
+            {
+              "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Data_Science_and_Big_Data_Analytics/63e329ab1daa48398d2266c65b88c0fc.htm",
+              "title": "王菲菲｜统计学院官方英文师资页",
+              "label": "王菲菲｜统计学院官方英文师资页",
+              "section": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+              "readScope": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+              "access": "primary_page_body",
+              "checkedDate": "2026-11-05"
+            },
+            {
+              "url": "https://stat.ruc.edu.cn/szdw/zzjsjl/azc/index.htm",
+              "title": "王菲菲｜统计学院在职教授名册",
+              "label": "王菲菲｜统计学院在职教授名册",
+              "section": "王菲菲条目：教授、博士生导师、副院长",
+              "readScope": "王菲菲条目：教授、博士生导师、副院长",
+              "access": "primary_page_body",
+              "checkedDate": "2026-11-05"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "官方英文师资页Research Interests明确机器人智能与优化设计，Publications列LASeR（ICLR 2025）与MorphVAE（AAAI 2024）；本轮依据教师页核验方向和成果清单，没有将未读取的论文冒充全文研读；研究内容不保证申请者可用设备或资源。",
+            "sources": [
+              {
+                "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Data_Science_and_Big_Data_Analytics/63e329ab1daa48398d2266c65b88c0fc.htm",
+                "title": "王菲菲｜统计学院官方英文师资页",
+                "label": "王菲菲｜统计学院官方英文师资页",
+                "section": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+                "readScope": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+                "access": "primary_page_body",
+                "checkedDate": "2026-11-05"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "LASeR",
+          "year": 2025,
+          "venue": "ICLR 2025（官方教师论文清单）",
+          "summaryZh": "官网列入机器人设计相关成果；本轮只核教师论文清单，不据此推断单模块作用、实验性能或通讯作者身份。",
+          "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Data_Science_and_Big_Data_Analytics/63e329ab1daa48398d2266c65b88c0fc.htm",
+          "sources": [
+            {
+              "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Data_Science_and_Big_Data_Analytics/63e329ab1daa48398d2266c65b88c0fc.htm",
+              "title": "王菲菲｜统计学院官方英文师资页",
+              "label": "王菲菲｜统计学院官方英文师资页",
+              "section": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+              "readScope": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+              "access": "primary_page_body",
+              "checkedDate": "2026-11-05"
+            }
+          ]
+        },
+        {
+          "title": "MorphVAE",
+          "year": 2024,
+          "venue": "AAAI 2024（官方教师论文清单）",
+          "summaryZh": "官网列入机器人形态设计相关成果；本轮未阅读全文，方法细节与评测结论不作扩展。",
+          "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Data_Science_and_Big_Data_Analytics/63e329ab1daa48398d2266c65b88c0fc.htm",
+          "sources": [
+            {
+              "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Data_Science_and_Big_Data_Analytics/63e329ab1daa48398d2266c65b88c0fc.htm",
+              "title": "王菲菲｜统计学院官方英文师资页",
+              "label": "王菲菲｜统计学院官方英文师资页",
+              "section": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+              "readScope": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+              "access": "primary_page_body",
+              "checkedDate": "2026-11-05"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "未核实个人2028博士招生、具体接收意向、申请通道及当前剩余名额；博士生导师身份仅形成方向参考。",
+        "sources": [
+          {
+            "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Data_Science_and_Big_Data_Analytics/63e329ab1daa48398d2266c65b88c0fc.htm",
+            "title": "王菲菲｜统计学院官方英文师资页",
+            "label": "王菲菲｜统计学院官方英文师资页",
+            "section": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+            "readScope": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+            "access": "primary_page_body",
+            "checkedDate": "2026-11-05"
+          },
+          {
+            "url": "https://stat.ruc.edu.cn/szdw/zzjsjl/azc/index.htm",
+            "title": "王菲菲｜统计学院在职教授名册",
+            "label": "王菲菲｜统计学院在职教授名册",
+            "section": "王菲菲条目：教授、博士生导师、副院长",
+            "readScope": "王菲菲条目：教授、博士生导师、副院长",
+            "access": "primary_page_body",
+            "checkedDate": "2026-11-05"
+          }
+        ]
+      },
+      "unknowns": [
+        "官方英文页头与现职名册为教授，工作经历仍保留2021.08起Associate Professor的旧字段，不据此改回现职副教授。",
+        "官网论文列表姓名星号未定义，不单凭星号断言通讯作者；本轮未取得相关论文完整正文核验。",
+        "机器人硬件、团队规模、学生资源使用及个人指导方式未作独立核验。",
+        "2028具体入学季节、剩余名额、正式申请资格及资助未核实",
+        "组内氛围、指导风格与资源使用条件未核实"
+      ],
+      "links": [
+        {
+          "label": "王菲菲｜统计学院官方英文师资页",
+          "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Data_Science_and_Big_Data_Analytics/63e329ab1daa48398d2266c65b88c0fc.htm"
+        },
+        {
+          "label": "王菲菲｜统计学院在职教授名册",
+          "url": "https://stat.ruc.edu.cn/szdw/zzjsjl/azc/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-05",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-05",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-10-26",
+          "start": "2021-10-26",
+          "end": "2026-10-26"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "见个人简介任职线索",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "本轮核读的任职线索见个人简介；全站筛选窗口冻结于2026-10-26，未回填旧核验日期。",
+        "sources": [
+          {
+            "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Data_Science_and_Big_Data_Analytics/63e329ab1daa48398d2266c65b88c0fc.htm",
+            "title": "王菲菲｜统计学院官方英文师资页",
+            "label": "王菲菲｜统计学院官方英文师资页",
+            "section": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+            "readScope": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+            "access": "primary_page_body",
+            "checkedDate": "2026-11-05"
+          },
+          {
+            "url": "https://stat.ruc.edu.cn/szdw/zzjsjl/azc/index.htm",
+            "title": "王菲菲｜统计学院在职教授名册",
+            "label": "王菲菲｜统计学院在职教授名册",
+            "section": "王菲菲条目：教授、博士生导师、副院长",
+            "readScope": "王菲菲条目：教授、博士生导师、副院长",
+            "access": "primary_page_body",
+            "checkedDate": "2026-11-05"
+          }
+        ]
+      }
     }
   ],
   "reviewRequired": true,

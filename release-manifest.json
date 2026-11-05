@@ -8,13 +8,13 @@
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
   "browserVisualQA": "Not yet browser-verified.",
-  "profilePilotCount": 502,
-  "visibleAdvisorCount": 502,
+  "profilePilotCount": 503,
+  "visibleAdvisorCount": 503,
   "opportunityCount": 59,
   "raPositionCount": 2,
   "newAdvisorProfiles": 26,
   "preservedAdvisorProfiles": 30,
-  "newProfileCitedSourceCount": 707,
+  "newProfileCitedSourceCount": 709,
   "experienceRecords": 27,
   "defaultExperienceRecords": 27,
   "experienceSourceSites": 20,
@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 79521,
-      "sha256": "b1f2bf9a409a1d79776c5f7db2579348007b53d22eeb193b5dff11cf6b863e81"
+      "bytes": 80313,
+      "sha256": "1ed4a238faa34bd815ad7451ace8f52a845fdda7a4897e678ec122fa70d7613e"
     },
     {
       "path": "REDESIGN.md",
@@ -63,7 +63,7 @@
     {
       "path": "assets/app.js",
       "bytes": 76307,
-      "sha256": "bed0cbb7e593604d7d2173bd89a9a2c6d02a5dd6117cef82c267c6ac21615bb4"
+      "sha256": "e802ffd18a07a305be7df5b73894af7dcf7f5cf4a9653bd8978449478ce0a1b9"
     },
     {
       "path": "assets/appointments.js",
@@ -256,6 +256,16 @@
       "sha256": "ba575fdfc4559ab1883b8e02dff8d948e010541ff76913c0a50fae2ef14f37d6"
     },
     {
+      "path": "audits/ruc-wang-feifei-20261105.json",
+      "bytes": 16225,
+      "sha256": "de23028c92d70089d403b15a54a9360b8a0b903ddd96bb913882218cce8895dc"
+    },
+    {
+      "path": "audits/ruc-wang-feifei-20261105.md",
+      "bytes": 2197,
+      "sha256": "6260c1da078e51636b7d3d82d3706f1188e96cc1a6a91e76cc2f226b8c0cafd9"
+    },
+    {
       "path": "audits/source-access-20261009.json",
       "bytes": 256348,
       "sha256": "1ee2d63dc678a48b1e1aca616e81710b389c90a95a1ef8cfc1eaf4986ae9ecf8"
@@ -272,8 +282,8 @@
     },
     {
       "path": "data/advisor-profiles.json",
-      "bytes": 3767282,
-      "sha256": "fbb31db09e987bc078d03397354a6d27514b79dfed31e7ca5cbdf0d726c20af4"
+      "bytes": 3779876,
+      "sha256": "4636b86ca1151bc2de04e2a158b22428b38428ee0364ed90914e06dd4a4318e0"
     },
     {
       "path": "data/application-experience-provenance.json",
@@ -292,8 +302,8 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 5150386,
-      "sha256": "44a8ea0c3f4e488e642b17f1dc532796793672bfa47a5203aa5aec8d27e6877f"
+      "bytes": 5156679,
+      "sha256": "9039c402c60d9a4e1c236a7f79849c12100fe78ecd064ce5c3f63ddbc9040de6"
     },
     {
       "path": "data/four-schools-exploration-20261006.json",
@@ -403,7 +413,7 @@
     {
       "path": "index.html",
       "bytes": 11951,
-      "sha256": "45695dacd3d0653ad771ee2357d4cd32d5d6a6d013d68eddfa6cc08d565c0596"
+      "sha256": "3bd3b47c8a97827b06c4b61d060c64813ceef8abe34efa597a9442ddac3a54c7"
     },
     {
       "path": "package-lock.json",
@@ -422,8 +432,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 15994,
-      "sha256": "b04f0e347386218e7ee911472f1280e29595b77bcb3ba53529a3a367efee631b"
+      "bytes": 16178,
+      "sha256": "8efd5e72d4b928cdd9cf03e744e300b6cde6267899c917331e13328975ac1020"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -597,8 +607,8 @@
     },
     {
       "path": "tests/evidence-reviews.mjs",
-      "bytes": 2247,
-      "sha256": "809b4351585e5e179effd5c3e401b910cfe1946635f560f94a2d73e34a9d8dfc"
+      "bytes": 2391,
+      "sha256": "389e2f2e91192d568574d98c6039a26ed7c83f9ca25183b9e1a815bf4205ae33"
     },
     {
       "path": "tests/existing-doctoral-links-20261019.test.mjs",
@@ -734,6 +744,11 @@
       "path": "tests/fixtures/evidence/ruc-census-followup-20261103.json",
       "bytes": 98729,
       "sha256": "c13eb09ef8bcb30222080161153d1976b79647c05df7d73bb4623e45c1eeaaee"
+    },
+    {
+      "path": "tests/fixtures/evidence/ruc-wang-feifei-20261105.json",
+      "bytes": 32860,
+      "sha256": "1103292540280e085e6944a3a555d4949d72e692e157f7f0f260d58e8683fd4d"
     },
     {
       "path": "tests/fixtures/evidence/tongji-rescreen-20261019.json",
@@ -1271,6 +1286,11 @@
       "sha256": "3edcfb81f086989f38a18dcd4b98cc0e1622c04c27c032ceb7e32a941f899263"
     },
     {
+      "path": "tests/ruc-wang-feifei.test.mjs",
+      "bytes": 1676,
+      "sha256": "e6742edb6013daa01eaeb4b433b9cc405a6c20b5e6f6bf0f59c138b17ebe90f7"
+    },
+    {
       "path": "tests/sequential-evidence.test.mjs",
       "bytes": 3590,
       "sha256": "299ec90e6b5a8569fe44a317420824737b747a1bf72f7e169552b2f20f0db669"
@@ -1384,7 +1404,7 @@
     "baseCommit": "1281ce4740272443563b4a98f421561bacc801f9",
     "scope": "Two inaccurate MSc overview text fragments only; no structure, style or interaction changes"
   },
-  "advisorCatalogCount": 502,
+  "advisorCatalogCount": 503,
   "verifiedDegreeAssociationCount": 57,
   "projectCatalogCount": 94,
   "visibleProjectCount": 94,

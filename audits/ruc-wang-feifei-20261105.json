@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-11-05",
+  "school": "中国人民大学",
+  "addedAdvisorIds": [
+    "ruc-wang-feifei"
+  ],
+  "supersedes": "audits/ruc-census-followup-20261103.json中的王菲菲机器人方向待核状态；旧报告保留其当时核查结论。",
+  "scopeZh": "仅补录王菲菲机器人设计方向，不扩展至其他学校，不声称全校穷尽。",
+  "sources": [
+    {
+      "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Data_Science_and_Big_Data_Analytics/63e329ab1daa48398d2266c65b88c0fc.htm",
+      "title": "王菲菲｜统计学院官方英文师资页",
+      "label": "王菲菲｜统计学院官方英文师资页",
+      "section": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+      "readScope": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+      "access": "primary_page_body",
+      "checkedDate": "2026-11-05"
+    },
+    {
+      "url": "https://stat.ruc.edu.cn/szdw/zzjsjl/azc/index.htm",
+      "title": "王菲菲｜统计学院在职教授名册",
+      "label": "王菲菲｜统计学院在职教授名册",
+      "section": "王菲菲条目：教授、博士生导师、副院长",
+      "readScope": "王菲菲条目：教授、博士生导师、副院长",
+      "access": "primary_page_body",
+      "checkedDate": "2026-11-05"
+    }
+  ],
+  "finding": {
+    "id": "ruc-wang-feifei",
+    "name": "王菲菲",
+    "nameEn": "Feifei Wang",
+    "department": "统计学院数据科学与大数据统计系",
+    "position": "教授；博士生导师",
+    "topics": [
+      "机器人形态设计",
+      "机器人优化设计",
+      "机器人学习"
+    ],
+    "summary": "统计学院教授、博导；官方研究兴趣明确机器人智能与优化设计，论文清单列LASeR和MorphVAE机器人设计工作，并行研究联邦学习、文本与大模型。",
+    "sources": [
+      {
+        "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Data_Science_and_Big_Data_Analytics/63e329ab1daa48398d2266c65b88c0fc.htm",
+        "title": "王菲菲｜统计学院官方英文师资页",
+        "label": "王菲菲｜统计学院官方英文师资页",
+        "section": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+        "readScope": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+        "access": "primary_page_body",
+        "checkedDate": "2026-11-05"
+      },
+      {
+        "url": "https://stat.ruc.edu.cn/szdw/zzjsjl/azc/index.htm",
+        "title": "王菲菲｜统计学院在职教授名册",
+        "label": "王菲菲｜统计学院在职教授名册",
+        "section": "王菲菲条目：教授、博士生导师、副院长",
+        "readScope": "王菲菲条目：教授、博士生导师、副院长",
+        "access": "primary_page_body",
+        "checkedDate": "2026-11-05"
+      }
+    ],
+    "doctoralVerified": true,
+    "doctoralSources": [
+      {
+        "url": "https://stat.ruc.edu.cn/szdw/zzjsjl/azc/index.htm",
+        "title": "王菲菲｜统计学院在职教授名册",
+        "label": "王菲菲｜统计学院在职教授名册",
+        "section": "王菲菲条目：教授、博士生导师、副院长",
+        "readScope": "王菲菲条目：教授、博士生导师、副院长",
+        "access": "primary_page_body",
+        "checkedDate": "2026-11-05"
+      }
+    ],
+    "doctoralEvidence": "统计学院当前在职教授名册正文明确博士生导师；不等于当期招生。",
+    "roboticsEvidence": "官方英文师资页Research Interests明确机器人智能与优化设计，Publications列LASeR（ICLR 2025）与MorphVAE（AAAI 2024）；本轮依据教师页核验方向和成果清单，没有将未读取的论文冒充全文研读",
+    "roboticsSources": [
+      {
+        "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Data_Science_and_Big_Data_Analytics/63e329ab1daa48398d2266c65b88c0fc.htm",
+        "title": "王菲菲｜统计学院官方英文师资页",
+        "label": "王菲菲｜统计学院官方英文师资页",
+        "section": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+        "readScope": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+        "access": "primary_page_body",
+        "checkedDate": "2026-11-05"
+      }
+    ],
+    "appointment": "2017.07–2019.08在人大任博士后，2019.08–2021.08为常规教师Assistant Professor，2021.08起履历列Associate Professor；当前页头及现职名册已列教授。首次本校常规教研任职按2019.08，博士后与晋升不重新计时。",
+    "recruitment": "未核实个人2028博士招生、具体接收意向、申请通道及当前剩余名额；博士生导师身份仅形成方向参考。",
+    "gaps": [
+      "官方英文页头与现职名册为教授，工作经历仍保留2021.08起Associate Professor的旧字段，不据此改回现职副教授。",
+      "官网论文列表姓名星号未定义，不单凭星号断言通讯作者；本轮未取得相关论文完整正文核验。",
+      "机器人硬件、团队规模、学生资源使用及个人指导方式未作独立核验。"
+    ],
+    "works": [
+      {
+        "title": "LASeR",
+        "year": 2025,
+        "venue": "ICLR 2025（官方教师论文清单）",
+        "summaryZh": "官网列入机器人设计相关成果；本轮只核教师论文清单，不据此推断单模块作用、实验性能或通讯作者身份。",
+        "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Data_Science_and_Big_Data_Analytics/63e329ab1daa48398d2266c65b88c0fc.htm",
+        "sources": [
+          {
+            "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Data_Science_and_Big_Data_Analytics/63e329ab1daa48398d2266c65b88c0fc.htm",
+            "title": "王菲菲｜统计学院官方英文师资页",
+            "label": "王菲菲｜统计学院官方英文师资页",
+            "section": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+            "readScope": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+            "access": "primary_page_body",
+            "checkedDate": "2026-11-05"
+          }
+        ]
+      },
+      {
+        "title": "MorphVAE",
+        "year": 2024,
+        "venue": "AAAI 2024（官方教师论文清单）",
+        "summaryZh": "官网列入机器人形态设计相关成果；本轮未阅读全文，方法细节与评测结论不作扩展。",
+        "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Data_Science_and_Big_Data_Analytics/63e329ab1daa48398d2266c65b88c0fc.htm",
+        "sources": [
+          {
+            "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Data_Science_and_Big_Data_Analytics/63e329ab1daa48398d2266c65b88c0fc.htm",
+            "title": "王菲菲｜统计学院官方英文师资页",
+            "label": "王菲菲｜统计学院官方英文师资页",
+            "section": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+            "readScope": "页头Professor；Work Experience；Research Interests；Publications中的LASeR与MorphVAE条目",
+            "access": "primary_page_body",
+            "checkedDate": "2026-11-05"
+          }
+        ]
+      }
+    ]
+  },
+  "coverageLimit": "高瓴30人、信息学院旧90档案及2名补漏的覆盖范围不变；新版信息学院名册、沈栋与苏州部分正文缺口仍存在。",
+  "deniedSourcesNotRetried": true,
+  "cycleReview": "未发现个人2028明确招募或余位证据；历史、身份、研究与当期招生分层。",
+  "additionalRosterReview": {
+    "checkedDate": "2026-11-05",
+    "scope": "信息学院旧站七个专业博士导师目录正文补查",
+    "uniqueNames": [
+      "卢卫",
+      "孟小峰",
+      "左美云",
+      "张孝",
+      "张峰",
+      "李德英",
+      "李翠平",
+      "李锡荣",
+      "杜小勇",
+      "柴云鹏",
+      "梁彬",
+      "梁循",
+      "游伟",
+      "王永才",
+      "石文昌",
+      "程絮森",
+      "范举",
+      "覃飙",
+      "许伟",
+      "金琴",
+      "陈红",
+      "陈跃国"
+    ],
+    "directories": [
+      {
+        "url": "https://info.ruc.edu.cn/jsky/szdw/adszycx/bssds/dsjkxygc1/index.htm",
+        "body_verified": true,
+        "records": [
+          {
+            "name": "陈红",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/418462431bfb4a8280359068cb470e88.htm"
+          },
+          {
+            "name": "陈跃国",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/041edbe694e8488c8e3da4747cc2d3bc.htm"
+          },
+          {
+            "name": "金琴",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/260ab5295d334a67beb7620e931268b1.htm"
+          },
+          {
+            "name": "李翠平",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/aebd5e3b1cfa45f185229034e905ed57.htm"
+          },
+          {
+            "name": "李锡荣",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/fe4411ba1320491698c4c7e555d03510.htm"
+          },
+          {
+            "name": "覃飙",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/fa082078c82443c0a9eeeb741ec4e025.htm"
+          }
+        ],
+        "zhang_jing_present": false
+      },
+      {
+        "url": "https://info.ruc.edu.cn/jsky/szdw/adszycx/bssds/jsjrjyll1/index.htm",
+        "body_verified": true,
+        "records": [
+          {
+            "name": "李德英",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/c2523870862c49758d02a6705c1e1556.htm"
+          },
+          {
+            "name": "孟小峰",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/934ac2eab75a43e0a7759cb6d5209a78.htm"
+          },
+          {
+            "name": "王永才",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/198d5c8fc91c4a0895a1edde318db3a9.htm"
+          }
+        ],
+        "zhang_jing_present": false
+      },
+      {
+        "url": "https://info.ruc.edu.cn/jsky/szdw/adszycx/bssds/dzxx1/index.htm",
+        "body_verified": true,
+        "records": [
+          {
+            "name": "柴云鹏",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/06f9baa19a6b43a9897c773886be5702.htm"
+          },
+          {
+            "name": "陈红",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/418462431bfb4a8280359068cb470e88.htm"
+          },
+          {
+            "name": "陈跃国",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/041edbe694e8488c8e3da4747cc2d3bc.htm"
+          },
+          {
+            "name": "杜小勇",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/7374b0a3f58045fc9543703ccea2eb9c.htm"
+          },
+          {
+            "name": "范举",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/d528f21f2e4b4436956eb0d39126d6e1.htm"
+          },
+          {
+            "name": "金琴",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/260ab5295d334a67beb7620e931268b1.htm"
+          },
+          {
+            "name": "梁彬",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/07258c4d6c4645b8ab8aae0aca0468e7.htm"
+          },
+          {
+            "name": "梁循",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/js_5/bd0337a9f7b2450b829f07d5fa89a7d7.htm"
+          },
+          {
+            "name": "李翠平",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/aebd5e3b1cfa45f185229034e905ed57.htm"
+          },
+          {
+            "name": "李锡荣",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/fe4411ba1320491698c4c7e555d03510.htm"
+          },
+          {
+            "name": "卢卫",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/43edc05040f54656aed4869bb7969de0.htm"
+          },
+          {
+            "name": "覃飙",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/fa082078c82443c0a9eeeb741ec4e025.htm"
+          },
+          {
+            "name": "王永才",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/198d5c8fc91c4a0895a1edde318db3a9.htm"
+          }
+        ],
+        "zhang_jing_present": false
+      },
+      {
+        "url": "https://info.ruc.edu.cn/jsky/szdw/adszycx/bssds/jsjxtjg1/index.htm",
+        "body_verified": true,
+        "records": [
+          {
+            "name": "柴云鹏",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/06f9baa19a6b43a9897c773886be5702.htm"
+          },
+          {
+            "name": "张峰",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/6e7a15816d624b0c993f154b49344747.htm"
+          }
+        ],
+        "zhang_jing_present": false
+      },
+      {
+        "url": "https://info.ruc.edu.cn/jsky/szdw/adszycx/bssds/xxaq1/index.htm",
+        "body_verified": true,
+        "records": [
+          {
+            "name": "梁彬",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/07258c4d6c4645b8ab8aae0aca0468e7.htm"
+          },
+          {
+            "name": "游伟",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/06a81e52c1ff45e0b6e3958095998058.htm"
+          },
+          {
+            "name": "石文昌",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/a875d4c8e58d4ba090af605770d6c651.htm"
+          }
+        ],
+        "zhang_jing_present": false
+      },
+      {
+        "url": "https://info.ruc.edu.cn/jsky/szdw/adszycx/bssds/jsjyyjs1/index.htm",
+        "body_verified": true,
+        "records": [
+          {
+            "name": "杜小勇",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/7374b0a3f58045fc9543703ccea2eb9c.htm"
+          },
+          {
+            "name": "范举",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/d528f21f2e4b4436956eb0d39126d6e1.htm"
+          },
+          {
+            "name": "梁循",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/js_5/bd0337a9f7b2450b829f07d5fa89a7d7.htm"
+          },
+          {
+            "name": "卢卫",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/43edc05040f54656aed4869bb7969de0.htm"
+          },
+          {
+            "name": "张孝",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/6b6da5ffdd06405f89fc1a5e8d3c2265.htm"
+          }
+        ],
+        "zhang_jing_present": false
+      },
+      {
+        "url": "https://info.ruc.edu.cn/jsky/szdw/adszycx/bssds/glkxygc1/index.htm",
+        "body_verified": true,
+        "records": [
+          {
+            "name": "程絮森",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/js_5/aa88747c1cef4c4fb127bb2a0fbe5bca.htm"
+          },
+          {
+            "name": "许伟",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/js_5/2d290100ef644d59838c602d85769ae8.htm"
+          },
+          {
+            "name": "左美云",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/js_5/4e6c250970404e45af4dc37e806c99e7.htm"
+          }
+        ],
+        "zhang_jing_present": false
+      }
+    ],
+    "conclusion": "旧目录去重22名；张静未列其中不能证明其不是博导，旧目录并非完整当前名册。现职79常规职称观察下界不变。朱青孤立旧档案现职及机器人方向未闭合，不加入人数。"
+  }
+}
