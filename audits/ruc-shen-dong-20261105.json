@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-11-05",
+  "school": "中国人民大学",
+  "addedAdvisorIds": [
+    "ruc-shen-dong"
+  ],
+  "supersedes": "此前沈栋任职、机器人研究及博导身份正文缺口由本轮两份独立官方正文补足；原个人页及入职、微型机器人招募线索仍未升级。",
+  "sources": [
+    {
+      "url": "https://news.ruc.edu.cn/1953273992275976194.html",
+      "title": "沈栋｜人大新闻网指导学生研究报道",
+      "label": "沈栋｜人大新闻网指导学生研究报道",
+      "section": "2025-08-07；数学学院分布式人工智能实验室；导师沈栋教授；分数阶学习控制与机械臂轨迹算法段落",
+      "readScope": "2025-08-07；数学学院分布式人工智能实验室；导师沈栋教授；分数阶学习控制与机械臂轨迹算法段落",
+      "access": "primary_page_body",
+      "checkedDate": "2026-11-05"
+    },
+    {
+      "url": "https://zidonghua.hrbust.edu.cn/2026/0105/c4378a103078/pagem.htm",
+      "title": "沈栋｜哈尔滨理工自动化学院主办学术报告简介",
+      "label": "沈栋｜哈尔滨理工自动化学院主办学术报告简介",
+      "section": "2026-01-05；报告专家沈栋及专家简介：人大数学学院教授、博士生导师、智能学习控制",
+      "readScope": "2026-01-05；报告专家沈栋及专家简介：人大数学学院教授、博士生导师、智能学习控制",
+      "access": "primary_page_body",
+      "checkedDate": "2026-11-05"
+    },
+    {
+      "url": "https://info.ruc.edu.cn/xwgg/xygg/0917bac9d080474ba20e5f024e9344e5.htm",
+      "title": "信息学院｜2027推免报名通知",
+      "label": "信息学院｜2027推免报名通知",
+      "section": "2026-06-23学院介绍：三个学系，专任83人、博士生导师32人、硕士生导师64人；报名7月1日至5日已过",
+      "readScope": "2026-06-23学院介绍：三个学系，专任83人、博士生导师32人、硕士生导师64人；报名7月1日至5日已过",
+      "access": "primary_page_body",
+      "checkedDate": "2026-11-05"
+    }
+  ],
+  "finding": {
+    "id": "ruc-shen-dong",
+    "name": "沈栋",
+    "nameEn": "Dong Shen",
+    "department": "数学学院",
+    "position": "吴玉章特聘教授；博士生导师",
+    "topics": [
+      "学习控制",
+      "机械臂控制",
+      "安全规划与控制"
+    ],
+    "summary": "研究智能学习控制、随机系统控制与优化、分布式人工智能；人大校报明确其指导学生开展分数阶学习控制及机械臂轨迹算法研究，作为机器人控制方向收录。",
+    "sources": [
+      {
+        "url": "https://news.ruc.edu.cn/1953273992275976194.html",
+        "title": "沈栋｜人大新闻网指导学生研究报道",
+        "label": "沈栋｜人大新闻网指导学生研究报道",
+        "section": "2025-08-07；数学学院分布式人工智能实验室；导师沈栋教授；分数阶学习控制与机械臂轨迹算法段落",
+        "readScope": "2025-08-07；数学学院分布式人工智能实验室；导师沈栋教授；分数阶学习控制与机械臂轨迹算法段落",
+        "access": "primary_page_body",
+        "checkedDate": "2026-11-05"
+      },
+      {
+        "url": "https://zidonghua.hrbust.edu.cn/2026/0105/c4378a103078/pagem.htm",
+        "title": "沈栋｜哈尔滨理工自动化学院主办学术报告简介",
+        "label": "沈栋｜哈尔滨理工自动化学院主办学术报告简介",
+        "section": "2026-01-05；报告专家沈栋及专家简介：人大数学学院教授、博士生导师、智能学习控制",
+        "readScope": "2026-01-05；报告专家沈栋及专家简介：人大数学学院教授、博士生导师、智能学习控制",
+        "access": "primary_page_body",
+        "checkedDate": "2026-11-05"
+      }
+    ],
+    "doctoralVerified": true,
+    "doctoralSources": [
+      {
+        "url": "https://zidonghua.hrbust.edu.cn/2026/0105/c4378a103078/pagem.htm",
+        "title": "沈栋｜哈尔滨理工自动化学院主办学术报告简介",
+        "label": "沈栋｜哈尔滨理工自动化学院主办学术报告简介",
+        "section": "2026-01-05；报告专家沈栋及专家简介：人大数学学院教授、博士生导师、智能学习控制",
+        "readScope": "2026-01-05；报告专家沈栋及专家简介：人大数学学院教授、博士生导师、智能学习控制",
+        "access": "primary_page_body",
+        "checkedDate": "2026-11-05"
+      }
+    ],
+    "doctoralEvidence": "2026年哈尔滨理工大学自动化学院主办学术报告一手专家简介明确人大数学学院教授、博士生导师；人大校报另核任职及指导研究，不代表当期招生。",
+    "roboticsEvidence": "人大校报2025年学生研究报道明确导师为沈栋教授，并介绍分数阶学习控制、机械臂轨迹算法；报道不提供完整实验条件，不能据此承诺真实机器人平台或量化性能",
+    "roboticsSources": [
+      {
+        "url": "https://news.ruc.edu.cn/1953273992275976194.html",
+        "title": "沈栋｜人大新闻网指导学生研究报道",
+        "label": "沈栋｜人大新闻网指导学生研究报道",
+        "section": "2025-08-07；数学学院分布式人工智能实验室；导师沈栋教授；分数阶学习控制与机械臂轨迹算法段落",
+        "readScope": "2025-08-07；数学学院分布式人工智能实验室；导师沈栋教授；分数阶学习控制与机械臂轨迹算法段落",
+        "access": "primary_page_body",
+        "checkedDate": "2026-11-05"
+      }
+    ],
+    "appointment": "2019.12入职线索仍仅此前学院搜索索引，未升级为全文核验；本轮两份独立正文确认任职身份，不确认首次入职日期，不据职称或晋升称新PI。",
+    "recruitment": "未核实个人2028博士招生、接收意向、申请通道及当前余位；博士指导身份仅作参考。此前微型机器人招生方向只见索引，未作为已读正文招募。",
+    "gaps": [
+      "博士生导师身份来源为报告主办高校一手讲者介绍，人大校报中的该学生为硕士，二者证据范围分开。",
+      "未核验对应论文完整实验条件、硬件平台与量化效果，不把报道中的应用前景写成部署成果。",
+      "首次本校教研任职日期仍待正文确认，2019.12只保留为索引线索。"
+    ],
+    "works": []
+  },
+  "coverage": {
+    "officialAggregate": {
+      "regularFaculty": 83,
+      "doctoralSupervisors": 32,
+      "mastersSupervisors": 64,
+      "source": {
+        "url": "https://info.ruc.edu.cn/xwgg/xygg/0917bac9d080474ba20e5f024e9344e5.htm",
+        "title": "信息学院｜2027推免报名通知",
+        "label": "信息学院｜2027推免报名通知",
+        "section": "2026-06-23学院介绍：三个学系，专任83人、博士生导师32人、硕士生导师64人；报名7月1日至5日已过",
+        "readScope": "2026-06-23学院介绍：三个学系，专任83人、博士生导师32人、硕士生导师64人；报名7月1日至5日已过",
+        "access": "primary_page_body",
+        "checkedDate": "2026-11-05"
+      }
+    },
+    "scope": "2026-06-23官方聚合口径，不是83人已逐名核查；此前79人观察下界不能与83简单作差或认定只漏4人。新版逐名名册仍未恢复。",
+    "departments": [
+      "计算机科学与技术系",
+      "数据科学与技术系",
+      "经济信息管理系"
+    ],
+    "historicalCensus": "旧90档案、77常规职称及2名独立补漏记录不改写为现职全集。"
+  },
+  "observationPool": [
+    {
+      "name": "俞开业",
+      "status": "官方平台正文仅确认智慧治理学院讲师，博士资格和具体机器人任务仍未补足。",
+      "source": "https://brain.ruc.edu.cn/jcyj/jctd/sjznaqzsys/sjznaqzsys_jctd/sjznaqzsys_fzls/66240f6e7bf84c0393986be346df1ce8.htm"
+    },
+    {
+      "name": "张立贤",
+      "status": "本人公开主页脚本明确硕士导师、无年份秋季硕士招募；未核机器人任务或博士资格，不作2028博士招募。",
+      "source": "https://xian1234.github.io/LixianZhang/",
+      "access": "public_page_script_not_rendered"
+    },
+    {
+      "name": "张静",
+      "status": "教授与具身应用有正文；博士资格仍为苏州官方索引证据，未提升。"
+    }
+  ],
+  "cycleReview": "没有新增2028招生或余位证据。2027推免报名公告已过期，仅使用学院介绍聚合师资数据。",
+  "deniedSourcesNotRetried": true
+}
