@@ -22,6 +22,14 @@ try{
   assert.equal(await button(page,'recent').locator('.priority-count').innerText(),String(expected.recent));
   assert.equal(await button(page,'fall2028_phd').locator('.priority-count').innerText(),String(expected.fall2028_phd));
   assert(await page.locator('#advisor-priorities').isVisible());
+  const known=expected.fall2028_phd+expected.year2028_phd+expected.graduate2028;
+  assert((await page.locator('.priority-intake-summary').innerText()).includes(`已核实 2028 招募线索：${known} 位导师`));
+  await button(page,'known2028').click();await waitCount(page,known);
+  assert.equal(await page.locator('.advisor-card').count(),known);
+  assert.equal(await page.locator('#intake-filter').inputValue(),'known2028');
+  await page.screenshot({path:path.join(out,`all-2028-${width}.png`)});
+  await button(page,'known2028').click();await waitCount(page,c.advisors.length);
+  assert.equal(await page.locator('#intake-filter').inputValue(),'');
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'no horizontal page overflow');
   await page.screenshot({path:path.join(out,`priorities-${width}.png`)});
   await button(page,'recent').click();await waitCount(page,expected.recent);

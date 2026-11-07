@@ -1,4 +1,4 @@
-import {safeUrl,isBrowsableRoute} from './core.js?v=c97baac0a033';
+import {safeUrl,isBrowsableRoute} from './core.js?v=8581fa9d7562';
 const statuses=new Set(['required','conditional','published','not_specified','unknown','optional','required_count_unknown','required_for_hkpfs','published_school_only']);
 export function normalizeMaterialSupplement(data,catalog){
  if(data?.schemaVersion!==1||!Array.isArray(data.records)||!Array.isArray(data.sources))throw Error('Invalid material supplement');

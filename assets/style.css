@@ -692,3 +692,10 @@ footer a { display: inline-flex; align-items: center; min-height: 44px; color: v
   main[data-current-view="advisors"]>#page-overview { grid-row: 4; }
   main[data-current-view="advisors"]>.workspace { grid-row: 5; }
 }
+
+.priority-intake-summary { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 16px; margin-bottom: 14px; background: #f2eddf; border: 1px solid #d8ccb8; border-radius: 8px; }
+.priority-intake-summary strong { color: #413a2f; font-size: 16px; }
+.priority-intake-summary p { margin: 7px 0 0; color: #625a50; font-size: 14px; line-height: 1.7; }
+.priority-intake-summary button { flex-shrink: 0; }
+.priority-intake-summary button[aria-pressed="true"] { background: #413a2f; color: #fff; }
+@media (max-width: 600px) { .priority-intake-summary { flex-direction: column; align-items: stretch; } .priority-intake-summary button { white-space: normal; } }

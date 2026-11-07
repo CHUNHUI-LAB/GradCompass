@@ -1,6 +1,6 @@
-import {recruitmentPriority,intakeLabels} from './recruitment-priorities.js?v=1d0333d710b3';
-import {browseAdvisors,filterOpportunities,escapeHTML,readerText,safeUrl,institutionLabel,rankOf,rankLabels,themesFor,textValue} from './core.js?v=c97baac0a033';
-import {profileSummary} from './profiles.js?v=e88b50873ed1';
+import {recruitmentPriority,intakeLabels} from './recruitment-priorities.js?v=b184c832a809';
+import {browseAdvisors,filterOpportunities,escapeHTML,readerText,safeUrl,institutionLabel,rankOf,rankLabels,themesFor,textValue} from './core.js?v=8581fa9d7562';
+import {profileSummary} from './profiles.js?v=41a0aedcf041';
 import {appointmentStatus,appointmentLabels} from './appointments.js?v=a8c3022d2fb3';
 
 const e=value=>escapeHTML(readerText(value));

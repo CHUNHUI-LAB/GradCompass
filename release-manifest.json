@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 85571,
-      "sha256": "b4e1515884074903195a659727793926a9e6e386b1c3fe64f693268a8668d79c"
+      "bytes": 86442,
+      "sha256": "c7aeb739d88f8bdf21e62c9022438129b3fdd4e89618af70e863daa6d38b68ee"
     },
     {
       "path": "REDESIGN.md",
@@ -58,17 +58,17 @@
     {
       "path": "assets/advisor-cards.js",
       "bytes": 7766,
-      "sha256": "480635cca3e2f79d212d40c2fcd07b4179be81a6181fa0746904f2a284a3e17d"
+      "sha256": "462234c2d7e03fe4086726ca982303b2d7bc5bc9d7dc23f4cb4d2890d65548e4"
     },
     {
       "path": "assets/advisor-priorities.js",
-      "bytes": 2706,
-      "sha256": "49acf7218c73bcb08bd1251b89ef96737000247cb5d0782bacb74f2c1b2a9ffb"
+      "bytes": 3523,
+      "sha256": "be6b916339e267ba7d8151a315b68e4508940760fc35a990e585402d60dafba4"
     },
     {
       "path": "assets/app.js",
       "bytes": 78139,
-      "sha256": "8f93b410f870b7cee7cac87e6aa19449f4333c567fdba71b1cd59c37090a0eee"
+      "sha256": "e6e04b84d3f49126f902a93e240e093e4b293d9e11ad05b0effe689a47b16cd8"
     },
     {
       "path": "assets/appointments.js",
@@ -83,17 +83,17 @@
     {
       "path": "assets/core.js",
       "bytes": 35244,
-      "sha256": "c97baac0a033d9c5821fd855113d6ca2ed4ab5f5a41c288b446c864a972918a3"
+      "sha256": "8581fa9d75622549307b3733bdfa6ff75fe124d8a039df3af522c19ac3ef95e7"
     },
     {
       "path": "assets/editorial-views.js",
       "bytes": 16499,
-      "sha256": "70ac0d5b5617cce589abadac70ad0942c7c41d841b7f1825bd6edb1a15b8e1f1"
+      "sha256": "03225c981d8454782eb680dd8a2358f93e44a2fb3f885bbb5b12cb03f4eeef51"
     },
     {
       "path": "assets/experiences.js",
       "bytes": 23160,
-      "sha256": "970625935d153124b3d338977b4cfb1fce826534fdbc77f099fccf9878c1b3d0"
+      "sha256": "80150fa2aeef760f719fb447d03fa8edfb974e3b0d03a651e4fe1dc9ebf25b6c"
     },
     {
       "path": "assets/favicon.svg",
@@ -103,27 +103,27 @@
     {
       "path": "assets/material-supplement.js",
       "bytes": 1866,
-      "sha256": "72691208f8ae42b2d9e342fcd5ca1fccea68c539ad8e87d61084246c8cff8796"
+      "sha256": "f2f07b6465372e0373bba6952277130fc83002a07779fa10d7f925252166672a"
     },
     {
       "path": "assets/opportunity-comparison.js",
       "bytes": 12397,
-      "sha256": "eb8bc9e9bee963ec329507dbfb4dcc2a3823916b085f45ab5264a571a0862a18"
+      "sha256": "778d706990b3b800849e844056311cb3a02f5c0b7f4a676dfe6afc29155f7bd9"
     },
     {
       "path": "assets/page-overviews.js",
       "bytes": 15697,
-      "sha256": "d423aab3b74694310ab5f7d456ee91e99dd9c02db4996c360efdff55b3d1619b"
+      "sha256": "88908e7129ff16ed394033b7affdb7a84ba2fe445be5e1c1e56ead859453541d"
     },
     {
       "path": "assets/profiles.js",
       "bytes": 5875,
-      "sha256": "e88b50873ed1fe12da7d39e11ff3128f9cfede60b147363d26eca8d5d290f4fe"
+      "sha256": "41a0aedcf0413f2d6411ae40e1c125b61f9e667192c3bb96178479f257264e32"
     },
     {
       "path": "assets/project-comparison.js",
       "bytes": 13356,
-      "sha256": "c0dac986cbaaf1082cb4dc36df8022d5a6df38e3bb191a766f30951b6d29155a"
+      "sha256": "216dffbb1199bd7314e42c7f140fdabc7ed2a0a8ae11078c1549e6bf026768a8"
     },
     {
       "path": "assets/reader.js",
@@ -133,12 +133,12 @@
     {
       "path": "assets/record-summaries.js",
       "bytes": 14127,
-      "sha256": "8bcf05aba05c3c27017f9fc4cf45f4db19fde62439b67f1b63e6f4bfe78e0ef7"
+      "sha256": "efcf7eb667c9e0ed2d21fbed8970e9fcb58694c2a236353b560df5f90d6d6fd6"
     },
     {
       "path": "assets/recruitment-priorities.js",
-      "bytes": 2012,
-      "sha256": "1d0333d710b3181434ca090fb1323a7689d49079a6ffd3479ecb486a8bf4daa0"
+      "bytes": 2227,
+      "sha256": "b184c832a809db0df7b2f2ed4e4944ae07de8e7a72849bd0d259d148b7aaf17a"
     },
     {
       "path": "assets/result-dom.js",
@@ -147,8 +147,8 @@
     },
     {
       "path": "assets/style.css",
-      "bytes": 54477,
-      "sha256": "64a3cdf1f5eeb9abe61a3031e70fe863f7782b611aa6ba8eecd3289397be381c"
+      "bytes": 55163,
+      "sha256": "8195f130379d80cae4667e64afdbfebe4025ebd329e480c647e55418414ed3ad"
     },
     {
       "path": "audits/985-bit-20261105.json",
@@ -254,6 +254,16 @@
       "path": "audits/pku-expansion-summary-20261019.md",
       "bytes": 8690,
       "sha256": "305aee8f09de9e0a2cd45f41f3a41aa95948451faa0b502c07a1b0adb01a096f"
+    },
+    {
+      "path": "audits/recruitment-2028-20261107.json",
+      "bytes": 501551,
+      "sha256": "0271cdb7e55d758d77e8e54ef9d44f8596dd50158939c1b592df3f248077ed07"
+    },
+    {
+      "path": "audits/recruitment-2028-20261107.md",
+      "bytes": 3633,
+      "sha256": "037ea450d711980eca185b49482e876f7097b4bcc7ae89970a67ec5f031705b2"
     },
     {
       "path": "audits/rescreen-20261026.json",
@@ -462,8 +472,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 12446,
-      "sha256": "6cb34e16a2e582306fc4cf670e6186821f753dfe8d61263a31e3ccf90bb06d77"
+      "bytes": 12514,
+      "sha256": "64fed5476282cc32066dd1cfe3a91ed94fa089e6557f12bf124f560829c82599"
     },
     {
       "path": "package-lock.json",
@@ -482,8 +492,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 16976,
-      "sha256": "27ae6ef49b5099f891daf5afad219d0121371bd6ba96d3e61b08f54f4a68a40f"
+      "bytes": 17116,
+      "sha256": "1495d31a14a1f18ccac746c655d5289e4a05ba929fa1d96e15cdea14bd246d4c"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -517,8 +527,8 @@
     },
     {
       "path": "tests/advisor-priorities-browser.mjs",
-      "bytes": 4902,
-      "sha256": "df344dd2fba73f9bd1852ee9ad1037320dcf5cbbebfd678b792bfd6e6fac2dd1"
+      "bytes": 5556,
+      "sha256": "194d413ef79d8e2704148ce27e2847719c47158aef2300ae3b59297a99c34bb7"
     },
     {
       "path": "tests/advisor-priorities.test.mjs",
@@ -1324,6 +1334,11 @@
       "path": "tests/recruitment-baseline.mjs",
       "bytes": 800,
       "sha256": "829c7f23b3e9c091674b952b6c59e6603a45690d045701eb3cf37629cc906641"
+    },
+    {
+      "path": "tests/recruitment-summary-20261107.test.mjs",
+      "bytes": 3289,
+      "sha256": "847f606e54f120a91be1866789e3bf258610a0b4d1eae23e35382532bdfef14e"
     },
     {
       "path": "tests/recruitment-update.test.mjs",
