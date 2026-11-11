@@ -592,7 +592,7 @@ async function loadExperienceSupplement(){
  refreshOptionalView('experiences');
 }
 async function loadProfileSupplement(){
- try{advisorProfiles=profileMap(await optionalJSON(new URL('../data/advisor-profiles.json?v=f09bfaa8c7f4',import.meta.url)),catalog.advisors);catalog={...catalog,advisorProfiles};profileSupplementState='ready';}
+ try{advisorProfiles=profileMap(await optionalJSON(new URL('../data/advisor-profiles.json?v=6fb57ef638f8',import.meta.url)),catalog.advisors);catalog={...catalog,advisorProfiles};profileSupplementState='ready';}
  catch{profileSupplementState='unavailable';}
  refreshOptionalView('advisors');refreshOptionalDetail('advisor');
 }
@@ -605,7 +605,7 @@ async function initialize(){
  if(initializing)return;initializing=true;
  const retry=$('#view-content').querySelector?.('[data-retry-core]');if(retry){retry.disabled=true;retry.textContent='正在载入…';}
  try{
-  const responses=await Promise.all(['catalog.json?v=8461e42b5950','ra-positions.json','update-status.json'].map(name=>fetch(new URL('../data/'+name,import.meta.url))));
+  const responses=await Promise.all(['catalog.json?v=95e3ec914eae','ra-positions.json','update-status.json'].map(name=>fetch(new URL('../data/'+name,import.meta.url))));
   if(responses.some(res=>!res.ok))throw Error('数据读取失败，请重试');
   const [academicData,raData,statusData]=await Promise.all(responses.map(res=>res.json()));
   if(!Array.isArray(academicData.advisors)||!Array.isArray(academicData.routes))throw Error('数据格式暂不可用');

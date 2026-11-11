@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "baseCommit": "4653bbd56a237a618a58c6f599e32e071ddf7094",
+  "reviewDate": "2026-11-11",
+  "scope": "上线卡片标签纠正：仅卢宇/余胜泉各summary与cardSummaryZh共4字段去除否定句，研究边界保留在overview/caveats；不改资格、招生、来源、路线或数量。",
+  "officialEvidence": [
+    {
+      "url": "https://aic-fe.bnu.edu.cn/zxgk/zzjg/index.html",
+      "title": "北京师范大学未来教育高精尖创新中心组织架构",
+      "section": "卢宇领导团队研发智慧学伴教育机器人；支持教育机器人/HRI研究描述，非运动控制主线。"
+    },
+    {
+      "url": "https://aic-fe.bnu.edu.cn/zxgk/yjtd/yjtd/16683.html",
+      "title": "北京师范大学未来教育高精尖创新中心卢宇团队资料",
+      "section": "教育服务机器人项目与教育/社交机器人系统论文作者；余胜泉为跨学科共同作者，不升级为控制实验室负责人。"
+    }
+  ],
+  "operations": [
+    {
+      "file": "data/catalog.json",
+      "path": "/advisors/743/summary",
+      "operation": "replace",
+      "old": "教育服务机器人、社交机器人与人机交互；智慧学伴机器人系统。不是已核实的机器人运动控制或自动驾驶导师。",
+      "value": "教育服务机器人、社交机器人与人机交互；智慧学伴机器人系统。"
+    },
+    {
+      "file": "data/catalog.json",
+      "path": "/advisors/744/summary",
+      "operation": "replace",
+      "old": "智能教育、智慧学伴教育机器人系统与社交机器人研究的跨学科共同作者；不把共同作者身份升级为机器人控制实验室负责人。",
+      "value": "智能教育、智慧学伴教育机器人系统与社交机器人研究的跨学科共同作者。"
+    },
+    {
+      "file": "data/advisor-profiles.json",
+      "path": "/profiles/743/cardSummaryZh",
+      "operation": "replace",
+      "old": "教育服务机器人、社交机器人与人机交互；智慧学伴机器人系统。不是已核实的机器人运动控制或自动驾驶导师。。",
+      "value": "教育服务机器人、社交机器人与人机交互；智慧学伴机器人系统。"
+    },
+    {
+      "file": "data/advisor-profiles.json",
+      "path": "/profiles/744/cardSummaryZh",
+      "operation": "replace",
+      "old": "智能教育、智慧学伴教育机器人系统与社交机器人研究的跨学科共同作者；不把共同作者身份升级为机器人控制实验室负责人。。",
+      "value": "智能教育、智慧学伴教育机器人系统与社交机器人研究的跨学科共同作者。"
+    }
+  ]
+}

@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 88122,
-      "sha256": "f419eab6f4c2d380a70d8131667412a254ab87b88ad1c8d067ab4d03ee848177"
+      "bytes": 88318,
+      "sha256": "4b9e9e952623e9f7f4840f81e17857c7af3613561750fda2b37e60da1cec298e"
     },
     {
       "path": "REDESIGN.md",
@@ -68,7 +68,7 @@
     {
       "path": "assets/app.js",
       "bytes": 78139,
-      "sha256": "44427658e0b9ef9baf7c82cb936f84d558f7a7d88ab3ed1c1896db9e7e1e2be2"
+      "sha256": "5ee2541ec53b4cb4758935630be74c7e3aa49ab925e7adfe76d8b74d6a6f034a"
     },
     {
       "path": "assets/appointments.js",
@@ -362,8 +362,8 @@
     },
     {
       "path": "data/advisor-profiles.json",
-      "bytes": 5852979,
-      "sha256": "f09bfaa8c7f427cdf88998fd2be8d2dd14dc5a76f0c62328898abff6d7430904"
+      "bytes": 5852841,
+      "sha256": "6fb57ef638f8adc915459ac36af597966ffeebaee555c1aa044a8c06264ece76"
     },
     {
       "path": "data/application-experience-provenance.json",
@@ -382,8 +382,8 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 6388898,
-      "sha256": "8461e42b5950a4e701192289fb0f5dd8cbc71e10b69e68fdbff07e3df292eaa6"
+      "bytes": 6388766,
+      "sha256": "95e3ec914eae5308cabb78c2f1fe274190f98a1d52f10b0c12364b328ac7d12d"
     },
     {
       "path": "data/four-schools-exploration-20261006.json",
@@ -493,7 +493,7 @@
     {
       "path": "index.html",
       "bytes": 12514,
-      "sha256": "ceee6aebbfcb68c0d7aefcf4bfe81f3b904b4eb6df5551e9fb891d97113eb9ff"
+      "sha256": "95a25d273a9698521298d27b4e2ac72a67e0ebc05aac8f25dde5e5cb7d7f8b8a"
     },
     {
       "path": "package-lock.json",
@@ -512,8 +512,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 17484,
-      "sha256": "747339be02704408a98bd94e06a76ef9916dc27a8d296499f3e697a0683bca02"
+      "bytes": 17620,
+      "sha256": "2650825e0b014b3867fdc3d98d7a6360e3b57d95ecf0fd80eba557347db0bd91"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -584,6 +584,11 @@
       "path": "tests/bit-expansion-20261105.test.mjs",
       "bytes": 3190,
       "sha256": "bd56e1d7d15b46bd067e074bbae646fc5b4e2db9c898fd09dfb4ffd33798e28f"
+    },
+    {
+      "path": "tests/bnu-card-themes-correction-20261111.test.mjs",
+      "bytes": 2720,
+      "sha256": "d099cf59657ea872881af4fa56262d6496a8167737a5594f620cf4e2fd7e4bc0"
     },
     {
       "path": "tests/bnu-expansion-20261111.test.mjs",
@@ -717,8 +722,8 @@
     },
     {
       "path": "tests/evidence-reviews.mjs",
-      "bytes": 3080,
-      "sha256": "824d6790bd80e421687e9a27dac543ab140e665abe1304db073edd95a2f0c38f"
+      "bytes": 3236,
+      "sha256": "53460cfa97a024f14b9710c4c1817228eb94561a147ffa893b83ca9a67b867eb"
     },
     {
       "path": "tests/existing-doctoral-links-20261019.test.mjs",
@@ -829,6 +834,11 @@
       "path": "tests/fixtures/evidence/appointments-20261010.json",
       "bytes": 409075,
       "sha256": "49d0b3ced5962b4686c0e368998f471bc20a8922e5e4ce2155aab9156a8e99c3"
+    },
+    {
+      "path": "tests/fixtures/evidence/bnu-card-themes-correction-20261111.json",
+      "bytes": 2656,
+      "sha256": "e9171c97806b78827919bae26918f0a6c084c6d034d0f24cf0b37aee318ff859"
     },
     {
       "path": "tests/fixtures/evidence/existing-doctoral-links-20261019.json",
