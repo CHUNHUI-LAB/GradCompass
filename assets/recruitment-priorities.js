@@ -8,6 +8,10 @@ function validDate(value){if(typeof value!=='string'||!/^\d{4}-\d{2}-\d{2}$/.tes
 function hasPersonalEvidence(row,asOf){
  return row?.status==='explicit'&&row.individualRecruitmentVerified===true&&personalSources.has(row.sourceStatus)&&Array.isArray(row.sources)&&row.sources.some(s=>{try{return new URL(s.url).protocol==='https:'&&validDate(s.checkedDate)&&s.checkedDate<=asOf;}catch{return false;}});
 }
+// A named MSc plan enables discovery only, never a verified programme association.
+export function hasPersonalMSc2028(advisor,asOf=appointmentWindow.asOf){
+ return validDate(asOf)&&Array.isArray(advisor?.openingDetails)&&advisor.openingDetails.some(row=>row?.degree==='MSc'&&hasPersonalEvidence(row,asOf)&&(row.cycle2028FallVerified===true||row.cycle2028IntakeVerified===true));
+}
 export function recruitmentPriority(advisor,asOf=appointmentWindow.asOf){
  if(!validDate(asOf))return 'unknown';
  const rows=(advisor?.openingDetails||[]).filter(row=>hasPersonalEvidence(row,asOf));
@@ -21,6 +25,7 @@ export function intakeMatches(advisor,filters={}){
  if(!Object.hasOwn(intakeLabels,filters.intake))return false;
  const degree=filters.opportunityType||filters.degree;
  const priority=recruitmentPriority(advisor);
+ if(filters.intake==='known2028'&&degree==='MSc')return hasPersonalMSc2028(advisor);
  if(filters.intake==='known2028')return priority!=='unknown'&&(!degree||(degree==='PhD'&&['fall2028_phd','year2028_phd'].includes(priority)));
  if(degree&&filters.intake!=='unknown'&&(degree!=='PhD'||filters.intake==='graduate2028'))return false;
  return priority===filters.intake;

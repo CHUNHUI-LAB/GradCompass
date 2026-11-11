@@ -1,6 +1,6 @@
-import {escapeHTML} from './core.js?v=99b67a97a618';
+import {escapeHTML} from './core.js?v=f258528dc7a9';
 import {appointmentStatus,appointmentWindow} from './appointments.js?v=a8c3022d2fb3';
-import {recruitmentPriority,intakeLabels} from './recruitment-priorities.js?v=b184c832a809';
+import {recruitmentPriority,intakeLabels} from './recruitment-priorities.js?v=3a633ed4d07a';
 
 export function priorityCounts(catalog){
  const counts={recent:0,fall2028_phd:0,year2028_phd:0,graduate2028:0,unknown:0};

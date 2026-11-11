@@ -101,6 +101,7 @@ files.extend(['assets/recruitment-priorities.js','assets/advisor-priorities.js',
 files.extend(['audits/985-bit-20261105.json','audits/985-bit-20261105.md','tests/fixtures/evidence/985-bit-20261105.json','tests/bit-expansion-20261105.test.mjs'])
 files.extend(['audits/recruitment-2028-20261107.json','audits/recruitment-2028-20261107.md','tests/recruitment-summary-20261107.test.mjs'])
 files.extend(['audits/985-cau-20261108.json','audits/985-cau-20261108.md','tests/fixtures/evidence/985-cau-20261108.json','tests/cau-expansion-20261108.test.mjs'])
+files.extend(['audits/985-bnu-20261111.json','audits/985-bnu-20261111.md','tests/fixtures/evidence/985-bnu-20261111.json','tests/bnu-expansion-20261111.test.mjs','tests/personal-msc-discovery.test.mjs'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):

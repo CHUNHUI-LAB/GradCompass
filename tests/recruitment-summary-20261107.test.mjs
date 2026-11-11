@@ -1,10 +1,12 @@
 import test from 'node:test';
+import {reviewedPublicData} from './reviewed-public-data.mjs';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {recruitmentPriority,intakeMatches} from '../assets/recruitment-priorities.js';
 import {renderAdvisorPriorities,priorityCounts} from '../assets/advisor-priorities.js';
 import {browseAdvisors,filterOpportunities} from '../assets/core.js';
-const catalog=JSON.parse(fs.readFileSync(new URL('../data/catalog.json',import.meta.url)));
+// Preserve the November 7 evidence boundary; current additions have their own tests.
+const catalog=reviewedPublicData(p=>fs.readFileSync(new URL('../'+p,import.meta.url)),{throughReceipt:'tests/fixtures/evidence/985-bit-20261105.json'})['data/catalog.json'];
 const get=id=>catalog.advisors.find(a=>a.id===id);
 
 test('all 2028 signal entry reveals existing records without converting year or degree uncertainty to Fall PhD',()=>{

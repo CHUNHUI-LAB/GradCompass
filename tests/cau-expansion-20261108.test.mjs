@@ -8,7 +8,7 @@ const c=read('data/catalog.json'),p=read('data/advisor-profiles.json'),a=read('a
 const rows=c.advisors.filter(x=>x.institution==='CAU'),profiles=p.profiles.filter(x=>x.advisorId.startsWith('cau-')),window=createAppointmentWindow('2026-11-08');
 test('CAU adds one school without rewriting any earlier advisor, route or profile',()=>{
  const before=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/985-bit-20261105.json'});
- assert.equal(rows.length,52);assert.equal(profiles.length,52);assert.equal(a.addedCount,52);assert.equal(c.advisors.length,734);assert.equal(c.routes.length,97);
+ assert.equal(rows.length,52);assert.equal(profiles.length,52);assert.equal(a.addedCount,52);const historical=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/985-cau-20261108.json'})['data/catalog.json'];assert.equal(historical.advisors.length,734);assert.equal(historical.routes.length,97);
  assert.deepEqual(c.advisors.slice(0,682),before['data/catalog.json'].advisors);assert.deepEqual(c.routes.slice(0,96),before['data/catalog.json'].routes);assert.deepEqual(p.profiles.slice(0,682),before['data/advisor-profiles.json'].profiles);
  assert.equal(new Set(rows.map(x=>x.id)).size,52);assert.equal(rows.filter(x=>x.department.startsWith('工学院')).length,22);assert.equal(rows.filter(x=>x.department.startsWith('信息与电气')).length,20);
 });

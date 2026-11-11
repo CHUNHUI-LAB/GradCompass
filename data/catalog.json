@@ -125702,6 +125702,1303 @@
       ],
       "checkedDate": "2026-11-08",
       "sourceFile": "audits/985-cau-20261108.json"
+    },
+    {
+      "id": "bnu-huang-yongzhen",
+      "name": "黄永祯",
+      "nameZh": "黄永祯",
+      "institution": "BNU",
+      "department": "人工智能学院",
+      "position": "教授",
+      "topics": [
+        "具身智能",
+        "多模态感知",
+        "计算机视觉"
+      ],
+      "summary": "具身智能、多模态感知与无人机视角视觉识别",
+      "profileUrl": "https://ai.bnu.edu.cn/xygk/szdw/zgj/bfed57e2f8fc4de2a6b370063517f801.htm",
+      "routeIds": [
+        "bnu-doctoral-faculty-reference-20261111"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "bnu-doctoral-faculty-reference-20261111",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "官方个人页明确博士生导师；学术/专业类别、年度招生资格、正式报考通道未逐人核定。",
+          "sources": [
+            {
+              "url": "https://ai.bnu.edu.cn/xygk/szdw/zgj/bfed57e2f8fc4de2a6b370063517f801.htm",
+              "title": "黄永祯官方资料",
+              "label": "黄永祯官方资料",
+              "section": "现职、博士指导身份、研究方向与任职经历",
+              "readScope": "现职、博士指导身份、研究方向与任职经历",
+              "access": "official_body",
+              "checkedDate": "2026-11-11"
+            }
+          ],
+          "checkedDate": "2026-11-11",
+          "sourceCycle": "博士身份参考；年度资格和个人周期分开核定",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2028声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、本人接收与余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "本次检查来源中未见个人明确2028招生声明；不表示不招生，不将常年招收或2027计划改写为2028。",
+      "openings": {
+        "msc": "个人硕士周期与名额未核实",
+        "mphil": "未核实",
+        "phd": "官方个人页明确博士生导师；学术/专业类别、年度招生资格、正式报考通道未逐人核定。",
+        "ra": "未核实公开岗位",
+        "cycle2027": "旧年份资料不滚动为2028",
+        "cycle2028": "本次检查来源中未见个人明确2028招生声明；不表示不招生，不将常年招收或2027计划改写为2028。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "不以近五年任职或博士指导资格自动判定新PI。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "首次教研任职证据见任职审阅；不把晋升等同入职。"
+      },
+      "sources": [
+        {
+          "url": "https://ai.bnu.edu.cn/xygk/szdw/zgj/bfed57e2f8fc4de2a6b370063517f801.htm",
+          "title": "黄永祯官方资料",
+          "label": "黄永祯官方资料",
+          "section": "现职、博士指导身份、研究方向与任职经历",
+          "readScope": "现职、博士指导身份、研究方向与任职经历",
+          "access": "official_body",
+          "checkedDate": "2026-11-11"
+        }
+      ],
+      "caveats": [
+        "官方个人页明确博士生导师；学术/专业类别、年度招生资格、正式报考通道未逐人核定。",
+        "只据个人公开方向、项目与成果表判定；未阅读全文或验证系统性能。",
+        "官网明确具身智能与多模态感知，含无人机视角步态识别；非声称机器人控制主线",
+        "学院2027本直博通知仅保留原年份参考，2026-09-10截止，不证明2028个人名额。"
+      ],
+      "checkedDate": "2026-11-11",
+      "sourceFile": "audits/985-bnu-20261111.json"
+    },
+    {
+      "id": "bnu-hu-xiaoyan",
+      "name": "胡晓雁",
+      "nameZh": "胡晓雁",
+      "institution": "BNU",
+      "department": "人工智能学院",
+      "position": "副教授",
+      "topics": [
+        "三维视觉",
+        "具身智能",
+        "运动捕捉"
+      ],
+      "summary": "三维视觉、数字人运动捕捉与具身交互",
+      "profileUrl": "https://ai.bnu.edu.cn/xygk/szdw/fgj/7f5173f79e52438d898a4b629f5f8e75.htm",
+      "routeIds": [
+        "bnu-doctoral-faculty-reference-20261111"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "bnu-doctoral-faculty-reference-20261111",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "官方个人页明确博士生导师；学术/专业类别、年度招生资格、正式报考通道未逐人核定。",
+          "sources": [
+            {
+              "url": "https://ai.bnu.edu.cn/xygk/szdw/fgj/7f5173f79e52438d898a4b629f5f8e75.htm",
+              "title": "胡晓雁官方资料",
+              "label": "胡晓雁官方资料",
+              "section": "现职、博士指导身份、研究方向与任职经历",
+              "readScope": "现职、博士指导身份、研究方向与任职经历",
+              "access": "official_body",
+              "checkedDate": "2026-11-11"
+            }
+          ],
+          "checkedDate": "2026-11-11",
+          "sourceCycle": "博士身份参考；年度资格和个人周期分开核定",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2028声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、本人接收与余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "本次检查来源中未见个人明确2028招生声明；不表示不招生，不将常年招收或2027计划改写为2028。",
+      "openings": {
+        "msc": "个人硕士周期与名额未核实",
+        "mphil": "未核实",
+        "phd": "官方个人页明确博士生导师；学术/专业类别、年度招生资格、正式报考通道未逐人核定。",
+        "ra": "未核实公开岗位",
+        "cycle2027": "旧年份资料不滚动为2028",
+        "cycle2028": "本次检查来源中未见个人明确2028招生声明；不表示不招生，不将常年招收或2027计划改写为2028。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "不以近五年任职或博士指导资格自动判定新PI。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "首次教研任职证据见任职审阅；不把晋升等同入职。"
+      },
+      "sources": [
+        {
+          "url": "https://ai.bnu.edu.cn/xygk/szdw/fgj/7f5173f79e52438d898a4b629f5f8e75.htm",
+          "title": "胡晓雁官方资料",
+          "label": "胡晓雁官方资料",
+          "section": "现职、博士指导身份、研究方向与任职经历",
+          "readScope": "现职、博士指导身份、研究方向与任职经历",
+          "access": "official_body",
+          "checkedDate": "2026-11-11"
+        }
+      ],
+      "caveats": [
+        "官方个人页明确博士生导师；学术/专业类别、年度招生资格、正式报考通道未逐人核定。",
+        "只据个人公开方向、项目与成果表判定；未阅读全文或验证系统性能。",
+        "招生方向明确具身智能/三维视觉；主要履历为数字人与运动捕捉，属于交叉而非已证实实体机器人全栈"
+      ],
+      "checkedDate": "2026-11-11",
+      "sourceFile": "audits/985-bnu-20261111.json"
+    },
+    {
+      "id": "bnu-huang-shisheng",
+      "name": "黄石生",
+      "nameZh": "黄石生",
+      "institution": "BNU",
+      "department": "人工智能学院",
+      "position": "副教授",
+      "topics": [
+        "SLAM",
+        "三维重建",
+        "多传感器融合"
+      ],
+      "summary": "视觉SLAM、多传感器融合定位与在线三维重建",
+      "profileUrl": "https://ai.bnu.edu.cn/xygk/szdw/fgj/b7a9a28e8e254f2ca29c6926eeb31e60.htm",
+      "routeIds": [
+        "bnu-doctoral-faculty-reference-20261111"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "bnu-doctoral-faculty-reference-20261111",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "官方个人页明确博士生导师；学术/专业类别、年度招生资格、正式报考通道未逐人核定。",
+          "sources": [
+            {
+              "url": "https://ai.bnu.edu.cn/xygk/szdw/fgj/b7a9a28e8e254f2ca29c6926eeb31e60.htm",
+              "title": "黄石生官方资料",
+              "label": "黄石生官方资料",
+              "section": "现职、博士指导身份、研究方向与任职经历",
+              "readScope": "现职、博士指导身份、研究方向与任职经历",
+              "access": "official_body",
+              "checkedDate": "2026-11-11"
+            }
+          ],
+          "checkedDate": "2026-11-11",
+          "sourceCycle": "博士身份参考；年度资格和个人周期分开核定",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2028声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、本人接收与余位分别核实。",
+      "defaultVisible": true,
+      "opening": "explicit",
+      "openingSummary": "本人主页2026/07公开计划：2028年秋季硕士2名、博士1名。计划人数不是当前剩余名额；正式项目关联、博士类别、申请条件和资助另核。",
+      "openings": {
+        "msc": "本人2026/07声明：2028年秋季计划招收硕士2名；不是当前剩余名额。正式通道、条件和资助另核。",
+        "mphil": "未核实",
+        "phd": "本人2026/07声明：2028年秋季计划招收博士1名；不是当前剩余名额。正式通道、条件和资助另核。",
+        "ra": "未核实公开岗位",
+        "cycle2027": "旧年份资料不滚动为2028",
+        "cycle2028": "本人主页2026/07公开计划：2028年秋季硕士2名、博士1名。计划人数不是当前剩余名额；正式项目关联、博士类别、申请条件和资助另核。"
+      },
+      "openingDetails": [
+        {
+          "degree": "MSc",
+          "status": "explicit",
+          "summary": "本人2026/07声明：2028年秋季计划招收硕士2名；不是当前剩余名额。正式通道、条件和资助另核。",
+          "cycle2027FallVerified": false,
+          "cycle2027IntakeVerified": false,
+          "cycle2028FallVerified": true,
+          "cycle2028IntakeVerified": true,
+          "cycle": "2028 Fall",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "personal_recruitment_statement",
+          "noticeDate": "2026-07",
+          "sources": [
+            {
+              "url": "https://shishenghuang.github.io/index/",
+              "title": "黄石生个人主页",
+              "label": "黄石生个人主页",
+              "section": "招生信息：2026/07 发布的2028秋季入学计划（可见正文）；学院官方反链确认身份",
+              "readScope": "招生信息：2026/07 发布的2028秋季入学计划（可见正文）；学院官方反链确认身份",
+              "access": "personal_body",
+              "checkedDate": "2026-11-11"
+            }
+          ],
+          "checkedDate": "2026-11-11",
+          "individualRecruitmentVerified": true,
+          "projectCycleVerified": false,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending"
+        },
+        {
+          "degree": "PhD",
+          "status": "explicit",
+          "summary": "本人2026/07声明：2028年秋季计划招收博士1名；不是当前剩余名额。正式通道、条件和资助另核。",
+          "cycle2027FallVerified": false,
+          "cycle2027IntakeVerified": false,
+          "cycle2028FallVerified": true,
+          "cycle2028IntakeVerified": true,
+          "cycle": "2028 Fall",
+          "degreeRouteAssociated": false,
+          "sourceStatus": "personal_recruitment_statement",
+          "noticeDate": "2026-07",
+          "sources": [
+            {
+              "url": "https://shishenghuang.github.io/index/",
+              "title": "黄石生个人主页",
+              "label": "黄石生个人主页",
+              "section": "招生信息：2026/07 发布的2028秋季入学计划（可见正文）；学院官方反链确认身份",
+              "readScope": "招生信息：2026/07 发布的2028秋季入学计划（可见正文）；学院官方反链确认身份",
+              "access": "personal_body",
+              "checkedDate": "2026-11-11"
+            }
+          ],
+          "checkedDate": "2026-11-11",
+          "individualRecruitmentVerified": true,
+          "projectCycleVerified": false,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "associationVerificationStatus": "pending"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": true,
+      "intake2028OpeningVerified": true,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "不以近五年任职或博士指导资格自动判定新PI。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "首次教研任职证据见任职审阅；不把晋升等同入职。"
+      },
+      "sources": [
+        {
+          "url": "https://ai.bnu.edu.cn/xygk/szdw/fgj/b7a9a28e8e254f2ca29c6926eeb31e60.htm",
+          "title": "黄石生官方资料",
+          "label": "黄石生官方资料",
+          "section": "现职、博士指导身份、研究方向与任职经历",
+          "readScope": "现职、博士指导身份、研究方向与任职经历",
+          "access": "official_body",
+          "checkedDate": "2026-11-11"
+        },
+        {
+          "url": "https://shishenghuang.github.io/index/",
+          "title": "黄石生个人主页",
+          "label": "黄石生个人主页",
+          "section": "招生信息：2026/07 发布的2028秋季入学计划（可见正文）；学院官方反链确认身份",
+          "readScope": "招生信息：2026/07 发布的2028秋季入学计划（可见正文）；学院官方反链确认身份",
+          "access": "personal_body",
+          "checkedDate": "2026-11-11"
+        }
+      ],
+      "caveats": [
+        "官方个人页明确博士生导师；学术/专业类别、年度招生资格、正式报考通道未逐人核定。",
+        "只据个人公开方向、项目与成果表判定；未阅读全文或验证系统性能。",
+        "本人主页明确vSLAM、机器人多传感器定位；官方项目包含在线三维重建与大范围场景配准定位",
+        "公开计划不是保证当前剩余名额；未联系本人，博士类型未明确",
+        "页脚Last updated May 2021与顶部2026 News并存，不将页脚当本次信息日期。",
+        "学院2027本直博通知仅保留原年份参考，2026-09-10截止，不证明2028个人名额。"
+      ],
+      "checkedDate": "2026-11-11",
+      "sourceFile": "audits/985-bnu-20261111.json",
+      "labUrl": "https://shishenghuang.github.io/index/"
+    },
+    {
+      "id": "bnu-wang-yikai",
+      "name": "王一凯",
+      "nameZh": "王一凯",
+      "institution": "BNU",
+      "department": "人工智能学院",
+      "position": "副教授",
+      "topics": [
+        "机器人操作",
+        "多模态感知",
+        "具身智能"
+      ],
+      "summary": "多模态感知融合、机器人操作感知与具身智能",
+      "profileUrl": "https://ai.bnu.edu.cn/xygk/szdw/fgj/c32277cfbd4c498486d6525b41a61f6e.htm",
+      "routeIds": [
+        "bnu-doctoral-faculty-reference-20261111"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "bnu-doctoral-faculty-reference-20261111",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "官方个人页明确博士生导师；学术/专业类别、年度招生资格、正式报考通道未逐人核定。",
+          "sources": [
+            {
+              "url": "https://ai.bnu.edu.cn/xygk/szdw/fgj/c32277cfbd4c498486d6525b41a61f6e.htm",
+              "title": "王一凯官方资料",
+              "label": "王一凯官方资料",
+              "section": "现职、博士指导身份、研究方向与任职经历",
+              "readScope": "现职、博士指导身份、研究方向与任职经历",
+              "access": "official_body",
+              "checkedDate": "2026-11-11"
+            }
+          ],
+          "checkedDate": "2026-11-11",
+          "sourceCycle": "博士身份参考；年度资格和个人周期分开核定",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2028声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、本人接收与余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "本次检查来源中未见个人明确2028招生声明；不表示不招生，不将常年招收或2027计划改写为2028。",
+      "openings": {
+        "msc": "个人硕士周期与名额未核实",
+        "mphil": "未核实",
+        "phd": "官方个人页明确博士生导师；学术/专业类别、年度招生资格、正式报考通道未逐人核定。",
+        "ra": "未核实公开岗位",
+        "cycle2027": "旧年份资料不滚动为2028",
+        "cycle2028": "本次检查来源中未见个人明确2028招生声明；不表示不招生，不将常年招收或2027计划改写为2028。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "不以近五年任职或博士指导资格自动判定新PI。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "首次教研任职证据见任职审阅；不把晋升等同入职。"
+      },
+      "sources": [
+        {
+          "url": "https://ai.bnu.edu.cn/xygk/szdw/fgj/c32277cfbd4c498486d6525b41a61f6e.htm",
+          "title": "王一凯官方资料",
+          "label": "王一凯官方资料",
+          "section": "现职、博士指导身份、研究方向与任职经历",
+          "readScope": "现职、博士指导身份、研究方向与任职经历",
+          "access": "official_body",
+          "checkedDate": "2026-11-11"
+        }
+      ],
+      "caveats": [
+        "官方个人页明确博士生导师；学术/专业类别、年度招生资格、正式报考通道未逐人核定。",
+        "只据个人公开方向、项目与成果表判定；未阅读全文或验证系统性能。",
+        "多模态融合、机器人操作感知、具身智能",
+        "学院2027本直博通知仅保留原年份参考，2026-09-10截止，不证明2028个人名额。"
+      ],
+      "checkedDate": "2026-11-11",
+      "sourceFile": "audits/985-bnu-20261111.json"
+    },
+    {
+      "id": "bnu-zhang-hongwen",
+      "name": "张鸿文",
+      "nameZh": "张鸿文",
+      "institution": "BNU",
+      "department": "人工智能学院",
+      "position": "副教授",
+      "topics": [
+        "三维视觉",
+        "具身智能",
+        "机器人操作"
+      ],
+      "summary": "三维视觉、具身运动智能、人形智能体与机器人操作世界模型",
+      "profileUrl": "https://ai.bnu.edu.cn/xygk/szdw/fgj/9b9ed1de20d3445fbdd4a57b72b2b885.htm",
+      "routeIds": [
+        "bnu-doctoral-faculty-reference-20261111"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "bnu-doctoral-faculty-reference-20261111",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "官方个人页明确博士生导师；学术/专业类别、年度招生资格、正式报考通道未逐人核定。",
+          "sources": [
+            {
+              "url": "https://ai.bnu.edu.cn/xygk/szdw/fgj/9b9ed1de20d3445fbdd4a57b72b2b885.htm",
+              "title": "张鸿文官方资料",
+              "label": "张鸿文官方资料",
+              "section": "现职、博士指导身份、研究方向与任职经历",
+              "readScope": "现职、博士指导身份、研究方向与任职经历",
+              "access": "official_body",
+              "checkedDate": "2026-11-11"
+            }
+          ],
+          "checkedDate": "2026-11-11",
+          "sourceCycle": "博士身份参考；年度资格和个人周期分开核定",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2028声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、本人接收与余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "本次检查来源中未见个人明确2028招生声明；不表示不招生，不将常年招收或2027计划改写为2028。",
+      "openings": {
+        "msc": "个人硕士周期与名额未核实",
+        "mphil": "未核实",
+        "phd": "官方个人页明确博士生导师；学术/专业类别、年度招生资格、正式报考通道未逐人核定。",
+        "ra": "未核实公开岗位",
+        "cycle2027": "旧年份资料不滚动为2028",
+        "cycle2028": "本次检查来源中未见个人明确2028招生声明；不表示不招生，不将常年招收或2027计划改写为2028。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "不以近五年任职或博士指导资格自动判定新PI。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "首次教研任职证据见任职审阅；不把晋升等同入职。"
+      },
+      "sources": [
+        {
+          "url": "https://ai.bnu.edu.cn/xygk/szdw/fgj/9b9ed1de20d3445fbdd4a57b72b2b885.htm",
+          "title": "张鸿文官方资料",
+          "label": "张鸿文官方资料",
+          "section": "现职、博士指导身份、研究方向与任职经历",
+          "readScope": "现职、博士指导身份、研究方向与任职经历",
+          "access": "official_body",
+          "checkedDate": "2026-11-11"
+        }
+      ],
+      "caveats": [
+        "官方个人页明确博士生导师；学术/专业类别、年度招生资格、正式报考通道未逐人核定。",
+        "只据个人公开方向、项目与成果表判定；未阅读全文或验证系统性能。",
+        "三维视觉、具身运动智能、人形智能体；公开列出机器人操作世界模型成果",
+        "学院2027本直博通知仅保留原年份参考，2026-09-10截止，不证明2028个人名额。"
+      ],
+      "checkedDate": "2026-11-11",
+      "sourceFile": "audits/985-bnu-20261111.json"
+    },
+    {
+      "id": "bnu-zhong-fangwei",
+      "name": "钟方威",
+      "nameZh": "钟方威",
+      "institution": "BNU",
+      "department": "人工智能学院",
+      "position": "副教授",
+      "topics": [
+        "具身智能",
+        "多智能体",
+        "SLAM"
+      ],
+      "summary": "具身智能、多智能体系统、主动视觉追踪与SLAM",
+      "profileUrl": "https://ai.bnu.edu.cn/xygk/szdw/fgj/067725da68f443e09e675307b4e7132a.htm",
+      "routeIds": [
+        "bnu-doctoral-faculty-reference-20261111"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "bnu-doctoral-faculty-reference-20261111",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "官方个人页明确博士生导师；学术/专业类别、年度招生资格、正式报考通道未逐人核定。",
+          "sources": [
+            {
+              "url": "https://ai.bnu.edu.cn/xygk/szdw/fgj/067725da68f443e09e675307b4e7132a.htm",
+              "title": "钟方威官方资料",
+              "label": "钟方威官方资料",
+              "section": "现职、博士指导身份、研究方向与任职经历",
+              "readScope": "现职、博士指导身份、研究方向与任职经历",
+              "access": "official_body",
+              "checkedDate": "2026-11-11"
+            }
+          ],
+          "checkedDate": "2026-11-11",
+          "sourceCycle": "博士身份参考；年度资格和个人周期分开核定",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2028声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、本人接收与余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "本次检查来源中未见个人明确2028招生声明；不表示不招生，不将常年招收或2027计划改写为2028。",
+      "openings": {
+        "msc": "个人硕士周期与名额未核实",
+        "mphil": "未核实",
+        "phd": "官方个人页明确博士生导师；学术/专业类别、年度招生资格、正式报考通道未逐人核定。",
+        "ra": "未核实公开岗位",
+        "cycle2027": "旧年份资料不滚动为2028",
+        "cycle2028": "本次检查来源中未见个人明确2028招生声明；不表示不招生，不将常年招收或2027计划改写为2028。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "不以近五年任职或博士指导资格自动判定新PI。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "首次教研任职证据见任职审阅；不把晋升等同入职。"
+      },
+      "sources": [
+        {
+          "url": "https://ai.bnu.edu.cn/xygk/szdw/fgj/067725da68f443e09e675307b4e7132a.htm",
+          "title": "钟方威官方资料",
+          "label": "钟方威官方资料",
+          "section": "现职、博士指导身份、研究方向与任职经历",
+          "readScope": "现职、博士指导身份、研究方向与任职经历",
+          "access": "official_body",
+          "checkedDate": "2026-11-11"
+        }
+      ],
+      "caveats": [
+        "官方个人页明确博士生导师；学术/专业类别、年度招生资格、正式报考通道未逐人核定。",
+        "只据个人公开方向、项目与成果表判定；未阅读全文或验证系统性能。",
+        "具身社交、多智能体、主动视觉追踪、机器人操作与Detect-SLAM",
+        "学院2027本直博通知仅保留原年份参考，2026-09-10截止，不证明2028个人名额。"
+      ],
+      "checkedDate": "2026-11-11",
+      "sourceFile": "audits/985-bnu-20261111.json"
+    },
+    {
+      "id": "bnu-si-bailu",
+      "name": "斯白露",
+      "nameZh": "斯白露",
+      "institution": "BNU",
+      "department": "系统科学学院（北京）",
+      "position": "教授",
+      "topics": [
+        "神经机器人",
+        "SLAM",
+        "多传感器融合"
+      ],
+      "summary": "神经机器人、神经启发多传感器 SLAM 与导航",
+      "profileUrl": "https://sss.bnu.edu.cn/sszdw/szzjs/sjs/25dcd86a649d4546a96855def485d42b.htm",
+      "routeIds": [
+        "bnu-doctoral-faculty-reference-20261111"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "bnu-doctoral-faculty-reference-20261111",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "官方导师专题页明确博士生导师；年度招生资格、学术/专业类别和2028个人名额未核实",
+          "sources": [
+            {
+              "url": "https://sss.bnu.edu.cn/sszdw/szzjs/sjs/25dcd86a649d4546a96855def485d42b.htm",
+              "title": "斯白露官方资料",
+              "label": "斯白露官方资料",
+              "section": "当前职务/经历/研究",
+              "readScope": "当前职务/经历/研究",
+              "access": "official_body",
+              "checkedDate": "2026-11-11"
+            },
+            {
+              "url": "https://sss.bnu.edu.cn/yjszsztw/bssds/sbl/index.htm",
+              "title": "斯白露官方资料",
+              "label": "斯白露官方资料",
+              "section": "博士导师信息",
+              "readScope": "博士导师信息",
+              "access": "official_body",
+              "checkedDate": "2026-11-11"
+            }
+          ],
+          "checkedDate": "2026-11-11",
+          "sourceCycle": "博士身份参考；年度资格和个人周期分开核定",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2028声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、本人接收与余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "导师专题页“下年计划招生”没有日历年份，不等同2028 Fall；未核到个人明确2028声明。",
+      "openings": {
+        "msc": "个人硕士周期与名额未核实",
+        "mphil": "未核实",
+        "phd": "官方导师专题页明确博士生导师；年度招生资格、学术/专业类别和2028个人名额未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "旧年份资料不滚动为2028",
+        "cycle2028": "导师专题页“下年计划招生”没有日历年份，不等同2028 Fall；未核到个人明确2028声明。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "不以近五年任职或博士指导资格自动判定新PI。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "首次教研任职证据见任职审阅；不把晋升等同入职。"
+      },
+      "sources": [
+        {
+          "url": "https://sss.bnu.edu.cn/sszdw/szzjs/sjs/25dcd86a649d4546a96855def485d42b.htm",
+          "title": "斯白露官方资料",
+          "label": "斯白露官方资料",
+          "section": "当前职务/经历/研究",
+          "readScope": "当前职务/经历/研究",
+          "access": "official_body",
+          "checkedDate": "2026-11-11"
+        },
+        {
+          "url": "https://sss.bnu.edu.cn/yjszsztw/bssds/sbl/index.htm",
+          "title": "斯白露官方资料",
+          "label": "斯白露官方资料",
+          "section": "博士导师信息",
+          "readScope": "博士导师信息",
+          "access": "official_body",
+          "checkedDate": "2026-11-11"
+        }
+      ],
+      "caveats": [
+        "官方导师专题页明确博士生导师；年度招生资格、学术/专业类别和2028个人名额未核实",
+        "依据官方研究方向和项目判断机器人任务相关性，未冒充逐篇论文精读或性能验证。",
+        "博士生导师资格不等于某年度开放名额",
+        "学院导师专题部分职称和在读人数可能滞后，当前职称以现行个人页为准"
+      ],
+      "checkedDate": "2026-11-11",
+      "sourceFile": "audits/985-bnu-20261111.json"
+    },
+    {
+      "id": "bnu-han-zhangang",
+      "name": "韩战钢",
+      "nameZh": "韩战钢",
+      "institution": "BNU",
+      "department": "系统科学学院（北京）",
+      "position": "教授",
+      "topics": [
+        "集群机器人",
+        "多机器人协同",
+        "仿生控制"
+      ],
+      "summary": "生物集群机制与集群机器人、多机器人编队",
+      "profileUrl": "https://sss.bnu.edu.cn/sszdw/szzjs/sjs/f6498b89181a472297ec76482a6a59e3.htm",
+      "routeIds": [
+        "bnu-doctoral-faculty-reference-20261111"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "bnu-doctoral-faculty-reference-20261111",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "官方导师专题页明确博士生导师；年度招生资格、学术/专业类别和2028个人名额未核实",
+          "sources": [
+            {
+              "url": "https://sss.bnu.edu.cn/sszdw/szzjs/sjs/f6498b89181a472297ec76482a6a59e3.htm",
+              "title": "韩战钢官方资料",
+              "label": "韩战钢官方资料",
+              "section": "当前职务/经历/研究",
+              "readScope": "当前职务/经历/研究",
+              "access": "official_body",
+              "checkedDate": "2026-11-11"
+            },
+            {
+              "url": "https://sss.bnu.edu.cn/yjszsztw/bssds/hzg/index.htm",
+              "title": "韩战钢官方资料",
+              "label": "韩战钢官方资料",
+              "section": "博士导师信息",
+              "readScope": "博士导师信息",
+              "access": "official_body",
+              "checkedDate": "2026-11-11"
+            }
+          ],
+          "checkedDate": "2026-11-11",
+          "sourceCycle": "博士身份参考；年度资格和个人周期分开核定",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2028声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、本人接收与余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "导师专题页“下年计划招生”没有日历年份，不等同2028 Fall；未核到个人明确2028声明。",
+      "openings": {
+        "msc": "个人硕士周期与名额未核实",
+        "mphil": "未核实",
+        "phd": "官方导师专题页明确博士生导师；年度招生资格、学术/专业类别和2028个人名额未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "旧年份资料不滚动为2028",
+        "cycle2028": "导师专题页“下年计划招生”没有日历年份，不等同2028 Fall；未核到个人明确2028声明。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "不以近五年任职或博士指导资格自动判定新PI。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "首次教研任职证据见任职审阅；不把晋升等同入职。"
+      },
+      "sources": [
+        {
+          "url": "https://sss.bnu.edu.cn/sszdw/szzjs/sjs/f6498b89181a472297ec76482a6a59e3.htm",
+          "title": "韩战钢官方资料",
+          "label": "韩战钢官方资料",
+          "section": "当前职务/经历/研究",
+          "readScope": "当前职务/经历/研究",
+          "access": "official_body",
+          "checkedDate": "2026-11-11"
+        },
+        {
+          "url": "https://sss.bnu.edu.cn/yjszsztw/bssds/hzg/index.htm",
+          "title": "韩战钢官方资料",
+          "label": "韩战钢官方资料",
+          "section": "博士导师信息",
+          "readScope": "博士导师信息",
+          "access": "official_body",
+          "checkedDate": "2026-11-11"
+        }
+      ],
+      "caveats": [
+        "官方导师专题页明确博士生导师；年度招生资格、学术/专业类别和2028个人名额未核实",
+        "依据官方研究方向和项目判断机器人任务相关性，未冒充逐篇论文精读或性能验证。",
+        "博士生导师资格不等于某年度开放名额",
+        "学院导师专题部分职称和在读人数可能滞后，当前职称以现行个人页为准"
+      ],
+      "checkedDate": "2026-11-11",
+      "sourceFile": "audits/985-bnu-20261111.json"
+    },
+    {
+      "id": "bnu-zhao-bo",
+      "name": "赵博",
+      "nameZh": "赵博",
+      "institution": "BNU",
+      "department": "系统科学学院（北京）",
+      "position": "教授",
+      "topics": [
+        "机器人控制",
+        "强化学习",
+        "机械臂"
+      ],
+      "summary": "强化学习与自适应动态规划、可重构机械臂控制",
+      "profileUrl": "https://sss.bnu.edu.cn/sszdw/szzjs/sjs/b608331e23d442d082027392f78738b0.htm",
+      "routeIds": [
+        "bnu-doctoral-faculty-reference-20261111"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "bnu-doctoral-faculty-reference-20261111",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "官方导师专题页明确博士生导师；年度招生资格、学术/专业类别和2028个人名额未核实",
+          "sources": [
+            {
+              "url": "https://sss.bnu.edu.cn/sszdw/szzjs/sjs/b608331e23d442d082027392f78738b0.htm",
+              "title": "赵博官方资料",
+              "label": "赵博官方资料",
+              "section": "当前职务/经历/研究",
+              "readScope": "当前职务/经历/研究",
+              "access": "official_body",
+              "checkedDate": "2026-11-11"
+            },
+            {
+              "url": "https://sss.bnu.edu.cn/yjszsztw/bssds/zb/index.htm",
+              "title": "赵博官方资料",
+              "label": "赵博官方资料",
+              "section": "博士导师信息",
+              "readScope": "博士导师信息",
+              "access": "official_body",
+              "checkedDate": "2026-11-11"
+            }
+          ],
+          "checkedDate": "2026-11-11",
+          "sourceCycle": "博士身份参考；年度资格和个人周期分开核定",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2028声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、本人接收与余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "导师专题页“下年计划招生”没有日历年份，不等同2028 Fall；未核到个人明确2028声明。",
+      "openings": {
+        "msc": "个人硕士周期与名额未核实",
+        "mphil": "未核实",
+        "phd": "官方导师专题页明确博士生导师；年度招生资格、学术/专业类别和2028个人名额未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "旧年份资料不滚动为2028",
+        "cycle2028": "导师专题页“下年计划招生”没有日历年份，不等同2028 Fall；未核到个人明确2028声明。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "不以近五年任职或博士指导资格自动判定新PI。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "首次教研任职证据见任职审阅；不把晋升等同入职。"
+      },
+      "sources": [
+        {
+          "url": "https://sss.bnu.edu.cn/sszdw/szzjs/sjs/b608331e23d442d082027392f78738b0.htm",
+          "title": "赵博官方资料",
+          "label": "赵博官方资料",
+          "section": "当前职务/经历/研究",
+          "readScope": "当前职务/经历/研究",
+          "access": "official_body",
+          "checkedDate": "2026-11-11"
+        },
+        {
+          "url": "https://sss.bnu.edu.cn/yjszsztw/bssds/zb/index.htm",
+          "title": "赵博官方资料",
+          "label": "赵博官方资料",
+          "section": "博士导师信息",
+          "readScope": "博士导师信息",
+          "access": "official_body",
+          "checkedDate": "2026-11-11"
+        }
+      ],
+      "caveats": [
+        "官方导师专题页明确博士生导师；年度招生资格、学术/专业类别和2028个人名额未核实",
+        "依据官方研究方向和项目判断机器人任务相关性，未冒充逐篇论文精读或性能验证。",
+        "博士生导师资格不等于某年度开放名额",
+        "学院导师专题部分职称和在读人数可能滞后，当前职称以现行个人页为准"
+      ],
+      "checkedDate": "2026-11-11",
+      "sourceFile": "audits/985-bnu-20261111.json"
+    },
+    {
+      "id": "bnu-lu-yu",
+      "name": "卢宇",
+      "nameZh": "卢宇",
+      "institution": "BNU",
+      "department": "教育学部 / 教育技术学院；未来教育高精尖创新中心人工智能实验室",
+      "position": "教授",
+      "topics": [
+        "教育机器人",
+        "人机交互",
+        "社交机器人",
+        "智能教育"
+      ],
+      "summary": "教育服务机器人、社交机器人与人机交互；智慧学伴机器人系统。不是已核实的机器人运动控制或自动驾驶导师。",
+      "profileUrl": "https://faculty.bnu.edu.cn/luyu/zh_CN/more/85851/jsjjgd/index.htm",
+      "routeIds": [
+        "bnu-doctoral-faculty-reference-20261111"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "bnu-doctoral-faculty-reference-20261111",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "现校方主页明确博士生导师；2027人工智能学院专业学位085410人工智能目录列名，年度指导参考不是2028名额。",
+          "sources": [
+            {
+              "url": "https://faculty.bnu.edu.cn/luyu/zh_CN/more/85851/jsjjgd/index.htm",
+              "title": "卢宇官方资料",
+              "label": "卢宇官方资料",
+              "section": "教授 博士生导师 硕士生导师",
+              "readScope": "教授 博士生导师 硕士生导师（一手页面抽取正文核读，非原HTML快照）",
+              "access": "official_extracted_text",
+              "checkedDate": "2026-11-11"
+            },
+            {
+              "url": "https://aic-fe.bnu.edu.cn/zxgk/zzjg/index.html",
+              "title": "卢宇官方资料",
+              "label": "卢宇官方资料",
+              "section": "领导团队研发了“智慧学伴”教育机器人、“雷达数学”等多个智能教育系统和平台",
+              "readScope": "领导团队研发了“智慧学伴”教育机器人、“雷达数学”等多个智能教育系统和平台（一手页面抽取正文核读，非原HTML快照）",
+              "access": "official_extracted_text",
+              "checkedDate": "2026-11-11"
+            },
+            {
+              "url": "https://aic-fe.bnu.edu.cn/zxgk/yjtd/yjtd/16683.html",
+              "title": "卢宇官方资料",
+              "label": "卢宇官方资料",
+              "section": "北京师范大学引进人才科研启动项目：“任务驱动式智能教育服务机器人研究”，项目负责人。",
+              "readScope": "北京师范大学引进人才科研启动项目：“任务驱动式智能教育服务机器人研究”，项目负责人。（一手页面抽取正文核读，非原HTML快照）",
+              "access": "official_extracted_text",
+              "checkedDate": "2026-11-11"
+            },
+            {
+              "url": "https://aic-fe.bnu.edu.cn/zxgk/yjtd/yjtd/16683.html",
+              "title": "卢宇官方资料",
+              "label": "卢宇官方资料",
+              "section": "Designing Social Robot for Adults Using Self-Determination Theory and AI Technologies, IEEE Transactions on Learning Technologies, 2023, 16(2):206–218.",
+              "readScope": "Designing Social Robot for Adults Using Self-Determination Theory and AI Technologies, IEEE Transactions on Learning Technologies, 2023, 16(2):206–218.（一手页面抽取正文核读，非原HTML快照）",
+              "access": "official_extracted_text",
+              "checkedDate": "2026-11-11"
+            },
+            {
+              "url": "https://yz.bnu.edu.cn/content/zyml/2027/bsxx_yxsm-684.html",
+              "title": "卢宇官方资料",
+              "label": "卢宇官方资料",
+              "section": "085410人工智能；卢宇",
+              "readScope": "085410人工智能；卢宇（一手页面抽取正文核读，非原HTML快照）",
+              "access": "official_extracted_text",
+              "checkedDate": "2026-11-11"
+            }
+          ],
+          "checkedDate": "2026-11-11",
+          "sourceCycle": "博士身份参考；年度资格和个人周期分开核定",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2028声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、本人接收与余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "本次检查来源中未见个人明确2028招生声明；不表示不招生，不将常年招收或2027计划改写为2028。",
+      "openings": {
+        "msc": "个人硕士周期与名额未核实",
+        "mphil": "未核实",
+        "phd": "现校方主页明确博士生导师；2027人工智能学院专业学位085410人工智能目录列名，年度指导参考不是2028名额。",
+        "ra": "未核实公开岗位",
+        "cycle2027": "旧年份资料不滚动为2028",
+        "cycle2028": "本次检查来源中未见个人明确2028招生声明；不表示不招生，不将常年招收或2027计划改写为2028。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "不以近五年任职或博士指导资格自动判定新PI。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "首次教研任职证据见任职审阅；不把晋升等同入职。"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.bnu.edu.cn/luyu/zh_CN/more/85851/jsjjgd/index.htm",
+          "title": "卢宇官方资料",
+          "label": "卢宇官方资料",
+          "section": "教授 博士生导师 硕士生导师",
+          "readScope": "教授 博士生导师 硕士生导师（一手页面抽取正文核读，非原HTML快照）",
+          "access": "official_extracted_text",
+          "checkedDate": "2026-11-11"
+        },
+        {
+          "url": "https://aic-fe.bnu.edu.cn/zxgk/zzjg/index.html",
+          "title": "卢宇官方资料",
+          "label": "卢宇官方资料",
+          "section": "领导团队研发了“智慧学伴”教育机器人、“雷达数学”等多个智能教育系统和平台",
+          "readScope": "领导团队研发了“智慧学伴”教育机器人、“雷达数学”等多个智能教育系统和平台（一手页面抽取正文核读，非原HTML快照）",
+          "access": "official_extracted_text",
+          "checkedDate": "2026-11-11"
+        },
+        {
+          "url": "https://aic-fe.bnu.edu.cn/zxgk/yjtd/yjtd/16683.html",
+          "title": "卢宇官方资料",
+          "label": "卢宇官方资料",
+          "section": "北京师范大学引进人才科研启动项目：“任务驱动式智能教育服务机器人研究”，项目负责人。",
+          "readScope": "北京师范大学引进人才科研启动项目：“任务驱动式智能教育服务机器人研究”，项目负责人。（一手页面抽取正文核读，非原HTML快照）",
+          "access": "official_extracted_text",
+          "checkedDate": "2026-11-11"
+        },
+        {
+          "url": "https://aic-fe.bnu.edu.cn/zxgk/yjtd/yjtd/16683.html",
+          "title": "卢宇官方资料",
+          "label": "卢宇官方资料",
+          "section": "Designing Social Robot for Adults Using Self-Determination Theory and AI Technologies, IEEE Transactions on Learning Technologies, 2023, 16(2):206–218.",
+          "readScope": "Designing Social Robot for Adults Using Self-Determination Theory and AI Technologies, IEEE Transactions on Learning Technologies, 2023, 16(2):206–218.（一手页面抽取正文核读，非原HTML快照）",
+          "access": "official_extracted_text",
+          "checkedDate": "2026-11-11"
+        },
+        {
+          "url": "https://yz.bnu.edu.cn/content/zyml/2027/bsxx_yxsm-684.html",
+          "title": "卢宇官方资料",
+          "label": "卢宇官方资料",
+          "section": "085410人工智能；卢宇",
+          "readScope": "085410人工智能；卢宇（一手页面抽取正文核读，非原HTML快照）",
+          "access": "official_extracted_text",
+          "checkedDate": "2026-11-11"
+        }
+      ],
+      "caveats": [
+        "现校方主页明确博士生导师；2027人工智能学院专业学位085410人工智能目录列名，年度指导参考不是2028名额。",
+        "依据官方研究方向和项目判断机器人任务相关性，未冒充逐篇论文精读或性能验证。",
+        "教育实体机器人/人机交互交叉；不把论文共同作者身份升级为机器人控制实验室负责人。2027年684专业博士目录仅作年度参考；666非全教育博士条件不套用。",
+        "2016新闻证明已在本校中心从事研究；非精确入职日。旧中心bio副教授与当前校方主页教授冲突，采用当前主页，不把晋升作入职。"
+      ],
+      "checkedDate": "2026-11-11",
+      "sourceFile": "audits/985-bnu-20261111.json"
+    },
+    {
+      "id": "bnu-yu-shengquan",
+      "name": "余胜泉",
+      "nameZh": "余胜泉",
+      "institution": "BNU",
+      "department": "教育学部 / 未来教育高精尖创新中心",
+      "position": "教授",
+      "topics": [
+        "教育机器人",
+        "人机交互",
+        "人工智能教育"
+      ],
+      "summary": "智能教育、智慧学伴教育机器人系统与社交机器人研究的跨学科共同作者；不把共同作者身份升级为机器人控制实验室负责人。",
+      "profileUrl": "https://faculty.bnu.edu.cn/yushengquan/zh_CN/index.htm",
+      "routeIds": [
+        "bnu-doctoral-faculty-reference-20261111"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "bnu-doctoral-faculty-reference-20261111",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "现校方主页明确博士生导师，2027人工智能学院专业学位085410目录列名。",
+          "sources": [
+            {
+              "url": "https://faculty.bnu.edu.cn/yushengquan/zh_CN/index.htm",
+              "title": "余胜泉官方资料",
+              "label": "余胜泉官方资料",
+              "section": "教授 博士生导师 硕士生导师",
+              "readScope": "教授 博士生导师 硕士生导师（一手页面抽取正文核读，非原HTML快照）",
+              "access": "official_extracted_text",
+              "checkedDate": "2026-11-11"
+            },
+            {
+              "url": "https://aic-fe.bnu.edu.cn/zxgk/yjtd/yjtd/16683.html",
+              "title": "余胜泉官方资料",
+              "label": "余胜泉官方资料",
+              "section": "Yu Lu, Chen Chen, Penghe Chen and Shengquan Yu, Designing Social Robot for Adults Using Self-Determination Theory and AI Technologies",
+              "readScope": "Yu Lu, Chen Chen, Penghe Chen and Shengquan Yu, Designing Social Robot for Adults Using Self-Determination Theory and AI Technologies（一手页面抽取正文核读，非原HTML快照）",
+              "access": "official_extracted_text",
+              "checkedDate": "2026-11-11"
+            },
+            {
+              "url": "https://aic-fe.bnu.edu.cn/zxgk/yjtd/yjtd/16683.html",
+              "title": "余胜泉官方资料",
+              "label": "余胜泉官方资料",
+              "section": "卢宇,薛天琪,陈鹏鹤,余胜泉. 智能教育机器人系统构建及关键技术——以“智慧学伴”机器人为例. 开放教育研究,2020,26(02):83–91.",
+              "readScope": "卢宇,薛天琪,陈鹏鹤,余胜泉. 智能教育机器人系统构建及关键技术——以“智慧学伴”机器人为例. 开放教育研究,2020,26(02):83–91.（一手页面抽取正文核读，非原HTML快照）",
+              "access": "official_extracted_text",
+              "checkedDate": "2026-11-11"
+            },
+            {
+              "url": "https://yz.bnu.edu.cn/content/zyml/2027/bsxx_yxsm-684.html",
+              "title": "余胜泉官方资料",
+              "label": "余胜泉官方资料",
+              "section": "085410人工智能；余胜泉",
+              "readScope": "085410人工智能；余胜泉（一手页面抽取正文核读，非原HTML快照）",
+              "access": "official_extracted_text",
+              "checkedDate": "2026-11-11"
+            }
+          ],
+          "checkedDate": "2026-11-11",
+          "sourceCycle": "博士身份参考；年度资格和个人周期分开核定",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2028声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、本人接收与余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "本次检查来源中未见个人明确2028招生声明；不表示不招生，不将常年招收或2027计划改写为2028。",
+      "openings": {
+        "msc": "个人硕士周期与名额未核实",
+        "mphil": "未核实",
+        "phd": "现校方主页明确博士生导师，2027人工智能学院专业学位085410目录列名。",
+        "ra": "未核实公开岗位",
+        "cycle2027": "旧年份资料不滚动为2028",
+        "cycle2028": "本次检查来源中未见个人明确2028招生声明；不表示不招生，不将常年招收或2027计划改写为2028。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "不以近五年任职或博士指导资格自动判定新PI。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "首次教研任职证据见任职审阅；不把晋升等同入职。"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.bnu.edu.cn/yushengquan/zh_CN/index.htm",
+          "title": "余胜泉官方资料",
+          "label": "余胜泉官方资料",
+          "section": "教授 博士生导师 硕士生导师",
+          "readScope": "教授 博士生导师 硕士生导师（一手页面抽取正文核读，非原HTML快照）",
+          "access": "official_extracted_text",
+          "checkedDate": "2026-11-11"
+        },
+        {
+          "url": "https://aic-fe.bnu.edu.cn/zxgk/yjtd/yjtd/16683.html",
+          "title": "余胜泉官方资料",
+          "label": "余胜泉官方资料",
+          "section": "Yu Lu, Chen Chen, Penghe Chen and Shengquan Yu, Designing Social Robot for Adults Using Self-Determination Theory and AI Technologies",
+          "readScope": "Yu Lu, Chen Chen, Penghe Chen and Shengquan Yu, Designing Social Robot for Adults Using Self-Determination Theory and AI Technologies（一手页面抽取正文核读，非原HTML快照）",
+          "access": "official_extracted_text",
+          "checkedDate": "2026-11-11"
+        },
+        {
+          "url": "https://aic-fe.bnu.edu.cn/zxgk/yjtd/yjtd/16683.html",
+          "title": "余胜泉官方资料",
+          "label": "余胜泉官方资料",
+          "section": "卢宇,薛天琪,陈鹏鹤,余胜泉. 智能教育机器人系统构建及关键技术——以“智慧学伴”机器人为例. 开放教育研究,2020,26(02):83–91.",
+          "readScope": "卢宇,薛天琪,陈鹏鹤,余胜泉. 智能教育机器人系统构建及关键技术——以“智慧学伴”机器人为例. 开放教育研究,2020,26(02):83–91.（一手页面抽取正文核读，非原HTML快照）",
+          "access": "official_extracted_text",
+          "checkedDate": "2026-11-11"
+        },
+        {
+          "url": "https://yz.bnu.edu.cn/content/zyml/2027/bsxx_yxsm-684.html",
+          "title": "余胜泉官方资料",
+          "label": "余胜泉官方资料",
+          "section": "085410人工智能；余胜泉",
+          "readScope": "085410人工智能；余胜泉（一手页面抽取正文核读，非原HTML快照）",
+          "access": "official_extracted_text",
+          "checkedDate": "2026-11-11"
+        }
+      ],
+      "caveats": [
+        "现校方主页明确博士生导师，2027人工智能学院专业学位085410目录列名。",
+        "依据官方研究方向和项目判断机器人任务相关性，未冒充逐篇论文精读或性能验证。",
+        "教育实体机器人/人机交互交叉；不把论文共同作者身份升级为机器人控制实验室负责人。2027年684专业博士目录仅作年度参考；666非全教育博士条件不套用。"
+      ],
+      "checkedDate": "2026-11-11",
+      "sourceFile": "audits/985-bnu-20261111.json"
     }
   ],
   "routes": [
@@ -133885,6 +135182,67 @@
         }
       ],
       "checkedDate": "2026-11-08",
+      "defaultVisible": false
+    },
+    {
+      "id": "bnu-doctoral-faculty-reference-20261111",
+      "institution": "BNU",
+      "department": "人工智能、系统科学及教育机器人交叉（逐人列明）",
+      "program": "北京师范大学机器人相关博士指导方向参考（2026-11-11）",
+      "degree": "PhD",
+      "bachelorEligible": false,
+      "noTuimianRequired": false,
+      "noMasterRequired": false,
+      "status": "reference",
+      "eligibilitySummary": "逐人博士指导身份参考，不代表2028正式接收、申请资格或当前余位；false不表示禁止所有本科生申请。",
+      "supervisorAssociation": "逐人博士指导身份参考；年度资格、个人招募和正式项目关联分别核定。",
+      "admissionYear": "身份参考；个人入学周期另核",
+      "cycle2027Verified": false,
+      "projectCycleVerified": false,
+      "individualRecruitmentVerified": false,
+      "currentCycleVerificationStatus": "pending",
+      "sourceCycle": "未核统一当前周期",
+      "sourceCycles": [
+        "未核统一当前周期"
+      ],
+      "admissionMode": "doctoral_faculty_reference",
+      "evidenceScope": "doctoral_faculty_reference_only",
+      "applicationStatus": "unknown",
+      "applicationMethod": "查阅本校与培养院系当年博士简章；本人公开邀请不替代正式申请。",
+      "sources": [
+        {
+          "url": "https://yz.bnu.edu.cn/detail/33cc295a-d8d6-4dd0-8a6a-03534732b4d5",
+          "title": "北京师范大学2027博士招生章程官方资料",
+          "label": "北京师范大学2027博士招生章程官方资料",
+          "section": "2027招生方式、条件与招生名额边界；非2028章程",
+          "readScope": "2027招生方式、条件与招生名额边界；非2028章程",
+          "access": "official_extracted_text",
+          "checkedDate": "2026-11-11"
+        }
+      ],
+      "notes": [
+        "近五年任职、首次独立PI、博士指导身份、年度资格、本人招生计划与剩余名额分别判断。",
+        "2027章程只作原年份背景，不外推2028条件。",
+        "2027人工智能专业博士684目录中的卢宇/余胜泉为年度指导参考；666非全日制教育博士渠道和5年经验条件不绑定本批机器人入口。"
+      ],
+      "requirements": [
+        {
+          "kind": "academic",
+          "text": "2027章程区分普通申请考核、硕博连读、本科直博。普通学术博士学历/同等学力要求、直博推免资格、硕博连读校内条件分别适用；专业博士按院系办法。2028条件另核，不替申请人判断资格。",
+          "sources": [
+            {
+              "url": "https://yz.bnu.edu.cn/detail/33cc295a-d8d6-4dd0-8a6a-03534732b4d5",
+              "title": "北京师范大学2027博士招生章程官方资料",
+              "label": "北京师范大学2027博士招生章程官方资料",
+              "section": "2027招生方式、条件与招生名额边界；非2028章程",
+              "readScope": "2027招生方式、条件与招生名额边界；非2028章程",
+              "access": "official_extracted_text",
+              "checkedDate": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "checkedDate": "2026-11-11",
       "defaultVisible": false
     }
   ],
