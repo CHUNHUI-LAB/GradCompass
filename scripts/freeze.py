@@ -103,6 +103,7 @@ files.extend(['audits/recruitment-2028-20261107.json','audits/recruitment-2028-2
 files.extend(['audits/985-cau-20261108.json','audits/985-cau-20261108.md','tests/fixtures/evidence/985-cau-20261108.json','tests/cau-expansion-20261108.test.mjs'])
 files.extend(['audits/985-bnu-20261111.json','audits/985-bnu-20261111.md','tests/fixtures/evidence/985-bnu-20261111.json','tests/bnu-expansion-20261111.test.mjs','tests/personal-msc-discovery.test.mjs'])
 files.extend(['tests/fixtures/evidence/bnu-card-themes-correction-20261111.json','tests/bnu-card-themes-correction-20261111.test.mjs'])
+files.extend(['tests/fixtures/evidence/muc-card-theme-correction-20261112.json'])
 files.extend(['audits/985-muc-20261112.json','audits/985-muc-20261112.md','tests/fixtures/evidence/985-muc-20261112.json','tests/muc-expansion-20261112.test.mjs'])
 profile_sources=set()
 def collect_sources(value):

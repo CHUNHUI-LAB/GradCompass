@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 88944,
-      "sha256": "92a6ff7b116f5fc68f7c6373775b246dcc4138c452f66c9172a3ae86a1a4b62e"
+      "bytes": 89169,
+      "sha256": "1db07cd76207380b948311b57458511dd3f2b7e273d07b45e042bf62da4a4eab"
     },
     {
       "path": "REDESIGN.md",
@@ -68,7 +68,7 @@
     {
       "path": "assets/app.js",
       "bytes": 78139,
-      "sha256": "adb8c626cd4c92cd39a3877d56032ef040421a8505597a15340d1acadfa3629b"
+      "sha256": "157c86e86cc88c6672fd4ca27cea56d0d8abfcbf4a1c1ca4a324f82483ee55a4"
     },
     {
       "path": "assets/appointments.js",
@@ -393,7 +393,7 @@
     {
       "path": "data/catalog.json",
       "bytes": 6395880,
-      "sha256": "37e6fcfd52e6dc0c20914f54b467d05e197f1858cd0cfd6953f76f18496d6f80"
+      "sha256": "22f512be426c7580ac8b7382af4846808d99106fff3cd61e78ead5fdf26dfa91"
     },
     {
       "path": "data/four-schools-exploration-20261006.json",
@@ -503,7 +503,7 @@
     {
       "path": "index.html",
       "bytes": 12514,
-      "sha256": "39df5b3d24f4b011a1c895b9991e1b2c2da813953a4d3c60bb44f57823c70a88"
+      "sha256": "6a2f0c234cc2de2e9beee25da859b61ff1dcd1933ee733b2ef465ac7f311a285"
     },
     {
       "path": "package-lock.json",
@@ -522,8 +522,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 17784,
-      "sha256": "e8551d889fee22982ea821138aefab64a9d378382eea8102eb0d798d8c3085e6"
+      "bytes": 17866,
+      "sha256": "83eba38af6eeb19e0010742906e83dbd770311f656f57fef87ccf333a44f1456"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -732,8 +732,8 @@
     },
     {
       "path": "tests/evidence-reviews.mjs",
-      "bytes": 3373,
-      "sha256": "f7a5aa8e3c6fae7b1ab2edf679492d73f5c0fce1b822bfa07c3416d38810cfd3"
+      "bytes": 3528,
+      "sha256": "89c9964745ee4078416d8f24d454c919d4971e23049bf8246c2b74310db44332"
     },
     {
       "path": "tests/existing-doctoral-links-20261019.test.mjs",
@@ -874,6 +874,11 @@
       "path": "tests/fixtures/evidence/maintenance-20261008.json",
       "bytes": 44997,
       "sha256": "d6fd6d89e68c82328f168301f2c7425c070645c3f8c1e9101101833268ed3f07"
+    },
+    {
+      "path": "tests/fixtures/evidence/muc-card-theme-correction-20261112.json",
+      "bytes": 1045,
+      "sha256": "b50d999ac1d597c0b0c8ee5830f565c828dd16c17838c0bbf757f6fcedf2ea87"
     },
     {
       "path": "tests/fixtures/evidence/phd-application-dates-2027-20261026.json",
@@ -1177,8 +1182,8 @@
     },
     {
       "path": "tests/muc-expansion-20261112.test.mjs",
-      "bytes": 2911,
-      "sha256": "de2d3a7f7052b172b1f9fd85aaf73bc2a4dc1920969faef61a4d4a295bcbb679"
+      "bytes": 3242,
+      "sha256": "bde178f251f655c10c717cdfd3739e159f6983a89aa56b589b2b50178833b11e"
     },
     {
       "path": "tests/nju-expansion.test.mjs",

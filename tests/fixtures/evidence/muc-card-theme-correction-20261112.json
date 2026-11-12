@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "baseCommit": "4653bbd56a237a618a58c6f599e32e071ddf7094",
+  "reviewDate": "2026-11-12",
+  "scope": "仅将宋伟研究topics中的博士学科名国家安全技术换成原文研究任务行人属性分析，避免通用安全关键词误判为规划控制。博士学科、来源、资格、招生和全部其他字段不变。",
+  "officialEvidence": [
+    {
+      "url": "https://gjaqyjy.muc.edu.cn/info/1073/3950.htm",
+      "title": "宋伟官方简介",
+      "section": "研究兴趣第3项：无人装备系统研发；目标检测、行人属性分析应用于巡检设备"
+    }
+  ],
+  "operations": [
+    {
+      "file": "data/catalog.json",
+      "path": "/advisors/745/topics",
+      "operation": "replace",
+      "old": [
+        "无人巡检装备",
+        "目标检测",
+        "国家安全技术"
+      ],
+      "value": [
+        "无人巡检装备",
+        "目标检测",
+        "行人属性分析"
+      ]
+    }
+  ],
+  "integrationBaseCommit": "778e3024acdca032295b99d364ab30265af75044"
+}
