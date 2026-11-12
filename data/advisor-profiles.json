@@ -123438,6 +123438,148 @@
           }
         ]
       }
+    },
+    {
+      "advisorId": "muc-song-wei",
+      "cardSummaryZh": "面向无人巡检装备的感知与目标检测研究。",
+      "overview": {
+        "textZh": "宋伟为中央民族大学教授、博士生导师，官方经历列2010年7月至今任本校教师。官网介绍将目标检测、行人属性分析应用于巡检设备，并称相关系统完成初步测试；未披露测试平台与性能。博士目录的学科是国家安全学·国家安全技术，不是机器人专业博士。",
+        "sources": [
+          {
+            "url": "https://gjaqyjy.muc.edu.cn/info/1073/3950.htm",
+            "title": "宋伟 · 中央民族大学国家安全研究院",
+            "section": "个人简介、工作经历、研究兴趣第3项：无人装备系统研发",
+            "readScope": "教授/博士生导师、2010.07至今本校教师、研究兴趣第3项：无人装备系统研发",
+            "access": "official_body",
+            "checkedDate": "2026-11-12"
+          },
+          {
+            "url": "https://grs.muc.edu.cn/yjsyzsw/info/1096/5369.htm",
+            "title": "中央民族大学2026年学术学位博士招生专业目录",
+            "section": "国家安全学140200 / 国家安全技术：宋伟及共享招生计划",
+            "readScope": "2026年度目录；导师列名与多人共享计划，不是个人名额",
+            "access": "official_body",
+            "checkedDate": "2026-11-12"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "媒体计算实验室 · 宋伟",
+        "affiliation": {
+          "textZh": "国家安全研究院 / 信息工程学院",
+          "sources": [
+            {
+              "url": "https://gjaqyjy.muc.edu.cn/info/1073/3950.htm",
+              "title": "宋伟 · 中央民族大学国家安全研究院",
+              "section": "个人简介、工作经历、研究兴趣第3项：无人装备系统研发",
+              "readScope": "教授/博士生导师、2010.07至今本校教师、研究兴趣第3项：无人装备系统研发",
+              "access": "official_body",
+              "checkedDate": "2026-11-12"
+            }
+          ]
+        },
+        "themes": [
+          "无人巡检装备",
+          "目标检测",
+          "国家安全技术"
+        ],
+        "structure": {
+          "textZh": "仅确认官方研究方向与机构归属；团队人数、指导方式、内部资源未核实。",
+          "sources": [
+            {
+              "url": "https://gjaqyjy.muc.edu.cn/info/1073/3950.htm",
+              "title": "宋伟 · 中央民族大学国家安全研究院",
+              "section": "个人简介、工作经历、研究兴趣第3项：无人装备系统研发",
+              "readScope": "教授/博士生导师、2010.07至今本校教师、研究兴趣第3项：无人装备系统研发",
+              "access": "official_body",
+              "checkedDate": "2026-11-12"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "textZh": "官网介绍将目标检测、行人属性分析应用于巡检设备，并称相关系统完成初步测试；未披露测试平台与性能。不据此承诺设备向新生开放。",
+            "sources": [
+              {
+                "url": "https://gjaqyjy.muc.edu.cn/info/1073/3950.htm",
+                "title": "宋伟 · 中央民族大学国家安全研究院",
+                "section": "个人简介、工作经历、研究兴趣第3项：无人装备系统研发",
+                "readScope": "教授/博士生导师、2010.07至今本校教师、研究兴趣第3项：无人装备系统研发",
+                "access": "official_body",
+                "checkedDate": "2026-11-12"
+              }
+            ]
+          }
+        ]
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "2026博士目录列名；本轮所读来源未核到个人明确2028招生或剩余名额。 国家安全技术历史方向不是机器人专门培养项目。",
+        "sources": [
+          {
+            "url": "https://gjaqyjy.muc.edu.cn/info/1073/3950.htm",
+            "title": "宋伟 · 中央民族大学国家安全研究院",
+            "section": "个人简介、工作经历、研究兴趣第3项：无人装备系统研发",
+            "readScope": "教授/博士生导师、2010.07至今本校教师、研究兴趣第3项：无人装备系统研发",
+            "access": "official_body",
+            "checkedDate": "2026-11-12"
+          },
+          {
+            "url": "https://grs.muc.edu.cn/yjsyzsw/info/1096/5369.htm",
+            "title": "中央民族大学2026年学术学位博士招生专业目录",
+            "section": "国家安全学140200 / 国家安全技术：宋伟及共享招生计划",
+            "readScope": "2026年度目录；导师列名与多人共享计划，不是个人名额",
+            "access": "official_body",
+            "checkedDate": "2026-11-12"
+          }
+        ]
+      },
+      "unknowns": [
+        "博士专业为国家安全学下国家安全技术方向；研究涉及机器人任务不等于机器人专业博士。",
+        "2026共享招生计划不等于本人名额；正式申请条件、2028接收、资助与余位分别待核。",
+        "团队规模、指导风格、设备使用与学生去向未核实。"
+      ],
+      "links": [
+        {
+          "label": "宋伟 · 中央民族大学国家安全研究院",
+          "url": "https://gjaqyjy.muc.edu.cn/info/1073/3950.htm"
+        },
+        {
+          "label": "中央民族大学2026年学术学位博士招生专业目录",
+          "url": "https://grs.muc.edu.cn/yjsyzsw/info/1096/5369.htm"
+        }
+      ],
+      "checkedDate": "2026-11-12",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-12",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-12",
+          "start": "2021-11-12",
+          "end": "2026-11-12"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2010-07",
+        "earliestDate": "2010-07-01",
+        "latestDate": "2010-07-31",
+        "careerContext": "unknown",
+        "noteZh": "官方经历列2010.07至今本校教师，早于近五年窗口；不将晋升或博导身份作为新任。",
+        "sources": [
+          {
+            "url": "https://gjaqyjy.muc.edu.cn/info/1073/3950.htm",
+            "title": "宋伟 · 中央民族大学国家安全研究院",
+            "section": "个人简介、工作经历、研究兴趣第3项：无人装备系统研发",
+            "readScope": "教授/博士生导师、2010.07至今本校教师、研究兴趣第3项：无人装备系统研发",
+            "access": "official_body",
+            "checkedDate": "2026-11-12"
+          }
+        ]
+      }
     }
   ],
   "reviewRequired": true,

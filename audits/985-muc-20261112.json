@@ -1,0 +1,138 @@
+{
+  "checkedDate": "2026-11-12",
+  "method": "重新核验官方正文、名册初筛及核心条目核读",
+  "coverageBoundary": "本轮官方信息工程学院名册79个个人页均获取成功并关键词初筛；核心条目逐条核读。跨院定向阅读李传波3页、博士目录2份。非全校穷尽，不将机器获取等同全部人工精读。",
+  "negativeSearch": {
+    "query": "site:muc.edu.cn 宋伟 吴立成 卢勇 2028 博士 招生",
+    "result": "本轮搜索与上述正文未发现明确2028个人博士名额，不代表绝对不存在或不招生。"
+  },
+  "notExhaustive": true,
+  "mainCatalogAdditions": [
+    "muc-song-wei"
+  ],
+  "observationPool": [
+    {
+      "name": "吴立成",
+      "sources": [
+        "https://xingong.muc.edu.cn/info/1051/1743.htm",
+        "https://grs.muc.edu.cn/yjsyzsw/info/1096/5399.htm"
+      ],
+      "position": "教授、博士生导师",
+      "appointment": "2009年11月作为学术带头人引进至中央民族大学工作",
+      "recentFiveYears": false,
+      "roboticsEvidence": "智能机器人；水上行走机器人、连杆式欠驱动三指机器人手视频链接",
+      "doctoralRoute": "个人招生意向明确博士为语言学及应用语言学（计算语言学方向、少数民族语言学院中国语言文学博士点）；2026目录也列计算语言学。",
+      "boundary": "机器人研究方向不等于机器人博士路径。未找到2028个人名额。"
+    },
+    {
+      "name": "卢勇",
+      "sources": [
+        "https://xingong.muc.edu.cn/info/1056/1194.htm"
+      ],
+      "position": "教授级高级工程师、博士生导师；人工智能与机器人创新实践基地（中心）负责人",
+      "appointment": null,
+      "recentFiveYears": null,
+      "roboticsEvidence": "研究方向人工智能与机器人，基地负责人",
+      "doctoralRoute": null,
+      "boundary": "正文未给博士学科、招生周期、个人名额或首聘日期。机器人竞赛获奖数量不能替代具体博士路径。"
+    },
+    {
+      "name": "范彧",
+      "sources": [
+        "https://xingong.muc.edu.cn/info/1053/1163.htm"
+      ],
+      "position": "讲师、硕士生导师",
+      "appointment": "2004年7月至今，在中央民族大学工学院工作",
+      "recentFiveYears": false,
+      "roboticsEvidence": "6自由度并联机器人研发；利用激光雷达/深度摄像头采集、三维建模、运动捕捉与目标定位、驱动多目标关节机器人",
+      "boundary": "硕士导师，非博士指导资格确认。"
+    },
+    {
+      "name": "郑睿",
+      "sources": [
+        "https://xingong.muc.edu.cn/info/1056/1195.htm"
+      ],
+      "position": "高级实验师、硕士生导师",
+      "appointment": "2012年至今任职中央民族大学信息工程学院",
+      "recentFiveYears": false,
+      "roboticsEvidence": "当前主要关注具身智能和灵巧手操作",
+      "boundary": "未见博士指导或2028招生证据。"
+    },
+    {
+      "name": "唐湘云",
+      "sources": [
+        "https://xingong.muc.edu.cn/info/1051/2425.htm"
+      ],
+      "position": "副教授、硕士生导师",
+      "appointment": "2022.09-2024.01讲师；2024.01至今副教授",
+      "recentFiveYears": true,
+      "roboticsEvidence": "科研项目8：国家重点研发计划智能机器人信息安全防护技术，分布式协同控制安全与透明通信安全课题二，子课题负责人，2025.01-2027.12。",
+      "boundary": "机器人信息安全子课题相关，不能写成机器人硬件或运动控制已验证成果；邀请本科生/硕士联系不等于博士招生。"
+    },
+    {
+      "name": "黄思理",
+      "sources": [
+        "https://xingong.muc.edu.cn/info/1051/5895.htm"
+      ],
+      "position": "讲师、硕士生导师",
+      "appointment": "2025年7月至今任职讲师",
+      "recentFiveYears": true,
+      "roboticsEvidence": "强化学习、多智能体及离线RL代表论文；当前主页未明确机器人硬件系统",
+      "boundary": "算法相关观察；不能仅依据RL题目自动证明机器人实机应用或博士资格。"
+    },
+    {
+      "name": "李景萌",
+      "sources": [
+        "https://xingong.muc.edu.cn/info/1051/6095.htm"
+      ],
+      "position": "讲师、硕士生导师",
+      "appointment": "2026年1月加入中央民族大学信息工程学院",
+      "recentFiveYears": true,
+      "roboticsEvidence": "计算机视觉、多模态大模型、AI4Science；所读页没有具体机器人任务",
+      "boundary": "近期任职明确，但不据通用AI自动归入机器人博士方向。"
+    },
+    {
+      "name": "姜珊",
+      "sources": [
+        "https://xingong.muc.edu.cn/info/1051/1136.htm"
+      ],
+      "position": "副教授、硕士生导师",
+      "appointment": "2021年至今本校工作",
+      "roboticsEvidence": "参与2019–2022工业机器人智能故障诊断及健康评估系统国家重点研发项目",
+      "boundary": "2021仅年份，跨近五年窗口边界不能定为近期；未核博士资格"
+    },
+    {
+      "name": "潘秀琴",
+      "sources": [
+        "https://xingong.muc.edu.cn/info/1051/1744.htm"
+      ],
+      "position": "教授、硕士生导师",
+      "appointment": "2005年1月任教本校至今",
+      "roboticsEvidence": "主持2012.1–2016.12无人驾驶车辆测试与实验环境设计研究子课题",
+      "boundary": "历史无人驾驶项目不能当作当前项目或博士招生"
+    },
+    {
+      "name": "蒋惠萍",
+      "sources": [
+        "https://xingong.muc.edu.cn/info/1053/1158.htm"
+      ],
+      "position": "教授、硕士生导师",
+      "appointment": null,
+      "roboticsEvidence": "类脑智能、智能自主规划；研究兴趣多智能体协同",
+      "boundary": "未明确具体机器人系统或博士资格"
+    },
+    {
+      "name": "李传波",
+      "sources": [
+        "https://lxy.muc.edu.cn/info/1039/1237.htm",
+        "https://gjaqyjy.muc.edu.cn/info/1052/4050.htm",
+        "https://kleema.muc.edu.cn/info/1291/6108.htm"
+      ],
+      "status": "3个官方页面均已全文核验",
+      "finding": "教授博导，2017.11入职；全固态激光雷达/红外器件；硬件交叉，不自动等同机器人系统博士路径。",
+      "appointment": "2017.11-今，中央民族大学理学院，教授、博导",
+      "recentFiveYears": false,
+      "boundary": "官方报告证实全固态LiDAR/高灵敏探测器在无人驾驶等应用讨论；不是已核机器人系统/SLAM成果；博士招生学科和2028计划仍待核。"
+    }
+  ]
+}

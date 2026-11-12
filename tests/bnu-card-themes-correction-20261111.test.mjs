@@ -2,7 +2,7 @@ import test from 'node:test';import assert from 'node:assert/strict';import fs f
 import {reviewedPublicData} from './reviewed-public-data.mjs';
 import {themesFor,browseAdvisors,buildOpportunities} from '../assets/core.js';
 const raw=p=>fs.readFileSync(new URL('../'+p,import.meta.url)),read=p=>JSON.parse(raw(p));
-const c=read('data/catalog.json'),p=read('data/advisor-profiles.json'),receipt=read('tests/fixtures/evidence/bnu-card-themes-correction-20261111.json');
+const stage=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/bnu-card-themes-correction-20261111.json'}),c=stage['data/catalog.json'],p=stage['data/advisor-profiles.json'],receipt=read('tests/fixtures/evidence/bnu-card-themes-correction-20261111.json');
 const ids=['bnu-lu-yu','bnu-yu-shengquan'];
 test('card correction is exactly four source-backed fields with every other published fact and prior receipt retained',()=>{
  const before=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/985-bnu-20261111.json'});

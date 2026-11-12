@@ -6,7 +6,7 @@ import {recruitmentPriority,hasPersonalMSc2028} from '../assets/recruitment-prio
 import {renderAdvisorPriorities} from '../assets/advisor-priorities.js';
 import {renderProfile,renderProfileReferences} from '../assets/profiles.js';
 const raw=f=>fs.readFileSync(new URL('../'+f,import.meta.url)),read=f=>JSON.parse(raw(f));
-const c=read('data/catalog.json'),p=read('data/advisor-profiles.json'),audit=read('audits/985-bnu-20261111.json'),rows=c.advisors.filter(a=>a.institution==='BNU'),profiles=p.profiles.filter(a=>a.advisorId.startsWith('bnu-'));
+const stage=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/bnu-card-themes-correction-20261111.json'}),c=stage['data/catalog.json'],p=stage['data/advisor-profiles.json'],audit=read('audits/985-bnu-20261111.json'),rows=c.advisors.filter(a=>a.institution==='BNU'),profiles=p.profiles.filter(a=>a.advisorId.startsWith('bnu-'));
 const win=createAppointmentWindow('2026-11-11'),get=n=>rows.find(a=>a.nameZh===n),profile=n=>profiles.find(p=>p.advisorId===get(n).id);
 test('BNU adds eleven evidence-backed people and one reference while preserving every prior public record',()=>{
  const before=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/985-cau-20261108.json'});
