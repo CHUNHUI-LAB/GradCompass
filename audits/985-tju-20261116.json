@@ -1,0 +1,4642 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-11-16",
+  "baseCommit": "0b5420df8d7b2df07dc2aab82356c6044ba90421",
+  "school": "天津大学",
+  "notExhaustive": true,
+  "addedCount": 93,
+  "coverage": {
+    "mechanicalAutomation": {
+      "mechanical": {
+        "roster": "https://me.tju.edu.cn/szdw/jxkyxl/jxgcxk.htm",
+        "count": 128,
+        "individualPagesRead": 128,
+        "scope": "机械工程学科教学科研名册128个去重链接正文及研究方向初筛，非整学院力学/热能名册穷尽，不称每篇论文全文读过"
+      },
+      "automation": {
+        "roster": "https://seea.tju.edu.cn/szdw/zdhx.htm",
+        "count": 65,
+        "individualPagesRead": 65,
+        "scope": "自动化系65位正文及研究方向初筛；薛婷首次失败后重试成功；另补王一晶、孙彪两人，不称其他系覆盖完毕"
+      },
+      "boundaries": [
+        "本轮未核得明确个人2028招募，泛招/2027资格不外推2028",
+        "任职与博士身份独立核验；导师团限定保留",
+        "仅公开学术摘要，未采集无关个人信息",
+        "校级专项所列总数不是各导师个人名额"
+      ]
+    },
+    "computingInstrumentation": {
+      "ai": "全职名册6页50人全部逐页读取个人正文；9人纳入、41人观察。",
+      "cs": "计算智能系2页18人名册及旧智算博士名录交叉核对，重点视觉/3D/具身候选逐人查证；不声称计算机全院穷尽。",
+      "instruments": "精仪全院名册入口已读，定向核验宋乐、霍文星、孙岩标、林嘉睿；非全院穷尽。",
+      "extra": "新媒体郑岩及学校具身基础模型团队交叉核验。"
+    },
+    "marine": {
+      "rosters": [
+        "https://marine.tju.edu.cn/szdw/js.htm",
+        "https://marine.tju.edu.cn/szdw/fjs.htm",
+        "https://marine.tju.edu.cn/szdw/fjs/1.htm",
+        "https://marine.tju.edu.cn/szdw/js1.htm"
+      ],
+      "rosterCount": 57,
+      "professors": 20,
+      "associates": 29,
+      "lecturers": 8,
+      "profileSectionsRead": 31,
+      "scope": "四个名册页面57条现职记录；定向核读31份海洋技术相关个人页的导师类型、研究、任职及项目/论文相关段落，另1篇学院科研新闻。其余海洋科学/战略等名册只完成院系级分流，未全员正文审计。",
+      "notExhaustive": true,
+      "limits": [
+        "不声称全校或学院研究方向穷尽。",
+        "未取得2028年度导师目录；个人2028招募均未核实。",
+        "未阅读全文或评估实验设施对新生开放情况。"
+      ]
+    }
+  },
+  "entries": [
+    {
+      "name": "曹中臣",
+      "department": "机械工程学院",
+      "title": "英才副教授 博士生导师",
+      "research": "工业机器人制造装备与精密加工",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/39461.htm",
+          "title": "曹中臣官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2017-05",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-cao-zhongchen",
+      "doctoral_verified": true,
+      "topics": [
+        "工业机器人制造装备与精密加工"
+      ]
+    },
+    {
+      "name": "陈保君",
+      "department": "机械工程学院",
+      "title": "副研究员 博士生导师",
+      "research": "可穿戴与手术机器人、人机接口",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/39471.htm",
+          "title": "陈保君官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2020-07",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-chen-baojun",
+      "doctoral_verified": true,
+      "topics": [
+        "可穿戴与手术机器人",
+        "人机接口"
+      ]
+    },
+    {
+      "name": "陈发泽",
+      "department": "机械工程学院",
+      "title": "副教授 硕士生导师 博士生导师",
+      "research": "水凝胶传感与软体机器人；主线兼含激光制造",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/39521.htm",
+          "title": "陈发泽官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2018-11",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "履历列2018-11讲师，但科研项目含博士后资助，是否存在双重身份仍需核",
+      "id": "tju-chen-faze",
+      "doctoral_verified": true,
+      "topics": [
+        "水凝胶传感与软体机器人",
+        "主线兼含激光制造"
+      ]
+    },
+    {
+      "name": "陈焱",
+      "department": "机械工程学院",
+      "title": "讲席教授 博士生导师 国家级领军人才",
+      "research": "机构运动学、折纸/折展结构与机器人",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/39641.htm",
+          "title": "陈焱官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2012-10",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-chen-yan",
+      "doctoral_verified": true,
+      "topics": [
+        "机构运动学",
+        "折纸/折展结构与机器人"
+      ]
+    },
+    {
+      "name": "丁雅斌",
+      "department": "机械工程学院",
+      "title": "副教授 博士生导师",
+      "research": "机器人视觉感知与加工机器人位姿补偿",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/39881.htm",
+          "title": "丁雅斌官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2007-04",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-ding-yabin",
+      "doctoral_verified": true,
+      "topics": [
+        "机器人视觉感知与加工机器人位姿补偿"
+      ]
+    },
+    {
+      "name": "何柏岩",
+      "department": "机械工程学院",
+      "title": "教授 博士生导师",
+      "research": "机器人机构动力学与多体系统控制",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/40301.htm",
+          "title": "何柏岩官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2005-11",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-he-baiyan",
+      "doctoral_verified": true,
+      "topics": [
+        "机器人机构动力学与多体系统控制"
+      ]
+    },
+    {
+      "name": "黄田",
+      "department": "机械工程学院",
+      "title": "讲席教授 博士生导师 国家级高层次人才",
+      "research": "机器人机构与制造装备",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/40571.htm",
+          "title": "黄田官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "1985-02",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-huang-tian",
+      "doctoral_verified": true,
+      "topics": [
+        "机器人机构与制造装备"
+      ]
+    },
+    {
+      "name": "霍欣明",
+      "department": "机械工程学院",
+      "title": "英才副教授 硕士生导师",
+      "research": "机器人机构创新与AI设计",
+      "doctoral_evidence": "个人页仅标硕士生导师；研究生院2027新质生产力专项博士目录将其列入具身智能机器人创新设计理论与方法课题的报考导师。仅核实该年度专项目录列名，不等同常规独立博导资格或2028名额。",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/40751.htm",
+          "title": "霍欣明官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        },
+        {
+          "url": "https://yzb.tju.edu.cn/xwzx/tkbs_xw/202610/t20261019_324756.htm",
+          "title": "天津大学2027新质生产力专项博士招生简章",
+          "readScope": "正文专项博士课题、招生专业及报考导师名单；总计划属于课题，不拆分为个人名额，不外推2028。",
+          "section": "正文专项博士课题、招生专业及报考导师名单；总计划属于课题，不拆分为个人名额，不外推2028。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2025-03",
+        "precision": "month",
+        "confirmed": true,
+        "note": "官方履历列2025-03起任天津大学机械系副教授；2021-07至2025-03为本校博士后，不将博士后开始时间算作教职入职。"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "个人页硕导与2027专项博士列名的证据层级不同；doctoral_verified仅指存在专项博士目录正证，应在展示保留来源边界。",
+      "id": "tju-huo-xinming",
+      "doctoral_verified": true,
+      "topics": [
+        "机器人机构创新与AI设计"
+      ]
+    },
+    {
+      "name": "姜杉",
+      "department": "机械工程学院",
+      "title": "英才教授 博士生导师",
+      "research": "手术机器人与混合现实导航",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/40821.htm",
+          "title": "姜杉官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "1996-07",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-jiang-shan",
+      "doctoral_verified": true,
+      "topics": [
+        "手术机器人与混合现实导航"
+      ]
+    },
+    {
+      "name": "康荣杰",
+      "department": "机械工程学院",
+      "title": "教授",
+      "research": "软体/仿生机器人及灵巧手",
+      "doctoral_evidence": "2027专项博士目录列为报考导师",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/40851.htm",
+          "title": "康荣杰官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        },
+        {
+          "url": "https://yzb.tju.edu.cn/xwzx/tkbs_xw/202610/t20261019_324756.htm",
+          "title": "天津大学2027新质生产力专项博士招生简章",
+          "readScope": "正文专项博士课题、招生专业及报考导师名单；总计划属于课题，不拆分为个人名额，不外推2028。",
+          "section": "正文专项博士课题、招生专业及报考导师名单；总计划属于课题，不拆分为个人名额，不外推2028。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2013-05",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-kang-rongjie",
+      "doctoral_verified": true,
+      "topics": [
+        "软体/仿生机器人及灵巧手"
+      ]
+    },
+    {
+      "name": "李皓",
+      "department": "机械工程学院",
+      "title": "副教授 博士生导师",
+      "research": "机器人加工与复合材料制造",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/40881.htm",
+          "title": "李皓官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2018-11",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-li-hao",
+      "doctoral_verified": true,
+      "topics": [
+        "机器人加工与复合材料制造"
+      ]
+    },
+    {
+      "name": "李建民",
+      "department": "机械工程学院",
+      "title": "讲席教授 博士生导师 国家级领军人才",
+      "research": "医疗机器人与计算机辅助手术",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/40891.htm",
+          "title": "李建民官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2013",
+        "precision": "year",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-li-jianmin",
+      "doctoral_verified": true,
+      "topics": [
+        "医疗机器人与计算机辅助手术"
+      ]
+    },
+    {
+      "name": "李进华",
+      "department": "机械工程学院",
+      "title": "教授 博士生导师",
+      "research": "医疗机器人系统与控制",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/40901.htm",
+          "title": "李进华官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2007-11",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-li-jinhua",
+      "doctoral_verified": true,
+      "topics": [
+        "医疗机器人系统与控制"
+      ]
+    },
+    {
+      "name": "李君兰",
+      "department": "机械工程学院",
+      "title": "副教授 博士生导师",
+      "research": "可展机构和仿生机器人",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/40921.htm",
+          "title": "李君兰官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2013-01",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-li-junlan",
+      "doctoral_verified": true,
+      "topics": [
+        "可展机构和仿生机器人"
+      ]
+    },
+    {
+      "name": "连宾宾",
+      "department": "机械工程学院",
+      "title": "教授",
+      "research": "机器人设计控制与智能装配",
+      "doctoral_evidence": "2027专项博士目录列为报考导师",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/40951.htm",
+          "title": "连宾宾官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        },
+        {
+          "url": "https://yzb.tju.edu.cn/xwzx/tkbs_xw/202610/t20261019_324756.htm",
+          "title": "天津大学2027新质生产力专项博士招生简章",
+          "readScope": "正文专项博士课题、招生专业及报考导师名单；总计划属于课题，不拆分为个人名额，不外推2028。",
+          "section": "正文专项博士课题、招生专业及报考导师名单；总计划属于课题，不拆分为个人名额，不外推2028。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2019-06",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-lian-binbin",
+      "doctoral_verified": true,
+      "topics": [
+        "机器人设计控制与智能装配"
+      ]
+    },
+    {
+      "name": "刘海涛",
+      "department": "机械工程学院",
+      "title": "讲席教授 博士生导师 国家级领军人才",
+      "research": "机器人机构理论与制造机器人",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41001.htm",
+          "title": "刘海涛官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2014-09",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-liu-haitao",
+      "doctoral_verified": true,
+      "topics": [
+        "机器人机构理论与制造机器人"
+      ]
+    },
+    {
+      "name": "刘建彬",
+      "department": "机械工程学院",
+      "title": "副教授 博士生导师",
+      "research": "柔性驱动器与软体机器人",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41011.htm",
+          "title": "刘建彬官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2018",
+        "precision": "year",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-liu-jianbin",
+      "doctoral_verified": true,
+      "topics": [
+        "柔性驱动器与软体机器人"
+      ]
+    },
+    {
+      "name": "刘玉红",
+      "department": "机械工程学院",
+      "title": "教授",
+      "research": "仿生水下机器人、推进及感知",
+      "doctoral_evidence": "履历注明博士研究生导师",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41031.htm",
+          "title": "刘玉红官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2004-11",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-liu-yuhong",
+      "doctoral_verified": true,
+      "topics": [
+        "仿生水下机器人",
+        "推进及感知"
+      ]
+    },
+    {
+      "name": "马家耀",
+      "department": "机械工程学院",
+      "title": "英才教授 博士生导师 国家级青年人才",
+      "research": "折纸/可展结构、软体滚动机器人及抓手",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41051.htm",
+          "title": "马家耀官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2015-10",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-ma-jiayao",
+      "doctoral_verified": true,
+      "topics": [
+        "折纸/可展结构",
+        "软体滚动机器人及抓手"
+      ]
+    },
+    {
+      "name": "马伟",
+      "department": "机械工程学院",
+      "title": "副教授 博士生导师",
+      "research": "水下无人平台运行控制与集群组网",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41061.htm",
+          "title": "马伟官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2019-07",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-ma-wei",
+      "doctoral_verified": true,
+      "topics": [
+        "水下无人平台运行控制与集群组网"
+      ]
+    },
+    {
+      "name": "穆九柯",
+      "department": "机械工程学院",
+      "title": "英才教授 博士生导师 国家级青年人才",
+      "research": "人工肌肉与软体机器人",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41081.htm",
+          "title": "穆九柯官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2022",
+        "precision": "year",
+        "confirmed": true,
+        "note": "官方履历列2022起任天津大学机械学院教授，仅提供年份；此前2020–2022为美国UT系统纳米中心副研究教授，2017–2018为UT Dallas博士后。本字段指首次天津大学非博士后教职，不是全球首次教职。"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-mu-jiuke",
+      "doctoral_verified": true,
+      "topics": [
+        "人工肌肉与软体机器人"
+      ]
+    },
+    {
+      "name": "倪雁冰",
+      "department": "机械工程学院",
+      "title": "教授 博士生导师",
+      "research": "机器人与制造装备",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/43461.htm",
+          "title": "倪雁冰官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "1985-07",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-ni-yanbing",
+      "doctoral_verified": true,
+      "topics": [
+        "机器人与制造装备"
+      ]
+    },
+    {
+      "name": "潘立志",
+      "department": "机械工程学院",
+      "title": "英才教授 博士生导师 国家级青年人才",
+      "research": "手术机器人与生机电系统",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41111.htm",
+          "title": "潘立志官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2019-11",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-pan-lizhi",
+      "doctoral_verified": true,
+      "topics": [
+        "手术机器人与生机电系统"
+      ]
+    },
+    {
+      "name": "秦旭达",
+      "department": "机械工程学院",
+      "title": "教授 博士生导师",
+      "research": "装配机器人与制造系统",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41121.htm",
+          "title": "秦旭达官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2004-03",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-qin-xuda",
+      "doctoral_verified": true,
+      "topics": [
+        "装配机器人与制造系统"
+      ]
+    },
+    {
+      "name": "山显雷",
+      "department": "机械工程学院",
+      "title": "副研究员 博士生导师",
+      "research": "机器人机构与机器人加工",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41141.htm",
+          "title": "山显雷官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": null,
+        "precision": "unknown",
+        "confirmed": false,
+        "note": "首次本校非博士后任职时间尚未核实"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "2017-2023讲师/博士后混写，首次非博士后教职未核",
+      "id": "tju-shan-xianlei",
+      "doctoral_verified": true,
+      "topics": [
+        "机器人机构与机器人加工"
+      ]
+    },
+    {
+      "name": "史超阳",
+      "department": "机械工程学院",
+      "title": "菁英教授 博士生导师 国家级青年人才",
+      "research": "自主手术机器人、VLA/强化学习、康复与人形机器人",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41171.htm",
+          "title": "史超阳官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2019-03",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-shi-chaoyang",
+      "doctoral_verified": true,
+      "topics": [
+        "自主手术机器人",
+        "VLA/强化学习",
+        "康复与人形机器人"
+      ]
+    },
+    {
+      "name": "宋轶民",
+      "department": "机械工程学院",
+      "title": "教授 博士生导师",
+      "research": "机器人机构和机械动力学",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41191.htm",
+          "title": "宋轶民官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2001-05",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-song-yimin",
+      "doctoral_verified": true,
+      "topics": [
+        "机器人机构和机械动力学"
+      ]
+    },
+    {
+      "name": "宋智斌",
+      "department": "机械工程学院",
+      "title": "英才副教授 博士生导师",
+      "research": "可重构机构及康复、服务、水下机器人",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41201.htm",
+          "title": "宋智斌官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2013-07",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-song-zhibin",
+      "doctoral_verified": true,
+      "topics": [
+        "可重构机构及康复",
+        "服务",
+        "水下机器人"
+      ]
+    },
+    {
+      "name": "孙涛",
+      "department": "机械工程学院",
+      "title": "讲席教授 博士生导师 国家级领军人才",
+      "research": "人形/移动操作机器人、并联加工与康复机器人",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41231.htm",
+          "title": "孙涛官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": null,
+        "precision": "unknown",
+        "confirmed": false,
+        "note": "首次本校非博士后任职时间尚未核实"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-sun-tao",
+      "doctoral_verified": true,
+      "topics": [
+        "人形/移动操作机器人",
+        "并联加工与康复机器人"
+      ]
+    },
+    {
+      "name": "孙通帅",
+      "department": "机械工程学院",
+      "title": "副教授 硕士生/博士生导师",
+      "research": "水下机器人构型设计与调控",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41241.htm",
+          "title": "孙通帅官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2025-11",
+        "precision": "month",
+        "confirmed": false,
+        "note": "官方履历列2025-11起任副教授；2022-04至2025-11合列博士后、助理研究员，未交代身份转换日期。2025-11仅为明确副教授任期起点，不能确认是首次非博士后教职，故不作为已核实首次入职日期。"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "此前2022-2025博士后/助研混写，保守仅以2025-11副教授作常规教职证据",
+      "id": "tju-sun-tongshuai",
+      "doctoral_verified": true,
+      "topics": [
+        "水下机器人构型设计与调控"
+      ]
+    },
+    {
+      "name": "王福军",
+      "department": "机械工程学院",
+      "title": "教授 硕士生导师 博士生导师",
+      "research": "精密操作、柔性机器人及机构控制",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41291.htm",
+          "title": "王福军官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2010-06",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-wang-fujun",
+      "doctoral_verified": true,
+      "topics": [
+        "精密操作",
+        "柔性机器人及机构控制"
+      ]
+    },
+    {
+      "name": "王国锋",
+      "department": "机械工程学院",
+      "title": "教授 博士生导师",
+      "research": "工业机器人控制与视觉检测",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41321.htm",
+          "title": "王国锋官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2002-03",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-wang-guofeng",
+      "doctoral_verified": true,
+      "topics": [
+        "工业机器人控制与视觉检测"
+      ]
+    },
+    {
+      "name": "王攀峰",
+      "department": "机械工程学院",
+      "title": "副研究员 博士生导师",
+      "research": "工业/移动/人形机器人及人机协作",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41361.htm",
+          "title": "王攀峰官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2011-08",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-wang-panfeng",
+      "doctoral_verified": true,
+      "topics": [
+        "工业/移动/人形机器人及人机协作"
+      ]
+    },
+    {
+      "name": "王世宇",
+      "department": "机械工程学院",
+      "title": "教授 博士生导师",
+      "research": "机器人关节减速机构与旋转系统动力学",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41381.htm",
+          "title": "王世宇官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2007-03",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-wang-shiyu",
+      "doctoral_verified": true,
+      "topics": [
+        "机器人关节减速机构与旋转系统动力学"
+      ]
+    },
+    {
+      "name": "王树新",
+      "department": "机械工程学院",
+      "title": "中国工程院院士 讲席教授 博士生导师",
+      "research": "智能机器人与机械系统控制",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41391.htm",
+          "title": "王树新官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "1990-02",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "当前天津大学机械工程学科名册及个人页仍列讲席教授、博士生导师；未据此判断跨校主聘归属、实际指导安排或2028个人接收情况。",
+      "id": "tju-wang-shuxin",
+      "doctoral_verified": true,
+      "topics": [
+        "智能机器人与机械系统控制"
+      ]
+    },
+    {
+      "name": "王延辉",
+      "department": "机械工程学院",
+      "title": "讲席教授 博士生导师 国家级领军人才",
+      "research": "自主水下航行器与水下无人组网",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41411.htm",
+          "title": "王延辉官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2009-12",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-wang-yanhui",
+      "doctoral_verified": true,
+      "topics": [
+        "自主水下航行器与水下无人组网"
+      ]
+    },
+    {
+      "name": "肖聚亮",
+      "department": "机械工程学院",
+      "title": "教授 博士生导师",
+      "research": "协作机器人、制造机器人与控制",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41481.htm",
+          "title": "肖聚亮官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2006-09",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-xiao-juliang",
+      "doctoral_verified": true,
+      "topics": [
+        "协作机器人",
+        "制造机器人与控制"
+      ]
+    },
+    {
+      "name": "邢元",
+      "department": "机械工程学院",
+      "title": "副教授 博士生导师",
+      "research": "手术机器人安全可靠性与人因",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41491.htm",
+          "title": "邢元官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2013-03",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-xing-yuan",
+      "doctoral_verified": true,
+      "topics": [
+        "手术机器人安全可靠性与人因"
+      ]
+    },
+    {
+      "name": "杨绍琼",
+      "department": "机械工程学院",
+      "title": "英才教授 博士生导师 国家级青年人才",
+      "research": "无人潜航器构型与性能设计",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41531.htm",
+          "title": "杨绍琼官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2017-03",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-yang-shaoqiong",
+      "doctoral_verified": true,
+      "topics": [
+        "无人潜航器构型与性能设计"
+      ]
+    },
+    {
+      "name": "杨志永",
+      "department": "机械工程学院",
+      "title": "教授 博士生导师",
+      "research": "影像导航手术机器人设计与控制",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/46341.htm",
+          "title": "杨志永官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2002-06",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-yang-zhiyong",
+      "doctoral_verified": true,
+      "topics": [
+        "影像导航手术机器人设计与控制"
+      ]
+    },
+    {
+      "name": "张大卫",
+      "department": "机械工程学院",
+      "title": "教授 博士生导师",
+      "research": "喷涂机器人及精密制造装备",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41591.htm",
+          "title": "张大卫官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "1990-03",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-zhang-dawei",
+      "doctoral_verified": true,
+      "topics": [
+        "喷涂机器人及精密制造装备"
+      ]
+    },
+    {
+      "name": "张宏伟",
+      "department": "机械工程学院",
+      "title": "教授 博士生导师",
+      "research": "水下机器人及机电传动",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41611.htm",
+          "title": "张宏伟官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2007-06",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-zhang-hongwei",
+      "doctoral_verified": true,
+      "topics": [
+        "水下机器人及机电传动"
+      ]
+    },
+    {
+      "name": "郑仁成",
+      "department": "机械工程学院",
+      "title": "教授 博士生导师",
+      "research": "自主巡检机器人及智能车交互",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41801.htm",
+          "title": "郑仁成官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2019",
+        "precision": "year",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-zheng-rencheng",
+      "doctoral_verified": true,
+      "topics": [
+        "自主巡检机器人及智能车交互"
+      ]
+    },
+    {
+      "name": "周泽洋",
+      "department": "机械工程学院",
+      "title": "副研究员 博士生导师",
+      "research": "手术机器人与混合现实导航",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41821.htm",
+          "title": "周泽洋官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2025-12",
+        "precision": "month",
+        "confirmed": true,
+        "note": "官方履历列2025-12起任天津大学机械学院副研究员/博士生导师；2023-06至2025-11为本校博士后，排除博士后经历。"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-zhou-zeyang",
+      "doctoral_verified": true,
+      "topics": [
+        "手术机器人与混合现实导航"
+      ]
+    },
+    {
+      "name": "左思洋",
+      "department": "机械工程学院",
+      "title": "讲席教授 博士生导师 国家级领军人才",
+      "research": "柔性手术机器人、视觉自主操作与传感",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/41851.htm",
+          "title": "左思洋官方个人页",
+          "readScope": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "section": "个人页正文职称/概况、学术经历、研究方向及公开招募段落；涉及代表作时只核题名与署名，未阅读全文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2016-01",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-zuo-siyang",
+      "doctoral_verified": true,
+      "topics": [
+        "柔性手术机器人",
+        "视觉自主操作与传感"
+      ]
+    },
+    {
+      "name": "安山",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "英才副教授（长聘）",
+      "research": "机器人灵巧操作、模仿学习与机器人视觉",
+      "doctoral_evidence": "个人页列2027全日制博士招收计划，已确定人选",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/5062.htm",
+          "title": "安山官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": null,
+        "precision": "unknown",
+        "confirmed": false,
+        "note": "首次本校非博士后任职时间尚未核实"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "2027计划已确定人选，不代表2028开放；首次本校任职日期缺失",
+      "id": "tju-an-shan",
+      "doctoral_verified": true,
+      "topics": [
+        "机器人灵巧操作",
+        "模仿学习与机器人视觉"
+      ]
+    },
+    {
+      "name": "侯惠让",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "副教授/博士生导师",
+      "research": "具身机器人、机器嗅觉及决策",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/2216.htm",
+          "title": "侯惠让官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2020-07",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-hou-huirang",
+      "doctoral_verified": true,
+      "topics": [
+        "具身机器人",
+        "机器嗅觉及决策"
+      ]
+    },
+    {
+      "name": "张秀云",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "副教授/博士生导师/硕士生导师",
+      "research": "无人系统任务规划、集群决策与感知",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/1572.htm",
+          "title": "张秀云官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2020-01",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-zhang-xiuyun",
+      "doctoral_verified": true,
+      "topics": [
+        "无人系统任务规划",
+        "集群决策与感知"
+      ]
+    },
+    {
+      "name": "齐俊桐",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "教授/硕士生导师/博士生导师",
+      "research": "机器人三维感知、具身自主控制与多机协同",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/1584.htm",
+          "title": "齐俊桐官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2016-04",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-qi-juntong",
+      "doctoral_verified": true,
+      "topics": [
+        "机器人三维感知",
+        "具身自主控制与多机协同"
+      ]
+    },
+    {
+      "name": "王明明",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "副教授/硕士生导师/博士生导师（导师团）",
+      "research": "无人机/无人车协同感知与控制、三维环境理解",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/4420.htm",
+          "title": "王明明官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2019-09",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "官方博士称谓限定为导师团，不能写成独立名额",
+      "id": "tju-wang-mingming",
+      "doctoral_verified": true,
+      "topics": [
+        "无人机/无人车协同感知与控制",
+        "三维环境理解"
+      ]
+    },
+    {
+      "name": "胡超芳",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "教授/博士生导师",
+      "research": "无人机与无人船规划感知控制",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/1555.htm",
+          "title": "胡超芳官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2009-09",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-hu-chaofang",
+      "doctoral_verified": true,
+      "topics": [
+        "无人机与无人船规划感知控制"
+      ]
+    },
+    {
+      "name": "任超",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "研究员, 硕士生导师/博士生导师",
+      "research": "水下蛇形与具身机器人",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/1583.htm",
+          "title": "任超官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2015-11",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-ren-chao",
+      "doctoral_verified": true,
+      "topics": [
+        "水下蛇形与具身机器人"
+      ]
+    },
+    {
+      "name": "宋锐",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "英才副教授/硕士生导师/博士生导师（导师团）",
+      "research": "机器人导航、多传感器融合与位姿估计",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/5663.htm",
+          "title": "宋锐官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": null,
+        "precision": "unknown",
+        "confirmed": false,
+        "note": "首次本校非博士后任职时间尚未核实"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "官方博士称谓限定为导师团，不能写成独立名额",
+      "id": "tju-song-rui",
+      "doctoral_verified": true,
+      "topics": [
+        "机器人导航",
+        "多传感器融合与位姿估计"
+      ]
+    },
+    {
+      "name": "王江",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "教授/博士生导师",
+      "research": "生物灵感康复机器人和学习系统",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/1590.htm",
+          "title": "王江官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "1989",
+        "precision": "year",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-wang-jiang",
+      "doctoral_verified": true,
+      "topics": [
+        "生物灵感康复机器人和学习系统"
+      ]
+    },
+    {
+      "name": "许燕斌",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "教授/博士生导师",
+      "research": "四足机器人运动控制与深度学习",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/2811.htm",
+          "title": "许燕斌官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2004-03",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-xu-yanbin",
+      "doctoral_verified": true,
+      "topics": [
+        "四足机器人运动控制与深度学习"
+      ]
+    },
+    {
+      "name": "邓斌",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "教授/博士生导师",
+      "research": "机器人视触融合、视觉伺服与串并联控制",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/1592.htm",
+          "title": "邓斌官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2009-03",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-deng-bin",
+      "doctoral_verified": true,
+      "topics": [
+        "机器人视触融合",
+        "视觉伺服与串并联控制"
+      ]
+    },
+    {
+      "name": "左志强",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "教授/博士生导师",
+      "research": "无人驾驶与多智能体协同",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/1586.htm",
+          "title": "左志强官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2004-06",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-zuo-zhiqiang",
+      "doctoral_verified": true,
+      "topics": [
+        "无人驾驶与多智能体协同"
+      ]
+    },
+    {
+      "name": "田栢苓",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "教授/博士生导师",
+      "research": "无人机自主导航建图、规划与协同控制",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/1588.htm",
+          "title": "田栢苓官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2011-06",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-tian-bailing",
+      "doctoral_verified": true,
+      "topics": [
+        "无人机自主导航建图",
+        "规划与协同控制"
+      ]
+    },
+    {
+      "name": "杨洪玖",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "教授",
+      "research": "仓储机器人、无人驾驶和空地协作",
+      "doctoral_evidence": "个人页履历明确2018-09起教授、博士生导师",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/1566.htm",
+          "title": "杨洪玖官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2018-09",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-yang-hongjiu",
+      "doctoral_verified": true,
+      "topics": [
+        "仓储机器人",
+        "无人驾驶和空地协作"
+      ]
+    },
+    {
+      "name": "高忠科",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "教授",
+      "research": "脑控康复机器人与水下自主系统",
+      "doctoral_evidence": "履历和简介注明博士生导师",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/1553.htm",
+          "title": "高忠科官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2010-09",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-gao-zhongke",
+      "doctoral_verified": true,
+      "topics": [
+        "脑控康复机器人与水下自主系统"
+      ]
+    },
+    {
+      "name": "董娜",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "教授/博士生导师",
+      "research": "机器人自主导航、SLAM、路径规划与智能控制",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/1545.htm",
+          "title": "董娜官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2011-07",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-dong-na",
+      "doctoral_verified": true,
+      "topics": [
+        "机器人自主导航",
+        "SLAM",
+        "路径规划与智能控制"
+      ]
+    },
+    {
+      "name": "曾明",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "副教授/博士生导师",
+      "research": "嗅探机器人与机器感知",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/1538.htm",
+          "title": "曾明官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2006-07",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-zeng-ming",
+      "doctoral_verified": true,
+      "topics": [
+        "嗅探机器人与机器感知"
+      ]
+    },
+    {
+      "name": "窦立谦",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "教授/博士生导师",
+      "research": "无人系统规划及多无人机通信协同",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/1534.htm",
+          "title": "窦立谦官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2008-03",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-dou-liqian",
+      "doctoral_verified": true,
+      "topics": [
+        "无人系统规划及多无人机通信协同"
+      ]
+    },
+    {
+      "name": "鲜斌",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "教授/博士生导师",
+      "research": "自主无人机、三维环境感知与视觉跟踪",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/1520.htm",
+          "title": "鲜斌官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2007-01",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "个人页海外经历年份与本校经历存在重叠/疑似笔误，不校正原文",
+      "id": "tju-xian-bin",
+      "doctoral_verified": true,
+      "topics": [
+        "自主无人机",
+        "三维环境感知与视觉跟踪"
+      ]
+    },
+    {
+      "name": "孟庆浩",
+      "department": "自动化学院（页面沿用电气自动化与信息工程学院）",
+      "title": "教授/博士生导师",
+      "research": "具身机器人感知导航、嗅觉寻源与水下机器人",
+      "doctoral_evidence": "个人页明确博士指导资格",
+      "doctoral_status": "verified",
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1013/1569.htm",
+          "title": "孟庆浩官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2003",
+        "precision": "year",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "",
+      "id": "tju-meng-qinghao",
+      "doctoral_verified": true,
+      "topics": [
+        "具身机器人感知导航",
+        "嗅觉寻源与水下机器人"
+      ]
+    },
+    {
+      "id": "tju-wang-yijing",
+      "name": "王一晶",
+      "department": "自动化学院（现代电工电子技术中心）",
+      "title": "教授",
+      "research": "水下机器鱼、多智能体与网络化控制",
+      "topics": [
+        "水下机器人",
+        "多智能体控制"
+      ],
+      "doctoral_evidence": "官方个人页明确教授/博士生导师；2027专项博士目录列名",
+      "doctoral_status": "verified",
+      "doctoral_verified": true,
+      "sources": [
+        {
+          "url": "https://seea.tju.edu.cn/info/1016/1562.htm",
+          "title": "王一晶官方个人页",
+          "readScope": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "section": "个人页正文职称与导师身份、主要研究方向、工作经历及公开招募信息；未阅读全文论文。",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2004-06",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历列天津大学讲师；不以2015年晋升作入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": ""
+    },
+    {
+      "name": "马晓光",
+      "id": "tju-ma-xiaoguang",
+      "slug": "tju-ma-xiaoguang",
+      "department": "人工智能学院",
+      "title": "北洋讲席教授",
+      "research": "空中机器人视觉语言导航、机器人模仿学习、多传感器SLAM；主页列出对应2025—2026论文。",
+      "topics": [
+        "具身智能",
+        "视觉语言导航",
+        "模仿学习",
+        "SLAM"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "官方个人简介明确博士生导师。",
+      "sources": [
+        {
+          "url": "https://sai.tju.edu.cn/info/1091/5911.htm",
+          "title": "马晓光官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2026",
+        "precision": "year",
+        "confirmed": true,
+        "note": "2026年转入天津大学；2018年起已有东南大学教授教职，因此是近五年入职本校，不是近五年首次从教。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "未发现明确2028招生证据；博士资格不等于当年名额。"
+    },
+    {
+      "name": "朱文成",
+      "id": "tju-zhu-wencheng",
+      "slug": "tju-zhu-wencheng",
+      "department": "人工智能学院",
+      "title": "副研究员",
+      "research": "无人机视觉感知、视觉语言模型及点云理解；有2026点云多模态工作。",
+      "topics": [
+        "无人机感知",
+        "点云理解",
+        "多模态感知"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "官方个人简介明确博士生导师。",
+      "sources": [
+        {
+          "url": "https://sai.tju.edu.cn/info/1091/2901.htm",
+          "title": "朱文成官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2023-11",
+        "precision": "month",
+        "confirmed": true,
+        "note": "2023.11入职天津大学；此前2021.07—2023.10清华助理研究员。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "未发现明确2028招生证据；博士资格不等于当年名额。"
+    },
+    {
+      "name": "朱鹏飞",
+      "id": "tju-zhu-pengfei",
+      "slug": "tju-zhu-pengfei",
+      "department": "人工智能学院",
+      "title": "教授",
+      "research": "无人机视觉检测跟踪、VisDrone、无人系统群体学习及巡检感知。",
+      "topics": [
+        "无人机感知",
+        "检测跟踪",
+        "群体智能"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "官方个人简介明确博士生导师。",
+      "sources": [
+        {
+          "url": "https://sai.tju.edu.cn/info/1091/2551.htm",
+          "title": "朱鹏飞官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2015-08",
+        "precision": "month",
+        "confirmed": true,
+        "note": "官方履历首个天津大学非博士后教职；晋升/院内转任不重置入职日期。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "未发现明确2028招生证据；博士资格不等于当年名额。"
+    },
+    {
+      "name": "胡清华",
+      "id": "tju-hu-qinghua",
+      "slug": "tju-hu-qinghua",
+      "department": "人工智能学院",
+      "title": "教授",
+      "research": "多模态鲁棒融合，并主持动态无人机集群鲁棒安全联邦学习与群智进化项目。",
+      "topics": [
+        "无人机集群",
+        "多模态融合",
+        "鲁棒感知"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "官方个人简介明确博士生导师。",
+      "sources": [
+        {
+          "url": "https://sai.tju.edu.cn/info/1091/3031.htm",
+          "title": "胡清华官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2012-04",
+        "precision": "month",
+        "confirmed": true,
+        "note": "官方履历首个天津大学非博士后教职；晋升/院内转任不重置入职日期。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "未发现明确2028招生证据；博士资格不等于当年名额。"
+    },
+    {
+      "name": "韩亚洪",
+      "id": "tju-han-yahong",
+      "slug": "tju-han-yahong",
+      "department": "人工智能学院",
+      "title": "教授",
+      "research": "点云新类分割与动态域目标检测适应；属于3D/鲁棒感知方法，不声称具备机器人控制项目。",
+      "topics": [
+        "点云分割",
+        "域适应",
+        "目标检测"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "官方个人简介明确博士生导师。",
+      "sources": [
+        {
+          "url": "https://sai.tju.edu.cn/info/1091/2701.htm",
+          "title": "韩亚洪官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2012-03",
+        "precision": "month",
+        "confirmed": true,
+        "note": "官方履历首个天津大学非博士后教职；晋升/院内转任不重置入职日期。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "未发现明确2028招生证据；博士资格不等于当年名额。"
+    },
+    {
+      "name": "曹兵",
+      "id": "tju-cao-bing",
+      "slug": "tju-cao-bing",
+      "department": "人工智能学院",
+      "title": "教授",
+      "research": "主持无人机视觉大模型、低空多模态感知相关项目。",
+      "topics": [
+        "低空感知",
+        "无人机视觉",
+        "多模态融合"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "官方个人简介明确博士生导师。",
+      "sources": [
+        {
+          "url": "https://sai.tju.edu.cn/info/1091/2811.htm",
+          "title": "曹兵官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": null,
+        "precision": "unknown",
+        "confirmed": false,
+        "note": "履历2020.07起天津大学助理研究员，2023.04副研究员；早期助研是否博士后未明，不把2023晋升当首次入职。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "未发现明确2028招生证据；博士资格不等于当年名额。"
+    },
+    {
+      "name": "王龙标",
+      "id": "tju-wang-longbiao",
+      "slug": "tju-wang-longbiao",
+      "department": "人工智能学院",
+      "title": "教授",
+      "research": "机器人复杂环境语音对话、具身听觉及语言交互；聚焦机器人听觉，不泛化成导航。",
+      "topics": [
+        "机器人听觉",
+        "人机交互",
+        "语音感知"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "官方个人简介明确博士生导师。",
+      "sources": [
+        {
+          "url": "https://sai.tju.edu.cn/info/1091/2581.htm",
+          "title": "王龙标官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2016-09",
+        "precision": "month",
+        "confirmed": true,
+        "note": "官方履历首个天津大学非博士后教职；晋升/院内转任不重置入职日期。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "未发现明确2028招生证据；博士资格不等于当年名额。"
+    },
+    {
+      "name": "徐庆",
+      "id": "tju-xu-qing",
+      "slug": "tju-xu-qing",
+      "department": "人工智能学院",
+      "title": "教授",
+      "research": "参与虚拟现实人机交互重点研发任务，研究增强现实行人导航及轨迹/注视理解；跨界HRI候选。",
+      "topics": [
+        "人机交互",
+        "增强现实",
+        "行为感知"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "官方个人简介明确博士生导师。",
+      "sources": [
+        {
+          "url": "https://sai.tju.edu.cn/info/1091/2791.htm",
+          "title": "徐庆官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2003-06",
+        "precision": "month",
+        "confirmed": true,
+        "note": "官方履历首个天津大学非博士后教职；晋升/院内转任不重置入职日期。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "重点项目为参与而非主持；AR行人导航不是机器人自主导航；未发现2028招生证据。"
+    },
+    {
+      "name": "刘安安",
+      "id": "tju-liu-anan",
+      "slug": "tju-liu-anan",
+      "department": "人工智能学院",
+      "title": "讲席教授",
+      "research": "多模态少样本三维模型分类、场景图理解；可覆盖3D场景理解，不声称机器人落地。",
+      "topics": [
+        "三维模型分类",
+        "场景理解",
+        "多模态感知"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "官方个人简介明确博士生导师。",
+      "sources": [
+        {
+          "url": "https://sai.tju.edu.cn/info/1091/2601.htm",
+          "title": "刘安安官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2010-03",
+        "precision": "month",
+        "confirmed": true,
+        "note": "官方履历首个天津大学非博士后教职；晋升/院内转任不重置入职日期。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "未发现明确2028招生证据；博士资格不等于当年名额。"
+    },
+    {
+      "name": "冯伟",
+      "id": "tju-feng-wei",
+      "slug": "tju-feng-wei",
+      "department": "计算机科学与技术学院",
+      "title": "讲席教授",
+      "research": "视觉机器人、主动定位、主动三维场景感知、点云分割与神经三维重建。",
+      "topics": [
+        "视觉机器人",
+        "主动定位",
+        "三维重建",
+        "点云分割"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "官方博士导师名录列名。",
+      "sources": [
+        {
+          "url": "https://cic.tju.edu.cn/faculty/fengwei/zh.html",
+          "title": "冯伟官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        },
+        {
+          "url": "https://cic.tju.edu.cn/jyjx/yjsjy/yjsdsml.htm",
+          "title": "原智算学部博士生导师名录",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        },
+        {
+          "url": "https://cs.tju.edu.cn/faculty/jzgml/axs/jsznx.htm",
+          "title": "现计算机学院计算智能系名册",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": null,
+        "precision": "unknown",
+        "confirmed": false,
+        "note": "未核实首次非博士后教职日期，不作近五年判断。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "未发现明确2028招生证据；博士资格不等于当年名额。"
+    },
+    {
+      "name": "李坤",
+      "id": "tju-li-kun",
+      "slug": "tju-li-kun",
+      "department": "计算机科学与技术学院",
+      "title": "教授",
+      "research": "计算立体视觉、三维人体重建、运动捕捉与动态场景建模。",
+      "topics": [
+        "三维重建",
+        "立体视觉",
+        "人体感知"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "官方个人简介明确博士生导师。",
+      "sources": [
+        {
+          "url": "https://cic.tju.edu.cn/info/1103/1106.htm",
+          "title": "李坤官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        },
+        {
+          "url": "https://cic.tju.edu.cn/faculty/likun/index.html",
+          "title": "李坤官方研究主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": null,
+        "precision": "unknown",
+        "confirmed": false,
+        "note": "未核实首次非博士后教职日期，不作近五年判断。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "未发现明确2028招生证据；博士资格不等于当年名额。"
+    },
+    {
+      "name": "林迪",
+      "id": "tju-lin-di",
+      "slug": "tju-lin-di",
+      "department": "计算机科学与技术学院",
+      "title": "长聘副教授",
+      "research": "语义场景补全、三维重建与自动驾驶场景/占据建模。",
+      "topics": [
+        "三维重建",
+        "自动驾驶",
+        "场景补全"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "官方博士导师名录列名。",
+      "sources": [
+        {
+          "url": "https://cic.tju.edu.cn/info/1103/2835.htm",
+          "title": "林迪官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        },
+        {
+          "url": "https://cic.tju.edu.cn/jyjx/yjsjy/yjsdsml.htm",
+          "title": "原智算学部博士生导师名录",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        },
+        {
+          "url": "https://dilincv.github.io/",
+          "title": "官方教师页所链接的IDV Lab主页",
+          "readScope": "官方主页外链作者研究页正文已读",
+          "section": "官方主页外链作者研究页正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": null,
+        "precision": "unknown",
+        "confirmed": false,
+        "note": "未核实首次非博士后教职日期，不作近五年判断。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "未发现明确2028招生证据；博士资格不等于当年名额。"
+    },
+    {
+      "name": "潘志一",
+      "id": "tju-pan-zhiyi",
+      "slug": "tju-pan-zhiyi",
+      "department": "计算机科学与技术学院",
+      "title": "副研究员",
+      "research": "点云处理与生成，三维视觉。",
+      "topics": [
+        "点云处理",
+        "三维视觉"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "官方个人简介明确博士生导师。",
+      "sources": [
+        {
+          "url": "https://cs.tju.edu.cn/info/1811/2491.htm",
+          "title": "潘志一官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        },
+        {
+          "url": "https://panzhiyi.top/",
+          "title": "潘志一个人主页",
+          "readScope": "官方页所链接作者主页正文已读",
+          "section": "官方页所链接作者主页正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2025-07",
+        "precision": "month",
+        "confirmed": true,
+        "note": "官方教师页确认现职和博士资格；其外链个人主页写明2025年7月博士毕业后加入天津大学。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "个人页招募文字为硕士/本科生，不能替换为2028博士招生承诺。"
+    },
+    {
+      "name": "万亮",
+      "id": "tju-wan-liang",
+      "slug": "tju-wan-liang",
+      "department": "医学院（原智算主页保留）",
+      "title": "教授",
+      "research": "三维重建、球面视觉、目标跟踪；近期论文涉及雾天车道检测与视觉域泛化。",
+      "topics": [
+        "三维重建",
+        "视觉跟踪",
+        "退化感知"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "官方个人简介明确博士生导师。",
+      "sources": [
+        {
+          "url": "https://cic.tju.edu.cn/info/1114/1225.htm",
+          "title": "万亮官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        },
+        {
+          "url": "https://cic.tju.edu.cn/faculty/lwan/index.html",
+          "title": "万亮官方个人主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": null,
+        "precision": "unknown",
+        "confirmed": false,
+        "note": "未核实首次非博士后教职日期，不作近五年判断。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "个人主页现职为医学院教授/副院长，勿仅按旧智算路径归属；无2028招生正证。"
+    },
+    {
+      "name": "郝建业",
+      "id": "tju-hao-jianye",
+      "slug": "tju-hao-jianye",
+      "department": "智能与计算相关团队（现院系待复核）",
+      "title": "教授",
+      "research": "强化学习与具身机器人基础模型Embodied-R1.5，涉及机器人操作、指令理解、规划与控制。",
+      "topics": [
+        "具身智能",
+        "强化学习",
+        "机器人操作"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "原智算博士导师名录列名；2026官方新闻确认教授及具身模型研究。",
+      "sources": [
+        {
+          "url": "https://news.tju.edu.cn/info/1003/584969.htm",
+          "title": "郝建业官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        },
+        {
+          "url": "https://cic.tju.edu.cn/jyjx/yjsjy/yjsdsml.htm",
+          "title": "原智算学部博士生导师名录",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": null,
+        "precision": "unknown",
+        "confirmed": false,
+        "note": "未核实首次非博士后教职日期，不作近五年判断。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "旧师资页职称过时；新教师系统页面请求失败，未据搜索摘要认定入职时间及现院系；无2028招生证据。"
+    },
+    {
+      "name": "郑岩",
+      "id": "tju-zheng-yan",
+      "slug": "tju-zheng-yan",
+      "department": "新媒体与传播学院",
+      "title": "菁英教授",
+      "research": "强化学习、具身智能与大模型智能体；官方2026具身基础模型报道列其团队成果。",
+      "topics": [
+        "具身智能",
+        "强化学习",
+        "智能体"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "官方个人简介明确博士生导师。",
+      "sources": [
+        {
+          "url": "https://snmc.tju.edu.cn/info/1138/1765.htm",
+          "title": "郑岩官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        },
+        {
+          "url": "https://news.tju.edu.cn/info/1003/584969.htm",
+          "title": "天津大学具身基础模型成果新闻",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": null,
+        "precision": "unknown",
+        "confirmed": false,
+        "note": "未核实首次非博士后教职日期，不作近五年判断。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "未发现明确2028招生证据；博士资格不等于当年名额。"
+    },
+    {
+      "name": "宋乐",
+      "id": "tju-song-le",
+      "slug": "tju-song-le",
+      "department": "精密仪器与光电子工程学院",
+      "title": "副教授",
+      "research": "机器人视觉触觉融合、近接/触觉精准抓取、具身感知导航与柔顺力控制。",
+      "topics": [
+        "视触觉融合",
+        "机器人抓取",
+        "具身导航"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "官方个人简介明确博士生导师。",
+      "sources": [
+        {
+          "url": "https://faculty-cn.tju.edu.cn/086104/zh_CN/index.htm",
+          "title": "宋乐官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2008-09",
+        "precision": "month",
+        "confirmed": true,
+        "note": "官方履历首个天津大学非博士后教职；晋升/院内转任不重置入职日期。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "未发现明确2028招生证据；博士资格不等于当年名额。"
+    },
+    {
+      "name": "霍文星",
+      "id": "tju-huo-wenxing",
+      "slug": "tju-huo-wenxing",
+      "department": "精密仪器与光电子工程学院",
+      "title": "副教授",
+      "research": "三维力触觉传感器、柔性电子及机器人感知器件；教师主页另列游动机器人路径跟踪工作。",
+      "topics": [
+        "触觉感知",
+        "柔性传感",
+        "机器人器件"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "学院2025更新页明确仪器/电子信息博士生导师、硕士生导师。",
+      "sources": [
+        {
+          "url": "https://jyxy.tju.edu.cn/cn/szdw/20220827/2124.shtml",
+          "title": "霍文星官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        },
+        {
+          "url": "https://faculty.tju.edu.cn/huowenxing/zh_CN/index.htm",
+          "title": "霍文星教师系统主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2019-07",
+        "precision": "month",
+        "confirmed": true,
+        "note": "官方履历首个天津大学非博士后教职；晋升/院内转任不重置入职日期。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "教师系统页只列硕导，与学院明确博导信息有差异；优先记录学院正证并披露差异。偏器件而非自主导航；无2028证据。"
+    },
+    {
+      "name": "孙岩标",
+      "id": "tju-sun-yanbiao",
+      "slug": "tju-sun-yanbiao",
+      "department": "精密仪器与光电子工程学院",
+      "title": "教授",
+      "research": "视觉三维感知、物体位姿估计、视觉里程计、wMPS-SLAM与融合定位；主持机器人电焊质量在线检测控制课题。",
+      "topics": [
+        "SLAM",
+        "视觉里程计",
+        "位姿估计",
+        "机器人检测"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "官方个人简介明确博士生导师。",
+      "sources": [
+        {
+          "url": "https://jyxy.tju.edu.cn/cn/szdw/20210308/1979.shtml",
+          "title": "孙岩标官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2016-01",
+        "precision": "month",
+        "confirmed": true,
+        "note": "2016.01天津大学讲师，后赴UCL博士后，再返校；不把2018返校或2026晋升当首次任职。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "未发现明确2028招生证据；博士资格不等于当年名额。"
+    },
+    {
+      "name": "林嘉睿",
+      "id": "tju-lin-jiarui",
+      "slug": "tju-lin-jiarui",
+      "department": "精密仪器与光电子工程学院",
+      "title": "教授",
+      "research": "机器人制造定位误差补偿、六自由度动态测量、视觉测量与惯性融合。",
+      "topics": [
+        "机器人定位",
+        "六自由度测量",
+        "视觉测量"
+      ],
+      "doctoral_verified": true,
+      "doctoral_evidence": "官方个人简介明确博士生导师。",
+      "sources": [
+        {
+          "url": "https://jyxy.tju.edu.cn/cn/szdw/20121126/588.shtml",
+          "title": "林嘉睿官方教师主页",
+          "readScope": "官方页面正文已读",
+          "section": "官方页面正文已读",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2012-07",
+        "precision": "month",
+        "confirmed": true,
+        "note": "官方履历首个天津大学非博士后教职；晋升/院内转任不重置入职日期。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "evidence": null
+      },
+      "uncertainty": "未发现明确2028招生证据；博士资格不等于当年名额。"
+    },
+    {
+      "name": "常帅",
+      "department": "天津大学海洋科学与技术学院 / 海洋技术系",
+      "title": "副教授",
+      "research": "海洋无人系统自主定位、水下具身导航、AUV地形/地磁图优化SLAM及协同路径规划。",
+      "topics": [
+        "水下机器人导航",
+        "SLAM",
+        "多AUV协同"
+      ],
+      "doctoral_evidence": "个人页导师类型明确海洋科学、资源与环境博士生导师。",
+      "doctoral_verified": true,
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1320/2628.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "导师类型、研究方向、工作经历、科研项目与论文条目",
+          "readScope": "导师类型、研究方向、工作经历、科研项目与论文条目",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2015-07",
+        "precision": "month",
+        "confirmed": true,
+        "note": "2015年7月任天津大学讲师；2021年6月为晋升，不是首次入职。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "summary": "本轮所读个人来源及定向检索未核得明确2028个人博士招生；不等于不招生。"
+      },
+      "uncertainty": [
+        "个人年度招生资格、接收意愿、资助及剩余名额待核；博士指导身份不替代2028招生。",
+        "研究方向依据官方介绍及成果条目，未阅读全文或验证性能。"
+      ],
+      "id": "tju-chang-shuai"
+    },
+    {
+      "name": "胡浩丰",
+      "department": "天津大学海洋科学与技术学院 / 海洋技术系",
+      "title": "教授",
+      "research": "浑浊水下偏振三维成像、水下搜救机器人感知及低照度散射环境图像恢复。",
+      "topics": [
+        "水下机器人感知",
+        "偏振三维成像",
+        "退化图像恢复"
+      ],
+      "doctoral_evidence": "个人页明确海洋环境、海洋技术、光学工程博士生导师。",
+      "doctoral_verified": true,
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1304/2226.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "导师类型、研究方向、工作经历、科研项目与论文条目",
+          "readScope": "导师类型、研究方向、工作经历、科研项目与论文条目",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2014",
+        "precision": "year",
+        "confirmed": true,
+        "note": "2014年起天大精仪学院副教授，2020年转海洋学院教授不算首次入职。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "summary": "本轮所读个人来源及定向检索未核得明确2028个人博士招生；不等于不招生。"
+      },
+      "uncertainty": [
+        "个人年度招生资格、接收意愿、资助及剩余名额待核；博士指导身份不替代2028招生。",
+        "研究方向依据官方介绍及成果条目，未阅读全文或验证性能。"
+      ],
+      "id": "tju-hu-haofeng"
+    },
+    {
+      "name": "钱治文",
+      "department": "天津大学海洋科学与技术学院 / 海洋技术系",
+      "title": "英才副教授 / 特聘研究员",
+      "research": "AUV通导一体化、自主声学定位与高分辨成像声呐。",
+      "topics": [
+        "AUV自主定位",
+        "成像声呐",
+        "水下导航"
+      ],
+      "doctoral_evidence": "个人页明确海洋科学、资源与环境（导师团）博士生导师，保留导师团限定。",
+      "doctoral_verified": true,
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1320/4057.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "导师类型、研究方向、工作经历、科研项目与论文条目",
+          "readScope": "导师类型、研究方向、工作经历、科研项目与论文条目",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2025-07",
+        "precision": "month",
+        "confirmed": true,
+        "note": "2025年7月长聘英才副教授；此前助理研究员/博士后不计首次非博士后教职，旧段起年原网页误写20220.6，不擅自修正。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "summary": "本轮所读个人来源及定向检索未核得明确2028个人博士招生；不等于不招生。"
+      },
+      "uncertainty": [
+        "个人年度招生资格、接收意愿、资助及剩余名额待核；博士指导身份不替代2028招生。",
+        "研究方向依据官方介绍及成果条目，未阅读全文或验证性能。"
+      ],
+      "id": "tju-qian-zhiwen"
+    },
+    {
+      "name": "田文杰",
+      "department": "天津大学海洋科学与技术学院 / 海洋技术系",
+      "title": "副教授",
+      "research": "机器人精度设计、运动学标定、混联加工机器人与海洋探测平台。",
+      "topics": [
+        "机器人标定",
+        "机器人机构",
+        "海洋探测平台"
+      ],
+      "doctoral_evidence": "个人页明确学术型、专业型（含工程博士）博士生导师。",
+      "doctoral_verified": true,
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1317/2065.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "导师类型、研究方向、工作经历、科研项目与论文条目",
+          "readScope": "导师类型、研究方向、工作经历、科研项目与论文条目",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2015-01",
+        "precision": "month",
+        "confirmed": true,
+        "note": "2015年1月任天大海洋学院讲师；2019年为晋升副教授。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "summary": "本轮所读个人来源及定向检索未核得明确2028个人博士招生；不等于不招生。"
+      },
+      "uncertainty": [
+        "个人年度招生资格、接收意愿、资助及剩余名额待核；博士指导身份不替代2028招生。",
+        "研究方向依据官方介绍及成果条目，未阅读全文或验证性能。"
+      ],
+      "id": "tju-tian-wenjie"
+    },
+    {
+      "name": "李校博",
+      "department": "天津大学海洋科学与技术学院 / 海洋技术系",
+      "title": "英才副教授 / 特聘研究员",
+      "research": "偏振激光雷达、水下视觉增强与目标检测，以及浑浊环境偏振双目三维成像。",
+      "topics": [
+        "水下视觉",
+        "三维成像",
+        "偏振激光雷达"
+      ],
+      "doctoral_evidence": "个人页明确海洋技术、光学工程博士生导师。",
+      "doctoral_verified": true,
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1320/2811.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "导师类型、研究方向、工作经历、科研项目与论文条目",
+          "readScope": "导师类型、研究方向、工作经历、科研项目与论文条目",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        },
+        {
+          "url": "https://marine.tju.edu.cn/info/1304/2226.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "2025代表论文条目：偏振双目三维成像论文列李校博为共同作者，非独立性能核验",
+          "readScope": "2025代表论文条目：偏振双目三维成像论文列李校博为共同作者，非独立性能核验",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2022-07",
+        "precision": "month",
+        "confirmed": true,
+        "note": "2022年7月任天大长聘/英才副教授；此前香港中文大学博士后不计天大教职。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "summary": "本轮所读个人来源及定向检索未核得明确2028个人博士招生；不等于不招生。"
+      },
+      "uncertainty": [
+        "个人年度招生资格、接收意愿、资助及剩余名额待核；博士指导身份不替代2028招生。",
+        "研究方向依据官方介绍及成果条目，未阅读全文或验证性能。"
+      ],
+      "id": "tju-li-xiaobo"
+    },
+    {
+      "name": "高邈",
+      "department": "天津大学海洋科学与技术学院 / 海洋技术系",
+      "title": "副研究员",
+      "research": "无人船自主航行、海上环境感知、多船智能避碰决策。",
+      "topics": [
+        "无人船",
+        "智能避碰",
+        "海上环境感知"
+      ],
+      "doctoral_evidence": "个人页明确海洋环境科学与技术博士生导师。",
+      "doctoral_verified": true,
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1320/3223.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "导师类型、研究方向、工作经历、科研项目与论文条目",
+          "readScope": "导师类型、研究方向、工作经历、科研项目与论文条目",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2023-06",
+        "precision": "month",
+        "confirmed": true,
+        "note": "2023年6月任副研究员；2021年4月至2023年6月助理研究员（博士后）不计非博士后任职。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "summary": "本轮所读个人来源及定向检索未核得明确2028个人博士招生；不等于不招生。"
+      },
+      "uncertainty": [
+        "个人年度招生资格、接收意愿、资助及剩余名额待核；博士指导身份不替代2028招生。",
+        "研究方向依据官方介绍及成果条目，未阅读全文或验证性能。"
+      ],
+      "id": "tju-gao-miao"
+    },
+    {
+      "name": "张安民",
+      "department": "天津大学海洋科学与技术学院 / 海洋技术系",
+      "title": "教授",
+      "research": "无人船/艇环境感知和多船避碰决策、海道测量及海洋无人装备。",
+      "topics": [
+        "无人艇",
+        "避碰决策",
+        "海洋测绘"
+      ],
+      "doctoral_evidence": "个人页明确海洋环境、海洋技术博士生导师。",
+      "doctoral_verified": true,
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1304/2024.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "导师类型、研究方向、工作经历、科研项目与论文条目",
+          "readScope": "导师类型、研究方向、工作经历、科研项目与论文条目",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        },
+        {
+          "url": "https://marine.tju.edu.cn/info/1051/2301.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "2021-05-25学院科研新闻：张安民通讯作者、USV避碰研究与试验平台",
+          "readScope": "2021-05-25学院科研新闻：张安民通讯作者、USV避碰研究与试验平台",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ],
+      "appointment": {
+        "date": "2014-04",
+        "precision": "month",
+        "confirmed": true,
+        "note": "2014年4月到天大海洋学院任研究员，当前页头职称教授；不当作近期新PI。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "summary": "本轮所读个人来源及定向检索未核得明确2028个人博士招生；不等于不招生。"
+      },
+      "uncertainty": [
+        "个人年度招生资格、接收意愿、资助及剩余名额待核；博士指导身份不替代2028招生。",
+        "研究方向依据官方介绍及成果条目，未阅读全文或验证性能。"
+      ],
+      "id": "tju-zhang-anmin"
+    }
+  ],
+  "observations": [
+    {
+      "name": "安蔚瑾",
+      "source": "https://me.tju.edu.cn/info/2070/39141.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "先进制造及设计技术"
+    },
+    {
+      "name": "陈光",
+      "source": "https://me.tju.edu.cn/info/2070/43531.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1.先进航空材料加工机理与工艺 2.轴承滚动体超精密加工工艺与装备 3.航空材料表面细晶强化机理与工艺 4.基于智能算法的加工过程多物理场数"
+    },
+    {
+      "name": "陈永亮",
+      "source": "https://me.tju.edu.cn/info/2070/39681.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "1、系统设计与智能设计方法与工具 2、机器人化高性能智能制造装备与系统 3、机电液一体化多轴数控技术与智能控制策略"
+    },
+    {
+      "name": "丁伯慧",
+      "source": "https://me.tju.edu.cn/info/2070/39811.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "教育机器人、优化设计理论、产品质量检测与控制等"
+    },
+    {
+      "name": "傅国宇",
+      "source": "https://me.tju.edu.cn/info/2070/39911.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1.复合材料超精密加工；2. 微纳加工"
+    },
+    {
+      "name": "高卫国",
+      "source": "https://me.tju.edu.cn/info/2070/40001.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "[1].精密机床热精度设计与主动调控技术 [2].精密机床精度测试、分析、建模与误差补偿 [3].智能制造"
+    },
+    {
+      "name": "葛楠",
+      "source": "https://me.tju.edu.cn/info/2070/40061.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "机械设计及理论"
+    },
+    {
+      "name": "葛翔",
+      "source": "https://me.tju.edu.cn/info/2070/40121.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "生物制造，抗菌生物医用材料（应用于骨科、牙科等生物医学领域）"
+    },
+    {
+      "name": "顾佩华",
+      "source": "https://me.tju.edu.cn/info/2070/40131.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "长期从事智能制造研究，提出并建立可适应设计方法（Adaptable Design），发明多材料-多过程3D打印技术（Multi-Materi"
+    },
+    {
+      "name": "顾元庆",
+      "source": "https://me.tju.edu.cn/info/2070/40161.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "机构学，折展结构"
+    },
+    {
+      "name": "关家印",
+      "source": "https://me.tju.edu.cn/info/2070/46561.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1、包容性设计 2、积极老龄化 3、设计干预与行为改变"
+    },
+    {
+      "name": "郭伟",
+      "source": "https://me.tju.edu.cn/info/2070/40271.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1、现代设计理论方法与技术 2、制造系统建模与管理理论与系统技术 3、网络化制造系统理论与系统技术"
+    },
+    {
+      "name": "韩雪松",
+      "source": "https://me.tju.edu.cn/info/2070/40291.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": ""
+    },
+    {
+      "name": "何春雷",
+      "source": "https://me.tju.edu.cn/info/2070/40311.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1． 超精密加工机理与工艺(包括超精密切削工艺和超精密研磨工艺) 2． 极端条件下金属材料的变形行为与机理（分子动力学） 3. 人工智能算法"
+    },
+    {
+      "name": "何改云",
+      "source": "https://me.tju.edu.cn/info/2070/40391.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "加工质量在机检测与控制、智能制造装备误差检测与补偿。"
+    },
+    {
+      "name": "贺志远",
+      "source": "https://me.tju.edu.cn/info/2070/40461.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "机器人机构学；骨科医疗机器人"
+    },
+    {
+      "name": "胡明艳",
+      "source": "https://me.tju.edu.cn/info/2070/40501.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "制造业信息化评测与数据分析，供应链管理，制造业转型"
+    },
+    {
+      "name": "黄艳群",
+      "source": "https://me.tju.edu.cn/info/2070/40731.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1． 工业设计 2． 人机交互设计"
+    },
+    {
+      "name": "吉春辉",
+      "source": "https://me.tju.edu.cn/info/2070/40761.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1． 多级骨组织力学模型构建技术 2． 在线检测与综合质量管理技术和系统"
+    },
+    {
+      "name": "金立鸿",
+      "source": "https://me.tju.edu.cn/info/2070/40831.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "焊接材料研究"
+    },
+    {
+      "name": "景秀并",
+      "source": "https://me.tju.edu.cn/info/2070/40841.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1． 功能性微结构微细加工技术 2． 振动辅助微细加工理论及智能控制技术 3． 医工交叉（智能传感器、植入体表面改性等） 4． 高档数控加工"
+    },
+    {
+      "name": "孔康",
+      "source": "https://me.tju.edu.cn/info/2070/40861.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "1． 医疗机器人机构设计 2． 多自由度灵巧臂控制 3． 手术器械柔性传感"
+    },
+    {
+      "name": "冷永刚",
+      "source": "https://me.tju.edu.cn/info/2070/40871.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1． 非线性动力学与微能源获取 2． 智能诊断与动态测控"
+    },
+    {
+      "name": "李巨韬",
+      "source": "https://me.tju.edu.cn/info/2070/40911.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "产品系统设计 感性工学"
+    },
+    {
+      "name": "李清",
+      "source": "https://me.tju.edu.cn/info/2070/40931.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "1． 复杂曲面的设计与制造技术 2． 管道及阀体施工检测机器人"
+    },
+    {
+      "name": "李士鹏",
+      "source": "https://me.tju.edu.cn/info/2070/40941.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1. 智能加工理论与技术； 2. 难加工材料加工新技术； 3. 制造系统的智能监测； 4. 智能加工装备的设计与优化；"
+    },
+    {
+      "name": "李树飞",
+      "source": "https://me.tju.edu.cn/info/2070/53361.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "1、机器人自主导航与智能操作 2、异构机器人群体认知与协作 3、移动串/并联机器人智能装配 4、具身智能机器人设计与控制"
+    },
+    {
+      "name": "梁存满",
+      "source": "https://me.tju.edu.cn/info/2070/40961.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "1． 微纳制造技术 2． 柔性传感技术 3. 微纳机器人"
+    },
+    {
+      "name": "林彬",
+      "source": "https://me.tju.edu.cn/info/2070/40971.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "硬脆材料加工理论与加工技术 结构陶瓷应用理论与技术 现代制造装备设计与分析"
+    },
+    {
+      "name": "林滨",
+      "source": "https://me.tju.edu.cn/info/2070/40981.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "硬脆材料精密、超精密加工理论与关键技术 数控加工工艺与装备 故障诊断与动态监控"
+    },
+    {
+      "name": "刘传耙",
+      "source": "https://me.tju.edu.cn/info/2070/40991.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "数字影像处理，手术导航技术"
+    },
+    {
+      "name": "刘建琴",
+      "source": "https://me.tju.edu.cn/info/2070/41021.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "主要从事隧道掘进机器人设计，机构动力学及振动控制，数字化设计与制造方向的研究工作"
+    },
+    {
+      "name": "刘伟奇",
+      "source": "https://me.tju.edu.cn/info/2070/43541.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "可重构机构、折纸超材料、变形机器人"
+    },
+    {
+      "name": "刘云鹏",
+      "source": "https://me.tju.edu.cn/info/2070/41041.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "1． 机器人柔性加工 2． 机床空间误差建模与补偿 3． 运载工具先进连接技术与装备"
+    },
+    {
+      "name": "梅江平",
+      "source": "https://me.tju.edu.cn/info/2070/41071.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "机器人控制及其自动化生产线"
+    },
+    {
+      "name": "聂锐",
+      "source": "https://me.tju.edu.cn/info/2070/41091.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1、多体系统动力学 2、空间可展结构 3、航天装备设计"
+    },
+    {
+      "name": "牛文栋",
+      "source": "https://me.tju.edu.cn/info/2070/46551.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "（1）水下机器人总体设计 （2）水下潜器稳定性控制与路径规划研究 （3）水下机器人可靠性分析与工艺设计"
+    },
+    {
+      "name": "牛文铁",
+      "source": "https://me.tju.edu.cn/info/2070/41101.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1. 设计理论与方法 2. 复杂装备数字化设计 3. 机床结构动态设计"
+    },
+    {
+      "name": "任成祖",
+      "source": "https://me.tju.edu.cn/info/2070/41131.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "高精度滚动轴承超精密加工技术与装备 硬脆材料精密、超精密加工理论与关键技术"
+    },
+    {
+      "name": "任旭阳",
+      "source": "https://me.tju.edu.cn/info/2070/52961.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "1、医疗机器人 2、柔性机器人 3、智能传感与控制 4、机器人自主操作"
+    },
+    {
+      "name": "邵宏宇",
+      "source": "https://me.tju.edu.cn/info/2070/41151.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "先进设计技术，企业信息化"
+    },
+    {
+      "name": "时贝超",
+      "source": "https://me.tju.edu.cn/info/2070/41161.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "微操作机器人;微装配与微纳定位;柔顺结构设计与控制"
+    },
+    {
+      "name": "宋晓菲",
+      "source": "https://me.tju.edu.cn/info/2070/41181.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1.先进制造技术在医学领域的创新应用及医疗器械设计 2.超声波复合骨切割手术新工艺与新器械 3.水射流软组织分离技术及医用水刀研发 4.人体"
+    },
+    {
+      "name": "苏赫",
+      "source": "https://me.tju.edu.cn/info/2070/41211.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "1． 手术机器人 2． 机器人视觉与深度学习"
+    },
+    {
+      "name": "苏涌翔",
+      "source": "https://me.tju.edu.cn/info/2070/46571.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": ""
+    },
+    {
+      "name": "隋天一",
+      "source": "https://me.tju.edu.cn/info/2070/41221.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1. 半导体器件及装备制造：开展半导体装备关键陶瓷构件设计制造技术及功能陶瓷材料加工技术研究 2. 航空航天新材料制造：开展特种陶瓷及其复合"
+    },
+    {
+      "name": "孙月海",
+      "source": "https://me.tju.edu.cn/info/2070/41251.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1.机械传动 2. 机械设计 3. 机械动力学 4.摩擦学"
+    },
+    {
+      "name": "田颖",
+      "source": "https://me.tju.edu.cn/info/2070/41261.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1．能量足迹建模理论与低碳制造关键技术 2．智能制造系统可适应规划与数字孪生 3．网联制造系统运行机制与智慧决策 4．智能制造系统运行态势感"
+    },
+    {
+      "name": "万淑敏",
+      "source": "https://me.tju.edu.cn/info/2070/41271.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "汽车设计 机械强度分析与机械结构设计 硬脆材料加工"
+    },
+    {
+      "name": "汪菲",
+      "source": "https://me.tju.edu.cn/info/2070/41281.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": ""
+    },
+    {
+      "name": "王国彪",
+      "source": "https://me.tju.edu.cn/info/2070/41301.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "机械现代设计与优化设计，增材制造与激光制造"
+    },
+    {
+      "name": "王国栋",
+      "source": "https://me.tju.edu.cn/info/2070/41311.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "数控技术、机器人集成应用等"
+    },
+    {
+      "name": "王辉",
+      "source": "https://me.tju.edu.cn/info/2070/41331.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "1. 数控技术 2. 机器人及机电一体化 3. 并联构型装备控制技术"
+    },
+    {
+      "name": "王凯峰",
+      "source": "https://me.tju.edu.cn/info/2070/41341.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1． 先进设计方法 2． 智能制造关键技术 3． 智能制造系统"
+    },
+    {
+      "name": "王磊",
+      "source": "https://me.tju.edu.cn/info/2070/41351.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": ""
+    },
+    {
+      "name": "王鹏",
+      "source": "https://me.tju.edu.cn/info/2070/41371.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "无人潜航器设计理论与方法 深海智能装备技术与应用 深渊滑翔机、海底无人潜航器等"
+    },
+    {
+      "name": "王太勇",
+      "source": "https://me.tju.edu.cn/info/2070/41401.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1. 数控技术与智能制造 2. 智能诊断与动态测控技术 3. 机械动力学 4. CAD/CAE/CAM/CAPP/PDM与数字化制造"
+    },
+    {
+      "name": "王天枢",
+      "source": "https://me.tju.edu.cn/info/2070/43651.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1. 可展机构优化设计 2．非刚性折纸结构生成式设计"
+    },
+    {
+      "name": "王玉果",
+      "source": "https://me.tju.edu.cn/info/2070/41421.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1． 先进复合材料结构与性能 2． 先进复合材料制造与加工 3. 硬、脆材料加工"
+    },
+    {
+      "name": "王喆",
+      "source": "https://me.tju.edu.cn/info/2070/41431.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "机构学与机器人学"
+    },
+    {
+      "name": "翁凌韬",
+      "source": "https://me.tju.edu.cn/info/2070/41441.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "精密机床热特性设计与控制"
+    },
+    {
+      "name": "吴芝亮",
+      "source": "https://me.tju.edu.cn/info/2070/41451.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "移动机器人运动规划；多智能体协同控制 基于深度强化学习的移动机器人运动规划方法、多智能体编队与协同控制方法。研究对象主要包括航天器、水下机器"
+    },
+    {
+      "name": "项忠霞",
+      "source": "https://me.tju.edu.cn/info/2070/41471.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "机械设计及理论与工业设计相关理论与方法研究，主要涉及出行工具、运动与康复训练相关辅具产品、助老助残等产品的创新概念设计、产品结构设计、人机交"
+    },
+    {
+      "name": "徐兴丰",
+      "source": "https://me.tju.edu.cn/info/2070/43641.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "1． 手术机器人运动控制 2． 手术机器人结构设计 3． 人工智能、视觉控制，方法研究与应用"
+    },
+    {
+      "name": "杨成娟",
+      "source": "https://me.tju.edu.cn/info/2070/41501.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": ""
+    },
+    {
+      "name": "杨君宇",
+      "source": "https://me.tju.edu.cn/info/2070/41511.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1．视觉传达与用户体验 2．产品形态设计 3．创造力与艺术疗愈"
+    },
+    {
+      "name": "杨明",
+      "source": "https://me.tju.edu.cn/info/2070/41521.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "复杂装备系统韧性设计理论 水下航行器设计理论与方法 海洋装备数字孪生关键技术 海洋装备多谱系化设计方法"
+    },
+    {
+      "name": "杨亚楠",
+      "source": "https://me.tju.edu.cn/info/2070/41541.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "海洋无人航行器设计方法 新概念海洋无人航行器（帆船、水下升潜装置）研发 海洋环境能（温差能、风能）俘获利用理论与技术"
+    },
+    {
+      "name": "杨玉虎",
+      "source": "https://me.tju.edu.cn/info/2070/41551.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "机构学 机械动力学 机械传动"
+    },
+    {
+      "name": "杨悦",
+      "source": "https://me.tju.edu.cn/info/2070/41561.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "1.连续体动力学； 2. 高速精密机电系统设计及控制； 3. 混联机器人系统"
+    },
+    {
+      "name": "杨振",
+      "source": "https://me.tju.edu.cn/info/2070/41571.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "研究方向立足激光先进制造，面向新能源产业重大需求，围绕“光场调控—装备控制—工艺应用”三个层面，致力于突破多光束并行加工、光机电协同控制与激"
+    },
+    {
+      "name": "喻宏波",
+      "source": "https://me.tju.edu.cn/info/2070/41581.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "医疗机器人设计"
+    },
+    {
+      "name": "张冠伟",
+      "source": "https://me.tju.edu.cn/info/2070/41601.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1. 数字化设计与制造 2. 数控技术及装备 3. 智能设计与仿真"
+    },
+    {
+      "name": "张连洪",
+      "source": "https://me.tju.edu.cn/info/2070/41621.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1. 制造装备与系统设计方法 2. 近净塑性成形技术"
+    },
+    {
+      "name": "张霄",
+      "source": "https://me.tju.edu.cn/info/2070/41631.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1． 航天可展结构 2． 变形机构 3. 折纸机构运动学 4. 多稳态结构与机械超材料"
+    },
+    {
+      "name": "张晓峰",
+      "source": "https://me.tju.edu.cn/info/2070/41641.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "多孔质气体润滑技术 超精密加工工艺及装备 航天卫星地面测试装备"
+    },
+    {
+      "name": "张智",
+      "source": "https://me.tju.edu.cn/info/2070/41711.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1.焊接冶金 2.焊接材料 3.焊接工艺"
+    },
+    {
+      "name": "赵相松",
+      "source": "https://me.tju.edu.cn/info/2070/41771.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "机械动力学 海洋技术装备设计与制造 海洋环境能源利用"
+    },
+    {
+      "name": "赵兴玉",
+      "source": "https://me.tju.edu.cn/info/2070/41781.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1． 机械动力学 2． 数字化设计"
+    },
+    {
+      "name": "郑惠江",
+      "source": "https://me.tju.edu.cn/info/2070/41791.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "加工质量检测 空间数据挖掘 计算机仿真 计算机图形学 在机检测技术"
+    },
+    {
+      "name": "郑淑贤",
+      "source": "https://me.tju.edu.cn/info/2070/41811.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "1．增材制造 2．机械仿生设计与制造 3．计算机辅助设计与制造"
+    },
+    {
+      "name": "朱殿华",
+      "source": "https://me.tju.edu.cn/info/2070/41831.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "设计理论及方法"
+    },
+    {
+      "name": "朱鑫垚",
+      "source": "https://me.tju.edu.cn/info/2070/41841.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "微纳米接触力学；细胞力学;软物质力学"
+    },
+    {
+      "name": "庞宏亮",
+      "source": "https://seea.tju.edu.cn/info/1013/9603.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "天津大学嵌入式计算与控制研究中心（TJU-ECC）聚焦复杂系统边缘侧分布式计算与控制"
+    },
+    {
+      "name": "杨雄",
+      "source": "https://seea.tju.edu.cn/info/1013/1568.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 自适应动态规划(2) 强化学习(3) 智能控制、最优控制(4) 深度神经网络"
+    },
+    {
+      "name": "董峰",
+      "source": "https://seea.tju.edu.cn/info/1013/1547.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "[1] 复杂过程检测、建模与诊断[2] 过程在线检测与可视化技术[3] 低空系统监测、诊断与控制[4] 生物信息检测、处理与成像[5] 工业"
+    },
+    {
+      "name": "徐加鹏",
+      "source": "https://seea.tju.edu.cn/info/1013/8433.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "(1) 网络化控制系统(2) 多智能体博弈(3) 多目标互补控制(4) 数据驱动控制(5) 智能无人系统"
+    },
+    {
+      "name": "杨双鸣",
+      "source": "https://seea.tju.edu.cn/info/1013/1564.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "本团队聚焦前沿人工智能理论与技术研究，主要围绕类脑智能与面向国家重大需求的前沿人工智能技术开展研究，包括：(1) 类脑智能与类脑计算(2) "
+    },
+    {
+      "name": "丁红兵",
+      "source": "https://seea.tju.edu.cn/info/1013/1596.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 多相流测量与数值模拟多相流CFD仿真技术，电学、声学与光学传感技术，高速摄影及图像处理技术(2) 超音速分离与计量技术超音速流动传热"
+    },
+    {
+      "name": "伊国胜",
+      "source": "https://seea.tju.edu.cn/info/1013/1576.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "类脑智能与神经计算数据驱动建模与智能控制生物医学信号处理与智能诊断电磁神经调控机理与闭环优化"
+    },
+    {
+      "name": "葛富东",
+      "source": "https://seea.tju.edu.cn/info/1013/4301.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 分布参数系统控制理论及应用(2) 动力电池管控系统设计与优化(3) Learning-based Control(4) 集群智能控制"
+    },
+    {
+      "name": "刘达",
+      "source": "https://seea.tju.edu.cn/info/1013/8093.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "(1) 复杂空间态势智能感知与威胁监测(2) 空天无人系统智能任务规划与博弈决策(3) 强对抗环境下群体行为智能预测与意图推理(4) 高动态"
+    },
+    {
+      "name": "李智禹",
+      "source": "https://seea.tju.edu.cn/info/1013/7793.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "(1) 飞行器智能决策与先进控制(2) 高超声速飞行器轨迹优化与制导控制(3) 无人集群协同控制等"
+    },
+    {
+      "name": "张超",
+      "source": "https://seea.tju.edu.cn/info/1013/7753.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "(1) 机器人灵巧操作(2) Robot Learning(3) 智能决策系统\nDEX-ROB Lab @ Tianjin Universi"
+    },
+    {
+      "name": "郑丹丹",
+      "source": "https://seea.tju.edu.cn/info/1013/1563.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 单相/多相流测量方法围绕声学、光学开展新型流量传感技术研究，解决单相流体极端恶劣工况下、多相复杂流体测量准确性和稳定性问题，服务于石"
+    },
+    {
+      "name": "梁光辉",
+      "source": "https://seea.tju.edu.cn/info/1013/4021.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 层析成像及分布参数反演(2) 多相流过程建模及动态可视化测试(3) 航天器热控系统故障模拟与诊断(4) 电子皮肤与智能触觉感知"
+    },
+    {
+      "name": "白兰迪",
+      "source": "https://seea.tju.edu.cn/info/1013/6573.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 复杂流体检测(2) 先进传感技术（低频电学、微波、光学法等）(3) 非线性信号处理"
+    },
+    {
+      "name": "史雪薇",
+      "source": "https://seea.tju.edu.cn/info/1013/4618.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 电学/声学检测技术(2) 多相流过程参数测量与软硬件系统开发(3) 多源信息处理与融合"
+    },
+    {
+      "name": "鲍勇",
+      "source": "https://seea.tju.edu.cn/info/1013/5553.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 工业过程超声智能传感(2) 多相流超声层析成像(3) 锂电池超声智能检测"
+    },
+    {
+      "name": "张志成",
+      "source": "https://seea.tju.edu.cn/info/1013/4691.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 多智能体系统(2) 集群化能源系统(3) 分布式控制"
+    },
+    {
+      "name": "MUHAMMAD KASHIF",
+      "source": "https://seea.tju.edu.cn/info/1013/1512.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) Thin Film Processing and Characterization (2) Nanoparticles Synthe"
+    },
+    {
+      "name": "于海涛",
+      "source": "https://seea.tju.edu.cn/info/1013/1594.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 神经网络及深度学习 (2) 类脑计算与智能控制系统 (3) 脑认知与神经信息处理 (4) 脑机接口技术及应用"
+    },
+    {
+      "name": "马超",
+      "source": "https://seea.tju.edu.cn/info/1013/1595.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 复杂网络 (2) 脑网络与神经系统疾病 (3) 脑机接口"
+    },
+    {
+      "name": "王超",
+      "source": "https://seea.tju.edu.cn/info/1013/1591.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 单相流与多相流参数检测； (2) 电学层析成像技术； (3) 流体能源检测与控制；"
+    },
+    {
+      "name": "李鹏",
+      "source": "https://seea.tju.edu.cn/info/1013/4663.htm",
+      "reason": "方向有机器人/无人系统线索，博士指导正证或独立机器人任务证据不足，本轮不升级",
+      "research_hint": "(1)      临近空间飞行器能源系统 (2)      先进储能技术 (3)      自主机器人 (4)      数字孪生"
+    },
+    {
+      "name": "袁超",
+      "source": "https://seea.tju.edu.cn/info/1013/4621.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 管道中多相流流动参数在线检测技术(2) 多传感器融合技术(3) 多功能微传感器及工业仪表的研究与开发"
+    },
+    {
+      "name": "谷宇",
+      "source": "https://seea.tju.edu.cn/info/1013/4614.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "天津大学嵌入式计算与控制研究中心（TJU-ECC）聚焦复杂系统边缘侧分布式计算与控制"
+    },
+    {
+      "name": "李长滨",
+      "source": "https://seea.tju.edu.cn/info/1013/2773.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 工业控制，液压系统控制 (2) 多智能体协调控制，智能控制"
+    },
+    {
+      "name": "张大鹏",
+      "source": "https://seea.tju.edu.cn/info/1013/2764.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 工业控制、建模与优化 (2) 强化学习与人工智能 (3) 故障诊断与容错控制"
+    },
+    {
+      "name": "车延博",
+      "source": "https://seea.tju.edu.cn/info/1013/1593.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "电力电子化电力系统，新能源，智能电网   主要经历： (1) 20 20.0 6-至今   天津大学电气工程专业，教授，博士生导师； (2)"
+    },
+    {
+      "name": "叶佳敏",
+      "source": "https://seea.tju.edu.cn/info/1013/1587.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "基于人工智能的层析成像，研究目标是提高工业过程的可观察性，以增强过程控制和故障诊断的能力，并解决有效利用或者解释海量的多传感器数据所带来的挑"
+    },
+    {
+      "name": "刘梅",
+      "source": "https://seea.tju.edu.cn/info/1013/1585.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1)      负虚系统的控制理论及应用 (2)      正实系统，广义系统 (3)      最优控制，鲁棒控制"
+    },
+    {
+      "name": "孙立军",
+      "source": "https://seea.tju.edu.cn/info/1013/1581.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 智能流量装置及其关键设备研究 (2) 流量检测技术与智能化仪表研究 (3) 飞行器与测试技术研究"
+    },
+    {
+      "name": "孙宏军",
+      "source": "https://seea.tju.edu.cn/info/1013/1582.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 过程参数检测与信息处理 (2) 传感技术与信息处理 (3) 嵌入式系统设计 (4) 流体参数检测与数值模拟"
+    },
+    {
+      "name": "李冬辉",
+      "source": "https://seea.tju.edu.cn/info/1013/1578.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 智能控制理论与工业控制系统 (2) 电力电子变换与电力传动系统 (3) 楼宇节能及故障诊断技术 (4) 无线传感器网络技术"
+    },
+    {
+      "name": "何熠",
+      "source": "https://seea.tju.edu.cn/info/1013/1579.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 智能网联工业控制系统 （高精度液压运动控制，高精度伺服运动控制，过程控制） (2) 机器视觉，深度学习与人工智能（眼科医学图像，工业"
+    },
+    {
+      "name": "张国山",
+      "source": "https://seea.tju.edu.cn/info/1013/1574.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 非线性系统控制 包括基于数据的非线性系统控制、混沌控制与应用等   (2) 智能控制与工程应用 常用工具：模糊控制、神经网络控制、遗"
+    },
+    {
+      "name": "张淑美",
+      "source": "https://seea.tju.edu.cn/info/1013/1573.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 复杂工业过程智能监控及故障诊断 (2) 装备状态监测及寿命预测 (3) 多相流检测及状态分析 (4) 大数据挖掘与分析 (5) 机器"
+    },
+    {
+      "name": "张镇",
+      "source": "https://seea.tju.edu.cn/info/1013/1571.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "天津大学嵌入式计算与控制研究中心（TJU-ECC）聚焦复杂系统边缘侧分布式计算与控制"
+    },
+    {
+      "name": "金宁德",
+      "source": "https://seea.tju.edu.cn/info/1013/1570.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 先进传感技术与现代信息处理技术 以多相流流动参数检测为背景的先进传感系统设计：电学法，超声法，光学法，力学法，现代谱分析技术，非线性"
+    },
+    {
+      "name": "徐英",
+      "source": "https://seea.tju.edu.cn/info/1013/1549.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "面向石油天然、CCUS、半导体、医疗机械等流体过程参数检测技术 （1）AI传感器/仪表/装置、多相流成像系统 面向油气行业中多相复杂流体流量"
+    },
+    {
+      "name": "崔自强",
+      "source": "https://seea.tju.edu.cn/info/1013/1535.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "将国际领先的工业过程成像技术与工业检测领域亟待解决的问题相对接，致力于用环保、高效、成本低廉的电学成像方法取代X-射线/CT工业检测手段（存"
+    },
+    {
+      "name": "韩乔妮",
+      "source": "https://seea.tju.edu.cn/info/1013/1539.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1)      智能网联交通系统 (2)      工业无线控制系统 (3)      网络系统建模与优化"
+    },
+    {
+      "name": "谭超",
+      "source": "https://seea.tju.edu.cn/info/1013/1522.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "天津市过程检测与控制重点实验室主任，天津市过程成像与检测国际联合研究中心主任， IET Fellow，ISIPT Fellow。"
+    },
+    {
+      "name": "翟路生",
+      "source": "https://seea.tju.edu.cn/info/1013/1518.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 先进传感技术与传感系统 以多相流为测量对象的电学、声学、光学等传感技术 (2) 现代信息处理技术 涉及现代谱分析技术，非线性信息处理"
+    },
+    {
+      "name": "穆朝絮",
+      "source": "https://seea.tju.edu.cn/info/1013/1517.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 非线性控制理论及应用 (2) 智能自适应控制 (3) 先进控制方法的应用研究"
+    },
+    {
+      "name": "魏熙乐",
+      "source": "https://seea.tju.edu.cn/info/1013/1514.htm",
+      "reason": "该页方向初筛未取得足够具体机器人任务证据，本轮不纳入；不是否定其可能相关",
+      "research_hint": "(1) 类脑仿真与计算 (2) 神经控制工程 (3) 无创式脑调制技术 (4) 基于数据的强化学习算法应用"
+    },
+    {
+      "name": "孙彪",
+      "source": "https://seea.tju.edu.cn/info/1016/1559.htm",
+      "reason": "博导已核且2027具身集群专项列名；官网及实验室重点为脑机接口芯片、压缩感知，独立机器人任务主线尚待更具体补证；实验室招募年份是2024不能当前化",
+      "additionalSource": "https://sunlab.top/"
+    },
+    {
+      "name": "薛婷",
+      "source": "https://seea.tju.edu.cn/info/1013/1516.htm",
+      "reason": "重试正文成功，博导已核；主要为光电/多相流检测，参与工业机器人柔性在线测量项目，不据参与项目自动升级机器人独立主线"
+    },
+    {
+      "name": "陈东月",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2651.htm"
+    },
+    {
+      "name": "郭翾",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2691.htm"
+    },
+    {
+      "name": "宫秀军",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2671.htm"
+    },
+    {
+      "name": "葛加可",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2661.htm"
+    },
+    {
+      "name": "贺瑞芳",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2591.htm"
+    },
+    {
+      "name": "黄步真",
+      "reason": "三维人体/手物交互及具身相关，但官方只列硕导；2025.12入职，不挂博士导师。",
+      "source": "https://sai.tju.edu.cn/info/1091/3071.htm"
+    },
+    {
+      "name": "周栋梁",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/5081.htm"
+    },
+    {
+      "name": "丁玲",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/6341.htm"
+    },
+    {
+      "name": "杨冰",
+      "reason": "具身听觉相关；2026.09入职，官方只列硕导，博士资格未证。",
+      "source": "https://sai.tju.edu.cn/info/1091/6391.htm"
+    },
+    {
+      "name": "王浩宇",
+      "reason": "强化学习/自动驾驶控制相关；2026.10非博士后入职，2023—2026为博士后；官方仅硕导。",
+      "source": "https://sai.tju.edu.cn/info/1091/6621.htm"
+    },
+    {
+      "name": "杨丁一",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/6631.htm"
+    },
+    {
+      "name": "杨柳",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2871.htm"
+    },
+    {
+      "name": "衣丽萍",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2761.htm"
+    },
+    {
+      "name": "于强",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2641.htm"
+    },
+    {
+      "name": "张长青",
+      "reason": "多视图学习及医疗AI相关，未核到具体机器人/3D任务证据。",
+      "source": "https://sai.tju.edu.cn/info/1091/3661.htm"
+    },
+    {
+      "name": "赵云凤",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/3771.htm"
+    },
+    {
+      "name": "张高燕",
+      "reason": "脑与具身认知及学生机器人竞赛不足证明独立机器人感知研究，暂观察。",
+      "source": "https://sai.tju.edu.cn/info/1091/2831.htm"
+    },
+    {
+      "name": "周玉灿",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2781.htm"
+    },
+    {
+      "name": "王煜",
+      "reason": "通用开集机器学习；职称上下文有差异，博士后不能当首次正式教职。",
+      "source": "https://sai.tju.edu.cn/info/1091/2851.htm"
+    },
+    {
+      "name": "王旗龙",
+      "reason": "通用视觉学习相关，未核到具体机器人/3D任务证据。",
+      "source": "https://sai.tju.edu.cn/info/1091/2841.htm"
+    },
+    {
+      "name": "王征",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2751.htm"
+    },
+    {
+      "name": "王晓宝",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2741.htm"
+    },
+    {
+      "name": "王赞",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/3041.htm"
+    },
+    {
+      "name": "徐君海",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2861.htm"
+    },
+    {
+      "name": "于永新",
+      "reason": "官方仅硕导；ROS课程不能单独作为机器人科研证据。",
+      "source": "https://sai.tju.edu.cn/info/1091/2891.htm"
+    },
+    {
+      "name": "杨雅君",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2881.htm"
+    },
+    {
+      "name": "饶国政",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/3081.htm"
+    },
+    {
+      "name": "任冬伟",
+      "reason": "2024.09入职且博导；已读主要图像恢复生成，低空感知集体奖项不足证明独立机器人研究，暂观察。",
+      "source": "https://sai.tju.edu.cn/info/1091/2721.htm"
+    },
+    {
+      "name": "孙彦茹",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/5691.htm"
+    },
+    {
+      "name": "石红",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2731.htm"
+    },
+    {
+      "name": "田宏硕",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/5291.htm"
+    },
+    {
+      "name": "王鑫",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2561.htm"
+    },
+    {
+      "name": "王文俊",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2571.htm"
+    },
+    {
+      "name": "王晓飞",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2611.htm"
+    },
+    {
+      "name": "姜馨蕊",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/5711.htm"
+    },
+    {
+      "name": "刘东远",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/4961.htm"
+    },
+    {
+      "name": "刘奕然",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/6021.htm"
+    },
+    {
+      "name": "刘志磊",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2821.htm"
+    },
+    {
+      "name": "李东",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2801.htm"
+    },
+    {
+      "name": "李毓",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/5361.htm"
+    },
+    {
+      "name": "彭启耀",
+      "reason": "已读人工智能学院个人页；未建立明确机器人、具身任务或3D感知直接证据，不以泛AI方向自动纳入。",
+      "source": "https://sai.tju.edu.cn/info/1091/2711.htm"
+    },
+    {
+      "name": "刘世光",
+      "reason": "图形学/流体动画主页不足证明机器人或3D感知任务，不以图形学自动纳入。",
+      "source": "https://cic.tju.edu.cn/faculty/lsg/Index.htm"
+    },
+    {
+      "name": "张乾",
+      "reason": "计算成像/光度立体相关，官方仅硕导。",
+      "source": "https://cs.tju.edu.cn/info/1811/2281.htm"
+    },
+    {
+      "name": "谢鑫",
+      "reason": "无线感知/边缘计算；集体具身招生目录不能替代本人具体任务证据。",
+      "source": "https://cic.tju.edu.cn/info/1115/4582.htm"
+    },
+    {
+      "name": "喻梅",
+      "reason": "数据与教育研究；集体具身目录不足建立本人机器人直接适配。",
+      "source": "https://cic.tju.edu.cn/info/1116/5208.htm"
+    },
+    {
+      "name": "张鹏",
+      "reason": "NLP相关；集体具身目录不足建立本人机器人直接适配。",
+      "source": "https://cic.tju.edu.cn/info/1117/1161.htm"
+    },
+    {
+      "name": "汤宏垚",
+      "reason": "官方具身报道列副研究员，尚未核到博士导师资格正证。",
+      "source": "https://news.tju.edu.cn/info/1003/584969.htm"
+    },
+    {
+      "name": "马亿",
+      "reason": "官方具身报道列副教授；检索遇到同名外校人员，现院系及博士资格尚待身份核验。",
+      "source": "https://news.tju.edu.cn/info/1003/584969.htm"
+    },
+    {
+      "name": "申凌皓",
+      "reason": "水下偏振三维成像相关；仅讲师（助研）且无博士指导资格，2024-07助研是否非博士后性质未独立核实，留观察。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1325/3743.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "刘贺东",
+      "reason": "水下偏振成像与去噪相关，导师栏空，存在博士后基金；不推断博导或首次正式教职。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1325/3741.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "徐剑",
+      "reason": "AUV载声呐和无人艇测绘任务明确，个人页仅列硕导，博士身份待核。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1320/2056.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "王晨旭",
+      "reason": "水下滑翔机及无人艇动力学相关；页面明确硕导，博士身份与任职日期待核。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1325/2077.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "张翠翠",
+      "reason": "水下运动目标视听跟踪项目相关，个人页仅列硕导，博士资格待核。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1320/2192.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "张殿君",
+      "reason": "无人机影像三维测量与激光雷达产品项目相关，导师栏空，博士资格待核。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1320/2631.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "张航",
+      "reason": "2026-02英才教授，研究侧重无人艇通信组网；导师栏空，博士身份及机器人算法主线待核。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1304/4977.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "翟京生",
+      "reason": "博导已明示，但简页只给海洋测绘，具体机器人/三维感知任务需补正文。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1304/2025.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "薛彬",
+      "reason": "博导已明示；主线声呐/水声通信/海洋传感器，机器人主线证据不足，不凭学生竞赛归类。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1304/3451.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "付晓梅",
+      "reason": "博导与水下导航研究明确；所列无人机任务分配为2017合著，独立机器人主线深度仍待核，暂观察。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1304/2031.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "周清基",
+      "reason": "博导明确，波浪滑翔机设计课程可见；主要课题为海工安全/结构与装备，机器人自主任务待核。2020-11正式任职，非近五年。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1320/2224.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "南阳",
+      "reason": "博导明确，2025-07副研究员（此前博士后）；GNSS定位/遥感主线，无具体机器人任务正证。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1320/4077.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "郭博峰",
+      "reason": "博导明确，GNSS精密定位/地学应用；暂无具体机器人任务正证，不把低空专业等同机器人方向。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1320/3027.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "张学峰",
+      "reason": "物理海洋与环境动力学，暂不纳入机器人池。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1304/2023.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "邓增安",
+      "reason": "物理海洋观测模拟，单项无人艇易损评估不等同机器人自主研究主线。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1304/4837.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "汪清",
+      "reason": "新体制雷达/通信，暂无直接机器人任务正证。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1304/3241.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "张辰",
+      "reason": "能源材料/电池项目，暂不纳入。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1320/2621.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "张亮",
+      "reason": "海气数据同化及数学算子，暂不纳入。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1320/2194.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "王虎",
+      "reason": "海床底质与地貌探测，暂无机器人主线正证。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1320/2193.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "潘林",
+      "reason": "图网络表示与社区结构，暂无机器人主线正证。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1320/5387.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "李原仪",
+      "reason": "海洋环境与水动力，暂不纳入。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1320/3052.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "闵巧玲",
+      "reason": "工程结构裂纹建模，暂无机器人任务正证。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1325/5647.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "王星",
+      "reason": "遥感影像理解，暂无具体机器人主线正证。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1325/2079.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    },
+    {
+      "name": "付乃锋",
+      "reason": "GNSS无线电掩星与大气遥感，暂无机器人任务正证。",
+      "sources": [
+        {
+          "url": "https://marine.tju.edu.cn/info/1325/2815.htm",
+          "title": "天津大学海洋学院官方资料",
+          "section": "个人页导师类型、研究与履历相关段落",
+          "readScope": "个人页导师类型、研究与履历相关段落",
+          "checkedDate": "2026-11-16",
+          "access": "official_body"
+        }
+      ]
+    }
+  ],
+  "admissions": {
+    "sources": [
+      {
+        "url": "https://yzb.tju.edu.cn/xwzx/tkbs_xw/202610/t20261008_324747.htm",
+        "title": "天津大学2027年学术型博士招生简章",
+        "section": "报考条件、申请审核、学院办法与博导查询系统说明；不外推2028",
+        "readScope": "报考条件、申请审核、学院办法与博导查询系统说明；不外推2028",
+        "checkedDate": "2026-11-16",
+        "access": "official_body"
+      },
+      {
+        "url": "https://yzb.tju.edu.cn/xwzx/tkbs_xw/202610/t20261019_324756.htm",
+        "title": "天津大学2027新质生产力专项博士简章",
+        "section": "2027具身智能/低空研究项目、报考学院专业导师；项目总计划不拆成个人余位",
+        "readScope": "2027具身智能/低空研究项目、报考学院专业导师；项目总计划不拆成个人余位",
+        "checkedDate": "2026-11-16",
+        "access": "official_body"
+      }
+    ],
+    "boundary": "公开2027专项与个人身份分别记录；未取得普通博导查询系统正文，不补造全员年度资格。2028招募未核实。"
+  },
+  "additionalPromisingCandidates": [
+    {
+      "name": "李树飞",
+      "department": "机械工程学院",
+      "title": "英才副教授",
+      "research": "自主导航、智能操作与多机器人协作",
+      "doctoral_evidence": "仅明确硕导；可报团队博士，个人博士资格未核",
+      "doctoral_status": "unknown",
+      "sources": [
+        {
+          "url": "https://me.tju.edu.cn/info/2070/53361.htm",
+          "title": "李树飞官方个人页",
+          "readScope": "正文：身份、研究方向、履历及招募信息；论文条目只核题名/署名，未全文阅读"
+        }
+      ],
+      "appointment": {
+        "date": "2026-01",
+        "precision": "month",
+        "confirmed": true,
+        "note": "履历可见首次本校非博士后任教记录；不以晋升替代入职"
+      },
+      "recruitment_2028": "本轮未核到明确2028个人招募",
+      "uncertainty": "团队博士不等于个人博导资格",
+      "id": "tju-li-shufei",
+      "doctoral_verified": false,
+      "topics": [
+        "自主导航",
+        "智能操作与多机器人协作"
+      ]
+    }
+  ]
+}
