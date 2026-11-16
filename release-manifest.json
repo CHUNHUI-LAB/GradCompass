@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 90675,
-      "sha256": "dc467e0364feb0b777e2e28b66577aa4f1010a5338939f376372ad1ccf44dbc4"
+      "bytes": 91729,
+      "sha256": "9845e76c5c094d54d32e9aa5cbdf30a6bac7d5ecff25308fbae6726d8dfef7b0"
     },
     {
       "path": "REDESIGN.md",
@@ -316,6 +316,16 @@
       "sha256": "037ea450d711980eca185b49482e876f7097b4bcc7ae89970a67ec5f031705b2"
     },
     {
+      "path": "audits/recruitment-2028-refresh-20261116.json",
+      "bytes": 1656236,
+      "sha256": "be1e143fcaf0337cd56219b7a6ed56b43d9637961c867c8327b330fdbebe27fd"
+    },
+    {
+      "path": "audits/recruitment-2028-refresh-20261116.md",
+      "bytes": 4407,
+      "sha256": "3fcd73d86ada64c983ec0e5ba7e8295a5b468a76baf6b1c7a480e5f27e3df956"
+    },
+    {
       "path": "audits/rescreen-20261026.json",
       "bytes": 70288,
       "sha256": "d998f01f4644c9c6ec52e05b17ca60450901ee7883175863beb9d943dd04f2cd"
@@ -542,8 +552,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 18206,
-      "sha256": "55a42e4df1ad8271e1ee4bc8e5de73dce09e61dbf6f48d71aa34cf0a3d21d2d5"
+      "bytes": 18362,
+      "sha256": "df9db0a66610fe15c34b94041f05ced73f915a9179b68baecd30733c08a610f1"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -1449,6 +1459,11 @@
       "path": "tests/recruitment-baseline.mjs",
       "bytes": 800,
       "sha256": "829c7f23b3e9c091674b952b6c59e6603a45690d045701eb3cf37629cc906641"
+    },
+    {
+      "path": "tests/recruitment-refresh-20261116.test.mjs",
+      "bytes": 2593,
+      "sha256": "b3ba7eb5b288d63ec978c0ed9294017530b2ca4d2890ae006b5ce1b63b93d09a"
     },
     {
       "path": "tests/recruitment-summary-20261107.test.mjs",

@@ -107,6 +107,7 @@ files.extend(['audits/985-bnu-20261111.json','audits/985-bnu-20261111.md','tests
 files.extend(['tests/fixtures/evidence/bnu-card-themes-correction-20261111.json','tests/bnu-card-themes-correction-20261111.test.mjs'])
 files.extend(['tests/fixtures/evidence/muc-card-theme-correction-20261112.json'])
 files.extend(['audits/985-muc-20261112.json','audits/985-muc-20261112.md','tests/fixtures/evidence/985-muc-20261112.json','tests/muc-expansion-20261112.test.mjs'])
+files.extend(['audits/recruitment-2028-refresh-20261116.json','audits/recruitment-2028-refresh-20261116.md','tests/recruitment-refresh-20261116.test.mjs'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):
