@@ -12,7 +12,7 @@ export function createAppointmentWindow(asOf=new Date().toISOString().slice(0,10
 export const appointmentWindow=createAppointmentWindow();
 export const appointmentLabels=Object.freeze({recent:'近五年入职 · 已核验',early_career:'教研职业早期线索',previous_faculty:'此前已有教研任职',industry_transition:'此前有行业任职经历',earlier:'五年前入职',boundary:'五年边界待核实',unknown:'入职时间待核实'});
 function validDate(value){if(typeof value!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(value))return false;const date=new Date(value+'T00:00:00Z');return Number.isFinite(date.getTime())&&date.toISOString().slice(0,10)===value;}
-function sourceDates(review,window){return (Array.isArray(review?.sources)?review.sources:[]).filter(s=>{try{return new URL(s.url).protocol==='https:'&&validDate(s.checkedDate)&&s.checkedDate<=window.asOf;}catch{return false;}}).map(s=>s.checkedDate);}
+function sourceDates(review,window){return (Array.isArray(review?.sources)?review.sources:[]).filter(s=>{try{return ['https:','http:'].includes(new URL(s.url).protocol)&&validDate(s.checkedDate)&&s.checkedDate<=window.asOf;}catch{return false;}}).map(s=>s.checkedDate);}
 function confirmedCoarseUpperBound(review,dates){
  // An already-confirmed arrival is no later than its dated observation. This
  // narrows only the evaluation interval, never the stored date or precision.

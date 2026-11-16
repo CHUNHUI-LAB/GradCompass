@@ -1,4 +1,4 @@
-import {appointmentWindow} from './appointments.js?v=a8c3022d2fb3';
+import {appointmentWindow} from './appointments.js?v=d6a2f4df2f6c';
 
 // Personal recruitment evidence only. Programme dates, generic invitations,
 // reference flags and ambiguous degree labels cannot become Fall 2028 PhD.

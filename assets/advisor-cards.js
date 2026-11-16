@@ -1,7 +1,7 @@
-import {recruitmentPriority,intakeLabels} from './recruitment-priorities.js?v=3a633ed4d07a';
-import {browseAdvisors,filterOpportunities,escapeHTML,readerText,safeUrl,institutionLabel,rankOf,rankLabels,themesFor,textValue} from './core.js?v=15b84e3c3d69';
-import {profileSummary} from './profiles.js?v=485db67c14c2';
-import {appointmentStatus,appointmentLabels} from './appointments.js?v=a8c3022d2fb3';
+import {recruitmentPriority,intakeLabels} from './recruitment-priorities.js?v=8c0cdac2b87f';
+import {browseAdvisors,filterOpportunities,escapeHTML,readerText,safeUrl,institutionLabel,rankOf,rankLabels,themesFor,textValue} from './core.js?v=b61548c347cd';
+import {profileSummary} from './profiles.js?v=6e5ab148c9f6';
+import {appointmentStatus,appointmentLabels} from './appointments.js?v=d6a2f4df2f6c';
 
 const e=value=>escapeHTML(readerText(value));
 const kinds=['degree','employment','reference'];
