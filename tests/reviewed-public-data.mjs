@@ -13,7 +13,7 @@ export function reviewedPublicData(read,{throughReceipt=null}={}){
   const raw=read(receipt.path);assert.equal(hash(raw),receipt.sha256,'unreviewed evidence receipt');
   const review=JSON.parse(raw);assert.equal(review.schemaVersion,1);assert.equal(review.baseCommit,publishedCommit);assert.match(review.reviewDate,/^\d{4}-\d{2}-\d{2}$/);
   assert(review.scope&&review.officialEvidence.length&&review.operations.length);
-  for(const source of review.officialEvidence){const u=new URL(source.url);assert(u.protocol==='https:'||(u.protocol==='http:'&&/(^|\.)neu\.edu\.cn$/.test(u.hostname)),'HTTPS or explicitly reviewed NEU public HTTP source');assert(source.title&&source.section,'source must identify title and read scope');}
+  for(const source of review.officialEvidence){const u=new URL(source.url);assert(u.protocol==='https:'||(u.protocol==='http:'&&/(^|\.)(neu|jlu)\.edu\.cn$/.test(u.hostname)),'HTTPS or explicitly reviewed NEU/JLU public HTTP source');assert(source.title&&source.section,'source must identify title and read scope');}
   applyReviewedOperations(expected,review.operations);
  }
  return expected;
