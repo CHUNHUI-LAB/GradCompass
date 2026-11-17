@@ -1,0 +1,1241 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-11-17",
+  "baseCommit": "40e78e79db1a53b22b2dd41d4dcf0142127f2824",
+  "school": "武汉大学",
+  "notExhaustive": true,
+  "addedCount": 25,
+  "doctoralReferenceCount": 23,
+  "doctoralUnknownCount": 2,
+  "recentAppointmentCount": 5,
+  "recentAppointmentIds": [
+    "whu-zhangjing",
+    "whu-qilu",
+    "whu-huaijianzhu",
+    "whu-kuangjian",
+    "whu-zhufeng"
+  ],
+  "entries": [
+    {
+      "name": "肖春霞",
+      "university": "武汉大学",
+      "department": "计算机学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "视觉场景三维建模",
+        "三维激光点云处理",
+        "SLAM"
+      ],
+      "roboticsEvidence": "主页直接列场景三维建模、点云处理和SLAM任务；非据泛具身标签纳入",
+      "firstAppointment": {
+        "date": "2006-07-01",
+        "precision": "day",
+        "note": "入职字段与2006.7讲师履历一致；2006.10–2007.4香港科技大学博士后不取消已明确本校讲师身份"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读官方页未见明确2028个人计划；非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未核逐人2027年度资格，不以个人博导身份替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/xiaochunxia/zh_CN/index.htm",
+          "title": "肖春霞 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://jszy.whu.edu.cn/xiaochunxia/zh_CN/zsxx/236114/list/index.htm",
+          "title": "肖春霞 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-xiaochunxia"
+    },
+    {
+      "name": "邹勤",
+      "university": "武汉大学",
+      "department": "计算机学院（主页仍称机器人系）",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "机器人SLAM",
+        "恶劣天气协同感知",
+        "非抓握操作世界模型"
+      ],
+      "roboticsEvidence": "详情列V2x-dgw恶劣天气多智能体感知、Pin-WM非抓握操作、ATCM空地激光协同SLAM论文及机器人运动控制招生方向",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "工作经历为空；本校学士博士不计入首任"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读官方页未见明确2028个人计划；非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未核逐人2027年度资格，不以个人博导身份替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/zouqin/zh_CN/more/419895/jsjjgd/index.htm",
+          "title": "邹勤 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://jszy.whu.edu.cn/zouqin/zh_CN/zsxx/419908/list/index.htm",
+          "title": "邹勤 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://jszy.whu.edu.cn/zouqin/zh_CN/index/419895/list/index.htm",
+          "title": "邹勤 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-zouqin"
+    },
+    {
+      "name": "张敬",
+      "university": "武汉大学",
+      "department": "计算机学院（机器人/人工智能学院双聘）",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "超声机器人导航定位",
+        "机械臂自主运动规划",
+        "协作搬运"
+      ],
+      "roboticsEvidence": "官网具身机器人段明确超声机器人SLAM导航、人体/器官定位、机械臂自主规划与双叉臂类人搬运",
+      "firstAppointment": {
+        "date": "2024-12",
+        "precision": "month",
+        "note": "本校教授2024.12起；此前悉尼大学Research Fellow不计本校"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读官方页未见明确2028个人计划；非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未核逐人2027年度资格，不以个人博导身份替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/zhangjing123456/zh_CN/index.htm",
+          "title": "张敬 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "personalRecruitment2027": {
+        "status": "explicit_generic_graduate",
+        "note": "官方称2027年入学研究生还有少量名额，邮件联系结合背景考核2–4周；未分硕博、未指季节，不升级2028或MSc/PhD具体余位"
+      },
+      "id": "whu-zhangjing"
+    },
+    {
+      "name": "孔政敏",
+      "university": "武汉大学",
+      "department": "机器人学院人工智能与自动化系",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "空中机器人VLA",
+        "复杂地形栖停",
+        "空中机器人抓取"
+      ],
+      "roboticsEvidence": "研究方向独立正文明确轻量实时VLA鹰形空中机器人，应用复杂多地形栖停和抓取",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "入职字段2013-08-01，但完整履历存在2011.7–2013.8本校未标身份经历，2013.9起亦缺职衔；不猜其博士后身份或首次教职。2025转院/晋升不计新入职"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "科研项目页2028-12-31/2028-11-30是项目终期非招生；已读个人招生栏目0条，2028招生仍未知"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未核逐人2027年度资格，不以个人博导身份替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/kongzhengmin/zh_CN/index.htm",
+          "title": "孔政敏 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://jszy.whu.edu.cn/kongzhengmin/zh_CN/more/407077/gzjlgd/index.htm",
+          "title": "孔政敏 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://jszy.whu.edu.cn/kongzhengmin/zh_CN/yjfx/407077/content/4247.htm",
+          "title": "孔政敏 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://jszy.whu.edu.cn/kongzhengmin/zh_CN/kyxm/407083/list/index.htm",
+          "title": "孔政敏 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://jszy.whu.edu.cn/kongzhengmin/zh_CN/zsxx/407090/list/index.htm",
+          "title": "孔政敏 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-kongzhengmin"
+    },
+    {
+      "name": "郭迟",
+      "university": "武汉大学",
+      "department": "机器人学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "无人系统智能导航",
+        "机器人具身智能"
+      ],
+      "roboticsEvidence": "官方论文列D-GVIO多智能体GNSS视觉惯性里程计、ReThinkNav零样本视觉语言导航、SDS-SLAM驾驶场景及SuperVINS恶劣成像视觉惯性导航，具体任务成立",
+      "firstAppointment": {
+        "date": "2011-05",
+        "precision": "month",
+        "note": "履历明确2011.5讲师，与2011.3–2013.6本校博士后重叠；保留明确教职及并列边界。2019教授/2025转学院非首任"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读官方页未见明确2028个人计划；非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未核逐人2027年度资格，不以个人博导身份替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/guochi/zh_CN/index.htm",
+          "title": "郭迟 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://jszy.whu.edu.cn/guochi/zh_CN/lwcg/278570/list/index.htm",
+          "title": "郭迟 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-guochi"
+    },
+    {
+      "name": "余淮",
+      "university": "武汉大学",
+      "department": "电子信息学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "相机在激光地图中定位",
+        "多相机视觉里程计",
+        "事件运动模糊感知"
+      ],
+      "roboticsEvidence": "官方论文页列I2D-LocX/Loc++激光地图相机定位、多相机VO与事件辅助运动模糊线检测",
+      "firstAppointment": {
+        "date": "2021-11",
+        "precision": "month",
+        "note": "2021.11–2025.8本校副研究员，2025.9副教授非首任；此前CMU博士后非本校。月精度跨2021-11-17近五年边界，不能认定近期"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读官方页未见明确2028个人计划；非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未核逐人2027年度资格，不以个人博导身份替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/yuhuai/zh_CN/index.htm",
+          "title": "余淮 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://jszy.whu.edu.cn/yuhuai/zh_CN/lwcg/1412518/list/index.htm",
+          "title": "余淮 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-yuhuai"
+    },
+    {
+      "name": "亓鲁",
+      "university": "武汉大学",
+      "department": "计算机学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "全景感知",
+        "无人机自主跟拍",
+        "具身智能世界模型"
+      ],
+      "roboticsEvidence": "官方正文明确全景相机/无人机自主跟拍技术部署；研究方向列全景感知、世界模型与具身智能，不将泛大模型作为唯一依据",
+      "firstAppointment": {
+        "date": "2025-10-01",
+        "precision": "day",
+        "note": "官方Date of Employment2025-10-01；此前外企/境外博士后经历，不计本校。行业经历不得称纯学术早期"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读官方页未见明确2028个人计划；非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未核逐人2027年度资格，不以个人博导身份替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/qilu/en/index.htm",
+          "title": "亓鲁 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-qilu"
+    },
+    {
+      "name": "赵俭辉",
+      "university": "武汉大学",
+      "department": "计算机学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "介入手术感知",
+        "触觉感知",
+        "电磁定位"
+      ],
+      "roboticsEvidence": "简介明确医学合作中的介入手术、触觉感知、视觉检测、电磁定位；机器人具体系统实现仍待补读",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "官网入职字段2006-03-01保留为参考，但未提供首次具体岗位与是否非博士后教研身份，首任未知；不能由当前职衔反推"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读官方页未见明确2028个人计划；非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未核逐人2027年度资格，不以个人博导身份替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/zhaojianhui/zh_CN/more/232701/jsjjgd/index.htm",
+          "title": "赵俭辉 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://jszy.whu.edu.cn/zhaojianhui/zh_CN/index/232701/list/index.htm",
+          "title": "赵俭辉 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-zhaojianhui"
+    },
+    {
+      "name": "邓其军",
+      "university": "武汉大学",
+      "department": "机器人学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "无人机自取能定位",
+        "医疗微型机器人无线供能",
+        "AGV无线充电"
+      ],
+      "roboticsEvidence": "官网明确无人机自取能识别定位及人体植入式微型机器人项目，AGV充电项目；主线含电力电子，未包装为通用机器人感知",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "官网入职字段2005-07-01与2005年7月进入自动化系简介一致，但当时岗位未明确，首个非博士后教研任职未知；2018/2025学院重组非首任"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文未见明确2028个人招生；不等于不招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未取得逐人2027年度资格证据，个人博导身份不代替年度资格"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/dengqijun/zh_CN/index/226207/list/",
+          "title": "邓其军 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "personalRecruitment2027": {
+        "status": "explicit_remaining",
+        "phdRemaining": 0,
+        "mastersRemaining": 2,
+        "note": "主页明确2027年入学剩余博士0、硕士2；招生欢迎包括学博/专博及学硕/专硕，但余位未细分，不能等同MSc或2028"
+      },
+      "id": "whu-dengqijun"
+    },
+    {
+      "name": "李淼",
+      "university": "武汉大学",
+      "department": "机器人学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "灵巧抓取与操作",
+        "触觉感知",
+        "模仿学习人形机器人"
+      ],
+      "roboticsEvidence": "2026校新闻明确机器人自主粉末称量，视觉定位、示教学习、跨视角读数与闭环调节；现任学院领导确认机器人学院",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "学校旧履历2017–2020副教授；IEEE RAS作者介绍称2016-12起在武汉大学（未细分首月身份），存在年界差异，首任日期保留未知，不使用2021转院/后续教授晋升"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文未见明确2028个人招生；不等于不招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未取得逐人2027年度资格证据，个人博导身份不代替年度资格"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://technology.whu.edu.cn/info/1018/1931.htm",
+          "title": "李淼 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://sme.whu.edu.cn/info/1539/9993.htm",
+          "title": "李淼 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://news.whu.edu.cn/info/2301/501497.htm",
+          "title": "李淼 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://robotics.whu.edu.cn/xygk/xrld.htm",
+          "title": "李淼 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://miaoli.github.io/",
+          "title": "李淼 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://www.ieee-ras.org/ras_member/miao-li/",
+          "title": "李淼 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "genericRecruitment": "个人主页欢迎PhD/博后/研究员，未指定2028年度或余位",
+      "id": "whu-limiao"
+    },
+    {
+      "name": "肖晓晖",
+      "university": "武汉大学",
+      "department": "机器人学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "双足步态与稳定控制",
+        "协作机器人",
+        "微纳操作精密控制"
+      ],
+      "roboticsEvidence": "官方个人项目含双足稳定控制、视觉力觉物流分拣、微操作机器人及管内检测；现任学院领导页确认现职",
+      "firstAppointment": {
+        "date": "1998-07",
+        "precision": "month",
+        "note": "官方履历1998.7起本校教师，2006.10–2008.5海外博士后不取消更早本校教职；旧院名动机，现任机器人学院执行院长"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文未见明确2028个人招生；不等于不招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未取得逐人2027年度资格证据，个人博导身份不代替年度资格"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://pmc.whu.edu.cn/info/1017/13524.htm",
+          "title": "肖晓晖 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://robotics.whu.edu.cn/xygk/xrld.htm",
+          "title": "肖晓晖 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-xiaoxiaohui"
+    },
+    {
+      "name": "郭朝",
+      "university": "武汉大学",
+      "department": "机器人学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "康复外骨骼",
+        "柔性驱动关节",
+        "四足与人形机器人"
+      ],
+      "roboticsEvidence": "官方完整任职与项目明确外骨骼康复、四足弹性关节、柔性抓取与无人潜航器；机器人学院科研成果页确认现学院",
+      "firstAppointment": {
+        "date": "2015",
+        "precision": "year",
+        "note": "官网明确2015–2021本校讲师/特聘副研究员，早于2021/2024晋升；博士后基金不否定明确教职。年精度不可补月份"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文未见明确2028个人招生；不等于不招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未取得逐人2027年度资格证据，个人博导身份不代替年度资格"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://pmc.whu.edu.cn/info/1017/156131.htm",
+          "title": "郭朝 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://robotics.whu.edu.cn/kxyj/kycg.htm",
+          "title": "郭朝 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "genericRecruitment": "个人页欢迎攻读博士/硕士，未限定2028或数量",
+      "id": "whu-guozhao"
+    },
+    {
+      "name": "李明",
+      "university": "武汉大学",
+      "department": "机器人学院 / 测绘遥感信息工程全国重点实验室",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "水下机器人三维建模",
+        "水下多模态导航定位",
+        "室内机器人视觉定位"
+      ],
+      "roboticsEvidence": "明确深海ROV/AUV影像建模、水下机器人多模态导航制图定位与室内机器人三维建模，不因泛遥感标签纳入",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "已读官方个人信息与完整简介无本校首次教职日期；海外博士后/高级科学家不能推本校首任"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文未见明确2028个人招生；不等于不招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未取得逐人2027年度资格证据，个人博导身份不代替年度资格"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/lisouming/zh_CN/more/460831/jsjjgd/index.htm",
+          "title": "李明 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://jszy.whu.edu.cn/lisouming/zh_CN/jsxx/460831/jsxx/jsxx.htm",
+          "title": "李明 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "genericRecruitment": "课题组每年硕士3–5、独立/联合博士1–2；多导师团队口径、未指定年度，不能视为2028个人余位",
+      "id": "whu-liming"
+    },
+    {
+      "name": "季顺平",
+      "university": "武汉大学",
+      "department": "遥感信息工程学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "identityEvidence": "官方个人页明确列相应职衔与导师身份",
+      "topics": [
+        "视觉SLAM",
+        "语义SLAM",
+        "三维重建"
+      ],
+      "roboticsEvidence": "官方研究方向列视觉及语义SLAM和三维重建。",
+      "firstAppointment": {
+        "date": "2007-07-01",
+        "precision": "day",
+        "note": "入职字段2007-07-01，工作履历2007.7起讲师；2012副教授和2015教授为后续晋升。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人官网未见明确2028接收；泛年度招募不升当届，不代表无名额。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未取得逐人2027年度博士资格；测绘学院2027实施细则为院级规则，不冒充个人资格。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/jishunping/zh_CN/index/246981/list/index.htm",
+          "title": "季顺平 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-jishunping"
+    },
+    {
+      "name": "李加元",
+      "university": "武汉大学",
+      "department": "遥感信息工程学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "identityEvidence": "官方个人页明确列相应职衔与导师身份",
+      "topics": [
+        "视觉SLAM",
+        "激光SLAM",
+        "闭环检测"
+      ],
+      "roboticsEvidence": "官方方向明确激光与视觉SLAM、闭环检测和点云图像处理。",
+      "firstAppointment": {
+        "date": "2020-06",
+        "precision": "month",
+        "note": "2020.6副研究员；2018.6–2020.5本校博士后排除。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人官网未见明确2028接收；泛年度招募不升当届，不代表无名额。 网页每年博士2、硕士3–5仅泛年度。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未取得逐人2027年度博士资格；测绘学院2027实施细则为院级规则，不冒充个人资格。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/lijiayuan1/zh_CN/index.htm",
+          "title": "李加元 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-lijiayuan"
+    },
+    {
+      "name": "王鑫",
+      "university": "武汉大学",
+      "department": "测绘学院",
+      "position": "副教授 / 特聘副研究员",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "identityEvidence": "官方个人页明确列相应职衔与导师身份",
+      "topics": [
+        "无人机视觉SLAM",
+        "多视几何",
+        "多源融合建图"
+      ],
+      "roboticsEvidence": "官方明确无人机及近景实时定位和地图生成、单目双目SLAM、多源传感器融合。",
+      "firstAppointment": {
+        "date": null,
+        "precision": null,
+        "note": "入职字段2021-10-01，但未列首岗位履历；现副教授/特聘副研究员并存，不能由当前职衔反推初聘，首个非博后任职待核。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人官网未见明确2028接收；泛年度招募不升当届，不代表无名额。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未取得逐人2027年度博士资格；测绘学院2027实施细则为院级规则，不冒充个人资格。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/wangxin13/zh_CN/index/1421831/list/index.htm",
+          "title": "王鑫 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-wangxin"
+    },
+    {
+      "name": "槐建柱",
+      "university": "武汉大学",
+      "department": "测绘遥感信息工程全国重点实验室",
+      "position": "特聘副研究员",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "identityEvidence": "官方个人页明确列相应职衔与导师身份",
+      "topics": [
+        "多传感器状态估计",
+        "移动机器人导航",
+        "自主探索"
+      ],
+      "roboticsEvidence": "RGB、激光雷达和毫米波融合，移动机器人导航及自主探索；曾负责配送机器人SLAM。",
+      "firstAppointment": {
+        "date": "2024-04",
+        "precision": "month",
+        "note": "2024.4特聘副研究员；2020.3–2024.3本校博士后排除，机构更名不算新入职。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人官网未见明确2028接收；泛年度招募不升当届，不代表无名额。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未取得逐人2027年度博士资格；测绘学院2027实施细则为院级规则，不冒充个人资格。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/huaijianzhu/zh_CN/index.htm",
+          "title": "槐建柱 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-huaijianzhu"
+    },
+    {
+      "name": "胡庆武",
+      "university": "武汉大学",
+      "department": "遥感信息工程学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "identityEvidence": "官方个人页明确列相应职衔与导师身份",
+      "topics": [
+        "激光视觉融合导航",
+        "三维制图",
+        "移动测量"
+      ],
+      "roboticsEvidence": "激光视觉融合导航与三维制图，研发陆空移动测量系统与低空无人平台。",
+      "firstAppointment": {
+        "date": "2000-07",
+        "precision": "month",
+        "note": "履历2000.7武汉大学助教；2002讲师、2007副教授和2012教授非首任。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人官网未见明确2028接收；泛年度招募不升当届，不代表无名额。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未取得逐人2027年度博士资格；测绘学院2027实施细则为院级规则，不冒充个人资格。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/huqingwu/en/index.htm",
+          "title": "胡庆武 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-huqingwu"
+    },
+    {
+      "name": "张守建",
+      "university": "武汉大学",
+      "department": "测绘学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "identityEvidence": "简介明确教授博导，并明确指导博士5名、硕士15名；不据此推年度资格。",
+      "topics": [
+        "GNSS拒止导航",
+        "四足巡检",
+        "多源SLAM"
+      ],
+      "roboticsEvidence": "北斗惯性视觉激光地图协同定位，实际农药喷洒及四足巡检平台的避障、规划与自主作业。",
+      "firstAppointment": {
+        "date": null,
+        "precision": null,
+        "note": "主页入职字段2010-01-01但工作履历为空，缺首次具体岗位及是否博后证据，首个非博后教研任职待核。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人官网未见明确2028接收；泛年度招募不升当届，不代表无名额。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未取得逐人2027年度博士资格；测绘学院2027实施细则为院级规则，不冒充个人资格。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/zhangshoujiansgg/zh_CN/",
+          "title": "张守建 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-zhangshoujian"
+    },
+    {
+      "name": "姚剑",
+      "university": "武汉大学",
+      "department": "遥感信息工程学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "identityEvidence": "官网明确教授博导；实验室含硕士，但未单独确认本人硕导字段，暂未知。",
+      "topics": [
+        "机器人视觉导航",
+        "SLAM",
+        "三维感知"
+      ],
+      "roboticsEvidence": "官方实验室负责人资料列机器人技术、SLAM、导航定位、无人驾驶、高精地图。",
+      "firstAppointment": {
+        "date": "2012-04",
+        "precision": "month",
+        "note": "官网明确2012年4月引进任教，工作履历2012教授博导；2013楚天为后续人才称号。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人官网未见明确2028接收；泛年度招募不升当届，不代表无名额。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未取得逐人2027年度博士资格；测绘学院2027实施细则为院级规则，不冒充个人资格。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://cvrs.whu.edu.cn/jianyao/",
+          "title": "姚剑 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-yaojian"
+    },
+    {
+      "name": "旷俭",
+      "university": "武汉大学",
+      "department": "卫星导航定位技术研究中心",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "identityEvidence": "官方个人页明确列相应职衔与导师身份",
+      "topics": [
+        "轮式机器人惯性定位",
+        "磁场导航",
+        "车载多源融合定位"
+      ],
+      "roboticsEvidence": "官方列双MEMS-IMU室内轮式机器人定位专利，低空飞行器地磁匹配与车载GNSS/MEMS-INS状态初始化。",
+      "firstAppointment": {
+        "date": "2022",
+        "precision": "year",
+        "note": "同页正文2022.08副研究员、履历2022.7特聘副研究员冲突，保留年精度；2019.8–2022.7博后排除，2025副教授为晋升。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人官网未见明确2028接收；泛年度招募不升当届，不代表无名额。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未取得逐人2027年度博士资格；测绘学院2027实施细则为院级规则，不冒充个人资格。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/kuangjian/zh_CN/index/1249042/list/index.htm",
+          "title": "旷俭 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-kuangjian"
+    },
+    {
+      "name": "孙开敏",
+      "university": "武汉大学",
+      "department": "测绘遥感信息工程全国重点实验室",
+      "position": "研究员 / 教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "identityEvidence": "页头研究员，简介教授，两者并存；页头明确博导硕导。",
+      "topics": [
+        "无人机实时影像处理",
+        "视觉导航",
+        "航空三维重建"
+      ],
+      "roboticsEvidence": "个人页简介列无人机影像视频在线实时处理、视觉导航与航空航天三维重建。",
+      "firstAppointment": {
+        "date": null,
+        "precision": null,
+        "note": "履历2008.10起本校实验室但不列岗位，且博士2008.12毕业，无法确认首个非博后岗位；实验室更名不当入职。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人官网未见明确2028接收；泛年度招募不升当届，不代表无名额。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未取得逐人2027年度博士资格；测绘学院2027实施细则为院级规则，不冒充个人资格。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/sunkaimin/zh_CN/index.htm",
+          "title": "孙开敏 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-sunkaimin"
+    },
+    {
+      "name": "詹总谦",
+      "university": "武汉大学",
+      "department": "测绘学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "identityEvidence": "官方个人页明确列相应职衔与导师身份",
+      "topics": [
+        "实时视觉SLAM",
+        "在线SfM",
+        "三维建模"
+      ],
+      "roboticsEvidence": "官方具体研究任务列实时/准实时VSLAM、On-the-Fly SfM和三维场景建模。",
+      "firstAppointment": {
+        "date": "2007-07",
+        "precision": "month",
+        "note": "工作经历明确2007.7至今本校讲师、副教授、教授序列。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人官网未见明确2028接收；泛年度招募不升当届，不代表无名额。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未取得逐人2027年度博士资格；测绘学院2027实施细则为院级规则，不冒充个人资格。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/zhanzongqian/zh_CN/index.htm",
+          "title": "詹总谦 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-zhanzongqian"
+    },
+    {
+      "name": "李星星",
+      "university": "武汉大学",
+      "department": "测绘学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "identityEvidence": "官方个人页明确列相应职衔与导师身份",
+      "topics": [
+        "多源紧融合定位",
+        "因子图定位",
+        "GNSS视觉激光惯导"
+      ],
+      "roboticsEvidence": "研究方向明确GNSS、视觉、激光、惯性、高精地图的因子图/滤波紧融合及软硬件终端。",
+      "firstAppointment": {
+        "date": "2017-04",
+        "precision": "month",
+        "note": "履历2017.4起武汉大学教授博导；当前在职，履历末2024.11不据此认定离职。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人官网未见明确2028接收；泛年度招募不升当届，不代表无名额。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未取得逐人2027年度博士资格；测绘学院2027实施细则为院级规则，不冒充个人资格。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/lixingxing/zh_CN/index.htm",
+          "title": "李星星 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-lixingxing"
+    },
+    {
+      "name": "朱锋",
+      "university": "武汉大学",
+      "department": "测绘学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "identityEvidence": "官方个人页明确列相应职衔与导师身份",
+      "topics": [
+        "多源融合导航",
+        "精密定位定姿",
+        "移动测量"
+      ],
+      "roboticsEvidence": "官方明确多源传感器协同导航软硬件、移动测量精密定位与车联网导航；研制智慧施工塔吊碰撞预警系统。",
+      "firstAppointment": {
+        "date": "2022-12",
+        "precision": "month",
+        "note": "2022.12特聘副研究员；2019.7–2022.11博士后排除，2025.8副教授非首任。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人官网未见明确2028接收；泛年度招募不升当届，不代表无名额。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未取得逐人2027年度博士资格；测绘学院2027实施细则为院级规则，不冒充个人资格。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://jszy.whu.edu.cn/zhufeng/zh_CN/index.htm",
+          "title": "朱锋 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://jszy.whu.edu.cn/zhufeng/zh_CN/more/1249450/jsjjgd/index.htm",
+          "title": "朱锋 · 武汉大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "whu-zhufeng"
+    }
+  ],
+  "coverage": "计算机、电子信息、机器人、测绘、遥感与全国重点实验室定向筛查；非全校穷尽。",
+  "limitations": [
+    "全体2027逐人年度博士资格未核。",
+    "未见明确2028个人计划；泛年度及项目年份不替代个人接收。",
+    "张敬与邓其军2027个人招募另记，不升级年度资格或2028。",
+    "首任不从晋升、博士毕业、人才或项目年份推断。"
+  ]
+}

@@ -120,6 +120,7 @@ files.extend(['audits/985-sdu-20261117.json', 'audits/985-sdu-20261117.md', 'tes
 files.extend(['audits/985-ouc-20261117.json', 'audits/985-ouc-20261117.md', 'tests/fixtures/evidence/985-ouc-20261117.json', 'tests/ouc-expansion-20261117.test.mjs'])
 files.extend(['tests/tenured-professor-rank-20261117.test.mjs'])
 files.extend(['audits/ouc-caojingchao-20261117.json', 'audits/ouc-caojingchao-20261117.md', 'tests/fixtures/evidence/ouc-caojingchao-20261117.json', 'tests/ouc-caojingchao-20261117.test.mjs'])
+files.extend(['audits/985-whu-20261117.json', 'audits/985-whu-20261117.md', 'tests/fixtures/evidence/985-whu-20261117.json', 'tests/whu-expansion-20261117.test.mjs'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):

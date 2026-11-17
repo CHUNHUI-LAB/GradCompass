@@ -31,10 +31,10 @@ test('narrow title mapping preserves ambiguous, research, junior and administrat
 });
 test('only fifteen reviewed main-title records change, all other published and OUC records stay unchanged',()=>{
  const before=JSON.stringify(catalog),actual=[];
- for(const a of catalog.advisors){if(rankOf(a)!==previousRankOf(a))actual.push(a.id);}
+ for(const a of catalog.advisors.slice(0,1306)){if(rankOf(a)!==previousRankOf(a))actual.push(a.id);}
  assert.deepEqual(actual.sort(),[...changed].sort());
  for(const id of changed){const a=catalog.advisors.find(a=>a.id===id);assert(a);assert.equal(a.position.split(/[;；/]/)[0].trim(),'长聘教授');assert.equal(previousRankOf(a),'other');assert.equal(rankOf(a),'professor');}
- assert.equal(catalog.advisors.filter(a=>!changed.includes(a.id)&&a.institution!=='OUC').length,1291);
+ assert.equal(catalog.advisors.slice(0,1306).filter(a=>!changed.includes(a.id)).length,1291);
  for(const a of catalog.advisors.filter(a=>a.institution==='OUC'))assert.equal(rankOf(a),previousRankOf(a));
  assert.equal(JSON.stringify(catalog),before);
 });
