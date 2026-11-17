@@ -202259,6 +202259,3249 @@
       ],
       "checkedDate": "2026-11-17",
       "sourceFile": "audits/hnu-supplement-20261117.json"
+    },
+    {
+      "id": "csu-daixunhua",
+      "name": "戴训华",
+      "nameZh": "戴训华",
+      "institution": "CSU",
+      "department": "计算机学院",
+      "position": "特聘副教授",
+      "topics": [
+        "无人机视觉导航",
+        "集群协同控制",
+        "无人系统仿真"
+      ],
+      "summary": "无人机视觉导航、集群协同控制与高逼真仿真",
+      "profileUrl": "https://faculty.csu.edu.cn/daixunhua/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/daixunhua/zh_CN/index.htm",
+              "title": "戴训华 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/daixunhua/zh_CN/index.htm",
+            "title": "戴训华 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "副教授工作经历2020.9起；页头入职2020-09-07可作旁证"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/daixunhua/zh_CN/index.htm",
+          "title": "戴训华 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "副教授工作经历2020.9起；页头入职2020-09-07可作旁证",
+        "论文目录仅核研究任务存在，未逐篇全文验证"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-zhangjinrui",
+      "name": "章晋睿",
+      "nameZh": "章晋睿",
+      "institution": "CSU",
+      "department": "计算机学院",
+      "position": "特聘教授",
+      "topics": [
+        "具身无人机规划",
+        "连续导航",
+        "深度感知"
+      ],
+      "summary": "SRDrone具身无人机任务规划、连续导航与端侧深度感知",
+      "profileUrl": "https://faculty.csu.edu.cn/zhangjinrui/zh_CN/index.htm",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "个人独立博士指导与接收未知。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/zhangjinrui/zh_CN/index.htm",
+            "title": "章晋睿 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "工作经历明确2026.3特聘教授；页头入职2026-03-05；此前清华助研与简介博后并列，职业早期分类待核"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/zhangjinrui/zh_CN/index.htm",
+          "title": "章晋睿 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "仅核实硕士指导或硕士招生；独立博士指导身份未知，不关联独立博士参考路径。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "工作经历明确2026.3特聘教授；页头入职2026-03-05；此前清华助研与简介博后并列，职业早期分类待核",
+        "论文目录仅核研究任务存在，未逐篇全文验证"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-kanshichao",
+      "name": "阚世超",
+      "nameZh": "阚世超",
+      "institution": "CSU",
+      "department": "计算机学院",
+      "position": "副教授",
+      "topics": [
+        "三维点云理解",
+        "空间推理",
+        "场景图"
+      ],
+      "summary": "三维点云区域描述、三维物体识别与空间推理、场景图生成",
+      "profileUrl": "https://faculty.csu.edu.cn/kanshichao/zh_CN/",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "个人独立博士指导与接收未知。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/kanshichao/zh_CN/",
+            "title": "阚世超 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2021.9讲师，2024.10副教授是晋升"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/kanshichao/zh_CN/",
+          "title": "阚世超 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "仅核实硕士指导或硕士招生；独立博士指导身份未知，不关联独立博士参考路径。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "2021.9讲师，2024.10副教授是晋升",
+        "论文目录仅核研究任务存在，未逐篇全文验证"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-liqinsong",
+      "name": "李钦松",
+      "nameZh": "李钦松",
+      "institution": "CSU",
+      "department": "计算机学院",
+      "position": "副教授",
+      "topics": [
+        "三维形状匹配",
+        "点云配准",
+        "点云分割"
+      ],
+      "summary": "三维形状匹配、点云分类分割与肝脏术前术中点云配准",
+      "profileUrl": "https://faculty.csu.edu.cn/liqinsong/zh_CN/index.htm",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "个人独立博士指导与接收未知。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/liqinsong/zh_CN/index.htm",
+            "title": "李钦松 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2022.9中南讲师，2025.10副教授是晋升"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/liqinsong/zh_CN/index.htm",
+          "title": "李钦松 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "仅核实硕士指导或硕士招生；独立博士指导身份未知，不关联独立博士参考路径。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "2022.9中南讲师，2025.10副教授是晋升",
+        "论文目录仅核研究任务存在，未逐篇全文验证"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-liangyixiong",
+      "name": "梁毅雄",
+      "nameZh": "梁毅雄",
+      "institution": "CSU",
+      "department": "计算机学院",
+      "position": "教授",
+      "topics": [
+        "6D位姿估计",
+        "目标导航",
+        "机器人自主探索"
+      ],
+      "summary": "RGB类别级6D位姿、目标语义导航与空中机器人自主探索",
+      "profileUrl": "https://faculty.csu.edu.cn/yxliang/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/yxliang/zh_CN/index.htm",
+              "title": "梁毅雄 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/yxliang/zh_CN/index.htm",
+            "title": "梁毅雄 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2007.6入校与2007.7工作栏均未明确首岗位，2019教授不能反推首任"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/yxliang/zh_CN/index.htm",
+          "title": "梁毅雄 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "2007.6入校与2007.7工作栏均未明确首岗位，2019教授不能反推首任",
+        "论文目录仅核研究任务存在，未逐篇全文验证"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-liaoshenghui",
+      "name": "廖胜辉",
+      "nameZh": "廖胜辉",
+      "institution": "CSU",
+      "department": "计算机学院",
+      "position": "教授",
+      "topics": [
+        "三维数字医疗",
+        "手术机器人"
+      ],
+      "summary": "三维数字医疗与手术机器人",
+      "profileUrl": "https://faculty.csu.edu.cn/liaoshenghui/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/liaoshenghui/zh_CN/index.htm",
+              "title": "廖胜辉 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.csu.edu.cn/liaoshenghui/zh_CN/yjgk/6800/list/index.htm",
+              "title": "廖胜辉 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://bsh.csu.edu.cn/ldz/jsjkxyjs/jsjxyzsml.htm",
+              "title": "廖胜辉 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/liaoshenghui/zh_CN/index.htm",
+            "title": "廖胜辉 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.csu.edu.cn/liaoshenghui/zh_CN/yjgk/6800/list/index.htm",
+            "title": "廖胜辉 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://bsh.csu.edu.cn/ldz/jsjkxyjs/jsjxyzsml.htm",
+            "title": "廖胜辉 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2010.7副教授，2017.10教授是晋升；浙江博后不计"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/liaoshenghui/zh_CN/index.htm",
+          "title": "廖胜辉 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://faculty.csu.edu.cn/liaoshenghui/zh_CN/yjgk/6800/list/index.htm",
+          "title": "廖胜辉 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://bsh.csu.edu.cn/ldz/jsjkxyjs/jsjxyzsml.htm",
+          "title": "廖胜辉 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "2010.7副教授，2017.10教授是晋升；浙江博后不计",
+        "论文目录仅核研究任务存在，未逐篇全文验证"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-zhangdeyu",
+      "name": "张德宇",
+      "nameZh": "张德宇",
+      "institution": "CSU",
+      "department": "人工智能学院",
+      "position": "教授",
+      "topics": [
+        "无人机感知",
+        "运动规划",
+        "端侧视觉语言推理"
+      ],
+      "summary": "空天具身智能中的无人机实时感知、动态目标交互和快速运动规划",
+      "profileUrl": "https://faculty.csu.edu.cn/zhangdeyu/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/zhangdeyu/zh_CN/index.htm",
+              "title": "张德宇 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.csu.edu.cn/zhangdeyu/zh_CN/yjfx/62638/content/5218.htm",
+              "title": "张德宇 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://ai.csu.edu.cn/szdw.htm",
+              "title": "张德宇 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/zhangdeyu/zh_CN/index.htm",
+            "title": "张德宇 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.csu.edu.cn/zhangdeyu/zh_CN/yjfx/62638/content/5218.htm",
+            "title": "张德宇 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://ai.csu.edu.cn/szdw.htm",
+            "title": "张德宇 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2017留校讲师明确；2019/2025晋升不计；页头2017-03-30只用年口径"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/zhangdeyu/zh_CN/index.htm",
+          "title": "张德宇 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://faculty.csu.edu.cn/zhangdeyu/zh_CN/yjfx/62638/content/5218.htm",
+          "title": "张德宇 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://ai.csu.edu.cn/szdw.htm",
+          "title": "张德宇 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "2017留校讲师明确；2019/2025晋升不计；页头2017-03-30只用年口径",
+        "仅核公开研究任务，未逐篇阅读全文或验证平台资源保证"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-zhangyunsheng",
+      "name": "张云生",
+      "nameZh": "张云生",
+      "institution": "CSU",
+      "department": "地球科学与信息物理学院",
+      "position": "教授",
+      "topics": [
+        "无人机三维重建",
+        "点云处理",
+        "三维变化检测"
+      ],
+      "summary": "无人机多目摄影测量与3DGS重建，视觉语言点云处理与三维变化检测",
+      "profileUrl": "https://faculty.csu.edu.cn/zhangyunsheng1/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/zhangyunsheng1/zh_CN/index.htm",
+              "title": "张云生 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/zhangyunsheng1/zh_CN/index.htm",
+            "title": "张云生 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2011.7讲师；2014.9副教授为晋升；简介现教授，履历未更新"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/zhangyunsheng1/zh_CN/index.htm",
+          "title": "张云生 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "2011.7讲师；2014.9副教授为晋升；简介现教授，履历未更新",
+        "仅核公开研究任务，未逐篇阅读全文或验证平台资源保证",
+        "2026博士1名与2025推免旧公告不提升2027/2028；RA泛招申请资格与实时岗位另核"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-lihaifeng",
+      "name": "李海峰",
+      "nameZh": "李海峰",
+      "institution": "CSU",
+      "department": "人工智能学院",
+      "position": "教授",
+      "topics": [
+        "无人机具身评测",
+        "街景变化检测",
+        "三维重建"
+      ],
+      "summary": "公开共同作者BEDI无人机具身智能体评测，以及街景变化检测与三维重建",
+      "profileUrl": "https://faculty.csu.edu.cn/lihaifeng/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/lihaifeng/zh_CN/index.htm",
+              "title": "李海峰 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/lihaifeng/zh_CN/index.htm",
+            "title": "李海峰 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "当前主页未列首次本校教研岗位，项目年份/2011香港研究助理不反推"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/lihaifeng/zh_CN/index.htm",
+          "title": "李海峰 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "当前主页未列首次本校教研岗位，项目年份/2011香港研究助理不反推",
+        "仅核公开研究任务，未逐篇阅读全文或验证平台资源保证"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-taochao",
+      "name": "陶超",
+      "nameZh": "陶超",
+      "institution": "CSU",
+      "department": "人工智能学院",
+      "position": "教授",
+      "topics": [
+        "无人机具身评测",
+        "视觉语言遥感理解"
+      ],
+      "summary": "空天具身智能与BEDI无人机具身评测，遥感视觉语言理解",
+      "profileUrl": "https://faculty.csu.edu.cn/taochao/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/taochao/zh_CN/index.htm",
+              "title": "陶超 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.csu.edu.cn/lihaifeng/zh_CN/index.htm",
+              "title": "陶超 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/taochao/zh_CN/index.htm",
+            "title": "陶超 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.csu.edu.cn/lihaifeng/zh_CN/index.htm",
+            "title": "陶超 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2012.9讲师明确；2026.7转人工智能学院不重算"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/taochao/zh_CN/index.htm",
+          "title": "陶超 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://faculty.csu.edu.cn/lihaifeng/zh_CN/index.htm",
+          "title": "陶超 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "2012.9讲师明确；2026.7转人工智能学院不重算",
+        "仅核公开研究任务，未逐篇阅读全文或验证平台资源保证"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-wangyunbo",
+      "name": "王运波",
+      "nameZh": "王运波",
+      "institution": "CSU",
+      "department": "人工智能学院",
+      "position": "副教授",
+      "topics": [
+        "三维点云重建",
+        "多视图几何"
+      ],
+      "summary": "双视图三维点云重建与旋转不变几何一致性",
+      "profileUrl": "https://faculty.csu.edu.cn/wangyunbo/zh_CN/index.htm",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "个人独立博士指导与接收未知。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/wangyunbo/zh_CN/index.htm",
+            "title": "王运波 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2022.6大数据院讲师；2025.10晋升副教授，北京大学博后不计"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/wangyunbo/zh_CN/index.htm",
+          "title": "王运波 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "仅核实硕士指导或硕士招生；独立博士指导身份未知，不关联独立博士参考路径。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "2022.6大数据院讲师；2025.10晋升副教授，北京大学博后不计",
+        "仅核公开研究任务，未逐篇阅读全文或验证平台资源保证"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-caoyichao",
+      "name": "曹毅超",
+      "nameZh": "曹毅超",
+      "institution": "CSU",
+      "department": "人工智能学院",
+      "position": "特聘副教授",
+      "topics": [
+        "视觉语言动作",
+        "机器人操作",
+        "点云跟踪"
+      ],
+      "summary": "VLA长程机器人操作、安全执行与误差恢复，3D点云跟踪和3DGS",
+      "profileUrl": "https://faculty.csu.edu.cn/caoyichao/zh_CN/index.htm",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "个人独立博士指导与接收未知。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "官网明确人工智能学院2027级（2027年入学）硕士招生，无数量和实时余位核验；非博士声明 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/caoyichao/zh_CN/index.htm",
+            "title": "曹毅超 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "官方主页未给本校首任时间，企业多年经历明确但无日期不猜"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/caoyichao/zh_CN/index.htm",
+          "title": "曹毅超 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "仅核实硕士指导或硕士招生；独立博士指导身份未知，不关联独立博士参考路径。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "官方主页未给本校首任时间，企业多年经历明确但无日期不猜",
+        "仅核公开研究任务，未逐篇阅读全文或验证平台资源保证"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-dinghan",
+      "name": "丁撼",
+      "nameZh": "丁撼",
+      "institution": "CSU",
+      "department": "机电工程学院",
+      "position": "副教授",
+      "topics": [
+        "机器人关节设计"
+      ],
+      "summary": "智能机器人关节设计",
+      "profileUrl": "https://faculty.csu.edu.cn/dinghan/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/dinghan/zh_CN/index.htm",
+              "title": "丁撼 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/dinghan/zh_CN/index.htm",
+            "title": "丁撼 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "工作经历2019.03起副教授；侧栏入职2019-03-08仅作辅助"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/dinghan/zh_CN/index.htm",
+          "title": "丁撼 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知",
+        "智能机器人关节设计，限机械本体/驱动交叉"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-zhangyi",
+      "name": "张翼",
+      "nameZh": "张翼",
+      "institution": "CSU",
+      "department": "机电工程学院",
+      "position": "副教授",
+      "topics": [
+        "移动机器人导航",
+        "假肢手控制"
+      ],
+      "summary": "复杂地形救援机器人环境识别与路径规划、假肢手肌电解码闭环控制",
+      "profileUrl": "https://faculty.csu.edu.cn/zhangyi12345/zh_CN/index/191452/list/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/zhangyi12345/zh_CN/index/191452/list/index.htm",
+              "title": "张翼 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/zhangyi12345/zh_CN/index/191452/list/index.htm",
+            "title": "张翼 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2020博士后出站未直接列首个本校教职，保留未知"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/zhangyi12345/zh_CN/index/191452/list/index.htm",
+          "title": "张翼 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-shaowen",
+      "name": "邵文",
+      "nameZh": "邵文",
+      "institution": "CSU",
+      "department": "机电工程学院",
+      "position": "教授",
+      "topics": [
+        "人形机器人驱动关节"
+      ],
+      "summary": "人形机器人直线驱动关节设计制造",
+      "profileUrl": "https://faculty.csu.edu.cn/shaowen1/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/shaowen1/zh_CN/index.htm",
+              "title": "邵文 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/shaowen1/zh_CN/index.htm",
+            "title": "邵文 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2016.10本校讲师；2019副教授及2025.10教授晋升不重置"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/shaowen1/zh_CN/index.htm",
+          "title": "邵文 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知",
+        "每年博士1–3、硕士3为泛年度团队招募，不证明2027/2028个人名额",
+        "人形机器人直线驱动关节设计制造，限驱动本体交叉"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-zhongguoliang",
+      "name": "钟国梁",
+      "nameZh": "钟国梁",
+      "institution": "CSU",
+      "department": "机电工程学院",
+      "position": "职级待核",
+      "topics": [
+        "连续体机器人",
+        "人机交互",
+        "协调控制"
+      ],
+      "summary": "连续体机器人设计与运动控制、移动机器人人机交互与自主协同",
+      "profileUrl": "https://faculty.csu.edu.cn/zhongguoliang/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/zhongguoliang/zh_CN/index.htm",
+              "title": "钟国梁 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/zhongguoliang/zh_CN/index.htm",
+            "title": "钟国梁 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2013.11讲师首任；2017.10副教授；当前页头讲师与简介/履历副教授冲突保留"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/zhongguoliang/zh_CN/index.htm",
+          "title": "钟国梁 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知",
+        "2013.11讲师首任；2017.10副教授；当前页头讲师与简介/履历副教授冲突保留"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-denghua",
+      "name": "邓华",
+      "nameZh": "邓华",
+      "institution": "CSU",
+      "department": "机电工程学院",
+      "position": "教授",
+      "topics": [
+        "机器人定位控制",
+        "多足平衡",
+        "假肢"
+      ],
+      "summary": "小样品多维调控机器人定位、多足动态平衡与自主控制、智能上肢假肢",
+      "profileUrl": "https://faculty.csu.edu.cn/denghua/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/denghua/zh_CN/index.htm",
+              "title": "邓华 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/denghua/zh_CN/index.htm",
+            "title": "邓华 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2005.9本校教授首任；2006.12博导不当首任；原二级教授"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/denghua/zh_CN/index.htm",
+          "title": "邓华 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-luxinjiang",
+      "name": "陆新江",
+      "nameZh": "陆新江",
+      "institution": "CSU",
+      "department": "机电工程学院",
+      "position": "教授",
+      "topics": [
+        "工业机器人",
+        "外骨骼",
+        "手术机器人"
+      ],
+      "summary": "铸造状态感知与机器人智能控制、下肢外骨骼研制及无人机",
+      "profileUrl": "https://faculty.csu.edu.cn/luxinjiang/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/luxinjiang/zh_CN/index.htm",
+              "title": "陆新江 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/luxinjiang/zh_CN/index.htm",
+            "title": "陆新江 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2011.9本校副教授；2015.9教授为晋升"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/luxinjiang/zh_CN/index.htm",
+          "title": "陆新江 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-tangjinyuan",
+      "name": "唐进元",
+      "nameZh": "唐进元",
+      "institution": "CSU",
+      "department": "机电工程学院",
+      "position": "教授",
+      "topics": [
+        "机器人关节减速器"
+      ],
+      "summary": "机器人关节减速器RV、谐波、直线伺服关节高性能设计制造",
+      "profileUrl": "https://faculty.csu.edu.cn/tangjinyuan/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/tangjinyuan/zh_CN/index.htm",
+              "title": "唐进元 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://cmee.csu.edu.cn/yjsjy/dsjs/jqryznzbyjsbssds.htm",
+              "title": "唐进元 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/tangjinyuan/zh_CN/index.htm",
+            "title": "唐进元 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cmee.csu.edu.cn/yjsjy/dsjs/jqryznzbyjsbssds.htm",
+            "title": "唐进元 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "未明确本校首次教职；2002行政任职不作首任；原二级教授"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/tangjinyuan/zh_CN/index.htm",
+          "title": "唐进元 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://cmee.csu.edu.cn/yjsjy/dsjs/jqryznzbyjsbssds.htm",
+          "title": "唐进元 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知",
+        "正文2024博士招募不升2027/2028；2028协会任期不作招生"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-xiayimin",
+      "name": "夏毅敏",
+      "nameZh": "夏毅敏",
+      "institution": "CSU",
+      "department": "机电工程学院",
+      "position": "教授",
+      "topics": [
+        "地下工程机器人",
+        "液压驱动"
+      ],
+      "summary": "地下工程装备特种机器人设计、液压驱动控制",
+      "profileUrl": "https://faculty.csu.edu.cn/xiayimin/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/xiayimin/zh_CN/index.htm",
+              "title": "夏毅敏 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://cmee.csu.edu.cn/yjsjy/dsjs/jqryznzbyjsbssds.htm",
+              "title": "夏毅敏 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/xiayimin/zh_CN/index.htm",
+            "title": "夏毅敏 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cmee.csu.edu.cn/yjsjy/dsjs/jqryznzbyjsbssds.htm",
+            "title": "夏毅敏 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "1994起中南工业大学教学科研明确，沿革计同校；原二级教授"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/xiayimin/zh_CN/index.htm",
+          "title": "夏毅敏 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://cmee.csu.edu.cn/yjsjy/dsjs/jqryznzbyjsbssds.htm",
+          "title": "夏毅敏 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-yangmei",
+      "name": "杨妹",
+      "nameZh": "杨妹",
+      "institution": "CSU",
+      "department": "机电工程学院",
+      "position": "讲师",
+      "topics": [
+        "地下工程特种机器人"
+      ],
+      "summary": "地下工程装备特种机器人设计",
+      "profileUrl": "https://faculty.csu.edu.cn/yangmei1/zh_CN/index.htm",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "个人独立博士指导与接收未知。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/yangmei1/zh_CN/index.htm",
+            "title": "杨妹 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2024.5本校讲师；2021.12–2024.5本校博士后排除"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/yangmei1/zh_CN/index.htm",
+          "title": "杨妹 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "独立博士及硕士指导层级尚未核实，不关联独立博士参考路径。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知",
+        "页面2026秋硕士招募不升2027/2028；导师身份仍待核",
+        "个人页仅明确招收2026秋硕士，未明确标注硕导身份；不能以个人招募代替身份，硕导未知。",
+        "地下工程装备特种机器人设计，限装备本体交叉"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-liugaoyu",
+      "name": "刘高禹",
+      "nameZh": "刘高禹",
+      "institution": "CSU",
+      "department": "机电工程学院",
+      "position": "副教授",
+      "topics": [
+        "机器人触觉",
+        "外骨骼",
+        "人机交互"
+      ],
+      "summary": "手术机器人触觉力反馈、机器人三维力感知及外骨骼机器手驱动感知一体化",
+      "profileUrl": "https://faculty.csu.edu.cn/gaoyuliu",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "个人独立博士指导与接收未知。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/gaoyuliu",
+            "title": "刘高禹 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cmee.csu.edu.cn/yjsjy/dsjs/jqryznzbyjsbssds.htm",
+            "title": "刘高禹 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2022–2025港中文博士后不推本校首任；正文现副教授但首任日期未明"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/gaoyuliu",
+          "title": "刘高禹 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://cmee.csu.edu.cn/yjsjy/dsjs/jqryznzbyjsbssds.htm",
+          "title": "刘高禹 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "仅核实硕士指导或硕士招生；独立博士指导身份未知，不关联独立博士参考路径。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-xieweigui",
+      "name": "谢卫规",
+      "nameZh": "谢卫规",
+      "institution": "CSU",
+      "department": "机电工程学院",
+      "position": "副教授",
+      "topics": [
+        "手术机器人",
+        "力触觉",
+        "轨迹规划"
+      ],
+      "summary": "皮肤科手术机器人视觉识别、力触觉反馈与轨迹规划",
+      "profileUrl": "https://faculty.csu.edu.cn/xieweigui/zh_CN/index.htm",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "个人独立博士指导与接收未知。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/xieweigui/zh_CN/index.htm",
+            "title": "谢卫规 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2025.3本校特聘副教授，华工博后及新加坡访问排除；现正文副教授"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/xieweigui/zh_CN/index.htm",
+          "title": "谢卫规 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "仅核实硕士指导或硕士招生；独立博士指导身份未知，不关联独立博士参考路径。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-liqunming",
+      "name": "李群明",
+      "nameZh": "李群明",
+      "institution": "CSU",
+      "department": "机电工程学院",
+      "position": "教授",
+      "topics": [
+        "机器人夹持",
+        "定位",
+        "控制标定"
+      ],
+      "summary": "重载操作机器人夹持接触动力学、中子谱仪机器人控制与假肢手",
+      "profileUrl": "https://faculty.csu.edu.cn/liqunming/zh_CN/index.htm",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "个人独立博士指导与接收未知。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/liqunming/zh_CN/index.htm",
+            "title": "李群明 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2003.10本校教授履历明确；此前浙大博士后排除"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/liqunming/zh_CN/index.htm",
+          "title": "李群明 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "仅核实硕士指导或硕士招生；独立博士指导身份未知，不关联独立博士参考路径。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-huangliming",
+      "name": "黄黎明",
+      "nameZh": "黄黎明",
+      "institution": "CSU",
+      "department": "机电工程学院",
+      "position": "职级待核",
+      "topics": [
+        "RGBD感知",
+        "RGBT感知",
+        "驾驶异常检测"
+      ],
+      "summary": "RGBD/RGBT显著目标检测、复杂驾驶场景异常检测",
+      "profileUrl": "https://faculty.csu.edu.cn/huangliming/zh_CN/index.htm",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "个人独立博士指导与接收未知。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "正文称2027硕士仍有名额；未量化，页面时点而非实时余位，不是博士资格 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/huangliming/zh_CN/index.htm",
+            "title": "黄黎明 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2025.10机电单位工作未写岗位，不推首次独立教职"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/huangliming/zh_CN/index.htm",
+          "title": "黄黎明 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "仅核实硕士指导或硕士招生；独立博士指导身份未知，不关联独立博士参考路径。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-huwenfeng",
+      "name": "胡文峰",
+      "nameZh": "胡文峰",
+      "institution": "CSU",
+      "department": "自动化学院",
+      "position": "副教授",
+      "topics": [
+        "多机器人编队",
+        "多机械臂协同",
+        "多智能体强化学习"
+      ],
+      "summary": "多无人机分布式控制、多机器人编队、多机械臂协同控制",
+      "profileUrl": "https://faculty.csu.edu.cn/huwenfeng/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/huwenfeng/zh_CN/index.htm",
+              "title": "胡文峰 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/huwenfeng/zh_CN/index.htm",
+            "title": "胡文峰 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "简介称2017进入本校教学科研；工作栏2016.12讲师，跨年差异未消解，首任保留未知"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/huwenfeng/zh_CN/index.htm",
+          "title": "胡文峰 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "简介称2017进入本校教学科研；工作栏2016.12讲师，跨年差异未消解，首任保留未知",
+        "研究任务/项目/团队条件不保证当前招收和资源",
+        "课题组每年3–6硕士、1–2博士是泛年度计划，不升2027/2028"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-chenbaifan",
+      "name": "陈白帆",
+      "nameZh": "陈白帆",
+      "institution": "CSU",
+      "department": "人工智能学院",
+      "position": "副教授",
+      "topics": [
+        "长期SLAM",
+        "点云去噪补全",
+        "机器人导航"
+      ],
+      "summary": "时变环境长期SLAM、点云去噪补全与低重叠配准、机器人协同建图导航",
+      "profileUrl": "https://faculty.csu.edu.cn/chenbaifan/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/chenbaifan/zh_CN/index.htm",
+              "title": "陈白帆 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.csu.edu.cn/chenbaifan/zh_CN/zdylm/73677/list/index.htm",
+              "title": "陈白帆 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/chenbaifan/zh_CN/index.htm",
+            "title": "陈白帆 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.csu.edu.cn/chenbaifan/zh_CN/zdylm/73677/list/index.htm",
+            "title": "陈白帆 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "工作栏2005.1起中南副教授；与2004–2009在读博士重叠，按明示教职起点保留但不能推当时已经副教授或独立PI；现学院变更不重置"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/chenbaifan/zh_CN/index.htm",
+          "title": "陈白帆 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://faculty.csu.edu.cn/chenbaifan/zh_CN/zdylm/73677/list/index.htm",
+          "title": "陈白帆 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "工作栏2005.1起中南副教授；与2004–2009在读博士重叠，按明示教职起点保留但不能推当时已经副教授或独立PI；现学院变更不重置",
+        "研究任务/项目/团队条件不保证当前招收和资源"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-chenmingsong",
+      "name": "陈明松",
+      "nameZh": "陈明松",
+      "institution": "CSU",
+      "department": "轻合金研究院（个人主页现单位；历史机电工程学院）",
+      "position": "教授",
+      "topics": [
+        "激光SLAM",
+        "机器人跟随",
+        "视觉伺服力控"
+      ],
+      "summary": "轮足机器人导航跟随、激光视觉SLAM、复杂曲面视觉伺服恒力打磨及阻抗控制",
+      "profileUrl": "https://faculty.csu.edu.cn/chenmingsong/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/chenmingsong/zh_CN/index.htm",
+              "title": "陈明松 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/chenmingsong/zh_CN/index.htm",
+            "title": "陈明松 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2011.12本校讲师，2014副教授/2019教授晋升不重置，院系迁移不作首任"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/chenmingsong/zh_CN/index.htm",
+          "title": "陈明松 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "2011.12本校讲师，2014副教授/2019教授晋升不重置，院系迁移不作首任",
+        "研究任务/项目/团队条件不保证当前招收和资源"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-wuwangqing",
+      "name": "吴旺青",
+      "nameZh": "吴旺青",
+      "institution": "CSU",
+      "department": "机电工程学院",
+      "position": "教授",
+      "topics": [
+        "机器人化制造",
+        "感知工艺融合"
+      ],
+      "summary": "机器人与传感工艺融合实现复材金属异质连接的自主柔性制造",
+      "profileUrl": "https://faculty.csu.edu.cn/csuwwq/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/csuwwq/zh_CN/index.htm",
+              "title": "吴旺青 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.csu.edu.cn/csuwwq/zh_CN/yjfx/13102/content/9608.htm",
+              "title": "吴旺青 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "官网课题组2027拟招博士1、硕士3；团队个人声明非年度资格及实时余位 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/csuwwq/zh_CN/index.htm",
+            "title": "吴旺青 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.csu.edu.cn/csuwwq/zh_CN/yjfx/13102/content/9608.htm",
+            "title": "吴旺青 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "已读主页无本校首次教职履历，荣誉/学生入学年份不代替"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/csuwwq/zh_CN/index.htm",
+          "title": "吴旺青 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://faculty.csu.edu.cn/csuwwq/zh_CN/yjfx/13102/content/9608.htm",
+          "title": "吴旺青 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "已读主页无本校首次教职履历，荣誉/学生入学年份不代替",
+        "研究任务/项目/团队条件不保证当前招收和资源",
+        "主方向材料与制造；只依据具体机器人化连接制造交叉纳入，不延伸通用机器人规划控制"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-qiuzhifeng",
+      "name": "裘智峰",
+      "nameZh": "裘智峰",
+      "institution": "CSU",
+      "department": "自动化学院",
+      "position": "副教授",
+      "topics": [
+        "多机器人任务分配",
+        "多智能体编队"
+      ],
+      "summary": "动态任务多智能机器人分配、多机器人分布式任务分配形成",
+      "profileUrl": "https://faculty.csu.edu.cn/qiuzhifeng/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/qiuzhifeng/zh_CN/index.htm",
+              "title": "裘智峰 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/qiuzhifeng/zh_CN/index.htm",
+            "title": "裘智峰 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2015获聘副教授明确但未排除更早本校教研岗位，保留首次教职未知"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/qiuzhifeng/zh_CN/index.htm",
+          "title": "裘智峰 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "2015获聘副教授明确但未排除更早本校教研岗位，保留首次教职未知",
+        "研究任务/项目/团队条件不保证当前招收和资源",
+        "主要能源系统方向，凭具体多机器人任务分配专利/论文列交叉候选，不视为机器人主线保证"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-liulinpeng",
+      "name": "刘林鹏",
+      "nameZh": "刘林鹏",
+      "institution": "CSU",
+      "department": "机电工程学院",
+      "position": "特聘副教授",
+      "topics": [
+        "机器人触觉",
+        "农业机器人",
+        "多模态末端感知"
+      ],
+      "summary": "采摘机器人视觉力觉温度多模态末端感知，提升识别与柔顺操作",
+      "profileUrl": "https://faculty.csu.edu.cn/liulinpeng/zh_CN/index.htm",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/liulinpeng/zh_CN/index.htm",
+              "title": "刘林鹏 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/liulinpeng/zh_CN/index.htm",
+            "title": "刘林鹏 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2023.9本校特聘副教授；2021.8–2023.8本校博后排除，2024.2起香港理工博后与教职并行不称所有博后均已结束"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/liulinpeng/zh_CN/index.htm",
+          "title": "刘林鹏 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "2023.9本校特聘副教授；2021.8–2023.8本校博后排除，2024.2起香港理工博后与教职并行不称所有博后均已结束",
+        "研究任务/项目/团队条件不保证当前招收和资源",
+        "页头只列硕导，正文明确博导且学院博士导师目录列名；保留来源范围不等于2027资格"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
+    },
+    {
+      "id": "csu-liheng",
+      "name": "李恒",
+      "nameZh": "李恒",
+      "institution": "CSU",
+      "department": "电子信息学院",
+      "position": "教授",
+      "topics": [
+        "水下机器人定位",
+        "编队控制"
+      ],
+      "summary": "长距离电磁导引UUV定位及编队控制技术",
+      "profileUrl": "https://faculty.csu.edu.cn/liheng",
+      "routeIds": [
+        "csu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "csu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://faculty.csu.edu.cn/liheng",
+              "title": "李恒 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://faculty.csu.edu.cn/liheng",
+            "title": "李恒 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "侧栏2017-11-28入职及工作栏2017.11单位但未明确当时岗位，首次非博后教职未知"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/liheng",
+          "title": "李恒 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "侧栏2017-11-28入职及工作栏2017.11单位但未明确当时岗位，首次非博后教职未知",
+        "研究任务/项目/团队条件不保证当前招收和资源",
+        "主要储能与故障管理交叉，凭具体UUV定位编队项目纳入，不把泛大模型措辞扩展为已证完整机器人系统"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-csu-20261117.json"
     }
   ],
   "routes": [
@@ -211312,6 +214555,63 @@
           "title": "湖南大学计算机学院教师名录",
           "section": "一般教师名录，仅用于院系/目录定位，不证明逐人招生与首任",
           "readScope": "已读校方一般教师目录；个人事实见各自来源，不据目录推定招生或首任。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "notes": [
+        "一般师资目录不是2027年度资格名单。",
+        "个人招募不共享到整校；不推本科直博、免推免或申请考核资格。"
+      ],
+      "requirements": [],
+      "checkedDate": "2026-11-17",
+      "defaultVisible": false
+    },
+    {
+      "id": "csu-doctoral-faculty-reference-20261117",
+      "institution": "CSU",
+      "department": "逐人列明院系",
+      "program": "机器人与感知个人博士指导身份参考",
+      "degree": "PhD",
+      "bachelorEligible": false,
+      "noTuimianRequired": false,
+      "noMasterRequired": false,
+      "status": "reference",
+      "eligibilitySummary": "仅官方个人博导身份参考，非2027年度资格；2028个人接收须逐人另核，非已确认项目或当前余位。",
+      "supervisorAssociation": "仅关联已读官方个人博士指导身份，非年度资格名单。",
+      "admissionYear": "个人指导参考，年度待核",
+      "cycle2027Verified": false,
+      "projectCycleVerified": false,
+      "individualRecruitmentVerified": false,
+      "currentCycleVerificationStatus": "pending",
+      "sourceCycle": "个人博士指导身份参考",
+      "sourceCycles": [],
+      "admissionMode": "doctoral_faculty_reference",
+      "evidenceScope": "doctoral_faculty_reference_only",
+      "applicationStatus": "unknown",
+      "applicationMethod": "查当年学校章程及院系办法，与导师确认个人接收；正式网报不以公开邀请替代。",
+      "sources": [
+        {
+          "url": "https://cse.csu.edu.cn/szdw/jsml.htm",
+          "title": "中南大学计算机学院教师名录",
+          "section": "一般师资或导师目录，仅用于定位候选",
+          "readScope": "已读一般师资或导师目录正文，仅用于定位候选；不证明逐人首任、年度资格、个人招生计划或当前余位。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://ai.csu.edu.cn/szdw.htm",
+          "title": "中南大学人工智能学院师资目录",
+          "section": "一般师资或导师目录，仅用于定位候选",
+          "readScope": "已读一般师资或导师目录正文，仅用于定位候选；不证明逐人首任、年度资格、个人招生计划或当前余位。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://cmee.csu.edu.cn/yjsjy/dsjs/jqryznzbyjsbssds.htm",
+          "title": "中南大学机电学院硕博导师一般目录",
+          "section": "一般师资或导师目录，仅用于定位候选",
+          "readScope": "已读一般师资或导师目录正文，仅用于定位候选；不证明逐人首任、年度资格、个人招生计划或当前余位。",
           "checkedDate": "2026-11-17",
           "access": "official_body"
         }

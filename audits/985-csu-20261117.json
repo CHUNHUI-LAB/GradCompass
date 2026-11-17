@@ -1,0 +1,1574 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-11-17",
+  "baseCommit": "603b35750efe9564f5127d88e7df855784076146",
+  "school": "中南大学",
+  "notExhaustive": true,
+  "addedCount": 32,
+  "doctoralReferenceCount": 22,
+  "doctoralUnknownCount": 10,
+  "recentAppointmentCount": 6,
+  "recentAppointmentIds": [
+    "csu-zhangjinrui",
+    "csu-liqinsong",
+    "csu-wangyunbo",
+    "csu-yangmei",
+    "csu-xieweigui",
+    "csu-liulinpeng"
+  ],
+  "entries": [
+    {
+      "name": "戴训华",
+      "university": "中南大学",
+      "department": "计算机学院",
+      "position": "特聘副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "无人机视觉导航",
+        "集群协同控制",
+        "无人系统仿真"
+      ],
+      "roboticsEvidence": "无人机视觉导航、集群协同控制与高逼真仿真",
+      "firstAppointment": {
+        "date": "2020-09",
+        "precision": "month",
+        "note": "副教授工作经历2020.9起；页头入职2020-09-07可作旁证"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/daixunhua/zh_CN/index.htm",
+          "title": "戴训华 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "副教授工作经历2020.9起；页头入职2020-09-07可作旁证",
+        "论文目录仅核研究任务存在，未逐篇全文验证"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源无明确2028个人招募；不代表无名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "个人导师身份及泛招不等于2027年度资格"
+      },
+      "routeIds": [],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "csu-daixunhua"
+    },
+    {
+      "name": "章晋睿",
+      "university": "中南大学",
+      "department": "计算机学院",
+      "position": "特聘教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "具身无人机规划",
+        "连续导航",
+        "深度感知"
+      ],
+      "roboticsEvidence": "SRDrone具身无人机任务规划、连续导航与端侧深度感知",
+      "firstAppointment": {
+        "date": "2026-03",
+        "precision": "month",
+        "note": "工作经历明确2026.3特聘教授；页头入职2026-03-05；此前清华助研与简介博后并列，职业早期分类待核"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/zhangjinrui/zh_CN/index.htm",
+          "title": "章晋睿 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "工作经历明确2026.3特聘教授；页头入职2026-03-05；此前清华助研与简介博后并列，职业早期分类待核",
+        "论文目录仅核研究任务存在，未逐篇全文验证"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源无明确2028个人招募；不代表无名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "个人导师身份及泛招不等于2027年度资格"
+      },
+      "routeIds": [],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "csu-zhangjinrui"
+    },
+    {
+      "name": "阚世超",
+      "university": "中南大学",
+      "department": "计算机学院",
+      "position": "副教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "三维点云理解",
+        "空间推理",
+        "场景图"
+      ],
+      "roboticsEvidence": "三维点云区域描述、三维物体识别与空间推理、场景图生成",
+      "firstAppointment": {
+        "date": "2021-09",
+        "precision": "month",
+        "note": "2021.9讲师，2024.10副教授是晋升"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/kanshichao/zh_CN/",
+          "title": "阚世超 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "2021.9讲师，2024.10副教授是晋升",
+        "论文目录仅核研究任务存在，未逐篇全文验证"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源无明确2028个人招募；不代表无名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "个人导师身份及泛招不等于2027年度资格"
+      },
+      "routeIds": [],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "csu-kanshichao"
+    },
+    {
+      "name": "李钦松",
+      "university": "中南大学",
+      "department": "计算机学院",
+      "position": "副教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "三维形状匹配",
+        "点云配准",
+        "点云分割"
+      ],
+      "roboticsEvidence": "三维形状匹配、点云分类分割与肝脏术前术中点云配准",
+      "firstAppointment": {
+        "date": "2022-09",
+        "precision": "month",
+        "note": "2022.9中南讲师，2025.10副教授是晋升"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/liqinsong/zh_CN/index.htm",
+          "title": "李钦松 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "2022.9中南讲师，2025.10副教授是晋升",
+        "论文目录仅核研究任务存在，未逐篇全文验证"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源无明确2028个人招募；不代表无名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "个人导师身份及泛招不等于2027年度资格"
+      },
+      "routeIds": [],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "csu-liqinsong"
+    },
+    {
+      "name": "梁毅雄",
+      "university": "中南大学",
+      "department": "计算机学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "6D位姿估计",
+        "目标导航",
+        "机器人自主探索"
+      ],
+      "roboticsEvidence": "RGB类别级6D位姿、目标语义导航与空中机器人自主探索",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "2007.6入校与2007.7工作栏均未明确首岗位，2019教授不能反推首任"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/yxliang/zh_CN/index.htm",
+          "title": "梁毅雄 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "2007.6入校与2007.7工作栏均未明确首岗位，2019教授不能反推首任",
+        "论文目录仅核研究任务存在，未逐篇全文验证"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源无明确2028个人招募；不代表无名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "个人导师身份及泛招不等于2027年度资格"
+      },
+      "routeIds": [],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "csu-liangyixiong"
+    },
+    {
+      "name": "廖胜辉",
+      "university": "中南大学",
+      "department": "计算机学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "三维数字医疗",
+        "手术机器人"
+      ],
+      "roboticsEvidence": "三维数字医疗、手术机器人（校方博后合作导师目录明确）",
+      "firstAppointment": {
+        "date": "2010-07",
+        "precision": "month",
+        "note": "2010.7副教授，2017.10教授是晋升；浙江博后不计"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/liaoshenghui/zh_CN/index.htm",
+          "title": "廖胜辉 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://faculty.csu.edu.cn/liaoshenghui/zh_CN/yjgk/6800/list/index.htm",
+          "title": "廖胜辉 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://bsh.csu.edu.cn/ldz/jsjkxyjs/jsjxyzsml.htm",
+          "title": "廖胜辉 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "2010.7副教授，2017.10教授是晋升；浙江博后不计",
+        "论文目录仅核研究任务存在，未逐篇全文验证"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源无明确2028个人招募；不代表无名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "个人导师身份及泛招不等于2027年度资格"
+      },
+      "routeIds": [],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "csu-liaoshenghui"
+    },
+    {
+      "name": "张德宇",
+      "university": "中南大学",
+      "department": "人工智能学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "无人机感知",
+        "运动规划",
+        "端侧视觉语言推理"
+      ],
+      "roboticsEvidence": "空天具身智能中的无人机实时感知、动态目标交互和快速运动规划",
+      "firstAppointment": {
+        "date": "2017",
+        "precision": "year",
+        "note": "2017留校讲师明确；2019/2025晋升不计；页头2017-03-30只用年口径"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/zhangdeyu/zh_CN/index.htm",
+          "title": "张德宇 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://faculty.csu.edu.cn/zhangdeyu/zh_CN/yjfx/62638/content/5218.htm",
+          "title": "张德宇 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://ai.csu.edu.cn/szdw.htm",
+          "title": "张德宇 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "2017留校讲师明确；2019/2025晋升不计；页头2017-03-30只用年口径",
+        "仅核公开研究任务，未逐篇阅读全文或验证平台资源保证"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源无明确2028个人招募；不代表无名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "个人导师身份及泛招不等于2027年度资格"
+      },
+      "routeIds": [],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "csu-zhangdeyu"
+    },
+    {
+      "name": "张云生",
+      "university": "中南大学",
+      "department": "地球科学与信息物理学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "无人机三维重建",
+        "点云处理",
+        "三维变化检测"
+      ],
+      "roboticsEvidence": "无人机多目摄影测量与3DGS重建，视觉语言点云处理与三维变化检测",
+      "firstAppointment": {
+        "date": "2011-07",
+        "precision": "month",
+        "note": "2011.7讲师；2014.9副教授为晋升；简介现教授，履历未更新"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/zhangyunsheng1/zh_CN/index.htm",
+          "title": "张云生 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "2011.7讲师；2014.9副教授为晋升；简介现教授，履历未更新",
+        "仅核公开研究任务，未逐篇阅读全文或验证平台资源保证",
+        "2026博士1名与2025推免旧公告不提升2027/2028；RA泛招申请资格与实时岗位另核"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源无明确2028个人招募；不代表无名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "个人导师身份及泛招不等于2027年度资格"
+      },
+      "routeIds": [],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "csu-zhangyunsheng"
+    },
+    {
+      "name": "李海峰",
+      "university": "中南大学",
+      "department": "人工智能学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "无人机具身评测",
+        "街景变化检测",
+        "三维重建"
+      ],
+      "roboticsEvidence": "公开共同作者BEDI无人机具身智能体评测，以及街景变化检测与三维重建",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "当前主页未列首次本校教研岗位，项目年份/2011香港研究助理不反推"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/lihaifeng/zh_CN/index.htm",
+          "title": "李海峰 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "当前主页未列首次本校教研岗位，项目年份/2011香港研究助理不反推",
+        "仅核公开研究任务，未逐篇阅读全文或验证平台资源保证"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源无明确2028个人招募；不代表无名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "个人导师身份及泛招不等于2027年度资格"
+      },
+      "routeIds": [],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "csu-lihaifeng"
+    },
+    {
+      "name": "陶超",
+      "university": "中南大学",
+      "department": "人工智能学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "无人机具身评测",
+        "视觉语言遥感理解"
+      ],
+      "roboticsEvidence": "空天具身智能与BEDI无人机具身评测，遥感视觉语言理解",
+      "firstAppointment": {
+        "date": "2012-09",
+        "precision": "month",
+        "note": "2012.9讲师明确；2026.7转人工智能学院不重算"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/taochao/zh_CN/index.htm",
+          "title": "陶超 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://faculty.csu.edu.cn/lihaifeng/zh_CN/index.htm",
+          "title": "陶超 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "2012.9讲师明确；2026.7转人工智能学院不重算",
+        "仅核公开研究任务，未逐篇阅读全文或验证平台资源保证"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源无明确2028个人招募；不代表无名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "个人导师身份及泛招不等于2027年度资格"
+      },
+      "routeIds": [],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "csu-taochao"
+    },
+    {
+      "name": "王运波",
+      "university": "中南大学",
+      "department": "人工智能学院",
+      "position": "副教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "三维点云重建",
+        "多视图几何"
+      ],
+      "roboticsEvidence": "双视图三维点云重建与旋转不变几何一致性",
+      "firstAppointment": {
+        "date": "2022-06",
+        "precision": "month",
+        "note": "2022.6大数据院讲师；2025.10晋升副教授，北京大学博后不计"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/wangyunbo/zh_CN/index.htm",
+          "title": "王运波 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "2022.6大数据院讲师；2025.10晋升副教授，北京大学博后不计",
+        "仅核公开研究任务，未逐篇阅读全文或验证平台资源保证"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源无明确2028个人招募；不代表无名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "个人导师身份及泛招不等于2027年度资格"
+      },
+      "routeIds": [],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "csu-wangyunbo"
+    },
+    {
+      "name": "曹毅超",
+      "university": "中南大学",
+      "department": "人工智能学院",
+      "position": "特聘副教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "视觉语言动作",
+        "机器人操作",
+        "点云跟踪"
+      ],
+      "roboticsEvidence": "VLA长程机器人操作、安全执行与误差恢复，3D点云跟踪和3DGS",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "官方主页未给本校首任时间，企业多年经历明确但无日期不猜"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/caoyichao/zh_CN/index.htm",
+          "title": "曹毅超 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "官方主页未给本校首任时间，企业多年经历明确但无日期不猜",
+        "仅核公开研究任务，未逐篇阅读全文或验证平台资源保证"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源无明确2028个人招募；不代表无名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "个人导师身份及泛招不等于2027年度资格"
+      },
+      "routeIds": [],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "recruitment2027": {
+        "status": "personal_statement",
+        "note": "官网明确人工智能学院2027级（2027年入学）硕士招生，无数量和实时余位核验；非博士声明"
+      },
+      "id": "csu-caoyichao"
+    },
+    {
+      "name": "丁撼",
+      "university": "中南大学",
+      "department": "机电工程学院",
+      "position": "副教授",
+      "homepage": "https://faculty.csu.edu.cn/dinghan/zh_CN/index.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "机器人关节设计"
+      ],
+      "roboticsEvidence": "智能机器人关节设计，限机械本体/驱动交叉",
+      "firstAppointment": {
+        "date": "2019-03",
+        "precision": "month",
+        "note": "工作经历2019.03起副教授；侧栏入职2019-03-08仅作辅助"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文未明确2028个人计划；项目或任期年份不作招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "个人导师身份及一般目录不替2027逐人年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/dinghan/zh_CN/index.htm",
+          "title": "丁撼 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知"
+      ],
+      "id": "csu-dinghan",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "张翼",
+      "university": "中南大学",
+      "department": "机电工程学院",
+      "position": "副教授",
+      "homepage": "https://faculty.csu.edu.cn/zhangyi12345/zh_CN/index/191452/list/index.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "移动机器人导航",
+        "假肢手控制"
+      ],
+      "roboticsEvidence": "复杂地形救援机器人环境识别与路径规划、假肢手肌电解码闭环控制",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "2020博士后出站未直接列首个本校教职，保留未知"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文未明确2028个人计划；项目或任期年份不作招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "个人导师身份及一般目录不替2027逐人年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/zhangyi12345/zh_CN/index/191452/list/index.htm",
+          "title": "张翼 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知"
+      ],
+      "id": "csu-zhangyi",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "邵文",
+      "university": "中南大学",
+      "department": "机电工程学院",
+      "position": "教授",
+      "homepage": "https://faculty.csu.edu.cn/shaowen1/zh_CN/index.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "人形机器人驱动关节"
+      ],
+      "roboticsEvidence": "人形机器人直线驱动关节设计制造，限驱动本体交叉",
+      "firstAppointment": {
+        "date": "2016-10",
+        "precision": "month",
+        "note": "2016.10本校讲师；2019副教授及2025.10教授晋升不重置"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文未明确2028个人计划；项目或任期年份不作招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "个人导师身份及一般目录不替2027逐人年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/shaowen1/zh_CN/index.htm",
+          "title": "邵文 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知",
+        "每年博士1–3、硕士3为泛年度团队招募，不证明2027/2028个人名额"
+      ],
+      "id": "csu-shaowen",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "钟国梁",
+      "university": "中南大学",
+      "department": "机电工程学院",
+      "position": "职级待核",
+      "homepage": "https://faculty.csu.edu.cn/zhongguoliang/zh_CN/index.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "连续体机器人",
+        "人机交互",
+        "协调控制"
+      ],
+      "roboticsEvidence": "连续体机器人设计与运动控制、移动机器人人机交互与自主协同",
+      "firstAppointment": {
+        "date": "2013-11",
+        "precision": "month",
+        "note": "2013.11讲师首任；2017.10副教授；当前页头讲师与简介/履历副教授冲突保留"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文未明确2028个人计划；项目或任期年份不作招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "个人导师身份及一般目录不替2027逐人年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/zhongguoliang/zh_CN/index.htm",
+          "title": "钟国梁 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知",
+        "2013.11讲师首任；2017.10副教授；当前页头讲师与简介/履历副教授冲突保留"
+      ],
+      "id": "csu-zhongguoliang",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "邓华",
+      "university": "中南大学",
+      "department": "机电工程学院",
+      "position": "教授",
+      "homepage": "https://faculty.csu.edu.cn/denghua/zh_CN/index.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "机器人定位控制",
+        "多足平衡",
+        "假肢"
+      ],
+      "roboticsEvidence": "小样品多维调控机器人定位、多足动态平衡与自主控制、智能上肢假肢",
+      "firstAppointment": {
+        "date": "2005-09",
+        "precision": "month",
+        "note": "2005.9本校教授首任；2006.12博导不当首任；原二级教授"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文未明确2028个人计划；项目或任期年份不作招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "个人导师身份及一般目录不替2027逐人年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/denghua/zh_CN/index.htm",
+          "title": "邓华 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知"
+      ],
+      "id": "csu-denghua",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "陆新江",
+      "university": "中南大学",
+      "department": "机电工程学院",
+      "position": "教授",
+      "homepage": "https://faculty.csu.edu.cn/luxinjiang/zh_CN/index.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "工业机器人",
+        "外骨骼",
+        "手术机器人"
+      ],
+      "roboticsEvidence": "铸造状态感知与机器人智能控制、下肢外骨骼研制及无人机",
+      "firstAppointment": {
+        "date": "2011-09",
+        "precision": "month",
+        "note": "2011.9本校副教授；2015.9教授为晋升"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文未明确2028个人计划；项目或任期年份不作招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "个人导师身份及一般目录不替2027逐人年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/luxinjiang/zh_CN/index.htm",
+          "title": "陆新江 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知"
+      ],
+      "id": "csu-luxinjiang",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "唐进元",
+      "university": "中南大学",
+      "department": "机电工程学院",
+      "position": "教授",
+      "homepage": "https://faculty.csu.edu.cn/tangjinyuan/zh_CN/index.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "机器人关节减速器"
+      ],
+      "roboticsEvidence": "机器人关节减速器RV、谐波、直线伺服关节高性能设计制造",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "未明确本校首次教职；2002行政任职不作首任；原二级教授"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文未明确2028个人计划；项目或任期年份不作招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "个人导师身份及一般目录不替2027逐人年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/tangjinyuan/zh_CN/index.htm",
+          "title": "唐进元 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://cmee.csu.edu.cn/yjsjy/dsjs/jqryznzbyjsbssds.htm",
+          "title": "唐进元 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知",
+        "正文2024博士招募不升2027/2028；2028协会任期不作招生"
+      ],
+      "id": "csu-tangjinyuan",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "夏毅敏",
+      "university": "中南大学",
+      "department": "机电工程学院",
+      "position": "教授",
+      "homepage": "https://faculty.csu.edu.cn/xiayimin/zh_CN/index.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "地下工程机器人",
+        "液压驱动"
+      ],
+      "roboticsEvidence": "地下工程装备特种机器人设计、液压驱动控制",
+      "firstAppointment": {
+        "date": "1994",
+        "precision": "year",
+        "note": "1994起中南工业大学教学科研明确，沿革计同校；原二级教授"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文未明确2028个人计划；项目或任期年份不作招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "个人导师身份及一般目录不替2027逐人年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/xiayimin/zh_CN/index.htm",
+          "title": "夏毅敏 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://cmee.csu.edu.cn/yjsjy/dsjs/jqryznzbyjsbssds.htm",
+          "title": "夏毅敏 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知"
+      ],
+      "id": "csu-xiayimin",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "杨妹",
+      "university": "中南大学",
+      "department": "机电工程学院",
+      "position": "讲师",
+      "homepage": "https://faculty.csu.edu.cn/yangmei1/zh_CN/index.htm",
+      "phdSupervisor": null,
+      "masterSupervisor": null,
+      "topics": [
+        "地下工程特种机器人"
+      ],
+      "roboticsEvidence": "地下工程装备特种机器人设计，限装备本体交叉",
+      "firstAppointment": {
+        "date": "2024-05",
+        "precision": "month",
+        "note": "2024.5本校讲师；2021.12–2024.5本校博士后排除"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文未明确2028个人计划；项目或任期年份不作招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "个人导师身份及一般目录不替2027逐人年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/yangmei1/zh_CN/index.htm",
+          "title": "杨妹 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知",
+        "页面2026秋硕士招募不升2027/2028；导师身份仍待核",
+        "个人页仅明确招收2026秋硕士，未明确标注硕导身份；不能以个人招募代替身份，硕导未知。"
+      ],
+      "id": "csu-yangmei",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "刘高禹",
+      "university": "中南大学",
+      "department": "机电工程学院",
+      "position": "副教授",
+      "homepage": "https://faculty.csu.edu.cn/gaoyuliu",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "机器人触觉",
+        "外骨骼",
+        "人机交互"
+      ],
+      "roboticsEvidence": "手术机器人触觉力反馈、机器人三维力感知及外骨骼机器手驱动感知一体化",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "2022–2025港中文博士后不推本校首任；正文现副教授但首任日期未明"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文未明确2028个人计划；项目或任期年份不作招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "个人导师身份及一般目录不替2027逐人年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/gaoyuliu",
+          "title": "刘高禹 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://cmee.csu.edu.cn/yjsjy/dsjs/jqryznzbyjsbssds.htm",
+          "title": "刘高禹 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知"
+      ],
+      "id": "csu-liugaoyu",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "谢卫规",
+      "university": "中南大学",
+      "department": "机电工程学院",
+      "position": "副教授",
+      "homepage": "https://faculty.csu.edu.cn/xieweigui/zh_CN/index.htm",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "手术机器人",
+        "力触觉",
+        "轨迹规划"
+      ],
+      "roboticsEvidence": "皮肤科手术机器人视觉识别、力触觉反馈与轨迹规划",
+      "firstAppointment": {
+        "date": "2025-03",
+        "precision": "month",
+        "note": "2025.3本校特聘副教授，华工博后及新加坡访问排除；现正文副教授"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文未明确2028个人计划；项目或任期年份不作招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "个人导师身份及一般目录不替2027逐人年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/xieweigui/zh_CN/index.htm",
+          "title": "谢卫规 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知"
+      ],
+      "id": "csu-xieweigui",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "李群明",
+      "university": "中南大学",
+      "department": "机电工程学院",
+      "position": "教授",
+      "homepage": "https://faculty.csu.edu.cn/liqunming/zh_CN/index.htm",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "机器人夹持",
+        "定位",
+        "控制标定"
+      ],
+      "roboticsEvidence": "重载操作机器人夹持接触动力学、中子谱仪机器人控制与假肢手",
+      "firstAppointment": {
+        "date": "2003-10",
+        "precision": "month",
+        "note": "2003.10本校教授履历明确；此前浙大博士后排除"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文未明确2028个人计划；项目或任期年份不作招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "个人导师身份及一般目录不替2027逐人年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/liqunming/zh_CN/index.htm",
+          "title": "李群明 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知"
+      ],
+      "id": "csu-liqunming",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "黄黎明",
+      "university": "中南大学",
+      "department": "机电工程学院",
+      "position": "职级待核",
+      "homepage": "https://faculty.csu.edu.cn/huangliming/zh_CN/index.htm",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "RGBD感知",
+        "RGBT感知",
+        "驾驶异常检测"
+      ],
+      "roboticsEvidence": "RGBD/RGBT显著目标检测、复杂驾驶场景异常检测",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "2025.10机电单位工作未写岗位，不推首次独立教职"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文未明确2028个人计划；项目或任期年份不作招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "个人导师身份及一般目录不替2027逐人年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/huangliming/zh_CN/index.htm",
+          "title": "黄黎明 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "研究任务或团队介绍不保证当前招生及资源；缺证保留未知"
+      ],
+      "recruitment2027": {
+        "status": "personal_statement",
+        "note": "正文称2027硕士仍有名额；未量化，页面时点而非实时余位，不是博士资格"
+      },
+      "id": "csu-huangliming",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "胡文峰",
+      "university": "中南大学",
+      "department": "自动化学院",
+      "position": "副教授",
+      "homepage": "https://faculty.csu.edu.cn/huwenfeng/zh_CN/index.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "多机器人编队",
+        "多机械臂协同",
+        "多智能体强化学习"
+      ],
+      "roboticsEvidence": "多无人机分布式控制、多机器人编队、多机械臂协同控制",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "简介称2017进入本校教学科研；工作栏2016.12讲师，跨年差异未消解，首任保留未知"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文无明确2028个人招生；项目年份不等于招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "未核2027逐人年度博士资格；个人身份/一般目录/个人招募不替代年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/huwenfeng/zh_CN/index.htm",
+          "title": "胡文峰 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "简介称2017进入本校教学科研；工作栏2016.12讲师，跨年差异未消解，首任保留未知",
+        "研究任务/项目/团队条件不保证当前招收和资源",
+        "课题组每年3–6硕士、1–2博士是泛年度计划，不升2027/2028"
+      ],
+      "id": "csu-huwenfeng",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "陈白帆",
+      "university": "中南大学",
+      "department": "人工智能学院",
+      "position": "副教授",
+      "homepage": "https://faculty.csu.edu.cn/chenbaifan/zh_CN/index.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "长期SLAM",
+        "点云去噪补全",
+        "机器人导航"
+      ],
+      "roboticsEvidence": "时变环境长期SLAM、点云去噪补全与低重叠配准、机器人协同建图导航",
+      "firstAppointment": {
+        "date": "2005-01",
+        "precision": "month",
+        "note": "工作栏2005.1起中南副教授；与2004–2009在读博士重叠，按明示教职起点保留但不能推当时已经副教授或独立PI；现学院变更不重置"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文无明确2028个人招生；项目年份不等于招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "未核2027逐人年度博士资格；个人身份/一般目录/个人招募不替代年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/chenbaifan/zh_CN/index.htm",
+          "title": "陈白帆 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://faculty.csu.edu.cn/chenbaifan/zh_CN/zdylm/73677/list/index.htm",
+          "title": "陈白帆 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "工作栏2005.1起中南副教授；与2004–2009在读博士重叠，按明示教职起点保留但不能推当时已经副教授或独立PI；现学院变更不重置",
+        "研究任务/项目/团队条件不保证当前招收和资源"
+      ],
+      "id": "csu-chenbaifan",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "陈明松",
+      "university": "中南大学",
+      "department": "轻合金研究院（个人主页现单位；历史机电工程学院）",
+      "position": "教授",
+      "homepage": "https://faculty.csu.edu.cn/chenmingsong/zh_CN/index.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "激光SLAM",
+        "机器人跟随",
+        "视觉伺服力控"
+      ],
+      "roboticsEvidence": "轮足机器人导航跟随、激光视觉SLAM、复杂曲面视觉伺服恒力打磨及阻抗控制",
+      "firstAppointment": {
+        "date": "2011-12",
+        "precision": "month",
+        "note": "2011.12本校讲师，2014副教授/2019教授晋升不重置，院系迁移不作首任"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文无明确2028个人招生；项目年份不等于招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "未核2027逐人年度博士资格；个人身份/一般目录/个人招募不替代年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/chenmingsong/zh_CN/index.htm",
+          "title": "陈明松 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "2011.12本校讲师，2014副教授/2019教授晋升不重置，院系迁移不作首任",
+        "研究任务/项目/团队条件不保证当前招收和资源"
+      ],
+      "id": "csu-chenmingsong",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "吴旺青",
+      "university": "中南大学",
+      "department": "机电工程学院",
+      "position": "教授",
+      "homepage": "https://faculty.csu.edu.cn/csuwwq/zh_CN/index.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "机器人化制造",
+        "感知工艺融合"
+      ],
+      "roboticsEvidence": "机器人与传感工艺融合实现复材金属异质连接的自主柔性制造",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "已读主页无本校首次教职履历，荣誉/学生入学年份不代替"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文无明确2028个人招生；项目年份不等于招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "未核2027逐人年度博士资格；个人身份/一般目录/个人招募不替代年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/csuwwq/zh_CN/index.htm",
+          "title": "吴旺青 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://faculty.csu.edu.cn/csuwwq/zh_CN/yjfx/13102/content/9608.htm",
+          "title": "吴旺青 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已读主页无本校首次教职履历，荣誉/学生入学年份不代替",
+        "研究任务/项目/团队条件不保证当前招收和资源",
+        "主方向材料与制造；只依据具体机器人化连接制造交叉纳入，不延伸通用机器人规划控制"
+      ],
+      "recruitment2027": {
+        "status": "personal_statement",
+        "note": "官网课题组2027拟招博士1、硕士3；团队个人声明非年度资格及实时余位"
+      },
+      "id": "csu-wuwangqing",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "裘智峰",
+      "university": "中南大学",
+      "department": "自动化学院",
+      "position": "副教授",
+      "homepage": "https://faculty.csu.edu.cn/qiuzhifeng/zh_CN/index.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "多机器人任务分配",
+        "多智能体编队"
+      ],
+      "roboticsEvidence": "动态任务多智能机器人分配、多机器人分布式任务分配形成",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "2015获聘副教授明确但未排除更早本校教研岗位，保留首次教职未知"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文无明确2028个人招生；项目年份不等于招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "未核2027逐人年度博士资格；个人身份/一般目录/个人招募不替代年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/qiuzhifeng/zh_CN/index.htm",
+          "title": "裘智峰 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "2015获聘副教授明确但未排除更早本校教研岗位，保留首次教职未知",
+        "研究任务/项目/团队条件不保证当前招收和资源",
+        "主要能源系统方向，凭具体多机器人任务分配专利/论文列交叉候选，不视为机器人主线保证"
+      ],
+      "id": "csu-qiuzhifeng",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "刘林鹏",
+      "university": "中南大学",
+      "department": "机电工程学院",
+      "position": "特聘副教授",
+      "homepage": "https://faculty.csu.edu.cn/liulinpeng/zh_CN/index.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "机器人触觉",
+        "农业机器人",
+        "多模态末端感知"
+      ],
+      "roboticsEvidence": "采摘机器人视觉力觉温度多模态末端感知，提升识别与柔顺操作",
+      "firstAppointment": {
+        "date": "2023-09",
+        "precision": "month",
+        "note": "2023.9本校特聘副教授；2021.8–2023.8本校博后排除，2024.2起香港理工博后与教职并行不称所有博后均已结束"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文无明确2028个人招生；项目年份不等于招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "未核2027逐人年度博士资格；个人身份/一般目录/个人招募不替代年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/liulinpeng/zh_CN/index.htm",
+          "title": "刘林鹏 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "2023.9本校特聘副教授；2021.8–2023.8本校博后排除，2024.2起香港理工博后与教职并行不称所有博后均已结束",
+        "研究任务/项目/团队条件不保证当前招收和资源",
+        "页头只列硕导，正文明确博导且学院博士导师目录列名；保留来源范围不等于2027资格"
+      ],
+      "id": "csu-liulinpeng",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "李恒",
+      "university": "中南大学",
+      "department": "电子信息学院",
+      "position": "教授",
+      "homepage": "https://faculty.csu.edu.cn/liheng",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "水下机器人定位",
+        "编队控制"
+      ],
+      "roboticsEvidence": "长距离电磁导引UUV定位及编队控制技术",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "侧栏2017-11-28入职及工作栏2017.11单位但未明确当时岗位，首次非博后教职未知"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文无明确2028个人招生；项目年份不等于招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "未核2027逐人年度博士资格；个人身份/一般目录/个人招募不替代年度资格"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.csu.edu.cn/liheng",
+          "title": "李恒 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "侧栏2017-11-28入职及工作栏2017.11单位但未明确当时岗位，首次非博后教职未知",
+        "研究任务/项目/团队条件不保证当前招收和资源",
+        "主要储能与故障管理交叉，凭具体UUV定位编队项目纳入，不把泛大模型措辞扩展为已证完整机器人系统"
+      ],
+      "id": "csu-liheng",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    }
+  ],
+  "coverage": "计算机、人工智能、机电、自动化、电子信息与地信等学院定向筛查，非全校穷尽。",
+  "limitations": [
+    "全体2027逐人年度博士资格未核。",
+    "新增32位2028个人接收均未知。",
+    "曹毅超/黄黎明2027硕士与吴旺青2027团队计划保留，不升级年度资格或2028。",
+    "首任不从晋升、博士毕业、人才或项目年份推断。"
+  ]
+}
