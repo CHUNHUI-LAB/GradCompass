@@ -1,6 +1,6 @@
-import {buildOpportunities,escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,routeEvidenceText,textValue,themesFor} from './core.js?v=98f50f111d11';
-import {profileSummary} from './profiles.js?v=0565be542977';
-import {supervisorAssociationText} from './record-summaries.js?v=a65be5605762';
+import {buildOpportunities,escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,routeEvidenceText,textValue,themesFor} from './core.js?v=693e462c58fd';
+import {profileSummary} from './profiles.js?v=ccb10d62604b';
+import {supervisorAssociationText} from './record-summaries.js?v=9ba05411e50a';
 
 const e=value=>escapeHTML(readerText(value));
 const list=value=>Array.isArray(value)?value:[];

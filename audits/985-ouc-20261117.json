@@ -1,0 +1,756 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-11-17",
+  "baseCommit": "8b1b690084cd53ff703a4156b6c73b49d74d3563",
+  "school": "中国海洋大学",
+  "notExhaustive": true,
+  "addedCount": 17,
+  "doctoralReferenceCount": 7,
+  "doctoralUnknownCount": 10,
+  "recentAppointmentCount": 5,
+  "recentAppointmentIds": [
+    "ouc-xiaxiuze",
+    "ouc-raoyuan",
+    "ouc-guojia",
+    "ouc-jiazhen",
+    "ouc-chenghaoyuan"
+  ],
+  "entries": [
+    {
+      "name": "董军宇",
+      "university": "中国海洋大学",
+      "department": "计算机科学与技术学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "水下三维重建",
+        "潜航器移动三维成像",
+        "视觉惯性里程计"
+      ],
+      "roboticsEvidence": "研制潜航器搭载高分辨三维成像仪；列单目视觉惯导里程计论文。",
+      "firstAppointment": {
+        "date": "2004-01",
+        "precision": "month",
+        "note": "工作履历明确2004-01教授/博导；不是以博士毕业或晋升推断"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028计划，不代表无名额；泛年度招募不升级为2028。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未取得逐人2027年度博士招生资格名单；个人博导身份另列。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://it.ouc.edu.cn/djy/",
+          "title": "董军宇 · 中国海洋大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "ouc-dongjunyu"
+    },
+    {
+      "name": "夏修泽",
+      "university": "中国海洋大学",
+      "department": "计算机科学与技术学院",
+      "position": "讲师",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "水下具身操作",
+        "触力觉机械臂操作",
+        "外骨骼个性化助力"
+      ],
+      "roboticsEvidence": "明确水下操作机器人、触力觉操作与外骨骼助力具体硕士研究任务。",
+      "firstAppointment": {
+        "date": "2025-09-01",
+        "precision": "day",
+        "note": "入职字段2025.09.01，履历2025.09讲师；此前博士非任职"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028计划，不代表无名额；泛年度招募不升级为2028。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未取得逐人2027年度博士招生资格名单；个人博导身份另列。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://it.ouc.edu.cn/xxz/list.htm",
+          "title": "夏修泽 · 中国海洋大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "ouc-xiaxiuze"
+    },
+    {
+      "name": "范浩",
+      "university": "中国海洋大学",
+      "department": "计算机科学与技术学院",
+      "position": "副教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "视觉SLAM与VIO",
+        "水下折射三维重建",
+        "机器人主动扫测"
+      ],
+      "roboticsEvidence": "正文明确机器人路径规划/主动SLAM/点云分析及折射成像。",
+      "firstAppointment": {
+        "date": "2019-07-05",
+        "precision": "day",
+        "note": "入职字段20190705且2019.07讲师履历；2024副教授为晋升；存在博士后基金但不抹去明确讲师任职"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028计划，不代表无名额；泛年度招募不升级为2028。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未取得逐人2027年度博士招生资格名单；个人博导身份另列。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://it.ouc.edu.cn/fh/main.htm",
+          "title": "范浩 · 中国海洋大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "ouc-fanhao"
+    },
+    {
+      "name": "饶源",
+      "university": "中国海洋大学",
+      "department": "计算机科学与技术学院",
+      "position": "讲师",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "水下视觉SLAM",
+        "多传感器融合定位",
+        "水下三维重建"
+      ],
+      "roboticsEvidence": "正文任务明确；列DFSVO水下定位建图与SeaDiff退化感知增强论文。",
+      "firstAppointment": {
+        "date": "2024-07",
+        "precision": "month",
+        "note": "履历明确2024.07起讲师；存在博士后资助项目但不能据此替代已写明讲师任职，和港大RA短期重叠保留"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028计划，不代表无名额；泛年度招募不升级为2028。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未取得逐人2027年度博士招生资格名单；个人博导身份另列。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://it.ouc.edu.cn/ry/",
+          "title": "饶源 · 中国海洋大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "ouc-raoyuan"
+    },
+    {
+      "name": "俞智斌",
+      "university": "中国海洋大学",
+      "department": "电子工程学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "水下视觉SLAM",
+        "低照度增强",
+        "水下深度估计"
+      ],
+      "roboticsEvidence": "列ULL-SLAM、面向鲁棒水下单目SLAM的GAN增强以及水下单目深度论文；每年硕士3–6博士1是泛年度计划非2028。",
+      "firstAppointment": {
+        "date": "2016-04",
+        "precision": "month",
+        "note": "2016.04讲师，2020副教授是晋升；博士后基金不改变明确讲师履历"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028计划，不代表无名额；泛年度招募不升级为2028。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未取得逐人2027年度博士招生资格名单；个人博导身份另列。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://it.ouc.edu.cn/yzb/list.htm",
+          "title": "俞智斌 · 中国海洋大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "ouc-yuzhibin"
+    },
+    {
+      "name": "郭佳",
+      "university": "中国海洋大学",
+      "department": "电子工程学院",
+      "position": "副教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "自主水下机器人导航",
+        "机器人控制"
+      ],
+      "roboticsEvidence": "正式个人研究方向明确水下机器人智能导航与控制系统。",
+      "firstAppointment": {
+        "date": "2024-02",
+        "precision": "month",
+        "note": "官方2024.02加入，2020.12–2024.02南洋理工博后排除"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028计划，不代表无名额；泛年度招募不升级为2028。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未取得逐人2027年度博士招生资格名单；个人博导身份另列。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://it.ouc.edu.cn/gj1/list.htm",
+          "title": "郭佳 · 中国海洋大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "ouc-guojia"
+    },
+    {
+      "name": "何波",
+      "university": "中国海洋大学",
+      "department": "电子工程学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "AUV SLAM",
+        "AUV协同控制",
+        "水下自主导航"
+      ],
+      "roboticsEvidence": "列AUV SLAM实验、INS/GPS/DVL/PS融合定位与海上风电运维机器人；毕业生薪资不是学生资助。",
+      "firstAppointment": {
+        "date": "2004-02",
+        "precision": "month",
+        "note": "官网入职海大2004-2；此前南洋理工2000博后/2002research fellow为外校"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028计划，不代表无名额；泛年度招募不升级为2028。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未取得逐人2027年度博士招生资格名单；个人博导身份另列。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://it.ouc.edu.cn/hb_23691/",
+          "title": "何波 · 中国海洋大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "ouc-hebo"
+    },
+    {
+      "name": "宋大雷",
+      "university": "中国海洋大学",
+      "department": "工程学院自动化及测控系",
+      "position": "教授三级",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "水下清洗机器人",
+        "ROV管线巡检控制",
+        "水面水下平台协同"
+      ],
+      "roboticsEvidence": "主持船舶水下清洗机器人、水面无人艇与模块水下机器人联动，ROV管道巡检控制。",
+      "firstAppointment": {
+        "date": "2006-08",
+        "precision": "month",
+        "note": "2006.08副教授/硕导，2012教授及2024三亚任职非首任"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028计划，不代表无名额；泛年度招募不升级为2028。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未取得逐人2027年度博士招生资格名单；个人博导身份另列。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://coe.ouc.edu.cn/2017/0504/c9094a63866/page.psp",
+          "title": "宋大雷 · 中国海洋大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "ouc-songdalei"
+    },
+    {
+      "name": "姚鹏",
+      "university": "中国海洋大学",
+      "department": "工程学院自动化及测控系",
+      "position": "副教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "无人系统路径规划避障",
+        "多机协同目标搜索",
+        "水下视觉定位"
+      ],
+      "roboticsEvidence": "无人船/AUV/无人机路径规划、围捕跟踪、视觉避障，有具体论文和专利。",
+      "firstAppointment": {
+        "date": "2017-07",
+        "precision": "month",
+        "note": "正文同时列2017.7讲师和2017.7–2019.11博士后，明确讲师起点保留；2021副教授非首任"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028计划，不代表无名额；泛年度招募不升级为2028。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未取得逐人2027年度博士招生资格名单；个人博导身份另列。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://coe.ouc.edu.cn/2018/0326/c9094a182232/page.psp",
+          "title": "姚鹏 · 中国海洋大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "ouc-yaopeng"
+    },
+    {
+      "name": "张磊",
+      "university": "中国海洋大学",
+      "department": "工程学院自动化及测控系",
+      "position": "副教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "多足仿生机器人",
+        "水陆两栖机器人",
+        "移动机器人控制"
+      ],
+      "roboticsEvidence": "明确智能机器人控制、多足/两栖移动机器人，列足式低能耗姿态分析专利。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "已读页无首任履历，不能用2006博士毕业或2023页面发布时间"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028计划，不代表无名额；泛年度招募不升级为2028。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未取得逐人2027年度博士招生资格名单；个人博导身份另列。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://coe.ouc.edu.cn/2023/0928/c9094a443639/page.htm",
+          "title": "张磊 · 中国海洋大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "ouc-zhanglei"
+    },
+    {
+      "name": "李光亮",
+      "university": "中国海洋大学",
+      "department": "计算机科学与技术学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "机器人强化学习",
+        "自主导航",
+        "人机交互"
+      ],
+      "roboticsEvidence": "论文Robust Robot Navigation through Failure-Aversion Learning及移动机器人sim-to-real路径规划。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "页头2016入职但未给本校岗位履历且含博士后基金，首个非博后教研身份起点须另核"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028计划，不代表无名额；泛年度招募不升级为2028。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未取得逐人2027年度博士招生资格名单；个人博导身份另列。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://it.ouc.edu.cn/lgl/list.htm",
+          "title": "李光亮 · 中国海洋大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "ouc-liguangliang"
+    },
+    {
+      "name": "解则晓",
+      "university": "中国海洋大学",
+      "department": "工程学院自动化及测控系",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "机器人视觉引导作业",
+        "水下结构光定位",
+        "三维重建点云配准"
+      ],
+      "roboticsEvidence": "主持水下运载器-机械手自主作业多结构光视觉定位项目，列6-DOF机器人标定与点云配准论文。",
+      "firstAppointment": {
+        "date": "2002-05",
+        "precision": "month",
+        "note": "2002.5本校副教授/硕导，2000.2–2002.5天津大学博士后排除；2008教授、2010博导非首任"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028计划，不代表无名额；泛年度招募不升级为2028。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未取得逐人2027年度博士招生资格名单；个人博导身份另列。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://coe.ouc.edu.cn/2017/0504/c9094a63878/page.htm",
+          "title": "解则晓 · 中国海洋大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "ouc-xiezexiao"
+    },
+    {
+      "name": "刘贵杰",
+      "university": "中国海洋大学",
+      "department": "工程学院机电工程系",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "水下机器人感知导航",
+        "AUV组合导航",
+        "水下机械臂"
+      ],
+      "roboticsEvidence": "具体主持人工侧线感知导航、水下多场景作业平台/激光三维成像、参与机械臂研制；项目日期存在2019–2010等原文笔误，不复用。",
+      "firstAppointment": {
+        "date": "2004-03",
+        "precision": "month",
+        "note": "2004.03本校副教授，2005教授与2016副院长非首任"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028计划，不代表无名额；泛年度招募不升级为2028。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未取得逐人2027年度博士招生资格名单；个人博导身份另列。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://coe.ouc.edu.cn/2017/0504/c9092a63889/page.psp",
+          "title": "刘贵杰 · 中国海洋大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://www.ouc.edu.cn/2024/0626/c31349a478961/page.htm",
+          "title": "刘贵杰 · 中国海洋大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "ouc-liuguijie"
+    },
+    {
+      "name": "贾真",
+      "university": "中国海洋大学",
+      "department": "计算机科学与技术学院",
+      "position": "副教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "无人机海洋目标感知",
+        "主动视觉",
+        "低空无人机三维感知"
+      ],
+      "roboticsEvidence": "主持2027–2030无人机海洋开放域目标感知面上项目，参与2025–2028低空巡检无人机3D感知项目；项目年份不是招生年份。",
+      "firstAppointment": {
+        "date": "2025-06",
+        "precision": "month",
+        "note": "入职字段2025.06，2020–2025中科院自动化所助理研究员/三元博士后非本校任职"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028计划，不代表无名额；泛年度招募不升级为2028。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未取得逐人2027年度博士招生资格名单；个人博导身份另列。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://it.ouc.edu.cn/jz/list.htm",
+          "title": "贾真 · 中国海洋大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "personalRecruitment2027": {
+        "status": "explicit_personal_statement",
+        "degreeTypes": [
+          "Masters_unspecified",
+          "PhD"
+        ],
+        "note": "官方页称目前有2027入学硕士、博士招生名额，未给数量/季节。页头仅硕导，保留个人博士接收声明但独立博导身份仍未知，不推2028，不作年度资格。"
+      },
+      "id": "ouc-jiazhen"
+    },
+    {
+      "name": "张述",
+      "university": "中国海洋大学",
+      "department": "计算机科学与技术学院",
+      "position": "副教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "水下三维感知",
+        "ROV设计与交互控制",
+        "机器人手势控制"
+      ],
+      "roboticsEvidence": "带领开展多模态感知ROV平台设计与搭建；列Skeleton Guided Conflict-Free Hand Gesture Recognition for Robot Control论文。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "页头及简介2018任职，但未列该时岗位，含2019–2021博士后项目，首个非博后教研时间暂未知"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028计划，不代表无名额；泛年度招募不升级为2028。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "尚未取得逐人2027年度博士招生资格名单；个人博导身份另列。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://it.ouc.edu.cn/zs/",
+          "title": "张述 · 中国海洋大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "ouc-zhangshu"
+    },
+    {
+      "name": "成昊远",
+      "university": "中国海洋大学",
+      "department": "工程学院机电工程系",
+      "position": "讲师",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "水下偏振导航",
+        "AUV返航对接位姿估计",
+        "浑浊水下目标运动估计"
+      ],
+      "roboticsEvidence": "正文列偏振光引导AUV返航对接实时位姿估计、Snell窗口仿生水下导航与浑浊水下目标运动估计；有具体水下机器人设计专利。",
+      "firstAppointment": {
+        "date": "2023-03",
+        "precision": "month",
+        "note": "官方工作履历明确该月起本校讲师与师资博士后并列；据明确教职记录，不以单独博士后或项目起点推任职。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读官网未见明确2028个人招生计划，不代表无名额。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未核到逐人2027年度博士资格，个人页仅硕导。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://coe.ouc.edu.cn/2023/0505/c9092a431604/page.htm",
+          "title": "成昊远 · 中国海洋大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "ouc-chenghaoyuan"
+    },
+    {
+      "name": "贺同福",
+      "university": "中国海洋大学",
+      "department": "工程学院自动化及测控系",
+      "position": "讲师",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "水下机器人运动抗干扰控制",
+        "水下作业运载器控制",
+        "水下爬壁吸附机器人"
+      ],
+      "roboticsEvidence": "主持水下机器人精准运动控制、作业运载器多频扰动补偿项目；论文列同步驱动水下爬壁吸附机器人。",
+      "firstAppointment": {
+        "date": "2021-07",
+        "precision": "month",
+        "note": "官方工作履历明确该月起本校讲师与博士后并列；据明确教职记录，不以单独博士后或项目起点推任职。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "未见明确2028个人计划，泛研究生欢迎不等于当届接收。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未核到逐人2027年度博士资格，个人页仅硕导。"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://coe.ouc.edu.cn/2022/0420/c9094a368214/page.htm",
+          "title": "贺同福 · 中国海洋大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "ouc-hetongfu"
+    }
+  ],
+  "coverage": "信息学部与工程学院机器人、导航、视觉和控制定向筛查；非全校穷尽。",
+  "limitations": [
+    "全体2027逐人年度博士资格未核。",
+    "未见明确2028个人计划；泛年度及项目年份不替代个人接收。",
+    "贾真2027个人硕博招募另记，但仅明确硕导，不升独立博导。",
+    "首任不从晋升、博士毕业、人才或项目年份推断。"
+  ]
+}
