@@ -117,6 +117,7 @@ files.extend(['audits/985-ecnu-20261117.json','audits/985-ecnu-20261117.md','tes
 files.extend(['audits/985-xmu-20261117.json','audits/985-xmu-20261117.md','tests/fixtures/evidence/985-xmu-20261117.json','tests/xmu-expansion-20261117.test.mjs'])
 files.extend(['audits/ecnu-direction-labels-20261117.md','tests/fixtures/evidence/ecnu-direction-labels-20261117.json','tests/ecnu-direction-labels-20261117.test.mjs'])
 files.extend(['audits/985-sdu-20261117.json', 'audits/985-sdu-20261117.md', 'tests/fixtures/evidence/985-sdu-20261117.json', 'tests/sdu-expansion-20261117.test.mjs'])
+files.extend(['tests/tenured-professor-rank-20261117.test.mjs'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):

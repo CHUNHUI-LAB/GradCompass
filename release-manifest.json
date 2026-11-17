@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 97894,
-      "sha256": "44d97aaba08360f0def96a6984b98ef5e482c4a4bb685fa1e519b28b96ec8414"
+      "bytes": 98385,
+      "sha256": "63706fcdd3500471cc2332e96c3fbc26e5207def1efcccb64dcdd8d733d11c0e"
     },
     {
       "path": "REDESIGN.md",
@@ -58,17 +58,17 @@
     {
       "path": "assets/advisor-cards.js",
       "bytes": 7766,
-      "sha256": "b971efc890d8e34e093a1319516366e817493bc6694fb041ec8519f6044a17da"
+      "sha256": "82939b8e45c7bbc6842f5e3cda0832ab51f981a9b924b2b1dac271bbf8bebd1f"
     },
     {
       "path": "assets/advisor-priorities.js",
       "bytes": 3523,
-      "sha256": "8101e6cfe4e8c439887332b370e356b420a309c7db56db4116ead424a557b4ca"
+      "sha256": "ae82b94bbd752e0ea7df283d270974b627f1c1c6ab2cefec888a04e8013b6e78"
     },
     {
       "path": "assets/app.js",
       "bytes": 78139,
-      "sha256": "7e4492d0cf49b457aeadf3b8cf5b43f9bdef38c62d0773668e32b04b4327bf42"
+      "sha256": "75f2bfde50da120885b631eb75d9160f24a9dcd30b86f69533f1280a6006cb65"
     },
     {
       "path": "assets/appointments.js",
@@ -82,18 +82,18 @@
     },
     {
       "path": "assets/core.js",
-      "bytes": 36254,
-      "sha256": "da60d84ccaee16ba49b91781583bc5d5b057efbad048508fe9d5421e6bd847c9"
+      "bytes": 36267,
+      "sha256": "98f50f111d11bc6aee5bffe68efefc4eb6304628eaa3d23b6249c6cbc86064aa"
     },
     {
       "path": "assets/editorial-views.js",
       "bytes": 16499,
-      "sha256": "121d7879d83b83d8ae09590dfd30a559c19324dc1a841d046d21672446600bae"
+      "sha256": "582a190f6ed1214109613cb9ac6af065f2e972ec745df132694e9fe3b30d9f81"
     },
     {
       "path": "assets/experiences.js",
       "bytes": 23160,
-      "sha256": "1296af39b768af9d918e50a4d39aed79f9cac84e0409d99980832558e3d0a80e"
+      "sha256": "1fc38f61ca8c3259d16290a2befc4498b11fcb8f2935d44c01a013da55193b35"
     },
     {
       "path": "assets/favicon.svg",
@@ -103,27 +103,27 @@
     {
       "path": "assets/material-supplement.js",
       "bytes": 1866,
-      "sha256": "5b1bd28ea5256f66b28db97ff7ccd7dd3d9b90bc26324ee48a9006b2537391fc"
+      "sha256": "e0a27db6a6bb8ad93689de18f660735ecb4515a494e007af07e543b3b22dab2f"
     },
     {
       "path": "assets/opportunity-comparison.js",
       "bytes": 12397,
-      "sha256": "a561dd88c4943a05ecb0ae2e2db93b63d6211bf7cd7944548f4bddcc6a70f851"
+      "sha256": "e7af67afb2537f49387314262afccb5ef8074e924682c55979bdf004b4a3e601"
     },
     {
       "path": "assets/page-overviews.js",
       "bytes": 15697,
-      "sha256": "9ba373b8231e6efb90dccfe1c79a85f9c022e19e00227019e3ba1a8aba1cf240"
+      "sha256": "b37c0b1c0ff857abd6f568537d5ffa9c62e82c0b475473381f316d71b2968570"
     },
     {
       "path": "assets/profiles.js",
       "bytes": 5875,
-      "sha256": "37fc5a1cbf81f4f6462cff5e97f2e094864b6afdf35d9a17378eac63326d5c76"
+      "sha256": "0565be542977937077e9c3d4b5e62d5ff9f12a6c2c9e6dea851cdb286edc2913"
     },
     {
       "path": "assets/project-comparison.js",
       "bytes": 13356,
-      "sha256": "8d9eff2c667ad553bf183846747b2b3cbc25f299b5c7f818ed59f0833c610504"
+      "sha256": "6280800ab7ae64dd0973c1629dcb52fce160ca197a89584e82c0e8d91110645f"
     },
     {
       "path": "assets/reader.js",
@@ -133,7 +133,7 @@
     {
       "path": "assets/record-summaries.js",
       "bytes": 14127,
-      "sha256": "e9432c3f73f4945227f4cf1a7e9c29e64285b32c1b269bb8460ce512ab02d55f"
+      "sha256": "a65be5605762fb7af5dfb9e3f076269beaae565b50044a721c9c29551f162fe3"
     },
     {
       "path": "assets/recruitment-priorities.js",
@@ -618,7 +618,7 @@
     {
       "path": "index.html",
       "bytes": 12514,
-      "sha256": "0c56f3b7101b6ecc070eb2ca64a4ad14b61949f8aeda6102e5f0b542d76226c6"
+      "sha256": "38dd48a3e4a23fc9a5bebda2d50d5875694c6cbad9f321478557c49144eb54bc"
     },
     {
       "path": "package-lock.json",
@@ -637,8 +637,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 19872,
-      "sha256": "f0991ab16414df00daa908d1a7c6dd7de01facc01ffc8643b57bd69f4dd3d860"
+      "bytes": 19937,
+      "sha256": "de46d3b609b49c731e9a08f536a551f7b2d63ef9579642751d30001095ced654"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -1749,6 +1749,11 @@
       "path": "tests/sustech-review.test.mjs",
       "bytes": 2899,
       "sha256": "48315a1d849c39bd68be5b59acd25baf9bbdb2e007f5a53ec21aaa8f022d5a89"
+    },
+    {
+      "path": "tests/tenured-professor-rank-20261117.test.mjs",
+      "bytes": 3369,
+      "sha256": "aab841b40aed844360867d9944c29bbdc5917a3fb8349acda81cc2efb80d6f87"
     },
     {
       "path": "tests/tju-expansion-20261116.test.mjs",

@@ -26,7 +26,7 @@ export function rankOf(advisor){
  if(/^(?:Associate Professor|副教授)$/i.test(primary))return 'associate';
  // This named professorship is explicitly present in the reviewed catalog.
  // Do not generalize arbitrary Chair/Director/PI titles into professor rank.
- if(/^(?:Professor|Tenured Professor|Choh-Ming Li Professor|教授)$/i.test(primary))return 'professor';
+ if(/^(?:Professor|Tenured Professor|Choh-Ming Li Professor|教授|长聘教授)$/i.test(primary))return 'professor';
  return 'other';
 }
 export function rankMatches(advisor,filters={}){return !filters.rank||rankOf(advisor)===filters.rank;}
