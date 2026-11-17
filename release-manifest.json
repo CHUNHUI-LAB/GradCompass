@@ -8,13 +8,13 @@
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
   "browserVisualQA": "Not yet browser-verified.",
-  "profilePilotCount": 1208,
-  "visibleAdvisorCount": 1208,
+  "profilePilotCount": 1209,
+  "visibleAdvisorCount": 1209,
   "opportunityCount": 59,
   "raPositionCount": 2,
   "newAdvisorProfiles": 26,
   "preservedAdvisorProfiles": 30,
-  "newProfileCitedSourceCount": 1611,
+  "newProfileCitedSourceCount": 1613,
   "experienceRecords": 27,
   "defaultExperienceRecords": 27,
   "experienceSourceSites": 20,
@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 96076,
-      "sha256": "d4f7ceeba64089d15d1defc6c6c28825519d54071536dde12dc45d9c7cfbc37c"
+      "bytes": 96403,
+      "sha256": "596c9b82eb550d3fa13af2ffdcf6e6a7dde223b1a9a7b1ffd07fb7633fa3b26c"
     },
     {
       "path": "REDESIGN.md",
@@ -68,7 +68,7 @@
     {
       "path": "assets/app.js",
       "bytes": 78139,
-      "sha256": "798e055342fe088bc2ba45e76b28fd8e16bd781e697b761e27594d7194be81a6"
+      "sha256": "fab260f91de3b68513c780c159e6876fe7a9bd3285a6701c7926046a85c37feb"
     },
     {
       "path": "assets/appointments.js",
@@ -441,9 +441,19 @@
       "sha256": "8d9793fa1836567ee41b3e054f94df5fba8e7df8e7ef601f26d46773fe347483"
     },
     {
+      "path": "audits/tongji-tianye-20261117.json",
+      "bytes": 2320,
+      "sha256": "cc4c38b70c9045378b5b8f801f49d8dd1c88ce00d86f1e048196457e2f8fac18"
+    },
+    {
+      "path": "audits/tongji-tianye-20261117.md",
+      "bytes": 464,
+      "sha256": "0e6299db67da9fbe729a06a9b05492f3cd47ebfb2c774994a2a2228575f0e74f"
+    },
+    {
       "path": "data/advisor-profiles.json",
-      "bytes": 9514644,
-      "sha256": "e8923a782aa59fe1132fb179fedd81d36bb5e267a52f86826f8a3c19ecf0d389"
+      "bytes": 9522241,
+      "sha256": "975851e142f95da6a42c30a5797da6205788062ec0bdc95dae909140106e4348"
     },
     {
       "path": "data/application-experience-provenance.json",
@@ -462,8 +472,8 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 9242951,
-      "sha256": "45c1e5e46c346998ca076fd3f6b7737c24c7c83cf10710bf843da9eeec0753fc"
+      "bytes": 9249491,
+      "sha256": "3ad50cda64e3a1cade44b1d67430a7c35e10d2748c661c362b6036e52f5cce0d"
     },
     {
       "path": "data/four-schools-exploration-20261006.json",
@@ -573,7 +583,7 @@
     {
       "path": "index.html",
       "bytes": 12514,
-      "sha256": "40113e732a59fa5e9ca7d9496797d083bcd0a555695e0e86e2eba9e2aca00952"
+      "sha256": "c7a154fd71bbfa7f3afd2c385b41f8dec2234eed8a71f483096b0f51e8507a97"
     },
     {
       "path": "package-lock.json",
@@ -592,8 +602,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 19022,
-      "sha256": "5dff1beead85cfbd6c936d168b7650c79c06244c96d0e0640a6b2b8bd8470405"
+      "bytes": 19204,
+      "sha256": "cece9d7fdde685636ac05fc0ea82eb5ca74d545279e9db9eb45d9d4fb079a5c9"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -807,8 +817,8 @@
     },
     {
       "path": "tests/evidence-reviews.mjs",
-      "bytes": 4354,
-      "sha256": "fd02882aba3d9e8a8ebb2a410bd3668006cd533814e67924e590e702927579ec"
+      "bytes": 4497,
+      "sha256": "56e469159c81b809e0fbe931d978322e71c0235ec12219b83f6b46185ade9e30"
     },
     {
       "path": "tests/existing-doctoral-links-20261019.test.mjs",
@@ -1024,6 +1034,11 @@
       "path": "tests/fixtures/evidence/tongji-rescreen-20261019.json",
       "bytes": 819947,
       "sha256": "3eab9d9769a84e0ad93619fe903c4978fa94547acc2029ef6703e8fa66995cab"
+    },
+    {
+      "path": "tests/fixtures/evidence/tongji-tianye-20261117.json",
+      "bytes": 16046,
+      "sha256": "e3d5254feebdb8e57870821365832f092913fc401d9489eadd6887db1320ec3f"
     },
     {
       "path": "tests/fixtures/history/detail-return-focus-20261007.json",
@@ -1676,6 +1691,11 @@
       "sha256": "0c5ee79e69dadc2d1c260669995308428c1997ab3c05c738f5856b8c0783f527"
     },
     {
+      "path": "tests/tongji-tianye-20261117.test.mjs",
+      "bytes": 2860,
+      "sha256": "66076b44cc9c333a14b17011ce7749fcad8720918aafa97e899d41eb4620acae"
+    },
+    {
       "path": "tests/tsinghua-review.test.mjs",
       "bytes": 3274,
       "sha256": "9463b1e31cddebf151cd54d44236206633ba7412d1e59e206459d42af0dcb9f0"
@@ -1729,7 +1749,7 @@
     "baseCommit": "1281ce4740272443563b4a98f421561bacc801f9",
     "scope": "Two inaccurate MSc overview text fragments only; no structure, style or interaction changes"
   },
-  "advisorCatalogCount": 1208,
+  "advisorCatalogCount": 1209,
   "verifiedDegreeAssociationCount": 57,
   "projectCatalogCount": 106,
   "visibleProjectCount": 106,

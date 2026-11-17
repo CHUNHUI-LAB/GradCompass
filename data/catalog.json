@@ -179981,6 +179981,128 @@
       ],
       "checkedDate": "2026-11-17",
       "sourceFile": "audits/985-hit-20261117.json"
+    },
+    {
+      "id": "tongji-tianye",
+      "name": "田野",
+      "nameZh": "田野",
+      "institution": "Tongji",
+      "department": "交通学院",
+      "position": "长聘教授 / 博士生导师",
+      "topics": [
+        "自动驾驶仿真测试",
+        "测试场景生成与风险评估",
+        "自动驾驶决策规划测评",
+        "大规模交通仿真与优化"
+      ],
+      "summary": "从事自动驾驶安全监管、场景生成、风险测试和决策规划测评；并研究交通系统仿真优化。",
+      "profileUrl": "https://tops.tongji.edu.cn/info/1031/1185.htm",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "defaultVisible": true,
+      "opening": "explicit",
+      "openingSummary": "两官网均明确招收2028秋季博士，但计划数不一致：TOPS写2名，学院写2–3名；硕士计划均2–3名。TOPS标2027推免，学院标2027夏令营；已获/将获硕士者申请考核是否由本人接收仍待核，公开计划不等于当前余位。",
+      "openings": {
+        "phd": "两官网均明确招收2028秋季博士，但计划数不一致：TOPS写2名，学院写2–3名；硕士计划均2–3名。TOPS标2027推免，学院标2027夏令营；已获/将获硕士者申请考核是否由本人接收仍待核，公开计划不等于当前余位。",
+        "msc": "官网计划2028秋硕士2–3名；具体通道与本人当前接收待核",
+        "cycle2028": "两官网均明确招收2028秋季博士，但计划数不一致：TOPS写2名，学院写2–3名；硕士计划均2–3名。TOPS标2027推免，学院标2027夏令营；已获/将获硕士者申请考核是否由本人接收仍待核，公开计划不等于当前余位。",
+        "mphil": "未核实",
+        "ra": "未核实",
+        "cycle2027": "2027推免/夏令营为两官网各自路径文字，不等同2027入学计划或当前开放申请。"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "explicit",
+          "summary": "两官网均明确招收2028秋季博士，但计划数不一致：TOPS写2名，学院写2–3名；硕士计划均2–3名。TOPS标2027推免，学院标2027夏令营；已获/将获硕士者申请考核是否由本人接收仍待核，公开计划不等于当前余位。",
+          "cycle2028IntakeVerified": true,
+          "cycle2028FallVerified": true,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "individualRecruitmentVerified": true,
+          "sourceStatus": "individual_profile",
+          "projectCycleVerified": false,
+          "sources": [
+            {
+              "url": "https://tops.tongji.edu.cn/info/1031/1185.htm",
+              "title": "同济大学TOPS课题组：田野",
+              "checkedDate": "2026-11-17",
+              "section": "个人简介、招生信息、工作经历、研究任务",
+              "readScope": "核读官网正文，非摘要；未精读论文全文",
+              "access": "official_body"
+            },
+            {
+              "url": "https://tjjt.tongji.edu.cn/info/2901/9432.htm",
+              "title": "同济大学交通学院：田野",
+              "checkedDate": "2026-11-17",
+              "section": "个人简介、招生信息、工作经历、研究任务",
+              "readScope": "核读官网正文，非摘要；未精读论文全文",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17"
+        }
+      ],
+      "fall2028OpeningVerified": true,
+      "intake2028OpeningVerified": true,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "首次同济非博士后岗位在2018年；月度冲突另记，不以2024/2025长聘教授晋升当新进",
+        "sources": [
+          {
+            "url": "https://tops.tongji.edu.cn/info/1031/1185.htm",
+            "title": "同济大学TOPS课题组：田野",
+            "checkedDate": "2026-11-17",
+            "section": "个人简介、招生信息、工作经历、研究任务",
+            "readScope": "核读官网正文，非摘要；未精读论文全文",
+            "access": "official_body"
+          },
+          {
+            "url": "https://tjjt.tongji.edu.cn/info/2901/9432.htm",
+            "title": "同济大学交通学院：田野",
+            "checkedDate": "2026-11-17",
+            "section": "个人简介、招生信息、工作经历、研究任务",
+            "readScope": "核读官网正文，非摘要；未精读论文全文",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "sources": [
+        {
+          "url": "https://tops.tongji.edu.cn/info/1031/1185.htm",
+          "title": "同济大学TOPS课题组：田野",
+          "checkedDate": "2026-11-17",
+          "section": "个人简介、招生信息、工作经历、研究任务",
+          "readScope": "核读官网正文，非摘要；未精读论文全文",
+          "access": "official_body"
+        },
+        {
+          "url": "https://tjjt.tongji.edu.cn/info/2901/9432.htm",
+          "title": "同济大学交通学院：田野",
+          "checkedDate": "2026-11-17",
+          "section": "个人简介、招生信息、工作经历、研究任务",
+          "readScope": "核读官网正文，非摘要；未精读论文全文",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "两官网均明确招收2028秋季博士，但计划数不一致：TOPS写2名，学院写2–3名；硕士计划均2–3名。TOPS标2027推免，学院标2027夏令营；已获/将获硕士者申请考核是否由本人接收仍待核，公开计划不等于当前余位。",
+        "交通学院专属正式博士通道及2028年度资格未核，不复用计算机、机械、控制等院系通道。"
+      ],
+      "checkedDate": "2026-11-17",
+      "eligibilityMeaning": "个人2028秋博士招募声明已核；申请者资格、交通学院正式通道、本人接受申请考核及余位仍待核。",
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "首次本校非博士后教研任职在简介按2018共同年份记录，月份冲突待核。"
+      },
+      "sourceFile": "audits/tongji-tianye-20261117.json"
     }
   ],
   "routes": [
