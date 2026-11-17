@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 100625,
-      "sha256": "2f896597770b35ca6b9a2a27bf8a7caae6d2c75249b61c2b45f5b686ed41a4f8"
+      "bytes": 100937,
+      "sha256": "7577398f6a7976c5f11e76b8c4c9f49e4df96f996121c93aeb99a588976e963f"
     },
     {
       "path": "REDESIGN.md",
@@ -68,7 +68,7 @@
     {
       "path": "assets/app.js",
       "bytes": 78185,
-      "sha256": "f1d4f21082cdfeae7bb587cef0cc631c896aa272b6a0d2011b78bf7f82307f81"
+      "sha256": "aac7aa5d778a758aaed7768dfcf18344fa23b38b7cb661066532ff21cd397a26"
     },
     {
       "path": "assets/appointments.js",
@@ -688,7 +688,7 @@
     {
       "path": "index.html",
       "bytes": 12514,
-      "sha256": "f90f6f7d6b1dda266979f3d883f81a8583888d84d4186a104912bf326b5444cc"
+      "sha256": "8436aebb6cf188454b01569201863c2dc7988446d0ad7012065ed0b58e509f7b"
     },
     {
       "path": "package-lock.json",
@@ -707,8 +707,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 21224,
-      "sha256": "b1da6e5f68f07a51733d0b17a002290d97636fd1c5dffa904789a7221617fe0b"
+      "bytes": 21285,
+      "sha256": "6b19440f3b2cdb271e368cde191fecf367b344bc5f3eda333319f746d621a4c5"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -1629,6 +1629,11 @@
       "path": "tests/profile-coverage-history.test.mjs",
       "bytes": 9200,
       "sha256": "71011106c040ffa3b164dd8d17e7c2457774b2439e07e4fe0d8a77164bb89413"
+    },
+    {
+      "path": "tests/profile-link-label-20261117.test.mjs",
+      "bytes": 2859,
+      "sha256": "830d5a2a791deeb5fea3ccb228ac2e92a96d7194f67f9198ae55cc005109e2bb"
     },
     {
       "path": "tests/profiles-batch5.test.mjs",
