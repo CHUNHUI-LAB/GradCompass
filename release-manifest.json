@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 99426,
-      "sha256": "24a362822c4d2a1f0e6a9362c9c6146ff689ed5343dd476ba4bc188d35738e48"
+      "bytes": 99799,
+      "sha256": "9860292f19f4c1b79e3b060a3ec28887c85cb98209ff66520033e0e938a43489"
     },
     {
       "path": "REDESIGN.md",
@@ -67,8 +67,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 78139,
-      "sha256": "31a42b82fd1d083638eeef96a4f1d24c2a8a77091632ee3c5a9b834b8ecd94d9"
+      "bytes": 78185,
+      "sha256": "04d95d7382dfac12d109d9926be393b2878d73936ece40a105a8b76f9c2f8b16"
     },
     {
       "path": "assets/appointments.js",
@@ -658,7 +658,7 @@
     {
       "path": "index.html",
       "bytes": 12514,
-      "sha256": "4a3a88abcb157f64e17a31cc777c7d0f0e3c3bcf51a8a327eab4349aa18de6f8"
+      "sha256": "b48dcb3e4157e3f1228e84470f538bce77a3d4b9e9e7b462718fc83285717c72"
     },
     {
       "path": "package-lock.json",
@@ -677,8 +677,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 20635,
-      "sha256": "0618a382f00548fa13bc5ae6d0fd1533fd3d65c7594c86e1b17b06a825118d57"
+      "bytes": 20701,
+      "sha256": "0ce1d83f1a3da891980605c20c3667991ef3077d51aa9e21dc4b09faa7d14355"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -1391,6 +1391,11 @@
       "sha256": "6ad25673fcf22dcea50f83df49d97ca72c1f2798ff0128b615d2bdbc8b5877e4"
     },
     {
+      "path": "tests/intake-declaration-labels-20261117.test.mjs",
+      "bytes": 5121,
+      "sha256": "4062bcc01c73d22c6a9e9797521fdd95e5ec424f4365946cb82fee28045f9fff"
+    },
+    {
       "path": "tests/jhu-language-baseline.mjs",
       "bytes": 1209,
       "sha256": "776484352f92cd60111ea7947b71e2561ffb044a7e90a014527e807065eb3b3d"
@@ -1477,8 +1482,8 @@
     },
     {
       "path": "tests/optional-loading.test.mjs",
-      "bytes": 20394,
-      "sha256": "d9325d5fafd4f5811cafdecca5c09f2a622bdf2cac557f1af8086e9a312df8cf"
+      "bytes": 20424,
+      "sha256": "91d3f255f83684fb247e70293abf2bcfd73be585d9f1ce2755113d61a196cb06"
     },
     {
       "path": "tests/ouc-caojingchao-20261117.test.mjs",
@@ -1712,8 +1717,8 @@
     },
     {
       "path": "tests/render.test.mjs",
-      "bytes": 26902,
-      "sha256": "ea8967400201a7bc3998a7289359f1b69378c6cceb27f895582a5b91b48a1001"
+      "bytes": 27030,
+      "sha256": "2b52d9e5bb50f824bead8516f25c58e705ecce984f4c0978217fbcfa4f7ccc64"
     },
     {
       "path": "tests/rescreen-20261026.test.mjs",

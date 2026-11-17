@@ -174,7 +174,7 @@ test('an explicitly absent pending-adviser supplement retains honest fallback an
  assert(!opportunities.some(row=>row.advisorId===id));assert(browseAdvisors(catalog).some(advisor=>advisor.id===id));
  const app=await boot({file:'advisor-profiles.json',mode:'profile-absent',missingProfileId:id});
  assertCore(app);app.detail('advisor',id);const html=app.el('#detail-content').innerHTML;
- assert(html.includes('专业简介待补充'));assert(html.includes('研究方向与代表工作'));assert(html.includes('<dt>MSc</dt>'));assert(!html.includes('data-profile-advisor'));
+ assert(html.includes('专业简介待补充'));assert(html.includes('研究方向与代表工作'));assert(html.includes('<dt>硕士（类型以声明为准）</dt>'));assert(!html.includes('data-profile-advisor'));
  app.detail('advisor',profileId);assert(app.el('#detail-content').innerHTML.includes('data-profile-advisor="'+profileId+'"'));
  assert.deepEqual(data('advisor-profiles.json'),shipped);
 });
