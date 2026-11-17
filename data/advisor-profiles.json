@@ -209451,6 +209451,113 @@
           }
         ]
       }
+    },
+    {
+      "advisorId": "ouc-caojingchao",
+      "cardSummaryZh": "水下图像增强；水下图像质量评价；水下三维重建",
+      "overview": {
+        "textZh": "曹景超，中国海洋大学信息科学与工程学部 / 计算机科学与技术学院讲师。研究水下三维重建、水下图像增强与图像质量评价。仅核实硕士指导或硕士招生；独立博士指导身份未知，不挂博士参考路径。",
+        "sources": [
+          {
+            "url": "https://it.ouc.edu.cn/cjc/",
+            "title": "曹景超 · 中国海洋大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "曹景超 · 公开研究方向",
+        "affiliation": {
+          "textZh": "信息科学与工程学部 / 计算机科学与技术学院",
+          "sources": [
+            {
+              "url": "https://it.ouc.edu.cn/cjc/",
+              "title": "曹景超 · 中国海洋大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "水下图像增强",
+          "水下图像质量评价",
+          "水下三维重建"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://it.ouc.edu.cn/cjc/",
+              "title": "曹景超 · 中国海洋大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。 2027个人计划与年度资格均未核实。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://it.ouc.edu.cn/cjc/",
+            "title": "曹景超 · 中国海洋大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "曹景超 · 中国海洋大学官方资料",
+          "url": "https://it.ouc.edu.cn/cjc/"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "官网入职海大时间2022.10与当前讲师均明确，但未列2022.10初聘岗位；2024.01–2025.01有青岛市博士后应用研究项目，不由此认定全期仅博士后，也不由现讲师反推初聘为教职。需首个明确非博士后教研岗位证据",
+        "sources": [
+          {
+            "url": "https://it.ouc.edu.cn/cjc/",
+            "title": "曹景超 · 中国海洋大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
     }
   ],
   "reviewRequired": true,
