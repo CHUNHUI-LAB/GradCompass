@@ -220153,6 +220153,308 @@
           }
         ]
       }
+    },
+    {
+      "advisorId": "hnu-sunbin",
+      "cardSummaryZh": "机器人自然交互；无人机多模态感知；视觉惯导定位",
+      "overview": {
+        "textZh": "孙斌，湖南大学人工智能与机器人学院教授。当前主页明确服务机器人多模态交互项目、无人机跨模态环境感知及定位建图专利。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/3132.htm",
+            "title": "孙斌 · 湖南大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://eeit.hnu.edu.cn/info/1273/8135.htm",
+            "title": "孙斌 · 湖南大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://eeit.hnu.edu.cn/info/1549/8165.htm",
+            "title": "孙斌 · 湖南大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "孙斌 · 公开研究方向",
+        "affiliation": {
+          "textZh": "人工智能与机器人学院",
+          "sources": [
+            {
+              "url": "https://robotics.hnu.edu.cn/info/1176/3132.htm",
+              "title": "孙斌 · 湖南大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://eeit.hnu.edu.cn/info/1273/8135.htm",
+              "title": "孙斌 · 湖南大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://eeit.hnu.edu.cn/info/1549/8165.htm",
+              "title": "孙斌 · 湖南大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人自然交互",
+          "无人机多模态感知",
+          "视觉惯导定位",
+          "激光视觉建图"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://robotics.hnu.edu.cn/info/1176/3132.htm",
+              "title": "孙斌 · 湖南大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://eeit.hnu.edu.cn/info/1273/8135.htm",
+              "title": "孙斌 · 湖南大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://eeit.hnu.edu.cn/info/1549/8165.htm",
+              "title": "孙斌 · 湖南大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。 本人2027直博/申请考核博士和硕士开放申请，无数量，非实时余位保证 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/3132.htm",
+            "title": "孙斌 · 湖南大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://eeit.hnu.edu.cn/info/1273/8135.htm",
+            "title": "孙斌 · 湖南大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://eeit.hnu.edu.cn/info/1549/8165.htm",
+            "title": "孙斌 · 湖南大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "孙斌 · 湖南大学官方资料",
+          "url": "https://robotics.hnu.edu.cn/info/1176/3132.htm"
+        },
+        {
+          "label": "孙斌 · 湖南大学官方资料",
+          "url": "https://eeit.hnu.edu.cn/info/1273/8135.htm"
+        },
+        {
+          "label": "孙斌 · 湖南大学官方资料",
+          "url": "https://eeit.hnu.edu.cn/info/1549/8165.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2019",
+        "earliestDate": "2019-01-01",
+        "latestDate": "2019-12-31",
+        "careerContext": "unknown",
+        "noteZh": "两电气官方页分别2019.06及2019.07副教授，共同年2019；2017–2019博士后/副研究员并列不计独立首任",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/3132.htm",
+            "title": "孙斌 · 湖南大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://eeit.hnu.edu.cn/info/1273/8135.htm",
+            "title": "孙斌 · 湖南大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://eeit.hnu.edu.cn/info/1549/8165.htm",
+            "title": "孙斌 · 湖南大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "hnu-zhangwandong",
+      "cardSummaryZh": "机器人视觉检测；雷达舰船目标检测",
+      "overview": {
+        "textZh": "张万栋，湖南大学人工智能与机器人学院教授。官网明确高频地波雷达辅助自主机器人舰船监测及相关目标检测论文。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/3068.htm",
+            "title": "张万栋 · 湖南大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "张万栋 · 公开研究方向",
+        "affiliation": {
+          "textZh": "人工智能与机器人学院",
+          "sources": [
+            {
+              "url": "https://robotics.hnu.edu.cn/info/1176/3068.htm",
+              "title": "张万栋 · 湖南大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人视觉检测",
+          "雷达舰船目标检测"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://robotics.hnu.edu.cn/info/1176/3068.htm",
+              "title": "张万栋 · 湖南大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。 未核到2027个人计划，泛欢迎不替代当届接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/3068.htm",
+            "title": "张万栋 · 湖南大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "张万栋 · 湖南大学官方资料",
+          "url": "https://robotics.hnu.edu.cn/info/1176/3068.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2025-04",
+        "earliestDate": "2025-04-01",
+        "latestDate": "2025-04-30",
+        "careerContext": "unknown",
+        "noteZh": "2025.04湖南教授、博导；此前2022.06–2025.02两段加拿大博士后，已读履历未见此前正式教职",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/3068.htm",
+            "title": "张万栋 · 湖南大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
     }
   ],
   "reviewRequired": true,

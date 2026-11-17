@@ -8,13 +8,13 @@
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
   "browserVisualQA": "Not yet browser-verified.",
-  "profilePilotCount": 1400,
-  "visibleAdvisorCount": 1400,
+  "profilePilotCount": 1402,
+  "visibleAdvisorCount": 1402,
   "opportunityCount": 59,
   "raPositionCount": 2,
   "newAdvisorProfiles": 26,
   "preservedAdvisorProfiles": 30,
-  "newProfileCitedSourceCount": 1878,
+  "newProfileCitedSourceCount": 1882,
   "experienceRecords": 27,
   "defaultExperienceRecords": 27,
   "experienceSourceSites": 20,
@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 100083,
-      "sha256": "67d8e87b2a2e94129647b64f52ce10a62ad38e71d7f6eba699b26bac210d5c6d"
+      "bytes": 100359,
+      "sha256": "c88317cd7c29cd3385dda1f3e0b59e9f46fc4f46c309db0c68c2724479880d5c"
     },
     {
       "path": "REDESIGN.md",
@@ -68,7 +68,7 @@
     {
       "path": "assets/app.js",
       "bytes": 78185,
-      "sha256": "f783b4af4f7b7ed25d9415046f8cee5a820ceaf29397abf6145a0a9d12a8f5eb"
+      "sha256": "c320d5c35745847720dcb8df23a3b7ea359b694968ce46f653babde19a0a056f"
     },
     {
       "path": "assets/appointments.js",
@@ -396,6 +396,16 @@
       "sha256": "dd59af880372453e50235dbd24df19bb65f6c9151e8df2de340f34a33673a1c6"
     },
     {
+      "path": "audits/hnu-supplement-20261117.json",
+      "bytes": 5785,
+      "sha256": "2e79a5356b44394f7d4c4bf7f57979916ccb9d8aba2e02b6acf645dd3ecce938"
+    },
+    {
+      "path": "audits/hnu-supplement-20261117.md",
+      "bytes": 435,
+      "sha256": "51f4d75175625a100d4a1715dc02f971ec92bf29ca35a429421e2d4286aeee50"
+    },
+    {
       "path": "audits/homepage-enrichment-20261010.json",
       "bytes": 59094,
       "sha256": "8dd697aa546dff7b5d1d9b72553d2e5e534a9de9da255628ea615821ddefedf9"
@@ -537,8 +547,8 @@
     },
     {
       "path": "data/advisor-profiles.json",
-      "bytes": 10903139,
-      "sha256": "802d2dbe1caa8afa3da34b7dc5ee02acc30cb70dc74263b18c12597404306838"
+      "bytes": 10917992,
+      "sha256": "f396ef1ace1fc11afecfccd3049d6404a3a0585d68223150bd0b07ae52007f88"
     },
     {
       "path": "data/application-experience-provenance.json",
@@ -557,8 +567,8 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 10396740,
-      "sha256": "aedfd28d94846c237316b07c6481a0c2a1d55e0ddd5deb1958e3d0f96d3a2cc1"
+      "bytes": 10410104,
+      "sha256": "2e0f3ec97aee15ee04c8f3ebee0d9e3e479f376558f0c463abad23385b1bab78"
     },
     {
       "path": "data/four-schools-exploration-20261006.json",
@@ -668,7 +678,7 @@
     {
       "path": "index.html",
       "bytes": 12514,
-      "sha256": "38523f8ca183e7c2e158da9c195600eed22cfd3d39cbb1ffda8c9911ed2ae3b9"
+      "sha256": "42ff115811972c13e374d58856faaddc47c259b39f3ce67079404156dc57399c"
     },
     {
       "path": "package-lock.json",
@@ -687,8 +697,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 20868,
-      "sha256": "734745a685dad18ca97d8f99d303b99b5952fd34f922e6b1c62ab3784c89ead9"
+      "bytes": 21057,
+      "sha256": "db54125f24a2d03df8ccc1161f451221a2cc3c5bcaadca18661e48d851c47031"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -912,8 +922,8 @@
     },
     {
       "path": "tests/evidence-reviews.mjs",
-      "bytes": 5754,
-      "sha256": "1c62fb83c75a162745cf97a16ca3e46ae2e96c95919c3e7e936debadb825c2b4"
+      "bytes": 5898,
+      "sha256": "8c5e7c7feda053c82e1fd01870eeef9a191812c941f22e2496e9765549124ddb"
     },
     {
       "path": "tests/existing-doctoral-links-20261019.test.mjs",
@@ -1114,6 +1124,11 @@
       "path": "tests/fixtures/evidence/hku-ris-materials-20261011.json",
       "bytes": 14509,
       "sha256": "363d5714471f91fcc43bbbf4b0749c1ab048efb78da178164eecf66530dd7af1"
+    },
+    {
+      "path": "tests/fixtures/evidence/hnu-supplement-20261117.json",
+      "bytes": 31842,
+      "sha256": "c2319e08f440a62621acae6bb83c8f28848e69cb189f89a0961b9d3f5f772722"
     },
     {
       "path": "tests/fixtures/evidence/homepages-20261010.json",
@@ -1399,6 +1414,11 @@
       "path": "tests/hnu-expansion-20261117.test.mjs",
       "bytes": 5387,
       "sha256": "8790cbf5e10b192941cd2f05d673005402a9dc5648e4e9a3d560a5fde1a77baa"
+    },
+    {
+      "path": "tests/hnu-supplement-20261117.test.mjs",
+      "bytes": 4058,
+      "sha256": "ffd65e8d2e89ac63e0cac553340a09f3fd399dc386dae52ecf33ac1b8ab49581"
     },
     {
       "path": "tests/homepage-enrichment.test.mjs",
@@ -1934,7 +1954,7 @@
     "baseCommit": "1281ce4740272443563b4a98f421561bacc801f9",
     "scope": "Two inaccurate MSc overview text fragments only; no structure, style or interaction changes"
   },
-  "advisorCatalogCount": 1400,
+  "advisorCatalogCount": 1402,
   "verifiedDegreeAssociationCount": 57,
   "projectCatalogCount": 113,
   "visibleProjectCount": 113,

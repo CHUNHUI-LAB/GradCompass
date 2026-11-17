@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-11-17",
+  "baseCommit": "603b35750efe9564f5127d88e7df855784076146",
+  "school": "湖南大学",
+  "notExhaustive": true,
+  "addedCount": 2,
+  "doctoralReferenceCount": 2,
+  "doctoralUnknownCount": 0,
+  "recentAppointmentCount": 1,
+  "recentAppointmentIds": [
+    "hnu-zhangwandong"
+  ],
+  "entries": [
+    {
+      "name": "孙斌",
+      "university": "湖南大学",
+      "department": "人工智能与机器人学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "机器人自然交互",
+        "无人机多模态感知",
+        "视觉惯导定位",
+        "激光视觉建图"
+      ],
+      "roboticsEvidence": "当前主页明确服务机器人多模态交互项目、无人机跨模态环境感知及定位建图专利",
+      "firstAppointment": {
+        "date": "2019",
+        "precision": "year",
+        "note": "两电气官方页分别2019.06及2019.07副教授，共同年2019；2017–2019博士后/副研究员并列不计独立首任"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/3132.htm",
+          "title": "孙斌 · 湖南大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://eeit.hnu.edu.cn/info/1273/8135.htm",
+          "title": "孙斌 · 湖南大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://eeit.hnu.edu.cn/info/1549/8165.htm",
+          "title": "孙斌 · 湖南大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文无明确2028个人招生；项目结束年份不作为招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "个人身份/2027招募不替代年度招生资格"
+      },
+      "recruitment2027": {
+        "status": "personal_statement",
+        "note": "本人2027直博/申请考核博士和硕士开放申请，无数量，非实时余位保证"
+      },
+      "routeIds": [],
+      "classification": "research_main_candidate",
+      "caveats": [
+        "两电气官方页分别2019.06及2019.07副教授，共同年2019；2017–2019博士后/副研究员并列不计独立首任",
+        "个人研究项目与平台不代表新生资源保证"
+      ],
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "hnu-sunbin"
+    },
+    {
+      "name": "张万栋",
+      "university": "湖南大学",
+      "department": "人工智能与机器人学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "机器人视觉检测",
+        "雷达舰船目标检测"
+      ],
+      "roboticsEvidence": "官网明确高频地波雷达辅助自主机器人舰船监测及相关目标检测论文",
+      "firstAppointment": {
+        "date": "2025-04",
+        "precision": "month",
+        "note": "2025.04湖南教授、博导；此前2022.06–2025.02两段加拿大博士后，已读履历未见此前正式教职"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/3068.htm",
+          "title": "张万栋 · 湖南大学官方资料",
+          "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读正文无明确2028个人招生；项目结束年份不作为招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "个人身份/2027招募不替代年度招生资格"
+      },
+      "recruitment2027": {
+        "status": "unknown",
+        "note": "仅泛欢迎硕博，未见2027具体个人计划"
+      },
+      "routeIds": [],
+      "classification": "research_main_candidate",
+      "caveats": [
+        "2025.04湖南教授、博导；此前2022.06–2025.02两段加拿大博士后，已读履历未见此前正式教职",
+        "个人研究项目与平台不代表新生资源保证"
+      ],
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "id": "hnu-zhangwandong"
+    }
+  ],
+  "coverage": "孙斌、张万栋独立补录；非全校穷尽。",
+  "limitations": [
+    "全体2027逐人年度博士资格未核。",
+    "未见明确2028个人计划；泛年度及项目年份不替代个人接收。",
+    "孙斌2019首任月份冲突仅取年；张万栋2025.04教职，此前加拿大博后不计。",
+    "首任不从晋升、博士毕业、人才或项目年份推断。"
+  ]
+}
