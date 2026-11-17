@@ -1,4 +1,4 @@
-import {escapeHTML} from './core.js?v=4a5950db0cda';
+import {escapeHTML} from './core.js?v=7d62eadebd4b';
 import {appointmentStatus,appointmentWindow} from './appointments.js?v=d6a2f4df2f6c';
 import {recruitmentPriority,intakeLabels} from './recruitment-priorities.js?v=8c0cdac2b87f';
 
