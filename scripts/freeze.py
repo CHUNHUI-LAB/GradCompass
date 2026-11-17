@@ -113,6 +113,7 @@ files.extend(['audits/985-neu-20261116.json','audits/985-neu-20261116.md','tests
 files.extend(['audits/985-jlu-20261116.json','audits/985-jlu-20261116.md','tests/fixtures/evidence/985-jlu-20261116.json','tests/jlu-expansion-20261116.test.mjs'])
 files.extend(['audits/985-hit-20261117.json','audits/985-hit-20261117.md','tests/fixtures/evidence/985-hit-20261117.json','tests/hit-expansion-20261117.test.mjs'])
 files.extend(['audits/tongji-tianye-20261117.json','audits/tongji-tianye-20261117.md','tests/fixtures/evidence/tongji-tianye-20261117.json','tests/tongji-tianye-20261117.test.mjs'])
+files.extend(['audits/985-ecnu-20261117.json','audits/985-ecnu-20261117.md','tests/fixtures/evidence/985-ecnu-20261117.json','tests/ecnu-expansion-20261117.test.mjs'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):
