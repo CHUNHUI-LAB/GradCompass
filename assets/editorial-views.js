@@ -1,5 +1,5 @@
-import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,degreeDisplay,routeEvidenceText,deadlineStatus,textValue} from './core.js?v=0577b74d30b1';
-import {sourceAttribution,supervisorAssociationText} from './record-summaries.js?v=2aabc0d796c7';
+import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,degreeDisplay,routeEvidenceText,deadlineStatus,textValue} from './core.js?v=da60d84ccaee';
+import {sourceAttribution,supervisorAssociationText} from './record-summaries.js?v=e9432c3f73f4';
 
 const e = value => escapeHTML(readerText(value));
 const list = value => Array.isArray(value) ? value : [];

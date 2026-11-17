@@ -8,13 +8,13 @@
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
   "browserVisualQA": "Not yet browser-verified.",
-  "profilePilotCount": 1275,
-  "visibleAdvisorCount": 1275,
+  "profilePilotCount": 1306,
+  "visibleAdvisorCount": 1306,
   "opportunityCount": 59,
   "raPositionCount": 2,
   "newAdvisorProfiles": 26,
   "preservedAdvisorProfiles": 30,
-  "newProfileCitedSourceCount": 1708,
+  "newProfileCitedSourceCount": 1744,
   "experienceRecords": 27,
   "defaultExperienceRecords": 27,
   "experienceSourceSites": 20,
@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 97588,
-      "sha256": "64f67f4c8374fb3bdd15f4470665a72f27d2e146742acb9b8e6bf05f0216cdc3"
+      "bytes": 97894,
+      "sha256": "44d97aaba08360f0def96a6984b98ef5e482c4a4bb685fa1e519b28b96ec8414"
     },
     {
       "path": "REDESIGN.md",
@@ -58,17 +58,17 @@
     {
       "path": "assets/advisor-cards.js",
       "bytes": 7766,
-      "sha256": "2622b228ab43d23978ff8b4f7e3affab7f23470cb8b1bae17a86671d6293cdae"
+      "sha256": "b971efc890d8e34e093a1319516366e817493bc6694fb041ec8519f6044a17da"
     },
     {
       "path": "assets/advisor-priorities.js",
       "bytes": 3523,
-      "sha256": "5c99d19f9a45e786128e0da7303682d52a2a97973b178636a75062d2f7d02da1"
+      "sha256": "8101e6cfe4e8c439887332b370e356b420a309c7db56db4116ead424a557b4ca"
     },
     {
       "path": "assets/app.js",
       "bytes": 78139,
-      "sha256": "27bc7e477caedd498bb080ccec9602cfcb5d9b6afda79773d262978ff96f3a2d"
+      "sha256": "7e4492d0cf49b457aeadf3b8cf5b43f9bdef38c62d0773668e32b04b4327bf42"
     },
     {
       "path": "assets/appointments.js",
@@ -82,18 +82,18 @@
     },
     {
       "path": "assets/core.js",
-      "bytes": 36191,
-      "sha256": "0577b74d30b1df78ee4ac8b47cec0476976e22b0375f6a54ecb27a9af1dac74b"
+      "bytes": 36254,
+      "sha256": "da60d84ccaee16ba49b91781583bc5d5b057efbad048508fe9d5421e6bd847c9"
     },
     {
       "path": "assets/editorial-views.js",
       "bytes": 16499,
-      "sha256": "c414ca60bcf7e519be6a3704a220fe43506fe4c473430677cf8530686e822fc7"
+      "sha256": "121d7879d83b83d8ae09590dfd30a559c19324dc1a841d046d21672446600bae"
     },
     {
       "path": "assets/experiences.js",
       "bytes": 23160,
-      "sha256": "ac7d52adfea4a6c85ed01942d9cc451940add32ad2d0f361251848da3e3f7b32"
+      "sha256": "1296af39b768af9d918e50a4d39aed79f9cac84e0409d99980832558e3d0a80e"
     },
     {
       "path": "assets/favicon.svg",
@@ -103,27 +103,27 @@
     {
       "path": "assets/material-supplement.js",
       "bytes": 1866,
-      "sha256": "efbe9824d40bbc485425beaa6bc92480fbda5ad5ba9ddf22e411a8d368bf901d"
+      "sha256": "5b1bd28ea5256f66b28db97ff7ccd7dd3d9b90bc26324ee48a9006b2537391fc"
     },
     {
       "path": "assets/opportunity-comparison.js",
       "bytes": 12397,
-      "sha256": "cc4dd1aee8a1e3608b979a2056964708d8906b029324edce76fe709ff2d1dfc3"
+      "sha256": "a561dd88c4943a05ecb0ae2e2db93b63d6211bf7cd7944548f4bddcc6a70f851"
     },
     {
       "path": "assets/page-overviews.js",
       "bytes": 15697,
-      "sha256": "eabb0e73bbaf0b9860d65aeb202cd1d10a8f7fbb82a71a46625e10023e4516c9"
+      "sha256": "9ba373b8231e6efb90dccfe1c79a85f9c022e19e00227019e3ba1a8aba1cf240"
     },
     {
       "path": "assets/profiles.js",
       "bytes": 5875,
-      "sha256": "ccb508eba2b90c769b3dfc834f914c357972b99f5ebd64ad0e1a323b71b53472"
+      "sha256": "37fc5a1cbf81f4f6462cff5e97f2e094864b6afdf35d9a17378eac63326d5c76"
     },
     {
       "path": "assets/project-comparison.js",
       "bytes": 13356,
-      "sha256": "2b94de0ba0aeeaab515403cae25a892c054f65a81ce5e7c5f5135b849001f278"
+      "sha256": "8d9eff2c667ad553bf183846747b2b3cbc25f299b5c7f818ed59f0833c610504"
     },
     {
       "path": "assets/reader.js",
@@ -133,7 +133,7 @@
     {
       "path": "assets/record-summaries.js",
       "bytes": 14127,
-      "sha256": "2aabc0d796c703c9dc902228c54b9a63262382dc8a8671b30b070561480f33c2"
+      "sha256": "e9432c3f73f4945227f4cf1a7e9c29e64285b32c1b269bb8460ce512ab02d55f"
     },
     {
       "path": "assets/recruitment-priorities.js",
@@ -269,6 +269,16 @@
       "path": "audits/985-ruc-summary-20261103.md",
       "bytes": 1779,
       "sha256": "22ecdcf4636c65ef2e1ad8de3084b4d9422bf278fe861588f32e18341e787d23"
+    },
+    {
+      "path": "audits/985-sdu-20261117.json",
+      "bytes": 57741,
+      "sha256": "62d7ea4383db90fa069c9b61434c208d651320dd3fb3d78471f7a0770415cac6"
+    },
+    {
+      "path": "audits/985-sdu-20261117.md",
+      "bytes": 514,
+      "sha256": "60ced9e7074856a5e233d44e3962206b479e967475f609da81e322441ff691e6"
     },
     {
       "path": "audits/985-tju-20261116.json",
@@ -477,8 +487,8 @@
     },
     {
       "path": "data/advisor-profiles.json",
-      "bytes": 10120228,
-      "sha256": "f0e9f5a55d2bade1c29f5ef306b1b49f73d4b4cb203bac404eb38c92b6afefa2"
+      "bytes": 10288253,
+      "sha256": "4fa16a5fcd443028cb58018730fa062be1e8ed6443e105ea60634e34fae48580"
     },
     {
       "path": "data/application-experience-provenance.json",
@@ -497,8 +507,8 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 9716097,
-      "sha256": "7e9d04acab04891db9c1146276f1eb51ae01be7390a0df52f461f830d94ed6fe"
+      "bytes": 9869791,
+      "sha256": "d42212dd41398e9d5d01bb505073ab38ef23d31d5fc8d8e558b6b4307dce0164"
     },
     {
       "path": "data/four-schools-exploration-20261006.json",
@@ -608,7 +618,7 @@
     {
       "path": "index.html",
       "bytes": 12514,
-      "sha256": "fd3dffe647be235b4561fb219989f384c8a59e379b98106d6a2ab87516cb8117"
+      "sha256": "0c56f3b7101b6ecc070eb2ca64a4ad14b61949f8aeda6102e5f0b542d76226c6"
     },
     {
       "path": "package-lock.json",
@@ -627,8 +637,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 19705,
-      "sha256": "cafa416ab681bee5529d7b7a4abbe99ecdd760bf129659a1c0a986c824baab37"
+      "bytes": 19872,
+      "sha256": "f0991ab16414df00daa908d1a7c6dd7de01facc01ffc8643b57bd69f4dd3d860"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -852,8 +862,8 @@
     },
     {
       "path": "tests/evidence-reviews.mjs",
-      "bytes": 4923,
-      "sha256": "96b58a98c594fa21c9e7af3ae8bde6db170b47a469a2bc88e2d7a9409e07325e"
+      "bytes": 5060,
+      "sha256": "f7c5468aaff7e59ae450f2e217aafe3a3029d40ea33cb9bc061ea40716183502"
     },
     {
       "path": "tests/existing-doctoral-links-20261019.test.mjs",
@@ -979,6 +989,11 @@
       "path": "tests/fixtures/evidence/985-ruc-20261103.json",
       "bytes": 33513,
       "sha256": "982544eb76d3a515e1035eb367709d107d6fe751a6c4314510e6e57351c25460"
+    },
+    {
+      "path": "tests/fixtures/evidence/985-sdu-20261117.json",
+      "bytes": 358112,
+      "sha256": "5eb85dd9d85c9ffd02b0419d9de411158ebf7acda54d12378c2301209a1b267c"
     },
     {
       "path": "tests/fixtures/evidence/985-tju-20261116.json",
@@ -1676,6 +1691,11 @@
       "sha256": "e6742edb6013daa01eaeb4b433b9cc405a6c20b5e6f6bf0f59c138b17ebe90f7"
     },
     {
+      "path": "tests/sdu-expansion-20261117.test.mjs",
+      "bytes": 5534,
+      "sha256": "6c353b3b2782e46716de1ef1bdd958022a06309ab7ab3f792fb92dd4011209e8"
+    },
+    {
       "path": "tests/sequential-evidence.test.mjs",
       "bytes": 3590,
       "sha256": "299ec90e6b5a8569fe44a317420824737b747a1bf72f7e169552b2f20f0db669"
@@ -1804,10 +1824,10 @@
     "baseCommit": "1281ce4740272443563b4a98f421561bacc801f9",
     "scope": "Two inaccurate MSc overview text fragments only; no structure, style or interaction changes"
   },
-  "advisorCatalogCount": 1275,
+  "advisorCatalogCount": 1306,
   "verifiedDegreeAssociationCount": 57,
-  "projectCatalogCount": 108,
-  "visibleProjectCount": 108,
+  "projectCatalogCount": 109,
+  "visibleProjectCount": 109,
   "candidateBaseCommit": "079eaea16e636f2e91ab2cb0e6ffa309f589440e",
   "evidenceScope": "All recorded advisors and academic references remain readable; verified degree associations require exact sourced advisor-route joins. Project evidence is not individual recruitment or remaining capacity.",
   "detailUiPolish": {

@@ -204054,6 +204054,3541 @@
           }
         ]
       }
+    },
+    {
+      "advisorId": "sdu-bailu",
+      "cardSummaryZh": "无人系统多模态感通控；多机器人协同任务优化；无人机/网联车信道建模",
+      "overview": {
+        "textZh": "白露，山东大学软件学院 / 山东大学-南洋理工大学人工智能国际联合研究院长聘教授。个人主页明确大规模自主移动机器人协同任务优化决策仿真测试项目；本科生助研围绕多模态感通控数据集与AirSim等仿真。通信主线，不泛化为通用控制。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/lubai/zh_CN/index.htm",
+            "title": "白露 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.sdu.edu.cn/bailu1/en/index.htm",
+            "title": "白露 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "白露 · 公开研究方向",
+        "affiliation": {
+          "textZh": "软件学院 / 山东大学-南洋理工大学人工智能国际联合研究院",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/lubai/zh_CN/index.htm",
+              "title": "白露 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.sdu.edu.cn/bailu1/en/index.htm",
+              "title": "白露 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "无人系统多模态感通控",
+          "多机器人协同任务优化",
+          "无人机/网联车信道建模"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/lubai/zh_CN/index.htm",
+              "title": "白露 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.sdu.edu.cn/bailu1/en/index.htm",
+              "title": "白露 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "本人官网计划2028年9月入学：学术/专业型博士1–2名、学术/专业型硕士1–2名。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 本人官网2027年9月入学已招满。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/lubai/zh_CN/index.htm",
+            "title": "白露 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.sdu.edu.cn/bailu1/en/index.htm",
+            "title": "白露 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。"
+      ],
+      "links": [
+        {
+          "label": "白露 · 山东大学官方资料",
+          "url": "https://faculty.sdu.edu.cn/lubai/zh_CN/index.htm"
+        },
+        {
+          "label": "白露 · 山东大学官方资料",
+          "url": "https://faculty.sdu.edu.cn/bailu1/en/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2022-07",
+        "earliestDate": "2022-07-01",
+        "latestDate": "2022-07-31",
+        "careerContext": "unknown",
+        "noteZh": "英文官网Date of Employment 2022-07；中文页与英文页同名、同邮箱密文、同研究领域确认同一人；尚未见更早本校任职。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/lubai/zh_CN/index.htm",
+            "title": "白露 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.sdu.edu.cn/bailu1/en/index.htm",
+            "title": "白露 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-limanyi",
+      "cardSummaryZh": "灵巧抓取生成；点云去噪与三维重建；室内场景理解生成",
+      "overview": {
+        "textZh": "李曼祎，山东大学软件学院副教授（页头）；简介仍称副研究员。官网成果G-DexGrasp ICCV2025灵巧抓取生成、AffordPose人手物体交互、点云去噪。仅核实硕士指导或硕士招生；独立博士指导身份未知，不挂博士参考路径。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/manyil/zh_CN/index.htm",
+            "title": "李曼祎 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "李曼祎 · 公开研究方向",
+        "affiliation": {
+          "textZh": "软件学院",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/manyil/zh_CN/index.htm",
+              "title": "李曼祎 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "灵巧抓取生成",
+          "点云去噪与三维重建",
+          "室内场景理解生成"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/manyil/zh_CN/index.htm",
+              "title": "李曼祎 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读列明来源未见明确2028个人招生，不推断没有计划；项目截至2028不算招生。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/manyil/zh_CN/index.htm",
+            "title": "李曼祎 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "李曼祎 · 山东大学官方资料",
+          "url": "https://faculty.sdu.edu.cn/manyil/zh_CN/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2022-02",
+        "earliestDate": "2022-02-01",
+        "latestDate": "2022-02-28",
+        "careerContext": "unknown",
+        "noteZh": "入职时间2022-02；2019–2021加拿大SFU博士后，2022加入山大副研究员，非博士毕业入职。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/manyil/zh_CN/index.htm",
+            "title": "李曼祎 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-xieyuanyan",
+      "cardSummaryZh": "机器人定位与导航；灵巧操作；多模态三维重建",
+      "overview": {
+        "textZh": "谢圆琰，山东大学人工智能学院助理教授（学院目录）；个人页职称讲师。InstanceVO语义视觉里程计、长期自主机器人重定位、装配机器人与移动操作平台；明确2026级硕士欢迎。仅核实硕士指导或硕士招生；独立博士指导身份未知，不挂博士参考路径。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/xieyuanyan/zh_CN/index.htm",
+            "title": "谢圆琰 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "谢圆琰 · 公开研究方向",
+        "affiliation": {
+          "textZh": "人工智能学院",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/xieyuanyan/zh_CN/index.htm",
+              "title": "谢圆琰 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人定位与导航",
+          "灵巧操作",
+          "多模态三维重建"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/xieyuanyan/zh_CN/index.htm",
+              "title": "谢圆琰 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读列明来源未见明确2028个人招生，不推断没有计划；项目截至2028不算招生。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/xieyuanyan/zh_CN/index.htm",
+            "title": "谢圆琰 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "谢圆琰 · 山东大学官方资料",
+          "url": "https://faculty.sdu.edu.cn/xieyuanyan/zh_CN/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2026-02",
+        "earliestDate": "2026-02-01",
+        "latestDate": "2026-02-28",
+        "careerContext": "unknown",
+        "noteZh": "个人页入职2026-02，现职讲师；学历/学位栏写博士后为模板异常，不当学位资格证据。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/xieyuanyan/zh_CN/index.htm",
+            "title": "谢圆琰 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-yangshuo",
+      "cardSummaryZh": "机器人抓取与灵巧操作；移动操作；机器人模仿学习",
+      "overview": {
+        "textZh": "杨硕，山东大学人工智能学院副教授。官网MPGNet遮挡场景Move-Push-Grasp、自动补货移动操作系统、从视觉示范学习操作；明确2026硕士招生。仅核实硕士指导或硕士招生；独立博士指导身份未知，不挂博士参考路径。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/yangshuo/zh_CN/index.htm",
+            "title": "杨硕 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "杨硕 · 公开研究方向",
+        "affiliation": {
+          "textZh": "人工智能学院",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/yangshuo/zh_CN/index.htm",
+              "title": "杨硕 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人抓取与灵巧操作",
+          "移动操作",
+          "机器人模仿学习"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/yangshuo/zh_CN/index.htm",
+              "title": "杨硕 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读列明来源未见明确2028个人招生，不推断没有计划；项目截至2028不算招生。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/yangshuo/zh_CN/index.htm",
+            "title": "杨硕 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "杨硕 · 山东大学官方资料",
+          "url": "https://faculty.sdu.edu.cn/yangshuo/zh_CN/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2025-10",
+        "earliestDate": "2025-10-01",
+        "latestDate": "2025-10-31",
+        "careerContext": "unknown",
+        "noteZh": "个人页入职2025-10；待进一步完整履历排除更早本校岗位。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/yangshuo/zh_CN/index.htm",
+            "title": "杨硕 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-tuchanghe",
+      "cardSummaryZh": "机械臂物体识别抓取；拟人运动规划；点云几何重建",
+      "overview": {
+        "textZh": "屠长河，山东大学计算机科学与技术学院教授。研究领域明确复杂场景机械臂识别抓取与拟人规划，项目含机器人轨迹控制/乐聚具身交互联合实验室。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/tuzhanghe/zh_CN/index.htm",
+            "title": "屠长河 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "屠长河 · 公开研究方向",
+        "affiliation": {
+          "textZh": "计算机科学与技术学院",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/tuzhanghe/zh_CN/index.htm",
+              "title": "屠长河 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机械臂物体识别抓取",
+          "拟人运动规划",
+          "点云几何重建"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/tuzhanghe/zh_CN/index.htm",
+              "title": "屠长河 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读列明来源未见明确2028个人招生，不推断没有计划；项目截至2028不算招生。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/tuzhanghe/zh_CN/index.htm",
+            "title": "屠长河 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "屠长河 · 山东大学官方资料",
+          "url": "https://faculty.sdu.edu.cn/tuzhanghe/zh_CN/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "1993-07",
+        "earliestDate": "1993-07-01",
+        "latestDate": "1993-07-31",
+        "careerContext": "unknown",
+        "noteZh": "个人页入职及工作经历1993-07至今山大计算机学院。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/tuzhanghe/zh_CN/index.htm",
+            "title": "屠长河 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-maxin",
+      "cardSummaryZh": "移动机器人；机器视觉；无人系统控制",
+      "overview": {
+        "textZh": "马昕，山东大学控制科学与工程学院 / 机器人研究中心教授。官方列移动机器人、欠驱动控制；自组织反思机器人认知发育、无人机轨迹跟踪专利。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/maxin1/zh_CN/index.htm",
+            "title": "马昕 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "马昕 · 公开研究方向",
+        "affiliation": {
+          "textZh": "控制科学与工程学院 / 机器人研究中心",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/maxin1/zh_CN/index.htm",
+              "title": "马昕 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "移动机器人",
+          "机器视觉",
+          "无人系统控制"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/maxin1/zh_CN/index.htm",
+              "title": "马昕 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读列明来源未见明确2028个人招生，不推断没有计划；项目截至2028不算招生。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/maxin1/zh_CN/index.htm",
+            "title": "马昕 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "马昕 · 山东大学官方资料",
+          "url": "https://faculty.sdu.edu.cn/maxin1/zh_CN/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "1994-07",
+        "earliestDate": "1994-07-01",
+        "latestDate": "1994-07-31",
+        "careerContext": "unknown",
+        "noteZh": "1994.07–1995.08山东工业大学自动化助教（山大前身）；1998.07讲师，2000.09山大副教授，2007教授均非首任；后续交大博后不抹除早期教职。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/maxin1/zh_CN/index.htm",
+            "title": "马昕 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-chenteng",
+      "cardSummaryZh": "腿足机器人控制；强化学习；感知导航",
+      "overview": {
+        "textZh": "陈腾，山东大学控制科学与工程学院 / 机器人研究中心实验师。官方四足前空翻、VM_WBC统一多足控制、腿臂复用六肢体机器人；2028仅项目终止。仅核实硕士指导或硕士招生；独立博士指导身份未知，不挂博士参考路径。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/chenteng100/zh_CN/index.htm",
+            "title": "陈腾 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "陈腾 · 公开研究方向",
+        "affiliation": {
+          "textZh": "控制科学与工程学院 / 机器人研究中心",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/chenteng100/zh_CN/index.htm",
+              "title": "陈腾 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "腿足机器人控制",
+          "强化学习",
+          "感知导航"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/chenteng100/zh_CN/index.htm",
+              "title": "陈腾 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读列明来源未见明确2028个人招生，不推断没有计划；项目截至2028不算招生。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/chenteng100/zh_CN/index.htm",
+            "title": "陈腾 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "陈腾 · 山东大学官方资料",
+          "url": "https://faculty.sdu.edu.cn/chenteng100/zh_CN/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2022-09",
+        "earliestDate": "2022-09-01",
+        "latestDate": "2022-09-30",
+        "careerContext": "unknown",
+        "noteZh": "2020.08–2022.09山大博士后；2022.09起实验师，明确非博士后首任。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/chenteng100/zh_CN/index.htm",
+            "title": "陈腾 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-songrui",
+      "cardSummaryZh": "特殊环境机器人导航；复杂作业技能学习；医疗服务机器人交互",
+      "overview": {
+        "textZh": "宋锐，山东大学控制科学与工程学院 / 机器人研究中心特聘教授。个人正文明确长期从事特殊环境作业机器人智能控制导航、复杂作业技能学习优化、医疗服务交互控制。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1163.htm",
+            "title": "宋锐 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.sdu.edu.cn/songrui/zh_CN/index.htm",
+            "title": "宋锐 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "宋锐 · 公开研究方向",
+        "affiliation": {
+          "textZh": "控制科学与工程学院 / 机器人研究中心",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/1163.htm",
+              "title": "宋锐 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.sdu.edu.cn/songrui/zh_CN/index.htm",
+              "title": "宋锐 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "特殊环境机器人导航",
+          "复杂作业技能学习",
+          "医疗服务机器人交互"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/1163.htm",
+              "title": "宋锐 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.sdu.edu.cn/songrui/zh_CN/index.htm",
+              "title": "宋锐 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读列明来源未见明确2028个人招生，不推断没有计划；项目截至2028不算招生。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1163.htm",
+            "title": "宋锐 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.sdu.edu.cn/songrui/zh_CN/index.htm",
+            "title": "宋锐 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "宋锐 · 山东大学官方资料",
+          "url": "https://sucro.sdu.edu.cn/info/1017/1163.htm"
+        },
+        {
+          "label": "宋锐 · 山东大学官方资料",
+          "url": "https://faculty.sdu.edu.cn/songrui/zh_CN/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2003-09",
+        "earliestDate": "2003-09-01",
+        "latestDate": "2003-09-30",
+        "careerContext": "unknown",
+        "noteZh": "官方入职2003-09，工作经历2003.09山大；此前2001.07–2003.09山东科技大学。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1163.htm",
+            "title": "宋锐 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.sdu.edu.cn/songrui/zh_CN/index.htm",
+            "title": "宋锐 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-liyibin",
+      "cardSummaryZh": "液压四足机器人；独立转向移动机器人；喷浆机器人",
+      "overview": {
+        "textZh": "李贻斌，山东大学控制科学与工程学院 / 机器人研究中心特聘教授。正文列液压四足仿生平台、高速独立驱动转向移动机器人、喷浆机器人。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1164.htm",
+            "title": "李贻斌 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "李贻斌 · 公开研究方向",
+        "affiliation": {
+          "textZh": "控制科学与工程学院 / 机器人研究中心",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/1164.htm",
+              "title": "李贻斌 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "液压四足机器人",
+          "独立转向移动机器人",
+          "喷浆机器人"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/1164.htm",
+              "title": "李贻斌 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读列明来源未见明确2028个人招生，不推断没有计划；项目截至2028不算招生。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1164.htm",
+            "title": "李贻斌 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "李贻斌 · 山东大学官方资料",
+          "url": "https://sucro.sdu.edu.cn/info/1017/1164.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已读中心个人正文无明确首任；人才/项目/晋升年不推断。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1164.htm",
+            "title": "李贻斌 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-rongxuewen",
+      "cardSummaryZh": "腿足仿生机器人；轮式履带机器人；液压伺服控制",
+      "overview": {
+        "textZh": "荣学文，山东大学控制科学与工程学院 / 机器人研究中心研究员。正文明确高动态四足研制，动态稳定控制与高功率密度液压关节。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1165.htm",
+            "title": "荣学文 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "荣学文 · 公开研究方向",
+        "affiliation": {
+          "textZh": "控制科学与工程学院 / 机器人研究中心",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/1165.htm",
+              "title": "荣学文 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "腿足仿生机器人",
+          "轮式履带机器人",
+          "液压伺服控制"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/1165.htm",
+              "title": "荣学文 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读列明来源未见明确2028个人招生，不推断没有计划；项目截至2028不算招生。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1165.htm",
+            "title": "荣学文 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "荣学文 · 山东大学官方资料",
+          "url": "https://sucro.sdu.edu.cn/info/1017/1165.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已读中心个人正文无明确首任；人才/项目/晋升年不推断。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1165.htm",
+            "title": "荣学文 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-zhoulelai",
+      "cardSummaryZh": "柔顺机器人设计控制；人机协作；机器人系统优化",
+      "overview": {
+        "textZh": "周乐来，山东大学控制科学与工程学院 / 机器人研究中心教授。个人正文研究领域明确柔顺机器人设计控制、人机协作。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1169.htm",
+            "title": "周乐来 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "周乐来 · 公开研究方向",
+        "affiliation": {
+          "textZh": "控制科学与工程学院 / 机器人研究中心",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/1169.htm",
+              "title": "周乐来 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "柔顺机器人设计控制",
+          "人机协作",
+          "机器人系统优化"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/1169.htm",
+              "title": "周乐来 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读列明来源未见明确2028个人招生，不推断没有计划；项目截至2028不算招生。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1169.htm",
+            "title": "周乐来 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "周乐来 · 山东大学官方资料",
+          "url": "https://sucro.sdu.edu.cn/info/1017/1169.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已读中心个人正文无明确首任；人才/项目/晋升年不推断。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1169.htm",
+            "title": "周乐来 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-wangchaoqun",
+      "cardSummaryZh": "复杂环境自主导航；主动环境探索",
+      "overview": {
+        "textZh": "王超群，山东大学控制科学与工程学院 / 机器人研究中心教授。正文明确机器人复杂环境自主导航与印迹式环境探索。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1162.htm",
+            "title": "王超群 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.sdu.edu.cn/wangchaoqun1/zh_CN/yjgk/1328023/list/index.htm",
+            "title": "王超群 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "王超群 · 公开研究方向",
+        "affiliation": {
+          "textZh": "控制科学与工程学院 / 机器人研究中心",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/1162.htm",
+              "title": "王超群 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.sdu.edu.cn/wangchaoqun1/zh_CN/yjgk/1328023/list/index.htm",
+              "title": "王超群 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "复杂环境自主导航",
+          "主动环境探索"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/1162.htm",
+              "title": "王超群 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.sdu.edu.cn/wangchaoqun1/zh_CN/yjgk/1328023/list/index.htm",
+              "title": "王超群 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读列明来源未见明确2028个人招生，不推断没有计划；项目截至2028不算招生。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1162.htm",
+            "title": "王超群 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.sdu.edu.cn/wangchaoqun1/zh_CN/yjgk/1328023/list/index.htm",
+            "title": "王超群 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "王超群 · 山东大学官方资料",
+          "url": "https://sucro.sdu.edu.cn/info/1017/1162.htm"
+        },
+        {
+          "label": "王超群 · 山东大学官方资料",
+          "url": "https://faculty.sdu.edu.cn/wangchaoqun1/zh_CN/yjgk/1328023/list/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2021-01",
+        "earliestDate": "2021-01-01",
+        "latestDate": "2021-01-31",
+        "careerContext": "unknown",
+        "noteZh": "官方个人页入职2021-01；当前教授，完整首任岗位履历仍有限，不据人才称号另定年。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1162.htm",
+            "title": "王超群 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.sdu.edu.cn/wangchaoqun1/zh_CN/yjgk/1328023/list/index.htm",
+            "title": "王超群 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-minzhe",
+      "cardSummaryZh": "手术机器人定位导航；点云配准；三维视觉",
+      "overview": {
+        "textZh": "闵哲，山东大学控制科学与工程学院 / 机器人研究中心教授。个人正文列手术导航、机器人辅助手术定位补偿、服务机器人自主电梯操作参与项目。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1160.htm",
+            "title": "闵哲 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.sdu.edu.cn/minzhe/zh_CN/index/1604583/list/index.htm",
+            "title": "闵哲 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "闵哲 · 公开研究方向",
+        "affiliation": {
+          "textZh": "控制科学与工程学院 / 机器人研究中心",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/1160.htm",
+              "title": "闵哲 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.sdu.edu.cn/minzhe/zh_CN/index/1604583/list/index.htm",
+              "title": "闵哲 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "手术机器人定位导航",
+          "点云配准",
+          "三维视觉"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/1160.htm",
+              "title": "闵哲 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.sdu.edu.cn/minzhe/zh_CN/index/1604583/list/index.htm",
+              "title": "闵哲 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读列明来源未见明确2028个人招生，不推断没有计划；项目截至2028不算招生。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1160.htm",
+            "title": "闵哲 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.sdu.edu.cn/minzhe/zh_CN/index/1604583/list/index.htm",
+            "title": "闵哲 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "闵哲 · 山东大学官方资料",
+          "url": "https://sucro.sdu.edu.cn/info/1017/1160.htm"
+        },
+        {
+          "label": "闵哲 · 山东大学官方资料",
+          "url": "https://faculty.sdu.edu.cn/minzhe/zh_CN/index/1604583/list/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2023-04",
+        "earliestDate": "2023-04-01",
+        "latestDate": "2023-04-30",
+        "careerContext": "unknown",
+        "noteZh": "官方履历2023.04起山大教授博导；2020.08–2023.02 UCL研究员，2019.10–2020.08 CUHK博后。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1160.htm",
+            "title": "闵哲 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.sdu.edu.cn/minzhe/zh_CN/index/1604583/list/index.htm",
+            "title": "闵哲 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-wangyuanzhe",
+      "cardSummaryZh": "多机器人相对定位；UGV协同规划控制；异构传感三维建图",
+      "overview": {
+        "textZh": "王元哲，山东大学控制科学与工程学院 / 机器人研究中心教授。本人中心页论文列非完整移动机器人相对位姿估计、UGV队列联合定位规划、协同语义建图。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/2107.htm",
+            "title": "王元哲 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.sdu.edu.cn/wangyuanzhe1/zh_CN/index.htm",
+            "title": "王元哲 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "王元哲 · 公开研究方向",
+        "affiliation": {
+          "textZh": "控制科学与工程学院 / 机器人研究中心",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/2107.htm",
+              "title": "王元哲 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.sdu.edu.cn/wangyuanzhe1/zh_CN/index.htm",
+              "title": "王元哲 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "多机器人相对定位",
+          "UGV协同规划控制",
+          "异构传感三维建图"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/2107.htm",
+              "title": "王元哲 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.sdu.edu.cn/wangyuanzhe1/zh_CN/index.htm",
+              "title": "王元哲 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读列明来源未见明确2028个人招生，不推断没有计划；项目截至2028不算招生。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 本人官网2027招募：依托深圳河套学院的国家人工智能学院专项博士（深瞳计划考核）、山大申请-考核/硕博连读博士、推荐免试硕士。仅本人公开说明，不确认申请者资格、名额或2028通道。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/2107.htm",
+            "title": "王元哲 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.sdu.edu.cn/wangyuanzhe1/zh_CN/index.htm",
+            "title": "王元哲 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "王元哲 · 山东大学官方资料",
+          "url": "https://sucro.sdu.edu.cn/info/1017/2107.htm"
+        },
+        {
+          "label": "王元哲 · 山东大学官方资料",
+          "url": "https://faculty.sdu.edu.cn/wangyuanzhe1/zh_CN/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2024-09",
+        "earliestDate": "2024-09-01",
+        "latestDate": "2024-09-30",
+        "careerContext": "unknown",
+        "noteZh": "2024-09起山大教授；此前NTU研究助理教授/研究员，非在山大读博。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/2107.htm",
+            "title": "王元哲 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.sdu.edu.cn/wangyuanzhe1/zh_CN/index.htm",
+            "title": "王元哲 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-wujiang",
+      "cardSummaryZh": "超声驱动移动机器人；触觉传感",
+      "overview": {
+        "textZh": "吴疆，山东大学控制科学与工程学院 / 机器人研究中心教授。正文明确大功率超声驱动+移动机器人交叉设备与场景应用。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1725.htm",
+            "title": "吴疆 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "吴疆 · 公开研究方向",
+        "affiliation": {
+          "textZh": "控制科学与工程学院 / 机器人研究中心",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/1725.htm",
+              "title": "吴疆 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "超声驱动移动机器人",
+          "触觉传感"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/1725.htm",
+              "title": "吴疆 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读列明来源未见明确2028个人招生，不推断没有计划；项目截至2028不算招生。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1725.htm",
+            "title": "吴疆 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "吴疆 · 山东大学官方资料",
+          "url": "https://sucro.sdu.edu.cn/info/1017/1725.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已读中心个人正文无明确首任；人才/项目/晋升年不推断。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1725.htm",
+            "title": "吴疆 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-chaihui",
+      "cardSummaryZh": "机械臂腿柔顺控制；腿臂协同作业；四足机器人",
+      "overview": {
+        "textZh": "柴汇，山东大学控制科学与工程学院 / 机器人研究中心教授。SCalf液压四足主要设计人员；移动机械臂/腿足动力学与柔顺操作样机。仅核实硕士指导或硕士招生；独立博士指导身份未知，不挂博士参考路径。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/2207.htm",
+            "title": "柴汇 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "柴汇 · 公开研究方向",
+        "affiliation": {
+          "textZh": "控制科学与工程学院 / 机器人研究中心",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/2207.htm",
+              "title": "柴汇 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机械臂腿柔顺控制",
+          "腿臂协同作业",
+          "四足机器人"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/2207.htm",
+              "title": "柴汇 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读列明来源未见明确2028个人招生，不推断没有计划；项目截至2028不算招生。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/2207.htm",
+            "title": "柴汇 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "柴汇 · 山东大学官方资料",
+          "url": "https://sucro.sdu.edu.cn/info/1017/2207.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "中心正文未明确首任。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/2207.htm",
+            "title": "柴汇 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-linmingxing",
+      "cardSummaryZh": "康复机器人共融控制；上肢外骨骼；水下机械臂控制",
+      "overview": {
+        "textZh": "林明星，山东大学机械工程学院教授。官网项目明确柔性面触觉康复机器人共融控制、PNF上肢训练，论文列四关节水下机械臂控制。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/128142.htm",
+            "title": "林明星 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "林明星 · 公开研究方向",
+        "affiliation": {
+          "textZh": "机械工程学院",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1147/128142.htm",
+              "title": "林明星 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "康复机器人共融控制",
+          "上肢外骨骼",
+          "水下机械臂控制"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1147/128142.htm",
+              "title": "林明星 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "未见明确当届招生；未见明确2028个人博士接收，不代表无名额。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/128142.htm",
+            "title": "林明星 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "林明星 · 山东大学官方资料",
+          "url": "https://www.mech.sdu.edu.cn/info/1147/128142.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2004-02",
+        "earliestDate": "2004-02-01",
+        "latestDate": "2004-02-29",
+        "careerContext": "unknown",
+        "noteZh": "2004.2开始本校教学科研；2001.1–2003.5本校博士后排除",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/128142.htm",
+            "title": "林明星 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-guokai",
+      "cardSummaryZh": "机器人刚柔耦合建模与辨识；机器人铣削振动控制；学习运动控制",
+      "overview": {
+        "textZh": "国凯，山东大学机械工程学院教授。主持机器人系统刚柔耦合动力学建模与高精度参数辨识项目、机器人铣削颤振及控制项目；论文列复合学习与自适应机器人控制。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/135525.htm",
+            "title": "国凯 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "国凯 · 公开研究方向",
+        "affiliation": {
+          "textZh": "机械工程学院",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1147/135525.htm",
+              "title": "国凯 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人刚柔耦合建模与辨识",
+          "机器人铣削振动控制",
+          "学习运动控制"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1147/135525.htm",
+              "title": "国凯 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "泛欢迎相关专业报考研究生，未分年度；未见明确2028个人博士接收，不代表无名额。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/135525.htm",
+            "title": "国凯 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "国凯 · 山东大学官方资料",
+          "url": "https://www.mech.sdu.edu.cn/info/1147/135525.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2015-10",
+        "earliestDate": "2015-10-01",
+        "latestDate": "2015-10-31",
+        "careerContext": "unknown",
+        "noteZh": "2015.10本校助理研究员/硕导；2020副教授、2021教授为晋升",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/135525.htm",
+            "title": "国凯 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-yanpeng",
+      "cardSummaryZh": "微纳机器人操控；柔顺机构力敏操作；精密伺服控制",
+      "overview": {
+        "textZh": "闫鹏，山东大学机械工程学院教授。官网列跨尺度机器人化纳米操控项目（合作单位负责人）及支持力敏机器人操作的准恒力柔顺机构论文。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/137732.htm",
+            "title": "闫鹏 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "闫鹏 · 公开研究方向",
+        "affiliation": {
+          "textZh": "机械工程学院",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1147/137732.htm",
+              "title": "闫鹏 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "微纳机器人操控",
+          "柔顺机构力敏操作",
+          "精密伺服控制"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1147/137732.htm",
+              "title": "闫鹏 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "2028为项目结束年份，非招生；未见明确2028个人博士接收，不代表无名额。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/137732.htm",
+            "title": "闫鹏 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "闫鹏 · 山东大学官方资料",
+          "url": "https://www.mech.sdu.edu.cn/info/1147/137732.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2011-11",
+        "earliestDate": "2011-11-01",
+        "latestDate": "2011-11-30",
+        "careerContext": "unknown",
+        "noteZh": "2011.11本校教授；此前美国企业工作和俄亥俄州立博士后",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/137732.htm",
+            "title": "闫鹏 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-zhoujun",
+      "cardSummaryZh": "LiDAR SLAM导航；AGV规划与定位；机器人点云位姿优化",
+      "overview": {
+        "textZh": "周军，山东大学机械工程学院教授。主持激光SLAM自主导航防疫机器人与物流AGV项目，列点云位姿优化、绕障控制、反光柱定位等授权/申请专利。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/128201.htm",
+            "title": "周军 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "周军 · 公开研究方向",
+        "affiliation": {
+          "textZh": "机械工程学院",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1147/128201.htm",
+              "title": "周军 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "LiDAR SLAM导航",
+          "AGV规划与定位",
+          "机器人点云位姿优化"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1147/128201.htm",
+              "title": "周军 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "未见明确当届招生；未见明确2028个人博士接收，不代表无名额。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/128201.htm",
+            "title": "周军 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "周军 · 山东大学官方资料",
+          "url": "https://www.mech.sdu.edu.cn/info/1147/128201.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2004-07",
+        "earliestDate": "2004-07-01",
+        "latestDate": "2004-07-31",
+        "careerContext": "unknown",
+        "noteZh": "2004.7起本校制造自动化研究所工作，2009–2012博士后晚于该任职，不以博后起点代替首任",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/128201.htm",
+            "title": "周军 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-hutianliang",
+      "cardSummaryZh": "机器人焊接工艺规划；机器人示教器；数字孪生制造",
+      "overview": {
+        "textZh": "胡天亮，山东大学机械工程学院教授。列机器人焊接智能工艺规划任务数据模型论文及基于Protobuf机器人示教器软件；工业制造主线，不泛化导航。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/132560.htm",
+            "title": "胡天亮 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "胡天亮 · 公开研究方向",
+        "affiliation": {
+          "textZh": "机械工程学院",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1147/132560.htm",
+              "title": "胡天亮 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人焊接工艺规划",
+          "机器人示教器",
+          "数字孪生制造"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1147/132560.htm",
+              "title": "胡天亮 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "未见明确当届招生；未见明确2028个人博士接收，不代表无名额。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/132560.htm",
+            "title": "胡天亮 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "胡天亮 · 山东大学官方资料",
+          "url": "https://www.mech.sdu.edu.cn/info/1147/132560.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2009-01",
+        "earliestDate": "2009-01-01",
+        "latestDate": "2009-01-31",
+        "careerContext": "unknown",
+        "noteZh": "2009.01本校讲师；2014副教授、2020教授均为晋升",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/132560.htm",
+            "title": "胡天亮 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-jishuai",
+      "cardSummaryZh": "机器人加工误差补偿；机械臂轨迹跟踪；吸取区域预测",
+      "overview": {
+        "textZh": "姬帅，山东大学机械工程学院研究员。正文列数字孪生机器人加工、混乱制造场景吸取区域预测、机械臂轨迹跟踪与机器人加工误差补偿。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1538/137213.htm",
+            "title": "姬帅 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "姬帅 · 公开研究方向",
+        "affiliation": {
+          "textZh": "机械工程学院",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1538/137213.htm",
+              "title": "姬帅 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人加工误差补偿",
+          "机械臂轨迹跟踪",
+          "吸取区域预测"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1538/137213.htm",
+              "title": "姬帅 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "未见明确当届招生；未见明确2028个人博士接收，不代表无名额。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1538/137213.htm",
+            "title": "姬帅 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "姬帅 · 山东大学官方资料",
+          "url": "https://www.mech.sdu.edu.cn/info/1538/137213.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2022-09",
+        "earliestDate": "2022-09-01",
+        "latestDate": "2022-09-30",
+        "careerContext": "unknown",
+        "noteZh": "2022.9起本校研究员；2014–2022山东建筑大学任职，不能混为山东大学",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1538/137213.htm",
+            "title": "姬帅 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-zhaoguorui",
+      "cardSummaryZh": "矿山装备视觉位姿测量；三维动态重建；智能矿山机器人",
+      "overview": {
+        "textZh": "赵国瑞，山东大学机械工程学院教授。主持井下采场与综采装备位姿视觉测量、综采工作面视觉测量三维重构，项目列煤矿机器人集群；不扩展到通用移动机器人。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/136132.htm",
+            "title": "赵国瑞 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "赵国瑞 · 公开研究方向",
+        "affiliation": {
+          "textZh": "机械工程学院",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1147/136132.htm",
+              "title": "赵国瑞 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "矿山装备视觉位姿测量",
+          "三维动态重建",
+          "智能矿山机器人"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1147/136132.htm",
+              "title": "赵国瑞 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "未见明确当届招生；未见明确2028个人博士接收，不代表无名额。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/136132.htm",
+            "title": "赵国瑞 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "赵国瑞 · 山东大学官方资料",
+          "url": "https://www.mech.sdu.edu.cn/info/1147/136132.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2023-04",
+        "earliestDate": "2023-04-01",
+        "latestDate": "2023-04-30",
+        "careerContext": "unknown",
+        "noteZh": "2023.04加入本校任教授/博导；此前中煤科工任职",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/136132.htm",
+            "title": "赵国瑞 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-wangziran",
+      "cardSummaryZh": "机器人电子皮肤；应力应变传感；智能传感信号识别",
+      "overview": {
+        "textZh": "王子然，山东大学机械工程学院研究员。研究方向直接列应力应变传感器与机器人电子皮肤；主要生物/器件传感，不等同机器人控制或导航。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/135687.htm",
+            "title": "王子然 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "王子然 · 公开研究方向",
+        "affiliation": {
+          "textZh": "机械工程学院",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1147/135687.htm",
+              "title": "王子然 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人电子皮肤",
+          "应力应变传感",
+          "智能传感信号识别"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1147/135687.htm",
+              "title": "王子然 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "泛欢迎报考与常年博士后；2028为项目年份；未见明确2028个人博士接收，不代表无名额。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/135687.htm",
+            "title": "王子然 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "王子然 · 山东大学官方资料",
+          "url": "https://www.mech.sdu.edu.cn/info/1147/135687.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2021",
+        "earliestDate": "2021-01-01",
+        "latestDate": "2021-12-31",
+        "careerContext": "unknown",
+        "noteZh": "官网履历2021至今本校研究员/博导；不从网页2016发布时间推首任",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1147/135687.htm",
+            "title": "王子然 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-lixueyong",
+      "cardSummaryZh": "机器人触觉反馈；康复机器人交互控制；三维视觉检测",
+      "overview": {
+        "textZh": "李学勇，山东大学机械工程学院副教授。官网具体列机器人触觉力检测、力反馈与控制、康复医用机器人稳定操控及视觉三维检测。仅核实硕士指导或硕士招生；独立博士指导身份未知，不挂博士参考路径。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1149/128371.htm",
+            "title": "李学勇 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "李学勇 · 公开研究方向",
+        "affiliation": {
+          "textZh": "机械工程学院",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1149/128371.htm",
+              "title": "李学勇 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人触觉反馈",
+          "康复机器人交互控制",
+          "三维视觉检测"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1149/128371.htm",
+              "title": "李学勇 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "仅明确硕导，不证明博士指导或2028接收；未见明确2028个人博士接收，不代表无名额。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1149/128371.htm",
+            "title": "李学勇 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "李学勇 · 山东大学官方资料",
+          "url": "https://www.mech.sdu.edu.cn/info/1149/128371.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2003-04",
+        "earliestDate": "2003-04-01",
+        "latestDate": "2003-04-30",
+        "careerContext": "unknown",
+        "noteZh": "2003.04本校助教，2005讲师、2011副教授为晋升；2008博士毕业非首任",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1149/128371.htm",
+            "title": "李学勇 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-renzhongjing",
+      "cardSummaryZh": "柔性爬行机器人；微机器人可重构；介入微装置控制",
+      "overview": {
+        "textZh": "任仲靖，山东大学机械工程学院助理研究员。列形状记忆合金驱动软体爬行机器人、微机器人梁结构可重构论文及脑血管主动导引取栓微装置项目。仅核实硕士指导或硕士招生；独立博士指导身份未知，不挂博士参考路径。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1150/136340.htm",
+            "title": "任仲靖 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "任仲靖 · 公开研究方向",
+        "affiliation": {
+          "textZh": "机械工程学院",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1150/136340.htm",
+              "title": "任仲靖 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "柔性爬行机器人",
+          "微机器人可重构",
+          "介入微装置控制"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1150/136340.htm",
+              "title": "任仲靖 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "明确欢迎报考硕士；未见当届年份；未见明确2028个人博士接收，不代表无名额。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1150/136340.htm",
+            "title": "任仲靖 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "任仲靖 · 山东大学官方资料",
+          "url": "https://www.mech.sdu.edu.cn/info/1150/136340.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2021-10",
+        "earliestDate": "2021-10-01",
+        "latestDate": "2021-10-31",
+        "careerContext": "unknown",
+        "noteZh": "2021.10本校助理研究员；2020–2021美国博士后排除",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1150/136340.htm",
+            "title": "任仲靖 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-liuyang",
+      "cardSummaryZh": "机器人铣削感知；微弱颤振诊断；主动振动抑制",
+      "overview": {
+        "textZh": "刘洋，山东大学机械工程学院助理研究员。主持机器人铣削非平稳早期颤振在线辨识及智能诊断主动抑制项目；多移动操作机器人仅参与。仅核实硕士指导或硕士招生；独立博士指导身份未知，不挂博士参考路径。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1150/135705.htm",
+            "title": "刘洋 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "刘洋 · 公开研究方向",
+        "affiliation": {
+          "textZh": "机械工程学院",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1150/135705.htm",
+              "title": "刘洋 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人铣削感知",
+          "微弱颤振诊断",
+          "主动振动抑制"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://www.mech.sdu.edu.cn/info/1150/135705.htm",
+              "title": "刘洋 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "仅明确硕导，未见当届年份；未见明确2028个人博士接收，不代表无名额。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1150/135705.htm",
+            "title": "刘洋 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "刘洋 · 山东大学官方资料",
+          "url": "https://www.mech.sdu.edu.cn/info/1150/135705.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2022",
+        "earliestDate": "2022-01-01",
+        "latestDate": "2022-12-31",
+        "careerContext": "unknown",
+        "noteZh": "履历2022起本校助理研究员；未给月份",
+        "sources": [
+          {
+            "url": "https://www.mech.sdu.edu.cn/info/1150/135705.htm",
+            "title": "刘洋 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-hanwencheng",
+      "cardSummaryZh": "自动驾驶3D目标检测；单目深度估计；3D语义占用与闭环仿真",
+      "overview": {
+        "textZh": "韩文程，山东大学控制科学与工程学院教授。正文列弱监督单目3D检测、自监督深度、DME-Driver、ALOcc及DrivingSphere等具体任务；机器人控制仅方向标签，不据此称已有实机控制成果。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/hanwencheng/zh_CN/index.htm",
+            "title": "韩文程 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "韩文程 · 公开研究方向",
+        "affiliation": {
+          "textZh": "控制科学与工程学院",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/hanwencheng/zh_CN/index.htm",
+              "title": "韩文程 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "自动驾驶3D目标检测",
+          "单目深度估计",
+          "3D语义占用与闭环仿真"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/hanwencheng/zh_CN/index.htm",
+              "title": "韩文程 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "未见明确当届个人招生；未见2028明确接收。 公开计划不是当前余位；正式申请资格、通道、资助与接收须另核。 未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/hanwencheng/zh_CN/index.htm",
+            "title": "韩文程 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "韩文程 · 山东大学官方资料",
+          "url": "https://faculty.sdu.edu.cn/hanwencheng/zh_CN/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2026-03",
+        "earliestDate": "2026-03-01",
+        "latestDate": "2026-03-31",
+        "careerContext": "unknown",
+        "noteZh": "官网入职字段及履历一致，此前境外博士后不计本校任职",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/hanwencheng/zh_CN/index.htm",
+            "title": "韩文程 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-zhangcong",
+      "cardSummaryZh": "机器人视觉导航规划；低空感知与决策；无人集群规划控制",
+      "overview": {
+        "textZh": "张聪，山东大学控制科学与工程学院教授。官方研究方向具体列机器人视觉导航规划、空地协同、无人集群规划控制；属拟/现方向陈述，尚未核实机项目或全文效果。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/~i2EJn2/zh_CN/index.htm",
+            "title": "张聪 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "张聪 · 公开研究方向",
+        "affiliation": {
+          "textZh": "控制科学与工程学院",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/~i2EJn2/zh_CN/index.htm",
+              "title": "张聪 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人视觉导航规划",
+          "低空感知与决策",
+          "无人集群规划控制"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/~i2EJn2/zh_CN/index.htm",
+              "title": "张聪 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读官网未见明确2028个人接收，不能据2027招募推断2028计划或当前余位。 现正招收2027级博士、硕士且页称尚有名额；不转为2028或年度资格；未见2028明确接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。 尚有名额仅为网页读取时点的声明，未确认实时剩余。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/~i2EJn2/zh_CN/index.htm",
+            "title": "张聪 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "张聪 · 山东大学官方资料",
+          "url": "https://faculty.sdu.edu.cn/~i2EJn2/zh_CN/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2025-12",
+        "earliestDate": "2025-12-01",
+        "latestDate": "2025-12-31",
+        "careerContext": "unknown",
+        "noteZh": "官网入职字段及履历一致，此前境外博士后不计本校任职",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/~i2EJn2/zh_CN/index.htm",
+            "title": "张聪 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-liuguoliang",
+      "cardSummaryZh": "机器人感知与自主导航；人机安全协作；多模态知识推理",
+      "overview": {
+        "textZh": "刘国良，山东大学控制科学与工程学院教授。正式正文明确无人系统环境感知、自主导航和安全交互，并主持智能机器人专项；具体项目成果仍需逐篇论文核。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/liuguoliang1",
+            "title": "刘国良 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "刘国良 · 公开研究方向",
+        "affiliation": {
+          "textZh": "控制科学与工程学院",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/liuguoliang1",
+              "title": "刘国良 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人感知与自主导航",
+          "人机安全协作",
+          "多模态知识推理"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/liuguoliang1",
+              "title": "刘国良 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读官网未见明确2028个人接收，不能据2027招募推断2028计划或当前余位。 明确欢迎2027级博士，另长期每年1–2博士/3–5硕士；不能把长期数字视为2027余位；未见2028明确接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/liuguoliang1",
+            "title": "刘国良 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "刘国良 · 山东大学官方资料",
+          "url": "https://faculty.sdu.edu.cn/liuguoliang1"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2014-09",
+        "earliestDate": "2014-09-01",
+        "latestDate": "2014-09-30",
+        "careerContext": "unknown",
+        "noteZh": "2014.09本校副研究员，后续副教授/教授为晋升",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/liuguoliang1",
+            "title": "刘国良 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-songran",
+      "cardSummaryZh": "机器人技能学习；智能导航；三维显著性分析",
+      "overview": {
+        "textZh": "宋然，山东大学控制科学与工程学院教授。正式正文明确机器人技能学习、导航、三维显著性检测，并有2027人形机器人VLA博士专题招募。官方正文明确博士生导师；年度资格尚未核到。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/songran/zh_CN/index.htm",
+            "title": "宋然 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "宋然 · 公开研究方向",
+        "affiliation": {
+          "textZh": "控制科学与工程学院",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/songran/zh_CN/index.htm",
+              "title": "宋然 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人技能学习",
+          "智能导航",
+          "三维显著性分析",
+          "人形机器人VLA"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/songran/zh_CN/index.htm",
+              "title": "宋然 · 山东大学官方资料",
+              "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读官网未见明确2028个人接收，不能据2027招募推断2028计划或当前余位。 明确2027年山大-北京通用人工智能研究院联合培养博士1名（通计划），人形机器人VLA；公开计划非实时余位，不推2028；未见2028明确接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。 限2027通计划联合博士1名，需VLA或人形机器人运控相关研究经验，并在RSS、CoRL、ICRA、IROS或视觉/机器学习/图形学CCF-A会议发表1篇论文（机器人、人工智能顶刊亦可）；网页计划非无条件接收。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/songran/zh_CN/index.htm",
+            "title": "宋然 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "年度资格、正式通道、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "宋然 · 山东大学官方资料",
+          "url": "https://faculty.sdu.edu.cn/songran/zh_CN/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2020-02",
+        "earliestDate": "2020-02-01",
+        "latestDate": "2020-02-29",
+        "careerContext": "unknown",
+        "noteZh": "官网入职字段、工作履历均2020.02；英国工作和博后非本校任职",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/songran/zh_CN/index.htm",
+            "title": "宋然 · 山东大学官方资料",
+            "section": "官方个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读官方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
     }
   ],
   "reviewRequired": true,
