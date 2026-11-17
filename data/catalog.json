@@ -199633,6 +199633,2372 @@
       ],
       "checkedDate": "2026-11-17",
       "sourceFile": "audits/985-hust-20261117.json"
+    },
+    {
+      "id": "hnu-yangkailun",
+      "name": "杨恺伦",
+      "nameZh": "杨恺伦",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "教授",
+      "topics": [
+        "恶劣天气感知",
+        "多模态融合",
+        "占据感知",
+        "视觉里程计"
+      ],
+      "summary": "官方列CFMW恶劣天气检测、OneOcc足式机器人全景占据及视觉里程计导航任务",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/2954.htm",
+      "routeIds": [
+        "hnu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hnu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://robotics.hnu.edu.cn/info/1176/2954.htm",
+              "title": "杨恺伦 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/2954.htm",
+            "title": "杨恺伦 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "首任本校副教授2023.02；2023.11教授是晋升"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/2954.htm",
+          "title": "杨恺伦 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-yuhongshan",
+      "name": "余洪山",
+      "nameZh": "余洪山",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "教授",
+      "topics": [
+        "三维SLAM",
+        "自主导航",
+        "点云地点识别"
+      ],
+      "summary": "官方列机器人三维SLAM、导航、IMPS视觉惯性地图点选择",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/2950.htm",
+      "routeIds": [
+        "hnu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hnu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://robotics.hnu.edu.cn/info/1176/2950.htm",
+              "title": "余洪山 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/2950.htm",
+            "title": "余洪山 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2007–2018本校副教授，2019教授非首任"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/2950.htm",
+          "title": "余洪山 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-ligen",
+      "name": "李根",
+      "nameZh": "李根",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "教授",
+      "topics": [
+        "机器人操作",
+        "视觉语言动作",
+        "可供性学习"
+      ],
+      "summary": "官方列Evo系列VLA、从第一视角视频学习操作可供性与机器人世界模型",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/4210.htm",
+      "routeIds": [
+        "hnu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hnu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://robotics.hnu.edu.cn/info/1176/4210.htm",
+              "title": "李根 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://genli.top",
+              "title": "李根 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读本人研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "personal_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/4210.htm",
+            "title": "李根 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://genli.top",
+            "title": "李根 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读本人研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2026起本校教授；此前南洋理工Research Fellow不计"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/4210.htm",
+          "title": "李根 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://genli.top",
+          "title": "李根 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读本人研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "personal_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-liuxinqi",
+      "name": "刘鑫琦",
+      "nameZh": "刘鑫琦",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "助理教授",
+      "topics": [
+        "视觉语言导航",
+        "三维路径规划",
+        "视觉里程计"
+      ],
+      "summary": "官网列VLA/VLN机器人控制、未知三维环境避障规划与MBRVO抗模糊里程计",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/3005.htm",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "个人独立博士指导与接收未知。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/3005.htm",
+            "title": "刘鑫琦 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2025.03起本校机器人学院助理教授；2025.06院系变更不重置"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/3005.htm",
+          "title": "刘鑫琦 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "仅核实硕士指导或硕士招生；独立博士指导身份未知，不关联独立博士参考路径。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "2026级博士直博/申请考核招生措辞是个人招募，不证明独立博导资格，不提升2027或2028"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-maojianxu",
+      "name": "毛建旭",
+      "nameZh": "毛建旭",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "教授",
+      "topics": [
+        "机器人多模态感知",
+        "三维检测",
+        "灵巧装配",
+        "巡检路径规划"
+      ],
+      "summary": "官网列机器人精确感知、灵巧装配、巡检机器人路径规划及多视角三维重建",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/3280.htm",
+      "routeIds": [
+        "hnu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hnu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://robotics.hnu.edu.cn/info/1176/3280.htm",
+              "title": "毛建旭 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/3280.htm",
+            "title": "毛建旭 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "履历2004.11起本校副教授、教授；未将博士毕业或外校教职当本校起点"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/3280.htm",
+          "title": "毛建旭 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-lizhiyong",
+      "name": "李智勇",
+      "nameZh": "李智勇",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "教授",
+      "topics": [
+        "多模态感知",
+        "自主无人系统",
+        "灵巧操作"
+      ],
+      "summary": "官网列无人系统感知、技能学习与灵巧操作、公交协同感知",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/2960.htm",
+      "routeIds": [
+        "hnu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hnu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://robotics.hnu.edu.cn/info/1176/2960.htm",
+              "title": "李智勇 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/2960.htm",
+            "title": "李智勇 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2004博士毕业、2006–2007海外博后、2020学者称号均不证明首任"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/2960.htm",
+          "title": "李智勇 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "当前机器人学院名录与计算机目录双列，仅计一人；历史单位不视为新入职"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-xiangbinbin",
+      "name": "项彬彬",
+      "nameZh": "项彬彬",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "助理教授",
+      "topics": [
+        "激光点云分割",
+        "空间感知"
+      ],
+      "summary": "官网列森林城市道路点云语义实例分割及具身空间表示；研究限定三维感知",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/3291.htm",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "个人独立博士指导与接收未知。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/3291.htm",
+            "title": "项彬彬 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2025.11起本校助理教授；此前NIBIO博士后不计"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/3291.htm",
+          "title": "项彬彬 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "仅核实硕士指导或硕士招生；独立博士指导身份未知，不关联独立博士参考路径。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "项目期限至2028不是2028招生"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-zhouyi",
+      "name": "周易",
+      "nameZh": "周易",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "教授",
+      "topics": [
+        "事件相机SLAM",
+        "视觉惯性估计",
+        "无人机导航控制"
+      ],
+      "summary": "官网列事件视觉里程计、SLAM、微型无人机GNC与事件视觉惯性测速",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/2962.htm",
+      "routeIds": [
+        "hnu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hnu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://robotics.hnu.edu.cn/info/1176/2962.htm",
+              "title": "周易 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/2962.htm",
+            "title": "周易 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2021.10起本校教授，五年窗口外；此前HKUST博士后不计"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/2962.htm",
+          "title": "周易 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-yinhuan",
+      "name": "尹欢",
+      "nameZh": "尹欢",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "教授",
+      "topics": [
+        "机器人定位",
+        "建图",
+        "机器人学习"
+      ],
+      "summary": "研究机器人感知、建图定位与机器人学习。",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/3323.htm",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "个人独立博士指导与接收未知。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/3323.htm",
+            "title": "尹欢 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://sites.google.com/view/huanyin-coro",
+            "title": "尹欢 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读本人研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "页面发布日期2026.04.16非入职；正文未列本校首任日期"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/3323.htm",
+          "title": "尹欢 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://sites.google.com/view/huanyin-coro",
+          "title": "尹欢 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读本人研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "personal_body"
+        }
+      ],
+      "caveats": [
+        "仅核实硕士指导或硕士招生；独立博士指导身份未知，不关联独立博士参考路径。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "官网明确机器人感知、建图定位与学习；团队页公开招硕博但不证明独立博士导师身份"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-liruihui",
+      "name": "李瑞辉",
+      "nameZh": "李瑞辉",
+      "institution": "HNU",
+      "department": "计算机学院",
+      "position": "教授",
+      "topics": [
+        "点云补全",
+        "三维场景补全",
+        "SLAM"
+      ],
+      "summary": "官方列PointSLAM++、点云处理与语义场景补全",
+      "profileUrl": "https://csee.hnu.edu.cn/people/liruihui",
+      "routeIds": [
+        "hnu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hnu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://csee.hnu.edu.cn/people/liruihui",
+              "title": "李瑞辉 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://ai.hnu.edu.cn/info/1033/1045.htm",
+              "title": "李瑞辉 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "个人2027计划博士2、硕士4；另国家卓工学院博士1、硕士2，通道分开且非实时余位。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://csee.hnu.edu.cn/people/liruihui",
+            "title": "李瑞辉 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://ai.hnu.edu.cn/info/1033/1045.htm",
+            "title": "李瑞辉 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2022.01本校副教授；2023.11教授、2025/2026行政任命不当首任"
+      },
+      "sources": [
+        {
+          "url": "https://csee.hnu.edu.cn/people/liruihui",
+          "title": "李瑞辉 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://ai.hnu.edu.cn/info/1033/1045.htm",
+          "title": "李瑞辉 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "2027个人计划博士2、硕士4；另国家卓工学院博士1、硕士2，不能混加或作为实时余位"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-yuanjin",
+      "name": "袁进",
+      "nameZh": "袁进",
+      "institution": "HNU",
+      "department": "计算机学院",
+      "position": "副教授",
+      "topics": [
+        "单目三维检测",
+        "车辆重定位",
+        "轨迹预测"
+      ],
+      "summary": "官网列SSD-MonoDETR单目三维检测、车辆重定位和障碍轨迹预测",
+      "profileUrl": "https://csee.hnu.edu.cn/people/yuanjin",
+      "routeIds": [
+        "hnu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hnu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://csee.hnu.edu.cn/people/yuanjin",
+              "title": "袁进 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://csee.hnu.edu.cn/people/yuanjin",
+            "title": "袁进 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2014.09加入本校未列当时首岗位，保留首任未知"
+      },
+      "sources": [
+        {
+          "url": "https://csee.hnu.edu.cn/people/yuanjin",
+          "title": "袁进 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-caiminjie",
+      "name": "蔡敏捷",
+      "nameZh": "蔡敏捷",
+      "institution": "HNU",
+      "department": "计算机学院",
+      "position": "副教授",
+      "topics": [
+        "三维手姿态",
+        "第一视角手物交互",
+        "驾驶感知"
+      ],
+      "summary": "官网列SiMHand三维手姿态、第一视角抓取及驾驶域适应检测",
+      "profileUrl": "https://csee.hnu.edu.cn/people/caiminjie",
+      "routeIds": [
+        "hnu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hnu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://csee.hnu.edu.cn/people/caiminjie",
+              "title": "蔡敏捷 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://csee.hnu.edu.cn/people/caiminjie",
+            "title": "蔡敏捷 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "当前主页未明确本校首次教职；项目起始不代替"
+      },
+      "sources": [
+        {
+          "url": "https://csee.hnu.edu.cn/people/caiminjie",
+          "title": "蔡敏捷 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "2024–2027项目期限非招生；个人站泛硕士招募无明确年度"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-xujinfeng",
+      "name": "徐进锋",
+      "nameZh": "徐进锋",
+      "institution": "HNU",
+      "department": "人工智能先进制造研究院",
+      "position": "助理教授",
+      "topics": [
+        "开放世界三维感知",
+        "点云分割",
+        "三维补全"
+      ],
+      "summary": "官网明确动态开放环境三维理解，个人一手论文列点云语义分割与CasFusionNet场景补全",
+      "profileUrl": "https://ai.hnu.edu.cn/info/1035/1043.htm",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "个人独立博士指导与接收未知。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://ai.hnu.edu.cn/info/1035/1043.htm",
+            "title": "徐进锋 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://jinfengx.github.io/",
+            "title": "徐进锋 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读本人研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "官网明确2026.06本校研究院助理教授"
+      },
+      "sources": [
+        {
+          "url": "https://ai.hnu.edu.cn/info/1035/1043.htm",
+          "title": "徐进锋 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://jinfengx.github.io/",
+          "title": "徐进锋 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读本人研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "personal_body"
+        }
+      ],
+      "caveats": [
+        "独立博士及硕士指导层级尚未核实，不关联独立博士参考路径。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "欢迎博士申请邮件不等于独立博导身份"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-dingyan",
+      "name": "丁岩",
+      "nameZh": "丁岩",
+      "institution": "HNU",
+      "department": "计算机学院",
+      "position": "副教授",
+      "topics": [
+        "三维语义场景补全"
+      ],
+      "summary": "研究基于视觉的三维语义场景补全，官网列本人并列通讯论文MixSSC。",
+      "profileUrl": "https://csee.hnu.edu.cn/people/dingyan",
+      "routeIds": [
+        "hnu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hnu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://csee.hnu.edu.cn/people/dingyan",
+              "title": "丁岩 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "explicit",
+      "openingSummary": "官网2026-09-27更新声明：2028博士剩余指标2、硕士剩余指标4；这是历史公开声明，不代表核验日实时余位；入学季节未知。",
+      "openings": {
+        "phd": "2028博士历史声明剩余指标2；季节未知，非实时余位。",
+        "msc": "2028硕士历史声明剩余指标4；季节未知，非实时余位。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "官网2026-09-27更新：2027博士剩余指标0、硕士剩余指标1；历史声明非实时余位。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "官网2026-09-27更新声明：2028博士剩余指标2、硕士剩余指标4；这是历史公开声明，不代表核验日实时余位；入学季节未知。"
+      },
+      "openingDetails": [
+        {
+          "degree": "PhD",
+          "status": "explicit",
+          "summary": "官网2026-09-27更新声明：2028博士剩余指标2、硕士剩余指标4；这是历史公开声明，不代表核验日实时余位；入学季节未知。",
+          "cycle2028IntakeVerified": true,
+          "cycle2028FallVerified": false,
+          "confirmedVacancy": false,
+          "remainingHeadcountVerified": false,
+          "individualRecruitmentVerified": true,
+          "sourceStatus": "personal_recruitment_statement",
+          "cycle": "2028",
+          "cycle2027IntakeVerified": false,
+          "cycle2027FallVerified": false,
+          "degreeRouteAssociated": false,
+          "associationVerificationStatus": "pending",
+          "sourceUpdatedDate": "2026-09-27",
+          "projectCycleVerified": false,
+          "sources": [
+            {
+              "url": "https://csee.hnu.edu.cn/people/dingyan",
+              "title": "丁岩 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17"
+        }
+      ],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": true,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://csee.hnu.edu.cn/people/dingyan",
+            "title": "丁岩 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2023.12留校助理教授；此前本校博士后不计，2025.09副教授是晋升"
+      },
+      "sources": [
+        {
+          "url": "https://csee.hnu.edu.cn/people/dingyan",
+          "title": "丁岩 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "主方向为高性能计算，三维语义场景补全为交叉研究方向，匹配度需结合本人当前课题确认。",
+        "2028剩余指标是2026-09-27更新的历史公开声明，不代表核验日实时余位；未写入学季",
+        "官方本人通讯论文MixSSC明确基于视觉的三维语义场景补全；主方向是高性能计算，限感知交叉不延伸自主控制"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-jiangyiming",
+      "name": "江一鸣",
+      "nameZh": "江一鸣",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "教授",
+      "topics": [
+        "机器人运动控制",
+        "双臂协同操作",
+        "机器人技能学习"
+      ],
+      "summary": "双臂协作搬运、异步任务轨迹规划、机械臂安全力阻抗控制",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/2963.htm",
+      "routeIds": [
+        "hnu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hnu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://robotics.hnu.edu.cn/info/1176/2963.htm",
+              "title": "江一鸣 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/2963.htm",
+            "title": "江一鸣 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2022副教授首任；2019–2021本校博士后不计；2025教授为晋升"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/2963.htm",
+          "title": "江一鸣 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "学院更名/转院和晋升不作首次本校教职",
+        "正文2026仍有少量硕博指标为旧年度网页声明，不升2027/2028或实时余位"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-wanglikun",
+      "name": "王立坤",
+      "nameZh": "王立坤",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "教授",
+      "topics": [
+        "人机协同",
+        "模仿学习",
+        "机器人装配"
+      ],
+      "summary": "人机协同装配与集群机器人装配单元，模仿学习协同控制",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/2953.htm",
+      "routeIds": [
+        "hnu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hnu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://robotics.hnu.edu.cn/info/1176/2953.htm",
+              "title": "王立坤 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/2953.htm",
+            "title": "王立坤 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2023.10本校教授明确；此前诺丁汉Research Fellow不计本校"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/2953.htm",
+          "title": "王立坤 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "学院更名/转院和晋升不作首次本校教职"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-chenwenrui",
+      "name": "陈文锐",
+      "nameZh": "陈文锐",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "教授",
+      "topics": [
+        "灵巧操作",
+        "多模态机器人感知",
+        "人形机器人"
+      ],
+      "summary": "灵巧臂手技能学习、功能抓取、富接触操作与路径规划",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/3113.htm",
+      "routeIds": [
+        "hnu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hnu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://robotics.hnu.edu.cn/info/1176/3113.htm",
+              "title": "陈文锐 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/3113.htm",
+            "title": "陈文锐 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2017.07开始本校副教授/助理教授教职组合，首个具体等级未分；2025转院与晋升不重置"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/3113.htm",
+          "title": "陈文锐 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "学院更名/转院和晋升不作首次本校教职"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-miaozhiqiang",
+      "name": "缪志强",
+      "nameZh": "缪志强",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "教授",
+      "topics": [
+        "多机器人协同",
+        "跨域无人系统",
+        "安全导航控制"
+      ],
+      "summary": "空地协同、两栖机器人、多机器人安全弹性规划控制",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/3089.htm",
+      "routeIds": [
+        "hnu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hnu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://robotics.hnu.edu.cn/info/1176/3089.htm",
+              "title": "缪志强 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/3089.htm",
+            "title": "缪志强 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2018.09本校副教授；此前港中文博士后排除；2025教授转院不重置"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/3089.htm",
+          "title": "缪志强 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "学院更名/转院和晋升不作首次本校教职"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-liangqiaokang",
+      "name": "梁桥康",
+      "nameZh": "梁桥康",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "教授",
+      "topics": [
+        "机器人力触觉",
+        "多模态感知",
+        "机器人控制"
+      ],
+      "summary": "三维视觉喷涂机器人、协作机器人腕部光纤力传感、微细操控力觉系统",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/3095.htm",
+      "routeIds": [
+        "hnu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hnu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://robotics.hnu.edu.cn/info/1176/3095.htm",
+              "title": "梁桥康 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/3095.htm",
+            "title": "梁桥康 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "已读官网未见首个本校教职履历，不由网页发表时间推入职"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/3095.htm",
+          "title": "梁桥康 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "学院更名/转院和晋升不作首次本校教职"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-zhangwentao",
+      "name": "张文涛",
+      "nameZh": "张文涛",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "教授",
+      "topics": [
+        "多机器人任务分配",
+        "运动规划",
+        "具身机器人"
+      ],
+      "summary": "多机器人动态随机任务分配、分布式鲁棒优化与多车辆协调",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/3321.htm",
+      "routeIds": [
+        "hnu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hnu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://robotics.hnu.edu.cn/info/1176/3321.htm",
+              "title": "张文涛 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/3321.htm",
+            "title": "张文涛 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2026.04本校教授明确；南洋Research Fellow与天津科研岗位不计本校首任"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/3321.htm",
+          "title": "张文涛 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "学院更名/转院和晋升不作首次本校教职"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-yangmin",
+      "name": "杨敏",
+      "nameZh": "杨敏",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "副教授",
+      "topics": [
+        "机器人数据驱动控制",
+        "多机器人协同",
+        "运动规划"
+      ],
+      "summary": "机器人高精度自适应控制、多机器人协同及双臂精密操作",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/2959.htm",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "个人独立博士指导与接收未知。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/2959.htm",
+            "title": "杨敏 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2022.07本校副教授明确，不据2025奖项重置"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/2959.htm",
+          "title": "杨敏 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "仅核实硕士指导或硕士招生；独立博士指导身份未知，不关联独立博士参考路径。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "学院更名/转院和晋升不作首次本校教职"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-chenjielong",
+      "name": "陈捷龙",
+      "nameZh": "陈捷龙",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "助理教授",
+      "topics": [
+        "机器人轨迹跟踪",
+        "无模型控制",
+        "运动规划"
+      ],
+      "summary": "模型未知机器人运动学在线估计、扰动下轨迹跟踪及神经动力学规划",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/4192.htm",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "个人独立博士指导与接收未知。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/4192.htm",
+            "title": "陈捷龙 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2026.07本校助理教授明确；博士毕业并非单独依据"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/4192.htm",
+          "title": "陈捷龙 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "独立博士及硕士指导层级尚未核实，不关联独立博士参考路径。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "学院更名/转院和晋升不作首次本校教职",
+        "仅泛欢迎研究生，博士及硕士导师身份均未明确，不推独立招生资格"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-huangshifeng",
+      "name": "黄石峰",
+      "nameZh": "黄石峰",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "助理教授",
+      "topics": [
+        "机器人动力学辨识",
+        "碰撞检测",
+        "机器人运动规划"
+      ],
+      "summary": "协作机器人碰撞检测、刚柔耦合动力学与参数辨识、无碰撞协同规划和机器人伺服控制",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/3215.htm",
+      "routeIds": [],
+      "routeAssociations": [],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "个人独立博士指导与接收未知。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/3215.htm",
+            "title": "黄石峰 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "明确2025.09本校助理教授；香港博士后及华科/企业工作均不计本校"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/3215.htm",
+          "title": "黄石峰 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "独立博士及硕士指导层级尚未核实，不关联独立博士参考路径。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "仅泛研究生欢迎不推2027/2028；个人导师身份与逐人年度资格分开"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
+    },
+    {
+      "id": "hnu-yaoweijia",
+      "name": "姚伟嘉",
+      "nameZh": "姚伟嘉",
+      "institution": "HNU",
+      "department": "人工智能与机器人学院",
+      "position": "教授",
+      "topics": [
+        "多机器人控制",
+        "运动规划",
+        "自主导航"
+      ],
+      "summary": "导引向量场路径跟踪、无人机导航、未知动力学移动机器人学习预测控制",
+      "profileUrl": "https://robotics.hnu.edu.cn/info/1176/2952.htm",
+      "routeIds": [
+        "hnu-doctoral-faculty-reference-20261117"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "hnu-doctoral-faculty-reference-20261117",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "已核个人博士指导身份；2027年度资格尚未核到",
+          "sources": [
+            {
+              "url": "https://robotics.hnu.edu.cn/info/1176/2952.htm",
+              "title": "姚伟嘉 · 已核身份与研究资料",
+              "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+              "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-17",
+          "sourceCycle": "个人博士指导身份参考，非年度招生资格",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "参考关联不随个人2027/2028招募声明升级为已核项目关联。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收及余位分别核实。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。",
+      "openings": {
+        "phd": "博士指导参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核定个人2027接收。 2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "cycle2028": "已读官网未见明确2028个人接收，泛年度招募及项目年份不替代当届计划；不代表无名额。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年首任不等于新PI或首次独立建组。",
+        "sources": [
+          {
+            "url": "https://robotics.hnu.edu.cn/info/1176/2952.htm",
+            "title": "姚伟嘉 · 已核身份与研究资料",
+            "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+            "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "官网及本人about均未明确本校首教职日期；2024新闻招募不能当入职"
+      },
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/info/1176/2952.htm",
+          "title": "姚伟嘉 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "已核个人博士指导身份；2027年度资格尚未核到。",
+        "2027逐人年度博士招生资格未核实；个人导师身份或个人2027招募不替代年度资格。",
+        "个人方向、项目与论文表不等于全文验证或资源保证。",
+        "仅泛研究生欢迎不推2027/2028；个人导师身份与逐人年度资格分开"
+      ],
+      "checkedDate": "2026-11-17",
+      "sourceFile": "audits/985-hnu-20261117.json"
     }
   ],
   "routes": [
@@ -208637,6 +211003,55 @@
           "title": "华中科技大学计算机学院教师名录",
           "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
           "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "notes": [
+        "一般师资目录不是2027年度资格名单。",
+        "个人招募不共享到整校；不推本科直博、免推免或申请考核资格。"
+      ],
+      "requirements": [],
+      "checkedDate": "2026-11-17",
+      "defaultVisible": false
+    },
+    {
+      "id": "hnu-doctoral-faculty-reference-20261117",
+      "institution": "HNU",
+      "department": "逐人列明院系",
+      "program": "机器人与感知个人博士指导身份参考",
+      "degree": "PhD",
+      "bachelorEligible": false,
+      "noTuimianRequired": false,
+      "noMasterRequired": false,
+      "status": "reference",
+      "eligibilitySummary": "仅官方个人博导身份参考，非2027年度资格；2028个人接收须逐人另核，非已确认项目或当前余位。",
+      "supervisorAssociation": "仅关联已读官方个人博士指导身份，非年度资格名单。",
+      "admissionYear": "个人指导参考，年度待核",
+      "cycle2027Verified": false,
+      "projectCycleVerified": false,
+      "individualRecruitmentVerified": false,
+      "currentCycleVerificationStatus": "pending",
+      "sourceCycle": "个人博士指导身份参考",
+      "sourceCycles": [],
+      "admissionMode": "doctoral_faculty_reference",
+      "evidenceScope": "doctoral_faculty_reference_only",
+      "applicationStatus": "unknown",
+      "applicationMethod": "查当年学校章程及院系办法，与导师确认个人接收；正式网报不以公开邀请替代。",
+      "sources": [
+        {
+          "url": "https://robotics.hnu.edu.cn/szdw/jsjj2.htm",
+          "title": "湖南大学人工智能与机器人学院教师名录",
+          "section": "一般教师名录，仅用于院系/目录定位，不证明逐人招生与首任",
+          "readScope": "已读校方一般教师目录；个人事实见各自来源，不据目录推定招生或首任。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://csee.hnu.edu.cn/jg/syjs",
+          "title": "湖南大学计算机学院教师名录",
+          "section": "一般教师名录，仅用于院系/目录定位，不证明逐人招生与首任",
+          "readScope": "已读校方一般教师目录；个人事实见各自来源，不据目录推定招生或首任。",
           "checkedDate": "2026-11-17",
           "access": "official_body"
         }
