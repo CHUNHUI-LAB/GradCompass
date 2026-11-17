@@ -1,0 +1,1564 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-11-17",
+  "baseCommit": "53cd84e96c01ce637f006e1bd84b3f30eee988f2",
+  "school": "华中科技大学",
+  "notExhaustive": true,
+  "addedCount": 27,
+  "doctoralReferenceCount": 25,
+  "doctoralUnknownCount": 2,
+  "recentAppointmentCount": 0,
+  "recentAppointmentIds": [],
+  "entries": [
+    {
+      "name": "李贤芝",
+      "university": "华中科技大学",
+      "department": "计算机科学与技术学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "点云处理",
+        "三维场景重建",
+        "机器人抓取感知"
+      ],
+      "roboticsEvidence": "官网列工业机器人料箱抓取中的sim-to-real识别定位及部件感知实例分割论文",
+      "firstAppointment": {
+        "date": "2021-11",
+        "precision": "month",
+        "note": "明确本校副教授2021.11起；此前港中文博士后不纳入；月份跨五年边界不直接近期"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028个人计划，非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未核2027逐人年度资格，个人导师身份不替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://en-cs.hust.edu.cn/info/1596/1691.htm",
+          "title": "李贤芝 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://nini-lxz.github.io/",
+          "title": "李贤芝 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读本人研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "personal_body"
+        },
+        {
+          "url": "http://faculty.hust.edu.cn/lixianzhi1/zh_CN/index.htm",
+          "title": "李贤芝 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "caveats": [
+        "个人站Mphil opening未标年份；不转换为2028或本校正式MPhil学位路径",
+        "中文当前教师主页明确博士生导师，旧英文页仅列硕导不据缺项否定"
+      ],
+      "id": "hust-lixianzhi"
+    },
+    {
+      "name": "杨欣",
+      "university": "华中科技大学",
+      "department": "计算机科学与技术学院（电子信息与通信学院兼聘）",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "视觉激光融合里程计",
+        "SLAM",
+        "深度估计",
+        "视觉语言动作"
+      ],
+      "roboticsEvidence": "官方导师平台SDV-LOAM和LIW-OAM，个人站VLA与视觉智能手术",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "当前主页未见首次本校教职时间，2013博士毕业不作入职"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028个人计划，非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未核2027逐人年度资格，个人导师身份不替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://hust.teacher.360eol.com/teacherBasic/preview?jump=1&teacherId=15970",
+          "title": "杨欣 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://xinyang-hust.github.io/",
+          "title": "杨欣 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读本人研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "personal_body"
+        },
+        {
+          "url": "https://cs.hust.edu.cn/szdw/jsml/ayjslb.htm",
+          "title": "杨欣 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "http://faculty.hust.edu.cn/yangxin3/zh_CN/index.htm",
+          "title": "杨欣 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "caveats": [
+        "计算机名录与个人站主聘一致，电信旧页保留兼聘不双录；2024招生不提升"
+      ],
+      "id": "hust-yangxin"
+    },
+    {
+      "name": "王兴刚",
+      "university": "华中科技大学",
+      "department": "电子信息与通信学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "自动驾驶",
+        "三维动态感知",
+        "具身智能"
+      ],
+      "roboticsEvidence": "个人站VAD向量场景自动驾驶、4D Gaussian动态场景、MotionVLA等",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "2014博士毕业不作教职起点，待首岗位履历"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028个人计划，非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未核2027逐人年度资格，个人导师身份不替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://hust.teacher.360eol.com/teacherBasic/preview?teacherId=15973",
+          "title": "王兴刚 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://xwcv.github.io/index_cn.html",
+          "title": "王兴刚 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读本人研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "personal_body"
+        },
+        {
+          "url": "http://faculty.hust.edu.cn/xwang/zh_CN/index.htm",
+          "title": "王兴刚 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "caveats": [
+        "官方中文名为王兴刚；2024招生不提升2027/2028"
+      ],
+      "id": "hust-wangxinggang"
+    },
+    {
+      "name": "杨卫",
+      "university": "华中科技大学",
+      "department": "计算机科学与技术学院",
+      "position": "副研究员（教师主页；团队页称副教授）",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "三维场景重建",
+        "人体运动捕捉",
+        "多视图几何"
+      ],
+      "roboticsEvidence": "个人主页列SfM、人体重建、CAST场景恢复；任务限三维视觉建模",
+      "firstAppointment": {
+        "date": "2021-10",
+        "precision": "month",
+        "note": "工作履历明确2021.10起本校副研究员，2021.11.17五年窗口外"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028个人计划，非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未核2027逐人年度资格，个人导师身份不替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "http://faculty.hust.edu.cn/weiyangcs/zh_CN/index/2404039/list/index.htm",
+          "title": "杨卫 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://weiyang-hust.github.io/",
+          "title": "杨卫 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读本人研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "personal_body"
+        },
+        {
+          "url": "https://media.hust.edu.cn/tdcy.htm",
+          "title": "杨卫 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "caveats": [
+        "职级两来源不同保留原文，不把副研究员自动转副教授；未据3D渲染推自主导航"
+      ],
+      "id": "hust-yangwei"
+    },
+    {
+      "name": "管涛",
+      "university": "华中科技大学",
+      "department": "计算机科学与技术学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "多视图三维重建",
+        "神经表面重建"
+      ],
+      "roboticsEvidence": "同团队一手论文表列C2F2NeUS、textureless-resilient MVS，官方实验室大场景几何重建",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "简介2010进入本校教学科研，但首岗位未写明；不填精确首任"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028个人计划，非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未核2027逐人年度资格，个人导师身份不替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "http://faculty.hust.edu.cn/guantao1/zh_CN/index.htm",
+          "title": "管涛 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://weiyang-hust.github.io/",
+          "title": "管涛 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读本人研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "personal_body"
+        },
+        {
+          "url": "https://media.hust.edu.cn/yjfx.htm",
+          "title": "管涛 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "caveats": [],
+      "id": "hust-guantao"
+    },
+    {
+      "name": "鲜可",
+      "university": "华中科技大学",
+      "department": "电子信息与通信学院",
+      "position": "副教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "鲁棒深度估计",
+        "视频深度稳定",
+        "三维动态生成"
+      ],
+      "roboticsEvidence": "官网NVDS+、Robust Monocular Depth Estimation和ViTA，研究限三维感知层",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "2021.10–2023.11南洋博士后；当前履历未载本校首任日期，不以2024人才入选替代"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028个人计划，非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未核2027逐人年度资格，个人导师身份不替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "http://faculty.hust.edu.cn/XianKe/zh_CN/index/2541862/list/index.htm",
+          "title": "鲜可 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "caveats": [
+        "硕导明确，未核独立博导；泛具身标签不补出导航/控制任务"
+      ],
+      "id": "hust-xianke"
+    },
+    {
+      "name": "陶文兵",
+      "university": "华中科技大学",
+      "department": "人工智能与自动化学院／多谱信息智能处理技术全国重点实验室",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "机器人视觉导航",
+        "三维点云处理",
+        "无人驾驶",
+        "机器人目标识别"
+      ],
+      "roboticsEvidence": "教师正文直接列机器人视觉导航、机器人目标识别与大场景重建",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "当前个人页无首任履历；不以博士毕业或杭州研究院职务推日期"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028个人计划，非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未核2027逐人年度资格，个人导师身份不替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "http://faculty.hust.edu.cn/taowenbing/zh_CN/index/1485744/list/index.htm",
+          "title": "陶文兵 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "caveats": [],
+      "id": "hust-taowenbing"
+    },
+    {
+      "name": "曹治国",
+      "university": "华中科技大学",
+      "department": "人工智能与自动化学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "单目深度预测",
+        "图像配准",
+        "三维场景重建"
+      ],
+      "roboticsEvidence": "教师正文直接列单目深度预测、三维重建及神经辐射场",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "1990.4起本校工作未给首岗位，保持未知；2001博士毕业不是首任"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028个人计划，非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未核2027逐人年度资格，个人导师身份不替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "http://faculty.hust.edu.cn/caozhiguo1/zh_CN/index.htm",
+          "title": "曹治国 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "caveats": [
+        "任务限3D感知，不从泛计算机视觉推自主系统控制"
+      ],
+      "id": "hust-caozhiguo"
+    },
+    {
+      "name": "杨铀",
+      "university": "华中科技大学",
+      "department": "电子信息与通信学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "自动驾驶三维感知",
+        "相机激光配准",
+        "4D占用预测",
+        "无人机成像"
+      ],
+      "roboticsEvidence": "官网列FSF-Net自动驾驶4D占用预测、图像点云配准及主从无人机成像",
+      "firstAppointment": {
+        "date": "2013-03",
+        "precision": "month",
+        "note": "学院主页工作履历2013.3起讲师（2013–14），不取2020教授晋升；清华博后排除"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028个人计划，非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未核2027逐人年度资格，个人导师身份不替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://eic.hust.edu.cn/professor/yangyou/",
+          "title": "杨铀 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://hust.teacher.360eol.com/teacherBasic/preview?jump=1&teacherId=15968",
+          "title": "杨铀 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "caveats": [],
+      "id": "hust-yangyou"
+    },
+    {
+      "name": "刘琼",
+      "university": "华中科技大学",
+      "department": "电子信息与通信学院（教师页单位栏另列光学与电子信息学院，待核）",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "自动驾驶4D占用预测",
+        "图像点云配准",
+        "机器人自然交互"
+      ],
+      "roboticsEvidence": "教师页FSF-Net和MinCD-PnP；学院页三共融机器人深度注意力交互项目",
+      "firstAppointment": {
+        "date": "2009-10",
+        "precision": "month",
+        "note": "完整履历2009.10本校讲师明确；2010.4–2012.4清华博后与已明确教职并列，不取消此前教职"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028个人计划，非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未核2027逐人年度资格，个人导师身份不替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "http://faculty.hust.edu.cn/liuqiong6/zh_CN/more/1375513/gzjlgd/index.htm",
+          "title": "刘琼 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "http://faculty.hust.edu.cn/liuqiong6/zh_CN/index.htm",
+          "title": "刘琼 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://eic.hust.edu.cn/professor/liuqiong/",
+          "title": "刘琼 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "caveats": [
+        "学院单位栏与个人简介/履历/电信名录不一致，保留差异不猜转院"
+      ],
+      "id": "hust-liuqiong"
+    },
+    {
+      "name": "白翔",
+      "university": "华中科技大学",
+      "department": "软件学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "点云三维感知",
+        "自动驾驶世界模型",
+        "机器人操作"
+      ],
+      "roboticsEvidence": "当前官方教师页点云论文，合作作者个人站列机器人操作、HERMES与ORION自动驾驶论文；实验室官网自动驾驶视觉中心",
+      "firstAppointment": {
+        "date": "2010-02",
+        "precision": "month",
+        "note": "本校副教授2010.2起，2013.12教授晋升非首任；博士期间海外访问不作教职"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028个人计划，非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未核2027逐人年度资格，个人导师身份不替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "http://faculty.hust.edu.cn/baixiang/zh_CN/index.htm",
+          "title": "白翔 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://sse.hust.edu.cn/info/1083/3520.htm",
+          "title": "白翔 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://dk-liang.github.io/",
+          "title": "白翔 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读本人研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "personal_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "caveats": [
+        "旧履历教授段截止2022.9不作离职，当前官方学院院长和在职身份明确；联合指导不意味2028名额"
+      ],
+      "id": "hust-baixiang"
+    },
+    {
+      "name": "梁定康",
+      "university": "华中科技大学",
+      "department": "软件学院（CCF会议主办方简介明确）",
+      "position": "助理教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "机器人操作",
+        "自动驾驶VLA",
+        "三维点云",
+        "世界模型"
+      ],
+      "roboticsEvidence": "个人主页列动态环境机器人操作、TurboVLA、MindDrive与三维点云任务",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "现任助理教授由本人主页与CCF报告明确；已读正文未明确首任起始日期，2025毕业不作入职"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028个人计划，非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未核2027逐人年度资格，个人导师身份不替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "https://dk-liang.github.io/",
+          "title": "梁定康 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读本人研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "personal_body"
+        },
+        {
+          "url": "https://www.ccf.org.cn/Media_list/cncc/2026-10-15/940766.shtml",
+          "title": "梁定康 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读CCF会议主办方正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "organizer_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "caveats": [
+        "2027硕士及直博/博士个人声明，博士明确与白翔联合指导；独立博士身份未知，不关联独立博士参考路径；硕士接收不推MSc/MPhil学位",
+        "学院职称目录尚未列名，当前职位交叉采用本人主页与会议主办方，不称校方年度资格已核"
+      ],
+      "recruitment2027": {
+        "status": "personal_statement",
+        "note": "2027硕士与直博/博士（博士与白翔联合指导），相关项目、论文或系统经验优先；不是实时余位或逐人年度资格"
+      },
+      "id": "hust-liangdingkang"
+    },
+    {
+      "name": "王跃嵩",
+      "university": "华中科技大学",
+      "department": "计算机科学与技术学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "topics": [
+        "多视图立体重建",
+        "弱纹理三维重建"
+      ],
+      "roboticsEvidence": "同团队官方链接个人论文页列其首作者Adaptive Patch Deformation for Textureless-Resilient Multi-View Stereo",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "教师工作履历空，不以2021博士毕业推入职"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读个人来源未见明确2028个人计划，非无名额结论"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "未核2027逐人年度资格，个人导师身份不替代"
+      },
+      "routeIds": [],
+      "sources": [
+        {
+          "url": "http://faculty.hust.edu.cn/wangyuesong/zh_CN/index.htm",
+          "title": "王跃嵩 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://weiyang-hust.github.io/",
+          "title": "王跃嵩 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读本人研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "personal_body"
+        },
+        {
+          "url": "https://media.hust.edu.cn/tdcy.htm",
+          "title": "王跃嵩 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "classification": "research_main_candidate",
+      "reviewStatus": "official_body_read_independently_cross_checked",
+      "caveats": [],
+      "id": "hust-wangyuesong"
+    },
+    {
+      "name": "白坤",
+      "university": "华中科技大学",
+      "department": "机械科学与工程学院",
+      "position": "教授",
+      "homepage": "https://mse.hust.edu.cn/info/1142/1325.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "identityEvidence": "个人正文职衔；机械学院2026年拟招收博士研究生教师目录逐名列出（非2027年度）",
+      "topics": [
+        "机器人驱动控制",
+        "医疗机器人",
+        "力反馈操作"
+      ],
+      "roboticsEvidence": "球面腕运动阻抗控制、主从力反馈操控与柔顺外骨骼",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "未见首任教研岗位日期；不能由博士毕业或博士后推断"
+      },
+      "firstLocalNonPostdocAppointment": null,
+      "appointmentEvidence": "未见首任教研岗位日期；不能由博士毕业或博士后推断",
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028计划；项目起止年份不算招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "2026拟招生博士目录不能替代2027年度资格"
+      },
+      "qualification2026": {
+        "status": "listed",
+        "source": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+        "note": "仅该年度拟招收博士教师目录"
+      },
+      "sources": [
+        {
+          "url": "https://mse.hust.edu.cn/info/1142/1325.htm",
+          "title": "白坤 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+          "title": "白坤 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "id": "hust-baikun",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "赵欢",
+      "university": "华中科技大学",
+      "department": "机械科学与工程学院",
+      "position": "教授",
+      "homepage": "https://mse.hust.edu.cn/info/1142/1342.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "identityEvidence": "个人正文职衔；机械学院2026年拟招收博士研究生教师目录逐名列出（非2027年度）",
+      "topics": [
+        "机器人学习",
+        "多机器人协作",
+        "柔顺加工"
+      ],
+      "roboticsEvidence": "机器人学习编程及跟随、多机器人协作装配、空间机械臂盲搜装配",
+      "firstAppointment": {
+        "date": "2015-11",
+        "precision": "month",
+        "note": "明确2015.11博士后出站留校工作，最初职级未写"
+      },
+      "firstLocalNonPostdocAppointment": "2015-11",
+      "appointmentEvidence": "明确2015.11博士后出站留校工作，最初职级未写",
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028计划；项目起止年份不算招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "2026拟招生博士目录不能替代2027年度资格"
+      },
+      "qualification2026": {
+        "status": "listed",
+        "source": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+        "note": "仅该年度拟招收博士教师目录"
+      },
+      "sources": [
+        {
+          "url": "https://mse.hust.edu.cn/info/1142/1342.htm",
+          "title": "赵欢 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+          "title": "赵欢 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "id": "hust-zhaohuan",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "杨吉祥",
+      "university": "华中科技大学",
+      "department": "机械科学与工程学院",
+      "position": "教授",
+      "homepage": "https://mse.hust.edu.cn/info/1142/1357.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "identityEvidence": "个人正文职衔；机械学院2026年拟招收博士研究生教师目录逐名列出（非2027年度）",
+      "topics": [
+        "机器人力位控制",
+        "轨迹规划",
+        "机器人加工"
+      ],
+      "roboticsEvidence": "机器人磨抛力位控制、轨迹规划与辨识",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "本校与UBC博士后经历但无首个教职日期；中心官网副教授名录滞后，个人页教授"
+      },
+      "firstLocalNonPostdocAppointment": null,
+      "appointmentEvidence": "本校与UBC博士后经历但无首个教职日期；中心官网副教授名录滞后，个人页教授",
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028计划；项目起止年份不算招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "2026拟招生博士目录不能替代2027年度资格"
+      },
+      "qualification2026": {
+        "status": "listed",
+        "source": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+        "note": "仅该年度拟招收博士教师目录"
+      },
+      "sources": [
+        {
+          "url": "https://mse.hust.edu.cn/info/1142/1357.htm",
+          "title": "杨吉祥 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+          "title": "杨吉祥 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "id": "hust-yangjixiang",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "陶波",
+      "university": "华中科技大学",
+      "department": "机械科学与工程学院",
+      "position": "教授",
+      "homepage": "https://mse.hust.edu.cn/info/1142/1328.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "identityEvidence": "个人正文职衔；机械学院2026年拟招收博士研究生教师目录逐名列出（非2027年度）",
+      "topics": [
+        "多机器人协作",
+        "移动机器人导航",
+        "抓取跟踪"
+      ],
+      "roboticsEvidence": "多机器人自主跟踪协同控制、移动机器人非完整约束MPC点稳定及跟踪抓取",
+      "firstAppointment": {
+        "date": "2009-07",
+        "precision": "month",
+        "note": "2009.07博士后出站留校任教；2009.11副教授是后续任职"
+      },
+      "firstLocalNonPostdocAppointment": "2009-07",
+      "appointmentEvidence": "2009.07博士后出站留校任教；2009.11副教授是后续任职",
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028计划；项目起止年份不算招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "2026拟招生博士目录不能替代2027年度资格"
+      },
+      "qualification2026": {
+        "status": "listed",
+        "source": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+        "note": "仅该年度拟招收博士教师目录"
+      },
+      "sources": [
+        {
+          "url": "https://mse.hust.edu.cn/info/1142/1328.htm",
+          "title": "陶波 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+          "title": "陶波 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "id": "hust-taobo",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "吴志刚",
+      "university": "华中科技大学",
+      "department": "机械科学与工程学院",
+      "position": "教授",
+      "homepage": "https://mse.hust.edu.cn/info/1142/1348.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "identityEvidence": "个人正文职衔；机械学院2026年拟招收博士研究生教师目录逐名列出（非2027年度）",
+      "topics": [
+        "软体机器人",
+        "软硬结合抓手",
+        "医疗机器人"
+      ],
+      "roboticsEvidence": "软硬结合抓手与可变形医疗器械；2026博士目录支持个人指导身份，不外推2027",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "未见本校首任日期"
+      },
+      "firstLocalNonPostdocAppointment": null,
+      "appointmentEvidence": "未见本校首任日期",
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028计划；项目起止年份不算招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "2026拟招生博士目录不能替代2027年度资格"
+      },
+      "qualification2026": {
+        "status": "listed",
+        "source": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+        "note": "仅该年度拟招收博士教师目录"
+      },
+      "sources": [
+        {
+          "url": "https://mse.hust.edu.cn/info/1142/1348.htm",
+          "title": "吴志刚 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+          "title": "吴志刚 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "id": "hust-wuzhigang",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "龚泽宇",
+      "university": "华中科技大学",
+      "department": "机械科学与工程学院",
+      "position": "副教授",
+      "homepage": "https://mse.hust.edu.cn/info/1142/10574.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "identityEvidence": "个人正文职衔；机械学院2026年拟招收博士研究生教师目录逐名列出（非2027年度）",
+      "topics": [
+        "视觉伺服",
+        "攀爬机器人",
+        "移动机械臂"
+      ],
+      "roboticsEvidence": "壁面爬行机器人位姿感知和吸附、移动双臂与视觉伺服、RF-SLAM",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "2018.07–2021.10本校博士后；未写后续教职开始日期，不推2021.11"
+      },
+      "firstLocalNonPostdocAppointment": null,
+      "appointmentEvidence": "2018.07–2021.10本校博士后；未写后续教职开始日期，不推2021.11",
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028计划；项目起止年份不算招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "2026拟招生博士目录不能替代2027年度资格"
+      },
+      "qualification2026": {
+        "status": "listed",
+        "source": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+        "note": "仅该年度拟招收博士教师目录"
+      },
+      "sources": [
+        {
+          "url": "https://mse.hust.edu.cn/info/1142/10574.htm",
+          "title": "龚泽宇 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+          "title": "龚泽宇 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "id": "hust-gongzeyu",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "张小俭",
+      "university": "华中科技大学",
+      "department": "机械科学与工程学院",
+      "position": "教授",
+      "homepage": "https://mse.hust.edu.cn/info/1142/1345.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "identityEvidence": "个人正文职衔；机械学院2026年拟招收博士研究生教师目录逐名列出（非2027年度）",
+      "topics": [
+        "机器人路径规划",
+        "点云配准",
+        "机器人加工"
+      ],
+      "roboticsEvidence": "强化学习覆盖磨抛路径规划、机器人铣削振动抑制及点云位姿图检测",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "未见首任日期；2026博士招生方向不当2027或2028"
+      },
+      "firstLocalNonPostdocAppointment": null,
+      "appointmentEvidence": "未见首任日期；2026博士招生方向不当2027或2028",
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028计划；项目起止年份不算招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "2026拟招生博士目录不能替代2027年度资格"
+      },
+      "qualification2026": {
+        "status": "listed",
+        "source": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+        "note": "仅该年度拟招收博士教师目录"
+      },
+      "sources": [
+        {
+          "url": "https://mse.hust.edu.cn/info/1142/1345.htm",
+          "title": "张小俭 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+          "title": "张小俭 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "id": "hust-zhangxiaojian",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "黄涛",
+      "university": "华中科技大学",
+      "department": "机械科学与工程学院",
+      "position": "教授",
+      "homepage": "https://mse.hust.edu.cn/info/1142/1358.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "identityEvidence": "个人正文职衔；机械学院2026年拟招收博士研究生教师目录逐名列出（非2027年度）",
+      "topics": [
+        "多机器人协同控制",
+        "机器人加工"
+      ],
+      "roboticsEvidence": "多机器人博弈协同加工、形变反馈与数字孪生",
+      "firstAppointment": {
+        "date": "2019",
+        "precision": "year",
+        "note": "2019博士后出站留校工作；首任职级未明；目录副教授滞后个人页教授"
+      },
+      "firstLocalNonPostdocAppointment": "2019",
+      "appointmentEvidence": "2019博士后出站留校工作；首任职级未明；目录副教授滞后个人页教授",
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028计划；项目起止年份不算招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "2026拟招生博士目录不能替代2027年度资格"
+      },
+      "qualification2026": {
+        "status": "listed",
+        "source": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+        "note": "仅该年度拟招收博士教师目录"
+      },
+      "sources": [
+        {
+          "url": "https://mse.hust.edu.cn/info/1142/1358.htm",
+          "title": "黄涛 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+          "title": "黄涛 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "id": "hust-huangtao",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "赵兴炜",
+      "university": "华中科技大学",
+      "department": "机械科学与工程学院",
+      "position": "教授",
+      "homepage": "https://mse.hust.edu.cn/info/1142/1361.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "identityEvidence": "个人正文职衔；机械学院2026年拟招收博士研究生教师目录逐名列出（非2027年度）",
+      "topics": [
+        "机器人非线性控制",
+        "双机器人阻抗控制",
+        "移动机械臂定位"
+      ],
+      "roboticsEvidence": "双机器人阻抗协同、actor-critic跟踪、视觉移动机械臂定位及RFID-LiDAR三维建图",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "2020.10起就职机械学院，但之前本校博后与该起点岗位区分不足，首任教职保留未知；名录副教授滞后"
+      },
+      "firstLocalNonPostdocAppointment": null,
+      "appointmentEvidence": "2020.10起就职机械学院，但之前本校博后与该起点岗位区分不足，首任教职保留未知；名录副教授滞后",
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028计划；项目起止年份不算招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "2026拟招生博士目录不能替代2027年度资格"
+      },
+      "qualification2026": {
+        "status": "listed",
+        "source": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+        "note": "仅该年度拟招收博士教师目录"
+      },
+      "sources": [
+        {
+          "url": "https://mse.hust.edu.cn/info/1142/1361.htm",
+          "title": "赵兴炜 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+          "title": "赵兴炜 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "id": "hust-zhaoxingwei",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "严思杰",
+      "university": "华中科技大学",
+      "department": "机械科学与工程学院",
+      "position": "二级教授",
+      "homepage": "https://mse.hust.edu.cn/info/1145/1427.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "identityEvidence": "个人正文职衔；机械学院2026年拟招收博士研究生教师目录逐名列出（非2027年度）",
+      "topics": [
+        "机器人技能学习",
+        "灵巧装配",
+        "覆盖路径规划"
+      ],
+      "roboticsEvidence": "狭窄空间航空发动机装配、全覆盖路径规划及鲁棒点云配准",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "未见首任日期"
+      },
+      "firstLocalNonPostdocAppointment": null,
+      "appointmentEvidence": "未见首任日期",
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028计划；项目起止年份不算招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "2026拟招生博士目录不能替代2027年度资格"
+      },
+      "qualification2026": {
+        "status": "listed",
+        "source": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+        "note": "仅该年度拟招收博士教师目录"
+      },
+      "sources": [
+        {
+          "url": "https://mse.hust.edu.cn/info/1145/1427.htm",
+          "title": "严思杰 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+          "title": "严思杰 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "id": "hust-yansijie",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "丁汉",
+      "university": "华中科技大学",
+      "department": "机械科学与工程学院",
+      "position": "教授",
+      "homepage": "https://mse.hust.edu.cn/info/1142/1346.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "identityEvidence": "个人正文职衔；机械学院2026年拟招收博士研究生教师目录逐名列出（非2027年度）",
+      "topics": [
+        "机器人化智能制造",
+        "视觉伺服",
+        "机器人轨迹规划"
+      ],
+      "roboticsEvidence": "叶片机器人测量操作加工一体化；工业机器人在线路径修正、软机械臂运动控制和视觉伺服",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "页面1989博士、2001长江、2013院士均非明确首任，不推入职"
+      },
+      "firstLocalNonPostdocAppointment": null,
+      "appointmentEvidence": "页面1989博士、2001长江、2013院士均非明确首任，不推入职",
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028计划；项目起止年份不算招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "2026拟招生博士目录不能替代2027年度资格"
+      },
+      "qualification2026": {
+        "status": "listed",
+        "source": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+        "note": "仅该年度拟招收博士教师目录"
+      },
+      "sources": [
+        {
+          "url": "https://mse.hust.edu.cn/info/1142/1346.htm",
+          "title": "丁汉 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+          "title": "丁汉 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "id": "hust-dinghan",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "李文龙",
+      "university": "华中科技大学",
+      "department": "机械科学与工程学院",
+      "position": "二级教授",
+      "homepage": "https://mse.hust.edu.cn/info/1142/1340.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "identityEvidence": "个人正文职衔；机械学院2026年拟招收博士研究生教师目录逐名列出（非2027年度）",
+      "topics": [
+        "机器人手眼标定",
+        "机器人运动规划",
+        "三维点云测量"
+      ],
+      "roboticsEvidence": "双机器人协同测量手眼标定与运动规划、基于测量点云的机器人加工轨迹优化",
+      "firstAppointment": {
+        "date": "2012",
+        "precision": "year",
+        "note": "2012博士后出站并留校任教，年份精度"
+      },
+      "firstLocalNonPostdocAppointment": "2012",
+      "appointmentEvidence": "2012博士后出站并留校任教，年份精度",
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028计划；项目起止年份不算招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "2026拟招生博士目录不能替代2027年度资格"
+      },
+      "qualification2026": {
+        "status": "listed",
+        "source": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+        "note": "仅该年度拟招收博士教师目录"
+      },
+      "sources": [
+        {
+          "url": "https://mse.hust.edu.cn/info/1142/1340.htm",
+          "title": "李文龙 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+          "title": "李文龙 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "id": "hust-liwenlong",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "宋宝",
+      "university": "华中科技大学",
+      "department": "机械科学与工程学院",
+      "position": "研究员",
+      "homepage": "https://mse.hust.edu.cn/info/1145/1419.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "identityEvidence": "个人正文职衔；机械学院2026年拟招收博士研究生教师目录逐名列出（非2027年度）",
+      "topics": [
+        "机器人逆运动学",
+        "机器人路径规划",
+        "伺服控制"
+      ],
+      "roboticsEvidence": "官网专利明确腕部奇异点多构型机器人路径规划、六自由度串联机器人逆运动学",
+      "firstAppointment": {
+        "date": "2008",
+        "precision": "year",
+        "note": "2006–2008港科大博士后；2008人才引进本校数控中心负责团队研发，首任具体职级未写"
+      },
+      "firstLocalNonPostdocAppointment": "2008",
+      "appointmentEvidence": "2006–2008港科大博士后；2008人才引进本校数控中心负责团队研发，首任具体职级未写",
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028计划；项目起止年份不算招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "2026拟招生博士目录不能替代2027年度资格"
+      },
+      "qualification2026": {
+        "status": "listed",
+        "source": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+        "note": "仅该年度拟招收博士教师目录"
+      },
+      "sources": [
+        {
+          "url": "https://mse.hust.edu.cn/info/1145/1419.htm",
+          "title": "宋宝 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://mse.hust.edu.cn/szdw/yjsds/nnzsbsyjsjs2026/qb.htm",
+          "title": "宋宝 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "id": "hust-songbao",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    },
+    {
+      "name": "卢仁智",
+      "university": "华中科技大学",
+      "department": "人工智能与自动化学院",
+      "position": "副教授",
+      "homepage": "http://faculty.hust.edu.cn/lurenzhi/zh_CN/index.htm",
+      "phdSupervisor": true,
+      "masterSupervisor": true,
+      "identityEvidence": "官方个人HTTP主页明确副教授、博士生导师、硕士生导师；2024.11获博导身份不等于年度资格",
+      "topics": [
+        "机器人运动规划",
+        "无人艇协同控制",
+        "深度强化学习"
+      ],
+      "roboticsEvidence": "学院2026新闻正文明确AMPD扩散机器人复杂环境避障规划、无人艇协同围捕控制",
+      "firstAppointment": {
+        "date": "2019-11",
+        "precision": "month",
+        "note": "明确2019.11–2021.10本校讲师；2021.11是晋升副教授，不是入职"
+      },
+      "firstLocalNonPostdocAppointment": "2019-11",
+      "appointmentEvidence": "官方主页工作经历明确2019.11本校讲师",
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028计划；项目起止年份不算招生"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "verified": false,
+        "note": "2024.11个人博导身份不替代2027逐人年度招生资格；该年度资格未核。"
+      },
+      "sources": [
+        {
+          "url": "http://faculty.hust.edu.cn/lurenzhi/zh_CN/index.htm",
+          "title": "卢仁智 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        },
+        {
+          "url": "https://aia.hust.edu.cn/info/1179/11058.htm",
+          "title": "卢仁智 · 已核身份与研究资料",
+          "section": "已核个人身份、研究任务、首任及个人招募；不代表年度资格",
+          "readScope": "已读校方教师平台或学院正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+          "checkedDate": "2026-11-17",
+          "access": "official_body"
+        }
+      ],
+      "id": "hust-lurenzhi",
+      "reviewStatus": "official_body_read_independently_cross_checked"
+    }
+  ],
+  "coverage": "计算机、软件、电子信息、人工智能自动化、机械机器人定向筛查；非全校穷尽。",
+  "limitations": [
+    "全体2027逐人年度博士资格未核。",
+    "未见明确2028个人计划；泛年度及项目年份不替代个人接收。",
+    "梁定康2027联合博士及硕士个人招募另记，不升级年度资格或2028。",
+    "首任不从晋升、博士毕业、人才或项目年份推断。"
+  ]
+}
