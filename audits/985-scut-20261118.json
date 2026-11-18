@@ -1,0 +1,945 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-11-18",
+  "baseCommit": "397123edbf8d4f6f6a17f91392cd06905aaac060",
+  "school": "华南理工大学",
+  "notExhaustive": true,
+  "addedCount": 16,
+  "doctoralReferenceCount": 15,
+  "entries": [
+    {
+      "name": "陈刚",
+      "slug": "scut-chen-gang",
+      "university": "华南理工大学",
+      "department": "吴贤铭智能工程学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "topics": [
+        "机器人安全",
+        "形式化方法",
+        "控制",
+        "人机交互"
+      ],
+      "roboticsEvidence": "研究机器人安全、形式化方法、控制与人机交互。",
+      "firstAppointment": {
+        "date": "2021",
+        "precision": "year",
+        "definition": "首次可核实本校非博士后教研任职；不代表全球首次独立教职或晋升日期",
+        "note": "2021年入职；只有年精度，横跨近五年起点2021-11-18，不能直接判定近五年。"
+      },
+      "sources": [
+        {
+          "url": "https://www2.scut.edu.cn/wusie/2021/1222/c25374a455519/page.htm",
+          "title": "陈刚官方介绍",
+          "checkedDate": "2026-11-18",
+          "access": "official_body",
+          "readScope": "正文",
+          "section": "现职、研究与招生边界"
+        }
+      ],
+      "recruitment": {
+        "general": "一般性招收学生表述，不指定2028。",
+        "cycle2027": "未核实个人2027招生；学校2027章程另列，不能代替个人招生",
+        "cycle2028": "本次已读来源未见明确2028个人招生，不代表没有名额",
+        "degreeSeason2028Verified": false,
+        "remainingVacancyConfirmed": false,
+        "remainingVacancyStatus": "unknown"
+      },
+      "caveats": [
+        "指导风格、学生体验、经费可用性及个人现余名额未核实",
+        "匹配边界：研究机器人安全及控制；不是已验证恶劣天气LiDAR方向。"
+      ],
+      "representativeWorks": [],
+      "id": "scut-chen-gang",
+      "recruitment2028": {
+        "verified": false,
+        "note": "一般性招收学生表述，不指定2028。 本次已读来源未见明确2028个人招生，不代表没有名额 当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027招生；学校2027章程另列，不能代替个人招生"
+    },
+    {
+      "name": "李云泉",
+      "slug": "scut-li-yunquan",
+      "university": "华南理工大学",
+      "department": "吴贤铭智能工程学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "topics": [
+        "软体机器人",
+        "仿生机器人",
+        "智能结构"
+      ],
+      "roboticsEvidence": "围绕软体及仿生机器人开展本体、驱动、智能结构与实验系统研究。",
+      "firstAppointment": {
+        "date": "2022",
+        "precision": "year",
+        "definition": "首次可核实本校非博士后教研任职；不代表全球首次独立教职或晋升日期",
+        "note": "2020—2021港大博士后，2022起华工副教授。"
+      },
+      "sources": [
+        {
+          "url": "https://www2.scut.edu.cn/wusie/2022/0122/c25374a459098/page.htm",
+          "title": "李云泉官方介绍",
+          "checkedDate": "2026-11-18",
+          "access": "official_body",
+          "readScope": "正文",
+          "section": "现职、研究与招生边界"
+        }
+      ],
+      "recruitment": {
+        "general": "一般性欢迎博士及硕士申请，无特定年份。",
+        "cycle2027": "未核实个人2027招生；学校2027章程另列，不能代替个人招生",
+        "cycle2028": "本次已读来源未见明确2028个人招生，不代表没有名额",
+        "degreeSeason2028Verified": false,
+        "remainingVacancyConfirmed": false,
+        "remainingVacancyStatus": "unknown"
+      },
+      "caveats": [
+        "指导风格、学生体验、经费可用性及个人现余名额未核实"
+      ],
+      "representativeWorks": [],
+      "id": "scut-li-yunquan",
+      "recruitment2028": {
+        "verified": false,
+        "note": "一般性欢迎博士及硕士申请，无特定年份。 本次已读来源未见明确2028个人招生，不代表没有名额 当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027招生；学校2027章程另列，不能代替个人招生"
+    },
+    {
+      "name": "周奕彤",
+      "slug": "scut-zhou-yitong",
+      "university": "华南理工大学",
+      "department": "吴贤铭智能工程学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "topics": [
+        "机器人驱动",
+        "柔顺感知控制",
+        "外骨骼",
+        "巡检机器人"
+      ],
+      "roboticsEvidence": "研究机器人驱动和柔顺感知控制，应用包括外骨骼、巡检与仿生机器人。",
+      "firstAppointment": {
+        "date": "2021-03",
+        "precision": "month",
+        "definition": "首次可核实本校非博士后教研任职；不代表全球首次独立教职或晋升日期",
+        "note": "早于2021-11-18滚动五年起点。"
+      },
+      "sources": [
+        {
+          "url": "https://www2.scut.edu.cn/wusie/2021/0315/c25374a421807/page.htm",
+          "title": "周奕彤官方介绍",
+          "checkedDate": "2026-11-18",
+          "access": "official_body",
+          "readScope": "正文",
+          "section": "现职、研究与招生边界"
+        }
+      ],
+      "recruitment": {
+        "general": "欢迎博士、硕士等加入，不指定2028。",
+        "cycle2027": "未核实个人2027招生；学校2027章程另列，不能代替个人招生",
+        "cycle2028": "本次已读来源未见明确2028个人招生，不代表没有名额",
+        "degreeSeason2028Verified": false,
+        "remainingVacancyConfirmed": false,
+        "remainingVacancyStatus": "unknown"
+      },
+      "caveats": [
+        "指导风格、学生体验、经费可用性及个人现余名额未核实",
+        "匹配边界：机器人系统、感知与控制；未证实LiDAR或天气退化研究。"
+      ],
+      "representativeWorks": [],
+      "id": "scut-zhou-yitong",
+      "recruitment2028": {
+        "verified": false,
+        "note": "欢迎博士、硕士等加入，不指定2028。 本次已读来源未见明确2028个人招生，不代表没有名额 当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027招生；学校2027章程另列，不能代替个人招生"
+    },
+    {
+      "name": "钟勇",
+      "slug": "scut-zhong-yong",
+      "university": "华南理工大学",
+      "department": "吴贤铭智能工程学院",
+      "position": "副教授（特聘研究员）",
+      "phdSupervisor": true,
+      "topics": [
+        "水下机器人",
+        "软体机器人",
+        "多机器人协作"
+      ],
+      "roboticsEvidence": "研究仿生水下机器人、软体机器人设计控制及多机器人协作。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "definition": "首次可核实本校非博士后教研任职；不代表全球首次独立教职或晋升日期",
+        "note": "已列外校经历截至2019-01，不能倒推出华工到岗日期。"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.scut.edu.cn/wxmzngcxy/zy46/main.htm",
+          "title": "钟勇官方介绍",
+          "checkedDate": "2026-11-18",
+          "access": "official_body",
+          "readScope": "正文",
+          "section": "现职、研究与招生边界"
+        }
+      ],
+      "recruitment": {
+        "general": "一般性博士/硕士邀请，无年份。",
+        "cycle2027": "未核实个人2027招生；学校2027章程另列，不能代替个人招生",
+        "cycle2028": "本次已读来源未见明确2028个人招生，不代表没有名额",
+        "degreeSeason2028Verified": false,
+        "remainingVacancyConfirmed": false,
+        "remainingVacancyStatus": "unknown"
+      },
+      "caveats": [
+        "指导风格、学生体验、经费可用性及个人现余名额未核实",
+        "匹配边界：仿生水下机器人设计控制及协作，机器人明确但天气LiDAR匹配较弱。"
+      ],
+      "representativeWorks": [],
+      "id": "scut-zhong-yong",
+      "recruitment2028": {
+        "verified": false,
+        "note": "一般性博士/硕士邀请，无年份。 本次已读来源未见明确2028个人招生，不代表没有名额 当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027招生；学校2027章程另列，不能代替个人招生"
+    },
+    {
+      "name": "谢龙汉",
+      "slug": "scut-xie-longhan",
+      "university": "华南理工大学",
+      "department": "吴贤铭智能工程学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "topics": [
+        "智能机器人",
+        "传感",
+        "人工智能"
+      ],
+      "roboticsEvidence": "研究智能机器人、传感与人工智能。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "definition": "首次可核实本校非博士后教研任职；不代表全球首次独立教职或晋升日期",
+        "note": "工作履历列2011-02起华工，但未标岗位；不能证明首次非博士后任职日期。"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.scut.edu.cn/wxmzngcxy/xlh6/main.htm",
+          "title": "谢龙汉官方介绍",
+          "checkedDate": "2026-11-18",
+          "access": "official_body",
+          "readScope": "正文",
+          "section": "现职、研究与招生边界"
+        }
+      ],
+      "recruitment": {
+        "general": "本次已读来源未核实个人招生年份。",
+        "cycle2027": "未核实个人2027招生；学校2027章程另列，不能代替个人招生",
+        "cycle2028": "本次已读来源未见明确2028个人招生，不代表没有名额",
+        "degreeSeason2028Verified": false,
+        "remainingVacancyConfirmed": false,
+        "remainingVacancyStatus": "unknown"
+      },
+      "caveats": [
+        "指导风格、学生体验、经费可用性及个人现余名额未核实",
+        "匹配边界：智能机器人与传感方向；应再核具体感知论文再排序。"
+      ],
+      "representativeWorks": [],
+      "id": "scut-xie-longhan",
+      "recruitment2028": {
+        "verified": false,
+        "note": "本次已读来源未核实个人招生年份。 本次已读来源未见明确2028个人招生，不代表没有名额 当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027招生；学校2027章程另列，不能代替个人招生"
+    },
+    {
+      "name": "王恒",
+      "slug": "scut-wang-heng",
+      "university": "华南理工大学",
+      "department": "吴贤铭智能工程学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "topics": [
+        "医疗机器人",
+        "电磁跟踪",
+        "主动传感",
+        "强化学习"
+      ],
+      "roboticsEvidence": "研究微创机器人定位导航、电磁传感器融合、状态估计与主动传感。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "definition": "首次可核实本校非博士后教研任职；不代表全球首次独立教职或晋升日期",
+        "note": "工作经历栏目为空；不以2021博士毕业推算入职。"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.scut.edu.cn/wxmzngcxy/wh18/main.htm",
+          "title": "王恒官方介绍",
+          "checkedDate": "2026-11-18",
+          "access": "official_body",
+          "readScope": "正文",
+          "section": "现职、研究与招生边界"
+        }
+      ],
+      "recruitment": {
+        "general": "官方列学术型博导并邀请博士、硕士，无年份。",
+        "cycle2027": "未核实个人2027招生；学校2027章程另列，不能代替个人招生",
+        "cycle2028": "本次已读来源未见明确2028个人招生，不代表没有名额",
+        "degreeSeason2028Verified": false,
+        "remainingVacancyConfirmed": false,
+        "remainingVacancyStatus": "unknown"
+      },
+      "caveats": [
+        "指导风格、学生体验、经费可用性及个人现余名额未核实",
+        "匹配边界：微创机器人定位导航、传感器融合和状态估计；不是LiDAR天气研究。"
+      ],
+      "representativeWorks": [],
+      "id": "scut-wang-heng",
+      "recruitment2028": {
+        "verified": false,
+        "note": "官方列学术型博导并邀请博士、硕士，无年份。 本次已读来源未见明确2028个人招生，不代表没有名额 当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027招生；学校2027章程另列，不能代替个人招生"
+    },
+    {
+      "name": "丛杨",
+      "slug": "scut-cong-yang",
+      "university": "华南理工大学",
+      "department": "自动化科学与工程学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "topics": [
+        "机器人感知控制",
+        "端侧学习",
+        "深海探测",
+        "低空感知"
+      ],
+      "roboticsEvidence": "围绕机器人感知与控制、端侧学习、深海探测和低空感知开展机器智能研究。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "definition": "首次可核实本校非博士后教研任职；不代表全球首次独立教职或晋升日期",
+        "note": "未见本校首次任职日期；2025—2028社会任职不是招生周期。"
+      },
+      "sources": [
+        {
+          "url": "https://www2.scut.edu.cn/MachineIntelligenceLab/sysfzr/list.htm",
+          "title": "丛杨官方介绍",
+          "checkedDate": "2026-11-18",
+          "access": "official_body",
+          "readScope": "正文",
+          "section": "现职、研究与招生边界"
+        },
+        {
+          "url": "https://www2.scut.edu.cn/MachineIntelligenceLab/ds/list.htm",
+          "title": "机器智能实验室导师名单",
+          "checkedDate": "2026-11-18",
+          "access": "official_body",
+          "readScope": "姓名与导师类别正文",
+          "section": "现职、研究与招生边界"
+        }
+      ],
+      "recruitment": {
+        "general": "本次已读来源未核实个人招生年份。",
+        "cycle2027": "未核实个人2027招生；学校2027章程另列，不能代替个人招生",
+        "cycle2028": "本次已读来源未见明确2028个人招生，不代表没有名额",
+        "degreeSeason2028Verified": false,
+        "remainingVacancyConfirmed": false,
+        "remainingVacancyStatus": "unknown"
+      },
+      "caveats": [
+        "指导风格、学生体验、经费可用性及个人现余名额未核实",
+        "匹配边界：机器智能实验室有明确机器人感知控制研究；不能把实验室每个方向都认定为导师个人招生题目。"
+      ],
+      "representativeWorks": [],
+      "id": "scut-cong-yang",
+      "recruitment2028": {
+        "verified": false,
+        "note": "本次已读来源未核实个人招生年份。 本次已读来源未见明确2028个人招生，不代表没有名额 当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027招生；学校2027章程另列，不能代替个人招生"
+    },
+    {
+      "name": "马宏军",
+      "slug": "scut-ma-hongjun",
+      "university": "华南理工大学",
+      "department": "自动化科学与工程学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "topics": [
+        "自主系统",
+        "视觉点云配准",
+        "LiDAR建图",
+        "语义场景理解"
+      ],
+      "roboticsEvidence": "研究自主系统中的视觉点云配准、LiDAR/立体视觉建图、主动探索与语义场景理解。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "definition": "首次可核实本校非博士后教研任职；不代表全球首次独立教职或晋升日期",
+        "note": "此前东北大学经历截至2021-10，不能据此推断华工到岗。"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.scut.edu.cn/zdhkxygc/mhj2/main.htm",
+          "title": "马宏军官方介绍",
+          "checkedDate": "2026-11-18",
+          "access": "official_body",
+          "readScope": "正文",
+          "section": "现职、研究与招生边界"
+        }
+      ],
+      "recruitment": {
+        "general": "本次已读来源未核实个人招生年份。",
+        "cycle2027": "未核实个人2027招生；学校2027章程另列，不能代替个人招生",
+        "cycle2028": "本次已读来源未见明确2028个人招生，不代表没有名额",
+        "degreeSeason2028Verified": false,
+        "remainingVacancyConfirmed": false,
+        "remainingVacancyStatus": "unknown"
+      },
+      "caveats": [
+        "指导风格、学生体验、经费可用性及个人现余名额未核实",
+        "匹配边界：官方研究领域直接涉及视觉点云配准、LiDAR/立体视觉建图，与点云感知研究相关；天气退化方向仍未证实。"
+      ],
+      "representativeWorks": [],
+      "id": "scut-ma-hongjun",
+      "recruitment2028": {
+        "verified": false,
+        "note": "本次已读来源未核实个人招生年份。 本次已读来源未见明确2028个人招生，不代表没有名额 当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027招生；学校2027章程另列，不能代替个人招生"
+    },
+    {
+      "name": "毛爱华",
+      "slug": "scut-mao-aihua",
+      "university": "华南理工大学",
+      "department": "计算机科学与工程学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "topics": [
+        "三维视觉",
+        "点云检测",
+        "多模态融合",
+        "具身智能"
+      ],
+      "roboticsEvidence": "研究三维点云检测、点云-图像-文本融合及从三维感知到行为决策的具身闭环。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "definition": "首次可核实本校非博士后教研任职；不代表全球首次独立教职或晋升日期",
+        "note": "本次正文未含任职起点。"
+      },
+      "sources": [
+        {
+          "url": "https://www2.scut.edu.cn/cs/2026/0409/c46301a623298/page.psp",
+          "title": "毛爱华官方介绍",
+          "checkedDate": "2026-11-18",
+          "access": "official_body",
+          "readScope": "正文",
+          "section": "现职、研究与招生边界"
+        }
+      ],
+      "recruitment": {
+        "general": "所读2026-04-09页面招收的是博士后2名，不是博士研究生名额。",
+        "cycle2027": "未核实个人2027招生；学校2027章程另列，不能代替个人招生",
+        "cycle2028": "本次已读来源未见明确2028个人招生，不代表没有名额",
+        "degreeSeason2028Verified": false,
+        "remainingVacancyConfirmed": false,
+        "remainingVacancyStatus": "unknown"
+      },
+      "caveats": [
+        "指导风格、学生体验、经费可用性及个人现余名额未核实"
+      ],
+      "representativeWorks": [],
+      "id": "scut-mao-aihua",
+      "recruitment2028": {
+        "verified": false,
+        "note": "所读2026-04-09页面招收的是博士后2名，不是博士研究生名额。 本次已读来源未见明确2028个人招生，不代表没有名额 当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027招生；学校2027章程另列，不能代替个人招生"
+    },
+    {
+      "name": "杜广龙",
+      "slug": "scut-du-guanglong",
+      "university": "华南理工大学",
+      "department": "计算机科学与工程学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "topics": [
+        "智能机器人",
+        "医疗机器人",
+        "多模态交互"
+      ],
+      "roboticsEvidence": "研究智能机器人、医疗机器人、多模态人机交互及机器人任务学习。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "definition": "首次可核实本校非博士后教研任职；不代表全球首次独立教职或晋升日期",
+        "note": "URL含2017不等于任职年份，正文发布更新2026-03-05。"
+      },
+      "sources": [
+        {
+          "url": "https://www2.scut.edu.cn/cs/2017/0129/c22284a327636/page.htm",
+          "title": "杜广龙官方介绍",
+          "checkedDate": "2026-11-18",
+          "access": "official_body",
+          "readScope": "正文",
+          "section": "现职、研究与招生边界"
+        }
+      ],
+      "recruitment": {
+        "general": "本次已读来源未核实个人招生年份。",
+        "cycle2027": "未核实个人2027招生；学校2027章程另列，不能代替个人招生",
+        "cycle2028": "本次已读来源未见明确2028个人招生，不代表没有名额",
+        "degreeSeason2028Verified": false,
+        "remainingVacancyConfirmed": false,
+        "remainingVacancyStatus": "unknown"
+      },
+      "caveats": [
+        "指导风格、学生体验、经费可用性及个人现余名额未核实",
+        "匹配边界：具备机器人交互、医疗机器人及多模态融合项目；与天气LiDAR主线间接。"
+      ],
+      "representativeWorks": [],
+      "id": "scut-du-guanglong",
+      "recruitment2028": {
+        "verified": false,
+        "note": "本次已读来源未核实个人招生年份。 本次已读来源未见明确2028个人招生，不代表没有名额 当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027招生；学校2027章程另列，不能代替个人招生"
+    },
+    {
+      "name": "胡枭玮",
+      "slug": "scut-hu-xiaowei",
+      "university": "华南理工大学",
+      "department": "未来技术学院",
+      "position": "教授",
+      "phdSupervisor": null,
+      "topics": [
+        "恶劣天气视觉复原",
+        "鲁棒感知",
+        "多模态智能",
+        "持续适应"
+      ],
+      "roboticsEvidence": "研究恶劣天气和复杂光照下的视觉恢复、真实场景泛化、多模态智能及持续适应。",
+      "firstAppointment": {
+        "date": "2025",
+        "precision": "year",
+        "definition": "首次可核实本校非博士后教研任职；不代表全球首次独立教职或晋升日期",
+        "note": "官方工作经历2025起华工教授；URL中的2022并非入职。"
+      },
+      "sources": [
+        {
+          "url": "https://www2.scut.edu.cn/ft/2022/0408/c45109a467179/page.htm",
+          "title": "胡枭玮官方介绍",
+          "checkedDate": "2026-11-18",
+          "access": "official_body",
+          "readScope": "正文",
+          "section": "现职、研究与招生边界"
+        },
+        {
+          "url": "https://xw-hu.github.io/",
+          "title": "胡枭玮本人主页",
+          "checkedDate": "2026-11-18",
+          "access": "personal_body",
+          "readScope": "研究方向、代表成果、Openings正文",
+          "section": "现职、研究与招生边界"
+        }
+      ],
+      "recruitment": {
+        "general": "本人主页明确招募PhD/Master等，未指定年份或季节。",
+        "cycle2027": "未核实个人2027招生；学校2027章程另列，不能代替个人招生",
+        "cycle2028": "本次已读来源未见明确2028个人招生，不代表没有名额",
+        "degreeSeason2028Verified": false,
+        "remainingVacancyConfirmed": false,
+        "remainingVacancyStatus": "unknown"
+      },
+      "caveats": [
+        "指导风格、学生体验、经费可用性及个人现余名额未核实",
+        "已核实本人博士招生表述，但所读官方介绍未明写博导资格；建议以官方博士目录补核，不因教授职称自动填true。",
+        "匹配边界：本人主页明确恶劣天气/复杂光照下视觉恢复及真实环境泛化；与天气鲁棒感知相关，但不是已证实LiDAR方向。",
+        "补核学校2027博士目录链接跳转统一认证，未读取目录正文；搜索命中的第三方2026转载不用于升级官方博士资格。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Real-World Weather Restoration",
+          "year": 2025,
+          "venue": "NeurIPS（本人主页标注）",
+          "sourceUrl": "https://xw-hu.github.io/"
+        },
+        {
+          "title": "WResVLM",
+          "year": 2024,
+          "venue": "ECCV（本人主页标注）",
+          "sourceUrl": "https://xw-hu.github.io/"
+        }
+      ],
+      "id": "scut-hu-xiaowei",
+      "recruitment2028": {
+        "verified": false,
+        "note": "本人主页明确招募PhD/Master等，未指定年份或季节。 本次已读来源未见明确2028个人招生，不代表没有名额 当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027招生；学校2027章程另列，不能代替个人招生"
+    },
+    {
+      "name": "陈岑",
+      "slug": "scut-chen-cen",
+      "university": "华南理工大学",
+      "department": "未来技术学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "topics": [
+        "三维空间智能",
+        "点云计算加速",
+        "具身智能",
+        "高效计算架构"
+      ],
+      "roboticsEvidence": "研究三维空间智能、点云计算加速和算法-体系结构协同设计。",
+      "firstAppointment": {
+        "date": "2023-03",
+        "precision": "month",
+        "definition": "首次可核实本校非博士后教研任职；不代表全球首次独立教职或晋升日期",
+        "note": "官方工作履历明确2023-03起教授；不是页面URL中的2022。"
+      },
+      "sources": [
+        {
+          "url": "https://www2.scut.edu.cn/ft/2022/0408/c45109a495443/page.htm",
+          "title": "陈岑官方介绍",
+          "checkedDate": "2026-11-18",
+          "access": "official_body",
+          "readScope": "正文",
+          "section": "现职、研究与招生边界"
+        }
+      ],
+      "recruitment": {
+        "general": "官方称每年招收博士2名、硕士2—4名；属于常年计划，不能推断2028或当前剩余名额。",
+        "cycle2027": "未核实个人2027招生；学校2027章程另列，不能代替个人招生",
+        "cycle2028": "本次已读来源未见明确2028个人招生，不代表没有名额",
+        "degreeSeason2028Verified": false,
+        "remainingVacancyConfirmed": false,
+        "remainingVacancyStatus": "unknown"
+      },
+      "caveats": [
+        "指导风格、学生体验、经费可用性及个人现余名额未核实",
+        "匹配边界：点云加速和三维空间智能，偏算法-体系结构协同；需区分于机器人系统或天气算法。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Point Cloud Acceleration by Exploiting Geometric Similarity",
+          "year": 2023,
+          "venue": "MICRO",
+          "sourceUrl": "https://www2.scut.edu.cn/ft/2022/0408/c45109a495443/page.htm"
+        }
+      ],
+      "id": "scut-chen-cen",
+      "recruitment2028": {
+        "verified": false,
+        "note": "官方称每年招收博士2名、硕士2—4名；属于常年计划，不能推断2028或当前剩余名额。 本次已读来源未见明确2028个人招生，不代表没有名额 当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027招生；学校2027章程另列，不能代替个人招生"
+    },
+    {
+      "name": "孙干",
+      "slug": "scut-sun-gan",
+      "university": "华南理工大学",
+      "department": "自动化科学与工程学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "topics": [
+        "终身机器人学习",
+        "开放场景目标检测",
+        "自主感知",
+        "连续操作技能学习"
+      ],
+      "roboticsEvidence": "研究开放场景中的机器人自主感知，包括少样本感知模型、开放目标检测和连续操作技能学习。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "definition": "首次可核实本校非博士后教研任职；不代表全球首次独立教职或晋升日期",
+        "note": "2024-11-07学校报道确认华工教授/博导，但不能把报道日期当入职。未定位可核验完整个人履历页。"
+      },
+      "sources": [
+        {
+          "url": "https://www2.scut.edu.cn/automation/_t1155/2024/1107/c12367a566823/page.htm",
+          "title": "孙干官方材料",
+          "checkedDate": "2026-11-18",
+          "access": "official_body",
+          "readScope": "正文",
+          "section": "现职、研究与招生边界"
+        },
+        {
+          "url": "https://www2.scut.edu.cn/MachineIntelligenceLab/ds/list.htm",
+          "title": "机器智能实验室导师名单",
+          "checkedDate": "2026-11-18",
+          "access": "official_body",
+          "readScope": "正文",
+          "section": "现职、研究与招生边界"
+        }
+      ],
+      "recruitment": {
+        "general": "本次已读材料未核实特定年份的个人博士招生。",
+        "cycle2027": "未核实个人2027招生；学校2027章程另列，不能代替个人招生",
+        "cycle2028": "本次已读来源未见明确2028个人招生，不代表没有名额",
+        "degreeSeason2028Verified": false,
+        "remainingVacancyConfirmed": false,
+        "remainingVacancyStatus": "unknown"
+      },
+      "caveats": [
+        "指导风格、学生体验、经费可用性及个人现余名额未核实"
+      ],
+      "representativeWorks": [],
+      "id": "scut-sun-gan",
+      "recruitment2028": {
+        "verified": false,
+        "note": "本次已读材料未核实特定年份的个人博士招生。 本次已读来源未见明确2028个人招生，不代表没有名额 当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027招生；学校2027章程另列，不能代替个人招生"
+    },
+    {
+      "name": "徐雪妙",
+      "slug": "scut-xu-xuemiao",
+      "university": "华南理工大学",
+      "department": "计算机科学与工程学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "topics": [
+        "开放动态场景理解",
+        "视觉智能",
+        "机器人集群运维",
+        "医疗机器人"
+      ],
+      "roboticsEvidence": "研究开放动态场景理解与视觉智能，承担工业机器人集群运维、骨科微创手术辅助机器人相关项目。",
+      "firstAppointment": {
+        "date": "2010-11",
+        "precision": "month",
+        "definition": "首次可核实本校非博士后教研任职；不代表全球首次独立教职或晋升日期",
+        "note": "官方2010-11起副教授；2015-09是教授晋升而非首次入职。"
+      },
+      "sources": [
+        {
+          "url": "https://www2.scut.edu.cn/cs/2017/0629/c22284a328094/page.psp",
+          "title": "徐雪妙官方材料",
+          "checkedDate": "2026-11-18",
+          "access": "official_body",
+          "readScope": "正文",
+          "section": "现职、研究与招生边界"
+        }
+      ],
+      "recruitment": {
+        "general": "本次已读材料未核实特定年份的个人博士招生。",
+        "cycle2027": "未核实个人2027招生；学校2027章程另列，不能代替个人招生",
+        "cycle2028": "本次已读来源未见明确2028个人招生，不代表没有名额",
+        "degreeSeason2028Verified": false,
+        "remainingVacancyConfirmed": false,
+        "remainingVacancyStatus": "unknown"
+      },
+      "caveats": [
+        "指导风格、学生体验、经费可用性及个人现余名额未核实"
+      ],
+      "representativeWorks": [],
+      "id": "scut-xu-xuemiao",
+      "recruitment2028": {
+        "verified": false,
+        "note": "本次已读材料未核实特定年份的个人博士招生。 本次已读来源未见明确2028个人招生，不代表没有名额 当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027招生；学校2027章程另列，不能代替个人招生"
+    },
+    {
+      "name": "田联房",
+      "slug": "scut-tian-lianfang",
+      "university": "华南理工大学",
+      "department": "自动化科学与工程学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "topics": [
+        "先进机器人",
+        "机器视觉",
+        "边缘计算",
+        "模式识别"
+      ],
+      "roboticsEvidence": "研究先进机器人技术、机器视觉、模式识别及边缘智能。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "definition": "首次可核实本校非博士后教研任职；不代表全球首次独立教职或晋升日期",
+        "note": "1997-12起华工经历明确为博士后，不能计首教职。2004-03返华工工作但未明写当时职位，首次非博士后教研任职暂保留未知。"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.scut.edu.cn/zdhkxygc/tlf/main.htm",
+          "title": "田联房官方材料",
+          "checkedDate": "2026-11-18",
+          "access": "official_body",
+          "readScope": "正文",
+          "section": "现职、研究与招生边界"
+        }
+      ],
+      "recruitment": {
+        "general": "本次已读材料未核实特定年份的个人博士招生。",
+        "cycle2027": "未核实个人2027招生；学校2027章程另列，不能代替个人招生",
+        "cycle2028": "本次已读来源未见明确2028个人招生，不代表没有名额",
+        "degreeSeason2028Verified": false,
+        "remainingVacancyConfirmed": false,
+        "remainingVacancyStatus": "unknown"
+      },
+      "caveats": [
+        "指导风格、学生体验、经费可用性及个人现余名额未核实"
+      ],
+      "representativeWorks": [],
+      "id": "scut-tian-lianfang",
+      "recruitment2028": {
+        "verified": false,
+        "note": "本次已读材料未核实特定年份的个人博士招生。 本次已读来源未见明确2028个人招生，不代表没有名额 当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027招生；学校2027章程另列，不能代替个人招生"
+    },
+    {
+      "name": "刘琦",
+      "slug": "scut-liu-qi",
+      "university": "华南理工大学",
+      "department": "未来技术学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "topics": [
+        "三维场景重建",
+        "人物交互",
+        "三维视觉",
+        "内容生成"
+      ],
+      "roboticsEvidence": "研究三维场景重建、人物交互与三维视觉，成果包括大尺度场景高斯表示和人-物交互检测。",
+      "firstAppointment": {
+        "date": "2022",
+        "precision": "year",
+        "definition": "首次可核实本校非博士后教研任职；不代表全球首次独立教职或晋升日期",
+        "note": "官方工作经历2022起华工教授。"
+      },
+      "sources": [
+        {
+          "url": "https://www2.scut.edu.cn/ft/2022/0408/c45109a601711/page.htm",
+          "title": "刘琦官方材料",
+          "checkedDate": "2026-11-18",
+          "access": "official_body",
+          "readScope": "正文",
+          "section": "现职、研究与招生边界"
+        }
+      ],
+      "recruitment": {
+        "general": "本次已读材料未核实特定年份的个人博士招生。",
+        "cycle2027": "未核实个人2027招生；学校2027章程另列，不能代替个人招生",
+        "cycle2028": "本次已读来源未见明确2028个人招生，不代表没有名额",
+        "degreeSeason2028Verified": false,
+        "remainingVacancyConfirmed": false,
+        "remainingVacancyStatus": "unknown"
+      },
+      "caveats": [
+        "指导风格、学生体验、经费可用性及个人现余名额未核实"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Toy-GS: Assembling Local Gaussians for Precisely Rendering Large-Scale Free Camera Trajectories",
+          "year": 2025,
+          "venue": "AAAI",
+          "sourceUrl": "https://www2.scut.edu.cn/ft/2022/0408/c45109a601711/page.htm"
+        }
+      ],
+      "id": "scut-liu-qi",
+      "recruitment2028": {
+        "verified": false,
+        "note": "本次已读材料未核实特定年份的个人博士招生。 本次已读来源未见明确2028个人招生，不代表没有名额 当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027招生；学校2027章程另列，不能代替个人招生"
+    }
+  ],
+  "observations": [
+    {
+      "name": "翁俊武",
+      "department": "自动化科学与工程学院",
+      "position": "助理教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "reason": "官方仅明写硕导，不升级为博导；个人方向与任职时间待核。",
+      "sources": [
+        {
+          "url": "https://www2.scut.edu.cn/MachineIntelligenceLab/ds/list.htm",
+          "title": "机器智能实验室导师名单",
+          "checkedDate": "2026-11-18",
+          "access": "body",
+          "readScope": "正文"
+        }
+      ]
+    },
+    {
+      "name": "林起联",
+      "department": "自动化科学与工程学院",
+      "position": "助理教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "reason": "官方仅明写硕导，不升级为博导；个人方向与任职时间待核。",
+      "sources": [
+        {
+          "url": "https://www2.scut.edu.cn/MachineIntelligenceLab/ds/list.htm",
+          "title": "机器智能实验室导师名单",
+          "checkedDate": "2026-11-18",
+          "access": "body",
+          "readScope": "正文"
+        }
+      ]
+    },
+    {
+      "name": "刘一凡",
+      "department": "自动化科学与工程学院",
+      "position": "助理教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "reason": "官方仅明写硕导，不升级为博导；个人方向与任职时间待核。",
+      "sources": [
+        {
+          "url": "https://www2.scut.edu.cn/MachineIntelligenceLab/ds/list.htm",
+          "title": "机器智能实验室导师名单",
+          "checkedDate": "2026-11-18",
+          "access": "body",
+          "readScope": "正文"
+        }
+      ]
+    },
+    {
+      "name": "任宇",
+      "department": "自动化科学与工程学院",
+      "position": "助理教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "reason": "个人官方页确认机器人主线及助理教授/硕导身份，未核实博士指导资格；工作履历空白，不以2025-12博士毕业推算到岗。",
+      "sources": [
+        {
+          "url": "https://www2.scut.edu.cn/MachineIntelligenceLab/ds/list.htm",
+          "title": "机器智能实验室导师名单",
+          "checkedDate": "2026-11-18",
+          "access": "body",
+          "readScope": "正文"
+        },
+        {
+          "url": "https://faculty.scut.edu.cn/zdhkxygc/ry3/main.htm",
+          "title": "任宇官方主页",
+          "checkedDate": "2026-11-18",
+          "access": "body",
+          "readScope": "正文"
+        }
+      ],
+      "topics": [
+        "具身智能",
+        "机器人自主操作",
+        "强化学习",
+        "VLA",
+        "三维计算机视觉"
+      ]
+    }
+  ],
+  "coverage": "吴贤铭智能工程、自动化、计算机及未来技术学院定向筛查；非全校穷尽。",
+  "limitations": [
+    "胡枭玮官方博士目录跳转认证，保留个人泛博士招募，不作已核官方博士资格。",
+    "未核实2028博士与季节；现余位未知。",
+    "毛爱华2名是博士后，陈岑每年2名博士是长期计划。",
+    "近五年为当前学校首次非博士后教研任职，不推定首次独立建组。"
+  ]
+}

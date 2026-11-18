@@ -1,4 +1,4 @@
-import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,degreeDisplay,deadlineStatus,isBrowsableRoute,routeEvidenceText,browseRoutes as filterRoutes,matchesSearch,routeSearchText} from './core.js?v=11ab6e86c1ca';
+import {escapeHTML,readerText,safeUrl,sourcesOf,institutionLabel,degreeDisplay,deadlineStatus,isBrowsableRoute,routeEvidenceText,browseRoutes as filterRoutes,matchesSearch,routeSearchText} from './core.js?v=8d4822aa3f7c';
 const e=value=>escapeHTML(readerText(value));
 // Display-only wording: preserve source records and their qualification caveats.
 const supervisorAssociationLabels=new Map([
