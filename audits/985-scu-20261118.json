@@ -1,0 +1,661 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-11-18",
+  "baseCommit": "6fc1349879ddc94e72827a13075112e4e59c8330",
+  "school": "四川大学",
+  "notExhaustive": true,
+  "addedCount": 11,
+  "doctoralReferenceCount": 11,
+  "entries": [
+    {
+      "id": "scu-lei-yinjie",
+      "name": "雷印杰",
+      "department": "电子信息学院页面；现职另列网络空间安全学院党总支书记",
+      "position": "教授",
+      "topics": [
+        "3D视觉推理",
+        "点云图像融合",
+        "视觉语言动作模型"
+      ],
+      "roboticsEvidence": "研究点云与语言交互、点云图像融合，以及视觉语言动作模型效率。",
+      "firstAppointment": {
+        "date": "2013-12",
+        "precision": "month",
+        "verified": true,
+        "note": "官方履历列2013年12月起在川大电子信息学院从事教学科研；2017副院长不是首任。"
+      },
+      "phdSupervisor": true,
+      "recruitment2028": {
+        "verified": false,
+        "note": "常年每年招学术博士1–2名、工程博士约1–2名；不对应特定2028周期。 2028个人博士入学周期与当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027接收，不滚动历史年份。",
+      "representativeWorks": [
+        {
+          "title": "PolicyTrim: Boosting Intrinsic Policy Efficiency of Vision-Language-Action Models",
+          "year": 2026,
+          "venue": "ECCV"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://eie.scu.edu.cn/info/1044/13503.htm",
+          "checkedDate": "2026-11-18",
+          "title": "雷印杰 · 官方与本人公开资料",
+          "section": "现职、研究及招生边界",
+          "readScope": "公开正文；只核列明信息，不确认当届招生和实时余位。",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "当前院系任职与页面托管院系不同，招生归属仍需以当年目录为准。",
+        "未查得明确对应2028入学季的个人博士招生公告；未确认实时余位或资助。"
+      ]
+    },
+    {
+      "id": "scu-chen-honggang",
+      "name": "陈洪刚",
+      "department": "电子信息学院",
+      "position": "副研究员",
+      "topics": [
+        "恶劣天气视觉",
+        "图像增强检测",
+        "多模态模型"
+      ],
+      "roboticsEvidence": "面向退化视觉场景的图像增强与目标检测，并研究视觉语言模型推理效率。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "verified": false,
+        "note": "官方最早列2019-07助理研究员、2022-09副研究员，但未明确聘任是否兼博士后；首次非博士后教研聘任尚未独立核实，暂不据此判近五年。"
+      },
+      "phdSupervisor": true,
+      "recruitment2028": {
+        "verified": false,
+        "note": "公开招学术型及工程博士，含专项计划；未指定年份。 2028个人博士入学周期与当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027接收，不滚动历史年份。",
+      "representativeWorks": [
+        {
+          "title": "Degradation modeling for restoration-enhanced object detection in adverse weather scenes",
+          "year": 2025,
+          "venue": "IEEE T-IV"
+        },
+        {
+          "title": "AMIEOD: Adaptive multi-experts image enhancement for object detection in low-illumination scenes",
+          "year": 2026,
+          "venue": "IEEE TMM"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://eie.scu.edu.cn/info/1044/11809.htm",
+          "checkedDate": "2026-11-18",
+          "title": "陈洪刚 · 官方与本人公开资料",
+          "section": "现职、研究及招生边界",
+          "readScope": "公开正文；只核列明信息，不确认当届招生和实时余位。",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "未查得明确对应2028入学季的个人博士招生公告；未确认实时余位或资助。"
+      ]
+    },
+    {
+      "id": "scu-wang-pingyu",
+      "name": "王苹宇",
+      "department": "电子信息学院",
+      "position": "副研究员",
+      "topics": [
+        "图像复原",
+        "视觉表征",
+        "多模态感知"
+      ],
+      "roboticsEvidence": "研究统一图像复原和判别性视觉表征，具备产业视觉算法研发经历。",
+      "firstAppointment": {
+        "date": "2023-03",
+        "precision": "month",
+        "verified": true,
+        "note": "腾讯工作至2023-03，之后川大特聘副研究员；2025-09转副研究员不作首任。"
+      },
+      "phdSupervisor": true,
+      "recruitment2028": {
+        "verified": false,
+        "note": "公开招学术型及工程博士，含专项；未指定年份。 2028个人博士入学周期与当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027接收，不滚动历史年份。",
+      "representativeWorks": [
+        {
+          "title": "DSRIR: Dynamic Spatial Refinement Learning for Progressive All-in-One Image Restoration",
+          "year": 2026,
+          "venue": "Information Processing & Management"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://eie.scu.edu.cn/info/1044/15278.htm",
+          "checkedDate": "2026-11-18",
+          "title": "王苹宇 · 官方与本人公开资料",
+          "section": "现职、研究及招生边界",
+          "readScope": "公开正文；只核列明信息，不确认当届招生和实时余位。",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "未查得明确对应2028入学季的个人博士招生公告；未确认实时余位或资助。"
+      ]
+    },
+    {
+      "id": "scu-ren-chao",
+      "name": "任超",
+      "department": "电子信息学院",
+      "position": "副研究员",
+      "topics": [
+        "图像去噪",
+        "真实场景复原",
+        "计算机视觉"
+      ],
+      "roboticsEvidence": "围绕真实图像去噪、超分辨率和先验融合开展视觉复原研究。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "verified": false,
+        "note": "2017助研、2018专职科研副研与2017–2019博士后博新项目重叠；尚不能分辨首次非博士后聘任。不能把2021转聘当首任。"
+      },
+      "phdSupervisor": true,
+      "recruitment2028": {
+        "verified": false,
+        "note": "公开招学术及工程博士；未指定年份。 2028个人博士入学周期与当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027接收，不滚动历史年份。",
+      "representativeWorks": [
+        {
+          "title": "Adaptive consistency prior based deep network for image denoising",
+          "year": 2021,
+          "venue": "CVPR"
+        },
+        {
+          "title": "Enhanced Latent Space Blind Model for Real Image Denoising Via Alternative Optimization",
+          "year": 2022,
+          "venue": "NeurIPS"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://eie.scu.edu.cn/info/1044/10597.htm",
+          "checkedDate": "2026-11-18",
+          "title": "任超 · 官方与本人公开资料",
+          "section": "现职、研究及招生边界",
+          "readScope": "公开正文；只核列明信息，不确认当届招生和实时余位。",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "未查得明确对应2028入学季的个人博士招生公告；未确认实时余位或资助。"
+      ]
+    },
+    {
+      "id": "scu-fu-keren",
+      "name": "傅可人",
+      "department": "计算机学院／视觉合成重点实验室",
+      "position": "副研究员",
+      "topics": [
+        "RGB-D视觉",
+        "显著目标检测",
+        "三维重建"
+      ],
+      "roboticsEvidence": "研究RGB-D融合、显著与伪装目标检测，以及立体视觉和三维人脸重建。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "verified": false,
+        "note": "教师平台载2017-07-14入职且2017特聘副研，但同年入选博士后博新计划；首次非博士后日期不明。"
+      },
+      "phdSupervisor": true,
+      "recruitment2028": {
+        "verified": false,
+        "note": "公布计算机、软件工程、电子信息招生专业；页面未对每项分列学位层次或周期。 2028个人博士入学周期与当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027接收，不滚动历史年份。",
+      "representativeWorks": [
+        {
+          "title": "JL-DCF: Joint Learning and Densely-Cooperative Fusion Framework for RGB-D Salient Object Detection",
+          "year": 2020,
+          "venue": "CVPR"
+        },
+        {
+          "title": "Siamese Network for RGB-D Salient Object Detection and Beyond",
+          "year": 2021,
+          "venue": "IEEE TPAMI"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vs.scu.edu.cn/info/1062/1875.htm",
+          "checkedDate": "2026-11-18",
+          "title": "傅可人 · 官方与本人公开资料",
+          "section": "现职、研究及招生边界",
+          "readScope": "公开正文；只核列明信息，不确认当届招生和实时余位。",
+          "access": "official_body"
+        },
+        {
+          "url": "https://faculty.scu.edu.cn/fukeren/zh_CN/index.htm",
+          "checkedDate": "2026-11-18",
+          "title": "傅可人 · 官方与本人公开资料",
+          "section": "现职、研究及招生边界",
+          "readScope": "公开正文；只核列明信息，不确认当届招生和实时余位。",
+          "access": "official_body"
+        },
+        {
+          "url": "https://vs.scu.edu.cn/info/1063/1876.htm",
+          "checkedDate": "2026-11-18",
+          "title": "傅可人 · 官方与本人公开资料",
+          "section": "现职、研究及招生边界",
+          "readScope": "公开正文；只核列明信息，不确认当届招生和实时余位。",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "主介绍较旧；博导资格由后续实验室导师目录交叉核验。",
+        "未查得明确对应2028入学季的个人博士招生公告；未确认实时余位或资助。"
+      ]
+    },
+    {
+      "id": "scu-liu-yanli",
+      "name": "刘艳丽",
+      "department": "计算机学院／视觉合成重点实验室",
+      "position": "教授",
+      "topics": [
+        "视觉定位配准",
+        "增强现实",
+        "光照估计"
+      ],
+      "roboticsEvidence": "研究高精度视觉定位配准、室外光照估计和虚实融合。",
+      "firstAppointment": {
+        "date": "2010-07",
+        "precision": "month",
+        "verified": true,
+        "note": "官方载2010-07入川大历任讲师，之后2010-11至2011-11赴INRIA博士后，不把返校当首任。"
+      },
+      "phdSupervisor": true,
+      "recruitment2028": {
+        "verified": false,
+        "note": "官方确认博导资格；本批未查得个人招生周期或余位声明。 2028个人博士入学周期与当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027接收，不滚动历史年份。",
+      "representativeWorks": [
+        {
+          "title": "Real-time Shadow Detection from Live Outdoor Videos for Augmented Reality",
+          "year": 2020,
+          "venue": "IEEE TVCG"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vs.scu.edu.cn/info/1062/1357.htm",
+          "checkedDate": "2026-11-18",
+          "title": "刘艳丽 · 官方与本人公开资料",
+          "section": "现职、研究及招生边界",
+          "readScope": "公开正文；只核列明信息，不确认当届招生和实时余位。",
+          "access": "official_body"
+        },
+        {
+          "url": "https://vs.scu.edu.cn/info/1063/1876.htm",
+          "checkedDate": "2026-11-18",
+          "title": "刘艳丽 · 官方与本人公开资料",
+          "section": "现职、研究及招生边界",
+          "readScope": "公开正文；只核列明信息，不确认当届招生和实时余位。",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "主页日期较旧，后续博导名录用于交叉检查。",
+        "未查得明确对应2028入学季的个人博士招生公告；未确认实时余位或资助。"
+      ]
+    },
+    {
+      "id": "scu-yang-menglong",
+      "name": "杨梦龙",
+      "department": "空天科学与工程学院",
+      "position": "研究员",
+      "topics": [
+        "立体视觉",
+        "无人机感知",
+        "不完整视觉信息"
+      ],
+      "roboticsEvidence": "研究立体匹配、无人机飞行环境感知和机器人卫星的不确定视觉信息处理。",
+      "firstAppointment": {
+        "date": "2012-12",
+        "precision": "month",
+        "verified": true,
+        "note": "官方最早履历2012-12川大讲师。"
+      },
+      "phdSupervisor": true,
+      "recruitment2028": {
+        "verified": false,
+        "note": "官方确认博导资格；本批未查得个人招生周期或余位声明。 2028个人博士入学周期与当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027接收，不滚动历史年份。",
+      "representativeWorks": [
+        {
+          "title": "RLStereo: Real-Time Stereo Matching Based on Reinforcement Learning",
+          "year": 2021,
+          "venue": "IEEE TIP"
+        },
+        {
+          "title": "WaveletStereo: Learning wavelet coefficients of disparity map in stereo matching",
+          "year": 2020,
+          "venue": "CVPR"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://saa.scu.edu.cn/teamlist.htm?action=detailTeam&uuinId=781497434493947",
+          "checkedDate": "2026-11-18",
+          "title": "杨梦龙 · 官方与本人公开资料",
+          "section": "现职、研究及招生边界",
+          "readScope": "公开正文；只核列明信息，不确认当届招生和实时余位。",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "页面研究员起始年份与副研究员区间重叠，晋升时间不据此确定。",
+        "未查得明确对应2028入学季的个人博士招生公告；未确认实时余位或资助。"
+      ]
+    },
+    {
+      "id": "scu-dian-songyi",
+      "name": "佃松宜",
+      "department": "电气工程学院",
+      "position": "教授",
+      "topics": [
+        "特种机器人",
+        "智能感知控制",
+        "机器人微装配"
+      ],
+      "roboticsEvidence": "面向电力能源作业的特种机器人，研究智能感知控制和机器人微装配。",
+      "firstAppointment": {
+        "date": "2002-07",
+        "precision": "month",
+        "verified": true,
+        "note": "官方载2002-07起在川大任助教、讲师等；不以之后博士毕业或教授晋升计算首任。"
+      },
+      "phdSupervisor": true,
+      "recruitment2028": {
+        "verified": false,
+        "note": "官方确认博导资格；本批未查得个人招生周期或余位声明。 2028个人博士入学周期与当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027接收，不滚动历史年份。",
+      "representativeWorks": [],
+      "sources": [
+        {
+          "url": "https://ee.scu.edu.cn/info/1044/7293.htm",
+          "checkedDate": "2026-11-18",
+          "title": "佃松宜 · 官方与本人公开资料",
+          "section": "现职、研究及招生边界",
+          "readScope": "公开正文；只核列明信息，不确认当届招生和实时余位。",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "本批未逐篇核验论文；官方项目包含电力作业机器人及GIS检修机器人，不转写为招生承诺。",
+        "未查得明确对应2028入学季的个人博士招生公告；未确认实时余位或资助。"
+      ]
+    },
+    {
+      "id": "scu-xiao-rong",
+      "name": "肖蓉",
+      "department": "人工智能学院",
+      "position": "副研究员",
+      "topics": [
+        "事件相机",
+        "脉冲神经网络",
+        "类脑具身智能"
+      ],
+      "roboticsEvidence": "研究事件视觉、脉冲神经网络与开放动态环境中的类脑具身认知。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "verified": false,
+        "note": "官方工作履历2021助研、2023副研，同时博士后经历写2021-07至今；不能把2023晋升作为非博士后首任。"
+      },
+      "phdSupervisor": true,
+      "recruitment2028": {
+        "verified": false,
+        "note": "官方确认博导资格；本批未查得个人招生周期或余位声明。 2028个人博士入学周期与当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027接收，不滚动历史年份。",
+      "representativeWorks": [],
+      "sources": [
+        {
+          "url": "https://ai.scu.edu.cn/info/1238/1163.htm",
+          "checkedDate": "2026-11-18",
+          "title": "肖蓉 · 官方与本人公开资料",
+          "section": "现职、研究及招生边界",
+          "readScope": "公开正文；只核列明信息，不确认当届招生和实时余位。",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "页面博士后与副研究员经历重叠；项目结束2028不是2028招生。",
+        "未查得明确对应2028入学季的个人博士招生公告；未确认实时余位或资助。"
+      ]
+    },
+    {
+      "id": "scu-hu-peng",
+      "name": "胡鹏",
+      "department": "人工智能学院",
+      "position": "教授",
+      "topics": [
+        "3D场景语言检索",
+        "空间推理",
+        "鲁棒多模态学习"
+      ],
+      "roboticsEvidence": "通过跨模态对齐开展文本与3D场景检索、跨场景空间推理和可信多模态学习。",
+      "firstAppointment": {
+        "date": "2021",
+        "precision": "year",
+        "verified": true,
+        "note": "官方载2021从A*STAR研究科学家引进为川大特聘副研，2022转聘、2024教授不作首任。月份未知，不能精确判五周年。"
+      },
+      "phdSupervisor": true,
+      "recruitment2028": {
+        "verified": false,
+        "note": "官方确认博导资格；本批未查得个人招生周期或余位声明。 2028个人博士入学周期与当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027接收，不滚动历史年份。",
+      "representativeWorks": [
+        {
+          "title": "Interactive Cross-modal Learning for Text-3D Scene Retrieval",
+          "year": 2025,
+          "venue": "NeurIPS"
+        },
+        {
+          "title": "Robust Cross-modal Alignment Learning for Cross-Scene Spatial Reasoning and Grounding",
+          "year": 2025,
+          "venue": "NeurIPS"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ai.scu.edu.cn/info/1290/1298.htm",
+          "checkedDate": "2026-11-18",
+          "title": "胡鹏 · 官方与本人公开资料",
+          "section": "现职、研究及招生边界",
+          "readScope": "公开正文；只核列明信息，不确认当届招生和实时余位。",
+          "access": "official_body"
+        },
+        {
+          "url": "https://penghu-cs.github.io/",
+          "checkedDate": "2026-11-18",
+          "title": "胡鹏 · 官方与本人公开资料",
+          "section": "现职、研究及招生边界",
+          "readScope": "公开正文；只核列明信息，不确认当届招生和实时余位。",
+          "access": "personal_body"
+        },
+        {
+          "url": "https://penghu-cs.github.io/publications/",
+          "checkedDate": "2026-11-18",
+          "title": "胡鹏 · 官方与本人公开资料",
+          "section": "现职、研究及招生边界",
+          "readScope": "公开正文；只核列明信息，不确认当届招生和实时余位。",
+          "access": "personal_body"
+        }
+      ],
+      "caveats": [
+        "个人主页仍写计算机学院，当前院系采用人工智能学院官方页。",
+        "未查得明确对应2028入学季的个人博士招生公告；未确认实时余位或资助。"
+      ]
+    },
+    {
+      "id": "scu-huang-shudong",
+      "name": "黄树东",
+      "department": "人工智能学院",
+      "position": "副教授",
+      "topics": [
+        "第一视角动作识别",
+        "多模态学习",
+        "持续学习"
+      ],
+      "roboticsEvidence": "研究多模态表征和第一视角动作识别，并探索持续学习与脉冲网络。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "verified": false,
+        "note": "本批官方及本人主页未给出明确首次川大非博士后聘任日期。"
+      },
+      "phdSupervisor": true,
+      "recruitment2028": {
+        "verified": false,
+        "note": "本人主页长期招博士与硕士，官方列计算机、智能科学、软件和电子信息专业；未指定入学周期。 2028个人博士入学周期与当前剩余名额未知。"
+      },
+      "recruitment2027Note": "未核实个人2027接收，不滚动历史年份。",
+      "representativeWorks": [
+        {
+          "title": "Ego-LM: Prompting Frozen Language Models for Multi-modal Egocentric Action Recognition",
+          "year": 2026,
+          "venue": "Pattern Recognition"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ai.scu.edu.cn/info/1290/1299.htm",
+          "checkedDate": "2026-11-18",
+          "title": "黄树东 · 官方与本人公开资料",
+          "section": "现职、研究及招生边界",
+          "readScope": "公开正文；只核列明信息，不确认当届招生和实时余位。",
+          "access": "official_body"
+        },
+        {
+          "url": "https://huangsd.github.io/",
+          "checkedDate": "2026-11-18",
+          "title": "黄树东 · 官方与本人公开资料",
+          "section": "现职、研究及招生边界",
+          "readScope": "公开正文；只核列明信息，不确认当届招生和实时余位。",
+          "access": "personal_body"
+        }
+      ],
+      "caveats": [
+        "方向主要属于感知方法层；尚未核实实机机器人闭环研究。",
+        "未查得明确对应2028入学季的个人博士招生公告；未确认实时余位或资助。"
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "name": "彭玺",
+      "reason": "博士导师已见官方，广义多模态机器学习，作为方法侧观察，未纳本批核心",
+      "sources": [
+        {
+          "url": "https://ai.scu.edu.cn/info/1290/1275.htm",
+          "access": "body",
+          "checkedDate": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "name": "程鹏",
+      "reason": "博导；图形学/三维人脸/数字孪生，后续核现职与机器人关联",
+      "sources": [
+        {
+          "url": "https://vs.scu.edu.cn/info/1062/1823.htm",
+          "access": "body",
+          "checkedDate": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "name": "张建伟",
+      "reason": "博导；机器视觉与结构光三维，后续补具体机器人研究",
+      "sources": [
+        {
+          "url": "https://vs.scu.edu.cn/info/1062/1369.htm",
+          "access": "body",
+          "checkedDate": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "name": "李新胜",
+      "reason": "SLAM和多传感器方向；目前仅硕导证据，不提升为博导",
+      "sources": [
+        {
+          "url": "https://vs.scu.edu.cn/info/1062/1335.htm",
+          "access": "index_only",
+          "checkedDate": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "name": "宋万忠",
+      "reason": "结构光/SLAM；目前仅硕导证据",
+      "sources": [
+        {
+          "url": "https://faculty.scu.edu.cn/songwanzhong/zh_CN/index.htm",
+          "access": "index_only",
+          "checkedDate": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "name": "向国菲",
+      "reason": "具身/机器人学习；目前仅硕导证据",
+      "sources": [
+        {
+          "url": "https://ee.scu.edu.cn/info/1045/8940.htm",
+          "access": "index_only",
+          "checkedDate": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "name": "钟羽中",
+      "reason": "机器人感知；目前仅硕导证据",
+      "sources": [
+        {
+          "url": "https://ee.scu.edu.cn/info/1045/10993.htm",
+          "access": "index_only",
+          "checkedDate": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "name": "毛耀",
+      "reason": "博导已核，机器人直接关联待核",
+      "sources": [
+        {
+          "url": "https://ee.scu.edu.cn/info/1044/12403.htm",
+          "access": "body",
+          "checkedDate": "2026-11-18"
+        }
+      ]
+    }
+  ],
+  "coverage": "电子信息、视觉合成、电气、空天及人工智能院系定向筛查；非全校穷尽。",
+  "limitations": [
+    "未核实2028博士与季节；现余位未知。",
+    "博士后与科研岗位重叠不能直接确定首次非博士后任职。",
+    "近五年为当前学校首次非博士后教研任职，不推定首次独立建组。",
+    "集成基线为已提交SCUT版本，本批发布状态另核。"
+  ]
+}
