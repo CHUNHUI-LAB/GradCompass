@@ -41,4 +41,4 @@ export function applyReviewedOperations(expected,operations){
  return expected;
 }
 
-export function isReviewedEvidenceUrl(value){const u=new URL(value);return u.protocol==='https:'||(u.protocol==='http:'&&(/(^|\.)(neu|jlu)\.edu\.cn$/.test(u.hostname)||u.hostname==='faculty.hust.edu.cn'));}
+export function isReviewedEvidenceUrl(value){const u=new URL(value);return u.protocol==='https:'||(u.protocol==='http:'&&(/(^|\.)(neu|jlu)\.edu\.cn$/.test(u.hostname)||['faculty.hust.edu.cn','zhangruimao.site'].includes(u.hostname)));}

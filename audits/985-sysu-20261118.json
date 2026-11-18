@@ -1,0 +1,2679 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-11-18",
+  "baseCommit": "f9aef35bbdc8f0cbc73f5cfb8a9aced5d90619af",
+  "school": "中山大学",
+  "notExhaustive": true,
+  "addedCount": 43,
+  "doctoralReferenceCount": 41,
+  "entries": [
+    {
+      "name": "成慧",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "自主机器人",
+        "多机器人协同",
+        "视觉导航",
+        "多传感器建图"
+      ],
+      "roboticsEvidence": "围绕机器人自主导航、协同控制与移动操作开展研究，近期成果包含视觉导航和LiDAR-视觉建图。",
+      "firstAppointment": {
+        "date": "2008",
+        "precision": "year",
+        "note": "官方履历列2008起中山大学讲师；2019教授为晋升，2025河套任职单独记录。"
+      },
+      "sources": [
+        {
+          "url": "https://www.slai.edu.cn/zh-hans/teacher/530",
+          "title": "成慧 · 公开身份与研究资料",
+          "section": "河套学院官方教师页明确SYSU计算机学院教授博导、2008起讲师和研究成果；河套任职不替换SYSU院系",
+          "readScope": "河套学院官方教师页明确SYSU计算机学院教授博导、2008起讲师和研究成果；河套任职不替换SYSU院系",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "成慧 · 公开身份与研究资料",
+          "section": "2026-11-06公开导师列表对应人名行，标注博导；不是2028年度名额",
+          "readScope": "2026-11-06公开导师列表对应人名行，标注博导；不是2028年度名额",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "河套学院2025起教授与中山大学任职分开，不推项目招生通道。"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028招生；不代表没有名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "当届正式博士通道与逐人招生资格另核；常设导师列表不是2027/2028名额"
+      },
+      "recruitment2027Note": "未核得明确个人2027招生声明。",
+      "representativeWorks": [
+        {
+          "title": "Rapid-Mapping: LiDAR-Visual Implicit Neural Representations for Real-Time Dense Mapping",
+          "year": 2024,
+          "venue": "IEEE RA-L（教师成果目录）",
+          "summaryZh": "LiDAR与视觉隐式表示用于实时稠密建图；仅核成果目录，未全文复验。",
+          "url": "https://www.slai.edu.cn/zh-hans/teacher/530"
+        }
+      ],
+      "id": "sysu-chenghui"
+    },
+    {
+      "name": "张青",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "三维视觉",
+        "具身智能",
+        "世界模型",
+        "视觉生成"
+      ],
+      "roboticsEvidence": "将三维视觉和视觉生成延伸到物理一致世界模型及机器人操作。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后任职日期未核实"
+      },
+      "sources": [
+        {
+          "url": "https://www.zhangqing-home.net/",
+          "title": "张青 · 公开身份与研究资料",
+          "section": "公开正文，逐人身份/方向；不等于年度资格和当前名额",
+          "readScope": "公开正文，逐人身份/方向；不等于年度资格和当前名额",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/teacher/ZhangQing",
+          "title": "张青 · 公开身份与研究资料",
+          "section": "官方页直读403；搜索索引列副教授博导及一般联系邀请，入职未核",
+          "readScope": "官方页直读403；搜索索引列副教授博导及一般联系邀请，入职未核",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "张青 · 公开身份与研究资料",
+          "section": "2026-11-06公开导师列表对应人名行，标注博导；不是2028年度名额",
+          "readScope": "2026-11-06公开导师列表对应人名行，标注博导；不是2028年度名额",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028招生；不代表没有名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "当届正式博士通道与逐人招生资格另核；常设导师列表不是2027/2028名额"
+      },
+      "recruitment2027Note": "未核得明确个人2027招生声明。",
+      "representativeWorks": [
+        {
+          "title": "RehearseVLA: Simulated Post-Training for VLAs with Physically-Consistent World Model",
+          "year": 2026,
+          "venue": "CVPR（个人主页标注）",
+          "summaryZh": "以物理一致世界模型支持VLA仿真后训练；仅按本人目录记录。",
+          "url": "https://www.zhangqing-home.net/"
+        }
+      ],
+      "id": "sysu-zhangqing"
+    },
+    {
+      "name": "赵知临",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "外分布检测",
+        "泛化学习",
+        "具身智能",
+        "多智能体"
+      ],
+      "roboticsEvidence": "以未知分布下可靠性与泛化为方法主线，研究任务延伸至具身智能。",
+      "firstAppointment": {
+        "date": "2024",
+        "precision": "year",
+        "note": "河套官网列2024.12起中山大学副教授，SYSU索引列2024.11；仅核到2024年底，具体月份冲突。"
+      },
+      "sources": [
+        {
+          "url": "https://lawliet-zzl.github.io/",
+          "title": "赵知临 · 公开身份与研究资料",
+          "section": "公开正文，逐人身份/方向；不等于年度资格和当前名额",
+          "readScope": "公开正文，逐人身份/方向；不等于年度资格和当前名额",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://www.slai.edu.cn/teacher/237",
+          "title": "赵知临 · 公开身份与研究资料",
+          "section": "公开正文，逐人身份/方向；不等于年度资格和当前名额",
+          "readScope": "公开正文，逐人身份/方向；不等于年度资格和当前名额",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/node/3014",
+          "title": "赵知临 · 公开身份与研究资料",
+          "section": "官方页直读403，已有当日索引线索称2027硕博满额、欢迎2028推免提前联系，学位范围未核；不作为明确博士招生",
+          "readScope": "官方页直读403，已有当日索引线索称2027硕博满额、欢迎2028推免提前联系，学位范围未核；不作为明确博士招生",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "赵知临 · 公开身份与研究资料",
+          "section": "2026-11-06公开导师列表对应人名行，标注博导；不是2028年度名额",
+          "readScope": "2026-11-06公开导师列表对应人名行，标注博导；不是2028年度名额",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "中英文官方索引对2027招募存在冲突；中文满额与英文仍列招募不能合并成有余位。",
+        "极端天气预测不是已证实的LiDAR恶劣天气感知主线。"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "2028推免提前联系仅为官方搜索索引线索，学位范围与页面正文待核；不升级为明确2028博士招生。"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "当届正式博士通道与逐人招生资格另核；常设导师列表不是2027/2028名额"
+      },
+      "recruitment2027Note": "官方中文索引称2027硕博满额，英文索引仍有2027招募；页面正文未核，保留冲突。",
+      "representativeWorks": [
+        {
+          "title": "Distilling the Unknown to Unveil Certainty",
+          "year": 2025,
+          "venue": "IEEE TPAMI（本人主页目录）",
+          "summaryZh": "外分布学习相关代表成果；仅核目录。",
+          "url": "https://lawliet-zzl.github.io/"
+        }
+      ],
+      "id": "sysu-zhaozhilin"
+    },
+    {
+      "name": "郑伟诗",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "机器人学习",
+        "三维建模",
+        "多智能体学习",
+        "计算机视觉"
+      ],
+      "roboticsEvidence": "研究机器人学习、三维视觉建模与人机视觉，兼顾持续学习与多智能体。",
+      "firstAppointment": {
+        "date": "2011-01",
+        "precision": "month",
+        "note": "本人履历明确2011年1月加入SYSU，2016教授为后续晋升。"
+      },
+      "sources": [
+        {
+          "url": "https://www.isee-ai.cn/~zhwshi/",
+          "title": "郑伟诗 · 公开身份与研究资料",
+          "section": "公开正文，逐人身份/方向；不等于年度资格和当前名额",
+          "readScope": "公开正文，逐人身份/方向；不等于年度资格和当前名额",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://www.isee-ai.cn/~zhwshi/AboutMe.html",
+          "title": "郑伟诗 · 公开身份与研究资料",
+          "section": "公开正文，逐人身份/方向；不等于年度资格和当前名额",
+          "readScope": "公开正文，逐人身份/方向；不等于年度资格和当前名额",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://isee-ai.cn/~zhwshi/recruitment.html",
+          "title": "郑伟诗 · 公开身份与研究资料",
+          "section": "本人招生页2027博士校本部2名、河套2名；正文也残留2024/2025文案，计划不作当前余位",
+          "readScope": "本人招生页2027博士校本部2名、河套2名；正文也残留2024/2025文案，计划不作当前余位",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "郑伟诗 · 公开身份与研究资料",
+          "section": "2026-11-06公开导师列表对应人名行，标注博导；不是2028年度名额",
+          "readScope": "2026-11-06公开导师列表对应人名行，标注博导；不是2028年度名额",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "招生页面旧年份与2027分项并存；2027计划人数不代表实时余位，不转2028。"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028招生；不代表没有名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "当届正式博士通道与逐人招生资格另核；常设导师列表不是2027/2028名额"
+      },
+      "recruitment2027Note": "本人页列2027博士计划：校本部2名、河套2名；没有剩余名额确认，不转换2028。",
+      "representativeWorks": [],
+      "id": "sysu-zhengweishi"
+    },
+    {
+      "name": "谭宁",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "机器人建模",
+        "机器人控制",
+        "医疗机器人",
+        "仿生机器人"
+      ],
+      "roboticsEvidence": "围绕机器人形态、运动规划与控制，包含连续体及医疗机器人。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后任职日期未核实"
+      },
+      "sources": [
+        {
+          "url": "https://cse.sysu.edu.cn/node/2539",
+          "title": "谭宁 · 公开身份与研究资料",
+          "section": "官方索引列2018.09起SYSU副教授、2026.01后教授；直读403，首任日期暂不提升为已核",
+          "readScope": "官方索引列2018.09起SYSU副教授、2026.01后教授；直读403，首任日期暂不提升为已核",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "谭宁 · 公开身份与研究资料",
+          "section": "2026-11-06公开导师列表对应人名行，标注博导；不是2028年度名额",
+          "readScope": "2026-11-06公开导师列表对应人名行，标注博导；不是2028年度名额",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "官方索引列2018.09起SYSU副教授、2026.01后教授；直读403，首任日期暂不提升为已核",
+        "研究方向与博导身份由学院当前导师列表交叉核，未核个人2028计划。"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028招生；不代表没有名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "当届正式博士通道与逐人招生资格另核；常设导师列表不是2027/2028名额"
+      },
+      "recruitment2027Note": "未核得明确个人2027招生声明。",
+      "representativeWorks": [],
+      "id": "sysu-tanning"
+    },
+    {
+      "name": "黎卫兵",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "具身智能机器人",
+        "医疗机器人",
+        "神经计算"
+      ],
+      "roboticsEvidence": "结合神经计算与智能机器人控制，应用于医疗与操作系统。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后任职日期未核实"
+      },
+      "sources": [
+        {
+          "url": "https://cse.sysu.edu.cn/teacher/LiWeibing",
+          "title": "黎卫兵 · 公开身份与研究资料",
+          "section": "官方搜索索引列2020起副教授，正文403，首任待正文复核",
+          "readScope": "官方搜索索引列2020起副教授，正文403，首任待正文复核",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "黎卫兵 · 公开身份与研究资料",
+          "section": "2026-11-06公开导师列表对应人名行，标注博导；不是2028年度名额",
+          "readScope": "2026-11-06公开导师列表对应人名行，标注博导；不是2028年度名额",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "官方搜索索引列2020起副教授，正文403，首任待正文复核",
+        "研究方向与博导身份由学院当前导师列表交叉核，未核个人2028计划。"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028招生；不代表没有名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "当届正式博士通道与逐人招生资格另核；常设导师列表不是2027/2028名额"
+      },
+      "recruitment2027Note": "未核得明确个人2027招生声明。",
+      "representativeWorks": [],
+      "id": "sysu-liweibing"
+    },
+    {
+      "name": "陈刚",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "机器人视觉",
+        "智能计算",
+        "嵌入式感知"
+      ],
+      "roboticsEvidence": "围绕机器人视觉感知及受限计算平台智能系统开展研究。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后任职日期未核实"
+      },
+      "sources": [
+        {
+          "url": "https://cse.sysu.edu.cn/teacher/ChenGang",
+          "title": "陈刚 · 公开身份与研究资料",
+          "section": "官方索引2023.06教授为晋升线索，不作首任日期；直读403",
+          "readScope": "官方索引2023.06教授为晋升线索，不作首任日期；直读403",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "陈刚 · 公开身份与研究资料",
+          "section": "2026-11-06公开导师列表对应人名行，标注博导；不是2028年度名额",
+          "readScope": "2026-11-06公开导师列表对应人名行，标注博导；不是2028年度名额",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "官方索引2023.06教授为晋升线索，不作首任日期；直读403",
+        "研究方向与博导身份由学院当前导师列表交叉核，未核个人2028计划。"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028招生；不代表没有名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "当届正式博士通道与逐人招生资格另核；常设导师列表不是2027/2028名额"
+      },
+      "recruitment2027Note": "未核得明确个人2027招生声明。",
+      "representativeWorks": [],
+      "id": "sysu-chengang"
+    },
+    {
+      "name": "黄凯",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "具身智能",
+        "机器人系统",
+        "嵌入式CPS"
+      ],
+      "roboticsEvidence": "从嵌入式与信息物理系统延伸至AI机器人和具身系统。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后任职日期未核实"
+      },
+      "sources": [
+        {
+          "url": "https://cse.sysu.edu.cn/teacher/HuangKai",
+          "title": "黄凯 · 公开身份与研究资料",
+          "section": "官方索引列2015.09起教授，实验室网页超时，首任日期暂不提升为已核",
+          "readScope": "官方索引列2015.09起教授，实验室网页超时，首任日期暂不提升为已核",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "黄凯 · 公开身份与研究资料",
+          "section": "2026-11-06公开导师列表对应人名行，标注博导；不是2028年度名额",
+          "readScope": "2026-11-06公开导师列表对应人名行，标注博导；不是2028年度名额",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "官方索引列2015.09起教授，实验室网页超时，首任日期暂不提升为已核",
+        "研究方向与博导身份由学院当前导师列表交叉核，未核个人2028计划。"
+      ],
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "已读来源未见明确个人2028招生；不代表没有名额"
+      },
+      "qualification2027": {
+        "status": "unknown",
+        "note": "当届正式博士通道与逐人招生资格另核；常设导师列表不是2027/2028名额"
+      },
+      "recruitment2027Note": "未核得明确个人2027招生声明。",
+      "representativeWorks": [],
+      "id": "sysu-huangkai"
+    },
+    {
+      "name": "吕熙敏",
+      "id": "sysu-lyu-ximin",
+      "department": "智能工程学院",
+      "position": "副教授",
+      "topics": [
+        "空中具身智能",
+        "无人机规划与控制",
+        "轮足机器人"
+      ],
+      "roboticsEvidence": "空中具身智能；无人机规划与控制；轮足机器人相关方法与机器人应用。",
+      "sources": [
+        {
+          "url": "https://ise.sysu.edu.cn/teacher/LvXimin",
+          "title": "吕熙敏 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://sysu-hilab.github.io/join.html",
+          "title": "吕熙敏 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "公开正文；仅核列明身份、方向或招生陈述，不确认实时余位。",
+          "access": "lab_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://sysu-hilab.github.io/publications.html",
+          "title": "吕熙敏 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "公开正文；仅核列明身份、方向或招生陈述，不确认实时余位。",
+          "access": "lab_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后教研任职日期待核。2021年进入中大任副教授；此前2018–2021在大疆/香港智翔任控制算法研究员。HI Lab研究机器人硬件与智能算法。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "HI Lab常年欢迎博士、硕士、博士后等联系；未指定2028年度、名额或资助。"
+      },
+      "caveats": [
+        "2028秋季博士招生及剩余名额、资助未核实",
+        "官网直读403/超时；所列核心事实经官方页面搜索索引核查，不能标为正文直接核验",
+        "2021年进入中大任副教授；此前2018–2021在大疆/香港智翔任控制算法研究员。HI Lab研究机器人硬件与智能算法。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "FlyAware: Inertia-Aware Aerial Manipulation via Vision-Based Estimation and Post-Grasp Adaptation",
+          "year": 2026,
+          "venue": "IEEE RA-L",
+          "url": "https://sysu-hilab.github.io/publications.html"
+        },
+        {
+          "title": "Whole-body integrated motion planning for aerial manipulators",
+          "year": 2025,
+          "venue": "IEEE T-RO",
+          "url": "https://sysu-hilab.github.io/publications.html"
+        }
+      ]
+    },
+    {
+      "name": "邱斌斌",
+      "id": "sysu-qiu-binbin",
+      "department": "智能工程学院",
+      "position": "副教授",
+      "topics": [
+        "机器人/机械臂控制",
+        "神经动力学",
+        "多智能体"
+      ],
+      "roboticsEvidence": "机器人/机械臂控制；神经动力学；多智能体相关方法与机器人应用。",
+      "sources": [
+        {
+          "url": "https://ise.sysu.edu.cn/teacher/QiuBinbin",
+          "title": "邱斌斌 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后教研任职日期待核。2018.9–2023.5在中大计算机/智能工程从事博士后和副研究员工作；2023.6起副教授。2023是副教授任职起点，不是首次进入中大的年份。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "未取得具体学位/年度招募声明；博导身份不代表2028招生或剩余名额。"
+      },
+      "caveats": [
+        "2028秋季博士招生及剩余名额、资助未核实",
+        "官网直读403/超时；所列核心事实经官方页面搜索索引核查，不能标为正文直接核验",
+        "2018.9–2023.5在中大计算机/智能工程从事博士后和副研究员工作；2023.6起副教授。2023是副教授任职起点，不是首次进入中大的年份。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Discrete-time advanced zeroing neurodynamic algorithm applied to future equality-constrained nonlinear optimization with various noises",
+          "venue": "IEEE Transactions on Cybernetics",
+          "url": "https://ise.sysu.edu.cn/node/807"
+        }
+      ]
+    },
+    {
+      "name": "何涛",
+      "id": "sysu-he-tao",
+      "department": "智能工程学院",
+      "position": "副教授",
+      "topics": [
+        "机器人控制",
+        "具身智能",
+        "失效分析与优化"
+      ],
+      "roboticsEvidence": "机器人控制；具身智能；失效分析与优化相关方法与机器人应用。",
+      "sources": [
+        {
+          "url": "https://ise.sysu.edu.cn/teacher/HeTao",
+          "title": "何涛 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后教研任职日期待核。2021.4起中大副教授，此前美国西北大学博士后；研究兴趣列机器人与具身智能，但近年代表成果仍大量涉及摩擦学、齿轮及故障诊断，不能误写为纯机器人感知组。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "未取得具体学位/年度招募声明；博导身份不代表2028招生或剩余名额。"
+      },
+      "caveats": [
+        "2028秋季博士招生及剩余名额、资助未核实",
+        "官网直读403/超时；所列核心事实经官方页面搜索索引核查，不能标为正文直接核验",
+        "2021.4起中大副教授，此前美国西北大学博士后；研究兴趣列机器人与具身智能，但近年代表成果仍大量涉及摩擦学、齿轮及故障诊断，不能误写为纯机器人感知组。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Domain-adaptive gearbox fault diagnosis using deep residual sparse autoencoder with symmetric dot pattern encoding",
+          "year": 2025,
+          "venue": "Structural Health Monitoring",
+          "url": "https://ise.sysu.edu.cn/teacher/HeTao"
+        }
+      ]
+    },
+    {
+      "name": "罗健文",
+      "id": "sysu-luo-jianwen",
+      "department": "智能工程学院",
+      "position": "副教授",
+      "topics": [
+        "人形/足式机器人",
+        "灵巧手",
+        "机器人动力学与控制",
+        "触觉感知"
+      ],
+      "roboticsEvidence": "人形/足式机器人；灵巧手；机器人动力学与控制；触觉感知相关方法与机器人应用。",
+      "sources": [
+        {
+          "url": "https://ise.sysu.edu.cn/teacher/LuoJianwen",
+          "title": "罗健文 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后教研任职日期待核。2024年入职；研究机器人动力学、数据与模型驱动控制、多任务优先级，以及人形/足式机器人、灵巧手和触觉传感。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "欢迎研究生、本科生和博士后，未指定2028博士名额；页面腿足/强化学习优先条件位于博士后招聘段，不挪作博士生硬性要求。"
+      },
+      "caveats": [
+        "2028秋季博士招生及剩余名额、资助未核实",
+        "官网直读403/超时；所列核心事实经官方页面搜索索引核查，不能标为正文直接核验",
+        "2024年入职；研究机器人动力学、数据与模型驱动控制、多任务优先级，以及人形/足式机器人、灵巧手和触觉传感。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "PINN-based Predictive Control Combined with Unknown Payload Identification for Robots with Prismatic Quasi-Direct-Drives",
+          "year": 2025,
+          "venue": "IEEE RA-L",
+          "url": "https://ise.sysu.edu.cn/teacher/LuoJianwen"
+        },
+        {
+          "title": "Prismatic Quasi-Direct-Drives for Dynamic Quadruped Locomotion with High Payload Capacity",
+          "year": 2022,
+          "venue": "International Journal of Mechanical Sciences",
+          "url": "https://ise.sysu.edu.cn/teacher/LuoJianwen"
+        }
+      ]
+    },
+    {
+      "name": "王萍",
+      "id": "sysu-wang-ping",
+      "department": "智能工程学院",
+      "position": "副教授",
+      "topics": [
+        "智能机器人",
+        "人机协同",
+        "智能控制"
+      ],
+      "roboticsEvidence": "智能机器人；人机协同；智能控制相关方法与机器人应用。",
+      "sources": [
+        {
+          "url": "https://ise.sysu.edu.cn/teacher/WangPing",
+          "title": "王萍 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后教研任职日期待核。2022年进入中大；2015入职长安大学，2019已为教授，不能标为刚开始担任教师。2023年底整合形成Apple Control Lab。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "公开可在控制科学与工程、交通运输工程等方向招硕士/博士，要求名额提前邮件询问，未指定2028。"
+      },
+      "caveats": [
+        "2028秋季博士招生及剩余名额、资助未核实",
+        "官网直读403/超时；所列核心事实经官方页面搜索索引核查，不能标为正文直接核验",
+        "2022年进入中大；2015入职长安大学，2019已为教授，不能标为刚开始担任教师。2023年底整合形成Apple Control Lab。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "基于左右舵车辆时空混行的差异化驾驶行为识别和预测方法研究—以港珠澳大桥实测数据为例",
+          "year": 2023,
+          "venue": "中国公路学报",
+          "url": "https://ise.sysu.edu.cn/teacher/WangPing"
+        }
+      ]
+    },
+    {
+      "name": "许丹",
+      "id": "sysu-xu-dan",
+      "department": "系统科学与工程学院",
+      "position": "副教授",
+      "topics": [
+        "多智能体",
+        "协同任务规划",
+        "自主路径规划",
+        "深度强化学习"
+      ],
+      "roboticsEvidence": "多智能体；协同任务规划；自主路径规划；深度强化学习相关方法与机器人应用。",
+      "sources": [
+        {
+          "url": "https://ssse.sysu.edu.cn/node/1275",
+          "title": "许丹 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://ssse.sysu.edu.cn/article/1291",
+          "title": "许丹 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后教研任职日期待核。2025.1入中大，之前在国防科大任副研究员及工程岗位；研究空天态势感知、任务规划、智能决策。不是首个科研岗位。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "学院欢迎报考研究生，但未指定2028招生学位和名额。"
+      },
+      "caveats": [
+        "2028秋季博士招生及剩余名额、资助未核实",
+        "官网直读403/超时；所列核心事实经官方页面搜索索引核查，不能标为正文直接核验",
+        "2025.1入中大，之前在国防科大任副研究员及工程岗位；研究空天态势感知、任务规划、智能决策。不是首个科研岗位。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "A Formation Keeping Approach for Fixed-wing UAVs with Exploration Proximal Policy Optimization",
+          "year": 2022,
+          "venue": "ICUS",
+          "url": "https://ssse.sysu.edu.cn/article/1291"
+        }
+      ]
+    },
+    {
+      "name": "吴元清",
+      "id": "sysu-wu-yuanqing",
+      "department": "智能工程学院",
+      "position": "教授",
+      "topics": [
+        "多机器人协同",
+        "多传感器融合",
+        "LiDAR定位",
+        "自主导航"
+      ],
+      "roboticsEvidence": "多机器人协同；多传感器融合；LiDAR定位；自主导航相关方法与机器人应用。",
+      "sources": [
+        {
+          "url": "https://ise.sysu.edu.cn/teacher/1493",
+          "title": "吴元清 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后教研任职日期待核。2025.2入中大；此前2016起在广东工大任教。明确具有LiDAR/惯性/GPS融合与机器人导航成果，对融合主线直接相关。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "常年欢迎本科、硕士、博士及实习申请；未指2028。"
+      },
+      "caveats": [
+        "2028秋季博士招生及剩余名额、资助未核实",
+        "官网直读403/超时；所列核心事实经官方页面搜索索引核查，不能标为正文直接核验",
+        "2025.2入中大；此前2016起在广东工大任教。明确具有LiDAR/惯性/GPS融合与机器人导航成果，对融合主线直接相关。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Robust LiDAR-based localization scheme for unmanned ground vehicle via multisensor fusion",
+          "year": 2021,
+          "venue": "IEEE TNNLS",
+          "url": "https://ise.sysu.edu.cn/teacher/1493"
+        },
+        {
+          "title": "A robust and precise LiDAR-Inertial-GPS odometry and mapping method for large-scale environment",
+          "year": 2022,
+          "venue": "IEEE/ASME T-Mech",
+          "url": "https://ise.sysu.edu.cn/teacher/1493"
+        }
+      ]
+    },
+    {
+      "name": "熊永阳",
+      "id": "sysu-xiong-yongyang",
+      "department": "智能工程学院",
+      "position": "副教授",
+      "topics": [
+        "分布式协同控制",
+        "决策优化",
+        "多机器人协同"
+      ],
+      "roboticsEvidence": "分布式协同控制；决策优化；多机器人协同相关方法与机器人应用。",
+      "sources": [
+        {
+          "url": "https://ise.sysu.edu.cn/teacher/XiongYongyang",
+          "title": "熊永阳 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后教研任职日期待核。2024.2入中大，此前清华博士后/助理研究员；偏分布式优化与协同控制。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "公开招博士、硕士；2024改报志愿公告曾列电子信息博士1名，仅历史证据，不能当2028名额。"
+      },
+      "caveats": [
+        "2028秋季博士招生及剩余名额、资助未核实",
+        "官网直读403/超时；所列核心事实经官方页面搜索索引核查，不能标为正文直接核验",
+        "2024.2入中大，此前清华博士后/助理研究员；偏分布式优化与协同控制。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Quantized Distributed Gradient Tracking Algorithm with Linear Convergence in Directed Networks",
+          "year": 2023,
+          "venue": "IEEE TAC",
+          "url": "https://ise.sysu.edu.cn/teacher/XiongYongyang"
+        }
+      ]
+    },
+    {
+      "name": "张清瑞",
+      "id": "sysu-zhang-qingrui",
+      "department": "航空航天学院",
+      "position": "副教授",
+      "topics": [
+        "机器人学习控制",
+        "运动规划",
+        "鲁棒控制",
+        "无人机集群"
+      ],
+      "roboticsEvidence": "机器人学习控制；运动规划；鲁棒控制；无人机集群相关方法与机器人应用。",
+      "sources": [
+        {
+          "url": "https://saa.sysu.edu.cn/teacher/427",
+          "title": "张清瑞 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后教研任职日期待核。2020.9起中大助理教授，2023.6升副教授；不能把2023晋升当入职。应用含无人机、四足机器人和无人艇。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "公开招生兴趣条件包括无人机/机器人规划控制，2028年度未核实。"
+      },
+      "caveats": [
+        "2028秋季博士招生及剩余名额、资助未核实",
+        "官网直读403/超时；所列核心事实经官方页面搜索索引核查，不能标为正文直接核验",
+        "2020.9起中大助理教授，2023.6升副教授；不能把2023晋升当入职。应用含无人机、四足机器人和无人艇。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "面向狭窄通道穿越的多机编队安全鲁棒控制",
+          "year": 2023,
+          "venue": "航空学报",
+          "url": "https://saa.sysu.edu.cn/teacher/427"
+        }
+      ]
+    },
+    {
+      "name": "侯燕青",
+      "id": "sysu-hou-yanqing",
+      "department": "系统科学与工程学院",
+      "position": "副教授",
+      "topics": [
+        "多源融合导航",
+        "卫星精密定位",
+        "地下无人集群"
+      ],
+      "roboticsEvidence": "多源融合导航；卫星精密定位；地下无人集群相关方法与机器人应用。",
+      "sources": [
+        {
+          "url": "https://ssse.sysu.edu.cn/teacher/252",
+          "title": "侯燕青 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://ssse.sysu.edu.cn/article/1411",
+          "title": "侯燕青 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后教研任职日期待核。官方教师新闻明确2020.12入职，研究卫星精密定位及多源融合导航。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "欢迎相关方向学生加入，2028博士年度/名额未核实。"
+      },
+      "caveats": [
+        "2028秋季博士招生及剩余名额、资助未核实",
+        "官网直读403/超时；所列核心事实经官方页面搜索索引核查，不能标为正文直接核验",
+        "官方教师新闻明确2020.12入职，研究卫星精密定位及多源融合导航。"
+      ],
+      "representativeWorks": []
+    },
+    {
+      "name": "胡伟鹏",
+      "id": "sysu-hu-weipeng",
+      "department": "智能工程学院",
+      "position": "副教授",
+      "topics": [
+        "低空智能感知",
+        "世界模型",
+        "多模态视觉",
+        "人-物交互"
+      ],
+      "roboticsEvidence": "低空智能感知；世界模型；多模态视觉；人-物交互相关方法与机器人应用。",
+      "sources": [
+        {
+          "url": "https://ise.sysu.edu.cn/teacher/1492",
+          "title": "胡伟鹏 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后教研任职日期待核。2026.2入职，此前NTU CARTIN Research Fellow。近期视觉生成与人-物交互为主要公开成果。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "公开列学术博士交通运输工程、专业博士电子信息，欢迎直博等联系；科研启动经费2026–2028是项目期限，不是2028招生。"
+      },
+      "caveats": [
+        "2028秋季博士招生及剩余名额、资助未核实",
+        "官网直读403/超时；所列核心事实经官方页面搜索索引核查，不能标为正文直接核验",
+        "2026.2入职，此前NTU CARTIN Research Fellow。近期视觉生成与人-物交互为主要公开成果。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "OneHOI: Unifying Human-Object Interaction Generation and Editing",
+          "year": 2026,
+          "venue": "CVPR（官网列accepted）",
+          "url": "https://ise.sysu.edu.cn/node/1492"
+        },
+        {
+          "title": "Cascaded Dynamic Memory Refinement and Semantic Alignment for Exo-to-Ego Cross-view Video Generation",
+          "year": 2025,
+          "venue": "IEEE TPAMI",
+          "url": "https://ise.sysu.edu.cn/node/1492"
+        }
+      ]
+    },
+    {
+      "name": "古博",
+      "id": "sysu-gu-bo",
+      "department": "智能工程学院",
+      "position": "教授",
+      "topics": [
+        "多模态场景理解",
+        "非结构地形通行性",
+        "特种车辆无人驾驶"
+      ],
+      "roboticsEvidence": "多模态场景理解；非结构地形通行性；特种车辆无人驾驶相关方法与机器人应用。",
+      "sources": [
+        {
+          "url": "https://ise.sysu.edu.cn/teacher/GuBo",
+          "title": "古博 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后教研任职日期待核。2019.3加入中大，2024.4升教授；此前在日本大学任教。当前关注遮挡目标检测与非结构地形可通行区域分割。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "常年招博士、硕士、博士后及本科生；未指定2028。"
+      },
+      "caveats": [
+        "2028秋季博士招生及剩余名额、资助未核实",
+        "官网直读403/超时；所列核心事实经官方页面搜索索引核查，不能标为正文直接核验",
+        "2019.3加入中大，2024.4升教授；此前在日本大学任教。当前关注遮挡目标检测与非结构地形可通行区域分割。"
+      ],
+      "representativeWorks": []
+    },
+    {
+      "name": "谭光",
+      "id": "sysu-tan-guang",
+      "department": "智能工程学院",
+      "position": "教授",
+      "topics": [
+        "空间智能",
+        "机器人定位导航",
+        "视觉感知",
+        "智能驾驶VLA"
+      ],
+      "roboticsEvidence": "空间智能；机器人定位导航；视觉感知；智能驾驶VLA相关方法与机器人应用。",
+      "sources": [
+        {
+          "url": "https://ise.sysu.edu.cn/teacher/TanGuang",
+          "title": "谭光 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后教研任职日期待核。官方页明确教授博导；2007–2010 INRIA博士后，2010–2018中科院深圳先进院副研究员/研究员；此次尚未取得准确中大入职起点。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "未取得具体学位/年度招募声明；博导身份不代表2028招生或剩余名额。"
+      },
+      "caveats": [
+        "2028秋季博士招生及剩余名额、资助未核实",
+        "官网直读403/超时；所列核心事实经官方页面搜索索引核查，不能标为正文直接核验",
+        "官方页明确教授博导；2007–2010 INRIA博士后，2010–2018中科院深圳先进院副研究员/研究员；此次尚未取得准确中大入职起点。"
+      ],
+      "representativeWorks": []
+    },
+    {
+      "name": "彭键清",
+      "id": "sysu-peng-jianqing",
+      "department": "智能工程学院",
+      "position": "副教授",
+      "topics": [
+        "特种机器人感知控制",
+        "多传感器融合",
+        "医疗机器人",
+        "具身操作"
+      ],
+      "roboticsEvidence": "特种机器人感知控制；多传感器融合；医疗机器人；具身操作相关方法与机器人应用。",
+      "sources": [
+        {
+          "url": "https://ise.sysu.edu.cn/teacher/PengJianqing",
+          "title": "彭键清 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://ise.sysu.edu.cn/article/1692",
+          "title": "彭键清 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后教研任职日期待核。研究刚柔软耦合控制、机器人视觉、异源传感器空间对齐和康养具身操作。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "2026年博士调剂公告第二批列其电子信息博士拟招1人，已过去，不转为当前余位或2028。"
+      },
+      "caveats": [
+        "2028秋季博士招生及剩余名额、资助未核实",
+        "官网直读403/超时；所列核心事实经官方页面搜索索引核查，不能标为正文直接核验",
+        "研究刚柔软耦合控制、机器人视觉、异源传感器空间对齐和康养具身操作。"
+      ],
+      "representativeWorks": []
+    },
+    {
+      "name": "苟超",
+      "id": "sysu-gou-chao",
+      "department": "智能工程学院",
+      "position": "副教授",
+      "topics": [
+        "自动驾驶/无人机视觉感知",
+        "人机协同",
+        "具身交互",
+        "风险决策"
+      ],
+      "roboticsEvidence": "自动驾驶/无人机视觉感知；人机协同；具身交互；风险决策相关方法与机器人应用。",
+      "sources": [
+        {
+          "url": "https://ise.sysu.edu.cn/teacher/GouChao",
+          "title": "苟超 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://chaogou.github.io/cv/",
+          "title": "苟超 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "公开正文；仅核列明身份、方向或招生陈述，不确认实时余位。",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://chaogou.github.io/non-menu-page/",
+          "title": "苟超 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "公开正文；仅核列明身份、方向或招生陈述，不确认实时余位。",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": "2019-08",
+        "precision": "month",
+        "note": "本人主页正文公开履历中首个明确教师职位为中山大学助理教授；此前2017–2019为中科院助理研究员。仅说明公开履历，不保证排除未披露经历。",
+        "verified": true
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "本人招生说明列控制科学与工程学术博士、电子信息专业博士，每年博士1–2人；博士申请需有高水平论文并附简历、成绩、兴趣和计划。常年声明，未指定2028年度或剩余名额。"
+      },
+      "caveats": [
+        "2028秋季博士招生及剩余名额、资助未核实",
+        "任职、入职和招生说明以本人主页直接正文核查；官网教师页另为index_only",
+        "组内氛围、实习、毕业去向等是本人自述，未做独立学生交叉核实",
+        "2019.8入中大助理教授，2022.4升副教授；个人主页正文交叉核实。关注人类知识与反馈增强AI、场景图与风险感知。"
+      ],
+      "representativeWorks": []
+    },
+    {
+      "name": "金枝",
+      "id": "sysu-jin-zhi",
+      "department": "智能工程学院",
+      "position": "教授",
+      "topics": [
+        "恶劣环境视觉增强",
+        "三维重建",
+        "空间智能"
+      ],
+      "roboticsEvidence": "恶劣环境视觉增强；三维重建；空间智能相关方法与机器人应用。",
+      "sources": [
+        {
+          "url": "https://ise.sysu.edu.cn/teacher/JinZhi",
+          "title": "金枝 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://fvl2020.framer.website/leader",
+          "title": "金枝 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "公开正文；仅核列明身份、方向或招生陈述，不确认实时余位。",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后教研任职日期待核。2019入中大；Frontier Vision Lab主页直接核实教授博导和入职年。以复杂天气/光照下视觉增强为明显相关方向，但不能写成已开展LiDAR去雪。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "实验室欢迎博士、硕士等报考并邮件咨询；2028名额未明确。"
+      },
+      "caveats": [
+        "2028秋季博士招生及剩余名额、资助未核实",
+        "教授/博导/2019入职由实验室正文交叉核查；2026 FreeDehaze成果来自官网搜索索引",
+        "2019入中大；Frontier Vision Lab主页直接核实教授博导和入职年。以复杂天气/光照下视觉增强为明显相关方向，但不能写成已开展LiDAR去雪。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "FreeDehaze: Towards Training-free Real-world Image Dehazing via Diffusion Degradation Prior",
+          "year": 2026,
+          "venue": "IEEE TIP",
+          "url": "https://ise.sysu.edu.cn/teacher/JinZhi"
+        },
+        {
+          "title": "Colorization-Inspired Customized Low-Light Image Enhancement by A Decoupled Network",
+          "year": 2024,
+          "venue": "IEEE TNNLS",
+          "url": "https://fvl2020.framer.website/leader"
+        }
+      ]
+    },
+    {
+      "name": "肖延东",
+      "id": "sysu-xiao-yandong",
+      "department": "航空航天学院",
+      "position": "副教授",
+      "topics": [
+        "无人机集群",
+        "自主鲁棒协同",
+        "仿生群体行为"
+      ],
+      "roboticsEvidence": "无人机集群；自主鲁棒协同；仿生群体行为相关方法与机器人应用。",
+      "sources": [
+        {
+          "url": "https://saa.sysu.edu.cn/teacher/797",
+          "title": "肖延东 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后教研任职日期待核。2026.1起中大副教授博导；此前2018.7–2025.12在国防科大任讲师、副教授。新入中大不等于首次教师岗位。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "未取得具体学位/年度招募声明；博导身份不代表2028招生或剩余名额。"
+      },
+      "caveats": [
+        "2028秋季博士招生及剩余名额、资助未核实",
+        "官网直读403/超时；所列核心事实经官方页面搜索索引核查，不能标为正文直接核验",
+        "2026.1起中大副教授博导；此前2018.7–2025.12在国防科大任讲师、副教授。新入中大不等于首次教师岗位。"
+      ],
+      "representativeWorks": []
+    },
+    {
+      "name": "王涛",
+      "id": "sysu-wang-tao-ise",
+      "department": "智能工程学院",
+      "position": "教授",
+      "topics": [
+        "智能无人系统",
+        "制导控制",
+        "任务规划",
+        "智能决策"
+      ],
+      "roboticsEvidence": "智能无人系统；制导控制；任务规划；智能决策相关方法与机器人应用。",
+      "sources": [
+        {
+          "url": "https://ise.sysu.edu.cn/teacher/WangTao",
+          "title": "王涛 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引可读；原网页正文访问受限，未以索引当作直接正文核验。",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "首次本校非博士后教研任职日期待核。智能工程学院王涛，邮箱wangt339@mail.sysu.edu.cn；不要与电子与通信学院同名教授混同。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "官方页面称每年博士1–2名、硕士2–3名，为未指定年度常年声明，不可升级为2028或剩余名额。"
+      },
+      "caveats": [
+        "2028秋季博士招生及剩余名额、资助未核实",
+        "官网直读403/超时；所列核心事实经官方页面搜索索引核查，不能标为正文直接核验",
+        "智能工程学院王涛，邮箱wangt339@mail.sysu.edu.cn；不要与电子与通信学院同名教授混同。"
+      ],
+      "representativeWorks": []
+    },
+    {
+      "name": "郭裕兰",
+      "id": "sysu-guo-yulan",
+      "department": "电子与通信工程学院",
+      "position": "教授",
+      "topics": [
+        "三维重建",
+        "点云理解",
+        "机器人感知",
+        "具身智能"
+      ],
+      "roboticsEvidence": "三维重建；点云理解；机器人感知；具身智能方向研究。",
+      "sources": [
+        {
+          "url": "https://sece.sysu.edu.cn/szll/js/zngz/1417219.htm",
+          "title": "郭裕兰 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "公开正文；仅核列明身份、方向或招生陈述，不确认实时余位。",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://www.yulanguo.cn/",
+          "title": "郭裕兰 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "公开正文；仅核列明身份、方向或招生陈述，不确认实时余位。",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://www.slai.edu.cn/zh-hans/teacher/214",
+          "title": "郭裕兰 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "公开正文；仅核列明身份、方向或招生陈述，不确认实时余位。",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "本次未取得明确入职年月；不能因青年人才称号推断近五年首次任教。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "院系确认博士生导师；个人主页欢迎 CV/ML/3D Vision 研究生、博后与RA，未限定2028年；不据此确认2028博士名额。"
+      },
+      "caveats": [
+        "2028年博士招生周期、剩余名额和资助未核实",
+        "个人指导频率、组内氛围、导师性格及新生设备使用权未知",
+        "中山大学任职与深圳河套学院页面分开记录；不能将河套项目资格自动关联个人",
+        "图像/点云退化复原论文院系页标2024，河套页期刊卷期标2025；所列代表作避开该年份冲突"
+      ],
+      "representativeWorks": [
+        {
+          "title": "GeoTransformer: Fast and Robust Point Cloud Registration with Geometric Transformer",
+          "year": 2023,
+          "venue": "TPAMI",
+          "sourceUrl": "https://sece.sysu.edu.cn/szll/js/zngz/1417219.htm"
+        },
+        {
+          "title": "RoReg: Pairwise Point Cloud Registration with Oriented Descriptors and Local Rotations",
+          "year": 2023,
+          "venue": "TPAMI",
+          "sourceUrl": "https://sece.sysu.edu.cn/szll/js/zngz/1417219.htm"
+        }
+      ]
+    },
+    {
+      "name": "高庆",
+      "id": "sysu-gao-qing",
+      "department": "电子与通信工程学院",
+      "position": "副教授",
+      "topics": [
+        "手/人体三维姿态",
+        "人机动作重定向",
+        "灵巧手遥操作",
+        "模仿/强化学习",
+        "VLA与世界模型"
+      ],
+      "roboticsEvidence": "手/人体三维姿态；人机动作重定向；灵巧手遥操作；模仿/强化学习；VLA与世界模型方向研究。",
+      "sources": [
+        {
+          "url": "https://sece.sysu.edu.cn/szll/js/zngz/1408719.htm",
+          "title": "高庆 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "公开正文；仅核列明身份、方向或招生陈述，不确认实时余位。",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "官方简介未给任职起始时间；本次未核实。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "官方页面明确长期招收本科生、硕士/博士研究生和博士后；申请材料为简历、成绩单及主要成果，未写2028年名额。"
+      },
+      "caveats": [
+        "2028年博士招生周期、剩余名额和资助未核实",
+        "个人指导频率、组内氛围、导师性格及新生设备使用权未知"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Vision-Guided Arm-Hand Decoupled Motion Retargeting Using Graph Networks for Cross-Platform Robots",
+          "year": 2026,
+          "venue": "IEEE TASE",
+          "sourceUrl": "https://sece.sysu.edu.cn/szll/js/zngz/1408719.htm"
+        },
+        {
+          "title": "TransDexNet: An End-to-end Motion Retargeting Network with Transformer for Dexterous Hand Teleoperation from RGB Images",
+          "year": 2026,
+          "venue": "ICRA",
+          "sourceUrl": "https://sece.sysu.edu.cn/szll/js/zngz/1408719.htm"
+        }
+      ]
+    },
+    {
+      "name": "汪汉云",
+      "id": "sysu-wang-hanyun",
+      "department": "电子与通信工程学院",
+      "position": "副教授",
+      "topics": [
+        "多模态融合感知",
+        "点云处理",
+        "点云配准与补全",
+        "遥感图像理解"
+      ],
+      "roboticsEvidence": "多模态融合感知；点云处理；点云配准与补全；遥感图像理解方向研究。",
+      "sources": [
+        {
+          "url": "https://sece.sysu.edu.cn/szll/js/zngz/1420453.htm",
+          "title": "汪汉云 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "公开正文；仅核列明身份、方向或招生陈述，不确认实时余位。",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://why-scholar.github.io/",
+          "title": "汪汉云 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "公开正文；仅核列明身份、方向或招生陈述，不确认实时余位。",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "个人主页确认现职但未给加入年月，团队新闻待补年月。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "官方确认博士生导师；本次所读院系及个人主页未取得个人2028博士招募原文。"
+      },
+      "caveats": [
+        "2028年博士招生周期、剩余名额和资助未核实",
+        "个人指导频率、组内氛围、导师性格及新生设备使用权未知"
+      ],
+      "representativeWorks": [
+        {
+          "title": "DuInNet: Dual-Modality Feature Interaction for Point Cloud Completion",
+          "year": 2025,
+          "venue": "IEEE TMM",
+          "sourceUrl": "https://sece.sysu.edu.cn/szll/js/zngz/1420453.htm"
+        },
+        {
+          "title": "Deep Semantic Graph Matching for Large-scale Outdoor Point Cloud Registration",
+          "year": 2024,
+          "venue": "IEEE TGRS",
+          "sourceUrl": "https://sece.sysu.edu.cn/szll/js/zngz/1420453.htm"
+        }
+      ]
+    },
+    {
+      "name": "张瑞茂",
+      "id": "sysu-zhang-ruimao",
+      "department": "电子与通信工程学院",
+      "position": "副教授",
+      "topics": [
+        "机器人三维场景理解",
+        "LiDAR-相机融合",
+        "多模态大模型",
+        "机器人操作",
+        "具身规划与决策"
+      ],
+      "roboticsEvidence": "机器人三维场景理解；LiDAR-相机融合；多模态大模型；机器人操作；具身规划与决策方向研究。",
+      "sources": [
+        {
+          "url": "https://sece.sysu.edu.cn/szll/js/zngz/1417727.htm",
+          "title": "张瑞茂 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "公开正文；仅核列明身份、方向或招生陈述，不确认实时余位。",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "http://zhangruimao.site/",
+          "title": "张瑞茂 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "公开正文；仅核列明身份、方向或招生陈述，不确认实时余位。",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "http://zhangruimao.site/recruitment.html",
+          "title": "张瑞茂 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "公开正文；仅核列明身份、方向或招生陈述，不确认实时余位。",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": "2024",
+        "precision": "year",
+        "note": "官方工作经历写2024/12起，个人主页履历写2024/10起；仅记录2024年、月份待核。此前2021/02–2024/09为港中大深圳副研究员，不能称首次任教。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "个人主页明确有Ph.D./M.phil./博后/RA/访问生招募，未指定2028周期；另招有ROS及机器人硬件经验的实习生，不能转作博士条件或名额。"
+      },
+      "caveats": [
+        "2028年博士招生周期、剩余名额和资助未核实",
+        "个人指导频率、组内氛围、导师性格及新生设备使用权未知",
+        "官方与个人主页入职月份冲突；现有身份是电子与通信工程学院，不是网络空间安全学院"
+      ],
+      "representativeWorks": [
+        {
+          "title": "SupFusion: Supervised LiDAR-Camera Fusion for 3D Object Detection",
+          "year": 2023,
+          "venue": "ICCV",
+          "sourceUrl": "https://sece.sysu.edu.cn/szll/js/zngz/1417727.htm"
+        },
+        {
+          "title": "HumanTOMATO: Text-aligned Whole-body Motion Generation",
+          "year": 2024,
+          "venue": "ICML",
+          "sourceUrl": "https://sece.sysu.edu.cn/szll/js/zngz/1417727.htm"
+        }
+      ]
+    },
+    {
+      "name": "陈冠英",
+      "id": "sysu-chen-guanying",
+      "department": "网络空间安全学院",
+      "position": "副教授",
+      "topics": [
+        "三维重建/理解/渲染/生成",
+        "多模态感知推理",
+        "世界模型",
+        "具身操作"
+      ],
+      "roboticsEvidence": "三维重建/理解/渲染/生成；多模态感知推理；世界模型；具身操作方向研究。",
+      "sources": [
+        {
+          "url": "https://scst.sysu.edu.cn/node/323",
+          "title": "陈冠英 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "公开正文；仅核列明身份、方向或招生陈述，不确认实时余位。",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "phdSupervisor": true,
+      "firstAppointment": {
+        "date": "2024",
+        "precision": "year",
+        "note": "院系简介明确2024年加入中山大学；具体月份及首次教师岗位未核实。"
+      },
+      "recruitment2028": {
+        "verified": false,
+        "note": "官方页欢迎博士生/硕士生、本科生及博士后加入；未限定2028年或余位。"
+      },
+      "caveats": [
+        "2028年博士招生周期、剩余名额和资助未核实",
+        "个人指导频率、组内氛围、导师性格及新生设备使用权未知",
+        "官方链接的个人主页及recruitment.html本次直接返回404；不据旧搜索索引恢复当前招生条件"
+      ],
+      "representativeWorks": [
+        {
+          "title": "RobustSplat: Decoupling Densification and Dynamics for Transient-Free 3DGS",
+          "year": 2025,
+          "venue": "ICCV",
+          "sourceUrl": "https://scst.sysu.edu.cn/node/323"
+        },
+        {
+          "title": "Aerial Lifting: Neural Urban Semantic and Building Instance Lifting from Aerial Imagery",
+          "year": 2024,
+          "venue": "CVPR",
+          "sourceUrl": "https://scst.sysu.edu.cn/node/323"
+        }
+      ]
+    },
+    {
+      "name": "林倞",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "多模态感知",
+        "具身交互",
+        "自主机器人"
+      ],
+      "roboticsEvidence": "HCP个人页明确研究自主机器人与具身交互，以及跨模态感知、三维场景生成。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "HCP实验室成立于2010，不能据成立日期直接设定个人首次教职年月。"
+      },
+      "sources": [
+        {
+          "url": "https://www.sysu-hcp.net/faculty/lianglin.html",
+          "title": "林倞 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "本人主页：当前身份、研究方向和招生文字",
+          "access": "lab_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://www.sysu-hcp.net/faculty/lianglin.html",
+          "title": "林倞 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "实验室个人简介、履历、研究与招生文字",
+          "access": "lab_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "林倞 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "2026-11-06计算机学院招生导师目录：逐人当前指导层次，不是2028名额确认",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "团队共享宣传不等于个人承诺的资源、指导频率或毕业去向。"
+      ],
+      "recruitment2027": {
+        "status": "unknown",
+        "note": "未核到个人明确2027招生声明。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "本次已读来源未见明确2028个人招生计划，不代表无名额。"
+      },
+      "representativeWorks": [
+        {
+          "title": "Learning to See and Act",
+          "year": 2026,
+          "venue": "CVPR",
+          "url": "https://wzhouxiff.github.io/",
+          "summaryZh": "本人共同作者名单列名的机器人操作虚拟视角探索工作。",
+          "sources": [
+            {
+              "url": "https://wzhouxiff.github.io/",
+              "checkedDate": "2026-11-18",
+              "access": "personal_body",
+              "readScope": "本人/实验室代表成果目录；未声称已读论文全文"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "public_primary_body_read",
+      "classification": "research_main_candidate",
+      "id": "sysu-linliang"
+    },
+    {
+      "name": "李冠彬",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "跨模态视觉",
+        "具身感知",
+        "域适应"
+      ],
+      "roboticsEvidence": "研究RGB-D目标检测、跨域表征与具身感知决策，可衔接视觉/多模态感知。",
+      "firstAppointment": {
+        "date": "2016-10",
+        "precision": "month",
+        "note": "HCP履历明确2016.10起中山大学副研究员；2019.05副教授为后续晋升。当前本人主页和官方目录为教授，旧履历职称未同步。"
+      },
+      "sources": [
+        {
+          "url": "https://guanbinli.com/",
+          "title": "李冠彬 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "本人主页：当前身份、研究方向和招生文字",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://www.sysu-hcp.net/faculty/liguanbin.html",
+          "title": "李冠彬 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "实验室个人简介、履历、研究与招生文字",
+          "access": "lab_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "李冠彬 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "2026-11-06计算机学院招生导师目录：逐人当前指导层次，不是2028名额确认",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "团队共享宣传不等于个人承诺的资源、指导频率或毕业去向。"
+      ],
+      "recruitment2027": {
+        "status": "unknown",
+        "note": "本人常年欢迎博士/硕士申请，未指定2027。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "本次已读来源未见明确2028个人招生计划，不代表无名额。"
+      },
+      "representativeWorks": [
+        {
+          "title": "Cross-Modal Attentional Context Learning for RGB-D Object Detection",
+          "year": 2018,
+          "venue": "IEEE TIP",
+          "url": "https://www.sysu-hcp.net/faculty/liguanbin.html",
+          "summaryZh": "面向RGB-D的跨模态检测研究。",
+          "sources": [
+            {
+              "url": "https://www.sysu-hcp.net/faculty/liguanbin.html",
+              "checkedDate": "2026-11-18",
+              "access": "personal_body",
+              "readScope": "本人/实验室代表成果目录；未声称已读论文全文"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "public_primary_body_read",
+      "classification": "research_main_candidate",
+      "id": "sysu-liguanbin"
+    },
+    {
+      "name": "梁小丹",
+      "university": "中山大学",
+      "department": "智能工程学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "视觉语言导航",
+        "机器人操作",
+        "三维多模态预训练"
+      ],
+      "roboticsEvidence": "HCP个人页列视觉语言导航、三维预训练及机器人操作世界模型。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "学院官方索引写2018年底加入；本轮学院正文403，因此保留索引线索，不冒充正文已核年月。"
+      },
+      "sources": [
+        {
+          "url": "https://www.sysu-hcp.net/faculty/xiaodanliang.html",
+          "title": "梁小丹 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "本人主页：当前身份、研究方向和招生文字",
+          "access": "lab_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://www.sysu-hcp.net/faculty/xiaodanliang.html",
+          "title": "梁小丹 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "实验室个人简介、履历、研究与招生文字",
+          "access": "lab_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://ise.sysu.edu.cn/teacher/LiangXiaodan",
+          "title": "梁小丹 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "官方搜索索引证实学院、博导和2018年底入职；直接正文403",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "团队共享宣传不等于个人承诺的资源、指导频率或毕业去向。"
+      ],
+      "recruitment2027": {
+        "status": "unknown",
+        "note": "HCP个人页常年招募PhD等，未指定2027或2028；MBZUAI联合任职不混同中山招生通道。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "本次已读来源未见明确2028个人招生计划，不代表无名额。"
+      },
+      "representativeWorks": [
+        {
+          "title": "PIVOT-R: Primitive-Driven Waypoint-Aware World Model for Robotic Manipulation",
+          "year": 2025,
+          "venue": "NeurIPS（实验室标注）",
+          "url": "https://www.sysu-hcp.net/faculty/xiaodanliang.html",
+          "summaryZh": "机器人操作世界模型。",
+          "sources": [
+            {
+              "url": "https://www.sysu-hcp.net/faculty/xiaodanliang.html",
+              "checkedDate": "2026-11-18",
+              "access": "personal_body",
+              "readScope": "本人/实验室代表成果目录；未声称已读论文全文"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "public_primary_body_read",
+      "classification": "research_main_candidate",
+      "id": "sysu-liangxiaodan"
+    },
+    {
+      "name": "王可泽",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "多智能体推理",
+        "多模态学习",
+        "具身智能"
+      ],
+      "roboticsEvidence": "本人研究方向明确具身智能与认知驱动推理，并研究降低对标注训练数据的依赖。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "所读一手资料未明确本校首任年月，不能用毕业或外校工作结束日期推算。"
+      },
+      "sources": [
+        {
+          "url": "https://kezewang.com/",
+          "title": "王可泽 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "本人主页：当前身份、研究方向和招生文字",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://www.sysu-hcp.net/faculty/325.html",
+          "title": "王可泽 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "实验室个人简介、履历、研究与招生文字",
+          "access": "lab_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "王可泽 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "2026-11-06计算机学院招生导师目录：逐人当前指导层次，不是2028名额确认",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "团队共享宣传不等于个人承诺的资源、指导频率或毕业去向。"
+      ],
+      "recruitment2027": {
+        "status": "unknown",
+        "note": "本人欢迎PhD/Master申请，但未指定入学年份；2027会议任职不是招生。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "本次已读来源未见明确2028个人招生计划，不代表无名额。"
+      },
+      "representativeWorks": [
+        {
+          "title": "KABB",
+          "year": 2025,
+          "venue": "ICML",
+          "url": "https://www.sysu-hcp.net/faculty/325.html",
+          "summaryZh": "多智能体系统中的知识感知专家协调。",
+          "sources": [
+            {
+              "url": "https://www.sysu-hcp.net/faculty/325.html",
+              "checkedDate": "2026-11-18",
+              "access": "personal_body",
+              "readScope": "本人/实验室代表成果目录；未声称已读论文全文"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "public_primary_body_read",
+      "classification": "research_main_candidate",
+      "id": "sysu-wangkeze"
+    },
+    {
+      "name": "王广润",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "物理智能",
+        "世界模型",
+        "三维多模态建模"
+      ],
+      "roboticsEvidence": "本人当前方向含物理智能、具身模型及2D/3D/4D视觉建模。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "官方新闻搜索索引显示2024.05加入，但正文403/超时，首任日期暂待正文核验。"
+      },
+      "sources": [
+        {
+          "url": "https://wanggrun.github.io/",
+          "title": "王广润 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "本人主页：当前身份、研究方向和招生文字",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://www.sysu-hcp.net/faculty/420.html",
+          "title": "王广润 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "实验室个人简介、履历、研究与招生文字",
+          "access": "lab_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "王广润 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "2026-11-06计算机学院招生导师目录：逐人当前指导层次，不是2028名额确认",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/2970",
+          "title": "王广润 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "2024-06-18新进人才新闻；直读失败，新闻列表索引显示2024.05加入",
+          "access": "official_search_index",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "团队共享宣传不等于个人承诺的资源、指导频率或毕业去向。",
+        "Great AI Lab网页另一位王广聪的招生不能转用于王广润。"
+      ],
+      "recruitment2027": {
+        "status": "unknown",
+        "note": "未核到个人明确2027招生声明。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "本次已读来源未见明确2028个人招生计划，不代表无名额。"
+      },
+      "representativeWorks": [],
+      "reviewStatus": "public_primary_body_read",
+      "classification": "research_main_candidate",
+      "id": "sysu-wangguangrun"
+    },
+    {
+      "name": "王州霞",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "主动感知",
+        "机器人操作",
+        "世界模型"
+      ],
+      "roboticsEvidence": "本人研究方向明确具身主动感知，列机器人操作的任务驱动虚拟视角探索。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "所读一手资料未明确本校首任年月，不能用毕业或外校工作结束日期推算。"
+      },
+      "sources": [
+        {
+          "url": "https://wzhouxiff.github.io/",
+          "title": "王州霞 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "本人主页：当前身份、研究方向和招生文字",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://www.sysu-hcp.net/faculty/518.html",
+          "title": "王州霞 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "实验室个人简介、履历、研究与招生文字",
+          "access": "lab_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "王州霞 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "2026-11-06计算机学院招生导师目录：逐人当前指导层次，不是2028名额确认",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "团队共享宣传不等于个人承诺的资源、指导频率或毕业去向。"
+      ],
+      "recruitment2027": {
+        "status": "unknown",
+        "note": "本人Open Positions欢迎博士等，但无2027/2028周期。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "本次已读来源未见明确2028个人招生计划，不代表无名额。"
+      },
+      "representativeWorks": [
+        {
+          "title": "Learning to See and Act",
+          "year": 2026,
+          "venue": "CVPR",
+          "url": "https://wzhouxiff.github.io/",
+          "summaryZh": "任务感知的虚拟视角探索用于机器人操作。",
+          "sources": [
+            {
+              "url": "https://wzhouxiff.github.io/",
+              "checkedDate": "2026-11-18",
+              "access": "personal_body",
+              "readScope": "本人/实验室代表成果目录；未声称已读论文全文"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "public_primary_body_read",
+      "classification": "research_main_candidate",
+      "id": "sysu-wangzhouxia"
+    },
+    {
+      "name": "魏朋旭",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "副教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "世界模型",
+        "多模态视觉表征",
+        "真实图像恢复"
+      ],
+      "roboticsEvidence": "本人将世界模型、自进化学习与真实图像恢复用于复杂场景和具身智能。",
+      "firstAppointment": {
+        "date": "2021",
+        "precision": "year",
+        "note": "HCP履历2021起副研究员，2024副教授为晋升；2018-2020为博后。只有年份，2021与滚动五年窗口相交，不能径直列为近五年已确认。"
+      },
+      "sources": [
+        {
+          "url": "https://pengxuwei.github.io/",
+          "title": "魏朋旭 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "本人主页：当前身份、研究方向和招生文字",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://www.sysu-hcp.net/faculty/pengxuwei.html",
+          "title": "魏朋旭 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "实验室个人简介、履历、研究与招生文字",
+          "access": "lab_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "魏朋旭 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "2026-11-06计算机学院招生导师目录：逐人当前指导层次，不是2028名额确认",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "团队共享宣传不等于个人承诺的资源、指导频率或毕业去向。",
+        "2026-11-06官方目录仅列硕导；独立博导身份未确认。"
+      ],
+      "recruitment2027": {
+        "status": "unknown",
+        "note": "未核到个人明确2027招生声明。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "本次已读来源未见明确2028个人招生计划，不代表无名额。"
+      },
+      "representativeWorks": [
+        {
+          "title": "Kepler Codebook",
+          "year": 2024,
+          "venue": "ICML",
+          "url": "https://pengxuwei.github.io/",
+          "summaryZh": "本人论文目录列出的视觉表示研究。",
+          "sources": [
+            {
+              "url": "https://pengxuwei.github.io/",
+              "checkedDate": "2026-11-18",
+              "access": "personal_body",
+              "readScope": "本人/实验室代表成果目录；未声称已读论文全文"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "public_primary_body_read",
+      "classification": "research_main_candidate",
+      "id": "sysu-weipengxu"
+    },
+    {
+      "name": "刘阳",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "副教授",
+      "phdSupervisor": null,
+      "masterSupervisor": true,
+      "topics": [
+        "视觉语言导航",
+        "机器人操控",
+        "空间推理"
+      ],
+      "roboticsEvidence": "HCP个人页明确导航、操控与机器人系统集成，并参与PhyAgentOS。",
+      "firstAppointment": {
+        "date": "2021-10",
+        "precision": "month",
+        "note": "HCP履历2021.10副研究员为本校首个非博后研究岗位；2024.10晋升副教授，不能用晋升日期充当近年入职。"
+      },
+      "sources": [
+        {
+          "url": "https://yangliu9208.github.io/",
+          "title": "刘阳 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "本人主页：当前身份、研究方向和招生文字",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://www.sysu-hcp.net/faculty/liuyang.html",
+          "title": "刘阳 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "实验室个人简介、履历、研究与招生文字",
+          "access": "lab_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "刘阳 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "2026-11-06计算机学院招生导师目录：逐人当前指导层次，不是2028名额确认",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "团队共享宣传不等于个人承诺的资源、指导频率或毕业去向。",
+        "2026-11-06官方目录仅列硕导；科研实习招募不是独立博士招募。"
+      ],
+      "recruitment2027": {
+        "status": "unknown",
+        "note": "HCP个人页全年科研实习生招募，未指定2027/2028学位招生。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "本次已读来源未见明确2028个人招生计划，不代表无名额。"
+      },
+      "representativeWorks": [
+        {
+          "title": "PhyAgentOS",
+          "year": 2026,
+          "venue": "开源系统（实验室展示）",
+          "url": "https://www.sysu-hcp.net/faculty/liuyang.html",
+          "summaryZh": "自进化物理智能体操作系统；非论文接收声明。",
+          "sources": [
+            {
+              "url": "https://www.sysu-hcp.net/faculty/liuyang.html",
+              "checkedDate": "2026-11-18",
+              "access": "personal_body",
+              "readScope": "本人/实验室代表成果目录；未声称已读论文全文"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "public_primary_body_read",
+      "classification": "research_main_candidate",
+      "id": "sysu-liuyang"
+    },
+    {
+      "name": "杨思蓓",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "开放世界视觉",
+        "多模态推理",
+        "具身智能"
+      ],
+      "roboticsEvidence": "研究开放世界下的视觉语言理解、生成及物理交互。",
+      "firstAppointment": {
+        "date": "2025-06",
+        "precision": "month",
+        "note": "HCP履历2025.06加入中山；此前2020.10香港理工研究助理教授、2021.06上海科技助理教授，因此近期入职中山不等于首次独立教职。"
+      },
+      "sources": [
+        {
+          "url": "https://sibeiyang.github.io/",
+          "title": "杨思蓓 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "本人主页：当前身份、研究方向和招生文字",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://www.sysu-hcp.net/faculty/443.html",
+          "title": "杨思蓓 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "实验室个人简介、履历、研究与招生文字",
+          "access": "lab_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "杨思蓓 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "2026-11-06计算机学院招生导师目录：逐人当前指导层次，不是2028名额确认",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "团队共享宣传不等于个人承诺的资源、指导频率或毕业去向。"
+      ],
+      "recruitment2027": {
+        "status": "historical_struck_through",
+        "note": "HCP页面Fall 2027硕/博招募整段带删除线，不能视作仍接收；当前清晰有效招募是科研实习生。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "本次已读来源未见明确2028个人招生计划，不代表无名额。"
+      },
+      "representativeWorks": [
+        {
+          "title": "RefAny3D",
+          "year": 2026,
+          "venue": "ICLR",
+          "url": "https://sibeiyang.github.io/",
+          "summaryZh": "三维资产参考的图像生成工作。",
+          "sources": [
+            {
+              "url": "https://sibeiyang.github.io/",
+              "checkedDate": "2026-11-18",
+              "access": "personal_body",
+              "readScope": "本人/实验室代表成果目录；未声称已读论文全文"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "public_primary_body_read",
+      "classification": "research_main_candidate",
+      "id": "sysu-yangsibei"
+    },
+    {
+      "name": "董浩业",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "三维人体场景重建",
+        "人形机器人",
+        "世界模型"
+      ],
+      "roboticsEvidence": "本人研究明确人形机器人全身控制，以及三维人体/场景重建。",
+      "firstAppointment": {
+        "date": null,
+        "precision": "unknown",
+        "note": "所读一手资料未明确本校首任年月，不能用毕业或外校工作结束日期推算。"
+      },
+      "sources": [
+        {
+          "url": "https://www.haoyed.com/",
+          "title": "董浩业 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "本人主页：当前身份、研究方向和招生文字",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://www.sysu-hcp.net/faculty/567.html",
+          "title": "董浩业 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "实验室个人简介、履历、研究与招生文字",
+          "access": "lab_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "董浩业 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "2026-11-06计算机学院招生导师目录：逐人当前指导层次，不是2028名额确认",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "团队共享宣传不等于个人承诺的资源、指导频率或毕业去向。"
+      ],
+      "recruitment2027": {
+        "status": "explicit_personal_fall_phd",
+        "note": "本人主页明确Fall 2027 PhD，以及Fall 2026/2027 Master；HCP页较宽泛写2026/2027年9月硕博。采用本人更细的博士年份，不延推2028或实时余位。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "本次已读来源未见明确2028个人招生计划，不代表无名额。"
+      },
+      "representativeWorks": [
+        {
+          "title": "Hamba",
+          "year": 2024,
+          "venue": "NeurIPS",
+          "url": "https://www.haoyed.com/",
+          "summaryZh": "单视角三维手部重建。",
+          "sources": [
+            {
+              "url": "https://www.haoyed.com/",
+              "checkedDate": "2026-11-18",
+              "access": "personal_body",
+              "readScope": "本人/实验室代表成果目录；未声称已读论文全文"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "public_primary_body_read",
+      "classification": "research_main_candidate",
+      "id": "sysu-donghaoye"
+    },
+    {
+      "name": "李继昌",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "开放世界视觉",
+        "弱监督学习",
+        "具身智能"
+      ],
+      "roboticsEvidence": "本人方向含空间/物理/具身智能与开放世界学习，已发表噪声标签及半监督域适应工作。",
+      "firstAppointment": {
+        "date": "2026",
+        "precision": "year",
+        "note": "HCP履历2026起中山副教授；本人履历表写2026-2026但正文仍现任，以HCP交叉验证首任年份，不猜月份；此前鹏城实验室2024-2026助理研究员。"
+      },
+      "sources": [
+        {
+          "url": "https://lijichang.tech/",
+          "title": "李继昌 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "本人主页：当前身份、研究方向和招生文字",
+          "access": "personal_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://www.sysu-hcp.net/faculty/568.html",
+          "title": "李继昌 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "实验室个人简介、履历、研究与招生文字",
+          "access": "lab_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "李继昌 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "2026-11-06计算机学院招生导师目录：逐人当前指导层次，不是2028名额确认",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "团队共享宣传不等于个人承诺的资源、指导频率或毕业去向。",
+        "2028招募公开声明不等于申请者录取、实时余位或资助承诺；国际申请者无位置的限定须原样保留。"
+      ],
+      "recruitment2027": {
+        "status": "unknown",
+        "note": "未核到个人明确2027招生声明。"
+      },
+      "recruitment2028": {
+        "status": "explicit_personal_fall_phd_and_master",
+        "verified": true,
+        "cycle": "2028 Fall",
+        "degrees": [
+          "PhD",
+          "Master"
+        ],
+        "quote": "PhD/Master students (for 2028 Fall intake)",
+        "note": "本人主页明确2028秋季博士/硕士招募；同页注明目前不向国际申请者提供位置。人数、实时余位、资助及申请者条件尚未核实。",
+        "noticeDate": null,
+        "checkedDate": "2026-11-18",
+        "confirmedVacancy": false,
+        "remainingHeadcountVerified": false,
+        "sourceUrl": "https://lijichang.tech/"
+      },
+      "representativeWorks": [
+        {
+          "title": "FedDiv",
+          "year": 2024,
+          "venue": "AAAI",
+          "url": "https://lijichang.tech/",
+          "summaryZh": "联邦学习中的协同噪声标签过滤。",
+          "sources": [
+            {
+              "url": "https://lijichang.tech/",
+              "checkedDate": "2026-11-18",
+              "access": "personal_body",
+              "readScope": "本人/实验室代表成果目录；未声称已读论文全文"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "public_primary_body_read",
+      "classification": "research_main_candidate",
+      "id": "sysu-lijichang"
+    },
+    {
+      "name": "沈颖",
+      "university": "中山大学",
+      "department": "计算机学院",
+      "position": "副教授",
+      "phdSupervisor": true,
+      "masterSupervisor": null,
+      "topics": [
+        "多模态智能体",
+        "具身世界模型",
+        "自然语言推理"
+      ],
+      "roboticsEvidence": "学院当前目录明确具身智能大脑、操作系统及世界模型；HCP旧简介偏自然语言处理和多模态研究。",
+      "firstAppointment": {
+        "date": "2020-01",
+        "precision": "month",
+        "note": "HCP履历2020.01加入中山副教授；此前北京大学深圳研究生院研究助理教授。"
+      },
+      "sources": [
+        {
+          "url": "https://www.sysu-hcp.net/faculty/442.html",
+          "title": "沈颖 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "本人主页：当前身份、研究方向和招生文字",
+          "access": "lab_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://www.sysu-hcp.net/faculty/442.html",
+          "title": "沈颖 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "实验室个人简介、履历、研究与招生文字",
+          "access": "lab_body",
+          "checkedDate": "2026-11-18"
+        },
+        {
+          "url": "https://cse.sysu.edu.cn/article/3694",
+          "title": "沈颖 · 公开身份与研究资料",
+          "section": "现职、研究与招生边界",
+          "readScope": "2026-11-06计算机学院招生导师目录：逐人当前指导层次，不是2028名额确认",
+          "access": "official_body",
+          "checkedDate": "2026-11-18"
+        }
+      ],
+      "caveats": [
+        "团队共享宣传不等于个人承诺的资源、指导频率或毕业去向。",
+        "机器人关联来自官方当前研究方向，未将较旧NLP论文包装为机器人实验成果。"
+      ],
+      "recruitment2027": {
+        "status": "unknown",
+        "note": "未核到个人明确2027招生声明。"
+      },
+      "recruitment2028": {
+        "status": "unknown",
+        "verified": false,
+        "note": "本次已读来源未见明确2028个人招生计划，不代表无名额。"
+      },
+      "representativeWorks": [
+        {
+          "title": "A Survey of Natural Language Generation",
+          "year": 2022,
+          "venue": "ACM Computing Surveys",
+          "url": "https://www.sysu-hcp.net/faculty/442.html",
+          "summaryZh": "自然语言生成领域综述；不是机器人实测证据。",
+          "sources": [
+            {
+              "url": "https://www.sysu-hcp.net/faculty/442.html",
+              "checkedDate": "2026-11-18",
+              "access": "personal_body",
+              "readScope": "本人/实验室代表成果目录；未声称已读论文全文"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "public_primary_body_read",
+      "classification": "research_main_candidate",
+      "id": "sysu-shenying"
+    }
+  ],
+  "observations": [
+    {
+      "name": "孟静珂、吴岸聪",
+      "reason": "当前学院列表为硕导，虽具身导航/机器人视觉相关，不在本轮独立博士候选中提升资格"
+    },
+    {
+      "name": "管界超、胡建芳、赵帅、吴贺俊、黄倩怡",
+      "reason": "学院列表显示相关强化学习/空间智能/系统方向，待逐人研究任务正文复核，不用关键词直接扩充本轮"
+    },
+    {
+      "nameZh": "任文琦",
+      "url": "https://scst.sysu.edu.cn/teacher/RenWenqi",
+      "reason": "计算机视觉与图像处理，待补个人资格及招募核查"
+    },
+    {
+      "nameZh": "夏海峰",
+      "url": "https://scst.sysu.edu.cn/teacher/XiaHaifeng",
+      "reason": "目录列具身智能及多模态学习，待补证"
+    },
+    {
+      "nameZh": "王维",
+      "url": "https://scst.sysu.edu.cn/teacher/346",
+      "reason": "视觉增强与泛化相关，待补证"
+    },
+    {
+      "nameZh": "代朋纹",
+      "url": "https://scst.sysu.edu.cn/teacher/DaiPengwen",
+      "reason": "视觉智能感知，待补证"
+    },
+    {
+      "nameZh": "沈力",
+      "url": "https://scst.sysu.edu.cn/teacher/ShenLi",
+      "reason": "高效强化学习，待核机器人直接相关性"
+    },
+    {
+      "nameZh": "郑珏鹏",
+      "institution": "中山大学人工智能学院",
+      "lab": "IGCS",
+      "joinedInstitution": "2023.4（助理教授）；2026.1起副教授",
+      "officialUrl": "https://sai.sysu.edu.cn/teacher/246",
+      "recruitmentUrl": "https://rssysu.github.io/joinus.html",
+      "resumeUrl": "https://rssysu.github.io/assets/resume/zjp.html",
+      "findingZh": "首页2028 graduate students宽泛表述，详情限定本科实习生及硕士，不能计入2028博士；官方页亦仅欢迎硕士/本科科研。",
+      "cycle2028PhDVerified": false,
+      "admissionScope": "Undergraduate Intern and Master",
+      "remainingHeadcountVerified": false,
+      "access": "官方246页与实验室joinus均直接HTML200已读，附本地原文",
+      "recommendation": "保持候选/排除审计，不作为已核2028博士条目",
+      "doctoralSupervisorVerified": null,
+      "researchThemes": [
+        "大规模遥感影像理解",
+        "长时序天气气候预测",
+        "高性能计算"
+      ],
+      "representativeWorks": [
+        {
+          "title": "A2-MAE: A Spatial-temporal-spectral Unified Remote Sensing Pre-training Method Based on Anchor-aware Masked Autoencoder",
+          "year": 2026,
+          "venue": "IEEE TGRS",
+          "sourceUrl": "https://sai.sysu.edu.cn/teacher/246"
+        },
+        {
+          "title": "Evidential Graph Contrastive Alignment for Source-Free Blending-Target Domain Adaptation",
+          "year": 2026,
+          "venue": "IEEE TNNLS",
+          "sourceUrl": "https://sai.sysu.edu.cn/teacher/246"
+        }
+      ],
+      "unknowns": [
+        "独立博士指导资格与2028博士名额未核实",
+        "天气预测是应用方向，不能改写为恶劣天气LiDAR感知",
+        "实验室网站提及待遇与资源是自述，不保证个人录取资助或设备使用权"
+      ]
+    }
+  ],
+  "coverage": "计算机、智能工程、电子与通信、网安、系统与航空航天定向筛查；非全校穷尽。",
+  "limitations": [
+    "官方网页部分403/超时，索引支持和正文直接读取逐条区分。",
+    "仅李继昌获得明确2028秋季硕博个人声明；不等于当前剩余名额。",
+    "郑珏鹏2028仅硕士/本科实习线索，未作为博士候选。",
+    "近五年为当前学校首次非博士后教研任职，不推定首次独立建组。"
+  ]
+}
