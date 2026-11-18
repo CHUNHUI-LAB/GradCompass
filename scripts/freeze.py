@@ -56,6 +56,7 @@ files.extend(['tests/full-profile-coverage.test.mjs','tests/nju-tongji-ustc-prof
 files.extend(['audits/985-nankai-20261112.json','audits/985-nankai-20261112.md','tests/nankai-expansion-20261112.test.mjs','tests/fixtures/evidence/985-nankai-20261112.json'])
 files.extend(['audits/985-tju-20261116.json','audits/985-tju-20261116.md','tests/tju-expansion-20261116.test.mjs','tests/fixtures/evidence/985-tju-20261116.json'])
 files.append('tests/freeze-preservation.test.mjs')
+files.append('tests/profile-link-label-20261117.test.mjs')
 files.append('tests/intake-declaration-labels-20261117.test.mjs')
 files.extend(['scripts/public-counts.mjs','tests/public-discovery.test.mjs','tests/optional-loading.test.mjs'])
 files.extend(['tests/fixtures/history/reviewed-source-deltas.json', 'tests/historical-source-baseline.mjs', 'tests/historical-source-baseline.test.mjs', 'tests/historical-source-fs.mjs'])
@@ -126,7 +127,7 @@ files.extend(['audits/985-hust-20261117.json', 'audits/985-hust-20261117.md', 't
 files.extend(['audits/985-hnu-20261117.json', 'audits/985-hnu-20261117.md', 'tests/fixtures/evidence/985-hnu-20261117.json', 'tests/hnu-expansion-20261117.test.mjs'])
 files.extend(['audits/hnu-supplement-20261117.json', 'audits/hnu-supplement-20261117.md', 'tests/fixtures/evidence/hnu-supplement-20261117.json', 'tests/hnu-supplement-20261117.test.mjs'])
 files.extend(['audits/985-csu-20261117.json', 'audits/985-csu-20261117.md', 'tests/fixtures/evidence/985-csu-20261117.json', 'tests/csu-expansion-20261117.test.mjs'])
-files.extend(['tests/profile-link-label-20261117.test.mjs'])
+files.extend(['audits/985-nudt-20261117.json', 'audits/985-nudt-20261117.md', 'tests/fixtures/evidence/985-nudt-20261117.json', 'tests/nudt-expansion-20261117.test.mjs'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):

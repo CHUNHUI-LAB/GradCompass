@@ -224303,6 +224303,1393 @@
           }
         ]
       }
+    },
+    {
+      "advisorId": "nudt-shiyifei",
+      "cardSummaryZh": "三维视觉；灵巧操作；机器人抓取",
+      "overview": {
+        "textZh": "施逸飞，国防科技大学智能科学学院教授。本人招生页明确灵巧操作、任务导向抓取与机器人学习；CV列RGB-D位姿和抓取研究。已核博士指导身份及2027正式年度目录列名；个人接收另核。",
+        "sources": [
+          {
+            "url": "https://www.yifeishi.net/",
+            "title": "施逸飞 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://www.yifeishi.net/joinus/",
+            "title": "施逸飞 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://www.yifeishi.net/assets/pdf/yifei_shi_resume.pdf",
+            "title": "施逸飞 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+            "title": "施逸飞 · 已核身份与研究资料",
+            "section": "施逸飞：2027正式博士目录对应学科逐人行",
+            "readScope": "2027正式博士简章印刷第45页逐人列名，学科为控制科学与工程081100；证明该年度目录资格，不等于个人仍接收、实时余位或2028计划；不证明当前余位、申请者符合条件或2028计划。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "施逸飞 · 公开研究方向",
+        "affiliation": {
+          "textZh": "智能科学学院",
+          "sources": [
+            {
+              "url": "https://www.yifeishi.net/",
+              "title": "施逸飞 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "personal_body"
+            },
+            {
+              "url": "https://www.yifeishi.net/joinus/",
+              "title": "施逸飞 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "personal_body"
+            },
+            {
+              "url": "https://www.yifeishi.net/assets/pdf/yifei_shi_resume.pdf",
+              "title": "施逸飞 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "personal_body"
+            },
+            {
+              "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+              "title": "施逸飞 · 已核身份与研究资料",
+              "section": "施逸飞：2027正式博士目录对应学科逐人行",
+              "readScope": "2027正式博士简章印刷第45页逐人列名，学科为控制科学与工程081100；证明该年度目录资格，不等于个人仍接收、实时余位或2028计划；不证明当前余位、申请者符合条件或2028计划。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "三维视觉",
+          "灵巧操作",
+          "机器人抓取",
+          "世界模型"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://www.yifeishi.net/",
+              "title": "施逸飞 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "personal_body"
+            },
+            {
+              "url": "https://www.yifeishi.net/joinus/",
+              "title": "施逸飞 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "personal_body"
+            },
+            {
+              "url": "https://www.yifeishi.net/assets/pdf/yifei_shi_resume.pdf",
+              "title": "施逸飞 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "personal_body"
+            },
+            {
+              "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+              "title": "施逸飞 · 已核身份与研究资料",
+              "section": "施逸飞：2027正式博士目录对应学科逐人行",
+              "readScope": "2027正式博士简章印刷第45页逐人列名，学科为控制科学与工程081100；证明该年度目录资格，不等于个人仍接收、实时余位或2028计划；不证明当前余位、申请者符合条件或2028计划。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读公开来源未见明确2028个人接收；不代表无名额。 2026-08-03本人声明招收2027年入学博士、硕士；数量及季节未明，不作为实时余位。2027正式博士简章印刷第45页逐人列名，学科为控制科学与工程081100；证明该年度目录资格，不等于个人仍接收、实时余位或2028计划",
+        "sources": [
+          {
+            "url": "https://www.yifeishi.net/",
+            "title": "施逸飞 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://www.yifeishi.net/joinus/",
+            "title": "施逸飞 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://www.yifeishi.net/assets/pdf/yifei_shi_resume.pdf",
+            "title": "施逸飞 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+            "title": "施逸飞 · 已核身份与研究资料",
+            "section": "施逸飞：2027正式博士目录对应学科逐人行",
+            "readScope": "2027正式博士简章印刷第45页逐人列名，学科为控制科学与工程081100；证明该年度目录资格，不等于个人仍接收、实时余位或2028计划；不证明当前余位、申请者符合条件或2028计划。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人接收、正式通道、申请者条件、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "施逸飞 · 已核身份与研究资料",
+          "url": "https://www.yifeishi.net/"
+        },
+        {
+          "label": "施逸飞 · 已核身份与研究资料",
+          "url": "https://www.yifeishi.net/joinus/"
+        },
+        {
+          "label": "施逸飞 · 已核身份与研究资料",
+          "url": "https://www.yifeishi.net/assets/pdf/yifei_shi_resume.pdf"
+        },
+        {
+          "label": "施逸飞 · 已核身份与研究资料",
+          "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2019-07",
+        "earliestDate": "2019-07-01",
+        "latestDate": "2019-07-31",
+        "careerContext": "unknown",
+        "noteZh": "本人CV明确2019.07起Assistant Professor，2023.01副教授为后续晋升；现主页教授，旧CV仍副教授",
+        "sources": [
+          {
+            "url": "https://www.yifeishi.net/",
+            "title": "施逸飞 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://www.yifeishi.net/joinus/",
+            "title": "施逸飞 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://www.yifeishi.net/assets/pdf/yifei_shi_resume.pdf",
+            "title": "施逸飞 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+            "title": "施逸飞 · 已核身份与研究资料",
+            "section": "施逸飞：2027正式博士目录对应学科逐人行",
+            "readScope": "2027正式博士简章印刷第45页逐人列名，学科为控制科学与工程081100；证明该年度目录资格，不等于个人仍接收、实时余位或2028计划；不证明当前余位、申请者符合条件或2028计划。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "nudt-zhuchenyang",
+      "cardSummaryZh": "三维重建；机器人感知；导航",
+      "overview": {
+        "textZh": "朱晨阳，国防科技大学计算机学院教授。本人主页明确机器人感知与导航，列RGB-D建图、具身探索问答和家庭场景整理研究。已核博士指导身份及2027正式年度目录列名；个人接收另核。",
+        "sources": [
+          {
+            "url": "https://www.zhuchenyang.net/",
+            "title": "朱晨阳 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+            "title": "朱晨阳 · 已核身份与研究资料",
+            "section": "朱晨阳：2027正式博士目录对应学科逐人行",
+            "readScope": "2027正式博士简章印刷第23页逐人列名，学科为计算机科学与技术081200；证明该年度目录资格，不等于个人仍接收、实时余位或2028计划；不证明当前余位、申请者符合条件或2028计划。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "朱晨阳 · 公开研究方向",
+        "affiliation": {
+          "textZh": "计算机学院",
+          "sources": [
+            {
+              "url": "https://www.zhuchenyang.net/",
+              "title": "朱晨阳 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "personal_body"
+            },
+            {
+              "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+              "title": "朱晨阳 · 已核身份与研究资料",
+              "section": "朱晨阳：2027正式博士目录对应学科逐人行",
+              "readScope": "2027正式博士简章印刷第23页逐人列名，学科为计算机科学与技术081200；证明该年度目录资格，不等于个人仍接收、实时余位或2028计划；不证明当前余位、申请者符合条件或2028计划。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "三维重建",
+          "机器人感知",
+          "导航",
+          "具身场景整理"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://www.zhuchenyang.net/",
+              "title": "朱晨阳 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "personal_body"
+            },
+            {
+              "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+              "title": "朱晨阳 · 已核身份与研究资料",
+              "section": "朱晨阳：2027正式博士目录对应学科逐人行",
+              "readScope": "2027正式博士简章印刷第23页逐人列名，学科为计算机科学与技术081200；证明该年度目录资格，不等于个人仍接收、实时余位或2028计划；不证明当前余位、申请者符合条件或2028计划。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读公开来源未见明确2028个人接收；不代表无名额。 未核定个人2027接收。2027正式博士简章印刷第23页逐人列名，学科为计算机科学与技术081200；证明该年度目录资格，不等于个人仍接收、实时余位或2028计划",
+        "sources": [
+          {
+            "url": "https://www.zhuchenyang.net/",
+            "title": "朱晨阳 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+            "title": "朱晨阳 · 已核身份与研究资料",
+            "section": "朱晨阳：2027正式博士目录对应学科逐人行",
+            "readScope": "2027正式博士简章印刷第23页逐人列名，学科为计算机科学与技术081200；证明该年度目录资格，不等于个人仍接收、实时余位或2028计划；不证明当前余位、申请者符合条件或2028计划。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人接收、正式通道、申请者条件、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "朱晨阳 · 已核身份与研究资料",
+          "url": "https://www.zhuchenyang.net/"
+        },
+        {
+          "label": "朱晨阳 · 已核身份与研究资料",
+          "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已读正文未明确首次本校非博士后教研任职时间",
+        "sources": [
+          {
+            "url": "https://www.zhuchenyang.net/",
+            "title": "朱晨阳 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+            "title": "朱晨阳 · 已核身份与研究资料",
+            "section": "朱晨阳：2027正式博士目录对应学科逐人行",
+            "readScope": "2027正式博士简章印刷第23页逐人列名，学科为计算机科学与技术081200；证明该年度目录资格，不等于个人仍接收、实时余位或2028计划；不证明当前余位、申请者符合条件或2028计划。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "nudt-yirenjiao",
+      "cardSummaryZh": "三维重建；RGB-D建图；点云几何",
+      "overview": {
+        "textZh": "易任娇，国防科技大学计算机学院副教授。本人研究目录列大规模在线RGB-D重建、辐射场和三维参数化曲线重建。仅核实硕士指导身份；独立博士指导身份未知，不关联独立博士参考路径。",
+        "sources": [
+          {
+            "url": "https://renjiaoyi.github.io/",
+            "title": "易任娇 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://games-cn.org/games-webinar-20250529-367/",
+            "title": "易任娇 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读学术活动主办方讲者介绍正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "conference_primary_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "易任娇 · 公开研究方向",
+        "affiliation": {
+          "textZh": "计算机学院",
+          "sources": [
+            {
+              "url": "https://renjiaoyi.github.io/",
+              "title": "易任娇 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "personal_body"
+            },
+            {
+              "url": "https://games-cn.org/games-webinar-20250529-367/",
+              "title": "易任娇 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读学术活动主办方讲者介绍正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "conference_primary_body"
+            }
+          ]
+        },
+        "themes": [
+          "三维重建",
+          "RGB-D建图",
+          "点云几何"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://renjiaoyi.github.io/",
+              "title": "易任娇 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "personal_body"
+            },
+            {
+              "url": "https://games-cn.org/games-webinar-20250529-367/",
+              "title": "易任娇 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读学术活动主办方讲者介绍正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "conference_primary_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读公开来源未见明确2028个人接收；不代表无名额。 未核定个人2027接收。未核得2027个人年度博士招生资格；不据个人职称或泛招推定",
+        "sources": [
+          {
+            "url": "https://renjiaoyi.github.io/",
+            "title": "易任娇 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://games-cn.org/games-webinar-20250529-367/",
+            "title": "易任娇 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读学术活动主办方讲者介绍正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "conference_primary_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人接收、正式通道、申请者条件、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "易任娇 · 已核身份与研究资料",
+          "url": "https://renjiaoyi.github.io/"
+        },
+        {
+          "label": "易任娇 · 已核身份与研究资料",
+          "url": "https://games-cn.org/games-webinar-20250529-367/"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已读正文未明确首次本校非博士后教研任职时间",
+        "sources": [
+          {
+            "url": "https://renjiaoyi.github.io/",
+            "title": "易任娇 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://games-cn.org/games-webinar-20250529-367/",
+            "title": "易任娇 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读学术活动主办方讲者介绍正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "conference_primary_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "nudt-guoyanming",
+      "cardSummaryZh": "无人机跨视角定位；道路场景感知；视觉域泛化",
+      "overview": {
+        "textZh": "郭延明，国防科技大学系统工程学院教授。本人研究目录列PAUL跨视角地理定位与无人机道路场景天气自适应感知。已核博士指导身份及2027正式年度目录列名；个人接收另核。",
+        "sources": [
+          {
+            "url": "https://guoyanming.github.io/",
+            "title": "郭延明 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+            "title": "郭延明 · 已核身份与研究资料",
+            "section": "郭延明：2027正式博士目录对应学科逐人行",
+            "readScope": "2027正式博士简章印刷第48页逐人列名，学科为管理科学与工程087100；证明该年度目录资格，不等于个人仍接收、实时余位或2028计划；不证明当前余位、申请者符合条件或2028计划。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "郭延明 · 公开研究方向",
+        "affiliation": {
+          "textZh": "系统工程学院",
+          "sources": [
+            {
+              "url": "https://guoyanming.github.io/",
+              "title": "郭延明 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "personal_body"
+            },
+            {
+              "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+              "title": "郭延明 · 已核身份与研究资料",
+              "section": "郭延明：2027正式博士目录对应学科逐人行",
+              "readScope": "2027正式博士简章印刷第48页逐人列名，学科为管理科学与工程087100；证明该年度目录资格，不等于个人仍接收、实时余位或2028计划；不证明当前余位、申请者符合条件或2028计划。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "无人机跨视角定位",
+          "道路场景感知",
+          "视觉域泛化"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://guoyanming.github.io/",
+              "title": "郭延明 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "personal_body"
+            },
+            {
+              "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+              "title": "郭延明 · 已核身份与研究资料",
+              "section": "郭延明：2027正式博士目录对应学科逐人行",
+              "readScope": "2027正式博士简章印刷第48页逐人列名，学科为管理科学与工程087100；证明该年度目录资格，不等于个人仍接收、实时余位或2028计划；不证明当前余位、申请者符合条件或2028计划。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读公开来源未见明确2028个人接收；不代表无名额。 未核定个人2027接收。2027正式博士简章印刷第48页逐人列名，学科为管理科学与工程087100；证明该年度目录资格，不等于个人仍接收、实时余位或2028计划",
+        "sources": [
+          {
+            "url": "https://guoyanming.github.io/",
+            "title": "郭延明 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+            "title": "郭延明 · 已核身份与研究资料",
+            "section": "郭延明：2027正式博士目录对应学科逐人行",
+            "readScope": "2027正式博士简章印刷第48页逐人列名，学科为管理科学与工程087100；证明该年度目录资格，不等于个人仍接收、实时余位或2028计划；不证明当前余位、申请者符合条件或2028计划。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人接收、正式通道、申请者条件、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "郭延明 · 已核身份与研究资料",
+          "url": "https://guoyanming.github.io/"
+        },
+        {
+          "label": "郭延明 · 已核身份与研究资料",
+          "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已读正文未明确首次本校非博士后教研任职时间",
+        "sources": [
+          {
+            "url": "https://guoyanming.github.io/",
+            "title": "郭延明 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+            "title": "郭延明 · 已核身份与研究资料",
+            "section": "郭延明：2027正式博士目录对应学科逐人行",
+            "readScope": "2027正式博士简章印刷第48页逐人列名，学科为管理科学与工程087100；证明该年度目录资格，不等于个人仍接收、实时余位或2028计划；不证明当前余位、申请者符合条件或2028计划。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "nudt-wangyingqian",
+      "cardSummaryZh": "光场深度估计；视差估计；点云恢复",
+      "overview": {
+        "textZh": "王应谦，国防科技大学电子科学学院副教授。本人主页列光场深度与视差估计、无配对图像和点云恢复、事件相机运动表示。仅核实硕士指导身份；独立博士指导身份未知，不关联独立博士参考路径。",
+        "sources": [
+          {
+            "url": "https://yingqianwang.github.io/",
+            "title": "王应谦 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "王应谦 · 公开研究方向",
+        "affiliation": {
+          "textZh": "电子科学学院",
+          "sources": [
+            {
+              "url": "https://yingqianwang.github.io/",
+              "title": "王应谦 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "personal_body"
+            }
+          ]
+        },
+        "themes": [
+          "光场深度估计",
+          "视差估计",
+          "点云恢复",
+          "事件视觉"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://yingqianwang.github.io/",
+              "title": "王应谦 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "personal_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读公开来源未见明确2028个人接收；不代表无名额。 未核定个人2027接收。未核得2027个人年度博士招生资格；不据个人职称或泛招推定",
+        "sources": [
+          {
+            "url": "https://yingqianwang.github.io/",
+            "title": "王应谦 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人接收、正式通道、申请者条件、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "王应谦 · 已核身份与研究资料",
+          "url": "https://yingqianwang.github.io/"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "已读正文未明确首次本校非博士后教研任职时间",
+        "sources": [
+          {
+            "url": "https://yingqianwang.github.io/",
+            "title": "王应谦 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "nudt-zhangxinglong",
+      "cardSummaryZh": "机器人学习控制；预测控制；自主决策",
+      "overview": {
+        "textZh": "张兴龙，国防科技大学智能科学学院副研究员。柔性机器人学习控制与无人系统预测控制。已核博士指导身份及2027正式年度目录列名；个人接收另核。",
+        "sources": [
+          {
+            "url": "https://www.nudt.edu.cn/rwfc/f7b7a10458b44b578ebb18354b2512f9.htm",
+            "title": "张兴龙 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+            "title": "张兴龙 · 已核身份与研究资料",
+            "section": "张兴龙：2027正式博士目录对应学科逐人行",
+            "readScope": "正式2027博士简章PDF物理第47页、印刷第45页逐人列名；已对照表格，属于控制科学与工程081100延续表，后续军事智能111100仅军队生限制不能串用。列名不等于2028个人计划、当前余位或申请者符合条件。；不证明当前余位、申请者符合条件或2028计划。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "张兴龙 · 公开研究方向",
+        "affiliation": {
+          "textZh": "智能科学学院",
+          "sources": [
+            {
+              "url": "https://www.nudt.edu.cn/rwfc/f7b7a10458b44b578ebb18354b2512f9.htm",
+              "title": "张兴龙 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+              "title": "张兴龙 · 已核身份与研究资料",
+              "section": "张兴龙：2027正式博士目录对应学科逐人行",
+              "readScope": "正式2027博士简章PDF物理第47页、印刷第45页逐人列名；已对照表格，属于控制科学与工程081100延续表，后续军事智能111100仅军队生限制不能串用。列名不等于2028个人计划、当前余位或申请者符合条件。；不证明当前余位、申请者符合条件或2028计划。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人学习控制",
+          "预测控制",
+          "自主决策"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://www.nudt.edu.cn/rwfc/f7b7a10458b44b578ebb18354b2512f9.htm",
+              "title": "张兴龙 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+              "title": "张兴龙 · 已核身份与研究资料",
+              "section": "张兴龙：2027正式博士目录对应学科逐人行",
+              "readScope": "正式2027博士简章PDF物理第47页、印刷第45页逐人列名；已对照表格，属于控制科学与工程081100延续表，后续军事智能111100仅军队生限制不能串用。列名不等于2028个人计划、当前余位或申请者符合条件。；不证明当前余位、申请者符合条件或2028计划。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读公开来源未见明确2028个人接收；不代表无名额。 未核定个人2027接收。正式2027博士简章PDF物理第47页、印刷第45页逐人列名；已对照表格，属于控制科学与工程081100延续表，后续军事智能111100仅军队生限制不能串用。列名不等于2028个人计划、当前余位或申请者符合条件。",
+        "sources": [
+          {
+            "url": "https://www.nudt.edu.cn/rwfc/f7b7a10458b44b578ebb18354b2512f9.htm",
+            "title": "张兴龙 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+            "title": "张兴龙 · 已核身份与研究资料",
+            "section": "张兴龙：2027正式博士目录对应学科逐人行",
+            "readScope": "正式2027博士简章PDF物理第47页、印刷第45页逐人列名；已对照表格，属于控制科学与工程081100延续表，后续军事智能111100仅军队生限制不能串用。列名不等于2028个人计划、当前余位或申请者符合条件。；不证明当前余位、申请者符合条件或2028计划。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人接收、正式通道、申请者条件、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "张兴龙 · 已核身份与研究资料",
+          "url": "https://www.nudt.edu.cn/rwfc/f7b7a10458b44b578ebb18354b2512f9.htm"
+        },
+        {
+          "label": "张兴龙 · 已核身份与研究资料",
+          "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "2018博士毕业与选择扎根科大叙事未明确首个岗位或排除博后，首任未知；2022项目起点不当教职起点。",
+        "sources": [
+          {
+            "url": "https://www.nudt.edu.cn/rwfc/f7b7a10458b44b578ebb18354b2512f9.htm",
+            "title": "张兴龙 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+            "title": "张兴龙 · 已核身份与研究资料",
+            "section": "张兴龙：2027正式博士目录对应学科逐人行",
+            "readScope": "正式2027博士简章PDF物理第47页、印刷第45页逐人列名；已对照表格，属于控制科学与工程081100延续表，后续军事智能111100仅军队生限制不能串用。列名不等于2028个人计划、当前余位或申请者符合条件。；不证明当前余位、申请者符合条件或2028计划。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "nudt-luhuimin",
+      "cardSummaryZh": "机器人感知；多机器人控制；人机交互",
+      "overview": {
+        "textZh": "卢惠民，国防科技大学智能科学学院教授。机器人智能感知、多机器人协同控制与人机交互。已核博士指导身份及2027正式年度目录列名；个人接收另核。",
+        "sources": [
+          {
+            "url": "https://nubot.trustie.net/users/huiminlu/homepage",
+            "title": "卢惠民 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://www.nudt.edu.cn/xmtpbl/kdwxgzh/a5c9753742dd46bfa728ef1ac7e98ee3.htm",
+            "title": "卢惠民 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20251113/20251113124208_690.pdf",
+            "title": "卢惠民 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+            "title": "卢惠民 · 已核身份与研究资料",
+            "section": "卢惠民：2027正式博士目录对应学科逐人行",
+            "readScope": "正式2027博士简章PDF物理第46页、印刷第44页逐人列名；已对照表格，属于控制科学与工程081100延续表，后续军事智能111100仅军队生限制不能串用。列名不等于2028个人计划、当前余位或申请者符合条件。；不证明当前余位、申请者符合条件或2028计划。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "卢惠民 · 公开研究方向",
+        "affiliation": {
+          "textZh": "智能科学学院",
+          "sources": [
+            {
+              "url": "https://nubot.trustie.net/users/huiminlu/homepage",
+              "title": "卢惠民 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "personal_body"
+            },
+            {
+              "url": "https://www.nudt.edu.cn/xmtpbl/kdwxgzh/a5c9753742dd46bfa728ef1ac7e98ee3.htm",
+              "title": "卢惠民 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yjszs.nudt.edu.cn/attached/file/20251113/20251113124208_690.pdf",
+              "title": "卢惠民 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+              "title": "卢惠民 · 已核身份与研究资料",
+              "section": "卢惠民：2027正式博士目录对应学科逐人行",
+              "readScope": "正式2027博士简章PDF物理第46页、印刷第44页逐人列名；已对照表格，属于控制科学与工程081100延续表，后续军事智能111100仅军队生限制不能串用。列名不等于2028个人计划、当前余位或申请者符合条件。；不证明当前余位、申请者符合条件或2028计划。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人感知",
+          "多机器人控制",
+          "人机交互"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://nubot.trustie.net/users/huiminlu/homepage",
+              "title": "卢惠民 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "personal_body"
+            },
+            {
+              "url": "https://www.nudt.edu.cn/xmtpbl/kdwxgzh/a5c9753742dd46bfa728ef1ac7e98ee3.htm",
+              "title": "卢惠民 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yjszs.nudt.edu.cn/attached/file/20251113/20251113124208_690.pdf",
+              "title": "卢惠民 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+              "title": "卢惠民 · 已核身份与研究资料",
+              "section": "卢惠民：2027正式博士目录对应学科逐人行",
+              "readScope": "正式2027博士简章PDF物理第46页、印刷第44页逐人列名；已对照表格，属于控制科学与工程081100延续表，后续军事智能111100仅军队生限制不能串用。列名不等于2028个人计划、当前余位或申请者符合条件。；不证明当前余位、申请者符合条件或2028计划。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读公开来源未见明确2028个人接收；不代表无名额。 未核定个人2027接收。正式2027博士简章PDF物理第46页、印刷第44页逐人列名；已对照表格，属于控制科学与工程081100延续表，后续军事智能111100仅军队生限制不能串用。列名不等于2028个人计划、当前余位或申请者符合条件。",
+        "sources": [
+          {
+            "url": "https://nubot.trustie.net/users/huiminlu/homepage",
+            "title": "卢惠民 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://www.nudt.edu.cn/xmtpbl/kdwxgzh/a5c9753742dd46bfa728ef1ac7e98ee3.htm",
+            "title": "卢惠民 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20251113/20251113124208_690.pdf",
+            "title": "卢惠民 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+            "title": "卢惠民 · 已核身份与研究资料",
+            "section": "卢惠民：2027正式博士目录对应学科逐人行",
+            "readScope": "正式2027博士简章PDF物理第46页、印刷第44页逐人列名；已对照表格，属于控制科学与工程081100延续表，后续军事智能111100仅军队生限制不能串用。列名不等于2028个人计划、当前余位或申请者符合条件。；不证明当前余位、申请者符合条件或2028计划。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人接收、正式通道、申请者条件、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "卢惠民 · 已核身份与研究资料",
+          "url": "https://nubot.trustie.net/users/huiminlu/homepage"
+        },
+        {
+          "label": "卢惠民 · 已核身份与研究资料",
+          "url": "https://www.nudt.edu.cn/xmtpbl/kdwxgzh/a5c9753742dd46bfa728ef1ac7e98ee3.htm"
+        },
+        {
+          "label": "卢惠民 · 已核身份与研究资料",
+          "url": "https://yjszs.nudt.edu.cn/attached/file/20251113/20251113124208_690.pdf"
+        },
+        {
+          "label": "卢惠民 · 已核身份与研究资料",
+          "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "2010博士毕业不代替首任教职；主页2018发布日期亦非入职，首任未知。",
+        "sources": [
+          {
+            "url": "https://nubot.trustie.net/users/huiminlu/homepage",
+            "title": "卢惠民 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读本人公开研究主页正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "personal_body"
+          },
+          {
+            "url": "https://www.nudt.edu.cn/xmtpbl/kdwxgzh/a5c9753742dd46bfa728ef1ac7e98ee3.htm",
+            "title": "卢惠民 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20251113/20251113124208_690.pdf",
+            "title": "卢惠民 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+            "title": "卢惠民 · 已核身份与研究资料",
+            "section": "卢惠民：2027正式博士目录对应学科逐人行",
+            "readScope": "正式2027博士简章PDF物理第46页、印刷第44页逐人列名；已对照表格，属于控制科学与工程081100延续表，后续军事智能111100仅军队生限制不能串用。列名不等于2028个人计划、当前余位或申请者符合条件。；不证明当前余位、申请者符合条件或2028计划。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "nudt-wangxiangke",
+      "cardSummaryZh": "协同控制；视觉伺服；群体智能",
+      "overview": {
+        "textZh": "王祥科，国防科技大学智能科学学院教授。多无人系统协同与视觉伺服控制。已核博士指导身份及2027正式年度目录列名；个人接收另核。",
+        "sources": [
+          {
+            "url": "https://www.nudt.edu.cn/xwgg/xydt/e1d1ef1afcd841e0ae81faf28e6ba003.htm",
+            "title": "王祥科 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20251113/20251113124208_690.pdf",
+            "title": "王祥科 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+            "title": "王祥科 · 已核身份与研究资料",
+            "section": "王祥科：2027正式博士目录对应学科逐人行",
+            "readScope": "正式2027博士简章PDF物理第46页、印刷第44页逐人列名；已对照表格，属于控制科学与工程081100延续表，后续军事智能111100仅军队生限制不能串用。列名不等于2028个人计划、当前余位或申请者符合条件。；不证明当前余位、申请者符合条件或2028计划。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "王祥科 · 公开研究方向",
+        "affiliation": {
+          "textZh": "智能科学学院",
+          "sources": [
+            {
+              "url": "https://www.nudt.edu.cn/xwgg/xydt/e1d1ef1afcd841e0ae81faf28e6ba003.htm",
+              "title": "王祥科 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yjszs.nudt.edu.cn/attached/file/20251113/20251113124208_690.pdf",
+              "title": "王祥科 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+              "title": "王祥科 · 已核身份与研究资料",
+              "section": "王祥科：2027正式博士目录对应学科逐人行",
+              "readScope": "正式2027博士简章PDF物理第46页、印刷第44页逐人列名；已对照表格，属于控制科学与工程081100延续表，后续军事智能111100仅军队生限制不能串用。列名不等于2028个人计划、当前余位或申请者符合条件。；不证明当前余位、申请者符合条件或2028计划。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "协同控制",
+          "视觉伺服",
+          "群体智能"
+        ],
+        "structure": {
+          "textZh": "仅核公开单位和研究任务，指导方式、规模及资源开放另核。",
+          "sources": [
+            {
+              "url": "https://www.nudt.edu.cn/xwgg/xydt/e1d1ef1afcd841e0ae81faf28e6ba003.htm",
+              "title": "王祥科 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yjszs.nudt.edu.cn/attached/file/20251113/20251113124208_690.pdf",
+              "title": "王祥科 · 已核身份与研究资料",
+              "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+              "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+              "title": "王祥科 · 已核身份与研究资料",
+              "section": "王祥科：2027正式博士目录对应学科逐人行",
+              "readScope": "正式2027博士简章PDF物理第46页、印刷第44页逐人列名；已对照表格，属于控制科学与工程081100延续表，后续军事智能111100仅军队生限制不能串用。列名不等于2028个人计划、当前余位或申请者符合条件。；不证明当前余位、申请者符合条件或2028计划。",
+              "checkedDate": "2026-11-17",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "已读公开来源未见明确2028个人接收；不代表无名额。 未核定个人2027接收。正式2027博士简章PDF物理第46页、印刷第44页逐人列名；已对照表格，属于控制科学与工程081100延续表，后续军事智能111100仅军队生限制不能串用。列名不等于2028个人计划、当前余位或申请者符合条件。",
+        "sources": [
+          {
+            "url": "https://www.nudt.edu.cn/xwgg/xydt/e1d1ef1afcd841e0ae81faf28e6ba003.htm",
+            "title": "王祥科 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20251113/20251113124208_690.pdf",
+            "title": "王祥科 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+            "title": "王祥科 · 已核身份与研究资料",
+            "section": "王祥科：2027正式博士目录对应学科逐人行",
+            "readScope": "正式2027博士简章PDF物理第46页、印刷第44页逐人列名；已对照表格，属于控制科学与工程081100延续表，后续军事智能111100仅军队生限制不能串用。列名不等于2028个人计划、当前余位或申请者符合条件。；不证明当前余位、申请者符合条件或2028计划。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人接收、正式通道、申请者条件、资助与当前余位待核。",
+        "2028个人接收待核。"
+      ],
+      "links": [
+        {
+          "label": "王祥科 · 已核身份与研究资料",
+          "url": "https://www.nudt.edu.cn/xwgg/xydt/e1d1ef1afcd841e0ae81faf28e6ba003.htm"
+        },
+        {
+          "label": "王祥科 · 已核身份与研究资料",
+          "url": "https://yjszs.nudt.edu.cn/attached/file/20251113/20251113124208_690.pdf"
+        },
+        {
+          "label": "王祥科 · 已核身份与研究资料",
+          "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf"
+        }
+      ],
+      "checkedDate": "2026-11-17",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-17",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-17",
+          "start": "2021-11-17",
+          "end": "2026-11-17"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "二十余年科研经历未给首个本校教职日期，首任未知；与华北电力同名化学方向学者区分。",
+        "sources": [
+          {
+            "url": "https://www.nudt.edu.cn/xwgg/xydt/e1d1ef1afcd841e0ae81faf28e6ba003.htm",
+            "title": "王祥科 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20251113/20251113124208_690.pdf",
+            "title": "王祥科 · 已核身份与研究资料",
+            "section": "逐人公开身份、任务与任职证据；年度资格仅据正式目录对应行",
+            "readScope": "已读校方公开正文；个人指导身份、招生计划、年度资格、当前余位分别核实。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjszs.nudt.edu.cn/attached/file/20261013/20261013222853_652.pdf",
+            "title": "王祥科 · 已核身份与研究资料",
+            "section": "王祥科：2027正式博士目录对应学科逐人行",
+            "readScope": "正式2027博士简章PDF物理第46页、印刷第44页逐人列名；已对照表格，属于控制科学与工程081100延续表，后续军事智能111100仅军队生限制不能串用。列名不等于2028个人计划、当前余位或申请者符合条件。；不证明当前余位、申请者符合条件或2028计划。",
+            "checkedDate": "2026-11-17",
+            "access": "official_body"
+          }
+        ]
+      }
     }
   ],
   "reviewRequired": true,
