@@ -68,7 +68,7 @@
     {
       "path": "assets/app.js",
       "bytes": 78185,
-      "sha256": "22c8330e71f85045f7ff53a5903c40f4968ffada38f45e0cf24f87cc199814cc"
+      "sha256": "4383a594235881ebdf218b0fc8f1898ecfe806a09fbb4761fbfc5b673eeaeb3f"
     },
     {
       "path": "assets/appointments.js",
@@ -607,8 +607,8 @@
     },
     {
       "path": "data/advisor-profiles.json",
-      "bytes": 11706564,
-      "sha256": "dacb7796d86b2b0915382138104cd0e1711199a45c4515bd5a40cfddf2c5daca"
+      "bytes": 11706571,
+      "sha256": "4be93bce11d78e0a4a7c64e73cec7520e98eb4a8ae188a8ea5ffed822b9900ed"
     },
     {
       "path": "data/application-experience-provenance.json",
@@ -738,7 +738,7 @@
     {
       "path": "index.html",
       "bytes": 12514,
-      "sha256": "67e3b2535f4c11429d1e6b15a691698980ff0f49e41c943310b08421ce58d1fb"
+      "sha256": "5d2cd2b6491a1f23f699cb9df00028c0e298dac00f1999e82f7a565d9b9101c7"
     },
     {
       "path": "package-lock.json",
@@ -757,8 +757,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 22138,
-      "sha256": "d5ee5965337df0674835b5267eb678476df7ed5352a12f4616ca5aeaae64fff8"
+      "bytes": 22271,
+      "sha256": "ae25dfb9d1690a2e146e9d68763d959f808b4b69de620ae5784b7886944620c8"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -987,8 +987,8 @@
     },
     {
       "path": "tests/evidence-reviews.mjs",
-      "bytes": 6725,
-      "sha256": "b39aa076ddd93f8219e6e4eed9fe27815b803b2cb0f90512e4ec790b52c59855"
+      "bytes": 6879,
+      "sha256": "ca71e8be5f945975799ade1c9f4c0a29781831d8009e4a1cf22cd956e6ce8913"
     },
     {
       "path": "tests/existing-doctoral-links-20261019.test.mjs",
@@ -1289,6 +1289,11 @@
       "path": "tests/fixtures/evidence/tongji-tianye-20261117.json",
       "bytes": 16046,
       "sha256": "e3d5254feebdb8e57870821365832f092913fc401d9489eadd6887db1320ec3f"
+    },
+    {
+      "path": "tests/fixtures/evidence/uestc-appointment-status-20261119.json",
+      "bytes": 4388,
+      "sha256": "68f70eb723863e69ba347144f26819dadf93fb7c55508f1349e83f961a7f2982"
     },
     {
       "path": "tests/fixtures/history/detail-return-focus-20261007.json",
@@ -2014,6 +2019,11 @@
       "path": "tests/tsinghua-review.test.mjs",
       "bytes": 3274,
       "sha256": "9463b1e31cddebf151cd54d44236206633ba7412d1e59e206459d42af0dcb9f0"
+    },
+    {
+      "path": "tests/uestc-appointment-status-20261119.test.mjs",
+      "bytes": 1057,
+      "sha256": "94cc941354677d85c2e44a0cdb64257d7cf403e03cbe3699dda735aca2ec56bf"
     },
     {
       "path": "tests/uestc-expansion-20261119.test.mjs",

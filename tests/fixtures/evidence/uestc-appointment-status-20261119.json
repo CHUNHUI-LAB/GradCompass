@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "baseCommit": "4653bbd56a237a618a58c6f599e32e071ddf7094",
+  "integrationBaseCommit": "e9fd7e0aabf387e10f8cde9cd6cd5613cee6d6a1",
+  "integrationBaseStatus": "verified_main_parent",
+  "reviewDate": "2026-11-19",
+  "scope": "对齐电子科技大学已核入职字段与筛选语义；日期、证据、招生及余位原样保留。",
+  "officialEvidence": [
+    {
+      "url": "https://faculty.uestc.edu.cn/mofan/zh_CN/index.htm",
+      "checkedDate": "2026-11-19",
+      "title": "电子科技大学公开资料",
+      "section": "现职、研究方向及招生边界",
+      "readScope": "公开正文；年度个人招生与余位未核。",
+      "access": "official_body"
+    },
+    {
+      "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/21777?yxsh=04",
+      "checkedDate": "2026-11-19",
+      "title": "电子科技大学公开资料",
+      "section": "现职、研究方向及招生边界",
+      "readScope": "公开正文；年度个人招生与余位未核。",
+      "access": "official_body"
+    },
+    {
+      "url": "https://faculty.uestc.edu.cn/hexiangkun/zh_CN/index.htm",
+      "checkedDate": "2026-11-19",
+      "title": "电子科技大学公开资料",
+      "section": "现职、研究方向及招生边界",
+      "readScope": "公开正文；年度个人招生与余位未核。",
+      "access": "official_body"
+    },
+    {
+      "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/21440?yxsh=08",
+      "checkedDate": "2026-11-19",
+      "title": "电子科技大学公开资料",
+      "section": "现职、研究方向及招生边界",
+      "readScope": "公开正文；年度个人招生与余位未核。",
+      "access": "official_body"
+    },
+    {
+      "url": "https://faculty.uestc.edu.cn/wangguoqing2/zh_CN/index.htm",
+      "checkedDate": "2026-11-19",
+      "title": "电子科技大学公开资料",
+      "section": "现职、研究方向及招生边界",
+      "readScope": "公开正文；年度个人招生与余位未核。",
+      "access": "official_body"
+    },
+    {
+      "url": "https://www.sice.uestc.edu.cn/info/1100/6223.htm",
+      "checkedDate": "2026-11-19",
+      "title": "电子科技大学公开资料",
+      "section": "现职、研究方向及招生边界",
+      "readScope": "公开正文；年度个人招生与余位未核。",
+      "access": "official_body"
+    },
+    {
+      "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/11983",
+      "checkedDate": "2026-11-19",
+      "title": "电子科技大学公开资料",
+      "section": "现职、研究方向及招生边界",
+      "readScope": "公开正文；年度个人招生与余位未核。",
+      "access": "official_body"
+    },
+    {
+      "url": "https://faculty.uestc.edu.cn/jiluping/zh_CN/index.htm",
+      "checkedDate": "2026-11-19",
+      "title": "电子科技大学公开资料",
+      "section": "现职、研究方向及招生边界",
+      "readScope": "公开正文；年度个人招生与余位未核。",
+      "access": "official_body"
+    },
+    {
+      "url": "https://faculty.uestc.edu.cn/jiluping/zh_CN/yjgk/165303/list/index.htm",
+      "checkedDate": "2026-11-19",
+      "title": "电子科技大学公开资料",
+      "section": "现职、研究方向及招生边界",
+      "readScope": "公开正文；年度个人招生与余位未核。",
+      "access": "official_body"
+    }
+  ],
+  "operations": [
+    {
+      "file": "data/advisor-profiles.json",
+      "path": "/profiles/1512/appointmentReview/status",
+      "operation": "replace",
+      "old": "recent",
+      "value": "verified"
+    },
+    {
+      "file": "data/advisor-profiles.json",
+      "path": "/profiles/1513/appointmentReview/status",
+      "operation": "replace",
+      "old": "recent",
+      "value": "verified"
+    },
+    {
+      "file": "data/advisor-profiles.json",
+      "path": "/profiles/1514/appointmentReview/status",
+      "operation": "replace",
+      "old": "outside",
+      "value": "verified"
+    },
+    {
+      "file": "data/advisor-profiles.json",
+      "path": "/profiles/1515/appointmentReview/status",
+      "operation": "replace",
+      "old": "outside",
+      "value": "verified"
+    },
+    {
+      "file": "data/advisor-profiles.json",
+      "path": "/profiles/1516/appointmentReview/status",
+      "operation": "replace",
+      "old": "outside",
+      "value": "verified"
+    }
+  ]
+}

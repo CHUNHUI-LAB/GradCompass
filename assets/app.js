@@ -592,7 +592,7 @@ async function loadExperienceSupplement(){
  refreshOptionalView('experiences');
 }
 async function loadProfileSupplement(){
- try{advisorProfiles=profileMap(await optionalJSON(new URL('../data/advisor-profiles.json?v=dacb7796d86b',import.meta.url)),catalog.advisors);catalog={...catalog,advisorProfiles};profileSupplementState='ready';}
+ try{advisorProfiles=profileMap(await optionalJSON(new URL('../data/advisor-profiles.json?v=4be93bce11d7',import.meta.url)),catalog.advisors);catalog={...catalog,advisorProfiles};profileSupplementState='ready';}
  catch{profileSupplementState='unavailable';}
  refreshOptionalView('advisors');refreshOptionalDetail('advisor');
 }
