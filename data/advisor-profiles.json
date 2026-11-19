@@ -236799,6 +236799,868 @@
           }
         ]
       }
+    },
+    {
+      "advisorId": "uestc-mo-fan",
+      "cardSummaryZh": "机器人学习；具身操作；工业人工智能",
+      "overview": {
+        "textZh": "莫凡，电子科技大学机械与电气工程学院教授、博士生导师。研究方向：机器人学习、具身操作、工业人工智能。",
+        "sources": [
+          {
+            "url": "https://faculty.uestc.edu.cn/mofan/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/21777?yxsh=04",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "莫凡 · 公开研究方向",
+        "affiliation": {
+          "textZh": "电子科技大学机械与电气工程学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://faculty.uestc.edu.cn/mofan/zh_CN/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/21777?yxsh=04",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人学习",
+          "具身操作",
+          "工业人工智能"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://faculty.uestc.edu.cn/mofan/zh_CN/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/21777?yxsh=04",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "研招导师档列080200具身智能与机器人学术博士及085500机械专业博士，页面未标具体届。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://faculty.uestc.edu.cn/mofan/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/21777?yxsh=04",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2027与2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://faculty.uestc.edu.cn/mofan/zh_CN/index.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/21777?yxsh=04"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "recent",
+        "appointmentConfirmed": true,
+        "precision": "day",
+        "dateText": "2026-05-01",
+        "earliestDate": "2026-05-01",
+        "latestDate": "2026-05-01",
+        "careerContext": "unknown",
+        "noteZh": "公开履历明确本校任职始于2026-05-01；不推断首次独立PI。",
+        "sources": [
+          {
+            "url": "https://faculty.uestc.edu.cn/mofan/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/21777?yxsh=04",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "uestc-he-xiangkun",
+      "cardSummaryZh": "可信具身智能；强化学习；自动驾驶",
+      "overview": {
+        "textZh": "何祥坤，电子科技大学深圳高等研究院特聘研究员、博士生导师。研究方向：可信具身智能、强化学习、自动驾驶。",
+        "sources": [
+          {
+            "url": "https://faculty.uestc.edu.cn/hexiangkun/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/21440?yxsh=08",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "何祥坤 · 公开研究方向",
+        "affiliation": {
+          "textZh": "电子科技大学深圳高等研究院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://faculty.uestc.edu.cn/hexiangkun/zh_CN/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/21440?yxsh=08",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "可信具身智能",
+          "强化学习",
+          "自动驾驶"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://faculty.uestc.edu.cn/hexiangkun/zh_CN/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/21440?yxsh=08",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "本人主页泛博士招募，研招导师档专业栏为空，正式通道待核。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://faculty.uestc.edu.cn/hexiangkun/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/21440?yxsh=08",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2027与2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://faculty.uestc.edu.cn/hexiangkun/zh_CN/index.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/21440?yxsh=08"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "recent",
+        "appointmentConfirmed": true,
+        "precision": "day",
+        "dateText": "2025-01-10",
+        "earliestDate": "2025-01-10",
+        "latestDate": "2025-01-10",
+        "careerContext": "unknown",
+        "noteZh": "公开履历明确本校任职始于2025-01-10；不推断首次独立PI。",
+        "sources": [
+          {
+            "url": "https://faculty.uestc.edu.cn/hexiangkun/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/21440?yxsh=08",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "uestc-wang-guoqing",
+      "cardSummaryZh": "视觉复原与感知；多模态融合；具身推理",
+      "overview": {
+        "textZh": "王国庆，电子科技大学计算机科学与工程学院教授、博士生导师。研究方向：视觉复原与感知、多模态融合、具身推理。",
+        "sources": [
+          {
+            "url": "https://faculty.uestc.edu.cn/wangguoqing2/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "王国庆 · 公开研究方向",
+        "affiliation": {
+          "textZh": "电子科技大学计算机科学与工程学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://faculty.uestc.edu.cn/wangguoqing2/zh_CN/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "视觉复原与感知",
+          "多模态融合",
+          "具身推理"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://faculty.uestc.edu.cn/wangguoqing2/zh_CN/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "本人主页常年招收博士，没有指定入学届。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://faculty.uestc.edu.cn/wangguoqing2/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2027与2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://faculty.uestc.edu.cn/wangguoqing2/zh_CN/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "outside",
+        "appointmentConfirmed": true,
+        "precision": "day",
+        "dateText": "2021-04-06",
+        "earliestDate": "2021-04-06",
+        "latestDate": "2021-04-06",
+        "careerContext": "unknown",
+        "noteZh": "公开履历明确本校任职始于2021-04-06；不推断首次独立PI。",
+        "sources": [
+          {
+            "url": "https://faculty.uestc.edu.cn/wangguoqing2/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "uestc-liu-shuaicheng",
+      "cardSummaryZh": "底层视觉；计算摄影；具身智能",
+      "overview": {
+        "textZh": "刘帅成，电子科技大学信息与通信工程学院教授、博士生导师。研究方向：底层视觉、计算摄影、具身智能。",
+        "sources": [
+          {
+            "url": "https://www.sice.uestc.edu.cn/info/1100/6223.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/11983",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "刘帅成 · 公开研究方向",
+        "affiliation": {
+          "textZh": "电子科技大学信息与通信工程学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://www.sice.uestc.edu.cn/info/1100/6223.htm",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/11983",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "底层视觉",
+          "计算摄影",
+          "具身智能"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://www.sice.uestc.edu.cn/info/1100/6223.htm",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/11983",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "研招导师档列081000学术博士和085400专业博士，没有指定入学届。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://www.sice.uestc.edu.cn/info/1100/6223.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/11983",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2027与2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://www.sice.uestc.edu.cn/info/1100/6223.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/11983"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "outside",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2015-03",
+        "earliestDate": "2015-03-01",
+        "latestDate": "2015-03-31",
+        "careerContext": "unknown",
+        "noteZh": "公开履历明确本校任职始于2015-03；不推断首次独立PI。",
+        "sources": [
+          {
+            "url": "https://www.sice.uestc.edu.cn/info/1100/6223.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/11983",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "uestc-ji-luping",
+      "cardSummaryZh": "视觉SLAM；三维重建；自监督学习",
+      "overview": {
+        "textZh": "纪禄平，电子科技大学计算机科学与工程学院教授、博士生导师。研究方向：视觉SLAM、三维重建、自监督学习。",
+        "sources": [
+          {
+            "url": "https://faculty.uestc.edu.cn/jiluping/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.uestc.edu.cn/jiluping/zh_CN/yjgk/165303/list/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "纪禄平 · 公开研究方向",
+        "affiliation": {
+          "textZh": "电子科技大学计算机科学与工程学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://faculty.uestc.edu.cn/jiluping/zh_CN/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.uestc.edu.cn/jiluping/zh_CN/yjgk/165303/list/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "视觉SLAM",
+          "三维重建",
+          "自监督学习"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://faculty.uestc.edu.cn/jiluping/zh_CN/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.uestc.edu.cn/jiluping/zh_CN/yjgk/165303/list/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "官方主页确认博导；未核得年度招募。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://faculty.uestc.edu.cn/jiluping/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.uestc.edu.cn/jiluping/zh_CN/yjgk/165303/list/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2027与2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://faculty.uestc.edu.cn/jiluping/zh_CN/index.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://faculty.uestc.edu.cn/jiluping/zh_CN/yjgk/165303/list/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "outside",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2008",
+        "earliestDate": "2008-01-01",
+        "latestDate": "2008-12-31",
+        "careerContext": "unknown",
+        "noteZh": "公开履历明确本校任职始于2008；不推断首次独立PI。",
+        "sources": [
+          {
+            "url": "https://faculty.uestc.edu.cn/jiluping/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.uestc.edu.cn/jiluping/zh_CN/yjgk/165303/list/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "uestc-cheng-hong",
+      "cardSummaryZh": "机器人；模式识别；康复机器人",
+      "overview": {
+        "textZh": "程洪，电子科技大学自动化工程学院教授、博士生导师。研究方向：机器人、模式识别、康复机器人。",
+        "sources": [
+          {
+            "url": "https://faculty.uestc.edu.cn/chenghong/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yz.uestc.edu.cn/info/1134/5054.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "程洪 · 公开研究方向",
+        "affiliation": {
+          "textZh": "电子科技大学自动化工程学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://faculty.uestc.edu.cn/chenghong/zh_CN/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yz.uestc.edu.cn/info/1134/5054.htm",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人",
+          "模式识别",
+          "康复机器人"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://faculty.uestc.edu.cn/chenghong/zh_CN/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yz.uestc.edu.cn/info/1134/5054.htm",
+              "checkedDate": "2026-11-19",
+              "title": "电子科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "官方中心页面确认博导；2009末/2010初教授任职，起始月学校来源不一致。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://faculty.uestc.edu.cn/chenghong/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yz.uestc.edu.cn/info/1134/5054.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2027与2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://faculty.uestc.edu.cn/chenghong/zh_CN/index.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://yz.uestc.edu.cn/info/1134/5054.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "官方中心页面确认博导；2009末/2010初教授任职，起始月学校来源不一致。",
+        "sources": [
+          {
+            "url": "https://faculty.uestc.edu.cn/chenghong/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yz.uestc.edu.cn/info/1134/5054.htm",
+            "checkedDate": "2026-11-19",
+            "title": "电子科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
     }
   ],
   "reviewRequired": true,
