@@ -238677,6 +238677,974 @@
           }
         ]
       }
+    },
+    {
+      "advisorId": "xjtu-di-wang",
+      "cardSummaryZh": "退化点云泛化；三维空间智能；开放词汇点云分割",
+      "overview": {
+        "textZh": "王迪，西安交通大学软件学院副教授、特聘研究员、博士生导师。研究方向：退化点云泛化、三维空间智能、开放词汇点云分割。",
+        "sources": [
+          {
+            "url": "https://faculty.xjtu.edu.cn/diwang/zh_CN/zhym/1003917/list/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://arxiv.org/html/2509.10842v1",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "王迪 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西安交通大学软件学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://faculty.xjtu.edu.cn/diwang/zh_CN/zhym/1003917/list/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://arxiv.org/html/2509.10842v1",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "退化点云泛化",
+          "三维空间智能",
+          "开放词汇点云分割"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://faculty.xjtu.edu.cn/diwang/zh_CN/zhym/1003917/list/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://arxiv.org/html/2509.10842v1",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "公开履历列2024年2月来校，较早的2023年11月口径未取得原文，精确首任待核；以前任西安电子科技大学副教授。泛招博士不指届次。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://faculty.xjtu.edu.cn/diwang/zh_CN/zhym/1003917/list/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://arxiv.org/html/2509.10842v1",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://faculty.xjtu.edu.cn/diwang/zh_CN/zhym/1003917/list/index.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://arxiv.org/html/2509.10842v1"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "previous_faculty",
+        "noteZh": "公开履历列2024年2月来校，较早的2023年11月口径未取得原文，精确首任待核；以前任西安电子科技大学副教授。泛招博士不指届次。",
+        "sources": [
+          {
+            "url": "https://faculty.xjtu.edu.cn/diwang/zh_CN/zhym/1003917/list/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://arxiv.org/html/2509.10842v1",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "xjtu-meng-yang",
+      "cardSummaryZh": "机器人三维环境感知；多模态三维检测；具身智能",
+      "overview": {
+        "textZh": "杨勐，西安交通大学人工智能学院教授、博士生导师。研究方向：机器人三维环境感知、多模态三维检测、具身智能。",
+        "sources": [
+          {
+            "url": "https://gr.xjtu.edu.cn/mengyang/",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://gr.xjtu.edu.cn/mengyang/zh_CN/article/327488/content/19471.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "杨勐 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西安交通大学人工智能学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://gr.xjtu.edu.cn/mengyang/",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://gr.xjtu.edu.cn/mengyang/zh_CN/article/327488/content/19471.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人三维环境感知",
+          "多模态三维检测",
+          "具身智能"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://gr.xjtu.edu.cn/mengyang/",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://gr.xjtu.edu.cn/mengyang/zh_CN/article/327488/content/19471.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "2014年8月助理教授与博士后并列，2024年10月是升任教授。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://gr.xjtu.edu.cn/mengyang/",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://gr.xjtu.edu.cn/mengyang/zh_CN/article/327488/content/19471.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://gr.xjtu.edu.cn/mengyang/"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://gr.xjtu.edu.cn/mengyang/zh_CN/article/327488/content/19471.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2014-08",
+        "earliestDate": "2014-08-01",
+        "latestDate": "2014-08-31",
+        "careerContext": "unknown",
+        "noteZh": "2014年8月助理教授与博士后并列，2024年10月是升任教授。",
+        "sources": [
+          {
+            "url": "https://gr.xjtu.edu.cn/mengyang/",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://gr.xjtu.edu.cn/mengyang/zh_CN/article/327488/content/19471.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "xjtu-hongbin-sun",
+      "cardSummaryZh": "动态激光SLAM；足式机器人三维重建；自主巡检",
+      "overview": {
+        "textZh": "孙宏滨，西安交通大学人工智能学院教授、博士生导师。研究方向：动态激光SLAM、足式机器人三维重建、自主巡检。",
+        "sources": [
+          {
+            "url": "https://faculty.xjtu.edu.cn/hsun/zh_CN/zhym/980762/list/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.xjtu.edu.cn/hsun/zh_CN/zhym/980756/list/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "孙宏滨 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西安交通大学人工智能学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://faculty.xjtu.edu.cn/hsun/zh_CN/zhym/980762/list/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.xjtu.edu.cn/hsun/zh_CN/zhym/980756/list/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "动态激光SLAM",
+          "足式机器人三维重建",
+          "自主巡检"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://faculty.xjtu.edu.cn/hsun/zh_CN/zhym/980762/list/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.xjtu.edu.cn/hsun/zh_CN/zhym/980756/list/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "公开履历列2011年起校内任副教授、教授；培养记录不等于今届资格。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://faculty.xjtu.edu.cn/hsun/zh_CN/zhym/980762/list/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.xjtu.edu.cn/hsun/zh_CN/zhym/980756/list/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://faculty.xjtu.edu.cn/hsun/zh_CN/zhym/980762/list/index.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://faculty.xjtu.edu.cn/hsun/zh_CN/zhym/980756/list/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2011",
+        "earliestDate": "2011-01-01",
+        "latestDate": "2011-12-31",
+        "careerContext": "unknown",
+        "noteZh": "公开履历列2011年起校内任副教授、教授；培养记录不等于今届资格。",
+        "sources": [
+          {
+            "url": "https://faculty.xjtu.edu.cn/hsun/zh_CN/zhym/980762/list/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.xjtu.edu.cn/hsun/zh_CN/zhym/980756/list/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "xjtu-xuguang-lan",
+      "cardSummaryZh": "机器人智能；多模态扩散规划；激光SLAM文献研究",
+      "overview": {
+        "textZh": "兰旭光，西安交通大学人工智能学院教授、博士生导师。研究方向：机器人智能、多模态扩散规划、激光SLAM文献研究。",
+        "sources": [
+          {
+            "url": "https://www.xjtu.edu.cn/jsnr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1632&wbwbxjtuteacherid=535",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "兰旭光 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西安交通大学人工智能学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://www.xjtu.edu.cn/jsnr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1632&wbwbxjtuteacherid=535",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人智能",
+          "多模态扩散规划",
+          "激光SLAM文献研究"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://www.xjtu.edu.cn/jsnr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1632&wbwbxjtuteacherid=535",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "2005年博士后不是校内教职；年份待核。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://www.xjtu.edu.cn/jsnr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1632&wbwbxjtuteacherid=535",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://www.xjtu.edu.cn/jsnr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1632&wbwbxjtuteacherid=535"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "2005年博士后不是校内教职；年份待核。",
+        "sources": [
+          {
+            "url": "https://www.xjtu.edu.cn/jsnr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1632&wbwbxjtuteacherid=535",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "xjtu-tao-yang-instrumentation",
+      "cardSummaryZh": "多模态具身感知；机器人视觉；微纳光电",
+      "overview": {
+        "textZh": "杨涛，西安交通大学仪器科学与技术学院教授、博士生导师。研究方向：多模态具身感知、机器人视觉、微纳光电。",
+        "sources": [
+          {
+            "url": "https://faculty.xjtu.edu.cn/yangtao/zh_CN/zdylm/992206/list/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.xjtu.edu.cn/yangtao/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "杨涛 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西安交通大学仪器科学与技术学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://faculty.xjtu.edu.cn/yangtao/zh_CN/zdylm/992206/list/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.xjtu.edu.cn/yangtao/zh_CN/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "多模态具身感知",
+          "机器人视觉",
+          "微纳光电"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://faculty.xjtu.edu.cn/yangtao/zh_CN/zdylm/992206/list/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.xjtu.edu.cn/yangtao/zh_CN/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "公开2027硕博招募，具身方向为多模态感知，不证明2028；2015–2020是求学。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://faculty.xjtu.edu.cn/yangtao/zh_CN/zdylm/992206/list/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.xjtu.edu.cn/yangtao/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://faculty.xjtu.edu.cn/yangtao/zh_CN/zdylm/992206/list/index.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://faculty.xjtu.edu.cn/yangtao/zh_CN/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "公开2027硕博招募，具身方向为多模态感知，不证明2028；2015–2020是求学。",
+        "sources": [
+          {
+            "url": "https://faculty.xjtu.edu.cn/yangtao/zh_CN/zdylm/992206/list/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.xjtu.edu.cn/yangtao/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "xjtu-huibin-li",
+      "cardSummaryZh": "三维重建与SLAM；世界模型；VLA/WAM",
+      "overview": {
+        "textZh": "李慧斌，西安交通大学数学与统计学院教授、博士生导师。研究方向：三维重建与SLAM、世界模型、VLA/WAM。",
+        "sources": [
+          {
+            "url": "https://gr.xjtu.edu.cn/huibinli/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "李慧斌 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西安交通大学数学与统计学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://gr.xjtu.edu.cn/huibinli/zh_CN/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "三维重建与SLAM",
+          "世界模型",
+          "VLA/WAM"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://gr.xjtu.edu.cn/huibinli/zh_CN/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "2013年12月为新讲师/博士后，2017年副教授；2023年升教授。学博/工程博士泛招未标届次。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://gr.xjtu.edu.cn/huibinli/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://gr.xjtu.edu.cn/huibinli/zh_CN/index.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2013-12",
+        "earliestDate": "2013-12-01",
+        "latestDate": "2013-12-31",
+        "careerContext": "unknown",
+        "noteZh": "2013年12月为新讲师/博士后，2017年副教授；2023年升教授。学博/工程博士泛招未标届次。",
+        "sources": [
+          {
+            "url": "https://gr.xjtu.edu.cn/huibinli/zh_CN/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "xjtu-jun-xu",
+      "cardSummaryZh": "具身智能机器人；机器人技术",
+      "overview": {
+        "textZh": "徐俊，西安交通大学机器人研究院教授、博士生导师。研究方向：具身智能机器人、机器人技术。",
+        "sources": [
+          {
+            "url": "https://gr.xjtu.edu.cn/xujunx/zh_CN/article/340960/content/32059.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://gr.xjtu.edu.cn/xujunx/zh_CN/article/340960/content/35352.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "徐俊 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西安交通大学机器人研究院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://gr.xjtu.edu.cn/xujunx/zh_CN/article/340960/content/32059.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://gr.xjtu.edu.cn/xujunx/zh_CN/article/340960/content/35352.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "具身智能机器人",
+          "机器人技术"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://gr.xjtu.edu.cn/xujunx/zh_CN/article/340960/content/32059.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://gr.xjtu.edu.cn/xujunx/zh_CN/article/340960/content/35352.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西安交通大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "兼任研究院副院长；本人具体课题及首任时间待核。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://gr.xjtu.edu.cn/xujunx/zh_CN/article/340960/content/32059.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://gr.xjtu.edu.cn/xujunx/zh_CN/article/340960/content/35352.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://gr.xjtu.edu.cn/xujunx/zh_CN/article/340960/content/32059.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://gr.xjtu.edu.cn/xujunx/zh_CN/article/340960/content/35352.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "兼任研究院副院长；本人具体课题及首任时间待核。",
+        "sources": [
+          {
+            "url": "https://gr.xjtu.edu.cn/xujunx/zh_CN/article/340960/content/32059.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://gr.xjtu.edu.cn/xujunx/zh_CN/article/340960/content/35352.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西安交通大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
     }
   ],
   "reviewRequired": true,

@@ -1,5 +1,5 @@
-import {escapeHTML, readerText, safeUrl, sourcesOf, institutionLabel, degreeLabel, degreeDisplay, isBrowsableRoute, routeEvidenceText, deadlineStatus} from './core.js?v=64d133026a43';
-import {supervisorAssociationText} from './record-summaries.js?v=749a9ff22c9d';
+import {escapeHTML, readerText, safeUrl, sourcesOf, institutionLabel, degreeLabel, degreeDisplay, isBrowsableRoute, routeEvidenceText, deadlineStatus} from './core.js?v=13a62529ec52';
+import {supervisorAssociationText} from './record-summaries.js?v=985940ce29e3';
 
 export const PROJECT_COMPARISON_UNKNOWN = '未核实，以当期官方要求为准';
 const e = value => escapeHTML(readerText(value));
