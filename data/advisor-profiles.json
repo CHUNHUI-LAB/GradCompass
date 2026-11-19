@@ -239645,6 +239645,931 @@
           }
         ]
       }
+    },
+    {
+      "advisorId": "nwpu-wang-zheng",
+      "cardSummaryZh": "三维点云表征；多模态表征；噪声鲁棒学习",
+      "overview": {
+        "textZh": "王政，西北工业大学光电与智能研究院副教授、博士生导师。研究方向：三维点云表征、多模态表征、噪声鲁棒学习。",
+        "sources": [
+          {
+            "url": "https://iopen.nwpu.edu.cn/info/1251/3846.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "王政 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西北工业大学光电与智能研究院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://iopen.nwpu.edu.cn/info/1251/3846.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "三维点云表征",
+          "多模态表征",
+          "噪声鲁棒学习"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://iopen.nwpu.edu.cn/info/1251/3846.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "2023年开始任本校副教授，此前为西安交通大学博士后；泛招募未指定2028。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://iopen.nwpu.edu.cn/info/1251/3846.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://iopen.nwpu.edu.cn/info/1251/3846.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2023",
+        "earliestDate": "2023-01-01",
+        "latestDate": "2023-12-31",
+        "careerContext": "unknown",
+        "noteZh": "2023年开始任本校副教授，此前为西安交通大学博士后；泛招募未指定2028。",
+        "sources": [
+          {
+            "url": "https://iopen.nwpu.edu.cn/info/1251/3846.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "nwpu-li-qiang",
+      "cardSummaryZh": "具身视觉感知；VLA/VLN；协同仿真",
+      "overview": {
+        "textZh": "李强，西北工业大学光电与智能研究院教授、博士生导师。研究方向：具身视觉感知、VLA/VLN、协同仿真。",
+        "sources": [
+          {
+            "url": "https://iopen.nwpu.edu.cn/info/1015/4986.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "李强 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西北工业大学光电与智能研究院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://iopen.nwpu.edu.cn/info/1015/4986.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "具身视觉感知",
+          "VLA/VLN",
+          "协同仿真"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://iopen.nwpu.edu.cn/info/1015/4986.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "2024年6月起任本校教授；个人主页标2027年9月入学名额，但学位和当前余位不明，不能确认博士。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://iopen.nwpu.edu.cn/info/1015/4986.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://iopen.nwpu.edu.cn/info/1015/4986.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2024-06",
+        "earliestDate": "2024-06-01",
+        "latestDate": "2024-06-30",
+        "careerContext": "unknown",
+        "noteZh": "2024年6月起任本校教授；个人主页标2027年9月入学名额，但学位和当前余位不明，不能确认博士。",
+        "sources": [
+          {
+            "url": "https://iopen.nwpu.edu.cn/info/1015/4986.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "nwpu-zhao-bin-iopen",
+      "cardSummaryZh": "具身感知；多模态视觉；事件相机与RGB-D定位",
+      "overview": {
+        "textZh": "赵斌，西北工业大学光电与智能研究院副教授、博士生导师。研究方向：具身感知、多模态视觉、事件相机与RGB-D定位。",
+        "sources": [
+          {
+            "url": "https://iopen.nwpu.edu.cn/info/1251/4666.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://www.ccf.org.cn/Media_list/YEF/2026-05-16/895858.shtml",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "赵斌 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西北工业大学光电与智能研究院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://iopen.nwpu.edu.cn/info/1251/4666.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://www.ccf.org.cn/Media_list/YEF/2026-05-16/895858.shtml",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "具身感知",
+          "多模态视觉",
+          "事件相机与RGB-D定位"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://iopen.nwpu.edu.cn/info/1251/4666.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://www.ccf.org.cn/Media_list/YEF/2026-05-16/895858.shtml",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "CCF主办方证实博导；与同名导航教师区分；2020特聘学者不认定为正式首任。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://iopen.nwpu.edu.cn/info/1251/4666.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://www.ccf.org.cn/Media_list/YEF/2026-05-16/895858.shtml",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://iopen.nwpu.edu.cn/info/1251/4666.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://www.ccf.org.cn/Media_list/YEF/2026-05-16/895858.shtml"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "CCF主办方证实博导；与同名导航教师区分；2020特聘学者不认定为正式首任。",
+        "sources": [
+          {
+            "url": "https://iopen.nwpu.edu.cn/info/1251/4666.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://www.ccf.org.cn/Media_list/YEF/2026-05-16/895858.shtml",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "nwpu-liu-ganchao",
+      "cardSummaryZh": "动态视觉惯性里程计；视觉定位；多模态三维重建",
+      "overview": {
+        "textZh": "刘赶超，西北工业大学光电与智能研究院副教授、博士生导师。研究方向：动态视觉惯性里程计、视觉定位、多模态三维重建。",
+        "sources": [
+          {
+            "url": "https://iopen.nwpu.edu.cn/info/1251/1392.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://iopen.nwpu.edu.cn/info/1093/9726.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "刘赶超 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西北工业大学光电与智能研究院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://iopen.nwpu.edu.cn/info/1251/1392.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://iopen.nwpu.edu.cn/info/1093/9726.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "动态视觉惯性里程计",
+          "视觉定位",
+          "多模态三维重建"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://iopen.nwpu.edu.cn/info/1251/1392.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://iopen.nwpu.edu.cn/info/1093/9726.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "2020年10月转本校副教授；2027个人邀请考博和直博，不等同正式目录或余位。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://iopen.nwpu.edu.cn/info/1251/1392.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://iopen.nwpu.edu.cn/info/1093/9726.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://iopen.nwpu.edu.cn/info/1251/1392.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://iopen.nwpu.edu.cn/info/1093/9726.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2020-10",
+        "earliestDate": "2020-10-01",
+        "latestDate": "2020-10-31",
+        "careerContext": "unknown",
+        "noteZh": "2020年10月转本校副教授；2027个人邀请考博和直博，不等同正式目录或余位。",
+        "sources": [
+          {
+            "url": "https://iopen.nwpu.edu.cn/info/1251/1392.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://iopen.nwpu.edu.cn/info/1093/9726.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "nwpu-zhang-dingwen",
+      "cardSummaryZh": "复杂环境视觉感知；三维重建；空间智能",
+      "overview": {
+        "textZh": "张鼎文，西北工业大学自动化学院教授、博士生导师。研究方向：复杂环境视觉感知、三维重建、空间智能。",
+        "sources": [
+          {
+            "url": "https://zdhxy.nwpu.edu.cn/info/1081/7883.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://zdhxy.nwpu.edu.cn/info/1120/34483.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "张鼎文 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西北工业大学自动化学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://zdhxy.nwpu.edu.cn/info/1081/7883.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://zdhxy.nwpu.edu.cn/info/1120/34483.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "复杂环境视觉感知",
+          "三维重建",
+          "空间智能"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://zdhxy.nwpu.edu.cn/info/1081/7883.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://zdhxy.nwpu.edu.cn/info/1120/34483.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "2018年为博士毕业，不证明首任教职。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://zdhxy.nwpu.edu.cn/info/1081/7883.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://zdhxy.nwpu.edu.cn/info/1120/34483.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://zdhxy.nwpu.edu.cn/info/1081/7883.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://zdhxy.nwpu.edu.cn/info/1120/34483.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "2018年为博士毕业，不证明首任教职。",
+        "sources": [
+          {
+            "url": "https://zdhxy.nwpu.edu.cn/info/1081/7883.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://zdhxy.nwpu.edu.cn/info/1120/34483.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "nwpu-dai-yuchao",
+      "cardSummaryZh": "三维视觉；多视几何；视觉感知",
+      "overview": {
+        "textZh": "戴玉超，西北工业大学电子信息学院教授、博士生导师。研究方向：三维视觉、多视几何、视觉感知。",
+        "sources": [
+          {
+            "url": "https://renshi.nwpu.edu.cn/info/1437/6099.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://dianzi.nwpu.edu.cn/info/1454/12103.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "戴玉超 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西北工业大学电子信息学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://renshi.nwpu.edu.cn/info/1437/6099.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://dianzi.nwpu.edu.cn/info/1454/12103.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "三维视觉",
+          "多视几何",
+          "视觉感知"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://renshi.nwpu.edu.cn/info/1437/6099.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://dianzi.nwpu.edu.cn/info/1454/12103.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "2017年入校任教授、博导。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://renshi.nwpu.edu.cn/info/1437/6099.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://dianzi.nwpu.edu.cn/info/1454/12103.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://renshi.nwpu.edu.cn/info/1437/6099.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://dianzi.nwpu.edu.cn/info/1454/12103.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2017",
+        "earliestDate": "2017-01-01",
+        "latestDate": "2017-12-31",
+        "careerContext": "unknown",
+        "noteZh": "2017年入校任教授、博导。",
+        "sources": [
+          {
+            "url": "https://renshi.nwpu.edu.cn/info/1437/6099.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://dianzi.nwpu.edu.cn/info/1454/12103.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "nwpu-jiang-zhiyu",
+      "cardSummaryZh": "复杂环境视觉；跨域感知；多模态遥感",
+      "overview": {
+        "textZh": "姜志宇，西北工业大学光电与智能研究院副教授、博士生导师。研究方向：复杂环境视觉、跨域感知、多模态遥感。",
+        "sources": [
+          {
+            "url": "https://iopen.nwpu.edu.cn/info/1251/1077.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "姜志宇 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西北工业大学光电与智能研究院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://iopen.nwpu.edu.cn/info/1251/1077.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "复杂环境视觉",
+          "跨域感知",
+          "多模态遥感"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://iopen.nwpu.edu.cn/info/1251/1077.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北工业大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "2020年开始任本校副教授，之前为本校博士后；泛硕博联系未指定年份。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://iopen.nwpu.edu.cn/info/1251/1077.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://iopen.nwpu.edu.cn/info/1251/1077.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2020",
+        "earliestDate": "2020-01-01",
+        "latestDate": "2020-12-31",
+        "careerContext": "unknown",
+        "noteZh": "2020年开始任本校副教授，之前为本校博士后；泛硕博联系未指定年份。",
+        "sources": [
+          {
+            "url": "https://iopen.nwpu.edu.cn/info/1251/1077.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北工业大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
     }
   ],
   "reviewRequired": true,
