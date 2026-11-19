@@ -240570,6 +240570,910 @@
           }
         ]
       }
+    },
+    {
+      "advisorId": "nwsuaf-fu-longsheng",
+      "cardSummaryZh": "果园作业机器人；机器视觉；智慧农业装备",
+      "overview": {
+        "textZh": "傅隆生，西北农林科技大学机械与电子工程学院教授、博士生导师。研究方向：果园作业机器人、机器视觉、智慧农业装备。",
+        "sources": [
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318450.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "傅隆生 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西北农林科技大学机械与电子工程学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318450.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "果园作业机器人",
+          "机器视觉",
+          "智慧农业装备"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318450.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "2012年6月任本校讲师，2022年升教授。2026学院名单学博082804方向02和农业专博095100方向01；2027逐人未核。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318450.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318450.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2012-06",
+        "earliestDate": "2012-06-01",
+        "latestDate": "2012-06-30",
+        "careerContext": "unknown",
+        "noteZh": "2012年6月任本校讲师，2022年升教授。2026学院名单学博082804方向02和农业专博095100方向01；2027逐人未核。",
+        "sources": [
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318450.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "nwsuaf-cui-yongjie",
+      "cardSummaryZh": "果蔬生产机器人；智能农业装备",
+      "overview": {
+        "textZh": "崔永杰，西北农林科技大学机械与电子工程学院教授、博士生导师。研究方向：果蔬生产机器人、智能农业装备。",
+        "sources": [
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318442.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "崔永杰 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西北农林科技大学机械与电子工程学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318442.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "果蔬生产机器人",
+          "智能农业装备"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318442.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "2009年入校，2026学院博士名单见082801；不证明后续年度资格。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318442.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318442.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2009",
+        "earliestDate": "2009-01-01",
+        "latestDate": "2009-12-31",
+        "careerContext": "unknown",
+        "noteZh": "2009年入校，2026学院博士名单见082801；不证明后续年度资格。",
+        "sources": [
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318442.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "nwsuaf-yang-fuzeng",
+      "cardSummaryZh": "多机器人协作；立体视觉跟随；智能农机",
+      "overview": {
+        "textZh": "杨福增，西北农林科技大学机械与电子工程学院教授、博士生导师。研究方向：多机器人协作、立体视觉跟随、智能农机。",
+        "sources": [
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318424.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "杨福增 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西北农林科技大学机械与电子工程学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318424.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "多机器人协作",
+          "立体视觉跟随",
+          "智能农机"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318424.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "1993年7月在原西北农业大学任教，1999年9月合并后任教至今。2026学院095100方向01点名。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318424.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318424.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "1999-09",
+        "earliestDate": "1999-09-01",
+        "latestDate": "1999-09-30",
+        "careerContext": "unknown",
+        "noteZh": "1993年7月在原西北农业大学任教，1999年9月合并后任教至今。2026学院095100方向01点名。",
+        "sources": [
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318424.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "nwsuaf-song-huaibo",
+      "cardSummaryZh": "图像处理；农业视觉感知；智能检测与控制",
+      "overview": {
+        "textZh": "宋怀波，西北农林科技大学机械与电子工程学院教授、博士生导师。研究方向：图像处理、农业视觉感知、智能检测与控制。",
+        "sources": [
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318457.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "宋怀波 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西北农林科技大学机械与电子工程学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318457.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "图像处理",
+          "农业视觉感知",
+          "智能检测与控制"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318457.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "2009年7月本校讲师，2020年1月升教授。2026院目录095100方向01点名。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318457.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318457.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2009-07",
+        "earliestDate": "2009-07-01",
+        "latestDate": "2009-07-31",
+        "careerContext": "unknown",
+        "noteZh": "2009年7月本校讲师，2020年1月升教授。2026院目录095100方向01点名。",
+        "sources": [
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318457.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "nwsuaf-qin-lifeng",
+      "cardSummaryZh": "机器视觉；农业信息化",
+      "overview": {
+        "textZh": "秦立峰，西北农林科技大学机械与电子工程学院副教授、博士生导师。研究方向：机器视觉、农业信息化。",
+        "sources": [
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318509.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "秦立峰 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西北农林科技大学机械与电子工程学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318509.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器视觉",
+          "农业信息化"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318509.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "2026院目录095100方向01点名；首次教研任职时间待核。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318509.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318509.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "2026院目录095100方向01点名；首次教研任职时间待核。",
+        "sources": [
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/szdw/gjzcry/318509.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cmee.nwsuaf.edu.cn/yjsjy/dsjs/93989e0019cd4391bc9c8a76d8b420e2.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "nwsuaf-ning-jifeng",
+      "cardSummaryZh": "视觉目标跟踪；图像拼接；农林无人机遥感",
+      "overview": {
+        "textZh": "宁纪锋，西北农林科技大学信息工程学院教授、博士生导师。研究方向：视觉目标跟踪、图像拼接、农林无人机遥感。",
+        "sources": [
+          {
+            "url": "https://cie.nwsuaf.edu.cn/szdw/js/2008116162/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yz.nwsuaf.edu.cn/docs/2024-11/e6f6c8a877ec4c2786021248cc303045.pdf",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "宁纪锋 · 公开研究方向",
+        "affiliation": {
+          "textZh": "西北农林科技大学信息工程学院；实际招生和培养单位按公告确认。",
+          "sources": [
+            {
+              "url": "https://cie.nwsuaf.edu.cn/szdw/js/2008116162/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yz.nwsuaf.edu.cn/docs/2024-11/e6f6c8a877ec4c2786021248cc303045.pdf",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "视觉目标跟踪",
+          "图像拼接",
+          "农林无人机遥感"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://cie.nwsuaf.edu.cn/szdw/js/2008116162/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yz.nwsuaf.edu.cn/docs/2024-11/e6f6c8a877ec4c2786021248cc303045.pdf",
+              "checkedDate": "2026-11-19",
+              "title": "西北农林科技大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "2025学校博士目录0828Z2点名；不推断2027资格或三维LiDAR/SLAM方向。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://cie.nwsuaf.edu.cn/szdw/js/2008116162/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yz.nwsuaf.edu.cn/docs/2024-11/e6f6c8a877ec4c2786021248cc303045.pdf",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2028个人接收及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://cie.nwsuaf.edu.cn/szdw/js/2008116162/index.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://yz.nwsuaf.edu.cn/docs/2024-11/e6f6c8a877ec4c2786021248cc303045.pdf"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "2025学校博士目录0828Z2点名；不推断2027资格或三维LiDAR/SLAM方向。",
+        "sources": [
+          {
+            "url": "https://cie.nwsuaf.edu.cn/szdw/js/2008116162/index.htm",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yz.nwsuaf.edu.cn/docs/2024-11/e6f6c8a877ec4c2786021248cc303045.pdf",
+            "checkedDate": "2026-11-19",
+            "title": "西北农林科技大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
     }
   ],
   "reviewRequired": true,
