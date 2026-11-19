@@ -1,0 +1,750 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-11-19",
+  "baseCommit": "4e1a11f3e9c6716d0aed75941b657337040d6cd2",
+  "school": "重庆大学",
+  "notExhaustive": true,
+  "addedCount": 7,
+  "entries": [
+    {
+      "id": "cqu-fu-chunyun",
+      "name": "傅春耘",
+      "nameZh": "傅春耘",
+      "institution": "CQU",
+      "department": "机械与运载工程学院",
+      "position": "副教授",
+      "topics": [
+        "相机LiDAR融合",
+        "动态语义SLAM",
+        "激光里程计"
+      ],
+      "summary": "研究方向：相机LiDAR融合、动态语义SLAM、激光里程计。",
+      "profileUrl": "https://faculty.cqu.edu.cn/ChunyunFu",
+      "routeIds": [
+        "cqu-doctoral-faculty-reference-20261119"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "cqu-doctoral-faculty-reference-20261119",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "公开资料列博士指导身份；年度资格、正式通道与当届接收另核。",
+          "sources": [
+            {
+              "url": "https://faculty.cqu.edu.cn/ChunyunFu",
+              "checkedDate": "2026-11-19",
+              "title": "重庆大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.cqu.edu.cn/ChunyunFu/zh_CN/yjfx/342607/content/1282.htm",
+              "checkedDate": "2026-11-19",
+              "title": "重庆大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-19",
+          "sourceCycle": "公开指导身份参考；年度资格待核",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "个人招募不自动升级正式项目关联或余位。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收与余位分别核查。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2015年本校汽车工程学院讲师；2021年是院系变更。官网泛邀加入，不指届次。 2028个人博士招生、入学季节与余位未知。",
+      "openings": {
+        "phd": "博士参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核实个人2027接收，不滚动历史年份。",
+        "cycle2028": "2028个人博士招生与余位未知。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年本校任职不等于首次独立教职或新PI。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "公开本校任职记录 2015-03；非首次独立PI证明。"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.cqu.edu.cn/ChunyunFu",
+          "checkedDate": "2026-11-19",
+          "title": "重庆大学公开资料",
+          "section": "现职、研究方向及招生边界",
+          "readScope": "公开正文；年度个人招生与余位未核。",
+          "access": "official_body"
+        },
+        {
+          "url": "https://faculty.cqu.edu.cn/ChunyunFu/zh_CN/yjfx/342607/content/1282.htm",
+          "checkedDate": "2026-11-19",
+          "title": "重庆大学公开资料",
+          "section": "现职、研究方向及招生边界",
+          "readScope": "公开正文；年度个人招生与余位未核。",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "2015年本校汽车工程学院讲师；2021年是院系变更。官网泛邀加入，不指届次。",
+        "2028入学年份、季节及余位未核。"
+      ],
+      "checkedDate": "2026-11-19",
+      "sourceFile": "audits/985-cqu-20261119.json"
+    },
+    {
+      "id": "cqu-wang-gang-robotics",
+      "name": "王刚",
+      "nameZh": "王刚",
+      "institution": "CQU",
+      "department": "高端装备机械传动全国重点实验室",
+      "position": "副研究员",
+      "topics": [
+        "双臂机器人灵巧操作",
+        "非结构化地形感知导航",
+        "机器人点云加工"
+      ],
+      "summary": "研究方向：双臂机器人灵巧操作、非结构化地形感知导航、机器人点云加工。",
+      "profileUrl": "https://faculty.cqu.edu.cn/WangGang/",
+      "routeIds": [
+        "cqu-doctoral-faculty-reference-20261119"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "cqu-doctoral-faculty-reference-20261119",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "公开资料列博士指导身份；年度资格、正式通道与当届接收另核。",
+          "sources": [
+            {
+              "url": "https://faculty.cqu.edu.cn/WangGang/",
+              "checkedDate": "2026-11-19",
+              "title": "重庆大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.cqu.edu.cn/JunLuo/zh_CN/tdcy/335499/content/1531.htm",
+              "checkedDate": "2026-11-19",
+              "title": "重庆大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-19",
+          "sourceCycle": "公开指导身份参考；年度资格待核",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "个人招募不自动升级正式项目关联或余位。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收与余位分别核查。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2021-12-15入校为助研/博士后阶段；2024-12为明确副研究员任职。与岩土同名教师不同；泛欢迎联系没有入学届。 2028个人博士招生、入学季节与余位未知。",
+      "openings": {
+        "phd": "博士参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核实个人2027接收，不滚动历史年份。",
+        "cycle2028": "2028个人博士招生与余位未知。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年本校任职不等于首次独立教职或新PI。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "2021-12-15入校为助研/博士后阶段；2024-12为明确副研究员任职。与岩土同名教师不同；泛欢迎联系没有入学届。"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.cqu.edu.cn/WangGang/",
+          "checkedDate": "2026-11-19",
+          "title": "重庆大学公开资料",
+          "section": "现职、研究方向及招生边界",
+          "readScope": "公开正文；年度个人招生与余位未核。",
+          "access": "official_body"
+        },
+        {
+          "url": "https://faculty.cqu.edu.cn/JunLuo/zh_CN/tdcy/335499/content/1531.htm",
+          "checkedDate": "2026-11-19",
+          "title": "重庆大学公开资料",
+          "section": "现职、研究方向及招生边界",
+          "readScope": "公开正文；年度个人招生与余位未核。",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "2021-12-15入校为助研/博士后阶段；2024-12为明确副研究员任职。与岩土同名教师不同；泛欢迎联系没有入学届。",
+        "2028入学年份、季节及余位未核。"
+      ],
+      "checkedDate": "2026-11-19",
+      "sourceFile": "audits/985-cqu-20261119.json"
+    },
+    {
+      "id": "cqu-pu-can",
+      "name": "蒲灿",
+      "nameZh": "蒲灿",
+      "institution": "CQU",
+      "department": "国家卓越工程师学院",
+      "position": "特聘副教授",
+      "topics": [
+        "世界动作模型",
+        "实体具身数据",
+        "生成仿真",
+        "仿生机器人"
+      ],
+      "summary": "研究方向：世界动作模型、实体具身数据、生成仿真、仿生机器人。",
+      "profileUrl": "https://faculty.cqu.edu.cn/pucan/en/index.htm",
+      "routeIds": [
+        "cqu-doctoral-faculty-reference-20261119"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "cqu-doctoral-faculty-reference-20261119",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "公开资料列博士指导身份；年度资格、正式通道与当届接收另核。",
+          "sources": [
+            {
+              "url": "https://faculty.cqu.edu.cn/pucan/en/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "重庆大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://eie.cqu.edu.cn/info/1204/2587.htm",
+              "checkedDate": "2026-11-19",
+              "title": "重庆大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-19",
+          "sourceCycle": "公开指导身份参考；年度资格待核",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "个人招募不自动升级正式项目关联或余位。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收与余位分别核查。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "学校个人页列博导，学院证实教职；实验室成立时间不能代替入职日期，具体普博院系待核。 2028个人博士招生、入学季节与余位未知。",
+      "openings": {
+        "phd": "博士参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核实个人2027接收，不滚动历史年份。",
+        "cycle2028": "2028个人博士招生与余位未知。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年本校任职不等于首次独立教职或新PI。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "学校个人页列博导，学院证实教职；实验室成立时间不能代替入职日期，具体普博院系待核。"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.cqu.edu.cn/pucan/en/index.htm",
+          "checkedDate": "2026-11-19",
+          "title": "重庆大学公开资料",
+          "section": "现职、研究方向及招生边界",
+          "readScope": "公开正文；年度个人招生与余位未核。",
+          "access": "official_body"
+        },
+        {
+          "url": "https://eie.cqu.edu.cn/info/1204/2587.htm",
+          "checkedDate": "2026-11-19",
+          "title": "重庆大学公开资料",
+          "section": "现职、研究方向及招生边界",
+          "readScope": "公开正文；年度个人招生与余位未核。",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "学校个人页列博导，学院证实教职；实验室成立时间不能代替入职日期，具体普博院系待核。",
+        "2028入学年份、季节及余位未核。"
+      ],
+      "checkedDate": "2026-11-19",
+      "sourceFile": "audits/985-cqu-20261119.json"
+    },
+    {
+      "id": "cqu-gu-fuqiang",
+      "name": "古富强",
+      "nameZh": "古富强",
+      "institution": "CQU",
+      "department": "计算机学院",
+      "position": "教授",
+      "topics": [
+        "视觉SLAM",
+        "事件相机",
+        "多模融合",
+        "无人系统定位导航"
+      ],
+      "summary": "研究方向：视觉SLAM、事件相机、多模融合、无人系统定位导航。",
+      "profileUrl": "https://faculty.cqu.edu.cn/gufq/zh_CN/index.htm",
+      "routeIds": [
+        "cqu-doctoral-faculty-reference-20261119"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "cqu-doctoral-faculty-reference-20261119",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "公开资料列博士指导身份；年度资格、正式通道与当届接收另核。",
+          "sources": [
+            {
+              "url": "https://faculty.cqu.edu.cn/gufq/zh_CN/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "重庆大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.cqu.edu.cn/gufq/zh_CN/zhym/342092/list/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "重庆大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-19",
+          "sourceCycle": "公开指导身份参考；年度资格待核",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "个人招募不自动升级正式项目关联或余位。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收与余位分别核查。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "首任年月待核；不以期刊任职年份推断入校。 2028个人博士招生、入学季节与余位未知。",
+      "openings": {
+        "phd": "博士参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核实个人2027接收，不滚动历史年份。",
+        "cycle2028": "2028个人博士招生与余位未知。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年本校任职不等于首次独立教职或新PI。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "首任年月待核；不以期刊任职年份推断入校。"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.cqu.edu.cn/gufq/zh_CN/index.htm",
+          "checkedDate": "2026-11-19",
+          "title": "重庆大学公开资料",
+          "section": "现职、研究方向及招生边界",
+          "readScope": "公开正文；年度个人招生与余位未核。",
+          "access": "official_body"
+        },
+        {
+          "url": "https://faculty.cqu.edu.cn/gufq/zh_CN/zhym/342092/list/index.htm",
+          "checkedDate": "2026-11-19",
+          "title": "重庆大学公开资料",
+          "section": "现职、研究方向及招生边界",
+          "readScope": "公开正文；年度个人招生与余位未核。",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "首任年月待核；不以期刊任职年份推断入校。",
+        "2028入学年份、季节及余位未核。"
+      ],
+      "checkedDate": "2026-11-19",
+      "sourceFile": "audits/985-cqu-20261119.json"
+    },
+    {
+      "id": "cqu-jing-gangshan",
+      "name": "井冈山",
+      "nameZh": "井冈山",
+      "institution": "CQU",
+      "department": "自动化学院",
+      "position": "教授",
+      "topics": [
+        "机器人运动规划",
+        "灵巧手抓取",
+        "多臂协同",
+        "传感器网络定位"
+      ],
+      "summary": "研究方向：机器人运动规划、灵巧手抓取、多臂协同、传感器网络定位。",
+      "profileUrl": "https://faculty.cqu.edu.cn/GangshanJing/zh_CN/index.htm",
+      "routeIds": [
+        "cqu-doctoral-faculty-reference-20261119"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "cqu-doctoral-faculty-reference-20261119",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "公开资料列博士指导身份；年度资格、正式通道与当届接收另核。",
+          "sources": [
+            {
+              "url": "https://faculty.cqu.edu.cn/GangshanJing/zh_CN/index.htm",
+              "checkedDate": "2026-11-19",
+              "title": "重庆大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.cqu.edu.cn/GangshanJing/zh_CN/yjfx/384424/content/3261.htm",
+              "checkedDate": "2026-11-19",
+              "title": "重庆大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-19",
+          "sourceCycle": "公开指导身份参考；年度资格待核",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "个人招募不自动升级正式项目关联或余位。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收与余位分别核查。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "2021-12校内教授，时点接近五年界线；不外推到2028。 2028个人博士招生、入学季节与余位未知。",
+      "openings": {
+        "phd": "博士参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核实个人2027接收，不滚动历史年份。",
+        "cycle2028": "2028个人博士招生与余位未知。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年本校任职不等于首次独立教职或新PI。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "公开本校任职记录 2021-12；非首次独立PI证明。"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.cqu.edu.cn/GangshanJing/zh_CN/index.htm",
+          "checkedDate": "2026-11-19",
+          "title": "重庆大学公开资料",
+          "section": "现职、研究方向及招生边界",
+          "readScope": "公开正文；年度个人招生与余位未核。",
+          "access": "official_body"
+        },
+        {
+          "url": "https://faculty.cqu.edu.cn/GangshanJing/zh_CN/yjfx/384424/content/3261.htm",
+          "checkedDate": "2026-11-19",
+          "title": "重庆大学公开资料",
+          "section": "现职、研究方向及招生边界",
+          "readScope": "公开正文；年度个人招生与余位未核。",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "2021-12校内教授，时点接近五年界线；不外推到2028。",
+        "2028入学年份、季节及余位未核。"
+      ],
+      "checkedDate": "2026-11-19",
+      "sourceFile": "audits/985-cqu-20261119.json"
+    },
+    {
+      "id": "cqu-luo-jun",
+      "name": "罗均",
+      "nameZh": "罗均",
+      "institution": "CQU",
+      "department": "机械与运载工程学院",
+      "position": "教授",
+      "topics": [
+        "全天候多源异构感知",
+        "复杂环境无人装备",
+        "导航"
+      ],
+      "summary": "研究方向：全天候多源异构感知、复杂环境无人装备、导航。",
+      "profileUrl": "https://faculty.cqu.edu.cn/JunLuo",
+      "routeIds": [
+        "cqu-doctoral-faculty-reference-20261119"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "cqu-doctoral-faculty-reference-20261119",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "公开资料列博士指导身份；年度资格、正式通道与当届接收另核。",
+          "sources": [
+            {
+              "url": "https://faculty.cqu.edu.cn/JunLuo",
+              "checkedDate": "2026-11-19",
+              "title": "重庆大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.cqu.edu.cn/JunLuo/zh_CN/yjfx/335499/content/3559.htm",
+              "checkedDate": "2026-11-19",
+              "title": "重庆大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-19",
+          "sourceCycle": "公开指导身份参考；年度资格待核",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "个人招募不自动升级正式项目关联或余位。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收与余位分别核查。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "首次本校教职时间待核，研究方向不等于个人招生。 2028个人博士招生、入学季节与余位未知。",
+      "openings": {
+        "phd": "博士参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核实个人2027接收，不滚动历史年份。",
+        "cycle2028": "2028个人博士招生与余位未知。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年本校任职不等于首次独立教职或新PI。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "首次本校教职时间待核，研究方向不等于个人招生。"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.cqu.edu.cn/JunLuo",
+          "checkedDate": "2026-11-19",
+          "title": "重庆大学公开资料",
+          "section": "现职、研究方向及招生边界",
+          "readScope": "公开正文；年度个人招生与余位未核。",
+          "access": "official_body"
+        },
+        {
+          "url": "https://faculty.cqu.edu.cn/JunLuo/zh_CN/yjfx/335499/content/3559.htm",
+          "checkedDate": "2026-11-19",
+          "title": "重庆大学公开资料",
+          "section": "现职、研究方向及招生边界",
+          "readScope": "公开正文；年度个人招生与余位未核。",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "首次本校教职时间待核，研究方向不等于个人招生。",
+        "2028入学年份、季节及余位未核。"
+      ],
+      "checkedDate": "2026-11-19",
+      "sourceFile": "audits/985-cqu-20261119.json"
+    },
+    {
+      "id": "cqu-liu-fei",
+      "name": "刘飞",
+      "nameZh": "刘飞",
+      "institution": "CQU",
+      "department": "机械与运载工程学院",
+      "position": "教授",
+      "topics": [
+        "机器人视觉",
+        "工业三维测量",
+        "动态形貌"
+      ],
+      "summary": "研究方向：机器人视觉、工业三维测量、动态形貌。",
+      "profileUrl": "https://faculty.cqu.edu.cn/JunLuo/zh_CN/tdcy/335499/content/1526.htm",
+      "routeIds": [
+        "cqu-doctoral-faculty-reference-20261119"
+      ],
+      "routeAssociations": [
+        {
+          "routeId": "cqu-doctoral-faculty-reference-20261119",
+          "degree": "PhD",
+          "status": "reference",
+          "verificationStatus": "pending",
+          "scope": "doctoral_supervision_reference",
+          "summary": "公开资料列博士指导身份；年度资格、正式通道与当届接收另核。",
+          "sources": [
+            {
+              "url": "https://faculty.cqu.edu.cn/JunLuo/zh_CN/tdcy/335499/content/1526.htm",
+              "checkedDate": "2026-11-19",
+              "title": "重庆大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ],
+          "checkedDate": "2026-11-19",
+          "sourceCycle": "公开指导身份参考；年度资格待核",
+          "admissionMode": "doctoral_faculty_reference",
+          "projectCycleVerified": false,
+          "individualRecruitmentVerified": false,
+          "note": "个人招募不自动升级正式项目关联或余位。"
+        }
+      ],
+      "eligibility": "pending",
+      "eligibilityMeaning": "指导身份、年度资格、正式通道、申请者资格、个人接收与余位分别核查。",
+      "defaultVisible": true,
+      "opening": "unknown",
+      "openingSummary": "官方团队资料载博导，首次教职待核。 2028个人博士招生、入学季节与余位未知。",
+      "openings": {
+        "phd": "博士参考，个人当届接收另核。",
+        "msc": "硕士当届接收待核。",
+        "mphil": "未核实",
+        "ra": "未核实公开岗位",
+        "cycle2027": "未核实个人2027接收，不滚动历史年份。",
+        "cycle2028": "2028个人博士招生与余位未知。"
+      },
+      "openingDetails": [],
+      "fall2027OpeningVerified": false,
+      "intake2027OpeningVerified": false,
+      "fall2028OpeningVerified": false,
+      "intake2028OpeningVerified": false,
+      "newPi": {
+        "verified": false,
+        "window": "calendar-year-2026",
+        "date": null,
+        "note": "近五年本校任职不等于首次独立教职或新PI。",
+        "sources": [],
+        "dateEvidenceVerified": false
+      },
+      "appointment": {
+        "new_pi_2026_verified": false,
+        "date": null,
+        "note": "官方团队资料载博导，首次教职待核。"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.cqu.edu.cn/JunLuo/zh_CN/tdcy/335499/content/1526.htm",
+          "checkedDate": "2026-11-19",
+          "title": "重庆大学公开资料",
+          "section": "现职、研究方向及招生边界",
+          "readScope": "公开正文；年度个人招生与余位未核。",
+          "access": "official_body"
+        }
+      ],
+      "caveats": [
+        "官方团队资料载博导，首次教职待核。",
+        "2028入学年份、季节及余位未核。"
+      ],
+      "checkedDate": "2026-11-19",
+      "sourceFile": "audits/985-cqu-20261119.json"
+    }
+  ],
+  "observations": [
+    "陈锐（博导，机器人研究细分待核）",
+    "宋朝省（博导，SLAM个人关联待核）"
+  ]
+}
