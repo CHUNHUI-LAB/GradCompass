@@ -241474,6 +241474,462 @@
           }
         ]
       }
+    },
+    {
+      "advisorId": "lzu-yan-shi",
+      "cardSummaryZh": "机器人控制；机械臂；计算机控制",
+      "overview": {
+        "textZh": "阎石，兰州大学信息科学与工程学院教授。研究方向：机器人控制、机械臂、计算机控制。博士指导参考依据2024学校目录，年度资格及本人接收另核。",
+        "sources": [
+          {
+            "url": "https://yanshi.lzu.edu.cn/?post=2",
+            "checkedDate": "2026-11-19",
+            "title": "兰州大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "团队页索引可见；直读受限。以官档历史名单证实。",
+            "access": "official_search_index_only"
+          },
+          {
+            "url": "https://yz.lzu.edu.cn/yz/upload/files/20231109/c889af42f94b445f8970c7c74f14ff56.pdf",
+            "checkedDate": "2026-11-19",
+            "title": "兰州大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "阎石 · 公开研究方向",
+        "affiliation": {
+          "textZh": "兰州大学信息科学与工程学院；实际招生和培养单位按当届公告确认。",
+          "sources": [
+            {
+              "url": "https://yanshi.lzu.edu.cn/?post=2",
+              "checkedDate": "2026-11-19",
+              "title": "兰州大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "团队页索引可见；直读受限。以官档历史名单证实。",
+              "access": "official_search_index_only"
+            },
+            {
+              "url": "https://yz.lzu.edu.cn/yz/upload/files/20231109/c889af42f94b445f8970c7c74f14ff56.pdf",
+              "checkedDate": "2026-11-19",
+              "title": "兰州大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人控制",
+          "机械臂",
+          "计算机控制"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://yanshi.lzu.edu.cn/?post=2",
+              "checkedDate": "2026-11-19",
+              "title": "兰州大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "团队页索引可见；直读受限。以官档历史名单证实。",
+              "access": "official_search_index_only"
+            },
+            {
+              "url": "https://yz.lzu.edu.cn/yz/upload/files/20231109/c889af42f94b445f8970c7c74f14ff56.pdf",
+              "checkedDate": "2026-11-19",
+              "title": "兰州大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "2024官方博士目录081203方向01、04、05点名；个人网页直读受限，不核首任、2027资格或2028。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://yanshi.lzu.edu.cn/?post=2",
+            "checkedDate": "2026-11-19",
+            "title": "兰州大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "团队页索引可见；直读受限。以官档历史名单证实。",
+            "access": "official_search_index_only"
+          },
+          {
+            "url": "https://yz.lzu.edu.cn/yz/upload/files/20231109/c889af42f94b445f8970c7c74f14ff56.pdf",
+            "checkedDate": "2026-11-19",
+            "title": "兰州大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2024官方博士目录081203方向01、04、05点名；个人网页直读受限，不核首任、2027资格或2028。",
+        "2028入学年份、季节及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://yanshi.lzu.edu.cn/?post=2"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://yz.lzu.edu.cn/yz/upload/files/20231109/c889af42f94b445f8970c7c74f14ff56.pdf"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "unknown",
+        "appointmentConfirmed": false,
+        "precision": "unknown",
+        "dateText": null,
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "2024官方博士目录081203方向01、04、05点名；个人网页直读受限，不核首任、2027资格或2028。",
+        "sources": [
+          {
+            "url": "https://yanshi.lzu.edu.cn/?post=2",
+            "checkedDate": "2026-11-19",
+            "title": "兰州大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "团队页索引可见；直读受限。以官档历史名单证实。",
+            "access": "official_search_index_only"
+          },
+          {
+            "url": "https://yz.lzu.edu.cn/yz/upload/files/20231109/c889af42f94b445f8970c7c74f14ff56.pdf",
+            "checkedDate": "2026-11-19",
+            "title": "兰州大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "lzu-jin-long",
+      "cardSummaryZh": "机械臂运动控制；多机器人协同；智能控制",
+      "overview": {
+        "textZh": "金龙，兰州大学信息科学与工程学院教授。研究方向：机械臂运动控制、多机器人协同、智能控制。博士指导参考依据2024学校目录，年度资格及本人接收另核。",
+        "sources": [
+          {
+            "url": "https://dxxy.gdou.edu.cn/info/1006/1705.htm",
+            "checkedDate": "2026-11-19",
+            "title": "兰州大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yz.lzu.edu.cn/yz/upload/files/20231109/c889af42f94b445f8970c7c74f14ff56.pdf",
+            "checkedDate": "2026-11-19",
+            "title": "兰州大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "金龙 · 公开研究方向",
+        "affiliation": {
+          "textZh": "兰州大学信息科学与工程学院；实际招生和培养单位按当届公告确认。",
+          "sources": [
+            {
+              "url": "https://dxxy.gdou.edu.cn/info/1006/1705.htm",
+              "checkedDate": "2026-11-19",
+              "title": "兰州大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yz.lzu.edu.cn/yz/upload/files/20231109/c889af42f94b445f8970c7c74f14ff56.pdf",
+              "checkedDate": "2026-11-19",
+              "title": "兰州大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机械臂运动控制",
+          "多机器人协同",
+          "智能控制"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://dxxy.gdou.edu.cn/info/1006/1705.htm",
+              "checkedDate": "2026-11-19",
+              "title": "兰州大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yz.lzu.edu.cn/yz/upload/files/20231109/c889af42f94b445f8970c7c74f14ff56.pdf",
+              "checkedDate": "2026-11-19",
+              "title": "兰州大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "高校邀请方注明2017年2月入兰大任教授，2024官方博士目录081203方向05点名。曾指导硕士视觉与激光SLAM项目，不证明现役SLAM方向。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://dxxy.gdou.edu.cn/info/1006/1705.htm",
+            "checkedDate": "2026-11-19",
+            "title": "兰州大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yz.lzu.edu.cn/yz/upload/files/20231109/c889af42f94b445f8970c7c74f14ff56.pdf",
+            "checkedDate": "2026-11-19",
+            "title": "兰州大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "高校邀请方注明2017年2月入兰大任教授，2024官方博士目录081203方向05点名。曾指导硕士视觉与激光SLAM项目，不证明现役SLAM方向。",
+        "2028入学年份、季节及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://dxxy.gdou.edu.cn/info/1006/1705.htm"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://yz.lzu.edu.cn/yz/upload/files/20231109/c889af42f94b445f8970c7c74f14ff56.pdf"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2017-02",
+        "earliestDate": "2017-02-01",
+        "latestDate": "2017-02-28",
+        "careerContext": "unknown",
+        "noteZh": "高校邀请方注明2017年2月入兰大任教授，2024官方博士目录081203方向05点名。曾指导硕士视觉与激光SLAM项目，不证明现役SLAM方向。",
+        "sources": [
+          {
+            "url": "https://dxxy.gdou.edu.cn/info/1006/1705.htm",
+            "checkedDate": "2026-11-19",
+            "title": "兰州大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yz.lzu.edu.cn/yz/upload/files/20231109/c889af42f94b445f8970c7c74f14ff56.pdf",
+            "checkedDate": "2026-11-19",
+            "title": "兰州大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "lzu-zhan-kun",
+      "cardSummaryZh": "多视图学习；图结构学习；视觉计算",
+      "overview": {
+        "textZh": "绽琨，兰州大学信息科学与工程学院教授。研究方向：多视图学习、图结构学习、视觉计算。博士指导参考依据2024学校目录，年度资格及本人接收另核。",
+        "sources": [
+          {
+            "url": "https://cas.lzu.edu.cn/teacher/zhankun/info.shtml",
+            "checkedDate": "2026-11-19",
+            "title": "兰州大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yz.lzu.edu.cn/yz/upload/files/20231109/c889af42f94b445f8970c7c74f14ff56.pdf",
+            "checkedDate": "2026-11-19",
+            "title": "兰州大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "绽琨 · 公开研究方向",
+        "affiliation": {
+          "textZh": "兰州大学信息科学与工程学院；实际招生和培养单位按当届公告确认。",
+          "sources": [
+            {
+              "url": "https://cas.lzu.edu.cn/teacher/zhankun/info.shtml",
+              "checkedDate": "2026-11-19",
+              "title": "兰州大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yz.lzu.edu.cn/yz/upload/files/20231109/c889af42f94b445f8970c7c74f14ff56.pdf",
+              "checkedDate": "2026-11-19",
+              "title": "兰州大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "多视图学习",
+          "图结构学习",
+          "视觉计算"
+        ],
+        "structure": {
+          "textZh": "仅记录公开专业与研究方向，不推断指导方式或组内情况。",
+          "sources": [
+            {
+              "url": "https://cas.lzu.edu.cn/teacher/zhankun/info.shtml",
+              "checkedDate": "2026-11-19",
+              "title": "兰州大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yz.lzu.edu.cn/yz/upload/files/20231109/c889af42f94b445f8970c7c74f14ff56.pdf",
+              "checkedDate": "2026-11-19",
+              "title": "兰州大学公开资料",
+              "section": "现职、研究方向及招生边界",
+              "readScope": "公开正文；年度个人招生与余位未核。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "2011年1月本校讲师，2022年升教授。2024官方博士目录081203方向01、04点名；多视图学习非LiDAR SLAM。 2028个人博士招生、入学季节与余位未知。",
+        "sources": [
+          {
+            "url": "https://cas.lzu.edu.cn/teacher/zhankun/info.shtml",
+            "checkedDate": "2026-11-19",
+            "title": "兰州大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yz.lzu.edu.cn/yz/upload/files/20231109/c889af42f94b445f8970c7c74f14ff56.pdf",
+            "checkedDate": "2026-11-19",
+            "title": "兰州大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "2011年1月本校讲师，2022年升教授。2024官方博士目录081203方向01、04点名；多视图学习非LiDAR SLAM。",
+        "2028入学年份、季节及余位未核。",
+        "入学季节、资助、设备权限及指导安排未知。"
+      ],
+      "links": [
+        {
+          "label": "官方公开来源",
+          "url": "https://cas.lzu.edu.cn/teacher/zhankun/info.shtml"
+        },
+        {
+          "label": "官方公开来源",
+          "url": "https://yz.lzu.edu.cn/yz/upload/files/20231109/c889af42f94b445f8970c7c74f14ff56.pdf"
+        }
+      ],
+      "checkedDate": "2026-11-19",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-19",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-19",
+          "start": "2021-11-19",
+          "end": "2026-11-19"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2011-01",
+        "earliestDate": "2011-01-01",
+        "latestDate": "2011-01-31",
+        "careerContext": "unknown",
+        "noteZh": "2011年1月本校讲师，2022年升教授。2024官方博士目录081203方向01、04点名；多视图学习非LiDAR SLAM。",
+        "sources": [
+          {
+            "url": "https://cas.lzu.edu.cn/teacher/zhankun/info.shtml",
+            "checkedDate": "2026-11-19",
+            "title": "兰州大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yz.lzu.edu.cn/yz/upload/files/20231109/c889af42f94b445f8970c7c74f14ff56.pdf",
+            "checkedDate": "2026-11-19",
+            "title": "兰州大学公开资料",
+            "section": "现职、研究方向及招生边界",
+            "readScope": "公开正文；年度个人招生与余位未核。",
+            "access": "official_body"
+          }
+        ]
+      }
     }
   ],
   "reviewRequired": true,

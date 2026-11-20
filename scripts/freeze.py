@@ -136,6 +136,7 @@ files.extend(['tests/fixtures/evidence/uestc-appointment-status-20261119.json', 
 files.extend(['audits/985-cqu-20261119.json', 'audits/985-cqu-20261119.md', 'tests/fixtures/evidence/985-cqu-20261119.json', 'tests/cqu-expansion-20261119.test.mjs'])
 files.extend(['audits/985-xjtu-20261119.json', 'audits/985-xjtu-20261119.md', 'tests/fixtures/evidence/985-xjtu-20261119.json', 'tests/xjtu-expansion-20261119.test.mjs'])
 files.extend(['audits/985-nwpu-20261119.json', 'audits/985-nwpu-20261119.md', 'tests/fixtures/evidence/985-nwpu-20261119.json', 'tests/nwpu-expansion-20261119.test.mjs'])
+files.extend(['audits/985-lzu-20261119.json', 'audits/985-lzu-20261119.md', 'tests/fixtures/evidence/985-lzu-20261119.json', 'tests/lzu-expansion-20261119.test.mjs'])
 files.extend(['audits/985-nwsuaf-20261119.json', 'audits/985-nwsuaf-20261119.md', 'tests/fixtures/evidence/985-nwsuaf-20261119.json', 'tests/nwsuaf-expansion-20261119.test.mjs'])
 profile_sources=set()
 def collect_sources(value):
