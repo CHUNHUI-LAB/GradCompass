@@ -9,58 +9,74 @@ const hash=p=>crypto.createHash('sha256').update(read(p)).digest('hex');
 const byId=id=>people.find(p=>p.id===id);
 const names=(mode,key)=>groupsFor(mode).find(b=>b.key===key).people.map(p=>p.name);
 
-test('organizational references have matching kinds and schools, and official sources use HTTPS',()=>{
- assert.equal(people.length,7);
+test('four-school evidence scope, consistent organization types and safe source links',()=>{
+ assert.equal(people.length,23);
+ assert.deepEqual(groupsFor('school').map(g=>[g.key,g.people.length]),[['hnu',6],['tongji',5],['whu',6],['xmu',6]]);
  assert.equal(new Set(people.map(p=>p.id)).size,people.length);
  for(const p of people){
   assert.equal(organization[p.school].kind,'school');
   for(const key of ['college','team'])if(p[key]){
-   assert.equal(organization[p[key]].kind,key);assert.equal(organization[p[key]].school,p.school);
+   assert.equal(organization[p[key]].kind,key); assert.equal(organization[p[key]].school,p.school);
   }
   for(const [label,url] of p.sources){assert(label);assert.equal(new URL(url).protocol,'https:');}
   assert(p.sources.length>=2);
  }
 });
 
-test('school, home college and explicit membership are independent; secondary units and histories never become groups',()=>{
- const campus=names('school','xmu');
- assert.deepEqual(campus,['沈思淇','王程','温程璐']);
- assert.deepEqual(names('college','xmu-informatics'),campus);
- assert.deepEqual(names('team','xmu-asc'),campus);
- assert(byId('xmu-shen-siqi').other.some(([k,v])=>k==='双聘'&&v==='厦门大学人工智能研究院'));
- const wang=byId('xmu-wangcheng'), wen=byId('xmu-wenchenglu');
- assert.deepEqual(wang.other.filter(([k])=>k==='双聘'),[['双聘','厦门大学人工智能研究院 · 双聘 PI']]);
- assert(wang.sources.some(([,url])=>url==='https://informatics.xmu.edu.cn/info/1033/177371.htm'));
- assert(wang.sources.some(([,url])=>url==='https://scsc.xmu.edu.cn/info/1047/1490.htm'));
- assert.deepEqual(wen.other.filter(([k])=>k==='双聘'),[['双聘','厦门大学人工智能研究院 · 双聘教授']]);
- assert(wen.sources.some(([,url])=>url==='https://asc.xmu.edu.cn/m/t/wenchengluChengluWen'));
- assert.equal(byId('whu-li-you').college,null);
- assert.equal(byId('whu-li-you').team,'whu-resnav');
+test('same-campus, same-college and same-team are independent, including cross-unit advisers',()=>{
+ assert.deepEqual(names('college','hnu-ai'),['杨恺伦','尹欢']);
+ assert.notEqual(byId('hnu-yangkailun').team,byId('hnu-yinhuan').team);
+ assert.deepEqual(names('college','tongji-survey'),['张德栋','刘春','吴杭彬','徐聿升']);
+ assert.deepEqual(names('team','tongji-traffic-perception'),['刘春','吴杭彬']);
+ assert.equal(byId('tongji-fan-rui').team,'tongji-traffic-computing');
  assert.equal(byId('tongji-zhang-dedong').team,null);
- assert(!groupsFor('college').some(g=>g.label.includes('人工智能研究院')||g.label.includes('全国重点实验室')));
- assert(!groupsFor('team').some(g=>g.label.includes('滑铁卢')));
+ assert.deepEqual(names('college','whu-robotics'),['李明','郭迟']);
+ assert.equal(byId('whu-li-you').team,'whu-resnav');
+ assert.notEqual(byId('whu-li-you').team,byId('whu-yang-bisheng').team);
+ assert(!groupsFor('college').some(g=>/人工智能研究院|全国重点实验室/.test(g.label)));
+ assert(!groupsFor('team').some(g=>/滑铁卢|合作项目/.test(g.label)));
 });
 
-test('unknowns remain separate; school filter applies after changing dimensions',()=>{
- assert.equal(groupsFor('team','tongji')[0].unknown,true);
- assert.deepEqual(groupsFor('college','whu').map(g=>[g.unknown,g.people.length]),[[true,1]]);
- assert.equal(groupsFor('team').filter(g=>g.unknown).length,1);
+test('team membership does not resolve conflicting college sources or promote secondary affiliations',()=>{
+ assert.deepEqual(names('college','xmu-informatics'),['沈思淇','王程','温程璐','臧彧']);
+ assert.deepEqual(names('team','xmu-asc'),['沈思淇','王程','温程璐','程明','臧彧','敖晟']);
+ for(const key of ['xmu-chengming','xmu-aosheng'])assert.equal(byId(key).college,null);
+ assert(byId('xmu-shen-siqi').other.some(([k,v])=>k==='双聘'&&v==='厦门大学人工智能研究院'));
+ const wang=byId('xmu-wangcheng'), wen=byId('xmu-wenchenglu');
+ assert.deepEqual(wang.other.filter(([k,v])=>k==='双聘'),[['双聘','厦门大学人工智能研究院 · 双聘 PI']]);
+ assert(wang.sources.some(([,url])=>url==='https://scsc.xmu.edu.cn/info/1047/1490.htm'));
+ assert.deepEqual(wen.other.filter(([k,v])=>k==='双聘'),[['双聘','厦门大学人工智能研究院 · 双聘教授']]);
+ assert(wen.sources.some(([,url])=>url==='https://asc.xmu.edu.cn/m/t/wenchengluChengluWen'));
+});
+
+test('schools filter all dimensions and every unknown remains its own result',()=>{
+ for(const mode of ['school','college','team'])for(const school of ['hnu','tongji','whu','xmu']){
+  const groups=groupsFor(mode,school), rows=groups.flatMap(g=>g.people);
+  assert.deepEqual(new Set(rows.map(p=>p.id)),new Set(people.filter(p=>p.school===school).map(p=>p.id)));
+  for(const g of groups)if(g.unknown){assert.equal(g.people.length,1);assert.equal(g.key,'unknown:'+g.people[0].id);}
+ }
+ assert.equal(groupsFor('college','whu').filter(g=>g.unknown).length,3);
  assert.deepEqual(groupsFor('team','xmu').map(g=>g.key),['xmu-asc']);
  assert.deepEqual(groupsFor('school','unknown'),[]);
  assert.deepEqual(groupsFor('bad'),[]);
 });
 
-test('collaborator is not promoted to doctoral supervisor; historic and team calls do not become individual 2028 evidence',()=>{
- assert.deepEqual(names('team','hnu-hive'),['胡满江','谢国涛']);
- assert.match(byId('hnu-xie-guotao').role,/仅核到硕导/);
+test('masters, historical admission and team recruitment do not become individual 2028 evidence',()=>{
+ assert.deepEqual(names('team','hnu-hive'),['胡满江','谢国涛','边有钢','秦晓辉']);
+ for(const key of ['hnu-xie-guotao','hnu-qin-xiaohui','xmu-aosheng','whu-huaijianzhu'])assert.match(byId(key).role,/仅核到硕/);
  assert.match(byId('hnu-hu-manjiang').admissions,/2023.*历史记录.*未确认 2028/);
+ assert.match(byId('tongji-wu-hangbin').admissions,/2019.*未确认 2028/);
+ assert.match(byId('whu-guochi').admissions,/2024.*未确认 2028/);
  assert.match(byId('xmu-shen-siqi').admissions,/团队.*2027.*不等于.*个人指标、2028/);
- assert.equal(people.filter(p=>p.catalogId).length,2);
- const c=JSON.parse(read('data/catalog.json'));
- for(const p of people.filter(p=>p.catalogId))assert(c.advisors.some(a=>a.id===p.catalogId));
+ assert.match(byId('xmu-chengming').admissions,/既有审计.*2027.*本轮未重读.*不是 2028/);
+ const linked=people.filter(p=>p.catalogId), c=JSON.parse(read('data/catalog.json'));
+ assert.equal(linked.length,13);
+ for(const p of linked){
+  const a=c.advisors.find(a=>a.id===p.catalogId);assert(a);assert.equal(a.nameZh||a.name,p.name);
+ }
 });
 
-test('isolated page is linked, versioned and allowlisted without any catalog or profile change',()=>{
+test('isolated page is linked, versioned and allowlisted with the existing catalog unchanged',()=>{
  assert.match(read('index.html').toString(),/href="\.\/affiliations\.html">导师归属核验试点/);
  const page=read('affiliations.html').toString(), app=read('assets/affiliations.js').toString();
  const paths=['affiliations.html','assets/affiliations.js','assets/affiliations.css','assets/affiliation-records.js','audits/advisor-affiliations-20261123.md'];
