@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 102594,
-      "sha256": "a6b8f1933e1125727a872dd1c3bd5fad7622611921b82e02afddd8298133d584"
+      "bytes": 103002,
+      "sha256": "40edcd373ea248a177155155a6f0465d5ca98dab3ad12ab3e365c9ab0a51d511"
     },
     {
       "path": "REDESIGN.md",
@@ -56,6 +56,11 @@
       "sha256": "38e2a47b035b7f6a0aa7e3e5c56a9aa4b7dc33982dc857e896abd46e3a2d578b"
     },
     {
+      "path": "affiliations.html",
+      "bytes": 2156,
+      "sha256": "e7268e15d7a4a219adec5c6fef0df4c89e54d920a70305b9bcee1d27b4de83ff"
+    },
+    {
       "path": "assets/advisor-cards.js",
       "bytes": 7766,
       "sha256": "cdd76c5ff847f8f14f13df4cbb9e4bc460e8f0ba17f3e943f1eb2b2d4fad7fff"
@@ -64,6 +69,21 @@
       "path": "assets/advisor-priorities.js",
       "bytes": 3523,
       "sha256": "940e94b3e7662999c07b22bd0572cef529f6799517ee6df76a614eddb687151f"
+    },
+    {
+      "path": "assets/affiliation-records.js",
+      "bytes": 6744,
+      "sha256": "e43eaaaf0b7ddc4c4c396e33dead910c80a341e54ef05d062b1eda9d0ebcb98c"
+    },
+    {
+      "path": "assets/affiliations.css",
+      "bytes": 2498,
+      "sha256": "4c03c3236d5160db01bf40bb80d641f3ca5dd1ab985fec882bd642a2865fa249"
+    },
+    {
+      "path": "assets/affiliations.js",
+      "bytes": 2569,
+      "sha256": "df1f8e3aad7fe8591aa3f7a35d2759919dfb32497353f7938b17c8fdccaa931f"
     },
     {
       "path": "assets/app.js",
@@ -451,6 +471,11 @@
       "sha256": "f0f6127b125aae73c817ef3f2054f894945f19ebb4c4c0fbe3d238c0b031c905"
     },
     {
+      "path": "audits/advisor-affiliations-20261123.md",
+      "bytes": 4620,
+      "sha256": "57b9e1309f61818237ce9dbdc499925fb733ace263380803792af7f02ba86693"
+    },
+    {
       "path": "audits/advisor-completeness-20261009.json",
       "bytes": 526034,
       "sha256": "54eed863f554f5e23322692b88a1d101dafb1940eaa741f571d5e2d74ebdfed9"
@@ -787,8 +812,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 12514,
-      "sha256": "ad2f9feb36d431e65733312054a00f54deb3c80513566b447a85586f0028f361"
+      "bytes": 12598,
+      "sha256": "0c586e7e448dfe83c89dd59cafa62cc4e780e687da5fa5d11d69a9a1a8a9ab0e"
     },
     {
       "path": "package-lock.json",
@@ -807,8 +832,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 23126,
-      "sha256": "d418dbbb9add959e1410d0d48a78f1119c16fb31a38ecfa13e5cd8f50899dd0f"
+      "bytes": 23821,
+      "sha256": "74dea5be83913b7c43389a3fafe49023f600f7e37db442f0342f6d22166037a7"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -849,6 +874,11 @@
       "path": "tests/advisor-priorities.test.mjs",
       "bytes": 9108,
       "sha256": "b1494e2c7a8aa4b39854fa7f723b6c425d103f7f6a083763b5b84d0d29c5116c"
+    },
+    {
+      "path": "tests/affiliations.test.mjs",
+      "bytes": 3831,
+      "sha256": "0d45e57d8d906016fc5ddf1be71b8867103eba4f6bb75dec5932bf054bb188cb"
     },
     {
       "path": "tests/all-schools-rescreen-20261019.test.mjs",
