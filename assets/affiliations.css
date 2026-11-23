@@ -1,0 +1,32 @@
+:root{color-scheme:light;--paper:#f7f3ea;--card:#fffdf7;--ink:#25241e;--mute:#5e5a51;--line:#d7cebc;--accent:#85492f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.65 system-ui,"PingFang SC","Microsoft YaHei",sans-serif}
+a{color:var(--accent);text-underline-offset:.22em}
+button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.top,main,footer{max-width:70rem;margin:auto;padding-inline:clamp(1rem,4vw,2.75rem)}
+.top{padding-block:1.1rem;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;justify-content:space-between;gap:.25rem 1.5rem}
+.top span,footer{color:var(--mute);font-size:.88rem}
+.intro{padding-block:2.8rem 1.35rem;max-width:52rem}
+.eyebrow{color:var(--accent);font-weight:700;font-size:.8rem;letter-spacing:.1em}
+h1,h2,h3,p{margin:0}
+h1{font-size:clamp(1.8rem,4vw,2.9rem);line-height:1.18;letter-spacing:-.03em}
+.intro p{margin-top:.8rem}
+.boundary{padding:.62rem .9rem;border-left:3px solid var(--accent);font-size:.92rem;background:#eee5d6}
+.controls{display:grid;grid-template-columns:repeat(2,minmax(0,15rem));gap:1rem;padding:1rem 0 .6rem;border-top:1px solid var(--line)}
+label{font-size:.9rem;font-weight:680}
+select{display:block;width:100%;min-height:2.65rem;margin-top:.25rem;padding:.3rem .6rem;background:var(--card);border:1px solid #9c8f7e;border-radius:.4rem;font:inherit;color:var(--ink)}
+#status{font-size:.88rem;color:var(--mute);min-height:1.65rem}
+.bucket{padding-block:1.35rem;border-bottom:1px solid var(--line)}
+.bucket-head{margin-bottom:.55rem;display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:.25rem 1rem}
+.bucket-head h2{font-size:1.25rem}
+.bucket-head p{color:var(--mute);font-size:.85rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,24rem),1fr));gap:.8rem}
+.card{background:var(--card);border:1px solid var(--line);padding:1.1rem;border-radius:.65rem;min-width:0}
+.pill{display:inline-block;padding:.15rem .55rem;background:#efe2d3;color:#69371f;font-size:.78rem;border-radius:100rem}
+h3{margin-top:.28rem;font-size:1.22rem}
+.focus{margin-top:.2rem;color:var(--mute)}
+dl{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:.38rem .7rem;font-size:.9rem;margin:1rem 0}
+dt{font-weight:680}
+dd{margin:0;overflow-wrap:anywhere}
+.sources{display:flex;flex-wrap:wrap;gap:.25rem .85rem;margin:0;padding:0;list-style:none;font-size:.85rem}
+footer{padding-block:1.35rem 2rem}

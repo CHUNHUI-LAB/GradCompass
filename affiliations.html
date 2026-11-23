@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="GradCompass 导师归属核验试点：分开核对同校、同学院和同团队。">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>导师归属核验试点 · GradCompass</title>
+<link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+<link rel="stylesheet" href="./assets/affiliations.css?v=4c03c3236d51">
+<script type="module" src="./assets/affiliations.js?v=64cd06b436dc"></script>
+</head>
+<body>
+<header class="top"><a href="./index.html#advisors">← 返回 GradCompass 导师库</a><span>核验证据 · 2026-11-23</span></header>
+<main>
+  <div class="intro">
+    <p class="eyebrow">GRADCOMPASS / 核验试点</p>
+    <h1>同校、同学院，还是同团队？</h1>
+    <p>仅整理本批核过的公开归属。学校、主聘学院与明确的研究团队是三种不同关系；双聘、所在实验室和论文合著单独注明。</p>
+    <p class="boundary">同团队不等于共同指导、共享名额或同一报考入口。未确认不等于不存在；本页不计入主目录招生统计。</p>
+  </div>
+  <div class="controls">
+    <label>查看维度
+      <select id="group-mode">
+        <option value="school">同校</option>
+        <option value="college">同主聘学院</option>
+        <option value="team">同团队</option>
+      </select>
+    </label>
+    <label>学校
+      <select id="school"><option value="">全部学校</option></select>
+    </label>
+  </div>
+  <p id="status" role="status">正在载入核验记录…</p>
+  <noscript><p>分组需要启用 JavaScript。<a href="./audits/advisor-affiliations-20261123.md">查看文字核验记录</a>。</p></noscript>
+  <div id="groups"></div>
+</main>
+<footer>所列年度路径仅作历史参考，申请条件和接收情况以当年院校及导师确认信息为准。</footer>
+</body>
+</html>
