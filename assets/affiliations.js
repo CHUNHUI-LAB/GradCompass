@@ -1,4 +1,4 @@
-import {people,groupsFor,organization} from './affiliation-records.js?v=e43eaaaf0b7d';
+import {people,groupsFor,organization} from './affiliation-records.js?v=8f590406cd2e';
 
 const mode=document.querySelector('#group-mode');
 const school=document.querySelector('#school');

@@ -58,7 +58,7 @@
     {
       "path": "affiliations.html",
       "bytes": 2156,
-      "sha256": "e7268e15d7a4a219adec5c6fef0df4c89e54d920a70305b9bcee1d27b4de83ff"
+      "sha256": "8b71574707e59ba2301e13fc4961cadad0ee4f2830d3d697eafeeddee6308331"
     },
     {
       "path": "assets/advisor-cards.js",
@@ -72,8 +72,8 @@
     },
     {
       "path": "assets/affiliation-records.js",
-      "bytes": 6744,
-      "sha256": "e43eaaaf0b7ddc4c4c396e33dead910c80a341e54ef05d062b1eda9d0ebcb98c"
+      "bytes": 7027,
+      "sha256": "8f590406cd2e7381f2f9117a732bf51abe7f7006ad84c6e456ca9fca7dc24349"
     },
     {
       "path": "assets/affiliations.css",
@@ -83,7 +83,7 @@
     {
       "path": "assets/affiliations.js",
       "bytes": 2569,
-      "sha256": "df1f8e3aad7fe8591aa3f7a35d2759919dfb32497353f7938b17c8fdccaa931f"
+      "sha256": "12b812e49b1fd5024746d2c370536b51abfc500acdb322cf42183cf58bd823a9"
     },
     {
       "path": "assets/app.js",
@@ -472,8 +472,8 @@
     },
     {
       "path": "audits/advisor-affiliations-20261123.md",
-      "bytes": 4620,
-      "sha256": "57b9e1309f61818237ce9dbdc499925fb733ace263380803792af7f02ba86693"
+      "bytes": 4982,
+      "sha256": "6da2194c9d143652e5f4cad96a1500e43aea546046d2bd054a2732540e737a2d"
     },
     {
       "path": "audits/advisor-completeness-20261009.json",
@@ -877,8 +877,8 @@
     },
     {
       "path": "tests/affiliations.test.mjs",
-      "bytes": 3831,
-      "sha256": "0d45e57d8d906016fc5ddf1be71b8867103eba4f6bb75dec5932bf054bb188cb"
+      "bytes": 4345,
+      "sha256": "90705d95adae8be380cff156a561f4d71bca2af64f570baf0b7585327b7d517b"
     },
     {
       "path": "tests/all-schools-rescreen-20261019.test.mjs",

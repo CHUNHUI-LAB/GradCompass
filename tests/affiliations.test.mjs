@@ -28,7 +28,12 @@ test('school, home college and explicit membership are independent; secondary un
  assert.deepEqual(names('college','xmu-informatics'),campus);
  assert.deepEqual(names('team','xmu-asc'),campus);
  assert(byId('xmu-shen-siqi').other.some(([k,v])=>k==='双聘'&&v==='厦门大学人工智能研究院'));
- assert.equal(byId('xmu-wangcheng').other.some(([k])=>k==='双聘'),false);
+ const wang=byId('xmu-wangcheng'), wen=byId('xmu-wenchenglu');
+ assert.deepEqual(wang.other.filter(([k])=>k==='双聘'),[['双聘','厦门大学人工智能研究院 · 双聘 PI']]);
+ assert(wang.sources.some(([,url])=>url==='https://informatics.xmu.edu.cn/info/1033/177371.htm'));
+ assert(wang.sources.some(([,url])=>url==='https://scsc.xmu.edu.cn/info/1047/1490.htm'));
+ assert.deepEqual(wen.other.filter(([k])=>k==='双聘'),[['双聘','厦门大学人工智能研究院 · 双聘教授']]);
+ assert(wen.sources.some(([,url])=>url==='https://asc.xmu.edu.cn/m/t/wenchengluChengluWen'));
  assert.equal(byId('whu-li-you').college,null);
  assert.equal(byId('whu-li-you').team,'whu-resnav');
  assert.equal(byId('tongji-zhang-dedong').team,null);

@@ -38,12 +38,12 @@ export const people=[
   sources:[['校方个人主页','https://faculty.xmu.edu.cn/SSQ1/en/index.htm'],asc,['团队 2027 招生公告','https://asc.xmu.edu.cn/newsInfo?id=89']]},
  {id:'xmu-wangcheng',catalogId:'xmu-wangcheng',name:'王程',school:'xmu',college:'xmu-informatics',team:'xmu-asc',role:'已有导师档案 · 分组对照',
   focus:'三维视觉、激光点云处理及机器人感知。',
-  other:[['字段区别','按教师页与团队名册记录任职学院；主目录既有院系字段未更改。']],appointment:'本页不复判既有入职记录。',admissions:'不改变现有招生状态；未确认 2028 秋季个人通道或余位。',
-  sources:[['院系个人主页','https://informatics.xmu.edu.cn/info/1033/177371.htm'],asc]},
+  other:[['双聘','厦门大学人工智能研究院 · 双聘 PI'],['字段区别','按教师页与团队名册记录任职学院；主目录既有院系字段未更改。']],appointment:'本页不复判既有入职记录。',admissions:'不改变现有招生状态；未确认 2028 秋季个人通道或余位。',
+  sources:[['院系个人主页','https://informatics.xmu.edu.cn/info/1033/177371.htm'],['重点实验室个人档案','https://scsc.xmu.edu.cn/info/1047/1490.htm'],asc]},
  {id:'xmu-wenchenglu',catalogId:'xmu-wenchenglu',name:'温程璐',school:'xmu',college:'xmu-informatics',team:'xmu-asc',role:'已有导师档案 · 分组对照',
   focus:'三维视觉、点云智能处理。',
-  other:[['院内系别','人工智能系'],['字段区别','按教师页与团队名册记录任职学院；主目录既有院系字段未更改。']],appointment:'本页不复判既有入职记录。',admissions:'本页不改变现有招生状态。',
-  sources:[['校方个人主页','https://faculty.xmu.edu.cn/WCL/zh_CN/index.htm'],asc]}
+  other:[['院内系别','人工智能系'],['双聘','厦门大学人工智能研究院 · 双聘教授'],['字段区别','按教师页与团队名册记录任职学院；主目录既有院系字段未更改。']],appointment:'本页不复判既有入职记录。',admissions:'本页不改变现有招生状态。',
+  sources:[['校方个人主页','https://faculty.xmu.edu.cn/WCL/zh_CN/index.htm'],['ASC 个人档案（双聘）','https://asc.xmu.edu.cn/m/t/wenchengluChengluWen'],asc]}
 ];
 
 export function groupsFor(mode,school=''){

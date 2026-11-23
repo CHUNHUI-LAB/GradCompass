@@ -8,10 +8,10 @@
 | 同济大学 | 张德栋 | 测绘与地理信息学院（[个人履历](https://celiang.tongji.edu.cn/info/1301/4822.htm)、[学院博导名单](https://celiang.tongji.edu.cn/Staff/zsdsmd.htm)） | 校内当前课题组未核实。滑铁卢博士后经历和旧论文合作不计入同济团队 | 2026 年起任副教授；[2027 学院申请考核办法](https://celiang.tongji.edu.cn/info/1205/4865.htm)不是导师个人名额。个人当届通道与 2028 秋季招募均未核 |
 | 武汉大学 | 李由 | 测绘遥感信息工程全国重点实验室；[教师主页](https://jszy.whu.edu.cn/liyou1/zh_CN/)列为所在单位和所属院系，不改写为测绘学院或遥感信息工程学院 | 砺行（ResNav）团队创立者，教师主页明示 | 教师主页列博士生导师；当届个人通道与 2028 秋季招募均未核 |
 | 厦门大学 | 沈思淇 | 信息学院计算机系（[教师主页](https://faculty.xmu.edu.cn/SSQ1/en/index.htm)） | [空间感知与计算团队](https://iai.xmu.edu.cn/team/PI/PI2027/jcll/kjgzyjs.htm)成员和联络人；教师主页另列人工智能研究院双聘，不用双聘替代主聘院系 | 教师主页列博士生导师；[课题组公告](https://asc.xmu.edu.cn/newsInfo?id=89)仅明确团队招收 2027 年 9 月学术型、专业型博士，不是个人指标或 2028 秋季证据 |
-| 厦门大学 | 王程（已收录） | 信息学院（[院系主页](https://informatics.xmu.edu.cn/info/1033/177371.htm)） | 与沈思淇同在[空间感知与计算团队名单](https://iai.xmu.edu.cn/team/PI/PI2027/jcll/kjgzyjs.htm)；不从团队挂靠推断个人双聘 | 不更改现有招生状态；未核实 2028 秋季个人通道或余位 |
-| 厦门大学 | 温程璐（已收录） | 信息学院人工智能系（[教师主页](https://faculty.xmu.edu.cn/WCL/zh_CN/index.htm)） | 与王程、沈思淇同在[空间感知与计算团队名单](https://iai.xmu.edu.cn/team/PI/PI2027/jcll/kjgzyjs.htm) | 不更改现有招生状态 |
+| 厦门大学 | 王程（已收录） | 信息学院（[院系主页](https://informatics.xmu.edu.cn/info/1033/177371.htm)） | 与沈思淇同在[空间感知与计算团队名单](https://iai.xmu.edu.cn/team/PI/PI2027/jcll/kjgzyjs.htm)；院系主页及[重点实验室个人档案](https://scsc.xmu.edu.cn/info/1047/1490.htm)明确人工智能研究院双聘 PI，不改变按信息学院归组 | 不更改现有招生状态；未核实 2028 秋季个人通道或余位 |
+| 厦门大学 | 温程璐（已收录） | 信息学院人工智能系（[教师主页](https://faculty.xmu.edu.cn/WCL/zh_CN/index.htm)） | 与王程、沈思淇同在[空间感知与计算团队名单](https://iai.xmu.edu.cn/team/PI/PI2027/jcll/kjgzyjs.htm)；[ASC 个人档案](https://asc.xmu.edu.cn/m/t/wenchengluChengluWen)明确人工智能研究院双聘教授，不改变按信息学院归组 | 不更改现有招生状态 |
 
-**目录待校对项：**王程（`xmu-wangcheng`）和温程璐（`xmu-wenchenglu`）现有目录的院系文字均为“人工智能学院”。厦门大学教师主页与团队名册支持将“信息学院”单列为两人的任职院系。旧字段不在此次审计中直接覆写，也不从团队归属推断其个人招生学院。两人均为既有条目，只作分组对照。
+**目录待校对项：**王程（`xmu-wangcheng`）和温程璐（`xmu-wenchenglu`）现有目录的院系文字均为“人工智能学院”。厦门大学教师主页与团队名册支持将“信息学院”单列为两人的任职院系。旧字段不在此次审计中直接覆写，也不从团队归属或个人双聘推断其个人招生学院。三人的双聘分别由各自简介确认，不由团队名单推出。王程、温程璐均为既有条目，只作分组对照。
 
 ## 判断口径
 
