@@ -32,3 +32,14 @@
 | 厦门大学 | 程明、臧彧、敖晟 | 新增三人均在 [ASC 当前成员](https://asc.xmu.edu.cn/m/persons)，与原先沈思淇、王程、温程璐同团队。[研究院 PI 名册](https://iai.xmu.edu.cn/team/PI/PI2027/jcll/kjgzyjs.htm)列臧彧为信息学院教师 | [程明信息学院记录](https://cs.xmu.edu.cn/info/1062/1690.htm)、[人工智能学院记录](https://ai.xmu.edu.cn/info/1321/4935.htm)以及[敖晟信息学院记录](https://cs.xmu.edu.cn/info/1045/3050.htm)、[人工智能学院记录](https://ai.xmu.edu.cn/info/1321/5145.htm)并存，主聘和双聘均不推断。敖晟仅核到硕导；2027 团队 PI 资料不是个人博士名额 |
 
 扩展来源于 2026-11-23 复核。程明 2027 年信息学院的学博／专博资格沿用 2026-11-17 既有审计；本轮仅复核[公告页](https://gs.xmu.edu.cn/info/1611/58252.htm)，未重新读个人资格表附件。未获得新增的 **2028 秋个人招募或剩余名额**证据，不等于不招生。
+
+## 第二批：同院、同平台与同小组分别核验
+
+归属范围从 23 条增加至 32 条：湖大 9、同济 7、武大 8、厦大 8。其中 22 条链接到既有主目录；没有新增主目录条目。第二批优先复核现有导师，再补 9 条归属：
+
+- **湖南大学**：[刘鑫琦](https://robotics.hnu.edu.cn/info/1176/3005.htm)、[李根](https://robotics.hnu.edu.cn/info/1176/4210.htm)、[余洪山](https://robotics.hnu.edu.cn/info/1176/2950.htm)同属人工智能与机器人学院。刘鑫琦、余洪山有共同[国家工程研究中心](https://robot.hnu.edu.cn/info/1025/1143.htm)归属，但不自动归同小组。刘鑫琦、李根的个人主页分别写不同团队，不能凭共同导师姓名合并；刘鑫琦本人目前只核到硕导，旧的 2026 级博士招募文字不等于独立指导身份。
+- **同济大学**：[任云帆](https://cs.tongji.edu.cn/info/1065/3487.htm)任职计算机科学与技术学院，列入[同济空间智能团队](https://sig.tongji.edu.cn/_upload/tpl/07/b1/1969/template1969/member.html)。田野任职交通学院、属 [TOPS 课题组](https://tops.tongji.edu.cn/info/1031/1185.htm)。[范睿的 MIAS 课题组](https://mias.group/members/)和城市交通研究院跨学科导师团队不属于同一组织层级，显示时分列。
+- **武汉大学**：[季顺平](https://gpcv.whu.edu.cn/members.html)与[姚剑](https://cvrs.whu.edu.cn/jianyao/)同属遥感信息工程学院，分别为 GPCV、WHU-CVRS，不并组。
+- **厦门大学**：[兰维瑶](https://aerospace.xmu.edu.cn/info/1633/41673.htm)和[仲训昱](https://aerospace.xmu.edu.cn/sy/szdw/xb/ktznkzyjzx/3.htm)同属航空航天学院自动化系、同列空天智能控制研究中心。校方资料明确出现兰维瑶团队；宽口径名单不是仲训昱加入兰组的证据，故仲的具名团队保留待核。年度博士资格不依据课题组名册新增。
+
+本批定向复查未找到新增的 2028 秋个人博士招生证据。田野既有 2028 秋博士公开计划仍见于 [TOPS](https://tops.tongji.edu.cn/info/1031/1185.htm) 和[交通学院](https://tjjt.tongji.edu.cn/info/2901/9432.htm)，两页分别列 2 名和 2–3 名，分别提及 2027 推免与夏令营；不确认硕士毕业者的普通申请考核路径或当前余位。范睿是已收录的 2028 级博士报名线索，不能补写为 2028 秋。主目录招生字段、申请路线、名额统计保持不变。

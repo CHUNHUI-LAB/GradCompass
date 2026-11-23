@@ -10,8 +10,8 @@ const byId=id=>people.find(p=>p.id===id);
 const names=(mode,key)=>groupsFor(mode).find(b=>b.key===key).people.map(p=>p.name);
 
 test('four-school evidence scope, consistent organization types and safe source links',()=>{
- assert.equal(people.length,23);
- assert.deepEqual(groupsFor('school').map(g=>[g.key,g.people.length]),[['hnu',6],['tongji',5],['whu',6],['xmu',6]]);
+ assert.equal(people.length,32);
+ assert.deepEqual(groupsFor('school').map(g=>[g.key,g.people.length]),[['hnu',9],['tongji',7],['whu',8],['xmu',8]]);
  assert.equal(new Set(people.map(p=>p.id)).size,people.length);
  for(const p of people){
   assert.equal(organization[p.school].kind,'school');
@@ -24,7 +24,7 @@ test('four-school evidence scope, consistent organization types and safe source 
 });
 
 test('same-campus, same-college and same-team are independent, including cross-unit advisers',()=>{
- assert.deepEqual(names('college','hnu-ai'),['杨恺伦','尹欢']);
+ assert.deepEqual(names('college','hnu-ai'),['杨恺伦','尹欢','刘鑫琦','李根','余洪山']);
  assert.notEqual(byId('hnu-yangkailun').team,byId('hnu-yinhuan').team);
  assert.deepEqual(names('college','tongji-survey'),['张德栋','刘春','吴杭彬','徐聿升']);
  assert.deepEqual(names('team','tongji-traffic-perception'),['刘春','吴杭彬']);
@@ -56,7 +56,7 @@ test('schools filter all dimensions and every unknown remains its own result',()
   for(const g of groups)if(g.unknown){assert.equal(g.people.length,1);assert.equal(g.key,'unknown:'+g.people[0].id);}
  }
  assert.equal(groupsFor('college','whu').filter(g=>g.unknown).length,3);
- assert.deepEqual(groupsFor('team','xmu').map(g=>g.key),['xmu-asc']);
+ assert.deepEqual(groupsFor('team','xmu').map(g=>g.key),['xmu-asc','xmu-lan-team','unknown:xmu-zhongxunyu']);
  assert.deepEqual(groupsFor('school','unknown'),[]);
  assert.deepEqual(groupsFor('bad'),[]);
 });
@@ -70,10 +70,23 @@ test('masters, historical admission and team recruitment do not become individua
  assert.match(byId('xmu-shen-siqi').admissions,/团队.*2027.*不等于.*个人指标、2028/);
  assert.match(byId('xmu-chengming').admissions,/既有审计.*2027.*本轮未重读.*不是 2028/);
  const linked=people.filter(p=>p.catalogId), c=JSON.parse(read('data/catalog.json'));
- assert.equal(linked.length,13);
+ assert.equal(linked.length,22);
  for(const p of linked){
   const a=c.advisors.find(a=>a.id===p.catalogId);assert(a);assert.equal(a.nameZh||a.name,p.name);
  }
+});
+
+test('second batch keeps platforms and admission cycles separate from real team membership',()=>{
+ assert.notEqual(byId('hnu-liuxinqi').team,byId('hnu-ligen').team);
+ assert.equal(byId('hnu-yuhongshan').team,null);
+ assert.match(byId('hnu-liuxinqi').role,/仅核到硕导/);
+ assert.deepEqual(names('college','whu-remote'),['胡庆武','季顺平','姚剑']);
+ assert.notEqual(byId('whu-jishunping').team,byId('whu-yaojian').team);
+ assert.deepEqual(names('college','xmu-aero'),['兰维瑶','仲训昱']);
+ assert.equal(byId('xmu-zhongxunyu').team,null);
+ assert.match(byId('tongji-tianye').admissions,/2028 秋.*2 名.*2–3 名.*余名额/);
+ assert.match(byId('tongji-fan-rui').admissions,/2028 级.*未标入学季节/);
+ assert.match(byId('tongji-ren-yunfan').admissions,/2027 春／秋.*未核 2028/);
 });
 
 test('isolated page is linked, versioned and allowlisted with the existing catalog unchanged',()=>{
