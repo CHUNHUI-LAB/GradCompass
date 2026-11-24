@@ -13,7 +13,7 @@ export function reviewedPublicData(read,{throughReceipt=null}={}){
   const raw=read(receipt.path);assert.equal(hash(raw),receipt.sha256,'unreviewed evidence receipt');
   const review=JSON.parse(raw);assert.equal(review.schemaVersion,1);assert.equal(review.baseCommit,publishedCommit);assert.match(review.reviewDate,/^\d{4}-\d{2}-\d{2}$/);
   assert(review.scope&&review.officialEvidence.length&&review.operations.length);
-  for(const source of review.officialEvidence){const u=new URL(source.url);assert(isReviewedEvidenceUrl(source.url),'HTTPS or explicitly reviewed NEU/JLU or faculty.hust.edu.cn HTTP source');assert(source.title&&source.section,'source must identify title and read scope');}
+  for(const source of review.officialEvidence){assert(isReviewedEvidenceUrl(source.url),'HTTPS or an explicitly reviewed HTTP source');assert(source.title&&source.section,'source must identify title and read scope');}
   applyReviewedOperations(expected,review.operations);
  }
  return expected;
@@ -41,4 +41,11 @@ export function applyReviewedOperations(expected,operations){
  return expected;
 }
 
-export function isReviewedEvidenceUrl(value){const u=new URL(value);return u.protocol==='https:'||(u.protocol==='http:'&&(/(^|\.)(neu|jlu)\.edu\.cn$/.test(u.hostname)||['faculty.hust.edu.cn','zhangruimao.site'].includes(u.hostname)));}
+// Only the exact institutional pages whose HTTPS endpoints did not return the published content.
+const reviewedZjuHttpUrls = new Set([
+ "http://cse.zju.edu.cn/2026/0807/c39336a3193888/page.htm",
+ "http://www.cse.zju.edu.cn/2025/0901/c39336a3076935/page.htm",
+ "http://www.cse.zju.edu.cn/2026/1020/c39336a3216814/page.htm",
+ "http://www.cse.zju.edu.cn/2022/0310/c72508a2660264/page.htm"
+]);
+export function isReviewedEvidenceUrl(value){const u=new URL(value);return u.protocol==='https:'||(u.protocol==='http:'&&(/(^|\.)(neu|jlu)\.edu\.cn$/.test(u.hostname)||['faculty.hust.edu.cn','zhangruimao.site'].includes(u.hostname)||reviewedZjuHttpUrls.has(u.href)));}
