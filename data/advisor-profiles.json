@@ -241930,6 +241930,842 @@
           }
         ]
       }
+    },
+    {
+      "advisorId": "zju-li-liang",
+      "cardSummaryZh": "李亮，控制科学与工程学院百人计划研究员、博士生导师；研究激光雷达里程计与建图、多传感器融合、点云配准、鲁棒定位。",
+      "overview": {
+        "textZh": "李亮，控制科学与工程学院百人计划研究员、博士生导师；研究激光雷达里程计与建图、多传感器融合、点云配准、鲁棒定位。",
+        "sources": [
+          {
+            "url": "https://person.zju.edu.cn/LiangLi",
+            "title": "浙大官方教师页",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "空间智能与机器人实验室（SIRL）",
+        "affiliation": {
+          "textZh": "控制科学与工程学院工业控制研究所；SIRL 实验室列李亮为负责人。校方个人页还列网络传感与控制课题组。",
+          "sources": [
+            {
+              "url": "https://person.zju.edu.cn/LiangLi",
+              "title": "浙大官方教师页",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "http://cse.zju.edu.cn/2026/0807/c39336a3193888/page.htm",
+              "title": "控制学院 2027 导师表",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "http://www.cse.zju.edu.cn/2025/0901/c39336a3076935/page.htm",
+              "title": "控制学院 2026 导师表",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "http://www.cse.zju.edu.cn/2026/1020/c39336a3216814/page.htm",
+              "title": "控制学院 2027 博士简章",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://sirl.com.cn/vacancies",
+              "title": "SIRL 招募",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "lab_body"
+            },
+            {
+              "url": "http://www.cse.zju.edu.cn/2022/0310/c72508a2660264/page.htm",
+              "title": "控制学院人事办档案",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://sirl.com.cn/team/liang-li",
+              "title": "SIRL 负责人",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "lab_body"
+            }
+          ]
+        },
+        "themes": [
+          "激光雷达里程计与建图",
+          "多传感器融合",
+          "点云配准",
+          "鲁棒定位"
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "AF-RLIO: Adaptive Fusion of Radar-LiDAR-Inertial Information for Robust Odometry in Challenging Environments",
+          "year": 2025,
+          "venue": "ICRA",
+          "summaryZh": "融合毫米波雷达、LiDAR 与惯性信息，面向退化环境下的鲁棒里程计。",
+          "url": "https://doi.org/10.1109/ICRA55743.2025.11128046",
+          "sources": [
+            {
+              "url": "https://doi.org/10.1109/ICRA55743.2025.11128046",
+              "title": "AF-RLIO: Adaptive Fusion of Radar-LiDAR-Inertial Information for Robust Odometry in Challenging Environments",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "官方出版或校方论文页；不外推数据、资助或招生。",
+              "access": "publication_body"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "2026、2027 学院导师名单均在工业控制研究所的控制科学与工程、电子信息两列具名列为博导；网安列未列。2027 普博报名选研究所、不在网报时选导师。实验室公开欢迎博士生但未标年份。未确认个人当届接收、正式配对阶段、2028 秋名额或余位。",
+        "sources": [
+          {
+            "url": "https://person.zju.edu.cn/LiangLi",
+            "title": "浙大官方教师页",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "http://cse.zju.edu.cn/2026/0807/c39336a3193888/page.htm",
+            "title": "控制学院 2027 导师表",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "http://www.cse.zju.edu.cn/2025/0901/c39336a3076935/page.htm",
+            "title": "控制学院 2026 导师表",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "http://www.cse.zju.edu.cn/2026/1020/c39336a3216814/page.htm",
+            "title": "控制学院 2027 博士简章",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://sirl.com.cn/vacancies",
+            "title": "SIRL 招募",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "lab_body"
+          },
+          {
+            "url": "http://www.cse.zju.edu.cn/2022/0310/c72508a2660264/page.htm",
+            "title": "控制学院人事办档案",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://sirl.com.cn/team/liang-li",
+            "title": "SIRL 负责人",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "lab_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "未核实 2028 秋个人接收或余位。",
+        "名录、研究所入口和个人接收分别核实。"
+      ],
+      "links": [
+        {
+          "label": "浙大官方教师页",
+          "url": "https://person.zju.edu.cn/LiangLi"
+        },
+        {
+          "label": "控制学院 2027 导师表",
+          "url": "http://cse.zju.edu.cn/2026/0807/c39336a3193888/page.htm"
+        },
+        {
+          "label": "控制学院 2026 导师表",
+          "url": "http://www.cse.zju.edu.cn/2025/0901/c39336a3076935/page.htm"
+        },
+        {
+          "label": "控制学院 2027 博士简章",
+          "url": "http://www.cse.zju.edu.cn/2026/1020/c39336a3216814/page.htm"
+        },
+        {
+          "label": "SIRL 招募",
+          "url": "https://sirl.com.cn/vacancies"
+        },
+        {
+          "label": "控制学院人事办档案",
+          "url": "http://www.cse.zju.edu.cn/2022/0310/c72508a2660264/page.htm"
+        },
+        {
+          "label": "SIRL 负责人",
+          "url": "https://sirl.com.cn/team/liang-li"
+        }
+      ],
+      "checkedDate": "2026-11-24",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-24",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-24",
+          "start": "2021-11-24",
+          "end": "2026-11-24"
+        },
+        "status": "pending",
+        "appointmentConfirmed": false,
+        "precision": null,
+        "dateText": "2022 年 3 月 10 日人事办已公开其研究员、博导身份；不是入职日期。",
+        "earliestDate": null,
+        "latestDate": null,
+        "careerContext": "unknown",
+        "noteZh": "此前本校首次正式教研到岗的精确日期未公开核实。",
+        "sources": [
+          {
+            "url": "http://www.cse.zju.edu.cn/2022/0310/c72508a2660264/page.htm",
+            "title": "控制学院人事办档案",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://person.zju.edu.cn/LiangLi",
+            "title": "浙大官方教师页",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "tongji-zhang-dedong",
+      "cardSummaryZh": "张德栋，测绘与地理信息学院副教授、博士生导师；研究激光雷达点云处理、三维场景建模、多源点云感知。",
+      "overview": {
+        "textZh": "张德栋，测绘与地理信息学院副教授、博士生导师；研究激光雷达点云处理、三维场景建模、多源点云感知。",
+        "sources": [
+          {
+            "url": "https://celiang.tongji.edu.cn/info/1301/4822.htm",
+            "title": "同济学院教师页",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "独立实验室名称待核",
+        "affiliation": {
+          "textZh": "同济大学测绘与地理信息学院；未复核到独立具名团队。",
+          "sources": [
+            {
+              "url": "https://celiang.tongji.edu.cn/info/1301/4822.htm",
+              "title": "同济学院教师页",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://celiang.tongji.edu.cn/Staff/zsdsmd.htm",
+              "title": "同济博导名册",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yzbm.tongji.edu.cn/zsml/bszsml/zsmlYjfx/2027/290/081600",
+              "title": "同济 2027 官方目录 081600",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yzbm.tongji.edu.cn/zsml/bszsml/zsmlYjfx/2027/290/085704",
+              "title": "同济 2027 官方目录 085704",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yzbm.tongji.edu.cn/zsml/bszsml/zsmlYjfx/2027/290/140400",
+              "title": "同济 2027 官方目录 140400",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yz.tongji.edu.cn/info/1011/4291.htm",
+              "title": "2027 普通招考网报公告",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yz.tongji.edu.cn/info/1011/4293.htm",
+              "title": "同济 2027 各学院截止",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "激光雷达点云处理",
+          "三维场景建模",
+          "多源点云感知"
+        ]
+      },
+      "representativeWorks": [],
+      "recruitment": {
+        "textZh": "同济 2027 博士专业目录 290 学院以导师姓名列张德栋：全日制 081600 方向 02/04、085704 方向 02/04、140400 方向 03；085704 另有非全日制 08。目录专业列有申请考核科目；全日制方向可直博并非仅直博，不公布其个人春秋批次、接收或余位。290 院 2027 秋季普通申请考核历史截止为北京时间 2026-12-23 17:00，不是 2028 日期。",
+        "sources": [
+          {
+            "url": "https://celiang.tongji.edu.cn/info/1301/4822.htm",
+            "title": "同济学院教师页",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://celiang.tongji.edu.cn/Staff/zsdsmd.htm",
+            "title": "同济博导名册",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yzbm.tongji.edu.cn/zsml/bszsml/zsmlYjfx/2027/290/081600",
+            "title": "同济 2027 官方目录 081600",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yzbm.tongji.edu.cn/zsml/bszsml/zsmlYjfx/2027/290/085704",
+            "title": "同济 2027 官方目录 085704",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yzbm.tongji.edu.cn/zsml/bszsml/zsmlYjfx/2027/290/140400",
+            "title": "同济 2027 官方目录 140400",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yz.tongji.edu.cn/info/1011/4291.htm",
+            "title": "2027 普通招考网报公告",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yz.tongji.edu.cn/info/1011/4293.htm",
+            "title": "同济 2027 各学院截止",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "未核实 2028 秋个人接收或余位。",
+        "名录、研究所入口和个人接收分别核实。"
+      ],
+      "links": [
+        {
+          "label": "同济学院教师页",
+          "url": "https://celiang.tongji.edu.cn/info/1301/4822.htm"
+        },
+        {
+          "label": "同济博导名册",
+          "url": "https://celiang.tongji.edu.cn/Staff/zsdsmd.htm"
+        },
+        {
+          "label": "同济 2027 官方目录 081600",
+          "url": "https://yzbm.tongji.edu.cn/zsml/bszsml/zsmlYjfx/2027/290/081600"
+        },
+        {
+          "label": "同济 2027 官方目录 085704",
+          "url": "https://yzbm.tongji.edu.cn/zsml/bszsml/zsmlYjfx/2027/290/085704"
+        },
+        {
+          "label": "同济 2027 官方目录 140400",
+          "url": "https://yzbm.tongji.edu.cn/zsml/bszsml/zsmlYjfx/2027/290/140400"
+        },
+        {
+          "label": "2027 普通招考网报公告",
+          "url": "https://yz.tongji.edu.cn/info/1011/4291.htm"
+        },
+        {
+          "label": "同济 2027 各学院截止",
+          "url": "https://yz.tongji.edu.cn/info/1011/4293.htm"
+        }
+      ],
+      "checkedDate": "2026-11-24",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-24",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-24",
+          "start": "2021-11-24",
+          "end": "2026-11-24"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2026 年任同济副教授（具体日未核）",
+        "earliestDate": "2026-01-01",
+        "latestDate": "2026-12-31",
+        "careerContext": "unknown",
+        "noteZh": "官方履历列 2026 年起任同济副教授，此前为境外博士后。",
+        "sources": [
+          {
+            "url": "https://celiang.tongji.edu.cn/info/1301/4822.htm",
+            "title": "同济学院教师页",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "buaa-lin-jiarong",
+      "cardSummaryZh": "林家荣，无人系统研究院副教授、博士生导师；研究激光 SLAM、视觉－激光－惯性融合、机器人空间感知。",
+      "overview": {
+        "textZh": "林家荣，无人系统研究院副教授、博士生导师；研究激光 SLAM、视觉－激光－惯性融合、机器人空间感知。",
+        "sources": [
+          {
+            "url": "https://shi.buaa.edu.cn/linjiarong",
+            "title": "北航教师主页",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "通用自主多模态智能体课题组（γ-LAB）",
+        "affiliation": {
+          "textZh": "北京航空航天大学无人系统研究院。院内公开通知把林家荣列为 γ-LAB 指导老师；团队研究指导不等同博士报名导师或联培路径。",
+          "sources": [
+            {
+              "url": "https://shi.buaa.edu.cn/linjiarong",
+              "title": "北航教师主页",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://wrj.buaa.edu.cn/szdw/yjybd/xtgzyzncl.htm",
+              "title": "北航院级博导名录",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://wrj.buaa.edu.cn/__local/0/EA/41/7ADAB6CA7EA721FF48EB436FA43_05F08C13_32815.pdf",
+              "title": "北航 2026 一批博士方案",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://wrj.buaa.edu.cn/__local/D/D5/D4/6A989148737728417E351534DCC_BB74CE23_18C76.pdf",
+              "title": "北航 2026 二批博士方案",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yzb.buaa.edu.cn/info/1036/3691.htm",
+              "title": "北航 2027 院级办法汇总",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://wrj.buaa.edu.cn/info/1013/1651.htm",
+              "title": "北航研究院科创及团队说明",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yzb.buaa.edu.cn/info/1036/3677.htm",
+              "title": "北航 2027 招生简章",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "激光 SLAM",
+          "视觉－激光－惯性融合",
+          "机器人空间感知"
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "R3LIVE: A Robust, Real-time, RGB-colored, LiDAR-Inertial-Visual Tightly-coupled State Estimation and Mapping Package",
+          "year": 2022,
+          "venue": "ICRA",
+          "summaryZh": "紧耦合视觉、激光雷达和惯性信息，进行状态估计和彩色三维建图。",
+          "url": "https://teacher.buaa.edu.cn/linjiarong/zh_CN/lwcg/222671/content/32334.htm",
+          "sources": [
+            {
+              "url": "https://teacher.buaa.edu.cn/linjiarong/zh_CN/lwcg/222671/content/32334.htm",
+              "title": "R3LIVE: A Robust, Real-time, RGB-colored, LiDAR-Inertial-Visual Tightly-coupled State Estimation and Mapping Package",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "官方出版或校方论文页；不外推数据、资助或招生。",
+              "access": "publication_body"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "官方名册确认博导。2026 年研究院 031 首批申请考核允许应届硕士在报到前完成毕业或获学位，不限本校；首批和第二批名额表均未见本人。2027 校级规则仍有应届硕士申请考核，但 031 院具体通知及林家荣个人报考方向未核。2026 秋科创是本校学生科研，不是博士招生。",
+        "sources": [
+          {
+            "url": "https://shi.buaa.edu.cn/linjiarong",
+            "title": "北航教师主页",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://wrj.buaa.edu.cn/szdw/yjybd/xtgzyzncl.htm",
+            "title": "北航院级博导名录",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://wrj.buaa.edu.cn/__local/0/EA/41/7ADAB6CA7EA721FF48EB436FA43_05F08C13_32815.pdf",
+            "title": "北航 2026 一批博士方案",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://wrj.buaa.edu.cn/__local/D/D5/D4/6A989148737728417E351534DCC_BB74CE23_18C76.pdf",
+            "title": "北航 2026 二批博士方案",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yzb.buaa.edu.cn/info/1036/3691.htm",
+            "title": "北航 2027 院级办法汇总",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://wrj.buaa.edu.cn/info/1013/1651.htm",
+            "title": "北航研究院科创及团队说明",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yzb.buaa.edu.cn/info/1036/3677.htm",
+            "title": "北航 2027 招生简章",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "未核实 2028 秋个人接收或余位。",
+        "名录、研究所入口和个人接收分别核实。"
+      ],
+      "links": [
+        {
+          "label": "北航教师主页",
+          "url": "https://shi.buaa.edu.cn/linjiarong"
+        },
+        {
+          "label": "北航院级博导名录",
+          "url": "https://wrj.buaa.edu.cn/szdw/yjybd/xtgzyzncl.htm"
+        },
+        {
+          "label": "北航 2026 一批博士方案",
+          "url": "https://wrj.buaa.edu.cn/__local/0/EA/41/7ADAB6CA7EA721FF48EB436FA43_05F08C13_32815.pdf"
+        },
+        {
+          "label": "北航 2026 二批博士方案",
+          "url": "https://wrj.buaa.edu.cn/__local/D/D5/D4/6A989148737728417E351534DCC_BB74CE23_18C76.pdf"
+        },
+        {
+          "label": "北航 2027 院级办法汇总",
+          "url": "https://yzb.buaa.edu.cn/info/1036/3691.htm"
+        },
+        {
+          "label": "北航研究院科创及团队说明",
+          "url": "https://wrj.buaa.edu.cn/info/1013/1651.htm"
+        },
+        {
+          "label": "北航 2027 招生简章",
+          "url": "https://yzb.buaa.edu.cn/info/1036/3677.htm"
+        }
+      ],
+      "checkedDate": "2026-11-24",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-24",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-24",
+          "start": "2021-11-24",
+          "end": "2026-11-24"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "day",
+        "dateText": "2025 年 5 月 29 日",
+        "earliestDate": "2025-05-29",
+        "latestDate": "2025-05-29",
+        "careerContext": "unknown",
+        "noteZh": "校方教师主页明确入职时间。",
+        "sources": [
+          {
+            "url": "https://shi.buaa.edu.cn/linjiarong",
+            "title": "北航教师主页",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "seu-qian-kun",
+      "cardSummaryZh": "钱堃，自动化学院副教授、博士生导师；研究动态环境激光 SLAM、移动机器人定位、多传感器感知、三维场景理解。",
+      "overview": {
+        "textZh": "钱堃，自动化学院副教授、博士生导师；研究动态环境激光 SLAM、移动机器人定位、多传感器感知、三维场景理解。",
+        "sources": [
+          {
+            "url": "https://automation.seu.edu.cn/qk/list.htm",
+            "title": "东南大学自动化学院教师页",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "独立实验室名称待核",
+        "affiliation": {
+          "textZh": "东南大学自动化学院、机器人工程系；校方称模式识别与智能系统学科组，不据此推断独立实验室。",
+          "sources": [
+            {
+              "url": "https://automation.seu.edu.cn/qk/list.htm",
+              "title": "东南大学自动化学院教师页",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://yzb.seu.edu.cn/6677/list.htm",
+              "title": "东南大学 2027 博士招生入口",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            },
+            {
+              "url": "https://futuretech.seu.edu.cn/2025/1017/c54981a542504/page.htm",
+              "title": "东南大学未来技术学院教师页",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "动态环境激光 SLAM",
+          "移动机器人定位",
+          "多传感器感知",
+          "三维场景理解"
+        ]
+      },
+      "representativeWorks": [
+        {
+          "title": "Segmented Curved-Voxel Occupancy Descriptor for Dynamic-Aware LiDAR Odometry and Mapping",
+          "year": 2024,
+          "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+          "summaryZh": "面向动态环境的激光雷达同步定位与建图；已核出版入口。",
+          "url": "https://ieeexplore.ieee.org/document/10419066/",
+          "sources": [
+            {
+              "url": "https://ieeexplore.ieee.org/document/10419066/",
+              "title": "Segmented Curved-Voxel Occupancy Descriptor for Dynamic-Aware LiDAR Odometry and Mapping",
+              "section": "公开任职、研究或招生证据",
+              "checkedDate": "2026-11-24",
+              "readScope": "官方出版或校方论文页；不外推数据、资助或招生。",
+              "access": "publication_body"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "官方教师页明确 2017 年起担任博导，并列不分届的每年意向计划；这不是个人当届确认。可参考自动化学院 008 博士申请考核，未核钱堃本人 2027 或 2028 秋普通招考具体专业方向与余位。",
+        "sources": [
+          {
+            "url": "https://automation.seu.edu.cn/qk/list.htm",
+            "title": "东南大学自动化学院教师页",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://yzb.seu.edu.cn/6677/list.htm",
+            "title": "东南大学 2027 博士招生入口",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          },
+          {
+            "url": "https://futuretech.seu.edu.cn/2025/1017/c54981a542504/page.htm",
+            "title": "东南大学未来技术学院教师页",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "未核实 2028 秋个人接收或余位。",
+        "名录、研究所入口和个人接收分别核实。"
+      ],
+      "links": [
+        {
+          "label": "东南大学自动化学院教师页",
+          "url": "https://automation.seu.edu.cn/qk/list.htm"
+        },
+        {
+          "label": "东南大学 2027 博士招生入口",
+          "url": "https://yzb.seu.edu.cn/6677/list.htm"
+        },
+        {
+          "label": "东南大学未来技术学院教师页",
+          "url": "https://futuretech.seu.edu.cn/2025/1017/c54981a542504/page.htm"
+        }
+      ],
+      "checkedDate": "2026-11-24",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-24",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-24",
+          "start": "2021-11-24",
+          "end": "2026-11-24"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "year",
+        "dateText": "2010 年毕业后留校任教",
+        "earliestDate": "2010-01-01",
+        "latestDate": "2010-12-31",
+        "careerContext": "unknown",
+        "noteZh": "校方履历明确博士毕业后留校任教；2017 博导为后续事件。",
+        "sources": [
+          {
+            "url": "https://automation.seu.edu.cn/qk/list.htm",
+            "title": "东南大学自动化学院教师页",
+            "section": "公开任职、研究或招生证据",
+            "checkedDate": "2026-11-24",
+            "readScope": "已读公开正文；按来源区分身份、年度方向和个人接收。",
+            "access": "official_body"
+          }
+        ]
+      }
     }
   ],
   "reviewRequired": true,

@@ -146,6 +146,7 @@ files.extend(['audits/985-nwpu-20261119.json', 'audits/985-nwpu-20261119.md', 't
 files.extend(['audits/985-lzu-20261119.json', 'audits/985-lzu-20261119.md', 'tests/fixtures/evidence/985-lzu-20261119.json', 'tests/lzu-expansion-20261119.test.mjs'])
 files.extend(['audits/985-nwsuaf-20261119.json', 'audits/985-nwsuaf-20261119.md', 'tests/fixtures/evidence/985-nwsuaf-20261119.json', 'tests/nwsuaf-expansion-20261119.test.mjs'])
 files.extend(['affiliations.html','assets/affiliations.js','assets/affiliations.css','assets/affiliation-records.js','audits/advisor-affiliations-20261123.md','tests/affiliations.test.mjs'])
+files.extend(['audits/mainland-slam-advisors-20261124.md', 'tests/fixtures/evidence/mainland-slam-advisors-20261124.json', 'tests/mainland-slam-advisors-20261124.test.mjs'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):

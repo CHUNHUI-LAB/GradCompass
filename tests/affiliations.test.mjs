@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
+import {isReviewedEvidenceUrl} from './reviewed-public-data.mjs';
 import {people,groupsFor,organization} from '../assets/affiliation-records.js';
 
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url));
@@ -9,16 +10,16 @@ const hash=p=>crypto.createHash('sha256').update(read(p)).digest('hex');
 const byId=id=>people.find(p=>p.id===id);
 const names=(mode,key)=>groupsFor(mode).find(b=>b.key===key).people.map(p=>p.name);
 
-test('four-school evidence scope, consistent organization types and safe source links',()=>{
- assert.equal(people.length,32);
- assert.deepEqual(groupsFor('school').map(g=>[g.key,g.people.length]),[['hnu',9],['tongji',7],['whu',8],['xmu',8]]);
+test('seven-school evidence scope, consistent organization types and safe source links',()=>{
+ assert.equal(people.length,35);
+ assert.deepEqual(groupsFor('school').map(g=>[g.key,g.people.length]),[['hnu',9],['tongji',7],['whu',8],['xmu',8],['zju',1],['buaa',1],['seu',1]]);
  assert.equal(new Set(people.map(p=>p.id)).size,people.length);
  for(const p of people){
   assert.equal(organization[p.school].kind,'school');
   for(const key of ['college','team'])if(p[key]){
    assert.equal(organization[p[key]].kind,key); assert.equal(organization[p[key]].school,p.school);
   }
-  for(const [label,url] of p.sources){assert(label);assert.equal(new URL(url).protocol,'https:');}
+  for(const [label,url] of p.sources){assert(label);assert(new URL(url).protocol==='https:'||(p.id==='zju-li-liang'&&isReviewedEvidenceUrl(url)));}
   assert(p.sources.length>=2);
  }
 });
@@ -50,7 +51,7 @@ test('team membership does not resolve conflicting college sources or promote se
 });
 
 test('schools filter all dimensions and every unknown remains its own result',()=>{
- for(const mode of ['school','college','team'])for(const school of ['hnu','tongji','whu','xmu']){
+ for(const mode of ['school','college','team'])for(const school of ['hnu','tongji','whu','xmu','zju','buaa','seu']){
   const groups=groupsFor(mode,school), rows=groups.flatMap(g=>g.people);
   assert.deepEqual(new Set(rows.map(p=>p.id)),new Set(people.filter(p=>p.school===school).map(p=>p.id)));
   for(const g of groups)if(g.unknown){assert.equal(g.people.length,1);assert.equal(g.key,'unknown:'+g.people[0].id);}
@@ -70,7 +71,7 @@ test('masters, historical admission and team recruitment do not become individua
  assert.match(byId('xmu-shen-siqi').admissions,/团队.*2027.*不等于.*个人指标、2028/);
  assert.match(byId('xmu-chengming').admissions,/既有审计.*2027.*本轮未重读.*不是 2028/);
  const linked=people.filter(p=>p.catalogId), c=JSON.parse(read('data/catalog.json'));
- assert.equal(linked.length,22);
+ assert.equal(linked.length,26);
  for(const p of linked){
   const a=c.advisors.find(a=>a.id===p.catalogId);assert(a);assert.equal(a.nameZh||a.name,p.name);
  }
@@ -89,7 +90,20 @@ test('second batch keeps platforms and admission cycles separate from real team 
  assert.match(byId('tongji-ren-yunfan').admissions,/2027 春／秋.*未核 2028/);
 });
 
-test('isolated page is linked, versioned and allowlisted with the existing catalog unchanged',()=>{
+test('targeted additions distinguish catalog joins, home units, named teams and annual evidence',()=>{
+ for(const id of ['zju-li-liang','tongji-zhang-dedong','buaa-lin-jiarong','seu-qian-kun']){
+  const p=byId(id);assert.equal(p.catalogId,id);assert.match(p.admissions,/2028 秋/);assert.match(p.admissions,/未确认|未核实/);
+ }
+ assert.equal(byId('zju-li-liang').college,'zju-control');
+ assert.deepEqual(names('team','zju-sirl'),['李亮']);
+ assert.match(byId('zju-li-liang').admissions,/按研究所填报，不先选导师/);
+ assert.equal(byId('buaa-lin-jiarong').college,null);
+ assert.deepEqual(names('team','buaa-gamma'),['林家荣']);
+ assert.equal(byId('seu-qian-kun').team,null);
+ assert.match(byId('tongji-zhang-dedong').admissions,/2027 官方目录.*列名.*未确认个人春秋批次/);
+});
+
+test('isolated page is linked, versioned and allowlisted',()=>{
  assert.match(read('index.html').toString(),/href="\.\/affiliations\.html">导师归属核验试点/);
  const page=read('affiliations.html').toString(), app=read('assets/affiliations.js').toString();
  const paths=['affiliations.html','assets/affiliations.js','assets/affiliations.css','assets/affiliation-records.js','audits/advisor-affiliations-20261123.md'];
