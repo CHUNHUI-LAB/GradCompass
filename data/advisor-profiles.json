@@ -242288,6 +242288,192 @@
           }
         ]
       }
+    },
+    {
+      "advisorId": "sdu-yuanxianfeng",
+      "cardSummaryZh": "机器人具身感知与导航；激光／视觉 SLAM；视觉语言导航",
+      "overview": {
+        "textZh": "袁宪锋为山东大学低空科学与工程学院（威海）副教授、博士生导师。研究动态环境下的激光和视觉惯性定位、机器人感知与自主导航。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/yuanxianfeng/en/index.htm",
+            "title": "袁宪锋 · 山大教师主页",
+            "section": "博士生导师、2018.03 至 2020.08 讲师履历及不分年度的招生意向",
+            "readScope": "博士生导师、2018.03 至 2020.08 讲师履历及不分年度的招生意向",
+            "checkedDate": "2026-11-27",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.sdu.edu.cn/yuanxianfeng/zh_CN/yjgk/840955/list/index.htm",
+            "title": "袁宪锋 · 研究领域",
+            "section": "机器人具身感知与导航、激光和视觉 SLAM、视觉语言导航",
+            "readScope": "机器人具身感知与导航、激光和视觉 SLAM、视觉语言导航",
+            "checkedDate": "2026-11-27",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "低空智能控制与通信团队",
+        "affiliation": {
+          "textZh": "校方师资名录列在同一招生团队，与宋勇同组；不据此推定个人实验室、共同指导或共享名额。",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/yuanxianfeng/en/index.htm",
+              "title": "袁宪锋 · 山大教师主页",
+              "section": "博士生导师、2018.03 至 2020.08 讲师履历及不分年度的招生意向",
+              "readScope": "博士生导师、2018.03 至 2020.08 讲师履历及不分年度的招生意向",
+              "checkedDate": "2026-11-27",
+              "access": "official_body"
+            },
+            {
+              "url": "https://ie.wh.sdu.edu.cn/szll.htm",
+              "title": "威海低空学院师资",
+              "section": "两位博士生导师及低空智能控制与通信招生团队",
+              "readScope": "两位博士生导师及低空智能控制与通信招生团队",
+              "checkedDate": "2026-11-27",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "机器人具身感知与导航",
+          "激光／视觉 SLAM",
+          "视觉语言导航"
+        ],
+        "structure": {
+          "textZh": "已核招生团队层级；个人小组与联合指导未核。",
+          "sources": [
+            {
+              "url": "https://ie.wh.sdu.edu.cn/szll.htm",
+              "title": "威海低空学院师资",
+              "section": "两位博士生导师及低空智能控制与通信招生团队",
+              "readScope": "两位博士生导师及低空智能控制与通信招生团队",
+              "checkedDate": "2026-11-27",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [
+        {
+          "title": "DGM-VINS: Visual–Inertial SLAM for Complex Dynamic Environments With Joint Geometry Feature Extraction and Multiple Object Tracking",
+          "year": 2023,
+          "venue": "IEEE Transactions on Circuits and Systems for Video Technology（在线发布）",
+          "summaryZh": "面向动态场景的视觉惯性 SLAM，结合几何特征提取和多目标跟踪。",
+          "url": "https://faculty.sdu.edu.cn/yuanxianfeng/zh_CN/lwcg/840956/content/386715.htm",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/yuanxianfeng/zh_CN/lwcg/840956/content/386715.htm",
+              "title": "袁宪锋 · DGM-VINS",
+              "section": "作者校方论文条目，视觉惯性 SLAM 与动态目标处理",
+              "readScope": "作者校方论文条目，视觉惯性 SLAM 与动态目标处理",
+              "checkedDate": "2026-11-27",
+              "access": "official_body"
+            }
+          ]
+        },
+        {
+          "title": "一种应用于动态环境的激光SLAM系统及方法",
+          "year": 2024,
+          "venue": "中国发明专利 CN114937083B",
+          "summaryZh": "学校技术转移中心列袁宪锋为第一发明人；从三维点云提取位置估计所需证据。",
+          "url": "https://www.ttc.sdu.edu.cn/info/1039/9051.htm",
+          "sources": [
+            {
+              "url": "https://www.ttc.sdu.edu.cn/info/1039/9051.htm",
+              "title": "山东大学技术转移中心 · 动态环境激光 SLAM",
+              "section": "第一发明人及专利方向；不是招生或性能结论",
+              "readScope": "第一发明人及专利方向；不是招生或性能结论",
+              "checkedDate": "2026-11-27",
+              "access": "official_body"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "官网只有不分年度的招生意向。学院 2026 方案有团队学博 089901 与专博 085400，均不证明其个人名额。2027／2028 秋季个人招生与余位未核。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/yuanxianfeng/en/index.htm",
+            "title": "袁宪锋 · 山大教师主页",
+            "section": "博士生导师、2018.03 至 2020.08 讲师履历及不分年度的招生意向",
+            "readScope": "博士生导师、2018.03 至 2020.08 讲师履历及不分年度的招生意向",
+            "checkedDate": "2026-11-27",
+            "access": "official_body"
+          },
+          {
+            "url": "https://ie.wh.sdu.edu.cn/info/1364/3812.htm",
+            "title": "低空学院 2026 博士申请–考核",
+            "section": "历史团队通道，089901、085400；不是个人名额",
+            "readScope": "历史团队通道，089901、085400；不是个人名额",
+            "checkedDate": "2026-11-27",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人 2028 秋季接收与余位待核。",
+        "年度博士资格、正式通道与资助待核。"
+      ],
+      "links": [
+        {
+          "label": "袁宪锋 · 山大教师主页",
+          "url": "https://faculty.sdu.edu.cn/yuanxianfeng/en/index.htm"
+        },
+        {
+          "label": "威海低空学院师资",
+          "url": "https://ie.wh.sdu.edu.cn/szll.htm"
+        },
+        {
+          "label": "袁宪锋 · 研究领域",
+          "url": "https://faculty.sdu.edu.cn/yuanxianfeng/zh_CN/yjgk/840955/list/index.htm"
+        },
+        {
+          "label": "袁宪锋 · DGM-VINS",
+          "url": "https://faculty.sdu.edu.cn/yuanxianfeng/zh_CN/lwcg/840956/content/386715.htm"
+        },
+        {
+          "label": "山东大学技术转移中心 · 动态环境激光 SLAM",
+          "url": "https://www.ttc.sdu.edu.cn/info/1039/9051.htm"
+        },
+        {
+          "label": "低空学院 2026 博士申请–考核",
+          "url": "https://ie.wh.sdu.edu.cn/info/1364/3812.htm"
+        }
+      ],
+      "checkedDate": "2026-11-27",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-27",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-27",
+          "start": "2021-11-27",
+          "end": "2026-11-27"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2018-03",
+        "earliestDate": "2018-03-01",
+        "latestDate": "2018-03-31",
+        "careerContext": "unknown",
+        "noteZh": "教师主页履历列 2018.03 起任山东大学机电与信息工程学院讲师，并另记 2019.12 博士后出站；以明确讲师岗位作为已核最早非博后岗位。现学院变更不重算首次任职。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/yuanxianfeng/en/index.htm",
+            "title": "袁宪锋 · 山大教师主页",
+            "section": "博士生导师、2018.03 至 2020.08 讲师履历及不分年度的招生意向",
+            "readScope": "博士生导师、2018.03 至 2020.08 讲师履历及不分年度的招生意向",
+            "checkedDate": "2026-11-27",
+            "access": "official_body"
+          }
+        ]
+      }
     }
   ],
   "reviewRequired": true,

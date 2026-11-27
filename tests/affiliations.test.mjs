@@ -70,7 +70,7 @@ test('masters, historical admission and team recruitment do not become individua
  assert.match(byId('xmu-shen-siqi').admissions,/团队.*2027.*不等于.*个人指标、2028/);
  assert.match(byId('xmu-chengming').admissions,/既有审计.*2027.*本轮未重读.*不是 2028/);
  const linked=people.filter(p=>p.catalogId), c=JSON.parse(read('data/catalog.json'));
- assert.equal(linked.length,31);
+ assert.equal(linked.length,32);
  for(const p of linked){
   const a=c.advisors.find(a=>a.id===p.catalogId);assert(a);assert.equal(a.nameZh||a.name,p.name);
  }
@@ -106,6 +106,6 @@ test('SDU official recruitment team, individual lab and collaboration stay disti
  assert.equal(byId('sdu-chenteng').team,null);
  assert(byId('sdu-chenteng').other.some(([,v])=>v.includes('荣学文')));
  assert(byId('sdu-zhoufengyu').other.some(([,v])=>v.includes('云基智能机器人实验室')));
- assert.equal(byId('sdu-yuanxianfeng').catalogId,undefined);
+ assert.equal(byId('sdu-yuanxianfeng').catalogId,'sdu-yuanxianfeng');
  for (const id of ['sdu-songyong','sdu-yuanxianfeng']) assert.match(byId(id).admissions,/未确认 2028 秋季/);
 });
