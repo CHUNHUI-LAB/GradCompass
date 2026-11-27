@@ -9,9 +9,9 @@ const hash=p=>crypto.createHash('sha256').update(read(p)).digest('hex');
 const byId=id=>people.find(p=>p.id===id);
 const names=(mode,key)=>groupsFor(mode).find(b=>b.key===key).people.map(p=>p.name);
 
-test('four-school evidence scope, consistent organization types and safe source links',()=>{
- assert.equal(people.length,32);
- assert.deepEqual(groupsFor('school').map(g=>[g.key,g.people.length]),[['hnu',9],['tongji',7],['whu',8],['xmu',8]]);
+test('five-school evidence scope, consistent organization types and safe source links',()=>{
+ assert.equal(people.length,43);
+ assert.deepEqual(groupsFor('school').map(g=>[g.key,g.people.length]),[['hnu',9],['tongji',7],['whu',8],['xmu',8],['sdu',11]]);
  assert.equal(new Set(people.map(p=>p.id)).size,people.length);
  for(const p of people){
   assert.equal(organization[p.school].kind,'school');
@@ -50,7 +50,7 @@ test('team membership does not resolve conflicting college sources or promote se
 });
 
 test('schools filter all dimensions and every unknown remains its own result',()=>{
- for(const mode of ['school','college','team'])for(const school of ['hnu','tongji','whu','xmu']){
+ for(const mode of ['school','college','team'])for(const school of ['hnu','tongji','whu','xmu','sdu']){
   const groups=groupsFor(mode,school), rows=groups.flatMap(g=>g.people);
   assert.deepEqual(new Set(rows.map(p=>p.id)),new Set(people.filter(p=>p.school===school).map(p=>p.id)));
   for(const g of groups)if(g.unknown){assert.equal(g.people.length,1);assert.equal(g.key,'unknown:'+g.people[0].id);}
@@ -70,7 +70,7 @@ test('masters, historical admission and team recruitment do not become individua
  assert.match(byId('xmu-shen-siqi').admissions,/团队.*2027.*不等于.*个人指标、2028/);
  assert.match(byId('xmu-chengming').admissions,/既有审计.*2027.*本轮未重读.*不是 2028/);
  const linked=people.filter(p=>p.catalogId), c=JSON.parse(read('data/catalog.json'));
- assert.equal(linked.length,22);
+ assert.equal(linked.length,31);
  for(const p of linked){
   const a=c.advisors.find(a=>a.id===p.catalogId);assert(a);assert.equal(a.nameZh||a.name,p.name);
  }
@@ -97,4 +97,15 @@ test('isolated page is linked, versioned and allowlisted with the existing catal
  assert(app.includes('./affiliation-records.js?v='+hash(paths[3]).slice(0,12)));
  const m=JSON.parse(read('release-manifest.json'));
  for(const path of paths)assert.equal(m.allowedFiles.find(f=>f.path===path)?.sha256,hash(path));
+});
+
+test('SDU official recruitment team, individual lab and collaboration stay distinct',()=>{
+ assert.deepEqual(names('team','sdu-robotics-admissions'),['李贻斌','田新诚','宋锐','周乐来','王超群','荣学文','马昕','周风余']);
+ assert.deepEqual(names('team','sdu-intelligent-control'),['宋勇','袁宪锋']);
+ assert.deepEqual(names('college','sdu-low-altitude'),['宋勇','袁宪锋']);
+ assert.equal(byId('sdu-chenteng').team,null);
+ assert(byId('sdu-chenteng').other.some(([,v])=>v.includes('荣学文')));
+ assert(byId('sdu-zhoufengyu').other.some(([,v])=>v.includes('云基智能机器人实验室')));
+ assert.equal(byId('sdu-yuanxianfeng').catalogId,undefined);
+ for (const id of ['sdu-songyong','sdu-yuanxianfeng']) assert.match(byId(id).admissions,/未确认 2028 秋季/);
 });

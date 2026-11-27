@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 103385,
-      "sha256": "bf495b4ad4e935bde28d8dfc5df64a744589aea1d8fea531bcda5661e070964c"
+      "bytes": 103779,
+      "sha256": "fc09f79158347cb352377f74b4055b33dcb4a64cb7ad38ca57c7f822bd93e8e6"
     },
     {
       "path": "REDESIGN.md",
@@ -57,8 +57,8 @@
     },
     {
       "path": "affiliations.html",
-      "bytes": 2156,
-      "sha256": "ee499b468d39efd13ee9f6107a4773b8d05a645ffde8c99e11abd79edc3a986b"
+      "bytes": 2225,
+      "sha256": "2c1320efdc493bb8a63cf1c9b9a4bd9dacceb384bcb8ec82bf359aa35c8d024d"
     },
     {
       "path": "assets/advisor-cards.js",
@@ -72,8 +72,8 @@
     },
     {
       "path": "assets/affiliation-records.js",
-      "bytes": 28025,
-      "sha256": "12390fe5406494e1dd34515a8003e09b329ef112429071313b45b3ff55e44b14"
+      "bytes": 36005,
+      "sha256": "64724f977f34d078b4acea2105b865f98cc0ffb79ed72e01f32434f7a105ba5c"
     },
     {
       "path": "assets/affiliations.css",
@@ -83,7 +83,7 @@
     {
       "path": "assets/affiliations.js",
       "bytes": 2569,
-      "sha256": "cd00a55869924b9ff7e936de1542b5e765fb47ee11ee1631930a20065d52018c"
+      "sha256": "4e666d297b3f8a20fdc4aa1652e719de526c368448e940a07a91afd70cf45786"
     },
     {
       "path": "assets/app.js",
@@ -472,8 +472,8 @@
     },
     {
       "path": "audits/advisor-affiliations-20261123.md",
-      "bytes": 11198,
-      "sha256": "94c50b710339660c41f51103029e328b9ba83f50ac8b8bd16edb27e1e877193e"
+      "bytes": 12688,
+      "sha256": "80d43174b875c8a2c726415440b70bbb4337cbef444428b02db62848ee4707b6"
     },
     {
       "path": "audits/advisor-completeness-20261009.json",
@@ -882,8 +882,8 @@
     },
     {
       "path": "tests/affiliations.test.mjs",
-      "bytes": 6502,
-      "sha256": "254c600426097630f8df466f8dd2e5e074e584a837ef8ff8c928b5626adf09c2"
+      "bytes": 7324,
+      "sha256": "34e976b7fceef64f481f2ffb8cc55474915d26548856febdd074e124d6aea574"
     },
     {
       "path": "tests/all-schools-rescreen-20261019.test.mjs",
