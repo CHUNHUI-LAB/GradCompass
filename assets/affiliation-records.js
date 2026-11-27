@@ -28,6 +28,7 @@ export const organization={
  'whu-remote':{kind:'college',school:'whu',label:'遥感信息工程学院'},
  'xmu-informatics':{kind:'college',school:'xmu',label:'信息学院'},
  'hnu-hive':{kind:'team',school:'hnu',label:'智能车辆课题组（HIVE）'},
+ 'whu-li-miao-robotics':{kind:'team',school:'whu',label:'李淼教授团队（校方报道称谓）'},
  'whu-resnav':{kind:'team',school:'whu',label:'砺行（ResNav）团队'},
  'hnu-cvpu':{kind:'team',school:'hnu',label:'CV:PU 研究小组'},
  'hnu-coro':{kind:'team',school:'hnu',label:'CoRo 课题组'},
@@ -55,8 +56,8 @@ export const people=[
   sources:[['校方个人履历','https://celiang.tongji.edu.cn/info/1301/4822.htm'],['学院博士生导师名单','https://celiang.tongji.edu.cn/Staff/zsdsmd.htm'],['2027 学院办法','https://celiang.tongji.edu.cn/info/1205/4865.htm'],['LiDAR–相机标定论文','https://doi.org/10.1109/TIM.2023.3244816']]},
  {id:'whu-li-you',name:'李由',school:'whu',college:null,team:'whu-resnav',role:'博士生导师',
   focus:'复杂环境下的多模态感知、可信定位、空间认知与自主导航。',
-  other:[['校内所在单位','测绘遥感信息工程全国重点实验室；不推断为某学院。'],['团队角色','创立砺行（ResNav）团队。']],appointment:'至少 2021 年秋已有武汉大学教学记录；不标近五年。',admissions:'个人主页列博士生导师；未确认有日期的个人通道、2028 秋季招募及余位。',
-  sources:[['校方个人主页','https://jszy.whu.edu.cn/liyou1/zh_CN/'],['校内教学记录','https://jszy.whu.edu.cn/liyou1/en/skxx/1363296/list/index.htm'],['砺行团队','https://www.r-navigation.com/']]},
+  other:[['校内所在单位','测绘遥感信息工程全国重点实验室；不推断为某学院。'],['团队角色','创立砺行（ResNav）团队；团队当前公开名单的导师栏只核到李由。']],appointment:'至少 2021 年秋已有武汉大学教学记录；不标近五年。',admissions:'个人主页列博士生导师；未确认有日期的个人通道、2028 秋季招募及余位。',
+  sources:[['校方个人主页','https://jszy.whu.edu.cn/liyou1/zh_CN/'],['校内教学记录','https://jszy.whu.edu.cn/liyou1/en/skxx/1363296/list/index.htm'],['砺行团队导师名册','https://www.r-navigation.com/team']]},
  {id:'xmu-shen-siqi',name:'沈思淇',school:'xmu',college:'xmu-informatics',team:'xmu-asc',role:'博士生导师',
   focus:'三维视觉、视觉定位、具身与多智能体感知。',
   other:[['院内系别','计算机系'],['双聘','厦门大学人工智能研究院'],['团队角色','官方名册列为成员和联系人。']],
@@ -97,9 +98,9 @@ export const people=[
   sources:[['武大教师主页','https://jszy.whu.edu.cn/huaijianzhu/zh_CN/index.htm'],['武大个人履历','https://jszy.whu.edu.cn/huaijianzhu/zh_CN/more/1300461/jsjjgd/index.htm']]},
  {id:'whu-liming',catalogId:'whu-liming',name:'李明',school:'whu',college:'whu-robotics',team:null,role:'博士生导师',
   focus:'水下机器人、具身智能与自主作业。',
-  other:[['校内研究机构','校方教师页另列测绘遥感信息工程全国重点实验室。'],['平台职务','水下具身智能研究中心主任；中心与个人课题组不作同义。']],
+  other:[['校内研究机构','校方教师页另列测绘遥感信息工程全国重点实验室。'],['平台职务','水下具身智能研究中心主任。个人履历有团队和自研水下机器人，未见具名的其他导师；中心不等于同一小组。']],
   appointment:'中文教师履历列副教授、博导。',admissions:'教师页的常年招募描述没有指定 2028 秋季，不能当作当届余位。',
-  sources:[['武大教师主页','https://jszy.whu.edu.cn/liming1/'],['武大中文个人履历','https://jszy.whu.edu.cn/lisouming/zh_CN/more/460831/jsjjgd/index.htm']]},
+  sources:[['武大教师主页','https://jszy.whu.edu.cn/liming1/'],['武大中文个人履历','https://jszy.whu.edu.cn/lisouming/zh_CN/more/460831/jsjjgd/index.htm'],['教师页：水下机器人系统','https://jszy.whu.edu.cn/liming1/en/index/460831/list/index.htm']]},
  {id:'whu-huqingwu',catalogId:'whu-huqingwu',name:'胡庆武',school:'whu',college:'whu-remote',team:null,role:'博士生导师',
   focus:'激光点云、三维感知以及视觉和组合定位。',
   other:[['校内研究平台','校方实验室报道列为文化遗产智能计算实验室研究员，不据平台归属将其放入其他导师团队。']],
@@ -147,9 +148,9 @@ export const people=[
   sources:[['官方个人主页','https://faculty.tongji.edu.cn/rfan/zh_CN/'],['跨学科导师团队','https://umi.tongji.edu.cn/gywm/yjyjj.htm'],['研究院方向个人页','https://umi.tongji.edu.cn/info/1064/2207.htm'],['MIAS 团队名册','https://mias.group/members/'],['既有博士招募证据所用个人页','https://cse.tongji.edu.cn/cd/d1/c38370a380369/page.htm'],['MIAS 招生入口','https://mias.group/vacancies.html']]},
  {id:'whu-guochi',catalogId:'whu-guochi',name:'郭迟',school:'whu',college:'whu-robotics',team:null,role:'博士生导师',
   focus:'智能无人系统导航与控制、具身智能机器人。',
-  other:[['平台职务','湖北省时空信息与定位导航技术创新中心副主任；不推断具名课题组。']],
+  other:[['平台职务','湖北省时空信息与定位导航技术创新中心副主任；个人页未核到可联合归组的具名导师名单。']],
   appointment:'校方教师主页列机器人学院副院长。',admissions:'个人页公布过 2024 年 081100 智能导航与控制方向历史记录；未确认 2028 秋季招生与余位。',
-  sources:[['武大教师主页','https://jszy.whu.edu.cn/guochi/zh_CN/index.htm'],['个人年度招生记录','https://jszy.whu.edu.cn/guochi/zh_CN/zsxx/278580/list/index.htm']]},
+  sources:[['武大教师主页','https://jszy.whu.edu.cn/guochi/zh_CN/index.htm'],['个人年度招生记录','https://jszy.whu.edu.cn/guochi/zh_CN/zsxx/278580/list/index.htm'],['教师平台：科研团队栏目','https://jszy.whu.edu.cn/guochi/zh_CN/article/278574/list/index.htm']]},
  {id:'hnu-liuxinqi',catalogId:'hnu-liuxinqi',name:'刘鑫琦',school:'hnu',college:'hnu-ai',team:'hnu-wang-zhang',role:'助理教授 · 仅核到硕导',
   focus:'视觉语言导航、三维避障规划、视觉里程计。',
   other:[['平台任职','机器人视觉感知与控制技术国家工程研究中心骨干成员。与余洪山共享平台，不自动同组。']],
@@ -218,7 +219,9 @@ export const people=[
  {"id":"tongji-zheng-dongliang","name":"郑栋梁","school":"tongji","college":null,"team":"tongji-robot-perception","role":"博士生导师","focus":"机器人规划与控制、视觉伺服和多机器人。","other":[["校内任职","上海自主智能无人系统科学中心长聘副教授；主聘学院未核。"]],"appointment":"本批不复判首次任职日期。","admissions":"未核到明确的 2028 秋季个人博士招生或余位。","sources":[["校方个人页","https://robot.tongji.edu.cn/info/1256/2610.htm"],["实验室成员名单","https://robot.tongji.edu.cn/kytd.htm"]],"catalogId":"tongji-zheng-dongliang"},
  {"id":"tongji-zhu-lanyun","name":"祝澜耘","school":"tongji","college":"tongji-cs","team":"tongji-sig","role":"博士生导师","focus":"具身智能、空间智能、世界模型与多模态基础模型。","other":[["与任云帆的关系","同列空间智能团队骨干；不推断同一日常课题组或共同招生。"]],"appointment":"本批不复判首次任职日期。","admissions":"教师页明确招 2027 入学普通博士及直博；2028 秋季个人招生未核。","sources":[["校方个人页","https://cs.tongji.edu.cn/info/1065/3527.htm"],["空间智能团队骨干名册","https://sig.tongji.edu.cn/_upload/tpl/07/b1/1969/template1969/member.html"]],"catalogId":"tongji-zhu-lanyun"},
  {"id":"tongji-peng-duo","name":"彭铎","school":"tongji","college":"tongji-cs","team":"tongji-sig","role":"博士生导师","focus":"跨域视觉、开放环境感知与具身模型泛化。","other":[["与任云帆的关系","同列空间智能团队骨干；不推断同一日常课题组或共同招生。"]],"appointment":"本批不复判首次任职日期。","admissions":"未核到明确的 2028 秋季个人博士招生或余位。","sources":[["校方个人页","https://cs.tongji.edu.cn/info/1065/3485.htm"],["空间智能团队骨干名册","https://sig.tongji.edu.cn/_upload/tpl/07/b1/1969/template1969/member.html"]],"catalogId":"tongji-peng-duo"},
- {"id":"tongji-xu-yang","catalogId":"tongji-xu-yang","name":"徐阳","school":"tongji","college":null,"team":"tongji-robot-perception","role":"博士生导师","focus":"机器人主动感知、自主环境探测与规划。","other":[["校内任职","上海自主智能无人系统科学中心；未核主聘学院。"],["团队归属","校方个人履历明确加入何斌教授团队，实验室成员名单亦列名。"]],"appointment":"2026 年 3 月全职加入同济；此前浙江大学博士后。","admissions":"个人主页常年招募文字不等于 2028 秋季个人招生或余位。","sources":[["校方完整任职与团队履历","https://faculty.tongji.edu.cn/xuyang1/en/more/1026766/jsjjgd/index.htm"],["实验室成员名单","https://robot.tongji.edu.cn/kytd.htm"],["实验室博导档案","https://robot.tongji.edu.cn/info/1256/2810.htm"]]}
+ {"id":"tongji-xu-yang","catalogId":"tongji-xu-yang","name":"徐阳","school":"tongji","college":null,"team":"tongji-robot-perception","role":"博士生导师","focus":"机器人主动感知、自主环境探测与规划。","other":[["校内任职","上海自主智能无人系统科学中心；未核主聘学院。"],["团队归属","校方个人履历明确加入何斌教授团队，实验室成员名单亦列名。"]],"appointment":"2026 年 3 月全职加入同济；此前浙江大学博士后。","admissions":"个人主页常年招募文字不等于 2028 秋季个人招生或余位。","sources":[["校方完整任职与团队履历","https://faculty.tongji.edu.cn/xuyang1/en/more/1026766/jsjjgd/index.htm"],["实验室成员名单","https://robot.tongji.edu.cn/kytd.htm"],["实验室博导档案","https://robot.tongji.edu.cn/info/1256/2810.htm"]]},
+ {"id":"whu-limiao","catalogId":"whu-limiao","name":"李淼","school":"whu","college":"whu-robotics","team":"whu-li-miao-robotics","role":"校方列教授、博导","focus":"机器人抓取、模仿学习和人形机器人精细操作。","other":[["项目合作","校方 2026 年报道刘胜、李淼团队与智元合作；共同项目不等于固定小组成员关系。"],["既有合作","与肖晓晖共同指导过遥操作超声机器人竞赛项目。"]],"appointment":"本轮不复判首次入职时间。","admissions":"未核到明确的 2028 秋季个人博士招生或余位。","sources":[["武大个人档案","https://technology.whu.edu.cn/info/1018/1931.htm"],["武大报道：人形机器人真实任务","https://news.whu.edu.cn/info/2301/501497.htm"],["武大报道：竞赛共同指导","https://news.whu.edu.cn/info/1007/65219.htm"]]},
+ {"id":"whu-xiaoxiaohui","catalogId":"whu-xiaoxiaohui","name":"肖晓晖","school":"whu","college":null,"team":null,"role":"校方列教授、博导","focus":"机器人运动规划与控制、智能作业臂。","other":[["任职关系","院校资料列机器人学院执行院长及动力与机械学院教授；不推定主聘。"],["项目合作","校方报道与李淼共同指导过机器人竞赛项目；未核固定课题组同属。"]],"appointment":"本轮不复判首次入职时间。","admissions":"未核到明确的 2028 秋季个人博士招生或余位。","sources":[["武大院系个人档案","https://pmc.whu.edu.cn/info/1017/13524.htm"],["武大报道：竞赛共同指导","https://news.whu.edu.cn/info/1007/65219.htm"]]}
 ];
 export function groupsFor(mode,school=''){
  if(!['school','college','team','annualTeam'].includes(mode))return [];
