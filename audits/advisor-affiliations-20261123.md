@@ -70,3 +70,10 @@
 - [李明校方履历](https://jszy.whu.edu.cn/liming1/en/index/460831/list/index.htm)列水下具身智能研究中心主任、在做水下机器人系统；暂未核其他具名导师为其同一科研小组。中心职务与同组分开。郭迟做导航及具身智能；[个人团队栏目](https://jszy.whu.edu.cn/guochi/zh_CN/article/278574/list/index.htm)未核可归组的其他导师，平台与合著均不代替。
 - [机器人学院供稿](https://news.whu.edu.cn/info/2301/501497.htm)确认李淼教授团队参与人形机器人真实操作项目，含与刘胜和智元的项目合作；不当作共有实验室名册。[历史竞赛报道](https://news.whu.edu.cn/info/1007/65219.htm)证明李淼和肖晓晖在同一项目共同指导，不作为固定课题组或招生条目。
 - 本轮补两条归属、新增三个既有记录的证据，无新增招生路线、资格或 2028 秋季线索。
+
+### 武汉大学续核：空中机器人、三维感知与模仿学习
+
+- [孔政敏教师主页](https://jszy.whu.edu.cn/kongzhengmin/zh_CN/index.htm)的网络科学与智能系统实验室成员栏具名列丁李，且[丁李自己的教师主页](https://jszy.whu.edu.cn/dingli/zh_CN/index.htm)核到现任机器人学院与博导身份。孔的研网页列具身空中机器人 VLA；丁李是网络化和分布式控制对照，不据此标同方向或共享招生名额。
+- [余淮教师主页](https://jszy.whu.edu.cn/yuhuai/zh_CN/index.htm)核实名字为「余淮」，任电子信息学院副教授、博导；[本人科研页](https://levenberg.github.io/)有机器人三维感知、SLAM、事件视觉和 LiDAR–相机标定。CMU AirLab 是过往博士后，不作现团队。当前不与武大其他人硬并组。
+- [雷忠诚教师主页](https://jszy.whu.edu.cn/zclei/zh_CN/index/1290515/list/index.htm)核实机器人学院副教授、博导，研究包含机器人模仿学习。明确记录刘国平为博士后合作导师，不能作为今天同一小组的证据。雷忠诚和丁李本批仅补归属页。
+- 本批无新的 2028 秋季个人招募或余位证据，不改主库、年度资格及招生统计。
