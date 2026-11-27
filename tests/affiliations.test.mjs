@@ -10,8 +10,8 @@ const byId=id=>people.find(p=>p.id===id);
 const names=(mode,key)=>groupsFor(mode).find(b=>b.key===key).people.map(p=>p.name);
 
 test('five-school evidence scope, consistent organization types and safe source links',()=>{
- assert.equal(people.length,43);
- assert.deepEqual(groupsFor('school').map(g=>[g.key,g.people.length]),[['hnu',9],['tongji',7],['whu',8],['xmu',8],['sdu',11]]);
+ assert.equal(people.length,48);
+ assert.deepEqual(groupsFor('school').map(g=>[g.key,g.people.length]),[['hnu',9],['tongji',7],['whu',8],['xmu',8],['sdu',16]]);
  assert.equal(new Set(people.map(p=>p.id)).size,people.length);
  for(const p of people){
   assert.equal(organization[p.school].kind,'school');
@@ -70,7 +70,7 @@ test('masters, historical admission and team recruitment do not become individua
  assert.match(byId('xmu-shen-siqi').admissions,/团队.*2027.*不等于.*个人指标、2028/);
  assert.match(byId('xmu-chengming').admissions,/既有审计.*2027.*本轮未重读.*不是 2028/);
  const linked=people.filter(p=>p.catalogId), c=JSON.parse(read('data/catalog.json'));
- assert.equal(linked.length,32);
+ assert.equal(linked.length,36);
  for(const p of linked){
   const a=c.advisors.find(a=>a.id===p.catalogId);assert(a);assert.equal(a.nameZh||a.name,p.name);
  }
@@ -108,4 +108,20 @@ test('SDU official recruitment team, individual lab and collaboration stay disti
  assert(byId('sdu-zhoufengyu').other.some(([,v])=>v.includes('云基智能机器人实验室')));
  assert.equal(byId('sdu-yuanxianfeng').catalogId,'sdu-yuanxianfeng');
  for (const id of ['sdu-songyong','sdu-yuanxianfeng']) assert.match(byId(id).admissions,/未确认 2028 秋季/);
+});
+
+test('2026 application team is based on named annual evidence and is not a current lab or 2028 intake',()=>{
+ const members=names('annualTeam','sdu-robotics-2026');
+ assert.deepEqual(new Set(members),new Set(['田国会','田新诚','宋锐','荣学文','马昕','周风余','周乐来','王超群','闵哲','吴疆','王元哲','刘国良']));
+ assert.equal(members.length,12);
+ for (const p of groupsFor('annualTeam','sdu')[0].people) {
+  assert.equal(organization[p.annualTeam].cycle,2026);
+  assert(p.sources.some(([,url])=>url.includes('wbfileid=16785581')));
+  assert.match(p.admissions,/未确认 2028|未核 2028/);
+ }
+ assert.equal(byId('sdu-minzhe').team,null);
+ assert.equal(byId('sdu-liyibin').annualTeam,undefined);
+ assert.equal(byId('sdu-chenteng').annualTeam,undefined);
+ assert.equal(byId('sdu-yuanxianfeng').annualTeam,undefined);
+ assert.deepEqual(groupsFor('annualTeam','xmu'),[]);
 });

@@ -1,4 +1,4 @@
-import {people,groupsFor,organization} from './affiliation-records.js?v=d544983ba0a1';
+import {people,groupsFor,organization} from './affiliation-records.js?v=e5aeab2c95d8';
 
 const mode=document.querySelector('#group-mode');
 const school=document.querySelector('#school');
@@ -25,6 +25,7 @@ function makeCard(person){
   ['学校',organization[person.school].label],
   ['主聘学院',person.college?organization[person.college].label:'未确认'],
   ['明确团队',person.team?organization[person.team].label:'未确认'],
+  ...(person.annualTeam?[['年度招生团队',organization[person.annualTeam].label]]:[]),
   ...person.other,
   ['入职',person.appointment],
   ['报考证据',person.admissions]
@@ -58,7 +59,7 @@ function render(){
   return section;
  });
  const total=groups.reduce((n,g)=>n+g.people.length,0);
- status.textContent=total?'显示 '+total+' 位 · 仅限试点范围':'没有符合条件的核验记录。';
+ status.textContent=total?'显示 '+total+' 位 · '+(mode.value==='annualTeam'?'仅限有年度具名证据的记录':'仅限试点范围'):'没有符合条件的核验记录。';
  results.replaceChildren(...sections);
 }
 mode.addEventListener('change',render);

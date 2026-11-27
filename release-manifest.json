@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 103827,
-      "sha256": "a00b90a6bfa3b0990910aa55bb89abbd204b71d3f113284073222976199fa774"
+      "bytes": 103945,
+      "sha256": "fa1d0d8a1d7f89003855cc7dabfd1ff6d8aab0eac5b3c85f1d7e7782b87ddffe"
     },
     {
       "path": "REDESIGN.md",
@@ -57,8 +57,8 @@
     },
     {
       "path": "affiliations.html",
-      "bytes": 2225,
-      "sha256": "07257f4293222554787092c6e5c7eed9c042e3ad7d80c765e73be15f1a1b4654"
+      "bytes": 2360,
+      "sha256": "31ab799c19d704739f7c7425ea13b52fbaadf4eba852acd1f06e3a618a14cefa"
     },
     {
       "path": "assets/advisor-cards.js",
@@ -72,8 +72,8 @@
     },
     {
       "path": "assets/affiliation-records.js",
-      "bytes": 36039,
-      "sha256": "d544983ba0a12abbde995ec17d112d9b86c2fc93e4f527d7b6a95fdbf86886d7"
+      "bytes": 41827,
+      "sha256": "e5aeab2c95d8f0c366ed05a23eb5de256b9fceaa7baf7b45d110b33470b7cbc1"
     },
     {
       "path": "assets/affiliations.css",
@@ -82,8 +82,8 @@
     },
     {
       "path": "assets/affiliations.js",
-      "bytes": 2569,
-      "sha256": "c835a9a58137f69b8b3d3f288cf919ba9fe52e40065cbd8ff3834d89a0c22e30"
+      "bytes": 2731,
+      "sha256": "88858ad41edd628b65ca835e9a703f064ca0f8dcacb79bc1f55783b4ad98f90b"
     },
     {
       "path": "assets/app.js",
@@ -472,8 +472,8 @@
     },
     {
       "path": "audits/advisor-affiliations-20261123.md",
-      "bytes": 12690,
-      "sha256": "7bea7fc5a1e99fb4c9e18725bf9a230fc742e1ce21693c49e39ea64c2a860c5d"
+      "bytes": 13756,
+      "sha256": "d68344816ce23818a4e71b4f7e3202f1581f060ba3d59ef3d49a8f46186c43aa"
     },
     {
       "path": "audits/advisor-completeness-20261009.json",
@@ -887,8 +887,8 @@
     },
     {
       "path": "tests/affiliations.test.mjs",
-      "bytes": 7333,
-      "sha256": "bbc023c84c9b754fed1a1ba64768331e2b24fb3cb4a878082dc7915da4ffed63"
+      "bytes": 8240,
+      "sha256": "7dd88e6f396fab6a7db3a958739033bcf590ff4ac388c57068dea5ac0159aae6"
     },
     {
       "path": "tests/all-schools-rescreen-20261019.test.mjs",
