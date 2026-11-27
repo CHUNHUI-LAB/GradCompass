@@ -1,0 +1,23 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {reviewedPublicData} from './reviewed-public-data.mjs';
+import {browseAdvisors,buildOpportunities} from '../assets/core.js';
+import {groupsFor} from '../assets/affiliation-records.js';
+const raw=p=>fs.readFileSync(new URL('../'+p,import.meta.url));
+const before=reviewedPublicData(raw,{throughReceipt:'tests/fixtures/evidence/sdu-robotics-supplement-20261127.json'});
+const after=reviewedPublicData(raw);
+test('add Yuan profile without admissions or other data changes',()=>{
+ const c=before['data/catalog.json'],d=after['data/catalog.json'],p=before['data/advisor-profiles.json'],q=after['data/advisor-profiles.json'];
+ assert.equal(d.advisors.length,1551);
+ const a=d.advisors.at(-1);
+ assert.deepEqual(d,{...c,advisors:[...c.advisors,a]});
+ assert.deepEqual(q,{...p,profiles:[...p.profiles,q.profiles.at(-1)]});
+ assert.equal(browseAdvisors(d,{query:'袁宪锋'})[0].id,'sdu-yuanxianfeng');
+ assert.equal(q.profiles.at(-1).advisorId,a.id);
+ assert.equal(q.profiles.at(-1).appointmentReview.dateText,'2018-03');
+ assert.deepEqual(groupsFor('team','sdu').find(x=>x.key==='sdu-intelligent-control').people.map(x=>x.catalogId),['sdu-songyong','sdu-yuanxianfeng']);
+ const r=after['data/ra-positions.json'].raPositions;
+ assert.deepEqual(buildOpportunities({...d,raPositions:r}),buildOpportunities({...c,raPositions:r}));
+ assert.deepEqual(browseAdvisors(d,{intake:'fall2028_phd'}),browseAdvisors(c,{intake:'fall2028_phd'}));
+});

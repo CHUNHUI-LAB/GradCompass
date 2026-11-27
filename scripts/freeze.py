@@ -147,6 +147,7 @@ files.extend(['audits/985-lzu-20261119.json', 'audits/985-lzu-20261119.md', 'tes
 files.extend(['audits/985-nwsuaf-20261119.json', 'audits/985-nwsuaf-20261119.md', 'tests/fixtures/evidence/985-nwsuaf-20261119.json', 'tests/nwsuaf-expansion-20261119.test.mjs'])
 files.extend(['affiliations.html','assets/affiliations.js','assets/affiliations.css','assets/affiliation-records.js','audits/advisor-affiliations-20261123.md','tests/affiliations.test.mjs'])
 files.extend(['audits/sdu-robotics-supplement-20261127.md', 'tests/fixtures/evidence/sdu-robotics-supplement-20261127.json', 'tests/sdu-robotics-supplement-20261127.test.mjs'])
+files.extend(['audits/sdu-yuanxianfeng-20261127.md', 'tests/fixtures/evidence/sdu-yuanxianfeng-20261127.json', 'tests/sdu-yuanxianfeng-20261127.test.mjs'])
 profile_sources=set()
 def collect_sources(value):
     if isinstance(value,list):
