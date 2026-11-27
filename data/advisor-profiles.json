@@ -241930,6 +241930,364 @@
           }
         ]
       }
+    },
+    {
+      "advisorId": "sdu-zhoufengyu",
+      "cardSummaryZh": "移动机器人自主导航；服务机器人场景感知；云机器人",
+      "overview": {
+        "textZh": "周风余为山东大学控制科学与工程学院 / 机器人研究中心教授、博士生导师。以服务机器人为对象，研究场景感知与理解、人群环境导航与云端协同。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1170.htm",
+            "title": "周风余 · 山东大学机器人研究中心",
+            "section": "学院、研究中心及博士生导师身份",
+            "readScope": "学院、研究中心及博士生导师身份",
+            "checkedDate": "2026-11-27",
+            "access": "official_body"
+          },
+          {
+            "url": "https://cirobot.org/about/",
+            "title": "云基智能机器人实验室简介",
+            "section": "实验室隶属及服务机器人导航、场景理解方向",
+            "readScope": "实验室隶属及服务机器人导航、场景理解方向",
+            "checkedDate": "2026-11-27",
+            "access": "lab_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "云基智能机器人实验室",
+        "affiliation": {
+          "textZh": "云基智能机器人实验室隶属山东大学机器人研究中心；周风余的校方身份为控制科学与工程学院教授、博士生导师。",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/1170.htm",
+              "title": "周风余 · 山东大学机器人研究中心",
+              "section": "学院、研究中心及博士生导师身份",
+              "readScope": "学院、研究中心及博士生导师身份",
+              "checkedDate": "2026-11-27",
+              "access": "official_body"
+            },
+            {
+              "url": "https://cirobot.org/about/",
+              "title": "云基智能机器人实验室简介",
+              "section": "实验室隶属及服务机器人导航、场景理解方向",
+              "readScope": "实验室隶属及服务机器人导航、场景理解方向",
+              "checkedDate": "2026-11-27",
+              "access": "lab_body"
+            },
+            {
+              "url": "https://www.ius.sdu.edu.cn/info/1081/1697.htm",
+              "title": "周风余 · 山东大学智能无人系统教育部工程研究中心",
+              "section": "控制科学与工程学院博导及云基智能机器人实验室负责人",
+              "readScope": "控制科学与工程学院博导及云基智能机器人实验室负责人",
+              "checkedDate": "2026-11-27",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "移动机器人自主导航",
+          "服务机器人场景感知",
+          "云机器人"
+        ],
+        "structure": {
+          "textZh": "仅记录已核公开组织归属；指导方式、组内分工及资源开放范围待核。",
+          "sources": [
+            {
+              "url": "https://sucro.sdu.edu.cn/info/1017/1170.htm",
+              "title": "周风余 · 山东大学机器人研究中心",
+              "section": "学院、研究中心及博士生导师身份",
+              "readScope": "学院、研究中心及博士生导师身份",
+              "checkedDate": "2026-11-27",
+              "access": "official_body"
+            },
+            {
+              "url": "https://cirobot.org/about/",
+              "title": "云基智能机器人实验室简介",
+              "section": "实验室隶属及服务机器人导航、场景理解方向",
+              "readScope": "实验室隶属及服务机器人导航、场景理解方向",
+              "checkedDate": "2026-11-27",
+              "access": "lab_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [
+        {
+          "title": "服务机器人自适应目标导航方法及系统",
+          "year": 2023,
+          "venue": "校方主页专利条目发布",
+          "summaryZh": "将目标导航用于服务机器人；这里只核对公开条目，不推断实验效果。",
+          "url": "https://faculty.sdu.edu.cn/zhoufengyu/zh_CN/zlcg/501257/content/76631.htm",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/zhoufengyu/zh_CN/zlcg/501257/content/76631.htm",
+              "title": "周风余 · 服务机器人自适应目标导航方法及系统",
+              "section": "校方个人页专利条目，非独立效果验证",
+              "readScope": "校方个人页专利条目，非独立效果验证",
+              "checkedDate": "2026-11-27",
+              "access": "official_body"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "尚未核到明确的 2028 秋季个人博士招生计划；不代表不招生。 正式年度资格、报考通道及余位另核。",
+        "sources": [
+          {
+            "url": "https://sucro.sdu.edu.cn/info/1017/1170.htm",
+            "title": "周风余 · 山东大学机器人研究中心",
+            "section": "学院、研究中心及博士生导师身份",
+            "readScope": "学院、研究中心及博士生导师身份",
+            "checkedDate": "2026-11-27",
+            "access": "official_body"
+          },
+          {
+            "url": "https://www.ius.sdu.edu.cn/info/1081/1697.htm",
+            "title": "周风余 · 山东大学智能无人系统教育部工程研究中心",
+            "section": "控制科学与工程学院博导及云基智能机器人实验室负责人",
+            "readScope": "控制科学与工程学院博导及云基智能机器人实验室负责人",
+            "checkedDate": "2026-11-27",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人 2028 秋季接收与余位待核。",
+        "年度博士资格、正式通道与资助待核。"
+      ],
+      "links": [
+        {
+          "label": "周风余 · 山东大学机器人研究中心",
+          "url": "https://sucro.sdu.edu.cn/info/1017/1170.htm"
+        },
+        {
+          "label": "云基智能机器人实验室简介",
+          "url": "https://cirobot.org/about/"
+        },
+        {
+          "label": "周风余 · 山东大学智能无人系统教育部工程研究中心",
+          "url": "https://www.ius.sdu.edu.cn/info/1081/1697.htm"
+        },
+        {
+          "label": "周风余 · 山东大学控制科学与工程学院",
+          "url": "https://www.control.sdu.edu.cn/info/1084/2370.htm"
+        },
+        {
+          "label": "周风余 · 服务机器人自适应目标导航方法及系统",
+          "url": "https://faculty.sdu.edu.cn/zhoufengyu/zh_CN/zlcg/501257/content/76631.htm"
+        }
+      ],
+      "checkedDate": "2026-11-27",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-27",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-27",
+          "start": "2021-11-27",
+          "end": "2026-11-27"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2003-09",
+        "earliestDate": "2003-09-01",
+        "latestDate": "2003-09-30",
+        "careerContext": "unknown",
+        "noteZh": "学院索引记载2003年9月任本校副教授，较早教职在山东科技大学；该校院系页正文请求超时，以索引与较早官方任职材料作有限交叉核验。",
+        "sources": [
+          {
+            "url": "https://www.control.sdu.edu.cn/info/1084/2370.htm",
+            "title": "周风余 · 山东大学控制科学与工程学院",
+            "section": "索引可见2003年9月山大副教授及移动机器人导航项目",
+            "readScope": "索引可见2003年9月山大副教授及移动机器人导航项目",
+            "checkedDate": "2026-11-27",
+            "access": "official_indexed"
+          },
+          {
+            "url": "https://www.ius.sdu.edu.cn/info/1081/1697.htm",
+            "title": "周风余 · 山东大学智能无人系统教育部工程研究中心",
+            "section": "控制科学与工程学院博导及云基智能机器人实验室负责人",
+            "readScope": "控制科学与工程学院博导及云基智能机器人实验室负责人",
+            "checkedDate": "2026-11-27",
+            "access": "official_body"
+          }
+        ]
+      }
+    },
+    {
+      "advisorId": "sdu-songyong",
+      "cardSummaryZh": "多机器人协同控制；移动机器人自主学习；双臂机器人操作技能",
+      "overview": {
+        "textZh": "宋勇为山东大学低空科学与工程学院（威海）教授、博士生导师。研究多机器人协同控制、移动机器人行为学习与双臂协作机器人操作技能。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/songyong/zh_CN/index.htm",
+            "title": "宋勇 · 山东大学教师主页",
+            "section": "博导、研究方向及山大工作履历",
+            "readScope": "博导、研究方向及山大工作履历",
+            "checkedDate": "2026-11-27",
+            "access": "official_body"
+          },
+          {
+            "url": "https://ie.wh.sdu.edu.cn/szll.htm",
+            "title": "山东大学低空科学与工程学院师资力量",
+            "section": "当前学院、博士生导师及低空智能控制与通信招生团队",
+            "readScope": "当前学院、博士生导师及低空智能控制与通信招生团队",
+            "checkedDate": "2026-11-27",
+            "access": "official_body"
+          }
+        ]
+      },
+      "labSnapshot": {
+        "name": "低空智能控制与通信团队",
+        "affiliation": {
+          "textZh": "学院官方师资名录列低空智能控制与通信招生团队；机电与信息工程学院为履历所列单位，不据此推定另有当前主聘。",
+          "sources": [
+            {
+              "url": "https://ie.wh.sdu.edu.cn/szll.htm",
+              "title": "山东大学低空科学与工程学院师资力量",
+              "section": "当前学院、博士生导师及低空智能控制与通信招生团队",
+              "readScope": "当前学院、博士生导师及低空智能控制与通信招生团队",
+              "checkedDate": "2026-11-27",
+              "access": "official_body"
+            },
+            {
+              "url": "https://faculty.sdu.edu.cn/songyong/zh_CN/index.htm",
+              "title": "宋勇 · 山东大学教师主页",
+              "section": "博导、研究方向及山大工作履历",
+              "readScope": "博导、研究方向及山大工作履历",
+              "checkedDate": "2026-11-27",
+              "access": "official_body"
+            }
+          ]
+        },
+        "themes": [
+          "多机器人协同控制",
+          "移动机器人自主学习",
+          "双臂机器人操作技能"
+        ],
+        "structure": {
+          "textZh": "仅记录已核公开组织归属；指导方式、组内分工及资源开放范围待核。",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/songyong/zh_CN/index.htm",
+              "title": "宋勇 · 山东大学教师主页",
+              "section": "博导、研究方向及山大工作履历",
+              "readScope": "博导、研究方向及山大工作履历",
+              "checkedDate": "2026-11-27",
+              "access": "official_body"
+            },
+            {
+              "url": "https://ie.wh.sdu.edu.cn/szll.htm",
+              "title": "山东大学低空科学与工程学院师资力量",
+              "section": "当前学院、博士生导师及低空智能控制与通信招生团队",
+              "readScope": "当前学院、博士生导师及低空智能控制与通信招生团队",
+              "checkedDate": "2026-11-27",
+              "access": "official_body"
+            }
+          ]
+        },
+        "resources": []
+      },
+      "representativeWorks": [
+        {
+          "title": "机器人复杂操作技能学习与虚实迁移方法研究",
+          "year": 2025,
+          "venue": "校方主页科研项目起始年",
+          "summaryZh": "公开项目涉及机器人复杂操作和虚实迁移；项目周期不等同招生周期。",
+          "url": "https://faculty.sdu.edu.cn/songyong/zh_CN/kyxm/130129/content/152785.htm",
+          "sources": [
+            {
+              "url": "https://faculty.sdu.edu.cn/songyong/zh_CN/kyxm/130129/content/152785.htm",
+              "title": "宋勇 · 机器人复杂操作技能学习与虚实迁移",
+              "section": "校方个人页科研项目，非招生说明",
+              "readScope": "校方个人页科研项目，非招生说明",
+              "checkedDate": "2026-11-27",
+              "access": "official_body"
+            }
+          ]
+        }
+      ],
+      "recruitment": {
+        "textZh": "尚未核到明确的 2028 秋季个人博士招生计划；不代表不招生。 正式年度资格、报考通道及余位另核。",
+        "sources": [
+          {
+            "url": "https://ie.wh.sdu.edu.cn/szll.htm",
+            "title": "山东大学低空科学与工程学院师资力量",
+            "section": "当前学院、博士生导师及低空智能控制与通信招生团队",
+            "readScope": "当前学院、博士生导师及低空智能控制与通信招生团队",
+            "checkedDate": "2026-11-27",
+            "access": "official_body"
+          },
+          {
+            "url": "https://faculty.sdu.edu.cn/songyong/zh_CN/index.htm",
+            "title": "宋勇 · 山东大学教师主页",
+            "section": "博导、研究方向及山大工作履历",
+            "readScope": "博导、研究方向及山大工作履历",
+            "checkedDate": "2026-11-27",
+            "access": "official_body"
+          }
+        ]
+      },
+      "unknowns": [
+        "个人 2028 秋季接收与余位待核。",
+        "年度博士资格、正式通道与资助待核。"
+      ],
+      "links": [
+        {
+          "label": "宋勇 · 山东大学教师主页",
+          "url": "https://faculty.sdu.edu.cn/songyong/zh_CN/index.htm"
+        },
+        {
+          "label": "山东大学低空科学与工程学院师资力量",
+          "url": "https://ie.wh.sdu.edu.cn/szll.htm"
+        },
+        {
+          "label": "宋勇 · 机器人复杂操作技能学习与虚实迁移",
+          "url": "https://faculty.sdu.edu.cn/songyong/zh_CN/kyxm/130129/content/152785.htm"
+        },
+        {
+          "label": "宋勇 · 移动机器人自主学习与多机器人协同控制",
+          "url": "https://faculty.sdu.edu.cn/songyong/zh_CN/yjfx/130123/content/8680.htm"
+        }
+      ],
+      "checkedDate": "2026-11-27",
+      "confirmedVacancy": false,
+      "profileScope": "public_professional_and_lab_overview",
+      "appointmentReview": {
+        "schemaVersion": 1,
+        "checkedDate": "2026-11-27",
+        "eventType": "first_faculty_research_appointment_current_institution",
+        "window": {
+          "asOf": "2026-11-27",
+          "start": "2021-11-27",
+          "end": "2026-11-27"
+        },
+        "status": "verified",
+        "appointmentConfirmed": true,
+        "precision": "month",
+        "dateText": "2001-07",
+        "earliestDate": "2001-07-01",
+        "latestDate": "2001-07-31",
+        "careerContext": "unknown",
+        "noteZh": "校方履历列2001年7月任本校助教，2006年起任讲师；2019年聘教授不作首次教研任职。",
+        "sources": [
+          {
+            "url": "https://faculty.sdu.edu.cn/songyong/zh_CN/index.htm",
+            "title": "宋勇 · 山东大学教师主页",
+            "section": "博导、研究方向及山大工作履历",
+            "readScope": "博导、研究方向及山大工作履历",
+            "checkedDate": "2026-11-27",
+            "access": "official_body"
+          }
+        ]
+      }
     }
   ],
   "reviewRequired": true,

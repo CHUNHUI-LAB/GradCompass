@@ -8,13 +8,13 @@
   "dailyChecksEnabled": true,
   "firstRunVerified": false,
   "browserVisualQA": "Not yet browser-verified.",
-  "profilePilotCount": 1548,
-  "visibleAdvisorCount": 1548,
+  "profilePilotCount": 1550,
+  "visibleAdvisorCount": 1550,
   "opportunityCount": 59,
   "raPositionCount": 2,
   "newAdvisorProfiles": 26,
   "preservedAdvisorProfiles": 30,
-  "newProfileCitedSourceCount": 2101,
+  "newProfileCitedSourceCount": 2109,
   "experienceRecords": 27,
   "defaultExperienceRecords": 27,
   "experienceSourceSites": 20,
@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 103088,
-      "sha256": "c6f178ee2cd0f51902183b32b9687b332d1aebb49db7b0b1173facc653fe8104"
+      "bytes": 103385,
+      "sha256": "bf495b4ad4e935bde28d8dfc5df64a744589aea1d8fea531bcda5661e070964c"
     },
     {
       "path": "REDESIGN.md",
@@ -88,7 +88,7 @@
     {
       "path": "assets/app.js",
       "bytes": 78185,
-      "sha256": "4a40a0f657f32ad2fd9afd20f411950b291821f7157957a55c887ec728b4a017"
+      "sha256": "bd1d02fbb879fdca9da8c652d30253afc146eca9c0d9acf7f8a8d7b5c8187d19"
     },
     {
       "path": "assets/appointments.js",
@@ -656,6 +656,11 @@
       "sha256": "6260c1da078e51636b7d3d82d3706f1188e96cc1a6a91e76cc2f226b8c0cafd9"
     },
     {
+      "path": "audits/sdu-robotics-supplement-20261127.md",
+      "bytes": 1714,
+      "sha256": "4eb62f25125c1425aaa2a5129c876bcdd114353be13969be684621582076dd88"
+    },
+    {
       "path": "audits/source-access-20261009.json",
       "bytes": 256348,
       "sha256": "1ee2d63dc678a48b1e1aca616e81710b389c90a95a1ef8cfc1eaf4986ae9ecf8"
@@ -682,8 +687,8 @@
     },
     {
       "path": "data/advisor-profiles.json",
-      "bytes": 11885540,
-      "sha256": "81592f0677fcd27e4e752a92fb0af2378c46d5d4ed97b76997d02fd20c8f7327"
+      "bytes": 11901977,
+      "sha256": "e31af6935db810f7f32435e9fa250d079241ef65e469bc2c1e0cc4342eced0a1"
     },
     {
       "path": "data/application-experience-provenance.json",
@@ -702,8 +707,8 @@
     },
     {
       "path": "data/catalog.json",
-      "bytes": 11145691,
-      "sha256": "8cc5e771e75f72d8433b4563e528eb60b5919caa875a445cf15876b27e4359f9"
+      "bytes": 11158924,
+      "sha256": "27a7681f768b44ca85fb82503142a006ed2b69e2653083252457214cd49f3acc"
     },
     {
       "path": "data/four-schools-exploration-20261006.json",
@@ -813,7 +818,7 @@
     {
       "path": "index.html",
       "bytes": 12598,
-      "sha256": "0c586e7e448dfe83c89dd59cafa62cc4e780e687da5fa5d11d69a9a1a8a9ab0e"
+      "sha256": "39651493d4f6f5eb90467dbcdcb7281c74f197a19c78752dc8898c797328c06b"
     },
     {
       "path": "package-lock.json",
@@ -832,8 +837,8 @@
     },
     {
       "path": "scripts/freeze.py",
-      "bytes": 23821,
-      "sha256": "74dea5be83913b7c43389a3fafe49023f600f7e37db442f0342f6d22166037a7"
+      "bytes": 23998,
+      "sha256": "f17e5e5688e9ac36086c25054ff707e9690ffc0fd8574476ef10a354825583c6"
     },
     {
       "path": "scripts/public-counts.mjs",
@@ -1072,8 +1077,8 @@
     },
     {
       "path": "tests/evidence-reviews.mjs",
-      "bytes": 7569,
-      "sha256": "797971519743e3ebcbf0fa1f7544ee1c0b31e641380732b676600ed6618a02b2"
+      "bytes": 7722,
+      "sha256": "947afaebe3654a7bd3e0f86e4d450c14f789ca40a0670f3d882f12b0bdb2e258"
     },
     {
       "path": "tests/existing-doctoral-links-20261019.test.mjs",
@@ -1389,6 +1394,11 @@
       "path": "tests/fixtures/evidence/ruc-wang-feifei-20261105.json",
       "bytes": 32860,
       "sha256": "1103292540280e085e6944a3a555d4949d72e692e157f7f0f260d58e8683fd4d"
+    },
+    {
+      "path": "tests/fixtures/evidence/sdu-robotics-supplement-20261127.json",
+      "bytes": 35162,
+      "sha256": "64966114ebdd46e2f7af83f88060291507739cd0d432e92d9cca62a90efb3a09"
     },
     {
       "path": "tests/fixtures/evidence/tongji-rescreen-20261019.json",
@@ -2061,6 +2071,11 @@
       "sha256": "6c353b3b2782e46716de1ef1bdd958022a06309ab7ab3f792fb92dd4011209e8"
     },
     {
+      "path": "tests/sdu-robotics-supplement-20261127.test.mjs",
+      "bytes": 3057,
+      "sha256": "07397abcc836aa57a6fc062bcdf6f3eea64b46ca14fbae9fa97425ced724701b"
+    },
+    {
       "path": "tests/sequential-evidence.test.mjs",
       "bytes": 3590,
       "sha256": "299ec90e6b5a8569fe44a317420824737b747a1bf72f7e169552b2f20f0db669"
@@ -2219,7 +2234,7 @@
     "baseCommit": "1281ce4740272443563b4a98f421561bacc801f9",
     "scope": "Two inaccurate MSc overview text fragments only; no structure, style or interaction changes"
   },
-  "advisorCatalogCount": 1548,
+  "advisorCatalogCount": 1550,
   "verifiedDegreeAssociationCount": 57,
   "projectCatalogCount": 124,
   "visibleProjectCount": 124,
