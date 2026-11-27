@@ -10,8 +10,8 @@ const byId=id=>people.find(p=>p.id===id);
 const names=(mode,key)=>groupsFor(mode).find(b=>b.key===key).people.map(p=>p.name);
 
 test('five-school evidence scope, consistent organization types and safe source links',()=>{
- assert.equal(people.length,48);
- assert.deepEqual(groupsFor('school').map(g=>[g.key,g.people.length]),[['hnu',9],['tongji',7],['whu',8],['xmu',8],['sdu',16]]);
+ assert.equal(people.length,55);
+ assert.deepEqual(groupsFor('school').map(g=>[g.key,g.people.length]),[['hnu',9],['tongji',14],['whu',8],['xmu',8],['sdu',16]]);
  assert.equal(new Set(people.map(p=>p.id)).size,people.length);
  for(const p of people){
   assert.equal(organization[p.school].kind,'school');
@@ -70,7 +70,7 @@ test('masters, historical admission and team recruitment do not become individua
  assert.match(byId('xmu-shen-siqi').admissions,/团队.*2027.*不等于.*个人指标、2028/);
  assert.match(byId('xmu-chengming').admissions,/既有审计.*2027.*本轮未重读.*不是 2028/);
  const linked=people.filter(p=>p.catalogId), c=JSON.parse(read('data/catalog.json'));
- assert.equal(linked.length,36);
+ assert.equal(linked.length,42);
  for(const p of linked){
   const a=c.advisors.find(a=>a.id===p.catalogId);assert(a);assert.equal(a.nameZh||a.name,p.name);
  }
@@ -124,4 +124,16 @@ test('2026 application team is based on named annual evidence and is not a curre
  assert.equal(byId('sdu-chenteng').annualTeam,undefined);
  assert.equal(byId('sdu-yuanxianfeng').annualTeam,undefined);
  assert.deepEqual(groupsFor('annualTeam','xmu'),[]);
+});
+
+test('Tongji roster facts keep concrete lab, broader platform and annual admissions separate',()=>{
+ assert.deepEqual(names('team','tongji-sig'),['任云帆','祝澜耘','彭铎']);
+ assert.deepEqual(names('team','tongji-robot-perception'),['何斌','王志鹏','刘普泽','蒋烁','郑栋梁']);
+ const liu=byId('tongji-liu-puze'), jiang=byId('tongji-jiang-shuo');
+ assert.equal(liu.catalogId,undefined);
+ assert.equal(liu.college,null);
+ assert.notEqual(liu.team,byId('tongji-ren-yunfan').team);
+ assert(jiang.other.some(([,v])=>v.includes('开物实验室')));
+ assert.match(byId('tongji-zhu-lanyun').admissions,/2027.*普通博士.*2028.*未核/);
+ assert.deepEqual(groupsFor('annualTeam','tongji'),[]);
 });

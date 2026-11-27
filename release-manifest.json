@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 103945,
-      "sha256": "fa1d0d8a1d7f89003855cc7dabfd1ff6d8aab0eac5b3c85f1d7e7782b87ddffe"
+      "bytes": 104389,
+      "sha256": "22a5627d70edb358f0c8436bf1a6063ec72773697b646a2bf2e83688ced6ba7a"
     },
     {
       "path": "REDESIGN.md",
@@ -58,7 +58,7 @@
     {
       "path": "affiliations.html",
       "bytes": 2360,
-      "sha256": "31ab799c19d704739f7c7425ea13b52fbaadf4eba852acd1f06e3a618a14cefa"
+      "sha256": "f53759387110bd7fef478857db37c6787f066bc13ba0f7d9de6aa1eabd6958e2"
     },
     {
       "path": "assets/advisor-cards.js",
@@ -72,8 +72,8 @@
     },
     {
       "path": "assets/affiliation-records.js",
-      "bytes": 41827,
-      "sha256": "e5aeab2c95d8f0c366ed05a23eb5de256b9fceaa7baf7b45d110b33470b7cbc1"
+      "bytes": 47095,
+      "sha256": "08c7d2709d4e176d5f8ce17c88f82720c78186aa857d18d0bfa58cb7daa71087"
     },
     {
       "path": "assets/affiliations.css",
@@ -83,7 +83,7 @@
     {
       "path": "assets/affiliations.js",
       "bytes": 2731,
-      "sha256": "88858ad41edd628b65ca835e9a703f064ca0f8dcacb79bc1f55783b4ad98f90b"
+      "sha256": "95c2854df656908fdda9b93c46ecf4c3d7a098f25da2db84def7f3e591ffa0c0"
     },
     {
       "path": "assets/app.js",
@@ -472,8 +472,8 @@
     },
     {
       "path": "audits/advisor-affiliations-20261123.md",
-      "bytes": 13756,
-      "sha256": "d68344816ce23818a4e71b4f7e3202f1581f060ba3d59ef3d49a8f46186c43aa"
+      "bytes": 14844,
+      "sha256": "7f41963ffeb7923ac518322096c525745125cc71ad69ddc78059563bdb07f43f"
     },
     {
       "path": "audits/advisor-completeness-20261009.json",
@@ -887,8 +887,8 @@
     },
     {
       "path": "tests/affiliations.test.mjs",
-      "bytes": 8240,
-      "sha256": "7dd88e6f396fab6a7db3a958739033bcf590ff4ac388c57068dea5ac0159aae6"
+      "bytes": 8955,
+      "sha256": "78e85a63f3ef13c6172f05497b27fe4b67ea1035edeeca9f0cc090098fd37f95"
     },
     {
       "path": "tests/all-schools-rescreen-20261019.test.mjs",
